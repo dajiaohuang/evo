@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Smilisca baudinii
+  displayName: Smilisca baudinii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XWXZ
+  sourceIndexes:
+    - name:
+        en: Smilisca baudinii
+        zh: Smilisca baudinii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XWXZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/204
+            queryName: Smilisca baudinii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 41
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/307
+            queryName: Hyla baudinii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/308
+            queryName: Hyla vanvlietii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/309
+            queryName: Hyla vociferans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/310
+            queryName: Hyla muricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/311
+            queryName: Hyla pansosana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/312
+            queryName: Hyla beltrani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/425
+            queryName: Smilisca daulinia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43bb2cdff3
+      - s-53aab251c6
+      - s-6146946362
+      - s-c21395b647
+      - s-300ccef20c
+      - s-37a96b7586
+      - s-d4fb21a8a2
+      - s-fb192ff8bd
+      - s-1f4680a257
+      - s-69a5dadf50
+      - s-ffd500541b
+      - s-20bd909d35
+      - s-12242708fb
+      - s-ee3767c4f3
+      - s-42c3788181
+      - s-5783946203
+      - s-05652073ba
+      - s-6be58e6516
+      - s-23af433641
+      - s-7a2e819357
+      - s-f96f466385
+    zh:
+      - s-dfb271bb7c
+      - s-98a9a9957e
+      - s-c632764aa0
+      - s-b6cdd17573
+      - s-4d2a68d637
+      - s-f37d87bbe9
+      - s-74c324fa46
+      - s-5d32d66562
+      - s-318dca1edb
+      - s-cf632d01ed
+      - s-598a76c639
+      - s-f25300f772
+      - s-0134d1410f
+      - s-ee1d8f9eaf
+      - s-9e29ebf97f
+      - s-27e317d841
+      - s-fdfc514bdf
+      - s-0f7e70ba11
+      - s-390cffd59b
+      - s-c53ae677e0
+      - s-8f482f7bbf

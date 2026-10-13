@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius retardatus
+  displayName: Hynobius retardatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MQL6
+  sourceIndexes:
+    - name:
+        en: Hynobius retardatus
+        zh: Hynobius retardatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MQL6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/192
+            queryName: Hynobius retardatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 107
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/4
+            queryName: Satobius retardatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-315b3fe224
+      - s-89f44e6e7c
+      - s-df29500e2e
+      - s-72efe16fb8
+      - s-9d474a9fa8
+      - s-ba0b9e4f94
+      - s-0829019230
+      - s-431ef53d5b
+      - s-bc6a03560b
+      - s-b440439405
+      - s-10a58fafcd
+      - s-a5cf637471
+      - s-26a5f70468
+      - s-49b14f1c47
+    zh:
+      - s-e7929528c7
+      - s-a1849fbcc3
+      - s-1c6cd9b18c
+      - s-e2fb631ca1
+      - s-b68334644c
+      - s-2d59c53d99
+      - s-c30fa2bfc9
+      - s-dde1bbecc0
+      - s-b54421168e
+      - s-da5336b5c9
+      - s-493c2093f9
+      - s-537b563371
+      - s-eebba3ddab
+      - s-de7e330ac7

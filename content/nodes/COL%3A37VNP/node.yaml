@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes squirellus
+  displayName: Dryophytes squirellus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37VNP
+  sourceIndexes:
+    - name:
+        en: Dryophytes squirellus
+        zh: Dryophytes squirellus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37VNP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/50
+            queryName: Dryophytes squirellus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/253
+            queryName: Hyla squirella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 45
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/459
+            queryName: Calamita squirella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/460
+            queryName: Hyla delitescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/461
+            queryName: Auletris squirella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/462
+            queryName: Dendrohyas squirella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/463
+            queryName: Hyla flavigula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-17264ba172
+      - s-c0f547a3ea
+      - s-fbf54ad015
+      - s-1b156890e0
+      - s-0e01c5d0c1
+      - s-171607f279
+      - s-55fcf10370
+      - s-7c90fb407d
+      - s-6d4285575f
+      - s-77a772c07d
+      - s-e47d6c3f81
+      - s-d3463ce24d
+      - s-a41a166381
+    zh:
+      - s-eb01a26a53
+      - s-0b9fe23348
+      - s-fdc046274f
+      - s-9d85144fc5
+      - s-72295fd595
+      - s-5b600d00d1
+      - s-e865218c8a
+      - s-c4ca9b45d4
+      - s-aa4f70ddb2
+      - s-02b091270d
+      - s-19a6e13889
+      - s-ace3f453ca
+      - s-2e77a961ff

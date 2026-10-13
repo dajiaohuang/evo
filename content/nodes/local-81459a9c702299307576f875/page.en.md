@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Leptobrachella botsfordi {#s-4d70b98ced}
+TadpoleTraits version 4 places Leptobrachella botsfordi in Leptobrachella (Megophryidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Leptobrachella botsfordi. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 3 literature rows and 0 image rows {#s-aa9f93ff42}
+TadpoleTraits version 4 links 3 literature rows and 0 image rows to Leptobrachella botsfordi. Source row numbers — literature: 3546, 3547, 3548; image: none recorded. Populated measurement fields — literature: TL, BL, BMH, BMW, TaL, MTH, TMH, TMW, DFH, VFH, IND.c, END.c, IOD.c, E, NS.c, ES.c, OD; image: none recorded. Literature row 3546: Stage 44; Literature row 3547: Stage 25; Literature row 3548: Stage 26. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

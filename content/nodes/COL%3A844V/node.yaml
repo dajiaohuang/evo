@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton
+  displayName: Tylototriton
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/844V
+  sourceIndexes:
+    - name:
+        en: Tylototriton
+        zh: Tylototriton
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 844V
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/314
+            queryName: Tylototriton
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1886
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-390dc4ac8f
+      - s-ca6a47882d
+      - s-e4990e3e40
+      - s-b482d19cc9
+      - s-1e9b35a788
+      - s-d00f85119e
+      - s-ea6de6327c
+      - s-8fdd6f72fc
+      - s-c83c73b3b5
+      - s-b4c1ec118c
+      - s-2c0e3c8b34
+      - s-ed41066dd3
+      - s-6eded7a224
+      - s-04d45a4730
+      - s-41f66d643b
+      - s-0fbf00ca13
+      - s-2f66ad98b1
+      - s-e69909ade9
+      - s-eddf3948ca
+    zh:
+      - s-c1398520a7
+      - s-408d3ac7d7
+      - s-53b221b83a
+      - s-275bdb311e
+      - s-f665bcad19
+      - s-e080aa9f6e
+      - s-e8ce284a20
+      - s-69afe2dc31
+      - s-b54d1547e7
+      - s-add6017e81
+      - s-79bf86a49f
+      - s-7d50f53dd2
+      - s-eb958e35ec
+      - s-20ebbe0ddd
+      - s-5a9efffee6
+      - s-e74e27b7a6
+      - s-3e6897131c
+      - s-460d4af229
+      - s-fa6ef9ccd9

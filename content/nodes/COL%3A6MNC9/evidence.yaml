@@ -1,0 +1,472 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hylambates maculatus Duméril, 1853
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hylambates maculatus
+      zh: Hylambates maculatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-777e7a79c3
+            part: title
+          zh:
+            page: zh
+            section: s-b294e3e860
+            part: title
+        text:
+          en:
+            page: en
+            section: s-777e7a79c3
+            part: body
+          zh:
+            page: zh
+            section: s-b294e3e860
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e90d0c2401
+            part: title
+          zh:
+            page: zh
+            section: s-ac4c1b686d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e90d0c2401
+            part: body
+          zh:
+            page: zh
+            section: s-ac4c1b686d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3c4b3b4e8f
+            part: title
+          zh:
+            page: zh
+            section: s-ad45b89070
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3c4b3b4e8f
+            part: body
+          zh:
+            page: zh
+            section: s-ad45b89070
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-f67c1676472f6ed4a74b0d19
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-205656665dd31afd78607f1421180e91
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-89dc90d7d7
+            part: title
+          zh:
+            page: zh
+            section: s-55c298b19b
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-89dc90d7d7
+            part: body
+          zh:
+            page: zh
+            section: s-55c298b19b
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d9a5774a7b
+            part: title
+          zh:
+            page: zh
+            section: s-edafdf83cc
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-d9a5774a7b
+            part: body
+          zh:
+            page: zh
+            section: s-edafdf83cc
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ec598e4d07
+            part: title
+          zh:
+            page: zh
+            section: s-861cc95d06
+            part: title
+        sourceIds:
+          - primary-pmc6434812-6mnc9
+        text:
+          en:
+            page: en
+            section: s-ec598e4d07
+            part: body
+          zh:
+            page: zh
+            section: s-861cc95d06
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-400c7604f2
+            part: title
+          zh:
+            page: zh
+            section: s-7c1e9878ad
+            part: title
+        sourceIds:
+          - primary-pmc6434812-6mnc9
+        text:
+          en:
+            page: en
+            section: s-400c7604f2
+            part: body
+          zh:
+            page: zh
+            section: s-7c1e9878ad
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-dbb323f640
+            part: title
+          zh:
+            page: zh
+            section: s-c4e0b99117
+            part: title
+        sourceIds:
+          - primary-pmc6434812-6mnc9
+        text:
+          en:
+            page: en
+            section: s-dbb323f640
+            part: body
+          zh:
+            page: zh
+            section: s-c4e0b99117
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2feb458877
+            part: title
+          zh:
+            page: zh
+            section: s-e87a1506a7
+            part: title
+        sourceIds:
+          - primary-pmc6434812-6mnc9
+          - primary-pmc6434812-6mnc9-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-2feb458877
+            part: body
+          zh:
+            page: zh
+            section: s-e87a1506a7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hylambates maculatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6MNC9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 526; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3243; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3244 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc6434812-6mnc9
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hylambates maculatus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc6434812-6mnc9-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 usage4GJPG accepted6MNC9
+          scope:
+            en: Exact nomenclatural correspondence Phlyctimantis maculatus to Hylambates maculatus; not workshop image or linguistic validation
+            zh: Phlyctimantis maculatus 至 Hylambates maculatus 的精确命名对应；未验证工作坊图像或语言
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc6434812-6mnc9-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f5f2b737ed
+        part: body
+      zh:
+        page: zh
+        section: s-fdb9855f04
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-f67c1676472f6ed4a74b0d19
+        scientificName: Hylambates maculatus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1186/s13002-019-0294-3
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        sourceKey: primary-pmc6434812-6mnc9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6434812/article.xml
+        sourceConcept: SourceTab1 Phlyctimantis maculatus nomenclatural/ethnotaxonomic label; no new biologicaltrait or specimenidentity assignment
+        evidenceRead: "Hylambates maculatus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: A published isiZulu name and its provenance
+              zh: 已发表的 isiZulu 名称及其来源
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-6mnc9
+            locator: PMC6434812 XML Tab1 tbody row31; tablefootnotes; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a5028073d4
+                part: body
+              zh:
+                page: zh
+                section: s-c1f68299bd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Workshop vocabulary and later species naming
+              zh: 工作坊词汇与后续物种命名
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-6mnc9
+            locator: PMC6434812 XML Sec2 completeMethods; Sec4; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6b84d27d60
+                part: body
+              zh:
+                page: zh
+                section: s-e165b0b01e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: What a local naming category can establish
+              zh: 地方命名类别能说明什么
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-6mnc9
+            locator: PMC6434812 XML Sec4–7; Sec9Discussion; Sec10Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f2e62085f9
+                part: body
+              zh:
+                page: zh
+                section: s-8edf3ba21b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Keep the historical scientific label with its catalogue link
+              zh: 保留历史科学标签及目录链接
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-6mnc9
+            locator: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6434812/col26.8-name-bridges.json usage4GJPG
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-db21632de5
+                part: body
+              zh:
+                page: zh
+                section: s-988d8fb796
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

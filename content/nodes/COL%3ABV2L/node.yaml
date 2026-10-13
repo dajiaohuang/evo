@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates sumtuosus
+  displayName: Allobates sumtuosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2L
+  sourceIndexes:
+    - name:
+        en: Allobates sumtuosus
+        zh: Allobates sumtuosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/173
+            queryName: Allobates sumtuosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/151
+            queryName: Colostethus sumtuosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/440
+            queryName: Allobates spumaponens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-03ed2a58c3
+      - s-7a0a62c379
+      - s-1b9efd113e
+      - s-40a2fe9b9d
+      - s-4015f9cf36
+      - s-b425ea5d7b
+      - s-2bc3849207
+      - s-ded6eb52fb
+      - s-53f5a35037
+      - s-b1903b58c3
+      - s-e076333c4d
+      - s-4ac3903ab6
+      - s-3638024c7f
+      - s-c080ff8517
+    zh:
+      - s-9bc7289940
+      - s-09fcf4171c
+      - s-09334c7345
+      - s-68ccb886a5
+      - s-531e9a4d69
+      - s-ffebb46218
+      - s-e1f8806325
+      - s-3a0982365c
+      - s-66da0fc39e
+      - s-5fb45e379c
+      - s-c61708ca5a
+      - s-135840daff
+      - s-420e0557b0
+      - s-454ff29a08

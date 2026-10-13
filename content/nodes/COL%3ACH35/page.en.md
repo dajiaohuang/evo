@@ -1,0 +1,3 @@
+## Tall annuals with crowded flower clusters {#s-c2d6acbac2}
+This account describes coarse, often pubescent annuals up to 2.5 m, with ascending branches and variable leaves 2–15 cm long. Small flowers crowd into cylindrical terminal or axillary clusters; bracts are often longer than the flowers. The slightly wrinkled fruit splits around the middle, and its small seeds range from reddish brown to black. A weedy species, it can form large stands in old fields; the distribution entry places it across temperate and tropical North and South America and records it as adventive in many Old World regions.
+

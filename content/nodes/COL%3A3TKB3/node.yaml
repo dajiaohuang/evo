@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella tengchongensis
+  displayName: Leptobrachella tengchongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKB3
+  sourceIndexes:
+    - name:
+        en: Leptobrachella tengchongensis
+        zh: Leptobrachella tengchongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKB3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/299
+            queryName: Leptobrachella tengchongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/358
+            queryName: Leptolalax tengchongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-766802b712
+      - s-3671ea99e1
+      - s-2c75fe135d
+      - s-29e8463c79
+      - s-b4dcf2350e
+      - s-004e1e9452
+      - s-25b9395a29
+      - s-da2f4ac8da
+    zh:
+      - s-4b0f1defb9
+      - s-f4ec3b2cd4
+      - s-32e2c74a84
+      - s-cae63becca
+      - s-53b994ca38
+      - s-5ef43f1c36
+      - s-b136920c8e
+      - s-13a1539321

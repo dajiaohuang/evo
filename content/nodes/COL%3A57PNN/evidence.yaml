@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Trachyandra bulbosa Boatwr. & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 57PNN, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 57PNN; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/57PNN
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 57PNN
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001338279-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 57PNN / WFO wfo-0001338279
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18009_0
+        referenceId: ref-b06e9ac5-3c67-8eba-a979-d170237a2e05
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra bulbosa Boatwr. & J.C.Manning account; SANBI/WFO archive rows 84201 (Morphology), 85043 (Habitat), 84516 (Diagnostic), source identifier 18009.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Deciduous geophyte, 100-200 mm high. Rhizome short, compact and swollen, hard and woody in texture, forming an irregular, bulbous structure with one or multiple shoots, roots cylindrical, felted. Cataphylls surrounding shoots, membranous and colourless, acute and prominently veined. Leaves 4-7, subterete, 100150 x 1.0-1.5 mm, leathery, somewhat flexuous, minutely puberulous, dull greyish green, decaying to form a fibrous or ± papery collar 15-20 mm long, sheaths fimbriate at mouth. Inflorescence a simple raceme; peduncle flexed slightly outward and then erect, 1.0-1.5 mm diam. at base, minutely puberulous; raceme moderately dense, mostly 5-10-flowered, 40-70 mm long; bracts ovate-acuminate, 5-8 mm long, membranous, scabridulous on midrib abaxially at base, margins ciliolate; pedicels suberect, 5-7 mm long, scabridulous. Flowers rotate, white with greenish midribs, tepals transversely maculate, opening in afternoon, sweetly scented; outer tepals elliptical, 8-10 x 2 mm, scabridulous along midrib abaxially, inner obovate, 7-9 x 3 mm. Stamens suberect; filaments filiform, tapering below, white, ± 6 mm long, retrorsely scabrid in distal half, inner filaments minutely puberulous for short distance below scabrae; anthers yellow, outer 1.5 mm long, inner ± 1 mm long. Ovary ovoid, ± 1.5 mm long, green, with ± 7 ovules per locule; style erect, filiform, ± 5 mm long, white. Capsules ellipsoid, 4-5 x 3-4 mm, scabridulous. Seeds not seen.
+            textZh: Trachyandra bulbosa Boatwr. & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18009_0
+            locator: "SANBI/WFO archive Morphology row 84201; source identifier 18009.0; cited publication: Boatwright, JS; Manning, JC. 2013. Two new species of Trachyandra sect. Liriothamnus (Xanthorrhoeaceae, Asphodeloideae) from the Western and Eastern Cape provinces of South Africa. Phytotaxa 155(1): 59 - 65. [http://dx.doi.org/10.11646/phytotaxa.155.1.5]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: An unusual species that accords with sect. Liriothamnus in its horizontal rhizome, cataphylls not completely transformed into collar-like, membranous structures, and in the outer leaves decaying into a fibrous collar at the base but immediately distinguished by the combination of tufted habit and irregular, bulbous rhizome. Branching of the swollen, knobbly, rhizome in T. bulbosa results in small clumps of shoots, each producing one or two unbranched racemes.
+            textZh: SANBI 条目提供了 Trachyandra bulbosa Boatwr. & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18009_0
+            locator: "SANBI/WFO archive Diagnostic row 84516; source identifier 18009.0; cited publication: Boatwright, JS; Manning, JC. 2013. Two new species of Trachyandra sect. Liriothamnus (Xanthorrhoeaceae, Asphodeloideae) from the Western and Eastern Cape provinces of South Africa. Phytotaxa 155(1): 59 - 65. [http://dx.doi.org/10.11646/phytotaxa.155.1.5]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Southtrending slopes among gneiss scree, with the base of the plants shaded and protected among the stones.
+            textZh: 该 SANBI 区域物种条目记录的生境：Southtrending slopes among gneiss scree, with the base of the plants shaded and protected among the stones.
+            sourceIds:
+              - sanbi_18009_0
+            locator: "SANBI/WFO archive Habitat row 85043; source identifier 18009.0; cited publication: Boatwright, JS; Manning, JC. 2013. Two new species of Trachyandra sect. Liriothamnus (Xanthorrhoeaceae, Asphodeloideae) from the Western and Eastern Cape provinces of South Africa. Phytotaxa 155(1): 59 - 65. [http://dx.doi.org/10.11646/phytotaxa.155.1.5]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

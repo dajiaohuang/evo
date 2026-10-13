@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus mexicanus
+  displayName: Anaxyrus mexicanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66LVC
+  sourceIndexes:
+    - name:
+        en: Anaxyrus mexicanus
+        zh: Anaxyrus mexicanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66LVC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/441
+            queryName: Anaxyrus mexicanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/373
+            queryName: Bufo mexicanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/356
+            queryName: Bufo lentiginosus mexicanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/357
+            queryName: Bufo microscaphus mexicanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9765ee3fba
+      - s-893cab31ef
+      - s-03fcebf016
+      - s-00abe0ff9f
+      - s-30541b124a
+      - s-d7fdb2fc5e
+      - s-ee13d3f3fe
+      - s-3785b9f416
+      - s-b4e3db61ec
+      - s-ea47ca3374
+      - s-1575c602fc
+      - s-2c82e4bb3b
+      - s-619d7e1f79
+      - s-472d8e1102
+      - s-7143c0109c
+    zh:
+      - s-3d4068edaf
+      - s-0f09bbc6ca
+      - s-1c22347deb
+      - s-6b1ff396e1
+      - s-674e26a1bc
+      - s-8dff8f1ced
+      - s-90b4e52cfe
+      - s-f0c87dd104
+      - s-956a834ce6
+      - s-7ff7104c4b
+      - s-eecb321d01
+      - s-4fc2f7913a
+      - s-51d6e04635
+      - s-d1c822c30c
+      - s-b326765a42

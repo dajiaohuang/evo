@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Schismaderma carens
+  displayName: Schismaderma carens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/79W42
+  sourceIndexes:
+    - name:
+        en: Schismaderma carens
+        zh: Schismaderma carens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 79W42
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/6
+            queryName: Schismaderma carens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/9
+            queryName: Bufo carens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/10
+            queryName: Schismaderma lateralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ef347c0bed
+      - s-159b4b50a7
+      - s-7ed1e80176
+      - s-1575f69d9d
+      - s-b98e0d6ceb
+      - s-736216faf9
+      - s-a79348a11f
+      - s-d46c62f6ee
+      - s-b70b2dc5b7
+      - s-0ba44e55b4
+      - s-36f27c96d1
+      - s-211280993d
+      - s-f8d2ca666c
+      - s-9f9099911e
+      - s-e1de18fbb1
+      - s-7223ca00d9
+      - s-df2525d7f8
+      - s-c6320265b6
+      - s-f8ae32560e
+      - s-0a0ccecd56
+      - s-b92f28e54d
+      - s-c36e0424cf
+      - s-6f135e2a15
+    zh:
+      - s-5bde19e6fa
+      - s-f4d6ddb43c
+      - s-6172b63e87
+      - s-5b18a63a83
+      - s-16a834f896
+      - s-0e6647b1bd
+      - s-4ff3b2e605
+      - s-d3df5c4243
+      - s-a9b10f3670
+      - s-7df59ec6a9
+      - s-59a42aefd7
+      - s-6acd8ebab4
+      - s-9d1b3efab3
+      - s-ebcef2b141
+      - s-6d56382c31
+      - s-b6f0c50460
+      - s-64e91bd0a3
+      - s-da110f78ce
+      - s-88b3e63811
+      - s-7d8b161002
+      - s-cec8abfebd
+      - s-02b2a6e3df
+      - s-f96e70b6b8

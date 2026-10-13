@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Paspalum quadrifarium Lam.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 764MV, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 764MV; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/764MV
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 764MV
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000888315-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 764MV / WFO wfo-0000888315
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_15534_0
+        referenceId: ref-614e454f-dc00-8b95-a27e-b2ddda8ad101
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Paspalum quadrifarium Lam. account; SANBI/WFO archive rows 76494 (Morphology), 75860 (Habitat), source identifier 15534.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tufted perennial about 1 700 mm high; basal sheaths pubescent; culm erect, nodes pubescent. Leaf blade 15-62 x 4.9-6.1 mm, involute to flat, glabrous; ligule 2-8 mm long, conspicuous. Inflorescence terminal, with 15-44 racemes, scattered up central axis; spikelets divergent, arranged in four rows, secund. Spikelet 2.0-2.5(3.0) x 0.9-1.3 mm, elliptic, yellowish-brown to straw-coloured often purple- tinged; lower glume triangular but usually absent; upper glume shortly pubescent, 3-nerved, occasionally minutely reddish-purple spotted; lower lemma glabrous or pubescent, 3-nerved; upper lemma rugose; anther about 1.9 mm long.
+            textZh: Paspalum quadrifarium Lam. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_15534_0
+            locator: "SANBI/WFO archive Morphology row 76494; source identifier 15534.0; cited publication: Mashau, AC. 2015. Paspalum L. In: L Fish, AC Mashau, MJ Moeaha & MT Nembudani (eds), Identification guide to the southern Africa grasses. An identification manual with keys, descriptions and distributions, Strelitzia 36: 500 - 507. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Black soils in wet places; in areas where fire is excluded.
+            textZh: 该 SANBI 区域物种条目记录的生境：Black soils in wet places; in areas where fire is excluded.
+            sourceIds:
+              - sanbi_15534_0
+            locator: "SANBI/WFO archive Habitat row 75860; source identifier 15534.0; cited publication: Mashau, AC. 2015. Paspalum L. In: L Fish, AC Mashau, MJ Moeaha & MT Nembudani (eds), Identification guide to the southern Africa grasses. An identification manual with keys, descriptions and distributions, Strelitzia 36: 500 - 507. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

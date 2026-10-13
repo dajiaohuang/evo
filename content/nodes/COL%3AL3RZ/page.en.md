@@ -1,0 +1,3 @@
+## Leaf, flower and fruit characters in the flora description {#s-06805ae3aa}
+The Brazilian Flora 2020 v393.147 description records branches with hooked prickles. The leaf blade is two-lobed, with a flat-cut base and blunt tip; the upper surface is described as becoming hairless or hairless, and the lower as becoming hairless. Flower buds are tubular with pointed tips. The floral cup (hypanthium) is top-shaped, and the calyx is sheath-like; petals are described as obovate-lanceolate. The source records ten anthers, a staminal column with hairs inside or at its tip, and a stalked ovary. The fruit is a legume recorded as opening elastically. These traits come from a regional dataset description; it does not assess species-wide variation or distribution.
+

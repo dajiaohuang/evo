@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephaloidea Günther, 1858
+    rank: superfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephaloidea
+      zh: Brachycephaloidea
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0e671f1142
+            part: title
+          zh:
+            page: zh
+            section: s-3683b77489
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e671f1142
+            part: body
+          zh:
+            page: zh
+            section: s-3683b77489
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-780c647263
+            part: title
+          zh:
+            page: zh
+            section: s-d819b3642d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-780c647263
+            part: body
+          zh:
+            page: zh
+            section: s-d819b3642d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-d20aed4d71
+            part: title
+          zh:
+            page: zh
+            section: s-dcc1ed8fc8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 357Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A357Y
+            label:
+              en: Atopophrynus
+              zh: Atopophrynus
+          - kind: catalogue
+            colId: 7CL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7CL
+            label:
+              en: Brachycephalidae
+              zh: Brachycephalidae
+          - kind: catalogue
+            colId: V5K3K
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5K3K
+            label:
+              en: Caligophrynidae
+              zh: Caligophrynidae
+          - kind: catalogue
+            colId: MHMPZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMHMPZ
+            label:
+              en: Ceuthomantidae
+              zh: Ceuthomantidae
+          - kind: catalogue
+            colId: 8NC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A8NC
+            label:
+              en: Craugastoridae
+              zh: Craugastoridae
+          - kind: catalogue
+            colId: 46MT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A46MT
+            label:
+              en: Dischidodactylus
+              zh: Dischidodactylus
+          - kind: catalogue
+            colId: 9M5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A9M5
+            label:
+              en: Eleutherodactylidae
+              zh: Eleutherodactylidae
+          - kind: catalogue
+            colId: 6356Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6356Q
+            label:
+              en: Geobatrachus
+              zh: Geobatrachus
+          - kind: catalogue
+            colId: V5BDF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5BDF
+            label:
+              en: Neblinaphrynidae
+              zh: Neblinaphrynidae
+          - kind: catalogue
+            colId: GQC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGQC
+            label:
+              en: Strabomantidae
+              zh: Strabomantidae
+        text:
+          en:
+            page: en
+            section: s-d20aed4d71
+            part: body
+          zh:
+            page: zh
+            section: s-dcc1ed8fc8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephaloidea
+          url: https://www.checklistbank.org/dataset/316115/taxon/6239N
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a808565305
+        part: body
+      zh:
+        page: zh
+        section: s-b728f10c9d
+        part: body

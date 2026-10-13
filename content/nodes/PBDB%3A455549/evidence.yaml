@@ -1,0 +1,385 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Yelaphomte praderioi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Yelaphomte praderioi
+      en: Yelaphomte praderioi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9cfccf2e4f
+            part: body
+          en:
+            page: en
+            section: s-db82505ffd
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fc4d9e4c62
+            part: body
+          en:
+            page: en
+            section: s-784b5218a3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e60fd967cd
+            part: body
+          en:
+            page: en
+            section: s-9596c4dd45
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4af4ff182b
+            part: body
+          en:
+            page: en
+            section: s-d9260e55bf
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-592206e22b
+            part: body
+          en:
+            page: en
+            section: s-fc6534782c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Yelaphomte praderioi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=455549&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:455549; original response record indices retained in data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: bae4c11926f8cde7bd7b1b7418d63b8ba856066f5005a9181b8bdf8dcb047035
+          pbdbTaxonId: txn:455549
+          selectedOccurrenceIds:
+            - occ:1593287
+          selectedCollectionIds:
+            - col:182613
+          sourceReferenceIds:
+            - ref:81563
+          originalIdentificationMappings:
+            - occurrenceId: occ:1593287
+              originalIdentifiedName: Yelaphomte praderioi n. gen. n. sp.
+              acceptedName: Yelaphomte praderioi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=455549&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:455549; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    limitations:
+      zh:
+        page: zh
+        section: s-68b780801d
+        part: body
+      en:
+        page: en
+        section: s-ccfd5f176b
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:455549
+    scientificName: Yelaphomte praderioi
+    commonName: Yelaphomte praderioi
+    commonNameZh: Yelaphomte praderioi
+    rank: species
+    parentName: Yelaphomte
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-db82505ffd
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-ccfd5f176b
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerSections:
+      - id: pbdb-occurrence-1
+        title:
+          en: One selected occurrence for this species
+          zh: 本种的一条入选化石记录
+        text:
+          zh:
+            page: zh
+            section: s-9cfccf2e4f
+            part: body
+          en:
+            page: en
+            section: s-db82505ffd
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: The collection and its recorded age bracket
+          zh: 采集地及其记录年代区间
+        text:
+          zh:
+            page: zh
+            section: s-fc4d9e4c62
+            part: body
+          en:
+            page: en
+            section: s-784b5218a3
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-3
+        title:
+          en: Reading the time interval
+          zh: 怎样理解这个时间区间
+        text:
+          zh:
+            page: zh
+            section: s-e60fd967cd
+            part: body
+          en:
+            page: en
+            section: s-9596c4dd45
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-4
+        title:
+          en: What the collection setting can show
+          zh: 采集环境记录了什么
+        text:
+          zh:
+            page: zh
+            section: s-4af4ff182b
+            part: body
+          en:
+            page: en
+            section: s-d9260e55bf
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-5
+        title:
+          en: The citation linked to this collection
+          zh: 该采集记录关联的引文
+        text:
+          zh:
+            page: zh
+            section: s-592206e22b
+            part: body
+          en:
+            page: en
+            section: s-fc6534782c
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 41
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 41
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-68b780801d
+        part: body
+      en:
+        page: en
+        section: s-ccfd5f176b
+        part: body
+    readerRelatedPages:
+      - targetId: txn:455548
+        label:
+          en: Yelaphomte
+          zh: Yelaphomte
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+  atlas-node:
+    name: Yelaphomte praderioi
+    commonName: Yelaphomte praderioi
+    commonNameZh: Yelaphomte praderioi
+    rank: species
+    taxonId: txn:455549
+    firstAppearance: 227.3
+    lastAppearance: 205.7
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:455549
+      rangeKind: global-composite
+      taxonomicConcept: Yelaphomte praderioi
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 227.3
+      youngerMa: 205.7
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 227.3–205.7 Ma and last-occurrence bracket 227.3–205.7 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:455549; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana maosonensis
+  displayName: Hylarana maosonensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMSB
+  sourceIndexes:
+    - name:
+        en: Hylarana maosonensis
+        zh: Hylarana maosonensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMSB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/442
+            queryName: Hylarana maosonensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/152
+            queryName: Rana maosonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/52
+            queryName: Sylvirana maosonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-556490191d
+      - s-c8c4aee833
+      - s-6a87eb6695
+      - s-206e96e509
+      - s-fe50f409c0
+      - s-2f8c12b031
+      - s-cb951fe6a4
+      - s-22ad29d474
+      - s-c7d1dd63b9
+      - s-345909d836
+      - s-d04e1822bc
+      - s-e893fe9f53
+      - s-48070da6f5
+    zh:
+      - s-2f44ce4db9
+      - s-7a8c96cf87
+      - s-a34a56c97d
+      - s-438145b97d
+      - s-07bbc3a83d
+      - s-13ec54de33
+      - s-acfbef7692
+      - s-d06da5a3a8
+      - s-a754f5fede
+      - s-839284ef01
+      - s-3f1386def8
+      - s-6f1ef21b4a
+      - s-c1f6858b30

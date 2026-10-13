@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus mixomaculatus
+  displayName: Nymphargus mixomaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JV
+  sourceIndexes:
+    - name:
+        en: Nymphargus mixomaculatus
+        zh: Nymphargus mixomaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/440
+            queryName: Nymphargus mixomaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/387
+            queryName: Cochranella mixomaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b3ab67222c
+      - s-dfaa29c877
+      - s-360e786aac
+      - s-fd8c009f0d
+      - s-ab7ccd0151
+      - s-3245a514d4
+      - s-fec35fe54a
+      - s-d1c9299a8c
+      - s-f9d2f0d94c
+      - s-85c49c88b6
+      - s-6e82aedcf5
+      - s-c9df74cc8e
+    zh:
+      - s-da75b052ab
+      - s-9a8a0020b5
+      - s-52adac679a
+      - s-17586656d3
+      - s-59c597007a
+      - s-6e4503a5c2
+      - s-e9afbae906
+      - s-b66bcf670d
+      - s-837d13bd7b
+      - s-3796953753
+      - s-07fe0a2d06
+      - s-bdb8434e71

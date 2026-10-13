@@ -1,0 +1,409 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys xianjuensis (Wang, Wu, Peng, Shi, Lu & Wu, 2020)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys xianjuensis
+      zh: Boulenophrys xianjuensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8f14194271
+            part: title
+          zh:
+            page: zh
+            section: s-f8ec57f370
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8f14194271
+            part: body
+          zh:
+            page: zh
+            section: s-f8ec57f370
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-69ecafe349
+            part: title
+          zh:
+            page: zh
+            section: s-9ddfd9e6fd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-69ecafe349
+            part: body
+          zh:
+            page: zh
+            section: s-9ddfd9e6fd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8d4e3b204f
+            part: title
+          zh:
+            page: zh
+            section: s-5f9985c391
+            part: title
+        sourceIds:
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8d4e3b204f
+            part: body
+          zh:
+            page: zh
+            section: s-5f9985c391
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-be4d8181a7e6fc6267aacce0
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-eec0b74a75
+            part: title
+          zh:
+            page: zh
+            section: s-7192244e72
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-eec0b74a75
+            part: body
+          zh:
+            page: zh
+            section: s-7192244e72
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-f3e2cccb2a
+            part: title
+          zh:
+            page: zh
+            section: s-f8da7b5259
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v59h9
+        text:
+          en:
+            page: en
+            section: s-f3e2cccb2a
+            part: body
+          zh:
+            page: zh
+            section: s-f8da7b5259
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2e76c36b6f
+            part: title
+          zh:
+            page: zh
+            section: s-8f4edd8f7c
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v59h9
+        text:
+          en:
+            page: en
+            section: s-2e76c36b6f
+            part: body
+          zh:
+            page: zh
+            section: s-8f4edd8f7c
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-590c8867e4
+            part: title
+          zh:
+            page: zh
+            section: s-a57188dd57
+            part: title
+        sourceIds:
+          - primary-pmc10083232-v59h9
+        text:
+          en:
+            page: en
+            section: s-590c8867e4
+            part: body
+          zh:
+            page: zh
+            section: s-a57188dd57
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4f34add003
+            part: title
+          zh:
+            page: zh
+            section: s-80ee34eef6
+            part: title
+        sourceIds:
+          - primary-pmc12466624-v59h9
+        text:
+          en:
+            page: en
+            section: s-4f34add003
+            part: body
+          zh:
+            page: zh
+            section: s-80ee34eef6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys xianjuensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/V59H9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 3525, 5549, 5550, 5551, 5552, 5553; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: primary-pmc10083232-v59h9
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys xianjuensis: Named species type material, specimens examined, diagnosis, distribution and applicable remarks; no source figures, tables or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-v59h9
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys xianjuensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6b7a1387c3
+        part: body
+      zh:
+        page: zh
+        section: s-67ad8816c1
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-be4d8181a7e6fc6267aacce0
+        scientificName: Boulenophrys xianjuensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-v59h9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys xianjuensis
+        evidenceRead: "Boulenophrys xianjuensis: Named species type material, specimens examined, diagnosis, distribution and applicable remarks; no source figures, tables or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Zhejiang locality records
+              zh: 浙江地点记录
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v59h9
+            locator: RESULTS > Boulenophrys xianjuensis; Holotype, Specimens examined and Distribution; reading-sections index 77, section s03.93
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0bd08a4d75
+                part: body
+              zh:
+                page: zh
+                section: s-d7ed97614c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Dapan sample measurements and anatomical characters
+              zh: 大盘山样本测量与解剖特征
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v59h9
+            locator: RESULTS > Boulenophrys xianjuensis; Specimens examined and Diagnosis characters 1, 3, 4, 9 and 11; reading-sections index 77, section s03.93
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-50acd04914
+                part: body
+              zh:
+                page: zh
+                section: s-da73532a64
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Missing measurement does not remove a designated paratype
+              zh: 测量缺失不移除已指定副模
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-v59h9
+            locator: RESULTS > Boulenophrys xianjuensis; both Remarks paragraphs; reading-sections index 77, section s03.93
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1bd567e275
+                part: body
+              zh:
+                page: zh
+                section: s-a56bc1849d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-v59h9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys xianjuensis
+        evidenceRead: "Boulenophrys xianjuensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-v59h9
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,37
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8b8d5f2bca
+                part: body
+              zh:
+                page: zh
+                section: s-2e1f566498
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

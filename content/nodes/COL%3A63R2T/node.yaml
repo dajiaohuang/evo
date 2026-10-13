@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola
+  displayName: Pseudopaludicola
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63R2T
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola
+        zh: Pseudopaludicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63R2T
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/202
+            queryName: Pseudopaludicola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 159
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70953217ec
+      - s-8954d44dd5
+      - s-9f66384589
+      - s-e7a4d623d2
+      - s-d35826ad04
+      - s-1a247b5ac3
+      - s-ab32038f66
+      - s-ec93dd9714
+      - s-161ee0c9a4
+      - s-2fddb46622
+      - s-2ce3a16932
+      - s-3ec3ef3bdd
+      - s-3f2d89b490
+      - s-7f9ed59875
+      - s-9fad980ab9
+      - s-009101fa06
+      - s-635f697c11
+      - s-2770c885d3
+      - s-f5f2eb5b7a
+      - s-f6978fca48
+      - s-6b3d2eb46f
+      - s-6862a2c66a
+      - s-a021d4d966
+    zh:
+      - s-ab53c7289b
+      - s-3e3a6ab8a2
+      - s-44b0c7872e
+      - s-03e33f0553
+      - s-1e2e1179fc
+      - s-804268c009
+      - s-53aac1cfbf
+      - s-cd37dd26e7
+      - s-a4b1414f58
+      - s-0ce3118cd1
+      - s-7dd18ab557
+      - s-68eb3daeef
+      - s-b5c95957c8
+      - s-71122c4068
+      - s-da7b4088cb
+      - s-dd96724c46
+      - s-c923fa8a03
+      - s-b95f4d3b6a
+      - s-91ce00d024
+      - s-1f4206119b
+      - s-72a3283e3a
+      - s-9a00036a9e
+      - s-ca6947e79d

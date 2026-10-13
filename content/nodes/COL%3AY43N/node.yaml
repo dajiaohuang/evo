@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus bombiens
+  displayName: Cophixalus bombiens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43N
+  sourceIndexes:
+    - name:
+        en: Cophixalus bombiens
+        zh: Cophixalus bombiens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/433
+            queryName: Cophixalus bombiens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d0013629b5
+      - s-84593abe27
+      - s-f8c2cf9693
+      - s-b2339ce471
+      - s-a18e63937f
+      - s-3b9d0faf88
+      - s-b48352696b
+      - s-971996760d
+      - s-df553f36c8
+      - s-ed56604600
+      - s-ae1e5c098e
+      - s-336fe2c556
+      - s-15733a0661
+      - s-1520bb9f5a
+    zh:
+      - s-5906e30589
+      - s-1078514060
+      - s-5db72050de
+      - s-c50ea43427
+      - s-ec4f6d2c60
+      - s-7a0b094433
+      - s-4721a14fdd
+      - s-a3984aebbc
+      - s-1d7327ad35
+      - s-79e389492d
+      - s-9a53fccd58
+      - s-0cf3fcfe1f
+      - s-6b4875d34f
+      - s-5618adad9b

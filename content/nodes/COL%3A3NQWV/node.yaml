@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius olivaceus
+  displayName: Hyperolius olivaceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQWV
+  sourceIndexes:
+    - name:
+        en: Hyperolius olivaceus
+        zh: Hyperolius olivaceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQWV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/306
+            queryName: Hyperolius olivaceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/176
+            queryName: Hyperolius fimbriolatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/178
+            queryName: Rappia fimbriolata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/387
+            queryName: Hyperolius cinnamomeoventris olivaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/222
+            queryName: Hyperolius fimbriata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-15a5fea5a4
+      - s-36af1d552e
+      - s-54ed7e2cf3
+      - s-7b20631ad8
+      - s-e810b31eb7
+      - s-3ae52cc9be
+      - s-7984fc0340
+      - s-7bfd29ba19
+      - s-efb56cbc8a
+      - s-2a4bc8f15d
+      - s-d08a81d514
+      - s-016cd515b0
+    zh:
+      - s-28c4070d49
+      - s-5316b56f1e
+      - s-1d96a6b52c
+      - s-d8e7a8c5ea
+      - s-fcb67fa670
+      - s-948737c372
+      - s-2c45bbe6f1
+      - s-131752e19c
+      - s-45a3279fa0
+      - s-ddd97d366e
+      - s-19b5fdea9a
+      - s-3cf611bced

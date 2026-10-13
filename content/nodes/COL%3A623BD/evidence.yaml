@@ -1,0 +1,467 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gymnophiona
+    rank: order
+    sourceDatasetId: "2144"
+    name:
+      en: Gymnophiona
+      zh: Gymnophiona
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f69627f63a
+            part: title
+          zh:
+            page: zh
+            section: s-e9c126400b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f69627f63a
+            part: body
+          zh:
+            page: zh
+            section: s-e9c126400b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-54564b49db
+            part: title
+          zh:
+            page: zh
+            section: s-b3da63e4c1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-54564b49db
+            part: body
+          zh:
+            page: zh
+            section: s-b3da63e4c1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-b918bf06ca
+            part: title
+          zh:
+            page: zh
+            section: s-a5891a9353
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b918bf06ca
+            part: body
+          zh:
+            page: zh
+            section: s-a5891a9353
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-1701cde628
+            part: title
+          zh:
+            page: zh
+            section: s-b3bfb88101
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1701cde628
+            part: body
+          zh:
+            page: zh
+            section: s-b3bfb88101
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-1c7b786a4e
+            part: title
+          zh:
+            page: zh
+            section: s-ca929020c0
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 7HY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7HY
+            label:
+              en: Caeciliidae
+              zh: Caeciliidae
+          - kind: catalogue
+            colId: 83Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A83Y
+            label:
+              en: Chikilidae
+              zh: Chikilidae
+          - kind: catalogue
+            colId: "952"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A952
+            label:
+              en: Dermophiidae
+              zh: Dermophiidae
+          - kind: catalogue
+            colId: V5K6R
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5K6R
+            label:
+              en: Grandisoniidae
+              zh: Grandisoniidae
+          - kind: catalogue
+            colId: "62559"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62559
+            label:
+              en: Herpelidae
+              zh: Herpelidae
+          - kind: catalogue
+            colId: BCP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ABCP
+            label:
+              en: Ichthyophiidae
+              zh: Ichthyophiidae
+          - kind: catalogue
+            colId: FNK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AFNK
+            label:
+              en: Rhinatrematidae
+              zh: Rhinatrematidae
+          - kind: catalogue
+            colId: G4T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AG4T
+            label:
+              en: Scolecomorphidae
+              zh: Scolecomorphidae
+          - kind: catalogue
+            colId: GBW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGBW
+            label:
+              en: Siphonopidae
+              zh: Siphonopidae
+          - kind: catalogue
+            colId: HMQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AHMQ
+            label:
+              en: Typhlonectidae
+              zh: Typhlonectidae
+        text:
+          en:
+            page: en
+            section: s-1c7b786a4e
+            part: body
+          zh:
+            page: zh
+            section: s-ca929020c0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gymnophiona
+          url: https://www.checklistbank.org/dataset/316115/taxon/623BD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Order = Gymnophiona; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d4a82292c7
+        part: body
+      zh:
+        page: zh
+        section: s-64e370d4ec
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Order
+      sourceName: Gymnophiona
+      sourceRowIds:
+        - Anf6591
+        - Anf6592
+        - Anf6593
+        - Anf6594
+        - Anf6595
+        - Anf6596
+        - Anf6597
+        - Anf6598
+        - Anf6599
+        - Anf6600
+        - Anf6601
+        - Anf6602
+        - Anf6603
+        - Anf6604
+        - Anf6605
+        - Anf6606
+        - Anf6607
+        - Anf6608
+        - Anf6609
+        - Anf6610
+        - Anf6611
+        - Anf6612
+        - Anf6613
+        - Anf6614
+        - Anf6615
+        - Anf6616
+        - Anf6617
+        - Anf6618
+        - Anf6619
+        - Anf6620
+        - Anf6621
+        - Anf6622
+        - Anf6623
+        - Anf6624
+        - Anf6625
+        - Anf6626
+        - Anf6627
+        - Anf6628
+        - Anf6629
+        - Anf6630
+        - Anf6631
+        - Anf6632
+        - Anf6633
+        - Anf6634
+        - Anf6635
+        - Anf6636
+        - Anf6637
+        - Anf6638
+        - Anf6639
+        - Anf6640
+        - Anf6641
+        - Anf6642
+        - Anf6643
+        - Anf6644
+        - Anf6645
+        - Anf6646
+        - Anf6647
+        - Anf6648
+        - Anf6649
+        - Anf6650
+        - Anf6651
+        - Anf6652
+        - Anf6653
+        - Anf6654
+        - Anf6655
+        - Anf6656
+        - Anf6657
+        - Anf6658
+        - Anf6659
+        - Anf6660
+        - Anf6661
+        - Anf6662
+        - Anf6663
+        - Anf6664
+        - Anf6665
+        - Anf6666
+        - Anf6667
+        - Anf6668
+        - Anf6669
+        - Anf6670
+        - Anf6671
+        - Anf6672
+        - Anf6673
+        - Anf6674
+        - Anf6675
+        - Anf6676
+        - Anf6677
+        - Anf6678
+        - Anf6679
+        - Anf6680
+        - Anf6681
+        - Anf6682
+        - Anf6683
+        - Anf6684
+        - Anf6685
+        - Anf6686
+        - Anf6687
+        - Anf6688
+        - Anf6689
+        - Anf6690
+        - Anf6691
+        - Anf6692
+        - Anf6693
+        - Anf6694
+        - Anf6695
+        - Anf6696
+        - Anf6697
+        - Anf6698
+        - Anf6699
+        - Anf6700
+        - Anf6701
+        - Anf6702
+        - Anf6703
+        - Anf6704
+        - Anf6705
+        - Anf6706
+        - Anf6707
+        - Anf6708
+        - Anf6709
+        - Anf6710
+        - Anf6711
+        - Anf6712
+        - Anf6713
+        - Anf6714
+        - Anf6715
+        - Anf6716
+        - Anf6717
+        - Anf6718
+        - Anf6719
+        - Anf6720
+        - Anf6721
+        - Anf6722
+        - Anf6723
+        - Anf6724
+        - Anf6725
+        - Anf6726
+        - Anf6727
+        - Anf6728
+        - Anf6729
+        - Anf6730
+        - Anf6731
+        - Anf6732
+        - Anf6733
+        - Anf6734
+        - Anf6735
+        - Anf6736
+        - Anf6737
+        - Anf6738
+        - Anf6739
+        - Anf6740
+        - Anf6741
+        - Anf6742
+        - Anf6743
+        - Anf6744
+        - Anf6745
+        - Anf6746
+        - Anf6747
+        - Anf6748
+        - Anf6749
+        - Anf6750
+        - Anf6751
+        - Anf6752
+        - Anf6753
+        - Anf6754
+        - Anf6755
+        - Anf6756
+        - Anf6757
+        - Anf6758
+        - Anf6759
+        - Anf6760
+        - Anf6761
+        - Anf6762
+        - Anf6763
+        - Anf6764
+        - Anf6765
+        - Anf6766
+        - Anf6767
+        - Anf6768
+        - Anf6769
+        - Anf6770
+        - Anf6771
+        - Anf6772
+        - Anf6773
+        - Anf6774
+        - Anf6775
+        - Anf6776
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 181
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 180
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 179
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 26
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 14
+        - key: Viv
+          en: viviparity
+          zh: 胎生
+          count: 24
+      currentConceptEquivalenceCertified: false

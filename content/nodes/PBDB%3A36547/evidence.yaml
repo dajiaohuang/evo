@@ -1,0 +1,311 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Chaohusaurus
+    commonName: Chaohu Ichthyosaur
+    commonNameZh: 巢湖鱼龙
+    rank: genus
+    taxonId: txn:36547
+    firstAppearance: 248
+    lastAppearance: 248
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Chaohusaurus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Chaohusaurus
+      en: Chaohusaurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbIchthyosauriformesTaxonomy20261002
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9a33d20dc7
+            part: body
+          en:
+            page: en
+            section: s-70a0084aa5
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbIchthyosauriformesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-189f3ca402
+            part: body
+          en:
+            page: en
+            section: s-c031b81603
+            part: body
+    sources:
+      - id: pbdbIchthyosauriformesTaxonomy20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Chaohusaurus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36547
+          locator: Recorded PBDB parent closure beneath the already documented Ichthyosauriformes COL-compatible storage anchor.
+      - id: pbdbIchthyosauriformesOccurrences20261002
+        referenceId: ref-2dd404cd-b72b-4fc1-8ad0-0dc4d9df94e9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36547
+          readingTargets:
+            - name: Chensaurus chaoxianensis
+              pbdbTaxonId: txn:150075
+              canonicalPath: content/nodes/PBDB%3A150075
+            - name: Chaohusaurus brevifemoralis
+              pbdbTaxonId: txn:397941
+              canonicalPath: content/nodes/PBDB%3A397941
+            - name: Chaohusaurus geishanensis
+              pbdbTaxonId: txn:170845
+              canonicalPath: content/nodes/PBDB%3A170845
+            - name: Chaohusaurus zhangjiawanensis
+              pbdbTaxonId: txn:374131
+              canonicalPath: content/nodes/PBDB%3A374131
+            - name: Chaohusaurus chaoxianensis
+              pbdbTaxonId: txn:375339
+              canonicalPath: content/nodes/PBDB%3A375339
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f570fac3e8
+        part: body
+      en:
+        page: en
+        section: s-342cf88415
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:36547
+    scientificName: Chaohusaurus
+    commonName: Chaohu ichthyosaur
+    commonNameZh: 巢湖鱼龙属
+    rank: genus
+    parentName: Ichthyosauria
+    extinct: true
+    geography:
+      - South Majiashan Quarry, Chaohu, Anhui, China
+      - Spathian Nanlinghu Formation; Procolumbites Zone
+    overview:
+      page: en
+      section: s-4380c3bc7e
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-bd3b3d2324
+        part: body
+      habitat:
+        page: en
+        section: s-49ed346385
+        part: body
+      locomotion:
+        page: en
+        section: s-a2d37504f9
+        part: body
+      bodySize:
+        page: en
+        section: s-9233fa0eb3
+        part: body
+      guild:
+        page: en
+        section: s-d36998e41b
+        part: body
+      dietZh:
+        page: zh
+        section: s-a1b4b41964
+        part: body
+      habitatZh:
+        page: zh
+        section: s-df4f31d831
+        part: body
+      locomotionZh:
+        page: zh
+        section: s-a54d23ed15
+        part: body
+      bodySizeZh:
+        page: zh
+        section: s-b96e83e977
+        part: body
+      guildZh:
+        page: zh
+        section: s-49e3e11371
+        part: body
+    traits:
+      - page: en
+        section: s-55bcba4859
+        part: body
+      - page: en
+        section: s-df3f181e4b
+        part: body
+      - page: en
+        section: s-6719c8c9bb
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-62560637a6
+      part: body
+    confidence: medium
+    referenceIds:
+      - motani-2014-chaohusaurus-viviparity
+    overviewZh:
+      page: zh
+      section: s-ef724c5ff1
+      part: body
+    traitsZh:
+      - page: zh
+        section: s-43bba71319
+        part: body
+      - page: zh
+        section: s-d0dd4de5cc
+        part: body
+      - page: zh
+        section: s-37447e869b
+        part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-84476c034c
+      part: body
+  claims:
+    - subjectId: taxon:chaohusaurus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Chaohusaurus is anchored by maternal specimen AGM I-1 from the Procolumbites Zone at Majiashan; the locality record does not establish a global genus range, an exact first appearance or ancestral status.
+      confidence: high
+      confidenceRationale: Specimen association and geological setting are directly documented. The claim deliberately omits genus-wide endpoints and reproductive-behavior extrapolation.
+      referenceLinks:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          relation: supports
+          pages: 9(2):e88640
+          figure: Figure 1; Supplementary geological information
+          quoteLocator: Geological setting; specimen description; Results
+    - subjectId: taxon:chaohusaurus
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Chaohusaurus is assigned to the Early Triassic ichthyopterygians in Motani et al.'s study using delayed ossification of carpals and tarsals, dental morphology, vertebral count and hypophalangeal flippers; species-level taxonomy may require revision as more specimens are prepared.
+      confidence: high
+      confidenceRationale: The paper states the diagnostic character combination and assignment procedure directly; the species-level caveat is retained rather than treating the genus assignment as an immutable taxonomy.
+      referenceLinks:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          relation: supports
+          pages: e88640, Materials and Methods—Taxonomy
+          figure: Figures 1–4; Supplementary Figures S1–S3
+          quoteLocator: Chaohusaurus assignment; delayed ossification, dental morphology, vertebral count and hypophalangeal flippers
+    - subjectId: taxon:chaohusaurus
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profiled Chaohusaurus record is limited to south Majiashan Quarry at Chaohu, Anhui, China, where the Spathian Nanlinghu Formation is exposed; this named collection does not establish a complete geographic distribution.
+      confidence: high
+      confidenceRationale: The primary paper names the quarry, region and exposed formation in its specimen methods. The claim is explicitly a locality boundary and does not infer a global range from one collection.
+      referenceLinks:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          relation: supports
+          pages: e88640, Materials and Methods—Specimens
+          figure: Figure 1; Supplementary Figure S1
+          quoteLocator: south Majiashan fossil quarry; Chaohu, Anhui, China; Spathian Nanlinghu Formation
+    - subjectId: taxon:chaohusaurus
+      claimKind: scientific
+      claimType: morphology
+      statement: Maternal specimen AGM I-1 preserves an articulated Chaohusaurus skeleton with two embryos in the body and a neonate adjacent to the pelvis, while the genus assignment uses its documented dental, vertebral and flipper characters.
+      confidence: high
+      confidenceRationale: The specimen association and preserved elements are illustrated and described in the results. High confidence is restricted to the named slab and diagnostic character set, not to a universal body plan.
+      referenceLinks:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          relation: supports
+          pages: e88640, Results—Maternal specimen and Embryonic identification
+          figure: Figures 2–4; Supplementary Figures S2–S3
+          quoteLocator: AGM I-1 maternal skeleton; two embryos; adjacent neonate; articulated anatomy
+    - subjectId: taxon:chaohusaurus
+      claimKind: scientific
+      claimType: ecology
+      statement: AGM I-1 directly documents pregnancy in an Early Triassic ichthyosauromorph; the head-first embryo orientation and a proposed terrestrial origin of viviparity are comparative interpretations, not directly observed behaviour or an ancestral state for all ichthyosaurs.
+      confidence: medium
+      confidenceRationale: Embryo association is direct specimen evidence, whereas delivery posture and reproductive-history conclusions depend on orientation, phylogeny and comparative reasoning; the claim keeps those evidence levels separate.
+      referenceLinks:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          relation: supports
+          pages: e88640, Results; Discussion—Evolution of reproductive strategy
+          figure: Figures 2–4
+          quoteLocator: AGM I-1 embryos and neonate; embryo orientation; reproductive-history interpretation
+  claim-rationales.zh:
+    - 标本关联与地质背景有直接记录。主张刻意不外推属级端点和繁殖行为。
+    - 一手研究直接列出 Chaohusaurus 的诊断性状与归属方法；种级修订可能性被保留，不把属级归属变成不可变分类。
+    - 正模研究明确给出马家山采石场、巢湖安徽和南陵湖组；该主张严格限定为地点边界，不从一次采集推断全球分布。
+    - AGM I-1 的母体、两个胚胎和相邻新生个体在图版及结果中直接描述；高置信度仅适用于具名石板和性状组合。
+    - 胚胎关联是直接标本证据，而分娩朝向和胎生历史依赖比较解释；主张明确区分观察与推断的证据层级。
+  claim-statements.zh:
+    - 巢湖龙由马家山 Procolumbites 带的母体标本 AGM I-1 锚定；该地点记录不建立全球属级范围、精确首现或祖先地位。
+    - Motani 等依据腕骨和跗骨相对掌骨、跖骨及趾骨的延迟骨化、牙齿形态、椎骨数和下指骨鳍肢，将 Chaohusaurus 归入早三叠世鱼龙纲类群；随着更多标本制备，种级分类或需修订。
+    - 本档案中的 Chaohusaurus 记录限定于中国安徽巢湖南陵湖以南马家山采石场，该处出露斯帕斯期南陵湖组；这一具名采集不能确立完整地理分布。
+    - 母体标本 AGM I-1 保存关节相连的 Chaohusaurus 骨骼、体内两个胚胎和骨盆旁一个新生个体；属级归属依据论文记录的牙齿、椎骨和鳍肢性状。
+    - AGM I-1 直接记录早三叠世鱼龙形类的妊娠；胚胎头先朝向及胎生陆生起源的提出属于比较解释，并非直接观察到的行为或所有鱼龙的祖先状态。
+  ranges:
+    - entityId: chaohusaurus
+      rangeKind: global-composite
+      taxonomicConcept: Chaohusaurus maternal specimen AGM I-1 occurrence
+      geographicScope: Majiashan Quarry, Chaohu, Anhui, China
+      olderMa: 248
+      youngerMa: 248
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The approximately 248 Ma value summarizes an early-middle Spathian biostratigraphic assignment, not direct dating of AGM I-1.
+      evidenceBasis: AGM I-1 comes from the Procolumbites Zone documented in the specimen and locality sections of the primary paper.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:chaohusaurus-maternal-specimen
+      referenceLocators:
+        - referenceId: motani-2014-chaohusaurus-viviparity
+          locator: Figure 1; Geological setting; Results

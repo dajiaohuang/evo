@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Incilius luetkenii
+  displayName: Incilius luetkenii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PLCR
+  sourceIndexes:
+    - name:
+        en: Incilius luetkenii
+        zh: Incilius luetkenii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PLCR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/456
+            queryName: Incilius luetkenii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/400
+            queryName: Bufo luetkenii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/148
+            queryName: Cranopsis luetkenii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/149
+            queryName: Ollotis luetkeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/150
+            queryName: Ollotis leutkeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/151
+            queryName: Incilius luetkeni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5c8d86c6bb
+      - s-c91d1b7ee2
+      - s-e874fa326c
+      - s-ddded60ff5
+      - s-c7b7643f8b
+      - s-d1812f7bb3
+      - s-c066e60561
+      - s-92172151a2
+      - s-0ca58e9673
+      - s-8f197ad189
+      - s-b821d1c1f7
+      - s-c56741862f
+      - s-7a6e6c5824
+      - s-394c491c78
+      - s-eb30f38a31
+      - s-26a99b228e
+      - s-2475b17b93
+    zh:
+      - s-caafe25aa2
+      - s-b43f922c68
+      - s-6cc0ca2a8c
+      - s-556fbc0769
+      - s-40a0da5b45
+      - s-5a533a287f
+      - s-55e9c985f0
+      - s-69bec1ea2b
+      - s-7cce5d832a
+      - s-05d89ea8f6
+      - s-9e7e371bff
+      - s-01c150c59e
+      - s-f201dc3281
+      - s-c633625b4b
+      - s-515c7ad60e
+      - s-a142f26b96
+      - s-03152a7f19

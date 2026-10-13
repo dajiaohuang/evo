@@ -1,0 +1,119 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6d5d2d6858
+            part: title
+          zh:
+            page: zh
+            section: s-26eb886643
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d5d2d6858
+            part: body
+          zh:
+            page: zh
+            section: s-26eb886643
+            part: body
+        claimIds:
+          - claim:taxon:spiriferida
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-e91d570318
+            part: title
+          zh:
+            page: zh
+            section: s-8d5b9abe18
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e91d570318
+            part: body
+          zh:
+            page: zh
+            section: s-8d5b9abe18
+            part: body
+        claimIds:
+          - claim:taxon:spiriferida:source-bounded-range-rc50
+    scientificName: Spiriferida Waagen, 1883
+    name:
+      en: Spiriferida Waagen, 1883
+      zh: Spiriferida Waagen, 1883
+    rank: order
+    sourceDatasetId: "2299"
+  atlas-node:
+    name: Spiriferida
+    commonName: Spiriferids
+    commonNameZh: 石燕贝类
+    rank: order
+    taxonId: txn:29043
+    firstAppearance: 443
+    lastAppearance: 201
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:spiriferida
+      claimKind: scientific
+      claimType: taxonomy
+      statement: A revised shell-character classification diagnoses and reorganizes sampled spiriferid brachiopods; it supports the systematic unit but does not establish a global first appearance, extinction boundary or direct ancestor.
+      confidence: high
+      confidenceRationale: The monographic revision provides explicit diagnoses and comparisons, while its taxonomic scope is not a complete temporal record.
+      referenceLinks:
+        - referenceId: carter-1994-spiriferids
+          relation: supports
+          pages: 327–374
+          quoteLocator: Revised classification; family and superfamily diagnoses
+    - subjectId: taxon:spiriferida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Carter et al. state an Upper Ordovician–Upper Permian stratigraphic range for Spiriferida; the atlas displays 458.2–251.902 Ma by converting those named bounds with ICS v2026/06, not as direct dates, continuous occupancy or an ancestor sequence.
+      confidence: medium
+      confidenceRationale: The order-level systematic revision gives the two named endpoints explicitly. Medium confidence reflects revision-prone ICS numerical conversion and the difference between a stated stratigraphic range and an exhaustive occurrence audit.
+      referenceLinks:
+        - relation: supports
+          referenceId: carter-1994-spiriferids
+          pages: 328–329
+          quoteLocator: "p. 329, Order Spiriferida and Stratigraphic Range paragraphs: Upper Ordovician–Upper Permian"
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for the named stages and periods used to bound the source sample
+  claim-rationales.zh:
+    - 专门修订提供明确诊断与比较，但其分类范围并非完整年代记录。
+    - 目级系统修订明确列出两个具名端点。中等置信度反映 ICS 数值会修订，也区分论文陈述的地层延限与穷尽性出现记录审计。
+  claim-statements.zh:
+    - 基于贝壳性状的修订分类诊断并重组了取样石燕贝类；它支持该系统单元，但不确定全球首现、灭绝界线或直接祖先。
+    - Carter 等明确给出石燕贝目从晚奥陶世延续至晚二叠世；图谱依据 ICS 2026/06 将这些具名界限换算为 4.582–2.51902 亿年前，而不把它们称作直接测年、连续占据或祖先序列。
+  ranges:
+    - entityId: spiriferida
+      rangeKind: global-composite
+      taxonomicConcept: Spiriferida as revised by Carter et al. 1994
+      geographicScope: Order-level Upper Ordovician–Upper Permian interval stated in the systematic revision
+      olderMa: 458.2
+      youngerMa: 251.902
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The source states named chronostratigraphic bounds rather than numerical ages; the displayed numbers are conversions using ICS v2026/06 and may change with future chart revisions.
+      evidenceBasis: Carter et al. explicitly state an Upper Ordovician–Upper Permian stratigraphic range for Spiriferida; this is not a direct-ancestor or continuous-occupancy claim.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:spiriferida:source-bounded-range-rc50
+      referenceLocators:
+        - referenceId: carter-1994-spiriferids
+          locator: "328–329; p. 329, Order Spiriferida and Stratigraphic Range paragraphs: Upper Ordovician–Upper Permian"
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample

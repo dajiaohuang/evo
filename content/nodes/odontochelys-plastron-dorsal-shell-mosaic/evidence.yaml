@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-5e4d8cc82b
+      part: title
+    titleZh:
+      page: zh
+      section: s-9153410de5
+      part: title
+    category: morphology
+    startAge: 237
+    endAge: 227.3
+    regions:
+      - Guanling Formation, Guizhou, China
+    clades:
+      - Pan-Testudines
+      - Odontochelys semitestacea
+    summary:
+      page: en
+      section: s-5e4d8cc82b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-9153410de5
+      part: body
+    claimIds:
+      - claim:event:odontochelys-plastron-dorsal-shell-mosaic
+    evidenceItems:
+      - statement: Holotype IVPP V 15639, paratype IVPP V 13240 and referred specimen IVPP V 15653 preserve a fully developed plastron, expanded ribs and neural plates but no complete dorsal carapace or overlying osteoderms.
+        relation: supports
+        claimIds:
+          - claim:event:odontochelys-plastron-dorsal-shell-mosaic
+        referenceLinks:
+          - referenceId: li-2008-odontochelys
+            relation: supports
+            pages: 497–501
+            figure: Figures 1–4
+            quoteLocator: Systematic palaeontology; Description; Discussion
+    uncertaintyItems:
+      - statement: A plastron-first shell sequence, basal placement relative to sampled turtles and marginal-marine ecology are interpretations of comparative anatomy, matrix topology and deposits; none demonstrates direct ancestry, a universal developmental sequence or a global first appearance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:odontochelys-plastron-dorsal-shell-mosaic
+        referenceLinks:
+          - referenceId: li-2008-odontochelys
+            relation: supports
+            pages: 497–501
+            figure: Figure 4
+            quoteLocator: Phylogenetic analysis; Discussion
+  claims:
+    - subjectId: event:odontochelys-plastron-dorsal-shell-mosaic
+      claimKind: scientific
+      claimType: morphology
+      statement: Odontochelys specimens IVPP V 15639, V 13240 and V 15653 preserve a developed plastron with expanded ribs and neural plates but no complete carapace; plastron-first assembly, basal topology and habitat remain interpretations.
+      confidence: medium
+      confidenceRationale: The ventral and dorsal elements are figured in multiple named specimens. Medium confidence retains uncertainty in comparative homology, matrix placement, depositional ecology and extrapolation to a universal shell sequence.
+      referenceLinks:
+        - referenceId: li-2008-odontochelys
+          relation: supports
+          pages: 497–501
+          figure: Figures 1–4
+          quoteLocator: pp. 497–501, Figs. 1–4; Systematic palaeontology, Description and Discussion
+  claim-rationales.zh:
+    - 多件具名标本图示腹侧与背侧构件；中等置信度保留比较同源性、矩阵位置、沉积生态及普适甲壳序列外推的不确定性。
+  claim-statements.zh:
+    - Odontochelys 标本 IVPP V 15639、V 13240 和 V 15653 保存发育完善的腹甲、扩展肋骨与神经板，但没有完整背甲；腹甲先形成的组装顺序、基部拓扑和生境仍属解释。

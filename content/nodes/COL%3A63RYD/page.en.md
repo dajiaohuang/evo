@@ -1,0 +1,18 @@
+## Start with sourced trait records {#s-056667e8e9}
+This batch’s ReptTraits route for Riama includes 7 same-name, same-family entries with trait-specific citations. Start with Riama balneator, Riama cashcaensis, Riama columbiana, Riama orcesi, Riama striata. Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+
+## Read the definition before comparing {#s-9ff56bdedc}
+Among size records in this batch, Riama yumborum has a reported maximum snout–vent length (SVL) of 59.1 mm and Riama columbiana 82.2 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
+
+## Evidence limits {#s-afbfc390be}
+This guide covers only this batch’s entries with at least four sourced focal traits, a size or reproductive value, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+
+## Start with sourced trait records {#s-d48fe98613}
+This batch’s ReptTraits route for Riama includes 7 same-name, same-family entries with trait-specific citations. Start with [Riama anatoloros](Riama_anatoloros/page.en.md), [Riama colomaromani](Riama_colomaromani/page.en.md), [Riama labionis](Riama_labionis/page.en.md), [Riama meleagris](Riama_meleagris/page.en.md), [Riama raneyi](Riama_raneyi/page.en.md). Navigation follows pinned COL26.8 while records retain the v1-2 workbook’s 2023 name framework. This is not the complete accepted-species count of the group.
+
+## Read the definition before comparing {#s-c6a5180b48}
+Among size records in this batch, Riama labionis has a reported maximum snout–vent length (SVL) of 60 mm and Riama colomaromani 84 mm. These are endpoints of records for different species, not individual variation within one species or the smallest/largest actual individuals of the whole group. Retain field-specific sources when comparing activity, feeding and reproduction.
+
+## Limits of these trait data {#s-0c4e1e9162}
+This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
+

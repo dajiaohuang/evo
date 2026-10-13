@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spicospina flammocaerulea
+  displayName: Spicospina flammocaerulea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Z2ZS
+  sourceIndexes:
+    - name:
+        en: Spicospina flammocaerulea
+        zh: Spicospina flammocaerulea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Z2ZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/272
+            queryName: Spicospina flammocaerulea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e3b2af356d
+      - s-e9d0b40ca5
+      - s-71c0662a49
+      - s-527634733c
+      - s-1e2750bef7
+      - s-465b9ae299
+      - s-ccd7a3fc2b
+      - s-21ff9c33ca
+      - s-a1315c690a
+      - s-880224d2aa
+      - s-f0e8e4bdf2
+    zh:
+      - s-5d9386dd27
+      - s-8748e20749
+      - s-522f7a66d1
+      - s-1e68522615
+      - s-d5ba5de909
+      - s-8fc5c2901f
+      - s-4a45313e2e
+      - s-b3e595ae6a
+      - s-f388a78e3e
+      - s-b2f1c7cf60
+      - s-473953b914

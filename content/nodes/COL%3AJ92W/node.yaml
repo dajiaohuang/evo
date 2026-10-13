@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus spurrelli
+  displayName: Atelopus spurrelli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J92W
+  sourceIndexes:
+    - name:
+        en: Atelopus spurrelli
+        zh: Atelopus spurrelli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J92W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/322
+            queryName: Atelopus spurrelli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/466
+            queryName: Atelopus spurrelli spurrelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-feb3c0de75
+      - s-eb6460edab
+      - s-0dda10168d
+      - s-fba2b4acb1
+      - s-b7a298e55b
+      - s-c89b08a0b1
+      - s-851abf8314
+      - s-9219ccdea4
+      - s-c5a9c657ab
+      - s-2609995a8d
+      - s-210742ee74
+    zh:
+      - s-fd3bf0f7e6
+      - s-74be3c4800
+      - s-c58ddec643
+      - s-b0c41d8c2d
+      - s-180f8f129e
+      - s-6c77d4b60b
+      - s-298f6df8c2
+      - s-8247725167
+      - s-419ad72e10
+      - s-91e08828db
+      - s-3b492b32d4

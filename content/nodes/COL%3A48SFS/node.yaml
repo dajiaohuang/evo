@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana hosii
+  displayName: Odorrana hosii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SFS
+  sourceIndexes:
+    - name:
+        en: Odorrana hosii
+        zh: Odorrana hosii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SFS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/17
+            queryName: Odorrana hosii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/120
+            queryName: Rana hosii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/75
+            queryName: Huia hosii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/359
+            queryName: Rana durheimi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/360
+            queryName: Rana cataracta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/361
+            queryName: Staurois hosii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eadd36307a
+      - s-3a5c166ab4
+      - s-baf320786d
+      - s-84951ec702
+      - s-2c12efd302
+      - s-53e57ed78d
+      - s-7c1749967c
+      - s-b16bda4889
+      - s-6d5b0b7a9f
+      - s-ce9aec3204
+      - s-4a3c6df238
+      - s-0cffcb86ff
+      - s-c5f1b6d25d
+      - s-5e3888cbc3
+      - s-a40b241230
+    zh:
+      - s-caf8503552
+      - s-96876462ab
+      - s-3dd68aff0c
+      - s-06b57bc1f5
+      - s-58364528bb
+      - s-a37d24cbfc
+      - s-b6aa2c1671
+      - s-e503d5441b
+      - s-0e5e979b19
+      - s-c605bb9ea8
+      - s-66f5432e4a
+      - s-936d997b35
+      - s-fbee90da8f
+      - s-c4adee598f
+      - s-a25bf53ab6

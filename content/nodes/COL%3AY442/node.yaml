@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus desticans
+  displayName: Cophixalus desticans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y442
+  sourceIndexes:
+    - name:
+        en: Cophixalus desticans
+        zh: Cophixalus desticans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y442
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/444
+            queryName: Cophixalus desticans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b5bf1dc54
+      - s-4358c125d0
+      - s-21e05bde0a
+      - s-47b4323c9d
+      - s-fb270b37d1
+      - s-3c6ffaf472
+      - s-2665262fd6
+      - s-a38e6e29c0
+      - s-0f6bc1766d
+    zh:
+      - s-a58cb1b3e9
+      - s-3d6dd7e3af
+      - s-0620fa33c2
+      - s-bf0723c4fb
+      - s-d693395747
+      - s-1425b972c9
+      - s-448acd38c6
+      - s-53444beceb
+      - s-55665e5d14

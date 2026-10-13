@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella laui
+  displayName: Leptobrachella laui
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TK9W
+  sourceIndexes:
+    - name:
+        en: Leptobrachella laui
+        zh: Leptobrachella laui
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TK9W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/250
+            queryName: Leptobrachella laui
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/424
+            queryName: Leptolalax laui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c6d292578
+      - s-61ddf67d16
+      - s-abc375f82b
+      - s-64d1eec68a
+      - s-bca3934f0f
+      - s-50eba49296
+      - s-24209b79f3
+      - s-3d1fbdb635
+    zh:
+      - s-cd11be3e10
+      - s-32b61712af
+      - s-9caf9ff461
+      - s-31ebe88862
+      - s-72114563a5
+      - s-46ed47a2e8
+      - s-7ea2667996
+      - s-67e2551dd4

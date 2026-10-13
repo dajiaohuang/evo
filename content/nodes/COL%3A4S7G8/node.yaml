@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinatrema ron
+  displayName: Rhinatrema ron
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7G8
+  sourceIndexes:
+    - name:
+        en: Rhinatrema ron
+        zh: Rhinatrema ron
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7G8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/285
+            queryName: Rhinatrema ron
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce4caa7f5a
+      - s-a2753a5d97
+      - s-ea7d4b3818
+      - s-70d3b233e6
+      - s-5af35aed91
+      - s-063545d79f
+      - s-027138a3b3
+      - s-d6ab656a2a
+      - s-b67d3371c6
+      - s-22ed686305
+      - s-47f594cc10
+      - s-7f1064be50
+    zh:
+      - s-4a25dd106f
+      - s-b16e2a2356
+      - s-203cc46000
+      - s-10c0bc9446
+      - s-c57f1ee5ab
+      - s-420a62ba57
+      - s-2805c9639e
+      - s-2ca39b1d21
+      - s-4e67c1c483
+      - s-3d2ec5a03d
+      - s-b8a68f448a
+      - s-693516382e

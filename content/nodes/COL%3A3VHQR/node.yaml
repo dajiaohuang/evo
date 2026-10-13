@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates pueblae
+  displayName: Lithobates pueblae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQR
+  sourceIndexes:
+    - name:
+        en: Lithobates pueblae
+        zh: Lithobates pueblae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/191
+            queryName: Lithobates pueblae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/225
+            queryName: Rana pueblae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a8fa55d00e
+      - s-bb3588b044
+      - s-d582bc126d
+      - s-fb28a30303
+      - s-b7e2ef254f
+      - s-eb66490cfa
+      - s-86ebc6ed75
+    zh:
+      - s-0a6f8cfd02
+      - s-20361ee3d0
+      - s-dace9a3a08
+      - s-8fc5310e1c
+      - s-62cb863966
+      - s-e18ce54402
+      - s-72b7afb7e3

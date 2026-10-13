@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor gollmeri
+  displayName: Craugastor gollmeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCFN
+  sourceIndexes:
+    - name:
+        en: Craugastor gollmeri
+        zh: Craugastor gollmeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCFN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/122
+            queryName: Craugastor gollmeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/95
+            queryName: Eleutherodactylus gollmeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/346
+            queryName: Hylodes gollmeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/347
+            queryName: Lithodytes lanciformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/348
+            queryName: Hylodes lanciformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/349
+            queryName: Eleutherodactylus lanciformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/350
+            queryName: Eleutherodactylus humeralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/351
+            queryName: Eleutherodactylus goldmani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-005b33e6aa
+      - s-3ec824f56b
+      - s-311cec81e5
+      - s-c9d0b7a1a3
+      - s-be2cbc6da3
+      - s-5a4f8193cc
+      - s-fd527b56c4
+      - s-f2089e5adb
+      - s-bb4c8bc146
+      - s-bae7d21a89
+      - s-082a3b4c31
+      - s-e200354964
+      - s-a4be6d537d
+      - s-6f19f3f2f5
+      - s-24d20883c4
+      - s-ae1b6e8a43
+    zh:
+      - s-2e4ad80fa9
+      - s-81b6ad4617
+      - s-5d8db23268
+      - s-60f54cd4a9
+      - s-bbd70820bc
+      - s-41e8b94bf6
+      - s-5455869012
+      - s-e4da12d092
+      - s-defe29e57a
+      - s-179f189a11
+      - s-c4efd83e97
+      - s-d358461646
+      - s-a63c1f1245
+      - s-b01d82155a
+      - s-dcbf197b81
+      - s-652deada34

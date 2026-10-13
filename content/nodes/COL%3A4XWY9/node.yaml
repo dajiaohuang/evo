@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Smilisca sila
+  displayName: Smilisca sila
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XWY9
+  sourceIndexes:
+    - name:
+        en: Smilisca sila
+        zh: Smilisca sila
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XWY9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/211
+            queryName: Smilisca sila
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/191
+            queryName: Hyla sila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ce594de6c
+      - s-001d8c95cf
+      - s-53dd6e59ed
+      - s-3406a93a96
+      - s-72b16f15d2
+      - s-5f9c4fc6c9
+      - s-7ed349912d
+      - s-192df047f8
+      - s-6e1cfd75ba
+      - s-3f3003dbaa
+      - s-a0c574812e
+    zh:
+      - s-2aaa6bcc21
+      - s-30c0670136
+      - s-3bc6127276
+      - s-b1121c30c2
+      - s-d3e57c1ba4
+      - s-b3bc19a226
+      - s-698290b296
+      - s-8a1d279358
+      - s-9e605f9d01
+      - s-33db6aa7f6
+      - s-e1c35b4151

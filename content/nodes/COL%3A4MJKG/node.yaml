@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis paisa
+  displayName: Pristimantis paisa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKG
+  sourceIndexes:
+    - name:
+        en: Pristimantis paisa
+        zh: Pristimantis paisa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/466
+            queryName: Pristimantis paisa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/470
+            queryName: Eleutherodactylus paisa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6eeb11d161
+      - s-7c298a8e13
+      - s-0468204df8
+      - s-81ee5d1c9e
+      - s-c714e760be
+      - s-b3a7b1012b
+      - s-e4c444a11b
+    zh:
+      - s-7922361fcd
+      - s-7bc66e1b0f
+      - s-eca210ac8e
+      - s-d54e297058
+      - s-db2a168be1
+      - s-7117bf24e5
+      - s-cfc6920ba9

@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c571cfe6db
+      part: title
+    titleZh:
+      page: zh
+      section: s-a10b106bf0
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - BioProject PRJNA183205 and 1KITE transcriptome matrix
+    clades:
+      - Insecta
+      - Pterygota
+      - Holometabola
+    summary:
+      page: en
+      section: s-c571cfe6db
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a10b106bf0
+      part: body
+    claimIds:
+      - claim:event:insect-1kite-topology-clock
+    evidenceItems:
+      - statement: The study samples 144 species, 1,478 protein-coding genes and archived transcriptomes under BioProject PRJNA183205.
+        relation: supports
+        claimIds:
+          - claim:event:insect-1kite-topology-clock
+        referenceLinks:
+          - referenceId: misof-2014-insect-phylogenomics
+            relation: supports
+            pages: 763–767
+            figure: Figures 1–3; Supplementary Tables
+            quoteLocator: Taxon and gene sampling; archived data
+    uncertaintyItems:
+      - statement: Topology and node ages depend on sampling, orthology, sequence models, fossil assignments and clock priors; they are not observed fossil first appearances.
+        relation: contextualizes
+        claimIds:
+          - claim:event:insect-1kite-topology-clock
+        referenceLinks:
+          - referenceId: misof-2014-insect-phylogenomics
+            relation: supports
+            pages: 763–767
+            figure: Figures 1–3
+            quoteLocator: Phylogenetic and divergence-time methods
+  claims:
+    - subjectId: event:insect-1kite-topology-clock
+      claimKind: scientific
+      claimType: divergence-time
+      statement: The 1KITE matrix of 1,478 protein-coding genes from 144 sampled insect species resolves many ordinal relationships and estimates calibrated divergence intervals, but its node ages depend on fossil assignments, clock priors, taxon sampling and sequence models.
+      confidence: high
+      confidenceRationale: The archived transcriptome matrix and model pipeline are documented, and the claim keeps topology and model time distinct from fossil observations.
+      referenceLinks:
+        - referenceId: misof-2014-insect-phylogenomics
+          relation: supports
+          pages: 763–767
+          figure: Figures 1–3; Supplementary Tables; BioProject PRJNA183205
+          quoteLocator: Taxon and gene sampling; phylogenetic analyses; divergence dating
+  claim-rationales.zh:
+    - 归档的转录组矩阵与模型流程可复核；节点年代仍依赖化石归属、时钟先验、取样和序列模型。
+  claim-statements.zh:
+    - 1KITE 矩阵包含 144 个昆虫物种的 1,478 个蛋白编码基因，解析了许多目级关系并估算校准分化区间；但节点年龄依赖化石归属、时钟先验、分类单元取样和序列模型。

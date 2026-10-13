@@ -1,0 +1,251 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Panophrys lishuiensis
+    name:
+      en: Panophrys lishuiensis
+      zh: Panophrys lishuiensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Panophrys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-578000e0f5
+            part: body
+          zh:
+            page: zh
+            section: s-7aea1b7fb6
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6525be519d
+            part: body
+          zh:
+            page: zh
+            section: s-4d77ba35bc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4010, 4011; Reference.csv rows 1047
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4010
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys lishuiensis
+          - M
+          - "32.5"
+          - "9.8"
+          - "10.9"
+          - "4.1"
+          - "2.1"
+          - NA
+          - "2.5"
+          - "3.5"
+          - "3.2"
+          - NA
+          - "4.3"
+          - "2.3"
+          - "8.4"
+          - NA
+          - "15.2"
+          - "12.84"
+          - NA
+          - "15"
+          - "14.2"
+          - "19.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.7"
+          - "2.9"
+          - "5.2"
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4011
+        values:
+          - Megophryidae
+          - Panophrys
+          - Panophrys lishuiensis
+          - F
+          - "39"
+          - "10.6"
+          - "12.1"
+          - "4.3"
+          - "2.3"
+          - NA
+          - "2.9"
+          - "4.2"
+          - "3.7"
+          - NA
+          - "4.3"
+          - "2.6"
+          - "9"
+          - NA
+          - "17.5"
+          - "14.3"
+          - NA
+          - "16.5"
+          - "16"
+          - "21.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.2"
+          - "3.1"
+          - "5.6"
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1047
+        values:
+          - Anura
+          - Panophrys_lishuiensis
+          - Wang, B., Wu, Y. Q., Peng, J. W., Shi, S. C., Lu, N. N., & Wu, J. (2020). A new Megophrys Kuhl & Van Hasselt (Amphibia, Megophryidae) from southeastern China. Zookeys(904), 35-62. https://doi.org/10.3897/zookeys.904.47354
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

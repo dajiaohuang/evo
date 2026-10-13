@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella huynhi
+  displayName: Leptobrachella huynhi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZVM2
+  sourceIndexes:
+    - name:
+        en: Leptobrachella huynhi
+        zh: Leptobrachella huynhi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZVM2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/238
+            queryName: Leptobrachella huynhi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-016a8ca813
+      - s-237e03b673
+      - s-892ab9bc34
+      - s-404c0240ef
+      - s-620733df9f
+      - s-8f2e176998
+      - s-00dc1cca0e
+      - s-12eca142b1
+      - s-3bb3f6a550
+    zh:
+      - s-7da63c3fad
+      - s-4303c85826
+      - s-561b63256a
+      - s-3158b17e89
+      - s-2ce43dbee4
+      - s-a1a91d27af
+      - s-5cb71852b2
+      - s-6da4fa3fb4
+      - s-064d472b57

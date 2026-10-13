@@ -1,0 +1,3 @@
+## What can two Morotopithecus bones tell us about movement? {#s-a881f7f04d}
+At Moroto in Uganda, MUZM 60 preserves part of the shoulder joint from Moroto I; MUZM 80 consists of six femoral fragments assigned to one individual from Moroto II. Researchers used these separate early Miocene specimens to infer a mixed tree-dwelling locomotor repertoire for *Morotopithecus*. They do not form a single skeleton: linking the bones to one genus relies on comparison across localities, while locomotion and relationship to the living-ape crown group remain interpretations. Neither specimen shows that *Morotopithecus* was a direct ancestor.
+

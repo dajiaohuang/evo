@@ -1,0 +1,114 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris feriarum
+  displayName: Pseudacris feriarum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9H
+  sourceIndexes:
+    - name:
+        en: Pseudacris feriarum
+        zh: Pseudacris feriarum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/254
+            queryName: Pseudacris feriarum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/269
+            queryName: Pseudacris triseriata feriarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/473
+            queryName: Pseudacris nigrita feriarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/474
+            queryName: Helocaetes feriarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/475
+            queryName: Pseudacris feriarum feriarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/423
+            queryName: Hyla feriarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/388
+            queryName: Chorophilus feriarum feriarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/389
+            queryName: Chorophilus nigritus feriarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0faaa586f7
+      - s-44ee31483d
+      - s-bd57cade85
+      - s-09637be14e
+      - s-5be806d0bc
+      - s-82a80e10d2
+      - s-aa5200e23c
+      - s-6f3d7a5fe8
+      - s-db470eb1e2
+      - s-68aa9e93cc
+      - s-7cb0d99e01
+      - s-3e4ec5cbef
+      - s-5058901cad
+      - s-d292912b9e
+      - s-c4cd0db52f
+      - s-2efa9d1337
+    zh:
+      - s-c50046946c
+      - s-97a427ac7c
+      - s-ab5e54c459
+      - s-846aa2a9d9
+      - s-e42f4b49f0
+      - s-74eed07499
+      - s-3533ecd62b
+      - s-3647d71982
+      - s-23dbc7371e
+      - s-0f622363bb
+      - s-c0918cb07a
+      - s-a07ba167d5
+      - s-8dc08d0fc5
+      - s-4c2744bdab
+      - s-d2e3ddd518
+      - s-45fc931796

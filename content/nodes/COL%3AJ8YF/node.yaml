@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus famelicus
+  displayName: Atelopus famelicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YF
+  sourceIndexes:
+    - name:
+        en: Atelopus famelicus
+        zh: Atelopus famelicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/255
+            queryName: Atelopus famelicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/332
+            queryName: Atelopus negreti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-124d33aa49
+      - s-ec03d97f4d
+      - s-8485e9aa95
+      - s-4180808777
+      - s-e7d3b576e2
+      - s-01d948f3e9
+      - s-0c9c02a9e4
+      - s-a4e8f30fbb
+      - s-537d57fa99
+      - s-2f0f8f7f5b
+    zh:
+      - s-3bdeaed81d
+      - s-444f50de24
+      - s-95d32b85a7
+      - s-f8fdeb9066
+      - s-16c63ddae3
+      - s-4c70285af7
+      - s-7d36815df5
+      - s-99f6e3bc48
+      - s-d7413caa54
+      - s-cd790db497

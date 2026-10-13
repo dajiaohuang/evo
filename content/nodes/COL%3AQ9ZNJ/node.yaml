@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella shimentaina
+  displayName: Leptobrachella shimentaina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q9ZNJ
+  sourceIndexes:
+    - name:
+        en: Leptobrachella shimentaina
+        zh: Leptobrachella shimentaina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q9ZNJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/291
+            queryName: Leptobrachella shimentaina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3fedee858e
+      - s-96b93b8cb3
+      - s-5b0de20d17
+      - s-7a9fe62810
+      - s-387bca2e1f
+    zh:
+      - s-dde2034c2c
+      - s-7fc078dfbb
+      - s-7a826776a6
+      - s-f4593566a9
+      - s-6f96a24124

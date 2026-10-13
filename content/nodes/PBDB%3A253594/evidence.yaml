@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Craspedochelys jaccardi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Craspedochelys jaccardi
+      en: Craspedochelys jaccardi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-734d38f598
+            part: body
+          en:
+            page: en
+            section: s-7b75410057
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3865f52368
+            part: body
+          en:
+            page: en
+            section: s-d92d34fb00
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7504eece6c
+            part: body
+          en:
+            page: en
+            section: s-4dd7edfc09
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3f69f9f142
+            part: body
+          en:
+            page: en
+            section: s-45e1d98900
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8dcccfc7b7
+            part: body
+          en:
+            page: en
+            section: s-0636330280
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Craspedochelys jaccardi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=253594&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:253594; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:253594
+          selectedOccurrenceIds:
+            - occ:1094386
+            - occ:1094409
+            - occ:1094434
+            - occ:1382044
+          selectedCollectionIds:
+            - col:90875
+            - col:138016
+            - col:138021
+            - col:189389
+          sourceReferenceIds:
+            - ref:44124
+            - ref:44127
+            - ref:63601
+          originalIdentificationMappings:
+            - occurrenceId: occ:1094386
+              originalIdentifiedName: Plesiochelys jaccardi
+              acceptedName: Craspedochelys jaccardi
+              difference: recombined as
+            - occurrenceId: occ:1094434
+              originalIdentifiedName: Emys jaccardi n. sp.
+              acceptedName: Craspedochelys jaccardi
+              difference: recombined as
+            - occurrenceId: occ:1382044
+              originalIdentifiedName: Plesiochelys choffati n. sp.
+              acceptedName: Craspedochelys jaccardi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-30002be197
+        part: body
+      en:
+        page: en
+        section: s-a68234253d
+        part: body

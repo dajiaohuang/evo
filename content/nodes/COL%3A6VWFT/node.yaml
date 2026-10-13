@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lanthanites
+  displayName: Pristimantis lanthanites
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VWFT
+  sourceIndexes:
+    - name:
+        en: Pristimantis lanthanites
+        zh: Pristimantis lanthanites
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VWFT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/351
+            queryName: Pristimantis lanthanites
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/402
+            queryName: Eleutherodactylus lanthanites
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6b679c2365
+      - s-b0f6992a03
+      - s-7d9ec337df
+      - s-6a5abb10ee
+      - s-d7f1c6bd88
+      - s-6d7411c01b
+      - s-1f46ca30b2
+      - s-557457eba5
+      - s-6ac320abc8
+      - s-3ee18ebb21
+      - s-390bbaf40e
+      - s-ce1c4ee215
+      - s-fc7ebc3fa4
+      - s-7b2dea5744
+      - s-3bc99828b0
+      - s-cc24bcb845
+      - s-0fae4021cf
+      - s-cac696563a
+      - s-8ef2555c44
+      - s-5dbf3ab2c4
+      - s-dec22c7e77
+      - s-cfaabaed8e
+      - s-dd0f9fbb4f
+      - s-9b3eec2850
+      - s-f99a532cf6
+    zh:
+      - s-f83e34902c
+      - s-f48d634a04
+      - s-acb2d50744
+      - s-50754c9d88
+      - s-f04d67827e
+      - s-35cb3eb32f
+      - s-713a3fc6bc
+      - s-cb5fab3c8a
+      - s-8f1a47eec5
+      - s-eab837b6b1
+      - s-81cb6881e0
+      - s-a4657f5d64
+      - s-b003f93170
+      - s-49cbba5ac4
+      - s-c2391db5d0
+      - s-d5d9db85c0
+      - s-c88a1feec7
+      - s-b4e5acee25
+      - s-58163c9e45
+      - s-7c4727efb3
+      - s-5420776f08
+      - s-bb239959a4
+      - s-eb2a78d1d6
+      - s-456f40c749
+      - s-d131b46434

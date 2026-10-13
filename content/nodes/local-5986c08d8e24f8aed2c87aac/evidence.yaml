@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Brachycephalus hermogenesi
+    name:
+      en: Brachycephalus hermogenesi
+      zh: Brachycephalus hermogenesi
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Brachycephalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Brachycephalus hermogenesi in the version 3 classification
+          zh: Brachycephalus hermogenesi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e176c2820f
+            part: body
+          zh:
+            page: zh
+            section: s-0d62dc0f1b
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 10 populated trait fields
+          zh: 2 条测量行与 10 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-449bfe6af5
+            part: body
+          zh:
+            page: zh
+            section: s-23cc0793cc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 846, 847; Reference.csv rows 2018
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 846
+        values:
+          - Brachycephaloidea
+          - Brachycephalus
+          - Brachycephalus hermogenesi
+          - F
+          - "10"
+          - "2.25"
+          - "3.38"
+          - "1.23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - NA
+          - NA
+          - "1.85"
+          - "2.31"
+          - NA
+          - "4"
+          - NA
+          - "4.46"
+          - "4.31"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 847
+        values:
+          - Brachycephaloidea
+          - Brachycephalus
+          - Brachycephalus hermogenesi
+          - M
+          - "8.77"
+          - "2"
+          - "3.02"
+          - "1.08"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.75"
+          - NA
+          - NA
+          - "1.54"
+          - "2.15"
+          - NA
+          - "3.23"
+          - NA
+          - "4.15"
+          - "3.85"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2018
+        values:
+          - Anura
+          - Brachycephalus_hermogenesi
+          - "Giaretta, A. A., & Sawaya, R. J. (1998). Second species of Psyllophryne (Anura : Brachycephalidae). Copeia(4), 985-987. https://doi.org/10.2307/1447345"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

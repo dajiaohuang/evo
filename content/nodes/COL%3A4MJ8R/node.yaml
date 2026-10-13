@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis acuminatus
+  displayName: Pristimantis acuminatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ8R
+  sourceIndexes:
+    - name:
+        en: Pristimantis acuminatus
+        zh: Pristimantis acuminatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ8R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/85
+            queryName: Pristimantis acuminatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/20
+            queryName: Eleutherodactylus acuminatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1958db2469
+      - s-e61280c031
+      - s-1b20d0ea61
+      - s-29272f69b6
+      - s-79a463b625
+      - s-fc2d28a344
+      - s-8a267a4ef5
+      - s-96d74c08d1
+      - s-dcd8bca6cc
+      - s-6044978369
+      - s-661df49188
+      - s-94758d6cfe
+      - s-b6fbbe5224
+      - s-6de6800ba2
+      - s-6202ec9aa6
+      - s-ddd0c688a4
+      - s-456a3b3ea6
+    zh:
+      - s-a9a785eaf1
+      - s-ed1afc4542
+      - s-3087b81dfd
+      - s-1a5931d445
+      - s-ecd8baed7a
+      - s-fb90cb715a
+      - s-54f054962e
+      - s-57b8649d61
+      - s-7b87c9e489
+      - s-d7ce146313
+      - s-4956860c84
+      - s-c915ebe431
+      - s-9374a2da7f
+      - s-16fb295499
+      - s-6ee30e6bf5
+      - s-06f04bb384
+      - s-be7f7cfb06

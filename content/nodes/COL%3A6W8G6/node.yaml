@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis tiktik
+  displayName: Pristimantis tiktik
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8G6
+  sourceIndexes:
+    - name:
+        en: Pristimantis tiktik
+        zh: Pristimantis tiktik
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8G6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/134
+            queryName: Pristimantis tiktik
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-94e81705ce
+      - s-ba952a9223
+      - s-403101aa60
+      - s-df16b71c56
+      - s-98fd51a066
+      - s-2d4f53c1db
+      - s-7b61545c48
+      - s-632d002bf7
+      - s-509dbeacf1
+      - s-328ce45d18
+      - s-a0a06cea75
+      - s-f6a38f5c45
+    zh:
+      - s-b43b8f44a7
+      - s-3e8ab39480
+      - s-4f48f488eb
+      - s-b7c0ebf589
+      - s-44b09bb4f8
+      - s-1270c7d9b9
+      - s-b60da2335d
+      - s-2cf53d6c77
+      - s-ae9c1b85be
+      - s-ea16a2ebef
+      - s-47020f219c
+      - s-316c6dad9e

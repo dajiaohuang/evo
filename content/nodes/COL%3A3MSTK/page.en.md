@@ -1,0 +1,3 @@
+## Huernia longii {#s-47e0150e2f}
+COL26.8 (released 2026-08-20) lists *Huernia longii* as an accepted species. One regional account describes leafless, mosaic-patterned cylindrical stems with teeth in 6–8 often spiralling rows; another describes underground stems spreading up to 30 cm before rising to form new clumps, with small raised bumps (tubercles) in 6–9 rows. The flowers are cream with brown-red spots, and the habitat source records stony sandstone or conglomerate slopes. A 2019 note uses the name *H. longii* subsp. *longii* in Bruyns (2005a). The row counts and taxonomic wording are retained as source-specific accounts.
+

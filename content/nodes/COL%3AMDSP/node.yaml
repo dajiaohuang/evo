@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa tica
+  displayName: Bolitoglossa tica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSP
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa tica
+        zh: Bolitoglossa tica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/208
+            queryName: Bolitoglossa tica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b40bf8d08a
+      - s-2ae5b558c1
+      - s-4c77381089
+      - s-a8b5dc1ea1
+      - s-e5101447ee
+      - s-a7dcb27020
+    zh:
+      - s-bca2f0bae9
+      - s-91bbc5f50f
+      - s-b827140b89
+      - s-e8e8fd009a
+      - s-d51ec77754
+      - s-335ed7de08

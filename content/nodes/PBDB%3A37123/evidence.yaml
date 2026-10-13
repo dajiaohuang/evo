@@ -1,0 +1,185 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Trematosauroidea
+    rank: superfamily
+    sourceTaxonId: txn:37123
+    name:
+      en: Trematosauroidea
+      zh: Trematosauroidea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-43cf2bfcec
+            part: body
+          zh:
+            page: zh
+            section: s-e361fbe0fc
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-9f12568bf5
+            part: body
+          zh:
+            page: zh
+            section: s-d074102e52
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-fc4714f2f3
+            part: body
+          zh:
+            page: zh
+            section: s-47fa56960e
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-43f858f13e
+            part: body
+          zh:
+            page: zh
+            section: s-0ea4a8812f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37123; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: D. M. S. Watson. 1919. The structure, evolution and origin of the Amphibia.—The "orders" Rachitomi and Stereospondyli. Philosophical Transactions of the Royal Society of London, Series B 209:1-73
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:266631
+        - txn:165271
+        - txn:266517
+        - txn:265928
+        - txn:266522
+        - txn:251627
+        - txn:367546
+        - txn:376057
+        - txn:375432
+        - txn:375433
+        - txn:248613
+        - txn:263210
+        - txn:248611
+        - txn:266660
+        - txn:169908
+        - txn:375374
+        - txn:251294
+        - txn:202575
+        - txn:251450
+        - txn:266629
+        - txn:179389
+        - txn:180129
+        - txn:266624
+        - txn:375429
+        - txn:266519
+        - txn:71421
+        - txn:69036
+        - txn:500933
+        - txn:64936
+        - txn:391804
+        - txn:251933
+        - txn:64934
+        - txn:378963
+        - txn:391808
+        - txn:455122
+        - txn:159204
+        - txn:258643
+        - txn:317464
+        - txn:157511
+        - txn:266623
+        - txn:266627
+        - txn:375434
+        - txn:362935
+        - txn:362933
+        - txn:375430
+        - txn:442819
+        - txn:174472
+        - txn:251517
+      exactOccurrenceCount: 193
+      datedOccurrenceCount: 193
+      collectionIntervalBoundsMa:
+        older: 259.857
+        younger: 201.4
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-43f858f13e
+            part: body
+          zh:
+            page: zh
+            section: s-0ea4a8812f
+            part: body
+        sourceIds: []

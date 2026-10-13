@@ -1,0 +1,3 @@
+## *Homalolepis cedron* {#s-f0102eae45}
+The field records a developed, unbranched above-ground stem. The leaf rachis is 30–90 cm long; opposite or nearly opposite leaflets are elliptic to narrowly oblong or obovate, with a leathery to papery texture and a conspicuous apical gland. Their margins are not rolled under, and the lower surfaces become nearly hairless. The inflorescence is a panicle. Sepals are hairy; petals are narrowly oblong to oblanceolate and woolly; the staminal appendages have blunt to truncate tips. The gynophore and ovary are silky-haired to woolly, while the fruit surface is smooth. These are database descriptors.
+

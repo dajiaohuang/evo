@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia marmorata
+  displayName: Uperoleia marmorata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DLVQ
+  sourceIndexes:
+    - name:
+        en: Uperoleia marmorata
+        zh: Uperoleia marmorata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DLVQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/198
+            queryName: Uperoleia marmorata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/496
+            queryName: Uperoleia marmorata marmorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae79e76dfd
+      - s-aedea767a7
+      - s-840f16f083
+      - s-7a441445aa
+      - s-c378587cf5
+      - s-05ecad2268
+      - s-c4213a3bde
+      - s-f1579a80e9
+      - s-bba627ee49
+    zh:
+      - s-11d453e438
+      - s-29307b0ff6
+      - s-51c4816b8c
+      - s-a2b39dad31
+      - s-b5c4d5865b
+      - s-e63278f8b2
+      - s-9e175e5e02
+      - s-0ce574fd99
+      - s-c5b07e4f49

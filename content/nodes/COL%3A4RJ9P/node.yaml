@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes charius
+  displayName: Raorchestes charius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RJ9P
+  sourceIndexes:
+    - name:
+        en: Raorchestes charius
+        zh: Raorchestes charius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RJ9P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/133
+            queryName: Raorchestes charius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/246
+            queryName: Philautus charius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/376
+            queryName: Kirtixalus charius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/377
+            queryName: Pseudophilautus charius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4082dae698
+      - s-abb59aa6c8
+      - s-c670110e09
+      - s-ef05269b4f
+      - s-47cb94ae59
+      - s-3d0fd5a67f
+      - s-f09b0a087f
+      - s-8afc198b8a
+      - s-7c5a85972c
+      - s-ffaa7c6ee3
+      - s-ef3f0821fe
+    zh:
+      - s-2b5332ad51
+      - s-6622b8c014
+      - s-e2239afb05
+      - s-eca9d5ec26
+      - s-1844ad4b98
+      - s-167ec5ee47
+      - s-2e691f471d
+      - s-e6429b6366
+      - s-07d4abfa66
+      - s-c2ef153ce4
+      - s-f966b12fe2

@@ -1,0 +1,9 @@
+## Open the four historical species accounts {#s-e645ab83e3}
+Four historical life-history accounts are linked here: [*Callimico goeldii*](Callimico/Callimico_goeldii/page.en.md), [*Callithrix flaviceps*](Callithrix/Callithrix_flaviceps/page.en.md), [*Callithrix jacchus*](Callithrix/Callithrix_jacchus/page.en.md) and [*Leontopithecus rosalia*](Leontopithecus/Leontopithecus_rosalia/page.en.md). The links follow pinned COL26.8 classification and do not represent every accepted species in Callitrichidae.
+
+## How to compare reproductive timing and lifespan {#s-5604321bf9}
+Three accounts report gestation, female age at first reproduction and maximum lifespan. First reproduction differs from first birth and sexual maturity; maximum lifespan differs from average lifespan. Source conditions can also differ among traits. Missing fields need other evidence, and matching names do not resolve changes in historical species concepts.
+
+## Evidence limits {#s-41e918a5ae}
+The four linked accounts summarize historical life-history entries, not every accepted descendant or the complete biology of Callitrichidae. They associate names through family matches and a one-to-one MSW93/MSW05 table; equivalence with current species concepts remains unproven. Except for maximum lifespan, fields generally average literature sources with equal weighting. Inputs can include published averages, individual values or range midpoints when other data are unavailable. Sample size does not determine weight, and underlying studies may overlap. Maximum lifespan is the longest record, not typical lifespan. Adult mass is not interpreted in these accounts, and relatives do not fill missing fields. Original reference numbers remain on each page; wild, captive and locality conditions were not established consistently, and the cited species literature has not been individually reviewed here.
+

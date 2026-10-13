@@ -1,0 +1,661 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nymphargus spilotus (Ruiz-Carranza & Lynch, 1997)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nymphargus spilotus
+      zh: Nymphargus spilotus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e3d3dd6c10
+            part: title
+          zh:
+            page: zh
+            section: s-81988ce288
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e3d3dd6c10
+            part: body
+          zh:
+            page: zh
+            section: s-81988ce288
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0ace2c232c
+            part: title
+          zh:
+            page: zh
+            section: s-e3a5575a06
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0ace2c232c
+            part: body
+          zh:
+            page: zh
+            section: s-e3a5575a06
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-33cc95aa9f
+            part: title
+          zh:
+            page: zh
+            section: s-83b59d251c
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-33cc95aa9f
+            part: body
+          zh:
+            page: zh
+            section: s-83b59d251c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3d44b7ad18
+            part: title
+          zh:
+            page: zh
+            section: s-6415a06ddf
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-3d44b7ad18
+            part: body
+          zh:
+            page: zh
+            section: s-6415a06ddf
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a589e7af08
+            part: title
+          zh:
+            page: zh
+            section: s-6c09454ef2
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-a589e7af08
+            part: body
+          zh:
+            page: zh
+            section: s-6c09454ef2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-41d4201532
+            part: title
+          zh:
+            page: zh
+            section: s-3f2bd6f7d3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-41d4201532
+            part: body
+          zh:
+            page: zh
+            section: s-3f2bd6f7d3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f40f4b646b
+            part: title
+          zh:
+            page: zh
+            section: s-15f4496077
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f40f4b646b
+            part: body
+          zh:
+            page: zh
+            section: s-15f4496077
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f9daaef606049bbcb449456bf0fb6c3d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-aa32ea9f9a
+            part: title
+          zh:
+            page: zh
+            section: s-114e2555e8
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-aa32ea9f9a
+            part: body
+          zh:
+            page: zh
+            section: s-114e2555e8
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-5b00bc9a8d
+            part: title
+          zh:
+            page: zh
+            section: s-d19ac17378
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-5b00bc9a8d
+            part: body
+          zh:
+            page: zh
+            section: s-d19ac17378
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-2fd2869e4a
+            part: title
+          zh:
+            page: zh
+            section: s-c38000b83e
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-2fd2869e4a
+            part: body
+          zh:
+            page: zh
+            section: s-c38000b83e
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f7df19cc9f
+            part: title
+          zh:
+            page: zh
+            section: s-6c0a44b764
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-f7df19cc9f
+            part: body
+          zh:
+            page: zh
+            section: s-6c0a44b764
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1f5a589e3a
+            part: title
+          zh:
+            page: zh
+            section: s-3e3a715582
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-1f5a589e3a
+            part: body
+          zh:
+            page: zh
+            section: s-3e3a715582
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-8c585ecae8
+            part: title
+          zh:
+            page: zh
+            section: s-e8cb8cd272
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-8c585ecae8
+            part: body
+          zh:
+            page: zh
+            section: s-e8cb8cd272
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-89523e9454
+            part: title
+          zh:
+            page: zh
+            section: s-685423da34
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-89523e9454
+            part: body
+          zh:
+            page: zh
+            section: s-685423da34
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-1ffd0c189d
+            part: title
+          zh:
+            page: zh
+            section: s-2e356c85ff
+            part: title
+        sourceIds:
+          - primary-pmc6404656-486k9
+        text:
+          en:
+            page: en
+            section: s-1ffd0c189d
+            part: body
+          zh:
+            page: zh
+            section: s-2e356c85ff
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nymphargus spilotus
+          url: https://www.checklistbank.org/dataset/316115/taxon/486K9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0999; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0999 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc6404656-486k9
+        referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nymphargus spilotus: Mainsec1–8paragraphs/Tables1–2/AppendixI andallTableS1DOCXdonorrows read;cloudDOI/license/MD5verified;originalmainfigurepixels/audio/alignments/GenBankrecords/voucheridentities unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ce7721896e
+        part: body
+      zh:
+        page: zh
+        section: s-3abda7cd74
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-f9daaef606049bbcb449456bf0fb6c3d
+      sourceRowId: Anf0999
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0999
+        bibliographyRowId: Anf0999
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Nymphargus spilotus
+        candidateBibliographyRowIds:
+          - Anf0999
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.6400
+        referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+        sourceKey: primary-pmc6404656-486k9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6404656/article.xml
+        sourceConcept: Exact frozen-name match to selected maintext/table/Appendix labels;qualified/unnamedcandidates andhistoricalassessments remainseparate
+        evidenceRead: "Nymphargus spilotus: Mainsec1–8paragraphs/Tables1–2/AppendixI andallTableS1DOCXdonorrows read;cloudDOI/license/MD5verified;originalmainfigurepixels/audio/alignments/GenBankrecords/voucheridentities unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A table comparison with manduriacu
+              zh: 与manduriacu的表格比较
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 XMLTable1SVL/color/webbing/source rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7c37b074ba
+                part: body
+              zh:
+                page: zh
+                section: s-49af117553
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: The source’s elevational comparison
+              zh: 来源的海拔比较
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 XMLTable1elevation/source rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-379811fd07
+                part: body
+              zh:
+                page: zh
+                section: s-f16d189758
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: occurrence
+            heading:
+              en: Examined vouchers and original locality strings
+              zh: 所检凭证与原地点字符串
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 XMLsec8p7;article.xml sha256:6eb844025bb6a10019e7f1cf3898533fe9165fed134e221a9740d9d265aa19a6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e62e3114e0
+                part: body
+              zh:
+                page: zh
+                section: s-6d995fe6ee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: A holotype-code and panel-reference conflict
+              zh: 正模编号及图板引用冲突
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 XMLTable1webbingrow;Fig6caption;sec8p7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2061cd7178
+                part: body
+              zh:
+                page: zh
+                section: s-f3f228918a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: taxonomy
+            heading:
+              en: Inclusion in the2019 sampled genus
+              zh: 2019采样属中的纳入
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 XMLsec2p8;sec3p1–2;supp-1caption
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e2132f17e1
+                part: body
+              zh:
+                page: zh
+                section: s-1890375bfe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: evolution
+            heading:
+              en: A sampled biogeographic hypothesis
+              zh: 采样的生物地理假说
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 XMLsec5p1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-68e4e77076
+                part: body
+              zh:
+                page: zh
+                section: s-7c6c48fb04
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: evolution
+            heading:
+              en: Mitochondrial donors and accession columns
+              zh: 线粒体供体与登录号列
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 supplementpeerj-07-6400-s001.docx table1rows35 columnsSpecies/Museum/12S/16S;sha256:a93b4493e7a2578adb2a1757acb61199fc088df2c2e9091650318dc6f184d72b
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ff28b7db71
+                part: body
+              zh:
+                page: zh
+                section: s-b23ae8ecb9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 7
+            topic: range
+            heading:
+              en: Donor-locality rows remain record-specific
+              zh: 供体地点行保持记录特定
+            referenceId: ref-4999261b-21f8-4ec9-a075-da06ebf2659e
+            sourceKey: primary-pmc6404656-486k9
+            locator: PMC6404656 supplementpeerj-07-6400-s001.docx same rows Localitycolumn;sha256:a93b4493e7a2578adb2a1757acb61199fc088df2c2e9091650318dc6f184d72b
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4545df08e4
+                part: body
+              zh:
+                page: zh
+                section: s-9dab9a0cf6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

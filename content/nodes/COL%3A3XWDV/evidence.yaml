@@ -1,0 +1,314 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus grandidieri Mocquard, 1895
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus grandidieri
+      zh: Mantidactylus grandidieri
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-bf298aacb2
+            part: title
+          zh:
+            page: zh
+            section: s-e067109a96
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bf298aacb2
+            part: body
+          zh:
+            page: zh
+            section: s-e067109a96
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6f74f02ea0
+            part: title
+          zh:
+            page: zh
+            section: s-89b151ca21
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6f74f02ea0
+            part: body
+          zh:
+            page: zh
+            section: s-89b151ca21
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8694a1422e
+            part: title
+          zh:
+            page: zh
+            section: s-4ba1fabcee
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-8694a1422e
+            part: body
+          zh:
+            page: zh
+            section: s-4ba1fabcee
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1f9784e85a
+            part: title
+          zh:
+            page: zh
+            section: s-71f9e20447
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-1f9784e85a
+            part: body
+          zh:
+            page: zh
+            section: s-71f9e20447
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a6407373e3
+            part: title
+          zh:
+            page: zh
+            section: s-1962caf997
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-a6407373e3
+            part: body
+          zh:
+            page: zh
+            section: s-1962caf997
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8222d2359e
+            part: title
+          zh:
+            page: zh
+            section: s-57ec7aa7ab
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-8222d2359e
+            part: body
+          zh:
+            page: zh
+            section: s-57ec7aa7ab
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-72ea5c1601
+            part: title
+          zh:
+            page: zh
+            section: s-d24e08f018
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-72ea5c1601
+            part: body
+          zh:
+            page: zh
+            section: s-d24e08f018
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-94fe2f6184
+            part: title
+          zh:
+            page: zh
+            section: s-184a13afc0
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-94fe2f6184
+            part: body
+          zh:
+            page: zh
+            section: s-184a13afc0
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-8e6704ecee564c30833d548dfbb621d0
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus grandidieri
+          url: https://www.checklistbank.org/dataset/316115/taxon/3XWDV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3660; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3661 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8916632fb3
+        part: body
+      zh:
+        page: zh
+        section: s-be157ce557
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-8e6704ecee564c30833d548dfbb621d0
+      sourceRowId: Anf3660
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf3660
+        bibliographyRowId: Anf3661
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Mantidactylus femoralis
+        candidateBibliographyRowIds:
+          - Anf3661
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.

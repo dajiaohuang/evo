@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana amurensis
+  displayName: Rana amurensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDGX
+  sourceIndexes:
+    - name:
+        en: Rana amurensis
+        zh: Rana amurensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDGX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/42
+            queryName: Rana amurensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 90
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/197
+            queryName: Rana muta johanseni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/198
+            queryName: Rana amurensis amurensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/199
+            queryName: Rana temporaria johanseni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/374
+            queryName: Rana middendorffi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bbeaa3919e
+      - s-40a5730767
+      - s-332f9ba555
+      - s-e00390dc7f
+      - s-944a74017e
+      - s-f64c384b2f
+      - s-facd7d94b8
+      - s-24f10b821e
+      - s-e212931ecd
+      - s-f4789e57f5
+      - s-efc6fde194
+      - s-4d8cb78b1b
+      - s-fb7dacffcb
+      - s-cef45e8c72
+      - s-819253aa39
+      - s-245042ba80
+      - s-5bfe647059
+      - s-f85c9b014d
+      - s-f989b35bfb
+      - s-793eb96bdb
+      - s-91057f05bb
+    zh:
+      - s-db9413eddd
+      - s-ac11de036a
+      - s-153875764a
+      - s-9e00d68cbb
+      - s-f0a7a3030f
+      - s-72df7bd90f
+      - s-7187f1877d
+      - s-09166b500e
+      - s-3039f182e3
+      - s-047ea9ce35
+      - s-efde497f98
+      - s-83f425aceb
+      - s-37f9b81ac1
+      - s-75c520ac4a
+      - s-9addf2bdc4
+      - s-571b8872c8
+      - s-2070655b5a
+      - s-fe6bd79e83
+      - s-1d458df357
+      - s-991e0363e9
+      - s-180c8e0e18

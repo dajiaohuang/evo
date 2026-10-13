@@ -1,0 +1,3 @@
+## Domatia and floral measurements in the record {#s-8ee254d33d}
+The Brazilian Flora 2020 entry records foliaceous stipules and triangular domatia on the petiole. Leaves have up to 10 pairs of elliptic, membranous leaflets; the lower surface is listed as glabrous or pubescent. Flowers are up to 10 mm long and radially symmetric, with deciduous bracteoles. The hypanthium is symmetric and cup shaped. Petal width is listed as under or over 1 mm, with sparse indument; stamens are monomorphic, with 10 counted. The fruit is elliptic to oblong. No habitat field is included, so the record does not establish habitat or range.
+

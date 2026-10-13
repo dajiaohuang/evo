@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulina kisiwamsitu
+  displayName: Callulina kisiwamsitu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WVCF
+  sourceIndexes:
+    - name:
+        en: Callulina kisiwamsitu
+        zh: Callulina kisiwamsitu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WVCF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/106
+            queryName: Callulina kisiwamsitu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e3791af311
+      - s-0d0ab840e1
+      - s-c695e76372
+      - s-89edc7ceac
+      - s-81169dfa22
+      - s-3bd86f71e4
+      - s-6f1cbcef1b
+      - s-768af1c6da
+      - s-25782b3764
+      - s-086749164c
+    zh:
+      - s-696da88ff0
+      - s-1e8af79da8
+      - s-41b7734ab2
+      - s-1c220072be
+      - s-6d03dc0360
+      - s-1641b5b7f1
+      - s-5e679c4b69
+      - s-19b987d17e
+      - s-d65750aeb9
+      - s-3f6d8ec72f

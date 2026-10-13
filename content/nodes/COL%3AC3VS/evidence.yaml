@@ -1,0 +1,115 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe neilcrouchii Klopper & Gideon F.Sm.
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-e97784d98a
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-e52df10f85
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C3VS, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C3VS; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3VS
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C3VS
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000922378-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C3VS / WFO wfo-0000922378
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7414_0
+        referenceId: ref-2518034d-5672-83c8-a721-62528ae3c5a5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe neilcrouchii Klopper & Gideon F.Sm. account; SANBI/WFO archive rows 79353 (Morphology), 78826 (Habitat), 78140 (Diagnostic), source identifier 7414.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Grass aloe. Stem up to 950 x 90 mm, decumbent to erect, branched mainly from base, forming robust offshoots along its length, without persistent dried leaves. Leaves deciduous, densely rosulate, erectly spreading, green, with numerous elongated, white, somewhat tuberculate spots on both surfaces, deltoid to ovate-lanceolate, up to 430 mm long, up to 135 mm wide at base; margin narrow, cartilaginous, whitish, with small whitish, deltoid, irregularly spaced teeth, 1-2 mm long, 2-5 mm apart; leaf exudate clear, drying clear, not bitter. Inflorescence 1 per rosette, 0.6-0.8 m high, erect, simple. Peduncle laterally compressed below, terete above, up to 25 mm wide at base, ± 10-15 mm diam. above, bright green; sterile bracts, ± 9, ovate-lanceolate, acuminate, 30-50 mm long, 15-20 mm wide at base, pale whitish with pinkish tinge, thin, subscarious, many-nerved. Raceme capitate, ± 120 x 100 mm, erect, dense; buds erect to erectly spreading, flowers spreading to nodding when open. Floral bracts lanceolate-acuminate, subamplexicaul, ± 30 x 7 mm, pale whitish, thin, subscarious to almost fleshy, many-nerved. Pedicels 30-45 mm long, pale yellowish to salmon-pink. Flowers: perianth salmon-pink, green-tipped, ± 45 mm long, 10-13 mm across ovary, slightly narrowed above ovary to 8-10 mm, slightly constricted to ± 7 mm just before flared mouth, cylindric-trigonous; outer segments free almost to base, tips spreading. Stamens with very pale greenish yellow, flattened filaments, not or only slightly exserted. Ovary ± 10 x 3-4 mm, light green; style very pale yellowish green, exserted to ± 5 mm. Fruit an oblong capsule, bright green to yellowish green, up to 40-45 x ± 22 mm. Seeds angular, black, 3 x 2 mm, with semi-transparent, light brownish wing, ± 1 mm wide. Flowering time: December to February. Chromosome number: unknown."
+            textZh: Aloe neilcrouchii Klopper & Gideon F.Sm. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7414_0
+            locator: "SANBI/WFO archive Morphology row 79353; source identifier 7414.0; cited publication: Klopper, RR; Smith, GF. 2010. Asphodelaceae: Aloe neilcrouchii, a new robust Leptaloe from KwaZulu-Natal, South Africa. Bothalia 40(1): 93 - 96. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Aloe neilcrouchii belongs to A. sect. Leptoaloe and represents the largest of the known species of this group. Its closest affinity appears to be A. boylei Baker, especially A. boylei subsp. major Hilliard & Burtt. However, it differs from that species by its long, sprawling, leafless stems that branch from the base or form offshoots along its length, its shorter but broader, elongated-deltoid leaves that are copiously covered with white tuberculate spots on both surfaces and its taller inflorescences.
+            textZh: SANBI 条目提供了 Aloe neilcrouchii Klopper & Gideon F.Sm. 的鉴别特征。
+            sourceIds:
+              - sanbi_7414_0
+            locator: "SANBI/WFO archive Diagnostic row 78140; source identifier 7414.0; cited publication: Klopper, RR; Smith, GF. 2010. Asphodelaceae: Aloe neilcrouchii, a new robust Leptaloe from KwaZulu-Natal, South Africa. Bothalia 40(1): 93 - 96. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Aloe neilcrouchii grows on southeast-facing slopes of rocky grassland in Drakensberg Foothill Moist Grassland and in vulnerable Ngongoni Veld.
+            textZh: 该 SANBI 区域物种条目记录的生境：Aloe neilcrouchii grows on southeast-facing slopes of rocky grassland in Drakensberg Foothill Moist Grassland and in vulnerable Ngongoni Veld.
+            sourceIds:
+              - sanbi_7414_0
+            locator: "SANBI/WFO archive Habitat row 78826; source identifier 7414.0; cited publication: Klopper, RR; Smith, GF. 2010. Asphodelaceae: Aloe neilcrouchii, a new robust Leptaloe from KwaZulu-Natal, South Africa. Bothalia 40(1): 93 - 96. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

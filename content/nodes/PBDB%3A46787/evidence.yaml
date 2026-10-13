@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mithrandir gillianus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Mithrandir gillianus
+      en: Mithrandir gillianus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b43d7c27c6
+            part: body
+          en:
+            page: en
+            section: s-a3af1f40ac
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-209b26b7de
+            part: body
+          en:
+            page: en
+            section: s-dd7aa10865
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-76df7a39e7
+            part: body
+          en:
+            page: en
+            section: s-43f1df89f8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2e2fc64af2
+            part: body
+          en:
+            page: en
+            section: s-26fb25ca57
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ca1213bc83
+            part: body
+          en:
+            page: en
+            section: s-0053f66f5c
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Mithrandir gillianus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=46787&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:46787; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:46787
+          selectedOccurrenceIds:
+            - occ:163799
+            - occ:163961
+            - occ:163974
+            - occ:163980
+            - occ:163993
+            - occ:163994
+            - occ:164002
+            - occ:164018
+            - occ:164030
+            - occ:164032
+            - occ:164035
+            - occ:164049
+            - occ:164213
+            - occ:164457
+            - occ:164462
+            - occ:164485
+          selectedCollectionIds:
+            - col:14662
+            - col:14703
+            - col:14706
+            - col:14707
+            - col:14713
+            - col:14714
+            - col:14718
+            - col:14722
+            - col:14724
+            - col:14726
+            - col:14728
+            - col:14731
+            - col:14760
+            - col:14794
+            - col:14795
+            - col:14797
+          sourceReferenceIds:
+            - ref:6294
+            - ref:1419
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4634ebea14
+        part: body
+      en:
+        page: en
+        section: s-37beba1bc8
+        part: body

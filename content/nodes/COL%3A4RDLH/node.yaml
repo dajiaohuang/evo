@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana chaochiaoensis
+  displayName: Rana chaochiaoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDLH
+  sourceIndexes:
+    - name:
+        en: Rana chaochiaoensis
+        zh: Rana chaochiaoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDLH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/45
+            queryName: Rana chaochiaoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/232
+            queryName: Rana japonica chaochiaoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a3d0e6526
+      - s-d9d7eeafe3
+      - s-be36595efd
+      - s-17d4eff371
+      - s-bbda86a972
+      - s-74d91a43e9
+      - s-73b8f2511a
+      - s-04b41a1b66
+      - s-989a857ff7
+      - s-f78daef0cb
+    zh:
+      - s-c6079f8886
+      - s-708d803919
+      - s-87968f7ccb
+      - s-d0cb08a933
+      - s-7a7086d7a7
+      - s-2b4be13ddf
+      - s-a03fc037ff
+      - s-77c5f8e295
+      - s-dc689f6037
+      - s-a0e66190e4

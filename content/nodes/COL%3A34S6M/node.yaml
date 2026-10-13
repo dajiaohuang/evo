@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus parviceps
+  displayName: Dendropsophus parviceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S6M
+  sourceIndexes:
+    - name:
+        en: Dendropsophus parviceps
+        zh: Dendropsophus parviceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S6M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/402
+            queryName: Dendropsophus parviceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/418
+            queryName: Hyla parviceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-09bcc11039
+      - s-a5088691e5
+      - s-9cf9f2ee8c
+      - s-0778e54443
+      - s-5041ce01a3
+      - s-2a1722ec8b
+      - s-4038183e5d
+      - s-fc6cd7c54e
+      - s-3579489ebe
+      - s-7c684b6273
+      - s-e6eccab7b5
+      - s-360b85a283
+      - s-fbdfb684f5
+      - s-73999c45fb
+      - s-c0c55cb906
+      - s-f0a312a9f8
+      - s-e1aa9ba3d9
+      - s-9bd43d8153
+      - s-b4c2165c76
+      - s-aeabfcb640
+      - s-e68a4480c7
+      - s-b03e719522
+      - s-34b2bcc889
+      - s-77186ae3e0
+      - s-5f2971784b
+      - s-c828dba30a
+      - s-e857e132dd
+    zh:
+      - s-626b411607
+      - s-e0bbb190bc
+      - s-283c6e3ba2
+      - s-7f18bcf0d5
+      - s-9ca3b66ed9
+      - s-6d67e945cf
+      - s-7f2eb78da7
+      - s-323b150db7
+      - s-c6ee294833
+      - s-34adff239f
+      - s-5fc6755a87
+      - s-21238084e2
+      - s-7eebb86956
+      - s-599daaa208
+      - s-61725ad37c
+      - s-0cdada41d7
+      - s-76ba309fd5
+      - s-afaf5c1754
+      - s-4176e77395
+      - s-17184e6839
+      - s-5413ad119a
+      - s-82bb2518b3
+      - s-21a984a061
+      - s-eae0e9325c
+      - s-79ef234631
+      - s-c0116e25d6
+      - s-72e9d580c8

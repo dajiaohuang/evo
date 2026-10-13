@@ -1,0 +1,379 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Metamynodon
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Metamynodon
+      en: Metamynodon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d4732eba72
+            part: body
+          en:
+            page: en
+            section: s-547ec1764e
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-30a4575a97
+            part: body
+          en:
+            page: en
+            section: s-dc35d86ade
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Metamynodon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=43179
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:43179
+          readingTargets:
+            - name: Metamynodon mckinneyi
+              pbdbTaxonId: txn:48446
+              canonicalPath: content/nodes/PBDB%3A48446
+            - name: Metamynodon planifrons
+              pbdbTaxonId: txn:48447
+              canonicalPath: content/nodes/PBDB%3A48447
+            - name: Metamynodon chadronensis
+              pbdbTaxonId: txn:48445
+              canonicalPath: content/nodes/PBDB%3A48445
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f3e19a1026
+        part: body
+      en:
+        page: en
+        section: s-06bf86bd38
+        part: body
+  atlas-node:
+    name: Metamynodon
+    commonName: Amynodont Rhinos
+    commonNameZh: 两栖犀类
+    rank: genus
+    taxonId: txn:43179
+    firstAppearance: 40.4
+    lastAppearance: 23
+    extinct: true
+    entityKind: taxon
+    contentLevel: full-profile
+  atlas-profile:
+    pbdbTaxonId: txn:43179
+    scientificName: Metamynodon
+    commonName: Metamynodont
+    commonNameZh: 两栖犀
+    rank: genus
+    parentName: Amynodontidae
+    extinct: true
+    geography:
+      - Badlands National Park, South Dakota (sampled M. planifrons)
+    overview:
+      page: en
+      section: s-43c260fd47
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-a40bc4de31
+        part: body
+      habitat:
+        page: en
+        section: s-96f469607d
+        part: body
+      locomotion:
+        page: en
+        section: s-99a52b7e38
+        part: body
+      bodySize:
+        page: en
+        section: s-2b05b5a8a1
+        part: body
+      guild:
+        page: en
+        section: s-9a9416f0d8
+        part: body
+    traits:
+      - page: en
+        section: s-d9bcbd9cb8
+        part: body
+      - page: en
+        section: s-959fac3713
+        part: body
+      - page: en
+        section: s-7f10bfa7fb
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-23d63c69c7
+      part: body
+    confidence: medium
+    referenceIds:
+      - wall-heinbaugh-1999-metamynodon-locomotion
+      - amnh-amynodonts
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-43c260fd47
+            part: title
+          zh:
+            page: zh
+            section: s-855485b284
+            part: title
+        text:
+          en:
+            page: en
+            section: s-43c260fd47
+            part: body
+          zh:
+            page: zh
+            section: s-855485b284
+            part: body
+        sourceIds:
+          - wall-heinbaugh-1999-metamynodon-locomotion
+          - amnh-amynodonts
+      - id: body-observations
+        title:
+          en:
+            page: en
+            section: s-25b3e90fa6
+            part: title
+          zh:
+            page: zh
+            section: s-7fdf051a88
+            part: title
+        text:
+          en:
+            page: en
+            section: s-25b3e90fa6
+            part: body
+          zh:
+            page: zh
+            section: s-7fdf051a88
+            part: body
+        sourceIds:
+          - wall-heinbaugh-1999-metamynodon-locomotion
+          - amnh-amynodonts
+      - id: ecology-context
+        title:
+          en:
+            page: en
+            section: s-a91a835ed4
+            part: title
+          zh:
+            page: zh
+            section: s-7bd48934e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a91a835ed4
+            part: body
+          zh:
+            page: zh
+            section: s-7bd48934e3
+            part: body
+        sourceIds:
+          - wall-heinbaugh-1999-metamynodon-locomotion
+      - id: interpretation-boundary
+        title:
+          en:
+            page: en
+            section: s-23d63c69c7
+            part: title
+          zh:
+            page: zh
+            section: s-b5154f97a9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-23d63c69c7
+            part: body
+          zh:
+            page: zh
+            section: s-b5154f97a9
+            part: body
+        sourceIds:
+          - wall-heinbaugh-1999-metamynodon-locomotion
+          - amnh-amynodonts
+    readerSources:
+      - id: wall-heinbaugh-1999-metamynodon-locomotion
+        referenceId: wall-heinbaugh-1999-metamynodon-locomotion
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Comparative anatomy tests semi-aquatic locomotion in M. planifrons; behaviour is not directly observed.
+            zh: 比较解剖用于检验 M. planifrons 的半水生运动方式；行为并未直接观察。
+      - id: amnh-amynodonts
+        referenceId: amnh-amynodonts
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Provides family-level amynodont context; it does not replace the comparative locomotor test for M. planifrons.
+            zh: 提供两栖犀科的一般背景；它不能替代对 M. planifrons 运动方式的比较检验。
+  claims:
+    - subjectId: taxon:metamynodon
+      claimKind: scientific
+      claimType: ecology
+      statement: Comparative anatomy of Metamynodon planifrons—high orbits, reduced thoracic spines and limb-lever differences—together with channel-sandstone association supports a semi-aquatic locomotor inference, not direct observation or a family-wide amynodont ecology.
+      confidence: medium
+      confidenceRationale: The cited study explicitly tests locomotor characters against other amynodontids. Medium confidence separates measured anatomy and depositional association from behavior and keeps the inference at the sampled species level.
+      referenceLinks:
+        - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
+          relation: supports
+          pages: 8–17
+          figure: Figures 1–8; Table 1
+          quoteLocator: Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons
+    - subjectId: taxon:metamynodon
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Metamynodon is treated as an amynodontid genus, with the detailed locomotor profile restricted to M. planifrons specimens used in the comparative study.
+      confidence: medium
+      confidenceRationale: The primary comparative paper names its Metamynodon material and outgroups; genus-wide extrapolation is avoided.
+      referenceLinks:
+        - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
+          relation: supports
+          pages: 8–17
+          figure: Figures 1–8; Table 1
+          quoteLocator: Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons
+    - subjectId: taxon:metamynodon
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The atlas’s 40.4–23 Ma occurrence envelope remains provisional; the cited anatomical study independently anchors Orellan M. planifrons material but does not validate exact global endpoints.
+      confidence: low
+      confidenceRationale: Medium confidence separates a sampled North American interval from an occurrence-derived navigation envelope.
+      referenceLinks:
+        - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
+          relation: supports
+          pages: 8–17
+          figure: Figures 1–8; Table 1
+          quoteLocator: Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons
+    - subjectId: taxon:metamynodon
+      claimKind: scientific
+      claimType: morphology
+      statement: Metamynodon planifrons combines high-set orbits, reduced thoracic neural spines and limb-lever proportions that differ from more terrestrial amynodontids.
+      confidence: medium
+      confidenceRationale: The comparative measurements and figures directly support these characters; broad-torso and soft-tissue claims were removed where the source did not measure them.
+      referenceLinks:
+        - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
+          relation: supports
+          pages: 8–17
+          figure: Figures 1–8; Table 1
+          quoteLocator: Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons
+    - subjectId: taxon:metamynodon
+      claimKind: scientific
+      claimType: biogeography
+      statement: The detailed profile is geographically bounded to Orellan channel deposits of Badlands National Park, South Dakota; it is not a complete Asian–North American genus distribution.
+      confidence: medium
+      confidenceRationale: The cited primary study directly documents its sampled locality and sedimentary association.
+      referenceLinks:
+        - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
+          relation: supports
+          pages: 8–17
+          figure: Figures 1–8; Table 1
+          quoteLocator: Abstract, comparative characters and conclusions testing semi-aquatic locomotion in Metamynodon planifrons
+  claim-rationales.zh:
+    - 引文研究明确用其他两栖犀科成员比较并检验运动性状。中等置信度区分了测得的解剖与沉积关联和行为推断，并把结论限制在取样物种。
+    - 分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。
+    - 化石范围主张把论文直接约束的区域或样本年代与图集的临时导航端点分开，端点不被当作精确起源或灭绝时刻。
+    - 形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。
+    - 生物地理主张按论文实际覆盖的地点和区域表述，不把区域样本扩写为完整全球分布。
+  claim-statements.zh:
+    - 对平额两栖犀的比较解剖——高位眼眶、较低的胸椎棘突和不同的肢体杠杆——连同河道砂岩产出，支持半水生运动方式的推断；这既不是行为的直接观察，也不是整个两栖犀科共有的生态。
+    - 两栖犀属按所引系统研究采用当前分类层级；导航父级仅表示分类关联，不表示直接祖先。
+    - 两栖犀属的图集数值范围仍是临时导航包络；主研究只独立约束其明确讨论的区域或样本年代，端点不是精确起源或灭绝时刻。
+    - 两栖犀属的形态档案仅记录所引研究直接描述或测量的牙齿、颅骨或肢骨性状，功能解释另行标注。
+    - 两栖犀属的地理档案只覆盖所引研究明确讨论的区域与地点，并非完整的全球产出分布。
+  ranges:
+    - entityId: metamynodon
+      rangeKind: global-composite
+      taxonomicConcept: Metamynodon numerical range withheld pending genus-wide global synthesis
+      geographicScope: No defensible global numerical scope established
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The source treats Orellan M. planifrons anatomy and cannot establish global genus endpoints.
+      evidenceBasis: The former 40.4–23 Ma display is withheld because the primary report directly documents an Orellan Metamynodon planifrons anatomical sample rather than a genus-wide range.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: wall-heinbaugh-1999-metamynodon-locomotion
+          locator: pp. 8–17; Figures 1–8; Table 1; Orellan M. planifrons anatomical sample
+      evidenceLevel: withheld-no-range-evidence

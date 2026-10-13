@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Notophthalmus
+  displayName: Notophthalmus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65GR
+  sourceIndexes:
+    - name:
+        en: Notophthalmus
+        zh: Notophthalmus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65GR
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/92
+            queryName: Notophthalmus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1264
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ae7970d8d
+      - s-6fb6c8c15b
+      - s-5dd4a1b875
+      - s-cc60fe946b
+      - s-d00ed71cd4
+      - s-6645882d48
+      - s-a8f2aae892
+      - s-72a409f481
+      - s-1862d9d04d
+      - s-49be3a31ce
+      - s-af405bb448
+      - s-a72e3cb296
+    zh:
+      - s-5b615e1975
+      - s-31ccbcd827
+      - s-b24eb15b8c
+      - s-00360b2f7b
+      - s-356b374c7e
+      - s-3671942e59
+      - s-c1246fe3c1
+      - s-64e1a21a4c
+      - s-cae11b882e
+      - s-ee36810518
+      - s-f115dad1b3
+      - s-985289438e

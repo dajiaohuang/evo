@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis myops
+  displayName: Pristimantis myops
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJL
+  sourceIndexes:
+    - name:
+        en: Pristimantis myops
+        zh: Pristimantis myops
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/430
+            queryName: Pristimantis myops
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/449
+            queryName: Eleutherodactylus myops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-824bec5ab8
+      - s-fe2dc7a1ea
+      - s-307f563551
+      - s-549c37b4d9
+      - s-c382eb4238
+      - s-aab29e040e
+      - s-702ad97814
+      - s-a600fe7043
+      - s-098a542c3f
+      - s-ef196c4a33
+      - s-0f2d6182de
+      - s-062a0e7317
+      - s-8c6e1dabc8
+    zh:
+      - s-49d3db54b5
+      - s-e91aa6a569
+      - s-1bbe574b91
+      - s-e8018a2f8d
+      - s-c35c3a6def
+      - s-64c4b589d7
+      - s-b3d75bf37c
+      - s-4674891628
+      - s-1787171293
+      - s-1305c96e3e
+      - s-120419a962
+      - s-660c26aeeb
+      - s-29f9eddcd6

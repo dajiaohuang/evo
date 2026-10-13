@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina pluvialis
+  displayName: Austrochaperina pluvialis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JW27
+  sourceIndexes:
+    - name:
+        en: Austrochaperina pluvialis
+        zh: Austrochaperina pluvialis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JW27
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/363
+            queryName: Austrochaperina pluvialis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/79
+            queryName: Sphenophryne pluvialis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4ca288cbc5
+      - s-32cf895d71
+      - s-5704b461f7
+      - s-e5bb77d185
+      - s-7f521fa459
+      - s-149d97b10d
+      - s-710cc68e38
+      - s-7a64739622
+      - s-887265e9da
+      - s-be865abd48
+      - s-f33bfda39e
+    zh:
+      - s-981cf166f2
+      - s-b5e19e85b5
+      - s-ffcc9ecd0e
+      - s-22ba27ea09
+      - s-4d29c13068
+      - s-7eb8957ebf
+      - s-af1c7dd046
+      - s-149bb83c32
+      - s-cb13719ab0
+      - s-cf838d9053
+      - s-590c6a73d2

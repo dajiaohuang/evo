@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor vulcani
+  displayName: Craugastor vulcani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC7Z
+  sourceIndexes:
+    - name:
+        en: Craugastor vulcani
+        zh: Craugastor vulcani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC7Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/196
+            queryName: Craugastor vulcani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/221
+            queryName: Eleutherodactylus vulcani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61f2252250
+      - s-8a30a948d7
+      - s-6ecebabb38
+      - s-83fab0ca19
+      - s-7251fa1b74
+      - s-cba1bf43ed
+      - s-156c7063e7
+    zh:
+      - s-241148627b
+      - s-35b741d285
+      - s-052b30ccb0
+      - s-a66db99cfd
+      - s-35a8c34409
+      - s-b2e08e815b
+      - s-6dbef3e8c1

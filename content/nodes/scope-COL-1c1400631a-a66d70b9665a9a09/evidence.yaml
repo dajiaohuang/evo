@@ -1,0 +1,212 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:168786
+    scientificName: Echinoidea
+    commonName: Sea urchins and sand dollars
+    commonNameZh: 海胆与沙钱
+    rank: class
+    parentName: Echinodermata
+    extinct: false
+    geography:
+      - Global marine record
+    overview:
+      page: en
+      section: s-07af159e73
+      part: body
+    overviewZh:
+      page: zh
+      section: s-7fcf2cfabc
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-2238af8ef9
+        part: body
+      habitat:
+        page: en
+        section: s-21e4d8ce1d
+        part: body
+      locomotion:
+        page: en
+        section: s-c4595581ea
+        part: body
+      bodySize:
+        page: en
+        section: s-c0ca279a52
+        part: body
+      guild:
+        page: en
+        section: s-2089ddba7b
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-780b0c4b59e5cd
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-9ddf028173c793
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-7fd89a258642ff
+        part: body
+    traits:
+      - page: en
+        section: s-daa168daad
+        part: body
+      - page: en
+        section: s-f3d0722798
+        part: body
+      - page: en
+        section: s-3346aedfae
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-2966b42d52
+      part: body
+    evidenceSummaryZh: 奥陶纪 Bothriocidaroida 骨板与模型估算的冠群年代属于不同证据，不能当作对同一事件的两次测量。现生海胆的食性和海底生活方式也不相同，全球出现记录研究未给出总体体型范围。因此，这些资料不能支持一个适用于全纲的生态画像。
+    confidence: medium
+    referenceIds:
+      - thompson-2022-bothriocidaroida
+      - mongiardino-koch-2022-echinoid-phylogenomics
+      - he-2026-global-sea-urchin-diversity
+    readerLimitations:
+      en:
+        page: en
+        section: s-f868eb99a6
+        part: body
+      zh:
+        page: zh
+        section: s-0e309e9ea0
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-9b1925423dd714
+        part: body
+      - page: zh
+        section: zh-6472b4a1d472a5
+        part: body
+      - page: zh
+        section: zh-8f3faca9ec6b96
+        part: body
+  claims:
+    - subjectId: taxon:echinoidea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The oldest fossil material assigned to Echinoidea consists of disarticulated bothriocidaroid plates from the Pygodus serra Zone of the Darriwilian; time-scaled analyses place the bothriocidaroid root in the Dapingian or Darriwilian.
+      confidence: medium
+      confidenceRationale: The Darriwilian plates are direct fossil evidence, whereas the Dapingian–Darriwilian root interval depends on time-scaling methods. The claim and range refer to total-group Echinoidea, not crown Echinoidea.
+      referenceLinks:
+        - relation: supports
+          referenceId: thompson-2022-bothriocidaroida
+          pages: 1395–1396
+          figure: Figures 2 and 6
+          quoteLocator: "Abstract; Introduction; Systematic palaeontology: Neobothriocidaris sp. A, Occurrence and Remarks"
+    - subjectId: taxon:echinoidea
+      claimKind: scientific
+      claimType: divergence-time
+      statement: Phylogenomic dating places the origin of crown Echinoidea between the Pennsylvanian and Cisuralian across analyses, with most posterior probability in the early Permian; Ordovician echinoids are stem-group records.
+      confidence: medium
+      confidenceRationale: The crown interval is recovered across phylogenomic dating analyses but remains sensitive to calibration and clock-model choices. The stem-versus-crown distinction prevents the Ordovician fossil range from being misread as the crown divergence date.
+      referenceLinks:
+        - relation: supports
+          referenceId: mongiardino-koch-2022-echinoid-phylogenomics
+          pages: 1–2
+          figure: Figure 6 and Figure 6—figure supplement 1
+          quoteLocator: Abstract; Introduction crown definition; Echinoid (and echinoderm) divergence times
+    - subjectId: taxon:echinoidea
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Ordovician bothriocidaroids are treated as stem echinoids, whereas crown Echinoidea is defined and dated separately in the phylogenomic analysis.
+      confidence: medium
+      confidenceRationale: The taxonomy field is bounded to Echinoidea, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: thompson-2022-bothriocidaroida
+          relation: supports
+          pages: 1395–1396; Figures 2 and 6
+    - subjectId: taxon:echinoidea
+      claimKind: scientific
+      claimType: biogeography
+      statement: The highlighted Darriwilian plates are sampled occurrences and do not establish a global origin area or complete early distribution.
+      confidence: medium
+      confidenceRationale: The biogeography field is bounded to Echinoidea, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: thompson-2022-bothriocidaroida
+          relation: supports
+          pages: 1395–1396; Figures 2 and 6
+    - subjectId: taxon:echinoidea
+      claimKind: scientific
+      claimType: ecology
+      statement: Living Echinoidea span shallow- and deep-water, epifaunal and infaunal, omnivorous and detritivorous modes; neither the global occurrence study nor disarticulated stem plates establishes one ancestral ecology or body-size envelope.
+      confidence: medium
+      confidenceRationale: The ecology field is bounded to Echinoidea, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: thompson-2022-bothriocidaroida
+          relation: supports
+          pages: 1395–1396; Figures 2 and 6
+        - referenceId: he-2026-global-sea-urchin-diversity
+          relation: supports
+          pages: Article 578
+          figure: Figures 1–2; Table 1
+          quoteLocator: "Introduction: ecological breadth; Methods: global occurrence database"
+    - subjectId: taxon:echinoidea
+      claimKind: scientific
+      claimType: morphology
+      statement: Bothriocidaroid plates document stem-echinoid test construction, while crown-character evolution is evaluated in a separate phylogenomic framework.
+      confidence: medium
+      confidenceRationale: The morphology field is bounded to Echinoidea, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: thompson-2022-bothriocidaroida
+          relation: supports
+          pages: 1395–1396; Figures 2 and 6
+    - subjectId: taxon:echinoidea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 460–0 Ma range uses Darriwilian total-group material; it is not the crown origin, which is modelled much later across sampled analyses.
+      confidence: medium
+      confidenceRationale: The fossil-range field is bounded to Echinoidea, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: thompson-2022-bothriocidaroida
+          relation: supports
+          pages: 1395–1396; Figures 2 and 6
+  claim-rationales.zh:
+    - 达瑞威尔期骨板是直接化石证据，而大坪期至达瑞威尔期的根节点区间依赖时间标定方法；该范围指含干群的海胆纲总群，而非冠群。
+    - 冠群区间在多种系统基因组定年分析中得到恢复，但仍受校准和分子钟模型选择影响；区分干群与冠群可避免把奥陶纪化石范围误读为冠群分化时间。
+    - 海胆与沙钱的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。
+    - 海胆与沙钱的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。
+    - 海胆与沙钱的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。
+    - 海胆与沙钱的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。
+    - 海胆与沙钱的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - 归入海胆纲的最老化石材料是达瑞威尔期 Pygodus serra 带中离散的 bothriocidaroid 骨板；时间标定分析将该类群根节点置于大坪期或达瑞威尔期。
+    - 多种系统基因组定年分析将海胆纲冠群起源置于宾夕法尼亚亚纪至乌拉尔世之间，后验概率多数落在早二叠世；奥陶纪海胆属于干群记录。
+    - 奥陶纪的 bothriocidaroid 类群在此作为干群海胆处理；冠群海胆则在系统基因组分析中另行定义和估算年代。
+    - 所介绍的达瑞威尔期骨板属于采样记录，不能确定全球起源区域或早期完整分布。
+    - 现生海胆纲跨越浅水与深水、表栖与内栖、杂食与食碎屑等模式；无论全球出现记录研究还是离散的干群骨板，都不能确定唯一的祖先生态或体型范围。
+    - Bothriocidaroid 类群的骨板记录了干群海胆的壳体构造；冠群性状演化则在独立的系统基因组框架中评估。
+    - 460–0 Ma 范围采用达瑞威尔期总群材料，并非冠群起源年代；所采样的多项分析将冠群起源估算在晚得多的时期。
+  ranges:
+    - entityId: echinoidea
+      rangeKind: global-composite
+      taxonomicConcept: Echinoidea total group, including Ordovician stem echinoids
+      geographicScope: Global total-group fossil record
+      olderMa: 460
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 460–0 Ma range uses Darriwilian total-group material; it is not the crown origin, which is modelled much later across sampled analyses.
+      evidenceBasis: Disarticulated bothriocidaroid plates document a Darriwilian total-group record; time-scaled roots extend into the Dapingian or Darriwilian, whereas phylogenomics places the crown much later.
+      confidence: medium
+      claimIds:
+        - claim:taxon:echinoidea:ordovician-stem-record
+        - claim:taxon:echinoidea:crown-origin
+        - claim:taxon:echinoidea:fossil-range
+      referenceLocators:
+        - referenceId: thompson-2022-bothriocidaroida
+          locator: pp. 1395–1396; Figures 2 and 6; Neobothriocidaris sp. A, Occurrence and Remarks
+        - referenceId: mongiardino-koch-2022-echinoid-phylogenomics
+          locator: pp. 1–2; Figure 6 and Figure 6—figure supplement 1
+      evidenceLevel: literature-synthesized

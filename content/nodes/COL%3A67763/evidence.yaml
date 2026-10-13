@@ -1,0 +1,263 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anomaloglossus shrevei (Rivero, 1961)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Anomaloglossus shrevei
+      zh: Anomaloglossus shrevei
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-631c920c1d
+            part: title
+          zh:
+            page: zh
+            section: s-2e08a95459
+            part: title
+        text:
+          en:
+            page: en
+            section: s-631c920c1d
+            part: body
+          zh:
+            page: zh
+            section: s-2e08a95459
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e6107eeceb
+            part: title
+          zh:
+            page: zh
+            section: s-98fcc96639
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e6107eeceb
+            part: body
+          zh:
+            page: zh
+            section: s-98fcc96639
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-069a6bd617
+            part: title
+          zh:
+            page: zh
+            section: s-484badbe72
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-069a6bd617
+            part: body
+          zh:
+            page: zh
+            section: s-484badbe72
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8053049607
+            part: title
+          zh:
+            page: zh
+            section: s-cf86bb91db
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-8053049607
+            part: body
+          zh:
+            page: zh
+            section: s-cf86bb91db
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-6388690e74
+            part: title
+          zh:
+            page: zh
+            section: s-bdfab1116c
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-6388690e74
+            part: body
+          zh:
+            page: zh
+            section: s-bdfab1116c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-871312f8ca
+            part: title
+          zh:
+            page: zh
+            section: s-6930837fe4
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-871312f8ca
+            part: body
+          zh:
+            page: zh
+            section: s-6930837fe4
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c9c6fe0f8a208f3b5752da01ea8e8382
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Anomaloglossus shrevei
+          url: https://www.checklistbank.org/dataset/316115/taxon/67763
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0078; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0078 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-635d781214
+        part: body
+      zh:
+        page: zh
+        section: s-816cc87094
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-c9c6fe0f8a208f3b5752da01ea8e8382
+      sourceRowId: Anf0078
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0078
+        bibliographyRowId: Anf0078
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Anomaloglossus shrevei
+        candidateBibliographyRowIds:
+          - Anf0078
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.

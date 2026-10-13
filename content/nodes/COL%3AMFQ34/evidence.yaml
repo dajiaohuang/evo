@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton ceronorum Parra-Olea, García-Castillo, Rovito, Maisano, Hanken & Wake, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton ceronorum
+      zh: Chiropterotriton ceronorum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-42ab7d8608
+            part: title
+          zh:
+            page: zh
+            section: s-03aeaf2480
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42ab7d8608
+            part: body
+          zh:
+            page: zh
+            section: s-03aeaf2480
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-75c8f69ea9
+            part: title
+          zh:
+            page: zh
+            section: s-8610297585
+            part: title
+        text:
+          en:
+            page: en
+            section: s-75c8f69ea9
+            part: body
+          zh:
+            page: zh
+            section: s-8610297585
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8782dd3950
+            part: title
+          zh:
+            page: zh
+            section: s-2d7742a9b5
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq34
+        text:
+          en:
+            page: en
+            section: s-8782dd3950
+            part: body
+          zh:
+            page: zh
+            section: s-2d7742a9b5
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-70d0293bd7
+            part: title
+          zh:
+            page: zh
+            section: s-1bbe8275f6
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq34
+        text:
+          en:
+            page: en
+            section: s-70d0293bd7
+            part: body
+          zh:
+            page: zh
+            section: s-1bbe8275f6
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0fe79b2fd1
+            part: title
+          zh:
+            page: zh
+            section: s-b40d6040b3
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq34
+        text:
+          en:
+            page: en
+            section: s-0fe79b2fd1
+            part: body
+          zh:
+            page: zh
+            section: s-b40d6040b3
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ad112ee8e5
+            part: title
+          zh:
+            page: zh
+            section: s-2f10f8b87a
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq34
+        text:
+          en:
+            page: en
+            section: s-ad112ee8e5
+            part: body
+          zh:
+            page: zh
+            section: s-2f10f8b87a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton ceronorum
+          url: https://www.checklistbank.org/dataset/316115/taxon/MFQ34
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7258950-mfq34
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton ceronorum: Named species holotype, paratypes, diagnosis, live/preserved colour and distribution/ecology paragraphs; no comparative tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-520b3e5d47
+        part: body
+      zh:
+        page: zh
+        section: s-effbf29730
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.8800
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        sourceKey: primary-pmc7258950-mfq34
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7258950/article.xml
+        sourceConcept: Chiropterotriton ceronorum
+        evidenceRead: "Chiropterotriton ceronorum: Named species holotype, paratypes, diagnosis, live/preserved colour and distribution/ecology paragraphs; no comparative tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A dated holotype and separate diagnostic sample sizes
+              zh: 有日期的正模及单列鉴别样本量
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq34
+            locator: Results > Chiropterotriton ceronorum; reading-sections index 2, paragraphs 7–8 and 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ce9c74d8da
+                part: body
+              zh:
+                page: zh
+                section: s-f919652619
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Sexed tooth counts and a defined limb interval
+              zh: 分性别齿数及明确的肢间隔
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq34
+            locator: Results > Chiropterotriton ceronorum; reading-sections index 2, paragraphs 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2a95ed05d6
+                part: body
+              zh:
+                page: zh
+                section: s-6d842fe49f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Variable live bands from photographs and preserved types
+              zh: 来自照片的变化活体带纹及保存模式标本
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq34
+            locator: Results > Chiropterotriton ceronorum; reading-sections index 2, paragraphs 22–25
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f7d9dd3a05
+                part: body
+              zh:
+                page: zh
+                section: s-b2a9c7f7e4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Bromeliads and terrestrial cover on southern Orizaba
+              zh: Orizaba 南坡的凤梨科植物及地面覆盖物
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq34
+            locator: Results > Chiropterotriton ceronorum; reading-sections index 2, paragraphs 29
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6d819e513a
+                part: body
+              zh:
+                page: zh
+                section: s-83d3d3b590
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

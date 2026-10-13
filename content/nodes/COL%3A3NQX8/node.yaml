@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius pardalis
+  displayName: Hyperolius pardalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQX8
+  sourceIndexes:
+    - name:
+        en: Hyperolius pardalis
+        zh: Hyperolius pardalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQX8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/309
+            queryName: Hyperolius pardalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/71
+            queryName: Hyperolius steindachneri pardalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9980ce1d9e
+      - s-0640feab48
+      - s-b7db88433c
+      - s-e844c4eeb8
+      - s-3c014b76e0
+      - s-bb0a3331cb
+      - s-81b7b93eb4
+      - s-3422d4a61e
+      - s-e712db107b
+      - s-98fbe5675a
+      - s-589879811c
+      - s-d76cb1c4b2
+      - s-e88bf340ab
+      - s-c7fdeca0c4
+      - s-6f8f139d0c
+      - s-54ea26169f
+      - s-6bbe90cd53
+      - s-e6c30e1c94
+      - s-f94a1c9408
+    zh:
+      - s-748c36fc8a
+      - s-1ac16a4415
+      - s-17efc596ac
+      - s-d5fc6a1a50
+      - s-c964596b8a
+      - s-dfed29b972
+      - s-203974a3b6
+      - s-0388797d2c
+      - s-a9800168cf
+      - s-1ac3f25402
+      - s-7c632f85f0
+      - s-4ff6be2b50
+      - s-c4b383565d
+      - s-a04eb95bac
+      - s-9948ed2962
+      - s-37856c6428
+      - s-358d8b1c86
+      - s-b7390f0c2c
+      - s-8869aff8e5

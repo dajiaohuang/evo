@@ -1,0 +1,81 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Gymnospermae
+    commonName: Gymnosperms
+    commonNameZh: 裸子植物
+    rank: superclass
+    taxonId: ""
+    firstAppearance: 370
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:gymnospermae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Gymnospermae atlas root uses a rounded 365–0 Ma total-seed-plant navigation envelope, anchored by Famennian cupulate seeds and living gymnosperm families; it is not the fossil first appearance or crown age of extant Gymnospermae.
+      confidence: medium
+      confidenceRationale: Famennian cupule systems with lagenostomalean-type seeds are direct fossil evidence, whereas mapping extinct seed plants to the living gymnosperm crown is topology-dependent. The endpoint is intentionally labelled as a total-seed-plant navigation surrogate.
+      referenceLinks:
+        - referenceId: gillespie-1981-earliest-seeds
+          relation: supports
+          pages: 462–464
+          figure: Figure 1
+          quoteLocator: Famennian age control; three-dimensional morphology and histology of cupule systems and seeds
+        - referenceId: ran-2018-gymnosperm-phylogenomics
+          relation: contextualizes
+          pages: 20181012, pp. 1–9
+          figure: Figures 1–2
+          quoteLocator: Sampling of all 13 living gymnosperm families and extant-lineage topology
+  claim-rationales.zh:
+    - 法门期杯状结构中的种子属于直接化石证据，而灭绝种子植物与现生裸子植物冠群的对应取决于拓扑；端点明确标为总群种子植物导航替代值。
+  claim-statements.zh:
+    - 裸子植物图集根节点采用取整后的 3.65 亿年前至今总群种子植物导航包络，以法门期杯状种子和现生裸子植物各科为锚点；它不是现生裸子植物的化石首现或冠群年龄。
+  ranges:
+    - entityId: gymnospermae
+      rangeKind: global-composite
+      taxonomicConcept: Total-seed-plant navigation surrogate for the Gymnospermae package root
+      geographicScope: Famennian Hampshire Formation seed sample to living gymnosperm families
+      olderMa: 365
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 7
+        youngerMa: 0
+        note: The Famennian endpoint is a rounded total-seed-plant sample and is not a crown age or FAD for living Gymnospermae.
+      evidenceBasis: Cupulate lagenostomalean-type seeds anchor the extinct total-group record; complete living-family sampling contextualizes the present endpoint.
+      confidence: medium
+      claimIds:
+        - claim:taxon:gymnospermae:root-range-rc39
+      referenceLocators:
+        - referenceId: gillespie-1981-earliest-seeds
+          locator: pp. 462–464; Figure 1
+        - referenceId: ran-2018-gymnosperm-phylogenomics
+          locator: article 20181012, pp. 1–9; Figures 1–2
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-0d58b556fb
+            part: title
+          zh:
+            page: zh
+            section: s-45a1efc638
+            part: title
+        sourceIds:
+          - gillespie-1981-earliest-seeds
+          - ran-2018-gymnosperm-phylogenomics
+        text:
+          en:
+            page: en
+            section: s-0d58b556fb
+            part: body
+          zh:
+            page: zh
+            section: s-45a1efc638
+            part: body

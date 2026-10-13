@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Salamandrina
+  displayName: Salamandrina
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63RN3
+  sourceIndexes:
+    - name:
+        en: Salamandrina
+        zh: Salamandrina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63RN3
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/242
+            queryName: Salamandrina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 204
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f8aace7185
+      - s-c584586564
+      - s-aa81347cee
+      - s-d5817dafba
+      - s-54751ee2dd
+      - s-df49a8b6be
+    zh:
+      - s-209c02a08c
+      - s-f67d90d9f8
+      - s-bed73c8369
+      - s-3bb41431a5
+      - s-cc1e9a5a22
+      - s-8964287653

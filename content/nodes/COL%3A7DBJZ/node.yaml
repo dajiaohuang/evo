@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton verrucosus
+  displayName: Tylototriton verrucosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBJZ
+  sourceIndexes:
+    - name:
+        en: Tylototriton verrucosus
+        zh: Tylototriton verrucosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBJZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/164
+            queryName: Tylototriton verrucosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1710
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/135
+            queryName: Triturus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/136
+            queryName: Tylotriton verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/137
+            queryName: Glossolega verrucosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/138
+            queryName: Pleurodeles verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2250766d92
+      - s-e4135a4bff
+      - s-4908b465db
+      - s-41951fc0f7
+      - s-b335a12afc
+      - s-b150fdea80
+      - s-e0751d084a
+      - s-52a446499c
+      - s-bf2db7b094
+      - s-a276b4df92
+      - s-cdead0d4c5
+      - s-073f638310
+      - s-ebca81c022
+      - s-b1adc184b3
+      - s-b8a839d3d7
+    zh:
+      - s-4eb1748a81
+      - s-0d66d25b54
+      - s-38455eb74a
+      - s-8ec61572bd
+      - s-f6c24abaa3
+      - s-11c2b4c4f8
+      - s-9e05cf54a6
+      - s-b03f0aba4e
+      - s-b5fac1002d
+      - s-96f880970a
+      - s-08651473e6
+      - s-c9569d156e
+      - s-c6cf1493dc
+      - s-8b09664bd6
+      - s-8934c9ebe0

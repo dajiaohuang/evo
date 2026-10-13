@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia sloanei
+  displayName: Crinia sloanei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGDB
+  sourceIndexes:
+    - name:
+        en: Crinia sloanei
+        zh: Crinia sloanei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGDB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/213
+            queryName: Crinia sloanei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/404
+            queryName: Ranidella sloanei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba4a0f97b5
+      - s-5300ef06b6
+      - s-1cbd610315
+      - s-1f8af398b1
+      - s-743cd70019
+      - s-28223428d5
+      - s-408e24d2a6
+      - s-9b36c4059b
+      - s-80cc38b6ce
+    zh:
+      - s-bca3db10db
+      - s-029255d599
+      - s-a843b18254
+      - s-ba43a1fe68
+      - s-1d3651750e
+      - s-5018d693a8
+      - s-431056583a
+      - s-6bdf9d0655
+      - s-3d2b518deb

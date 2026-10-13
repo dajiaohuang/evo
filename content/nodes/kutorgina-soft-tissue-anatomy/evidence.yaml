@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-d9309ee21c
+      part: title
+    titleZh:
+      page: zh
+      section: s-04766ae21a
+      part: title
+    category: innovation
+    startAge: 520
+    endAge: 518
+    regions:
+      - Chengjiang Lagerstätte, Yunnan, China
+    clades:
+      - Brachiopoda
+      - Kutorgina chengjiangensis
+      - Rhynchonelliformea
+    summary:
+      page: en
+      section: s-d9309ee21c
+      part: body
+    summaryZh:
+      page: zh
+      section: s-04766ae21a
+      part: body
+    claimIds:
+      - claim:event:kutorgina-soft-tissue-anatomy
+    evidenceItems:
+      - statement: The material preserves an early spirolophe-stage lophophore, oesophagus, stomach, intestine, terminal anus and pedicle within paired valves.
+        relation: supports
+        claimIds:
+          - claim:event:kutorgina-soft-tissue-anatomy
+        referenceLinks:
+          - referenceId: zhang-et-al-2007-kutorgina
+            relation: supports
+            pages: 1391–1402
+            figure: Text-figures 1–8
+            quoteLocator: Material and preservation; soft-part description
+    uncertaintyItems:
+      - statement: Soft anatomy is directly fossilized, but functional comparisons and ancestral-state claims do not turn Kutorgina into a direct ancestor of living articulated brachiopods.
+        relation: contextualizes
+        claimIds:
+          - claim:event:kutorgina-soft-tissue-anatomy
+        referenceLinks:
+          - referenceId: zhang-et-al-2007-kutorgina
+            relation: supports
+            pages: 1391–1402
+            figure: Text-figures 5–8
+            quoteLocator: Discussion and comparison
+  claims:
+    - subjectId: event:kutorgina-soft-tissue-anatomy
+      claimKind: scientific
+      claimType: morphology
+      statement: Kutorgina chengjiangensis material from Chengjiang preserves paired valves together with an early spirolophe-stage lophophore, digestive tract and pedicle, directly documenting soft anatomy in an early calcareous-shelled rhynchonelliformean.
+      confidence: high
+      confidenceRationale: Multiple anatomical regions are directly described from named fossil material; homology and broader ancestral-state implications remain separate from the observation.
+      referenceLinks:
+        - referenceId: zhang-et-al-2007-kutorgina
+          relation: supports
+          pages: 1391–1402
+          figure: Text-figures 1–8
+          quoteLocator: Material and preservation; systematic palaeontology; lophophore, digestive tract and pedicle
+  claim-rationales.zh:
+    - 多处软组织由具名化石材料直接记录；同源和祖先状态含义与观察本身分开。
+  claim-statements.zh:
+    - 澄江生物群的 Kutorgina chengjiangensis 材料除成对壳瓣外，还保存早期螺旋腕阶段的触手冠、消化道和肉茎，直接记录了早期钙质壳小嘴贝型腕足动物的软体解剖。

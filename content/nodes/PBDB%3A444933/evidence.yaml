@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Berthasaura
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Berthasaura
+      en: Berthasaura
+    sections:
+      - topic: overview
+        sourceIds:
+          - souza2021BerthasauraDescription
+        text:
+          zh:
+            page: zh
+            section: s-41070f9478
+            part: body
+          en:
+            page: en
+            section: s-b25c07ca5c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - souza2021BerthasauraDescription
+          - pierossi2025BerthasauraDentaryAbstract
+        text:
+          zh:
+            page: zh
+            section: s-00beedf18a
+            part: body
+          en:
+            page: en
+            section: s-1cb749f3a0
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e957e9dc04
+            part: body
+          en:
+            page: en
+            section: s-5ff85e4ef2
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2c40d5b7ab
+            part: body
+          en:
+            page: en
+            section: s-7278e638bb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Berthasaura
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=444933
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:444933
+          readingTargets:
+            - name: Berthasaura leopoldinae
+              pbdbTaxonId: txn:444934
+              canonicalPath: content/nodes/PBDB%3A444934
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: souza2021BerthasauraDescription
+        referenceId: ref-d58112e9-253e-4d0d-9758-2edce6a2d59c
+        fields:
+          - id
+          - title
+          - authors
+          - publishedOnline
+          - doi
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: The first edentulous ceratosaur from South America
+          url: https://doi.org/10.1038/s41598-021-01312-4
+          accessedAt: 2026-10-03
+          locator: "Official Europe PMC PMC8602317 XML: selected front metadata; complete Introduction, Discussion, Methods, Systematic paleontology, Ontogenetic assessment and Phylogenetic analysis; first 14500 characters of Description and comparisons, covering size, cranial anatomy, mandible and selected vertebrae. Remaining postcranial text, images, raw CT and supplements not read."
+          scope:
+            zh: 2021 年原始描述的正模、无齿颌、部分骨骼、成熟与食性推断；全部头后正文及补充资料未读齐。
+            en: 2021 original-description guide to the holotype, toothless jaws, selected anatomy, maturity and diet inference; remaining postcranial text and supplements unread.
+      - id: pierossi2025BerthasauraDentaryAbstract
+        referenceId: ref-107f19dd-9c69-4211-9330-05742ad52aaf
+        fields:
+          - id
+          - title
+          - authors
+          - publishedOnline
+          - doi
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Convergent evolution among non-carnivorous, desert-dwelling theropods as revealed by the dentary of the noasaurid Berthasaura leopoldinae (Cretaceous of Brazil)
+          url: https://doi.org/10.1111/pala.70014
+          accessedAt: 2026-10-03
+          locator: Publisher article front metadata and complete abstract only. Read the full text link returned the abstract page. Full article, specimen identifier, methods, images and supplementary data not inspected.
+          scope:
+            zh: 仅出版商摘要中的新齿骨与发育失齿解释短提示；不是后续研究全文或独立鉴定。
+            en: Short notice of the new dentary and developmental tooth-loss interpretation in the publisher abstract only; not full-paper reading or independent identification.
+    limitations:
+      zh:
+        page: zh
+        section: s-3187361ea2
+        part: body
+      en:
+        page: en
+        section: s-728ba3e13a
+        part: body

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Astylosternus laticephalus
+  displayName: Astylosternus laticephalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J645
+  sourceIndexes:
+    - name:
+        en: Astylosternus laticephalus
+        zh: Astylosternus laticephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J645
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/211
+            queryName: Astylosternus laticephalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a495c65ff4
+      - s-44f6a2d4e1
+      - s-75eebae7ab
+      - s-edc086afa8
+      - s-459a839cca
+      - s-0aeaece6ae
+      - s-f1349367e1
+    zh:
+      - s-e5e5f899bd
+      - s-8c2024d696
+      - s-1f9d88fb23
+      - s-3f77b7ea64
+      - s-0921fb27f0
+      - s-27e0e3a380
+      - s-786f51acd0

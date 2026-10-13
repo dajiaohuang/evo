@@ -1,0 +1,300 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Gerrothorax pulcherrimus
+    rank: species
+    sourceTaxonId: txn:180697
+    name:
+      en: Gerrothorax pulcherrimus
+      zh: Gerrothorax pulcherrimus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-11c731a837
+            part: body
+          zh:
+            page: zh
+            section: s-77848528cb
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 11 PBDB occurrence rows and collection fields
+          zh: 11 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-f0b6c8ac20
+            part: body
+          zh:
+            page: zh
+            section: s-cd88eac3e2
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Gerrothorax pulcherrimus
+          zh: Gerrothorax pulcherrimus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-1f366b19a0
+            part: body
+          zh:
+            page: zh
+            section: s-80530b15b2
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:180697; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: F. A. Jenkins, N. H. Shubin, and S. M. Gatesy, A. Warren. 2008. Gerrothorax pulcherrimus from the Upper Triassic Fleming Fjord Formation of East Greenland and a reassessment of head lifting in temnospondyl feeding. Journal of Vertebrate Paleontology 28(4):935-950
+    occurrenceEvidence:
+      - occurrenceId: occ:283817
+        collectionId: col:26995
+        acceptedTaxonId: txn:180697
+        taxonomicDifference: null
+        referenceId: ref:35632
+        bibliography: F. A. Jenkins, N. H. Shubin, and S. M. Gatesy, A. Warren. 2008. Gerrothorax pulcherrimus from the Upper Triassic Fleming Fjord Formation of East Greenland and a reassessment of head lifting in temnospondyl feeding. Journal of Vertebrate Paleontology 28(4):935-950
+        locality:
+          countryCode: GL
+          stateProvince: East Greenland
+          county: null
+        stratigraphy:
+          group: Scoresby Land
+          formation: Fleming Fjord
+          member: Ørsted Dal
+        olderAgeMa: 227.3
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:728366
+        collectionId: col:47800
+        acceptedTaxonId: txn:180697
+        taxonomicDifference: null
+        referenceId: ref:26360
+        bibliography: 'P. C. Sereno and R. Wild. 1992. Procompsognathus: theropod, "thecodont" or both?. Journal of Vertebrate Paleontology 12(4):435-458'
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: null
+        stratigraphy:
+          group: null
+          formation: Löwenstein
+          member: null
+        olderAgeMa: 215.38
+        youngerAgeMa: 211.18
+      - occurrenceId: occ:881094
+        collectionId: col:97738
+        acceptedTaxonId: txn:180697
+        identifiedTaxonId: var:170549
+        identifiedName: Plagiosaurus franconicus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:31149
+        bibliography: O. Kuhn. 1932. Labyrinthodonten und Parasuchier aus dem mittleren Keuper von Ebrach in Oberfranken. Neues Jahrbuch für Mineralogie, Geologie und Paläontologie 69:94-144
+        locality:
+          countryCode: DE
+          stateProvince: Bayern
+          county: Bamberg
+        stratigraphy:
+          group: Keuper
+          formation: Hassberge
+          member: Blasensandstein
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+      - occurrenceId: occ:931096
+        collectionId: col:106556
+        acceptedTaxonId: txn:180697
+        taxonomicDifference: null
+        referenceId: ref:35632
+        bibliography: F. A. Jenkins, N. H. Shubin, and S. M. Gatesy, A. Warren. 2008. Gerrothorax pulcherrimus from the Upper Triassic Fleming Fjord Formation of East Greenland and a reassessment of head lifting in temnospondyl feeding. Journal of Vertebrate Paleontology 28(4):935-950
+        locality:
+          countryCode: GL
+          stateProvince: East Greenland
+          county: null
+        stratigraphy:
+          group: Scoresby Land
+          formation: Fleming Fjord
+          member: null
+        olderAgeMa: 227.3
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:931097
+        collectionId: col:106557
+        acceptedTaxonId: txn:180697
+        taxonomicDifference: null
+        referenceId: ref:35632
+        bibliography: F. A. Jenkins, N. H. Shubin, and S. M. Gatesy, A. Warren. 2008. Gerrothorax pulcherrimus from the Upper Triassic Fleming Fjord Formation of East Greenland and a reassessment of head lifting in temnospondyl feeding. Journal of Vertebrate Paleontology 28(4):935-950
+        locality:
+          countryCode: GL
+          stateProvince: East Greenland
+          county: null
+        stratigraphy:
+          group: Scoresby Land
+          formation: Fleming Fjord
+          member: Middle Malmros Klint
+        olderAgeMa: 227.3
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:933157
+        collectionId: col:107213
+        acceptedTaxonId: txn:180697
+        identifiedTaxonId: txn:180700
+        identifiedName: Gerrothorax rhaeticus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:33786
+        bibliography: H. Hellrung. 2003. Gerrothorax pustuloglomeratus, ein Temnospondyle (Amphibia) mit knöcherner Branchialkammer aus dem Unteren Keuper von Kupferzell (Süddeutschland). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 330:1-130
+        locality:
+          countryCode: SE
+          stateProvince: Skåne
+          county: null
+        stratigraphy:
+          group: null
+          formation: Höganäs
+          member: Bjuv
+        olderAgeMa: 205.7
+        youngerAgeMa: 201.4
+      - occurrenceId: occ:1104088
+        collectionId: col:139486
+        acceptedTaxonId: txn:180697
+        taxonomicDifference: null
+        referenceId: ref:44850
+        bibliography: O. Kuhn. 1939. Beiträge zur Keuperfauna von Halberstadt [Contributions to the Keuper fauna of Halberstadt]. Palaeontologische Zeitschrift 21:258-286
+        locality:
+          countryCode: DE
+          stateProvince: Sachsen-Anhalt
+          county: null
+        stratigraphy:
+          group: Keuper
+          formation: Trossingen
+          member: Knollenmergel
+        olderAgeMa: 205.7
+        youngerAgeMa: 201.4
+      - occurrenceId: occ:1419594
+        collectionId: col:39763
+        acceptedTaxonId: txn:180697
+        identifiedTaxonId: txn:180699
+        identifiedName: Plagiosuchus pustuloglomeratus
+        taxonomicDifference: null
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 237
+      - occurrenceId: occ:1419595
+        collectionId: col:137680
+        acceptedTaxonId: txn:180697
+        identifiedTaxonId: txn:180699
+        identifiedName: Plagiosuchus pustuloglomeratus
+        taxonomicDifference: null
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: FR
+          stateProvince: Grand Est
+          county: Meurthe-et-Moselle
+        stratigraphy:
+          group: Muschelkalk
+          formation: null
+          member: null
+        olderAgeMa: 241.464
+        youngerAgeMa: 237
+      - occurrenceId: occ:1419596
+        collectionId: col:196844
+        acceptedTaxonId: txn:180697
+        identifiedTaxonId: txn:180699
+        identifiedName: Plagiosuchus pustuloglomeratus
+        taxonomicDifference: null
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: DE
+          stateProvince: Thüringen
+          county: null
+        stratigraphy:
+          group: Muschelkalk
+          formation: null
+          member: null
+        olderAgeMa: 241.464
+        youngerAgeMa: 237
+      - occurrenceId: occ:1419597
+        collectionId: col:106462
+        acceptedTaxonId: txn:180697
+        identifiedTaxonId: txn:180701
+        identifiedName: Plagiosaurus striopustulatus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Stuttgart
+        stratigraphy:
+          group: Keuper
+          formation: Weser
+          member: Lehrberg Beds
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Gerrothorax pulcherrimus
+          zh: Gerrothorax pulcherrimus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-1f366b19a0
+            part: body
+          zh:
+            page: zh
+            section: s-80530b15b2
+            part: body
+        sourceIds: []

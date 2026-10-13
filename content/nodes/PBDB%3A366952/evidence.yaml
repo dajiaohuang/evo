@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Shirerpeton isajii
+    rank: species
+    sourceTaxonId: txn:366952
+    name:
+      en: Shirerpeton isajii
+      zh: Shirerpeton isajii
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-32c05a84a5
+            part: body
+          zh:
+            page: zh
+            section: s-6dd45e6d06
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-385ecf6ae9
+            part: body
+          zh:
+            page: zh
+            section: s-606cbe00e2
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-48e2f15797
+            part: body
+          zh:
+            page: zh
+            section: s-93805c6671
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:366952; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. Matsumoto and S. E. Evans. 2018. The first record of albanerpetontid amphibians (Amphibia: Albanerpetontidae) from East Asia. PLoS ONE 13(1):e0189767:1-58"
+    occurrenceEvidence:
+      - occurrenceId: occ:1394700
+        collectionId: col:32324
+        acceptedTaxonId: txn:366952
+        identifiedName: Shirerpeton isajii n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:64925
+        bibliography: "R. Matsumoto and S. E. Evans. 2018. The first record of albanerpetontid amphibians (Amphibia: Albanerpetontidae) from East Asia. PLoS ONE 13(1):e0189767:1-58"
+        locality:
+          countryCode: JP
+          stateProvince: Ishikawa
+          county: null
+        stratigraphy:
+          group: Tetori
+          formation: Kuwajima
+          member: null
+        olderAgeMa: 125.77
+        youngerAgeMa: 121.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-48e2f15797
+            part: body
+          zh:
+            page: zh
+            section: s-93805c6671
+            part: body
+        sourceIds: []

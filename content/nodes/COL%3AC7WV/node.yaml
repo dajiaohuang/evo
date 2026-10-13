@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes coppingeri
+  displayName: Alsodes coppingeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7WV
+  sourceIndexes:
+    - name:
+        en: Alsodes coppingeri
+        zh: Alsodes coppingeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7WV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/190
+            queryName: Alsodes coppingeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/333
+            queryName: Eupsophus coppingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/314
+            queryName: Cacotus coppingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/315
+            queryName: Borborocoetes coppingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b36f55f45
+      - s-5834e0f569
+      - s-041cb3696d
+      - s-2a16a6c1ef
+      - s-fdaf6ea19a
+      - s-aa2da8d975
+      - s-e2232bbdd1
+      - s-50ee5743e7
+      - s-2ff0f13201
+      - s-0574646d8c
+      - s-f2761fa51f
+      - s-ca6cff9d51
+      - s-fa25a80597
+      - s-c05d21c091
+      - s-7b25977adb
+      - s-7e32d00eeb
+      - s-f7d60513d5
+    zh:
+      - s-4823f28dac
+      - s-f033147247
+      - s-e8ef2da80f
+      - s-8680d3c347
+      - s-aa2e3e4c43
+      - s-4d0b6123ce
+      - s-a2ecbec921
+      - s-b1537ab1e7
+      - s-2df70bec8e
+      - s-75b51f86a0
+      - s-8d81a0a061
+      - s-5c49f5b1d2
+      - s-fe492ddbc5
+      - s-3323d0ae00
+      - s-bf167f593d
+      - s-6e124585c2
+      - s-07e2ccfe25

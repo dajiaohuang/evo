@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera breviflora? {#s-55a7774c07}
+The branches bear simple and star-shaped hairs. Leaves are petiolate, ovate to elliptic, with margins from singly to doubly toothed or scalloped. The upper surface is nearly hairless; the lower has sparse hairs or becomes hairless. Extrafloral nectaries are present. The inflorescence has one flower, a peduncle and bracteoles, but no pedicel. The yellow corolla lacks a corona, and the filaments join the floral tube at its base. Styles are heterostylous. The fruit exocarp is tuberculate; seeds are net-veined and papillose, with a prominent chalaza.
+

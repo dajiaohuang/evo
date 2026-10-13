@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ecnomiohyla
+  displayName: Ecnomiohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49TJ
+  sourceIndexes:
+    - name:
+        en: Ecnomiohyla
+        zh: Ecnomiohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49TJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/367
+            queryName: Ecnomiohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-806dd2b3ed
+      - s-90808bdb28
+      - s-7f45335262
+      - s-b2bc5756c0
+      - s-e3832360ca
+      - s-2bfcff69ef
+      - s-eceef8d282
+    zh:
+      - s-e64be5daa6
+      - s-89ac30d543
+      - s-5deae69de4
+      - s-a2558d1e63
+      - s-03847c03b0
+      - s-98cf5d0f36
+      - s-7e7d7379a0

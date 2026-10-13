@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus hemiophrys
+  displayName: Anaxyrus hemiophrys
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66LVD
+  sourceIndexes:
+    - name:
+        en: Anaxyrus hemiophrys
+        zh: Anaxyrus hemiophrys
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66LVD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/438
+            queryName: Anaxyrus hemiophrys
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/240
+            queryName: Bufo hemiophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/301
+            queryName: Bufo hemiophrys hemiophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/360
+            queryName: Bufo woodhousei hemiophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/346
+            queryName: Bufo americanus hemiophrys
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7998fcb511
+      - s-3f39f555e7
+      - s-f60c043194
+      - s-e10bf0daa2
+      - s-ce3547904f
+      - s-2aa34a77a5
+      - s-947fd773d0
+      - s-6cc714ac92
+      - s-ababdebf2c
+      - s-ef71216025
+      - s-3b917f793f
+      - s-2ede1fec8c
+      - s-b17c748a9a
+      - s-6416cd74ae
+      - s-0b199179d8
+    zh:
+      - s-5b147567ed
+      - s-ae3380f866
+      - s-49d429dd6c
+      - s-646640f49d
+      - s-619aafe0ee
+      - s-d01842d24d
+      - s-26dfb950a0
+      - s-00de743862
+      - s-6b925829a0
+      - s-1df6943aba
+      - s-8d29cff7f7
+      - s-db3048dde4
+      - s-0711171608
+      - s-e240b271fe
+      - s-c47e2141d2

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys laticeps
+  displayName: Proceratophrys laticeps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VY6C
+  sourceIndexes:
+    - name:
+        en: Proceratophrys laticeps
+        zh: Proceratophrys laticeps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VY6C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/225
+            queryName: Proceratophrys laticeps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-969f76e446
+      - s-4756ddf0d2
+      - s-aef592d391
+      - s-31de9c3d79
+      - s-985b41225e
+      - s-daf18824d0
+      - s-4c441b9ef0
+      - s-1a7034d186
+      - s-e2d5bdd327
+      - s-9b33b8a3fd
+      - s-8e247e8130
+      - s-1ec08be078
+      - s-ee80d65eaa
+      - s-771808062e
+      - s-674fb195c1
+      - s-d8d80761f8
+      - s-a33c68c2dc
+      - s-c5b54c0904
+      - s-c844c382a8
+      - s-ef1a6b4027
+      - s-755d3a30da
+      - s-8a72f3c7c5
+      - s-9d497cda96
+    zh:
+      - s-764084cf82
+      - s-01a8467b6a
+      - s-fd5f83aec7
+      - s-e939b75cef
+      - s-8f406eb6e7
+      - s-958f25aa44
+      - s-f194abb1a9
+      - s-4bf98328a6
+      - s-61ed41c850
+      - s-8549875a56
+      - s-589e73bdb7
+      - s-7f3bc11235
+      - s-7dcdbc52c4
+      - s-904ffb62fa
+      - s-322e6f5726
+      - s-5d4303931f
+      - s-2016f43cfb
+      - s-d1a0a048b3
+      - s-44b8c682c1
+      - s-22a730a1ce
+      - s-e72f6309c1
+      - s-64880cbe5b
+      - s-4b1fd6eef0

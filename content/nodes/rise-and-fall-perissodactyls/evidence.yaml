@@ -1,0 +1,141 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-5d8fd709b5
+      part: title
+    titleZh: 奇蹄类多样性如何变化
+    dek:
+      page: en
+      section: s-5d8fd709b5
+      part: body
+    theme: amber
+    durationMinutes: 8
+    featured: true
+    steps:
+      - id: arrival
+        title:
+          page: en
+          section: s-43fbd2c40e
+          part: title
+        titleZh:
+          page: zh
+          section: s-a9bee44fbf
+          part: title
+        text:
+          page: en
+          section: s-43fbd2c40e
+          part: body
+        textZh:
+          page: zh
+          section: s-a9bee44fbf
+          part: body
+        age: 54
+        timeRange:
+          - 56
+          - 50
+        taxonIds:
+          - perissodactyla
+          - brontotheriidae
+        view: tree
+        eventId: perissodactyl-radiation
+        annotation: First appearances are fossil observations, not exact origination dates.
+        claimLinks:
+          - claimId: claim:event:perissodactyl-radiation
+            relation: supports
+      - id: eocene-world
+        title:
+          page: en
+          section: s-04809e8e2e
+          part: title
+        titleZh:
+          page: zh
+          section: s-f1a67d035f
+          part: title
+        text:
+          page: en
+          section: s-04809e8e2e
+          part: body
+        textZh:
+          page: zh
+          section: s-f1a67d035f
+          part: body
+        age: 44
+        timeRange:
+          - 50
+          - 38
+        taxonIds:
+          - palaeotherium
+          - brontotheriidae
+          - metamynodon
+        view: map
+        claimLinks:
+          - claimId: claim:taxon:brontotheriidae:biogeography
+            relation: supports
+          - claimId: claim:taxon:palaeotherium:ecology
+            relation: contextualizes
+      - id: turnover
+        title:
+          page: en
+          section: s-5da496a811
+          part: title
+        titleZh:
+          page: zh
+          section: s-16f7ed9833
+          part: title
+        text:
+          page: en
+          section: s-5da496a811
+          part: body
+        textZh:
+          page: zh
+          section: s-16f7ed9833
+          part: body
+        age: 34
+        timeRange:
+          - 36
+          - 32
+        taxonIds:
+          - perissodactyla
+          - metamynodon
+        view: evidence
+        eventId: eocene-oligocene-transition
+        claimLinks:
+          - claimId: claim:event:eocene-oligocene-transition
+            relation: supports
+      - id: survivors
+        title:
+          page: en
+          section: s-990e69f001
+          part: title
+        titleZh:
+          page: zh
+          section: s-1ca045735c
+          part: title
+        text:
+          page: en
+          section: s-990e69f001
+          part: body
+        textZh:
+          page: zh
+          section: s-1ca045735c
+          part: body
+        age: 1
+        timeRange:
+          - 5
+          - 0
+        taxonIds:
+          - coelodonta
+          - perissodactyla
+        view: tree
+        claimLinks:
+          - claimId: claim:taxon:perissodactyla:taxonomy
+            relation: contextualizes
+          - claimId: claim:taxon:coelodonta:ecology
+            relation: contextualizes
+    evidenceStatus: available-with-limitations
+    dekZh:
+      page: zh
+      section: zh-0b14e5e077d293
+      part: body

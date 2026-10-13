@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Pseudacris nordensis
+    rank: species
+    sourceTaxonId: txn:104846
+    name:
+      en: Pseudacris nordensis
+      zh: Pseudacris nordensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-5c7bf0a27a
+            part: body
+          zh:
+            page: zh
+            section: s-e70093dfd3
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-26fe14f572
+            part: body
+          zh:
+            page: zh
+            section: s-79b5086fae
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-ed4f198c98
+            part: body
+          zh:
+            page: zh
+            section: s-13f25a2dc8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:104846; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: C. J. Chantell. 1964. Some Mio-Pliocene hylids from the Valentine Formation of Nebraska. American Midland Naturalist 72(1):211-225
+    occurrenceEvidence:
+      - occurrenceId: occ:286996
+        collectionId: col:18284
+        acceptedTaxonId: txn:104846
+        identifiedName: Pseudacris nordensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:7555
+        bibliography: C. J. Chantell. 1964. Some Mio-Pliocene hylids from the Valentine Formation of Nebraska. American Midland Naturalist 72(1):211-225
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:289939
+        collectionId: col:18141
+        acceptedTaxonId: txn:104846
+        taxonomicDifference: null
+        referenceId: ref:687
+        bibliography: "J. A. Holman. 1987. Herpetofauna of the Egelhoff site (Miocene: Barstovian) of north-central Nebraska. Journal of Vertebrate Paleontology 7(2):109-120"
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ed4f198c98
+            part: body
+          zh:
+            page: zh
+            section: s-13f25a2dc8
+            part: body
+        sourceIds: []

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus tavaratra
+  displayName: Mantidactylus tavaratra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMCTK
+  sourceIndexes:
+    - name:
+        en: Mantidactylus tavaratra
+        zh: Mantidactylus tavaratra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMCTK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/358
+            queryName: Mantidactylus tavaratra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-991ec5d22e
+      - s-6d297cc9d7
+      - s-c19da25097
+      - s-18b594d9f7
+      - s-bd690e3d32
+      - s-e54c8bb84f
+      - s-b6565856f9
+      - s-f6bde18740
+      - s-9de4195934
+      - s-29b2559005
+      - s-ad6c4d36d4
+      - s-c19c3c71ba
+      - s-69ac1f93fb
+    zh:
+      - s-a336e462b5
+      - s-6e2b5ff4bf
+      - s-5491dad434
+      - s-ce5f491bd1
+      - s-373a0137f7
+      - s-c401b036df
+      - s-6e0bfd1fa0
+      - s-5c77a9c591
+      - s-62d470f9a5
+      - s-3c5c039ac1
+      - s-6cd90e4eab
+      - s-af1e5d4a04
+      - s-1b7079291e

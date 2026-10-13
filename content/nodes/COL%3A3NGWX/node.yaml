@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus elachyhistus
+  displayName: Hyloxalus elachyhistus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWX
+  sourceIndexes:
+    - name:
+        en: Hyloxalus elachyhistus
+        zh: Hyloxalus elachyhistus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/95
+            queryName: Hyloxalus elachyhistus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/82
+            queryName: Colostethus elachyhistus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4d03addad
+      - s-fa2b3a1309
+      - s-f3e8e421f1
+      - s-c71e121406
+      - s-52dbdf97f3
+      - s-b9263fe322
+      - s-758820c289
+      - s-c5994158a6
+      - s-77a73e36ae
+      - s-771e22cd07
+      - s-a55e1587f7
+      - s-c8e709d0ac
+    zh:
+      - s-d4745ad270
+      - s-4b2f3ad981
+      - s-5050f47af3
+      - s-60db4bcbf1
+      - s-926ac665ab
+      - s-de56849891
+      - s-8d2c376cfc
+      - s-2230fb927f
+      - s-51d9161f50
+      - s-731c67a83e
+      - s-3f0ee57a26
+      - s-7767bcf962

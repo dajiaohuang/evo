@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes
+  displayName: Raorchestes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/774Y
+  sourceIndexes:
+    - name:
+        en: Raorchestes
+        zh: Raorchestes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 774Y
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/217
+            queryName: Raorchestes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 134
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5c6f0af7d
+      - s-121f949437
+      - s-dda7677f4e
+      - s-9543ed36a8
+      - s-8c7e8b3b99
+      - s-4729e6e559
+      - s-6279140d77
+      - s-ebd67d061a
+      - s-59a24e913a
+      - s-b77dc31d90
+      - s-a9de22012b
+      - s-a85db9ac88
+      - s-282dca99fa
+      - s-7861ecc268
+      - s-b4f3877564
+      - s-f4c0e45a85
+      - s-897dbb4618
+    zh:
+      - s-1565c57e78
+      - s-21aadfa726
+      - s-fb4bf19656
+      - s-0f127c8e2b
+      - s-e3e94610b8
+      - s-91155b8a50
+      - s-6df8c93d27
+      - s-4c15eeffd2
+      - s-aedc8f3a94
+      - s-de0881a431
+      - s-4a713bd67a
+      - s-67bcbf0054
+      - s-0d7fbe107d
+      - s-5d7b3b2939
+      - s-cbaac015d4
+      - s-de3e45c82e
+      - s-9e3d50301f

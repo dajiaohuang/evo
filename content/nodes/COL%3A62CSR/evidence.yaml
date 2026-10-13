@@ -1,0 +1,371 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arcovomer Carvalho, 1954
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Arcovomer
+      zh: Arcovomer
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b4eda0645d
+            part: title
+          zh:
+            page: zh
+            section: s-a3e00adaf1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b4eda0645d
+            part: body
+          zh:
+            page: zh
+            section: s-a3e00adaf1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8eb5717ccf
+            part: title
+          zh:
+            page: zh
+            section: s-f12715f229
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8eb5717ccf
+            part: body
+          zh:
+            page: zh
+            section: s-f12715f229
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-71d8c3083c
+            part: title
+          zh:
+            page: zh
+            section: s-6af77d7ee3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-71d8c3083c
+            part: body
+          zh:
+            page: zh
+            section: s-6af77d7ee3
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ceb4c05a33
+            part: title
+          zh:
+            page: zh
+            section: s-40b2ee735b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ceb4c05a33
+            part: body
+          zh:
+            page: zh
+            section: s-40b2ee735b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-3fc13a1815
+            part: title
+          zh:
+            page: zh
+            section: s-c881bab70b
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6829V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6829V
+            label:
+              en: Arcovomer passarellii
+              zh: Arcovomer passarellii
+        text:
+          en:
+            page: en
+            section: s-3fc13a1815
+            part: body
+          zh:
+            page: zh
+            section: s-c881bab70b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10688756-62csr
+        title:
+          en:
+            page: en
+            section: s-7fc5f244d6
+            part: title
+          zh:
+            page: zh
+            section: s-54f07f6c43
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7fc5f244d6
+            part: body
+          zh:
+            page: zh
+            section: s-54f07f6c43
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10688756-62csr
+        title:
+          en:
+            page: en
+            section: s-bb591d8a8e
+            part: title
+          zh:
+            page: zh
+            section: s-d6e5727566
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bb591d8a8e
+            part: body
+          zh:
+            page: zh
+            section: s-d6e5727566
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10688756-62csr
+        title:
+          en:
+            page: en
+            section: s-a1092adcdc
+            part: title
+          zh:
+            page: zh
+            section: s-b2de109d87
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6829V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6829V
+            label:
+              en: Arcovomer passarellii
+              zh: Arcovomer passarellii
+        text:
+          en:
+            page: en
+            section: s-a1092adcdc
+            part: body
+          zh:
+            page: zh
+            section: s-b2de109d87
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f38f5ab72a
+            part: body
+          zh:
+            page: zh
+            section: s-2519a5c0af
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arcovomer
+          url: https://www.checklistbank.org/dataset/316115/taxon/62CSR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Arcovomer; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10688756-62csr
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+            zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3a5525f24e
+        part: body
+      zh:
+        page: zh
+        section: s-b41f6bc728
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Arcovomer
+      sourceRowIds:
+        - Anf3857
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-direct-group-pmc10688756-62csr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: Source-labelled Atlantic Forest workbook rows grouped through fixed exact names or explicit catalogue accepted-links; duplicate destinations retained, not biological identity certification
+        evidenceRead: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reproduction and juvenile habitats retain source-row denominators
+              zh: 繁殖及幼体生境保留来源行分母
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-62csr
+            locator: PMC10688756 S3 Traits rows 30; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ba9413ec7c
+                part: body
+              zh:
+                page: zh
+                section: s-c3ca717407
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Inference flags and community associations have limited scope
+              zh: 推断标记及群落关联具有有限范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-62csr
+            locator: PMC10688756 S3 Traits rows 30; XML Functional diversity length/Observation columns; Results/Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-10392e30ea
+                part: body
+              zh:
+                page: zh
+                section: s-8f05884a54
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+    primaryResearchGroupSynthesisComplete: false

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophrynoides
+  displayName: Nectophrynoides
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63DYP
+  sourceIndexes:
+    - name:
+        en: Nectophrynoides
+        zh: Nectophrynoides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63DYP
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/79
+            queryName: Nectophrynoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 72
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce5a8c8b9f
+      - s-5014273961
+      - s-4f9d3250cc
+      - s-c2ddaf5d43
+      - s-c4c9cb3983
+      - s-5d809f2068
+      - s-c27baf230a
+      - s-b2bdf78498
+      - s-9babb9ce82
+      - s-554e5b78e6
+      - s-066d89a38d
+    zh:
+      - s-855d466732
+      - s-86c1c18ebd
+      - s-8ddbf2a4d8
+      - s-97dbe0f4df
+      - s-4eb650e522
+      - s-eb313c9582
+      - s-206602029f
+      - s-f3b8e0b184
+      - s-0190e26c58
+      - s-ff3dbfcdfb
+      - s-10df834a5c

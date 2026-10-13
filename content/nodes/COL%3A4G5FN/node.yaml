@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus disgregus
+  displayName: Philautus disgregus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5FN
+  sourceIndexes:
+    - name:
+        en: Philautus disgregus
+        zh: Philautus disgregus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5FN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/45
+            queryName: Philautus disgregus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-67cdf41bdb
+      - s-2124e781ad
+      - s-1c28faddaa
+      - s-b4162bc0c2
+      - s-688551204a
+      - s-544950ccb3
+      - s-195faf716a
+      - s-c26d1befb1
+    zh:
+      - s-379069ed0c
+      - s-46e7c463ad
+      - s-8f23600d19
+      - s-e32af0b86f
+      - s-f61cabe425
+      - s-e39750fc8d
+      - s-6a1815a0eb
+      - s-616a944fb1

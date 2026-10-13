@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia corpulenta
+  displayName: Caecilia corpulenta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SC
+  sourceIndexes:
+    - name:
+        en: Caecilia corpulenta
+        zh: Caecilia corpulenta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/61
+            queryName: Caecilia corpulenta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7fbef97f33
+      - s-d92bc4759e
+      - s-42d5669e01
+      - s-2d5baf13ca
+      - s-0bf13b3aa3
+      - s-158757aa4c
+      - s-2926301f24
+      - s-fa584bae32
+      - s-6b923a0650
+    zh:
+      - s-6853f4fd9c
+      - s-22b3d3f6b7
+      - s-3a9dcdd9b0
+      - s-d133e57ec7
+      - s-faba76ac78
+      - s-8384411a4d
+      - s-3a12ac57f2
+      - s-2eef40ba0c
+      - s-f3af4b4d5d

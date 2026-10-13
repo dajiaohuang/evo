@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Schoenus comparoides T.L.Elliott & Muasya
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 8XW4Y, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 8XW4Y; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/8XW4Y
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 8XW4Y
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001421033-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 8XW4Y / WFO wfo-0001421033
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_17822_0
+        referenceId: ref-a9c78010-e53a-8acd-a1a4-1663ebe6c15d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Schoenus comparoides T.L.Elliott & Muasya account; SANBI/WFO archive rows 103536 (Morphology), 103472 (Habitat), 103384 (Diagnostic), source identifier 17822.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Caespitose, phyllopodic perennial graminoid. Often viscous on sheaths. Culms terete, robust, 449-848 x 0.3-1.7 mm. Leaves basal, usually flat, not channelled directly above sheath, up to half of culm height, margin serrate above sheath, 1-6, 40-177 x 0.2-1.6 mm. Sheaths dark red at base and ivory coloured above, firm, longitudinally striate. Ligule slightly membranaceous, 0.5-4.3 mm. Inflorescence a pseudolateral panicle, usually compact, 14-39 x4-11 mm, proximal rachis length 5-14 mm. Proximal primary inflorescence bracts firm, not channelled, apex acuminate, not widened at base, 36-128 mm long, exceeding length of inflorescence 1.5 times or more, longitudinal veins not prominent. Proximal and subproximal primary inflorescence bracts without membranaceous extensions at base. Spikes 2-4, 4.0-20.5 mm long, overlapping. Spikelets broadly lanceolate, can be relatively long, 5.8-12.6 x0.7-1.4 mm, pedicellate, 2-6 spikelets per spike, reddish-brown in colour with reddish-purple streaking evident on upper glumes, lower glumes thicker and firmer than upper glumes. Proximal spikelet prophyll 1-2 pervspikelet, often difficult to distinguish from lower glumes, with raised central vein extending to mucro, 1.4-4.0 mm long, prophyll mucro 1.3-4.9 mm long. Rachilla 1.0-2.4 mm long. Glumes 4-7 per spikelet, proximal glume 1.8-4.0mm long, subproximal glume 2.0-5.0 mm long, lower glumes with narrow hyaline margin, upper glumes longer and thinner than basal ones, apex acute. Glume mucros varying in length, proximal mucro length 0.1-1.2 mm, subproximal mucro length 0.1-1.1 mm. Stamens 2-4 per floret, anthers 1.7-1.8 mm long. Stigmas 3-branched, vestigial stigmas of second bisexual floret often observed. Perianth bristles not observed. Nutlet broad elliptic, trigonous, yellowish in colour, 3-5 x 1.2-1.8 mm (two measured). Nutlet beak, 0.5-1.8 mm long, hispid, slightly bulging over nutlet body.
+            textZh: Schoenus comparoides T.L.Elliott & Muasya 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_17822_0
+            locator: "SANBI/WFO archive Morphology row 103536; source identifier 17822.0; cited publication: Elliott, TL; Muasya, AM. 2019. Three new species and a new combination among Southern African Schoenus (Cyperaceae, tribe Schoeneae). Phytotaxa 401(4): 267 - 275. [https://doi.org/10.11646/phytotaxa.401.4.4]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Base of culms dark red turning to ivory coloured above, often vicsous. Inflorescence often contracted. Lower glumes thick and firm.
+            textZh: SANBI 条目提供了 Schoenus comparoides T.L.Elliott & Muasya 的鉴别特征。
+            sourceIds:
+              - sanbi_17822_0
+            locator: "SANBI/WFO archive Diagnostic row 103384; source identifier 17822.0; cited publication: Elliott, TL; Muasya, AM. 2019. Three new species and a new combination among Southern African Schoenus (Cyperaceae, tribe Schoeneae). Phytotaxa 401(4): 267 - 275. [https://doi.org/10.11646/phytotaxa.401.4.4]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Habitats associated with this species include shale bands, fynbos vegetation and roadside embankments.
+            textZh: 该 SANBI 区域物种条目记录的生境：Habitats associated with this species include shale bands, fynbos vegetation and roadside embankments.
+            sourceIds:
+              - sanbi_17822_0
+            locator: "SANBI/WFO archive Habitat row 103472; source identifier 17822.0; cited publication: Elliott, TL; Muasya, AM. 2019. Three new species and a new combination among Southern African Schoenus (Cyperaceae, tribe Schoeneae). Phytotaxa 401(4): 267 - 275. [https://doi.org/10.11646/phytotaxa.401.4.4]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

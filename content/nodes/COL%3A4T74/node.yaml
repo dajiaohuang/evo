@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hamptophryne
+  displayName: Hamptophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4T74
+  sourceIndexes:
+    - name:
+        en: Hamptophryne
+        zh: Hamptophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4T74
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/418
+            queryName: Hamptophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-57ce53a707
+      - s-8cb1f305fe
+      - s-097a24f5fe
+      - s-7ed8929a4f
+      - s-62bb4e4d55
+      - s-fe5cc349f2
+      - s-092c3d0ec6
+      - s-687a0ae242
+      - s-da42868973
+      - s-63723c1ee4
+      - s-fd35aef1b9
+      - s-8d013afb6a
+      - s-cb584ff3fa
+      - s-9591e57b48
+    zh:
+      - s-d141d2f2dc
+      - s-9be5c05be8
+      - s-168de751ab
+      - s-d9097040b7
+      - s-9373c456df
+      - s-f478ce5e5a
+      - s-710588e4e9
+      - s-f6938fe36d
+      - s-0b2434312b
+      - s-1b35476cb5
+      - s-eedfc2912c
+      - s-0501213308
+      - s-02fd9e5a9d
+      - s-b7fcc4a184

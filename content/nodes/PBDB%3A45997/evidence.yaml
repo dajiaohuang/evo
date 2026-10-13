@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Neoplagiaulax hunteri
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Neoplagiaulax hunteri
+      en: Neoplagiaulax hunteri
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fe6eab44f1
+            part: body
+          en:
+            page: en
+            section: s-34a5b08a2e
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2fcc1a2aad
+            part: body
+          en:
+            page: en
+            section: s-b5bc2cfb27
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b4bb664121
+            part: body
+          en:
+            page: en
+            section: s-1df9b2bb0b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-548905c65f
+            part: body
+          en:
+            page: en
+            section: s-36b5eb4cc3
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dfde5c8c1f
+            part: body
+          en:
+            page: en
+            section: s-63e9055416
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Neoplagiaulax hunteri
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45997&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45997; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45997
+          selectedOccurrenceIds:
+            - occ:165535
+            - occ:165618
+            - occ:165904
+            - occ:165983
+            - occ:166045
+            - occ:166193
+            - occ:166275
+            - occ:166336
+            - occ:166398
+            - occ:166670
+            - occ:350742
+          selectedCollectionIds:
+            - col:14931
+            - col:14937
+            - col:14962
+            - col:14973
+            - col:14978
+            - col:14995
+            - col:15006
+            - col:15017
+            - col:15025
+            - col:15064
+            - col:14894
+          sourceReferenceIds:
+            - ref:1929
+            - ref:3717
+            - ref:1536
+            - ref:1983
+            - ref:2953
+            - ref:2165
+            - ref:2164
+            - ref:8868
+          originalIdentificationMappings:
+            - occurrenceId: occ:166670
+              originalIdentifiedName: Neoplagiaulax hunteri n. sp.
+              acceptedName: Neoplagiaulax hunteri
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5f920ffdb0
+        part: body
+      en:
+        page: en
+        section: s-8c4062c5ca
+        part: body

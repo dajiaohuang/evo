@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina gephyra
+  displayName: Oedipina gephyra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48W9Y
+  sourceIndexes:
+    - name:
+        en: Oedipina gephyra
+        zh: Oedipina gephyra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48W9Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/71
+            queryName: Oedipina gephyra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e9c847e61
+      - s-dd15f91c5c
+      - s-ad974e9f25
+      - s-e7b45dd144
+      - s-21d6c320b4
+      - s-ff3860460e
+      - s-77d8d80ec0
+      - s-38c2f9028f
+    zh:
+      - s-533832ea1d
+      - s-d4843dfdb1
+      - s-4b919badd0
+      - s-c81127b642
+      - s-447e31a410
+      - s-7b8e682362
+      - s-0443d0a2bd
+      - s-4cadd2e9a9

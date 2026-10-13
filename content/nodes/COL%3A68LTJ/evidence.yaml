@@ -1,0 +1,880 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boana punctata (Schneider, 1799)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boana punctata
+      zh: Boana punctata
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-aef18dcd18
+            part: title
+          zh:
+            page: zh
+            section: s-1721a27fb5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aef18dcd18
+            part: body
+          zh:
+            page: zh
+            section: s-1721a27fb5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4fa2efc336
+            part: title
+          zh:
+            page: zh
+            section: s-45a9a24fc7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4fa2efc336
+            part: body
+          zh:
+            page: zh
+            section: s-45a9a24fc7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-06019da481
+            part: title
+          zh:
+            page: zh
+            section: s-c89b5da816
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-06019da481
+            part: body
+          zh:
+            page: zh
+            section: s-c89b5da816
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-71c1b9737c8e9e2e4dfc02d9
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-5165c7ce17dd7494f5364b8c8b30bb2f
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-dacb3345d3b5096219f8e12f
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4b070d3859
+            part: title
+          zh:
+            page: zh
+            section: s-f07a6188ce
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4b070d3859
+            part: body
+          zh:
+            page: zh
+            section: s-f07a6188ce
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-286a23c621
+            part: title
+          zh:
+            page: zh
+            section: s-ecd9f25aa8
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-286a23c621
+            part: body
+          zh:
+            page: zh
+            section: s-ecd9f25aa8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-51a700558b
+            part: title
+          zh:
+            page: zh
+            section: s-e1233d140c
+            part: title
+        sourceIds:
+          - primary-pmc10215353-68ltj
+        text:
+          en:
+            page: en
+            section: s-51a700558b
+            part: body
+          zh:
+            page: zh
+            section: s-e1233d140c
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-f6d8f9d6ad
+            part: title
+          zh:
+            page: zh
+            section: s-f67c613c3c
+            part: title
+        sourceIds:
+          - primary-pmc10348306-68ltj
+        text:
+          en:
+            page: en
+            section: s-f6d8f9d6ad
+            part: body
+          zh:
+            page: zh
+            section: s-f67c613c3c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6efdea2241
+            part: title
+          zh:
+            page: zh
+            section: s-1cf2415649
+            part: title
+        sourceIds:
+          - primary-pmc10348306-68ltj
+        text:
+          en:
+            page: en
+            section: s-6efdea2241
+            part: body
+          zh:
+            page: zh
+            section: s-1cf2415649
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1e4fbbdf35
+            part: title
+          zh:
+            page: zh
+            section: s-8d1ef739fc
+            part: title
+        sourceIds:
+          - primary-pmc10688756-68ltj
+        text:
+          en:
+            page: en
+            section: s-1e4fbbdf35
+            part: body
+          zh:
+            page: zh
+            section: s-8d1ef739fc
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b65a0fb743
+            part: title
+          zh:
+            page: zh
+            section: s-b4a6d6c19d
+            part: title
+        sourceIds:
+          - primary-pmc10688756-68ltj
+        text:
+          en:
+            page: en
+            section: s-b65a0fb743
+            part: body
+          zh:
+            page: zh
+            section: s-b4a6d6c19d
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4d771335b8
+            part: title
+          zh:
+            page: zh
+            section: s-2dbf50187d
+            part: title
+        sourceIds:
+          - primary-pmc10688756-68ltj
+        text:
+          en:
+            page: en
+            section: s-4d771335b8
+            part: body
+          zh:
+            page: zh
+            section: s-2dbf50187d
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-c720a6c4f2
+            part: title
+          zh:
+            page: zh
+            section: s-0837ea6249
+            part: title
+        sourceIds:
+          - primary-pmc12654886-68ltj
+        text:
+          en:
+            page: en
+            section: s-c720a6c4f2
+            part: body
+          zh:
+            page: zh
+            section: s-0837ea6249
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2f28b9606d
+            part: title
+          zh:
+            page: zh
+            section: s-d5e5cfd89a
+            part: title
+        sourceIds:
+          - primary-pmc12654886-68ltj
+        text:
+          en:
+            page: en
+            section: s-2f28b9606d
+            part: body
+          zh:
+            page: zh
+            section: s-d5e5cfd89a
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f7da325444
+            part: title
+          zh:
+            page: zh
+            section: s-4b5c3c91ba
+            part: title
+        sourceIds:
+          - primary-pmc12654886-68ltj
+        text:
+          en:
+            page: en
+            section: s-f7da325444
+            part: body
+          zh:
+            page: zh
+            section: s-4b5c3c91ba
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-64205d889c
+            part: title
+          zh:
+            page: zh
+            section: s-1364743757
+            part: title
+        sourceIds:
+          - primary-pmc12654886-68ltj
+        text:
+          en:
+            page: en
+            section: s-64205d889c
+            part: body
+          zh:
+            page: zh
+            section: s-1364743757
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-ad0210aa75
+            part: title
+          zh:
+            page: zh
+            section: s-fd38571ad4
+            part: title
+        sourceIds:
+          - primary-pmc12654886-68ltj
+        text:
+          en:
+            page: en
+            section: s-ad0210aa75
+            part: body
+          zh:
+            page: zh
+            section: s-fd38571ad4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boana punctata
+          url: https://www.checklistbank.org/dataset/316115/taxon/68LTJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1714, 5473, 5475; Picture measurement data rows 190, 191; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2434; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2434 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 4353; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10215353-68ltj
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana punctata: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10348306-68ltj
+        referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana punctata: XML Study site, Fieldwork, Filtration, Specimen processing, Molecular assays, Reference database, Bioinformatics, Results and Discussion sections read; original supplementary detection tables, deposited reads, presence–absence matrices and scripts not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-68ltj
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana punctata: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12654886-68ltj
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana punctata: Boana punctata: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7ae77e2bac
+        part: body
+      zh:
+        page: zh
+        section: s-c3ee985f5a
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-71c1b9737c8e9e2e4dfc02d9
+        scientificName: Boana punctata
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.3390/ani13101593
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        sourceKey: primary-pmc10215353-68ltj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10215353/article.xml
+        sourceConcept: Boana punctata reference as listed in Table1
+        evidenceRead: "Boana punctata: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: An accession-bounded reference in the 2023 study
+              zh: 2023年研究中受序列号限定的参考
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-68ltj
+            locator: PMC10215353 XML Table1 named/accession rows; sec2dot5 paragraph1; sec3dot6 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-44baf978ae
+                part: body
+              zh:
+                page: zh
+                section: s-2dfb8f45a0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.15455
+        referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+        sourceKey: primary-pmc10348306-68ltj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10348306/article.xml
+        sourceConcept: 2023 source-labelled Boana punctata in Tena microbasin monitoring or reference-database assessment
+        evidenceRead: "Boana punctata: XML Study site, Fieldwork, Filtration, Specimen processing, Molecular assays, Reference database, Bioinformatics, Results and Discussion sections read; original supplementary detection tables, deposited reads, presence–absence matrices and scripts not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Pond specimens in a two-year wet-season survey
+              zh: 跨两年湿季调查中的池塘标本
+            referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+            sourceKey: primary-pmc10348306-68ltj
+            locator: PMC10348306 XML Fieldwork; Results Visual encounter surveys
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3544ca2fc1
+                part: body
+              zh:
+                page: zh
+                section: s-b52a5d8c36
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Repeated visual records and molecular detections differ
+              zh: 重复目视记录与分子检出不同
+            referenceId: ref-f541a688-07cc-4b92-a1e2-0431d4f1f2b0
+            sourceKey: primary-pmc10348306-68ltj
+            locator: PMC10348306 XML Bioinformatics and statistical analysis; Results eDNA vs. VES comparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-98a400bc25
+                part: body
+              zh:
+                page: zh
+                section: s-e95b0527de
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-68ltj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Boana_punctata, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Boana punctata: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-68ltj
+            locator: PMC10688756 S3 File Traits row 63 Boana_punctata; XML Functional diversity; upstream reference numbers 1, 2, 3, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-90e6152e5d
+                part: body
+              zh:
+                page: zh
+                section: s-0ab0afc939
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-68ltj
+            locator: PMC10688756 S3 File Traits row 63 Boana_punctata habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-48c9a2a0b5
+                part: body
+              zh:
+                page: zh
+                section: s-f324dc4e76
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-68ltj
+            locator: PMC10688756 S3 File Traits row 63 Boana_punctata length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-de82ecb291
+                part: body
+              zh:
+                page: zh
+                section: s-290bdd93bc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-68ltj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Regional source-labelled Boana punctata molecular-marker/specimen records plus priorinventory/treatment, no voucher/modernconcept certification
+        evidenceRead: "Boana punctata: Boana punctata: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-68ltj
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow23 Boana punctata fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-261109642f
+                part: body
+              zh:
+                page: zh
+                section: s-a6b7d2523c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-68ltj
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow23 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-55f37bdf17
+                part: body
+              zh:
+                page: zh
+                section: s-3efd50a208
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-68ltj
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-01f1d3d700
+                part: body
+              zh:
+                page: zh
+                section: s-9cb61f2b4a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Specimen-linked marker availability in the regional workbook
+              zh: 区域工作簿逐标本标记可用性
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-68ltj
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows80,81,82,83,84,85,86,87 B:I; headersB4:I4; XML sec007/sec033; S3_Table.pdf exactinventoryname
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8a49d48d33
+                part: body
+              zh:
+                page: zh
+                section: s-ed772b487e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Marker partitions and correlation labels retain their scope
+              zh: 标记分区及相关标签保留范围
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-68ltj
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows80,81,82,83,84,85,86,87 E:I; XML sec007 ASAPmethods andsec033 markercomparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-081dd3eeb8
+                part: body
+              zh:
+                page: zh
+                section: s-ec6341229e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

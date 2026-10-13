@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Rhinesuchoides tenuiceps
+    rank: species
+    sourceTaxonId: txn:120919
+    name:
+      en: Rhinesuchoides tenuiceps
+      zh: Rhinesuchoides tenuiceps
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-d3e89a49c6
+            part: body
+          zh:
+            page: zh
+            section: s-e2ecc53c7b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 2 PBDB occurrence rows and collection fields
+          zh: 2 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-a82cd0a0d9
+            part: body
+          zh:
+            page: zh
+            section: s-888e12cdb2
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Rhinesuchoides tenuiceps
+          zh: Rhinesuchoides tenuiceps 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-2893755a11
+            part: body
+          zh:
+            page: zh
+            section: s-77f9d4e187
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:120919; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: E. C. Olson and R. Broom. 1937. New genera and species of tetrapods from the Karroo Beds of South Africa. Journal of Paleontology 11(7):613-619
+    occurrenceEvidence:
+      - occurrenceId: occ:1304609
+        collectionId: col:174626
+        acceptedTaxonId: txn:120919
+        identifiedTaxonId: txn:267024
+        identifiedName: Rhinesuchus rubidgei n. sp.
+        taxonomicDifference: null
+        referenceId: ref:57014
+        bibliography: R. Broom. 1948. A Contribution to our Knowledge of the Vertebrates of the Karroo Beds of South Africa. Transactions of the Royal Society of Edinburgh 61(2):577-629
+        locality:
+          countryCode: ZA
+          stateProvince: Eastern Cape
+          county: Graaff-Reinet
+        stratigraphy:
+          group: Beaufort
+          formation: null
+          member: null
+        olderAgeMa: 259.857
+        youngerAgeMa: 254.14
+      - occurrenceId: occ:1428991
+        collectionId: col:198720
+        acceptedTaxonId: txn:120919
+        identifiedName: Rhinesuchoides tenuiceps n. sp.
+        taxonomicDifference: null
+        referenceId: ref:67683
+        bibliography: L. D. Boonstra. 1969. The fauna of the Tapinocephalus Zone (Beaufort Beds of the Karoo). Annals of the South African Museum 56(1):1-73
+        locality:
+          countryCode: ZA
+          stateProvince: Western Cape
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 259.857
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Rhinesuchoides tenuiceps
+          zh: Rhinesuchoides tenuiceps 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-2893755a11
+            part: body
+          zh:
+            page: zh
+            section: s-77f9d4e187
+            part: body
+        sourceIds: []

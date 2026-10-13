@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Palaeotherium
+  displayName: Palaeotherium
+  rank: genus
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=49711
+    parentSourceIdentifier: txn:96780
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=49711
+      placement: PBDB-recorded-ancestor-chain-supplement
+  subjectPath: content/nodes/PBDB%3A49711
+  scopeRecord: atlas-profile
+  packagePath: data/packages/mammalia/perissodactyla
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c324f3a48
+      - s-0502f6bec4
+      - s-aedb18d560
+      - s-82267c90ce
+      - s-3702bd017f
+      - s-51355a4fe3
+      - s-0cea0a2869
+      - s-9dea91117a
+      - s-b6035a4e51
+      - s-15f516e955
+      - s-5b6334f3aa
+      - s-8e955a2b9c
+      - s-5d810ad86c
+    zh:
+      - s-809ac516ff
+      - s-cc95522b69
+      - s-dc78e75b19
+      - s-944dfb0def
+      - s-3c5fc30288
+      - zh-a55fc4c59fe830
+      - zh-4f91edb7f174ce
+      - zh-5293b97ba72b41
+      - zh-3d2fcd183a807f
+      - zh-f5c70f86a14707
+      - zh-dcd25c22681c48
+      - zh-d05178759bf862
+      - zh-29b1088344ac1a

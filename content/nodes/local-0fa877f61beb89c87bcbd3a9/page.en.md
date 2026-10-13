@@ -1,0 +1,9 @@
+## The dataset entry {#s-1d792cb479}
+The pinned AmphiTherm curated snapshot records Calotriton arnoldi under Salamandridae, Caudata. It retains 7 thermal estimate rows across 1 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical lower thermal limit estimate {#s-ea4fa9961e}
+Source row 1000 (ID 1141; Contreras-Cisneros_2019) reports 1.2 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Calotriton_arnoldi_pop1. Recorded conditions include acclimation at 12.7 °C, medium_test_temp = water. The source reports 0.08 °C as its standard error. The source n_trait field is 5. The endpoint is OS. Sex is recorded as unknown. Animal origin is recorded as unclear. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## thermal preference estimate {#s-da0b48bb4e}
+Source row 1001 (ID 1142; Contreras-Cisneros_2019) reports 13.35 °C for the thermal preference estimate (metric code Tpref). The tested stage is recorded as adults. The source population code is Calotriton_arnoldi_pop2. Recorded conditions include acclimation at 12.7 °C, medium_test_temp = water. The source reports 0.5 °C as its standard error. The source n_trait field is 6. The source row does not state an endpoint. Sex is recorded as male. Animal origin is recorded as unclear. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

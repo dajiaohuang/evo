@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heterixalus carbonei
+  displayName: Heterixalus carbonei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3L7NK
+  sourceIndexes:
+    - name:
+        en: Heterixalus carbonei
+        zh: Heterixalus carbonei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3L7NK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/286
+            queryName: Heterixalus carbonei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b0078affa7
+      - s-243237ace2
+      - s-ec5b09c4d6
+      - s-5d7d5e5316
+      - s-91d97ad820
+      - s-61d7fa0975
+      - s-c721988969
+      - s-69bb34252c
+      - s-ef60b32b0d
+    zh:
+      - s-bc2fb842e0
+      - s-201ffdb24c
+      - s-8161ea5b20
+      - s-74abd59354
+      - s-caeece9bda
+      - s-753b70ce38
+      - s-86e66128dd
+      - s-ab0f54f1a8
+      - s-3d1345f7ee

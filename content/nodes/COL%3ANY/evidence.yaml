@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Ammonoidea
+    commonName: Ammonites
+    commonNameZh: 菊石类
+    rank: subclass
+    taxonId: txn:14505
+    firstAppearance: 409
+    lastAppearance: 66
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:ammonoidea
+      claimKind: scientific
+      claimType: topology
+      statement: A cladistic analysis of ammonoids spanning the Permian–Triassic boundary tests survival and turnover in that sampled interval; it neither covers all Ammonoidea nor fixes their origin and extinction endpoints.
+      confidence: medium
+      confidenceRationale: The boundary-focused character matrix directly supports local topology, while its interval and taxon sampling preclude a whole-group range claim.
+      referenceLinks:
+        - referenceId: mcgowan-smith-2007-ammonoids
+          relation: supports
+          pages: 573–590
+          quoteLocator: Figures 1–7; cladistic analysis across the boundary
+    - subjectId: taxon:ammonoidea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: McGowan and Smith sample Middle–Late Permian and Induan ammonoids across the Permian–Triassic boundary, supporting a Roadian-to-end-Induan study window of 274.4–250.8 Ma rather than the full Ammonoidea range, a divergence date or continuous global occupancy.
+      confidence: medium
+      confidenceRationale: The taxon matrix and geological-timescale comparison expose the sampled interval directly. Medium confidence is limited to that study window and its current ICS conversion.
+      referenceLinks:
+        - relation: supports
+          referenceId: mcgowan-smith-2007-ammonoids
+          pages: 573–590
+          figure: Text-figure 7
+          quoteLocator: Abstract; taxon matrix; comparison of the cladogram with the geological timescale
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for the named stages and periods used to bound the source sample
+  claim-rationales.zh:
+    - 界线聚焦的性状矩阵直接支持局部拓扑，但其时段和类群取样不能支撑全群范围主张。
+    - 类群矩阵及其与地质时间尺度的比较直接展示了取样区间。中等置信度仅限于该研究窗口及其当前 ICS 数值换算。
+  claim-statements.zh:
+    - 跨二叠纪—三叠纪界线的菊石支序分析检验了该取样区间的存续与更替；它既不覆盖全部菊石亚纲，也不确定其起源和灭绝端点。
+    - McGowan 与 Smith 取样了二叠纪中晚期及印度期跨二叠纪—三叠纪界线的菊石，因此支持 2.744–2.508 亿年前从罗德期到印度期末的研究窗口，而不是菊石亚纲完整延限、分化时间或全球连续占据。
+  ranges:
+    - entityId: ammonoidea
+      rangeKind: global-composite
+      taxonomicConcept: Ammonoidea — Permian–Triassic boundary study-sample window
+      geographicScope: Middle and Late Permian through Induan ammonoids sampled by McGowan and Smith
+      olderMa: 274.4
+      youngerMa: 250.8
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This Roadian-to-end-Induan envelope is the cited cladistic sample window, not the full Ammonoidea range, a divergence estimate or uninterrupted global occupancy.
+      evidenceBasis: The paper directly analyzes Middle–Late Permian and Induan ammonoids across the Permian–Triassic boundary; current ICS boundaries convert that named interval to numerical ages.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:ammonoidea:source-bounded-range-rc50
+      referenceLocators:
+        - referenceId: mcgowan-smith-2007-ammonoids
+          locator: 573–590; Abstract; taxon matrix; Text-figure 7, cladogram compared with the geological timescale
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical boundaries for the named stages and periods used to bound the source sample

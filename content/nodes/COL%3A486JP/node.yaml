@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus laurae
+  displayName: Nymphargus laurae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JP
+  sourceIndexes:
+    - name:
+        en: Nymphargus laurae
+        zh: Nymphargus laurae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/432
+            queryName: Nymphargus laurae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1806ca553a
+      - s-f99ae179a6
+      - s-fd371cdb19
+      - s-c7e1ae01a5
+      - s-1320a31ad8
+      - s-daa8adf57b
+      - s-1c5e46ae0a
+      - s-f7ae0afa0c
+      - s-c20909490f
+      - s-b2ed699a25
+      - s-9378ebf3b9
+      - s-ec294f03d0
+      - s-fbf9ff1d02
+    zh:
+      - s-f038e45a8b
+      - s-cc61a41dd1
+      - s-adf7ec75fb
+      - s-7c86f04353
+      - s-a00d7ae369
+      - s-da0cc50637
+      - s-db6b373d66
+      - s-6ed5450bee
+      - s-e0de5fb59e
+      - s-8ef548d470
+      - s-48660e04e5
+      - s-595d84e8d4
+      - s-d9bc184ecd

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger tengchongensis
+  displayName: Scutiger tengchongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W389
+  sourceIndexes:
+    - name:
+        en: Scutiger tengchongensis
+        zh: Scutiger tengchongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W389
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/165
+            queryName: Scutiger tengchongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0fca689337
+      - s-5302323107
+      - s-da90114622
+      - s-b7f00f4ca1
+      - s-59caab3003
+      - s-960f33e372
+    zh:
+      - s-09ca8772b8
+      - s-1294e43225
+      - s-37cc66e9bd
+      - s-7e1fc707b8
+      - s-fdf08f8042
+      - s-dd6d18d401

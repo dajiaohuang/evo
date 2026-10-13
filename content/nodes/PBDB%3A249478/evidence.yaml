@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Colognathus obscurus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Colognathus obscurus
+      en: Colognathus obscurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbResidualAmniotaTaxonomy20261002
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ea89de62b9
+            part: body
+          en:
+            page: en
+            section: s-2235fc3b60
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d8e0cfb0f2
+            part: body
+          en:
+            page: en
+            section: s-d0bceac348
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-020fc38db4
+            part: body
+          en:
+            page: en
+            section: s-7ff887c0e0
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-42adbb29af
+            part: body
+          en:
+            page: en
+            section: s-d55481e550
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1b9e78b3b5
+            part: body
+          en:
+            page: en
+            section: s-4618153407
+            part: body
+    sources:
+      - id: pbdbResidualAmniotaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Colognathus obscurus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=249478&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbResidualAmniotaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:249478; original response record indices retained in data/sources/amniota-residual-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:249478
+          selectedOccurrenceIds:
+            - occ:513189
+            - occ:572610
+            - occ:838890
+            - occ:850015
+            - occ:1079731
+            - occ:1080935
+            - occ:1417412
+            - occ:1417413
+          selectedCollectionIds:
+            - col:39671
+            - col:13266
+            - col:84264
+            - col:94493
+            - col:99541
+            - col:71976
+            - col:164520
+            - col:83736
+          sourceReferenceIds:
+            - ref:13103
+            - ref:17273
+            - ref:14122
+            - ref:43333
+            - ref:43383
+            - ref:66730
+          originalIdentificationMappings:
+            - occurrenceId: occ:1080935
+              originalIdentifiedName: Xenognathus obscurus n. gen. n. sp.
+              acceptedName: Colognathus obscurus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-fc5d5cc627
+        part: body
+      en:
+        page: en
+        section: s-dcec000453
+        part: body

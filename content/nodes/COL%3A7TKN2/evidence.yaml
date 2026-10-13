@@ -1,0 +1,365 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Equus caballus Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 家马
+      en: Domestic horse
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-8351e0b933
+            part: body
+          en:
+            page: en
+            section: s-56a9574c57
+            part: body
+        sourceIds:
+          - account
+          - taxonomy
+          - variation
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-3bfc9d2464
+            part: body
+          en:
+            page: en
+            section: s-0379a810ad
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-8fafa44021
+            part: body
+          en:
+            page: en
+            section: s-d8a1a95e2f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-65588976ed
+            part: body
+          en:
+            page: en
+            section: s-ec5daef60e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-20ced3fb44
+            part: body
+          en:
+            page: en
+            section: s-4288c121d0
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e87b1250a2
+            part: body
+          en:
+            page: en
+            section: s-3140933fe9
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f7d0f5728e
+            part: body
+          en:
+            page: en
+            section: s-bdb79e65ff
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-6b6c9be0d8
+            part: body
+          en:
+            page: en
+            section: s-aad51a8c2c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-6a867cb43e
+            part: body
+          en:
+            page: en
+            section: s-9be9182eb0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e078ded6bc
+            part: body
+          en:
+            page: en
+            section: s-823d164d60
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-075202b92c
+            part: body
+          en:
+            page: en
+            section: s-435d804a79
+            part: body
+    sources:
+      - id: account
+        referenceId: ref-13eca67c-6397-85bb-ae04-d30157244dcf
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 名称与家养型关系；不作生活史证据。
+            en: Names and domestic-derivative relationships; not life-history evidence.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/7TKN2
+          scope:
+            zh: 固定版本中的名称、作者、等级与父子关系；不是系统发育分歧证据。
+            en: Pinned names, authorship, ranks and parent links; not evidence of phylogenetic divergence.
+      - id: variation
+        referenceId: ref-a83f33aa-cd7e-8f24-a1cb-e57cdc82f6a7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持家马品种间形态差异；不作为固定体重、寿命或野马生活史证据。
+            en: Supports variation among domestic breeds; not a fixed mass, lifespan or wild-horse life-history estimate.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 11975; name Equus caballus; reference table row 11975; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Ricklefs, 2010b from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009)
+            female_maturity_d: de Magalhaes and Costa, 2009 from median of 3(Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009)
+            litter_or_clutch_size_n: Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 3(Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, de Magalhaes and Costa, 2009)
+            gestation_d: mean of Ricklefs, 2010b & Jones, K., Bielby, J., Cardillo, M. et al., 2009 from median of 4(Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009)
+            weaning_d: mean of de Magalhaes and Costa, 2009 & Ricklefs, 2010b from median of 4(Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009)
+            birth_or_hatching_weight_g: Garratt et al., 2014 from median of 5(Ricklefs, R.E., 2010a, Garratt et al., 2014, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ricklefs, 2010b, de Magalhaes and Costa, 2009)
+            maximum_longevity_y: Carey, J.R. and D.S. Judge, 2002
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ricklefs, 2010b
+            - Garratt et al., 2014
+            - Ricklefs, R.E., 2010a
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 5064; Scientific=Equus caballus; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-cca0596a34
+        part: body
+      en:
+        page: en
+        section: s-3c9f315ce7
+        part: body

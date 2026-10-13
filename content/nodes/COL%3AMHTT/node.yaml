@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis luciae
+  displayName: Boophis luciae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHTT
+  sourceIndexes:
+    - name:
+        en: Boophis luciae
+        zh: Boophis luciae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHTT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/265
+            queryName: Boophis luciae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bae0b2d5e0
+      - s-1c11761426
+      - s-de4e38ec50
+      - s-e7e56edc31
+      - s-7155784779
+      - s-749dd1689c
+      - s-b9b419b03e
+      - s-539b05d6c5
+      - s-5d630a5f68
+    zh:
+      - s-686be17ee9
+      - s-e3c6a6d3cd
+      - s-391dd42388
+      - s-d9fef563b2
+      - s-844b3918c3
+      - s-527fcc6ebf
+      - s-bcb4542e25
+      - s-013f8f6522
+      - s-c18e3a08f6

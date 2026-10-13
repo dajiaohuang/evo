@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis sirnigeli
+  displayName: Pristimantis sirnigeli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77WG7
+  sourceIndexes:
+    - name:
+        en: Pristimantis sirnigeli
+        zh: Pristimantis sirnigeli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77WG7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/100
+            queryName: Pristimantis sirnigeli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-29dccdd3b0
+      - s-425727de7b
+      - s-88b0ba1f58
+      - s-fe48f96b88
+      - s-f8a4910c55
+      - s-5f13628bf3
+      - s-5e1183be3c
+      - s-6ad00c3e09
+      - s-9ff2b928af
+      - s-d01b8719c5
+      - s-ed6689235e
+      - s-fdd65ad87d
+      - s-cb8b51d0e9
+      - s-bf098a55dd
+      - s-8cc239bd91
+      - s-c19796490e
+      - s-6df40c6e6a
+      - s-ed2026d209
+      - s-f0c68a0ea5
+      - s-7ce9b3a15c
+      - s-fd39a2c3a0
+    zh:
+      - s-e55e0c9f25
+      - s-8fdc4d7cf0
+      - s-1fc023ec92
+      - s-20600fa164
+      - s-70e4c12d04
+      - s-1c35e9a255
+      - s-8ac09d6a59
+      - s-bf29db090e
+      - s-9ceb0bc179
+      - s-77ab183052
+      - s-2f8fb08df3
+      - s-376229ab35
+      - s-edb4b3b910
+      - s-a4d54ba60c
+      - s-e88f75649c
+      - s-a49592a810
+      - s-7417681d99
+      - s-860ce9e572
+      - s-44182be315
+      - s-011ac75522
+      - s-3e3fbd3454

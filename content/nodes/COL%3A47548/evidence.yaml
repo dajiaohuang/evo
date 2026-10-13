@@ -1,0 +1,119 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Nerine marincowitzii Snijman
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 47548, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 47548; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/47548
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 47548
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000697038-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 47548 / WFO wfo-0000697038
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7596_0
+        referenceId: ref-1858099d-293e-8b44-a5c0-8ccf7de99af7
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Nerine marincowitzii Snijman account; SANBI/WFO archive rows 76428 (Morphology), 75844 (Habitat), source identifier 7596.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants small, to 20 cm high. Bulb solitary, depressed-globose, 45-55 mm across, covered with thinly fibrous tunics, cream-colored and fleshy within, extended into a slender neck to 60 mm long. Foliage leaves 5-6, absent at anthesis, distichous, suberect to recurved, narrowly ligulate, tapering gradually distally, canaliculate, somewhat succulent, to 30 cm x 3-4 mm, bright green, glabrous. Inflorescence 20-40-flowered, hemispherical, compact, 10-16 cm across; scape sigmoid, rigid, elliptical in cross section, 11-14 cm x 2.5-3.5 mm, reddish brown, breaking at ground level when dry; spathe valves 2, narrowly lanceolate, 35-55 x 3-5 mm, papery, wine-red; bracteoles filiform, to 10 mm long; pedicels radiating widely, straight, terete, 40-75 mm long, shiny green, turning straw-colored and rigid in fruit. Perigone strongly zygomorphic, pink, initially with whitish throat, aging to brown, scentless; tepals shortly connate proximally, oblong-lanceolate, falcate and upturned at anthesis, 17-22 x 4-6.5 mm, plane; filaments slightly declinate, filiform, 13-17 mm long, expanded and connate proximally into a short tube to 0.25 mm long; anthers dorsifixed, ca. 5 mm long and wine-red before opening; pollen whitish. Ovary dark wine-red; ovules 1 or rarely 2 per locule, absent from innermost flowers; style slender, declinate, ca. 20 mm long; nectar present around style base; stigma shortly trilobed. Capsule small, papery, loculicidally dehiscent, rapidly outgrown by seeds. Seeds ellipsoidal, succulent, 6-7 mm across, wine-red; testa with stomata. Flowering is limited to approximately three weeks in May depending on the advent of rain in autumn (probably until the end of April). The leaves appear in spring when growth is rapid and die back during a dry spell in summer.
+            textZh: Nerine marincowitzii Snijman 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7596_0
+            locator: "SANBI/WFO archive Morphology row 76428; source identifier 7596.0; cited publication: Snijman, DA. 1995. A new Nerine species (Amaryllidaceae tribe Amaryllideae) from the Koup Karoo, South Africa. Novon 5(1): 103 - 105. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Confined to sparsely vegetated, seasonal washes with a north aspect, where the bulbs are lodged in light clay soil, covered with sharp blue-gray slate chips.
+            textZh: 该 SANBI 区域物种条目记录的生境：Confined to sparsely vegetated, seasonal washes with a north aspect, where the bulbs are lodged in light clay soil, covered with sharp blue-gray slate chips.
+            sourceIds:
+              - sanbi_7596_0
+            locator: "SANBI/WFO archive Habitat row 75844; source identifier 7596.0; cited publication: Snijman, DA. 1995. A new Nerine species (Amaryllidaceae tribe Amaryllideae) from the Koup Karoo, South Africa. Novon 5(1): 103 - 105. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-34ced25bec
+        title:
+          en:
+            page: en
+            section: s-b9d7d82bd7
+            part: title
+          zh:
+            page: zh
+            section: s-bee1d248eb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b9d7d82bd7
+            part: body
+          zh:
+            page: zh
+            section: s-bee1d248eb
+            part: body
+        sourceIds:
+          - sanbi_7596_0

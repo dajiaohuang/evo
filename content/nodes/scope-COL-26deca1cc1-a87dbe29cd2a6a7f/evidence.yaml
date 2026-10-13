@@ -1,0 +1,301 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:106418
+    scientificName: Perissodactyla
+    commonName: Odd-toed ungulates
+    commonNameZh: 奇蹄目
+    rank: order
+    parentName: Laurasiatheria
+    extinct: false
+    geography:
+      - Holarctic continents (early fossil record)
+    overview:
+      page: en
+      section: s-74d938cdca
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-0129ef6a4f
+        part: body
+      habitat:
+        page: en
+        section: s-6a00153fdb
+        part: body
+      locomotion:
+        page: en
+        section: s-c4e24ec190
+        part: body
+      bodySize:
+        page: en
+        section: s-e286506668
+        part: body
+      guild:
+        page: en
+        section: s-7dd6b850d1
+        part: body
+    traits:
+      - page: en
+        section: s-d4237e8917
+        part: body
+      - page: en
+        section: s-390ee9c63a
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-930fc79579
+      part: body
+    confidence: medium
+    referenceIds:
+      - pnas-2026-perissodactyls
+      - prothero-2009-hoofed-transitions
+      - amnh-perissodactyl-evolution
+    readerSources:
+      - id: pnas-2026-perissodactyls
+        referenceId: pnas-2026-perissodactyls
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+            zh: 用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+      - id: prothero-2009-hoofed-transitions
+        referenceId: prothero-2009-hoofed-transitions
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+            zh: 用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+      - id: amnh-perissodactyl-evolution
+        referenceId: amnh-perissodactyl-evolution
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+            zh: 用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-3f75ff2541
+            part: title
+          zh:
+            page: zh
+            section: s-70c55c0e50
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-70c55c0e50
+            part: body
+          en:
+            page: en
+            section: s-3f75ff2541
+            part: body
+        sourceIds:
+          - pnas-2026-perissodactyls
+          - prothero-2009-hoofed-transitions
+          - amnh-perissodactyl-evolution
+      - id: perissodactyla-reading-0
+        title:
+          zh:
+            page: zh
+            section: s-62ac72e36d
+            part: title
+          en:
+            page: en
+            section: s-3d7cb3ed91
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-62ac72e36d
+            part: body
+          en:
+            page: en
+            section: s-3d7cb3ed91
+            part: body
+        sourceIds:
+          - pnas-2026-perissodactyls
+          - prothero-2009-hoofed-transitions
+          - amnh-perissodactyl-evolution
+      - id: perissodactyla-reading-1
+        title:
+          zh:
+            page: zh
+            section: s-5726655a84
+            part: title
+          en:
+            page: en
+            section: s-b918ae4686
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-5726655a84
+            part: body
+          en:
+            page: en
+            section: s-b918ae4686
+            part: body
+        sourceIds:
+          - prothero-2009-hoofed-transitions
+          - amnh-perissodactyl-evolution
+      - id: perissodactyla-reading-2
+        title:
+          zh:
+            page: zh
+            section: s-1f5d30be3b
+            part: title
+          en:
+            page: en
+            section: s-63d78c4df5
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-1f5d30be3b
+            part: body
+          en:
+            page: en
+            section: s-63d78c4df5
+            part: body
+        sourceIds:
+          - pnas-2026-perissodactyls
+          - prothero-2009-hoofed-transitions
+    readerLimitations:
+      en:
+        page: en
+        section: s-27a0e8bb60
+        part: body
+      zh:
+        page: zh
+        section: s-957d840447
+        part: body
+    overviewZh:
+      page: zh
+      section: zh-1682e2d3e55a25
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-8f612899631df8
+      part: body
+  claims:
+    - subjectId: taxon:perissodactyla
+      claimKind: scientific
+      claimType: biogeography
+      statement: PETM perissodactyl records imply rapid dispersal among northern landmasses, while sparse sampling and analysis-dependent stem placements leave the order’s place of origin unresolved.
+      confidence: medium
+      confidenceRationale: The primary analysis directly constrains the earliest sample and geographic pattern. Medium confidence retains its unresolved-origin conclusion and the sensitivity of basal placements to sampling and character analysis.
+      referenceLinks:
+        - referenceId: pnas-2026-perissodactyls
+          relation: supports
+          pages: 1–6 of 8
+          figure: Figures 1 and 3; Dataset S2
+          quoteLocator: Abstract and Introduction (p. 1), stem placements (p. 4), occurrence calibration and unresolved origin (p. 6)
+        - referenceId: prothero-2009-hoofed-transitions
+          relation: supports
+          pages: 290–294
+          figure: Figure 1
+          quoteLocator: “The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons
+    - subjectId: taxon:perissodactyla
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Perissodactyla is treated as the order containing living horses, tapirs and rhinoceroses plus diverse extinct branches; basal fossil placements remain analysis-dependent.
+      confidence: medium
+      confidenceRationale: The primary matrix and synthesis support the order concept and its major branches, while both caution against a simple linear ancestry.
+      referenceLinks:
+        - referenceId: pnas-2026-perissodactyls
+          relation: supports
+          pages: 1–6 of 8
+          figure: Figures 1 and 3; Dataset S2
+          quoteLocator: Abstract and Introduction (p. 1), stem placements (p. 4), occurrence calibration and unresolved origin (p. 6)
+        - referenceId: prothero-2009-hoofed-transitions
+          relation: supports
+          pages: 290–294
+          figure: Figure 1
+          quoteLocator: “The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons
+    - subjectId: taxon:perissodactyla
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Perissodactyla navigation envelope uses the earliest-known basal and stem-perissodactyl records during the PETM at approximately 56 Ma as its older evidence anchor and living horses, tapirs and rhinoceroses at 0 Ma as its younger edge; it is a total-group navigation span, not a crown-node date, precisely observed origin or divergence, complete global first appearance or ancestral lineage.
+      confidence: medium
+      confidenceRationale: The primary study analyzes 71 terminals and 102 morphological characters, plots the earliest known occurrences from 56 to 54 Ma and identifies stem-perissodactyl placements while stating that the order's origin remains unresolved. Medium confidence preserves the analysis-dependent placement of basal taxa, the already-diverse first sample and geographic sampling limits.
+      referenceLinks:
+        - referenceId: pnas-2026-perissodactyls
+          relation: supports
+          pages: 1–6 of 8
+          figure: Figures 1 and 3; Dataset S2
+          quoteLocator: "p. 1 Abstract and Introduction: PETM first sample; p. 4: stem-perissodactyl placement; p. 6: occurrence calibration, ghost lineages and unresolved origin"
+    - subjectId: taxon:perissodactyla
+      claimKind: scientific
+      claimType: morphology
+      statement: The order-level profile records early dental and cranial similarity followed by strong lineage-specific divergence; it does not assert one foot, tooth or digestive condition for every fossil branch.
+      confidence: medium
+      confidenceRationale: The synthesis directly compares early teeth and skulls and then documents divergent lineage histories. Medium confidence reflects the breadth of the order.
+      referenceLinks:
+        - referenceId: prothero-2009-hoofed-transitions
+          relation: supports
+          pages: 290–294
+          figure: Figure 1
+          quoteLocator: “The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons
+    - subjectId: taxon:perissodactyla
+      claimKind: scientific
+      claimType: ecology
+      statement: Perissodactyls were terrestrial herbivores spanning small early forms to giant rhinocerotoids and later browsing, mixed-feeding and grazing lineages; these states evolved in separate branches rather than as one progression.
+      confidence: medium
+      confidenceRationale: The systematic synthesis supports broad ecological disparity, but an order-wide profile cannot substitute for species-level paleoecology.
+      referenceLinks:
+        - referenceId: prothero-2009-hoofed-transitions
+          relation: supports
+          pages: 290–294
+          figure: Figure 1
+          quoteLocator: “The Perissodactyls” and early-radiation synthesis; family divergence is traced from dental and cranial comparisons
+  claim-rationales.zh:
+    - 主研究直接约束最早样本和地理格局。中等置信度保留其起源未决的结论，以及基部位置对取样和字符分析的敏感性。
+    - 分类主张以所引主研究或系统综述中的明确分类与样本为界，不把导航父级写成直接祖先。
+    - 主研究分析了 71 个末端和 102 个形态字符，绘制了约 5600 万至 5400 万年前的最早已知记录，并识别出若干干群奇蹄类位置，同时明确指出奇蹄目的起源仍未解决。中等置信度保留了基部类群位置随分析而变、首次取样时已经多样化以及地理取样有限等边界。
+    - 形态主张只保留引文图表或诊断直接支持的骨骼、牙齿性状，并把软组织、姿势或功能解释明确标为推断。
+    - 生态主张区分直接测得的磨耗或同位素信号与栖息地、行为推断，并保留物种、地点和时代边界。
+  claim-statements.zh:
+    - 奇蹄目导航范围以约 5600 万年前古新世—始新世界线极热事件期间最早已知的基干与干群奇蹄类记录作为老端证据锚点，以 0 Ma 的现生马、貘和犀牛作为年轻端；这是总群导航跨度，不是冠群节点年代、被直接观测的精确起源或分化、完整全球首现或祖先谱系。
+    - 奇蹄目按所引系统研究采用当前分类层级；导航父级仅表示分类关联，不表示直接祖先。
+    - 奇蹄目的形态档案仅记录所引研究直接描述或测量的牙齿、颅骨或肢骨性状，功能解释另行标注。
+    - 奇蹄目的生态档案按取样物种、地点与方法限定食性和运动推断，不把局部结果推广为整个类群的固定生态。
+    - PETM 时期的奇蹄类记录提示它们在北方大陆间快速扩散；但取样稀疏且干群位置随分析而变，奇蹄目的起源地仍未解决。
+  ranges:
+    - entityId: perissodactyla
+      rangeKind: global-composite
+      taxonomicConcept: Perissodactyla total-group sampled fossil-to-living navigation envelope
+      geographicScope: PETM occurrences across North America, Europe and Asia; living global continuation
+      olderMa: 56
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 56 Ma is the rounded PETM age of the earliest sampled perissodactyl record in the cited analysis. It is not a crown-node age, total-group origin, molecular divergence estimate or complete global first-appearance survey.
+      evidenceBasis: A 71-terminal, 102-character analysis and its occurrence chart document diverse basal perissodactyls at the PETM; living horses, tapirs and rhinoceroses supply the present-day navigation endpoint.
+      confidence: medium
+      claimIds:
+        - claim:taxon:perissodactyla:fossil-range
+      referenceLocators:
+        - referenceId: pnas-2026-perissodactyls
+          locator: pp. 1–6 of 8; p. 1 Abstract and Introduction; Figure 1; p. 4 stem-perissodactyl discussion; Figure 3; p. 6 unresolved-origin discussion; Dataset S2
+      evidenceLevel: literature-synthesized

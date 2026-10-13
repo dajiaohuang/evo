@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus vertebralis
+  displayName: Brachycephalus vertebralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X29M
+  sourceIndexes:
+    - name:
+        en: Brachycephalus vertebralis
+        zh: Brachycephalus vertebralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X29M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/439
+            queryName: Brachycephalus vertebralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-25c1090bdb
+      - s-d4d49c89e6
+      - s-7fbe0759d8
+      - s-a18579084f
+      - s-cd42d3bcd9
+      - s-b2206f4032
+      - s-278c14d003
+      - s-7a6310f20d
+    zh:
+      - s-9de30ecef4
+      - s-79279b0ad7
+      - s-d1873eaa2a
+      - s-37e66fb9fc
+      - s-4fbad3685e
+      - s-35ffe463d1
+      - s-b10643880b
+      - s-eeff13e374

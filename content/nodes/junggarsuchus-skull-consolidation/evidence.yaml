@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-05bd039a89
+      part: title
+    titleZh:
+      page: zh
+      section: s-2af46ed196
+      part: title
+    category: morphology
+    startAge: 168.3
+    endAge: 163.5
+    regions:
+      - Lower Shishugou Formation, Wucaiwan, Xinjiang, China
+    clades:
+      - Junggarsuchus sloani
+      - Crocodylomorpha
+    summary:
+      page: en
+      section: s-05bd039a89
+      part: body
+    summaryZh:
+      page: zh
+      section: s-2af46ed196
+      part: body
+    claimIds:
+      - claim:event:junggarsuchus-skull-consolidation
+    evidenceItems:
+      - statement: IVPP V14010 includes a nearly complete skull, mandible and articulated anterior postcranium; the authors document reduced cranial kinesis and character combinations near the crocodylian skull condition.
+        relation: supports
+        claimIds:
+          - claim:event:junggarsuchus-skull-consolidation
+        referenceLinks:
+          - referenceId: clark-2004-junggarsuchus
+            relation: supports
+            pages: 1021–1024
+            figure: Figures 1–3
+            quoteLocator: Holotype and locality; Description; Phylogenetic analysis
+    uncertaintyItems:
+      - statement: Skull mechanics and terrestrial locomotion are functional interpretations, while its phylogenetic position is matrix-dependent and does not identify a direct ancestor.
+        relation: contextualizes
+        claimIds:
+          - claim:event:junggarsuchus-skull-consolidation
+        referenceLinks:
+          - referenceId: clark-2004-junggarsuchus
+            relation: supports
+            pages: 1021–1024
+            figure: Figures 1–3
+            quoteLocator: Holotype and locality; Description; Phylogenetic analysis
+  claims:
+    - subjectId: event:junggarsuchus-skull-consolidation
+      claimKind: scientific
+      claimType: morphology
+      statement: Articulated specimen IVPP V14010 preserves a nearly complete Middle Jurassic skull with several crocodylian-like consolidations alongside a gracile terrestrial postcranium; functional and phylogenetic interpretations do not make it a directly observed crown ancestor.
+      confidence: medium
+      confidenceRationale: The articulated skull and anterior skeleton provide strong anatomical evidence. Medium confidence separates those observations from cursorial function and the sampled topology.
+      referenceLinks:
+        - referenceId: clark-2004-junggarsuchus
+          relation: supports
+          pages: 1021–1024
+          figure: Figures 1–3
+          quoteLocator: Holotype and locality; Description; Phylogenetic analysis
+  claim-rationales.zh:
+    - 关节连接的头骨和前部骨架提供扎实解剖证据；中等置信度把这些观察与奔跑功能和取样拓扑分开。
+  claim-statements.zh:
+    - 关节连接的 IVPP V14010 保存近完整的中侏罗世头骨，其中若干加固特征类似鳄类，身体则纤细并适于陆生；功能和系统解释并不使其成为直接观察到的冠群祖先。

@@ -1,0 +1,3 @@
+## What traits identify Tovomita guianensis in the record? {#s-539baf135c}
+The plant has slight stilt roots and yellow exudate. Its elliptic to oblong leaves are stalked, with arched side veins, and may dry dark purple. Male plants bear pleiochasial clusters and female plants dichasial clusters. Flowers have two or four sepals and four petals; the yellow stamens or staminodes are club-shaped. The female structures are recorded with four chambers and four styles. The spherical fruit has four valves and a smooth, unribbed outer wall; its inner flesh is wine-colored or red. Seeds have an orange, vein-marked aril.
+

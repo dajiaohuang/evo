@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus callipeza
+  displayName: Hyloscirtus callipeza
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGPQ
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus callipeza
+        zh: Hyloscirtus callipeza
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGPQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/39
+            queryName: Hyloscirtus callipeza
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/289
+            queryName: Hyla callipeza
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/337
+            queryName: Boana callipeza
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-625d4c7708
+      - s-49f0e273d9
+      - s-08b3539f02
+      - s-3c4d827099
+      - s-d14c4a60b9
+      - s-b45bda0fb2
+      - s-12c66a7be8
+      - s-9fc7ac837d
+    zh:
+      - s-0e77d4a366
+      - s-450287cc39
+      - s-127aec8deb
+      - s-635f0fe7d0
+      - s-b046abc38c
+      - s-5662d25dee
+      - s-1fd8f94d65
+      - s-bfb32f4b57

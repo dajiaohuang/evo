@@ -1,0 +1,385 @@
+schemaVersion: 1
+records:
+  caecilian-traits-reader:
+    scientificName: Caecilia inca
+    name:
+      en: Caecilia inca
+      zh: Caecilia inca
+    sourceClassification:
+      family: Caeciliidae
+      genus: Caecilia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited caecilian record
+          zh: 存档中的蚓螈记录
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-84c312779e
+            part: body
+          zh:
+            page: zh
+            section: s-7feb9c7ac1
+            part: body
+      - topic: morphology
+        title:
+          en: Measurement material
+          zh: 测量材料
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-48e9f861b8
+            part: body
+          zh:
+            page: zh
+            section: s-4fdc15ad2e
+            part: body
+      - topic: ecology
+        title:
+          en: Compiled habitat categories
+          zh: 汇编的栖地类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-31d53b0cd6
+            part: body
+          zh:
+            page: zh
+            section: s-6195bcf43e
+            part: body
+      - topic: morphology
+        title:
+          en: Compiled anatomical counts
+          zh: 汇编的解剖计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-e4affe59f1
+            part: body
+          zh:
+            page: zh
+            section: s-c81820762c
+            part: body
+    sources:
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 21; Individual level data rows 1396; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+    originalSpeciesRow:
+      rowNumber: 21
+      values:
+        - Caeciliidae
+        - Caecilia
+        - Caecilia inca
+        - Tropical & Subtropical Moist Broadleaf Forests
+        - Terrestrial
+        - Fossorial
+        - This is a subterranean species recorded from tropical montane forest
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - "IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023). "
+        - 1069
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 12.5
+        - null
+        - null
+        - null
+        - 27
+        - null
+        - null
+        - null
+        - null
+        - 7
+        - 2.5
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 158
+        - null
+        - null
+        - 21
+        - 22
+        - 20
+        - 4
+        - null
+    originalMeasurementRows:
+      - rowNumber: 1396
+        values:
+          - Taylor, E. H. 1973. A caecilian miscellany. University of Kansas science bulletin 50:187-231.
+          - Caeciliidae
+          - Caecilia
+          - Caecilia inca
+          - I
+          - USNM 119008
+          - M
+          - "1069"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12.5"
+          - null
+          - null
+          - null
+          - "27"
+          - null
+          - null
+          - null
+          - null
+          - "7"
+          - "2.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "158"
+          - null
+          - null
+          - 10-1-10
+          - 10-1-11
+          - 10-10
+          - 2-2
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - P7SQ
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en: Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets remain to be resolved.
+      zh: 本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题仍待核对。
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records

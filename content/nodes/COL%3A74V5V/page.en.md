@@ -1,0 +1,3 @@
+## ## Eleven leaflets and red-black seeds {#s-090e28ebde}
+The Brazilian Flora 2020 entry records nine to 11 opposite or subopposite leaflets, with 9–20 pairs of straight, parallel secondary veins and an inconspicuous reticulate network of tertiary veins. The leaflet surfaces are sparsely pubescent or silky. Papilionaceous flowers are listed as up to or over 13 mm long, with lilac petals and a lateral, bilobed stigma. The dehiscent fruit is flattened, generally 1–2 cm wide, becoming hairless, with woody valves 2–5 mm thick. Seeds are red and black, up to three per fruit, compressed or ellipsoid, 10–15 mm long and up to 15 mm wide; the hilum is 2–5 mm long. These regional source fields list alternatives but do not quantify variation.
+

@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Amolops panhai
+    name:
+      en: Amolops panhai
+      zh: Amolops panhai
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Amolops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a147c0948f
+            part: body
+          zh:
+            page: zh
+            section: s-eee4e4a1f6
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b424c69128
+            part: body
+          zh:
+            page: zh
+            section: s-ba144bc0fc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 293, 294; Reference.csv rows 3771
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 293
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops panhai
+          - F
+          - "53.9"
+          - "20.0508"
+          - "18.4338"
+          - "7.7616"
+          - "3.4496"
+          - "2.1021"
+          - "4.7432"
+          - "5.7134"
+          - "5.0127"
+          - NA
+          - "8.3545"
+          - NA
+          - NA
+          - "35.3584"
+          - NA
+          - "27.0578"
+          - NA
+          - "34.7655"
+          - NA
+          - NA
+          - "101.9788"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.234"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.5333"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 294
+        values:
+          - Ranidae
+          - Amolops
+          - Amolops panhai
+          - M
+          - "32.6"
+          - "14.5886"
+          - "12.9234"
+          - "6.5522"
+          - "2.9684"
+          - "0.9774"
+          - "3.3666"
+          - "4.0906"
+          - "3.8734"
+          - NA
+          - "5.8644"
+          - NA
+          - NA
+          - "24.4712"
+          - NA
+          - "17.738"
+          - NA
+          - "21.7562"
+          - NA
+          - NA
+          - "67.0424"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.1358"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.629"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3771
+        values:
+          - Anura
+          - Amolops_panhai
+          - Matsui, M., & Nabhitabhata, J. (2006). A new species of Amolops from Thailand (Amphibia, Anura, Ranidae). Zoolog Sci, 23(8), 727-732. https://doi.org/10.2108/zsj.23.727
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - FLL
+      - FL
+      - TL
+      - HLL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - CWB9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

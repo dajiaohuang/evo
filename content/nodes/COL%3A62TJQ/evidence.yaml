@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Heleophryne Sclater, 1898
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Heleophryne
+      zh: Heleophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1cf7cfbe8a
+            part: title
+          zh:
+            page: zh
+            section: s-119e94b5f7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1cf7cfbe8a
+            part: body
+          zh:
+            page: zh
+            section: s-119e94b5f7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6de839df11
+            part: title
+          zh:
+            page: zh
+            section: s-f48e887b64
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6de839df11
+            part: body
+          zh:
+            page: zh
+            section: s-f48e887b64
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5b91047113
+            part: title
+          zh:
+            page: zh
+            section: s-0183ac0146
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5b91047113
+            part: body
+          zh:
+            page: zh
+            section: s-0183ac0146
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c9e1e80523
+            part: title
+          zh:
+            page: zh
+            section: s-03679836f5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c9e1e80523
+            part: body
+          zh:
+            page: zh
+            section: s-03679836f5
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-2526dd5e5c
+            part: title
+          zh:
+            page: zh
+            section: s-04ceafa299
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3K4W7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4W7
+            label:
+              en: Heleophryne depressa
+              zh: Heleophryne depressa
+          - kind: catalogue
+            colId: 3K4W8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4W8
+            label:
+              en: Heleophryne hewitti
+              zh: Heleophryne hewitti
+          - kind: catalogue
+            colId: 6LHZD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6LHZD
+            label:
+              en: Heleophryne orientalis
+              zh: Heleophryne orientalis
+          - kind: catalogue
+            colId: 3K4WB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4WB
+            label:
+              en: Heleophryne purcelli
+              zh: Heleophryne purcelli
+          - kind: catalogue
+            colId: 3K4WC
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4WC
+            label:
+              en: Heleophryne regis
+              zh: Heleophryne regis
+          - kind: catalogue
+            colId: 3K4WD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3K4WD
+            label:
+              en: Heleophryne rosei
+              zh: Heleophryne rosei
+        text:
+          en:
+            page: en
+            section: s-2526dd5e5c
+            part: body
+          zh:
+            page: zh
+            section: s-04ceafa299
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Heleophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/62TJQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Heleophryne; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d470959524
+        part: body
+      zh:
+        page: zh
+        section: s-92fdd1c4b4
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Heleophryne
+      sourceRowIds:
+        - Anf2003
+        - Anf2004
+        - Anf2005
+        - Anf2006
+        - Anf2007
+        - Anf2008
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 6
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 6
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 5
+      currentConceptEquivalenceCertified: false

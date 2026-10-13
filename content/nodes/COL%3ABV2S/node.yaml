@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates vanzolinius
+  displayName: Allobates vanzolinius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2S
+  sourceIndexes:
+    - name:
+        en: Allobates vanzolinius
+        zh: Allobates vanzolinius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/179
+            queryName: Allobates vanzolinius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/160
+            queryName: Colostethus vanzolinius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-250e37bcf7
+      - s-e33a94ccba
+      - s-931442ed9b
+      - s-01c3f5e063
+      - s-daa189fb61
+      - s-a0114bdeca
+      - s-aab5dc9168
+      - s-80fdd663f0
+      - s-161c53b2e8
+      - s-6ef986bdf8
+      - s-47b99fdc18
+    zh:
+      - s-aac0aac468
+      - s-747a0d2598
+      - s-f9046b5d35
+      - s-0b4fb4d493
+      - s-d84fa65008
+      - s-5a613e1262
+      - s-15f428ad33
+      - s-f926b81451
+      - s-90216fba46
+      - s-97dc4c5254
+      - s-6a4c18c447

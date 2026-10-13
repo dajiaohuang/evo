@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus borjai
+  displayName: Hyloxalus borjai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWN
+  sourceIndexes:
+    - name:
+        en: Hyloxalus borjai
+        zh: Hyloxalus borjai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/86
+            queryName: Hyloxalus borjai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/63
+            queryName: Colostethus borjai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-df20d4f793
+      - s-d0691a87e0
+      - s-a3382e7004
+      - s-5b5809b872
+      - s-81cb86cfe1
+      - s-e8ed435db6
+      - s-3b34d170eb
+    zh:
+      - s-79340228f6
+      - s-136ecf0d17
+      - s-368bdf3fd0
+      - s-eaa3309e56
+      - s-3b2276cef4
+      - s-798a6f4a7a
+      - s-3980a08b75

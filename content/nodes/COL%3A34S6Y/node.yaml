@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus robertmertensi
+  displayName: Dendropsophus robertmertensi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S6Y
+  sourceIndexes:
+    - name:
+        en: Dendropsophus robertmertensi
+        zh: Dendropsophus robertmertensi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S6Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/412
+            queryName: Dendropsophus robertmertensi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/199
+            queryName: Hyla robertmertensi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1aae3e67e3
+      - s-de5e650c15
+      - s-17dfb54e5d
+      - s-622e021c6a
+      - s-bfd8215fb6
+      - s-8330c09946
+      - s-8a1cbfe20c
+      - s-c16bd9dc4f
+      - s-cd44889338
+    zh:
+      - s-c7dc61be15
+      - s-a148e09c8c
+      - s-ed66e0aa1d
+      - s-626e4d8c37
+      - s-25920926f3
+      - s-3e34f90f68
+      - s-8ae87fed54
+      - s-84978d3b84
+      - s-682b35aa20

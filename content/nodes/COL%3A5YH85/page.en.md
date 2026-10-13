@@ -1,0 +1,3 @@
+## *Chromolaena multiflosculosa*: woolly stems and three-veined leaves {#s-2eaf8d83e0}
+The Brazilian Flora 2020 regional field records woolly stems and opposite, round or egg-shaped leaves with three main veins. The upper surface is hairless; the lower may have glandular dots or fine, stiff hairs. Leaf margins are entire or serrated. Sessile or nearly stalkless heads form corymb-like or panicle-like clusters inside cylindrical or bell-shaped bract cups. The fruitlets are inversely cone-shaped and hairless, with rough pappus bristles. The field lists alternatives rather than one combined form.
+

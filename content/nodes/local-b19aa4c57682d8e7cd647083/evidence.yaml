@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Austrochaperina laurae
+    name:
+      en: Austrochaperina laurae
+      zh: Austrochaperina laurae
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Austrochaperina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Austrochaperina laurae in the version 3 classification
+          zh: Austrochaperina laurae 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-82668ceb6a
+            part: body
+          zh:
+            page: zh
+            section: s-d6cb435f93
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 14 populated trait fields
+          zh: 1 条测量行与 14 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-82128f5d52
+            part: body
+          zh:
+            page: zh
+            section: s-7fb747321b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 588; Reference.csv rows 51
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 588
+        values:
+          - Microhylidae
+          - Austrochaperina
+          - Austrochaperina laurae
+          - NA
+          - "29.3375"
+          - "9.9"
+          - "11.3875"
+          - "3.5"
+          - "1.625"
+          - NA
+          - "3.5125"
+          - "3.175"
+          - NA
+          - "2.225"
+          - "4.5125"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.95"
+          - NA
+          - "8.775"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.5875"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.925"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.3375"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 51
+        values:
+          - Anura
+          - Austrochaperina_laurae
+          - Gunther, R., Richards, S. J., & Dahl, C. (2014). Nine new species of microhylid frogs from the Muller Range in western Papua New Guinea (Anura, Microhylidae). Vertebrate Zoology, 64(1), 59-94.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - TL
+      - TSL
+      - Toe4L
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - JVZX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

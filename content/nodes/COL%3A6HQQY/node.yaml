@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Fejervarya orissaensis
+  displayName: Fejervarya orissaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6HQQY
+  sourceIndexes:
+    - name:
+        en: Fejervarya orissaensis
+        zh: Fejervarya orissaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6HQQY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/481
+            queryName: Fejervarya orissaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/398
+            queryName: Limnonectes orissaensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-35c2006fa3
+      - s-dbb8475dcf
+      - s-a16f3d9575
+      - s-97da971a8f
+      - s-a9c0956092
+      - s-4b30bb6b68
+      - s-762c5ce695
+      - s-5010446439
+    zh:
+      - s-49e6ced27b
+      - s-ec77c86a76
+      - s-177d911e80
+      - s-13e2740fe6
+      - s-07f979f3e5
+      - s-888da88a6c
+      - s-51e37b6615
+      - s-190cf4dcfd

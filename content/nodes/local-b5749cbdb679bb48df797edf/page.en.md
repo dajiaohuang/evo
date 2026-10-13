@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-b4f5807bfe}
+The version 3 Amphibian database lists Craugastor nefrens in a source measurement table. Its classification fields read order = Anura, family = Brachycephaloidea, genus = Craugastor; the linked citation is in Reference.csv row 2197. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-5b6423607c}
+Anura.csv rows 1388, 1389 contain 2 measurement entries; the Sex field records M (male category), J (juvenile category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1388 (M) = 25.7, row 1389 (J) = 25.8; HL: row 1388 (M) = 10.73333333, row 1389 (J) = 10.6; HW: row 1388 (M) = 10.66666667, row 1389 (J) = 10.6; other populated codes are ED, TD, IOD, IND, UEW, SL, HAL, FL, TL, THL, TSL, Toe2DW, … (13 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

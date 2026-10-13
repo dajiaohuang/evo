@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Arthroleptis nguruensis
+    name:
+      en: Arthroleptis nguruensis
+      zh: Arthroleptis nguruensis
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Arthroleptis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9710bed79c
+            part: body
+          zh:
+            page: zh
+            section: s-de5237c3b2
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-35d79d5c57
+            part: body
+          zh:
+            page: zh
+            section: s-9ade9ad277
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 475; Reference.csv rows 2453
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 475
+        values:
+          - Arthroleptidae
+          - Arthroleptis
+          - Arthroleptis nguruensis
+          - NA
+          - "41.83"
+          - NA
+          - "18.29"
+          - NA
+          - "2.61"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "25.88"
+          - NA
+          - "25.12"
+          - NA
+          - NA
+          - NA
+          - "2.31"
+          - "3.76"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "7.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2453
+        values:
+          - Anura
+          - Arthroleptis_nguruensis
+          - "Poynton, J., Menegon, M., & Loader, S. (2008). A new giant species of Arthroleptis (Amphibia: Anura) from the forests of the Nguru Mountains, Tanzania. African journal of herpetology: journal of the Herpetological Association of Africa, 57. https://doi.org/10.1080/21564574.2008.9635569"
+    availableTraitCodes:
+      - SVL
+      - HW
+      - TD
+      - FL
+      - TL
+      - IMT
+      - Toe1L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - GYRP
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

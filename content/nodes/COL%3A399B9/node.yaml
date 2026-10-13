@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus gryllus
+  displayName: Eleutherodactylus gryllus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399B9
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus gryllus
+        zh: Eleutherodactylus gryllus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399B9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/223
+            queryName: Eleutherodactylus gryllus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-46c609539c
+      - s-62a7706bd2
+      - s-dc577b787a
+      - s-91e6d03698
+      - s-cfc362bc0b
+      - s-f98d5f5512
+      - s-3a330209a2
+      - s-5fa878497d
+      - s-949f306128
+      - s-92adfd0b0b
+    zh:
+      - s-23d3188c07
+      - s-09d1006f21
+      - s-7fc090b66e
+      - s-983fb87571
+      - s-38ed6c3085
+      - s-c753282509
+      - s-2bb66a0e46
+      - s-a264dd45e8
+      - s-b5d50243a7
+      - s-6b8b3373a9

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychohyla hypomykter
+  displayName: Ptychohyla hypomykter
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78NB4
+  sourceIndexes:
+    - name:
+        en: Ptychohyla hypomykter
+        zh: Ptychohyla hypomykter
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78NB4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/11
+            queryName: Ptychohyla hypomykter
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/483
+            queryName: Hyla hypomykter
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-758c4f19b7
+      - s-c1727f8561
+      - s-4510d68522
+      - s-9a50ce2998
+      - s-1f03e5f8b6
+      - s-6693c5d2f3
+      - s-0e53107c90
+      - s-f6455f20c5
+      - s-2f8df36701
+      - s-80edf494f3
+      - s-2149356ce9
+    zh:
+      - s-7318cec8aa
+      - s-7408f2bad2
+      - s-c8362043a1
+      - s-48be002b87
+      - s-6976f92835
+      - s-a18b9b5d3d
+      - s-b1d9d0da70
+      - s-83c5adddfd
+      - s-a6e8e325a3
+      - s-bb93fba577
+      - s-bf988be7cd

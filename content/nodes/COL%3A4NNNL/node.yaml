@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudis cardosoi
+  displayName: Pseudis cardosoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NNNL
+  sourceIndexes:
+    - name:
+        en: Pseudis cardosoi
+        zh: Pseudis cardosoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NNNL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/269
+            queryName: Pseudis cardosoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/109
+            queryName: Podonectes cardosoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d5ec2adf3
+      - s-cf438fd2df
+      - s-bfe8dca64f
+      - s-8700a5b45c
+      - s-58449ef375
+      - s-09b1c8a584
+      - s-ea5296508c
+      - s-1c82e91c47
+      - s-67f52263fa
+      - s-5f9cc6ae70
+      - s-324885f6fa
+      - s-55088680e6
+      - s-127e57b3b7
+      - s-98758cb84f
+      - s-90e6712e80
+      - s-bace701b6b
+      - s-a9131c7e88
+      - s-b830e9a2e6
+      - s-b8e649fd1f
+      - s-bf02543166
+    zh:
+      - s-926082b2a9
+      - s-dacd53b17a
+      - s-aa8272ee98
+      - s-2201c4b9ab
+      - s-c85505daf0
+      - s-9f03eed0ab
+      - s-6739d2baa1
+      - s-d8f4f8732e
+      - s-817a9adace
+      - s-3068a0a7fb
+      - s-cc16bad374
+      - s-2bbccc37c6
+      - s-61b4263d0c
+      - s-07c9755e66
+      - s-c891589605
+      - s-07058da259
+      - s-780e44aa5d
+      - s-7d498a5c9d
+      - s-f378c2af3e
+      - s-892aa96d99

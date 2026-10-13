@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis adolfifriederici
+  displayName: Arthroleptis adolfifriederici
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYPV
+  sourceIndexes:
+    - name:
+        en: Arthroleptis adolfifriederici
+        zh: Arthroleptis adolfifriederici
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYPV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/147
+            queryName: Arthroleptis adolfifriederici
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/319
+            queryName: Abroscaphus adolfifriederici
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/26
+            queryName: Arthroleptis adolfifriederici adolfifriederici
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dc61f1e9e9
+      - s-58aa65c8d5
+      - s-741d19f9c0
+      - s-ce2388c386
+      - s-2e1481a61d
+      - s-c742218f38
+      - s-e1456e47ec
+      - s-7f2c72a5bb
+      - s-6c3df19829
+      - s-c0c29f34db
+      - s-2e7302b247
+      - s-f6c72a0050
+      - s-1d9a4a7581
+      - s-ce4f6d1719
+    zh:
+      - s-94e27273a8
+      - s-91c159df75
+      - s-917a70a11d
+      - s-9e70e84239
+      - s-52fdc610e3
+      - s-bafdd3554c
+      - s-4576b7f38b
+      - s-058a84bef3
+      - s-8273ed70f6
+      - s-0808a1a6de
+      - s-1ee444ccc3
+      - s-eba3a9490d
+      - s-5551419fd3
+      - s-387ed17b0b

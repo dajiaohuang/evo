@@ -1,0 +1,160 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus terrestris
+  displayName: Anaxyrus terrestris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M7G
+  sourceIndexes:
+    - name:
+        en: Anaxyrus terrestris
+        zh: Anaxyrus terrestris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M7G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/450
+            queryName: Anaxyrus terrestris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 75
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/229
+            queryName: Bufo terrestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 70
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/349
+            queryName: Rana terrestris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/109
+            queryName: Buffo clamosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/110
+            queryName: Rana lentiginosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/111
+            queryName: Bufo erythronotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/284
+            queryName: Bufo lentiginosus pachycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/285
+            queryName: Bufo lentiginosus lentiginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/159
+            queryName: Bufo clamosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/160
+            queryName: Bufo lentiginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/161
+            queryName: Telmatobius lentiginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/162
+            queryName: Chilophryne lentiginosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/163
+            queryName: Incilius lentiginosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95d8497771
+      - s-c6a2fab297
+      - s-ec18fd2c96
+      - s-c8050ebda3
+      - s-a65b522c69
+      - s-0e2aa6df81
+      - s-2ccad72fc8
+      - s-e6acdef768
+      - s-a09573f698
+      - s-58f394ece5
+      - s-a838f45981
+      - s-f51de05e36
+      - s-6326b64377
+      - s-bccc555667
+      - s-563b710ab3
+      - s-56979ce6f1
+      - s-15f2ed6b81
+      - s-c28b94fd6b
+      - s-98b5a0d424
+      - s-d700370f36
+      - s-cf49a260c1
+    zh:
+      - s-6205000b5f
+      - s-33c79e32a4
+      - s-6f4ad64107
+      - s-26ec18e619
+      - s-0690bb4b60
+      - s-953747717f
+      - s-1a7e7d080e
+      - s-3499bf82b5
+      - s-55888950fd
+      - s-e5f31e7caa
+      - s-9ac9b078c4
+      - s-4eee29fd6e
+      - s-e78d504b26
+      - s-8fd11fcf7e
+      - s-c8b674b087
+      - s-fe36b2ad3f
+      - s-c3b296ebc6
+      - s-31150b074f
+      - s-4468c25b31
+      - s-ae5ef4358e
+      - s-f9d6cd5d45

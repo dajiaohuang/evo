@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus tricolor
+  displayName: Atelopus tricolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J933
+  sourceIndexes:
+    - name:
+        en: Atelopus tricolor
+        zh: Atelopus tricolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J933
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/325
+            queryName: Atelopus tricolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/438
+            queryName: Atelopus rugulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/439
+            queryName: Atelopus willimani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-33e42c8616
+      - s-0166f5af49
+      - s-467a057e14
+      - s-831adc91a3
+      - s-e48e3a4932
+      - s-c6b10ec99b
+      - s-b89146f61e
+      - s-a831793a89
+      - s-92ae19810b
+      - s-26414ad0fa
+      - s-18c311dae1
+      - s-db0dcfbf98
+    zh:
+      - s-d4ca323997
+      - s-c456b3cd04
+      - s-3021765ffe
+      - s-cb09a10bd8
+      - s-d4de59439f
+      - s-ad958185b8
+      - s-41b63efa11
+      - s-1b1a95d5d1
+      - s-839402e93d
+      - s-3c4d20477c
+      - s-af35ed30a9
+      - s-da980c5a2f

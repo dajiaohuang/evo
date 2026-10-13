@@ -1,0 +1,9 @@
+## The dataset entry {#s-a4961ae15d}
+The pinned AmphiTherm curated snapshot records Hypsiboas geographicus under Hylidae, Anura. It retains 20 thermal estimate rows across 5 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-c8eecd0b11}
+Source row 1784 (ID 1977; Gutierrez-Pesquera_2015) reports 39.7 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Hypsiboas_geographicus_pop3. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.1 °C as its standard error. The source n_trait field is 13. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as unclear. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-2c4d4217e8}
+Source row 1864 (ID 2059; Gutierrez-Pesquera_2016) reports 6.2 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Hypsiboas_geographicus_pop3. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.1 °C as its standard error. The source n_trait field is 12. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

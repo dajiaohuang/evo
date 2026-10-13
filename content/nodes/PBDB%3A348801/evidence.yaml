@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Tephrodytes brassicarvalis
+    rank: species
+    sourceTaxonId: txn:348801
+    name:
+      en: Tephrodytes brassicarvalis
+      zh: Tephrodytes brassicarvalis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-1a8ddd363e
+            part: body
+          zh:
+            page: zh
+            section: s-10ef29ef59
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-87b4ab686e
+            part: body
+          zh:
+            page: zh
+            section: s-41abe04a92
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-e1e7adfbff
+            part: body
+          zh:
+            page: zh
+            section: s-b8100ed8e0
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:348801; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "A.C. Henrici. 1994. Tephrodytes brassicarvalis, new genus and species (Anura: Pelodytidae), from the Arikareean Cabbage Patch beds of Montana, USA, and pelodytid-pelobatid relationships. Annals of Carnegie Museum 63(2):155-183"
+    occurrenceEvidence:
+      - occurrenceId: occ:1353408
+        collectionId: col:183503
+        acceptedTaxonId: txn:348801
+        identifiedName: Tephrodytes brassicarvalis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:61302
+        bibliography: "A.C. Henrici. 1994. Tephrodytes brassicarvalis, new genus and species (Anura: Pelodytidae), from the Arikareean Cabbage Patch beds of Montana, USA, and pelodytid-pelobatid relationships. Annals of Carnegie Museum 63(2):155-183"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Powell
+        stratigraphy:
+          group: null
+          formation: Renova
+          member: Lower Cabbage Patch beds
+        olderAgeMa: 29.5
+        youngerAgeMa: 18.5
+      - occurrenceId: occ:1353409
+        collectionId: col:183504
+        acceptedTaxonId: txn:348801
+        taxonomicDifference: null
+        referenceId: ref:61302
+        bibliography: "A.C. Henrici. 1994. Tephrodytes brassicarvalis, new genus and species (Anura: Pelodytidae), from the Arikareean Cabbage Patch beds of Montana, USA, and pelodytid-pelobatid relationships. Annals of Carnegie Museum 63(2):155-183"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Granite
+        stratigraphy:
+          group: null
+          formation: Renova
+          member: Middle Cabbage Patch beds
+        olderAgeMa: 29.5
+        youngerAgeMa: 18.5
+      - occurrenceId: occ:1353410
+        collectionId: col:183505
+        acceptedTaxonId: txn:348801
+        taxonomicDifference: null
+        referenceId: ref:61302
+        bibliography: "A.C. Henrici. 1994. Tephrodytes brassicarvalis, new genus and species (Anura: Pelodytidae), from the Arikareean Cabbage Patch beds of Montana, USA, and pelodytid-pelobatid relationships. Annals of Carnegie Museum 63(2):155-183"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Powell
+        stratigraphy:
+          group: null
+          formation: Renova
+          member: Upper Cabbage Patch beds
+        olderAgeMa: 29.5
+        youngerAgeMa: 18.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-e1e7adfbff
+            part: body
+          zh:
+            page: zh
+            section: s-b8100ed8e0
+            part: body
+        sourceIds: []

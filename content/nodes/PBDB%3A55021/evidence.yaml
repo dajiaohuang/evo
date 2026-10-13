@@ -1,0 +1,267 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Glyptotherium cylindricum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Glyptotherium cylindricum
+      en: Glyptotherium cylindricum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4e63928b3d
+            part: body
+          en:
+            page: en
+            section: s-693bd33b3b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8b0d5b35bd
+            part: body
+          en:
+            page: en
+            section: s-135a7c0358
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0f2eb9e544
+            part: body
+          en:
+            page: en
+            section: s-8ba737c8f9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ab327e985f
+            part: body
+          en:
+            page: en
+            section: s-da3ceda59e
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dc48ee0e55
+            part: body
+          en:
+            page: en
+            section: s-eb38cb03d1
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Glyptotherium cylindricum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=55021&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:55021; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:55021
+          selectedOccurrenceIds:
+            - occ:198662
+            - occ:198863
+            - occ:610338
+            - occ:661988
+            - occ:661990
+            - occ:788383
+            - occ:788396
+            - occ:964122
+            - occ:964126
+            - occ:964127
+            - occ:1196410
+            - occ:1196525
+            - occ:1196888
+            - occ:1384215
+            - occ:1487044
+            - occ:1487045
+            - occ:1607358
+            - occ:1627628
+            - occ:1627636
+            - occ:1630264
+            - occ:1659991
+            - occ:1659992
+          selectedCollectionIds:
+            - col:20495
+            - col:20520
+            - col:65405
+            - col:71319
+            - col:71320
+            - col:85156
+            - col:85159
+            - col:113408
+            - col:113409
+            - col:113410
+            - col:154771
+            - col:74292
+            - col:154804
+            - col:189787
+            - col:79757
+            - col:79763
+            - col:227368
+            - col:230462
+            - col:230463
+            - col:226041
+            - col:212615
+            - col:189381
+          sourceReferenceIds:
+            - ref:28655
+            - ref:3567
+            - ref:18853
+            - ref:24036
+            - ref:36808
+            - ref:50335
+            - ref:50339
+            - ref:50371
+            - ref:63794
+            - ref:71195
+            - ref:82811
+            - ref:85081
+            - ref:85082
+            - ref:85415
+            - ref:88863
+          originalIdentificationMappings:
+            - occurrenceId: occ:198863
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:610338
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:661988
+              originalIdentifiedName: Glyptotherium mexicanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:661990
+              originalIdentifiedName: Glyptotherium mexicanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:964122
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:964126
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:964127
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1196410
+              originalIdentifiedName: Boreostracon floridanus n. sp.
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1196525
+              originalIdentifiedName: Boreostracon floridanus
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1196888
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1487044
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1487045
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1607358
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1627628
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+            - occurrenceId: occ:1627636
+              originalIdentifiedName: Glyptotherium floridanum
+              acceptedName: Glyptotherium cylindricum
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7641af5699
+        part: body
+      en:
+        page: en
+        section: s-f04a7ba293
+        part: body

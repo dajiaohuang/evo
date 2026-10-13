@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cacosternum parvum
+  displayName: Cacosternum parvum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P6MY
+  sourceIndexes:
+    - name:
+        en: Cacosternum parvum
+        zh: Cacosternum parvum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P6MY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/46
+            queryName: Cacosternum parvum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/275
+            queryName: Cacosternum nanum parvum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e33a8bc6b
+      - s-0e8361b175
+      - s-596039b1c3
+      - s-75de45f966
+      - s-648ca20a80
+      - s-29be18e653
+      - s-328a9d7408
+      - s-1e524ac071
+      - s-41c92f28e7
+    zh:
+      - s-ff2d18c418
+      - s-ad5c606faa
+      - s-40ac1efd7f
+      - s-6666d6f4a0
+      - s-baca6bda32
+      - s-b401037ba2
+      - s-46d34291e5
+      - s-7fafae00f9
+      - s-5c9ace0fca

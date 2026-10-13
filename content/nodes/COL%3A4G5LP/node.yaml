@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus tectus
+  displayName: Philautus tectus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5LP
+  sourceIndexes:
+    - name:
+        en: Philautus tectus
+        zh: Philautus tectus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5LP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/77
+            queryName: Philautus tectus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2fae392470
+      - s-63ed457815
+      - s-a459a0b741
+      - s-14568e1fb1
+      - s-8d1d727297
+      - s-11de5969af
+      - s-0fa06aa6ac
+      - s-02c6973fd9
+    zh:
+      - s-0450054339
+      - s-707b373772
+      - s-7e46101238
+      - s-1dc368159a
+      - s-1ae59d06e5
+      - s-fdc15d25c9
+      - s-1278113fc1
+      - s-69ecbb867a

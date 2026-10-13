@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius hidamontanus
+  displayName: Hynobius hidamontanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NLTM
+  sourceIndexes:
+    - name:
+        en: Hynobius hidamontanus
+        zh: Hynobius hidamontanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NLTM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/166
+            queryName: Hynobius hidamontanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/71
+            queryName: Hynobius tenuis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8c57060790
+      - s-e093cc5563
+      - s-940afb9ed4
+      - s-6ecb12107a
+      - s-faf4a2e751
+      - s-27d079c253
+      - s-2791e73d93
+      - s-0dbcd11a0c
+    zh:
+      - s-db14c2029c
+      - s-4fab968dc6
+      - s-cc28b1ab9e
+      - s-517008f126
+      - s-8f0c981900
+      - s-4f490dd203
+      - s-dfad2097ee
+      - s-6c881db6aa

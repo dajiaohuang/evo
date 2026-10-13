@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-3a329496eb}
+The version 3 Amphibian database lists Cophyla maharipeo in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Cophyla; the linked citation is in Reference.csv row 339. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-3f12f4344a}
+Anura.csv rows 1275, 1276 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1275 (M) = 22.9, row 1276 (F) = 25.4; HL: row 1275 (M) = 5.85, row 1276 (F) = 6.75; HW: row 1275 (M) = 6.65, row 1276 (F) = 7.7; other populated codes are ED, TD, IND, EN, NS, HAL, FL, TL, TSL, HLL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

@@ -1,0 +1,268 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalidae Günther, 1858
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalidae
+      zh: Brachycephalidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2f8000d829
+            part: title
+          zh:
+            page: zh
+            section: s-9f39faef52
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2f8000d829
+            part: body
+          zh:
+            page: zh
+            section: s-9f39faef52
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a17f049662
+            part: title
+          zh:
+            page: zh
+            section: s-45eb106efa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a17f049662
+            part: body
+          zh:
+            page: zh
+            section: s-45eb106efa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e7d02cf8d0
+            part: title
+          zh:
+            page: zh
+            section: s-ad71471287
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e7d02cf8d0
+            part: body
+          zh:
+            page: zh
+            section: s-ad71471287
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-df4e5ade4f
+            part: title
+          zh:
+            page: zh
+            section: s-54978afa17
+            part: title
+        text:
+          en:
+            page: en
+            section: s-df4e5ade4f
+            part: body
+          zh:
+            page: zh
+            section: s-54978afa17
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b83a62284b
+            part: title
+          zh:
+            page: zh
+            section: s-0726aaac8c
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3C9X
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3C9X
+            label:
+              en: Brachycephalus
+              zh: Brachycephalus
+          - kind: catalogue
+            colId: "5586"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5586
+            label:
+              en: Ischnocnema
+              zh: Ischnocnema
+        text:
+          en:
+            page: en
+            section: s-b83a62284b
+            part: body
+          zh:
+            page: zh
+            section: s-0726aaac8c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/7CL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Brachycephalidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-743646ebda
+        part: body
+      zh:
+        page: zh
+        section: s-76d0acd90b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Brachycephalidae
+      sourceRowIds:
+        - Anf0266
+        - Anf0267
+        - Anf0268
+        - Anf0269
+        - Anf0270
+        - Anf0271
+        - Anf0272
+        - Anf0273
+        - Anf0274
+        - Anf0275
+        - Anf0276
+        - Anf0277
+        - Anf0278
+        - Anf0279
+        - Anf0280
+        - Anf0281
+        - Anf0282
+        - Anf0283
+        - Anf0284
+        - Anf0285
+        - Anf0286
+        - Anf0287
+        - Anf0288
+        - Anf0289
+        - Anf0290
+        - Anf0291
+        - Anf0292
+        - Anf0293
+        - Anf0294
+        - Anf0295
+        - Anf0296
+        - Anf0297
+        - Anf0298
+        - Anf0299
+        - Anf0300
+        - Anf0301
+        - Anf0302
+        - Anf0303
+        - Anf0304
+        - Anf0305
+        - Anf0306
+        - Anf0307
+        - Anf0308
+        - Anf0309
+        - Anf0310
+        - Anf0311
+        - Anf0312
+        - Anf0313
+        - Anf0314
+        - Anf0315
+        - Anf0316
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 51
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 7
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 39
+      currentConceptEquivalenceCertified: false

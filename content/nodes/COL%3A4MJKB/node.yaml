@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis orphnolaimus
+  displayName: Pristimantis orphnolaimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKB
+  sourceIndexes:
+    - name:
+        en: Pristimantis orphnolaimus
+        zh: Pristimantis orphnolaimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/462
+            queryName: Pristimantis orphnolaimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/468
+            queryName: Eleutherodactylus orphnolaimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff1eca9b48
+      - s-05591e6ccf
+      - s-bb654dd74a
+      - s-b121d238ed
+      - s-19f2a7b452
+      - s-fe89d455ff
+      - s-a4bb794d67
+    zh:
+      - s-22d0fe6186
+      - s-7f6727bb67
+      - s-0ab9c905cf
+      - s-c773cfc819
+      - s-0be299f32a
+      - s-cc9f5d7260
+      - s-b8e0f82cdb

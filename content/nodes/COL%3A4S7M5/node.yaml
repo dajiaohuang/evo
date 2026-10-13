@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella acrolopha
+  displayName: Rhinella acrolopha
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7M5
+  sourceIndexes:
+    - name:
+        en: Rhinella acrolopha
+        zh: Rhinella acrolopha
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7M5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/290
+            queryName: Rhinella acrolopha
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/448
+            queryName: Rhamphophryne acrolopha
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5eebfbaa9c
+      - s-b2e28466c2
+      - s-f54e53bea3
+      - s-57b1d8c9d2
+      - s-76d8295114
+      - s-a3fb05036c
+      - s-b59bc44c64
+    zh:
+      - s-539c0eadf8
+      - s-65a4e2a09b
+      - s-7072208c10
+      - s-40d17031f0
+      - s-39e94f1888
+      - s-0003530519
+      - s-cdcc1ef0a5

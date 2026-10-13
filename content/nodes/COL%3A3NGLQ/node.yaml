@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylophorbus nigrinus
+  displayName: Hylophorbus nigrinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGLQ
+  sourceIndexes:
+    - name:
+        en: Hylophorbus nigrinus
+        zh: Hylophorbus nigrinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGLQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/22
+            queryName: Hylophorbus nigrinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70b3bb6128
+      - s-d2094f00d3
+      - s-fc83ddb936
+      - s-50739c4ad1
+      - s-c2c80c135c
+      - s-460dca5483
+      - s-133d75cb0d
+      - s-2cb80787e4
+    zh:
+      - s-22d14db409
+      - s-a1ab8b16ae
+      - s-02f7e164b6
+      - s-3b390555c3
+      - s-e043887997
+      - s-b26b5091fb
+      - s-b673688e52
+      - s-676f488c46

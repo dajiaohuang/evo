@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Molgophis macrurus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Molgophis macrurus
+      en: Molgophis macrurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbResidualAmniotaTaxonomy20261002
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-25f397a918
+            part: body
+          en:
+            page: en
+            section: s-5de642b958
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a3da33206b
+            part: body
+          en:
+            page: en
+            section: s-7f58862f10
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ed4039ca26
+            part: body
+          en:
+            page: en
+            section: s-810c756c1d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dc8ec994b7
+            part: body
+          en:
+            page: en
+            section: s-1c722f0d16
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbResidualAmniotaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6441d651ea
+            part: body
+          en:
+            page: en
+            section: s-daca15c547
+            part: body
+    sources:
+      - id: pbdbResidualAmniotaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Molgophis macrurus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=320834&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbResidualAmniotaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:320834; original response record indices retained in data/sources/amniota-residual-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:320834
+          selectedOccurrenceIds:
+            - occ:1318095
+            - occ:1318097
+            - occ:1328232
+            - occ:1328266
+            - occ:1328267
+            - occ:1328269
+          selectedCollectionIds:
+            - col:85292
+            - col:177046
+            - col:178682
+            - col:178696
+            - col:178697
+            - col:178698
+          sourceReferenceIds:
+            - ref:28717
+            - ref:55379
+            - ref:58492
+          originalIdentificationMappings:
+            - occurrenceId: occ:1318095
+              originalIdentifiedName: Molgophis macrurus n. gen. n. sp.
+              acceptedName: Molgophis macrurus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8d38b144dd
+        part: body
+      en:
+        page: en
+        section: s-8503ee61f8
+        part: body

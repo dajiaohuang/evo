@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rhacophorus barisani
+    name:
+      en: Rhacophorus barisani
+      zh: Rhacophorus barisani
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Rhacophorus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8bd5f5903a
+            part: body
+          zh:
+            page: zh
+            section: s-a1ef371a8d
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3c75e54502
+            part: body
+          zh:
+            page: zh
+            section: s-815bb01228
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5332; Reference.csv rows 1296
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5332
+        values:
+          - Rhacophoridae
+          - Rhacophorus
+          - Rhacophorus barisani
+          - M
+          - "50.34"
+          - "17.23"
+          - "16.5"
+          - "6.52"
+          - "3.76"
+          - NA
+          - "5.24"
+          - NA
+          - "5.2"
+          - "4.42"
+          - NA
+          - "4.34"
+          - "15.51"
+          - NA
+          - NA
+          - "20.92"
+          - NA
+          - "23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.16"
+          - NA
+          - "3.59"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.83"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1296
+        values:
+          - Anura
+          - Rhacophorus_barisani
+          - "Harvey, M. B., Pemberton, A. J., & Smith, E. N. (2002). New and poorly known parachuting frogs (Rhacophoridae: Rhacophorus) from Sumatra and Java. Herpetological Monographs, 16(1). https://doi.org/10.1655/0733-1347(2002)016[0046:Napkpf]2.0.Co;2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - NS
+      - HAL
+      - FL
+      - TL
+      - Fin1DW
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4RXC9
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

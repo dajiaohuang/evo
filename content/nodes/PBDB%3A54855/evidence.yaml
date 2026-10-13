@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stegosaurinae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Stegosaurinae
+      en: Stegosaurinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6043a9e3c1
+            part: body
+          en:
+            page: en
+            section: s-87d25f0b62
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c518892256
+            part: body
+          en:
+            page: en
+            section: s-690d029399
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Stegosaurinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=54855
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:54855
+          readingTargets:
+            - name: Hesperosaurus mjosi
+              pbdbTaxonId: txn:68159
+              canonicalPath: content/nodes/PBDB%3A68159
+            - name: Yanbeilong ultimus
+              pbdbTaxonId: txn:494753
+              canonicalPath: content/nodes/PBDB%3A494753
+            - name: Stegosaurus duplex
+              pbdbTaxonId: txn:56495
+              canonicalPath: content/nodes/PBDB%3A56495
+            - name: Stegosaurus ungulatus
+              pbdbTaxonId: txn:52985
+              canonicalPath: content/nodes/PBDB%3A52985
+            - name: Hypsirophus discurus
+              pbdbTaxonId: txn:53200
+              canonicalPath: content/nodes/PBDB%3A53200
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4db761c793
+        part: body
+      en:
+        page: en
+        section: s-589dda1d8a
+        part: body

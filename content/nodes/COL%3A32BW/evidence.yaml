@@ -1,0 +1,385 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arctocebus Gray, 1863
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Angwantibo genus
+      zh: 熊猴属
+    sections:
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-b050c1c02e
+            part: body
+          zh:
+            page: zh
+            section: s-c1356374b0
+            part: body
+        sourceIds:
+          - taxonomy
+          - speciesAureus
+          - speciesCalabarensis
+          - charles1977
+          - hladik1979
+          - jewell1969
+          - omifolaji2024
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-bb8faf58a1
+            part: body
+          en:
+            page: en
+            section: s-5e0ed36a54
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-17787ac33c
+            part: body
+          en:
+            page: en
+            section: s-1d9be89e81
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-5f0b2668d0
+            part: body
+          en:
+            page: en
+            section: s-08e7139b6c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-37910167e9
+            part: body
+          en:
+            page: en
+            section: s-dcf4c15481
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-b77540258e
+            part: body
+          en:
+            page: en
+            section: s-dc47a176ee
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-31837b3c30
+            part: body
+          en:
+            page: en
+            section: s-25e1285e2a
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-c8637f56b5
+            part: body
+          en:
+            page: en
+            section: s-d22b37a48d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bd745dff-50d4-829d-a79d-ca60fdb57046
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted genus name, authorship, and rank under COL26.8 ID 32BW.
+            zh: 固定 COL26.8 下接受属名、作者和等级（ID 32BW）。
+      - id: speciesAureus
+        referenceId: ref-9bdb3dc2-162a-8c70-aa9b-fa423d3a91f3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects accepted species ID 5W3R4 under genus ID 32BW.
+            zh: 将接受种级 ID 5W3R4 接入属级 ID 32BW。
+      - id: speciesCalabarensis
+        referenceId: ref-504dad26-1a8a-8b01-a51b-201c56539c65
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects accepted species ID 5W42S under genus ID 32BW.
+            zh: 将接受种级 ID 5W42S 接入属级 ID 32BW。
+      - id: charles1977
+        referenceId: ref-dd6f14c4-e575-8fee-ab62-90ce3dbece41
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Historical field monograph cited for Gabon nocturnal-primate ecology.
+            zh: 关于加蓬夜行灵长类生态的历史野外专著。
+      - id: hladik1979
+        referenceId: ref-15f59661-44bd-8f53-a137-ffe61e62a5c2
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Historical diet synthesis for the Gabon taxon then called A. calabarensis aureus.
+            zh: 对当时称为 A. calabarensis aureus 的加蓬类群所作的历史食性汇总。
+      - id: jewell1969
+        referenceId: ref-a0eae96a-ecd8-80ec-a5aa-01682bd5e03d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Early regional field account including A. calabarensis in southeastern Nigeria.
+            zh: 包含尼日利亚东南部 A. calabarensis 的早期区域野外记述。
+      - id: omifolaji2024
+        referenceId: ref-1f808425-8145-8aab-ac65-26505dcccff9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Current local survey linked from A. calabarensis; not a range-wide census.
+            zh: 从 A. calabarensis 页连接的当代局地调查，不是全分布区普查。
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Arctocebus by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 2 authored same-name records placed under Arctocebus by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 2 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 2
+            foraging: 2
+            activity: 2
+          readingTargets:
+            - name: Arctocebus aureus
+              colId: 5W3R4
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5W3R4
+            - name: Arctocebus calabarensis
+              colId: 5W42S
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5W42S
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Arctocebus by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 5W3R4
+              name: Arctocebus aureus
+              canonicalPath: content/nodes/COL%3A5W3R4
+    limitations:
+      en:
+        page: en
+        section: s-b2dc946106
+        part: body
+      zh:
+        page: zh
+        section: s-d6be7c5e5c
+        part: body

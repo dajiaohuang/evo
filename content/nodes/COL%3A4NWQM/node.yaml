@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea amuzga
+  displayName: Pseudoeurycea amuzga
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWQM
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea amuzga
+        zh: Pseudoeurycea amuzga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWQM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/282
+            queryName: Pseudoeurycea amuzga
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72fdbcbef8
+      - s-3dfa1892fa
+      - s-2fe2077b85
+      - s-9f09f6fd22
+      - s-2a7725d85a
+      - s-fa885200aa
+    zh:
+      - s-f61c1541a2
+      - s-1ee3804db8
+      - s-ce0aab935f
+      - s-48dc3bf7dc
+      - s-11d9dca8b9
+      - s-d577a2800b

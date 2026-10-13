@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys lushuiensis
+  displayName: Boulenophrys lushuiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5MTW
+  sourceIndexes:
+    - name:
+        en: Boulenophrys lushuiensis
+        zh: Boulenophrys lushuiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5MTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/364
+            queryName: Boulenophrys lushuiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/257
+            queryName: Megophrys lushuiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-64ac471881
+      - s-fb3ebcda29
+      - s-ad1cc6ad16
+      - s-3b35ce4db0
+      - s-1756f353c0
+      - s-0412760bd2
+      - s-8d2bec326e
+      - s-64435750c9
+      - s-090af85481
+      - s-5e13e46fe8
+      - s-9af1c13883
+    zh:
+      - s-7d9643bf01
+      - s-ba13c919be
+      - s-67a7fe22e8
+      - s-22d9c2976d
+      - s-e63d4627d5
+      - s-ec39f21f4f
+      - s-84151d9d13
+      - s-f4d12a90b2
+      - s-3be9b0cf61
+      - s-7fdb86a93e
+      - s-2a58c74774

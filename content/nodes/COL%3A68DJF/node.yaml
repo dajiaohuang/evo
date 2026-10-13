@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Barygenys cheesmanae
+  displayName: Barygenys cheesmanae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68DJF
+  sourceIndexes:
+    - name:
+        en: Barygenys cheesmanae
+        zh: Barygenys cheesmanae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68DJF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/381
+            queryName: Barygenys cheesmanae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/429
+            queryName: A Collection of Reptiles and Amphibians from the Mountains of British New Guinea
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-86ca3cb632
+      - s-45f5c0b768
+      - s-f17b58fc50
+      - s-16e6089e6e
+      - s-9b4b8db284
+      - s-fe7fe41795
+      - s-e379bd083e
+      - s-7a9f01a06d
+      - s-f92d3e08b1
+    zh:
+      - s-d35534c4fb
+      - s-ae4c9e7efe
+      - s-c3f2e087b9
+      - s-80dbc0a804
+      - s-f4bed61707
+      - s-27046e35b4
+      - s-abb0b549ea
+      - s-2442e5d6f0
+      - s-ff13e39a5e

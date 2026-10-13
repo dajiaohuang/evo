@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hypogeophis brevis
+  displayName: Hypogeophis brevis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NW69
+  sourceIndexes:
+    - name:
+        en: Hypogeophis brevis
+        zh: Hypogeophis brevis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NW69
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/361
+            queryName: Hypogeophis brevis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/392
+            queryName: Grandisonia brevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce34bb8519
+      - s-665c47b468
+      - s-dead1f0cc4
+      - s-9b1a803407
+      - s-20b7588e83
+      - s-026bf989f7
+      - s-d7e6090470
+      - s-8b871dfbc2
+      - s-d59be2fe5b
+      - s-95fd578588
+      - s-819805a1d1
+    zh:
+      - s-349c381edf
+      - s-878ddefe3c
+      - s-39366c04d0
+      - s-3eb7a854d3
+      - s-44bb5c846f
+      - s-27253f3af0
+      - s-5422ee93a6
+      - s-3109b4dac5
+      - s-4ea38389a9
+      - s-3710c83f39
+      - s-d38c8950be

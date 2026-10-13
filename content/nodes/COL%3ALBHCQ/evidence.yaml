@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops chanakya Saikia, Laskar, Dinesh, Shabnam & Sinha, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops chanakya
+      zh: Amolops chanakya
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c574afc508
+            part: title
+          zh:
+            page: zh
+            section: s-9c2dbb2916
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c574afc508
+            part: body
+          zh:
+            page: zh
+            section: s-9c2dbb2916
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-840ee6b129
+            part: title
+          zh:
+            page: zh
+            section: s-6e2afdfded
+            part: title
+        text:
+          en:
+            page: en
+            section: s-840ee6b129
+            part: body
+          zh:
+            page: zh
+            section: s-6e2afdfded
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-72ff36af01
+            part: title
+          zh:
+            page: zh
+            section: s-be7d7d26d6
+            part: title
+        sourceIds:
+          - primary-pmc10351143-lbhcq
+        text:
+          en:
+            page: en
+            section: s-72ff36af01
+            part: body
+          zh:
+            page: zh
+            section: s-be7d7d26d6
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-050f32e65a
+            part: title
+          zh:
+            page: zh
+            section: s-0c6369bd9a
+            part: title
+        sourceIds:
+          - primary-pmc10351143-lbhcq
+        text:
+          en:
+            page: en
+            section: s-050f32e65a
+            part: body
+          zh:
+            page: zh
+            section: s-0c6369bd9a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops chanakya
+          url: https://www.checklistbank.org/dataset/316115/taxon/LBHCQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10351143-lbhcq
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops chanakya: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-27a19a0bf4
+        part: body
+      zh:
+        page: zh
+        section: s-1b0201d0fb
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-lbhcq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops chanakya: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Characters in the dated group comparison
+              zh: 有年代群比较中的性状
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-lbhcq
+            locator: PMC10351143 article.xml Sec20p7;Sec4p1 comparative-source scope;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-40d2032047
+                part: body
+              zh:
+                page: zh
+                section: s-50f1146bec
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Sex-specific size in a published comparison
+              zh: 发表比较中的性别特定体型
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-lbhcq
+            locator: PMC10351143 article.xml Sec20p7;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ad52a5eb66
+                part: body
+              zh:
+                page: zh
+                section: s-4bf8d1fb21
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

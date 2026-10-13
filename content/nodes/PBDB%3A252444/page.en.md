@@ -1,0 +1,9 @@
+## PBDB's recorded taxonomic concept {#s-0c4359c0a3}
+The PBDB snapshot checked 2026-10-02 records Edops craigi at species rank (source concept txn:252444), beneath the recorded parent Edops. This is the database parent chain stored under the Amphibia anchor; the path does not certify equivalence with a COL26.8 concept.
+
+## 4 PBDB occurrence rows and collection fields {#s-b079bae5ea}
+The exact concept has 4 occurrence records and 4 distinct collection IDs: occ:1315229 (collection col:176495; identified name `Edops craigi n. gen. n. sp.`; locality labels US / Texas / Young County; stratigraphy fields group=Bowie, formation=Archer City; `olderAgeMa`=303.7 Ma, `youngerAgeMa`=286 Ma). occ:1315230 (collection col:176438; locality labels US / Texas / Archer; stratigraphy fields group=Bowie, formation=Archer City; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1315231 (collection col:132661; locality labels US / Texas / Archer; stratigraphy fields group=Wichita, formation=Archer City; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=293.52 Ma). occ:1315232 (collection col:176496; locality labels US / Texas / Jack Couty; stratigraphy fields formation=Pueblo; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=293.52 Ma). Age values are collection-record fields in Ma (million years ago), not measured origin or extinction dates; this snapshot does not establish a complete global distribution. The excerpt supplies occurrence and collection IDs but no specimen identifier or specimen-level description.
+
+## Reference-index lookup for Edops craigi {#s-cc7132c563}
+The accepted-name lookup for `Edops craigi` reports 5 reference records in the linked index. This is bibliography metadata, not a verified biological result. This placeholder assigns no biological claim and concept equivalence is not certified; the factual account on this page is limited to the PBDB fields above.
+

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates gasconi
+  displayName: Allobates gasconi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65WXL
+  sourceIndexes:
+    - name:
+        en: Allobates gasconi
+        zh: Allobates gasconi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65WXL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/138
+            queryName: Allobates gasconi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/95
+            queryName: Colostethus gasconi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7a007605ee
+      - s-5260972e0c
+      - s-4e9fcbcdab
+      - s-863d7d8566
+      - s-90474e06c8
+      - s-989c6bafa4
+      - s-0e6e1ef1cb
+      - s-4a84e057b8
+      - s-b8fcdd3fa6
+      - s-ecefd9935f
+      - s-e16477f3f0
+      - s-38827de9da
+      - s-c4947618a7
+      - s-4900d04d04
+      - s-66460c3f0e
+    zh:
+      - s-f746c33260
+      - s-3329dc4d8a
+      - s-e85c686cdc
+      - s-a184c77d19
+      - s-81dcdd4a5b
+      - s-9440617d65
+      - s-aca9c921a1
+      - s-15a1acc417
+      - s-8bcfe74f40
+      - s-54e1ea7703
+      - s-d82a147fea
+      - s-e71b534ad9
+      - s-8d39cf8630
+      - s-f809e73200
+      - s-a2f87022ab

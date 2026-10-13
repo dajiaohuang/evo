@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Colostethinae Cope, 1867
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Colostethinae
+      zh: Colostethinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1f47793a59
+            part: title
+          zh:
+            page: zh
+            section: s-619b01d257
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1f47793a59
+            part: body
+          zh:
+            page: zh
+            section: s-619b01d257
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-af0ed4f1e1
+            part: title
+          zh:
+            page: zh
+            section: s-f7c4255276
+            part: title
+        text:
+          en:
+            page: en
+            section: s-af0ed4f1e1
+            part: body
+          zh:
+            page: zh
+            section: s-f7c4255276
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-1fbfd9a282
+            part: title
+          zh:
+            page: zh
+            section: s-3287d3f815
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6298L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6298L
+            label:
+              en: Ameerega
+              zh: Ameerega
+          - kind: catalogue
+            colId: 3SK6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3SK6
+            label:
+              en: Colostethus
+              zh: Colostethus
+          - kind: catalogue
+            colId: 4D8Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4D8Z
+            label:
+              en: Epipedobates
+              zh: Epipedobates
+          - kind: catalogue
+            colId: 5DYK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5DYK
+            label:
+              en: Leucostethus
+              zh: Leucostethus
+          - kind: catalogue
+            colId: 7GXD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7GXD
+            label:
+              en: Silverstoneia
+              zh: Silverstoneia
+        text:
+          en:
+            page: en
+            section: s-1fbfd9a282
+            part: body
+          zh:
+            page: zh
+            section: s-3287d3f815
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Colostethinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JCY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a4632dd2d9
+        part: body
+      zh:
+        page: zh
+        section: s-485db3b046
+        part: body

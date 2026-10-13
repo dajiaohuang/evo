@@ -1,0 +1,272 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hemiphractus Wagler, 1828
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Hemiphractus
+      zh: Hemiphractus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6c2aadb346
+            part: title
+          zh:
+            page: zh
+            section: s-fcf1c565de
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6c2aadb346
+            part: body
+          zh:
+            page: zh
+            section: s-fcf1c565de
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-592fa36db1
+            part: title
+          zh:
+            page: zh
+            section: s-9a7beb932a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-592fa36db1
+            part: body
+          zh:
+            page: zh
+            section: s-9a7beb932a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5f90060ffc
+            part: title
+          zh:
+            page: zh
+            section: s-0000423af1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f90060ffc
+            part: body
+          zh:
+            page: zh
+            section: s-0000423af1
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-bae8598d2c
+            part: title
+          zh:
+            page: zh
+            section: s-d1ea31bdcf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bae8598d2c
+            part: body
+          zh:
+            page: zh
+            section: s-d1ea31bdcf
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-d415003d05
+            part: title
+          zh:
+            page: zh
+            section: s-e5d417d2a4
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3KRRV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRRV
+            label:
+              en: Hemiphractus bubalus
+              zh: Hemiphractus bubalus
+          - kind: catalogue
+            colId: 3KRRX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRRX
+            label:
+              en: Hemiphractus elioti
+              zh: Hemiphractus elioti
+          - kind: catalogue
+            colId: 3KRRY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRRY
+            label:
+              en: Hemiphractus fasciatus
+              zh: Hemiphractus fasciatus
+          - kind: catalogue
+            colId: 3KRRZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRRZ
+            label:
+              en: Hemiphractus helioi
+              zh: Hemiphractus helioi
+          - kind: catalogue
+            colId: 3KRS2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRS2
+            label:
+              en: Hemiphractus johnsoni
+              zh: Hemiphractus johnsoni
+          - kind: catalogue
+            colId: 3KRS3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRS3
+            label:
+              en: Hemiphractus kaylockae
+              zh: Hemiphractus kaylockae
+          - kind: catalogue
+            colId: 3KRS5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRS5
+            label:
+              en: Hemiphractus panamensis
+              zh: Hemiphractus panamensis
+          - kind: catalogue
+            colId: 3KRS6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRS6
+            label:
+              en: Hemiphractus proboscideus
+              zh: Hemiphractus proboscideus
+          - kind: catalogue
+            colId: 3KRS7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KRS7
+            label:
+              en: Hemiphractus scutatus
+              zh: Hemiphractus scutatus
+        text:
+          en:
+            page: en
+            section: s-d415003d05
+            part: body
+          zh:
+            page: zh
+            section: s-e5d417d2a4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hemiphractus
+          url: https://www.checklistbank.org/dataset/316115/taxon/637K9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Hemiphractus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f90f0f8891
+        part: body
+      zh:
+        page: zh
+        section: s-ffeb5c3b6b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Hemiphractus
+      sourceRowIds:
+        - Anf2078
+        - Anf2079
+        - Anf2080
+        - Anf2081
+        - Anf2082
+        - Anf2083
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 5
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 4
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 5
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 6
+      currentConceptEquivalenceCertified: false

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Copiula obsti
+  displayName: Copiula obsti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y4X7
+  sourceIndexes:
+    - name:
+        en: Copiula obsti
+        zh: Copiula obsti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y4X7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/14
+            queryName: Copiula obsti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ced906c08f
+      - s-64980ea23e
+      - s-c5552943dd
+      - s-f569830c0b
+      - s-206bf9f3e4
+      - s-5fd8662e04
+      - s-5da9bc021f
+    zh:
+      - s-1baed95837
+      - s-6e597955b3
+      - s-123dce5f89
+      - s-e0b7a6e8f0
+      - s-70be76d31a
+      - s-51ed017a27
+      - s-f878409656

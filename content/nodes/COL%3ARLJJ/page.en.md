@@ -1,0 +1,3 @@
+## ## Many pairs of leaflets and broad yellow petals {#s-3fad8ff29f}
+The Brazilian Flora 2020 description records alternate leaves with 9–25 pairs of oblong-lanceolate leaflets, each 1–3.4 cm long and 0.4–1 cm wide; the lower surface is pubescent and the upper surface sparsely so. Axillary racemes carry persistent, oval-lanceolate bracteoles. The yellow petals are broadly obovate, 2.5–3.7 cm long and 1.3–2.6 cm wide. Ten stamens are recorded, including three sigmoid, non-geniculate ones. The ellipsoid seed is described as surrounded by a thin pulp. The dataset gives a regional character list and does not specify population coverage or variation.
+

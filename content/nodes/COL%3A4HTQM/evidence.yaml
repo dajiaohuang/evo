@@ -1,0 +1,402 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Piliocolobus foai (de Pousargues, 1899)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Foa's Red Colobus
+      zh: 佛阿红疣猴
+    sections:
+      - topic: historicalNameType
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
+          zh:
+            page: zh
+            section: s-63d5cf2eab
+            part: body
+          en:
+            page: en
+            section: s-6754f15c38
+            part: body
+      - topic: materialBoundary
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
+          zh:
+            page: zh
+            section: s-f1eac78bda
+            part: body
+          en:
+            page: en
+            section: s-c54317a47b
+            part: body
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-0152fd9362
+            part: body
+          zh:
+            page: zh
+            section: s-8e47a14035
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - foai2020
+          - red_colobus_plan2021
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-2f60f5094b
+            part: body
+          en:
+            page: en
+            section: s-f0470ca68d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-33538b2a22
+            part: body
+          en:
+            page: en
+            section: s-83e5d07ddd
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-7989592405
+            part: body
+          en:
+            page: en
+            section: s-5d2316bb6d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-344d31bfd0
+            part: body
+          en:
+            page: en
+            section: s-1171a3401c
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f712beae27
+            part: body
+          en:
+            page: en
+            section: s-6474ddfc12
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d87fcc3128
+            part: body
+          en:
+            page: en
+            section: s-470c5a1d4b
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-444057c6ab
+            part: body
+          en:
+            page: en
+            section: s-8fa214dc26
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-529ae50a01
+            part: body
+          en:
+            page: en
+            section: s-9224e1c6b0
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-62d3151e42
+            part: body
+          en:
+            page: en
+            section: s-b85c02a60b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Piliocolobus foai (de Pousargues, 1899)
+          url: https://www.checklistbank.org/dataset/316115/taxon/4HTQM
+          scope:
+            en: Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.
+            zh: 固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-5f129834-d83a-8638-a32d-de034fb5bfc4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: foai2020
+        referenceId: ref-3d2eb6b6-0513-8d9f-a2e2-be1623d7be21
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 2020 global assessment compiling the taxonomic circumscription and cited survey evidence available to its authors; its range/status summary is not a new census.
+            zh: 2020 年全球评估汇总作者当时可得的分类界定和所引调查资料；其中分布与状态总结不是新种群调查。
+      - id: red_colobus_plan2021
+        referenceId: ref-bc98707a-8b2c-8906-aee3-2167bcb899fd
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A conservation synthesis drawing on cited field reports and assessments through its publication period; species summaries are not new surveys.
+            zh: 一份汇集发表时已引用的野外报告与评估资料的保护综述；各物种摘要不是新调查。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12170; name Piliocolobus foai; reference table row 12170; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000 from median of 27(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Jones, K., Bielby, J., Cardillo, M. et al., 2009, Ernest et al., 2003)
+            female_maturity_d: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 and Ernest et al., 2003
+            litter_or_clutch_size_n: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 and Ernest et al., 2003
+            gestation_d: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 and Ernest et al., 2003
+            weaning_d: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 and Ernest et al., 2003
+            maximum_longevity_y: Weigl, R., 2005
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - Ernest et al., 2003
+            - Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 768; Scientific=Piliocolobus foai; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups:
+            - group: diet
+              certainty: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: diet
+              sourceCode: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: turni2024RedColobusTypes
+        referenceId: ref-fb75c3a3-0864-4560-8710-e3fee33c755d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Type specimens of Primates (Mammalia) in the collections of the Museum für Naturkunde Berlin
+          url: https://mapress.com/zt/article/download/zootaxa.5543.2.1/54941/69264
+          accessedAt: 2026-10-03
+          locator: PDF pp. 1–3 front matter/collector table/methods; red-colobus accounts PDF pp. 27–28, printed pp. 177–178. Layouts viewed pp. 27–28. No full 44-page or current physical inventory audit.
+          scope:
+            zh: 六种红疣猴的限定模式身份、历史原名归属与材料边界；属与族为比较入口。
+            en: Bounded type identity, historical-name placement and material limits for six red-colobus species; genus and tribe offer comparisons.
+    limitations:
+      en:
+        page: en
+        section: s-32e1e800c8
+        part: body
+      zh:
+        page: zh
+        section: s-37eee30014
+        part: body

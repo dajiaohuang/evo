@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Kalophrynus kiewi
+    name:
+      en: Kalophrynus kiewi
+      zh: Kalophrynus kiewi
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Kalophrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Kalophrynus kiewi in the version 3 classification
+          zh: Kalophrynus kiewi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-82804a95c0
+            part: body
+          zh:
+            page: zh
+            section: s-d025697cff
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 18 populated trait fields
+          zh: 1 条测量行与 18 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4b6e0d74df
+            part: body
+          zh:
+            page: zh
+            section: s-c3f1ea4bd2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2466; Reference.csv rows 558
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2466
+        values:
+          - Microhylidae
+          - Kalophrynus
+          - Kalophrynus kiewi
+          - F
+          - "45.6"
+          - "14.82"
+          - "15.1848"
+          - "5.5176"
+          - "4.3776"
+          - "0.3192"
+          - "5.016"
+          - "3.1008"
+          - "3.5112"
+          - "2.4168"
+          - "4.3776"
+          - "2.5992"
+          - NA
+          - "30.4152"
+          - "21.7968"
+          - "14.82"
+          - NA
+          - "17.6016"
+          - NA
+          - NA
+          - "56.4072"
+          - "1.596"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 558
+        values:
+          - Anura
+          - Kalophrynus_kiewi
+          - Matsui, M., Eto, K., Belabut, D. M., & Nishikawa, K. (2017). A new Kalophrynus(Amphibia, Anura, Microhylidae) from Peninsular Malaysia. Current Herpetology, 36(2), 75-86. https://doi.org/10.5358/hsj.36.75
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - FLL
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6NJT6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,283 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Chikila alcocki
+    name:
+      en: Chikila alcocki
+      zh: Chikila alcocki
+    sourceClassification:
+      order: Gymnophiona
+      family: Chikilidae
+      genus: Chikila
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Chikila alcocki in the morphology deposit
+          zh: 形态数据中的 Chikila alcocki 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fc5818b8f5
+            part: body
+          zh:
+            page: zh
+            section: s-23b65b5b77
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 30 and 31: measurement fields and sex codes"
+          zh: 第 30、31 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cc0706ac3c
+            part: body
+          zh:
+            page: zh
+            section: s-708b523ecc
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-1eb8f5b70d
+            part: body
+          zh:
+            page: zh
+            section: s-261dc10bb5
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 30, 31; Reference.csv rows 4395
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 30
+        values:
+          - Chikilidae
+          - Chikila
+          - Chikila alcocki
+          - F
+          - "243.25"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "90"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.825"
+          - NA
+          - "4.85"
+          - "8.2"
+          - "5.05"
+          - "1.5125"
+          - NA
+          - NA
+          - NA
+          - "0.9375"
+          - "2.9125"
+          - NA
+          - "1.1"
+          - "3.7375"
+          - "2.175"
+          - NA
+          - NA
+          - "5.25"
+          - "6.1625"
+          - NA
+          - "2.1625"
+          - "3.25"
+          - NA
+          - NA
+      - rowNumber: 31
+        values:
+          - Chikilidae
+          - Chikila
+          - Chikila alcocki
+          - M
+          - "233.1428571"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "91.85714286"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.828571429"
+          - NA
+          - "4.8"
+          - "7.985714286"
+          - "5.4"
+          - "1.585714286"
+          - NA
+          - NA
+          - NA
+          - "1.042857143"
+          - "3.042857143"
+          - NA
+          - "1.142857143"
+          - "3.857142857"
+          - "2.171428571"
+          - NA
+          - NA
+          - "5.385714286"
+          - "6.271428571"
+          - NA
+          - "2.157142857"
+          - "3.542857143"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4395
+        values:
+          - Gymnophiona
+          - Chikila_alcocki
+          - "Kamei, R. G., Gower, D. J., Wilkinson, M., & Biju, S. D. (2013). Systematics of the caecilian family Chikilidae (Amphibia: Gymnophiona) with the description of three new species of Chikila from northeast India. Zootaxa, 3666, 401-435. https://doi.org/10.11646/zootaxa.3666.4.1"
+    availableTraitCodes:
+      - TOL
+      - TA1
+      - HW1
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - NS
+      - ITD
+      - TN
+      - TLP
+      - TS
+      - NJ
+      - SJ
+      - C1
+      - C2
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - TZKL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

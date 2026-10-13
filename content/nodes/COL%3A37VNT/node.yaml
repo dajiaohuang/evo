@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes wrightorum
+  displayName: Dryophytes wrightorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37VNT
+  sourceIndexes:
+    - name:
+        en: Dryophytes wrightorum
+        zh: Dryophytes wrightorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37VNT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/54
+            queryName: Dryophytes wrightorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/451
+            queryName: Hyla eximia wrightorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/452
+            queryName: Hyla wrightorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/374
+            queryName: Hyla regilla wrightorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc17f5e544
+      - s-295d1a5777
+      - s-0440fa7eb7
+      - s-0010eba298
+      - s-038dee6dc8
+      - s-e86eb31a56
+      - s-74e2b9e6c7
+      - s-66988e2a48
+      - s-a06cb7b750
+      - s-8e88953ad6
+      - s-eb2e9248f1
+      - s-cc45c580e0
+      - s-134d5fa0e3
+      - s-df46e1d87c
+      - s-2bcaf5bcff
+      - s-dddd45ff3a
+      - s-624544d543
+      - s-09836c3459
+      - s-95ea11c366
+    zh:
+      - s-4b45068874
+      - s-d1abb33d5c
+      - s-8399de8c22
+      - s-bff049b7fe
+      - s-d58b1f6c42
+      - s-79f8bb7906
+      - s-4c1620806e
+      - s-bb31a4db9b
+      - s-b350092366
+      - s-10ed8acb28
+      - s-0a39ad6cd7
+      - s-ef7594a29c
+      - s-397d09c73b
+      - s-d1b77373ad
+      - s-9c9feb5c88
+      - s-53bdd1e9a3
+      - s-42e266e714
+      - s-ba8a60ac17
+      - s-faa18807fb

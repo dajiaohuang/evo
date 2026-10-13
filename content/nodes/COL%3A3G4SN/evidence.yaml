@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gladiolus malvinus Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3G4SN, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3G4SN; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3G4SN
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3G4SN
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000790055-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3G4SN / WFO wfo-0000790055
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gladiolus malvinus Goldblatt & J.C.Manning account; SANBI/WFO archive rows 98126 (Morphology), 97033 (Habitat), 94511 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 550-700 mm high, with thinly villous cataphylls. Corm globose, 30-40 mm diam.; tunics of moderately coarse fibres, accumulating in a thick mass. Stem flexed lightly above sheaths of upper 2 leaves and inclined above, unbranched. Leaves (2)3, lowermost basal and sheathing lower 1/3 of stem, sheath usually sparsely villous or not, 10-50 mm long, narrowly lanceolate, overlapping second leaf, this entirely sheathing and glabrous, uppermost leaf shortest and bract-like; non-flowering plants with solitary, narrowly lanceolate leaf up to 300 mm long (probably longer later in season), pubescent, margins, main vein and one or more other vein pairs lightly thickened, margins not raised. Spike inclined, ± straight, 9- to 15-flowered; bracts grey-green, usually flushed purplish, becoming dry as flowers open, outer 20-25 mm long, inner slightly shorter. Flowers pale blue-mauve, lower lateral tepals with dark purple streak in midline and lightly to darkly shaded with purple in lower half, unscented; perianth tube obliquely funnel-shaped, ± 10 mm long; tepals broadly lanceolate, apiculate, dorsal largest, inclined over stamens, 28-30 x 14-16 mm, upper laterals directed forward, curving outward little or not at all distally, lower 3 tepals joined to upper laterals for ± 2 mm and together for ± 3 mm, lower laterals strongly clawed, claws ± 2.5 mm long, limbs oblong, ± 14 x 6 mm, channelled toward base, lower median obscurely clawed, ± 20 x 12 mm. Filaments ± 10 mm long, exserted ± 8 mm from tube; anthers ± 7 mm long, blackish; pollen cream-coloured. Style arching over stamens, dividing between middle and upper 1/3 of anthers, branches 2.5-3.0 mm long. Capsules obovoid, broadly 3-lobed above and retuse, (10-)12-14 mm long. Seeds ovate, ± 6 x 5-6 mm, evenly winged.
+            textZh: Gladiolus malvinus Goldblatt & J.C.Manning 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98126; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Very similar to Gladiolus woodii and co-occurring with it at the type locality but taller, 550-700 mm high, with sparsely villous or glabrous lower leaf sheaths and slightly larger, blue-mauve flowers with the upper tepals 28-30 mm long. The tunics accumulate in a mass around the stem base. Gladiolus woodii is usually less than 500 mm tall, often with more densely villous leaves, and smaller, lilac, yellow or brownish flowers with the upper tepals 17-27 mm long. The corm tunics do not accumulate.
+            textZh: SANBI 条目提供了 Gladiolus malvinus Goldblatt & J.C.Manning 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94511; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dolerite slopes in grassland and flowering after fire.
+            textZh: 该 SANBI 区域物种条目记录的生境：Dolerite slopes in grassland and flowering after fire.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 97033; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

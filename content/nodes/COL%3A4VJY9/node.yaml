@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax oreites
+  displayName: Scinax oreites
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJY9
+  sourceIndexes:
+    - name:
+        en: Scinax oreites
+        zh: Scinax oreites
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJY9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/60
+            queryName: Scinax oreites
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3dc2d3522c
+      - s-f87bfc351c
+      - s-dd1cbc01fb
+      - s-5ed6112932
+      - s-81f8c3c603
+      - s-b45f9dc604
+      - s-512ec21b38
+      - s-ff86f5640d
+    zh:
+      - s-c95d0ad818
+      - s-ac352b1b3a
+      - s-fa055f6ce8
+      - s-fe4b0317b3
+      - s-229ad30f69
+      - s-a1a02612d2
+      - s-a1627668f5
+      - s-a35c370549

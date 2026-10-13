@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla butleri
+  displayName: Microhyla butleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42X9S
+  sourceIndexes:
+    - name:
+        en: Microhyla butleri
+        zh: Microhyla butleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42X9S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/495
+            queryName: Microhyla butleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 31
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/347
+            queryName: Microhyla fusca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/288
+            queryName: Microhyla boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/289
+            queryName: Microhyla latastii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/290
+            queryName: Microhyla grahami
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/291
+            queryName: Microhyla sowerbyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/292
+            queryName: Microhyla cantonensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-511f3e18b9
+      - s-0bb23e3404
+      - s-2e02da033b
+      - s-b90250e4bf
+      - s-ecc0b3a5a8
+      - s-aedf48c054
+      - s-fb2e4af31c
+      - s-bbe4db3f40
+      - s-b9a753882a
+      - s-a6ac123ee4
+      - s-94dcd8b212
+      - s-4cdb4dd178
+      - s-f9d364b16f
+      - s-391521dd98
+      - s-8a039df767
+      - s-dfea4c7f19
+      - s-dee45fe19e
+      - s-a937e6581b
+    zh:
+      - s-79c90b54be
+      - s-93bf10f5a8
+      - s-e137f4618e
+      - s-34c30e90d2
+      - s-f0ed64e4cd
+      - s-89ebf277d9
+      - s-bc22253965
+      - s-898e4ff500
+      - s-c3649ce627
+      - s-3a0e976a84
+      - s-1edd1b1a4c
+      - s-c367b6867c
+      - s-09ef321a7b
+      - s-660b47c4b6
+      - s-de3b40acc0
+      - s-656841a7a8
+      - s-2971d501f9
+      - s-d41213548b

@@ -1,0 +1,307 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Indirana Laurent, 1986
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Indirana
+      zh: Indirana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-256a1cc304
+            part: title
+          zh:
+            page: zh
+            section: s-263927fc14
+            part: title
+        text:
+          en:
+            page: en
+            section: s-256a1cc304
+            part: body
+          zh:
+            page: zh
+            section: s-263927fc14
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b2d5c2d1cd
+            part: title
+          zh:
+            page: zh
+            section: s-0055574429
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b2d5c2d1cd
+            part: body
+          zh:
+            page: zh
+            section: s-0055574429
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c488ad7e45
+            part: title
+          zh:
+            page: zh
+            section: s-4d2fb90943
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c488ad7e45
+            part: body
+          zh:
+            page: zh
+            section: s-4d2fb90943
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-2299a3f141
+            part: title
+          zh:
+            page: zh
+            section: s-c7892dea49
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2299a3f141
+            part: body
+          zh:
+            page: zh
+            section: s-c7892dea49
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-a80f827116
+            part: title
+          zh:
+            page: zh
+            section: s-e6034eeed2
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3PMW4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMW4
+            label:
+              en: Indirana beddomii
+              zh: Indirana beddomii
+          - kind: catalogue
+            colId: 3PMW5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMW5
+            label:
+              en: Indirana bhadrai
+              zh: Indirana bhadrai
+          - kind: catalogue
+            colId: 3PMW6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMW6
+            label:
+              en: Indirana brachytarsus
+              zh: Indirana brachytarsus
+          - kind: catalogue
+            colId: 3PMW7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMW7
+            label:
+              en: Indirana chiravasi
+              zh: Indirana chiravasi
+          - kind: catalogue
+            colId: 3PMW9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMW9
+            label:
+              en: Indirana duboisi
+              zh: Indirana duboisi
+          - kind: catalogue
+            colId: 6MW88
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6MW88
+            label:
+              en: Indirana gundia
+              zh: Indirana gundia
+          - kind: catalogue
+            colId: 3PMWB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMWB
+            label:
+              en: Indirana leithii
+              zh: Indirana leithii
+          - kind: catalogue
+            colId: 3PMWD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMWD
+            label:
+              en: Indirana longicrus
+              zh: Indirana longicrus
+          - kind: catalogue
+            colId: 6N7VW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6N7VW
+            label:
+              en: Indirana paramakri
+              zh: Indirana paramakri
+          - kind: catalogue
+            colId: 3PMWG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMWG
+            label:
+              en: Indirana salelkari
+              zh: Indirana salelkari
+          - kind: catalogue
+            colId: 3PMWH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMWH
+            label:
+              en: Indirana sarojamma
+              zh: Indirana sarojamma
+          - kind: catalogue
+            colId: 3PMWJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMWJ
+            label:
+              en: Indirana semipalmata
+              zh: Indirana semipalmata
+          - kind: catalogue
+            colId: 3PMWL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMWL
+            label:
+              en: Indirana tysoni
+              zh: Indirana tysoni
+          - kind: catalogue
+            colId: 3PMWM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PMWM
+            label:
+              en: Indirana yadera
+              zh: Indirana yadera
+        text:
+          en:
+            page: en
+            section: s-a80f827116
+            part: body
+          zh:
+            page: zh
+            section: s-e6034eeed2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Indirana
+          url: https://www.checklistbank.org/dataset/316115/taxon/547S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Indirana; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a23781be77
+        part: body
+      zh:
+        page: zh
+        section: s-97ff1041e4
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Indirana
+      sourceRowIds:
+        - Anf5052
+        - Anf5053
+        - Anf5054
+        - Anf5055
+        - Anf5056
+        - Anf5057
+        - Anf5058
+        - Anf5059
+        - Anf5060
+        - Anf5061
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 10
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 10
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 10
+      currentConceptEquivalenceCertified: false

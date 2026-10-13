@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus inti
+  displayName: Phrynopus inti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWQH
+  sourceIndexes:
+    - name:
+        en: Phrynopus inti
+        zh: Phrynopus inti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWQH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/222
+            queryName: Phrynopus inti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0e2557a5ba
+      - s-8ebe01753e
+      - s-a314e52483
+      - s-602b41c0d8
+      - s-6a77fea71d
+      - s-1363466953
+      - s-ee182e77e9
+      - s-7857b2defd
+      - s-aa63bde519
+      - s-db86868ac1
+      - s-38432a40de
+      - s-9a3fb1b65e
+      - s-f1b99620dd
+    zh:
+      - s-0c0eb8150e
+      - s-3322d5303d
+      - s-f29a69c305
+      - s-c43719e1e9
+      - s-e525a11d33
+      - s-c1f83d29d7
+      - s-ce8ef6a982
+      - s-2cae4ea5e5
+      - s-0af20f7624
+      - s-ed4e62d3d5
+      - s-46f91c628a
+      - s-9e568fe28b
+      - s-08c5b8fc78

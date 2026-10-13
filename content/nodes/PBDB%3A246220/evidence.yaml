@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Estesiella boliviensis
+    rank: species
+    sourceTaxonId: txn:246220
+    name:
+      en: Estesiella boliviensis
+      zh: Estesiella boliviensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-0fd5b5a20e
+            part: body
+          zh:
+            page: zh
+            section: s-7f8a6e8b44
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-8080fee389
+            part: body
+          zh:
+            page: zh
+            section: s-f848267074
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Estesiella boliviensis
+          zh: Estesiella boliviensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-00b64b92d1
+            part: body
+          zh:
+            page: zh
+            section: s-c5241cd78c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:246220; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. M. Baez. 1995. Estesiella, replacement name for Estesius, a Paleocene neobatrachian frog from Bolivia. Ameghiniana 32(1):56
+    occurrenceEvidence:
+      - occurrenceId: occ:1098469
+        collectionId: col:13501
+        acceptedTaxonId: txn:246220
+        identifiedTaxonId: txn:246218
+        identifiedName: Estesius boliviensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:49783
+        bibliography: A. M. Báez. 1991. A new early Paleocene neobatrachian frog from the Santa Lucia Formation in south central Bolivia, and comments on the Cretaceous and early Tertiary batrachofaunas of South America. Revista Técnica de Yacimientos Petrolíferos Fiscales Bolivianos 12(3-4):529-542
+        locality:
+          countryCode: BO
+          stateProvince: Mizque
+          county: null
+        stratigraphy:
+          group: null
+          formation: Santa Lucía
+          member: null
+        olderAgeMa: 66
+        youngerAgeMa: 61.66
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Estesiella boliviensis
+          zh: Estesiella boliviensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-00b64b92d1
+            part: body
+          zh:
+            page: zh
+            section: s-c5241cd78c
+            part: body
+        sourceIds: []

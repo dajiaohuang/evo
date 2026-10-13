@@ -1,0 +1,187 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hastanectes valdensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hastanectes valdensis
+      en: Hastanectes valdensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b101b267cb
+            part: body
+          en:
+            page: en
+            section: s-924707dc03
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-38ed13d501
+            part: body
+          en:
+            page: en
+            section: s-bcfeabb4f0
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9fe06e1d65
+            part: body
+          en:
+            page: en
+            section: s-f1c8c778f0
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-97b43a0562
+            part: body
+          en:
+            page: en
+            section: s-e50db2d679
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-29c57b50ee
+            part: body
+          en:
+            page: en
+            section: s-4f28f9284f
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hastanectes valdensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=201041&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:201041; original response record indices retained in data/sources/sauropterygia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 262ff66f07b86b04952b63768d1a1ff40af059166c0f8e11f63f9ed76019c860
+          pbdbTaxonId: txn:201041
+          selectedOccurrenceIds:
+            - occ:831517
+            - occ:1041048
+            - occ:1041049
+            - occ:1041050
+            - occ:1041051
+            - occ:1117518
+          selectedCollectionIds:
+            - col:91990
+            - col:127529
+            - col:127530
+            - col:52577
+            - col:52649
+            - col:45760
+          sourceReferenceIds:
+            - ref:41566
+            - ref:33960
+            - ref:46081
+          originalIdentificationMappings:
+            - occurrenceId: occ:831517
+              originalIdentifiedName: Cimoliasaurus valdensis
+              acceptedName: Hastanectes valdensis
+              difference: recombined as
+            - occurrenceId: occ:1041048
+              originalIdentifiedName: Cimoliosaurus valdensis n. sp.
+              acceptedName: Hastanectes valdensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:1041049
+              originalIdentifiedName: Cimoliasaurus valdensis
+              acceptedName: Hastanectes valdensis
+              difference: recombined as
+            - occurrenceId: occ:1041050
+              originalIdentifiedName: Cimoliasaurus valdensis
+              acceptedName: Hastanectes valdensis
+              difference: recombined as
+            - occurrenceId: occ:1041051
+              originalIdentifiedName: Cimoliasaurus valdensis
+              acceptedName: Hastanectes valdensis
+              difference: recombined as
+            - occurrenceId: occ:1117518
+              originalIdentifiedName: Plesiosaurus valdensis
+              acceptedName: Hastanectes valdensis
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-bc0d407290
+        part: body
+      en:
+        page: en
+        section: s-f283838aea
+        part: body

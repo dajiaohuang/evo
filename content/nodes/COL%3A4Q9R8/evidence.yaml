@@ -1,0 +1,786 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ptychadena oxyrhynchus (Smith, 1849)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ptychadena oxyrhynchus
+      zh: Ptychadena oxyrhynchus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f271be5eb3
+            part: title
+          zh:
+            page: zh
+            section: s-6b991c6910
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f271be5eb3
+            part: body
+          zh:
+            page: zh
+            section: s-6b991c6910
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f7f86737da
+            part: title
+          zh:
+            page: zh
+            section: s-29417054d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f7f86737da
+            part: body
+          zh:
+            page: zh
+            section: s-29417054d3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-437b1059eb
+            part: title
+          zh:
+            page: zh
+            section: s-0a905cc9bb
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-437b1059eb
+            part: body
+          zh:
+            page: zh
+            section: s-0a905cc9bb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo. org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2239013b2c
+            part: title
+          zh:
+            page: zh
+            section: s-3fbd9e8fe6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-2239013b2c
+            part: body
+          zh:
+            page: zh
+            section: s-3fbd9e8fe6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fcf2305a50
+            part: title
+          zh:
+            page: zh
+            section: s-3c364a4b3a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-fcf2305a50
+            part: body
+          zh:
+            page: zh
+            section: s-3c364a4b3a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-b0756f3a7b
+            part: title
+          zh:
+            page: zh
+            section: s-4e45e6879b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-b0756f3a7b
+            part: body
+          zh:
+            page: zh
+            section: s-4e45e6879b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-1cca73a461
+            part: title
+          zh:
+            page: zh
+            section: s-3d544fe87a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-1cca73a461
+            part: body
+          zh:
+            page: zh
+            section: s-3d544fe87a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-351ce26bbf
+            part: title
+          zh:
+            page: zh
+            section: s-efb9687cb4
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-351ce26bbf
+            part: body
+          zh:
+            page: zh
+            section: s-efb9687cb4
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-3d6b31eb7cc33579b53f1049dde99430
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-c419a19156f787d1b615a9a7
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2441c627b6
+            part: title
+          zh:
+            page: zh
+            section: s-12a1396b6b
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-2441c627b6
+            part: body
+          zh:
+            page: zh
+            section: s-12a1396b6b
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-eafbea4bba
+            part: title
+          zh:
+            page: zh
+            section: s-0f5c300d64
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-eafbea4bba
+            part: body
+          zh:
+            page: zh
+            section: s-0f5c300d64
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8acb71b631
+            part: title
+          zh:
+            page: zh
+            section: s-dc8c37753b
+            part: title
+        sourceIds:
+          - primary-pmc6434812-4q9r8
+        text:
+          en:
+            page: en
+            section: s-8acb71b631
+            part: body
+          zh:
+            page: zh
+            section: s-dc8c37753b
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-05a9430cb4
+            part: title
+          zh:
+            page: zh
+            section: s-6e1bf944b3
+            part: title
+        sourceIds:
+          - primary-pmc6434812-4q9r8
+        text:
+          en:
+            page: en
+            section: s-05a9430cb4
+            part: body
+          zh:
+            page: zh
+            section: s-6e1bf944b3
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-329a974473
+            part: title
+          zh:
+            page: zh
+            section: s-2aec243b65
+            part: title
+        sourceIds:
+          - primary-pmc6434812-4q9r8
+        text:
+          en:
+            page: en
+            section: s-329a974473
+            part: body
+          zh:
+            page: zh
+            section: s-2aec243b65
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-3299943b6c
+            part: title
+          zh:
+            page: zh
+            section: s-f25def966d
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4q9r8
+        text:
+          en:
+            page: en
+            section: s-3299943b6c
+            part: body
+          zh:
+            page: zh
+            section: s-f25def966d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8fb579711f
+            part: title
+          zh:
+            page: zh
+            section: s-d2323aa9c4
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4q9r8
+        text:
+          en:
+            page: en
+            section: s-8fb579711f
+            part: body
+          zh:
+            page: zh
+            section: s-d2323aa9c4
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6ac260535f
+            part: title
+          zh:
+            page: zh
+            section: s-ae6d69b626
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4q9r8
+        text:
+          en:
+            page: en
+            section: s-6ac260535f
+            part: body
+          zh:
+            page: zh
+            section: s-ae6d69b626
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1991c68cc4
+            part: title
+          zh:
+            page: zh
+            section: s-b722c90b35
+            part: title
+        sourceIds:
+          - primary-pmc13072372-4q9r8
+        text:
+          en:
+            page: en
+            section: s-1991c68cc4
+            part: body
+          zh:
+            page: zh
+            section: s-b722c90b35
+            part: body
+      - topic: limitations
+        title:
+          en: Evidence scope
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-5922c32c4e
+            part: body
+          zh:
+            page: zh
+            section: s-bd2ae48d00
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ptychadena oxyrhynchus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4Q9R8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4618; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4620 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1430; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc6434812-4q9r8
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena oxyrhynchus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc13072372-4q9r8
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena oxyrhynchus: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-dd2ba05ec6
+        part: body
+      zh:
+        page: zh
+        section: s-e3b2dce530
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-3d6b31eb7cc33579b53f1049dde99430
+      sourceRowId: Anf4618
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4618
+        bibliographyRowId: Anf4620
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Ptychadena newtoni
+        candidateBibliographyRowIds:
+          - Anf4620
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-c419a19156f787d1b615a9a7
+        scientificName: Ptychadena oxyrhynchus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1186/s13002-019-0294-3
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        sourceKey: primary-pmc6434812-4q9r8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6434812/article.xml
+        sourceConcept: SourceTab1 Ptychadena oxyrhynchus nomenclatural/ethnotaxonomic label; no new biologicaltrait or specimenidentity assignment
+        evidenceRead: "Ptychadena oxyrhynchus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: A published isiZulu name and its provenance
+              zh: 已发表的 isiZulu 名称及其来源
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-4q9r8
+            locator: PMC6434812 XML Tab1 tbody row41; tablefootnotes; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3e32937c70
+                part: body
+              zh:
+                page: zh
+                section: s-932dc0781c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Workshop vocabulary and later species naming
+              zh: 工作坊词汇与后续物种命名
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-4q9r8
+            locator: PMC6434812 XML Sec2 completeMethods; Sec4; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0500f43092
+                part: body
+              zh:
+                page: zh
+                section: s-609690c81c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: What a local naming category can establish
+              zh: 地方命名类别能说明什么
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-4q9r8
+            locator: PMC6434812 XML Sec4–7; Sec9Discussion; Sec10Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d22d2081b9
+                part: body
+              zh:
+                page: zh
+                section: s-b62015b9ec
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-4q9r8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Ptychadena oxyrhynchus compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Ptychadena oxyrhynchus: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4q9r8
+            locator: PMC13072372 XML TablesA2/A3 namedrow Ptychadena oxyrhynchus;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e7fd4d00c1
+                part: body
+              zh:
+                page: zh
+                section: s-1d09192629
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4q9r8
+            locator: PMC13072372 XML TableA4 row46;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-129fdaf65c
+                part: body
+              zh:
+                page: zh
+                section: s-b7b6878fd2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4q9r8
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row46
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b3f19db28c
+                part: body
+              zh:
+                page: zh
+                section: s-e31a90202b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-4q9r8
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-01e8b532b7
+                part: body
+              zh:
+                page: zh
+                section: s-43f794a414
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

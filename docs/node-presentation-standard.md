@@ -159,7 +159,7 @@
 | 可以追溯 | 科学断言、年代、地点、插图与比较能回到适合的来源；缺失不被填造 |
 | 可以在实际版本使用 | 手机无整页横向溢出；键盘可用；已有静态与交互版本共享正文和来源，数据不足的版本不会显示空入口 |
 
-内容仍写入现有 canonical 文件：`index.yaml` 保留身份与来源分类；`page.zh.md`、`page.en.md` 写读者正文；`evidence.md` 保留来源、定位和关系。保留现有 `evo:text` 标记与注册字段，用 `rtk npm run content:build` 生成投影。手工主线章节仍使用已有 `data/reading-guides.json`。不要直接修改生成的 `data/` 文件，也不要把模板作为新的资料存储。
+每个节点只在 `content/nodes/<physical-key>/` 保留一套内容：`node.yaml` 记录身份与关系，`evidence.yaml` 保存证据，`page.zh.md` 和 `page.en.md` 用带稳定键的小标题编写正文。共享书目写入 `content/references.yaml`；页面、卡片与地图气泡读取同一套内容。阅读主线也使用独立节点，`data/reading-guides.json` 由投影生成。使用 `rtk npm run content:build` 更新投影；不手改生成的 `data/` 文件，不另建制作或评审台账。
 
 验证与改动匹配：单纯规范编辑检查链接、示例和文档；正文变更检查来源绑定及生成结果；交互变更保留实际入口、定位和返回的必要测试。无需为每个节点复制相同测试或增加 CI，也不能把文档规范声称为已实现的自动校验。
 
@@ -177,6 +177,6 @@
 | 科学范围 | 腕状关节是解剖观察；据此讨论承重与运动不能直接断言经常在陆地行走，也不指定它为直接祖先 |
 | 正文来源 | 已有主线的 `daeschler-2006-tiktaalik-body-plan` 与 `shubin-2006-tiktaalik-pectoral-fin` |
 
-示例正文与术语已有于[鱼鳍与四肢章节](../data/reading-guides.json)。这些来源不能自动当作地图点的精确配准依据。
+示例正文与术语已有于[鱼鳍与四肢章节](../content/nodes/reading-guide-fins-and-limbs/page.zh.md)。这些来源不能自动当作地图点的精确配准依据。
 
 地图入口可以明确打开独立记录 `occ:568160`：鉴定名 *Tiktaalik roseae*，集合 `col:59674`，记录年龄区间 382.31–372.15 Ma，显示中点 377.23 Ma，古纬度 −0.25°、古经度 −31.8°，模型 `pbdb:gplates`。字段来自[四足动物过渡包的记录快照](../data/sources/pbdb-targeted-tetrapod-transition-occurrences-v1.json.gz)，其引用标识为 `ref:17081`。它是一个数据库化石记录场景，不自动定位正文所讨论的某件标本。

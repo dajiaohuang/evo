@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tylototriton pasmansi
+    name:
+      en: Tylototriton pasmansi
+      zh: Tylototriton pasmansi
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Tylototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1404c41199
+            part: body
+          zh:
+            page: zh
+            section: s-bd7d8bedfb
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4523a956dd
+            part: body
+          zh:
+            page: zh
+            section: s-ff6d96773c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 391, 392; Reference.csv rows 4159
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 391
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton pasmansi
+          - M
+          - NA
+          - "66.59"
+          - "45.81"
+          - "30.26"
+          - "18.79"
+          - "12.47"
+          - "8.61"
+          - "3.24"
+          - "3.66"
+          - NA
+          - "5.71"
+          - NA
+          - "57.96"
+          - NA
+          - "7.87"
+          - NA
+          - NA
+          - "22.44"
+          - "24.18"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 392
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton pasmansi
+          - F
+          - NA
+          - "76.82"
+          - "53.52"
+          - "37.56"
+          - "22.39"
+          - "10.5"
+          - "10.13"
+          - "3.86"
+          - "3.73"
+          - NA
+          - "7.37"
+          - NA
+          - "65.77"
+          - NA
+          - "9.44"
+          - NA
+          - NA
+          - "24.79"
+          - "25.98"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4159
+        values:
+          - Caudata
+          - Tylototriton_pasmansi
+          - Bernardes, M., Le, M. D., Nguyen, T. Q., Pham, C. T., Van Pham, A., Nguyen, T. T., . . . Ziegler, T. (2020). Integrative taxonomy reveals three new taxa within the Tylototriton asperrimus complex (Caudata, Salamandridae) from Vietnam. Zookeys, 935, 121-164. https://doi.org/10.3897/zookeys.935.37138
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - IND
+      - TL
+      - TH
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - TNJK2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

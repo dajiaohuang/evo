@@ -1,0 +1,3 @@
+## ## What a regional flora records {#s-15570829ab}
+The Brazilian Flora 2020 entry lists erect, somewhat erect and decumbent stem forms for *Aeschynomene americana*, alongside non-tufted, bristly and non-woody stem descriptors. It describes pinnate leaves with oblong, asymmetric leaflets, and loose, many-flowered racemes in the leaf axils. The flowers are recorded as purple, with a two-lipped calyx and fringed keel petals; the curved, jointed fruits and kidney-shaped brown seeds are also noted. This is one regional dataset description, not an assessment of the species’ full variation or global range. Its habitat field says only “terrestrial.”
+

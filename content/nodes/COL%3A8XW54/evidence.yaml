@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Schoenus submarginalis T.L.Elliott & Muasya
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 8XW54, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 8XW54; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/8XW54
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 8XW54
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001421051-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 8XW54 / WFO wfo-0001421051
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_17820_0
+        referenceId: ref-d9893c78-e25d-89dc-a95e-711b7a95abac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Schoenus submarginalis T.L.Elliott & Muasya account; SANBI/WFO archive rows 103538 (Morphology), 103474 (Habitat), 103386 (Diagnostic), source identifier 17820.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Caespitose, phyllopodic perennial graminoid. Culms terete, slender, 208-580 x 0.2-0.8 mm. Leaves basal, 1-3, (16-)32-68(-153) x0.2-0.9 mm, mostly straight, proximally channelled, margin usually serrate above sheath. Sheaths usually firmly clasping culm, sometimes but not always longitudinally striate. Ligule firm, relatively short, 0.2-1.0 mm long. Inflorescence a slender pseudolateral panicle, 11-43x 3-8 mm, proximal rachis length 5-20 mm. Proximal primary inflorescence bracts slender, not channelled, apex acute, never widened at base, 24-60(-84) mm long, exceeding length of inflorescence 0.5 times or more, without notable longitudinal veins. Proximal and subproximal primary inflorescence bracts never with membranaceous extension sat base. Spikes 2-14, (3.0-)7.0-16.0 mm long, sometimes overlapping. Spikelets lanceolate to slightly ovate, (2.2-)3.0-3.9(-4.1) x 1.0-1.2 mm, pedicellate, 2-5(-8) spikelets per spike, reddish-brown with hyaline margins having adjacent small reddish-brown streaks. Proximal spikelet prophyll 1 per spikelet, with a raised vein extending to mucro, 0.3-1.0 mm long, prophyll mucro varying in length, 0.7-2.2(-5.2) mm long. Rachilla (0.3-)1.4-2.2(-4.0) mm long. Glumes 6-8 per spikelet, proximal glume 0.3-1.2 mm long, subproximal glume 0.6-1.4 mm long, upper glumes longer than basal ones, apex acute to acuminate, lower glumes less than half length of spikelet. Glume mucros usually relatively short, proximal mucro 0.1-0.5(-1.5) mm long, subproximal mucro 0.1-0.7 mm long. Stamens (2-)3(-4) per floret, anthers 1.3-2.5(-4.3) mm long. Stigmas 3-branched, vestigial stigmas of second bisexual floret sometimes present. Perianth bristles not observed. Nutlet broad elliptic, trigonous, yellowish in colour, 2.2-2.4 x 0.7-1.3 mm. Nutlet beak 0.3-0.6(-1.5) mm long, hispid, purplish-brown when mature.
+            textZh: Schoenus submarginalis T.L.Elliott & Muasya 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_17820_0
+            locator: "SANBI/WFO archive Morphology row 103538; source identifier 17820.0; cited publication: Elliott, TL; Barrett, RL; Muasya, AM. 2019. A taxonomic revision of Schoenus cuspidatus and allies (Cyperaceae, tribe Schoeneae) - Part 1. S. African J. Bot. 121: 519 - 535. [https://doi.org/10.1016/j.sajb.2018.11.021]. [Copyright held by the South African Association of Botanists (2019); http://www.sciencedirect.com/science/journal/02546299]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Major diagnostic characters of Schoenus submarginalis include its relatively short (<4.2 mm) and narrow spikelets (< 1.2 mm), as well as the small reddish-purple streaks adjacent to its hyaline glume margins. Schoenus exilis, S. ligulatus, and S. quartziticus also have narrow spikelets; however, these three species do not have hyaline glume margins with adjacent reddish-purple streaks and their spikelets tend to be either linear-lanceolate or narrow lanceolate, compared to the wider lanceolate spikelets of S. submarginalis. Schoenus submarginalis is most similar to S. bolusii, but the leaf sheaths of these two species differ, with S. submarginalis having firm leaf sheaths that are generally solid in colour, while S. bolusii has membranaceous leaf sheaths with reddish-purple streaks. In addition, S. submarginalis has on average taller culms (305-475 mm) than those of S. bolusii (249-310 mm).
+            textZh: SANBI 条目提供了 Schoenus submarginalis T.L.Elliott & Muasya 的鉴别特征。
+            sourceIds:
+              - sanbi_17820_0
+            locator: "SANBI/WFO archive Diagnostic row 103386; source identifier 17820.0; cited publication: Elliott, TL; Barrett, RL; Muasya, AM. 2019. A taxonomic revision of Schoenus cuspidatus and allies (Cyperaceae, tribe Schoeneae) - Part 1. S. African J. Bot. 121: 519 - 535. [https://doi.org/10.1016/j.sajb.2018.11.021]. [Copyright held by the South African Association of Botanists (2019); http://www.sciencedirect.com/science/journal/02546299]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: This species tends to grow on coarse substrates.
+            textZh: 该 SANBI 区域物种条目记录的生境：This species tends to grow on coarse substrates.
+            sourceIds:
+              - sanbi_17820_0
+            locator: "SANBI/WFO archive Habitat row 103474; source identifier 17820.0; cited publication: Elliott, TL; Barrett, RL; Muasya, AM. 2019. A taxonomic revision of Schoenus cuspidatus and allies (Cyperaceae, tribe Schoeneae) - Part 1. S. African J. Bot. 121: 519 - 535. [https://doi.org/10.1016/j.sajb.2018.11.021]. [Copyright held by the South African Association of Botanists (2019); http://www.sciencedirect.com/science/journal/02546299]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

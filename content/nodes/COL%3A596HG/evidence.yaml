@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trochalopteron variegatum
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Trochalopteron variegatum
+      en: Trochalopteron variegatum
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-5bd2abc6b1
+            part: body
+          en:
+            page: en
+            section: s-4ea2bde765
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-9c72e7bd2a
+            part: body
+          en:
+            page: en
+            section: s-b72d413b60
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-0f61ff8444
+            part: body
+          en:
+            page: en
+            section: s-fe6147a048
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-650927fec5
+            part: body
+          en:
+            page: en
+            section: s-6d309033cd
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-3297a1eeaa
+            part: body
+          en:
+            page: en
+            section: s-55722c9956
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Trochalopteron variegatum
+          url: https://www.checklistbank.org/dataset/316115/taxon/596HG
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetTrochalopteronHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Trochalopteron historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 14 selected AVONET1_BirdLife rows within 4918–4935; individual BirdLife–eBird and BirdLife–BirdTree rows and relevant Metadata definitions in receipt.
+          scope:
+            zh: 十四条历史行；保留来源科名 Leiotrichidae 与目录 Leiothrichidae 的拼写差异及旧 Garrulax 名称。
+            en: Fourteen historical rows; retain source family spelling Leiotrichidae versus catalogue Leiothrichidae and older Garrulax names.
+    limitations:
+      zh:
+        page: zh
+        section: s-ad1a0bdb6b
+        part: body
+      en:
+        page: en
+        section: s-167566356c
+        part: body

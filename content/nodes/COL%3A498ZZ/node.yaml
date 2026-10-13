@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon berthae
+  displayName: Ololygon berthae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/498ZZ
+  sourceIndexes:
+    - name:
+        en: Ololygon berthae
+        zh: Ololygon berthae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 498ZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/108
+            queryName: Ololygon berthae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/31
+            queryName: Scinax berthae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/45
+            queryName: Hyla berthae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-54cd34eae8
+      - s-7f5509600a
+      - s-f19ad5ab6b
+      - s-2dbf22b981
+      - s-7a13bf1bdf
+      - s-5fd8b71f8a
+      - s-2b6da06854
+      - s-b944014697
+      - s-632d509d63
+      - s-1bfd23ff20
+      - s-5e3c91362a
+      - s-40da332286
+      - s-d4d7dcf372
+      - s-9a043d5773
+    zh:
+      - s-0303e627c1
+      - s-b27c08fb7e
+      - s-3f103fd3e8
+      - s-eb6d4ff416
+      - s-4981971175
+      - s-b9faf3b30f
+      - s-16d64acfdc
+      - s-8063cfc4ef
+      - s-f10e5fe4da
+      - s-e3de62ba1c
+      - s-9a81f71e51
+      - s-aad04f1ea5
+      - s-e22ae4631b
+      - s-829692643e

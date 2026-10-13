@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon hoffmani
+  displayName: Plethodon hoffmani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Q7T
+  sourceIndexes:
+    - name:
+        en: Plethodon hoffmani
+        zh: Plethodon hoffmani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Q7T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/467
+            queryName: Plethodon hoffmani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/459
+            queryName: Plethodon richmondi hoffmani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-17dfc2348d
+      - s-2d2519e969
+      - s-ef025704a9
+      - s-69a47a90c1
+      - s-3db23ee6f1
+      - s-a195aea50f
+      - s-a012d34a65
+      - s-9250d605f5
+      - s-02a9b170a5
+    zh:
+      - s-80ecc5307b
+      - s-5078418003
+      - s-d14fe019cd
+      - s-95f28a1951
+      - s-257644fa3b
+      - s-53779442d4
+      - s-239e515875
+      - s-0ff9dfc76b
+      - s-97322570c1

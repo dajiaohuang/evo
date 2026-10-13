@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops torrentis
+  displayName: Amolops torrentis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWBN
+  sourceIndexes:
+    - name:
+        en: Amolops torrentis
+        zh: Amolops torrentis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWBN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/412
+            queryName: Amolops torrentis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/233
+            queryName: Micrixalus torrentis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/234
+            queryName: Rana torrentis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/235
+            queryName: Staurois torrentis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c3df137c4
+      - s-13b8c5593b
+      - s-663dc94911
+      - s-8a33ece416
+      - s-ff139f574b
+      - s-23a7e3ed07
+      - s-ad828cad41
+      - s-31163eef4b
+      - s-1e7c8a9f85
+      - s-a0dd031b8c
+      - s-44fbfa9d3b
+      - s-459aa4cbf0
+      - s-ea9256ce53
+      - s-714bfc4b46
+    zh:
+      - s-2ae2c13965
+      - s-63a1788423
+      - s-23f53f12ac
+      - s-e4ae213668
+      - s-37e9ae009f
+      - s-731704e2b8
+      - s-9471ea36b4
+      - s-ebe7fc4cd1
+      - s-5f9a0d851c
+      - s-76153b0c5e
+      - s-98d769c490
+      - s-a41f1e474c
+      - s-925125dd8c
+      - s-31fa49f91f

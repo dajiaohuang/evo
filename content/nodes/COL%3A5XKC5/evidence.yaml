@@ -1,0 +1,613 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cercopithecus diana (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 戴安娜猴
+      en: Diana monkey
+    sections:
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-72a3174d25
+            part: body
+          en:
+            page: en
+            section: s-c85db2d01e
+            part: body
+        sourceIds:
+          - stephan2016
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f74c076e9d
+            part: body
+          en:
+            page: en
+            section: s-9eff6dc943
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-94d995b759
+            part: body
+          en:
+            page: en
+            section: s-bcf755b84d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1df5d40238
+            part: body
+          en:
+            page: en
+            section: s-aa1a90136f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-a0fd3e3c69
+            part: body
+          en:
+            page: en
+            section: s-cbb502a172
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-8f6972ba03
+            part: body
+          en:
+            page: en
+            section: s-e0dcb709ad
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-60adcaee15
+            part: body
+          en:
+            page: en
+            section: s-8004216acf
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-0edf2f55e0
+            part: body
+          en:
+            page: en
+            section: s-c45bef5fc6
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e3cc4a59c7
+            part: body
+          en:
+            page: en
+            section: s-1ffb60d1e4
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-21386cd8ad
+            part: body
+          en:
+            page: en
+            section: s-b384222769
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-827d404d88
+            part: body
+          en:
+            page: en
+            section: s-17323531bb
+            part: body
+    sources:
+      - id: stephan2016
+        referenceId: ref-c1e702b9-a975-8eb7-a892-3d443c05f4f3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: Taï 森林（2013 年 8—12 月）与 Tiwai 岛（2014 年 1—3 月）的野生猴群播放实验；结论限于研究群体和实验声音。
+            en: Playback experiments with wild groups at Taï Forest (August–December 2013) and Tiwai Island (January–March 2014); findings are limited to those groups and stimuli.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/5XKC5
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12103; name Cercopithecus diana; reference table row 12103; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: de Magalhaes and Costa, 2009 from median of 7(Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000, Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            female_maturity_d: mean of Ricklefs, 2010b & Ernest et al., 2003 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            litter_or_clutch_size_n: de Magalhaes and Costa, 2009 from median of 3(de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            weaning_d: mean of de Magalhaes and Costa, 2009 & Ricklefs, 2010b from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            birth_or_hatching_weight_g: mean of Jones, K., Bielby, J., Cardillo, M. et al., 2009 & de Magalhaes and Costa, 2009 from median of 4(Ricklefs, 2010b, de Magalhaes and Costa, 2009, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            maximum_longevity_y: Carey, J.R. and D.S. Judge, 2002
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - de Magalhaes and Costa, 2009
+            - Ernest et al., 2003
+            - Ricklefs, 2010b
+            - Delson, E., Terranova, C.J., Jungers, W.L. et al., 2000
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 728; Scientific=Cercopithecus diana; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-89bdb81396
+        part: body
+      en:
+        page: en
+        section: s-c9635b4c38
+        part: body
+  catalogue-dossier:
+    scientificName: Cercopithecus diana (Linnaeus, 1758)
+    authorship: (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact COL26.8 accepted usage 5XKC5 was verified in the release-pinned search registry for scientific name, authorship, species rank, accepted status, and sourceDatasetId 2144; every accepted parent node was followed through the release-pinned hierarchy registry to its root.
+      scope: The accepted COL26.8 nomenclatural usage is Cercopithecus diana (Linnaeus, 1758). The biological article studies the Diana monkey subspecies C. d. diana and its sampled wild populations; it is not used to establish COL identity or full species-concept circumscription.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: 6224G
+        scientificName: Mammalia Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6226C
+        scientificName: Theria Parker & Haswell, 1897
+        authorship: Parker & Haswell, 1897
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: LG
+        scientificName: Eutheria Gill, 1872
+        authorship: Gill, 1872
+        rank: infraclass
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3W7
+        scientificName: Primates Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4DT
+        scientificName: Haplorrhini Pocock, 1918
+        authorship: Pocock, 1918
+        rank: suborder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4PM
+        scientificName: Simiiformes Haeckel, 1866
+        authorship: Haeckel, 1866
+        rank: infraorder
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 4X9
+        scientificName: Cercopithecoidea Gray, 1821
+        authorship: Gray, 1821
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 7X9
+        scientificName: Cercopithecidae Gray, 1821
+        authorship: Gray, 1821
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: JB3
+        scientificName: Cercopithecinae Gray, 1821
+        authorship: Gray, 1821
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: KPP
+        scientificName: Cercopithecini
+        authorship: null
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 3L2F
+        scientificName: Cercopithecus Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 5XKC5
+        scientificName: Cercopithecus diana (Linnaeus, 1758)
+        authorship: (Linnaeus, 1758)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: Biological observations refer to wild adult male Diana monkeys at Taï Forest, Côte d’Ivoire, and Tiwai Island, Sierra Leone.
+      domesticated: Domesticated or captive populations were not studied or inferred.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 5
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/5XKC5
+          stableId: col:5XKC5@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: "Accepted usage 5XKC5: verbatim name, authorship, species rank, accepted status and sourceDatasetId 2144; full accepted parent path resolved to registry root."
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 5XKC5. https://doi.org/10.48580/dgywk
+      - id: stephan2016
+        referenceId: ref-3b5e87ff-93a4-8be5-aa42-71fdd153b703
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - scope
+          - rightsEvidenceUrl
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: The article text as stated in the article's item-level XML license notice. Separately credited material is excluded; no figures, recordings, or underlying data are reproduced.
+          stableId: doi:10.1098/rsos.150639
+          accessedAt: 2026-09-24
+          locator: Abstract; Material and methods > Subjects and playback stimuli, paragraph beginning “We tested different groups of Diana monkeys”; Results > Call-related parameters, paragraph beginning “To eagle alarm calls, responses showed frequency transitions”; Discussion.
+          licenseAssessment: item-level-verified
+          attribution: Stephan C, Zuberbühler K. (2016). Social familiarity affects Diana monkey (Cercopithecus diana diana) alarm call responses in habitat-specific ways. Royal Society Open Science 3(2):150639. https://doi.org/10.1098/rsos.150639. Claims paraphrased.
+          scope: Primary playback study of wild Diana monkey alarm-call responses at two West African populations. Claims are paraphrased; no figures, recordings, or third-party material are reused.
+          rightsEvidenceUrl: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4785987/fullTextXML
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The selected playback study does not assess anatomical morphology or diagnostic characters.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The playback study tested whether male Diana monkeys distinguished familiar from unfamiliar male callers during responses to predator-specific alarm calls at Taï Forest and Tiwai Island. At both sites, acoustic features of responses varied with caller familiarity, but the direction of the familiar-versus-unfamiliar pattern differed between sites. The authors also report that familiarity affected leopard-induced alarms at Taï but not at Tiwai.
+            sourceIds:
+              - stephan2016
+            locator: Abstract; Material and methods > Subjects and playback stimuli, paragraph beginning ‘We tested different groups of Diana monkeys’; Results > Call-related parameters, paragraph beginning ‘To eagle alarm calls, responses showed frequency transitions’; Discussion
+            placeTimeScope: Wild Diana monkeys at Taï Forest, Côte d’Ivoire (N=20, August to December 2013), and Tiwai Island, Sierra Leone (N=23, January to March 2014); playback observations and conclusions are restricted to these two study populations.
+            lifeStatus: Wild adult male Diana monkeys and their alarm-call responses; no captive or domesticated animals are included. The study does not assess development, reproduction, or lifespan.
+            originalLanguage: en
+        gaps:
+          - The study addresses one adult social vocal behavior; development, reproduction, survival, and lifespan were not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The study examined male-to-male responses to familiar and unfamiliar conspecific alarm callers that signal leopard or eagle stimuli. Its site-specific playback results support a bounded observation about social signaling and predator-associated alarm contexts, not a population-wide measure of predation risk or a complete interaction network.
+            sourceIds:
+              - stephan2016
+            locator: Abstract; Introduction; Material and methods > Subjects and playback stimuli, paragraph beginning ‘We tested different groups of Diana monkeys’; Results > Call-related parameters, paragraph beginning ‘To eagle alarm calls, responses showed frequency transitions’; Discussion
+            placeTimeScope: Playback experiments with wild Diana monkeys at Taï Forest, Côte d’Ivoire (August to December 2013), and Tiwai Island, Sierra Leone (January to March 2014); conclusions are restricted to those studied populations and experimental stimuli.
+            lifeStatus: Wild male callers and receivers in the study populations; no captive or domesticated animals are included.
+            originalLanguage: en
+        gaps:
+          - Two experimental study populations and selected leopard/eagle playback stimuli do not establish a complete interaction network, natural predation rates, range-wide ecology, or seasonality.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No phylogenetic placement, trait evolution, or divergence-time evidence was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Two study locations are not a range-wide inventory and do not establish native-range boundaries or change through time.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed; no fossil-presence or fossil-absence conclusion is made.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current formal conservation assessment, status, trend, or population-risk analysis was reviewed.
+    readerSections:
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-bf703372cf
+            part: title
+          zh:
+            page: zh
+            section: s-4145c8132e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bf703372cf
+            part: body
+          zh:
+            page: zh
+            section: s-4145c8132e
+            part: body
+        sourceIds:
+          - stephan2016

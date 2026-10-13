@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella itiokai
+  displayName: Leptobrachella itiokai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TK9P
+  sourceIndexes:
+    - name:
+        en: Leptobrachella itiokai
+        zh: Leptobrachella itiokai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TK9P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/240
+            queryName: Leptobrachella itiokai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-09a119d2ed
+      - s-f7f4eb5cd2
+      - s-0b66db94af
+      - s-a04cc2b324
+      - s-dd3bb30b4c
+      - s-a316ed5222
+      - s-8382518b85
+      - s-0e694eb503
+      - s-e48e059e4c
+    zh:
+      - s-9b0c7a19fa
+      - s-594593bde6
+      - s-6cf3b50d25
+      - s-4403d2b69f
+      - s-8f61975320
+      - s-25c3352f4a
+      - s-e11e6719b5
+      - s-f1249bdf10
+      - s-8a82489685

@@ -1,0 +1,185 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudopus laurillardi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Pseudopus laurillardi
+      en: Pseudopus laurillardi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-32c6066569
+            part: body
+          en:
+            page: en
+            section: s-bcbb7c380b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-195a211ad0
+            part: body
+          en:
+            page: en
+            section: s-d04abf8eff
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-01e8d22c36
+            part: body
+          en:
+            page: en
+            section: s-85be67c9cb
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0d50b287e4
+            part: body
+          en:
+            page: en
+            section: s-017d8ce6ea
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cf2c3f55ea
+            part: body
+          en:
+            page: en
+            section: s-f8f7397370
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Pseudopus laurillardi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=253016&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:253016; original response record indices retained in data/sources/squamata-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 514f112902c399f610603231aa01670f6a662448389d5f94c43cb3b70ec452d6
+          pbdbTaxonId: txn:253016
+          selectedOccurrenceIds:
+            - occ:1079021
+            - occ:1079165
+            - occ:1083664
+            - occ:1089640
+            - occ:1092261
+            - occ:1302470
+            - occ:1302473
+            - occ:1302474
+            - occ:1302476
+            - occ:1302517
+            - occ:1302518
+            - occ:1302519
+            - occ:1302520
+            - occ:1302521
+            - occ:1307353
+            - occ:1455122
+          selectedCollectionIds:
+            - col:134954
+            - col:135038
+            - col:32191
+            - col:136919
+            - col:34615
+            - col:159022
+            - col:174097
+            - col:174098
+            - col:174100
+            - col:174116
+            - col:174117
+            - col:174118
+            - col:174119
+            - col:174120
+            - col:68062
+            - col:28629
+          sourceReferenceIds:
+            - ref:43315
+            - ref:43532
+            - ref:43777
+            - ref:43888
+            - ref:56791
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-cdc9ba8b67
+        part: body
+      en:
+        page: en
+        section: s-061bd61dbe
+        part: body

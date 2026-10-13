@@ -1,0 +1,135 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Itasina filifolia (Thunb.) Raf.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3QDVW, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3QDVW; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QDVW
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3QDVW
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001032912-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3QDVW / WFO wfo-0001032912
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14094_0
+        referenceId: ref-efcb015b-4301-8405-a9f1-ce4267916e58
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Itasina filifolia (Thunb.) Raf. account; archive rows 8904 (Morphology), 25455 (Habitat), source identifier 14094.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_14967_0
+        referenceId: ref-21f2307f-67e0-8f3c-a315-31b34fc8468c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Itasina filifolia (Thunb.) Raf. account; archive rows 84441 (Diagnostic), source identifier 14967.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tufted perennial to 45 cm. Leaves usually dead at flowering, radical, linear to filiform, sometimes subspathulate. Flowers in compound umbels on branched peduncles, white. Fruit narrowly elliptic, ribbed, sepals sometimes slender and spinescent, vittae present, rib oil ducts inconspicuous.
+            sourceIds:
+              - sanbi_14094_0
+            locator: "SANBI/WFO archive Morphology row 8904; source 14094.0; publication: Magee, AR; Manning, JC; van Wyk, B-E; Tilney, PM. 2012. Apiaceae: Itasina Raf. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 328 - 328. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: It is interesting that the seedling leaves as well as the upper (mature) leaves are invariably simple. This character enables the plant to be easily identified (once it has been spotted). The single species is exceptionally variable, especially in overall size, leaf size and calyx shape. It is the only African species that has spiny calyx lobes although this character occurs only sporadically.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_14967_0
+            locator: "SANBI/WFO archive Diagnostic row 84441; source 14967.0; publication: Van Wyk, B-E; Tilney, PM; Magee, AR. 2013. African Apiaceae: a synopsis of the Apiaceae/Umbelliferae of Sub-Saharan Africa and Madagascar. Briza Academic Books, Pretoria. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandstone and limestone flats.
+            sourceIds:
+              - sanbi_14094_0
+            locator: "SANBI/WFO archive Habitat row 25455; source 14094.0; publication: Magee, AR; Manning, JC; van Wyk, B-E; Tilney, PM. 2012. Apiaceae: Itasina Raf. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 328 - 328. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    reader:
+      zh:
+        overview:
+          page: zh
+          section: s-c2c3bb2b3d
+          part: body
+      en:
+        overview:
+          page: en
+          section: s-7c152c9607
+          part: body

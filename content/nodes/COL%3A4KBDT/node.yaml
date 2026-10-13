@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pleurodema bufoninum
+  displayName: Pleurodema bufoninum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4KBDT
+  sourceIndexes:
+    - name:
+        en: Pleurodema bufoninum
+        zh: Pleurodema bufoninum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4KBDT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/23
+            queryName: Pleurodema bufoninum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/350
+            queryName: Pleurodema bufonina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/411
+            queryName: Leiuperus salarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/412
+            queryName: Paludicola bufonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/413
+            queryName: Paludicola bufonina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/414
+            queryName: Pleurodema bufonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-322ba351c4
+      - s-9e52dc64f2
+      - s-6777ad75fc
+      - s-4c1f6ad340
+      - s-f9c4bc9b6d
+      - s-d0b343d958
+      - s-bdf5a02a2b
+      - s-d693b8998e
+      - s-c5d8752937
+      - s-9501187e27
+    zh:
+      - s-ef1498ba68
+      - s-858bdf6633
+      - s-d5a229304e
+      - s-d09d0d7b9d
+      - s-f54eeef2d5
+      - s-18d69751a4
+      - s-2427cb69ea
+      - s-2eb11cfb88
+      - s-e9cd0a0ea3
+      - s-830cb74b90

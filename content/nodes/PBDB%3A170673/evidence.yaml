@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Stenotosaurus gracilis
+    rank: species
+    sourceTaxonId: txn:170673
+    name:
+      en: Stenotosaurus gracilis
+      zh: Stenotosaurus gracilis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-6e90965366
+            part: body
+          zh:
+            page: zh
+            section: s-3051782d84
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-a74ed6ab57
+            part: body
+          zh:
+            page: zh
+            section: s-1dc78f9565
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Stenotosaurus gracilis
+          zh: Stenotosaurus gracilis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-f4f999cd46
+            part: body
+          zh:
+            page: zh
+            section: s-f5526e3d0d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:170673; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: D. Kamphausen. 1983. Stenotosaurus gracilis, ein neuer Capitosauride (Stegocephalia) aus den Unteren Röttonen Oberfrankens. Neues Jahrbuch für Geologie und Paläontologie, Monatshefte 1983(2):119-128
+    occurrenceEvidence:
+      - occurrenceId: occ:882294
+        collectionId: col:97846
+        acceptedTaxonId: txn:170673
+        identifiedName: Stenotosaurus gracilis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:33811
+        bibliography: D. Kamphausen. 1983. Stenotosaurus gracilis, ein neuer Capitosauride (Stegocephalia) aus den Unteren Röttonen Oberfrankens. Neues Jahrbuch für Geologie und Paläontologie, Monatshefte 1983(2):119-128
+        locality:
+          countryCode: DE
+          stateProvince: Bayern
+          county: Kronach
+        stratigraphy:
+          group: Upper Buntsandstein
+          formation: Röttone
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 244.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Stenotosaurus gracilis
+          zh: Stenotosaurus gracilis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-f4f999cd46
+            part: body
+          zh:
+            page: zh
+            section: s-f5526e3d0d
+            part: body
+        sourceIds: []

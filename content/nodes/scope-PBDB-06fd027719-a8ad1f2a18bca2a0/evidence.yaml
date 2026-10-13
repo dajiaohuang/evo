@@ -1,0 +1,275 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:157501
+    scientificName: Eritherium azzouzorum
+    commonName: Paleocene stem proboscidean
+    commonNameZh: 古新世长鼻类干群
+    rank: genus
+    parentName: Proboscidea
+    extinct: true
+    geography:
+      - Lower bone bed, phosphate bed IIa
+      - Sidi Chennane, Ouled Abdoun Basin
+      - Morocco
+    overview:
+      page: en
+      section: s-661390b2b0
+      part: body
+    overviewZh:
+      page: zh
+      section: s-47e4fef63b
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-ef16b004ed
+        part: body
+      habitat:
+        page: en
+        section: s-4a9a13bfa6
+        part: body
+      locomotion:
+        page: en
+        section: s-f3c809f0f2
+        part: body
+      bodySize:
+        page: en
+        section: s-0ddabfbf90
+        part: body
+      guild:
+        page: en
+        section: s-166dfef54b
+        part: body
+      dietZh:
+        page: zh
+        section: zh-ac86135c3099d3
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-df2c1b61704dba
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-e4eb1e8ba0fdd8
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-0b76768e4e2d16
+        part: body
+      guildZh:
+        page: zh
+        section: zh-3634dd25caa13b
+        part: body
+    traits:
+      - page: en
+        section: s-b9fce6dd21
+        part: body
+      - page: en
+        section: s-c814351d07
+        part: body
+      - page: en
+        section: s-48ce349c0f
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-15b1b52d76
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-a1f63514f0
+      part: body
+    confidence: medium
+    referenceIds:
+      - gheerbrant-2009-eritherium
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-661390b2b0
+            part: title
+          zh:
+            page: zh
+            section: s-47e4fef63b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-661390b2b0
+            part: body
+          zh:
+            page: zh
+            section: s-47e4fef63b
+            part: body
+        sourceIds:
+          - gheerbrant-2009-eritherium
+      - id: sample-anatomy
+        title:
+          en:
+            page: en
+            section: s-a8d2fdb263
+            part: title
+          zh:
+            page: zh
+            section: s-f8e8682446
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a8d2fdb263
+            part: body
+          zh:
+            page: zh
+            section: s-f8e8682446
+            part: body
+        sourceIds:
+          - gheerbrant-2009-eritherium
+      - id: dental-estimate
+        title:
+          en:
+            page: en
+            section: s-c097020c72
+            part: title
+          zh:
+            page: zh
+            section: s-c8e87a0c89
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c097020c72
+            part: body
+          zh:
+            page: zh
+            section: s-c8e87a0c89
+            part: body
+        sourceIds:
+          - gheerbrant-2009-eritherium
+    readerSources:
+      - id: gheerbrant-2009-eritherium
+        referenceId: gheerbrant-2009-eritherium
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Gheerbrant et al. (2009), pp. 10717?10721, Figures 1?3: MNHN PM69 and the referred hypodigm, locality and age, dental anatomy, the 3?8 kg allometric estimate and matrix placement."
+            zh: Gheerbrant ??2009??? 10717?10721 ??? 1?3?MNHN PM69 ???????????????????3?8 ??????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-1da00c20d6
+        part: body
+      zh:
+        page: zh
+        section: s-0683592c2e
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-b6859a18861f12
+        part: body
+      - page: zh
+        section: zh-8f303a23877d9b
+        part: body
+      - page: zh
+        section: zh-cfb678cfff1e6e
+        part: body
+  claims:
+    - subjectId: taxon:eritherium
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Eritherium azzouzorum is bounded by a 15-specimen hypodigm including holotype skull MNHN PM69 from the lower bone bed of Sidi Chennane, Morocco, within an approximately 60.5–59.2 Ma interval; this is not a global Proboscidea origin or direct ancestor range.
+      confidence: medium
+      confidenceRationale: The named hypodigm and early Thanetian context are direct. Stem-proboscidean placement and body mass are comparative estimates.
+      referenceLinks:
+        - relation: supports
+          referenceId: gheerbrant-2009-eritherium
+          pages: 10717–10721
+          figure: Figures 1–3
+          quoteLocator: Type material; Locality and Age; phylogenetic analysis
+    - subjectId: taxon:eritherium
+      claimKind: scientific
+      claimType: taxonomy
+      statement: MNHN PM69 and fourteen referred specimens define Eritherium azzouzorum; the source's stem-proboscidean placement is a character-matrix result, not a direct ancestry claim.
+      confidence: medium
+      confidenceRationale: The named hypodigm is directly described, whereas its higher placement depends on the published comparative character analysis.
+      referenceLinks:
+        - referenceId: gheerbrant-2009-eritherium
+          relation: supports
+          pages: 10717–10721
+          figure: Figures 1–3
+          quoteLocator: Systematic paleontology; MNHN PM69 holotype and 15-specimen hypodigm; phylogenetic analysis
+    - subjectId: taxon:eritherium
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profile is limited to the lower bone bed of phosphate bed IIa at Sidi Chennane in Morocco's Ouled Abdoun Basin; this locality does not establish the distribution or geographic origin of Proboscidea.
+      confidence: medium
+      confidenceRationale: The locality and stratum are reported for the named hypodigm, but one sampled basin cannot delimit a clade-wide distribution or origin.
+      referenceLinks:
+        - referenceId: gheerbrant-2009-eritherium
+          relation: supports
+          pages: 10717–10721
+          figure: Figures 1–2
+          quoteLocator: Locality and Age; Sidi Chennane lower bone bed, phosphate bed IIa, Ouled Abdoun Basin
+    - subjectId: taxon:eritherium
+      claimKind: scientific
+      claimType: ecology
+      statement: Cranial and dental anatomy permits comparative functional interpretation, but diet, habitual habitat, locomotion and behaviour are not directly observed in the 15-specimen hypodigm.
+      confidence: medium
+      confidenceRationale: The primary paper describes the teeth and skull while its body-mass and broader biological implications are comparative interpretations.
+      referenceLinks:
+        - referenceId: gheerbrant-2009-eritherium
+          relation: supports
+          pages: 10717–10721
+          figure: Figures 2–3
+          quoteLocator: Dental anatomy; estimated 3–8 kg body mass; discussion of primitive ungulate-grade morphology
+    - subjectId: taxon:eritherium
+      claimKind: scientific
+      claimType: morphology
+      statement: Holotype skull MNHN PM69 preserves a rostrum and maxillary dentition, while fourteen referred specimens extend the sampled upper and lower teeth and cranial anatomy.
+      confidence: high
+      confidenceRationale: The claim is limited to named, illustrated material in the primary description and does not generalize the sample into a whole-body reconstruction.
+      referenceLinks:
+        - referenceId: gheerbrant-2009-eritherium
+          relation: supports
+          pages: 10717–10721
+          figure: Figures 1–3
+          quoteLocator: MNHN PM69 holotype skull; referred dental and cranial material; diagnosis
+  claim-rationales.zh:
+    - 具名标本组合与早赞尼特期背景属于直接证据；干群长鼻类位置与体重是比较估计。
+    - 具名正模及归入标本直接支持种级样本；长鼻类干群位置来自已发表的性状矩阵，不能改写为直接祖先关系。
+    - Sidi Chennane 的下部骨层与磷酸盐 IIa 层直接限定该标本组合；单一盆地不能证明长鼻目的完整分布或起源中心。
+    - 颅骨和牙齿可用于谨慎的比较功能解释，但食性、栖息地、运动和行为没有被标本直接观察到。
+    - 正模头骨及十四件归入标本的牙齿和颅骨性状由原始描述和图版直接记录；主张不外推为完整身体复原。
+  claim-statements.zh:
+    - MNHN PM69 和十四件归入标本构成 Eritherium azzouzorum 的定义材料；来源研究将其定位于长鼻类干群，是性状矩阵的分析结果，而非直接祖先关系的断言。
+    - 本档案仅涉及摩洛哥 Ouled Abdoun 盆地 Sidi Chennane 的 IIa 磷酸盐层下部骨层；该地点不能确定长鼻目的分布或地理起源。
+    - 头骨和牙齿解剖结构可用于比较性的功能解释，但在这组用于界定该分类单元的 15 件标本中，未直接观察到食性、惯常生境、运动方式和行为。
+    - 正模头骨 MNHN PM69 保留吻部和上颌齿列，另外十四件归入标本补充了所采样的上下颌牙齿及头骨解剖信息。
+    - Eritherium azzouzorum 由包含正模头骨 MNHN PM69 的 15 件标本组合约束，来自摩洛哥 Sidi Chennane 下骨层，处于约 6050 万—5920 万年前区间；这不是长鼻目全球起源或直接祖先范围。
+  ranges:
+    - entityId: eritherium
+      rangeKind: global-composite
+      taxonomicConcept: Eritherium azzouzorum type occurrence
+      geographicScope: Lower bone bed, phosphate bed IIa, Sidi Chennane, Morocco
+      olderMa: 60.5
+      youngerMa: 59.2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level occurrence or model-bounded navigation interval, not a guaranteed global first appearance, direct origination date or ancestor range.
+      evidenceBasis: MNHN PM69 and the 15-specimen hypodigm come from the early Thanetian interval described by the study.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:eritherium-holotype-proboscidean
+        - claim:taxon:eritherium:fossil-range
+      referenceLocators:
+        - referenceId: gheerbrant-2009-eritherium
+          locator: 10717–10721; Figures 1–3; Locality and Age

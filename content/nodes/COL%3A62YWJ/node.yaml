@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensophryne
+  displayName: Mertensophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62YWJ
+  sourceIndexes:
+    - name:
+        en: Mertensophryne
+        zh: Mertensophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62YWJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/43
+            queryName: Mertensophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 19
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-585b48c2ee
+      - s-6c63d015f3
+      - s-81efda4e41
+      - s-950674afb4
+      - s-cfde83ac49
+      - s-b9db3b94ca
+      - s-f11e0ef549
+      - s-0a51f97829
+      - s-9321af4174
+      - s-61e5147a03
+      - s-bd5f036913
+      - s-8fd55135db
+    zh:
+      - s-187d61daa2
+      - s-817a89c42d
+      - s-36644f3fdc
+      - s-94ab6986de
+      - s-29b8a59004
+      - s-26d0b084c1
+      - s-6d199ab78a
+      - s-da7aa9abea
+      - s-1cf62944e4
+      - s-2fbfb346b3
+      - s-4efa139504
+      - s-8542fa5aab

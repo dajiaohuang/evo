@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus macrotympanum
+  displayName: Mantidactylus macrotympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QMCTD
+  sourceIndexes:
+    - name:
+        en: Mantidactylus macrotympanum
+        zh: Mantidactylus macrotympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QMCTD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/338
+            queryName: Mantidactylus macrotympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5eefb53c9
+      - s-5096c520dc
+      - s-ddaa56cc46
+      - s-9b97f31878
+      - s-d6922a3596
+      - s-cc66f7cade
+      - s-e6b0ea36fb
+      - s-ed0aa6c15d
+      - s-c3f53298ea
+      - s-7862e5dd0a
+      - s-53898c81d5
+    zh:
+      - s-b21d54cbeb
+      - s-fd9c991f50
+      - s-6ab1dc9e9e
+      - s-eb28b30696
+      - s-e7d05b15f1
+      - s-da0c33d6fd
+      - s-b0aec0fa62
+      - s-8de0975186
+      - s-b716d94708
+      - s-dedb9f91f0
+      - s-429fb2e30d

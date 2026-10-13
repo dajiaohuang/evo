@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chaltenobatrachus grandisonae
+  displayName: Chaltenobatrachus grandisonae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/THKK
+  sourceIndexes:
+    - name:
+        en: Chaltenobatrachus grandisonae
+        zh: Chaltenobatrachus grandisonae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: THKK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/220
+            queryName: Chaltenobatrachus grandisonae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/142
+            queryName: Atelognathus grandisonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/183
+            queryName: Telmatobius grandisonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9856158da1
+      - s-241293f529
+      - s-aaca665a41
+      - s-79d3786625
+      - s-bb6f14fc58
+      - s-2484560f2e
+      - s-e3215887d3
+      - s-fbcad4e378
+      - s-e7a7b10117
+      - s-2607d7aafc
+      - s-67a7cc468f
+      - s-87d11076e8
+      - s-77165417e8
+      - s-5dad5e4c20
+      - s-30648a74f1
+      - s-6a7554691f
+      - s-b99e4addab
+      - s-2126e49832
+      - s-e13fecf7a2
+    zh:
+      - s-3a373271d3
+      - s-fa6b1816d9
+      - s-6325b63238
+      - s-a69dd42f41
+      - s-f8086239cd
+      - s-9283c30f52
+      - s-db6b78a4dc
+      - s-e171be81a7
+      - s-2218f5f200
+      - s-8c47016963
+      - s-9b37185051
+      - s-391c3bcfbc
+      - s-53012346dc
+      - s-0ed3637585
+      - s-4fe9beaa9d
+      - s-5b27940d7f
+      - s-565bae444d
+      - s-b585df3100
+      - s-b0d2e02273

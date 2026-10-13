@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca ossilaginis
+  displayName: Gastrotheca ossilaginis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JY8G
+  sourceIndexes:
+    - name:
+        en: Gastrotheca ossilaginis
+        zh: Gastrotheca ossilaginis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JY8G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/59
+            queryName: Gastrotheca ossilaginis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-987efcd4f6
+      - s-153d490f9f
+      - s-03baff983d
+      - s-91a8b3984a
+      - s-7829c8b082
+      - s-dadd9e0ede
+      - s-d4699f5258
+      - s-f81a1d76cd
+      - s-2d08104600
+      - s-8a80f3ba92
+    zh:
+      - s-88469b4fd6
+      - s-cd48293952
+      - s-6c88813bd2
+      - s-3d630b4bf2
+      - s-d20acda30a
+      - s-bfa78ac78b
+      - s-cacf28de40
+      - s-ff50fe7ad4
+      - s-6f8d51ec78
+      - s-dc2cc9f899

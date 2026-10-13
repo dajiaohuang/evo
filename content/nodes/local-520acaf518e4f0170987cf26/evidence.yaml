@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Eleutherodactylus manantlanensis
+    name:
+      en: Eleutherodactylus manantlanensis
+      zh: Eleutherodactylus manantlanensis
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Eleutherodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Eleutherodactylus manantlanensis in the version 3 classification
+          zh: Eleutherodactylus manantlanensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a5e6b62523
+            part: body
+          zh:
+            page: zh
+            section: s-f48851d6e1
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 16 populated trait fields
+          zh: 1 条测量行与 16 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3da9ef0d10
+            part: body
+          zh:
+            page: zh
+            section: s-109ecfd8c0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1734; Reference.csv rows 2040
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1734
+        values:
+          - Brachycephaloidea
+          - Eleutherodactylus
+          - Eleutherodactylus manantlanensis
+          - M
+          - "26.57642857"
+          - "8.644285714"
+          - "7.812142857"
+          - "2.672142857"
+          - "0.716"
+          - "0.974"
+          - "5.143571429"
+          - "2.420714286"
+          - "1.728571429"
+          - "2.654285714"
+          - NA
+          - NA
+          - "6.489285714"
+          - "7.600714286"
+          - NA
+          - NA
+          - NA
+          - "12.15642857"
+          - "11.75928571"
+          - NA
+          - NA
+          - "1.097857143"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.988571429"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2040
+        values:
+          - Anura
+          - Eleutherodactylus_manantlanensis
+          - "Grünwald, C., Reyes-Velasco, J., Franz-Chávez, H., Morales-Flores, K., Ahumada-Carrillo, I., Jones, J., & Boissinot, S. (2018). Six new species of Eleutherodactylus (Anura: Eleutherodactylidae: subgenus Syrrhophus) from Mexico, with a discussion of their systematic relationships and the validity of related species. Mesoamerican herpetology, 5(1), 6-83."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - FLL
+      - TL
+      - THL
+      - IMT
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

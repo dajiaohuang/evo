@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cyclotosaurus buechneri
+    rank: species
+    sourceTaxonId: txn:367485
+    name:
+      en: Cyclotosaurus buechneri
+      zh: Cyclotosaurus buechneri
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-822f4292b7
+            part: body
+          zh:
+            page: zh
+            section: s-3f083bb32c
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-64d6b5eae9
+            part: body
+          zh:
+            page: zh
+            section: s-2285eaa601
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-a09dcc376e
+            part: body
+          zh:
+            page: zh
+            section: s-abda71fa06
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:367485; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: F. Witzmann, S. Sachs, and C. J. Nyhuis. 2016. A new species of Cyclotosaurus (Stereospondyli, Capitosauria) from the Late Triassic of Bielefeld, NW Germany, and the intrarelationships of the genus. Fossil Record 19:83-100
+    occurrenceEvidence:
+      - occurrenceId: occ:1396074
+        collectionId: col:192319
+        acceptedTaxonId: txn:367485
+        identifiedName: Cyclotosaurus buechneri n. sp.
+        taxonomicDifference: null
+        referenceId: ref:65069
+        bibliography: F. Witzmann, S. Sachs, and C. J. Nyhuis. 2016. A new species of Cyclotosaurus (Stereospondyli, Capitosauria) from the Late Triassic of Bielefeld, NW Germany, and the intrarelationships of the genus. Fossil Record 19:83-100
+        locality:
+          countryCode: DE
+          stateProvince: North Rhine-Westphalia
+          county: Sieker,
+        stratigraphy:
+          group: null
+          formation: Stuttgart
+          member: null
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+      - occurrenceId: occ:2041646
+        collectionId: col:275897
+        acceptedTaxonId: txn:367485
+        taxonomicDifference: null
+        referenceId: ref:93452
+        bibliography: R. R. Schoch, F. Witzmann, and I. Werneburg, R. Werneburg, E. Mujal, R. Moreno. 2025. The morphology and evolutionary history of the temnospondyl genus Cyclotosaurus with a focus on material from Germany. PalZ 99(3):319-337
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: null
+        stratigraphy:
+          group: null
+          formation: "Stuttgart (reg.: Schilfsandstein)"
+          member: null
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a09dcc376e
+            part: body
+          zh:
+            page: zh
+            section: s-abda71fa06
+            part: body
+        sourceIds: []

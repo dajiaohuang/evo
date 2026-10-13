@@ -1,0 +1,6 @@
+## Four-part flowers and a coiled anther appendage {#s-25a34e7976}
+The Brazilian Flora 2020 v393.147 field describes papery elliptic or obovate leaves, with an acute base and tips recorded as acute, tapering, blunt, rounded or notched. Margins are entire or scalloped; domatia—small structures on the leaf—are absent. Veins begin at or above the base, and the leaves have fine, scurfy-looking glandular hairs. Flower clusters bear few flowers. Each flower is four-part, with a four-sided stalk and an angled flower cup. The elongated sepals are narrow-triangular or nearly cylindrical, with rounded tips; the field lists seven or eight vascular strands in each sepal. Petals are white, stamens unequal, and the anther sacs wavy. The appendage on the tissue joining those sacs is coiled, and the stigma is dotted. The fruit surface is angular. The habitat field says “terrícola,” or terrestrial. The listed alternatives are source descriptions, not a quantified variation study.
+
+## A terrestrial label alongside floral detail {#s-f7998192be}
+The habitat field labels the record “terrícola,” meaning terrestrial. It supplies no locality, survey date or range coverage and does not specify wild, cultivated, managed or fossil material. This category sits beside a detailed floral record but does not extend it into a complete ecological account.
+

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aromobates ornatissimus
+  displayName: Aromobates ornatissimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5W54R
+  sourceIndexes:
+    - name:
+        en: Aromobates ornatissimus
+        zh: Aromobates ornatissimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5W54R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/126
+            queryName: Aromobates ornatissimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21dd5ec33a
+      - s-ebced0d2c8
+      - s-ef134c208a
+      - s-39b38b425c
+      - s-ed0f53401a
+      - s-e0ba580e48
+      - s-9dcddfa891
+      - s-b9a88aa97f
+    zh:
+      - s-6a1ca1fca5
+      - s-5671002a9a
+      - s-17179601d4
+      - s-1e895eb675
+      - s-39ecb16b03
+      - s-eabe60242f
+      - s-6d2ec48ea2
+      - s-2d9e32bff1

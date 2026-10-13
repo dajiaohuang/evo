@@ -1,0 +1,482 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Phasmahyla timbo
+    name:
+      en: Phasmahyla timbo
+      zh: Phasmahyla timbo
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-48538ed803
+            part: body
+          zh:
+            page: zh
+            section: s-bfd16d125a
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-3197ac8669
+            part: body
+          zh:
+            page: zh
+            section: s-e557ed846c
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-3a9d32e7b5
+            part: body
+          zh:
+            page: zh
+            section: s-cda4aa6435
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4dd471cef8
+            part: body
+          zh:
+            page: zh
+            section: s-1f720abe66
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2316, 2317; Picture measurement data rows 1228; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hylidae
+      genus: Phasmahyla
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 2316
+        values:
+          - "Cruz, C., Napoli, M., & Fonseca, P. (2009). A New Species of Phasmahyla Cruz, 1990 (Anura: Hylidae) from the State of Bahia, Brazil. South American Journal of Herpetology, 3, 187-195."
+          - Phasmahyla timbo
+          - Hylidae
+          - Phasmahyla
+          - Phasmahyla timbo
+          - 1
+          - 37
+          - 39
+          - null
+          - 14
+          - null
+          - 8.7
+          - null
+          - 8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 25
+          - null
+          - 10.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.6
+          - null
+          - null
+          - null
+          - 1.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5
+          - null
+          - null
+          - null
+          - 2.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.1
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.2
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 2317
+        values:
+          - Pereira, E., Rocha, L., Folly, H., da Silva, H., & Santana, D. (2018). A new species of spotted leaf frog, genus Phasmahyla (Amphibia, Phyllomedusidae) from Southeast Brazil. PeerJ, 1-22.
+          - Phasmahyla timbo
+          - Hylidae
+          - Phasmahyla
+          - Phasmahyla timbo
+          - 1
+          - 37
+          - 39
+          - null
+          - 14
+          - null
+          - 8.7
+          - null
+          - 8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 25
+          - null
+          - 10.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5.6
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.2
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 1228
+        values:
+          - "Cruz, C., Napoli, M., & Fonseca, P. (2009). A New Species of Phasmahyla Cruz, 1990 (Anura: Hylidae) from the State of Bahia, Brazil. South American Journal of Herpetology, 3, 187-195."
+          - Measurement
+          - Hand-drawn picture
+          - Phasmahyla timbo
+          - Hylidae
+          - Phasmahyla
+          - Phasmahyla timbo
+          - 37
+          - 38.184
+          - 13.506
+          - 24.935
+          - 7.922
+          - 10.261
+          - 4.935
+          - 2.468
+          - 3.896
+          - null
+          - null
+          - 6.953
+          - 0.35378359522313
+          - 0.6532228254766
+          - 0.27469973981
+          - 0.2687251246937
+          - 0.12924261477731
+          - 0.6463441843742
+          - 0.1232264822963
+          - null
+          - null
+          - 0.18291975696627
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1228
+        scientificName: Phasmahyla timbo
+        sourceField: BMH/TL
+        suppliedRatio: 0.27469973981
+        originalNumerator: 7.922
+        originalTotalLength: 38.184
+        computedRatio: 0.20746909700398072
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1228
+        scientificName: Phasmahyla timbo
+        sourceField: DFH/TL
+        suppliedRatio: 0.6463441843742
+        originalNumerator: 2.468
+        originalTotalLength: 38.184
+        computedRatio: 0.06463440184370417
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1228
+        scientificName: Phasmahyla timbo
+        sourceField: VFH/TL
+        suppliedRatio: 0.1232264822963
+        originalNumerator: 3.896
+        originalTotalLength: 38.184
+        computedRatio: 0.1020322648229625
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.35378359522313
+        row: 1228
+        stage: 37
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.6532228254766
+        row: 1228
+        stage: 37
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.2687251246937
+        row: 1228
+        stage: 37
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.12924261477731
+        row: 1228
+        stage: 37
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: OD/TL
+        label:
+          en: oral disc width / total length
+          zh: 口盘宽度/全长
+        value: 0.18291975696627
+        row: 1228
+        stage: 37
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

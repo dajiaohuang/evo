@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa nussbaumi
+  displayName: Bolitoglossa nussbaumi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDR3
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa nussbaumi
+        zh: Bolitoglossa nussbaumi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDR3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/162
+            queryName: Bolitoglossa nussbaumi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b81198d9a
+      - s-b16e1555d8
+      - s-37c3a2e1b7
+      - s-b5c53844d3
+      - s-a75615fe2c
+      - s-552649fbca
+    zh:
+      - s-eb7e438cf6
+      - s-c10859320e
+      - s-0b2560c514
+      - s-7cd9b33d97
+      - s-845a2ba844
+      - s-b14b858bb3

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis romeroae
+  displayName: Pristimantis romeroae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCGVJ
+  sourceIndexes:
+    - name:
+        en: Pristimantis romeroae
+        zh: Pristimantis romeroae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCGVJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/56
+            queryName: Pristimantis romeroae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8b6d2d2dd1
+      - s-802ad95d95
+      - s-509272d25d
+      - s-f5581c098e
+      - s-c980daf29d
+      - s-444b698e3f
+      - s-2407f02769
+      - s-a9a9beafcd
+    zh:
+      - s-ec030b94e0
+      - s-a8363dfdf7
+      - s-af44a54091
+      - s-c79d82fc0d
+      - s-3802ad98ee
+      - s-8cd42fe359
+      - s-b91e9a5648
+      - s-bd43ce74b4

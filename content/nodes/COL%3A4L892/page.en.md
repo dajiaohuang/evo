@@ -1,0 +1,3 @@
+## Annual or perennial herbs with a narrowly winged capsule {#s-e2b169605f}
+One morphology account describes annual or perennial herbs with subwhite or white-green flowers. It records subelliptic wings up to 5.5 mm wide, a small crest up to 2.5 mm, and a narrowly winged capsule with a wing up to 0.5 mm wide. A separate Spanish diagnostic note describes the flowers as subcylindrical and fleshy and says the unpaired lobe of the caruncle is exceptionally long, reaching the seed base. Its recorded word “crasiusculas” for the herb form is unclear. The habitat entry names rocky slopes and the Lower Karoo and Dry Highveld Grassland; these fields do not map the full range.
+

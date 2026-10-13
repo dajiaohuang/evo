@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Uperoleia saxatilis
+    name:
+      en: Uperoleia saxatilis
+      zh: Uperoleia saxatilis
+    sourceClassification:
+      order: Anura
+      family: Myobatrachoidea
+      genus: Uperoleia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-db4b1d3020
+            part: body
+          zh:
+            page: zh
+            section: s-ed4513c437
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0f807d5b4f
+            part: body
+          zh:
+            page: zh
+            section: s-0f28fcf788
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5997, 5998; Reference.csv rows 3396
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5997
+        values:
+          - Myobatrachoidea
+          - Uperoleia
+          - Uperoleia saxatilis
+          - F
+          - NA
+          - NA
+          - NA
+          - "3.1"
+          - NA
+          - NA
+          - "5.1"
+          - "1.8"
+          - NA
+          - "2.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.2"
+          - NA
+          - NA
+          - "10.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.9"
+      - rowNumber: 5998
+        values:
+          - Myobatrachoidea
+          - Uperoleia
+          - Uperoleia saxatilis
+          - M
+          - NA
+          - NA
+          - NA
+          - "2.9"
+          - NA
+          - NA
+          - "4.7"
+          - "1.7"
+          - NA
+          - "2.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.7"
+          - NA
+          - NA
+          - "10.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "28.2"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3396
+        values:
+          - Anura
+          - Uperoleia_saxatilis
+          - "Catullo, R., Doughty, P., Roberts, D., & Keogh, J. (2011). Multi-locus phylogeny and taxonomic revision of Uperoleia toadlets (Anura: Myobatrachidae) from the western arid zone of Australia, with a description of a new species. Zootaxa, 2902, 1-43. https://doi.org/10.11646/zootaxa.2902.1.1"
+    availableTraitCodes:
+      - ED
+      - IOD
+      - IND
+      - EN
+      - LAL
+      - TL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

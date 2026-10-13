@@ -1,0 +1,3 @@
+## ## Paired leaflets on a winged rachis {#s-0710c7ea81}
+The Brazilian Flora 2020 entry records paripinnate leaves with a winged rachis and five to 30 pairs of leaflets; stipules are shed or absent. The leaflets are oblong to linear-oblong, with asymmetric bases ranging from blunt to cordate and tips ranging from notched to shallowly notched. The source notes no punctures on the lower leaflet surface. Racemes have a hairy rachis. The flowers are recorded with five free sepals, clawed obovate petals, three stamens with hairy filaments and a hairy ovary; the hypanthium may be hairless, hairy or becoming hairless. The fruit is a legume and the seed is round. The habitat field says “terrestrial” but does not give a locality or a more specific habitat.
+

@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus floresvillelai
+  displayName: Eleutherodactylus floresvillelai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3999V
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus floresvillelai
+        zh: Eleutherodactylus floresvillelai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3999V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/204
+            queryName: Eleutherodactylus floresvillelai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ecec4ef4f5
+      - s-b832153c23
+      - s-f3b883ab45
+      - s-da3773f40d
+      - s-2dd7d5a7f3
+    zh:
+      - s-7f0081f91a
+      - s-aff00218c6
+      - s-b7d0c08c9b
+      - s-583c0c27d2
+      - s-2cd9086527

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemisus perreti
+  displayName: Hemisus perreti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KT45
+  sourceIndexes:
+    - name:
+        en: Hemisus perreti
+        zh: Hemisus perreti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KT45
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/278
+            queryName: Hemisus perreti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-542f112e28
+      - s-091ec92112
+      - s-14c7047237
+      - s-95e1b3ede1
+      - s-e4c107f53c
+      - s-ad4ded68ca
+      - s-28084d1387
+      - s-a823cd89ad
+      - s-45f1f373f1
+      - s-7e4c45bd01
+      - s-985b4f75bd
+      - s-248a455df5
+      - s-6fbe6bd0b2
+      - s-e75883c673
+      - s-e81de227d6
+      - s-64ad162f0d
+      - s-4833a18ca6
+    zh:
+      - s-c7756c49c7
+      - s-8b5c205e8c
+      - s-1bf0780cba
+      - s-9241a2e1a9
+      - s-aa653f3484
+      - s-bb1c6c662d
+      - s-dd93a3fa13
+      - s-43367747bf
+      - s-4195527146
+      - s-85cd59fb7b
+      - s-6f2da92ebe
+      - s-fdc9b3b727
+      - s-40f8322112
+      - s-1b5f57df4f
+      - s-daff23277d
+      - s-cdade65237
+      - s-e51ad85840

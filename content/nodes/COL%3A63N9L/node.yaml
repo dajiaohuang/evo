@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates
+  displayName: Polypedates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63N9L
+  sourceIndexes:
+    - name:
+        en: Polypedates
+        zh: Polypedates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63N9L
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/185
+            queryName: Polypedates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 850
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5827e4958f
+      - s-dadf5e63dd
+      - s-cb1a7bf73e
+      - s-9b090e1846
+      - s-4849c2aa51
+      - s-cf4261fd0e
+      - s-73bafb8b19
+      - s-47a4fee13b
+      - s-91b3c81068
+      - s-bee08d9ee6
+      - s-3039142ab3
+      - s-37d961001b
+      - s-ed859ff937
+      - s-51e2accdc1
+      - s-9277c0531c
+      - s-5c74e41948
+      - s-e6bbfc7ea2
+    zh:
+      - s-78c7a0e276
+      - s-936469a69a
+      - s-6fae7ce916
+      - s-473a388253
+      - s-0698c7201d
+      - s-3ac1e1d2d6
+      - s-35de363387
+      - s-c438ee73b2
+      - s-89f890e037
+      - s-4e6d381549
+      - s-afeb9eaeb6
+      - s-c7e53adc7c
+      - s-b410016eee
+      - s-8fd97c2e70
+      - s-f6065fe4d8
+      - s-099dcdbcde
+      - s-61f3406089

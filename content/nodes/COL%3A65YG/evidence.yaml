@@ -1,0 +1,398 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nyctanolis Elias & Wake, 1983
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Nyctanolis
+      zh: Nyctanolis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-54cb6e016d
+            part: title
+          zh:
+            page: zh
+            section: s-c3a211c3d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-54cb6e016d
+            part: body
+          zh:
+            page: zh
+            section: s-c3a211c3d3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3486e84916
+            part: title
+          zh:
+            page: zh
+            section: s-8b86fc61f5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3486e84916
+            part: body
+          zh:
+            page: zh
+            section: s-8b86fc61f5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-53b2bf4a8a
+            part: title
+          zh:
+            page: zh
+            section: s-3871a63424
+            part: title
+        text:
+          en:
+            page: en
+            section: s-53b2bf4a8a
+            part: body
+          zh:
+            page: zh
+            section: s-3871a63424
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-87110121ca
+            part: title
+          zh:
+            page: zh
+            section: s-6edd73dfc5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-87110121ca
+            part: body
+          zh:
+            page: zh
+            section: s-6edd73dfc5
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b3088a0912
+            part: title
+          zh:
+            page: zh
+            section: s-fe9edd6986
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 484XJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A484XJ
+            label:
+              en: Nyctanolis pernix
+              zh: Nyctanolis pernix
+        text:
+          en:
+            page: en
+            section: s-b3088a0912
+            part: body
+          zh:
+            page: zh
+            section: s-fe9edd6986
+            part: body
+      - topic: occurrence
+        sourceIds:
+          - primary-direct-group-pmc12135470-65yg
+        title:
+          en:
+            page: en
+            section: s-f4b118864b
+            part: title
+          zh:
+            page: zh
+            section: s-26496a393d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f4b118864b
+            part: body
+          zh:
+            page: zh
+            section: s-26496a393d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc12135470-65yg
+        title:
+          en:
+            page: en
+            section: s-8ad5296908
+            part: title
+          zh:
+            page: zh
+            section: s-973eef02c8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8ad5296908
+            part: body
+          zh:
+            page: zh
+            section: s-973eef02c8
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc12135470-65yg
+        title:
+          en:
+            page: en
+            section: s-186b0d8a2e
+            part: title
+          zh:
+            page: zh
+            section: s-8bc4f237c9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-186b0d8a2e
+            part: body
+          zh:
+            page: zh
+            section: s-8bc4f237c9
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc12135470-65yg
+        title:
+          en:
+            page: en
+            section: s-7a645ea386
+            part: title
+          zh:
+            page: zh
+            section: s-278aa82df6
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 484XJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A484XJ
+            label:
+              en: Nyctanolis pernix
+              zh: Nyctanolis pernix
+        text:
+          en:
+            page: en
+            section: s-7a645ea386
+            part: body
+          zh:
+            page: zh
+            section: s-278aa82df6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nyctanolis
+          url: https://www.checklistbank.org/dataset/316115/taxon/65YG
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Nyctanolis; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc12135470-65yg
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Aquiloeurycea galeanae: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+            zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d77959df04
+        part: body
+      zh:
+        page: zh
+        section: s-325e98f93b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Nyctanolis
+      sourceRowIds:
+        - Anf6248
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1186/s42523-025-00423-x
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        sourceKey: primary-direct-group-pmc12135470-65yg
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12135470/article.xml
+        sourceConcept: Selected morphology-identified Mexican2017–2018 hosts; no complete-genus microbiome synthesis
+        evidenceRead: "Aquiloeurycea galeanae: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Follow named sampled hosts and dated localities
+              zh: 沿已命名取样宿主及有日期地点阅读
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-direct-group-pmc12135470-65yg
+            locator: PMC12135470 XML Sec3 sampling; Sec7 Results/Figure1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d8ab3d72db
+                part: body
+              zh:
+                page: zh
+                section: s-bdcaeb5927
+                part: body
+            scope:
+              en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+              zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Detected Bd, bacterial diversity and protection are different evidence
+              zh: Bd 检出、细菌多样性及保护是不同证据
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-direct-group-pmc12135470-65yg
+            locator: PMC12135470 XML Sec4 reduceddataset; Sec6 Bd units; Sec8/Sec10 Results; Sec12/Sec14 Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b87c718b24
+                part: body
+              zh:
+                page: zh
+                section: s-7830ca6001
+                part: body
+            scope:
+              en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+              zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Inferred function and network edges need experimental confirmation
+              zh: 推断功能及网络边仍需实验确认
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-direct-group-pmc12135470-65yg
+            locator: PMC12135470 XML Sec3–Sec5; Sec9 Results; Sec13 Discussion; Sec15 Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c026f0b98b
+                part: body
+              zh:
+                page: zh
+                section: s-fb093a2c25
+                part: body
+            scope:
+              en: 1 selected named study species; unnamed Aquiloeurycea sp. remains unassigned.
+              zh: 所选 1 个已命名研究种；未命名 Aquiloeurycea sp. 保持未分配。
+    primaryResearchGroupSynthesisComplete: false

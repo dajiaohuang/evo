@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-e6a7cd3cd3}
+This record shows how TadpoleTraits files tadpoles under Kurixalus baliogaster. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Kurixalus baliogaster in Kurixalus and Rhacophoridae. In the literature table, rows 4863, 4864, 4865, 4866 list Kurixalus baliogaster in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-2a2bed9257}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 4 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 35-39 (row 4863); 36 (row 4864); 37 (row 4865); 41 (row 4866). Sample size is entered by row (row 4864: n=3; row 4865: n=3; row 4866: n=3); 1 other Sample size cells are blank, not zero. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

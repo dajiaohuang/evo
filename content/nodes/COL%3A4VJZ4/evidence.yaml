@@ -1,0 +1,779 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Scinax similis (Cochran, 1952)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Scinax similis
+      zh: Scinax similis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4e91934b42
+            part: title
+          zh:
+            page: zh
+            section: s-1155f03b07
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4e91934b42
+            part: body
+          zh:
+            page: zh
+            section: s-1155f03b07
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8b0f298fd8
+            part: title
+          zh:
+            page: zh
+            section: s-daab81c17e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8b0f298fd8
+            part: body
+          zh:
+            page: zh
+            section: s-daab81c17e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5a3f9642eb
+            part: title
+          zh:
+            page: zh
+            section: s-8b0c038633
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-5a3f9642eb
+            part: body
+          zh:
+            page: zh
+            section: s-8b0c038633
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d7f4fe30c1
+            part: title
+          zh:
+            page: zh
+            section: s-45f46d0d24
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-d7f4fe30c1
+            part: body
+          zh:
+            page: zh
+            section: s-45f46d0d24
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-0f58b44545
+            part: title
+          zh:
+            page: zh
+            section: s-14836c257f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-0f58b44545
+            part: body
+          zh:
+            page: zh
+            section: s-14836c257f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-951d35c641
+            part: title
+          zh:
+            page: zh
+            section: s-71949eba4b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-951d35c641
+            part: body
+          zh:
+            page: zh
+            section: s-71949eba4b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ec304f3717
+            part: title
+          zh:
+            page: zh
+            section: s-6039ebf643
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-ec304f3717
+            part: body
+          zh:
+            page: zh
+            section: s-6039ebf643
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-1bbad4626a084ee8237d25e6faf76fbe
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-4124d8c0956259e68ff0c23a
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0dd02076d7
+            part: title
+          zh:
+            page: zh
+            section: s-0b8ce4c64a
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0dd02076d7
+            part: body
+          zh:
+            page: zh
+            section: s-0b8ce4c64a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bce4091564
+            part: title
+          zh:
+            page: zh
+            section: s-df2942cfec
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-bce4091564
+            part: body
+          zh:
+            page: zh
+            section: s-df2942cfec
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-73849742d1
+            part: title
+          zh:
+            page: zh
+            section: s-9c46c7dc68
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4vjz4
+        text:
+          en:
+            page: en
+            section: s-73849742d1
+            part: body
+          zh:
+            page: zh
+            section: s-9c46c7dc68
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-18d7f0502e
+            part: title
+          zh:
+            page: zh
+            section: s-f2f740cb5b
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4vjz4
+        text:
+          en:
+            page: en
+            section: s-18d7f0502e
+            part: body
+          zh:
+            page: zh
+            section: s-f2f740cb5b
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ae68a7d1bd
+            part: title
+          zh:
+            page: zh
+            section: s-4f9a983456
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4vjz4
+        text:
+          en:
+            page: en
+            section: s-ae68a7d1bd
+            part: body
+          zh:
+            page: zh
+            section: s-4f9a983456
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-b5e7e39a91
+            part: title
+          zh:
+            page: zh
+            section: s-e32d9d80f4
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4vjz4
+        text:
+          en:
+            page: en
+            section: s-b5e7e39a91
+            part: body
+          zh:
+            page: zh
+            section: s-e32d9d80f4
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-14c03f5066
+            part: title
+          zh:
+            page: zh
+            section: s-1c2c36f6ea
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4vjz4
+        text:
+          en:
+            page: en
+            section: s-14c03f5066
+            part: body
+          zh:
+            page: zh
+            section: s-1c2c36f6ea
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6215d7e4cc
+            part: title
+          zh:
+            page: zh
+            section: s-d2645d9be6
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4vjz4
+        text:
+          en:
+            page: en
+            section: s-6215d7e4cc
+            part: body
+          zh:
+            page: zh
+            section: s-d2645d9be6
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-78e63ff92d
+            part: title
+          zh:
+            page: zh
+            section: s-aa21e33132
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4vjz4
+        text:
+          en:
+            page: en
+            section: s-78e63ff92d
+            part: body
+          zh:
+            page: zh
+            section: s-aa21e33132
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-642bc85ed0
+            part: title
+          zh:
+            page: zh
+            section: s-add1345cba
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4vjz4
+        text:
+          en:
+            page: en
+            section: s-642bc85ed0
+            part: body
+          zh:
+            page: zh
+            section: s-add1345cba
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Scinax similis
+          url: https://www.checklistbank.org/dataset/316115/taxon/4VJZ4
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2694; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2694 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2513; Picture measurement data rows 1730; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-4vjz4
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Scinax similis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12654886-4vjz4
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Scinax similis: Scinax similis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-53f01624cb
+        part: body
+      zh:
+        page: zh
+        section: s-3077cd0660
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-1bbad4626a084ee8237d25e6faf76fbe
+      sourceRowId: Anf2694
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2694
+        bibliographyRowId: Anf2694
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Scinax similis
+        candidateBibliographyRowIds:
+          - Anf2694
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-4124d8c0956259e68ff0c23a
+        scientificName: Scinax similis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-4vjz4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Scinax_similis, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Scinax similis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4vjz4
+            locator: PMC10688756 S3 File Traits row 436 Scinax_similis; XML Functional diversity; upstream reference numbers 1, 2, 3, 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2427aad9e3
+                part: body
+              zh:
+                page: zh
+                section: s-534725af94
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4vjz4
+            locator: PMC10688756 S3 File Traits row 436 Scinax_similis habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a96980c4be
+                part: body
+              zh:
+                page: zh
+                section: s-2c3dca9311
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4vjz4
+            locator: PMC10688756 S3 File Traits row 436 Scinax_similis length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-59b129d80e
+                part: body
+              zh:
+                page: zh
+                section: s-e4ad2ad45a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-4vjz4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Regional source-labelled Scinax similis molecular-marker/specimen records plus priorinventory/treatment, no voucher/modernconcept certification
+        evidenceRead: "Scinax similis: Scinax similis: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4vjz4
+            locator: PMC12654886 S3_Table.pdf page2 speciesrow15 Scinax similis fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e8a340b93a
+                part: body
+              zh:
+                page: zh
+                section: s-7187af52d5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4vjz4
+            locator: PMC12654886 S3_Table.pdf page2 speciesrow15 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7accf8a4b5
+                part: body
+              zh:
+                page: zh
+                section: s-c90d3a978c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4vjz4
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5e7d125490
+                part: body
+              zh:
+                page: zh
+                section: s-e464450d76
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Specimen-linked marker availability in the regional workbook
+              zh: 区域工作簿逐标本标记可用性
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4vjz4
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384 B:I; headersB4:I4; XML sec007/sec033; S3_Table.pdf exactinventoryname
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b28f6343f9
+                part: body
+              zh:
+                page: zh
+                section: s-f8a4cad9ff
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Marker partitions and correlation labels retain their scope
+              zh: 标记分区及相关标签保留范围
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4vjz4
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows369,370,371,372,373,374,375,376,377,378,379,380,381,382,383,384 E:I; XML sec007 ASAPmethods andsec033 markercomparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4476cb5c2c
+                part: body
+              zh:
+                page: zh
+                section: s-afb65fc210
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

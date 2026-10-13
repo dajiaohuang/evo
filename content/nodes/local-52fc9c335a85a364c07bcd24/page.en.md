@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-5254c1271a}
+The version 3 Amphibian database lists Indirana beddomii in a source measurement table. Its classification fields read order = Anura, family = Ranixalidae, genus = Indirana; the linked citation is in Reference.csv row 539. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-07dddb55dc}
+Anura.csv rows 2356, 2357 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include HL: row 2356 (M) = 10.83333333, row 2357 (F) = 13.95; HW: row 2356 (M) = 9.533333333, row 2357 (F) = 12.14166667; ED: row 2356 (M) = 3.733333333, row 2357 (F) = 4; other populated codes are TD, IOD, IND, UEW, EN, SL, NS, HAL, FLL, FL, TFL, TL, … (27 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

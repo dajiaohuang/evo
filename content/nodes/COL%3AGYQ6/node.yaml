@@ -1,0 +1,51 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis bioko
+  displayName: Arthroleptis bioko
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYQ6
+  sourceIndexes:
+    - name:
+        en: Arthroleptis bioko
+        zh: Arthroleptis bioko
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYQ6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/151
+            queryName: Arthroleptis bioko
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c451cea003
+      - s-d4e830cb2f
+      - s-17b6e27ce2
+      - s-ea68c3e574
+      - s-1d08b2bcc0
+      - s-f33019915e
+    zh:
+      - s-1921ae1614
+      - s-bef8c1a1dd
+      - s-51b7112d63
+      - s-1f6b04aef9
+      - s-a51fe6d9fc

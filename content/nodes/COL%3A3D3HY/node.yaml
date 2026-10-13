@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea waterlooensis
+  displayName: Eurycea waterlooensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HY
+  sourceIndexes:
+    - name:
+        en: Eurycea waterlooensis
+        zh: Eurycea waterlooensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/440
+            queryName: Eurycea waterlooensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6eb1ba8206
+      - s-db3a34fcf6
+      - s-48db2fa2dc
+      - s-0da47fbf21
+      - s-cd092460c4
+      - s-c9f16eba2e
+      - s-1d0636f671
+      - s-5602f8da76
+      - s-43323648a6
+      - s-8e8a39fb96
+      - s-a4c484a80e
+      - s-a4d1e19b31
+    zh:
+      - s-a4b3b98eca
+      - s-5d83147fed
+      - s-06f0f63b3a
+      - s-01380cc5bc
+      - s-465956e2cc
+      - s-d746d25bf7
+      - s-91b5bd5efb
+      - s-97bf6d22b9
+      - s-5ac5f9a2e9
+      - s-be24667e0a
+      - s-60116b3a9f
+      - s-18e94d6560

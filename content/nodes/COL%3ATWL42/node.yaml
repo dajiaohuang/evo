@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Zhangixalus melanoleucus
+  displayName: Zhangixalus melanoleucus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TWL42
+  sourceIndexes:
+    - name:
+        en: Zhangixalus melanoleucus
+        zh: Zhangixalus melanoleucus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TWL42
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/400
+            queryName: Zhangixalus melanoleucus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6758fc1922
+      - s-ab9f524520
+      - s-837fbd665e
+      - s-0913344df6
+      - s-659c6d8016
+      - s-80e2393492
+      - s-f3ced7b7be
+      - s-ed413d0f39
+      - s-536771f06d
+      - s-813ef51db8
+      - s-eeea8351e6
+      - s-494aaab268
+      - s-89930fd88a
+      - s-c5f6d41feb
+      - s-cc1a18729f
+      - s-57ebd55261
+      - s-9fb95acee0
+      - s-139c7d28c4
+      - s-523fef5a96
+    zh:
+      - s-56e92cf684
+      - s-f3b45a60a4
+      - s-8e254af40b
+      - s-1c7ed01364
+      - s-17ce5ac141
+      - s-8b0faf1f16
+      - s-15389f135e
+      - s-43d8a12f3e
+      - s-6f08e26f97
+      - s-fa6c47c8ff
+      - s-f7c7e3777a
+      - s-8608d18227
+      - s-18324f39ab
+      - s-2133fce47f
+      - s-ed21a5b5cd
+      - s-dd9c044b55
+      - s-ef250403f9
+      - s-ecb00082d9
+      - s-d4b11dae69

@@ -1,0 +1,143 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pachycarpus appendiculatus E.Mey.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4BQ8S, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4BQ8S; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-50fd18effb
+            part: title
+          zh:
+            page: zh
+            section: s-f91682124f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-50fd18effb
+            part: body
+          zh:
+            page: zh
+            section: s-f91682124f
+            part: body
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4BQ8S
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4BQ8S
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001102309-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4BQ8S / WFO wfo-0001102309
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 2
+        usage:
+          locator: Pachycarpus appendiculatus E.Mey. account; archive rows 2920 (Morphology), 13898 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_2976_0
+        referenceId: ref-ab8f9238-cbdb-8e61-af55-e1143d24db30
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pachycarpus appendiculatus E.Mey. account; archive rows 74993 (Diagnostic), source identifier 2976.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial herb, 220-500 mm tall. Leaf margins flat. Corolla lobes reflexed, spreading. Corona lobes with a pair of prominent keels at base, always as broad as or broader than high, apex of corona lobes prolonged into linear appendage-like point. Flowers light green or greenish white, outer surface often lightly spotted with dull purple-brown flecks; corona light dull green.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 2920; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Pachycarpus appendiculatus is closely allied to P. reflectens, which occurs in Transkei and the eastern Cape. In Natal, Swaziland and the eastern Transvaal this species is easily distinguished from P. reflectens by its ovate, elliptic or oblong leaves (not linear-lanceolate to lanceolate or narrowly ovate), reflexed-spreading corolla lobes (not reflexed straight back), the lanceolate, elliptic or suborbicular coronal blade, usually with an appendiculate apex (not orbicular, broadly ovate or broadly elliptic, the apex obtuse or obtusely apiculate, or sharply cuspidate with a linear obtuse apex) and by the coronal keels which are always as broad as, or broader than they are high (not always higher than broad). However, difficulty may arise where the two species are sympatric; then the leaves of certain specimens of P. appendiculatus are lanceolate or narrowly ovate like those of P. reflectens.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_2976_0
+            locator: "SANBI/WFO archive Diagnostic row 74993; source 2976.0; publication: Smith, DMN. 1988. A revision of the genus Pachycarpus in southern Africa. S. African J. Bot. 54(5): 399 - 439. [Copyright held by the South African Association of Botanists (1988); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassland.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 13898; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

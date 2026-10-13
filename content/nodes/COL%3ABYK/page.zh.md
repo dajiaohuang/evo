@@ -1,0 +1,25 @@
+## 从有性状记录的物种开始 {#s-664ce9b0d9}
+Leptotyphlopidae 的 ReptTraits 阅读路径列有 19 条同名同科、带逐性状出处的物种资料。可先看 Epictia albipuncta、Habrophallos collaris、Leptotyphlops conjunctus、Leptotyphlops distanti 或 Leptotyphlops telloi。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 19 条不是该类群全部接受种数量。
+
+## 比较前先看测量定义 {#s-2a9e861e2e}
+两条尺寸记录报告的最大吻肛长（SVL）分别为：Tetracheilostoma carlae 93.7 mm，Trilepida macrolepis 279.7 mm。它们来自不同物种，不表示同一物种内的变异，也不代表整个类群实际个体的最小值和最大值。比较活动、食性与繁殖时，应同时查看各字段来源。
+
+## 按生活史字段选择对读页面 {#s-42513d3950}
+这一路径包含 1 条历史生活史资料：Myriopholis cairi。成体体重、每窝幼体数或卵数，以及汇编中的最长寿命记录，各见于 1 条资料。这些计数描述现有页面覆盖，不是该类群全部接受种的分母；比较数值前应先核对每个字段的事件、单位与出处。
+
+## 证据边界 {#s-78085071b0}
+第一条路径收录至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料；它不是该类群的完整后代名录。最大尺寸是汇编记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不是同一种测量。比较时应分别核对字段来源与汇总规则；历史一行式资料不能解决所有分类修订或种群差异。
+本页的另一条路径收录至少三个焦点字段有来源支持、且同名同科的历史条目，也不是完整后代名录。汇编中位数、最长寿命记录和历史分类继承仍有各自限制；群级入口不表示所有后代拥有相同繁殖方式或生活史。这些资料不能说明完整生物学或当前状态。
+
+## 部分后代条目的引用缺口 {#s-08f0d908fd}
+这条 ReptTraits 阅读路径中有 1 个已写物种条目的部分字段，其引用范围不足以支持确定性状正文。物种页列出这些字段及对应引用标签；路径计数只代表资料页数量，不代表性状完整度。
+
+## 从有性状记录的物种开始 {#s-00bb341bc8}
+Leptotyphlopidae 的 ReptTraits 阅读路径还列有 123 条同名同科、带逐性状出处的物种资料。可先看 [Epacrophis boulengeri](Leptotyphlopinae/Epacrophis/Epacrophis_boulengeri/page.zh.md)、[Epacrophis drewesi](Leptotyphlopinae/Epacrophis/Epacrophis_drewesi/page.zh.md)、[Epacrophis reticulatus](Leptotyphlopinae/Epacrophis/Epacrophis_reticulatus/page.zh.md)、[Epictia albifrons](Epictinae/Epictia/Epictia_albifrons/page.zh.md) 或 [Epictia alfredschmidti](Epictinae/Epictia/Epictia_alfredschmidti/page.zh.md)。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架；这 123 条不是该类群全部接受种数量。
+
+## 按现有字段选择比较材料 {#s-2b2ba6c1e3}
+这些后代页只介绍各自有出处的字段。先看每页缺少哪些资料，再按共同有支持的尺寸、活动、食性或繁殖字段对读。页面数量不代表性状完整；不以近缘种补缺失值，也不将龟类 SCL 与其他类群 SVL 混作同一排名。
+
+## 这组性状资料的边界 {#s-90ac68b3e8}
+这些后代页收录至少一个焦点性状有逐字段出处、且与 COL 同名同科的资料条目；每页仍按自身来源范围介绍，列表不是该类群的完整后代名录。最大尺寸是汇编记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不是同一种测量。不同字段的来源与汇总规则须分别查看；历史一行式资料不能解决所有分类修订或种群差异。
+

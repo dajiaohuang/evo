@@ -1,0 +1,300 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:71353
+    scientificName: Odonata
+    commonName: Dragonfly and damselfly sampled classification
+    commonNameZh: 蜻蜓与豆娘的采样分类
+    rank: order
+    parentName: Odonatoptera
+    extinct: false
+    geography:
+      - "Saxonagrion type locality: Salagou Formation, Lodève Basin, France"
+      - "Targeted-genomics sample: 136 living species representing 46 of 48 families"
+    overview:
+      page: en
+      section: s-b291fa792f
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-c06344abad
+        part: body
+      habitat:
+        page: en
+        section: s-a8a2233f11
+        part: body
+      locomotion:
+        page: en
+        section: s-28a9c036ae
+        part: body
+      bodySize:
+        page: en
+        section: s-3b28915804
+        part: body
+      guild:
+        page: en
+        section: s-10cd80385c
+        part: body
+      dietZh:
+        page: zh
+        section: zh-29b51fdd8d3fef
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-4dc2c45386b13f
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-0a503e6a2f0cc6
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-e27abf4cd8576f
+        part: body
+      guildZh:
+        page: zh
+        section: zh-a00a1379fa96bd
+        part: body
+    traits:
+      - page: en
+        section: s-d73cb725bb
+        part: body
+      - page: en
+        section: s-551cf49aac
+        part: body
+      - page: en
+        section: s-4e812042c7
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-343e36492c
+      part: body
+    confidence: medium
+    referenceIds:
+      - bybee-2021-odonata-targeted-genomics
+      - nel-1999-saxonagrion
+      - bybee-2016-odonata-fossil-record
+    overviewZh:
+      page: zh
+      section: s-02c764a5f4
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-2eb9702ee6
+      part: body
+    readerSources:
+      - id: bybee-2021-odonata-targeted-genomics
+        referenceId: bybee-2021-odonata-targeted-genomics
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Bybee et al. (2021), p. 160:107115, Figures 1–4 and supplementary matrices: 136 species in 46 of 48 living families and the sampled relationships."
+            zh: Bybee 等（2021），第 160 卷文章 107115，图 1–4 与补充矩阵：取样覆盖 48 个现生科中的 46 科、136 个物种，并报告相应取样关系。
+      - id: bybee-2016-odonata-fossil-record
+        referenceId: bybee-2016-odonata-fossil-record
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Bybee et al. (2016), Article 46, Figure 2: the fossil-record review identifies Saxonagrion minutus at about 268 Ma as the earliest recognized modern odonate."
+            zh: Bybee 等（2016），文章 46，图 2：化石记录综述将约 268 Ma 的 Saxonagrion minutus 认作已知最早的现代蜻蜓类。
+      - id: nel-1999-saxonagrion
+        referenceId: nel-1999-saxonagrion
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Nel et al. (1999), pp. 883–888, systematic palaeontology and figures: the Upper Permian Salagou Formation fossil and its wing-venation assignment."
+            zh: Nel 等（1999），第 883–888 页，系统古生物学部分及图版：晚二叠世 Salagou 组化石及其依据翅脉作出的归属。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-b291fa792f
+            part: title
+          zh:
+            page: zh
+            section: s-02c764a5f4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b291fa792f
+            part: body
+          zh:
+            page: zh
+            section: s-02c764a5f4
+            part: body
+        sourceIds:
+          - bybee-2021-odonata-targeted-genomics
+          - bybee-2016-odonata-fossil-record
+          - nel-1999-saxonagrion
+      - id: odonata-evidence
+        title:
+          en:
+            page: en
+            section: s-343e36492c
+            part: title
+          zh:
+            page: zh
+            section: s-2eb9702ee6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-343e36492c
+            part: body
+          zh:
+            page: zh
+            section: s-2eb9702ee6
+            part: body
+        sourceIds:
+          - bybee-2021-odonata-targeted-genomics
+          - nel-1999-saxonagrion
+    traitsZh:
+      - page: zh
+        section: zh-1d2b5b94173c48
+        part: body
+      - page: zh
+        section: zh-588905c782395c
+        part: body
+      - page: zh
+        section: zh-e65497cebde1fa
+        part: body
+  claims:
+    - subjectId: taxon:odonata
+      claimKind: scientific
+      claimType: topology
+      statement: Targeted sequencing of 478 loci across 136 species and 46 of 48 living families supports an updated sampled Odonata classification. Several backbone relationships remain uncertain, and the living sample does not delimit the order's fossil range or origin.
+      confidence: medium
+      confidenceRationale: Confidence is medium because the cited primary study directly supports the bounded topology statement at the supplied locator. The confidence does not extend beyond several backbone relationships remain uncertain, and the living sample does not delimit the order's fossil range or origin.
+      referenceLinks:
+        - relation: supports
+          referenceId: bybee-2021-odonata-targeted-genomics
+          pages: "107115"
+          figure: Figures 1–4; supplementary matrices
+          quoteLocator: Taxon and locus sampling; phylogenetic analyses; revised classification
+    - subjectId: taxon:odonata
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 268–0 Ma Odonata display begins with the earliest fossil recognized as a modern odonate, Saxonagrion minutus, rather than inheriting the older Odonatoptera edge.
+      confidence: medium
+      confidenceRationale: The review explicitly identifies the approximately 268 Ma fossil as the earliest modern odonate, providing a concept-matched minimum rather than an origin estimate.
+      referenceLinks:
+        - referenceId: bybee-2016-odonata-fossil-record
+          relation: supports
+          pages: Article 46
+          figure: Figure 2
+          quoteLocator: Fossil-record paragraph identifies Saxonagrion minutus at approximately 268 Ma as the earliest modern odonate
+        - referenceId: nel-1999-saxonagrion
+          relation: supports
+          pages: 883–888
+          figure: Systematic palaeontology and figures
+          quoteLocator: Upper Permian Salagou Formation fossil; wing-venation attribution to Panodonata
+    - subjectId: taxon:odonata
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Targeted sequencing of 478 loci from 136 living species representing 46 of 48 living odonate families produced an updated sampled classification; unresolved backbone sections remain and the result is not a complete order history.
+      confidence: medium
+      confidenceRationale: The primary analysis directly reports its locus and taxon sampling and revised classification, while explicitly leaving some backbone relationships unresolved.
+      referenceLinks:
+        - referenceId: bybee-2021-odonata-targeted-genomics
+          relation: supports
+          pages: 160:107115
+          figure: Figures 1–4; supplementary matrices
+          quoteLocator: Abstract; taxon and locus sampling; phylogenetic analyses; revised classification
+    - subjectId: taxon:odonata
+      claimKind: scientific
+      claimType: biogeography
+      statement: Saxonagrion minutus was described from the Upper Permian Salagou Formation in the Lodève Basin, France, while the modern genomic sample covers 136 species in 46 families; neither record supplies a complete Odonata distribution.
+      confidence: medium
+      confidenceRationale: The primary fossil paper fixes one locality and the primary genomic study states its taxon sample. Neither is a census of geographic presence or absence for the order.
+      referenceLinks:
+        - referenceId: nel-1999-saxonagrion
+          relation: supports
+          pages: 883–888
+          figure: Systematic palaeontology and figures
+          quoteLocator: Salagou Formation, Lodève Basin, France; Saxonagrion material
+        - referenceId: bybee-2021-odonata-targeted-genomics
+          relation: supports
+          pages: 160:107115
+          figure: Figures 1–4; supplementary matrices
+          quoteLocator: 136 living species representing 46 of 48 families
+    - subjectId: taxon:odonata
+      claimKind: scientific
+      claimType: ecology
+      statement: The targeted-genomics study tests classification rather than diet, habitat use, flight performance, body size or ecological guild; this profile therefore leaves those fields unassigned rather than inferring them for Odonata.
+      confidence: high
+      confidenceRationale: The study's stated scope is a locus-based phylogenetic classification. It is not an ecological observation dataset, so the profile makes no organism-wide functional inference.
+      referenceLinks:
+        - referenceId: bybee-2021-odonata-targeted-genomics
+          relation: supports
+          pages: 160:107115
+          figure: Figures 1–4; supplementary matrices
+          quoteLocator: "Abstract and methods: anchored hybrid enrichment, taxon sampling and phylogenetic analyses"
+    - subjectId: taxon:odonata
+      claimKind: scientific
+      claimType: morphology
+      statement: The primary fossil description attributes Saxonagrion minutus to Panodonata from preserved wing venation; the observation concerns that Upper Permian fossil and is not a diagnostic body plan for all Odonata.
+      confidence: medium
+      confidenceRationale: The original description documents wing-venation evidence and its authors' assignment. It does not justify generalizing one fossil's anatomy to the entire order.
+      referenceLinks:
+        - referenceId: nel-1999-saxonagrion
+          relation: supports
+          pages: 883–888
+          figure: Systematic palaeontology and figures
+          quoteLocator: Preserved wing venation; Panodonata attribution for Saxonagrion minutus
+  claim-rationales.zh:
+    - 置信度为中：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的拓扑表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - 综述明确把约 268 Ma 化石列为最早现代蜻蜓类，提供概念匹配的化石最低界而非起源估计。
+    - 478 个位点、136 个现生物种和 48 个科中 46 个的采样直接支持该研究的更新分类；未解析的骨干关系及未采样谱系仍被保留。
+    - 化石地点与现生采样范围分别由两项一手研究记录；二者都不是蜻蜓目全球出现或缺失的完整普查。
+    - 位点测序和系统发育分析不直接观察食性、栖息地、飞行性能、体型或生态类群，因此档案明确保留这些未赋值字段。
+    - 萨克森蜻蜓的翅脉及作者的泛蜻蜓类归属来自单件上二叠世化石；不会外推为整个蜻蜓目的统一体制。
+  claim-statements.zh:
+    - 对 136 个物种、48 个现生科中的 46 科以及 478 个位点的靶向测序，支持更新后的蜻蜓目抽样分类。若干主干关系仍不确定，现生样本也不能限定该目的化石延限或起源。
+    - 268–0 Ma 的蜻蜓目显示从被认作现代蜻蜓类最早化石的 Saxonagrion minutus 开始，而不沿用更早的 Odonatoptera 边界。
+    - 对代表 48 个现生蜻蜓目科中 46 科的 136 个现生物种进行 478 个位点的靶向测序，得到更新的取样分类；主干仍有未解决区段，结果并非完整的目级历史。
+    - Saxonagrion minutus 描述自法国 Lodève 盆地上二叠统 Salagou 组，而现生基因组样本覆盖 46 科 136 种；两类记录都不能提供完整蜻蜓目分布。
+    - 靶向基因组研究检验的是分类，而不是食性、生境利用、飞行性能、体型或生态功能群；因此本档案将这些字段保留为未指定，而不替蜻蜓目作推断。
+    - 一手化石描述依据保存的翅脉将 Saxonagrion minutus 归入泛蜻蜓类；该观察仅涉及这件上二叠统化石，不是全部蜻蜓目的诊断性身体构型。
+  ranges:
+    - entityId: odonata
+      rangeKind: global-composite
+      taxonomicConcept: Modern Odonata oldest-recognized-fossil-to-living navigation envelope
+      geographicScope: Reviewed fossil record and living representatives
+      olderMa: 268
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 268 Ma edge marks the earliest fossil recognized as a modern odonate, not the origin of the total group.
+      evidenceBasis: A fossil-calibrated odonate synthesis identifies the approximately 268 Ma Saxonagrion minutus as the earliest modern odonate; living Odonata extend the navigation envelope to the present.
+      confidence: medium
+      claimIds:
+        - claim:taxon:odonata:fossil-range
+      referenceLocators:
+        - referenceId: bybee-2016-odonata-fossil-record
+          locator: Article 46; fossil-record paragraph and Figure 2; Saxonagrion minutus at approximately 268 Ma identified as the earliest modern odonate
+        - referenceId: nel-1999-saxonagrion
+          locator: pp. 883–888; systematic palaeontology and figures; Upper Permian Salagou Formation wing attributed to Panodonata
+      evidenceLevel: literature-synthesized

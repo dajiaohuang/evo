@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena keilingi
+  displayName: Ptychadena keilingi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9QN
+  sourceIndexes:
+    - name:
+        en: Ptychadena keilingi
+        zh: Ptychadena keilingi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9QN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/474
+            queryName: Ptychadena keilingi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/18
+            queryName: Rana keilingi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b6fe5a5ab7
+      - s-f20aff0a10
+      - s-406108481e
+      - s-1b7e3ac00b
+      - s-e2e1a20edb
+      - s-048aa11fff
+      - s-7955a23c99
+    zh:
+      - s-12d83211bd
+      - s-793db6689a
+      - s-1199e4bce9
+      - s-d14da24d86
+      - s-ff399ec05e
+      - s-4c31d4a3d0
+      - s-569946aa5e

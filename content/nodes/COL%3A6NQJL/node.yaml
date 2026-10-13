@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus bisacculus
+  displayName: Kurixalus bisacculus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NQJL
+  sourceIndexes:
+    - name:
+        en: Kurixalus bisacculus
+        zh: Kurixalus bisacculus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NQJL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/163
+            queryName: Kurixalus bisacculus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/314
+            queryName: Rhacophorus bisacculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/285
+            queryName: Aquixalus bisacculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-def90f650f
+      - s-aee0a70a88
+      - s-ca1f95467c
+      - s-e1a8190171
+      - s-862a8c20eb
+      - s-01cea16123
+      - s-07998b0c55
+      - s-78b9fde45e
+      - s-8c08e9ec58
+      - s-b024d09137
+      - s-64806d4869
+      - s-f0ec5ca09d
+      - s-b16a814811
+      - s-50a59837cd
+    zh:
+      - s-9a309cb439
+      - s-a1622f9f5a
+      - s-0f0136d676
+      - s-4fc16a3aa8
+      - s-c42603d89f
+      - s-f009ecd4f3
+      - s-988c6eced5
+      - s-3311efaa5b
+      - s-fa05c1862e
+      - s-3fc4c41dda
+      - s-f32785cc60
+      - s-24d0cacf81
+      - s-4b24c50738
+      - s-caf7c23a34

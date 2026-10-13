@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Erycinae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Erycinae
+      en: Erycinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSquamataTaxonomy20261002
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e757cb5539
+            part: body
+          en:
+            page: en
+            section: s-fabac0b959
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbSquamataOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d3ba7c9a92
+            part: body
+          en:
+            page: en
+            section: s-82104e69e8
+            part: body
+    sources:
+      - id: pbdbSquamataTaxonomy20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Erycinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=67485
+          locator: Recorded PBDB parent closure beneath the already documented Squamata COL-compatible storage anchor.
+      - id: pbdbSquamataOccurrences20261002
+        referenceId: ref-7cfbe846-2f31-41b9-85e2-1587c659364b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:67485
+          readingTargets:
+            - name: Geringophis robustus
+              pbdbTaxonId: txn:262189
+              canonicalPath: content/nodes/PBDB%3A262189
+            - name: Geringophis depressus
+              pbdbTaxonId: txn:68116
+              canonicalPath: content/nodes/PBDB%3A68116
+            - name: Geringophis vetus
+              pbdbTaxonId: txn:68118
+              canonicalPath: content/nodes/PBDB%3A68118
+            - name: Geringophis yatkolae
+              pbdbTaxonId: txn:260474
+              canonicalPath: content/nodes/PBDB%3A260474
+            - name: Paraepicrates brevispondylus
+              pbdbTaxonId: txn:67656
+              canonicalPath: content/nodes/PBDB%3A67656
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-39772ee935
+        part: body
+      en:
+        page: en
+        section: s-1a764bfa9d
+        part: body

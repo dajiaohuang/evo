@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Jammerbergia formops
+    rank: species
+    sourceTaxonId: txn:167336
+    name:
+      en: Jammerbergia formops
+      zh: Jammerbergia formops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-fc8a4c3ee8
+            part: body
+          zh:
+            page: zh
+            section: s-14eda7ceb8
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-07690e825d
+            part: body
+          zh:
+            page: zh
+            section: s-8228052da9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-d1d89e64a8
+            part: body
+          zh:
+            page: zh
+            section: s-3d5d5b8a83
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:167336; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. J. Damiani and P. J. Hancox. 2003. New mastodonsaurid temnospondyls from the Cynognathus Assemblage Zone (Upper Beaufort Group; Karoo Basin) of South Africa. Journal of Vertebrate Paleontology 23(1):54-66
+    occurrenceEvidence:
+      - occurrenceId: occ:868561
+        collectionId: col:96328
+        acceptedTaxonId: txn:167336
+        identifiedName: Jammerbergia formops n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:32693
+        bibliography: R. J. Damiani and P. J. Hancox. 2003. New mastodonsaurid temnospondyls from the Cynognathus Assemblage Zone (Upper Beaufort Group; Karoo Basin) of South Africa. Journal of Vertebrate Paleontology 23(1):54-66
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: Xhariep
+        stratigraphy:
+          group: Beaufort
+          formation: null
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-d1d89e64a8
+            part: body
+          zh:
+            page: zh
+            section: s-3d5d5b8a83
+            part: body
+        sourceIds: []

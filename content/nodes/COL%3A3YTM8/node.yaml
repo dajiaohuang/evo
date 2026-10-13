@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Megaelosia goeldii
+  displayName: Megaelosia goeldii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3YTM8
+  sourceIndexes:
+    - name:
+        en: Megaelosia goeldii
+        zh: Megaelosia goeldii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3YTM8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/369
+            queryName: Megaelosia goeldii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/302
+            queryName: Hylodes goeldii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/303
+            queryName: Elosia goeldii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aceab3d4c8
+      - s-f9b85601cb
+      - s-632d615548
+      - s-b70073e237
+      - s-ecaef44b16
+      - s-28e8df7747
+      - s-f9620fdf51
+      - s-25d981f82d
+      - s-0d261aac4a
+      - s-bff9ca979f
+      - s-cf17e75efe
+      - s-c73b996b0a
+      - s-b1bcdbc5d7
+      - s-a484b134d5
+      - s-3b506c78c9
+      - s-4a48ae21cd
+      - s-8b201b880e
+      - s-b5a3c6ff76
+      - s-030f29a660
+      - s-a6253d81ba
+    zh:
+      - s-4d94b403d2
+      - s-fb0934a682
+      - s-e7f86ead37
+      - s-14de0f6f86
+      - s-f95e170ad9
+      - s-0538862ace
+      - s-56bf98569b
+      - s-68cd9168f9
+      - s-6549500a94
+      - s-272d20fb6a
+      - s-44064059f2
+      - s-fc5f253213
+      - s-e3f3857552
+      - s-022fe21d65
+      - s-cca76af8ed
+      - s-014cebb1a7
+      - s-4740730569
+      - s-1820aa0738
+      - s-15b70a126c
+      - s-b2e5e35789

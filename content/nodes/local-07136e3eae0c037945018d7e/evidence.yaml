@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella hamidi
+    name:
+      en: Leptobrachella hamidi
+      zh: Leptobrachella hamidi
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachella hamidi in the version 3 classification
+          zh: Leptobrachella hamidi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2d3e90de09
+            part: body
+          zh:
+            page: zh
+            section: s-17f71b19b0
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 18 populated trait fields
+          zh: 2 条测量行与 18 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2af9f31043
+            part: body
+          zh:
+            page: zh
+            section: s-3bb52acc52
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2562, 2563; Reference.csv rows 613
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2562
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella hamidi
+          - M
+          - "28.8"
+          - "11.5776"
+          - "9.1008"
+          - "4.896"
+          - "2.5056"
+          - "0.7776"
+          - "2.9088"
+          - "2.5056"
+          - "3.3984"
+          - "2.5056"
+          - "4.0032"
+          - "1.8432"
+          - NA
+          - NA
+          - "15.0336"
+          - "12.96"
+          - NA
+          - "15.8688"
+          - NA
+          - NA
+          - "49.7376"
+          - "1.44"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2563
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella hamidi
+          - F
+          - "36.3"
+          - "14.2659"
+          - "12.1242"
+          - "5.5902"
+          - "2.6136"
+          - "0.9801"
+          - "2.6136"
+          - "2.9766"
+          - "4.0293"
+          - "2.904"
+          - "5.082"
+          - "2.178"
+          - NA
+          - NA
+          - "19.239"
+          - "17.4603"
+          - NA
+          - "20.0013"
+          - NA
+          - NA
+          - "64.0332"
+          - "1.9965"
+          - "3.1581"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 613
+        values:
+          - Anura
+          - Leptobrachella_hamidi
+          - "Matsui, M. (1997). Call characteristics of Malaysian Leptolalax with a description of two new species (Anura: Pelobatidae). Copeia(1), 158-165. https://doi.org/10.2307/1447851"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TK9L
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

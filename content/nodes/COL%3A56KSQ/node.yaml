@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius boreas
+  displayName: Thorius boreas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KSQ
+  sourceIndexes:
+    - name:
+        en: Thorius boreas
+        zh: Thorius boreas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KSQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/37
+            queryName: Thorius boreas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 211
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2258039575
+      - s-c5a9029334
+      - s-6dc9908d2a
+      - s-8dd47f68d8
+      - s-f719618374
+      - s-b148089710
+      - s-161945133a
+      - s-445e854c51
+    zh:
+      - s-c8cacdcb32
+      - s-5e98e18e00
+      - s-2d9ea45765
+      - s-a7bf321032
+      - s-8da729e8e3
+      - s-c349bc2a27
+      - s-1c56603799
+      - s-455f5b363f

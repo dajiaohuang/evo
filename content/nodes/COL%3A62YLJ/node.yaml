@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnomedusa
+  displayName: Limnomedusa
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62YLJ
+  sourceIndexes:
+    - name:
+        en: Limnomedusa
+        zh: Limnomedusa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62YLJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/9
+            queryName: Limnomedusa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bfd7d2d17
+      - s-3065a86ea0
+      - s-f488385d3c
+      - s-e1583506a8
+      - s-b83419bdba
+      - s-71e8cca1b4
+      - s-5c20e6d811
+      - s-5d9ded8887
+      - s-6c1d4b7c9c
+      - s-3f782d7801
+      - s-fef73e2937
+      - s-564c7e47a1
+      - s-dc7077dafc
+      - s-79c63dc6fb
+      - s-e1a066de90
+      - s-3894a6166a
+      - s-7c02f879fb
+      - s-41f0c80af6
+      - s-71dc46baca
+      - s-3d98786f82
+    zh:
+      - s-faa05294d3
+      - s-4237ea291f
+      - s-4e17c6f61b
+      - s-71e04e940f
+      - s-e9b2db30a6
+      - s-da5f758aa4
+      - s-a91c306a83
+      - s-22adf3ed47
+      - s-c110253ed7
+      - s-fe8aff8b8c
+      - s-3b987edd1a
+      - s-af24311309
+      - s-8c89b32bb4
+      - s-ea14ee6291
+      - s-708df180bf
+      - s-1323e3acab
+      - s-d5135e4486
+      - s-f315d12a12
+      - s-3a3231b62f
+      - s-64b9901607

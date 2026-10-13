@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates areolatus
+  displayName: Lithobates areolatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHPM
+  sourceIndexes:
+    - name:
+        en: Lithobates areolatus
+        zh: Lithobates areolatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHPM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/159
+            queryName: Lithobates areolatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/208
+            queryName: Rana areolata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 80
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/319
+            queryName: Rana areolata areolata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/320
+            queryName: Rana areolata circulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/64
+            queryName: Rana circulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/416
+            queryName: Lithobates areolatus areolatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/417
+            queryName: Lithobates areolatus circulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/254
+            queryName: Rana virescens areolata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee718b1fb2
+      - s-a53740d838
+      - s-26e5ff14ff
+      - s-c606ee1f40
+      - s-1c037fcbb9
+      - s-b4b6e8a2ed
+      - s-17a8bf869f
+      - s-43b151091d
+      - s-2f3d2cb918
+      - s-90b384feb4
+      - s-235648f1a4
+      - s-47529df696
+      - s-c004470819
+      - s-6b3b386bff
+    zh:
+      - s-9770be51b5
+      - s-c0aae60b35
+      - s-7b2965b4bc
+      - s-2b5c82cfa8
+      - s-09bfdae176
+      - s-17c43e208e
+      - s-3cf63751fc
+      - s-0d27e3285c
+      - s-f69abcecd4
+      - s-ce26a38527
+      - s-10803cfa26
+      - s-4150100a51
+      - s-4a249d800c
+      - s-0398e4f5a0

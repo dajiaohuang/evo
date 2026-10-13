@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-7e94dfe137
+      part: title
+    titleZh:
+      page: zh
+      section: s-3d2c8e9948
+      part: title
+    category: morphology
+    startAge: 168.2
+    endAge: 165.3
+    regions:
+      - Kilmaluag Formation, Isle of Skye, Scotland
+    clades:
+      - Pan-Squamata
+      - Bellairsia gracilis
+    summary:
+      page: en
+      section: s-7e94dfe137
+      part: body
+    summaryZh:
+      page: zh
+      section: s-3d2c8e9948
+      part: body
+    claimIds:
+      - claim:event:bellairsia-synchrotron-stem-squamate
+    evidenceItems:
+      - statement: NMS G.2022.1.1 was imaged at ESRF beamline ID19 and preserves most of the skeleton; the documented mosaic includes a fused astragalus–calcaneum and squamate-like suspensorial traits alongside notochordal vertebrae with presacral intercentra and a pterygoid–vomer contact.
+        relation: supports
+        claimIds:
+          - claim:event:bellairsia-synchrotron-stem-squamate
+        referenceLinks:
+          - referenceId: talanda-2022-bellairsia
+            relation: supports
+            pages: 99–104
+            figure: Figures 1–4; Extended Data Figures 1–10
+            quoteLocator: Description; Computed tomography; Discussion
+    uncertaintyItems:
+      - statement: Stem-squamate placement is recovered by Bayesian matrices, including analyses constrained by a molecular backbone; proposed cranial kinesis is functional interpretation, and the specimen neither dates the crown directly nor represents an ancestor of living geckos.
+        relation: contextualizes
+        claimIds:
+          - claim:event:bellairsia-synchrotron-stem-squamate
+        referenceLinks:
+          - referenceId: talanda-2022-bellairsia
+            relation: supports
+            pages: 99–104
+            figure: Figure 4; Extended Data Figures 6–10
+            quoteLocator: Phylogenetic analysis; Discussion
+  claims:
+    - subjectId: event:bellairsia-synchrotron-stem-squamate
+      claimKind: scientific
+      claimType: morphology
+      statement: Synchrotron-scanned NMS G.2022.1.1 preserves a Jurassic mosaic of squamate-like and retained skeletal states and is recovered on the squamate stem in cited matrices; proposed kinesis and crown timing are not directly observed.
+      confidence: medium
+      confidenceRationale: A near-complete named skeleton, specified ESRF scans and referred comparison material support the anatomical record. Functional mechanics and topology remain conditional on reconstruction, character coding and molecular-backbone constraints.
+      referenceLinks:
+        - referenceId: talanda-2022-bellairsia
+          relation: supports
+          pages: 99–104
+          figure: Figures 1–4; Extended Data Figures 1–10
+          quoteLocator: pp. 99–104, Figs. 1–4 and Extended Data Figs. 1–10; NMS G.2022.1.1 from the Middle Jurassic Kilmaluag Formation, Skye (Extended Data Fig. 1), with Kirtlington elements treated as separate referred comparison material in Extended Data Fig. 4; Description, Computed tomography, Phylogenetic analysis and Discussion
+  claim-rationales.zh:
+    - 近完整具名骨骼、明确的 ESRF 扫描与归入比较材料支持解剖记录；功能力学和拓扑仍取决于复原、性状编码与分子骨架约束。
+  claim-statements.zh:
+    - 同步辐射扫描的 NMS G.2022.1.1 保存侏罗纪有鳞类样与保留型骨骼状态的镶嵌组合，并在所引矩阵中被恢复到有鳞类干群；所提出的运动性与冠群时间均非直接观察。

@@ -1,0 +1,567 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hymenochirus curtipes Noble, 1924
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hymenochirus curtipes
+      zh: Hymenochirus curtipes
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7ae2155ff4
+            part: title
+          zh:
+            page: zh
+            section: s-c47f767aba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7ae2155ff4
+            part: body
+          zh:
+            page: zh
+            section: s-c47f767aba
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f676ce1af7
+            part: title
+          zh:
+            page: zh
+            section: s-39dea4f7e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f676ce1af7
+            part: body
+          zh:
+            page: zh
+            section: s-39dea4f7e3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-02d6f092ca
+            part: title
+          zh:
+            page: zh
+            section: s-7712a2740d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-02d6f092ca
+            part: body
+          zh:
+            page: zh
+            section: s-7712a2740d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo. org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-95ff9fdfef
+            part: title
+          zh:
+            page: zh
+            section: s-447c33b02e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-95ff9fdfef
+            part: body
+          zh:
+            page: zh
+            section: s-447c33b02e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-db6f5aa937
+            part: title
+          zh:
+            page: zh
+            section: s-2c895a8ddf
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-db6f5aa937
+            part: body
+          zh:
+            page: zh
+            section: s-2c895a8ddf
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f6c7a23140
+            part: title
+          zh:
+            page: zh
+            section: s-8b74cde5a4
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f6c7a23140
+            part: body
+          zh:
+            page: zh
+            section: s-8b74cde5a4
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-39209c2b61a636e90a35c6bd85fdf2c1
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-e2c3792d258889c97152dd6e
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4564311941
+            part: title
+          zh:
+            page: zh
+            section: s-f11adbd7e8
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4564311941
+            part: body
+          zh:
+            page: zh
+            section: s-f11adbd7e8
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-497a83cf1a
+            part: title
+          zh:
+            page: zh
+            section: s-f1c5dc913c
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-497a83cf1a
+            part: body
+          zh:
+            page: zh
+            section: s-f1c5dc913c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-f75590b027
+            part: title
+          zh:
+            page: zh
+            section: s-ccf4f35256
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3njln
+        text:
+          en:
+            page: en
+            section: s-f75590b027
+            part: body
+          zh:
+            page: zh
+            section: s-ccf4f35256
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5ab684ae6c
+            part: title
+          zh:
+            page: zh
+            section: s-baa1999c65
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3njln
+        text:
+          en:
+            page: en
+            section: s-5ab684ae6c
+            part: body
+          zh:
+            page: zh
+            section: s-baa1999c65
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-8b7e21d43f
+            part: title
+          zh:
+            page: zh
+            section: s-ca9c6c03c7
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3njln
+        text:
+          en:
+            page: en
+            section: s-8b7e21d43f
+            part: body
+          zh:
+            page: zh
+            section: s-ca9c6c03c7
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-c7ad498884
+            part: title
+          zh:
+            page: zh
+            section: s-f41c552ea3
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3njln
+        text:
+          en:
+            page: en
+            section: s-c7ad498884
+            part: body
+          zh:
+            page: zh
+            section: s-f41c552ea3
+            part: body
+      - topic: limitations
+        title:
+          en: Evidence scope
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-7374197035
+            part: body
+          zh:
+            page: zh
+            section: s-edfb87ab1c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hymenochirus curtipes
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NJLN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4554; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4556 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 555; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc5683629-3njln
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hymenochirus curtipes: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Hymenochirus curtipes accountsec041. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5230248465
+        part: body
+      zh:
+        page: zh
+        section: s-2ecf885949
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-39209c2b61a636e90a35c6bd85fdf2c1
+      sourceRowId: Anf4554
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4554
+        bibliographyRowId: Anf4556
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Hymenochirus boettgeri
+        candidateBibliographyRowIds:
+          - Anf4556
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-e2c3792d258889c97152dd6e
+        scientificName: Hymenochirus curtipes
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-pmc5683629-3njln
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: 2017 workinglabelHymenochirus curtipes; exactsource accepted-name candidate; originalvoucher/currentconcept uncertified
+        evidenceRead: "Hymenochirus curtipes: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Hymenochirus curtipes accountsec041. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Sampled records preserve source localities and names
+              zh: 取样记录保留来源地点与名称
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3njln
+            locator: PMC5683629 XML sec041 literalHymenochirus curtipes locality/voucher account; sec003/004/007
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f664b142d3
+                part: body
+              zh:
+                page: zh
+                section: s-91d4ff2568
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Working identification and reference conflicts remain explicit
+              zh: 工作鉴定及参考冲突保持明确
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3njln
+            locator: PMC5683629 XML sec041 literalHymenochirus curtipes marker/reference/identification account; Table2 relevantrows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6516d0590e
+                part: body
+              zh:
+                page: zh
+                section: s-61e7d27fc6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Two mitochondrial markers and uneven references limit inference
+              zh: 两线粒体标记及不均参考限制推断
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3njln
+            locator: PMC5683629 XML sec004/006–012 methods/reference/limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e63b602130
+                part: body
+              zh:
+                page: zh
+                section: s-ee2e70a860
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Study counts and identification scope are not population estimates
+              zh: 研究计数及鉴定范围不是种群估计
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3njln
+            locator: PMC5683629 XML sec004/007 collectioncounts; sec015 andTable1 total/source-locality rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9ce286f5c8
+                part: body
+              zh:
+                page: zh
+                section: s-352465f75f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

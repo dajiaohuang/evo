@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Theloderma vietnamense
+  displayName: Theloderma vietnamense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/568JH
+  sourceIndexes:
+    - name:
+        en: Theloderma vietnamense
+        zh: Theloderma vietnamense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 568JH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/32
+            queryName: Theloderma vietnamense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72ea8460c2
+      - s-ccbaea4765
+      - s-8c8c496209
+      - s-1415cc284a
+      - s-c771e04412
+      - s-ae59c1b4a9
+    zh:
+      - s-9c4dce991f
+      - s-bd438186d3
+      - s-4365cc88f7
+      - s-2c6eb78ddf
+      - s-a9f1a875cf
+      - s-51fc6e95d5

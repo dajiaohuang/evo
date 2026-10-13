@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-862b3602d1}
+The version 3 Amphibian database lists Anomaloglossus apiau in a source measurement table. Its classification fields read order = Anura, family = Dendrobatoidea, genus = Anomaloglossus; the linked citation is in Reference.csv row 3496. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-0f39f64562}
+Anura.csv rows 366, 367 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 366 (F) = 17.09, row 367 (M) = 20.16; HL: row 366 (F) = 5.55, row 367 (M) = 6.31; HW: row 366 (F) = 6.07, row 367 (M) = 7.27; other populated codes are ED, TD, IOD, IND, EN, SL, HAL, FLL, FL, TL, THL, Fin1L, … (14 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

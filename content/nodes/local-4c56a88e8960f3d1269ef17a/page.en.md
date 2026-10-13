@@ -1,0 +1,9 @@
+## The dataset entry {#s-68a379195d}
+The pinned AmphiTherm curated snapshot records Pristimantis vertebralis under Strabomantidae, Anura. It retains 2 thermal estimate rows across 1 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-41ffe41873}
+Source row 3629 (ID 3963; Pintanel_et_al_2019) reports 30.46 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Pristimantis_vertebralis_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = body. The source reports 0.17 °C as its standard error. The source n_trait field is 5. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-37a16dfd86}
+Source row 3645 (ID 3985; Pintanel_et_al_2019) reports 1.67 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Pristimantis_vertebralis_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = body. The source reports 0.35 °C as its standard error. The source n_trait field is 6. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

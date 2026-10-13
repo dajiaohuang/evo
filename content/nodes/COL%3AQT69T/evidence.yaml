@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Occidozyga obscura (Gray, 1831)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Occidozyga obscura
+      zh: Occidozyga obscura
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-679113eeec
+            part: title
+          zh:
+            page: zh
+            section: s-01d59c7d36
+            part: title
+        text:
+          en:
+            page: en
+            section: s-679113eeec
+            part: body
+          zh:
+            page: zh
+            section: s-01d59c7d36
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1ab80ff0ad
+            part: title
+          zh:
+            page: zh
+            section: s-264ba5545b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1ab80ff0ad
+            part: body
+          zh:
+            page: zh
+            section: s-264ba5545b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4a6909434b
+            part: title
+          zh:
+            page: zh
+            section: s-3d7f0cb828
+            part: title
+        sourceIds:
+          - lyu-2022
+        text:
+          en:
+            page: en
+            section: s-4a6909434b
+            part: body
+          zh:
+            page: zh
+            section: s-3d7f0cb828
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-79304c3988
+            part: title
+          zh:
+            page: zh
+            section: s-f9804ddfce
+            part: title
+        sourceIds:
+          - lyu-2022
+        text:
+          en:
+            page: en
+            section: s-79304c3988
+            part: body
+          zh:
+            page: zh
+            section: s-f9804ddfce
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-6fac1dd852
+            part: title
+          zh:
+            page: zh
+            section: s-83e7a93896
+            part: title
+        sourceIds:
+          - lyu-2022
+        text:
+          en:
+            page: en
+            section: s-6fac1dd852
+            part: body
+          zh:
+            page: zh
+            section: s-83e7a93896
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Occidozyga obscura
+          url: https://www.checklistbank.org/dataset/316115/taxon/QT69T
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: lyu-2022
+        referenceId: ref-a9cf3397-9b36-4f89-8a88-a16bfcb71030
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxonomic account of Occidozyga obscura, pp. 504–506; Diagnosis, Re-description, Ecology, Distribution and Conservation status
+          scope:
+            en: Ten examined adults and a dated regional account; historical O. lima records require separate concept reconciliation.
+            zh: 十只检查成体及有年代限定的区域记述；历史 O. lima 记录需单独核对概念。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2c8be618fb
+        part: body
+      zh:
+        page: zh
+        section: s-9c0458c159
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/vz.72.e80019
+        sourceFile: data/sources/snapshots/occidozyga-taxonomy-2022-2026-10-02/article.pdf
+        sourceConcept: Occidozyga obscura (Gray, 1831), as redescribed by Lyu et al. (2022)
+        evidenceRead: full-primary-taxonomic-account
+        contemporaryConceptEquivalence: not-independently-certified
+        specimenCount: 10

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus berthalutzae
+  displayName: Dendropsophus berthalutzae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4K
+  sourceIndexes:
+    - name:
+        en: Dendropsophus berthalutzae
+        zh: Dendropsophus berthalutzae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/340
+            queryName: Dendropsophus berthalutzae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/272
+            queryName: Hyla berthalutzae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-63efc86c16
+      - s-4bc2b15c64
+      - s-3a2527cf65
+      - s-f432be139b
+      - s-afb2dc2b02
+      - s-a83027e4e6
+      - s-265f52bf60
+      - s-26340b6998
+      - s-b9098cfc86
+      - s-350f8a5e07
+      - s-878a34baf2
+      - s-ae66e04a8a
+      - s-b45bbed182
+      - s-52ba77ad19
+      - s-469234750c
+      - s-87612a3a2d
+      - s-b576c3d8b9
+      - s-5381a5b3d3
+    zh:
+      - s-f97679078d
+      - s-d6dd62927b
+      - s-7b1bc43acf
+      - s-2fb81d03bf
+      - s-ffa83494bc
+      - s-a27adaa83a
+      - s-29a9c13534
+      - s-fbfa6a7837
+      - s-049a163d93
+      - s-c84e1d9d90
+      - s-2702ec6609
+      - s-d2630cc950
+      - s-2ad54ea98f
+      - s-44f3bd6e7c
+      - s-1fcd018d79
+      - s-a944299710
+      - s-639c5f00a0
+      - s-b0e6b3b7ff

@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus vastus
+  displayName: Leptodactylus vastus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN8D
+  sourceIndexes:
+    - name:
+        en: Leptodactylus vastus
+        zh: Leptodactylus vastus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN8D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/445
+            queryName: Leptodactylus vastus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d31273f57
+      - s-c08baa3e95
+      - s-c15aa90f1a
+      - s-4f3ab0949f
+      - s-80dfe22692
+      - s-9cb5d2e918
+      - s-429f48bcc9
+      - s-e5b9065a5f
+      - s-ed6dfafa89
+      - s-0d1ad46668
+      - s-9666b37e84
+      - s-b6dff850ac
+      - s-88edc40b8c
+      - s-13b73fbccc
+      - s-41c270bc1f
+      - s-722dded90e
+      - s-81497e82b9
+      - s-7c0450aeae
+      - s-af27b71a22
+      - s-e7ffe36ee4
+      - s-201a5fda48
+      - s-556936b82a
+      - s-2ae599baf6
+      - s-5d09e56823
+      - s-2919812183
+      - s-905a39f40f
+      - s-4561c64f65
+      - s-cf9f93485e
+    zh:
+      - s-3a303ff4a0
+      - s-8b6f130ee2
+      - s-3e038bbdd8
+      - s-9b05eb68f2
+      - s-06ce19f662
+      - s-30747565c2
+      - s-cb8c60ff78
+      - s-5f16041f9d
+      - s-d5d168c26a
+      - s-51730d2918
+      - s-75e52f0aca
+      - s-c376beeffc
+      - s-22356ad36a
+      - s-94111e14bc
+      - s-93fbe77659
+      - s-03093e8368
+      - s-334740f618
+      - s-c6c129c07d
+      - s-9208549109
+      - s-84dfd876fc
+      - s-fb62ef04eb
+      - s-a7767fa6fc
+      - s-9e7161ee46
+      - s-ee2f323ff3
+      - s-16973c9fa2
+      - s-b0aadc1927
+      - s-09f1a3652b
+      - s-604b39c99a

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis spiritusnoctis
+  displayName: Leptopelis spiritusnoctis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSNP
+  sourceIndexes:
+    - name:
+        en: Leptopelis spiritusnoctis
+        zh: Leptopelis spiritusnoctis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSNP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/9
+            queryName: Leptopelis spiritusnoctis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e7f892a3a
+      - s-a80bcf9013
+      - s-71d3866d53
+      - s-c51a70c39f
+      - s-94b61a9c6d
+      - s-32ea527dcc
+      - s-cfaad42e50
+    zh:
+      - s-c50d7ee408
+      - s-6797e0d3cf
+      - s-cde8ca3b8d
+      - s-622024f70e
+      - s-818265d855
+      - s-ee5749418a
+      - s-d067b01ad2

@@ -1,0 +1,425 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Indirana leithii
+    name:
+      en: Indirana leithii
+      zh: Indirana leithii
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The name and scope of this tadpole record
+          zh: 这份蝌蚪记录的名称与范围
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-4f60a12e7a
+            part: body
+          zh:
+            page: zh
+            section: s-00ebbc9298
+            part: body
+      - topic: morphology
+        title:
+          en: Stage labels and the fields attached to them
+          zh: 阶段标签及对应字段
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-24c36a41ab
+            part: body
+          zh:
+            page: zh
+            section: s-3ca54d70bb
+            part: body
+      - topic: morphology
+        title:
+          en: Dimensionless proportions in image records
+          zh: 图像记录中的无量纲比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-c3edce98f0
+            part: body
+          zh:
+            page: zh
+            section: s-b7b0693e78
+            part: body
+      - topic: overview
+        title:
+          en: A ratio that conflicts with its source row
+          zh: 与来源行不一致的比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-71f601af7c
+            part: body
+          zh:
+            page: zh
+            section: s-bb8f0d71a7
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 591, 592, 593; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Ranixalidae
+      genus: Indirana
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 591
+        values:
+          - Modak, N., Chunekar, H., & Padhye, A. (2018). Life History of Western Ghats endemic and threatened Anuran-Matheran leaping frog,(Indirana leithii) with notes on its feeding preferences. Journal of Natural History, 52(27-28), 1745-1761.
+          - Measurement
+          - Color image
+          - Indirana leithii
+          - Ranixalidae
+          - Indirana
+          - Indirana leithii
+          - 31
+          - 21.717
+          - 5.514
+          - 16.545
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.139
+          - 1.551
+          - null
+          - 0.25392472717226
+          - 0.761845558778837
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.195881862938
+          - 0.7141874249173
+          - null
+          - Yanfang Song
+      - rowNumber: 592
+        values:
+          - Modak, N., Chunekar, H., & Padhye, A. (2018). Life History of Western Ghats endemic and threatened Anuran-Matheran leaping frog,(Indirana leithii) with notes on its feeding preferences. Journal of Natural History, 52(27-28), 1745-1761.
+          - Measurement
+          - Color image
+          - Indirana leithii
+          - Ranixalidae
+          - Indirana
+          - Indirana leithii
+          - 35
+          - 26.894
+          - 6.033
+          - 20.167
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.135
+          - 1.378
+          - 1.21
+          - 0.22432512828141
+          - 0.74986985944824
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.15375176619323
+          - 0.51238194392814
+          - 0.44991447965963
+          - Yanfang Song
+      - rowNumber: 593
+        values:
+          - Modak, N., Chunekar, H., & Padhye, A. (2018). Life History of Western Ghats endemic and threatened Anuran-Matheran leaping frog,(Indirana leithii) with notes on its feeding preferences. Journal of Natural History, 52(27-28), 1745-1761.
+          - Measurement
+          - Color image
+          - Indirana leithii
+          - Ranixalidae
+          - Indirana
+          - Indirana leithii
+          - 37
+          - 47.388
+          - 11.378
+          - 35.856
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.892
+          - 2.934
+          - 2.929
+          - 0.2412979657297
+          - 0.75664725246898
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.145437663543513
+          - 0.6191448711661
+          - 0.6188896767114
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 591
+        scientificName: Indirana leithii
+        sourceField: BMW/TL
+        suppliedRatio: 0.195881862938
+        originalNumerator: 4.139
+        originalTotalLength: 21.717
+        computedRatio: 0.1905880186029378
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 591
+        scientificName: Indirana leithii
+        sourceField: TMW/TL
+        suppliedRatio: 0.7141874249173
+        originalNumerator: 1.551
+        originalTotalLength: 21.717
+        computedRatio: 0.07141870424091726
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 592
+        scientificName: Indirana leithii
+        sourceField: TMW/TL
+        suppliedRatio: 0.51238194392814
+        originalNumerator: 1.378
+        originalTotalLength: 26.894
+        computedRatio: 0.05123819439280137
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 592
+        scientificName: Indirana leithii
+        sourceField: OD/TL
+        suppliedRatio: 0.44991447965963
+        originalNumerator: 1.21
+        originalTotalLength: 26.894
+        computedRatio: 0.04499144790659627
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 593
+        scientificName: Indirana leithii
+        sourceField: BL/TL
+        suppliedRatio: 0.2412979657297
+        originalNumerator: 11.378
+        originalTotalLength: 47.388
+        computedRatio: 0.2401029796572972
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 593
+        scientificName: Indirana leithii
+        sourceField: TMW/TL
+        suppliedRatio: 0.6191448711661
+        originalNumerator: 2.934
+        originalTotalLength: 47.388
+        computedRatio: 0.0619144087110661
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 593
+        scientificName: Indirana leithii
+        sourceField: OD/TL
+        suppliedRatio: 0.6188896767114
+        originalNumerator: 2.929
+        originalTotalLength: 47.388
+        computedRatio: 0.061808896767114034
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.25392472717226
+        row: 591
+        stage: 31
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.761845558778837
+        row: 591
+        stage: 31
+        type: Measurement
+        imageType: Color image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.22432512828141
+        row: 592
+        stage: 35
+        type: Measurement
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.74986985944824
+        row: 592
+        stage: 35
+        type: Measurement
+        imageType: Color image
+      - field: BMW/TL
+        label:
+          en: maximum body width / total length
+          zh: 躯体最大宽度/全长
+        value: 0.15375176619323
+        row: 592
+        stage: 35
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3PMWB
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ansonia minuta
+    name:
+      en: Ansonia minuta
+      zh: Ansonia minuta
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Ansonia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2b9188fc1e
+            part: body
+          zh:
+            page: zh
+            section: s-234bb9b75e
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e43536fe2f
+            part: body
+          zh:
+            page: zh
+            section: s-8437907042
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 420, 421; Reference.csv rows 2534
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 420
+        values:
+          - Bufonidae
+          - Ansonia
+          - Ansonia minuta
+          - F
+          - "26.55864"
+          - "7.67486"
+          - "7.94551"
+          - "3.15952"
+          - "1.33655"
+          - "0.51339"
+          - "2.653"
+          - "2.63823"
+          - "2.52978"
+          - "2.13029"
+          - "3.00769"
+          - "0.95395"
+          - "7.50584"
+          - NA
+          - NA
+          - "10.72861"
+          - NA
+          - "15.54165"
+          - "14.75593"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 421
+        values:
+          - Bufonidae
+          - Ansonia
+          - Ansonia minuta
+          - M
+          - "23.81305"
+          - "7.38855"
+          - "7.3715"
+          - "2.91455"
+          - "1.186116667"
+          - "0.46175"
+          - "2.546966667"
+          - "2.441133333"
+          - "2.214933333"
+          - "2.1403"
+          - "3.060066667"
+          - "0.977733333"
+          - "6.908466667"
+          - NA
+          - NA
+          - "9.837566667"
+          - NA
+          - "13.8082"
+          - "13.06241667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2534
+        values:
+          - Anura
+          - Ansonia_minuta
+          - "Waser, L., Schweizer, M., Haas, A., Jankowski, A., Pui, Y. M., & Hertwig, S. (2016). Froma lost world: an integrative phylogenetic analysis of Ansonia Stoliczka, 1870 (Lissamphibia: Anura: Bufonidae), with the description of a new species. Organisms Diversity & Evolution, 17(1), 287-303. https://doi.org/10.1007/s13127-016-0294-2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66XXR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lanzarana
+  displayName: Lanzarana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62XMR
+  sourceIndexes:
+    - name:
+        en: Lanzarana
+        zh: Lanzarana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62XMR
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/489
+            queryName: Lanzarana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd77c75c1b
+      - s-c8a203569a
+      - s-ad04f9af5d
+      - s-15f9c5359f
+      - s-cd1f6a9cca
+      - s-923170c1ec
+      - s-648695e126
+    zh:
+      - s-806ba7f411
+      - s-ead269e569
+      - s-0d99b6e5b1
+      - s-ec9bf268f3
+      - s-2cb811f8e6
+      - s-2cb8e4f3e1
+      - s-aa32d1d9a9

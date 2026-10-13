@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus steindachneri
+  displayName: Phrynobatrachus steindachneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWB4
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus steindachneri
+        zh: Phrynobatrachus steindachneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWB4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/175
+            queryName: Phrynobatrachus steindachneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-475af06e69
+      - s-fafee8b912
+      - s-2425e0b2c1
+      - s-af254e8ef7
+      - s-ebb3e4bf1c
+      - s-68eccc88c6
+      - s-bb75a52774
+      - s-7b98735819
+      - s-95c29ee405
+      - s-e9b7623fa2
+      - s-fb97348761
+    zh:
+      - s-1274406b61
+      - s-8e5cb858dd
+      - s-88e63fd671
+      - s-ef406329a5
+      - s-f1434235e5
+      - s-16a8d848d7
+      - s-dd9cbd21cd
+      - s-2a2dd90fa1
+      - s-cba5634c14
+      - s-4a4ea0a326
+      - s-2a8b62661f

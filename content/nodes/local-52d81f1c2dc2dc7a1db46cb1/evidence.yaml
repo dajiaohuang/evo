@@ -1,0 +1,757 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Ansonia longidigita
+    name:
+      en: Ansonia longidigita
+      zh: Ansonia longidigita
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Which source name is assigned to this tadpole record?
+          zh: 这条蝌蚪记录采用什么来源名称？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a3780f1e89
+            part: body
+          zh:
+            page: zh
+            section: s-117cec09e1
+            part: body
+      - topic: morphology
+        title:
+          en: What do the rows actually report?
+          zh: 数据行实际记录了什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-68452784d7
+            part: body
+          zh:
+            page: zh
+            section: s-0375450878
+            part: body
+      - topic: morphology
+        title:
+          en: What can the image measurements show?
+          zh: 图像测量能说明什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-e4a6d48529
+            part: body
+          zh:
+            page: zh
+            section: s-5098fd6795
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 5415, 5416, 5417, 5418, 5419, 5420; Picture measurement data rows 120; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Bufonidae
+      genus: Ansonia
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 5415
+        values:
+          - "Haas, A., Wolter, J., Hertwig, S. T., & Das, I. (2009). Larval morphologies of three species of stream toads, genus Ansonia (Amphibia: Bufonidae) from East Malaysia (Borneo), with a key to known Bornean Ansonia tadpoles. Zootaxa, 2302(1), 21-18."
+          - Ansonia longidigita
+          - Bufonidae
+          - Ansonia
+          - Ansonia longidigita
+          - 1
+          - 28
+          - 7.4
+          - null
+          - 2.97
+          - null
+          - null
+          - null
+          - 1.8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.44
+          - null
+          - 0.83
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.3
+          - null
+          - 0.29
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.66
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.45
+          - null
+          - 0.92
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.93
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.73
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.18
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 5416
+        values:
+          - "Haas, A., Wolter, J., Hertwig, S. T., & Das, I. (2009). Larval morphologies of three species of stream toads, genus Ansonia (Amphibia: Bufonidae) from East Malaysia (Borneo), with a key to known Bornean Ansonia tadpoles. Zootaxa, 2302(1), 21-18."
+          - Ansonia longidigita
+          - Bufonidae
+          - Ansonia
+          - Ansonia longidigita
+          - 1
+          - 29
+          - 10.25
+          - null
+          - 3.9
+          - null
+          - null
+          - null
+          - 2.52
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.355
+          - null
+          - 1.36
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.47
+          - null
+          - 0.46
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.85
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.67
+          - null
+          - 1.18
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.66
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.98
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.65
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 5417
+        values:
+          - "Haas, A., Wolter, J., Hertwig, S. T., & Das, I. (2009). Larval morphologies of three species of stream toads, genus Ansonia (Amphibia: Bufonidae) from East Malaysia (Borneo), with a key to known Bornean Ansonia tadpoles. Zootaxa, 2302(1), 21-18."
+          - Ansonia longidigita
+          - Bufonidae
+          - Ansonia
+          - Ansonia longidigita
+          - 1
+          - 27
+          - 10.27
+          - null
+          - 4.17
+          - null
+          - null
+          - null
+          - 2.59
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.0593
+          - null
+          - 1.41
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.49
+          - null
+          - 0.51
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.65
+          - null
+          - 1.22
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.94
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.01
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.66
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 5418
+        values:
+          - "Haas, A., Wolter, J., Hertwig, S. T., & Das, I. (2009). Larval morphologies of three species of stream toads, genus Ansonia (Amphibia: Bufonidae) from East Malaysia (Borneo), with a key to known Bornean Ansonia tadpoles. Zootaxa, 2302(1), 21-18."
+          - Ansonia longidigita
+          - Bufonidae
+          - Ansonia
+          - Ansonia longidigita
+          - 1
+          - 31
+          - 11.02
+          - null
+          - 4.58
+          - null
+          - null
+          - null
+          - 2.67
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 6.3916
+          - null
+          - 1.61
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.52
+          - null
+          - 0.43
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.98
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.73
+          - null
+          - 1.33
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.12
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.97
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.7
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 5419
+        values:
+          - "Haas, A., Wolter, J., Hertwig, S. T., & Das, I. (2009). Larval morphologies of three species of stream toads, genus Ansonia (Amphibia: Bufonidae) from East Malaysia (Borneo), with a key to known Bornean Ansonia tadpoles. Zootaxa, 2302(1), 21-18."
+          - Ansonia longidigita
+          - Bufonidae
+          - Ansonia
+          - Ansonia longidigita
+          - 1
+          - 31
+          - 12.44
+          - null
+          - 4.94
+          - null
+          - null
+          - null
+          - 2.94
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.464
+          - null
+          - 1.7
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.68
+          - null
+          - 0.61
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.03
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.72
+          - null
+          - 1.4
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 3.46
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.16
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.88
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 5420
+        values:
+          - "Haas, A., Wolter, J., Hertwig, S. T., & Das, I. (2009). Larval morphologies of three species of stream toads, genus Ansonia (Amphibia: Bufonidae) from East Malaysia (Borneo), with a key to known Bornean Ansonia tadpoles. Zootaxa, 2302(1), 21-18."
+          - Ansonia longidigita
+          - Bufonidae
+          - Ansonia
+          - Ansonia longidigita
+          - 1
+          - 33
+          - 13.2
+          - null
+          - 5.29
+          - null
+          - null
+          - null
+          - 3.24
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.92
+          - null
+          - 2.06
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.69
+          - null
+          - 0.72
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.07
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.82
+          - null
+          - 1.81
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.14
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 1.29
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 2.15
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 120
+        values:
+          - "Haas, A., Das, I., Hertwig, S. T., Bublies, P., & Schulz-Schaeffer, R. (2022). A Guide to the Tadpoles of Borneo: tredition."
+          - Ratio
+          - Color image
+          - Ansonia longidigita
+          - Bufonidae
+          - Ansonia
+          - Ansonia longidigita
+          - 36 (Judging based on the picture)
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.382428466617755
+          - 0.614453411592076
+          - 0.17039618488628
+          - 0.155906089508437
+          - 0.0898752751283932
+          - 0.0443873807776963
+          - 0.0383345561261922
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies: []
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.382428466617755
+        row: 120
+        stage: 36 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.614453411592076
+        row: 120
+        stage: 36 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.17039618488628
+        row: 120
+        stage: 36 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.155906089508437
+        row: 120
+        stage: 36 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0898752751283932
+        row: 120
+        stage: 36 (Judging based on the picture)
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66XWL
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

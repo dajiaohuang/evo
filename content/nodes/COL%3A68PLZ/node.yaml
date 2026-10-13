@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis rhodoscelis
+  displayName: Boophis rhodoscelis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PLZ
+  sourceIndexes:
+    - name:
+        en: Boophis rhodoscelis
+        zh: Boophis rhodoscelis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PLZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/292
+            queryName: Boophis rhodoscelis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/157
+            queryName: Rhacophorus rhodoscelis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db7926ac20
+      - s-f72d89a60d
+      - s-2e62b33527
+      - s-56bffe3ae5
+      - s-deaa4573bb
+      - s-abec409f40
+      - s-4123c77fc2
+      - s-c6ecf88d30
+      - s-006808a5ae
+    zh:
+      - s-ec87a950b9
+      - s-a1995a2586
+      - s-1117cbe6fb
+      - s-539bd7dae4
+      - s-2ad82669c6
+      - s-317fb0c11b
+      - s-d80d27c75c
+      - s-d0a8222b4f
+      - s-f2e6bef63c

@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a51723c242
+      part: title
+    titleZh:
+      page: zh
+      section: s-827649335c
+      part: title
+    category: ecological
+    startAge: 213
+    endAge: 211
+    regions:
+      - Taurus Mountains near Antalya, Turkey
+    clades:
+      - Scleractinia
+      - Dinoflagellata
+    summary:
+      page: en
+      section: s-a51723c242
+      part: body
+    summaryZh:
+      page: zh
+      section: s-827649335c
+      part: body
+    claimIds:
+      - claim:event:triassic-coral-photosymbiosis
+    evidenceItems:
+      - statement: Growth-band regularity, skeletal δ13C/δ18O covariance and intracrystalline organic-matter δ15N were measured across Turkish fossil taxa and living comparisons.
+        relation: supports
+        claimIds:
+          - claim:event:triassic-coral-photosymbiosis
+        referenceLinks:
+          - referenceId: frankowiak-2016-coral-symbiosis
+            relation: supports
+            pages: e1601122
+            figure: Figures 1–4; Supplementary Tables S1–S5
+            quoteLocator: Skeleton microstructure and C, O and N isotope measurements
+    uncertaintyItems:
+      - statement: Geochemical proxies infer trophic mode; they do not identify a dinoflagellate species, every colony’s ecology or the original origin of coral symbiosis.
+        relation: contextualizes
+        claimIds:
+          - claim:event:triassic-coral-photosymbiosis
+        referenceLinks:
+          - referenceId: frankowiak-2016-coral-symbiosis
+            relation: supports
+            pages: e1601122
+            figure: Figures 1–4; Supplementary Tables S1–S5
+            quoteLocator: Skeleton microstructure and C, O and N isotope measurements
+  claims:
+    - subjectId: event:triassic-coral-photosymbiosis
+      claimKind: scientific
+      claimType: ecology
+      statement: Microstructure and carbon, oxygen and nitrogen isotope patterns in approximately 212 Ma Turkish coral skeletons are consistent with photosymbiosis in the sampled Late-Triassic taxa.
+      confidence: medium
+      confidenceRationale: Multiple independent measurements converge in the sampled skeletons, while algal cells and symbiont identities are not directly preserved.
+      referenceLinks:
+        - referenceId: frankowiak-2016-coral-symbiosis
+          relation: supports
+          pages: e1601122
+          figure: Figures 1–4; Supplementary Tables S1–S5
+          quoteLocator: Skeleton microstructure and C, O and N isotope measurements
+  claim-rationales.zh:
+    - 取样骨骼中的多种独立测量相互一致，但藻细胞和共生体身份并未直接保存。
+  claim-statements.zh:
+    - 约 2.12 亿年前土耳其珊瑚骨骼的微结构及碳、氧、氮同位素模式，与所取样晚三叠世分类单元存在光合共生相符。

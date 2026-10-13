@@ -1,0 +1,126 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cycloramphus brasiliensis
+  displayName: Cycloramphus brasiliensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/32WKH
+  sourceIndexes:
+    - name:
+        en: Cycloramphus brasiliensis
+        zh: Cycloramphus brasiliensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 32WKH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/269
+            queryName: Cycloramphus brasiliensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/121
+            queryName: Telmatobius brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/122
+            queryName: Iliodiscus pinderi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/123
+            queryName: Grypiscus pinderi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/124
+            queryName: Iliodiscus brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/125
+            queryName: Cyclorhamphus pinderi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/126
+            queryName: Grypiscus brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/127
+            queryName: Cycloramphus pinderi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/164
+            queryName: Grypiscus lutzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8fedf2a196
+      - s-b52d097d20
+      - s-f724fdd626
+      - s-3f13a60ad3
+      - s-a1756d4934
+      - s-01072329af
+      - s-63a741b8dc
+      - s-81d8b18cc6
+      - s-fbd1aab035
+      - s-71efe901c0
+      - s-44deaffc34
+      - s-6db5a7640b
+      - s-45f082cb63
+      - s-cf14360b40
+      - s-95e8891742
+      - s-75c367df65
+      - s-68e85806df
+      - s-0590e0b929
+      - s-7b2b9a7f40
+    zh:
+      - s-0e70a4e411
+      - s-37cc10a37b
+      - s-37a3e386d4
+      - s-84d2361b0d
+      - s-91f4cfefa9
+      - s-e12618d0e8
+      - s-63958fc27a
+      - s-b642776906
+      - s-1fdef00216
+      - s-fbaf821421
+      - s-099f7d60ae
+      - s-6f13a73232
+      - s-ecd543f2fc
+      - s-d6c5f5fbff
+      - s-885a36b06f
+      - s-54e295715c
+      - s-40022105dc
+      - s-b976ef94c9
+      - s-f6ed343409

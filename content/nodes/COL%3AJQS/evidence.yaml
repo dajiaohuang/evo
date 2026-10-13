@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobiinae Cope, 1859
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobiinae
+      zh: Hynobiinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ded3dd2e0b
+            part: title
+          zh:
+            page: zh
+            section: s-19f965d25c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ded3dd2e0b
+            part: body
+          zh:
+            page: zh
+            section: s-19f965d25c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7c22b6930d
+            part: title
+          zh:
+            page: zh
+            section: s-52705392d5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7c22b6930d
+            part: body
+          zh:
+            page: zh
+            section: s-52705392d5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-a2431a67e7
+            part: title
+          zh:
+            page: zh
+            section: s-4f69d026e1
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62F2C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62F2C
+            label:
+              en: Batrachuperus
+              zh: Batrachuperus
+          - kind: catalogue
+            colId: 529J
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A529J
+            label:
+              en: Hynobius
+              zh: Hynobius
+          - kind: catalogue
+            colId: 5FTQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5FTQ
+            label:
+              en: Liua
+              zh: Liua
+          - kind: catalogue
+            colId: 6BTW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BTW
+            label:
+              en: Pachyhynobius
+              zh: Pachyhynobius
+          - kind: catalogue
+            colId: 63L2G
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63L2G
+            label:
+              en: Paradactylodon
+              zh: Paradactylodon
+          - kind: catalogue
+            colId: 642ZN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A642ZN
+            label:
+              en: Pseudohynobius
+              zh: Pseudohynobius
+          - kind: catalogue
+            colId: "7744"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7744
+            label:
+              en: Ranodon
+              zh: Ranodon
+          - kind: catalogue
+            colId: 7BSD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7BSD
+            label:
+              en: Salamandrella
+              zh: Salamandrella
+        text:
+          en:
+            page: en
+            section: s-a2431a67e7
+            part: body
+          zh:
+            page: zh
+            section: s-4f69d026e1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobiinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JQS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-432d04a09f
+        part: body
+      zh:
+        page: zh
+        section: s-13fb41db39
+        part: body

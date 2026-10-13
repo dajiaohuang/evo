@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris ocularis
+  displayName: Pseudacris ocularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9R
+  sourceIndexes:
+    - name:
+        en: Pseudacris ocularis
+        zh: Pseudacris ocularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/260
+            queryName: Pseudacris ocularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/264
+            queryName: Limnaoedus ocularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/57
+            queryName: Hylodes ocularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/58
+            queryName: Chorophilus angulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/59
+            queryName: Cystignathus ocularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/60
+            queryName: Chorophilus ocularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/61
+            queryName: Acris ocularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ef240a315
+      - s-8db5bceade
+      - s-d56ec51b75
+      - s-adbf4b9c7c
+      - s-e828e2326e
+      - s-ed77d07016
+      - s-e28cca941f
+      - s-21f56f305f
+      - s-752b6623d4
+      - s-a964ec4cbe
+      - s-d21f3165ee
+      - s-c06de8b45a
+      - s-8e7780023d
+    zh:
+      - s-8e96bd33ac
+      - s-d912e279f4
+      - s-b1e2f556d8
+      - s-9e1d48f747
+      - s-3da2f5c792
+      - s-531b36da6f
+      - s-f147c278f1
+      - s-fa640e9fd8
+      - s-d0fc657618
+      - s-669fcae7c1
+      - s-dee6c27f15
+      - s-287c511167
+      - s-3a5b331a15

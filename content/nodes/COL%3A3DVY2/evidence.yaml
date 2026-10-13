@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Faucaria bosscheana (A.Berger) Schwantes
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3DVY2, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3DVY2; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3DVY2
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3DVY2
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000685960-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3DVY2 / WFO wfo-0000685960
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_5640_0
+        referenceId: ref-b2d1a772-f972-8323-a982-0e21907e6bbd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Faucaria bosscheana (A.Berger) Schwantes account; archive rows 79626 (Morphology), 79128 (Habitat), source identifier 5640.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants small, clumped or tufted. Leaves 4-8 per rosette, crowded, thick ovate-lanceolate or linear spatulate. 15-40(-50) x 5-15(-25) mm margins undulate or with 0-3(-5) short whitish stout teeth on each leaf margin, without or with short stout smooth bristles; margins and keel with almost semiglobose epidermal cells; leaf surface smooth, often without obvious white dots, numerous small, dark green subepidermal idioblasts visible, wax rugose; leaf margins and keel at least partially whitish cartilaginous, glossy or shiny fresh green, turning reddish in very sunny conditions. Flower with 70-90 petals; stamens 120-180. Nectaries largely greenish. Fruit stalk mostly absent or (0.5-)2.8-5.8 x 2.0-2.6 mm, 0.7-1.4 mm thick Fruits often easily falling off (tumble fruits), 7.0-11.3 x 6.5-12.0 mm. 7.0-10.5 mm thick; lower half of fruit mostly flattened at one side, or more rarely convex on 2 sides, valves on top of fruit bent downwards in the middle forming a depression there. Seeds 1.35-1.6 x 0.9-1.45 mm.
+            sourceIds:
+              - sanbi_5640_0
+            locator: "SANBI/WFO archive Morphology row 79626; source 5640.0; publication: Groen, LE; Van der Maesen, LJG. 1999. Revision of the genus Faucaria (Ruschioideae: Aizoaceae) in South Africa. Bothalia 29(1): 35 - 58. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: "Restricted to Karoo Biome. Open vegetation, flat terrain, north-facing foothills, in flat cavities of rock plates, betw een stones on slopes. Geological formation: often sandstone of Beaufort Group, Adelaide Subgroup: Dwyka tillite. pH(H20) 7.5."
+            sourceIds:
+              - sanbi_5640_0
+            locator: "SANBI/WFO archive Habitat row 79128; source 5640.0; publication: Groen, LE; Van der Maesen, LJG. 1999. Revision of the genus Faucaria (Ruschioideae: Aizoaceae) in South Africa. Bothalia 29(1): 35 - 58. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

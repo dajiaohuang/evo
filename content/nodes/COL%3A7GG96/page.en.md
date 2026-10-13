@@ -1,0 +1,3 @@
+## Racemes and leaflet counts in the source record {#s-eeb94d6a77}
+The Brazilian Flora 2020 entry records cylindrical, unarmed branches and lanceolate stipules. Leaves are bipinnate, with one pair of pinnae and 5 or 7 foliolules per pinna; the leaflet number field is absent. A patelliform leaf nectary is present. The inflorescence is a raceme. Flowers are pedicellate, with a tubular corolla, an exserted staminal tube and a nectary disk. The fruit is a flat legume with puberulent valves. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

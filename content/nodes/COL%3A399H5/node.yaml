@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus modestus
+  displayName: Eleutherodactylus modestus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399H5
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus modestus
+        zh: Eleutherodactylus modestus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399H5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/272
+            queryName: Eleutherodactylus modestus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/279
+            queryName: Syrrhophus modestus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/445
+            queryName: Syrrhophus modestus modestus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c670f8e9e2
+      - s-bf82fa64dc
+      - s-0f6bcb4dd0
+      - s-9ac2b5bd98
+      - s-daca5b5210
+      - s-26cafe982d
+      - s-4dd060628a
+      - s-e13ef39e9a
+      - s-6c28057a68
+    zh:
+      - s-fe2b95d26e
+      - s-778467d9bd
+      - s-0cd668a2f0
+      - s-0192cb936d
+      - s-f77220e8b9
+      - s-fcb868a616
+      - s-a7fca7b900
+      - s-eb9f5a4777
+      - s-5cbf84b578

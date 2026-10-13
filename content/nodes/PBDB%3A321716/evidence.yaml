@@ -1,0 +1,341 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Carnufex
+    commonName: Carolina butcher
+    commonNameZh: 卡罗莱纳屠夫鳄
+    rank: genus
+    taxonId: txn:321716
+    firstAppearance: 231
+    lastAppearance: 231
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Carnufex
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Carnufex
+      en: Carnufex
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dddc477e32
+            part: body
+          en:
+            page: en
+            section: s-8731d1c622
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-85c90e9b09
+            part: body
+          en:
+            page: en
+            section: s-a1c7639583
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Carnufex
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=321716
+          locator: Recorded PBDB parent closure beneath the already documented Crocodylomorpha COL-compatible storage anchor.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:321716
+          readingTargets:
+            - name: Carnufex carolinensis
+              pbdbTaxonId: txn:321717
+              canonicalPath: content/nodes/PBDB%3A321717
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-bcbadc8eb1
+        part: body
+      en:
+        page: en
+        section: s-3011683ecd
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:321716
+    scientificName: Carnufex
+    commonName: Carnufex
+    commonNameZh: 卡罗莱纳屠夫鳄
+    rank: genus
+    parentName: Crocodylomorpha
+    extinct: true
+    geography:
+      - Pekin Formation, Chatham County, North Carolina, United States
+    overview:
+      page: en
+      section: s-924cb47f3e
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-37364e8076
+        part: body
+      habitat:
+        page: en
+        section: s-0253b630c9
+        part: body
+      locomotion:
+        page: en
+        section: s-ad8bcd1422
+        part: body
+      bodySize:
+        page: en
+        section: s-b4441f6d2b
+        part: body
+      guild:
+        page: en
+        section: s-e53cb26e31
+        part: body
+      dietZh:
+        page: zh
+        section: zh-6d8da6e9ec7db6
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-2d53a0346f0428
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-dfa7bffe141491
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-59e2489836bf2b
+        part: body
+      guildZh:
+        page: zh
+        section: zh-31fd57b9e82cd1
+        part: body
+    traits:
+      - page: en
+        section: s-1a82c54d2f
+        part: body
+      - page: en
+        section: s-acec723287
+        part: body
+      - page: en
+        section: s-89db898de7
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-d7fbd23917
+      part: body
+    readerSections:
+      - id: holotype-anatomy
+        title:
+          en:
+            page: en
+            section: s-92844659f8
+            part: title
+          zh:
+            page: zh
+            section: s-29583352eb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-92844659f8
+            part: body
+          zh:
+            page: zh
+            section: s-29583352eb
+            part: body
+        sourceIds:
+          - carnufex-2015
+      - id: size-and-interpretation
+        title:
+          en:
+            page: en
+            section: s-f76f9234e3
+            part: title
+          zh:
+            page: zh
+            section: s-f3b4dd30ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f76f9234e3
+            part: body
+          zh:
+            page: zh
+            section: s-f3b4dd30ba
+            part: body
+        sourceIds:
+          - carnufex-2015
+    readerSources:
+      - id: carnufex-2015
+        referenceId: zanno-2015-carnufex
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Holotype NCSM 21558, referred humerus NCSM 21623, Pekin Formation occurrence and the 79-taxon, 413-character analysis; Article 9276, Figures 1–2 and Supplementary Figure S9. The study's length, predator-guild and basal-placement conclusions remain bounded to this incomplete, skeletally immature sample and its matrix.
+            zh: 正模 NCSM 21558、归入的肱骨 NCSM 21623、佩金组出现记录及 79 类群、413 性状分析；文章 9276、图 1–2 和补充图 S9。体长、捕食者功能群和基部位置等结论仍限于这件未成年且不完整的样本及其矩阵。
+    confidence: medium
+    referenceIds:
+      - zanno-2015-carnufex
+    overviewZh:
+      page: zh
+      section: zh-32c9fd3b13b37b
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-fc5beff9692a2b
+      part: body
+  claims:
+    - subjectId: taxon:carnufex
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Carnufex is anchored by partial, immature holotype NCSM 21558 from the Carnian Pekin Formation of North Carolina; that one individual does not define the genus-wide first or last appearance.
+      confidence: high
+      confidenceRationale: The specimen number, formation and age are directly reported. High confidence is intentionally specimen-local and does not depend on predator reconstruction.
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: 5:9276
+          figure: Figures 1–2
+          quoteLocator: Systematic palaeontology—Holotype and locality; Results
+    - subjectId: taxon:carnufex
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Zanno et al. named Carnufex carolinensis from holotype NCSM 21558 and recovered it at the base of Crocodylomorpha in an unresolved polytomy in their 79-taxon, 413-character analysis; this is a sampled topology, not direct ancestry.
+      confidence: medium
+      confidenceRationale: The name, type material and matrix result are explicit in the primary study. Confidence remains medium because the basal placement is analysis-dependent and the holotype is skeletally immature and incomplete.
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figure 2a; Supplementary Figure S9
+          quoteLocator: Systematic palaeontology; Holotype; comprehensive 79-taxon, 413-character phylogenetic analysis
+    - subjectId: taxon:carnufex
+      claimType: biogeography
+      claimKind: scientific
+      statement: The Carnufex type and referred material are recorded from the approximately 231 Ma Pekin Formation in Chatham County, North Carolina; this single formation sample does not establish a genus-wide distribution or absence elsewhere.
+      confidence: high
+      confidenceRationale: The locality, formation and age are directly reported for the named material. High confidence is limited to that occurrence and does not infer a complete geographic range.
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figures 1–2
+          quoteLocator: Systematic palaeontology—Locality and horizon; Discussion of the Pekin Formation assemblage
+    - subjectId: taxon:carnufex
+      claimType: morphology
+      claimKind: scientific
+      statement: NCSM 21558 preserves partial cranial and postcranial material, including a reconstructed slender, ornamented skull longer than 50 cm and elongate, serrated, slightly recurved premaxillary teeth; these observations are limited to the immature holotype.
+      confidence: high
+      confidenceRationale: The preserved elements, three-dimensional reconstruction and tooth morphology are described and figured directly. High confidence does not extend the reconstruction to unknown individuals or ontogenetic stages.
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figure 1; Supplementary Figure S9
+          quoteLocator: Holotype; Diagnosis; cranial description; three-dimensional skull reconstruction
+    - subjectId: taxon:carnufex
+      claimType: ecology
+      claimKind: scientific
+      statement: The study interprets Carnufex as an approximately 3 m terrestrial faunivore and top-tier predator in the sampled Pekin Formation assemblage using serrated teeth, reconstructed skull length and an immature femur-length estimate of 354–441 mm; feeding, locomotion and guild are not direct behavioural observations.
+      confidence: medium
+      confidenceRationale: Dentition and preserved anatomy are specimen observations, whereas total length, femur proxy and predator-guild assignment are reconstructions bounded to the study and assemblage.
+      referenceLinks:
+        - referenceId: zanno-2015-carnufex
+          relation: supports
+          pages: Article 9276
+          figure: Figure 2b–d; Supplementary Table S2
+          quoteLocator: Diagnosis; body-size estimates; Pekin Formation predator-guild discussion
+  claim-rationales.zh:
+    - 标本号、地层与年代均有直接报告。高置信度刻意限于标本与地点，不依赖捕食者重建。
+    - 命名、模式材料与矩阵结果均由一手研究明确报告。由于正模骨骼未成熟且不完整、基部位置依赖分析，置信度保留为中等。
+    - 论文直接报告具名材料的地点、地层组与年代。高置信度只适用于该出现记录，不推断完整地理范围。
+    - 保存骨骼、三维复原和牙齿形态均有直接描述与图示。高置信度不把正模复原外推到未知个体或发育阶段。
+    - 牙列和保存解剖属于标本观察；全长、股骨代理值和捕食者功能群归属则是限定于该研究及动物群的复原。
+  claim-statements.zh:
+    - Carnufex 由北卡罗来纳州卡尼期佩金组的部分、未成熟正模 NCSM 21558 锚定；该单一个体不定义属级首现或末现。
+  ranges:
+    - entityId: carnufex
+      rangeKind: global-composite
+      taxonomicConcept: Carnufex carolinensis holotype occurrence
+      geographicScope: Pekin Formation, North Carolina, USA
+      olderMa: 231
+      youngerMa: 231
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The interval is a study-level occurrence or model-bounded navigation envelope, not a direct date on ancestry or a guaranteed global first appearance.
+      evidenceBasis: NCSM 21558 includes cranial, vertebral and forelimb material; estimated skull and femur dimensions place the immature individual among large-bodied members of its assemblage.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:carnufex-holotype-predator
+      referenceLocators:
+        - referenceId: zanno-2015-carnufex
+          locator: 9276; Figures 1–2; Table S2; Systematic palaeontology—Holotype; Results; Discussion

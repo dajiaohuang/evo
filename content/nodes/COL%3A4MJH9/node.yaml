@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lymani
+  displayName: Pristimantis lymani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJH9
+  sourceIndexes:
+    - name:
+        en: Pristimantis lymani
+        zh: Pristimantis lymani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJH9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/383
+            queryName: Pristimantis lymani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/121
+            queryName: Eleutherodactylus lymani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/331
+            queryName: Eleutherodactylus carrioni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-94d4e90d16
+      - s-a363e03837
+      - s-90961c5990
+      - s-6f169b7646
+      - s-c51f25076b
+      - s-3a51bef723
+      - s-fbd906dfee
+      - s-1e385be97b
+      - s-24d672d806
+      - s-1e696b89b4
+      - s-c28998d340
+      - s-826d35aee6
+      - s-fede08d821
+      - s-3704f278c4
+      - s-a180727dc0
+      - s-1a98d1266b
+      - s-c96ca16fb9
+      - s-cd5b72f4cd
+      - s-00445fd704
+    zh:
+      - s-8a08309656
+      - s-4ed0c69379
+      - s-7286213597
+      - s-f1eefeaf1d
+      - s-160781ffec
+      - s-6bca604067
+      - s-2d9cc0b375
+      - s-3e68c6159c
+      - s-0f0b3b75b3
+      - s-9d738533cc
+      - s-7d0cf7591a
+      - s-9098080cc3
+      - s-1e2170cb06
+      - s-91f20ffb7a
+      - s-81e20fb911
+      - s-fbaf87a19a
+      - s-8c632c95d0
+      - s-8000ed7627
+      - s-d296ce455c

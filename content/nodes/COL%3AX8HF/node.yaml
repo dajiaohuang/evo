@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Colostethus ucumari
+  displayName: Colostethus ucumari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/X8HF
+  sourceIndexes:
+    - name:
+        en: Colostethus ucumari
+        zh: Colostethus ucumari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: X8HF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/415
+            queryName: Colostethus ucumari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb101840a0
+      - s-2c0ecdd4e5
+      - s-c24f28d251
+      - s-3bd6235d56
+      - s-099d2b96e6
+      - s-57cc4fe9d0
+      - s-bcb62fc123
+      - s-ecf7d78f82
+      - s-dcdea6f434
+    zh:
+      - s-ceb52ad404
+      - s-2f4466adab
+      - s-911738f43a
+      - s-e693d88b51
+      - s-0b6bf49c8a
+      - s-b39d1924c6
+      - s-29eba00743
+      - s-4b9cc8f478
+      - s-0ddeb74134

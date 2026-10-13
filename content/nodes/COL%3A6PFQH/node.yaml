@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella bourreti
+  displayName: Leptobrachella bourreti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PFQH
+  sourceIndexes:
+    - name:
+        en: Leptobrachella bourreti
+        zh: Leptobrachella bourreti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PFQH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/215
+            queryName: Leptobrachella bourreti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/223
+            queryName: Leptolalax bourreti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70b9654c57
+      - s-0dc1419064
+      - s-de920a009f
+      - s-4b61569e77
+      - s-18a36ad810
+      - s-b88f111354
+      - s-fcc38b36b5
+      - s-90bde4a439
+      - s-5bdb4a2689
+      - s-d3ca5e2e02
+    zh:
+      - s-9c683bdc86
+      - s-cd9947a233
+      - s-4030237f86
+      - s-8049421a3b
+      - s-ae08b9cfb9
+      - s-68a3c9759a
+      - s-95ffe2793b
+      - s-18125fb726
+      - s-2def205975
+      - s-60355699c6

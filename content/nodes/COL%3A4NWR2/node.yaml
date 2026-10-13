@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea exspectata
+  displayName: Pseudoeurycea exspectata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWR2
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea exspectata
+        zh: Pseudoeurycea exspectata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWR2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/289
+            queryName: Pseudoeurycea exspectata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a54f942a27
+      - s-3d7f37626a
+      - s-91865fec48
+      - s-798d72d041
+      - s-35001d96df
+      - s-5ea8b597a8
+      - s-656cefeabe
+    zh:
+      - s-3d6a634e39
+      - s-d5c819f134
+      - s-184f0297ef
+      - s-78aa47d4df
+      - s-f98d3cf597
+      - s-55d3ad42d5
+      - s-64e251990b

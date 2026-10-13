@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Discoglossus galganoi
+  displayName: Discoglossus galganoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/36TMD
+  sourceIndexes:
+    - name:
+        en: Discoglossus galganoi
+        zh: Discoglossus galganoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 36TMD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/18
+            queryName: Discoglossus galganoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/235
+            queryName: Discoglossus jeanneae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/54
+            queryName: Discoglossus hispanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/294
+            queryName: Discoglossus galganoi jeanneae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/296
+            queryName: Discoglossus galganoi galganoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ace0afd5f
+      - s-1f2221178e
+      - s-249ff0e119
+      - s-9205287f48
+      - s-fb0daba005
+      - s-3c80ec72d1
+      - s-f1f1fccbab
+      - s-edf688458b
+      - s-ece9ca9b01
+      - s-1299ecb516
+      - s-a6359777fe
+      - s-28d15362c7
+      - s-6f5764a210
+      - s-d5bafa634d
+    zh:
+      - s-87e00de4ab
+      - s-09683a5406
+      - s-27aa1dbcf7
+      - s-9364cb5e81
+      - s-cb5f7af2f3
+      - s-0945e9a469
+      - s-433a603080
+      - s-60ef463cdd
+      - s-a7cc78bbf0
+      - s-89cdede8f1
+      - s-8b3dc4d392
+      - s-d89cd9a29f
+      - s-e0c8e5d38c
+      - s-e9288bf01b

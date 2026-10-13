@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachuperus karlschmidti
+  displayName: Batrachuperus karlschmidti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZSL
+  sourceIndexes:
+    - name:
+        en: Batrachuperus karlschmidti
+        zh: Batrachuperus karlschmidti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZSL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/412
+            queryName: Batrachuperus karlschmidti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d112ec4a50
+      - s-d9b5f5cda6
+      - s-273f948a97
+      - s-456d1fe961
+      - s-d5cda27d5e
+      - s-ea1c55a090
+      - s-086b688967
+      - s-db7cf84be1
+    zh:
+      - s-7a5f8352fc
+      - s-2682be8934
+      - s-97a64c9872
+      - s-b0d1fec080
+      - s-b9fc05f741
+      - s-c1fd20d290
+      - s-440b1c5ac7
+      - s-13ed4a3179

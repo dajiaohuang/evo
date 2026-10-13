@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis bernisi
+  displayName: Ichthyophis bernisi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N64J
+  sourceIndexes:
+    - name:
+        en: Ichthyophis bernisi
+        zh: Ichthyophis bernisi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N64J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/389
+            queryName: Ichthyophis bernisi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c2e8a70bee
+      - s-496c1817dc
+      - s-731fb0ed2b
+      - s-cf228000e3
+      - s-df3683168a
+      - s-54c08427fd
+      - s-f5675187b8
+      - s-853302b281
+      - s-09798024b2
+      - s-0f340cd6ed
+    zh:
+      - s-e17eebd710
+      - s-bea99c8ff8
+      - s-31b3291d0b
+      - s-ed7832f530
+      - s-1e58a0a0bf
+      - s-1428fdf53b
+      - s-102d1b1eb4
+      - s-ccf0f1ddbc
+      - s-2389a7638d
+      - s-803f252f5b

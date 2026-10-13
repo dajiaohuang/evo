@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hesperotestudo
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Hesperotestudo
+      en: Hesperotestudo
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-64f856b2a9
+            part: body
+          en:
+            page: en
+            section: s-eaccab7762
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aa5e085a0f
+            part: body
+          en:
+            page: en
+            section: s-e9b16b84b7
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Hesperotestudo
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=119612
+          locator: Recorded PBDB parent closure beneath the already documented Pantestudines COL-compatible storage anchor.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:119612
+          readingTargets:
+            - name: Hesperotestudo turgida
+              pbdbTaxonId: txn:121672
+              canonicalPath: content/nodes/PBDB%3A121672
+            - name: Hesperotestudo gilbertii
+              pbdbTaxonId: txn:173078
+              canonicalPath: content/nodes/PBDB%3A173078
+            - name: Geochelone (Hesperotestudo) angusticeps
+              pbdbTaxonId: txn:119614
+              canonicalPath: content/nodes/PBDB%3A119614
+            - name: Hesperotestudo ducateli
+              pbdbTaxonId: txn:83315
+              canonicalPath: content/nodes/PBDB%3A83315
+            - name: Hesperotestudo orthopygia
+              pbdbTaxonId: txn:67779
+              canonicalPath: content/nodes/PBDB%3A67779
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-c4898e1df8
+        part: body
+      en:
+        page: en
+        section: s-c7e8a8d603
+        part: body

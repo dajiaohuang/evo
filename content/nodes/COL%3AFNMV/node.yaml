@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus leucopygius
+  displayName: Aplastodiscus leucopygius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMV
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus leucopygius
+        zh: Aplastodiscus leucopygius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/91
+            queryName: Aplastodiscus leucopygius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/378
+            queryName: Hyla leucopygia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d9ae954d6b
+      - s-bfca2974a9
+      - s-385d9cd37b
+      - s-045810dfa6
+      - s-bedff021aa
+      - s-421b1a24d4
+      - s-366cca7130
+      - s-8f43303329
+      - s-1594c8c58d
+      - s-fac897c770
+      - s-e7acc4e180
+      - s-de2cc1fe1d
+      - s-39b5fe0d52
+      - s-1941149f20
+      - s-154107d94f
+      - s-b149f3f323
+    zh:
+      - s-2630677155
+      - s-a6aa0bf71c
+      - s-fbc0da564a
+      - s-0fc262f109
+      - s-0c224ca849
+      - s-f9e2206754
+      - s-78085bf7b2
+      - s-f9d6d54674
+      - s-c4c8c1515a
+      - s-f3efe123f7
+      - s-f6fd52b936
+      - s-e4ce35a907
+      - s-e62d2ad7fc
+      - s-9ef1f294f8
+      - s-d6022511fb
+      - s-3206e07abc

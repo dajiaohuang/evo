@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-fc271bd41b
+      part: title
+    titleZh:
+      page: zh
+      section: s-bb4bdb626e
+      part: title
+    category: transition
+    startAge: 411
+    endAge: 407
+    regions:
+      - Rhynie Chert, Aberdeenshire, Scotland
+    clades:
+      - Rhyniognatha hirsti
+      - Insecta
+      - Myriapoda
+    summary:
+      page: en
+      section: s-fc271bd41b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-bb4bdb626e
+      part: body
+    claimIds:
+      - claim:event:rhyniognatha-contested-affinity
+    evidenceItems:
+      - statement: NHMUK PI IN 38234 preserves an isolated head fragment whose mandibles were interpreted in 2004 as dicondylic and possibly pterygote-like.
+        relation: supports
+        claimIds:
+          - claim:event:rhyniognatha-contested-affinity
+        referenceLinks:
+          - referenceId: engel-grimaldi-2004-rhyniognatha
+            relation: supports
+            pages: 627–630
+            figure: Figures 1–2
+            quoteLocator: Specimen and mandibular interpretation
+    uncertaintyItems:
+      - statement: Three-dimensional reanalysis in 2017 found the structures more compatible with a myriapod, possibly a scutigeromorph centipede; insect and flight calibrations are therefore contested.
+        relation: contradicts
+        claimIds:
+          - claim:event:rhyniognatha-contested-affinity
+        referenceLinks:
+          - referenceId: haug-haug-2017-rhyniognatha
+            relation: contradicts
+            pages: e3402
+            figure: Figures 1–7
+            quoteLocator: Re-documentation and conclusions
+  claims:
+    - subjectId: event:rhyniognatha-contested-affinity
+      claimKind: scientific
+      claimType: taxonomy
+      statement: NHMUK PI IN 38234 was interpreted from its mouthparts as a dicondylic insect with possible pterygote affinity in 2004, but three-dimensional reanalysis in 2017 found a myriapod, possibly centipede, interpretation more likely; it must not be used as an uncontested insect or flight calibration.
+      confidence: contested
+      confidenceRationale: Both incompatible primary interpretations concern the same named specimen, so retaining the disagreement is better supported than selecting one identification.
+      referenceLinks:
+        - referenceId: engel-grimaldi-2004-rhyniognatha
+          relation: supports
+          pages: 627–630
+          figure: Figures 1–2
+          quoteLocator: Mandibular interpretation; basal-insect discussion
+        - referenceId: haug-haug-2017-rhyniognatha
+          relation: contradicts
+          pages: e3402
+          figure: Figures 1–7
+          quoteLocator: Re-documentation; structural interpretation; Conclusions
+  claim-rationales.zh:
+    - 两项互不相容的一手研究针对同一具名标本；并列保留昆虫与多足类解释比选择单一身份更忠实。
+  claim-statements.zh:
+    - NHMUK PI IN 38234 曾在 2004 年依据口器被解释为双髁类昆虫并可能属于有翅类；但 2017 年的三维复核认为多足类、可能为蜈蚣的解释更合理，因此不得将其作为无争议的昆虫或飞行校准点。

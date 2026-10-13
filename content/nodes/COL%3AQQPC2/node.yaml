@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus colomai
+  displayName: Nymphargus colomai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QQPC2
+  sourceIndexes:
+    - name:
+        en: Nymphargus colomai
+        zh: Nymphargus colomai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QQPC2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/424
+            queryName: Nymphargus colomai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-153f1c33fd
+      - s-c7dcf84fba
+      - s-3ba85022a4
+      - s-fdb2102c4a
+      - s-76d0654d17
+      - s-72628193db
+      - s-12cccbabdf
+      - s-a0ab944401
+      - s-2dd365b055
+      - s-480ebad37d
+      - s-045c4d129a
+    zh:
+      - s-5c3ba69862
+      - s-6567f8abd0
+      - s-c6fc144952
+      - s-ccb6bfe096
+      - s-821073fe7c
+      - s-0a35c77b80
+      - s-c5f2b10a47
+      - s-136d4b652a
+      - s-598fa5ffa5
+      - s-4513cdc260
+      - s-92ab289e36

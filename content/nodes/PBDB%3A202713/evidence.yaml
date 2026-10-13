@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Meyerosuchus fuerstenbergianus
+    rank: species
+    sourceTaxonId: txn:202713
+    name:
+      en: Meyerosuchus fuerstenbergianus
+      zh: Meyerosuchus fuerstenbergianus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-a7d4b7f061
+            part: body
+          zh:
+            page: zh
+            section: s-68fe60b903
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-374aecd915
+            part: body
+          zh:
+            page: zh
+            section: s-566c6ae640
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-fbb90381bc
+            part: body
+          zh:
+            page: zh
+            section: s-cb793565ef
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:202713; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: H. v. Meyer. 1855. Zur Fauna der Vorwelt. Die Saurier des Muschelkalkes mit Rücksicht auf die Saurier aus Buntem Sandstein und Keuper [The Fauna of the Ancient World. The Saurians of the Muschelkalk with Regard to the Saurians of the Buntem Sandstone and Keuper]
+    occurrenceEvidence:
+      - occurrenceId: occ:985111
+        collectionId: col:118144
+        acceptedTaxonId: txn:202713
+        identifiedTaxonId: var:202713
+        identifiedName: Labyrinthodon fuerstenberganus n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:69393
+        bibliography: "H. v. Meyer. 1855. Zur Fauna der Vorwelt. Die Saurier des Muschelkalkes mit Rücksicht auf die Saurier aus Buntem Sandstein und Keuper [The Fauna of the Ancient World. The Saurians of the Muschelkalk with Regard to the Saurians of the Buntem Sandstone and Keuper]. Frankfurt am Main: Heinrich Keller."
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Freudenstadt
+        stratigraphy:
+          group: Middle Buntsandstein
+          formation: Hardegsen
+          member: Kristallsandstein
+        olderAgeMa: 248.6
+        youngerAgeMa: 247
+      - occurrenceId: occ:985112
+        collectionId: col:118145
+        acceptedTaxonId: txn:202713
+        taxonomicDifference: null
+        referenceId: ref:38050
+        bibliography: R. R. Schoch. 2011. How diverse is the temnospondyl fauna in the Lower Triassic of southern Germany?. Neues Jahrbuch für Geologie und Paläontologie Abhandlungen 261:49-60
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Calw
+        stratigraphy:
+          group: Middle Buntsandstein
+          formation: Hardegsen
+          member: null
+        olderAgeMa: 248.6
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-fbb90381bc
+            part: body
+          zh:
+            page: zh
+            section: s-cb793565ef
+            part: body
+        sourceIds: []

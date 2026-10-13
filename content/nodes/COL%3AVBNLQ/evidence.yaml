@@ -1,0 +1,224 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Haloarcula montana Liu et al., 2025
+    rank: species
+    sourceDatasetId: "2015"
+    identity:
+      method: Exact COL26.8 usage VBNLQ checked for full name Haloarcula montana Liu et al., 2025, authorship Liu et al., 2025, species rank, accepted status and sourceDatasetId 2015; pinned LPSN crosswalk maps this COL ID to record 65841.
+      scope: Nomenclatural usage crosswalk only; no complete biological species-concept equivalence inferred.
+      sourceIds:
+        - col
+        - lpsn
+    lifeStatusScope:
+      wild: Biological statements refer only to wild-origin cultured type strain(s) and observations reported in the cited paper.
+      domesticated: No domesticated or captive populations were studied or inferred.
+      fossil: Fossil evidence was not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 26
+        usage:
+          licenseAppliesTo: COL26.8 nomenclatural usage only
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          version: COL26.8 pinned 2026-08-20; accepted usage checked 2026-09-24
+          attribution: Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, DOI 10.48580/dgywk
+          licenseAssessment: identity-only
+          scope: Nomenclatural usage fields only; no biological claims are derived from COL.
+          url: https://www.checklistbank.org/dataset/316115/taxon/VBNLQ
+          stableId: VBNLQ
+          locator: "Pinned COL26.8 API usage VBNLQ: exact name, authorship, species rank, accepted status and sourceDatasetId 2015"
+      - id: lpsn
+        referenceId: ref-3072de1c-9c73-853e-a15b-8e6a7eec3493
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Nomenclatural source data and pinned crosswalk only
+          stableId: "65841"
+          attribution: Freese et al. (2026), List of Prokaryotic names with Standing in Nomenclature (LPSN), https://doi.org/10.1093/nar/gkaf1110
+          licenseAssessment: identity-only
+          scope: Release-pinned source-record nomenclature crosswalk only; no biological claims or full species-concept equivalence inferred.
+          locator: Exact release-pinned row COL VBNLQ -> LPSN 65841; row response SHA-256 3112d0bf8fd4644045ab91663648240a5fa55adb742335e78b420004e0f25184
+      - id: paper
+        referenceId: ref-2bfab92f-ac96-84bb-a416-e54dfbd34c8c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - scope
+          - attribution
+        metadataVariant: 0
+        usage:
+          stableId: 10.3390/biology14060615
+          accessedAt: 2026-09-24
+          locator: Taxon-specific species account and cited item sections; linked journal/PMC article and item-level open-access metadata
+          licenseAssessment: item-level-verified
+          scope: Article states open access under CC BY 4.0; article text and original material only; third-party items may have separate terms.
+          attribution: Liu et al. (2025), Genome-Based Reclassification of Two Haloarcula Species and Characterization of Haloarcula montana sp. nov., DOI 10.3390/biology14060615
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cells of type strain GH36T are described as motile, pleomorphic irregular granules 1.0–4.0 μm and Gram-negative; colonies are red, elevated and round, about 0.5 mm in diameter.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Results, phenotypic characterization; ‘Description of Haloarcula montana sp. nov.’
+            placeTimeScope: Cultured type strain GH36T and stated assay conditions.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: GH36T was isolated from a salt lake in China; this collection context alone does not establish ecosystem function or abundance.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; strain isolation account
+            placeTimeScope: One cultured type strain and reported sample source.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The authors use genome-based comparisons and taxonomic characterization to propose Haloarcula montana for strain GH36T.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; genome-based reclassification and phylogenetic analyses; species description
+            placeTimeScope: The strain and comparator genomes analyzed in the 2025 study; authors’ taxonomic inference only.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The reported type-strain source is a salt lake in China.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; strain isolation account
+            placeTimeScope: Single reported source locality at country-level precision; no wider range implied.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No systematic life-history study/search was performed; reproductive, developmental, behavioral and lifespan claims are not assessed.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed; no fossil presence or absence is claimed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No conservation assessment or current formal Red List record was assessed.
+    readerSections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-41397a2867
+            part: title
+          zh:
+            page: zh
+            section: s-9cc8834e0d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-41397a2867
+            part: body
+          zh:
+            page: zh
+            section: s-9cc8834e0d
+            part: body
+        sourceIds:
+          - paper
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5077285636
+            part: title
+          zh:
+            page: zh
+            section: s-fc3004a4d9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5077285636
+            part: body
+          zh:
+            page: zh
+            section: s-fc3004a4d9
+            part: body
+        sourceIds:
+          - paper
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-28d2da73fb
+            part: title
+          zh:
+            page: zh
+            section: s-6c0ca97234
+            part: title
+        text:
+          en:
+            page: en
+            section: s-28d2da73fb
+            part: body
+          zh:
+            page: zh
+            section: s-6c0ca97234
+            part: body
+        sourceIds:
+          - paper

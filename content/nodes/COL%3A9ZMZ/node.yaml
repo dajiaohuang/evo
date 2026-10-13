@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera thomei
+  displayName: Adenomera thomei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZMZ
+  sourceIndexes:
+    - name:
+        en: Adenomera thomei
+        zh: Adenomera thomei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZMZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/53
+            queryName: Adenomera thomei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/333
+            queryName: Leptodactylus thomei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-324a8d65b6
+      - s-cbe82bccb0
+      - s-0aacebfc8f
+      - s-825d4a9f74
+      - s-4813ebd24b
+      - s-93402a4326
+      - s-a463c307e1
+      - s-403daafce4
+      - s-5e82def109
+      - s-fcff61ed17
+    zh:
+      - s-d01fb217f6
+      - s-6edf89c1e0
+      - s-dd24aecb58
+      - s-eb613a122f
+      - s-a74a219644
+      - s-0ae1682864
+      - s-1f0304dd5f
+      - s-9027759cb0
+      - s-3604795df6
+      - s-250ff32fe8

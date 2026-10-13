@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Zapornia tabuensis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Zapornia tabuensis
+      en: Zapornia tabuensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-2b82f14491
+            part: body
+          en:
+            page: en
+            section: s-2ddb7c96a1
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4dab2e75bb
+            part: body
+          en:
+            page: en
+            section: s-7fea0db806
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-2183d9d40c
+            part: body
+          en:
+            page: en
+            section: s-8eae8beaca
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-d052f8c241
+            part: body
+          en:
+            page: en
+            section: s-66aa15d175
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetZaporniaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-ccc1c2b95d
+            part: body
+          en:
+            page: en
+            section: s-ea06098a35
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Zapornia tabuensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/CPPF9
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetZaporniaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Zapornia historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 2731–2740; each eBird and BirdTree crosswalk, za/po/am COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Porzana／Amaurornis 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Porzana or Amaurornis combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-e914c55b7c
+        part: body
+      en:
+        page: en
+        section: s-60e44160bd
+        part: body

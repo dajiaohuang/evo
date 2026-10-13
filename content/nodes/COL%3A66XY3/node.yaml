@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ansonia muelleri
+  displayName: Ansonia muelleri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66XY3
+  sourceIndexes:
+    - name:
+        en: Ansonia muelleri
+        zh: Ansonia muelleri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66XY3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/58
+            queryName: Ansonia muelleri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/155
+            queryName: Bufo muelleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e835bbfc54
+      - s-6a89e74bc6
+      - s-97f96bc231
+      - s-caaec1c2c2
+      - s-240e084724
+      - s-b0a6244c72
+      - s-31219f9627
+      - s-25ce613ead
+      - s-86e4241fce
+      - s-2b909b76db
+      - s-7e591f6a51
+      - s-a422894fa3
+    zh:
+      - s-9fc1c931d7
+      - s-73bc40ee1a
+      - s-7d7a1762bd
+      - s-d5d20dfca0
+      - s-af69b68c3f
+      - s-d36073c211
+      - s-5c2e8c730f
+      - s-5f871b873a
+      - s-2ceed20cfd
+      - s-fb2b48d435
+      - s-23f47d3b51
+      - s-540ef69325

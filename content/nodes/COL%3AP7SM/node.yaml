@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia gracilis
+  displayName: Caecilia gracilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SM
+  sourceIndexes:
+    - name:
+        en: Caecilia gracilis
+        zh: Caecilia gracilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/69
+            queryName: Caecilia gracilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/339
+            queryName: Caecilia vermiformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/166
+            queryName: Caecilia lumbricoidaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/167
+            queryName: Caecilia lumbricoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/491
+            queryName: Caecilia gracilis lumbricoidea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be40360b0c
+      - s-e6921600ea
+      - s-1b9c238c6d
+      - s-9e0adbc8a5
+      - s-d0877ef5a7
+      - s-51f1a3648a
+      - s-d7ddc0eee7
+      - s-1144f0d61a
+      - s-61fba3fbbd
+      - s-8790bfee6e
+      - s-c1ffb7de48
+      - s-c136e96557
+      - s-96fc36be2a
+      - s-80e49c8041
+      - s-484cd147e5
+      - s-d37404a19e
+      - s-fa03231f72
+      - s-715cbf1279
+      - s-e73c247a28
+    zh:
+      - s-8dc9396bbf
+      - s-37e3f219b5
+      - s-ed041909df
+      - s-9cf40aeeec
+      - s-cf37204332
+      - s-be44a6ff92
+      - s-b476294a93
+      - s-f17011ec22
+      - s-d8c411293a
+      - s-933580c9cb
+      - s-9296a347d4
+      - s-5a090b1b53
+      - s-dddc9326ff
+      - s-01407d623e
+      - s-b4d91af5e6
+      - s-05ab5122f0
+      - s-736e803b82
+      - s-03d3d64c53
+      - s-aee8b083c5

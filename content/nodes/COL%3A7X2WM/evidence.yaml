@@ -1,0 +1,256 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Lycianthes fortunensis J.Poore & E.Dean
+    authorship: J.Poore & E.Dean
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 43W
+        scientificName: Solanales Juss. ex Bercht. & J.Presl
+        authorship: Juss. ex Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 626XM
+        scientificName: Solanaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 628NX
+        scientificName: Solanoideae Burnett
+        authorship: Burnett
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV38J
+        scientificName: Capsiceae Dumort.
+        authorship: Dumort.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 5HJQ
+        scientificName: Lycianthes (Dunal) Hassl.
+        authorship: (Dunal) Hassl.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 7X2WM
+        scientificName: Lycianthes fortunensis J.Poore & E.Dean
+        authorship: J.Poore & E.Dean
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Matched exact Plazi sourceColUsageId to one accepted COL26.8 species usage, cross-checked exact taxon name/authorship and the pinned WFO 2026-06 identifier; no fuzzy name match was used.
+      scope: Accepted COL26.8 identity 7X2WM; source article treatment A31687B7FF971000FF1F1C6FDF42AC47; this routing does not claim full scientific-concept equivalence across all literature.
+      sourceIds:
+        - col
+        - wfo_2026_06
+        - plazi_lycianthes_archive
+        - dean_poore_kang_2020
+    lifeStatusScope:
+      wild: Claims are bounded to the field-collection and forest-habitat material reported in the cited treatment; the status and coverage of all populations are not assessed.
+      domesticated: Cultivated, domesticated, and escaped occurrences were not assessed by this source slice.
+      fossil: Fossil occurrence and geological age were not assessed by this source slice.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/7X2WM
+          stableId: col:7X2WM@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 7X2WM; exact name, authorship, rank, status, sourceDatasetId, and complete accepted parent chain.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 7X2WM. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: wfo_2026_06
+        referenceId: ref-7deb0c24-f585-8175-aa85-3f028b15cccb
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          stableId: wfo-1000023514
+          accessedAt: 2026-09-27
+          locator: The pinned Plazi projection retains wfo-1000023514; only this identifier and exact accepted-name link are used for identity cross-checking.
+          licenseAssessment: identity-only
+          scope: Exact accepted-name identity cross-check only.
+      - id: plazi_lycianthes_archive
+        referenceId: ref-3de98d45-4883-8176-a5e2-dc62299f6de0
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - licenseAssessment
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Extracted Plazi archive description records only; this does not apply to the cited journal article, PDF, or figures.
+          stableId: PlaziArchiveSha256:19af36d18abcf3f356cbb004c07efdd099e7f5fdd5c904a3b78fae53a4f057d8
+          accessedAt: 2026-09-27
+          locator: TreatmentBank description-extension rows 2-25 across three exact COL taxon usages. The source ZIP is absent from this checkout; its EML was not independently rechecked for this dossier batch.
+          licenseAssessment: aggregate-declaration-only
+          attribution: Plazi TreatmentBank, selected Lycianthes treatment records; archive declaration and import hashes are retained in data/sources/plazi-descriptions-import-ledger.json.
+          scope: Article-scoped extracted treatment records; not a complete species dossier.
+      - id: dean_poore_kang_2020
+        referenceId: ref-42879df9-2216-86ce-a27a-72133a3cbb63
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Bibliographic citation only; no article PDF, article prose, or figures are redistributed.
+          stableId: doi:10.11646/phytotaxa.471.2.2
+          locator: Taxon-specific discussion and collection summaries; article pages vary by COL taxon. Each claim gives its page range and Plazi row locator.
+          licenseAssessment: unknown
+          attribution: "Dean, Ellen, Poore, Jennifer, Kang, Hannah (2020): Three new species of Lycianthes (Solanaceae) from Panama. Phytotaxa 471 (2): 113-126."
+          scope: Cited taxonomic article; item-level reuse rights remain unknown.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: In its comparison with Lycianthes multiflora, the treatment distinguishes L. fortunensis by a rounded flower-bud tip, an elongated scarious and lobed calyx margin, and absence of calyx appendages.
+            originalLanguage: en
+            sourceIds:
+              - dean_poore_kang_2020
+              - plazi_lycianthes_archive
+            locator: "Plazi description-extension row 11; original sourceType=diagnosis; treatment https://treatment.plazi.org/id/A31687B7FF971000FF1F1C6FDF42AC47; Dean, Ellen, Poore, Jennifer, Kang, Hannah (2020): Three new species of Lycianthes (Solanaceae) from Panama. Phytotaxa 471 (2): 113-126. pages 118-121; archive SHA-256 19af36d18abcf3f356cbb004c07efdd099e7f5fdd5c904a3b78fae53a4f057d8."
+            placeTimeScope: Comparative diagnosis in the 2020 taxonomic treatment, pages 118-121. The traits are stated relative to L. multiflora and are not estimates of variation across all populations.
+            lifeStatus: The claim is bounded to the taxonomic material discussed in the diagnosis; the paragraph does not characterize the provenance or life status of every individual.
+        gaps:
+          - Only a comparative taxonomic diagnosis is represented; within-species variation, ontogeny, broader populations, and additional anatomical systems remain unassessed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The treatment reports flowering specimens collected from February through April and mature-fruit specimens collected from January through September.
+            originalLanguage: en
+            sourceIds:
+              - dean_poore_kang_2020
+              - plazi_lycianthes_archive
+            locator: "Plazi description-extension row 14; original sourceType=biology_ecology; treatment https://treatment.plazi.org/id/A31687B7FF971000FF1F1C6FDF42AC47; Dean, Ellen, Poore, Jennifer, Kang, Hannah (2020): Three new species of Lycianthes (Solanaceae) from Panama. Phytotaxa 471 (2): 113-126. pages 118-121; archive SHA-256 19af36d18abcf3f356cbb004c07efdd099e7f5fdd5c904a3b78fae53a4f057d8."
+            placeTimeScope: Collection-month summary for specimens cited in the 2020 treatment, pages 118-121; collection months do not establish continuous or complete annual phenology.
+            lifeStatus: The statement concerns dated taxonomic specimens; population status and complete seasonal coverage were not assessed.
+        gaps:
+          - Voucher collection months do not establish complete flowering or fruiting seasons, reproductive success, pollination, or a full life cycle.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The article associates reported records with cloud and premontane forests, often on slopes or beside roads and trails, at 730-1,645 m elevation.
+            originalLanguage: en
+            sourceIds:
+              - dean_poore_kang_2020
+              - plazi_lycianthes_archive
+            locator: "Plazi description-extension row 13; original sourceType=distribution; treatment https://treatment.plazi.org/id/A31687B7FF971000FF1F1C6FDF42AC47; Dean, Ellen, Poore, Jennifer, Kang, Hannah (2020): Three new species of Lycianthes (Solanaceae) from Panama. Phytotaxa 471 (2): 113-126. pages 118-121; archive SHA-256 19af36d18abcf3f356cbb004c07efdd099e7f5fdd5c904a3b78fae53a4f057d8."
+            placeTimeScope: Habitat and elevation reported for the treatment's cited localities in Panama, pages 118-121; this is not a complete ecological niche or sampling envelope.
+            lifeStatus: The treatment describes forest settings and taxonomic collections; it does not assess cultivated or escaped populations.
+        gaps:
+          - The treatment slice provides habitat and elevation context only; environmental tolerances, interactions, and sampling completeness remain unassessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No phylogenetic or population-genetic evidence is assessed in this source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The treatment reports L. fortunensis as endemic to Panama, with localities in Chiriquí, Veraguas, and the Ngäbe-Buglé comarca; an earlier locality was recorded under Bocas del Toro Province.
+            originalLanguage: en
+            sourceIds:
+              - dean_poore_kang_2020
+              - plazi_lycianthes_archive
+            locator: "Plazi description-extension row 13; original sourceType=distribution; treatment https://treatment.plazi.org/id/A31687B7FF971000FF1F1C6FDF42AC47; Dean, Ellen, Poore, Jennifer, Kang, Hannah (2020): Three new species of Lycianthes (Solanaceae) from Panama. Phytotaxa 471 (2): 113-126. pages 118-121; archive SHA-256 19af36d18abcf3f356cbb004c07efdd099e7f5fdd5c904a3b78fae53a4f057d8."
+            placeTimeScope: As-published distribution statement in the 2020 treatment, pages 118-121; it is not a current exhaustive range survey or an independently validated range map.
+            lifeStatus: The article's endemicity and locality wording is reported as attributed; the source does not separately classify every occurrence as wild, cultivated, or escaped.
+        gaps:
+          - The article-scoped localities and endemicity statement do not establish a current, complete range or temporal trend.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil evidence is assessed in this source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No conservation assessment, population trend, or threat evaluation is assessed in this source slice.

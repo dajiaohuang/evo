@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne
+  displayName: Pseudophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/733R
+  sourceIndexes:
+    - name:
+        en: Pseudophryne
+        zh: Pseudophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 733R
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/204
+            queryName: Pseudophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 297
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f054a231f
+      - s-3b56753dfb
+      - s-edd61cd333
+      - s-d3001a58f0
+      - s-068105e69c
+      - s-5d88c33964
+      - s-ea4e39cf4d
+      - s-e1bfa15b0b
+      - s-df3ff3b508
+      - s-e64b8420fe
+      - s-d205e3b4d3
+      - s-b1548e0dcc
+      - s-0e3b26d491
+      - s-0492a247f7
+    zh:
+      - s-467471762e
+      - s-e31b09b8d0
+      - s-889a07a63d
+      - s-a3a7b3b19a
+      - s-ee7e7ded7a
+      - s-ca283d4c52
+      - s-210b71ae2e
+      - s-c474445026
+      - s-fbf33602c4
+      - s-9ef19ceca3
+      - s-50d29b0194
+      - s-12238ffbf5
+      - s-9f50e2ae94
+      - s-5b860fd28e

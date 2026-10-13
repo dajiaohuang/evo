@@ -1,0 +1,213 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Paragalago Masters, Génin, Couette, Groves, Nash, Delpero & Pozzi, 2017
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Paragalago 属
+      en: Paragalago
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-9c292747c9
+            part: body
+          en:
+            page: en
+            section: s-95c3efa30e
+            part: body
+        sourceIds:
+          - taxonomy
+          - masters2017
+          - butynski2006
+          - pozzi2020
+          - harcourt1986_social
+          - genin2016
+          - mufindi_survey
+          - pande2003
+          - rondo2014
+          - uluguru2000
+          - miller2025
+      - topic: classification
+        text:
+          zh:
+            page: zh
+            section: s-5c10e807c9
+            part: body
+          en:
+            page: en
+            section: s-a941e890b3
+            part: body
+        sourceIds:
+          - masters2017
+          - pozzi2020
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/63JQJ
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: masters2017
+        referenceId: ref-b9093b98-e550-8f9e-a3ce-56ecfc61ac2a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持东部 Galagoides 类群的非单系性与 Paragalago 属级处理；为分类回顾，不是五种完整自然史。
+            en: Supports non-monophyly of the eastern Galagoides group and recognition of Paragalago; it is a taxonomic review, not a complete natural history of the five species.
+      - id: butynski2006
+        referenceId: ref-57d7080a-1818-860c-ab91-877230f4c921
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 提供三个沿岸种旧名、鸣声与区域分布的背景；不涵盖本属全部五种。
+            en: Provides historical name, vocal and regional-distribution context for three coastal species; it does not cover all five species in the genus.
+      - id: pozzi2020
+        referenceId: ref-72d9cc25-12b5-8b1c-a9be-450e4e1c7f42
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持复合群中的三个分子谱系；不作为野外分布或族群丰度来源。
+            en: Supports three molecular lineages within the complex; it is not a field distribution or abundance source.
+      - id: harcourt1986_social
+        referenceId: ref-3311bd57-c7c0-826d-a05a-c6ffe8485af0
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 局地肯尼亚沿岸行为研究，后续分类回顾将研究群体对应到 *P. cocos*。
+            en: Local behavioral study in coastal Kenya; a later taxonomic review linked the study populations to P. cocos.
+      - id: genin2016
+        referenceId: ref-cf9c66da-b0fb-8210-a62a-9870a0b11d3d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 局地南非 *P. granti* 观察和睡眠点研究；不代表全分布区。
+            en: Local South African observations and sleeping-site study of P. granti; not range-wide.
+      - id: mufindi_survey
+        referenceId: ref-54373d5e-665e-8e14-a4a8-1e725c54d8f9
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 提供 Mufindi 小型伽拉戈夜间调查和暂定鉴定，身份限制见 P. orinus 页。
+            en: Provides the Mufindi nocturnal galago survey and provisional identification; see the P. orinus page for identity limits.
+      - id: pande2003
+        referenceId: ref-331c6684-8aed-899b-a54a-e16e5dcf8f5d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 提供 Pande 2003 局地 *P. rondoensis* 调查和粗略密度外推，不能表示现今全种族群。
+            en: Provides the local 2003 P. rondoensis survey and rough density extrapolation at Pande; not a current species-wide population estimate.
+      - id: rondo2014
+        referenceId: ref-91398123-cf78-8cd4-aca2-a5439e7f3cbf
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 记录 Rondo 保护区六个地点之一的一笔夜间叫声，没有数量或趋势资料。
+            en: Records one nocturnal call at one of six Rondo Reserve sites; no population or trend data.
+      - id: rovero2009
+        referenceId: ref-6e126cb8-e5b9-85f1-ad9e-67b7649ae449
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 为 Udzungwa 山地物种和栖地背景回顾；作者明确指出部分叫声分类仍需确认。
+            en: Reviews Udzungwa montane species and habitat context; the authors note that some vocal taxonomic identifications need confirmation.
+      - id: taita2023
+        referenceId: ref-981d107a-f5b7-88f8-aa2e-767fd6dffe1e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 标题保留 Paragalago sp.，用于说明不可强行把 Taita 记录合并至特定接受种。
+            en: Retains Paragalago sp. in the title and supports not forcing Taita records into a particular accepted species.
+      - id: uluguru2000
+        referenceId: ref-11ea71a8-7787-82ea-ac1f-e735b1500dbf
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 汇整 2000 年保护区调查；支持属内山地矮伽拉戈的一项 Mkungwe 低海拔记录，不是种群调查。
+            en: Compiles 2000 reserve surveys; supports one low-elevation Mkungwe record for the mountain dwarf galago, not a population survey.
+      - id: miller2025
+        referenceId: ref-e6fd1741-bee3-8064-ab00-179fdb426265
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 提供 *P. orinus* 的物种级气候适生度情景；未来模型结果不是本属所有接受种的研究。
+            en: Provides species-level climate-suitability scenarios for P. orinus; the future model results do not cover every accepted species in this genus.
+    limitations:
+      zh:
+        page: zh
+        section: s-2ff841fe12
+        part: body
+      en:
+        page: en
+        section: s-ca12ecc90a
+        part: body

@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odorrana hainanensis
+    name:
+      en: Odorrana hainanensis
+      zh: Odorrana hainanensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Odorrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Odorrana hainanensis in the version 3 classification
+          zh: Odorrana hainanensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ac5150dd0b
+            part: body
+          zh:
+            page: zh
+            section: s-29700e9581
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2fad58a99a
+            part: body
+          zh:
+            page: zh
+            section: s-05c568f4b1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3759, 3760; Reference.csv rows 3910
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3759
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana hainanensis
+          - M
+          - "52.6"
+          - "21.1"
+          - "18"
+          - "7.6"
+          - "4.5"
+          - "1.9"
+          - "4"
+          - "5.7"
+          - NA
+          - NA
+          - "7.9"
+          - NA
+          - "16.1"
+          - NA
+          - NA
+          - "42.6"
+          - NA
+          - "31.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3760
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana hainanensis
+          - F
+          - "109.3"
+          - "40.5"
+          - "37.7"
+          - "11.8"
+          - "6.2"
+          - "5.2"
+          - "9.2"
+          - "10.6"
+          - NA
+          - NA
+          - "15.9"
+          - NA
+          - "29.8"
+          - NA
+          - NA
+          - "84.5"
+          - NA
+          - "63.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3910
+        values:
+          - Anura
+          - Odorrana_hainanensis
+          - "Wang, Y.-Y., Lau, M., Yang, J.-H., Chen, G., Liu, Z., Pang, H., & Yang, L. (2015). A new species of the genus Odorrana (Amphibia: Ranidae) and the first record of Odorrana bacboensis from China. Zootaxa, 3999, 235–254. https://doi.org/10.11646/zootaxa.3999.2.4"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FL
+      - TL
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48SFN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

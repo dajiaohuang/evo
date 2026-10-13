@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana graeca
+  displayName: Rana graeca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDR8
+  sourceIndexes:
+    - name:
+        en: Rana graeca
+        zh: Rana graeca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDR8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/53
+            queryName: Rana graeca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/150
+            queryName: Rana temporaria bosniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a4d54cae49
+      - s-cfd9c2bd83
+      - s-ac0ee6031c
+      - s-dba840d9fb
+      - s-40632f18c6
+      - s-3b2d15a62a
+      - s-23eb63da03
+      - s-c7313ace67
+      - s-9fc01d9874
+      - s-e61a84c1e3
+      - s-0cad2b89e3
+    zh:
+      - s-03b1be247e
+      - s-dba198809b
+      - s-bf424f9593
+      - s-14f73085a3
+      - s-5fa991046a
+      - s-3c6d7d4a09
+      - s-21b6e36caa
+      - s-856f071a49
+      - s-210dcc6556
+      - s-dd8d528cc3
+      - s-3f2553b937

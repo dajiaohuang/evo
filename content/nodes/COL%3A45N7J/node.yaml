@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana pleskei
+  displayName: Nanorana pleskei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7J
+  sourceIndexes:
+    - name:
+        en: Nanorana pleskei
+        zh: Nanorana pleskei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/183
+            queryName: Nanorana pleskei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/179
+            queryName: Rana pleskei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/180
+            queryName: Montorana ahli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/271
+            queryName: Nannorana pleskei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-74251fd2cf
+      - s-57d5bb230a
+      - s-3f4c7a6f90
+      - s-b6b1135f64
+      - s-8abe1212e6
+      - s-378a48df78
+      - s-e978a86a18
+      - s-8eda0bb11b
+      - s-4d9ea7a542
+      - s-ada08ab4e9
+      - s-c37bac6721
+      - s-cec476687d
+      - s-1fb1c0724a
+      - s-18a5858002
+      - s-b93e79f5b8
+      - s-1d4306f6f3
+      - s-14af6173ba
+      - s-838a24ac8f
+    zh:
+      - s-1b8a26ea66
+      - s-c63d8c4b42
+      - s-99ae87dac6
+      - s-402a043b00
+      - s-253b9f3d87
+      - s-a9ded60def
+      - s-af9b4cfec5
+      - s-897a75173b
+      - s-1a7293d438
+      - s-961e044c20
+      - s-6b3aa3e2a8
+      - s-8053cff7a9
+      - s-6ac8441f7b
+      - s-10f39b551f
+      - s-0236b5258f
+      - s-6ba6098f9a
+      - s-f455f5624b
+      - s-1722ece2b0

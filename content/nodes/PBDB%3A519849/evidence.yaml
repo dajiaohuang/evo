@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Testudo sahakyanae
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Testudo sahakyanae
+      en: Testudo sahakyanae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4c37f44303
+            part: body
+          en:
+            page: en
+            section: s-a8a518d252
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-45162f6e5f
+            part: body
+          en:
+            page: en
+            section: s-6003db3c57
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8aac5d7a44
+            part: body
+          en:
+            page: en
+            section: s-eeda63590d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9ae09623f2
+            part: body
+          en:
+            page: en
+            section: s-628f6bc6fb
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9f421fcc06
+            part: body
+          en:
+            page: en
+            section: s-a233a4ad08
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Testudo sahakyanae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=519849&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:519849; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:519849
+          selectedOccurrenceIds:
+            - occ:1706552
+            - occ:1706578
+            - occ:1706581
+            - occ:1706585
+            - occ:1706588
+            - occ:1706597
+            - occ:1706611
+            - occ:1706621
+            - occ:1706645
+          selectedCollectionIds:
+            - col:209755
+            - col:241910
+            - col:241911
+            - col:241913
+            - col:241914
+            - col:241915
+            - col:241916
+            - col:241918
+            - col:241923
+          sourceReferenceIds:
+            - ref:94700
+          originalIdentificationMappings:
+            - occurrenceId: occ:1706585
+              originalIdentifiedName: Testudo sahakyanae n. sp.
+              acceptedName: Testudo sahakyanae
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f13e5786e9
+        part: body
+      en:
+        page: en
+        section: s-65b2d035b9
+        part: body

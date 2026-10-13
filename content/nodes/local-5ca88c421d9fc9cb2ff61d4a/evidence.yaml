@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rhinella veredas
+    name:
+      en: Rhinella veredas
+      zh: Rhinella veredas
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Rhinella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-546ffa9316
+            part: body
+          zh:
+            page: zh
+            section: s-4ded17b8fb
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3c7036772c
+            part: body
+          zh:
+            page: zh
+            section: s-538c1dcc21
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5454, 5455; Reference.csv rows 2759
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5454
+        values:
+          - Bufonidae
+          - Rhinella
+          - Rhinella veredas
+          - F
+          - "101.9"
+          - "28"
+          - "34.2"
+          - "10.7"
+          - "7.3"
+          - NA
+          - "10.8"
+          - "6.9"
+          - NA
+          - "5.2"
+          - NA
+          - "3.8"
+          - "21.6"
+          - "21.9"
+          - NA
+          - "34.8"
+          - NA
+          - "21.9"
+          - "39.8"
+          - "20.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.1"
+      - rowNumber: 5455
+        values:
+          - Bufonidae
+          - Rhinella
+          - Rhinella veredas
+          - M
+          - "98.3"
+          - "27.5"
+          - "33.9"
+          - "10.9"
+          - "7.1"
+          - NA
+          - "10.6"
+          - "6.7"
+          - NA
+          - "5"
+          - NA
+          - "3.6"
+          - "20.9"
+          - "21.5"
+          - NA
+          - "34.6"
+          - NA
+          - "21.5"
+          - "39.3"
+          - "19.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "15.3"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2759
+        values:
+          - Anura
+          - Rhinella_veredas
+          - Brandao, R., Maciel, N., & Sebben, A. (2009). A New Species of Chaunus from Central Brazil (Anura; Bufonidae). Journal of Herpetology, 41, 309-316. https://doi.org/10.1670/0022-1511(2007)41[309:ANSOCF]2.0.CO;2
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4S7Q8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

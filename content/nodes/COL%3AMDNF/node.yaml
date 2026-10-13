@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa capitana
+  displayName: Bolitoglossa capitana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDNF
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa capitana
+        zh: Bolitoglossa capitana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDNF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/89
+            queryName: Bolitoglossa capitana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5de039f17
+      - s-9f643454d6
+      - s-9fb51e90e0
+      - s-0fc0b47a70
+      - s-dabd6b185c
+      - s-8d13379a0c
+      - s-e7b5548f0f
+      - s-0d18c32131
+      - s-9151da3d4a
+      - s-9563c4427c
+    zh:
+      - s-7c8038b0b0
+      - s-7405e4b905
+      - s-18ec0ad022
+      - s-e09d480574
+      - s-ef1df5ae87
+      - s-e82904b094
+      - s-18cee147c2
+      - s-55c6843f27
+      - s-cad8713e3b
+      - s-3f6dd8316a

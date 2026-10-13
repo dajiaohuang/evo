@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Psephoderma alpinum
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Psephoderma alpinum
+      en: Psephoderma alpinum
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2cd7535574
+            part: body
+          en:
+            page: en
+            section: s-9fb2f80285
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0ea5980f88
+            part: body
+          en:
+            page: en
+            section: s-44463a2fb3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7d02c0a35d
+            part: body
+          en:
+            page: en
+            section: s-7b607b7c8c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-361d8f75c8
+            part: body
+          en:
+            page: en
+            section: s-25532355bd
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-20c7b494e2
+            part: body
+          en:
+            page: en
+            section: s-4b2988356c
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Psephoderma alpinum
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=56516&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:56516; original response record indices retained in data/sources/sauropterygia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 262ff66f07b86b04952b63768d1a1ff40af059166c0f8e11f63f9ed76019c860
+          pbdbTaxonId: txn:56516
+          selectedOccurrenceIds:
+            - occ:382582
+            - occ:389770
+            - occ:389771
+            - occ:1384346
+            - occ:1384355
+            - occ:1419207
+            - occ:1419208
+          selectedCollectionIds:
+            - col:36377
+            - col:37321
+            - col:37322
+            - col:189823
+            - col:195671
+            - col:38121
+          sourceReferenceIds:
+            - ref:9757
+            - ref:9752
+            - ref:63818
+            - ref:66945
+            - ref:66946
+          originalIdentificationMappings:
+            - occurrenceId: occ:1384346
+              originalIdentifiedName: Placochelys stoppanii
+              acceptedName: Psephoderma alpinum
+              difference: null
+            - occurrenceId: occ:1419208
+              originalIdentifiedName: Placochelys stoppanii
+              acceptedName: Psephoderma alpinum
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f254207d09
+        part: body
+      en:
+        page: en
+        section: s-5705a8cfac
+        part: body

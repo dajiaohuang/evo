@@ -1,0 +1,538 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kurixalus odontotarsus (Ye & Fei in Ye, Fei & Hu, 1993)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kurixalus odontotarsus
+      zh: Kurixalus odontotarsus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f4ee0d1ba4
+            part: title
+          zh:
+            page: zh
+            section: s-a1d5f4a141
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f4ee0d1ba4
+            part: body
+          zh:
+            page: zh
+            section: s-a1d5f4a141
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-98514a92e8
+            part: title
+          zh:
+            page: zh
+            section: s-58f93a77e2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-98514a92e8
+            part: body
+          zh:
+            page: zh
+            section: s-58f93a77e2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-81b34b351a
+            part: title
+          zh:
+            page: zh
+            section: s-ee499844eb
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-81b34b351a
+            part: body
+          zh:
+            page: zh
+            section: s-ee499844eb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d685c827f5
+            part: title
+          zh:
+            page: zh
+            section: s-173f271baf
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-d685c827f5
+            part: body
+          zh:
+            page: zh
+            section: s-173f271baf
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d98a398257
+            part: title
+          zh:
+            page: zh
+            section: s-67ede907f7
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-d98a398257
+            part: body
+          zh:
+            page: zh
+            section: s-67ede907f7
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f7c27be7a4
+            part: title
+          zh:
+            page: zh
+            section: s-6c5f629e28
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f7c27be7a4
+            part: body
+          zh:
+            page: zh
+            section: s-6c5f629e28
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-17083eebc5043c20a2612c9f6cc6362e
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-9636e52868ebffdde4d2bea5
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-053aeeec40b4007c1486b67f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7d8e8ce075
+            part: title
+          zh:
+            page: zh
+            section: s-4f97e942b6
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-7d8e8ce075
+            part: body
+          zh:
+            page: zh
+            section: s-4f97e942b6
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a29c4ad675
+            part: title
+          zh:
+            page: zh
+            section: s-fba90e8a67
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a29c4ad675
+            part: body
+          zh:
+            page: zh
+            section: s-fba90e8a67
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b64f664075
+            part: title
+          zh:
+            page: zh
+            section: s-130db364d3
+            part: title
+        sourceIds:
+          - primary-pmc11096727-3rg4p
+        text:
+          en:
+            page: en
+            section: s-b64f664075
+            part: body
+          zh:
+            page: zh
+            section: s-130db364d3
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-59503431b8
+            part: title
+          zh:
+            page: zh
+            section: s-523daae137
+            part: title
+        sourceIds:
+          - primary-pmc10486437-3rg4p
+        text:
+          en:
+            page: en
+            section: s-59503431b8
+            part: body
+          zh:
+            page: zh
+            section: s-523daae137
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kurixalus odontotarsus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3RG4P
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5099; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5102 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4895; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2508, 2509; Reference.csv rows 580
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc11096727-3rg4p
+        referenceId: ref-963b3c84-cba5-47d1-a90b-7a90ce06d61a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus odontotarsus: Species ecology treatment in Ha Tinh record study; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10486437-3rg4p
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus odontotarsus: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b26b182857
+        part: body
+      zh:
+        page: zh
+        section: s-b6bc32c1ae
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-17083eebc5043c20a2612c9f6cc6362e
+      sourceRowId: Anf5099
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5099
+        bibliographyRowId: Anf5102
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Kurixalus eiffingeri
+        candidateBibliographyRowIds:
+          - Anf5102
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-9636e52868ebffdde4d2bea5
+        scientificName: Kurixalus odontotarsus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-053aeeec40b4007c1486b67f
+        scientificName: Kurixalus odontotarsus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.12.e122598
+        referenceId: ref-963b3c84-cba5-47d1-a90b-7a90ce06d61a
+        sourceKey: primary-pmc11096727-3rg4p
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11096727/article.xml
+        sourceConcept: Kurixalus odontotarsus
+        evidenceRead: "Kurixalus odontotarsus: Species ecology treatment in Ha Tinh record study; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Leaves near large streams
+              zh: 大溪流附近的叶片
+            referenceId: ref-963b3c84-cba5-47d1-a90b-7a90ce06d61a
+            sourceKey: primary-pmc11096727-3rg4p
+            locator: "Kurixalus odontotarsus: Species ecology treatment in Ha Tinh record study; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-daadab9f9c
+                part: body
+              zh:
+                page: zh
+                section: s-890cf7a771
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani13172754
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        sourceKey: primary-pmc10486437-3rg4p
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10486437/article.xml
+        sourceConcept: 2023 Table2 Kurixalus odontotarsus sequence row
+        evidenceRead: "Kurixalus odontotarsus: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Marker availability in the 2023 island-origin comparison
+              zh: 2023 年岛屿起源比较的标记覆盖
+            referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+            sourceKey: primary-pmc10486437-3rg4p
+            locator: PMC10486437 XML Methods2.1/Table2; Results3.1/Table3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a044a5f910
+                part: body
+              zh:
+                page: zh
+                section: s-63190b0a31
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

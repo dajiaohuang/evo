@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus erythrophthalmus
+  displayName: Philautus erythrophthalmus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5FV
+  sourceIndexes:
+    - name:
+        en: Philautus erythrophthalmus
+        zh: Philautus erythrophthalmus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5FV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/47
+            queryName: Philautus erythrophthalmus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cbc56f31e5
+      - s-2508c9751d
+      - s-7622f9e315
+      - s-26af9c5cc0
+      - s-668f9285c2
+      - s-ce76557e07
+      - s-132397fcd3
+      - s-774e7ed0aa
+      - s-d6834507d9
+    zh:
+      - s-ca8f9b3bd1
+      - s-cf61aa3096
+      - s-773984257d
+      - s-26c6b2a588
+      - s-0bade1acb8
+      - s-d21b36dade
+      - s-3e7f09a5e8
+      - s-54499c301d
+      - s-fecfad4b12

@@ -1,0 +1,186 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Massetognathus pascuali
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Massetognathus pascuali
+      en: Massetognathus pascuali
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e8c092728a
+            part: body
+          en:
+            page: en
+            section: s-05e72d4cca
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3777418bd5
+            part: body
+          en:
+            page: en
+            section: s-267e413428
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4f856facbb
+            part: body
+          en:
+            page: en
+            section: s-b467790f89
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-94f4227406
+            part: body
+          en:
+            page: en
+            section: s-7a9bb1fca9
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f4aa03699e
+            part: body
+          en:
+            page: en
+            section: s-17eee61a64
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Massetognathus pascuali
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=80893&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:80893; original response record indices retained in data/sources/other-synapsida-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f
+          pbdbTaxonId: txn:80893
+          selectedOccurrenceIds:
+            - occ:149868
+            - occ:272319
+            - occ:573796
+            - occ:573797
+            - occ:573798
+            - occ:573799
+            - occ:1417957
+          selectedCollectionIds:
+            - col:13271
+            - col:26092
+            - col:60300
+            - col:60301
+            - col:60302
+            - col:13003
+          sourceReferenceIds:
+            - ref:13754
+            - ref:7234
+            - ref:17303
+            - ref:17321
+            - ref:66779
+          originalIdentificationMappings:
+            - occurrenceId: occ:149868
+              originalIdentifiedName: Massetognathus teruggii
+              acceptedName: Massetognathus pascuali
+              difference: null
+            - occurrenceId: occ:573796
+              originalIdentifiedName: Massetognathus pascuali n. gen. n. sp.
+              acceptedName: Massetognathus pascuali
+              difference: null
+            - occurrenceId: occ:573797
+              originalIdentifiedName: Massetognathus teruggii n. sp.
+              acceptedName: Massetognathus pascuali
+              difference: null
+            - occurrenceId: occ:573798
+              originalIdentifiedName: Massetognathus major n. sp.
+              acceptedName: Massetognathus pascuali
+              difference: null
+            - occurrenceId: occ:573799
+              originalIdentifiedName: Megagomphodon oligodens n. gen. n. sp.
+              acceptedName: Massetognathus pascuali
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-80f7d64d34
+        part: body
+      en:
+        page: en
+        section: s-9f47998056
+        part: body

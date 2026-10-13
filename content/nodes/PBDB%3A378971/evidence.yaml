@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Abiadisaurus witteni
+    rank: species
+    sourceTaxonId: txn:378971
+    name:
+      en: Abiadisaurus witteni
+      zh: Abiadisaurus witteni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-efded851f7
+            part: body
+          zh:
+            page: zh
+            section: s-b0c1c2fd82
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-d92251019b
+            part: body
+          zh:
+            page: zh
+            section: s-005c560d86
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Abiadisaurus witteni
+          zh: Abiadisaurus witteni 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-c7b45ebf04
+            part: body
+          zh:
+            page: zh
+            section: s-1896a42b77
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:378971; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+    occurrenceEvidence:
+      - occurrenceId: occ:1423656
+        collectionId: col:197720
+        acceptedTaxonId: txn:378971
+        identifiedName: Abiadisaurus witteni n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30410
+        bibliography: "R. J. Damiani. 2001. A systematic revision and phylogenetic analysis of Triassic mastodonsauroids (Temnospondyli: Stereospondyli). Zoological Journal of the Linnean Society 133(4):379-482"
+        locality:
+          countryCode: ET
+          stateProvince: Tigray
+          county: null
+        stratigraphy:
+          group: null
+          formation: Adigrat Sandstone
+          member: null
+        olderAgeMa: 237
+        youngerAgeMa: 161.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Abiadisaurus witteni
+          zh: Abiadisaurus witteni 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-c7b45ebf04
+            part: body
+          zh:
+            page: zh
+            section: s-1896a42b77
+            part: body
+        sourceIds: []

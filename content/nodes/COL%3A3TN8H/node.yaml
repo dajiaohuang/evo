@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus viridis
+  displayName: Leptodactylus viridis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN8H
+  sourceIndexes:
+    - name:
+        en: Leptodactylus viridis
+        zh: Leptodactylus viridis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN8H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/447
+            queryName: Leptodactylus viridis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2860c69518
+      - s-14ac6a7412
+      - s-b3d69c6fba
+      - s-521dda6f0b
+      - s-398283bab9
+      - s-6a28d22477
+      - s-02b415ef7d
+      - s-231d7a768f
+      - s-f65ffad8a2
+      - s-e55b769b7d
+      - s-71fb30ae76
+      - s-fa9a08f014
+      - s-7d2a554c01
+    zh:
+      - s-f3ac814216
+      - s-e3ea0dfc89
+      - s-3aca67e157
+      - s-762bde9ac6
+      - s-3052bb2f74
+      - s-44cebb2490
+      - s-fb7f814531
+      - s-4558a89dba
+      - s-e70f21c09d
+      - s-6788300304
+      - s-e1d4abd8b5
+      - s-381b59ed51
+      - s-82bf26a4e0

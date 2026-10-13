@@ -1,0 +1,6 @@
+## One-sided flowers and two alternative appendages {#s-2983bb54d8}
+The Brazilian Flora 2020 v393.147 morphology field records star-shaped hairs on young stems. Leaves are elliptic or ovate, with acute tips and heart-shaped or blunt bases; their margins are entire or scalloped and lack cilia. Three main veins begin above the base, with two faint intramarginal veins. The underside is densely covered by sessile star-shaped hairs, tree-like hairs or stalked star-shaped hairs. Flowers are secund, arranged on one side of the axis. The bell-shaped hypanthium has a persistent calyx with truncate lobes; each flower has five petals. The anther connective is prolonged, and its appendage is described as two ventral lobes or one dorsal tooth. White anthers have one small pore, and the ovary is hairless. The alternatives are preserved as source descriptions, not as a quantified account of variation.
+
+## A terrestrial habitat label {#s-0420bdb6c0}
+The habitat field records “terrícola,” meaning terrestrial. It supplies no collection locality, survey date or range coverage, and does not specify wild, cultivated, managed or fossil material. The field is a category rather than a complete ecological account.
+

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax puxiongensis
+  displayName: Oreolalax puxiongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74SJT
+  sourceIndexes:
+    - name:
+        en: Oreolalax puxiongensis
+        zh: Oreolalax puxiongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74SJT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/225
+            queryName: Oreolalax puxiongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/254
+            queryName: Scutiger puxiongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0c56af5307
+      - s-c57ee893f9
+      - s-08e85bbaae
+      - s-bd96307576
+      - s-cf3abf972b
+      - s-2f2f899895
+      - s-65ffe022c8
+      - s-877ad95865
+      - s-ac50ae77be
+      - s-8e763adb83
+    zh:
+      - s-c54e1b6e93
+      - s-b35cddceee
+      - s-4aca41425d
+      - s-6e9937f3ad
+      - s-5add0abd1f
+      - s-44b5c7ee05
+      - s-a06d564297
+      - s-34e0199c51
+      - s-ff1284c84b
+      - s-34f873ae21

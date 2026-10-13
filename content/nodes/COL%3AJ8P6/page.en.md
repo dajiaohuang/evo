@@ -1,0 +1,44 @@
+## Ecological evidence {#s-8d1e921a31}
+A study on Costa Rica's Osa Peninsula compared seed-laden latrine sites near spider-monkey sleeping locations with control sites. Camera traps recorded vertebrate visits, and sampling reported higher seedling abundance and dung-beetle biomass at those sites. The results concern sampled forest sites and indicators; they do not directly estimate forest-wide regeneration or the effects of all spider monkeys.
+
+## Ecological evidence {#s-098fc2d2ab}
+At Barro Colorado Island in Panama, a tracking study analyzed six months of movement by one subadult female Geoffroy's spider monkey. Selected movement steps were positively associated with canopy height, distance from canopy gaps using an 8-metre cutoff, and crown thickness. The model's mean cross-validation Spearman correlation was 0.94; this is an individual model result, not a species-wide movement preference.
+
+## Ecological evidence {#s-77f557ec6a}
+In the study's sample of fruit-investigation behavior, Geoffroy's spider monkeys had the highest sniffing rate among the three primates studied, above white-faced capuchins and mantled howlers. The study also compared nasal-turbinate area, but geographic provenance, collection dates and wild or captive status were not reported for its 15 spider-monkey skulls, so the anatomical sample does not describe species-wide variation.
+
+## The 2015 life-history entry and this name {#s-fad79fe0eb}
+Ateles geoffroyi is accepted in pinned COL26.8 within Atelidae. This page compares the same-name historical life-history entry using 7 focal fields, each supported by cited species-level sparse-table rows with matching name and family. Reported summaries can still include historical taxonomic inheritance; a matching row name does not remove that influence.
+
+## Different stages in the mass fields {#s-b69a9247b7}
+Historical summary values are adult body mass 7267.5 g; mass at birth or hatching 426 g. Adult mass can combine males, females and adults of unspecified sex; birth/hatching mass describes a different life stage. These are not a longitudinal series of the same individuals or a species-wide range of individual masses.
+
+## Reproduction and developmental timing {#s-4dcd5deac3}
+Available compilation fields are female maturity field (defined by the source as age at first conception) 1964.79 d; offspring per litter or eggs per clutch 1 offspring/eggs; conception or fertilization to birth 229.19 d; age of dependence on food other than maternal milk 818.68 d; d denotes days. The litter/clutch field combines offspring or egg counts, and a fractional summary does not mean a single event produced a fractional individual. Timing fields refer to different events and cannot be exchanged for one uniform reproductive cycle.
+
+## A longest record differs from usual lifespan {#s-7ec7a0cb2b}
+The archive’s maximum_longevity_y value is 48 years, taking the largest record in the collected material under the source method. It is not typical lifespan, mean wild lifespan, a survival ceiling for every individual or a current repeatedly attainable record.
+
+## How to trace these values to sources {#s-f9b4719a03}
+Same-name sparse rows carry source labels including Jones, K., Bielby, J., Cardillo, M. et al., 2009; de Magalhaes and Costa, 2009; Ernest et al., 2003; Ricklefs, 2010b, among others. This batch’s archive retains field-specific raw row numbers, values and labels, plus the final table’s complete reference explanations. A label may represent a primary paper, book or other database. Row counts are not numbers of measured individuals, and repeated citations are not independent experimental replication.
+
+## Read this historical record through food and foraging position {#s-b11b320305}
+Ateles geoffroyi is accepted in pinned COL26.8 within Atelidae. This page compares the same-name, same-family EltonTraits 1.0 record through 3 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+
+## Relative weights of food categories {#s-4fe2fa3da5}
+The archive’s nonzero food weights are fruit 60%; invertebrates 10%; unspecified vertebrates 10%; seeds, nuts and spores included in this category 10%; other plant material (the source category also includes fungi) 10%. Code ABC pools high, reasonable and partial confidence; some estimates can borrow from an ecologically similar congener. ABC cannot be rewritten as direct observations of this species. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+
+## Mammalian foraging-stratum assignment {#s-636731ddb2}
+The entry is assigned Ar: arboreal; code A records compiler confidence in source and assignment. Metadata collectively attributes mammalian stratum assignments to Nowak (1999). This is a category assignment, not a percentage of time among strata, and does not mean the species acts only there.
+
+## Activity periods can occur together {#s-334b487e75}
+The archive marks feeding activity during daytime as 1. Several fields can be 1 together; they are not proportions adding to a daily time budget or schedules shared by every day, season and site. Activity certainty is ABC and can still use ecologically similar congeneric material; genus/family typical activity values do not fill gaps here.
+
+## Trace each field group to its source labels {#s-11805c4d29}
+The used groups carry labels Ref_1, metadata:Nowak1999. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+
+## Evidence limits {#s-c61dd1cda9}
+This introduction combines sleeping-site, single-individual movement and comparative food-investigation studies. Sites, individuals and measures differ across the research; nasal-turbinate specimen provenance is unknown, and an individual movement model is not a population-level habitat-use study. Source-linked.
+This batch uses historical same-name records from the 2015 life-history archive. Values are reported compilation medians or averages of the two middle values, except that maximum longevity uses the largest record found. They are not direct measurements of one individual, individual variation ranges, mean wild lifespans or current population surveys. The compilation can share and inherit data across historical species and subspecies. Matching name and family and the presence of same-name sparse rows support the association here; they do not establish equivalence to COL26.8 concepts or remove all inherited components from the reported summaries. Wild or captive conditions are not uniformly confirmed here, and underlying publications have not been individually reviewed. Diet, behavior, current range, conservation and missing fields require other sources;
+This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+

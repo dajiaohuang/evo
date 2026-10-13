@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis larutensis
+  displayName: Ichthyophis larutensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTRZ
+  sourceIndexes:
+    - name:
+        en: Ichthyophis larutensis
+        zh: Ichthyophis larutensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTRZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/410
+            queryName: Ichthyophis larutensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/401
+            queryName: Caudacaecilia larutensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d357111774
+      - s-f97d5c0308
+      - s-73b5b68df3
+      - s-58b1cabe1f
+      - s-5e8731d7a2
+      - s-67e0c81153
+      - s-11c00f576f
+      - s-39c00bebe0
+      - s-4a33bc97be
+    zh:
+      - s-819763b295
+      - s-dcd85cb880
+      - s-c85b59fd26
+      - s-d63e7c8bf7
+      - s-f7b3d3c3e7
+      - s-b56fd6e6b1
+      - s-1459ab6458
+      - s-007c43a97e
+      - s-745d8404d4

@@ -1,0 +1,710 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyperolius viridiflavus (Duméril & Bibron, 1841)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyperolius viridiflavus
+      zh: Hyperolius viridiflavus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7035ed97f3
+            part: title
+          zh:
+            page: zh
+            section: s-1a983c199a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7035ed97f3
+            part: body
+          zh:
+            page: zh
+            section: s-1a983c199a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e67ce41400
+            part: title
+          zh:
+            page: zh
+            section: s-c7a66b2d8a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e67ce41400
+            part: body
+          zh:
+            page: zh
+            section: s-c7a66b2d8a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-667fa4b60f
+            part: title
+          zh:
+            page: zh
+            section: s-be806275ab
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-667fa4b60f
+            part: body
+          zh:
+            page: zh
+            section: s-be806275ab
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2deb349fa8
+            part: title
+          zh:
+            page: zh
+            section: s-66733468d4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-2deb349fa8
+            part: body
+          zh:
+            page: zh
+            section: s-66733468d4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ca4fd83468
+            part: title
+          zh:
+            page: zh
+            section: s-ddd5ac7a56
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+          - Dry_warm
+        text:
+          en:
+            page: en
+            section: s-ca4fd83468
+            part: body
+          zh:
+            page: zh
+            section: s-ddd5ac7a56
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-595f41a4f9
+            part: title
+          zh:
+            page: zh
+            section: s-b26244b5fd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-595f41a4f9
+            part: body
+          zh:
+            page: zh
+            section: s-b26244b5fd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-bc71db6067
+            part: title
+          zh:
+            page: zh
+            section: s-2c16aa9b73
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-bc71db6067
+            part: body
+          zh:
+            page: zh
+            section: s-2c16aa9b73
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-4ae2b3960b
+            part: title
+          zh:
+            page: zh
+            section: s-9f4a1f6cd0
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-4ae2b3960b
+            part: body
+          zh:
+            page: zh
+            section: s-9f4a1f6cd0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-af56c6cc3c
+            part: title
+          zh:
+            page: zh
+            section: s-54ce4104ab
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-af56c6cc3c
+            part: body
+          zh:
+            page: zh
+            section: s-54ce4104ab
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-1119405cd58b770e6236bd6d0e715fe8
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-02f3d65b97285a59b32d3961
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-859d91db6b3f743cde0f6696
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bac86c0f86
+            part: title
+          zh:
+            page: zh
+            section: s-753efcc8c9
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-bac86c0f86
+            part: body
+          zh:
+            page: zh
+            section: s-753efcc8c9
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cad09a0447
+            part: title
+          zh:
+            page: zh
+            section: s-b345c585be
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-cad09a0447
+            part: body
+          zh:
+            page: zh
+            section: s-b345c585be
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f3409bc1eb
+            part: title
+          zh:
+            page: zh
+            section: s-53b7394ac5
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1871"
+        text:
+          en:
+            page: en
+            section: s-f3409bc1eb
+            part: body
+          zh:
+            page: zh
+            section: s-53b7394ac5
+            part: body
+        sourceRowNumber: 1688
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-59f5a58322
+            part: title
+          zh:
+            page: zh
+            section: s-614a849bc4
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nr2m
+        text:
+          en:
+            page: en
+            section: s-59f5a58322
+            part: body
+          zh:
+            page: zh
+            section: s-614a849bc4
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-914e20d2af
+            part: title
+          zh:
+            page: zh
+            section: s-56c6600465
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nr2m
+        text:
+          en:
+            page: en
+            section: s-914e20d2af
+            part: body
+          zh:
+            page: zh
+            section: s-56c6600465
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-53eee6ea8c
+            part: title
+          zh:
+            page: zh
+            section: s-ca72aa3d05
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nr2m
+        text:
+          en:
+            page: en
+            section: s-53eee6ea8c
+            part: body
+          zh:
+            page: zh
+            section: s-ca72aa3d05
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1ed486bdd5
+            part: title
+          zh:
+            page: zh
+            section: s-603bded068
+            part: title
+        sourceIds:
+          - primary-pmc13072372-3nr2m
+        text:
+          en:
+            page: en
+            section: s-1ed486bdd5
+            part: body
+          zh:
+            page: zh
+            section: s-603bded068
+            part: body
+      - topic: limitations
+        title:
+          en: Scope of these records
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-62adee2aa0
+            part: body
+          zh:
+            page: zh
+            section: s-1923c14b99
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyperolius viridiflavus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NR2M
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3228; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3229 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2803, 2804, 2805, 2806, 2807, 2808, 2809, 2810, 2811, 2812, 2813; Picture measurement data rows 582; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1688, 1689, 1690, 1691, 1692, 1693; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc13072372-3nr2m
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hyperolius viridiflavus: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d2a9ee0c15
+        part: body
+      zh:
+        page: zh
+        section: s-b5c13e3b22
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-1119405cd58b770e6236bd6d0e715fe8
+      sourceRowId: Anf3228
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf3228
+        bibliographyRowId: Anf3229
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Hyperolius vilhenai
+        candidateBibliographyRowIds:
+          - Anf3229
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-02f3d65b97285a59b32d3961
+        scientificName: Hyperolius viridiflavus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-859d91db6b3f743cde0f6696
+        scientificName: Hyperolius viridiflavus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-3nr2m
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Hyperolius viridiflavus compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Hyperolius viridiflavus: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nr2m
+            locator: PMC13072372 XML TablesA2/A3 namedrow Hyperolius viridiflavus;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1761695682
+                part: body
+              zh:
+                page: zh
+                section: s-0b8afdd505
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nr2m
+            locator: PMC13072372 XML TableA4 row27;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-305719a6ad
+                part: body
+              zh:
+                page: zh
+                section: s-54bafb1689
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nr2m
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row27
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9c54d0b787
+                part: body
+              zh:
+                page: zh
+                section: s-c2fc2be6d1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-3nr2m
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-531dbf5c77
+                part: body
+              zh:
+                page: zh
+                section: s-8048b9f966
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

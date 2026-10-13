@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis brevifrons
+  displayName: Pristimantis brevifrons
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W8HH
+  sourceIndexes:
+    - name:
+        en: Pristimantis brevifrons
+        zh: Pristimantis brevifrons
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W8HH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/158
+            queryName: Pristimantis brevifrons
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/285
+            queryName: Eleutherodactylus brevifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9cd3b4b5df
+      - s-ca1d89d241
+      - s-929c13b216
+      - s-1b243ba173
+      - s-fb8ea1f9c7
+      - s-f1b0535ac3
+      - s-f8c2af1cfa
+      - s-3bafb5a13b
+      - s-bf5a6abf26
+    zh:
+      - s-e6a4b43c50
+      - s-b623a51d83
+      - s-d94d6d4c74
+      - s-66fd2600d4
+      - s-4aacc2805c
+      - s-1bb99fa9ee
+      - s-4c80ff9769
+      - s-5c8aed2959
+      - s-98923fcbc9

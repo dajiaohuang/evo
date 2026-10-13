@@ -1,0 +1,128 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena oxyrhynchus
+  displayName: Ptychadena oxyrhynchus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9R8
+  sourceIndexes:
+    - name:
+        en: Ptychadena oxyrhynchus
+        zh: Ptychadena oxyrhynchus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9R8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/488
+            queryName: Ptychadena oxyrhynchus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/20
+            queryName: Rana oxyrhynchus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/21
+            queryName: Ixalus bistrigatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/22
+            queryName: Phrynobatrachus hailiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/23
+            queryName: Rana gribinguiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/241
+            queryName: Rana oxyrhynchus gribinguiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/242
+            queryName: Ptychadena oxyrhynchus gribinguiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f271be5eb3
+      - s-f7f86737da
+      - s-437b1059eb
+      - s-2239013b2c
+      - s-fcf2305a50
+      - s-b0756f3a7b
+      - s-1cca73a461
+      - s-351ce26bbf
+      - s-2441c627b6
+      - s-eafbea4bba
+      - s-8acb71b631
+      - s-05a9430cb4
+      - s-329a974473
+      - s-3299943b6c
+      - s-8fb579711f
+      - s-6ac260535f
+      - s-1991c68cc4
+      - s-dd2ba05ec6
+      - s-3e32937c70
+      - s-0500f43092
+      - s-d22d2081b9
+      - s-e7fd4d00c1
+      - s-129fdaf65c
+      - s-b3f19db28c
+      - s-01e8b532b7
+      - s-5922c32c4e
+    zh:
+      - s-6b991c6910
+      - s-29417054d3
+      - s-0a905cc9bb
+      - s-3fbd9e8fe6
+      - s-3c364a4b3a
+      - s-4e45e6879b
+      - s-3d544fe87a
+      - s-efb9687cb4
+      - s-12a1396b6b
+      - s-0f5c300d64
+      - s-dc8c37753b
+      - s-6e1bf944b3
+      - s-2aec243b65
+      - s-f25def966d
+      - s-d2323aa9c4
+      - s-ae6d69b626
+      - s-b722c90b35
+      - s-e3b2dce530
+      - s-932dc0781c
+      - s-609690c81c
+      - s-b62015b9ec
+      - s-1d09192629
+      - s-b7b6878fd2
+      - s-e31a90202b
+      - s-43f794a414
+      - s-bd2ae48d00

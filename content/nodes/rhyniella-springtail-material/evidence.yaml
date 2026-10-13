@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-0d3a142b4a
+      part: title
+    titleZh:
+      page: zh
+      section: s-1abebc2b11
+      part: title
+    category: transition
+    startAge: 411
+    endAge: 407
+    regions:
+      - Rhynie Chert, Aberdeenshire, Scotland
+    clades:
+      - Hexapoda
+      - Collembola
+      - Rhyniella praecursor
+    summary:
+      page: en
+      section: s-0d3a142b4a
+      part: body
+    summaryZh:
+      page: zh
+      section: s-1abebc2b11
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-1453e0b2e9
+            part: title
+          zh:
+            page: zh
+            section: s-7fae4feb80
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1453e0b2e9
+            part: body
+          zh:
+            page: zh
+            section: s-7fae4feb80
+            part: body
+        id: observed-material
+        sourceIds:
+          - whalley-jarzembowski-1981-rhyniella
+      - title:
+          en:
+            page: en
+            section: s-34a472caa5
+            part: title
+          zh:
+            page: zh
+            section: s-e10cf491be
+            part: title
+        text:
+          en:
+            page: en
+            section: s-34a472caa5
+            part: body
+          zh:
+            page: zh
+            section: s-e10cf491be
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - whalley-jarzembowski-1981-rhyniella
+    claimIds:
+      - claim:event:rhyniella-springtail-material
+    evidenceItems:
+      - statement: Four head capsules and about ten later body specimens include the first reported intact abdomen and a furcula comparable to living springtails.
+        relation: supports
+        claimIds:
+          - claim:event:rhyniella-springtail-material
+        referenceLinks:
+          - referenceId: whalley-jarzembowski-1981-rhyniella
+            relation: supports
+            pages: "317"
+            figure: Published specimen assessment
+            quoteLocator: Head capsules; body specimens; abdomen and furcula
+    uncertaintyItems:
+      - statement: This sampled occurrence supports collembolan affinity but does not by itself date hexapod terrestrialization, global origin or ecological dominance.
+        relation: contextualizes
+        claimIds:
+          - claim:event:rhyniella-springtail-material
+        referenceLinks:
+          - referenceId: whalley-jarzembowski-1981-rhyniella
+            relation: supports
+            pages: "317"
+            figure: Published specimen assessment
+            quoteLocator: Taxonomic assessment
+    readerSources:
+      - id: whalley-jarzembowski-1981-rhyniella
+        referenceId: whalley-jarzembowski-1981-rhyniella
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 317; figure: Published specimen assessment; Head capsules; body specimens; abdomen and furcula; Taxonomic assessment"
+  claims:
+    - subjectId: event:rhyniella-springtail-material
+      claimKind: scientific
+      claimType: morphology
+      statement: Four Rhyniella praecursor head capsules and roughly ten additional Rhynie-chert body specimens, including an abdomen with a springtail-like furcula, support collembolan affinity without establishing the origin, global first appearance or ecology of Hexapoda.
+      confidence: medium
+      confidenceRationale: The material and furcula are described directly, whereas absolute global priority and ecology exceed the specimen sample.
+      referenceLinks:
+        - referenceId: whalley-jarzembowski-1981-rhyniella
+          relation: supports
+          pages: "317"
+          figure: Published specimen assessment
+          quoteLocator: Head capsules; additional specimens; abdomen and furcula
+  claim-rationales.zh:
+    - 头壳、躯干和弹器材料是直接标本证据；全球最早记录、六足类起源与生态超出该样本能支持的范围。
+  claim-statements.zh:
+    - 四件 Rhyniella praecursor 头壳和约十件额外莱尼燧石躯体标本（包括带弹尾状弹器的腹部）支持弹尾目归属，但不能确定六足类的起源、全球首次出现或生态。

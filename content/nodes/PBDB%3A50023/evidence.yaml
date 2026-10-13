@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Parvericius montanus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Parvericius montanus
+      en: Parvericius montanus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d47c1c8326
+            part: body
+          en:
+            page: en
+            section: s-c132e4fad6
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3dd29fa57c
+            part: body
+          en:
+            page: en
+            section: s-ddb1831c40
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-28f3f19fc2
+            part: body
+          en:
+            page: en
+            section: s-9202ddeee9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7f3ba23b6e
+            part: body
+          en:
+            page: en
+            section: s-a82042d25b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-47f6d03091
+            part: body
+          en:
+            page: en
+            section: s-cea9f967a9
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Parvericius montanus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50023&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50023; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50023
+          selectedOccurrenceIds:
+            - occ:181296
+            - occ:181748
+            - occ:182810
+            - occ:183340
+            - occ:183342
+            - occ:183726
+            - occ:184050
+            - occ:184091
+            - occ:184578
+            - occ:184729
+            - occ:185029
+            - occ:185163
+            - occ:185533
+            - occ:186073
+            - occ:186183
+            - occ:186264
+            - occ:187023
+            - occ:187203
+            - occ:190063
+            - occ:190540
+            - occ:190572
+            - occ:190603
+            - occ:648741
+          selectedCollectionIds:
+            - col:17476
+            - col:17543
+            - col:17792
+            - col:26019
+            - col:17892
+            - col:17963
+            - col:18027
+            - col:18031
+            - col:18090
+            - col:18102
+            - col:18141
+            - col:18164
+            - col:18208
+            - col:18261
+            - col:18275
+            - col:18284
+            - col:18397
+            - col:18442
+            - col:18978
+            - col:19074
+            - col:19075
+            - col:19076
+            - col:69808
+          sourceReferenceIds:
+            - ref:4229
+            - ref:2898
+            - ref:2897
+            - ref:2718
+            - ref:3510
+            - ref:781
+            - ref:3503
+            - ref:6331
+            - ref:2634
+            - ref:19303
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-9d4fb13fa0
+        part: body
+      en:
+        page: en
+        section: s-41f128eb36
+        part: body

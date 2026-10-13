@@ -1,0 +1,441 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Cercopithecoidea
+    commonName: Old World monkeys
+    commonNameZh: 旧世界猴总科
+    rank: superfamily
+    taxonId: ""
+    colUsageId: 4X9
+    colDatasetId: "2144"
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    parentRelationshipKind: taxonomic-parent
+    entityKind: taxon
+    contentLevel: registry-only
+  claims:
+    - subjectId: taxon:cercopithecoidea
+      claimKind: scientific
+      claimType: taxonomy
+      statement: The COL26.8 accepted parent chain for Macaca radiata usage 3WWP2 places Cercopithecoidea (superfamily usage 4X9) immediately below Simiiformes (infraorder usage 4PM); this records checklist placement, not a phylogenetic result.
+      confidence: medium
+      confidenceRationale: Pinned COL26.8 usage 4X9 directly establishes Cercopithecoidea (superfamily) at this point in the accepted checklist path. This claim describes that dataset's classification and does not assert universal consensus or phylogenetic relationships.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          quoteLocator: Accepted parent chain for species usage 3WWP2; superfamily usage 4X9 immediately follows infraorder usage 4PM.
+  claim-rationales.zh:
+    - 固定版 COL26.8 用名 4X9 直接支持 Cercopithecoidea（superfamily）在该已接受清单路径中的位置；此声明只描述该数据集的分类，不推断普遍共识或系统发育关系。
+  claim-statements.zh:
+    - COL26.8 对邦内猕猴用名 3WWP2 的已接受父级链，将 Cercopithecoidea（总科用名 4X9）置于 Simiiformes（下目用名 4PM）之下；这记录的是清单分类位置，不是系统发育结果。
+  ranges:
+    - entityId: cercopithecoidea
+      rangeKind: global-composite
+      taxonomicConcept: Cercopithecoidea accepted usage 4X9; numerical temporal range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; no audited fossil-range endpoint is asserted for this selected living-taxon route.
+      evidenceBasis: The pinned COL26.8 checklist supports accepted identity and classification only; the selected local roadside study does not establish a fossil range or a wild-distribution inventory.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: col-2026-checklistbank-316115
+          locator: COL26.8 dataset 316115; accepted usage 4X9 and parent classification (identity/classification only)
+  catalogue-profile:
+    scientificName: Cercopithecoidea
+    rank: superfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Cercopithecoidea
+      en: Cercopithecoidea
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-c6dd44d2e0
+            part: body
+          en:
+            page: en
+            section: s-98c4619c2b
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-237929cbf2
+            part: body
+          en:
+            page: en
+            section: s-a829eef600
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f8cf8998bf
+            part: body
+          en:
+            page: en
+            section: s-0e5d7fff96
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-83aba191dc
+            part: body
+          en:
+            page: en
+            section: s-cf016cabc0
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-6530d1aa66
+            part: body
+          en:
+            page: en
+            section: s-b21f40f9ab
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-fa6e427057
+            part: body
+          en:
+            page: en
+            section: s-6345a40313
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-438cacea3f
+            part: body
+          en:
+            page: en
+            section: s-02b1a628bb
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-ca377a1b7a
+            part: body
+          en:
+            page: en
+            section: s-574cf38182
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-397aa9046a
+            part: body
+          en:
+            page: en
+            section: s-265a52ee70
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-d2f0c904d0
+            part: body
+          en:
+            page: en
+            section: s-888c57fba3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cercopithecoidea
+          url: https://www.checklistbank.org/dataset/316115/taxon/4X9
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 36 authored entries grouped under Cercopithecoidea by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 110 authored same-name records placed under Cercopithecoidea by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 121 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 98
+            foraging: 121
+            activity: 121
+          readingTargets:
+            - name: Allenopithecus nigroviridis
+              colId: BTKJ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3ABTKJ
+            - name: Macaca leonina
+              colId: 3WWNK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3WWNK
+            - name: Macaca maura
+              colId: 3WWNN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3WWNN
+            - name: Macaca mulatta
+              colId: 3WWNQ
+              release: COL26.8
+              canonicalPath: content/nodes/scope-COL-61215bcb4a-a9b0cf55208d885e
+            - name: Macaca nemestrina
+              colId: 3WWNT
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3WWNT
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 2 authored entries grouped under Cercopithecoidea by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: STGF
+              name: Cercopithecus sclateri
+              canonicalPath: content/nodes/COL%3ASTGF
+            - colId: 4MBB3
+              name: Presbytis frontata
+              canonicalPath: content/nodes/COL%3A4MBB3
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 30 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: BTKJ
+              name: Allenopithecus nigroviridis
+              canonicalPath: content/nodes/COL%3ABTKJ
+            - colId: SST8
+              name: Cercocebus galeritus
+              canonicalPath: content/nodes/COL%3ASST8
+            - colId: STFM
+              name: Cercopithecus nictitans
+              canonicalPath: content/nodes/COL%3ASTFM
+            - colId: 69KBG
+              name: Cercopithecus erythrotis
+              canonicalPath: content/nodes/COL%3A69KBG
+            - colId: 5XKBR
+              name: Cercopithecus cephus
+              canonicalPath: content/nodes/COL%3A5XKBR
+          fieldAccountCounts:
+            gestation(mo): 20
+            newborn(g): 19
+            weaning(mo): 20
+            wean mass(g): 11
+            AFR(mo): 17
+            max. life(mo): 10
+            litter size: 30
+            litters/year: 15
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-8543cbbd54
+        part: body
+      en:
+        page: en
+        section: s-85fbc7a46e
+        part: body

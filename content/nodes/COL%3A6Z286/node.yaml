@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Silverstoneia minima
+  displayName: Silverstoneia minima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z286
+  sourceIndexes:
+    - name:
+        en: Silverstoneia minima
+        zh: Silverstoneia minima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z286
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/191
+            queryName: Silverstoneia minima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b834b49983
+      - s-68faab533d
+      - s-c6570db039
+      - s-d23a22b9e1
+      - s-8138e49868
+      - s-965efb01f5
+    zh:
+      - s-9c3d7b1dff
+      - s-97f3ada103
+      - s-96bb8ee788
+      - s-bd76d05232
+      - s-0faaaed9af
+      - s-5f1476ec5b

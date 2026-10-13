@@ -1,0 +1,307 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys hengshanensis Qian, Hu, Mo, Gao, Zhang & Yang, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys hengshanensis
+      zh: Boulenophrys hengshanensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-eaa83ec2bf
+            part: title
+          zh:
+            page: zh
+            section: s-c8ff40385a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eaa83ec2bf
+            part: body
+          zh:
+            page: zh
+            section: s-c8ff40385a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-64ad1b58ee
+            part: title
+          zh:
+            page: zh
+            section: s-218ce7b15f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-64ad1b58ee
+            part: body
+          zh:
+            page: zh
+            section: s-218ce7b15f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cf3d8b0b41
+            part: title
+          zh:
+            page: zh
+            section: s-dcc9587b7e
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9jq
+        text:
+          en:
+            page: en
+            section: s-cf3d8b0b41
+            part: body
+          zh:
+            page: zh
+            section: s-dcc9587b7e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-032f1037a3
+            part: title
+          zh:
+            page: zh
+            section: s-88ab937993
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9jq
+        text:
+          en:
+            page: en
+            section: s-032f1037a3
+            part: body
+          zh:
+            page: zh
+            section: s-88ab937993
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-f3da6cce8f
+            part: title
+          zh:
+            page: zh
+            section: s-73eeedfa32
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9jq
+        text:
+          en:
+            page: en
+            section: s-f3da6cce8f
+            part: body
+          zh:
+            page: zh
+            section: s-73eeedfa32
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-840063d464
+            part: title
+          zh:
+            page: zh
+            section: s-9d016973a3
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9jq
+        text:
+          en:
+            page: en
+            section: s-840063d464
+            part: body
+          zh:
+            page: zh
+            section: s-9d016973a3
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f44e7f0bd1
+            part: body
+          zh:
+            page: zh
+            section: s-ec0d4a6881
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys hengshanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/LX9JQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12466624-lx9jq
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys hengshanensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2ef599e25a
+        part: body
+      zh:
+        page: zh
+        section: s-fd402e79a3
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-lx9jq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys hengshanensis
+        evidenceRead: "Boulenophrys hengshanensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Re-examined types separate the old mixed name
+              zh: 重新检查模式分开旧混合名称
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9jq
+            locator: PMC12466624 XML sec3dot2 paragraphs 1,4; sec3dot3 paragraphs 4–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c1287fb65c
+                part: body
+              zh:
+                page: zh
+                section: s-b8acc6abf6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Nine male measurements and one historical female
+              zh: 九个雄性测量及一个历史雌性
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9jq
+            locator: PMC12466624 XML sec3dot3 paragraphs 5–7,15
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-13e6a69a25
+                part: body
+              zh:
+                page: zh
+                section: s-607eacbdeb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: appearance
+            heading:
+              en: Live male pattern is not the preserved type colour
+              zh: 活体雄性图案不同于保存模式颜色
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9jq
+            locator: PMC12466624 XML sec3dot3 paragraphs 13–14
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-464161a4a2
+                part: body
+              zh:
+                page: zh
+                section: s-1eec076f71
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: reproduction
+            heading:
+              en: Observed calls and a proposed seasonal barrier
+              zh: 观察鸣声与拟议季节屏障
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9jq
+            locator: PMC12466624 XML sec3dot3 paragraph 16; sec4 paragraphs 3–4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-540e4fe2db
+                part: body
+              zh:
+                page: zh
+                section: s-e17c8ca82e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,707 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phyllobates vittatus (Cope, 1893)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Phyllobates vittatus
+      zh: Phyllobates vittatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a6cac70eb1
+            part: title
+          zh:
+            page: zh
+            section: s-8aa4aa99c0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a6cac70eb1
+            part: body
+          zh:
+            page: zh
+            section: s-8aa4aa99c0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-af6e65c55c
+            part: title
+          zh:
+            page: zh
+            section: s-97ff4bbe34
+            part: title
+        text:
+          en:
+            page: en
+            section: s-af6e65c55c
+            part: body
+          zh:
+            page: zh
+            section: s-97ff4bbe34
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-104d9dccde
+            part: title
+          zh:
+            page: zh
+            section: s-63297c1172
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-104d9dccde
+            part: body
+          zh:
+            page: zh
+            section: s-63297c1172
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ac6d50868a
+            part: title
+          zh:
+            page: zh
+            section: s-674f530995
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-ac6d50868a
+            part: body
+          zh:
+            page: zh
+            section: s-674f530995
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fcab19429e
+            part: title
+          zh:
+            page: zh
+            section: s-f278848e77
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-fcab19429e
+            part: body
+          zh:
+            page: zh
+            section: s-f278848e77
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c623cd7434
+            part: title
+          zh:
+            page: zh
+            section: s-e791e89675
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-c623cd7434
+            part: body
+          zh:
+            page: zh
+            section: s-e791e89675
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-afbc18b6c5
+            part: title
+          zh:
+            page: zh
+            section: s-064c764e48
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-afbc18b6c5
+            part: body
+          zh:
+            page: zh
+            section: s-064c764e48
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a64be79bd0
+            part: title
+          zh:
+            page: zh
+            section: s-85873a8fc4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-a64be79bd0
+            part: body
+          zh:
+            page: zh
+            section: s-85873a8fc4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-32b530228a
+            part: title
+          zh:
+            page: zh
+            section: s-cbaa43eac9
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-32b530228a
+            part: body
+          zh:
+            page: zh
+            section: s-cbaa43eac9
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-fdbb5abdf7739d2818dffaffbe9942c5
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-037f026bc7ce662a94c8e58e
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5311713406
+            part: title
+          zh:
+            page: zh
+            section: s-71f8d1998b
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-5311713406
+            part: body
+          zh:
+            page: zh
+            section: s-71f8d1998b
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d84633adeb
+            part: title
+          zh:
+            page: zh
+            section: s-d4ff131cb4
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-d84633adeb
+            part: body
+          zh:
+            page: zh
+            section: s-d4ff131cb4
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-892e153bfe
+            part: title
+          zh:
+            page: zh
+            section: s-e7943dcfbd
+            part: title
+        sourceIds:
+          - primary-pmc10548314-77f7y
+        text:
+          en:
+            page: en
+            section: s-892e153bfe
+            part: body
+          zh:
+            page: zh
+            section: s-e7943dcfbd
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6fa24cecbc
+            part: title
+          zh:
+            page: zh
+            section: s-27b573700c
+            part: title
+        sourceIds:
+          - primary-pmc8819055-77f7y
+        text:
+          en:
+            page: en
+            section: s-6fa24cecbc
+            part: body
+          zh:
+            page: zh
+            section: s-27b573700c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-6360ff38dd
+            part: title
+          zh:
+            page: zh
+            section: s-89730a4a70
+            part: title
+        sourceIds:
+          - primary-pmc8819055-77f7y
+        text:
+          en:
+            page: en
+            section: s-6360ff38dd
+            part: body
+          zh:
+            page: zh
+            section: s-89730a4a70
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fdb791bccb
+            part: title
+          zh:
+            page: zh
+            section: s-334ff879f2
+            part: title
+        sourceIds:
+          - primary-pmc8819055-77f7y
+        text:
+          en:
+            page: en
+            section: s-fdb791bccb
+            part: body
+          zh:
+            page: zh
+            section: s-334ff879f2
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-612646f12c
+            part: title
+          zh:
+            page: zh
+            section: s-77b26748e5
+            part: title
+        sourceIds:
+          - primary-pmc8819055-77f7y
+        text:
+          en:
+            page: en
+            section: s-612646f12c
+            part: body
+          zh:
+            page: zh
+            section: s-77b26748e5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phyllobates vittatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/77F7Y
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1538; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1538 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 1274, 1275; Picture measurement data rows 1262; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10548314-77f7y
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllobates vittatus: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc8819055-77f7y
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Phyllobates vittatus: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-db3ca7bb64
+        part: body
+      zh:
+        page: zh
+        section: s-a6c563965b
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-fdbb5abdf7739d2818dffaffbe9942c5
+      sourceRowId: Anf1538
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1538
+        bibliographyRowId: Anf1538
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Phyllobates vittatus
+        candidateBibliographyRowIds:
+          - Anf1538
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-037f026bc7ce662a94c8e58e
+        scientificName: Phyllobates vittatus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1093/molbev/msad206
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        sourceKey: primary-pmc10548314-77f7y
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10548314/article.xml
+        sourceConcept: 2023 source-labelled Phyllobates vittatus; cited observations distinguished from new genomic analyses
+        evidenceRead: "Phyllobates vittatus: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A branch-specific RH1 candidate requires functional testing
+              zh: 分枝特定 RH1 候选需功能检验
+            referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+            sourceKey: primary-pmc10548314-77f7y
+            locator: PMC10548314 XML Discussion2.1 paragraph1; Results1.2/Table2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3f14604b8d
+                part: body
+              zh:
+                page: zh
+                section: s-f91720abb2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1111/joa.13569
+        referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+        sourceKey: primary-pmc8819055-77f7y
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8819055/article.xml
+        sourceConcept: Source Phyllobates vittatus; preserved-specimen observation; exact name or explicit nomenclatural link only
+        evidenceRead: "Phyllobates vittatus: XML Materials and Methods sec0002–0007, complete Results sec0008–0019 including external morphology, gland morphology/histochemistry, Table1–3, character definitions and fixed-topology optimization; Discussion sec0021–0023 homology, evolution and functional hypotheses inspected. Figures only captions inspected; supplementary AppendixS1/TableS1/TableS2 URLs returned404, not retrieved/read. Original cited behavioral studies, vouchers, raw histological images and matrices not independently reassessed; no full-article or species-concept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Original bilingual factual descriptions of specimen-based histology and explicitly identified literature-derived outgroups; no source prose, tables or figures reproduced or adapted.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Hand glands in the examined adult-male evidence
+              zh: 所检查成体雄性证据中的手部腺体
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-77f7y
+            locator: PMC8819055 XML Table2 joa13569-tbl-0002 tbody row33, literalPhyllobates vittatus; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6faa9d5635
+                part: body
+              zh:
+                page: zh
+                section: s-6ffc9e7eb0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Preserved material, finger numbering and staining
+              zh: 保存材料、指序和染色方法
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-77f7y
+            locator: PMC8819055 XML sec0003–0006; PMC8819055 XML Table2 joa13569-tbl-0002 tbody row33, literalPhyllobates vittatus; Results sec0011–0015
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-953db5fb9c
+                part: body
+              zh:
+                page: zh
+                section: s-82813b0909
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: A proposed reproductive role remains untested
+              zh: 提出的繁殖功能仍未验证
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-77f7y
+            locator: PMC8819055 XML sec0023
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-91ad4d5d05
+                part: body
+              zh:
+                page: zh
+                section: s-ac31f6ed1f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: A loss inferred on a pruned comparative tree
+              zh: 在裁剪比较树上推断的丢失
+            referenceId: ref-f40a3db1-8217-4a56-a7d7-682e18629b1c
+            sourceKey: primary-pmc8819055-77f7y
+            locator: PMC8819055 XML sec0007,sec0019,sec0022
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3df78ad5c3
+                part: body
+              zh:
+                page: zh
+                section: s-70a75a4eec
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

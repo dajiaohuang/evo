@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius castaneus
+  displayName: Hyperolius castaneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQS4
+  sourceIndexes:
+    - name:
+        en: Hyperolius castaneus
+        zh: Hyperolius castaneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQS4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/232
+            queryName: Hyperolius castaneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 248
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/171
+            queryName: Hyperolius latifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/172
+            queryName: Hyperolius rugegensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/173
+            queryName: Hyperolius ventrimaculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/174
+            queryName: Hyperolius adolphifriederici
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/175
+            queryName: Hyperolius adolfifriederici
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/475
+            queryName: Hyperolius castaneus castaneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/476
+            queryName: Hyperolius castaneus rhodogaster
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6c3209107
+      - s-6f2508afb6
+      - s-64461b54f5
+      - s-758430b040
+      - s-ce87226cce
+      - s-b7604480b4
+      - s-a5d6f7bc69
+      - s-4d536b9380
+      - s-997c667278
+      - s-e027fed1df
+      - s-62e5f002db
+      - s-58e18677ea
+      - s-83f85e4114
+      - s-29eb5212db
+      - s-3a4dfd76d8
+      - s-de86ec58e7
+      - s-2776f7e8a5
+      - s-b4b3628b51
+    zh:
+      - s-c5153ec094
+      - s-422c70902d
+      - s-9cc17e12a8
+      - s-20084113f7
+      - s-760a6d4b4f
+      - s-4026aa61c8
+      - s-86a6e5c084
+      - s-76729eaca1
+      - s-10d159faf9
+      - s-5066f91e1d
+      - s-47d47e21a9
+      - s-4a86880e92
+      - s-78a6dc2d99
+      - s-37e18d769d
+      - s-5f3dfe95af
+      - s-804f787b12
+      - s-d4f7aeb383
+      - s-cebb00d4dd

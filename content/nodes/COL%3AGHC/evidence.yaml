@@ -1,0 +1,342 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Spheniscidae
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      zh: Spheniscidae
+      en: Spheniscidae
+    sections:
+      - topic: huddleCase
+        sourceIds:
+          - zitterbart2011EmperorHuddle
+        text:
+          zh:
+            page: zh
+            section: s-7708a7f5b6
+            part: body
+          en:
+            page: en
+            section: s-9a02ccf17d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - zitterbart2011EmperorHuddle
+        text:
+          zh:
+            page: zh
+            section: s-40cff09a0d
+            part: body
+          en:
+            page: en
+            section: s-f2bf38c16e
+            part: body
+      - topic: researchScope
+        sourceIds:
+          - cole2022PenguinGenomics
+        text:
+          zh:
+            page: zh
+            section: s-44c6db69f4
+            part: body
+          en:
+            page: en
+            section: s-e96f9d2795
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - cole2022PenguinGenomics
+        text:
+          zh:
+            page: zh
+            section: s-ba2216e9f2
+            part: body
+          en:
+            page: en
+            section: s-dc1a76e9f0
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-e91e0dc94f
+            part: body
+          en:
+            page: en
+            section: s-3221e64f42
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-22973ee473
+            part: body
+          en:
+            page: en
+            section: s-2c5022fd55
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-ea924859a7
+            part: body
+          en:
+            page: en
+            section: s-19f317ac06
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1a4efd7a2b
+            part: body
+          en:
+            page: en
+            section: s-d9245c1101
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Spheniscidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/GHC
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 18 selected measured records placed under Spheniscidae in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 18 authored same-name records placed under Spheniscidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 17 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 17
+            foraging: 17
+            activity: 0
+          readingTargets:
+            - name: Aptenodytes patagonicus
+              colId: 67QCM
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A67QCM
+            - name: Aptenodytes forsteri
+              colId: FYD9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AFYD9
+            - name: Pygoscelis papua
+              colId: 78R2P
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A78R2P
+            - name: Pygoscelis adeliae
+              colId: 4QPKQ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4QPKQ
+            - name: Pygoscelis antarcticus
+              colId: 4QPKS
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4QPKS
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: cole2022PenguinGenomics
+        referenceId: ref-404fedb0-197c-4345-80d9-8e1df1b377d1
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - publishedYear
+          - articleNumber
+          - sourceVersion
+          - url
+          - accessedAt
+          - locator
+          - publishedStudyTaxa
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Genomic insights into the secondary aquatic transition of penguins
+          url: https://doi.org/10.1038/s41467-022-31508-9
+          accessedAt: 2026-10-03
+          locator: "PMC9296559 main text: Table 1, phylogeny and demographic Results, comparative adaptation discussion, genomic sampling and effective-size Methods; captions read, figures and supplementary matrices not independently inspected"
+          publishedStudyTaxa: []
+          scope:
+            zh: 所列种、亚种和地区谱系的比较导读，不等同固定名录分母。
+            en: Comparison route through study species, subspecies and regional lineages, distinct from the pinned catalogue denominator.
+      - id: zitterbart2011EmperorHuddle
+        referenceId: ref-af57d394-4451-4b3b-9a84-f6da100f1fb2
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Coordinated Movements Prevent Jamming in an Emperor Penguin Huddle
+          url: https://epic.awi.de/30920/1/PLOS-zitterbart2011.pdf
+          accessedAt: 2026-10-03
+          locator: "Published PDF pp. 1–3: all main text, Figure 1 caption, supporting-movie descriptions and bibliographic metadata. Pixels viewed on pp. 1–2; no movies/raw trajectories rerun."
+          scope:
+            zh: 2008 年 Neumayer 附近帝企鹅四小时群聚观察；类群仅为比较入口。
+            en: Four-hour 2008 Neumayer-area emperor-penguin huddle observation; group pages are comparison routes.
+    limitations:
+      zh:
+        page: zh
+        section: s-39fc9dd4a3
+        part: body
+      en:
+        page: en
+        section: s-90c2ea853a
+        part: body

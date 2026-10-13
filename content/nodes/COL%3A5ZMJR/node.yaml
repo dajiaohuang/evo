@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Colostethus inguinalis
+  displayName: Colostethus inguinalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5ZMJR
+  sourceIndexes:
+    - name:
+        en: Colostethus inguinalis
+        zh: Colostethus inguinalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5ZMJR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/408
+            queryName: Colostethus inguinalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/496
+            queryName: Prostherapis inguinalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/497
+            queryName: Phyllobates inguinalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/498
+            queryName: Colostethus cacerensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa18bd5c6a
+      - s-1eb47c51e8
+      - s-12817ccddb
+      - s-f12d1191b6
+      - s-2ff6d82876
+      - s-c27c124b31
+      - s-1d66311547
+      - s-c1d6ee471e
+      - s-1337090b9d
+      - s-a682e606c0
+      - s-c67fb2c97d
+      - s-5eaa272267
+    zh:
+      - s-a6a44643fe
+      - s-bbbedd29be
+      - s-0977ba7b0a
+      - s-7e1be1aa55
+      - s-61a4dbdc68
+      - s-628135758d
+      - s-2b7b140ab8
+      - s-209dde4f07
+      - s-25c87024b9
+      - s-ad0e454423
+      - s-0c9274fa81
+      - s-822ed6251a

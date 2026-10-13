@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophrynoides minutus
+  displayName: Nectophrynoides minutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/462WR
+  sourceIndexes:
+    - name:
+        en: Nectophrynoides minutus
+        zh: Nectophrynoides minutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 462WR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/217
+            queryName: Nectophrynoides minutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c809e04a2
+      - s-c2ce680e81
+      - s-f277e3466a
+      - s-ca65ea235e
+      - s-9be4ecb027
+      - s-0da9c0ff3d
+      - s-e36dbf7e5f
+      - s-f33cbfae40
+      - s-bd954a291b
+      - s-a352327475
+      - s-b212c34937
+      - s-a3bf1bd24a
+      - s-87c61a7727
+      - s-3a7fee1200
+    zh:
+      - s-2e2f2a120d
+      - s-0a89f48389
+      - s-b4981a26b1
+      - s-36b3d3905d
+      - s-3ab94b70d3
+      - s-9ffd9a0400
+      - s-523deeebe8
+      - s-4d4ac2e19a
+      - s-48fbadaf73
+      - s-f35483231c
+      - s-5d677644c1
+      - s-9bf3f4bcd3
+      - s-f508eab392
+      - s-a3d26e26c2

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon elongatus
+  displayName: Plethodon elongatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W286
+  sourceIndexes:
+    - name:
+        en: Plethodon elongatus
+        zh: Plethodon elongatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W286
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/463
+            queryName: Plethodon elongatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/450
+            queryName: Plethodon elongatus elongatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4586a5b581
+      - s-0af99e4e53
+      - s-0bd599babc
+      - s-128c906974
+      - s-ba87735aaa
+      - s-0e140f0087
+      - s-a3fe01677b
+      - s-f282060970
+      - s-657a8cbe46
+      - s-b77d601309
+    zh:
+      - s-d52176347d
+      - s-719da8999e
+      - s-aaee36684f
+      - s-0df3a941b9
+      - s-39e35b131f
+      - s-17e36fcbca
+      - s-4d31c3505f
+      - s-f3ff27754c
+      - s-59e3df8628
+      - s-f52e38fbe9

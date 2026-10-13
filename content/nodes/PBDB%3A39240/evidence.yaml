@@ -1,0 +1,403 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Archaeopteryx
+    commonName: Archaeopteryx
+    commonNameZh: 始祖鸟
+    rank: genus
+    taxonId: txn:39240
+    firstAppearance: 150
+    lastAppearance: 148
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  catalogue-profile:
+    scientificName: Archaeopteryx
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Archaeopteryx
+      en: Archaeopteryx
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1989d09675
+            part: body
+          en:
+            page: en
+            section: s-bc3fab5ade
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a780f07167
+            part: body
+          en:
+            page: en
+            section: s-8dc5f7e6a5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Archaeopteryx
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=39240
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:39240
+          readingTargets:
+            - name: Archaeopteryx albersdoerferi
+              pbdbTaxonId: txn:378415
+              canonicalPath: content/nodes/PBDB%3A378415
+            - name: Archaeopteryx lithographica
+              pbdbTaxonId: txn:55487
+              canonicalPath: content/nodes/PBDB%3A55487
+            - name: Jurapteryx recurva
+              pbdbTaxonId: txn:67507
+              canonicalPath: content/nodes/PBDB%3A67507
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b614f8f785
+        part: body
+      en:
+        page: en
+        section: s-9de6cfb2ec
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:39240
+    scientificName: Archaeopteryx
+    commonName: Archaeopteryx
+    commonNameZh: 始祖鸟
+    rank: genus
+    parentName: Avialae
+    extinct: true
+    geography:
+      - Late Jurassic lithographic limestones of Bavaria, Germany
+    overview:
+      page: en
+      section: s-53b79716e0
+      part: body
+    overviewZh:
+      page: zh
+      section: s-cc81acd5af
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-82d2d4c8a6
+        part: body
+      habitat:
+        page: en
+        section: s-1987db91fc
+        part: body
+      locomotion:
+        page: en
+        section: s-1a19cc56a1
+        part: body
+      bodySize:
+        page: en
+        section: s-e85d8443c9
+        part: body
+      guild:
+        page: en
+        section: s-30eec0802c
+        part: body
+      dietZh:
+        page: zh
+        section: zh-2e280349167800
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-36ce7af15fd366
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-552db53df4a6df
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-065bef2bfee115
+        part: body
+      guildZh:
+        page: zh
+        section: zh-2cdade03cdeadd
+        part: body
+    traits:
+      - page: en
+        section: s-f989a5f931
+        part: body
+      - page: en
+        section: s-fe3e3ff905
+        part: body
+      - page: en
+        section: s-f673ee278d
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-774ec7b6f3
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-f4d1e29971
+      part: body
+    confidence: medium
+    referenceIds:
+      - rauhut-2018-oldest-archaeopteryx
+      - voeten-2018-archaeopteryx-flight
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-53b79716e0
+            part: title
+          zh:
+            page: zh
+            section: s-cc81acd5af
+            part: title
+        text:
+          en:
+            page: en
+            section: s-53b79716e0
+            part: body
+          zh:
+            page: zh
+            section: s-cc81acd5af
+            part: body
+        sourceIds:
+          - rauhut-2018-oldest-archaeopteryx
+      - id: skeleton-feathers
+        title:
+          en:
+            page: en
+            section: s-42edae7d14
+            part: title
+          zh:
+            page: zh
+            section: s-68bde62cc1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42edae7d14
+            part: body
+          zh:
+            page: zh
+            section: s-68bde62cc1
+            part: body
+        sourceIds:
+          - rauhut-2018-oldest-archaeopteryx
+      - id: flight-capacity
+        title:
+          en:
+            page: en
+            section: s-f21cd65468
+            part: title
+          zh:
+            page: zh
+            section: s-d8f9ea331a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f21cd65468
+            part: body
+          zh:
+            page: zh
+            section: s-d8f9ea331a
+            part: body
+        sourceIds:
+          - rauhut-2018-oldest-archaeopteryx
+          - voeten-2018-archaeopteryx-flight
+    readerSources:
+      - id: rauhut-2018-oldest-archaeopteryx
+        referenceId: rauhut-2018-oldest-archaeopteryx
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Rauhut et al. (2018), geological setting, systematic palaeontology, specimen descriptions (Figures 1?32) and Table 1: Bavarian material, anatomy, variation and the referred Painten specimen."
+            zh: Rauhut ??2018???????????????????? 1?32??? 1???????????????? Painten ???
+      - id: voeten-2018-archaeopteryx-flight
+        referenceId: voeten-2018-archaeopteryx-flight
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Voeten et al. (2018), Figures 1?4 and Supplementary Data 1?2: comparative wing-bone geometry and the short-burst active-flight interpretation."
+            zh: Voeten ??2018??? 1?4 ????? 1?2???????????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-ac1ed72b0a
+        part: body
+      zh:
+        page: zh
+        section: s-792f92cbc1
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-e4b202f41760f0
+        part: body
+      - page: zh
+        section: zh-4e7e7f051f8519
+        part: body
+      - page: zh
+        section: zh-e63b55df5d9f8b
+        part: body
+  claims:
+    - subjectId: taxon:archaeopteryx
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Painten specimen extends referred Archaeopteryx material into the earliest Tithonian; the 150–148 Ma atlas interval is a formation- and specimen-bounded envelope, not the origin of Avialae or crown birds.
+      confidence: medium
+      confidenceRationale: A referred specimen and geological setting directly support the extension, but numerical endpoints summarize correlated horizons and referral is taxonomic; medium confidence prevents a false exact FAD.
+      referenceLinks:
+        - referenceId: rauhut-2018-oldest-archaeopteryx
+          relation: supports
+          quoteLocator: Geological setting; Systematic palaeontology; Figures 1–5; Table 1
+    - subjectId: taxon:archaeopteryx
+      claimKind: scientific
+      claimType: biogeography
+      statement: All securely referred Archaeopteryx specimens discussed here come from Late Jurassic Bavarian lithographic limestones; that observed concentration does not demonstrate global absence elsewhere.
+      confidence: high
+      confidenceRationale: Named specimens and quarries directly establish the Bavarian record. High confidence concerns occurrence locations only and explicitly avoids an absence or endemism claim.
+      referenceLinks:
+        - referenceId: rauhut-2018-oldest-archaeopteryx
+          relation: supports
+          quoteLocator: Geological setting; Figure 1; specimen and locality catalogue
+    - subjectId: taxon:archaeopteryx
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Archaeopteryx is a Late Jurassic avialan outside crown Neornithes; substantial anatomical variation among referred specimens does not make it the direct ancestor of living birds.
+      confidence: high
+      confidenceRationale: Specimen anatomy and repeated phylogenetic placement support avialan affinity, while crown definition excludes the genus. High confidence applies to that scope, not to one immutable internal avialan topology.
+      referenceLinks:
+        - referenceId: rauhut-2018-oldest-archaeopteryx
+          relation: supports
+          quoteLocator: Systematic palaeontology; phylogenetic discussion; Table 1
+    - subjectId: taxon:archaeopteryx
+      claimKind: scientific
+      claimType: ecology
+      statement: Wing-bone geometry is compatible with short-burst active flight in comparative models, but the evidence does not directly observe behaviour, endurance or a modern crown-bird flight stroke.
+      confidence: medium
+      confidenceRationale: Synchrotron cross-sections provide direct geometry, while locomotor category comes from comparison with living birds. Medium confidence preserves that model boundary.
+      referenceLinks:
+        - referenceId: voeten-2018-archaeopteryx-flight
+          relation: supports
+          figure: Figures 1–4
+          quoteLocator: Voeten Figures 1–4; comparative bone-geometry analysis; Supplementary Data 1–2
+    - subjectId: taxon:archaeopteryx
+      claimKind: scientific
+      claimType: morphology
+      statement: Referred Archaeopteryx skeletons preserve toothed jaws, a long bony tail and feather associations, while wing-bone cross-sections differ from those of specialized soaring birds.
+      confidence: high
+      confidenceRationale: The listed hard-tissue and feather associations are specimen observations, and synchrotron sections are repeatable measurements. High confidence does not assign one flight performance to every specimen.
+      referenceLinks:
+        - referenceId: rauhut-2018-oldest-archaeopteryx
+          relation: supports
+          figure: Figures 2–32
+          quoteLocator: Specimen description
+        - referenceId: voeten-2018-archaeopteryx-flight
+          relation: supports
+          figure: Figures 1–3
+          quoteLocator: Synchrotron cross-sections
+  claim-rationales.zh:
+    - 归入标本及其地质背景直接支持延长记录，但数值端点概括相关层位且归属本身是分类判断；中等置信度避免虚假的精确首现。
+    - 具名标本和采石场直接确立巴伐利亚记录；高置信度只涉及出现地点，并明确避免缺失或特有性主张。
+    - 标本解剖和重复系统位置支持鸟翼类亲缘，而冠群定义排除该属；高置信度只适用于这一范围，不代表鸟翼类内部只有一个固定拓扑。
+    - 同步辐射截面提供直接几何数据，而运动类别来自与现生鸟类比较；中等置信度保留这一模型边界。
+    - 所列硬组织和羽毛关联是标本观察，同步辐射截面是可复测数据；高置信度不把同一种飞行性能强加给每件标本。
+  claim-statements.zh:
+    - 派恩滕标本把归入 Archaeopteryx 的材料延伸到提通期最早期；图谱 1.50–1.48 亿年前区间是地层组和标本限定的包络，而非鸟翼类或冠群鸟类起源。
+    - 这里讨论的可靠 Archaeopteryx 归入标本均来自晚侏罗世巴伐利亚石版灰岩；这种观察到的集中分布不能证明其他地区全球性缺失。
+    - Archaeopteryx 是位于冠群今鸟类之外的晚侏罗世鸟翼类；归入标本间的显著解剖变异也不使它成为现生鸟类的直系祖先。
+    - 翼骨几何在比较模型中与短时主动飞行相容，但证据没有直接观察行为、耐力或现代冠群鸟类的飞行拍动。
+    - 归入 Archaeopteryx 的骨骼保存有齿颌、长骨质尾和羽毛关联，其翼骨截面也不同于专门滑翔鸟类。
+  ranges:
+    - entityId: archaeopteryx
+      rangeKind: global-composite
+      taxonomicConcept: Referred Archaeopteryx specimens
+      geographicScope: Late Jurassic lithographic limestones of Bavaria, Germany
+      olderMa: 150
+      youngerMa: 148
+      status: available
+      uncertainty:
+        olderMa: 151
+        youngerMa: 147
+        note: Numerical endpoints summarize correlated Kimmeridgian–Tithonian horizons; they are not a global Avialae FAD or a directly dated origin.
+      evidenceBasis: The referred Painten specimen extends the sampled genus into the earliest Tithonian; other Bavarian specimens occupy younger lithographic-limestone horizons.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:archaeopteryx:fossil-range
+      referenceLocators:
+        - referenceId: rauhut-2018-oldest-archaeopteryx
+          locator: Geological setting; Systematic palaeontology; Figures 1–5; Table 1

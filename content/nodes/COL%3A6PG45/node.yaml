@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella shangsiensis
+  displayName: Leptobrachella shangsiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PG45
+  sourceIndexes:
+    - name:
+        en: Leptobrachella shangsiensis
+        zh: Leptobrachella shangsiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PG45
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/290
+            queryName: Leptobrachella shangsiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eec44f498c
+      - s-18b19b2441
+      - s-175fcef32b
+      - s-4f2b649ad7
+      - s-64ab732c9c
+      - s-1fa577ab03
+      - s-1878da60ad
+      - s-1ba6f3c54e
+    zh:
+      - s-3a75c7f626
+      - s-0b336f7435
+      - s-7f02249822
+      - s-6ca62c260f
+      - s-940db7715c
+      - s-a2231aec5c
+      - s-42b370ffaa
+      - s-b1ffdc4ff6

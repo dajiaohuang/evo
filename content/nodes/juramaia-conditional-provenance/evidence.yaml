@@ -1,0 +1,84 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-d62ab0e733
+      part: title
+    titleZh:
+      page: zh
+      section: s-d4df902d18
+      part: title
+    category: topology
+    startAge: 161
+    endAge: 159
+    regions:
+      - Attributed Tiaojishan Formation, Daxigou, Jianchang, Liaoning, China
+    clades:
+      - Juramaia sinensis
+      - Theria
+      - Eutheria
+    summary:
+      page: en
+      section: s-d62ab0e733
+      part: body
+    summaryZh:
+      page: zh
+      section: s-d4df902d18
+      part: body
+    claimIds:
+      - claim:event:juramaia-conditional-provenance
+    evidenceItems:
+      - statement: BMNH PM1343B preserves skull, dentition and postcranium; the original study attributed it to approximately 160-million-year-old strata and recovered a basal eutherian position.
+        relation: supports
+        claimIds:
+          - claim:event:juramaia-conditional-provenance
+        referenceLinks:
+          - referenceId: luo-2011-juramaia
+            relation: supports
+            pages: 442–445
+            figure: Figures 1–3
+            quoteLocator: Holotype; Geological age; Phylogenetic analysis
+          - referenceId: celik-phillips-2020-juramaia-tip-dating
+            relation: contextualizes
+            pages: "20200943"
+            figure: Figure 3; Figures S11–S13
+            quoteLocator: Age sensitivity analysis
+    uncertaintyItems:
+      - statement: Commercial collection provenance, stratigraphic attribution and matrices condition the result; unconstrained tip dating yields a younger morphological age signal rather than directly redating the rock.
+        relation: contextualizes
+        claimIds:
+          - claim:event:juramaia-conditional-provenance
+        referenceLinks:
+          - referenceId: luo-2011-juramaia
+            relation: supports
+            pages: 442–445
+            figure: Figures 1–3
+            quoteLocator: Holotype; Geological age; Phylogenetic analysis
+          - referenceId: celik-phillips-2020-juramaia-tip-dating
+            relation: contextualizes
+            pages: "20200943"
+            figure: Figure 3; Figures S11–S13
+            quoteLocator: Age sensitivity analysis
+  claims:
+    - subjectId: event:juramaia-conditional-provenance
+      claimKind: scientific
+      claimType: topology
+      statement: BMNH PM1343B preserves a partial articulated skeleton whose original study attributed it to approximately 160-million-year-old Tiaojishan strata and recovered a basal eutherian position; provenance, age use and topology remain conditional, and an unconstrained tip-dating analysis instead estimated an Early Cretaceous morphological age signal.
+      confidence: contested
+      confidenceRationale: The specimen anatomy is direct, but collection provenance, stratigraphic attribution, character scores and tip-dating priors condition the competing age and topology interpretations.
+      referenceLinks:
+        - referenceId: luo-2011-juramaia
+          relation: supports
+          pages: 442–445
+          figure: Figures 1–3
+          quoteLocator: Holotype; Geological age; Phylogenetic analysis
+        - referenceId: celik-phillips-2020-juramaia-tip-dating
+          relation: contextualizes
+          pages: "20200943"
+          figure: Figure 3; Figures S11–S13
+          quoteLocator: Age of Juramaia; Tip-dating sensitivity analysis
+  claim-rationales.zh:
+    - 标本解剖是直接证据，但采集产地、地层归属、性状评分和尖端定年先验制约相互竞争的年代与拓扑解释。
+  claim-statements.zh:
+    - BMNH PM1343B 保存部分关节相连骨架，原研究将其归入约 1.60 亿年前的髫髻山组并恢复为基干真兽类；产地、年代用途和拓扑仍有条件限制，无约束尖端定年则估算出早白垩世的形态年龄信号。

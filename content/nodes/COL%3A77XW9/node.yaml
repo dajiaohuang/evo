@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys brauni
+  displayName: Proceratophrys brauni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77XW9
+  sourceIndexes:
+    - name:
+        en: Proceratophrys brauni
+        zh: Proceratophrys brauni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77XW9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/212
+            queryName: Proceratophrys brauni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-45e855f759
+      - s-b1bdfaccc0
+      - s-7ff0b73ff2
+      - s-2951f2990d
+      - s-d01e9f6606
+      - s-e07ca8da6c
+      - s-6868b6a07b
+      - s-581f860765
+      - s-fb621ecc3a
+      - s-b234c5fda6
+      - s-04faa5237f
+      - s-7e5b4bfd8e
+      - s-63f70ef28f
+      - s-36645ad364
+      - s-b40597ba32
+      - s-128d6eec83
+      - s-113151fbcf
+      - s-b4d41c9b2e
+      - s-55265b139e
+      - s-45416864e7
+      - s-ac7c1bba6b
+      - s-c90f28f39f
+    zh:
+      - s-64c5b6f4a9
+      - s-f5072f031a
+      - s-2c6b1e429c
+      - s-204dd84519
+      - s-8d43bc3cd3
+      - s-8ca6b97844
+      - s-74d7882351
+      - s-e029b77454
+      - s-8f78b21d73
+      - s-6ecc7c7631
+      - s-712adadca2
+      - s-68a876a5fb
+      - s-6a560e356a
+      - s-c724f85957
+      - s-6e8cc43a93
+      - s-b73aac92e6
+      - s-996f37a196
+      - s-b97af2261c
+      - s-3451ca72d6
+      - s-e50618e576
+      - s-da0ab46335
+      - s-717df28e88

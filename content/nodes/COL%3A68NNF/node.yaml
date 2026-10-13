@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bombina maxima
+  displayName: Bombina maxima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68NNF
+  sourceIndexes:
+    - name:
+        en: Bombina maxima
+        zh: Bombina maxima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68NNF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/221
+            queryName: Bombina maxima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 196
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/104
+            queryName: Bombinator maximus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/372
+            queryName: Bombina maxima maxima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8c9e9f1663
+      - s-106403aead
+      - s-a61b68017a
+      - s-5285b7b534
+      - s-10da4975f7
+      - s-fb58e730f9
+      - s-e37cbfcd1f
+    zh:
+      - s-abc066f3b5
+      - s-154bdb951b
+      - s-d5415c854d
+      - s-8d976c5a89
+      - s-7ea42c06f2
+      - s-9a67629d5c
+      - s-9bd5a4a04e

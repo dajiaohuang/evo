@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Elachistocleis helianneae
+  displayName: Elachistocleis helianneae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38X39
+  sourceIndexes:
+    - name:
+        en: Elachistocleis helianneae
+        zh: Elachistocleis helianneae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38X39
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/131
+            queryName: Elachistocleis helianneae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95187a1115
+      - s-9e1520fdb3
+      - s-e51cefa5b8
+      - s-67aa25a8f4
+      - s-6686da6bee
+      - s-d2c6068f41
+      - s-8c903a1d0c
+      - s-8cd279d294
+      - s-c4606a8951
+      - s-5f246a2504
+    zh:
+      - s-620f802a9f
+      - s-28d9dc3db0
+      - s-04d70148d1
+      - s-9619544a16
+      - s-ee0d12cf42
+      - s-88b93d40ef
+      - s-b346ace2da
+      - s-ed8540b6af
+      - s-f49cf24623
+      - s-8c01347a02

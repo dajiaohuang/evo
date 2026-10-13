@@ -1,0 +1,3 @@
+## A flat midrib and one recorded seed {#s-4dd5b8c2c2}
+A Brazilian Flora 2020 v393.147 field describes elliptic, papery leaves with gradually narrowed bases and tips that taper to a point. Their margins roll under and lack a hard, cartilage-like edge. The upper midrib, or main leaf vein, is flat, with two veins near the leaf edge. Flowers grow in compact clusters called fascicles. Their supporting bracts fall away, while smaller, inconspicuous bracteoles beside flowers persist. The flower cup is smooth but bears hairs; its calyx is open in bud, with four sepals and four petals. The fruit is round and smooth, with persistent inconspicuous bracteoles. One seed is recorded; the embryo's cotyledons (seed leaves) are marked unknown.
+

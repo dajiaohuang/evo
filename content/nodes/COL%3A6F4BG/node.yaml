@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus gossei
+  displayName: Eleutherodactylus gossei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4BG
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus gossei
+        zh: Eleutherodactylus gossei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4BG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/216
+            queryName: Eleutherodactylus gossei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/482
+            queryName: Eleutherodactylus oligaulax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/483
+            queryName: Euhyas gossei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/470
+            queryName: Eleutherodactylus luteolus gossei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/471
+            queryName: Eleutherodactylus gossei gossei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/472
+            queryName: Eleutherodactylus gossei oligaulax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e3560732d7
+      - s-176f2ff82e
+      - s-76946d8997
+      - s-c1eb515fe9
+      - s-3f1dc24e5e
+      - s-112304d453
+      - s-02ccb099f6
+      - s-cbed71ad44
+      - s-d183c805aa
+      - s-9334455aac
+      - s-87da8a742a
+    zh:
+      - s-ae2cbe3e3f
+      - s-39e6af4958
+      - s-06cf014afe
+      - s-40ed30fa8e
+      - s-3c9067f597
+      - s-4de2c08564
+      - s-f25cc9a051
+      - s-1bcd7c5de8
+      - s-88464668bf
+      - s-0af8ac7ebd
+      - s-6ad8baa98a

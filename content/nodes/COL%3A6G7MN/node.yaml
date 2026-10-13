@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epipedobates anthonyi
+  displayName: Epipedobates anthonyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6G7MN
+  sourceIndexes:
+    - name:
+        en: Epipedobates anthonyi
+        zh: Epipedobates anthonyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6G7MN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/372
+            queryName: Epipedobates anthonyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 42
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/207
+            queryName: Phyllobates anthonyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 32
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/208
+            queryName: Colostethus anthonyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/209
+            queryName: Dendrobates anthonyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/210
+            queryName: Ameerega anthonyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7eb454e9e2
+      - s-6e9f0fc242
+      - s-def757ee7a
+      - s-4e6d2568a2
+      - s-d6dfb8ab4b
+      - s-6108ee330f
+      - s-82010f7697
+      - s-ebc50e654d
+      - s-c06e7a2b55
+      - s-e31bfd089e
+      - s-6ed07e9789
+      - s-ecba7e5590
+      - s-9f62927bb1
+      - s-d1c54ff920
+      - s-d5f6e131b1
+      - s-889e0c667d
+      - s-1680cbada4
+      - s-76680aed77
+      - s-cad8d5ef39
+      - s-3f191ea951
+      - s-834c14bab7
+      - s-55628f0fae
+      - s-458f30255e
+      - s-e3f2b23a9a
+      - s-fb0a47379b
+      - s-93ddb2b3c1
+      - s-67aa8428ba
+      - s-945fd357d9
+    zh:
+      - s-e68031ec62
+      - s-fa55e28ab3
+      - s-97c15bce5b
+      - s-443157886d
+      - s-c139abd906
+      - s-4a822a2360
+      - s-e623a30515
+      - s-5f58fab08f
+      - s-13c1957352
+      - s-fbfbc9fc9b
+      - s-cd7c3c93ae
+      - s-002c692493
+      - s-d558f929ec
+      - s-1d3a843034
+      - s-99fc6204c6
+      - s-8ecd036b9b
+      - s-9d17dca7e8
+      - s-cad8155e50
+      - s-003eb69362
+      - s-80116e1ccf
+      - s-57872ccc9f
+      - s-031bdc6473
+      - s-b9be9df449
+      - s-f589e2ba1f
+      - s-f08f934255
+      - s-30a3acd9cf
+      - s-7153323886
+      - s-b705ef1a2c

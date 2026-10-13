@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina archboldi
+  displayName: Austrochaperina archboldi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JVZM
+  sourceIndexes:
+    - name:
+        en: Austrochaperina archboldi
+        zh: Austrochaperina archboldi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JVZM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/345
+            queryName: Austrochaperina archboldi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f0b3d7cf70
+      - s-be41cc31f0
+      - s-d181f55891
+      - s-bbcca26b3b
+      - s-fc479f184c
+      - s-bf7bd747d3
+      - s-c29c084973
+      - s-4454466ab9
+      - s-b30a6ce875
+      - s-fd3f64c29a
+      - s-7cf13a240e
+    zh:
+      - s-3f02971472
+      - s-d91bc5f91c
+      - s-056e271b89
+      - s-d1aec9e101
+      - s-69547b1b75
+      - s-b77d5da5d2
+      - s-6f6800fd52
+      - s-3bd53d7a52
+      - s-fb806f5bc1
+      - s-67916b15dc
+      - s-8066b7c9f9

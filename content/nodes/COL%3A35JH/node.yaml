@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aubria
+  displayName: Aubria
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/35JH
+  sourceIndexes:
+    - name:
+        en: Aubria
+        zh: Aubria
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 35JH
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/209
+            queryName: Aubria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 20
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3c796b0732
+      - s-35dc1590b8
+      - s-d6cf67ab07
+      - s-f28735d1de
+      - s-7fb9084764
+      - s-e5c21fb5ec
+      - s-cd619ed3fe
+      - s-57772eff64
+      - s-dde618456e
+      - s-b2304ebb9e
+      - s-436fc16158
+      - s-d61b467812
+      - s-32e87d1d85
+    zh:
+      - s-ce2c332ca0
+      - s-930ba17871
+      - s-be216b4b9f
+      - s-9cc84ede0a
+      - s-215e5b41a8
+      - s-a4288fa651
+      - s-64100166f7
+      - s-d3781ac0e3
+      - s-985f30c314
+      - s-ed51c4ac01
+      - s-cff7c687a0
+      - s-3d99cc1cb1
+      - s-467c0802b2

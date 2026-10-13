@@ -1,0 +1,3 @@
+## Pauridia verna {#s-b34b49457a}
+Pauridia verna is a tiny geophyte with a partly subterranean, solitary flower: its short scape stays below ground, while a long ovary beak lifts the white, yellow-throated tepals above the surface. The regional description contrasts its fibreless corm and black seeds with the fibrous corm and hairy seeds of P. alticola. It records scattered colonies in seasonally wet basalt gravel and marshy Drakensberg summit sites at 2,550–3,050 m, where plants endure repeated freezing and thawing. These details describe the cited regional account, not a complete range survey.
+

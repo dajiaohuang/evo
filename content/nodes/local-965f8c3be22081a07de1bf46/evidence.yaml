@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis corvus
+    name:
+      en: Gephyromantis corvus
+      zh: Gephyromantis corvus
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6a9d9a6a7f
+            part: body
+          zh:
+            page: zh
+            section: s-2e92b03011
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b0a2f58300
+            part: body
+          zh:
+            page: zh
+            section: s-fd63c2c72a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1959, 1960; Reference.csv rows 431
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1959
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis corvus
+          - F
+          - "39.975"
+          - "16"
+          - "15.05"
+          - "6.225"
+          - "3.425"
+          - NA
+          - NA
+          - "4.2"
+          - NA
+          - "4.45"
+          - NA
+          - "2.725"
+          - "11.125"
+          - NA
+          - "17.6"
+          - "20.125"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "39.325"
+          - "1.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1960
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis corvus
+          - M
+          - "39.8"
+          - "15.3"
+          - "16.1"
+          - "5.8"
+          - "3.7"
+          - NA
+          - NA
+          - "4.3"
+          - NA
+          - "4.8"
+          - NA
+          - "2.9"
+          - "11.8"
+          - NA
+          - "16.3"
+          - "19.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "38.7"
+          - "2.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 431
+        values:
+          - Anura
+          - Gephyromantis_corvus
+          - Crottini, A., Glaw, F., Casiraghi, M., Jenkins, R. K., Mercurio, V., Randrianantoandro, C., . . . Andreone, F. (2011). A new Gephyromantis (Phylacomantis) frog species from the pinnacle karst of Bemaraha, western Madagascar. Zookeys(81), 51-71. https://doi.org/10.3897/zookeys.81.1111
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3FTTJ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

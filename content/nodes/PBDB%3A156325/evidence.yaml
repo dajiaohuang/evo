@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Zaphrissa eurypelis
+    rank: species
+    sourceTaxonId: txn:156325
+    name:
+      en: Zaphrissa eurypelis
+      zh: Zaphrissa eurypelis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-a42402ece5
+            part: body
+          zh:
+            page: zh
+            section: s-35a1e1e8ba
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-2fc8fe5dea
+            part: body
+          zh:
+            page: zh
+            section: s-bcaf0ebe92
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-313a4400f5
+            part: body
+          zh:
+            page: zh
+            section: s-1cd082fa94
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156325; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: D. Baird. 1970. Type specimen of the Oligocene frog Zaphrissa eurypelis Cope, 1866. Copeia 1970(2):384-385
+    occurrenceEvidence:
+      - occurrenceId: occ:831820
+        collectionId: col:84606
+        acceptedTaxonId: txn:156325
+        identifiedName: Zaphrissa eurypelis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30970
+        bibliography: D. Baird. 1970. Type specimen of the Oligocene frog Zaphrissa eurypelis Cope, 1866. Copeia 1970(2):384-385
+        locality:
+          countryCode: DE
+          stateProvince: North Rhine-Westfalia
+          county: Rhein-Sieg
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 27.3
+        youngerAgeMa: 23.04
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-313a4400f5
+            part: body
+          zh:
+            page: zh
+            section: s-1cd082fa94
+            part: body
+        sourceIds: []

@@ -1,0 +1,3 @@
+## What leaves and flower structures are described? {#s-458fbaf794}
+The Flora do Brasil 2020 field records spherical glands or long-stalked glandular hairs on the stem and leaves. Petiolate leaves differ in color between their two faces and have one or three veins. The inflorescence is a dichasium reduced to one flower. The bell-shaped floral cup and triangular sepals bear the listed glandular structures; sepals are shorter than the cup. Petals are purple. Anthers match one another in color and have multiple pollen sacs, and the ovary has three chambers. This regional field gives no frequencies for its alternatives.
+

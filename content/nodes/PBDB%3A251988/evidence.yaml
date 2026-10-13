@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rebbanasaurus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Rebbanasaurus
+      en: Rebbanasaurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherLepidosauromorphaTaxonomy20261002
+          - pbdbOtherLepidosauromorphaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-841bc9d0ce
+            part: body
+          en:
+            page: en
+            section: s-5864260628
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherLepidosauromorphaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d22e36e426
+            part: body
+          en:
+            page: en
+            section: s-12c3a22aea
+            part: body
+    sources:
+      - id: pbdbOtherLepidosauromorphaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Rebbanasaurus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=251988
+          locator: Recorded PBDB parent closure beneath the already documented Lepidosauromorpha COL-compatible storage anchor.
+      - id: pbdbOtherLepidosauromorphaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:251988
+          readingTargets:
+            - name: Rebbanasaurus jaini
+              pbdbTaxonId: txn:251989
+              canonicalPath: content/nodes/PBDB%3A251989
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-a1c90c3f8f
+        part: body
+      en:
+        page: en
+        section: s-1901c5497b
+        part: body

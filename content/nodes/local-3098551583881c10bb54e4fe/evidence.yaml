@@ -1,0 +1,252 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Sumaterana dabulescens
+    name:
+      en: Sumaterana dabulescens
+      zh: Sumaterana dabulescens
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Sumaterana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9b4423e26e
+            part: body
+          zh:
+            page: zh
+            section: s-ff53a4e719
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c3c01f7c53
+            part: body
+          zh:
+            page: zh
+            section: s-0009772cd7
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5834, 5835; Reference.csv rows 4027
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5834
+        values:
+          - Ranidae
+          - Sumaterana
+          - Sumaterana dabulescens
+          - F
+          - "57.3"
+          - "24.13"
+          - "23.03"
+          - "7.96"
+          - "2.78"
+          - "2.07"
+          - "4.93"
+          - "5.95"
+          - "5.63"
+          - "5.33"
+          - "9.55"
+          - "3.39"
+          - "18.25"
+          - "12.23"
+          - NA
+          - "30.27"
+          - NA
+          - "36.01"
+          - "32.44"
+          - NA
+          - NA
+          - "2.74"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.43"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5835
+        values:
+          - Ranidae
+          - Sumaterana
+          - Sumaterana dabulescens
+          - M
+          - "37.65"
+          - "14.86"
+          - "14"
+          - "5.4"
+          - "3.12"
+          - "1.2"
+          - "3.41"
+          - "3.79"
+          - "4.02"
+          - "3.38"
+          - "5.82"
+          - "2.21"
+          - "12.48"
+          - "8.11"
+          - NA
+          - "19.63"
+          - NA
+          - "23.74"
+          - "22.42"
+          - NA
+          - NA
+          - "1.83"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.03"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.58"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4027
+        values:
+          - Anura
+          - Sumaterana_dabulescens
+          - Arifin, U., Smart, U., Hertwig, S., Smith, E., Iskandar, D. T., & Haas, A. (2018). Molecular phylogenetic analysis of a taxonomically unstable ranid from Sumatra, Indonesia, reveals a new genus with gastromyzophorous tadpoles and two new species. Zoosystematics and Evolution, 94, 163-193. https://doi.org/10.3897/zse.94.22120
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 53FV8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

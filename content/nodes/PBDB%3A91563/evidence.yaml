@@ -1,0 +1,183 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cricetodon meini
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Cricetodon meini
+      en: Cricetodon meini
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1d839145dd
+            part: body
+          en:
+            page: en
+            section: s-d95aba6122
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a7974542de
+            part: body
+          en:
+            page: en
+            section: s-9d2d13eb22
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-03c6ec61a3
+            part: body
+          en:
+            page: en
+            section: s-1b71ff39b6
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c9aaf87651
+            part: body
+          en:
+            page: en
+            section: s-ac00e5299b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-be8e876d58
+            part: body
+          en:
+            page: en
+            section: s-5e8f41d56d
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Cricetodon meini
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=91563&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:91563; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:91563
+          selectedOccurrenceIds:
+            - occ:339814
+            - occ:339848
+            - occ:379231
+            - occ:456370
+            - occ:456379
+            - occ:462125
+            - occ:490974
+            - occ:501998
+            - occ:632622
+            - occ:686186
+            - occ:1309583
+            - occ:1470758
+            - occ:1470769
+          selectedCollectionIds:
+            - col:32071
+            - col:32072
+            - col:35874
+            - col:44976
+            - col:44977
+            - col:45597
+            - col:26723
+            - col:51002
+            - col:68085
+            - col:73861
+            - col:175727
+            - col:205389
+            - col:205390
+          sourceReferenceIds:
+            - ref:8616
+            - ref:9640
+            - ref:11712
+            - ref:13262
+            - ref:13612
+            - ref:19521
+            - ref:24772
+            - ref:57549
+            - ref:70470
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-fd0084e043
+        part: body
+      en:
+        page: en
+        section: s-2b073bc583
+        part: body

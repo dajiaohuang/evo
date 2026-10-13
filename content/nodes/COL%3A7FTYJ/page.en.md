@@ -1,0 +1,3 @@
+## What stem, leaf and flower traits are recorded? {#s-665b257560}
+The erect stems bear simple hairs or star-shaped hairs on short stalks, and the stipules are papery. Leaves are alternate and leathery, with differently colored upper and lower surfaces. Their bases range from heart-shaped to rounded, and the tips are pointed; the upper surface is rough to bristly. Short-stalked terminal inflorescences carry flowers arranged in two ranks. Narrow lance-shaped bracteoles accompany them. The stigmas are elongated and may be feathery or club-shaped. The fruit has a rounded tip, a papery upper third and splits between its chambers.
+

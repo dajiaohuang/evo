@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes edelmoi
+  displayName: Phyllodytes edelmoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DK
+  sourceIndexes:
+    - name:
+        en: Phyllodytes edelmoi
+        zh: Phyllodytes edelmoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/254
+            queryName: Phyllodytes edelmoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d174a3bd21
+      - s-50f2f17971
+      - s-6780c1c31d
+      - s-941cb743e1
+      - s-ab20177371
+      - s-3b16b7992a
+      - s-c910d96e90
+      - s-986902126f
+      - s-ead708b710
+      - s-dddc7936dc
+      - s-f9bad46157
+      - s-867f754806
+      - s-d40a01602c
+      - s-109b7a60b9
+      - s-e457555424
+      - s-73a3a0bed3
+    zh:
+      - s-7f45354e7d
+      - s-ca37be8a4c
+      - s-ed4f2d2c32
+      - s-b92c406cc4
+      - s-046b73c083
+      - s-f5912697e7
+      - s-bde0300bc4
+      - s-630f213190
+      - s-858195f7cc
+      - s-042005a69f
+      - s-dabab215e9
+      - s-76c2ff558f
+      - s-6bcb2ebdfe
+      - s-3f80db2fda
+      - s-51f39e502a
+      - s-52aca676ab

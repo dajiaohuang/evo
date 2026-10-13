@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Crocodylidae
+    rank: family
+    sourceDatasetId: "1008"
+    name:
+      zh: Crocodylidae
+      en: Crocodylidae
+    sections:
+      - topic: sensoryOverview
+        sourceIds:
+          - leitch2012SensoryReader
+          - diPoi2013SensoryReader
+        text:
+          zh:
+            page: zh
+            section: s-7d2e333d6e
+            part: body
+          en:
+            page: en
+            section: s-0b4a71be7d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - leitch2012SensoryReader
+          - diPoi2013SensoryReader
+        text:
+          zh:
+            page: zh
+            section: s-9f895a3ce3
+            part: body
+          en:
+            page: en
+            section: s-5ca0781963
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3f04811ec7
+            part: body
+          en:
+            page: en
+            section: s-cd46f7dfd3
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3fd8621f22
+            part: body
+          en:
+            page: en
+            section: s-f2ee57c3fd
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-690f53edfd
+            part: body
+          en:
+            page: en
+            section: s-11f71f4732
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e0b4297afd
+            part: body
+          en:
+            page: en
+            section: s-c542cd1c9b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-739e7ca371
+            part: body
+          en:
+            page: en
+            section: s-3c6dee8605
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-6f248d0dae
+            part: body
+          en:
+            page: en
+            section: s-03af774924
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-64e08e4794
+            part: body
+          en:
+            page: en
+            section: s-890908015f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Crocodylidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/8PG
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 14 authored records grouped under Crocodylidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 2
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 12 authored same-name records placed under Crocodylidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 3 authored records grouped under Crocodylidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 8GRXJ
+              name: Crocodylus halli
+              canonicalPath: content/nodes/COL%3A8GRXJ
+            - colId: 8GPZP
+              name: Mecistops leptorhynchus
+              canonicalPath: content/nodes/COL%3A8GPZP
+            - colId: 8SBC9
+              name: Osteolaemus osborni
+              canonicalPath: content/nodes/COL%3A8SBC9
+          fieldCountDistribution:
+            "1": 1
+            "2": 2
+      - id: leitch2012SensoryReader
+        referenceId: ref-6ba848cf-fdb8-4e26-8018-2a647681a036
+        fields:
+          - id
+          - type
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Structure, innervation and response properties of integumentary sensory organs in crocodilians
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4074209/
+          accessedAt: 2026-10-03
+          locator: Materials; external structure/density; electrophysiological and behavioral methods; selected ISO/trigeminal/limb, threshold, adaptation, stimulus and behavioral results; selected discussion; Fig.11 caption. Images, videos and complete tables not inspected.
+          scope:
+            zh: 具名研究物种的限定材料与实验；类群入口为比较路线，不向未取样种外推。
+            en: Bounded material and experiments for named study species; group routes do not extrapolate to unsampled species.
+      - id: diPoi2013SensoryReader
+        referenceId: ref-dec4bb4e-e238-417f-9afc-ec1fc7c1f52f
+        fields:
+          - id
+          - type
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Crocodylians evolved scattered multi-sensory micro-organs
+          url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3711810/
+          accessedAt: 2026-10-03
+          locator: Selected incubation, RT-PCR and electrophysiological methods; distribution, tongue, embryogenesis, channel and stimulus results; selected discussion; Figs.3 and 5 captions. Images and raw recordings not inspected.
+          scope:
+            zh: 具名研究物种的限定材料与实验；类群入口为比较路线，不向未取样种外推。
+            en: Bounded material and experiments for named study species; group routes do not extrapolate to unsampled species.
+    limitations:
+      zh:
+        page: zh
+        section: s-c7f0828192
+        part: body
+      en:
+        page: en
+        section: s-8ee189e0a4
+        part: body

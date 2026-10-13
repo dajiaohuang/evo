@@ -1,0 +1,136 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Rastosuchus
+    rank: genus
+    sourceTaxonId: txn:433421
+    name:
+      en: Rastosuchus
+      zh: Rastosuchus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-c05f21c473
+            part: body
+          zh:
+            page: zh
+            section: s-0a47e3464a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: 0 PBDB occurrence rows and collection fields
+          zh: 0 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-17d66bc721
+            part: body
+          zh:
+            page: zh
+            section: s-e17fa8519d
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-cf83b62b89
+            part: body
+          zh:
+            page: zh
+            section: s-da2100d4ff
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Rastosuchus
+          zh: Rastosuchus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-4b90d8a49d
+            part: body
+          zh:
+            page: zh
+            section: s-76da4f6afd
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:433421; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: E. V. Dias, S. Dias-da-Silva, and C. L. Schultz. 2020. A new short-snouted rhinesuchid from the Permian of southern Brazil. Revista Brasileira de Paleontologia 23(2):98-122
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:433422
+      exactOccurrenceCount: 0
+      datedOccurrenceCount: 0
+      collectionIntervalBoundsMa: null
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Rastosuchus
+          zh: Rastosuchus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-4b90d8a49d
+            part: body
+          zh:
+            page: zh
+            section: s-76da4f6afd
+            part: body
+        sourceIds: []

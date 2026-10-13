@@ -1,0 +1,323 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes nerostagona (Biju & Bossuyt, 2005)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes nerostagona
+      zh: Raorchestes nerostagona
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4c2b22cbc4
+            part: title
+          zh:
+            page: zh
+            section: s-a07839cc0e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4c2b22cbc4
+            part: body
+          zh:
+            page: zh
+            section: s-a07839cc0e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e9c71f0057
+            part: title
+          zh:
+            page: zh
+            section: s-bb44125554
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e9c71f0057
+            part: body
+          zh:
+            page: zh
+            section: s-bb44125554
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-efe8a4f98e
+            part: title
+          zh:
+            page: zh
+            section: s-fd388b4ae2
+            part: title
+        sourceIds:
+          - amphibio
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-efe8a4f98e
+            part: body
+          zh:
+            page: zh
+            section: s-fd388b4ae2
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-3fa7b9484bffe228fe156884885640b3
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ca99d9863bf51017f2c249a5
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3159dcaf0e
+            part: title
+          zh:
+            page: zh
+            section: s-0ab3503881
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3159dcaf0e
+            part: body
+          zh:
+            page: zh
+            section: s-0ab3503881
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-74604b10fd
+            part: title
+          zh:
+            page: zh
+            section: s-38e4dba7ec
+            part: title
+        sourceIds:
+          - primary-pmc7936570-78srs
+        text:
+          en:
+            page: en
+            section: s-74604b10fd
+            part: body
+          zh:
+            page: zh
+            section: s-38e4dba7ec
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5bd3e1cfe9
+            part: title
+          zh:
+            page: zh
+            section: s-490a177bfe
+            part: title
+        sourceIds:
+          - primary-pmc7936570-78srs
+        text:
+          en:
+            page: en
+            section: s-5bd3e1cfe9
+            part: body
+          zh:
+            page: zh
+            section: s-490a177bfe
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes nerostagona
+          url: https://www.checklistbank.org/dataset/316115/taxon/78SRS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5273; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5276 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5311; Reference.csv rows 1283
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7936570-78srs
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes nerostagona: Individually read species-specific acoustic comparison and table 2 species row 66, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bbab781bef
+        part: body
+      zh:
+        page: zh
+        section: s-a1bc2e356d
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ca99d9863bf51017f2c249a5
+        scientificName: Raorchestes nerostagona
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-78srs
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes nerostagona
+        evidenceRead: "Raorchestes nerostagona: Individually read species-specific acoustic comparison and table 2 species row 66, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: Species-specific call structure in the 2021 comparison
+              zh: 2021 年比较中的物种专属鸣声结构
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-78srs
+            locator: PMC7936570 XML sec13 paragraph 60; table-2 species row 66 and adjacent rows for additional call types; sec7 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c445b13804
+                part: body
+              zh:
+                page: zh
+                section: s-48525af9be
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Reported calling height is an observation range
+              zh: 报告的鸣叫高度是观察范围
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-78srs
+            locator: PMC7936570 XML table-2 species row 66; caption and calling-height column
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4a101d9611
+                part: body
+              zh:
+                page: zh
+                section: s-8613f8ed38
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

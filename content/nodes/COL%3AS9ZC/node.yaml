@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene solitaria
+  displayName: Centrolene solitaria
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9ZC
+  sourceIndexes:
+    - name:
+        en: Centrolene solitaria
+        zh: Centrolene solitaria
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9ZC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/204
+            queryName: Centrolene solitaria
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/25
+            queryName: Cochranella solitaria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-15a70bc48b
+      - s-016c8756bb
+      - s-95394f2c45
+      - s-333e062019
+      - s-92f64ef47f
+      - s-2d08a88022
+      - s-523112be95
+    zh:
+      - s-dc39712323
+      - s-5fbe59cd21
+      - s-572a0d0225
+      - s-2304f2fb11
+      - s-ad910e277d
+      - s-e4f9f417ff
+      - s-fb2ea629ab

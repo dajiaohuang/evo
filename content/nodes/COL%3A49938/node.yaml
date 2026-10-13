@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon humilis
+  displayName: Ololygon humilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49938
+  sourceIndexes:
+    - name:
+        en: Ololygon humilis
+        zh: Ololygon humilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "49938"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/124
+            queryName: Ololygon humilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/44
+            queryName: Scinax humilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/230
+            queryName: Hyla humilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b856baf276
+      - s-35d9bdc8aa
+      - s-25755e3db4
+      - s-2505d82447
+      - s-ecc76ae4f9
+      - s-6a99f33b2f
+      - s-8e31636341
+      - s-40a979d15a
+      - s-1caf31b44b
+      - s-e3bdfeb981
+      - s-56a066d94b
+      - s-0afb2a2b04
+      - s-fabf7c74d6
+      - s-1a44ee6010
+    zh:
+      - s-5051b36068
+      - s-42f415d66a
+      - s-6e8edb55fe
+      - s-73b57e0139
+      - s-e6ad9795f7
+      - s-f6f40899ba
+      - s-8a0b826efb
+      - s-f0f2126766
+      - s-71ba14330c
+      - s-34a416af6c
+      - s-b429b83029
+      - s-6e99192fd2
+      - s-2e48933f23
+      - s-175189ecd2

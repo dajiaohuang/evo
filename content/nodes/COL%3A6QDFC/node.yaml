@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnodynastes lignarius
+  displayName: Limnodynastes lignarius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDFC
+  sourceIndexes:
+    - name:
+        en: Limnodynastes lignarius
+        zh: Limnodynastes lignarius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDFC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/40
+            queryName: Limnodynastes lignarius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/210
+            queryName: Megistolotis lignarius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca53ad1a3e
+      - s-15d14f2f7a
+      - s-a85bcce05a
+      - s-7e5aa7df9a
+      - s-12bf5194e2
+      - s-ba23de7b92
+      - s-481edae7fa
+      - s-2b76919422
+      - s-86b577bbaf
+      - s-8b2f783de3
+    zh:
+      - s-c0ea08bb36
+      - s-511ee1bef1
+      - s-78a5b45011
+      - s-f0281ae0c6
+      - s-b22c95cf51
+      - s-785b70c982
+      - s-0957677e46
+      - s-d2e819db35
+      - s-2174f94093
+      - s-4b0d2b3212

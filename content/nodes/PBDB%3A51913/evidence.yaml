@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sylvilagus hibbardi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sylvilagus hibbardi
+      en: Sylvilagus hibbardi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2c1ea90f88
+            part: body
+          en:
+            page: en
+            section: s-581be63ef2
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-55a97ee133
+            part: body
+          en:
+            page: en
+            section: s-334dd886e1
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f18e9cd634
+            part: body
+          en:
+            page: en
+            section: s-67df65385c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4aeb6b379a
+            part: body
+          en:
+            page: en
+            section: s-b476adf404
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d3a895ceea
+            part: body
+          en:
+            page: en
+            section: s-6fece8fb82
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Sylvilagus hibbardi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=51913&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:51913; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:51913
+          selectedOccurrenceIds:
+            - occ:193170
+            - occ:193475
+            - occ:193616
+            - occ:193627
+            - occ:195061
+            - occ:195089
+            - occ:195571
+            - occ:195590
+            - occ:195605
+            - occ:195623
+            - occ:195643
+            - occ:195670
+            - occ:195708
+            - occ:195730
+            - occ:195760
+            - occ:195788
+            - occ:195817
+            - occ:195851
+            - occ:195879
+            - occ:195901
+            - occ:195922
+            - occ:198671
+          selectedCollectionIds:
+            - col:19650
+            - col:19709
+            - col:19737
+            - col:19738
+            - col:20033
+            - col:20034
+            - col:20115
+            - col:20116
+            - col:20117
+            - col:20118
+            - col:20119
+            - col:20120
+            - col:20121
+            - col:20122
+            - col:20123
+            - col:20124
+            - col:20125
+            - col:20126
+            - col:20127
+            - col:20128
+            - col:20129
+            - col:20498
+          sourceReferenceIds:
+            - ref:3633
+            - ref:938
+            - ref:1186
+            - ref:6202
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d54d94ad06
+        part: body
+      en:
+        page: en
+        section: s-5635c8781d
+        part: body

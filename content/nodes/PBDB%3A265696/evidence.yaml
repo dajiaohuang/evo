@@ -1,0 +1,110 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nothogomphodontidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Nothogomphodontidae
+      en: Nothogomphodontidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherSynapsidaTaxonomy20261002
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9615a1b717
+            part: body
+          en:
+            page: en
+            section: s-3eb8bd6fa4
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherSynapsidaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6720a00f5e
+            part: body
+          en:
+            page: en
+            section: s-0975eb4002
+            part: body
+    sources:
+      - id: pbdbOtherSynapsidaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Nothogomphodontidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=265696
+          locator: Recorded PBDB parent closure beneath the already documented Synapsida COL-compatible storage anchor.
+      - id: pbdbOtherSynapsidaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:265696
+          readingTargets:
+            - name: Nothogomphodon sanjiaoensis
+              pbdbTaxonId: txn:319576
+              canonicalPath: content/nodes/PBDB%3A319576
+            - name: Nothogomphodon danilovi
+              pbdbTaxonId: txn:169922
+              canonicalPath: content/nodes/PBDB%3A169922
+            - name: Microgomphodon oligocynus
+              pbdbTaxonId: txn:56885
+              canonicalPath: content/nodes/PBDB%3A56885
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1c6b4d4237
+        part: body
+      en:
+        page: en
+        section: s-d63dd3f580
+        part: body

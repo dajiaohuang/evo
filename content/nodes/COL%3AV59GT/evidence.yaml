@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Melvillihyla Richards, Donnellan & Mahony in Donnellan et al., 2025
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Melvillihyla
+      zh: Melvillihyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5b3931ab67
+            part: title
+          zh:
+            page: zh
+            section: s-e4bbcf341b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5b3931ab67
+            part: body
+          zh:
+            page: zh
+            section: s-e4bbcf341b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cbb1a2b03b
+            part: title
+          zh:
+            page: zh
+            section: s-4efb474169
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cbb1a2b03b
+            part: body
+          zh:
+            page: zh
+            section: s-4efb474169
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-e3634447ae
+            part: title
+          zh:
+            page: zh
+            section: s-bab6ab3da0
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V57B9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV57B9
+            label:
+              en: Melvillihyla andiirrmalin
+              zh: Melvillihyla andiirrmalin
+        text:
+          en:
+            page: en
+            section: s-e3634447ae
+            part: body
+          zh:
+            page: zh
+            section: s-bab6ab3da0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Melvillihyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/V59GT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f20640e9ef
+        part: body
+      zh:
+        page: zh
+        section: s-f4b06612d2
+        part: body

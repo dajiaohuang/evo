@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor anciano
+  displayName: Craugastor anciano
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCDC
+  sourceIndexes:
+    - name:
+        en: Craugastor anciano
+        zh: Craugastor anciano
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCDC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/83
+            queryName: Craugastor anciano
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/254
+            queryName: Eleutherodactylus anciano
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dd0a87784e
+      - s-851c5e6b8e
+      - s-914efbfcca
+      - s-90d4606a07
+      - s-273f9558e8
+      - s-672b6d1960
+      - s-2c37c410a6
+      - s-8d153fd0e5
+    zh:
+      - s-5a5ed1eaf4
+      - s-8ff69b465a
+      - s-05feff5e7e
+      - s-75e2b04e55
+      - s-5079eced7d
+      - s-4aa22a1a2c
+      - s-181393c691
+      - s-32097727a9

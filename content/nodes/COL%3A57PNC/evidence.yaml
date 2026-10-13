@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Trachyandra affinis Kunth
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 57PNC, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 57PNC; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/57PNC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 57PNC
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000747866-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 57PNC / WFO wfo-0000747866
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13858_0
+        referenceId: ref-73173245-b4b8-8d54-a7e5-295b7b4e9285
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra affinis Kunth account; SANBI/WFO archive rows 8955 (Morphology), 25701 (Habitat), source identifier 13858.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_3805_0
+        referenceId: ref-c884a6e3-3f23-8538-af97-1f1e13e5557b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Trachyandra affinis Kunth account; SANBI/WFO archive rows 84501 (Diagnostic), source identifier 3805.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Rhizomatous perennial to 80 cm, roots many, wiry. Leaves lanceolate to linear, usually pubescent. Flowers in a sparsely branched raceme with pubescent peduncle, often developing axillary plantlets, white.
+            textZh: Trachyandra affinis Kunth 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13858_0
+            locator: "SANBI/WFO archive Morphology row 8955; source identifier 13858.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Trachyandra Kunth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 78 - 80. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: As a result of injuries, usually from veld fires, the side branches of the raceme are often mutilated and remain as small bracteate buds near the base of the scape. The apical bud however, probably originally protected by the tissues of the side-branches, is stimulated to develop into a long, densely flowered, simple raceme becoming prostrate with age. Baker thought that the small bracteate buds, that is the injured, sterile side-branches, could give rise to new plants but this is a wrong interpretation.
+            textZh: SANBI 条目提供了 Trachyandra affinis Kunth 的鉴别特征。
+            sourceIds:
+              - sanbi_3805_0
+            locator: "SANBI/WFO archive Diagnostic row 84501; source identifier 3805.0; cited publication: Obermeyer, AA. 1962. A revision of the South African species of Anthericum, Chlorophytum and Trachyandra. Bothalia 7(4): 669 - 767. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassy coastal flats and lower slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Grassy coastal flats and lower slopes.
+            sourceIds:
+              - sanbi_13858_0
+            locator: "SANBI/WFO archive Habitat row 25701; source identifier 13858.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Trachyandra Kunth. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 78 - 80. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

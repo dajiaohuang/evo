@@ -1,0 +1,6 @@
+## What growth, leaf, flower and fruit traits identify Tetrapterys discolor? {#s-0a52c4af43}
+This liana or climbing shrub has slender young stems with white T-shaped hairs that thin with age; older stems may be hairless or retain sparse hairs in grooves. Thin elliptic-to-ovate leaves are 6–16 × 2.5–5.5(–7) cm, with long-pointed tips and four to seven pairs of major veins. The upper surface is hairless; the lower is mostly hairless except for a midrib that may be silky when young. Petioles are 6–15 mm and lose most hairs with age. Terminal or upper-axillary panicles usually rise above the leaves; their branches and flower stalks carry whitish T-shaped hairs. Sepals are 2.5–3 mm with thick, shiny glands; yellow clawed petals are hairless and 4–5.5 mm long. Six unequal stamens and styles slightly longer than them are recorded. The fruit splits into three straw-colored to brown samaras, with thin, firm wings; the largest wing is 14–20 mm long, and the angular fruit body is densely hairy.
+
+## What distribution does the source report? {#s-b9635e0a0e}
+The cited account gives a range from Guatemala to Bolivia and the Lesser Antilles. This is the account’s range statement, not a current survey.
+

@@ -1,0 +1,3 @@
+## *Ageratum fastigiatum*: spotted leaves and pale flower clusters {#s-7c7787d723}
+Brazilian Flora 2020 records a densely fine-haired, ridged stem and short-stalked alternate leaves, elliptic to lance-shaped, with glandular dots. Leaf tips and margins are listed in several forms, from blunt to sharp or rounded, and toothed or scalloped. Flower heads on stalks form loose, flat-topped clusters; the cone-shaped base bears small scales. The corolla color is listed as white, pink, or lilac. The field also records four- or five-ribbed fruits and either no pappus or a crown-shaped one. These are alternatives in a regional morphology field, not a single combined description.
+

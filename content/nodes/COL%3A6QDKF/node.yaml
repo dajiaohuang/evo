@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes malesianus
+  displayName: Limnonectes malesianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDKF
+  sourceIndexes:
+    - name:
+        en: Limnonectes malesianus
+        zh: Limnonectes malesianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDKF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/105
+            queryName: Limnonectes malesianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/141
+            queryName: Rana malesiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5ffab6f76
+      - s-c10723c0a5
+      - s-a253f2bec2
+      - s-784131d726
+      - s-3bb27b8130
+      - s-374a0aaaf3
+      - s-62bba55d10
+      - s-b7da69609c
+      - s-086b416d1c
+      - s-cebfaded04
+      - s-d6aebcab51
+    zh:
+      - s-395a89b389
+      - s-e0f224fdbe
+      - s-a49746b4ae
+      - s-6bbe5e122f
+      - s-8d255f5409
+      - s-f13eab7c13
+      - s-4b86e381f3
+      - s-f3c6a6a58b
+      - s-9307b3eb1a
+      - s-04a8f132b2
+      - s-af1aeec039

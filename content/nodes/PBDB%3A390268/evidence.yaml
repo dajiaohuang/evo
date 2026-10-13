@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinoceros sivalensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Rhinoceros sivalensis
+      en: Rhinoceros sivalensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ec5fd06e44
+            part: body
+          en:
+            page: en
+            section: s-0c66d85144
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-887f9dd1e1
+            part: body
+          en:
+            page: en
+            section: s-1e435c57e6
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1d9ce89067
+            part: body
+          en:
+            page: en
+            section: s-47b0d8bea9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-703a4db74b
+            part: body
+          en:
+            page: en
+            section: s-0c928c1cf3
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2b181dc635
+            part: body
+          en:
+            page: en
+            section: s-c412b3da49
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Rhinoceros sivalensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=390268&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:390268; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:390268
+          selectedOccurrenceIds:
+            - occ:160747
+            - occ:407557
+            - occ:423623
+            - occ:502692
+            - occ:1378814
+            - occ:1455866
+            - occ:1638598
+          selectedCollectionIds:
+            - col:14150
+            - col:39209
+            - col:41237
+            - col:51106
+            - col:188674
+            - col:203109
+            - col:232184
+          sourceReferenceIds:
+            - ref:6256
+            - ref:10584
+            - ref:11084
+            - ref:13626
+            - ref:63308
+            - ref:69563
+            - ref:86178
+          originalIdentificationMappings:
+            - occurrenceId: occ:1455866
+              originalIdentifiedName: Rhinoceros sivalensis n. sp.
+              acceptedName: Rhinoceros sivalensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ee0b6bcfd1
+        part: body
+      en:
+        page: en
+        section: s-4ad16a6599
+        part: body

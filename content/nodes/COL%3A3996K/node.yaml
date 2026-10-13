@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus corona
+  displayName: Eleutherodactylus corona
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3996K
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus corona
+        zh: Eleutherodactylus corona
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3996K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/182
+            queryName: Eleutherodactylus corona
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51a6fe2dd2
+      - s-bea1c9302e
+      - s-2138381095
+      - s-d24eb75cb9
+      - s-6d6d76f8ae
+      - s-b5c9ee6a2b
+      - s-54f87f7d05
+      - s-39126ca8f9
+      - s-dac5e06117
+    zh:
+      - s-50f73b97d0
+      - s-77d1d1cbc6
+      - s-ba7dc2ecd4
+      - s-e7a451f9a8
+      - s-daf73739d4
+      - s-98e2035a36
+      - s-4504fdd5cc
+      - s-dd03cfec64
+      - s-e3cba31c31

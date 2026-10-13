@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Leiopelma markhami
+    rank: species
+    sourceTaxonId: txn:409509
+    name:
+      en: Leiopelma markhami
+      zh: Leiopelma markhami
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-ba7c919a52
+            part: body
+          zh:
+            page: zh
+            section: s-5d4d36368f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-dc35bbb57d
+            part: body
+          zh:
+            page: zh
+            section: s-8d34287c69
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Leiopelma markhami
+          zh: Leiopelma markhami 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-cbc0109ea1
+            part: body
+          zh:
+            page: zh
+            section: s-8e83d4184a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:409509; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: B. Sanchiz. 1998. Salientia. Handbuch der Palaoherpetologie 4
+    occurrenceEvidence:
+      - occurrenceId: occ:1344887
+        collectionId: col:182104
+        acceptedTaxonId: txn:409509
+        taxonomicDifference: null
+        referenceId: ref:60538
+        bibliography: T. H. Worthy and R. N. Holdaway. 1996. Taphonomy of two holocene microvertebrate deposits, Takaka Hill, Nelson, New Zealand, and identification of the avian predator responsible. Historical Biology 12(1):1-24
+        locality:
+          countryCode: NZ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 0.129
+        youngerAgeMa: 0
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Leiopelma markhami
+          zh: Leiopelma markhami 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-cbc0109ea1
+            part: body
+          zh:
+            page: zh
+            section: s-8e83d4184a
+            part: body
+        sourceIds: []

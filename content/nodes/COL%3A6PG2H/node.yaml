@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella eos
+  displayName: Leptobrachella eos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PG2H
+  sourceIndexes:
+    - name:
+        en: Leptobrachella eos
+        zh: Leptobrachella eos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PG2H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/226
+            queryName: Leptobrachella eos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/411
+            queryName: Leptolalax eos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-08b6e7d409
+      - s-1b54f1a778
+      - s-89bb6a47cc
+      - s-48cee7f686
+      - s-1809540aba
+      - s-6db5c74faf
+      - s-a3bf7a6413
+      - s-8b292cab01
+    zh:
+      - s-e9c489fa41
+      - s-f6da2a1b8b
+      - s-1fa92cb7fb
+      - s-614b3369ce
+      - s-5c32513e04
+      - s-0efd0964da
+      - s-fae2168cf6
+      - s-889c8fb402

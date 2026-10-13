@@ -1,0 +1,130 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus compactilis
+  displayName: Anaxyrus compactilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M65
+  sourceIndexes:
+    - name:
+        en: Anaxyrus compactilis
+        zh: Anaxyrus compactilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M65
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/434
+            queryName: Anaxyrus compactilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/162
+            queryName: Bufo compactilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/187
+            queryName: Anaxyrus melancholicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/188
+            queryName: Bufo anomalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/189
+            queryName: Bufo levifrons
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/190
+            queryName: Dromoplectrus anomalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/373
+            queryName: Bufo compactilis compactilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-059fdb6165
+      - s-dff3954e74
+      - s-71ec3bb77d
+      - s-49d5d550ac
+      - s-b8de719898
+      - s-7b745bc535
+      - s-ba080f3e0e
+      - s-8e6d6fe945
+      - s-1064ef2751
+      - s-25fc77385d
+      - s-196e3a061b
+      - s-b55f7fcaba
+      - s-0df1434168
+      - s-e211e249e7
+      - s-e2fda5f637
+      - s-c8877407f8
+      - s-d26d35eed4
+      - s-b1cc94c8ff
+      - s-71a3063952
+      - s-e4a758a7bb
+      - s-c606d1a1d2
+      - s-5a6930d6f9
+      - s-152af8cde2
+      - s-dffc63e56f
+      - s-8d99eb31bf
+      - s-32771f5f3a
+      - s-ed014bcdce
+    zh:
+      - s-a2a0b22cf8
+      - s-0309caa32d
+      - s-ba9d29a6b9
+      - s-a30201056e
+      - s-1a7bf2918b
+      - s-105755af69
+      - s-5b3657acb8
+      - s-35d02310c4
+      - s-faa3a68e56
+      - s-176bac9772
+      - s-4d6bb5711e
+      - s-65087a9ec8
+      - s-9fb640de42
+      - s-bb373bf359
+      - s-06475f88a7
+      - s-ca0a7f6f8c
+      - s-c79895bd01
+      - s-886036c9f5
+      - s-6e8a2a3e89
+      - s-a16331f6d3
+      - s-10d7a5a8d7
+      - s-bfaf748256
+      - s-4d56398700
+      - s-a613c54709
+      - s-e196fa4738
+      - s-e3aacb7215
+      - s-21c48d558f

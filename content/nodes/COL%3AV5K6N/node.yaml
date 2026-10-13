@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys dongguanensis
+  displayName: Boulenophrys dongguanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5K6N
+  sourceIndexes:
+    - name:
+        en: Boulenophrys dongguanensis
+        zh: Boulenophrys dongguanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5K6N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/341
+            queryName: Boulenophrys dongguanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/291
+            queryName: Megophrys dongguanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/294
+            queryName: Panophrys dongguanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4297e5a4c3
+      - s-f543707933
+      - s-f16924fda7
+      - s-a502583c06
+      - s-021c930950
+      - s-d2eae0a325
+      - s-8a4f9dfc80
+      - s-37793b95e6
+      - s-8ab0c8d603
+      - s-0c09663857
+      - s-418819f4db
+    zh:
+      - s-5be7eb446c
+      - s-cfdb562a87
+      - s-6a4ae4301a
+      - s-28115456fa
+      - s-17c0b84479
+      - s-99628b9530
+      - s-8fe9cf85f0
+      - s-ddd256e3ff
+      - s-1811d4bc0f
+      - s-9cbdf8bc32
+      - s-3440486907

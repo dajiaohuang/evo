@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus
+  displayName: Phrynopus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PCW
+  sourceIndexes:
+    - name:
+        en: Phrynopus
+        zh: Phrynopus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PCW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/166
+            queryName: Phrynopus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 60
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7db2ab81a6
+      - s-e70ad10253
+      - s-ad6b3ae8a0
+      - s-6f3a41603f
+      - s-6e6b4f00e6
+      - s-43abf87cb8
+      - s-df32037923
+      - s-fba7afe02e
+      - s-ebdeeec6a0
+      - s-0b067815a1
+      - s-59ea463be1
+      - s-71f9ebbe9a
+    zh:
+      - s-af54a1dde9
+      - s-5a412b36cb
+      - s-482e9fe02c
+      - s-ac7c662afb
+      - s-135e432301
+      - s-d5585a9c51
+      - s-2a35650fae
+      - s-552bad2ea3
+      - s-71e3fc42b1
+      - s-debdd6dcc3
+      - s-80c24e0bfc
+      - s-aae2338c66

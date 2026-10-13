@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis condor
+  displayName: Pristimantis condor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJC5
+  sourceIndexes:
+    - name:
+        en: Pristimantis condor
+        zh: Pristimantis condor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJC5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/210
+            queryName: Pristimantis condor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 140
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/314
+            queryName: Eleutherodactylus condor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f403cf90bc
+      - s-96d5ad3c2e
+      - s-5212b1298c
+      - s-b7582234d8
+      - s-5bebd49079
+      - s-55e1a2ef91
+      - s-39e51cd6c4
+      - s-aed25dfedb
+      - s-d65c84fd23
+    zh:
+      - s-a0618fc37f
+      - s-df410af596
+      - s-d2c0f9b8d2
+      - s-26dfc56e62
+      - s-15b620d933
+      - s-bfa9d4c105
+      - s-7c0e044848
+      - s-d66e0add8a
+      - s-0f86af4e9b

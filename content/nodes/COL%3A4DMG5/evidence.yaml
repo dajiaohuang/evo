@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Parinari capensis Harv.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4DMG5, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4DMG5; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4DMG5
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4DMG5
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000817669-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4DMG5 / WFO wfo-0000817669
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9838_0
+        referenceId: ref-fb88c345-f691-8ad8-a58b-11c4cea76d30
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Parinari capensis Harv. account; archive rows 80431 (Morphology), 80154 (Habitat), source identifier 9838.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Extensively rhizomatous, geoxylic suffrutex; stems nearly always less than 30 cm tall, exceptionally (only in S Mozambique and Natal) up to 1-2(?5) m tall. Leaf-lamina from 9 x 1.2 to 10.5 x 4 cm, more or less elliptic or oblanceolate-elliptic, usually gradually tapering to the acute (very rarely subacuminate) or subacute apex and base, lower surface whitish; petiole 0.2-0.5 cm long; stipules c. 1.5 x 0.4 cm, papery, caducous. Inflorescence terminal and axillary, up to 6.5 x 4 cm; inflorescence-axes and outside of flowers whitish-tomentose. Receptacle-tube 0.35 cm long. Sepals, petals and stamens 0.2 cm long; staminodes 0.05 cm long. Style 0.3 cm long. Drupe ellipsoid, up to 3 x 2 cm.
+            sourceIds:
+              - sanbi_9838_0
+            locator: "SANBI/WFO archive Morphology row 80431; source 9838.0; publication: White, F. 1978. 63. Chrysobalanaceae. In: E Launert (ed.), Fl. Zambes. 4: 33 - 48. Flora Zambesiaca Managing Committee, Glasgow. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Often on sandy, especially seasonally waterlogged, soils at the edges of dambos and on Kalahari sand, where it also occurs in secondary grassland following the destruction of woodland by fire and cultivation.
+            sourceIds:
+              - sanbi_9838_0
+            locator: "SANBI/WFO archive Habitat row 80154; source 9838.0; publication: White, F. 1978. 63. Chrysobalanaceae. In: E Launert (ed.), Fl. Zambes. 4: 33 - 48. Flora Zambesiaca Managing Committee, Glasgow. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

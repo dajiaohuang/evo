@@ -1,0 +1,222 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Blastoidea
+    commonName: Blastoids
+    commonNameZh: 海蕾类
+    rank: class
+    taxonId: txn:30820
+    firstAppearance: 455
+    lastAppearance: 255
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:30820
+    scientificName: Blastoidea
+    commonName: Blastoids
+    commonNameZh: 海蕾类
+    rank: class
+    parentName: Echinodermata
+    extinct: true
+    geography:
+      - Source-bounded Sandbian and Wuchiapingian records
+    overview:
+      page: en
+      section: s-610427d84d
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-62fd43356e
+        part: body
+      habitat:
+        page: en
+        section: s-510a95eaa7
+        part: body
+      locomotion:
+        page: en
+        section: s-4d4a51f725
+        part: body
+      bodySize:
+        page: en
+        section: s-d9de4ced68
+        part: body
+      guild:
+        page: en
+        section: s-182ac8731c
+        part: body
+    traits:
+      - page: en
+        section: s-1b6fdb00a2
+        part: body
+      - page: en
+        section: s-bab5246fac
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-cf2bcd7c6a
+      part: body
+    confidence: medium
+    referenceIds:
+      - bauer-2019-macurdablastus
+      - paul-2021-blastoid-hydrospires
+    readerSections:
+      - id: records-and-hydrospires
+        title:
+          en:
+            page: en
+            section: s-71472a9ed6
+            part: title
+          zh:
+            page: zh
+            section: s-98ca5a6c73
+            part: title
+        text:
+          en:
+            page: en
+            section: s-71472a9ed6
+            part: body
+          zh:
+            page: zh
+            section: s-98ca5a6c73
+            part: body
+        sourceIds:
+          - bauer-2019-macurdablastus
+          - paul-2021-blastoid-hydrospires
+    readerSources:
+      - id: bauer-2019-macurdablastus
+        referenceId: bauer-2019-macurdablastus
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: "1003–1013; Figures 1E–F and 2; Abstract; Macurdablastus as a key to understanding Eublastoidea; Systematic palaeontology: Class Blastoidea | 1003–1013; Figures 1E–F and 2; Abstract and Systematic palaeontology: Class Blastoidea | 1003–1013; Macurdablastus occurrence and systematic context | 1003–1013; Systematic palaeontology and stated study scope | 1003–1013; Figures 1E–F and 2; Systematic palaeontology: Class Blastoidea"
+          scope:
+            en: "Blastoidea: 1003–1013; Figures 1E–F and 2; Abstract; Macurdablastus as a key to understanding Eublastoidea; Systematic palaeontology: Class Blastoidea | 1003–1013; Figures 1E–F and 2; Abstract and Systematic palaeontology: Class Blastoidea | 1003–1013; Macurdablastus occurrence and systematic context | 1003–1013; Systematic palaeontology and stated study scope | 1003–1013; Figures 1E–F and 2; Systematic palaeontology: Class Blastoidea. Limited to the cited specimens, samples or analyses."
+            zh: "Blastoidea：原文定位 1003–1013; Figures 1E–F and 2; Abstract; Macurdablastus as a key to understanding Eublastoidea; Systematic palaeontology: Class Blastoidea | 1003–1013; Figures 1E–F and 2; Abstract and Systematic palaeontology: Class Blastoidea | 1003–1013; Macurdablastus occurrence and systematic context | 1003–1013; Systematic palaeontology and stated study scope | 1003–1013; Figures 1E–F and 2; Systematic palaeontology: Class Blastoidea。本文仅使用所引标本、样本或分析的对应结果。"
+      - id: paul-2021-blastoid-hydrospires
+        referenceId: paul-2021-blastoid-hydrospires
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: "Introduction, first paragraph: late Sandbian Macurdablastus to Upper Permian Wuchiapingian range | Introduction, reported late Sandbian to Wuchiapingian range | Functional-significance scope and range discussion | Functional and evolutionary significance of blastoid hydrospires"
+          scope:
+            en: "Blastoidea: Introduction, first paragraph: late Sandbian Macurdablastus to Upper Permian Wuchiapingian range | Introduction, reported late Sandbian to Wuchiapingian range | Functional-significance scope and range discussion | Functional and evolutionary significance of blastoid hydrospires. Limited to the cited specimens, samples or analyses."
+            zh: "Blastoidea：原文定位 Introduction, first paragraph: late Sandbian Macurdablastus to Upper Permian Wuchiapingian range | Introduction, reported late Sandbian to Wuchiapingian range | Functional-significance scope and range discussion | Functional and evolutionary significance of blastoid hydrospires。本文仅使用所引标本、样本或分析的对应结果。"
+  claims:
+    - subjectId: taxon:blastoidea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The supported blastoid record used here extends from the Sandbian Macurdablastus uniplicatus to a Wuchiapingian last occurrence near 255 Ma; a Permian–Triassic boundary endpoint would be an extinction inference rather than the observed last appearance.
+      confidence: medium
+      confidenceRationale: Macurdablastus is directly documented and treated as a blastoid outside Eublastoidea, while the younger endpoint is a literature synthesis of the youngest reported record. Both endpoints remain sensitive to taxonomic revision and future sampling.
+      referenceLinks:
+        - relation: supports
+          referenceId: bauer-2019-macurdablastus
+          pages: 1003–1013
+          figure: Figures 1E–F and 2
+          quoteLocator: "Abstract; Macurdablastus as a key to understanding Eublastoidea; Systematic palaeontology: Class Blastoidea"
+        - relation: supports
+          referenceId: paul-2021-blastoid-hydrospires
+          quoteLocator: "Introduction, first paragraph: late Sandbian Macurdablastus to Upper Permian Wuchiapingian range"
+    - subjectId: taxon:blastoidea
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Macurdablastus uniplicatus is treated in the cited revision as a blastoid outside Eublastoidea, providing a source-bounded class record rather than a claim about every blastoid relationship.
+      confidence: medium
+      confidenceRationale: The revision directly redefines Eublastoidea around a named taxon, but broader blastoid relationships remain subject to taxonomic revision and sampling.
+      referenceLinks:
+        - referenceId: bauer-2019-macurdablastus
+          relation: supports
+          pages: 1003–1013
+          figure: Figures 1E–F and 2
+          quoteLocator: "Abstract and Systematic palaeontology: Class Blastoidea"
+    - subjectId: taxon:blastoidea
+      claimKind: scientific
+      claimType: biogeography
+      statement: The displayed blastoid evidence is restricted to named Sandbian and Wuchiapingian records in its source studies and does not establish a global distribution, origin centre or extinction geography.
+      confidence: medium
+      confidenceRationale: The references document record endpoints, not a geographically complete blastoid occurrence census.
+      referenceLinks:
+        - referenceId: bauer-2019-macurdablastus
+          relation: supports
+          pages: 1003–1013
+          quoteLocator: Macurdablastus occurrence and systematic context
+        - referenceId: paul-2021-blastoid-hydrospires
+          relation: supports
+          quoteLocator: Introduction, reported late Sandbian to Wuchiapingian range
+    - subjectId: taxon:blastoidea
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited systematic and hydrospire studies do not establish a class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Blastoidea; these fields remain unresolved.
+      confidence: high
+      confidenceRationale: The evidence is limited to named fossil morphology and a functional discussion, not a whole-class ecology reconstruction.
+      referenceLinks:
+        - referenceId: bauer-2019-macurdablastus
+          relation: supports
+          pages: 1003–1013
+          quoteLocator: Systematic palaeontology and stated study scope
+        - referenceId: paul-2021-blastoid-hydrospires
+          relation: supports
+          quoteLocator: Functional-significance scope and range discussion
+    - subjectId: taxon:blastoidea
+      claimKind: scientific
+      claimType: morphology
+      statement: Macurdablastus is a named blastoid with source-described morphology, and hydrospire interpretation is retained as a source-bounded functional-morphology result rather than a class-wide invariant trait.
+      confidence: medium
+      confidenceRationale: The references directly support named anatomical and functional-morphology discussions, but their scope does not cover all blastoid variation.
+      referenceLinks:
+        - referenceId: bauer-2019-macurdablastus
+          relation: supports
+          pages: 1003–1013
+          figure: Figures 1E–F and 2
+          quoteLocator: "Systematic palaeontology: Class Blastoidea"
+        - referenceId: paul-2021-blastoid-hydrospires
+          relation: supports
+          quoteLocator: Functional and evolutionary significance of blastoid hydrospires
+  claim-rationales.zh:
+    - Macurdablastus 的桑比期出现有直接标本支持，年轻端点则来自对已报道最晚记录的文献综合；两端仍会受分类修订和采样影响。
+    - 修订研究直接处理 Macurdablastus 与 Eublastoidea 的关系，但更广泛的海蕾类关系仍会受分类修订和取样影响，故保持中等置信度。
+    - 两项来源记录的是具名桑比期和五家坪期端点，并不是全球海蕾类出现记录普查，不能据此推断起源中心、分布或灭绝地理。
+    - 系统分类与水腔功能讨论都不能建立海蕾类全纲的饮食、栖息地、运动、体型或营养类群；未获支持的生态概括被明确保留。
+    - 来源直接支持具名 Macurdablastus 的形态与水腔功能讨论，但其范围不足以覆盖所有海蕾类变异，故不写成全纲恒定性状。
+  claim-statements.zh:
+    - 所显示的海蕾类证据限于来源研究中具名的桑比期和吴家坪期记录，不能确定全球分布、起源中心或灭绝的地理格局。
+    - 所引分类及呼吸褶研究不能确定整个海蕾纲的食性、生境偏好、运动性能、体型分布或生态功能群；这些字段保持未定。
+    - Macurdablastus 是来源文献中具有形态描述的具名海蕾类；呼吸褶的解释保留为来源限定的功能形态学结果，而非整个纲不变的性状。
+    - 所引修订将 Macurdablastus uniplicatus 作为 Eublastoidea 之外的海蕾类处理，提供来源限定的纲级记录，而非对所有海蕾类亲缘关系的判定。
+    - 本图谱采用的有支持冠石纲记录从桑比期 Macurdablastus uniplicatus 延续至约 2.55 亿年前吴家坪期的最晚出现；二叠纪—三叠纪界线端点属于灭绝推断，而不是已观察到的末次出现。
+  ranges:
+    - entityId: blastoidea
+      rangeKind: global-composite
+      taxonomicConcept: Blastoidea
+      geographicScope: Global or represented navigation composite
+      olderMa: 455
+      youngerMa: 255
+      status: available
+      uncertainty:
+        olderMa: 3
+        youngerMa: 1
+        note: The older endpoint is a rounded Sandbian occurrence and the younger endpoint is the reported Wuchiapingian last record. A 251.9 Ma boundary endpoint would be an extinction inference rather than an observed LAD.
+      evidenceBasis: Macurdablastus anchors the Sandbian blastoid record, while the youngest documented occurrence summarized in the cited literature is Wuchiapingian near 255 Ma.
+      confidence: medium
+      claimIds:
+        - claim:taxon:blastoidea:sandbian-wuchiapingian-record
+      referenceLocators:
+        - referenceId: bauer-2019-macurdablastus
+          locator: "p. 1003; Figures 1E–F and 2; Systematic palaeontology: Class Blastoidea"
+        - referenceId: paul-2021-blastoid-hydrospires
+          locator: Introduction, first paragraph
+      evidenceLevel: literature-synthesized

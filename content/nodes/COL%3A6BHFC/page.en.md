@@ -1,0 +1,3 @@
+## ## A small upright plant with black, hairless pods {#s-4f599167fa}
+Brazilian Flora 2020 describes a plant up to 1.5 m tall, with erect, silky to pubescent branches and narrow wings along the internodes. Its leaves are simple, sessile and elliptic to oblong-elliptic. Loose terminal racemes, positioned opposite the leaves, may carry few or many flowers. Persistent linear to lanceolate bracts accompany flowers with a bilabiate or bell-shaped calyx and a yellow corolla. The oblong to obovate pods are black and glabrous; the seeds are ochre-brown. These are regional character fields, not a population survey.
+

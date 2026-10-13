@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Lankanectes corrugatus
+    name:
+      en: Lankanectes corrugatus
+      zh: Lankanectes corrugatus
+    sourceClassification:
+      order: Anura
+      family: Nyctibatrachidae
+      genus: Lankanectes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0ab64eb58d
+            part: body
+          zh:
+            page: zh
+            section: s-929c37eb58
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-823f949407
+            part: body
+          zh:
+            page: zh
+            section: s-2b6ecce30d
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2516; Reference.csv rows 585
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2516
+        values:
+          - Nyctibatrachidae
+          - Lankanectes
+          - Lankanectes corrugatus
+          - NA
+          - "35.15"
+          - "14.58571429"
+          - "14.00714286"
+          - "4.278571429"
+          - NA
+          - NA
+          - "2.55"
+          - "2.435714286"
+          - "2.314285714"
+          - "2.771428571"
+          - "5.45"
+          - "2.892857143"
+          - NA
+          - "7.15"
+          - NA
+          - "22.33571429"
+          - NA
+          - "15.37857143"
+          - "15.6"
+          - NA
+          - NA
+          - "2.357142857"
+          - "3.535714286"
+          - "4.635714286"
+          - "6.764285714"
+          - "8.9"
+          - "6.571428571"
+          - "2.935714286"
+          - "3.057142857"
+          - "4.278571429"
+          - "3.457142857"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.564285714"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 585
+        values:
+          - Anura
+          - Lankanectes_corrugatus
+          - Senevirathne, G., Samarawickrama, V., Wijayathilaka, N., Manamendra-Arachchi, K., Bowatte, G., Samarawickrama, D., & Meegaskumbura, M. (2018). A new frog species from rapidly dwindling cloud forest streams of Sri Lanka-Lankanectes pera (Anura, Nyctibatrachidae). Zootaxa, 4461(4), 519-538. https://doi.org/10.11646/zootaxa.4461.4.4
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3S7CT
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

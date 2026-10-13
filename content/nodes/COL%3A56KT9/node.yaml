@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius papaloae
+  displayName: Thorius papaloae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KT9
+  sourceIndexes:
+    - name:
+        en: Thorius papaloae
+        zh: Thorius papaloae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KT9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/54
+            queryName: Thorius papaloae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f548592c29
+      - s-541ddfd7ab
+      - s-0e2b6d7f0c
+      - s-f0217eca62
+      - s-2e9334cc64
+      - s-687a9b7c78
+      - s-9b790e4b83
+    zh:
+      - s-de74a2149a
+      - s-6eefb51485
+      - s-2598d36afc
+      - s-4006688281
+      - s-e71d875f9d
+      - s-a10c40e72d
+      - s-87d9905c94

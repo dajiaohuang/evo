@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Guibemantis wattersoni
+    name:
+      en: Guibemantis wattersoni
+      zh: Guibemantis wattersoni
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Guibemantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-98e6045c3a
+            part: body
+          zh:
+            page: zh
+            section: s-6398beaedf
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-acb5d9a2f1
+            part: body
+          zh:
+            page: zh
+            section: s-bcb1e3033b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2080, 2081; Reference.csv rows 496
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2080
+        values:
+          - Mantellidae
+          - Guibemantis
+          - Guibemantis wattersoni
+          - M
+          - "23.5"
+          - "8.3"
+          - "7.833333333"
+          - "2.8"
+          - "1.4"
+          - NA
+          - "3.333333333"
+          - "2.266666667"
+          - NA
+          - "2.733333333"
+          - NA
+          - "0.833333333"
+          - "5.633333333"
+          - "4.933333333"
+          - NA
+          - "10.03333333"
+          - NA
+          - "11.8"
+          - "10.23333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.933333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.733333333"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2081
+        values:
+          - Mantellidae
+          - Guibemantis
+          - Guibemantis wattersoni
+          - F
+          - "25.37368421"
+          - "9.173684211"
+          - "8.468421053"
+          - "3.268421053"
+          - "1.573684211"
+          - NA
+          - "3.463157895"
+          - "2.394736842"
+          - NA
+          - "3.115789474"
+          - NA
+          - "0.984210526"
+          - "6.615789474"
+          - "5.273684211"
+          - NA
+          - "10.77894737"
+          - NA
+          - "12.93684211"
+          - "11.36842105"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.005263158"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.778947368"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 496
+        values:
+          - Anura
+          - Guibemantis_wattersoni
+          - "Lehtinen, R. M., Glaw, F., & Vences, M. (2011). Two new plant-breeding frog species (Anura: Mantellidae, Guibemantis) from southeastern Madagascar. Herpetological Journal, 21(2), 95-112."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3HKMM
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

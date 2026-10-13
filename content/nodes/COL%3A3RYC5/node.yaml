@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Laliostoma labrosum
+  displayName: Laliostoma labrosum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3RYC5
+  sourceIndexes:
+    - name:
+        en: Laliostoma labrosum
+        zh: Laliostoma labrosum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3RYC5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/181
+            queryName: Laliostoma labrosum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/171
+            queryName: Tomopterna labrosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/172
+            queryName: Pyxicephalus madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/173
+            queryName: Pyxicephalus labrosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/174
+            queryName: Rana labrosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-baf35bb4d7
+      - s-189d72706f
+      - s-f8512d9838
+      - s-56319ded89
+      - s-5393aea74b
+      - s-309da5302e
+      - s-27c7524336
+      - s-4adc23400b
+      - s-c1689949ab
+      - s-9f16d7c2ba
+    zh:
+      - s-1e40257d69
+      - s-74b7ac24f8
+      - s-68c35df6f7
+      - s-35fa499d05
+      - s-53d4ce9e90
+      - s-ec80c01851
+      - s-650b23b480
+      - s-c0253d9463
+      - s-1d54694c9a
+      - s-5f0e323086

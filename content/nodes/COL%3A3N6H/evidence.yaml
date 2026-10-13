@@ -1,0 +1,253 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chimerella Guayasamin, Castroviejo-Fisher, Trueb, Ayarzagüena, Rada & Vilà, 2009
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Chimerella
+      zh: Chimerella
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-85cfcb7d1c
+            part: title
+          zh:
+            page: zh
+            section: s-39094e27e1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-85cfcb7d1c
+            part: body
+          zh:
+            page: zh
+            section: s-39094e27e1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0ba4d8ff9d
+            part: title
+          zh:
+            page: zh
+            section: s-0004a00a68
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0ba4d8ff9d
+            part: body
+          zh:
+            page: zh
+            section: s-0004a00a68
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-fd7abd7c6c
+            part: title
+          zh:
+            page: zh
+            section: s-69042ed27d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fd7abd7c6c
+            part: body
+          zh:
+            page: zh
+            section: s-69042ed27d
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-9bd009a075
+            part: title
+          zh:
+            page: zh
+            section: s-7db0db95a5
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 69S32
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A69S32
+            label:
+              en: Chimerella corleone
+              zh: Chimerella corleone
+          - kind: catalogue
+            colId: 5XRQJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5XRQJ
+            label:
+              en: Chimerella mariaelenae
+              zh: Chimerella mariaelenae
+          - kind: catalogue
+            colId: MBWCV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMBWCV
+            label:
+              en: Chimerella mira
+              zh: Chimerella mira
+        text:
+          en:
+            page: en
+            section: s-9bd009a075
+            part: body
+          zh:
+            page: zh
+            section: s-7db0db95a5
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-9396fdf64d
+            part: title
+          zh:
+            page: zh
+            section: s-a0c2983148
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-9396fdf64d
+            part: body
+          zh:
+            page: zh
+            section: s-a0c2983148
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chimerella
+          url: https://www.checklistbank.org/dataset/316115/taxon/3N6H
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Chimerella; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Chimerella; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-416de3fad5
+        part: body
+      zh:
+        page: zh
+        section: s-a3258a5bcc
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Chimerella
+      sourceRowIds:
+        - Anf0947
+      foragingCounts:
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts: []
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Chimerella mariaelenae
+          path: content/nodes/local-c4ac2a9d516c359ce741678b
+      metrics:
+        - metric: CTmax
+          rows: 3
+          sourceConcepts: 1
+        - metric: CTmin
+          rows: 2
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

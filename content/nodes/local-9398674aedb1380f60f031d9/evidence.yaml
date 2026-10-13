@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Occidozyga semipalmata
+    name:
+      en: Occidozyga semipalmata
+      zh: Occidozyga semipalmata
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Occidozyga
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-908f8c5c90
+            part: body
+          zh:
+            page: zh
+            section: s-9f0a52f554
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d49b20e81a
+            part: body
+          zh:
+            page: zh
+            section: s-47722b636e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3704; Reference.csv rows 3315
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3704
+        values:
+          - Dicroglossidae
+          - Occidozyga
+          - Occidozyga semipalmata
+          - NA
+          - "30.66"
+          - "11.86"
+          - "12.01"
+          - "5"
+          - NA
+          - NA
+          - "2.18"
+          - "3.42"
+          - NA
+          - "1.61"
+          - "3.97"
+          - "2.31"
+          - "8.04"
+          - NA
+          - "6.16"
+          - NA
+          - NA
+          - "13.49"
+          - "15.47"
+          - NA
+          - NA
+          - "2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.85"
+          - NA
+          - "0.97"
+          - NA
+          - NA
+          - "1.05"
+          - NA
+          - "8.28"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3315
+        values:
+          - Anura
+          - Occidozyga_semipalmata
+          - Iskandar, D. T., Arifin, U., & Rachmansah, A. (2011). A new frog (Anura, Dicroglossidae), related to Occidozyga semipalmata Smith, 1927, from the eastern peninsula of Sulawesi, Indonesia. Raffles Bulletin of Zoology, 59(2), 219-228.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - LAL
+      - TL
+      - THL
+      - IMT
+      - Fin3DW
+      - Toe1DW
+      - Toe4DW
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48BST
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

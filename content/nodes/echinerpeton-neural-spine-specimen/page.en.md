@@ -1,0 +1,3 @@
+## Echinerpeton’s unusually tall neural spine {#s-6d20c707ae}
+ROM VP 83326 was referred to Echinerpeton intermedium after comparison with paratype RM 10057 and casts and photographs of the type series. Its preserved neural spine is at least 7 cm tall and about 2.3 mm wide. The 308.5–305.5 Ma interval is the approximate age envelope of the Sydney Mines Formation, not a direct date on this specimen. With the centrum and most of the skeleton absent, body proportions and proposed display, recognition or thermoregulatory functions remain hypotheses; this specimen does not identify a direct mammalian ancestor.
+

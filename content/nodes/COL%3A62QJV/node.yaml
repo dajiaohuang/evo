@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Edalorhina
+  displayName: Edalorhina
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62QJV
+  sourceIndexes:
+    - name:
+        en: Edalorhina
+        zh: Edalorhina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62QJV
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/371
+            queryName: Edalorhina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d2d272f823
+      - s-c2b31e93d4
+      - s-1d3265fe22
+      - s-c4afc180a7
+      - s-c2b3510d0a
+      - s-21aaf54adb
+      - s-bad34abced
+    zh:
+      - s-ae69d01b4a
+      - s-f5f893615e
+      - s-7557893c9c
+      - s-cc19e8fdd5
+      - s-e91b95294f
+      - s-a76956c86a
+      - s-77355e3451

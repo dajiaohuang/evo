@@ -1,0 +1,19 @@
+## Which fossil records this name represents {#s-85107fa621}
+Muhsinia steffensi is accepted in the fixed PBDB mammalia working roster, with database parent Muhsinia. This guide uses 3 eligible species-level occurrence records from 3 collections and 2 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+
+## Begin with named collections and strata {#s-9d03e2f47a}
+Collection Inkonak, region code TR; database age bracket 27.3–23.04 Ma, early interval MP 30. Collection Kargi 1 (Anatolia), region code TR; database age bracket 33.9–27.3 Ma, early interval Early Oligocene. Collection Kargi 2 (Anatolia), region code TR; database age bracket 27.3–22.4 Ma, early interval MP 30 and late interval MN 1. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+## Age bounds of these records {#s-c9a35cb0ca}
+Selected occurrences have an outer age envelope of 33.9–22.4 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+One record supplying the older envelope bound is Kargi 1, occurrence occ:1347126 (33.9–27.3 Ma); one supplying the younger bound is Kargi 2, occurrence occ:1347130 (27.3–22.4 Ma). These are collection-age bounds, not endpoints of species survival.
+
+## Read preservation setting separately from living habitat {#s-9eda8c4628}
+Inkonak has collection-environment label terrestrial indet.; collection preservation-mode label body. Kargi 1 has collection-environment label terrestrial indet.; collection preservation-mode label body. Kargi 2 has collection-environment label terrestrial indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+## Follow collection records back to references {#s-66e91db159}
+Inkonak carries database reference attribution de Bruijn et al. (1992), identifier ref:19585. Kargi 1 carries database reference attribution Unay et al. (2003), identifier ref:60701. Kargi 2 carries database reference attribution Unay et al. (2003), identifier ref:60701. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+
+## Evidence limits {#s-af70c105df}
+This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+

@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Centetodon aztecus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Centetodon aztecus
+      en: Centetodon aztecus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5512d66494
+            part: body
+          en:
+            page: en
+            section: s-cfef4246fa
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5d15fb829
+            part: body
+          en:
+            page: en
+            section: s-f7e5679d91
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a73537e42b
+            part: body
+          en:
+            page: en
+            section: s-b4ff224f83
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8ce736ed41
+            part: body
+          en:
+            page: en
+            section: s-d620571c83
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f1aa894f30
+            part: body
+          en:
+            page: en
+            section: s-8c0c4f6bc6
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Centetodon aztecus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=44982&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:44982; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:44982
+          selectedOccurrenceIds:
+            - occ:176216
+            - occ:176570
+            - occ:176595
+            - occ:176676
+            - occ:176702
+            - occ:176723
+            - occ:176746
+            - occ:176756
+            - occ:176768
+            - occ:176822
+            - occ:176834
+            - occ:176891
+            - occ:176930
+            - occ:176947
+            - occ:176967
+            - occ:176981
+            - occ:177010
+            - occ:177028
+            - occ:177597
+          selectedCollectionIds:
+            - col:16626
+            - col:16674
+            - col:16677
+            - col:16697
+            - col:16705
+            - col:16706
+            - col:16709
+            - col:16710
+            - col:16711
+            - col:16718
+            - col:16719
+            - col:16737
+            - col:16745
+            - col:16746
+            - col:16747
+            - col:16748
+            - col:16751
+            - col:16752
+            - col:16845
+          sourceReferenceIds:
+            - ref:3305
+            - ref:2241
+            - ref:1681
+            - ref:3538
+            - ref:3306
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7dd9ece2bd
+        part: body
+      en:
+        page: en
+        section: s-c48efec9a3
+        part: body

@@ -1,0 +1,76 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-b1242ea25d
+      part: title
+    titleZh:
+      page: zh
+      section: s-9dcff18cbe
+      part: title
+    category: radiation
+    startAge: 247
+    endAge: 241.464
+    regions:
+      - Rüdersdorf quarry, Brandenburg, Germany
+    clades:
+      - stem Teleosteomorpha
+      - Pan-Teleostei
+    summary:
+      page: en
+      section: s-b1242ea25d
+      part: body
+    summaryZh:
+      page: zh
+      section: s-9dcff18cbe
+      part: body
+    claimIds:
+      - claim:event:anisian-stem-teleosteomorph-record
+    evidenceItems:
+      - statement: Pseudopholidoctenus (holotype MB.f.18641; paratypes MB.f.19904–19906), Barschichthys (holotype MB.f.19907; MB.f.19908–19909) and Ruedersdorfia (holotype MB.f.19910) preserve distinct character combinations at one approximately 244 Ma locality.
+        relation: supports
+        claimIds:
+          - claim:event:anisian-stem-teleosteomorph-record
+        referenceLinks:
+          - relation: supports
+            referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+            pages: 29–53
+            figure: Figures 2–11; Tables 1–2
+            quoteLocator: Systematic palaeontology; Discussion
+    uncertaintyItems:
+      - statement: The source assigns these fishes to the stem of Teleosteomorpha/Pan-Teleostei; they are not a global fossil first appearance of crown Teleostei.
+        relation: contextualizes
+        claimIds:
+          - claim:event:anisian-stem-teleosteomorph-record
+        referenceLinks:
+          - relation: supports
+            referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+            pages: 29–53
+            quoteLocator: Abstract; Phylogenetic relationships; Conclusions
+      - statement: The current Anisian stage envelope is broader than the paper's approximate 244 Ma locality age; one quarry cannot establish synchronous global radiation, and small adult size alone does not prove developmental miniaturization.
+        relation: contextualizes
+        claimIds:
+          - claim:event:anisian-stem-teleosteomorph-record
+        referenceLinks:
+          - relation: supports
+            referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+            pages: 29–53
+            quoteLocator: Geological setting; Discussion
+  claims:
+    - subjectId: event:anisian-stem-teleosteomorph-record
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Named specimens of Pseudopholidoctenus, Barschichthys and Ruedersdorfia from the approximately 244 Ma Rüdersdorf locality document taxonomic, anatomical and ecological disparity on the teleosteomorph stem; they do not establish a global fossil first appearance of crown Teleostei or a synchronous worldwide radiation.
+      confidence: medium
+      confidenceRationale: Holotypes, referred specimens, diagnostic characters and locality context are directly figured and tabulated. Medium confidence retains the source's stem Teleosteomorpha/Pan-Teleostei placement, the approximate locality age, one-locality sampling and the difference between small adult size and demonstrated developmental miniaturization.
+      referenceLinks:
+        - relation: supports
+          referenceId: arratia-schultze-2024-triassic-teleosteomorphs
+          pages: 29–53
+          figure: Figures 2–11; Tables 1–2
+          quoteLocator: Systematic palaeontology; Geological setting; Discussion and conclusions
+  claim-rationales.zh:
+    - 正模、归入标本、诊断性状和地点背景均有直接图示与列表。中等置信度保留来源给出的真骨鱼总群干群位置、地点近似年代与单地点取样，并区分小型成年体与已经证明的发育小型化。
+  claim-statements.zh:
+    - 约 244 Ma 的 Rüdersdorf 地点所产 Pseudopholidoctenus、Barschichthys 与 Ruedersdorfia 具名标本，记录了真骨鱼总群干群的分类、解剖和生态差异；它们不能确立真骨鱼冠群的全球化石首现，也不能证明全球同步辐射。

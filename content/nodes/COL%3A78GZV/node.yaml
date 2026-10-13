@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne major
+  displayName: Pseudophryne major
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78GZV
+  sourceIndexes:
+    - name:
+        en: Pseudophryne major
+        zh: Pseudophryne major
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78GZV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/440
+            queryName: Pseudophryne major
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 70
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/347
+            queryName: Gradwellia major
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f7330eee82
+      - s-b4d1cccf57
+      - s-9829dd36f5
+      - s-a2344d2fb4
+      - s-179b197c5f
+      - s-68c4cca2fd
+      - s-07b194fe32
+      - s-a7377c5ca9
+      - s-8e620a2f4e
+      - s-a34ef066c8
+    zh:
+      - s-2148a9b59d
+      - s-82b7ee133e
+      - s-88bae07015
+      - s-84b0a547fb
+      - s-9ae3730811
+      - s-cdda01549a
+      - s-aa962a048b
+      - s-4ebb987d3b
+      - s-8fd0aa90c1
+      - s-18373ab9f2

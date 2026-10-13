@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Taudactylus eungellensis
+  displayName: Taudactylus eungellensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/54Z6B
+  sourceIndexes:
+    - name:
+        en: Taudactylus eungellensis
+        zh: Taudactylus eungellensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 54Z6B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/421
+            queryName: Taudactylus eungellensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f86f26df0
+      - s-139ebc76b8
+      - s-f84b362ba2
+      - s-47d81d9a46
+      - s-da948d1614
+      - s-d573f2b790
+      - s-96330df4ff
+      - s-acebcbf727
+      - s-75aca6727a
+      - s-482600560a
+      - s-6e9ca38f32
+    zh:
+      - s-f81d8c3c07
+      - s-c2f7481f7b
+      - s-6b69b4305c
+      - s-74126ba3bf
+      - s-cf77274c6d
+      - s-3214c6c4b6
+      - s-db7b5baa09
+      - s-193a222b6b
+      - s-262e548dbf
+      - s-ad385439a1
+      - s-d7e935ad60

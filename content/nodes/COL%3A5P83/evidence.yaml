@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mercurana Abraham, Pyron, Ansil, Zachariah & Zachariah, 2013
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Mercurana
+      zh: Mercurana
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8881aaf059
+            part: title
+          zh:
+            page: zh
+            section: s-091118b5ef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8881aaf059
+            part: body
+          zh:
+            page: zh
+            section: s-091118b5ef
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6cd6c522ac
+            part: title
+          zh:
+            page: zh
+            section: s-350cfc7d31
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6cd6c522ac
+            part: body
+          zh:
+            page: zh
+            section: s-350cfc7d31
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-107a2ed98e
+            part: title
+          zh:
+            page: zh
+            section: s-18abfc7423
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3ZTGX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3ZTGX
+            label:
+              en: Mercurana myristicapalustris
+              zh: Mercurana myristicapalustris
+        text:
+          en:
+            page: en
+            section: s-107a2ed98e
+            part: body
+          zh:
+            page: zh
+            section: s-18abfc7423
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mercurana
+          url: https://www.checklistbank.org/dataset/316115/taxon/5P83
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2318041bc2
+        part: body
+      zh:
+        page: zh
+        section: s-25b461f71d
+        part: body

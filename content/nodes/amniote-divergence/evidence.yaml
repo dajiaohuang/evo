@@ -1,0 +1,82 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-3a5541b0ad
+      part: title
+    titleZh:
+      page: zh
+      section: s-5969069dcf
+      part: title
+    category: origin
+    startAge: 320
+    endAge: 300
+    regions:
+      - Equatorial Pangaea
+    clades:
+      - Synapsida
+      - Sauropsida
+    summary:
+      page: en
+      section: s-3a5541b0ad
+      part: body
+    summaryZh:
+      page: zh
+      section: s-5969069dcf
+      part: body
+    claimIds:
+      - claim:event:amniote-divergence
+    evidenceItems:
+      - statement: Diagnostic skull openings
+        relation: supports
+        claimIds:
+          - claim:event:amniote-divergence
+        referenceLinks:
+          - relation: supports
+            referenceId: ford-2020-amniote
+      - statement: Reproductive and skeletal adaptations inferred from phylogeny
+        relation: supports
+        claimIds:
+          - claim:event:amniote-divergence
+        referenceLinks:
+          - relation: supports
+            referenceId: ford-2020-amniote
+      - statement: Carboniferous body fossils
+        relation: supports
+        claimIds:
+          - claim:event:amniote-divergence
+        referenceLinks:
+          - relation: supports
+            referenceId: ford-2020-amniote
+    uncertaintyItems:
+      - statement: The earliest members are rare
+        relation: contextualizes
+        claimIds:
+          - claim:event:amniote-divergence
+        referenceLinks:
+          - relation: supports
+            referenceId: ford-2020-amniote
+      - statement: Exact divergence dates depend on tree calibration
+        relation: contextualizes
+        claimIds:
+          - claim:event:amniote-divergence
+        referenceLinks:
+          - relation: supports
+            referenceId: ford-2020-amniote
+  claims:
+    - subjectId: event:amniote-divergence
+      claimKind: scientific
+      claimType: topology
+      statement: Early amniote relationships support distinct synapsid and sauropsid branches, while several Paleozoic placements remain analysis-dependent.
+      confidence: medium
+      confidenceRationale: Medium confidence records that the principal synapsid–sauropsid split is recovered while several early-amniote placements change with character coding and phylogenetic analysis; one topology study cannot close those conflicts.
+      referenceLinks:
+        - relation: supports
+          referenceId: ford-2020-amniote
+          figure: Figures 1–4
+          quoteLocator: Phylogenetic analyses; character optimization; supplementary matrices
+  claim-rationales.zh:
+    - 中置信度表示主要的合弓类—蜥形类分裂较稳定，但若干早期羊膜动物的位置会随性状编码和系统分析而改变，单项研究不足以消除冲突。
+  claim-statements.zh:
+    - 早期羊膜动物的亲缘关系支持合弓类与蜥形类是不同分支，但若干古生代分类单元的位置仍依赖分析。

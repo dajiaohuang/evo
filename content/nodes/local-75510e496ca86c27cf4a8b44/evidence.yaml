@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odorrana kweichowensis
+    name:
+      en: Odorrana kweichowensis
+      zh: Odorrana kweichowensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Odorrana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-838ed70826
+            part: body
+          zh:
+            page: zh
+            section: s-f38f94d78a
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-54f59f95d2
+            part: body
+          zh:
+            page: zh
+            section: s-38f307ce3e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3776, 3777; Reference.csv rows 3919
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3776
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana kweichowensis
+          - F
+          - "73.6"
+          - "28.15"
+          - "26.15625"
+          - "8.78125"
+          - "4.6875"
+          - NA
+          - "5.69375"
+          - "8.3375"
+          - NA
+          - "6.15"
+          - "11.48125"
+          - "4.775"
+          - NA
+          - NA
+          - "37.24375"
+          - "43.375"
+          - "61.525"
+          - "45.8875"
+          - "40.675"
+          - "18.15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3777
+        values:
+          - Ranidae
+          - Odorrana
+          - Odorrana kweichowensis
+          - M
+          - "40.94444444"
+          - "15.82222222"
+          - "14.47777778"
+          - "5.566666667"
+          - "3.933333333"
+          - NA
+          - "2.966666667"
+          - "4.955555556"
+          - NA
+          - "3.6"
+          - "6.4"
+          - "2.688888889"
+          - NA
+          - NA
+          - "21.11111111"
+          - "23.61111111"
+          - "34.25555556"
+          - "24.81111111"
+          - "22.74444444"
+          - "10.64444444"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3919
+        values:
+          - Anura
+          - Odorrana_kweichowensis
+          - Li, S., Xu, N., Lv, J., Jiang, J., Wei, G., & Wang, B. (2018). A new species of the odorous frog genus Odorrana (Amphibia, Anura, Ranidae) from southwestern China. PeerJ, 6, e5695. https://doi.org/10.7717/peerj.5695
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - SL
+      - NS
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48SG4
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

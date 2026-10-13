@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreobates cruralis
+  displayName: Oreobates cruralis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SSPG
+  sourceIndexes:
+    - name:
+        en: Oreobates cruralis
+        zh: Oreobates cruralis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SSPG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/194
+            queryName: Oreobates cruralis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/70
+            queryName: Eleutherodactylus cruralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/311
+            queryName: Hylodes cruralis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5cffcbb2c6
+      - s-60a2a7ef7f
+      - s-33d398508b
+      - s-791e29286e
+      - s-6a4cc79b5f
+      - s-41ea750870
+      - s-3b82cd6567
+      - s-3c6c43b195
+      - s-2044ae6079
+      - s-82619c1178
+      - s-5ce7268b64
+      - s-baf9b4c6d7
+      - s-0030556d60
+      - s-b24fa77c48
+    zh:
+      - s-88e9d556d1
+      - s-f6cded0a50
+      - s-8ff77997d7
+      - s-0344c4868b
+      - s-dd2d8f9b29
+      - s-a4ba1f745a
+      - s-c9dd0b68f2
+      - s-e5d78ff93c
+      - s-cc210d5982
+      - s-716cf251cb
+      - s-6f8ee15205
+      - s-e050e1044b
+      - s-42ed13b738
+      - s-1ea247fe10

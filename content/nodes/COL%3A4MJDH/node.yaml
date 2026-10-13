@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis elegans
+  displayName: Pristimantis elegans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJDH
+  sourceIndexes:
+    - name:
+        en: Pristimantis elegans
+        zh: Pristimantis elegans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJDH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/252
+            queryName: Pristimantis elegans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/81
+            queryName: Eleutherodactylus elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/193
+            queryName: Liuperus elegans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/194
+            queryName: Hylodes fuhrmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-488c72b33c
+      - s-1bf3baa82e
+      - s-16cd5c13a9
+      - s-c176b4e988
+      - s-dd4986d6ae
+      - s-f145cd95eb
+      - s-f2a236a860
+      - s-c461b755ba
+      - s-3c907db685
+      - s-da37d3880e
+    zh:
+      - s-86068c41be
+      - s-f36bacb547
+      - s-98e798dc90
+      - s-92f5200113
+      - s-d2512c040f
+      - s-34b306f306
+      - s-72b88324e0
+      - s-08613b9aa3
+      - s-e09c16c407
+      - s-01446a42cc

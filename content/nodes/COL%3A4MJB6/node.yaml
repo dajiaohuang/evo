@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis calcaratus
+  displayName: Pristimantis calcaratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJB6
+  sourceIndexes:
+    - name:
+        en: Pristimantis calcaratus
+        zh: Pristimantis calcaratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJB6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/172
+            queryName: Pristimantis calcaratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/53
+            queryName: Eleutherodactylus calcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/121
+            queryName: Hylodes calcaratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a3cf562d7
+      - s-8a23994ae3
+      - s-79a122f1cf
+      - s-1b1ab260cb
+      - s-2e33b5783f
+      - s-46cd2bf1b6
+      - s-3ea8b7c1cd
+      - s-2d30ce21fa
+      - s-27f863bf3f
+    zh:
+      - s-900e98bbe9
+      - s-7c6c4cc23d
+      - s-8249665dc0
+      - s-7590e22c8a
+      - s-5cf235d9da
+      - s-def72e3589
+      - s-d286dc0e09
+      - s-3f64567f57
+      - s-c1a8b11189

@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Gobiates leptocolaptus
+    rank: species
+    sourceTaxonId: txn:57290
+    name:
+      en: Gobiates leptocolaptus
+      zh: Gobiates leptocolaptus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-15d80f9ee0
+            part: body
+          zh:
+            page: zh
+            section: s-4b31b0af1e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-7ba31d0f60
+            part: body
+          zh:
+            page: zh
+            section: s-a763d7deb7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-dfab8fd77e
+            part: body
+          zh:
+            page: zh
+            section: s-241d8de74a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:57290; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: Y. M. Gubin. 1999. Gobiatidy (Anura) iz verkhnemelovogo mestonakhozhdeniya Khermin-Tsav; Gobi, Mongoliya (= Gobiatids (Anura) from the Upper Cretaceous locality Khermeen-Tsav (Gobi Desert, Mongolia)). Paleontologicheskii Zhurnal 1:76-87
+    occurrenceEvidence:
+      - occurrenceId: occ:137379
+        collectionId: col:11576
+        acceptedTaxonId: txn:57290
+        taxonomicDifference: null
+        referenceId: ref:4173
+        bibliography: Y. M. Gubin. 1999. Gobiatidy (Anura) iz verkhnemelovogo mestonakhozhdeniya Khermin-Tsav; Gobi, Mongoliya (= Gobiatids (Anura) from the Upper Cretaceous locality Khermeen-Tsav (Gobi Desert, Mongolia)). Paleontologicheskii Zhurnal 1:76-87
+        locality:
+          countryCode: MN
+          stateProvince: South Gobi Region
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 66
+      - occurrenceId: occ:393106
+        collectionId: col:28243
+        acceptedTaxonId: txn:57290
+        identifiedTaxonId: var:57290
+        identifiedName: Eopelobates leptocolaptus n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:10087
+        bibliography: M. Borsuk-Bialynicka. 1978. Eopelobates leptocolaptus sp. n.- the first upper Cretaceous pelobatid frog from Asia. Palaeontologia Polonica 38:57-63
+        locality:
+          countryCode: MN
+          stateProvince: Omnogov
+          county: null
+        stratigraphy:
+          group: null
+          formation: Baruungoyot
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:442543
+        collectionId: col:11582
+        acceptedTaxonId: txn:57290
+        taxonomicDifference: null
+        referenceId: ref:4173
+        bibliography: Y. M. Gubin. 1999. Gobiatidy (Anura) iz verkhnemelovogo mestonakhozhdeniya Khermin-Tsav; Gobi, Mongoliya (= Gobiatids (Anura) from the Upper Cretaceous locality Khermeen-Tsav (Gobi Desert, Mongolia)). Paleontologicheskii Zhurnal 1:76-87
+        locality:
+          countryCode: MN
+          stateProvince: Omnogov
+          county: null
+        stratigraphy:
+          group: null
+          formation: Baruungoyot
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-dfab8fd77e
+            part: body
+          zh:
+            page: zh
+            section: s-241d8de74a
+            part: body
+        sourceIds: []

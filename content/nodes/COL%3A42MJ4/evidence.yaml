@@ -1,0 +1,84 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mico mauesi (Mittermeier, Schwarz & Ayres, 1992)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Maués Marmoset
+      zh: 毛埃斯绒猴
+    sections:
+      - topic: distribution
+        text:
+          en:
+            page: en
+            section: s-950d694151
+            part: body
+          zh:
+            page: zh
+            section: s-4fa8c3f598
+            part: body
+        sourceIds:
+          - mauesi2008
+      - topic: habitat
+        text:
+          en:
+            page: en
+            section: s-282022d374
+            part: body
+          zh:
+            page: zh
+            section: s-ff27c21666
+            part: body
+        sourceIds:
+          - mauesi2008
+    sources:
+      - id: mauesi2008
+        referenceId: ref-a474426f-bc02-81e1-a297-afb2d8efb646
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the 2004 field trip, eight records, sighting/interview breakdown, survey area and observed habitat types.
+            zh: 支持 2004 年野外行程、8 处记录、目击/访谈构成、调查区和记录到的生境类型。
+      - id: mdd_name
+        referenceId: ref-7518e312-dd38-84f5-a2c2-9f0bfe8e77f8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name Maués Marmoset only; it does not support the field findings or replace the pinned COL identity.
+            zh: 仅支持英文普通名 Maués Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 · source 2144
+            zh: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42MJ4
+          scope:
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+    limitations:
+      en:
+        page: en
+        section: s-3494011034
+        part: body
+      zh:
+        page: zh
+        section: s-60ef7e0abe
+        part: body

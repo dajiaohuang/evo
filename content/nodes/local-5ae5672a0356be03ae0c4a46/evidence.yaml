@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Raorchestes resplendens
+    name:
+      en: Raorchestes resplendens
+      zh: Raorchestes resplendens
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Raorchestes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-05977fef67
+            part: body
+          zh:
+            page: zh
+            section: s-8c938d9fe4
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7a3a4b6841
+            part: body
+          zh:
+            page: zh
+            section: s-824de44b15
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5318, 5319; Reference.csv rows 1288
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5318
+        values:
+          - Rhacophoridae
+          - Raorchestes
+          - Raorchestes resplendens
+          - F
+          - "26.8"
+          - "10"
+          - "10.4"
+          - "2.6"
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - "1.3"
+          - NA
+          - "3.6"
+          - NA
+          - "6.8"
+          - "5.4"
+          - NA
+          - "9.6"
+          - NA
+          - "9.3"
+          - "9.9"
+          - "4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5319
+        values:
+          - Rhacophoridae
+          - Raorchestes
+          - Raorchestes resplendens
+          - M
+          - "23.9"
+          - "8.8"
+          - "9.3"
+          - "2.6"
+          - "1.3"
+          - NA
+          - "2.9"
+          - NA
+          - "1.6"
+          - NA
+          - "3.2"
+          - NA
+          - "6.2"
+          - "4.8"
+          - NA
+          - "8.4"
+          - NA
+          - "8.2"
+          - "8.9"
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1288
+        values:
+          - Anura
+          - Raorchestes_resplendens
+          - Biju, S. D., Shouche, Y., Dubois, A., Dutta, S. K., & Bossuyt, F. (2010). A ground-dwelling rhacophorid frog from the highest mountain peak of the Western Ghats of India. Current Science, 98(8), 1119-1125.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7953S
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

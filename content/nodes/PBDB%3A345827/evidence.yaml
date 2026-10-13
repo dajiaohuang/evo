@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Konzhukovia sangabrielensis
+    rank: species
+    sourceTaxonId: txn:345827
+    name:
+      en: Konzhukovia sangabrielensis
+      zh: Konzhukovia sangabrielensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-09ec97d48c
+            part: body
+          zh:
+            page: zh
+            section: s-111109c3f2
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-ec090ca950
+            part: body
+          zh:
+            page: zh
+            section: s-65ce805f0b
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-af306a190c
+            part: body
+          zh:
+            page: zh
+            section: s-a7c45d6266
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:345827; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: C. P. Pacheco, E. Eltink, and R. T. Müller, S. Dias-da-Silva. 2017. A new Permian temnospondyl with Russian affinities from South America, the new family Konzhukoviidae, and the phylogenetic status of Archegosauroidea. Journal of Systematic Palaeontology 15(3):241-256
+    occurrenceEvidence:
+      - occurrenceId: occ:1368857
+        collectionId: col:185751
+        acceptedTaxonId: txn:345827
+        identifiedName: Konzhukovia sangabrielensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:60043
+        bibliography: C. P. Pacheco, E. Eltink, and R. T. Müller, S. Dias-da-Silva. 2017. A new Permian temnospondyl with Russian affinities from South America, the new family Konzhukoviidae, and the phylogenetic status of Archegosauroidea. Journal of Systematic Palaeontology 15(3):241-256
+        locality:
+          countryCode: BR
+          stateProvince: Rio Grande do Sul
+          county: São Gabriel
+        stratigraphy:
+          group: Passa Dois
+          formation: Rio do Rasto
+          member: Morro Pelado
+        olderAgeMa: 266.9
+        youngerAgeMa: 259.857
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-af306a190c
+            part: body
+          zh:
+            page: zh
+            section: s-a7c45d6266
+            part: body
+        sourceIds: []

@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax auratus
+  displayName: Scinax auratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJV2
+  sourceIndexes:
+    - name:
+        en: Scinax auratus
+        zh: Scinax auratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJV2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/14
+            queryName: Scinax auratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/426
+            queryName: Hyla aurata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/427
+            queryName: Ololygon aurata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/428
+            queryName: Scinax aurata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4f7f1d6820
+      - s-1a4974c92b
+      - s-f122396cc8
+      - s-ee56b75d99
+      - s-89b46fc249
+      - s-1a4f45fa7f
+      - s-301b580fe6
+      - s-014e121ac8
+      - s-aa2b853cd2
+      - s-8fb5654d46
+      - s-bc7cf654f7
+      - s-5a2ca7b7d3
+      - s-9a75e23109
+      - s-dbea47fa7b
+      - s-ee1d6de1fa
+      - s-2fcd880e2c
+    zh:
+      - s-1344d2ae48
+      - s-342c1f83eb
+      - s-74603bd770
+      - s-19ed7691c3
+      - s-72082c6eec
+      - s-a19f737078
+      - s-3aadf60401
+      - s-48f48608c4
+      - s-ddc7987c7f
+      - s-5a4a7c92e9
+      - s-22e96158e7
+      - s-2f2bb91e93
+      - s-bad814a181
+      - s-39cf7d2120
+      - s-8e09c0b0c2
+      - s-b523128258

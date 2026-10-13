@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton chiropterus
+  displayName: Chiropterotriton chiropterus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y6LM
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton chiropterus
+        zh: Chiropterotriton chiropterus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y6LM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/292
+            queryName: Chiropterotriton chiropterus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/290
+            queryName: Spelerpes chiropterus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/291
+            queryName: Oedipus chiropterus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/292
+            queryName: Bolitoglossa chiroptera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/293
+            queryName: Chiropterotriton chiroptera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3f1ef64a33
+      - s-62869d60b4
+      - s-db4bcd0eb8
+      - s-1baf28f1ae
+      - s-68d505c913
+      - s-8d08acef03
+      - s-47c81d8de2
+      - s-576828fbc0
+      - s-c094b17a52
+      - s-a70f229dab
+      - s-2bca60adf2
+      - s-c5d8cbf441
+      - s-b2614f46de
+      - s-70176042d4
+      - s-6d903dd3ee
+    zh:
+      - s-362e40abff
+      - s-e68c418a8e
+      - s-e402464fe2
+      - s-402d49cce8
+      - s-197ba548c2
+      - s-58c9fd744f
+      - s-901dfbf6d0
+      - s-f88b35778a
+      - s-030b0eda58
+      - s-f9c45e882f
+      - s-9202cd47cb
+      - s-54507ab1c0
+      - s-85990bbcd7
+      - s-18cb7f7b6f
+      - s-ea3edc5140

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis williamsi
+  displayName: Boophis williamsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHVC
+  sourceIndexes:
+    - name:
+        en: Boophis williamsi
+        zh: Boophis williamsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHVC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/310
+            queryName: Boophis williamsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/130
+            queryName: Rhacophorus williamsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ef53087c2
+      - s-0e76cb66d1
+      - s-0790523353
+      - s-1941d88796
+      - s-cdbaa53580
+      - s-cdf0dc26c6
+      - s-5abca5acf8
+      - s-33835fdf21
+      - s-3464193236
+    zh:
+      - s-1b73a6f62d
+      - s-186596e8f5
+      - s-7ef8da7bb4
+      - s-f57000a5f6
+      - s-0bdf15059a
+      - s-b0a40fe045
+      - s-a323648fc3
+      - s-17eed6e63a
+      - s-2af247ca10

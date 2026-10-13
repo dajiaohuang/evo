@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Limnonectes fastigatus Stuart, Schoen, Nelson, Maher, Neang, Rowley & McLeod, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Limnonectes fastigatus
+      zh: Limnonectes fastigatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7bccfeb996
+            part: title
+          zh:
+            page: zh
+            section: s-5ca30c9a80
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7bccfeb996
+            part: body
+          zh:
+            page: zh
+            section: s-5ca30c9a80
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9fb9d38c42
+            part: title
+          zh:
+            page: zh
+            section: s-445b54c375
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9fb9d38c42
+            part: body
+          zh:
+            page: zh
+            section: s-445b54c375
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-e2e5251b13
+            part: title
+          zh:
+            page: zh
+            section: s-b7fe83cc2a
+            part: title
+        sourceIds:
+          - primary-pmc12059578-q7rcn
+        text:
+          en:
+            page: en
+            section: s-e2e5251b13
+            part: body
+          zh:
+            page: zh
+            section: s-b7fe83cc2a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-66e4639925
+            part: title
+          zh:
+            page: zh
+            section: s-a74d428711
+            part: title
+        sourceIds:
+          - primary-pmc12059578-q7rcn
+        text:
+          en:
+            page: en
+            section: s-66e4639925
+            part: body
+          zh:
+            page: zh
+            section: s-a74d428711
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Limnonectes fastigatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q7RCN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12059578-q7rcn
+        referenceId: ref-c06e4548-0449-455a-aedf-38318bbe28e6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Limnonectes fastigatus: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bec85c5669
+        part: body
+      zh:
+        page: zh
+        section: s-f5efe95e74
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.13.e146098
+        referenceId: ref-c06e4548-0449-455a-aedf-38318bbe28e6
+        sourceKey: primary-pmc12059578-q7rcn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12059578/article.xml
+        sourceConcept: Limnonectes fastigatus
+        evidenceRead: "Limnonectes fastigatus: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: A Gia Lai provincial record
+              zh: 嘉莱省记录
+            referenceId: ref-c06e4548-0449-455a-aedf-38318bbe28e6
+            sourceKey: primary-pmc12059578-q7rcn
+            locator: "Limnonectes fastigatus: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7b1f3e657b
+                part: body
+              zh:
+                page: zh
+                section: s-9ca6d0c551
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Rocky-stream observations at night
+              zh: 夜间岩石溪流观察
+            referenceId: ref-c06e4548-0449-455a-aedf-38318bbe28e6
+            sourceKey: primary-pmc12059578-q7rcn
+            locator: "Limnonectes fastigatus: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6f3781b502
+                part: body
+              zh:
+                page: zh
+                section: s-6c5a283bb7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

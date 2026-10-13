@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys brachykolos
+  displayName: Boulenophrys brachykolos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MR78
+  sourceIndexes:
+    - name:
+        en: Boulenophrys brachykolos
+        zh: Boulenophrys brachykolos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MR78
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/330
+            queryName: Boulenophrys brachykolos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/252
+            queryName: Xenophrys brachykolos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/26
+            queryName: Megophrys brachykolos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/27
+            queryName: Panophrys brachykolos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/139
+            queryName: Megophrys minor brachykolos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-42583ec42a
+      - s-d5659a0aca
+      - s-bbc50299de
+      - s-52b2f1bb0e
+      - s-5b8bf91dde
+      - s-431d5296f7
+      - s-6b623bc16c
+      - s-adc01b36fd
+      - s-6f608092e4
+    zh:
+      - s-544ae57209
+      - s-e1ec60dbd5
+      - s-c56ac0b0f2
+      - s-e89728d635
+      - s-a2989293f7
+      - s-1365ab9dca
+      - s-bccc7b34eb
+      - s-5c9cb5b9f1
+      - s-844990b063

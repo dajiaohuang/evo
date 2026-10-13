@@ -1,0 +1,558 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palaeoloxodon antiquus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Palaeoloxodon antiquus
+      en: Palaeoloxodon antiquus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d9a0794caa
+            part: body
+          en:
+            page: en
+            section: s-1ce4897f24
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7b9c9fab1e
+            part: body
+          en:
+            page: en
+            section: s-619060126e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a037c837fb
+            part: body
+          en:
+            page: en
+            section: s-a1792dc2f7
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-69eb81e17a
+            part: body
+          en:
+            page: en
+            section: s-3560144ef0
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2af4a6710c
+            part: body
+          en:
+            page: en
+            section: s-08a1c2c162
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Palaeoloxodon antiquus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=159781&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:159781; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:159781
+          selectedOccurrenceIds:
+            - occ:220134
+            - occ:364079
+            - occ:364080
+            - occ:364084
+            - occ:364085
+            - occ:364086
+            - occ:364087
+            - occ:370535
+            - occ:380814
+            - occ:440116
+            - occ:443182
+            - occ:443257
+            - occ:443406
+            - occ:443796
+            - occ:447647
+            - occ:447710
+            - occ:457435
+            - occ:457452
+            - occ:457476
+            - occ:479855
+            - occ:479871
+            - occ:485012
+            - occ:488491
+            - occ:493142
+            - occ:496977
+            - occ:497030
+            - occ:497129
+            - occ:512316
+            - occ:684228
+            - occ:684229
+            - occ:684230
+            - occ:684231
+            - occ:684232
+            - occ:684233
+            - occ:684234
+            - occ:725876
+            - occ:872709
+            - occ:872768
+            - occ:872910
+            - occ:973721
+            - occ:1348301
+            - occ:1348303
+            - occ:1348306
+            - occ:1348307
+            - occ:1356832
+            - occ:1374667
+            - occ:1410039
+            - occ:1410046
+            - occ:1410055
+            - occ:1410059
+            - occ:1412706
+            - occ:1463606
+            - occ:1463649
+            - occ:1464181
+            - occ:1465257
+            - occ:1465262
+            - occ:1465263
+            - occ:1465312
+            - occ:1465313
+            - occ:1465314
+            - occ:1465317
+            - occ:1465318
+            - occ:1465319
+            - occ:1466141
+            - occ:1466142
+            - occ:1466145
+            - occ:1466154
+            - occ:1466562
+            - occ:1466628
+            - occ:1568119
+            - occ:1568188
+            - occ:1568206
+            - occ:1568241
+            - occ:1568253
+            - occ:1568286
+            - occ:1568299
+            - occ:1678908
+            - occ:1678981
+            - occ:2070731
+          selectedCollectionIds:
+            - col:22702
+            - col:34507
+            - col:34508
+            - col:34510
+            - col:34511
+            - col:34512
+            - col:34513
+            - col:35078
+            - col:36134
+            - col:43016
+            - col:43650
+            - col:43654
+            - col:43664
+            - col:43705
+            - col:44090
+            - col:44092
+            - col:43020
+            - col:45085
+            - col:45065
+            - col:47830
+            - col:47831
+            - col:48555
+            - col:49087
+            - col:49813
+            - col:50193
+            - col:50196
+            - col:50199
+            - col:51817
+            - col:73757
+            - col:73758
+            - col:73759
+            - col:73760
+            - col:73761
+            - col:73762
+            - col:73763
+            - col:77767
+            - col:96723
+            - col:96745
+            - col:96782
+            - col:93828
+            - col:182677
+            - col:182679
+            - col:182680
+            - col:182681
+            - col:184245
+            - col:187637
+            - col:194477
+            - col:194472
+            - col:194474
+            - col:194475
+            - col:77754
+            - col:204298
+            - col:204308
+            - col:204397
+            - col:204546
+            - col:204549
+            - col:204550
+            - col:204552
+            - col:204553
+            - col:204554
+            - col:204555
+            - col:204556
+            - col:204557
+            - col:204743
+            - col:204744
+            - col:182678
+            - col:204753
+            - col:204807
+            - col:34770
+            - col:205285
+            - col:221415
+            - col:221416
+            - col:221421
+            - col:221422
+            - col:221425
+            - col:221426
+            - col:237974
+            - col:237976
+            - col:189981
+          sourceReferenceIds:
+            - ref:5674
+            - ref:9108
+            - ref:9441
+            - ref:9695
+            - ref:11400
+            - ref:11465
+            - ref:11572
+            - ref:11576
+            - ref:11725
+            - ref:12802
+            - ref:13065
+            - ref:12957
+            - ref:7009
+            - ref:13378
+            - ref:13430
+            - ref:9643
+            - ref:13795
+            - ref:24726
+            - ref:26261
+            - ref:32997
+            - ref:33015
+            - ref:37407
+            - ref:60881
+            - ref:61580
+            - ref:63000
+            - ref:66223
+            - ref:66368
+            - ref:69360
+            - ref:70013
+            - ref:70063
+            - ref:70141
+            - ref:70144
+            - ref:70146
+            - ref:70147
+            - ref:70148
+            - ref:70150
+            - ref:70151
+            - ref:70152
+            - ref:70269
+            - ref:70296
+            - ref:70297
+            - ref:77543
+            - ref:90230
+            - ref:63876
+          originalIdentificationMappings:
+            - occurrenceId: occ:364079
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:364080
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:364084
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:364085
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:364086
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:364087
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:370535
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:380814
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:440116
+              originalIdentifiedName: Elephas (Palaeoloxodon) antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:443182
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:443257
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:443406
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:443796
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:447647
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:447710
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:496977
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:497030
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:497129
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:512316
+              originalIdentifiedName: Elephas (Hesperoloxodon) antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:684228
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:684229
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:684230
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:684231
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:684232
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:684233
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:684234
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:725876
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:872709
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:872768
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:973721
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1348301
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1348303
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1348306
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1348307
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1374667
+              originalIdentifiedName: Elephas (Palaeoloxodon) antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1463649
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1464181
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1465263
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1465312
+              originalIdentifiedName: Elephas (Palaeoloxodon) antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1465313
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1465314
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1465317
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1465318
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1465319
+              originalIdentifiedName: Elephas (Palaeoloxodon) antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1466141
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1466142
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1466145
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1466154
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1466628
+              originalIdentifiedName: Elephas (Palaeoloxodon) antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1678908
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:1678981
+              originalIdentifiedName: Elephas antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+            - occurrenceId: occ:2070731
+              originalIdentifiedName: Elephas (Palaeoloxodon) antiquus
+              acceptedName: Palaeoloxodon antiquus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0d61a4bb3b
+        part: body
+      en:
+        page: en
+        section: s-ebd9d7f3cb
+        part: body

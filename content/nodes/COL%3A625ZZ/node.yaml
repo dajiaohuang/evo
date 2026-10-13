@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachidae
+  displayName: Phrynobatrachidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/625ZZ
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachidae
+        zh: Phrynobatrachidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 625ZZ
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/159
+            queryName: Phrynobatrachidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 35
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-98d9012e9d
+      - s-cebcbf4cec
+      - s-c5c3e9ed9a
+      - s-76bdf55c2f
+      - s-5a6dc0ed6e
+      - s-94d887e75c
+    zh:
+      - s-380bc6b3a1
+      - s-b70cffa0fa
+      - s-e4eedce30c
+      - s-8a3433bf9b
+      - s-96f34202f1
+      - s-eb62ec9f53

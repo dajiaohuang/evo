@@ -1,0 +1,351 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Blythophryne Chandramouli, Vasudevan, Harikrishnan, Dutta, Janani, Sharma, Das & Aggarwal, 2016
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Blythophryne
+      zh: Blythophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-75d1ad7a2f
+            part: title
+          zh:
+            page: zh
+            section: s-081d357d9e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-75d1ad7a2f
+            part: body
+          zh:
+            page: zh
+            section: s-081d357d9e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f0d34ff2d2
+            part: title
+          zh:
+            page: zh
+            section: s-27cec3d11f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f0d34ff2d2
+            part: body
+          zh:
+            page: zh
+            section: s-27cec3d11f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f883b82704
+            part: title
+          zh:
+            page: zh
+            section: s-ed5d8f792a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: M7RD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AM7RD
+            label:
+              en: Blythophryne beryet
+              zh: Blythophryne beryet
+        text:
+          en:
+            page: en
+            section: s-f883b82704
+            part: body
+          zh:
+            page: zh
+            section: s-ed5d8f792a
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc4740822-62hcj
+        title:
+          en:
+            page: en
+            section: s-ea6f61b572
+            part: title
+          zh:
+            page: zh
+            section: s-98d2444e53
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ea6f61b572
+            part: body
+          zh:
+            page: zh
+            section: s-98d2444e53
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc4740822-62hcj
+        title:
+          en:
+            page: en
+            section: s-3d81b4247b
+            part: title
+          zh:
+            page: zh
+            section: s-433c80bdf9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3d81b4247b
+            part: body
+          zh:
+            page: zh
+            section: s-433c80bdf9
+            part: body
+      - topic: morphology
+        sourceIds:
+          - primary-direct-group-pmc4740822-62hcj
+        title:
+          en:
+            page: en
+            section: s-5a4420cabc
+            part: title
+          zh:
+            page: zh
+            section: s-d096015f35
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5a4420cabc
+            part: body
+          zh:
+            page: zh
+            section: s-d096015f35
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc4740822-62hcj
+        title:
+          en:
+            page: en
+            section: s-33d57d24b3
+            part: title
+          zh:
+            page: zh
+            section: s-3a943036c5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-33d57d24b3
+            part: body
+          zh:
+            page: zh
+            section: s-3a943036c5
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc4740822-62hcj
+        title:
+          en:
+            page: en
+            section: s-1c38cc40f3
+            part: title
+          zh:
+            page: zh
+            section: s-b70eb6d984
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: M7RD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AM7RD
+            label:
+              en: Blythophryne beryet
+              zh: Blythophryne beryet
+        text:
+          en:
+            page: en
+            section: s-1c38cc40f3
+            part: body
+          zh:
+            page: zh
+            section: s-b70eb6d984
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Blythophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/62HCJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-direct-group-pmc4740822-62hcj
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Blythophryne beryet: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected Blythophryne comparison records, methods and source limits from the Andaman toad description
+            zh: 安达曼蟾蜍描述中的选定 Blythophryne 比较记录、方法及来源限制
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-152b12ade1
+        part: body
+      zh:
+        page: zh
+        section: s-6326bc861d
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-direct-group-pmc4740822-62hcj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Selected Blythophryne comparisonlabels retainvoucher/sequence/focal roles; notfullgenusdiagnosis/currentconceptcertification
+        evidenceRead: "Blythophryne beryet: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Selected comparison records retain their roles
+              zh: 选定比较记录保留各自角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-62hcj
+            locator: PMC4740822 XMLTable3idT6/App1 sourceentries;sec26;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d483f424e9
+                part: body
+              zh:
+                page: zh
+                section: s-d89d29dd63
+                part: body
+            scope:
+              en: Selected Blythophryne comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Blythophryne 比较记录、方法及来源限制
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Mitochondrial and specimen scope
+              zh: 线粒体与标本范围
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-62hcj
+            locator: PMC4740822 XMLsec4/27;Table3idT6;Table6idT5;App1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-67a3978e77
+                part: body
+              zh:
+                page: zh
+                section: s-c297668a58
+                part: body
+            scope:
+              en: Selected Blythophryne comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Blythophryne 比较记录、方法及来源限制
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: A monotypic description with specimen-level limits
+              zh: 单型属描述及标本级限制
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-62hcj
+            locator: PMC4740822 XMLsec8–17;Table4idT3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b6e6dab31b
+                part: body
+              zh:
+                page: zh
+                section: s-bb1277323d
+                part: body
+            scope:
+              en: Selected Blythophryne comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Blythophryne 比较记录、方法及来源限制
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Phytotelm development and historical island ecology
+              zh: 植物积水穴发育与历史岛屿生态
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-direct-group-pmc4740822-62hcj
+            locator: PMC4740822 XMLsec18–28;Table5idT4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e2c7aed5b2
+                part: body
+              zh:
+                page: zh
+                section: s-22431298f8
+                part: body
+            scope:
+              en: Selected Blythophryne comparison records, methods and source limits from the Andaman toad description
+              zh: 安达曼蟾蜍描述中的选定 Blythophryne 比较记录、方法及来源限制
+    primaryResearchGroupSynthesisComplete: false

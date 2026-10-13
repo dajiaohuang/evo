@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pachytriton moi
+    name:
+      en: Pachytriton moi
+      zh: Pachytriton moi
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Pachytriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fd546262b7
+            part: body
+          zh:
+            page: zh
+            section: s-28e7e8f0a5
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-72474c5abf
+            part: body
+          zh:
+            page: zh
+            section: s-987cb1149c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 272; Reference.csv rows 4273
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 272
+        values:
+          - Salamandridae
+          - Pachytriton
+          - Pachytriton moi
+          - M
+          - NA
+          - "100.2"
+          - "64.2282"
+          - "52.2042"
+          - "35.9718"
+          - "23.2464"
+          - "8.016"
+          - "3.7074"
+          - "8.6172"
+          - "2.7054"
+          - "7.515"
+          - "11.3226"
+          - "90.681"
+          - "13.2264"
+          - NA
+          - "12.8256"
+          - "7.8156"
+          - "22.7454"
+          - "24.4488"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.2104"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4273
+        values:
+          - Caudata
+          - Pachytriton_moi
+          - "Nishikawa, K., Jiang, J., & Matsui, M. (2011). Two new species of Pachytriton from Anhui and Guangxi, China (Amphibia: Urodela: Salamandridae). Current Herpetology, 30, 15-31. https://doi.org/10.3105/018.030.0102"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - VL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6TJ9H
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

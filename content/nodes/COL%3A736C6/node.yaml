@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantophryne louisiadensis
+  displayName: Mantophryne louisiadensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/736C6
+  sourceIndexes:
+    - name:
+        en: Mantophryne louisiadensis
+        zh: Mantophryne louisiadensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 736C6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/367
+            queryName: Mantophryne louisiadensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/44
+            queryName: Asterophrys louisiadensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/45
+            queryName: Phrynomantis louisiadensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db3217242a
+      - s-a675d9c618
+      - s-bf6dd71b1d
+      - s-76289ac5db
+      - s-3d0b898a81
+      - s-a606bcc9b8
+      - s-43321d90f8
+      - s-0ed114cae4
+    zh:
+      - s-2f26a4f190
+      - s-9f96ee9cae
+      - s-710d7b7655
+      - s-87aae2773d
+      - s-6decac544b
+      - s-31f544368f
+      - s-ab42b189ae
+      - s-1b8747eb60

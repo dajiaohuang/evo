@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus mbabo
+  displayName: Phrynobatrachus mbabo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/RQ8RC
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus mbabo
+        zh: Phrynobatrachus mbabo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: RQ8RC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/150
+            queryName: Phrynobatrachus mbabo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-651bc807cb
+      - s-ea603d71da
+      - s-777cf4dac9
+      - s-994b197154
+      - s-cc0f429868
+      - s-4f1dfd1850
+      - s-91a9b5a960
+      - s-80f8eedfaf
+      - s-6405cacbb6
+      - s-78b7f5489d
+      - s-394aef7ca7
+      - s-83ac62b3a5
+      - s-98121b2347
+      - s-6433ee381c
+      - s-6b946f3844
+      - s-f9acecc515
+      - s-8f47c71a6e
+      - s-8c45d5f92f
+      - s-461e84df89
+    zh:
+      - s-e8ca8bb07f
+      - s-9ef9975f51
+      - s-7d5e76cd9e
+      - s-29227cacbb
+      - s-9b4570a891
+      - s-d724074e7d
+      - s-efdf01d1c0
+      - s-98146a99fb
+      - s-b1c36103b6
+      - s-a8e796938f
+      - s-e0f8e46249
+      - s-a0898d06bf
+      - s-bced3b8b88
+      - s-8e56fbe205
+      - s-2101bbe499
+      - s-e91bc9c497
+      - s-6923b1f012
+      - s-58aefc22d4
+      - s-8275f86d74

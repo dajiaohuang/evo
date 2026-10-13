@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Schizogliravus hispanicus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Schizogliravus hispanicus
+      en: Schizogliravus hispanicus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-779013aa14
+            part: body
+          en:
+            page: en
+            section: s-e64a65263d
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1cce33ab56
+            part: body
+          en:
+            page: en
+            section: s-9846131c1e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-df8336d286
+            part: body
+          en:
+            page: en
+            section: s-102003b531
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-538c2cf3f0
+            part: body
+          en:
+            page: en
+            section: s-b6c33d0648
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3f064af5ff
+            part: body
+          en:
+            page: en
+            section: s-ac522a9904
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Schizogliravus hispanicus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=349697&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:349697; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:349697
+          selectedOccurrenceIds:
+            - occ:667571
+            - occ:667574
+            - occ:667577
+            - occ:667580
+            - occ:667583
+            - occ:667586
+            - occ:667589
+          selectedCollectionIds:
+            - col:71933
+            - col:71932
+            - col:71928
+            - col:71927
+            - col:71931
+            - col:71930
+            - col:71929
+          sourceReferenceIds:
+            - ref:24318
+          originalIdentificationMappings:
+            - occurrenceId: occ:667571
+              originalIdentifiedName: Gliravus hispanicus
+              acceptedName: Schizogliravus hispanicus
+              difference: recombined as
+            - occurrenceId: occ:667574
+              originalIdentifiedName: Gliravus hispanicus
+              acceptedName: Schizogliravus hispanicus
+              difference: recombined as
+            - occurrenceId: occ:667577
+              originalIdentifiedName: Gliravus hispanicus
+              acceptedName: Schizogliravus hispanicus
+              difference: recombined as
+            - occurrenceId: occ:667580
+              originalIdentifiedName: Gliravus hispanicus
+              acceptedName: Schizogliravus hispanicus
+              difference: recombined as
+            - occurrenceId: occ:667583
+              originalIdentifiedName: Gliravus hispanicus
+              acceptedName: Schizogliravus hispanicus
+              difference: recombined as
+            - occurrenceId: occ:667586
+              originalIdentifiedName: Gliravus hispanicus n. sp.
+              acceptedName: Schizogliravus hispanicus
+              difference: recombined as
+            - occurrenceId: occ:667589
+              originalIdentifiedName: Gliravus hispanicus
+              acceptedName: Schizogliravus hispanicus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-fd0bd4ff43
+        part: body
+      en:
+        page: en
+        section: s-3a16f6cf53
+        part: body

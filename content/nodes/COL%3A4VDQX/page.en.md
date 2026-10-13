@@ -1,0 +1,3 @@
+## Stacked leaves and cup-shaped bracteoles {#s-d7e5262264}
+This succulent shrub reaches 100 mm and has no visible stem internodes. Four rows of boat-shaped leaves line the branches; opposite pairs fuse at the base into short sheaths, and old leaves remain blackened on the branch. The source distinguishes it from S. tetrasepalus by a short central axis equal to the capsule in length and cup-shaped bracteoles. In S. tetrasepalus, the axis is at least one and a half times longer than the capsule, leaves crowd near branch tips, old leaves fall and bracteoles are not cup-shaped. The fruit has seven or eight chambers and no valve wings. It grows near the coast.
+

@@ -1,0 +1,3 @@
+## ## Scaly bark and white petals {#s-9f67130cf4}
+Brazilian Flora 2020 records scaly bark and glossy, glabrous or nearly hairless leaflets that are broadly elliptic to oblong and papery to membranous. Their veins are inconspicuous on the underside. Flower clusters are described as dichasial cymes or corymb-like groups; a corymb is a flat-topped cluster. The white petals and ovary are glabrous, and the sepals do not bend backward. The dark-brown fruit has an outer wall (epicarp) that may be slightly warty, smooth or glossy; each fruit contains 3–7 dark-brown seeds. The dataset classifies the plant as terrestrial.
+

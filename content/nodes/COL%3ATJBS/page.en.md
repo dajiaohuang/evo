@@ -1,0 +1,3 @@
+## ## Sickle-shaped leaflets and yellow flowers {#s-c757758a49}
+Brazilian Flora 2020 records no xylopodium and alternate leaves arranged in two ranks, with two or three pairs of sickle-shaped, ovate leaflets. The leaflets are 3–5 cm long, occasionally 7.5 cm, with wedge-shaped to blunt bases and acute to acuminate tips. Extrafloral nectar glands occur on the petiole, rachis and inflorescence. Branch-borne racemes usually number one or two per node, rarely three or four. The yellow petals have one form and are 11–17 mm long, occasionally 20 mm; the sepals are 2.5–4.5 mm long and softly hairy to velvety. Fruit and seed characters are marked unknown in this record. The dataset classifies the plant as terrestrial.
+

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys tongboensis
+  displayName: Boulenophrys tongboensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5FYV
+  sourceIndexes:
+    - name:
+        en: Boulenophrys tongboensis
+        zh: Boulenophrys tongboensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5FYV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/384
+            queryName: Boulenophrys tongboensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/315
+            queryName: Panophrys tongboensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89f66131b7
+      - s-37d6285bda
+      - s-4b3b22f565
+      - s-a89a00fb12
+      - s-4bc1ca7e5b
+      - s-6f85aeb35b
+      - s-2239f886f8
+      - s-6b6cde90e6
+      - s-74498add83
+      - s-abc2cefd04
+    zh:
+      - s-d21fcf9484
+      - s-38b12042d5
+      - s-1bc9060e5c
+      - s-cc64146e61
+      - s-98be85f8f7
+      - s-cd6c326e3f
+      - s-3748543a35
+      - s-155b250f84
+      - s-b01e7ee9f4
+      - s-6438f2f3d4

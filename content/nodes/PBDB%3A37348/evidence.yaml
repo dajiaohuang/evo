@@ -1,0 +1,149 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cryptobranchoidea
+    rank: unranked clade
+    sourceTaxonId: txn:37348
+    name:
+      en: Cryptobranchoidea
+      zh: Cryptobranchoidea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-5e42e66c5d
+            part: body
+          zh:
+            page: zh
+            section: s-e9188cec18
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-a09f5faba0
+            part: body
+          zh:
+            page: zh
+            section: s-35f7c3333c
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-0e54a3cca1
+            part: body
+          zh:
+            page: zh
+            section: s-38e346ad6d
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-5f4662a04d
+            part: body
+          zh:
+            page: zh
+            section: s-2d8f7b3b9a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37348; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: K.-Q. Gao and N. H. Shubin. 2003. Earliest known crown-group salamanders. Nature 422:424-428
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:371246
+        - txn:137502
+        - txn:415410
+        - txn:414212
+        - txn:264801
+        - txn:110599
+        - txn:110598
+        - txn:110619
+        - txn:110604
+        - txn:64153
+        - txn:161671
+        - txn:213927
+      exactOccurrenceCount: 39
+      datedOccurrenceCount: 39
+      collectionIntervalBoundsMa:
+        older: 168.2
+        younger: 0.0117
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-5f4662a04d
+            part: body
+          zh:
+            page: zh
+            section: s-2d8f7b3b9a
+            part: body
+        sourceIds: []

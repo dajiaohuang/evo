@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia analanjirofo
+  displayName: Stumpffia analanjirofo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/537S7
+  sourceIndexes:
+    - name:
+        en: Stumpffia analanjirofo
+        zh: Stumpffia analanjirofo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 537S7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/346
+            queryName: Stumpffia analanjirofo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51740f4d00
+      - s-2e71ec63ee
+      - s-89a55bd2b8
+      - s-11765391da
+      - s-b52908a9f6
+      - s-840add9b93
+    zh:
+      - s-e4b486cbea
+      - s-b07f316e22
+      - s-f375324c4f
+      - s-cbfa79a0c6
+      - s-ba9174c1fa
+      - s-8353779523

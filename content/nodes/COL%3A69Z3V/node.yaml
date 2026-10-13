@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne microps
+  displayName: Choerophryne microps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69Z3V
+  sourceIndexes:
+    - name:
+        en: Choerophryne microps
+        zh: Choerophryne microps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69Z3V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/346
+            queryName: Choerophryne microps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9e6f8f89c
+      - s-92474379b2
+      - s-ef917dfb7c
+      - s-d4aeebbac7
+      - s-2821ac0a1e
+      - s-31390a4dd9
+      - s-ba1d85bb2e
+      - s-6e0581be89
+      - s-c060ac7a05
+    zh:
+      - s-270d8b2b17
+      - s-3ef329a11d
+      - s-604051aa32
+      - s-b72ef2f922
+      - s-8dffb2828a
+      - s-2d8f181d97
+      - s-e7cd2eb276
+      - s-fdf0ddc402
+      - s-db20986fa7

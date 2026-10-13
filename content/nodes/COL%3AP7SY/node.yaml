@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia mertensi
+  displayName: Caecilia mertensi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SY
+  sourceIndexes:
+    - name:
+        en: Caecilia mertensi
+        zh: Caecilia mertensi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/76
+            queryName: Caecilia mertensi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89ea02e23b
+      - s-b19c63cedf
+      - s-e994c85dab
+      - s-37f409e503
+      - s-994b48a75a
+      - s-24ec0af4ff
+      - s-e2f542c51a
+      - s-8a003f9549
+      - s-c87939facd
+    zh:
+      - s-7807941108
+      - s-05f20f8980
+      - s-660bf12f41
+      - s-8b5ae35c47
+      - s-a5449b6d17
+      - s-7c620beef6
+      - s-911667dcf8
+      - s-70f6289ec7
+      - s-f40e2db7c7

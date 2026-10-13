@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis ventrimarmoratus
+  displayName: Pristimantis ventrimarmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJR6
+  sourceIndexes:
+    - name:
+        en: Pristimantis ventrimarmoratus
+        zh: Pristimantis ventrimarmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJR6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/161
+            queryName: Pristimantis ventrimarmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/213
+            queryName: Eleutherodactylus ventrimarmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/214
+            queryName: Eleutherodactylus ventrivittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/154
+            queryName: Hylodes ventrimarmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-25e4b273ef
+      - s-e2f5aa4882
+      - s-3374c9cf2f
+      - s-44734e8ce3
+      - s-aadc3673b6
+      - s-16e3d88721
+      - s-f59ebe2f5e
+      - s-7ca5c9d33c
+      - s-e3cef7528a
+      - s-50d0f11cae
+    zh:
+      - s-86d70574de
+      - s-a9f3758c5f
+      - s-cf2a180524
+      - s-eaa7b16880
+      - s-8cd270f6a8
+      - s-27527d02e8
+      - s-80fb5f5c29
+      - s-58638912cb
+      - s-2ffe26d01b
+      - s-ee67c1f5a6

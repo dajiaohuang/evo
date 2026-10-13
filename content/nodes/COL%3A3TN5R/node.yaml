@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus leptodactyloides
+  displayName: Leptodactylus leptodactyloides
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN5R
+  sourceIndexes:
+    - name:
+        en: Leptodactylus leptodactyloides
+        zh: Leptodactylus leptodactyloides
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN5R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/404
+            queryName: Leptodactylus leptodactyloides
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/115
+            queryName: Eleutherodactylus leptodactyloides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-28bc93364b
+      - s-08a85e915c
+      - s-97534e5689
+      - s-e9deccdba4
+      - s-0900237b1a
+      - s-5c7812426e
+      - s-d1a168be9f
+      - s-2a8e0d1a40
+      - s-c373752813
+      - s-2297c62c33
+      - s-f1e3fbdc44
+      - s-c8c9f722e7
+      - s-bcaf58d089
+      - s-e5e78b1be6
+      - s-afb11cfb9e
+      - s-9f425e7db5
+      - s-7fbb738744
+      - s-e70f7a4529
+      - s-eaa3402089
+      - s-d0a8fee975
+      - s-cc37603f3e
+      - s-2d4a151f86
+      - s-782dd8c652
+      - s-2ee9b6e9dc
+    zh:
+      - s-be8d278530
+      - s-04f3e529aa
+      - s-e9bb3ae2d0
+      - s-6a14a1bd47
+      - s-87e7e07197
+      - s-a7102baf9c
+      - s-b71124dede
+      - s-90be85fab1
+      - s-c01c9d91b9
+      - s-3ddc9278dd
+      - s-32c2f893b6
+      - s-a2f5d53007
+      - s-83264e426e
+      - s-98cf018e3c
+      - s-9d3c8ca6c1
+      - s-8a1f191528
+      - s-a27ed7143b
+      - s-748e8f2266
+      - s-bc79f9c094
+      - s-bfc754b22f
+      - s-75261999ef
+      - s-3abbfd9960
+      - s-cde5c116cd
+      - s-2ac0e53976

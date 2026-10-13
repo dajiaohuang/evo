@@ -1,0 +1,30 @@
+## 本地数据阅读路径 {#s-122fa10957}
+Ficedula 的本批阅读路径包含 18 条有测量来源的物种记录，可从 Ficedula albicilla、Ficedula albicollis、Ficedula basilanica、Ficedula buruensis、Ficedula crypta 开始。目录层级按固定 COL26.8 组织，生物学数值则保留 AVONET v7 的历史名称与采样范围。
+
+## 记录之间有什么差别 {#s-edebb40986}
+本批体重汇编均值的两端为 Ficedula sapphira 的 7.8 g 与 Ficedula buruensis 的 14.5 g。所含栖地类别包括 疏林及林缘、森林，食性类别包括 以陆生无脊椎动物为主。这些例子帮助选择比较页面，不用来代替全类群共同特征或全后代清单。
+
+## 按生活史字段选择对读页面 {#s-1ebbee5a16}
+Ficedula 的本批路线包含 4 条历史生活史导读，可从 Ficedula albicollis、Ficedula hypoleuca、Ficedula semitorquata、Ficedula speculigera 开始。较多条目具有的字段包括 成年体重（4 条）、雌性成熟字段（源定义为首次受孕年龄）（4 条）、每窝幼体数或卵数（4 条）、汇编中最长寿命记录（4 条）。这些计数描述本批资料覆盖，不能当作完整接受种分母；应先看每个字段的事件、单位与出处，再比较数值。
+
+## 沿食物、取食位置和活动时段对读 {#s-1d1c04a122}
+Ficedula 的本批路线包含 22 个历史条目，可从 Ficedula albicollis、Ficedula semitorquata、Ficedula mugimaki、Ficedula hodgsonii、Ficedula strophiata 开始。其中 22 条可读食物类别权重，22 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+
+## 沿食物、取食位置和活动时段对读 {#s-ec94d86f2d}
+Ficedula 的本批路线包含 5 个历史条目，可从 Ficedula hypoleuca、Ficedula zanthopygia、Ficedula narcissina、Ficedula buruensis、Ficedula tricolor 开始。其中 4 条可读食物类别权重，1 条可读取食层位，0 条可读哺乳类活动时段。先区分字段的来源、粗略权重与类别／二元代码，再比较不同条目。计数只描述本批资料，不能当作完整接受种分母，也不代表整个类群具有统一生态。
+
+## 证据边界 {#s-c6f30ffdf4}
+本导读仅概括本批有直接测量、历史分类一对一且目录同名同科的资料，不代表该类群全部接受后代。体重端点比较的是不同记录的汇编均值，不是某个物种的个体最小值与最大值。分类对应、原始采样与其他生物学主题的限制见各物种页。
+本路线只包含本批有至少三个带出处支持的焦点字段、且同名同科的历史条目，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+本路线只纳入本批唯一同名同科且有至少两类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+本路线只纳入本批唯一同名同科且有仅一类可用取食生态字段的历史条目。它不是完整后代名册，也不把后代的取食类型、估计权重或活动模式写成整个类群共有的特征。半定量转换、历史分类与 ABC 字段可能借用同属材料的限制仍逐页适用。完整物种专论未完成。
+
+## 从有限生态资料开始 {#s-599b4101a2}
+Ficedula 本批有 5 个有限生态资料页，可从 [Ficedula bonthaina](Ficedula_bonthaina/page.zh.md)、[Ficedula disposita](Ficedula_disposita/page.zh.md)、[Ficedula harterti](Ficedula_harterti/page.zh.md)、[Ficedula henrici](Ficedula_henrici/page.zh.md)、[Ficedula timorensis](Ficedula_timorensis/page.zh.md) 开始。源条目沿固定 COL26.8 分类组织；行数只计本批已写资料，不是全部接受物种分母。
+
+## 哪些内容可读，哪些仍未解读 {#s-2dd027c1ac}
+栖地类别见 5 页，取食生态位见 5 页，主导活动方式见 5 页，迁移类别见 5 页。先按原字段定义阅读，再区分类别、历史地图与个体观察；不把相同生态标签当作所有后代的共同生活方式。本批的喙、翼、跗蹠、尾与体重字段仍不解读，不能用来建立类群体型比较。
+
+## 这组历史数据的边界 {#s-3be81db4b5}
+该入口只覆盖本批已写的有限历史生态资料。按 COL26.8 路径导航、历史同名同科及两张同名一对一表关联，并未消除后来的概念差异。粗生态类别不是独立行为观察，历史地图摘要不是当前占域或保护评估；原始形态推算与体重来源完整保留，但本批不解释为本物种直接测量。
+

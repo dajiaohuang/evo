@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hemisus olivaceus
+  displayName: Hemisus olivaceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3KT43
+  sourceIndexes:
+    - name:
+        en: Hemisus olivaceus
+        zh: Hemisus olivaceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3KT43
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/277
+            queryName: Hemisus olivaceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/82
+            queryName: Hemisus olivaceum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-55cebda2ec
+      - s-7d5b34621a
+      - s-65370aec59
+      - s-ab7fc2ba7b
+      - s-9ac9fe73b9
+      - s-f4256af4aa
+      - s-8b8ad28f1c
+      - s-61e6e7aae1
+      - s-3e1216998a
+      - s-e6cfce9442
+      - s-bc0625879c
+    zh:
+      - s-70728b9ab6
+      - s-7e77a68439
+      - s-516976ead5
+      - s-3b03a04663
+      - s-a1af5f5c82
+      - s-d63f11ef30
+      - s-aee6e66ffc
+      - s-77031e8911
+      - s-cbef6d3548
+      - s-1f3f2b4cb0
+      - s-a7c3134698

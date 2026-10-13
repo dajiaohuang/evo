@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Sebaea rehmannii Schinz
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4W7G7, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4W7G7; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4W7G7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4W7G7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001063407-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4W7G7 / WFO wfo-0001063407
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9228_0
+        referenceId: ref-885d9017-489c-8817-a90e-c61203165a83
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Sebaea rehmannii Schinz account; archive rows 50351 (Morphology), 55967 (Habitat), source identifier 9228.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Annual or biennial herbs, simple or branched, up to 65 cm tall, but often not exceeding 15 cm. Leaves up to 1.8 cm long and equally broad, close-set or far apart, the lower ones sometimes subrosulate, ovate to ovate-orbicular, thin or slightly leathery, obtuse or subacute, sometimes apiculate, sessile or shortly petiolate, the lower few pairs sometimes gradually cuneate at the base. Inflorescence lax with long branches, a many-flowered corymbose panicle or reduced to a few cymes; bracts ovate to lanceolate, acute. Calyx of 5 segments, each 5-9 mm long, 1-2.5 ram broad, lanceolate to more or less oblong, acuminate or acute, mucronate, the sides hyaline, joined for up to 1.5 mm, with a keelwing 0.75-1.5 mm broad, broadest about the middle or at the base and then almost semi-cordate. Corolla yellow; tube 5-10 mm long; lobes 6-12 mm long, 2.5-5 mm broad, elliptic-lanceolate to ovate-lanceolate, rarely somewhat obovate, usually rounded and apiculate, sometimes acute, often clawed. Filaments usually 0.75-1.5 mm long, rarely shorter and occasionally 2 mm, inserted in or shortly below the corolla-sinuses; anthers 1.75-7 mm long, mostly with a small apical gland, but occasionally apparently eglandular, sometimes also with 2 minute basal glands. Style and stigma 5-10 mm long with a stigmatic swelling near the base or well below the middle; stigma capitate or clavate, 2-lobed.
+            sourceIds:
+              - sanbi_9228_0
+            locator: "SANBI/WFO archive Morphology row 50351; source 9228.0; publication: Marais, W; Verdoorn, IC. 1963. Gentianaceae, Fl. S. Africa 26: 171 - 243. Dept. Agric. and Technical Services, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Confined to the mountains.
+            sourceIds:
+              - sanbi_9228_0
+            locator: "SANBI/WFO archive Habitat row 55967; source 9228.0; publication: Marais, W; Verdoorn, IC. 1963. Gentianaceae, Fl. S. Africa 26: 171 - 243. Dept. Agric. and Technical Services, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

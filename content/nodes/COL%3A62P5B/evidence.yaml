@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cryptobatrachus Ruthven, 1916
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Cryptobatrachus
+      zh: Cryptobatrachus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5144160975
+            part: title
+          zh:
+            page: zh
+            section: s-9132dd6939
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5144160975
+            part: body
+          zh:
+            page: zh
+            section: s-9132dd6939
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4837a6f529
+            part: title
+          zh:
+            page: zh
+            section: s-ffe9ed5b57
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4837a6f529
+            part: body
+          zh:
+            page: zh
+            section: s-ffe9ed5b57
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-1d6acf8d6e
+            part: title
+          zh:
+            page: zh
+            section: s-1831723778
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1d6acf8d6e
+            part: body
+          zh:
+            page: zh
+            section: s-1831723778
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ba316c71d8
+            part: title
+          zh:
+            page: zh
+            section: s-afb4c14f00
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ba316c71d8
+            part: body
+          zh:
+            page: zh
+            section: s-afb4c14f00
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-aed1e68a06
+            part: title
+          zh:
+            page: zh
+            section: s-bbdf5661c2
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6BKPL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BKPL
+            label:
+              en: Cryptobatrachus boulengeri
+              zh: Cryptobatrachus boulengeri
+          - kind: catalogue
+            colId: 6BKPM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BKPM
+            label:
+              en: Cryptobatrachus conditus
+              zh: Cryptobatrachus conditus
+          - kind: catalogue
+            colId: 6BKPP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BKPP
+            label:
+              en: Cryptobatrachus fuhrmanni
+              zh: Cryptobatrachus fuhrmanni
+          - kind: catalogue
+            colId: 6BKPD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BKPD
+            label:
+              en: Cryptobatrachus pedroruizi
+              zh: Cryptobatrachus pedroruizi
+          - kind: catalogue
+            colId: 6BKPG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6BKPG
+            label:
+              en: Cryptobatrachus ruthveni
+              zh: Cryptobatrachus ruthveni
+        text:
+          en:
+            page: en
+            section: s-aed1e68a06
+            part: body
+          zh:
+            page: zh
+            section: s-bbdf5661c2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cryptobatrachus
+          url: https://www.checklistbank.org/dataset/316115/taxon/62P5B
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Cryptobatrachus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-4e76c1d327
+        part: body
+      zh:
+        page: zh
+        section: s-fd9b21cc9b
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Cryptobatrachus
+      sourceRowIds:
+        - Anf2009
+        - Anf2010
+        - Anf2011
+        - Anf2012
+        - Anf2013
+        - Anf2014
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 3
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 2
+      currentConceptEquivalenceCertified: false

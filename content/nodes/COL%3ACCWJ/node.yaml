@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alytes muletensis
+  displayName: Alytes muletensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CCWJ
+  sourceIndexes:
+    - name:
+        en: Alytes muletensis
+        zh: Alytes muletensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CCWJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/212
+            queryName: Alytes muletensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 56
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/50
+            queryName: Baleaphryne muletensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/51
+            queryName: Baleaphryne talaioticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-74454a93fc
+      - s-63752dc519
+      - s-64aa888c2c
+      - s-fb3f3c208e
+      - s-778d6beb0b
+      - s-fb90185a4c
+      - s-d4b2b5cfd7
+      - s-c19da10cf0
+      - s-c41ce76977
+      - s-7d040d9f0b
+      - s-947d488b49
+      - s-c8e63265d0
+      - s-3eee65dbf3
+      - s-2c3ea5ff7d
+    zh:
+      - s-d7658cf446
+      - s-c5ae27c1c7
+      - s-ab04749afa
+      - s-12f84cde0f
+      - s-3004719b86
+      - s-a3b7019f3d
+      - s-0f9b69cdde
+      - s-c5c2603230
+      - s-190e6e59b7
+      - s-dd44f8a7fa
+      - s-471826482c
+      - s-89170c8dc3
+      - s-e0c2ae1fb3
+      - s-6ea5f45023

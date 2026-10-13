@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania schuberti
+  displayName: Stefania schuberti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZN29
+  sourceIndexes:
+    - name:
+        en: Stefania schuberti
+        zh: Stefania schuberti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZN29
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/312
+            queryName: Stefania schuberti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4dcd1e1e10
+      - s-4586daa35a
+      - s-ae26fb7a4c
+      - s-27b8eec68e
+      - s-f8aa07af8e
+      - s-1e8aca55ac
+      - s-7644ba80af
+      - s-808d5bff2b
+      - s-2302cc3c27
+      - s-ef1de5e9ce
+    zh:
+      - s-913e07ce26
+      - s-3c22954c6c
+      - s-92178f101d
+      - s-cff5055336
+      - s-ccaa1a1ae7
+      - s-483431a658
+      - s-a583d27a2d
+      - s-207debe88a
+      - s-5633dc0518
+      - s-8831712710

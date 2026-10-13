@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes australis
+  displayName: Alsodes australis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7WR
+  sourceIndexes:
+    - name:
+        en: Alsodes australis
+        zh: Alsodes australis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7WR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/187
+            queryName: Alsodes australis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-434848c46c
+      - s-d5edf6775b
+      - s-8153d55dc1
+      - s-0ff4214332
+      - s-9e9412be99
+      - s-7ad5114d1e
+      - s-30c40095d2
+      - s-1300ab46ee
+      - s-a669868739
+      - s-09c65efd49
+      - s-66c0460aa0
+      - s-4ed7efa6e1
+      - s-81b362a437
+    zh:
+      - s-be7dc17697
+      - s-7d4a3d1cf0
+      - s-febbbb17ac
+      - s-2715112dca
+      - s-aa2ccefcd6
+      - s-36b0c26fa0
+      - s-3610e197f0
+      - s-3bbe8d0812
+      - s-8d170974ab
+      - s-c0f8a311ba
+      - s-1337b829b5
+      - s-ebd3d56325
+      - s-b28166bec9

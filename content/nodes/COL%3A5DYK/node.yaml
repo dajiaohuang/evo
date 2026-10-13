@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leucostethus
+  displayName: Leucostethus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5DYK
+  sourceIndexes:
+    - name:
+        en: Leucostethus
+        zh: Leucostethus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5DYK
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/7
+            queryName: Leucostethus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-143f2f6b58
+      - s-aec26caa7e
+      - s-9fba81c248
+      - s-126b3b7a1b
+      - s-8dd9081e71
+      - s-d29c3c4d67
+      - s-3a33a0eb18
+      - s-852dfbbb6f
+      - s-f982606659
+      - s-7ca5c38cda
+      - s-cdd9349ba7
+      - s-586521028b
+      - s-230b449309
+      - s-863e6241b5
+      - s-7a4e8ac779
+      - s-a2812b0dc1
+      - s-1b70fc14e1
+      - s-48dd4f1b1d
+    zh:
+      - s-811d1efbcf
+      - s-b5d87e36b4
+      - s-38246c3520
+      - s-cf0697adf9
+      - s-f6b4aa82b3
+      - s-a1879e59b0
+      - s-df77141ac7
+      - s-622cd44545
+      - s-d20811cdf4
+      - s-c57c2b8a47
+      - s-e4bed0b59a
+      - s-c4a7859582
+      - s-5940b723fe
+      - s-fecf83e27c
+      - s-92b26035c4
+      - s-e46a473785
+      - s-7ba7970a54
+      - s-5c604a6eab

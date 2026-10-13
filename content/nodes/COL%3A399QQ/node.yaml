@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus saxatilis
+  displayName: Eleutherodactylus saxatilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399QQ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus saxatilis
+        zh: Eleutherodactylus saxatilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399QQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/321
+            queryName: Eleutherodactylus saxatilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/375
+            queryName: Tomodactylus saxatilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/20
+            queryName: Syrrhophus saxatilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0133b798a2
+      - s-82a3ecba59
+      - s-1a083ddbbc
+      - s-9b1304b9af
+      - s-b42d2859c2
+      - s-73d6be6de3
+      - s-93bc5130ea
+      - s-976f4f8ccb
+      - s-b265252732
+      - s-a20b6fe9b1
+      - s-34471d60f0
+      - s-35b256eb38
+      - s-b026dc1951
+      - s-c3ec06be0c
+      - s-080567e964
+      - s-d0db90e4c4
+    zh:
+      - s-ef2fe32674
+      - s-5bcd21a677
+      - s-901ddb4ee1
+      - s-0fcbca44a5
+      - s-676ac6cfab
+      - s-10bb538bcf
+      - s-78b9efe735
+      - s-a29b52148b
+      - s-338a45dcb4
+      - s-cbf35272fe
+      - s-7e0a3c12e2
+      - s-9f7f36527b
+      - s-ccfc6b89c5
+      - s-795522f9a4
+      - s-19aa39739f
+      - s-11d8566af1

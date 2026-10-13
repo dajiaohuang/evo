@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Myersiella
+  displayName: Myersiella
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5W8X
+  sourceIndexes:
+    - name:
+        en: Myersiella
+        zh: Myersiella
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5W8X
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/62
+            queryName: Myersiella
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62097444f9
+      - s-7c85bb453c
+      - s-598fac4e35
+      - s-c28eb1dc62
+      - s-68ffb60aac
+      - s-a77e375509
+      - s-69daa781b5
+      - s-3641630da5
+      - s-427a408073
+      - s-25be5341c5
+      - s-cfad04a510
+      - s-73232959bc
+      - s-05877800fa
+    zh:
+      - s-1e49c40638
+      - s-6fc6d1fb8a
+      - s-85b1018b24
+      - s-3879bd813b
+      - s-2cefb6b11a
+      - s-df534a7259
+      - s-102458832f
+      - s-b0f41c69fc
+      - s-929cf63f6c
+      - s-49339b8af2
+      - s-5b4b28b9e4
+      - s-73ea66000d
+      - s-24ce74d8ab

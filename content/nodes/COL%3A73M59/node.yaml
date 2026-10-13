@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mimosiphonops vermiculatus
+  displayName: Mimosiphonops vermiculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73M59
+  sourceIndexes:
+    - name:
+        en: Mimosiphonops vermiculatus
+        zh: Mimosiphonops vermiculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73M59
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/85
+            queryName: Mimosiphonops vermiculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/126
+            queryName: Pseudosiphonops ptychodermis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f937fdf8fb
+      - s-9713cc286e
+      - s-44d8f850a3
+      - s-429074ca21
+      - s-a4f6804648
+      - s-c38aedd28e
+      - s-b737af6c45
+      - s-b39d7dc10b
+      - s-657cf27993
+      - s-077a543159
+      - s-69ed71de3b
+    zh:
+      - s-14f05915bb
+      - s-070749f469
+      - s-cde800dea6
+      - s-f71298018b
+      - s-5bea863173
+      - s-9e460990d9
+      - s-997464cba1
+      - s-0e832fef65
+      - s-4322720241
+      - s-deebe23dcc
+      - s-f362f8f72a

@@ -1,0 +1,47 @@
+## Life history in the study {#s-13a6f7a0ce}
+In paired field recordings from a supplementary-feeding experiment at two ponds in the Steigerwald, southern Germany, fed male European treefrogs called at 124±36.9 calls/min compared with 95.5±32.3 calls/min for paired controls (N=8 pairs, p<0.05). Males were temporarily held for 12 hours during treatment, and recordings were made 1–31 nights after treatment in 2002 and 1–2 nights after treatment in 2003. This small, site- and treatment-specific result does not estimate natural population-wide calling rates or demonstrate female preference or mating success.
+
+Study scope: Two breeding ponds in the Steigerwald, southern Germany; the study followed animals during 2002–2003. Calling-rate comparisons used paired recordings from the field, recorded 1–31 nights after treatment in 2002 and 1–2 nights after treatment in 2003.
+
+Study material: Wild male frogs captured at breeding ponds for an experiment; animals were temporarily held in ventilated boxes for 12 hours during feeding/control treatment before field calling observations.
+
+## Foraging strata — AmphiBIO source {#s-2981bdc764}
+Historical source concept: Hyla arborea, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags terrestrial; arboreal as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Adult food categories — AmphiBIO source {#s-4fed176f9a}
+Historical source concept: Hyla arborea, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags arthropods as present categories. The dataset aggregates adult diet categories from literature reports of expert judgement, observation or stomach contents. A listed category is not a complete diet or a measured diet proportion.
+
+## Activity periods — AmphiBIO source {#s-a8a654b5e0}
+Historical source concept: Hyla arborea, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags daytime; night; twilight as present categories. These are overall activity categories rather than a continuous behavioural time series.
+
+## Seasonal activity — AmphiBIO source {#s-91a26c4ab9}
+Historical source concept: Hyla arborea, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags wet and warm as present categories. Seasonal categories compare conditions during activity with the local annual climate; they are not fixed calendar months worldwide.
+
+## Compiled adult dimensions — AmphiBIO source {#s-18f04bf707}
+Historical source concept: Hyla arborea, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body mass: 9.5 g; maximum adult body length: 50 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Compiled life history — AmphiBIO source {#s-dc2719225e}
+Historical source concept: Hyla arborea, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports minimum age at sexual maturity: 1 years; maximum age at sexual maturity: 2 years; minimum size at sexual maturity: 40 mm; maximum size at sexual maturity: 40 mm; maximum lifespan: 22 years; minimum number of offspring or eggs per clutch: 200 individuals/eggs; maximum number of offspring or eggs per clutch: 2000 individuals/eggs; maximum reproductive events per year: 1 events/year; minimum offspring or egg size: 1.2 mm; maximum offspring or egg size: 1.5 mm. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental strategy — AmphiBIO source {#s-483f61f932}
+Historical source concept: Hyla arborea, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The deposited record flags a larval stage. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related source records and datasets {#s-cf59359a13}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Hyla arborea](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hylidae/Hyla/Hyla_arborea/page.en.md)
+- [Amphibian morphology v3: Hyla arborea](../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Hylidae/Hyla/Hyla_arborea/page.en.md)
+- [AmphiTherm curated snapshot: Hyla arborea](../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Hylidae/Hyla/Hyla_arborea/page.en.md)
+
+## Sex-specific measurement material — Amphibian morphology source {#s-4ec4f11cc4}
+Deposited source concept: Hyla arborea, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 1 rows and 11 populated trait columns for this source concept. Recorded sex codes are NA: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## Selected critical upper thermal limit estimate — AmphiTherm source {#s-39620c79d2}
+Deposited source concept: Hyla arborea, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 1277 (ID 1435, Duarte_2011) reports 36.46 °C for larvae, metric CTmax, onset of spasms. Recorded acclimation temperature: 10 °C. Recorded heating/cooling rate: 1 °C/min. The source n_trait field is 11; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is water; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review. The deposited uncertainty field is 2.114237451 °C (standard deviation); these measures are not interchangeable.
+
+## Selected critical lower thermal limit estimate — AmphiTherm source {#s-97ac1463d3}
+Deposited source concept: Hyla arborea, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 2085 (ID 2291, Gutierrez-Pesquera_et_al_2016) reports -0.8 °C for larvae, metric CTmin, no response to prodding. Recorded acclimation temperature: 20 °C. Recorded heating/cooling rate: 0.25 °C/min. The source n_trait field is 14; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is water; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review. The deposited uncertainty field is 0.46 °C (standard deviation); these measures are not interchangeable.
+
+## catalogue-profile / limitations {#s-0935c4d663}
+Taxonomic reader with explicitly historical trait material. Current concept equivalence, underlying primary works and remaining biological facets require review. This is not a complete species dossier and is.
+

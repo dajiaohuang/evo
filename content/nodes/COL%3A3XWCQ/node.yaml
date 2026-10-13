@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus ambreensis
+  displayName: Mantidactylus ambreensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XWCQ
+  sourceIndexes:
+    - name:
+        en: Mantidactylus ambreensis
+        zh: Mantidactylus ambreensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XWCQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/305
+            queryName: Mantidactylus ambreensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6f350db4eb
+      - s-069a234794
+      - s-bb36c45485
+      - s-9246ba5bc7
+      - s-b9afb6ac80
+      - s-2c7112f5a8
+      - s-3461080387
+      - s-5ece0c9b36
+      - s-5204444676
+      - s-bf8bc75ba9
+      - s-39fcc382b1
+      - s-d1fed87d36
+      - s-646e93bb8c
+      - s-1d15bb0912
+      - s-9d1f6416d5
+      - s-e75dc7742d
+      - s-ac1e44bfc4
+      - s-7e5c4c2879
+      - s-71ced37066
+      - s-21ea4e1151
+    zh:
+      - s-81e35c1810
+      - s-c3adad0f21
+      - s-1fe4fb615e
+      - s-72811500f6
+      - s-93667845f8
+      - s-df89b561cd
+      - s-2b97d4ce58
+      - s-1d7a8612af
+      - s-2c82a20a79
+      - s-7dc773aca6
+      - s-1c977ebc09
+      - s-1d23a2bb2e
+      - s-7fdf7c4260
+      - s-eeb6bbe32b
+      - s-23f70c4f1a
+      - s-afd4b2c821
+      - s-72068ebb9c
+      - s-eef51a892e
+      - s-9277cb684d
+      - s-9dc708331c

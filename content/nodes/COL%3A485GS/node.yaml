@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus sanctipalustris
+  displayName: Nyctibatrachus sanctipalustris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GS
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus sanctipalustris
+        zh: Nyctibatrachus sanctipalustris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/363
+            queryName: Nyctibatrachus sanctipalustris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/262
+            queryName: Nyctibatrachus sanctipalustris sanctipalustris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6af37ed3d
+      - s-6ee7faef0e
+      - s-2d63bd84d1
+      - s-698f276066
+      - s-55db538b5a
+      - s-03ec042f85
+      - s-9b75943f11
+      - s-80ae86d687
+      - s-ae39eade7c
+      - s-12956ee252
+    zh:
+      - s-cef8039bd4
+      - s-cb544e1bd4
+      - s-b4786a4823
+      - s-09b489352b
+      - s-a2aedb79ef
+      - s-aebb22e608
+      - s-391b5b3fb5
+      - s-22658ef339
+      - s-4a9e67c4a5
+      - s-ff2bc3bd2d

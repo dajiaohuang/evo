@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Calotriton arnoldi
+  displayName: Calotriton arnoldi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q4DP
+  sourceIndexes:
+    - name:
+        en: Calotriton arnoldi
+        zh: Calotriton arnoldi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q4DP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/141
+            queryName: Calotriton arnoldi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/492
+            queryName: Calotriton arnoldi laietanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3df987d8fd
+      - s-2727a60dcc
+      - s-f4499a0aa6
+      - s-8c828f52d0
+      - s-bbf602c473
+      - s-28d361c13e
+      - s-ee3f26ac1d
+      - s-8eb2049b77
+      - s-16cd3fccee
+      - s-7aa413bfa9
+      - s-ef490e8468
+      - s-2fcd430fd5
+      - s-e9956a6308
+      - s-1602dbd26e
+    zh:
+      - s-29ddd3e0ba
+      - s-fd6a90d6c7
+      - s-228e32a6f7
+      - s-5ce1cb4698
+      - s-202192f092
+      - s-69dfb0a154
+      - s-a74f4b11b5
+      - s-571f15ec67
+      - s-ef3c80902c
+      - s-e8fd0faa39
+      - s-b9f576166f
+      - s-8c81c7a967
+      - s-be161b4c58
+      - s-de471dac5f

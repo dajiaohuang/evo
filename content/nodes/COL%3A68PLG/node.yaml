@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis spinophis
+  displayName: Boophis spinophis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PLG
+  sourceIndexes:
+    - name:
+        en: Boophis spinophis
+        zh: Boophis spinophis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PLG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/302
+            queryName: Boophis spinophis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f1fbc0ad8e
+      - s-af7c0fec2b
+      - s-076c083258
+      - s-a15b884602
+      - s-ecbe86c38a
+      - s-9f1f05944c
+      - s-dcd1da4d02
+    zh:
+      - s-b6530b56c4
+      - s-be99dc7b12
+      - s-d52105112e
+      - s-77e3b0c6e0
+      - s-9abbfc6639
+      - s-0d13470cd8
+      - s-88ab43c34f

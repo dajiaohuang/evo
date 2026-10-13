@@ -1,0 +1,227 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Scolecomorphus Boulenger, 1883
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Scolecomorphus
+      zh: Scolecomorphus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-aece6c5de7
+            part: title
+          zh:
+            page: zh
+            section: s-cc8e39ceb1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aece6c5de7
+            part: body
+          zh:
+            page: zh
+            section: s-cc8e39ceb1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-dde3d1f139
+            part: title
+          zh:
+            page: zh
+            section: s-b45d6bc1bb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dde3d1f139
+            part: body
+          zh:
+            page: zh
+            section: s-b45d6bc1bb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e2a889d5aa
+            part: title
+          zh:
+            page: zh
+            section: s-cfe2c451ed
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e2a889d5aa
+            part: body
+          zh:
+            page: zh
+            section: s-cfe2c451ed
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-2ec2d6986b
+            part: title
+          zh:
+            page: zh
+            section: s-f93e2a51ae
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2ec2d6986b
+            part: body
+          zh:
+            page: zh
+            section: s-f93e2a51ae
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4f477bad48
+            part: title
+          zh:
+            page: zh
+            section: s-5e9f70cff2
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 79Y6T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A79Y6T
+            label:
+              en: Scolecomorphus kirkii
+              zh: Scolecomorphus kirkii
+          - kind: catalogue
+            colId: 6XY6Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6XY6Y
+            label:
+              en: Scolecomorphus uluguruensis
+              zh: Scolecomorphus uluguruensis
+          - kind: catalogue
+            colId: 79Y6Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A79Y6Y
+            label:
+              en: Scolecomorphus vittatus
+              zh: Scolecomorphus vittatus
+        text:
+          en:
+            page: en
+            section: s-4f477bad48
+            part: body
+          zh:
+            page: zh
+            section: s-5e9f70cff2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Scolecomorphus
+          url: https://www.checklistbank.org/dataset/316115/taxon/63STN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Scolecomorphus; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-69d4407d98
+        part: body
+      zh:
+        page: zh
+        section: s-efb9650d9c
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Scolecomorphus
+      sourceRowIds:
+        - Anf6700
+        - Anf6701
+        - Anf6702
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 3
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 3
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+      developmentCounts:
+        - key: Viv
+          en: viviparity
+          zh: 胎生
+          count: 1
+      currentConceptEquivalenceCertified: false

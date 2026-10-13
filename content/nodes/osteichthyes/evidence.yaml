@@ -1,0 +1,50 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Osteichthyes
+    commonName: Bony Fish
+    commonNameZh: 硬骨鱼类
+    rank: superclass
+    taxonId: ""
+    firstAppearance: 436
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:osteichthyes
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Eosteus chongqingensis from approximately 436 Ma early Silurian strata anchors the 436–0 Ma Osteichthyes route as the oldest reported articulated bony-fish occurrence; its stem placement is analysis-dependent and is not a crown split or global origination date.
+      confidence: medium
+      confidenceRationale: The 2026 primary study describes and figures the articulated specimen and supplies parsimony and Bayesian matrices. The occurrence is direct, whereas placement and implications for the actinopterygian–sarcopterygian split are analytical.
+      referenceLinks:
+        - referenceId: zhu-2026-eosteus
+          relation: supports
+          pages: 128–134
+          figure: Figures 1–5; Extended Data and Supplementary Data 1–7
+          quoteLocator: Systematic palaeontology; geological age; parsimony and Bayesian phylogenetic analyses
+  claim-rationales.zh:
+    - 2026 年一手研究描述并绘制了关节连接标本，并提供简约法与贝叶斯矩阵；化石出现是直接证据，而系统位置及其对辐鳍鱼—肉鳍鱼分裂的意义属于分析结果。
+  claim-statements.zh:
+    - 约 436 Ma 早志留世地层中的 Eosteus chongqingensis 以目前报道最早的关节连接硬骨鱼出现记录锚定 436–0 Ma 路线；其干群位置依赖分析，不能当作冠群分裂或全球起源日期。
+  ranges:
+    - entityId: osteichthyes
+      rangeKind: global-composite
+      taxonomicConcept: Osteichthyes total-group fossil minimum and living navigation span
+      geographicScope: Huixingshao Formation, Chongqing, China; living global continuation
+      olderMa: 436
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Approximately 436 Ma is the rounded Eosteus occurrence; stem placement is model-dependent and does not date the crown split or origination.
+      evidenceBasis: The articulated Eosteus specimen and explicit parsimony and Bayesian analyses anchor the oldest reported osteichthyan occurrence, with living lineages extending to the present.
+      confidence: medium
+      claimIds:
+        - claim:taxon:osteichthyes:root-range
+      referenceLocators:
+        - referenceId: zhu-2026-eosteus
+          locator: pp. 128–134; Figures 1–5; Extended Data; Supplementary Data 1–7
+      evidenceLevel: literature-synthesized

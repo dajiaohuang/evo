@@ -1,0 +1,111 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Prosciurillus
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Prosciurillus
+      en: Prosciurillus
+    sections:
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-4bde89a8cf
+            part: body
+          en:
+            page: en
+            section: s-06cb371ac0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Prosciurillus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6X43
+          locator: Pinned name, rank and recorded ancestry.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 5 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 4
+            foraging: 5
+            activity: 5
+          readingTargets:
+            - name: Prosciurillus weberi
+              colId: 4MVBH
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MVBH
+            - name: Prosciurillus rosenbergii
+              colId: 4MVBF
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MVBF
+            - name: Prosciurillus abstrusus
+              colId: 4MVBB
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MVBB
+            - name: Prosciurillus murinus
+              colId: 6W9L7
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6W9L7
+            - name: Prosciurillus leucomus
+              colId: 4MVBD
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MVBD
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-018b4791d0
+        part: body
+      en:
+        page: en
+        section: s-992e73b9b5
+        part: body

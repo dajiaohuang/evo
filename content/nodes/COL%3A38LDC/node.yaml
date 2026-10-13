@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Echinotriton chinhaiensis
+  displayName: Echinotriton chinhaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38LDC
+  sourceIndexes:
+    - name:
+        en: Echinotriton chinhaiensis
+        zh: Echinotriton chinhaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38LDC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/101
+            queryName: Echinotriton chinhaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/362
+            queryName: Tylototriton chinhaiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/363
+            queryName: Pleurodeles chinhaiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fbc5cb040b
+      - s-5d68f97a35
+      - s-2799a21c1e
+      - s-6d298f62f1
+      - s-2b76be67b1
+      - s-88be1abe5e
+      - s-9f23663149
+      - s-765f44f459
+      - s-912d1ec52a
+      - s-d796b8f175
+      - s-9aee88441d
+    zh:
+      - s-514df55bd3
+      - s-31066481aa
+      - s-548bafd7e5
+      - s-07233e0a99
+      - s-f233a5d3f3
+      - s-414aa8f871
+      - s-6e439616fb
+      - s-62c7f4f411
+      - s-0dfd04b157
+      - s-47f8959051
+      - s-d2d823c6a3

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus rubicundulus
+  displayName: Dendropsophus rubicundulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S72
+  sourceIndexes:
+    - name:
+        en: Dendropsophus rubicundulus
+        zh: Dendropsophus rubicundulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S72
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/415
+            queryName: Dendropsophus rubicundulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/455
+            queryName: Hyla rubicundula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/290
+            queryName: Hyla elongata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d2dc4e1738
+      - s-443241400d
+      - s-d644ce3218
+      - s-ff705aaf0e
+      - s-675e5903ca
+      - s-6d2da07205
+      - s-b0922baeff
+      - s-5de1b312f1
+      - s-d8fbe49eb9
+      - s-75657aeb58
+      - s-c378af31f0
+      - s-346b04e5fe
+      - s-090ba3000e
+      - s-ed77657732
+      - s-c5e0bf2d55
+      - s-702f5d19c4
+      - s-619485d61a
+    zh:
+      - s-6ab0b4f350
+      - s-c97db5a02d
+      - s-83eaa16d9b
+      - s-56993964bc
+      - s-269df12bd1
+      - s-fb47a3e02d
+      - s-dc0454f5ad
+      - s-14b00ef832
+      - s-65548de9fb
+      - s-f1efc7de98
+      - s-f0fc0dfba3
+      - s-2585c6e911
+      - s-0fb358c2cb
+      - s-e504f7c091
+      - s-3ecf91f8ae
+      - s-e55e9c37ab
+      - s-9c59010e52

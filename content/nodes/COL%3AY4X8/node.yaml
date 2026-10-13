@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Copiula oxyrhina
+  displayName: Copiula oxyrhina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y4X8
+  sourceIndexes:
+    - name:
+        en: Copiula oxyrhina
+        zh: Copiula oxyrhina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y4X8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/15
+            queryName: Copiula oxyrhina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/197
+            queryName: Phrynixalus oxyrhinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/198
+            queryName: Cophixalus oxyrhinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2ea38cb8da
+      - s-2227a7b3d4
+      - s-db2eeca6d3
+      - s-95cc875136
+      - s-2a7ef733e4
+      - s-57cf97788d
+      - s-072ab565bd
+      - s-dd5f1212f6
+      - s-4f5144fe78
+    zh:
+      - s-a8af7fbf54
+      - s-90a6009857
+      - s-bceff60f28
+      - s-b43109b941
+      - s-dd06c7c17b
+      - s-c8b16778a5
+      - s-237aafd40a
+      - s-15f02c9d84
+      - s-0b4503562a

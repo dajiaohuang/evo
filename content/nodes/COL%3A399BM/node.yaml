@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus haitianus
+  displayName: Eleutherodactylus haitianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399BM
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus haitianus
+        zh: Eleutherodactylus haitianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399BM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/228
+            queryName: Eleutherodactylus haitianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e6f9f4088
+      - s-67adcbe0ae
+      - s-01002b8110
+      - s-2ea3c6426b
+      - s-359b74797f
+      - s-31da4bd5e8
+      - s-9dc4ac901e
+      - s-935643a615
+      - s-0e4fd3f64e
+    zh:
+      - s-6823aaa0ea
+      - s-81ecf45334
+      - s-3badf3637e
+      - s-f7e893d7f4
+      - s-38af6bb3e4
+      - s-a01ee5dd1b
+      - s-425039d11a
+      - s-e8e7ebbcd2
+      - s-d6efedc92b

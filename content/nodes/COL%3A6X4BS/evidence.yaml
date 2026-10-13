@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Restio filiformis Poir.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted usage 6X4BS, name, authorship, rank, status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000512465.
+      scope: Restio as represented by COL26.8 usage 6X4BS; SANBI's regional source account and its own taxonomic scope are retained and not assumed globally equivalent solely from name matching.
+    lifeStatusScope:
+      wild: Regional flora statements retain the source scope; cultivated, naturalised, and wild observations are distinguished only where stated.
+      domesticated: Domestication and cultivation history have not been assessed in this batch.
+      fossil: Fossil occurrence and geological age have not been assessed; extant source statements do not imply fossil evidence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6X4BS
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6X4BS
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000512465-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6X4BS / WFO wfo-0000512465
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13974_0
+        referenceId: ref-362dd7ca-f01b-8fa4-a744-f8a20b411e3f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Restio species account; SANBI/WFO archive rows 9585 (Morphology), 31609 (Habitat), source identifier 13974.0
+          scope: The source is a South African regional flora treatment and does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Dioecious, tufted perennial to 60 cm, culms erect, sparsely branched, smooth or finely rugulose. Female spikelets 1-6, flowers and bracts subequal.
+            textZh: Restio filiformis Poir. 的 SANBI 物种条目记录了植株、叶和花序的形态。
+            sourceIds:
+              - sanbi_13974_0
+            locator: SANBI cited species account; archive Morphology row 9585, source 13974.0
+            placeTimeScope: Regional species account; publication year and page locator are preserved in its source citation and archive row. No dated sampling frame or population frequency is provided in this excerpt.
+            lifeStatus: Regional flora account; native, naturalised, and cultivated status are not inferred beyond explicit statements in the cited passage.
+        gaps:
+          - Only the cited regional morphology and diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sandstone slopes.
+            textZh: 区域植物志记载 Restio filiformis Poir. 的生境为：Rocky sandstone slopes.
+            sourceIds:
+              - sanbi_13974_0
+            locator: SANBI cited species account; archive Habitat row 31609, source 13974.0
+            placeTimeScope: Regional species account; publication year and page locator are preserved in its source citation and archive row. No dated sampling frame or population frequency is provided in this excerpt.
+            lifeStatus: Regional flora account; native, naturalised, and cultivated status are not inferred beyond explicit statements in the cited passage.
+        gaps:
+          - Habitat excerpts do not establish seasonality, localities, interactions, or ecology across each full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

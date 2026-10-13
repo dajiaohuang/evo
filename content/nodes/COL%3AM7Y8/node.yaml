@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana fasciata
+  displayName: Boana fasciata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7Y8
+  sourceIndexes:
+    - name:
+        en: Boana fasciata
+        zh: Boana fasciata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7Y8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/480
+            queryName: Boana fasciata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/328
+            queryName: Hyla fasciata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/152
+            queryName: Hypsiboas fasciatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de7ef7391e
+      - s-d030ae0ff4
+      - s-f0b1ef9414
+      - s-dbc7e5b334
+      - s-93a4c5fce5
+      - s-fedbfbc52c
+      - s-1804d75f22
+      - s-fd9df6dc06
+      - s-9abbb58de0
+      - s-0873d5a630
+      - s-36a5c7a513
+      - s-59e0a40b9c
+      - s-35c309ddbf
+      - s-6fd4d2aa10
+      - s-f01784c4d8
+      - s-34c357ad25
+      - s-84de968ae3
+      - s-0782a6526c
+      - s-992d0f17fb
+      - s-e8b85ad871
+      - s-348607479f
+    zh:
+      - s-cb3dbe445d
+      - s-c1733942ce
+      - s-9d8ef88e9a
+      - s-8b398ce012
+      - s-ab6fe031d5
+      - s-9420fa420a
+      - s-2d501a4840
+      - s-c8907b7c34
+      - s-1709391efd
+      - s-5191ff9994
+      - s-998a5551ff
+      - s-bd1662a0aa
+      - s-9372eef942
+      - s-92c9440799
+      - s-c274dfc635
+      - s-8849b95538
+      - s-53e8558db0
+      - s-efb1bd8e31
+      - s-cb3dae82ad
+      - s-7e74648f12
+      - s-5cc4eac45a

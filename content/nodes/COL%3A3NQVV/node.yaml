@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius mitchelli
+  displayName: Hyperolius mitchelli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQVV
+  sourceIndexes:
+    - name:
+        en: Hyperolius mitchelli
+        zh: Hyperolius mitchelli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQVV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/292
+            queryName: Hyperolius mitchelli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/199
+            queryName: Hyperolius puncticulatus mitchelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c80f2a9d4c
+      - s-e94b9052f1
+      - s-6526a3879b
+      - s-d44a94dc04
+      - s-76c5fe51ae
+      - s-1a97c7cc9c
+      - s-7b46d99489
+      - s-39f1f2bf5b
+      - s-b839c2241f
+      - s-60accacd50
+    zh:
+      - s-3f540bddd7
+      - s-47161aeef4
+      - s-7f110b5bff
+      - s-cfdb9d9c42
+      - s-55eb3867da
+      - s-647976f548
+      - s-c096a01bda
+      - s-2baab352d2
+      - s-e46ebee14f
+      - s-d5eace4b0a

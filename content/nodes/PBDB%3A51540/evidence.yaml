@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sespia ultima
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sespia ultima
+      en: Sespia ultima
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d87a2a9c79
+            part: body
+          en:
+            page: en
+            section: s-6ea7b07747
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4380cc2c70
+            part: body
+          en:
+            page: en
+            section: s-21e160ae20
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e79381f1f3
+            part: body
+          en:
+            page: en
+            section: s-95189c7b5c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8084385f5b
+            part: body
+          en:
+            page: en
+            section: s-f767b10362
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d932b47f24
+            part: body
+          en:
+            page: en
+            section: s-1b1ad22dee
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Sespia ultima
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=51540&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:51540; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:51540
+          selectedOccurrenceIds:
+            - occ:181270
+            - occ:181290
+            - occ:181956
+            - occ:182500
+            - occ:182523
+            - occ:1608104
+            - occ:1635693
+          selectedCollectionIds:
+            - col:17472
+            - col:17474
+            - col:17591
+            - col:17712
+            - col:17721
+            - col:17398
+            - col:17703
+          sourceReferenceIds:
+            - ref:3069
+          originalIdentificationMappings:
+            - occurrenceId: occ:181270
+              originalIdentifiedName: Sespia ultima n. sp.
+              acceptedName: Sespia ultima
+              difference: null
+            - occurrenceId: occ:181290
+              originalIdentifiedName: Megasespia middleswarti
+              acceptedName: Sespia ultima
+              difference: null
+            - occurrenceId: occ:181956
+              originalIdentifiedName: Megasespia middleswarti n. sp.
+              acceptedName: Sespia ultima
+              difference: null
+            - occurrenceId: occ:182500
+              originalIdentifiedName: Megasespia middleswarti
+              acceptedName: Sespia ultima
+              difference: null
+            - occurrenceId: occ:182523
+              originalIdentifiedName: Megasespia middleswarti
+              acceptedName: Sespia ultima
+              difference: null
+            - occurrenceId: occ:1608104
+              originalIdentifiedName: Megasespia middleswarti
+              acceptedName: Sespia ultima
+              difference: null
+            - occurrenceId: occ:1635693
+              originalIdentifiedName: Megasespia middleswarti
+              acceptedName: Sespia ultima
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5e45e2a5fe
+        part: body
+      en:
+        page: en
+        section: s-60f203824a
+        part: body

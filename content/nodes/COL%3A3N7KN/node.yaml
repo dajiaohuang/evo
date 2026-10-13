@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hydromantes shastae
+  displayName: Hydromantes shastae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3N7KN
+  sourceIndexes:
+    - name:
+        en: Hydromantes shastae
+        zh: Hydromantes shastae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3N7KN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/353
+            queryName: Hydromantes shastae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/485
+            queryName: Hydromantoides shastae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf0079241f
+      - s-bca2362eb2
+      - s-c24f4520b9
+      - s-ab757f0ad7
+      - s-51ea175ef1
+      - s-993510435e
+      - s-8497081f3b
+      - s-b4fc531edd
+      - s-57baff0dd5
+      - s-e7b3124552
+    zh:
+      - s-7488505f7d
+      - s-9face9a817
+      - s-3dd64b42a2
+      - s-45f340a80c
+      - s-69dc5ce107
+      - s-0d7698128f
+      - s-ab22ac3221
+      - s-462e104417
+      - s-4527ec0b9f
+      - s-e0aa9b82f5

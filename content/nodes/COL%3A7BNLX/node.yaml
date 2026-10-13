@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Taudactylus rheophilus
+  displayName: Taudactylus rheophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7BNLX
+  sourceIndexes:
+    - name:
+        en: Taudactylus rheophilus
+        zh: Taudactylus rheophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7BNLX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/424
+            queryName: Taudactylus rheophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a0065f3aad
+      - s-230a4b8fec
+      - s-63c378f221
+      - s-dbd2751c3d
+      - s-156494b399
+      - s-6dcd6ce933
+      - s-2d8b652271
+      - s-cb709239e8
+      - s-95a627791b
+    zh:
+      - s-e516f79127
+      - s-297a8ad85b
+      - s-92a3a90492
+      - s-863fbecb74
+      - s-e4cc74654d
+      - s-68b0afcc68
+      - s-f90b523164
+      - s-a57b6fc4ba
+      - s-abe8663248

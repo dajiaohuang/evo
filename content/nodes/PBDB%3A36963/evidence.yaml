@@ -1,0 +1,217 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Acanthostega
+    commonName: Acanthostega
+    commonNameZh: 棘螈
+    rank: genus
+    taxonId: txn:36963
+    firstAppearance: 372.15
+    lastAppearance: 358.86
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:36963
+    scientificName: Acanthostega
+    commonName: Acanthostega
+    commonNameZh: 棘螈
+    rank: genus
+    parentName: Stem tetrapodomorphs
+    extinct: true
+    geography:
+      - East Greenland
+      - Upper Devonian limnic deposits
+    regionalRanges:
+      - canonicalRangeId: range:acanthostega:east-greenland-limb-sample
+        label: East Greenland Famennian limb sample
+    overview:
+      page: en
+      section: s-d9bfd97ccf
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-9a963a98ab
+        part: body
+      habitat:
+        page: en
+        section: s-0dc410396e
+        part: body
+      locomotion:
+        page: en
+        section: s-4c310863e0
+        part: body
+      bodySize:
+        page: en
+        section: s-fcb0518c92
+        part: body
+      guild:
+        page: en
+        section: s-8b5a604483
+        part: body
+    traits:
+      - page: en
+        section: s-3e741600b7
+        part: body
+      - page: en
+        section: s-5df2e8c0eb
+        part: body
+      - page: en
+        section: s-66a09fd498
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3b8b8252e9
+      part: body
+    confidence: high
+    referenceIds:
+      - coates-1990-polydactyly
+    readerSections:
+      - id: eight-digit-forelimb
+        title:
+          en:
+            page: en
+            section: s-763aeef68a
+            part: title
+          zh:
+            page: zh
+            section: s-63ce28b55d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-763aeef68a
+            part: body
+          zh:
+            page: zh
+            section: s-63ce28b55d
+            part: body
+        sourceIds:
+          - coates-1990-polydactyly
+    readerSources:
+      - id: coates-1990-polydactyly
+        referenceId: coates-1990-polydactyly
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 66–69; East Greenland specimen descriptions | 66–69; Abstract and comparative discussion of Devonian tetrapod limb material | 66–69; Figures 1–3; Forelimb digit descriptions and discussion of digit number | 66–69; Specimen context and discussion of aquatic adaptation
+          scope:
+            en: "Acanthostega: 66–69; East Greenland specimen descriptions | 66–69; Abstract and comparative discussion of Devonian tetrapod limb material | 66–69; Figures 1–3; Forelimb digit descriptions and discussion of digit number | 66–69; Specimen context and discussion of aquatic adaptation. Limited to the cited specimens, samples or analyses."
+            zh: Acanthostega：原文定位 66–69; East Greenland specimen descriptions | 66–69; Abstract and comparative discussion of Devonian tetrapod limb material | 66–69; Figures 1–3; Forelimb digit descriptions and discussion of digit number | 66–69; Specimen context and discussion of aquatic adaptation。本文仅使用所引标本、样本或分析的对应结果。
+  claims:
+    - subjectId: taxon:acanthostega
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Acanthostega is bounded here by described limb material from Famennian Upper Devonian deposits of East Greenland; this bounded sample context is not a global distribution or exact complete range.
+      confidence: medium
+      confidenceRationale: "Acanthostega: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - relation: supports
+          referenceId: coates-1990-polydactyly
+          pages: 66–69
+          quoteLocator: East Greenland specimen descriptions
+    - subjectId: taxon:acanthostega
+      claimType: taxonomy
+      claimKind: scientific
+      statement: The Acanthostega limb study treats the material as an early tetrapod and compares its digit number with Ichthyostega and Tulerpeton; this package does not convert that comparison into a universal phylogenetic tree.
+      confidence: medium
+      confidenceRationale: The cited primary study provides the taxonomic context and explicit comparative sample, but the profile intentionally avoids extending a limb comparison into an unreported complete topology.
+      referenceLinks:
+        - referenceId: coates-1990-polydactyly
+          relation: supports
+          pages: 66–69
+          quoteLocator: Abstract and comparative discussion of Devonian tetrapod limb material
+    - subjectId: taxon:acanthostega
+      claimType: biogeography
+      claimKind: scientific
+      statement: The Acanthostega limb material cited here comes from East Greenland Upper Devonian deposits; the locality is a documented sample, not a global distribution estimate.
+      confidence: high
+      confidenceRationale: The geographic context is explicitly reported with the described limb specimens. No absence or wider range is inferred from the locality.
+      referenceLinks:
+        - referenceId: coates-1990-polydactyly
+          relation: supports
+          pages: 66–69
+          quoteLocator: East Greenland specimen descriptions
+    - subjectId: taxon:acanthostega
+      claimType: morphology
+      claimKind: scientific
+      statement: Described Acanthostega forelimb material preserves eight digits, demonstrating a non-pentadactyl Devonian limb condition; digit count alone does not demonstrate habitual terrestrial walking.
+      confidence: high
+      confidenceRationale: The digit count is a direct observation in the primary description. The locomotor boundary is retained because the paper does not make digit number equivalent to observed terrestrial behaviour.
+      referenceLinks:
+        - referenceId: coates-1990-polydactyly
+          relation: supports
+          pages: 66–69
+          figure: Figures 1–3
+          quoteLocator: Forelimb digit descriptions and discussion of digit number
+    - subjectId: taxon:acanthostega
+      claimType: ecology
+      claimKind: scientific
+      statement: The cited Acanthostega limb study does not directly establish diet, habitat preference or observed locomotor behaviour; ecological fields therefore remain unresolved apart from the bounded depositional context.
+      confidence: medium
+      confidenceRationale: The primary evidence is limb anatomy and comparative interpretation, not direct ecological observation. The profile leaves unsupported ecological fields unresolved.
+      referenceLinks:
+        - referenceId: coates-1990-polydactyly
+          relation: supports
+          pages: 66–69
+          quoteLocator: Specimen context and discussion of aquatic adaptation
+  claim-rationales.zh:
+    - 棘螈：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+    - 一手研究提供早期四足动物的分类语境和比较样本，但肢体比较不能单独构成完整系统树。
+    - 东格陵兰晚泥盆世产地与标本描述相互对应；声明不从该样本推断全球分布或缺失。
+    - 八趾是描述标本的直接观察；论文并未把趾数等同于已观察到的陆地行走行为。
+    - 研究重点是肢体解剖与比较解释，不是食性、生境偏好或直接行为观察；这些字段保持未解析。
+  claim-statements.zh:
+    - Acanthostega 的肢体研究将这些材料视为早期四足动物，并将其指趾数量与 Ichthyostega 和 Tulerpeton 比较；本内容包不把这种比较转换为通用系统发育树。
+    - 此处引用的 Acanthostega 肢体材料来自格陵兰东部上泥盆统沉积；该地点是有记录的采样地点，并非全球分布估计。
+    - 已描述的 Acanthostega 前肢材料保留八个指，展示了泥盆纪非五指型的肢体状态；仅凭指的数量不能证明其惯常在陆地行走。
+    - 所引 Acanthostega 肢体研究未直接确定食性、生境偏好或实际观察到的运动行为；因此，除研究限定的沉积背景外，生态字段仍未确定。
+    - Acanthostega 在此由来自东格陵兰法门阶晚泥盆世沉积物的已描述肢材料约束；这一有限样本背景不是全球分布或精确完整延限。
+  ranges:
+    - entityId: acanthostega
+      rangeKind: global-composite
+      taxonomicConcept: Acanthostega gunnari
+      geographicScope: East Greenland
+      olderMa: 372.15
+      youngerMa: 358.86
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Stage-level envelope; it does not establish absence outside the cited study sample.
+      evidenceBasis: A Famennian stage envelope contextualizes the East Greenland limb material described by Coates; it does not establish a precise global FAD or LAD.
+      confidence: high
+      claimIds:
+        - claim:event:acanthostega-eight-digit-limb
+      referenceLocators:
+        - referenceId: coates-1990-polydactyly
+          locator: pp. 66–69; Figures 1–3
+      evidenceLevel: literature-synthesized
+    - entityId: acanthostega
+      rangeKind: taxon-range
+      taxonomicConcept: Acanthostega gunnari
+      geographicScope: East Greenland
+      olderMa: 372.15
+      youngerMa: 358.86
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Famennian stage envelope for the described limb material; not a precise global FAD or LAD.
+      evidenceBasis: The described East Greenland limb specimens provide a bounded occurrence context.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:acanthostega-eight-digit-limb
+        - claim:taxon:acanthostega:fossil-range
+      referenceLocators:
+        - referenceId: coates-1990-polydactyly
+          locator: pp. 66–69; Figures 1–3

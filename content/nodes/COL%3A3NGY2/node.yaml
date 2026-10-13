@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus pinguis
+  displayName: Hyloxalus pinguis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGY2
+  sourceIndexes:
+    - name:
+        en: Hyloxalus pinguis
+        zh: Hyloxalus pinguis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGY2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/123
+            queryName: Hyloxalus pinguis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/133
+            queryName: Colostethus pinguis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5077db3341
+      - s-5de4b0026b
+      - s-9131723622
+      - s-77982d40e9
+      - s-c74e5b11a7
+      - s-a3e8e4bfa4
+      - s-be9a6aa87c
+      - s-e4c00a92f1
+    zh:
+      - s-05c8e717db
+      - s-ffd96ecf92
+      - s-5e9f644693
+      - s-15a26ba1ed
+      - s-1988500888
+      - s-304c7a4191
+      - s-88a2856c03
+      - s-e16dd75f07

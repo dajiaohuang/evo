@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Spea neuter
+    rank: species
+    sourceTaxonId: txn:84028
+    name:
+      en: Spea neuter
+      zh: Spea neuter
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-68b730f02f
+            part: body
+          zh:
+            page: zh
+            section: s-756fbe0a42
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-5fe57cd5a9
+            part: body
+          zh:
+            page: zh
+            section: s-2a7ce10cb0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-77e77f340b
+            part: body
+          zh:
+            page: zh
+            section: s-4a9bc8da30
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:84028; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. G. Kluge. 1966. A new pelobatine frog from the lower Miocene of South Dakota with a discussion of the evolution of the Scaphiopus-Spea complex. Los Angeles County Museum Contributions in Science 113:1-26
+    occurrenceEvidence:
+      - occurrenceId: occ:520368
+        collectionId: col:17802
+        acceptedTaxonId: txn:84028
+        identifiedTaxonId: var:84028
+        identifiedName: Scaphiopus neuter
+        taxonomicDifference: recombined as
+        referenceId: ref:720
+        bibliography: "J. A. Holman. 1981. A herpetofauna from an early extension of the Harrison Formation (early Miocene: Arikareean), Cherry County, Nebraska. Journal of Vertebrate Paleontology 1(1):49-56"
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Cherry
+        stratigraphy:
+          group: null
+          formation: Harrison
+          member: null
+        olderAgeMa: 23.1
+        youngerAgeMa: 18.5
+      - occurrenceId: occ:599224
+        collectionId: col:17636
+        acceptedTaxonId: txn:84028
+        identifiedTaxonId: var:84028
+        identifiedName: Scaphiopus neuter n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:18285
+        bibliography: A. G. Kluge. 1966. A new pelobatine frog from the lower Miocene of South Dakota with a discussion of the evolution of the Scaphiopus-Spea complex. Los Angeles County Museum Contributions in Science 113:1-26
+        locality:
+          countryCode: US
+          stateProvince: South Dakota
+          county: Shannon
+        stratigraphy:
+          group: null
+          formation: Sharps
+          member: middle
+        olderAgeMa: 29.5
+        youngerAgeMa: 24.7
+      - occurrenceId: occ:1081422
+        collectionId: col:18803
+        acceptedTaxonId: txn:84028
+        taxonomicDifference: null
+        referenceId: ref:43427
+        bibliography: "A. C. Henrici. 2009. Reassessment of Scaphiopus neuter Kluge, 1966 (Anura: Pelobatoidea: Pelobatidae), based on new material from Anceney, Montana (early Barstovian). Annals of Carnegie Museum 78(3):273-287"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Gallatin
+        stratigraphy:
+          group: null
+          formation: Madison Valley
+          member: null
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-77e77f340b
+            part: body
+          zh:
+            page: zh
+            section: s-4a9bc8da30
+            part: body
+        sourceIds: []

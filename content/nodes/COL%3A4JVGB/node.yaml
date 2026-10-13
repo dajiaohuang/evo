@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platypelis alticola
+  displayName: Platypelis alticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JVGB
+  sourceIndexes:
+    - name:
+        en: Platypelis alticola
+        zh: Platypelis alticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JVGB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/403
+            queryName: Platypelis alticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/165
+            queryName: Cophyla alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/166
+            queryName: Platyhyla alticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4d78cc65c
+      - s-6ad77dd8e5
+      - s-c6361ab181
+      - s-b834101a40
+      - s-ac49789b03
+      - s-f1a8d109d5
+      - s-65f08cae34
+      - s-bff0a3b4e0
+      - s-9c3c4bccd1
+    zh:
+      - s-e2d4e241c9
+      - s-ab8004575d
+      - s-bbea5d200b
+      - s-0689b1a7c2
+      - s-a42b89ea94
+      - s-48d333da14
+      - s-8dffbda44a
+      - s-dd5211beaa
+      - s-24659eb54b

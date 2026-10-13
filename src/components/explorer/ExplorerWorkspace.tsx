@@ -14,6 +14,7 @@ import { searchReturnHash } from '../../utils/searchMapNavigation'
 import { MAX_MAP_ZOOM, MIN_MAP_ZOOM } from '../../constants'
 import { loadPackageForEntity } from '../../data-client/staticDataClient'
 import { useI18n } from '../../i18n'
+import { localizedProfileText } from '../../i18n/profileText'
 import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
 import { GeoTimeline } from '../timeline/GeoTimeline'
 import { ErrorBoundary } from '../common/ErrorBoundary'
@@ -564,7 +565,9 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
             <div className="context-inspector-card">
               <span>{t(profileContext ? 'Curated taxon profile' : 'Curated event')}</span>
               <h2>{profileContext?.scientificName ?? (language === 'zh' ? eventContext?.titleZh : eventContext?.title)}</h2>
-              <p>{t(profileContext?.evidenceSummary ?? eventContext?.summary ?? '')}</p>
+              <p>{profileContext
+                ? localizedProfileText(profileContext, profileContext.evidenceSummary, language, t)
+                : language === 'zh' ? eventContext?.summaryZh ?? t(eventContext?.summary ?? '') : eventContext?.summary}</p>
               <a href={profileContext ? `#/taxa?id=${profileContext.id}` : `#/events?id=${eventContext?.id}`}>
                 {t('Open full evidence page →')}
               </a>

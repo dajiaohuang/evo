@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantidactylus danieli Rabibisoa, Welt & Raxworthy, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Mantidactylus danieli
+      zh: Mantidactylus danieli
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-eda22bb1d6
+            part: title
+          zh:
+            page: zh
+            section: s-472b2b6067
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eda22bb1d6
+            part: body
+          zh:
+            page: zh
+            section: s-472b2b6067
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-535f864f80
+            part: title
+          zh:
+            page: zh
+            section: s-de4eb46b57
+            part: title
+        text:
+          en:
+            page: en
+            section: s-535f864f80
+            part: body
+          zh:
+            page: zh
+            section: s-de4eb46b57
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e4612f4729
+            part: title
+          zh:
+            page: zh
+            section: s-07b9019c8c
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct8
+        text:
+          en:
+            page: en
+            section: s-e4612f4729
+            part: body
+          zh:
+            page: zh
+            section: s-07b9019c8c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2b76745fac
+            part: title
+          zh:
+            page: zh
+            section: s-9f44857755
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct8
+        text:
+          en:
+            page: en
+            section: s-2b76745fac
+            part: body
+          zh:
+            page: zh
+            section: s-9f44857755
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-0fb050973f
+            part: title
+          zh:
+            page: zh
+            section: s-1faa69a9da
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct8
+        text:
+          en:
+            page: en
+            section: s-0fb050973f
+            part: body
+          zh:
+            page: zh
+            section: s-1faa69a9da
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9734ed19d6
+            part: title
+          zh:
+            page: zh
+            section: s-8169760c43
+            part: title
+        sourceIds:
+          - primary-pmc10563080-qmct8
+        text:
+          en:
+            page: en
+            section: s-9734ed19d6
+            part: body
+          zh:
+            page: zh
+            section: s-8169760c43
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantidactylus danieli
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMCT8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10563080-qmct8
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mantidactylus danieli: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bbcc04e85e
+        part: body
+      zh:
+        page: zh
+        section: s-7b081d4cda
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172800
+        referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+        sourceKey: primary-pmc10563080-qmct8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10563080/article.xml
+        sourceConcept: Mantidactylus danieli
+        evidenceRead: "Mantidactylus danieli: Species-specific diagnosis, observations, distribution and explicitly attributed taxonomic evidence in the 2023 Ochthomantis revision; mitochondrial evidence is not independent contemporary concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Granular brown colour and a narrow inguinal streak form part of the diagnosis
+              zh: 颗粒状褐色及窄腹股沟条纹属于鉴别组合
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct8
+            locator: PMC10563080 reading-sections section 11 paragraphs 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-13db7f89d1
+                part: body
+              zh:
+                page: zh
+                section: s-d47118dbd3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: River-bank observations include sex-specific perch heights
+              zh: 河岸观察包含分性别栖位高度
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct8
+            locator: PMC10563080 reading-sections section 11 paragraphs 8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4f0dccbd95
+                part: body
+              zh:
+                page: zh
+                section: s-60ab100b82
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: Two elevation summaries in the source remain distinct
+              zh: 来源中的两个海拔摘要分别保留
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct8
+            locator: PMC10563080 reading-sections section 11 paragraphs 8, 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d7a396cacd
+                part: body
+              zh:
+                page: zh
+                section: s-ecab4498c0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Two older femoralis-labelled sequences belong to this molecular group
+              zh: 两个旧标为 femoralis 的序列属于该分子组
+            referenceId: ref-bcea620c-3e51-4cc4-a08b-fb23f00afe86
+            sourceKey: primary-pmc10563080-qmct8
+            locator: PMC10563080 reading-sections section 11 paragraphs 11
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8fac999e4f
+                part: body
+              zh:
+                page: zh
+                section: s-6f159ece82
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-fb9bf86bee
+          part: title
+        zh:
+          page: zh
+          section: s-324eaf14b1
+          part: title
+      text:
+        en:
+          page: en
+          section: s-fb9bf86bee
+          part: body
+        zh:
+          page: zh
+          section: s-324eaf14b1
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-04b65057ab
+          part: title
+        zh:
+          page: zh
+          section: s-d93c20b215
+          part: title
+      text:
+        en:
+          page: en
+          section: s-04b65057ab
+          part: body
+        zh:
+          page: zh
+          section: s-d93c20b215
+          part: body
+  atlas-node:
+    name: 1KITE insect phylogenomics dataset
+    commonName: Insect transcriptome matrix
+    commonNameZh: 昆虫转录组矩阵
+    rank: research dataset
+    taxonId: ""
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    entityKind: navigation-group
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:insect-1kite-dataset
+      claimKind: scientific
+      claimType: topology
+      statement: The 1KITE insect phylogenomics dataset navigation entity is source-linked only to the named specimen, dataset and analysis dossiers already cited by its range ledger. Its displayed span is a study-bounded route or sample envelope, not a biological taxon, ancestor sequence, global FAD/LAD or exact origin interval.
+      confidence: medium
+      confidenceRationale: "Insect transcriptome matrix: Medium confidence applies to the existence and documented scope of the linked dossiers and their concrete locators. The navigation grouping and displayed envelope are editorial organization, so no biological ancestry or global endpoint is inferred."
+      referenceLinks:
+        - referenceId: misof-2014-insect-phylogenomics
+          relation: supports
+          pages: 763–767
+          figure: Figures 1–3; Supplementary Tables; BioProject PRJNA183205
+          quoteLocator: Taxon and gene sampling; phylogenetic analyses; divergence dating
+  claim-rationales.zh:
+    - 昆虫转录组矩阵：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - 昆虫转录组矩阵导航实体在此仅链接到延限账本已经引用的具名标本、数据集和分析档案；其显示跨度是研究限定的路线或样本包络，不是生物分类单元、祖先序列、全球首末出现或精确起源区间。
+  ranges:
+    - entityId: insect-1kite-dataset
+      rangeKind: global-composite
+      taxonomicConcept: 1KITE insect phylogenomics dataset
+      geographicScope: Living sampled insect transcriptomes, BioProject PRJNA183205
+      olderMa: 0
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Present-day research-dataset marker; modeled node ages are not occurrence ranges.
+      evidenceBasis: The published matrix includes 144 species and 1,478 protein-coding genes.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:insect-1kite-topology-clock
+      referenceLocators:
+        - referenceId: misof-2014-insect-phylogenomics
+          locator: 763–767; Figures 1–3; BioProject PRJNA183205

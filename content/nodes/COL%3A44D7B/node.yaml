@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Morerella cyanophthalma
+  displayName: Morerella cyanophthalma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/44D7B
+  sourceIndexes:
+    - name:
+        en: Morerella cyanophthalma
+        zh: Morerella cyanophthalma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 44D7B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/131
+            queryName: Morerella cyanophthalma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89ff57300f
+      - s-3f12c11288
+      - s-b323e18e33
+      - s-59f77d4964
+      - s-255b3d947b
+      - s-e09b701502
+      - s-8987232289
+    zh:
+      - s-5d6d86e3cd
+      - s-23a1897f4f
+      - s-e47a22fd87
+      - s-3f526fd4e6
+      - s-8cb67c4926
+      - s-da605ed9c5
+      - s-7c7c58b675

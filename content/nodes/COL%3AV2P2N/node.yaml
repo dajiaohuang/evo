@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus elbakyanae
+  displayName: Hyloscirtus elbakyanae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V2P2N
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus elbakyanae
+        zh: Hyloscirtus elbakyanae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V2P2N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/50
+            queryName: Hyloscirtus elbakyanae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ea68206f5
+      - s-17dffb94ee
+      - s-fd17775b49
+      - s-aa8f203553
+      - s-a0716797ad
+      - s-b0211906a2
+      - s-2de60d2ef7
+    zh:
+      - s-8dec1ace6c
+      - s-e59e377897
+      - s-9cfd15f454
+      - s-8711a0738d
+      - s-df5a02e44f
+      - s-dfc813d4d9
+      - s-c9b2ffef54

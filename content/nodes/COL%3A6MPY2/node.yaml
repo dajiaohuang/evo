@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius horstockii
+  displayName: Hyperolius horstockii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPY2
+  sourceIndexes:
+    - name:
+        en: Hyperolius horstockii
+        zh: Hyperolius horstockii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPY2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/259
+            queryName: Hyperolius horstockii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/282
+            queryName: Hyla horstockii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/283
+            queryName: Eucnemis horstockii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/284
+            queryName: Rappia horstockii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/54
+            queryName: Hyperolius horstockii horstockii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb06e28608
+      - s-647ecdd495
+      - s-39eed58e48
+      - s-b95a9c7583
+      - s-97b6e6eeba
+      - s-cba4872b57
+      - s-1e115a7a49
+      - s-9d21783ba8
+      - s-2b429426a6
+      - s-87379fc093
+      - s-7252d3b7e5
+      - s-859e25db9d
+    zh:
+      - s-476f10e8ab
+      - s-98680c0042
+      - s-582a37bcd0
+      - s-c6fa0b359e
+      - s-5fa2fffab9
+      - s-d55c5075ca
+      - s-b52df7239b
+      - s-7b3be77abe
+      - s-40738059d9
+      - s-fa17bada50
+      - s-a86f5e8e19
+      - s-69735252a1

@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon trapicheiroi
+  displayName: Ololygon trapicheiroi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4994G
+  sourceIndexes:
+    - name:
+        en: Ololygon trapicheiroi
+        zh: Ololygon trapicheiroi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4994G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/146
+            queryName: Ololygon trapicheiroi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/61
+            queryName: Scinax trapicheiroi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/483
+            queryName: Hyla trapicheiroi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/484
+            queryName: Scinax trapicheroy
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/322
+            queryName: Hyla catharinae trapicheiroi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/323
+            queryName: Ololygon catharinae trapicheiroi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-81c64ae4c6
+      - s-626284bda2
+      - s-650a4be76f
+      - s-8e0045a81f
+      - s-18b3554a09
+      - s-cd34107e99
+      - s-0684906980
+      - s-bfd254e454
+      - s-55e7830703
+      - s-cf416baf8f
+      - s-9b95882fc7
+      - s-89e3a1fb4e
+      - s-3078211451
+      - s-33f8e8f0c3
+    zh:
+      - s-ae400ed05d
+      - s-daf703f40e
+      - s-972773c626
+      - s-7bd0983063
+      - s-0b2f3d0505
+      - s-7f8410aeb6
+      - s-db7ac47d08
+      - s-6ec461f974
+      - s-f186ec2961
+      - s-e5071a864e
+      - s-56a3a4a546
+      - s-e0d71fa16f
+      - s-2c5e48ecca
+      - s-644394d8b3

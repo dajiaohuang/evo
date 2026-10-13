@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micryletta inornata
+  displayName: Micryletta inornata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/73JD3
+  sourceIndexes:
+    - name:
+        en: Micryletta inornata
+        zh: Micryletta inornata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 73JD3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/75
+            queryName: Micryletta inornata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/28
+            queryName: Microhyla inornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/101
+            queryName: Microhyla inornata inornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ec0dce83c
+      - s-45dab0bc10
+      - s-45b14dfdee
+      - s-0e55bca808
+      - s-05f84bd90a
+      - s-5f66ff933c
+      - s-8b59cd3358
+      - s-6cd10c3e71
+      - s-ea3a21f3b1
+      - s-f7f70828bd
+      - s-f2563a1a0e
+    zh:
+      - s-a47102ca51
+      - s-c8e7692e9c
+      - s-a3de4e367f
+      - s-8b6d52a40d
+      - s-15908509e1
+      - s-263c0cddf7
+      - s-0cc2c632d5
+      - s-3baf781518
+      - s-d76360cb68
+      - s-79613aecb7
+      - s-3eccdcc4b7

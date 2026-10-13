@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis elenae
+  displayName: Boophis elenae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHT5
+  sourceIndexes:
+    - name:
+        en: Boophis elenae
+        zh: Boophis elenae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHT5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/247
+            queryName: Boophis elenae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0dcec0d250
+      - s-7e6271a2fd
+      - s-cb3b535c46
+      - s-85de5a11d1
+      - s-c59aeda817
+      - s-7695d2a685
+      - s-332a5d2240
+      - s-9f971df9e4
+      - s-d240850bd2
+    zh:
+      - s-ec7dba7575
+      - s-a564bd83f9
+      - s-38e36e63f8
+      - s-6f04b2dafd
+      - s-558a3f7373
+      - s-8d5b87361b
+      - s-da337d0fb4
+      - s-80f7d07fa9
+      - s-6587752c6f

@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Micranthus cruciatus Goldblatt & J.C.Manning
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 42QHV, name, authorship, rank, and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0001338463 by exact accepted name and authorship.
+      scope: Micranthus cruciatus Goldblatt & J.C.Manning as represented by COL26.8 usage 42QHV; regional flora evidence remains limited to its southern African source scope.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the regional flora.
+      domesticated: Cultivation is not covered by the cited claims; no domestication claim is made.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 20
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/42QHV
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 42QHV
+          scope: Accepted name, authorship, rank, status, and source-dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001338463-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL 42QHV / WFO wfo-0001338463 crosswalk row
+          scope: Identity-link evidence only; not biological evidence.
+      - id: sanbi2020
+        referenceId: ref-a2c82bbf-bb8f-8117-a1e3-5aefbf03dc12
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Micranthus account, printed p. 157; flowering-time and distribution/ecology entries
+          scope: Southern African regional flora account; not a current global range or conservation assessment.
+      - id: sanbi-archive
+        referenceId: ref-240f872a-55ec-83ef-ae4f-5731c9346cae
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Source 18638.0; morphology row 98030; habitat row 96941
+          scope: South African flora description fields; morphology and habitat evidence only, not a global account.
+      - id: redlist
+        referenceId: ref-bc1706dd-5263-875e-a859-d5648e2ecdd1
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Assessment category, criteria, geographic scope and assessment date
+          scope: South African national assessment; not a global conservation assessment.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The archived species description records Micranthus cruciatus Goldblatt & J.C.Manning: plants 300–450 mm tall, with 3–5 narrow, nearly terete lower leaves and pale to deep blue flowers."
+            textZh: SANBI 档案对 Micranthus cruciatus Goldblatt & J.C.Manning 的形态记载为：株高 300–450 mm，下部有 3–5 枚狭窄、近圆柱形叶，花色可由浅蓝至深蓝。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, morphology row 98030
+            placeTimeScope: Source 18638.0 in the SANBI e-Flora archive; South African source-description scope, with no global or current-population inference.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of morphology has not been completed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The 2020 flora reports flowering mid-November–late December, occasionally into January; it does not provide a full life-history study.
+            textZh: 2020 年植物志记载花期为 mid-November–late December, occasionally into January；该条目不构成完整生活史研究。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 157, flowering-time entry
+            placeTimeScope: Species account in a 2020 southern African flora, printed p. 157; temporal and geographic scope are limited to that account, not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of lifeHistory has not been completed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: "The archived habitat field reports: Rocky seep slopes on thin sandy soil over sandstone pavement."
+            textZh: 档案中的生境字段记载：Rocky seep slopes on thin sandy soil over sandstone pavement.
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, habitat row 96941
+            placeTimeScope: Source 18638.0 in the SANBI e-Flora archive; South African source-description scope, with no global or current-population inference.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of ecology has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: "The 2020 flora reports the regional range as: Northern Cape flora, including the northern Cederberg and Pakhuis area and the Bokkeveld near Nieuwoudtville. This is not a current global range inventory."
+            textZh: 2020 年植物志记载的区域分布为：Northern Cape flora, including the northern Cederberg and Pakhuis area and the Bokkeveld near Nieuwoudtville. 这不是当前全球分布清单。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 157, distribution paragraph
+            placeTimeScope: Species account in a 2020 southern African flora, printed p. 157; temporal and geographic scope are limited to that account, not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of distribution has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: partially-supported
+        claims:
+          - text: SANBI national assessment lists this taxon as Near Threatened (NT), criterion D2, assessed 2022-05-31. This is a dated South African national assessment, not a global status.
+            textZh: SANBI 南非国家评估将其列为近危（NT），标准 D2，评估日期为 2022-05-31。这是有日期的南非国家评估，不代表全球保护等级。
+            sourceIds:
+              - redlist
+            locator: Assessment category, criteria, geographic scope and assessment date
+            placeTimeScope: SANBI South African national assessment dated 2022-05-31; not a global status.
+            lifeStatus: Wild South African populations within the assessment scope.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of conservation has not been completed.

@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trachypithecus popa Roos, Helgen et al., 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 波帕叶猴
+      en: Popa Langur
+    sections:
+      - topic: description_sample
+        text:
+          zh:
+            page: zh
+            section: s-ca53b4095e
+            part: body
+          en:
+            page: en
+            section: s-8e89b11fef
+            part: body
+        sourceIds:
+          - roos2020mito
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Trachypithecus popa Roos, Helgen et al., 2020
+          url: https://www.checklistbank.org/dataset/316115/taxon/84HXM
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-77a7b87c-ac7b-81df-acaa-65f38de8adad
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 MDD 页面所列英文普通名和名称注记；固定物种身份仍按 COL26.8。
+            en: Supports the English common name and nomenclatural notes on the MDD page; the pinned species identity remains COL26.8.
+      - id: roos2020mito
+        referenceId: ref-1cab14aa-a81a-8432-a7b1-693d7b9066b7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 41 个线粒体基因组、馆藏正模比较、T. phayrei 的地理谱系分析及 T. popa 的描述；线粒体谱系和作者的分类提案不等于唯一或终局的分类。
+            en: Supports the 41-mitogenome study, comparisons involving name-bearing museum specimens, the geographic clades analyzed under T. phayrei, and the description of T. popa; mitochondrial lineages and the authors' taxonomic proposal are not a uniquely settled classification.
+    limitations:
+      zh:
+        page: zh
+        section: s-6cb70e4ee9
+        part: body
+      en:
+        page: en
+        section: s-587e5f769c
+        part: body

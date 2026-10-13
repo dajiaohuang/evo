@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aplastodiscus albofrenatus
+  displayName: Aplastodiscus albofrenatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FNMK
+  sourceIndexes:
+    - name:
+        en: Aplastodiscus albofrenatus
+        zh: Aplastodiscus albofrenatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FNMK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/80
+            queryName: Aplastodiscus albofrenatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/243
+            queryName: Hyla albofrenata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/28
+            queryName: Boana albofrenata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1cd6c018da
+      - s-f591726dd3
+      - s-60dc293082
+      - s-a40c38e26b
+      - s-a0278bb7ad
+      - s-02b819e339
+      - s-c88f998f16
+      - s-230d6f9e11
+      - s-24483fe44d
+      - s-61f110fa1e
+      - s-5aa9be190e
+      - s-9ea2c635e1
+      - s-cc7ea82365
+      - s-fdc4680848
+      - s-4dd1b56222
+      - s-abb1c29275
+    zh:
+      - s-12b8d715cd
+      - s-3f4135080c
+      - s-09fef57689
+      - s-5ba01a2eb9
+      - s-38a39a4f8a
+      - s-3e81f2f638
+      - s-aa27a5d240
+      - s-a1ee6b5889
+      - s-80bc698132
+      - s-c52edcfc85
+      - s-76f1e4ca8e
+      - s-55cf07c8ae
+      - s-be2b106886
+      - s-1fd65c7039
+      - s-1346272573
+      - s-e103b0ab5e

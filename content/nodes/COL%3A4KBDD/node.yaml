@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pleurodema alium
+  displayName: Pleurodema alium
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4KBDD
+  sourceIndexes:
+    - name:
+        en: Pleurodema alium
+        zh: Pleurodema alium
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4KBDD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/19
+            queryName: Pleurodema alium
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43a751c90f
+      - s-c273adeef5
+      - s-ad06c61c18
+      - s-26a8cc8add
+      - s-a1621cf5b2
+      - s-813a2b7c21
+      - s-65d4cf2419
+      - s-cc95553faa
+      - s-56d75a624d
+      - s-eb9d02dfa1
+      - s-49a3e794cf
+    zh:
+      - s-4225d5daa7
+      - s-cc9bf2880a
+      - s-7295958d47
+      - s-c17af380eb
+      - s-c702168c01
+      - s-2eb70ee62d
+      - s-0cea367ce2
+      - s-e06f018616
+      - s-43048b2479
+      - s-7eab43347d
+      - s-b8b2d98b59

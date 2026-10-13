@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus
+  displayName: Afrixalus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q3X
+  sourceIndexes:
+    - name:
+        en: Afrixalus
+        zh: Afrixalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q3X
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/117
+            queryName: Afrixalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 65
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca567b7013
+      - s-a6dcc7854d
+      - s-6ae85ea559
+      - s-40c3a6155f
+      - s-99122bb677
+      - s-3ebcd76078
+      - s-70d415087c
+      - s-c93142c185
+      - s-5caadac237
+      - s-8a4e0817dd
+      - s-1f5fcdef7e
+      - s-a15e66299e
+      - s-72ed919071
+      - s-b53501dde3
+      - s-ce813ad99b
+      - s-e570cf01ba
+      - s-9a86d2ee7f
+      - s-851cada270
+      - s-ce109a1ff1
+      - s-15455d1259
+      - s-3f9294d19f
+      - s-ae59fab1aa
+      - s-517d356545
+      - s-c1f9381fb0
+      - s-084562eeff
+    zh:
+      - s-57f4c6f4ee
+      - s-1cbab74957
+      - s-2be10d8bd2
+      - s-eed8a0a137
+      - s-6da3c5494f
+      - s-dbe5096feb
+      - s-6dbc893d36
+      - s-94ea9651b6
+      - s-c4730fd4cc
+      - s-851c5e81e9
+      - s-e1bf12f20c
+      - s-59fd7abb07
+      - s-e799753793
+      - s-b3efea071c
+      - s-6664c0219a
+      - s-7d2873965e
+      - s-9312ec55c9
+      - s-eda5fef250
+      - s-950997bc63
+      - s-b001f73e9f
+      - s-b67dbf804a
+      - s-24947c78e7
+      - s-15518dfced
+      - s-a43daff765
+      - s-5aa5612a08

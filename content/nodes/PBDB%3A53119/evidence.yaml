@@ -1,0 +1,355 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Metaxytherium medium
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Metaxytherium medium
+      en: Metaxytherium medium
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e62af42876
+            part: body
+          en:
+            page: en
+            section: s-be6ecf30a8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4d3767f7d0
+            part: body
+          en:
+            page: en
+            section: s-c1fd1c37d9
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5817d0e06d
+            part: body
+          en:
+            page: en
+            section: s-9237837b65
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d78d732360
+            part: body
+          en:
+            page: en
+            section: s-dc0359dc72
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-04b9306fda
+            part: body
+          en:
+            page: en
+            section: s-7e83a20191
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Metaxytherium medium
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=53119&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:53119; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:53119
+          selectedOccurrenceIds:
+            - occ:501686
+            - occ:530214
+            - occ:558242
+            - occ:560815
+            - occ:609361
+            - occ:609504
+            - occ:609589
+            - occ:610384
+            - occ:613663
+            - occ:645364
+            - occ:645366
+            - occ:751344
+            - occ:789827
+            - occ:811362
+            - occ:853656
+            - occ:872897
+            - occ:930475
+            - occ:946711
+            - occ:946712
+            - occ:946713
+            - occ:946714
+            - occ:946715
+            - occ:946716
+            - occ:946717
+            - occ:946718
+            - occ:946719
+            - occ:946720
+            - occ:946770
+            - occ:946771
+            - occ:951767
+            - occ:1155921
+            - occ:1155926
+            - occ:1155931
+            - occ:1155960
+            - occ:1155974
+            - occ:1156846
+            - occ:1156884
+            - occ:1156910
+            - occ:1156911
+            - occ:1194167
+            - occ:1194173
+            - occ:1194174
+            - occ:1194183
+            - occ:1194186
+            - occ:1194187
+            - occ:1194188
+            - occ:1392811
+            - occ:1509976
+            - occ:1555234
+            - occ:1584124
+            - occ:1588133
+            - occ:1649228
+            - occ:1649459
+            - occ:1649567
+            - occ:1650842
+            - occ:1651105
+            - occ:1651106
+            - occ:1705070
+          selectedCollectionIds:
+            - col:50929
+            - col:54136
+            - col:58459
+            - col:65207
+            - col:65227
+            - col:65274
+            - col:65420
+            - col:65912
+            - col:69712
+            - col:80400
+            - col:57732
+            - col:47425
+            - col:94801
+            - col:96780
+            - col:106474
+            - col:110123
+            - col:110124
+            - col:110125
+            - col:110126
+            - col:110127
+            - col:110128
+            - col:110129
+            - col:110130
+            - col:110131
+            - col:110132
+            - col:110174
+            - col:110175
+            - col:56694
+            - col:148216
+            - col:148218
+            - col:148217
+            - col:124259
+            - col:148227
+            - col:148396
+            - col:148401
+            - col:142149
+            - col:148406
+            - col:154317
+            - col:154318
+            - col:154319
+            - col:154320
+            - col:154321
+            - col:118061
+            - col:154322
+            - col:191824
+            - col:223898
+            - col:35441
+            - col:234118
+            - col:45503
+            - col:234199
+            - col:1553
+            - col:234372
+            - col:84949
+            - col:148221
+          sourceReferenceIds:
+            - ref:13594
+            - ref:14634
+            - ref:18828
+            - ref:16582
+            - ref:18798
+            - ref:18804
+            - ref:18839
+            - ref:18856
+            - ref:86069
+            - ref:23390
+            - ref:27050
+            - ref:28853
+            - ref:29834
+            - ref:32326
+            - ref:32997
+            - ref:36306
+            - ref:36482
+            - ref:47582
+            - ref:47649
+            - ref:15322
+            - ref:50157
+            - ref:64717
+            - ref:18728
+            - ref:76347
+            - ref:78874
+            - ref:80391
+            - ref:87932
+            - ref:87943
+            - ref:87952
+            - ref:88019
+            - ref:88117
+          originalIdentificationMappings:
+            - occurrenceId: occ:501686
+              originalIdentifiedName: Haplosiren leganyii n. gen. n. sp.
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:558242
+              originalIdentifiedName: Metaxytherium cuvierii
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:560815
+              originalIdentifiedName: Metaxytherium petersi n. sp.
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:609361
+              originalIdentifiedName: Metaxytherium cuvierii
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:609589
+              originalIdentifiedName: Metaxytherium catalaunicum n. sp.
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:645364
+              originalIdentifiedName: Halitherium cordieri
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:645366
+              originalIdentifiedName: Thalattosiren petersi
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:789827
+              originalIdentifiedName: Halitherium fossile
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:811362
+              originalIdentifiedName: Hippopotamus medius n. sp.
+              acceptedName: Metaxytherium medium
+              difference: recombined as
+            - occurrenceId: occ:951767
+              originalIdentifiedName: Thalattosiren petersi
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:1155931
+              originalIdentifiedName: Metaxytherium petersi
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:1509976
+              originalIdentifiedName: Metaxytherium petersi
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:1555234
+              originalIdentifiedName: Trichechus molassicus n. sp.
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:1650842
+              originalIdentifiedName: Metaxytherium cuvieri
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:1651105
+              originalIdentifiedName: Metaxytherium petersi
+              acceptedName: Metaxytherium medium
+              difference: null
+            - occurrenceId: occ:1651106
+              originalIdentifiedName: Metaxytherium petersi
+              acceptedName: Metaxytherium medium
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-818f59afbd
+        part: body
+      en:
+        page: en
+        section: s-d36c504d85
+        part: body

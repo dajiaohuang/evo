@@ -1,0 +1,377 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arthroleptis sylvaticus (Laurent, 1954)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Arthroleptis sylvaticus
+      zh: Arthroleptis sylvaticus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-182573df8b
+            part: title
+          zh:
+            page: zh
+            section: s-67cf2322eb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-182573df8b
+            part: body
+          zh:
+            page: zh
+            section: s-67cf2322eb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f61619626a
+            part: title
+          zh:
+            page: zh
+            section: s-c809eb24ce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f61619626a
+            part: body
+          zh:
+            page: zh
+            section: s-c809eb24ce
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3e25ee1086
+            part: title
+          zh:
+            page: zh
+            section: s-9d637834e1
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3e25ee1086
+            part: body
+          zh:
+            page: zh
+            section: s-9d637834e1
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-0a4e8506b054f5efec85fa0ca0536d5f
+            label:
+              en: AmphiBIO v1 — row Anf0150
+              zh: AmphiBIO v1 — Anf0150 行
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-9af3e5dfa8
+            part: title
+          zh:
+            page: zh
+            section: s-22e3cd8e54
+            part: title
+        sourceIds:
+          - primary-pmc5683629-gysp
+        text:
+          en:
+            page: en
+            section: s-9af3e5dfa8
+            part: body
+          zh:
+            page: zh
+            section: s-22e3cd8e54
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b7c91c3a37
+            part: title
+          zh:
+            page: zh
+            section: s-d10a993139
+            part: title
+        sourceIds:
+          - primary-pmc5683629-gysp
+        text:
+          en:
+            page: en
+            section: s-b7c91c3a37
+            part: body
+          zh:
+            page: zh
+            section: s-d10a993139
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-ecd64b9f9c
+            part: title
+          zh:
+            page: zh
+            section: s-9895deef68
+            part: title
+        sourceIds:
+          - primary-pmc5683629-gysp
+        text:
+          en:
+            page: en
+            section: s-ecd64b9f9c
+            part: body
+          zh:
+            page: zh
+            section: s-9895deef68
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-38622526c6
+            part: title
+          zh:
+            page: zh
+            section: s-5981d48a93
+            part: title
+        sourceIds:
+          - primary-pmc5683629-gysp
+        text:
+          en:
+            page: en
+            section: s-38622526c6
+            part: body
+          zh:
+            page: zh
+            section: s-5981d48a93
+            part: body
+      - topic: limitations
+        title:
+          zh: 材料与适用范围
+        text:
+          zh:
+            page: zh
+            section: s-48fa803248
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arthroleptis sylvaticus
+          url: https://www.checklistbank.org/dataset/316115/taxon/GYSP
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0150; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0150 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc5683629-gysp
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Arthroleptis sylvaticus: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedArthroleptis sylvaticus account sec019. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3f4a4aa47b
+        part: body
+      zh:
+        page: zh
+        section: s-fa030e2552
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-pmc5683629-gysp
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: NamedArthroleptis sylvaticus workingidentification in2017 barcode library; no originalvoucher/currentCOLconcept authentication
+        evidenceRead: "Arthroleptis sylvaticus: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedArthroleptis sylvaticus account sec019. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: The sampled specimens and their localities
+              zh: 样本与地点不能混为一谈
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-gysp
+            locator: PMC5683629 XML sec019 namedArthroleptis sylvaticus locality/voucher account; sec003/004/007 scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ec37c5fb41
+                part: body
+              zh:
+                page: zh
+                section: s-402d33245f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Barcode clusters retain provisional boundaries
+              zh: 条形码聚类保留暂定边界
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-gysp
+            locator: PMC5683629 XML sec019 namedArthroleptis sylvaticus markeridentification paragraphs; sec009–012 assignmentcriteria
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2dcd71e810
+                part: body
+              zh:
+                page: zh
+                section: s-9d6cdf00d1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Two mitochondrial markers and uneven reference coverage
+              zh: 两种线粒体标记与不均衡参考覆盖
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-gysp
+            locator: PMC5683629 XML sec004/006–012 methods/reference/limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dc256e020c
+                part: body
+              zh:
+                page: zh
+                section: s-489a49c2b2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Library totals are not species or population estimates
+              zh: 库级计数不是物种或种群估计
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-gysp
+            locator: PMC5683629 XML sec004/007 collectioncounts; sec015 andTable1 total/source-locality rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e4105ca918
+                part: body
+              zh:
+                page: zh
+                section: s-98b532aebb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pataikos
+  displayName: Pristimantis pataikos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKT
+  sourceIndexes:
+    - name:
+        en: Pristimantis pataikos
+        zh: Pristimantis pataikos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/477
+            queryName: Pristimantis pataikos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/476
+            queryName: Eleutherodactylus pataikos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-98e17932a0
+      - s-51b1da0678
+      - s-cdfca31c16
+      - s-826a044c5f
+      - s-28f34f4668
+      - s-49745828d6
+      - s-95779b4be4
+      - s-6928d9e2d2
+      - s-32f7676797
+      - s-e2726b270f
+    zh:
+      - s-7780c8ae1f
+      - s-6fe524ff16
+      - s-892710a3a4
+      - s-6b143b0fce
+      - s-39d75ed1f1
+      - s-c785f40381
+      - s-6155c9ed45
+      - s-d1e939463f
+      - s-68c606bc6e
+      - s-94d16836c5

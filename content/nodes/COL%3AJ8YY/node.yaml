@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus laetissimus
+  displayName: Atelopus laetissimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YY
+  sourceIndexes:
+    - name:
+        en: Atelopus laetissimus
+        zh: Atelopus laetissimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/271
+            queryName: Atelopus laetissimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c3867996e8
+      - s-70c61c19d6
+      - s-b6ecfb21c0
+      - s-1d26b96730
+      - s-ca74660b12
+      - s-e58cb94321
+      - s-f828c4878f
+      - s-5c6d66747a
+      - s-14c27a06de
+      - s-534fee5b19
+      - s-92b4888603
+      - s-3c91d947e0
+      - s-c0f2fdc449
+      - s-567fa49222
+      - s-7aa470004d
+      - s-802455484c
+      - s-31d9fb43d2
+      - s-c1ba1751ef
+      - s-ac47d5fc4f
+      - s-bad2e7dbbc
+      - s-114483af73
+    zh:
+      - s-f1db29cdec
+      - s-97398e95c9
+      - s-d89afbdeec
+      - s-71aac9568f
+      - s-ebece0b6ee
+      - s-0b6610d4e5
+      - s-9770d2963e
+      - s-db805d89cb
+      - s-1512b5d5a5
+      - s-cc5dd4ee6c
+      - s-cc8f4bba14
+      - s-bbdfb33e9f
+      - s-043ca90b8f
+      - s-cd013b0847
+      - s-310f2597b2
+      - s-5772680c23
+      - s-a4d5b52e4a
+      - s-50da6ba740
+      - s-6ed797b0bb
+      - s-6909a34724
+      - s-039521d69f

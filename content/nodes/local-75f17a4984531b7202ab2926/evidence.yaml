@@ -1,0 +1,175 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tylototriton uyenoi
+    name:
+      en: Tylototriton uyenoi
+      zh: Tylototriton uyenoi
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Tylototriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Tylototriton uyenoi in the morphology deposit
+          zh: 形态数据中的 Tylototriton uyenoi 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cafe363bc4
+            part: body
+          zh:
+            page: zh
+            section: s-bbc908e5ba
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 402: measurement fields and sex codes"
+          zh: 第 402 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f7d8baf90b
+            part: body
+          zh:
+            page: zh
+            section: s-794d9e0ee8
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 402; Reference.csv rows 4298
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 402
+        values:
+          - Salamandridae
+          - Tylototriton
+          - Tylototriton uyenoi
+          - F
+          - NA
+          - "68.1"
+          - "51.2793"
+          - "33.2328"
+          - "16.8207"
+          - "17.025"
+          - "7.491"
+          - "3.405"
+          - "4.5627"
+          - "2.5878"
+          - "4.767"
+          - "6.6057"
+          - "78.315"
+          - "5.7885"
+          - NA
+          - "8.4444"
+          - "3.3369"
+          - "23.3583"
+          - "25.5375"
+          - "4.2903"
+          - "4.6989"
+          - "6.4014"
+          - NA
+          - NA
+          - "5.0394"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4298
+        values:
+          - Caudata
+          - Tylototriton_uyenoi
+          - "Nishikawa, K., Khonsue, W., Pomchote, P., & Matsui, M. (2013). Two new species of Tylototriton from Thailand (Amphibia: Urodela: Salamandridae). Zootaxa, 3737(3), 261-279. https://doi.org/10.11646/zootaxa.3737.3.5"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - VL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7DBJY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

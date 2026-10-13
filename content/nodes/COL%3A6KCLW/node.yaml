@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis verrucosus
+  displayName: Gephyromantis verrucosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCLW
+  sourceIndexes:
+    - name:
+        en: Gephyromantis verrucosus
+        zh: Gephyromantis verrucosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCLW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/165
+            queryName: Gephyromantis verrucosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0cbc4af59
+      - s-71f4b059c7
+      - s-f20a8e1b22
+      - s-ed2612da2a
+      - s-3d4ff260d5
+      - s-10f5fa2875
+    zh:
+      - s-dd5efca171
+      - s-9bb0e5ef0d
+      - s-1c99f33f73
+      - s-5de43376ea
+      - s-cddc3310a5
+      - s-1a12b143e8

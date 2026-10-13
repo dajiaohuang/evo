@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis prolatus
+  displayName: Pristimantis prolatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLT
+  sourceIndexes:
+    - name:
+        en: Pristimantis prolatus
+        zh: Pristimantis prolatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/15
+            queryName: Pristimantis prolatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/3
+            queryName: Eleutherodactylus prolatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d7c26d7b4
+      - s-cd56939e15
+      - s-6aff379398
+      - s-37dc0c9d90
+      - s-e4896c1eae
+      - s-e05c5a9f73
+      - s-5e016864c7
+      - s-db7592a6d6
+      - s-895e383958
+      - s-a9ea1bc2e5
+      - s-485fc2f55c
+      - s-5043bbc466
+      - s-3984ec2a2b
+    zh:
+      - s-9240021b87
+      - s-1d57583e23
+      - s-fd42b7bb15
+      - s-6bfcf97f23
+      - s-40d617cf15
+      - s-cdce993526
+      - s-9b53274309
+      - s-f0a55d16f8
+      - s-c6a54e397d
+      - s-41f24f04dc
+      - s-1847b1d9bc
+      - s-baaf8c7f5c
+      - s-1021551bec

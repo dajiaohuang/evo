@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys yaoshanensis
+  displayName: Boulenophrys yaoshanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9RF
+  sourceIndexes:
+    - name:
+        en: Boulenophrys yaoshanensis
+        zh: Boulenophrys yaoshanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9RF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/393
+            queryName: Boulenophrys yaoshanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa9d3228e3
+      - s-20189f4aa4
+      - s-d5e3a4bb5a
+      - s-8a803abd64
+      - s-35821a6a05
+      - s-b73e61d560
+      - s-318bd3e66d
+      - s-369379a4fd
+      - s-3d48df5b3b
+    zh:
+      - s-cfec26de45
+      - s-9486debb41
+      - s-e97921e138
+      - s-e9326f9af0
+      - s-d8ed52914e
+      - s-8c5b49f303
+      - s-5c7b6164de
+      - s-28a1dc6c79
+      - s-132200ec6d

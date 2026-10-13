@@ -1,0 +1,275 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiasmocleis royi Peloso, Sturaro, Forlani, Gaucher, Motta & Wheeler, 2014
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiasmocleis royi
+      zh: Chiasmocleis royi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-76bdda2b9e
+            part: title
+          zh:
+            page: zh
+            section: s-267ca7f04a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-76bdda2b9e
+            part: body
+          zh:
+            page: zh
+            section: s-267ca7f04a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-10e99c19ca
+            part: title
+          zh:
+            page: zh
+            section: s-a4adea5778
+            part: title
+        text:
+          en:
+            page: en
+            section: s-10e99c19ca
+            part: body
+          zh:
+            page: zh
+            section: s-a4adea5778
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4ed2b5b519
+            part: title
+          zh:
+            page: zh
+            section: s-a593307f3e
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4ed2b5b519
+            part: body
+          zh:
+            page: zh
+            section: s-a593307f3e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-01fd2dbfe3e258989fc6496f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-3cd849f15f7a46b5bb8835c2
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-dd30d89485
+            part: title
+          zh:
+            page: zh
+            section: s-6aa767172a
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-dd30d89485
+            part: body
+          zh:
+            page: zh
+            section: s-6aa767172a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c1ad4ddfe4
+            part: title
+          zh:
+            page: zh
+            section: s-3f8b43fc6a
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "4822"
+        text:
+          en:
+            page: en
+            section: s-c1ad4ddfe4
+            part: body
+          zh:
+            page: zh
+            section: s-3f8b43fc6a
+            part: body
+        sourceRowNumber: 4340
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c83dc8bf93
+            part: title
+          zh:
+            page: zh
+            section: s-066b9b29ab
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "4869"
+        text:
+          en:
+            page: en
+            section: s-c83dc8bf93
+            part: body
+          zh:
+            page: zh
+            section: s-066b9b29ab
+            part: body
+        sourceRowNumber: 4377
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-7cd6578e6a
+            part: body
+          zh:
+            page: zh
+            section: s-5ea4d0681d
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiasmocleis royi
+          url: https://www.checklistbank.org/dataset/316115/taxon/TZ2L
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1117, 1118; Reference.csv rows 233
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 4340, 4377; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1834d7757c
+        part: body
+      zh:
+        page: zh
+        section: s-35914c8e5d
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-01fd2dbfe3e258989fc6496f
+        scientificName: Chiasmocleis royi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-3cd849f15f7a46b5bb8835c2
+        scientificName: Chiasmocleis royi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2

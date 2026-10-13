@@ -1,0 +1,118 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pipa carvalhoi
+  displayName: Pipa carvalhoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4J2Z9
+  sourceIndexes:
+    - name:
+        en: Pipa carvalhoi
+        zh: Pipa carvalhoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4J2Z9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/354
+            queryName: Pipa carvalhoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 31
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/106
+            queryName: Protopipa carvalhoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/107
+            queryName: Hemipipa carvalhoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aa7ad403b1
+      - s-3fcf161b1f
+      - s-8c516218d9
+      - s-a25988d0dd
+      - s-4399ff1f8c
+      - s-9f127842d3
+      - s-104c3b9690
+      - s-8281e20371
+      - s-f92e9461f8
+      - s-d970cceae8
+      - s-f08a1b88c1
+      - s-eb78ff4ea0
+      - s-84c7682ab4
+      - s-cc86fb590c
+      - s-8395eeb8de
+      - s-6aa155ed13
+      - s-eb5981d2a8
+      - s-dacb4dc095
+      - s-38c19b3bf1
+      - s-eb6c577023
+      - s-5cd848761f
+      - s-6fec160cda
+      - s-89838d3102
+      - s-99eb58514d
+      - s-666806bd76
+      - s-0cb61b5f3a
+      - s-1284d0b909
+      - s-991c71d04d
+      - s-7bca711e13
+      - s-c2917e0bb5
+    zh:
+      - s-20932ea0c7
+      - s-03ba724b63
+      - s-09a481c1fb
+      - s-d3aabb355a
+      - s-284c99596d
+      - s-e591019b71
+      - s-6d4862dd99
+      - s-9b9ef00864
+      - s-df1a9b5518
+      - s-998f36caaa
+      - s-4ddd602b2a
+      - s-8636918c6a
+      - s-97a89b2712
+      - s-a7e6a0ca61
+      - s-f51eac36eb
+      - s-8b846c430a
+      - s-8eb2b0789a
+      - s-bddf5ca852
+      - s-3a2f41d522
+      - s-a65080f98d
+      - s-c049dfd397
+      - s-531c625b7c
+      - s-52432f3a60
+      - s-67a57b2ea1
+      - s-5a549c7ed1
+      - s-cf70a1eff5
+      - s-82d50b99c4
+      - s-de9cfa2ed0
+      - s-cd451e6a04
+      - s-351a8d937f

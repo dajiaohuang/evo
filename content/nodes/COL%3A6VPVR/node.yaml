@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon caddoensis
+  displayName: Plethodon caddoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VPVR
+  sourceIndexes:
+    - name:
+        en: Plethodon caddoensis
+        zh: Plethodon caddoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VPVR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/453
+            queryName: Plethodon caddoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c6b67bef0d
+      - s-436dfddfa5
+      - s-a021e76945
+      - s-6a792d7144
+      - s-bbdaac9530
+      - s-dc9f8efb2b
+      - s-a651909400
+      - s-6aa75d2c6c
+      - s-fd87dd3882
+      - s-98a5ed32af
+      - s-ea110a5128
+      - s-0e78e6f50f
+      - s-7f910397ac
+      - s-9f06df202f
+      - s-d2442dbfc8
+      - s-8553b6ce30
+      - s-e6081a2ebf
+    zh:
+      - s-8de0219552
+      - s-fd318839e7
+      - s-97802caac8
+      - s-14c7a98441
+      - s-56b9ea371a
+      - s-8c3edf0250
+      - s-873389df99
+      - s-5dc839a0e3
+      - s-c10e97818c
+      - s-4582f07dec
+      - s-9ef231c509
+      - s-8290e8e7f0
+      - s-ef064cc2a5
+      - s-6684733123
+      - s-78369d3996
+      - s-1eb737fb61
+      - s-5426d9e5b7

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes sanjappai
+  displayName: Raorchestes sanjappai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SLXBM
+  sourceIndexes:
+    - name:
+        en: Raorchestes sanjappai
+        zh: Raorchestes sanjappai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SLXBM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/189
+            queryName: Raorchestes sanjappai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43d34138dc
+      - s-da8ad1166c
+      - s-639ef3dd77
+      - s-94374cea86
+      - s-17aa9dc3a9
+      - s-3abc43f2f7
+      - s-d2276163ad
+      - s-d93039509c
+      - s-dfe3b0469e
+      - s-ef898632c7
+      - s-c56c68fb31
+    zh:
+      - s-794101d0ff
+      - s-b47214a59d
+      - s-6ad503835f
+      - s-db57c6cb1a
+      - s-01bcc42608
+      - s-3fe011adda
+      - s-1d4c1b28ec
+      - s-cd6c0e1eaa
+      - s-af6ee4b882
+      - s-facfb5c29f
+      - s-0d9c36f8f5

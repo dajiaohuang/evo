@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax tsachila
+  displayName: Scinax tsachila
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJZM
+  sourceIndexes:
+    - name:
+        en: Scinax tsachila
+        zh: Scinax tsachila
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJZM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/82
+            queryName: Scinax tsachila
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c3ccec8c45
+      - s-ef9a8a9e49
+      - s-bcfabcd224
+      - s-9a8180a259
+      - s-9a2d2038f2
+      - s-578058f905
+      - s-ac20da2391
+      - s-c819f83a06
+      - s-46e194e65b
+      - s-320b2d8e4c
+      - s-a4db73131b
+      - s-70c4aca6dc
+      - s-9b0a5f90d0
+    zh:
+      - s-8d76736e5d
+      - s-5b05ec78c1
+      - s-c463e54e9c
+      - s-e84f44e01e
+      - s-97bdce3adf
+      - s-86b57f47b4
+      - s-690ee07cb2
+      - s-daecfd15c5
+      - s-8243753077
+      - s-d40971d734
+      - s-7c50e5a448
+      - s-11df095665
+      - s-42e1898133

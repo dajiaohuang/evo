@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Salamandra lanzai
+    name:
+      en: Salamandra lanzai
+      zh: Salamandra lanzai
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Salamandra
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Salamandra lanzai in the morphology deposit
+          zh: 形态数据中的 Salamandra lanzai 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cc0de622f9
+            part: body
+          zh:
+            page: zh
+            section: s-90be5f6a8e
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 345 and 346: measurement fields and sex codes"
+          zh: 第 345、346 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f0fc4f7735
+            part: body
+          zh:
+            page: zh
+            section: s-8171a39506
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 345, 346; Reference.csv rows 4049
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 345
+        values:
+          - Salamandridae
+          - Salamandra
+          - Salamandra lanzai
+          - F
+          - "137.5"
+          - "74"
+          - NA
+          - "37.6"
+          - "19.1"
+          - NA
+          - NA
+          - "4.7"
+          - NA
+          - NA
+          - "6.1"
+          - NA
+          - "63"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.5"
+          - "26.1"
+          - NA
+          - NA
+          - "10.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 346
+        values:
+          - Salamandridae
+          - Salamandra
+          - Salamandra lanzai
+          - M
+          - "138.3"
+          - "74.2"
+          - NA
+          - "37.3"
+          - "18.4"
+          - NA
+          - "4.4"
+          - "4.7"
+          - NA
+          - NA
+          - "5.9"
+          - NA
+          - "64.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "25.7"
+          - "27.7"
+          - NA
+          - NA
+          - "11.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4049
+        values:
+          - Caudata
+          - Salamandra_lanzai
+          - "Nascetti, G., Andreone, F., Capula, M., & Bullini, L. (1988). A new Salamandra species from southwestern Alps (Amphibia, Urodela, Salamandridae). Bollettino del Museo Regionale di Scienza naturali di Torino, 6, 617-638. "
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - IOD
+      - ED
+      - IND
+      - TL
+      - FLL
+      - HLL
+      - T3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6WZLG
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes amnicola
+  displayName: Hylodes amnicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG57
+  sourceIndexes:
+    - name:
+        en: Hylodes amnicola
+        zh: Hylodes amnicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG57
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/487
+            queryName: Hylodes amnicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de26aa6472
+      - s-e7a7b54571
+      - s-f7b41c8d4c
+      - s-ae66e3f044
+      - s-f39b6aad66
+      - s-0f2506974b
+      - s-daa4dd7a79
+      - s-e1db33e22c
+      - s-d2ddc4285f
+      - s-73285e3041
+      - s-233bab22ab
+      - s-3f60c5dd57
+      - s-ede2d85f70
+      - s-a3b6f6d0a2
+      - s-15c0e046f0
+      - s-76c290b5e7
+      - s-43de11ae25
+      - s-1fab12a065
+      - s-acd4c72b12
+      - s-cac414216a
+      - s-7e39a6a34c
+      - s-3a70114ef6
+      - s-b45035b6b0
+      - s-780e4b8b18
+      - s-77c0ca68b2
+    zh:
+      - s-86b1b7078b
+      - s-a51fee1693
+      - s-6fb115583d
+      - s-2d2f82490d
+      - s-98116e6d34
+      - s-e34f60273d
+      - s-65ec4de7b7
+      - s-8a366a832a
+      - s-8404883eaf
+      - s-c1c967697e
+      - s-c265c825b6
+      - s-dd6f95023e
+      - s-c188a2b703
+      - s-949c00f0e6
+      - s-c8536427c1
+      - s-a195f59dbf
+      - s-92ca03a205
+      - s-8c42ca805a
+      - s-09aff61cd5
+      - s-200b7837ab
+      - s-b448766e3a
+      - s-221dd44449
+      - s-5333c70388
+      - s-fd5bd2b09a
+      - s-4c2dc16cec

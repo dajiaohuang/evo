@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-dbe026349d
+      part: title
+    titleZh:
+      page: zh
+      section: s-fa33b8a3c0
+      part: title
+    category: origin
+    startAge: 27.82
+    endAge: 23.03
+    regions:
+      - Tremembé Formation near Tremembé, São Paulo, Brazil
+    clades:
+      - Ymboirana acrux
+      - provisional Typhlonectidae
+    summary:
+      page: en
+      section: s-dbe026349d
+      part: body
+    summaryZh:
+      page: zh
+      section: s-fa33b8a3c0
+      part: body
+    claimIds:
+      - claim:event:oligocene-ymboirana-crown-caecilian
+    evidenceItems:
+      - statement: DGM 1462-R is the part-and-counterpart holotype preserving skull, mandibles, atlas and 66 trunk vertebrae.
+        relation: supports
+        claimIds:
+          - claim:event:oligocene-ymboirana-crown-caecilian
+        referenceLinks:
+          - relation: supports
+            referenceId: santos-2024-ymboirana
+            pages: 3–20
+            figure: Figures 2–9 and 12–15
+            quoteLocator: Systematic palaeontology; Affinities; Discussion
+    uncertaintyItems:
+      - statement: No unambiguous typhlonectid synapomorphy was identified and formal phylogenetic testing remains pending; aquatic behaviour is not preserved.
+        relation: contextualizes
+        claimIds:
+          - claim:event:oligocene-ymboirana-crown-caecilian
+        referenceLinks:
+          - relation: supports
+            referenceId: santos-2024-ymboirana
+            pages: 3–20
+            figure: Figures 2–9 and 12–15
+            quoteLocator: Systematic palaeontology; Affinities; Discussion
+  claims:
+    - subjectId: event:oligocene-ymboirana-crown-caecilian
+      claimKind: scientific
+      claimType: taxonomy
+      statement: CT-informed comparison of holotype DGM 1462-R supports an approximately 25 Ma aquatic caecilian assigned to Typhlonectidae, but damage, absent unambiguous family synapomorphies and pending formal phylogenetic testing make the crown placement provisional.
+      confidence: low
+      confidenceRationale: The named partial skeleton is directly described and compared broadly; low confidence follows the source authors’ explicit affinity caveats.
+      referenceLinks:
+        - relation: supports
+          referenceId: santos-2024-ymboirana
+          pages: 3–20
+          figure: Figures 2–9 and 12–15
+          quoteLocator: Systematic palaeontology; Affinities; Discussion
+  claim-rationales.zh:
+    - 该主张绑定具名标本或明确数据集及一手来源定位；置信度仅适用于所述样本、方法与边界，不外推为全球首次出现、直接祖先或完整类群覆盖。
+  claim-statements.zh:
+    - 对正模 DGM 1462-R 的 CT 比较支持约 2500 万年前、暂归水栖蚓螈科的蚓螈，但破损、缺少无歧义科级共有衍征且尚待正式系统发育检验，使冠群位置保持暂定。

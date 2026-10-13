@@ -1,0 +1,3 @@
+## Pappochelys preserves broadened ribs and paired gastralia {#s-4d0c1a850f}
+At Vellberg, Pappochelys fossils preserve parts of a body plan that can be compared with the turtle shell: SMNS 91356 includes cranial and postcranial material, while SMNS 91360 preserves paired robust gastralia—belly ribs—with trunk-rib fragments. The ribs are broadened and the skull has a diapsid pattern, but the sample has neither a fused plastron nor a complete carapace. Proposed gastral fusion and the taxon’s position among sampled stem turtles depend on homology and matrix interpretation; Pappochelys is not a proven step in a direct line from Eunotosaurus to Odontochelys.
+

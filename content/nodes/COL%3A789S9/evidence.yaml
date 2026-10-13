@@ -1,0 +1,72 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Propithecus coronatus A. Milne-Edwards, 1871
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Crowned Sifaka
+      zh: 冠狐猴西法卡
+    sections:
+      - topic: survey
+        text:
+          en:
+            page: en
+            section: s-7e24755523
+            part: body
+          zh:
+            page: zh
+            section: s-95412b69e7
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - salmona2014
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Propithecus coronatus A. Milne-Edwards, 1871
+          url: https://www.checklistbank.org/dataset/316115/taxon/789S9
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-089c22cd-7cfe-8f76-ae8b-7023e7178114
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used for the page; not evidence of occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: salmona2014
+        referenceId: ref-22151c87-ae07-881c-a4ee-633d3f95a145
+        fields:
+          - title
+          - url
+          - scope
+          - id
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Presence–absence surveys of 70 forest fragments and 12 corridors around 19 northwestern Madagascar sites in 2009–2010, plus line-transect density surveys at six localities; full-range abundance extrapolation is explicitly difficult.
+            zh: 支持 2009—2010 年马达加斯加西北部 19 个地点周围 70 片森林和 12 条廊道的有无调查，以及六处样线密度调查；论文明确指出全分布区数量外推困难。
+    limitations:
+      en:
+        page: en
+        section: s-24ccb9341d
+        part: body
+      zh:
+        page: zh
+        section: s-39fead11b1
+        part: body

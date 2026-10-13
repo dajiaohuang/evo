@@ -1,0 +1,204 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rana omeimontis
+    name:
+      en: Rana omeimontis
+      zh: Rana omeimontis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Rana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Rana omeimontis in the morphology deposit
+          zh: 形态数据中的 Rana omeimontis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2c9590200f
+            part: body
+          zh:
+            page: zh
+            section: s-c301cbe2a2
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5193: measurement fields and sex codes"
+          zh: 第 5193 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-952733ce8a
+            part: body
+          zh:
+            page: zh
+            section: s-32f9d1640f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5193; Reference.csv rows 4005
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5193
+        values:
+          - Ranidae
+          - Rana
+          - Rana omeimontis
+          - NA
+          - "56.27"
+          - "17.57"
+          - "17.76"
+          - "5.72"
+          - "4.92"
+          - NA
+          - "7.06"
+          - "4"
+          - "4.19"
+          - NA
+          - "8.47"
+          - NA
+          - NA
+          - "26.35"
+          - NA
+          - "33.05"
+          - NA
+          - "36.6"
+          - "33.98"
+          - NA
+          - NA
+          - NA
+          - "3.63"
+          - NA
+          - "11.03"
+          - "20.04"
+          - "12.11"
+          - NA
+          - "5.28"
+          - "8.17"
+          - "5.57"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4005
+        values:
+          - Anura
+          - Rana_omeimontis
+          - Yan, F., Jiang, K., Chen, H., Ping, F., Jieqiong, J., Yi, L., . . . Yaping, Z. (2011). Matrilineal history of the Rana longicrus species group (Rana, Ranidae, Anura) and the description of a new species from Hunan, southern China. Asian Herpetological Research, 2, 61-71. https://doi.org/10.3724/SP.J.1245.2011.00061
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Toe1L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 792TY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

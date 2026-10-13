@@ -1,0 +1,91 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes gargola
+  displayName: Alsodes gargola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7WW
+  sourceIndexes:
+    - name:
+        en: Alsodes gargola
+        zh: Alsodes gargola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7WW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/191
+            queryName: Alsodes gargola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/260
+            queryName: Eupsophus gargolus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/6
+            queryName: Alsodes gargola gargola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-162171a1f8
+      - s-c3a1538808
+      - s-3737f584d0
+      - s-b3dd0f0325
+      - s-4bb1eca45e
+      - s-2f4c0271e7
+      - s-3747359e42
+      - s-0974f0671c
+      - s-57327e8570
+      - s-5dfc81503e
+      - s-70b80a95cf
+      - s-d9b5c63759
+      - s-57fca19f38
+      - s-1611548704
+      - s-44dc602154
+      - s-045884bfc4
+      - s-806428c911
+      - s-d5fc2416b8
+      - s-ae11503491
+      - s-e839a10f92
+    zh:
+      - s-0aa38cda0d
+      - s-9bde7f08f5
+      - s-062be9e417
+      - s-2a59245b1f
+      - s-0a6a6a4c4a
+      - s-94cf1149b6
+      - s-085071f1c7
+      - s-8463f4c401
+      - s-8dba1a0d13
+      - s-95ef5518a8
+      - s-eeff481d5c
+      - s-65d1631dbc
+      - s-50e6526ee7
+      - s-e5f6a06aa9
+      - s-820653760a
+      - s-1a59110a3f
+      - s-a61ff706fb
+      - s-061f39aea0
+      - s-f3e80beb78

@@ -1,0 +1,51 @@
+## Accepted name and placement {#s-941cad8427}
+COL26.8 accepts Pristimantis orestes (Lynch, 1979) as a species. Its recorded classification places it along Anura (order) → Strabomantidae (family) → Pristimantis (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-ad423f6daa}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Foraging strata — AmphiBIO source {#s-030d2b1423}
+Historical source concept: Pristimantis orestes, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags terrestrial as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Compiled adult dimensions — AmphiBIO source {#s-3c7e4d4bfb}
+Historical source concept: Pristimantis orestes, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body length: 38.1 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual.
+
+## Compiled life history — AmphiBIO source {#s-9ac61ff87c}
+Historical source concept: Pristimantis orestes, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum reproductive events per year: 1 events/year. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental strategy — AmphiBIO source {#s-10800712bd}
+Historical source concept: Pristimantis orestes, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The deposited record flags direct development. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related source records and datasets {#s-b8892dea26}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Pristimantis orestes](../../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Strabomantidae/Pristimantis/Pristimantis_orestes/page.en.md)
+- [Amphibian morphology v3: Pristimantis orestes](../../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Brachycephaloidea/Pristimantis/Pristimantis_orestes/page.en.md)
+
+## Pasture sampling in subpáramo {#s-cd660ae6c8}
+The revision found its specimens in subpáramo pastureland, at night on grassy vegetation usually 10–20 cm above ground near a road. Calling males were encountered between May and August. This study sample documents pasture encounters and a recorded calling window, without establishing pasture preference, a complete reproductive calendar or breeding success in disturbed habitat.
+
+## Reported sequence donors and their catalogue linkage {#s-c0338da57a}
+SupplementaryS2 lists 3 donor rows under Pristimantis orestes: KU218257, MUTPL242, MUTPL248. The printed name matches a frozen accepted catalogue entry, but the row is an author-reported specimen/sequence identification, not independent authentication of the donor or a complete taxonomic-concept reconciliation. Candidate labels flavomaculatus?, Pristimantis sp., CCS andUCS remain separate and are not merged into this named record. Specimen citations and accession codes are preserved without interpreting every donor as newly collected in2020.
+
+## The three-locus matrix does not give every donor three genes {#s-fd083b8668}
+The published accession assignments for Pristimantis orestes are KU218257:12S=EF493388,16S=EF493388,RAG-1=-; MUTPL242:12S=MT778087,16S=MK604538,RAG-1=MK602185; MUTPL248:12S=MK993330,16S=MK604539,RAG-1=MK602186. A hyphen means no accession is supplied in that locus cell; it is not absence of the gene in the animal. The study concatenates mitochondrial12S/16S and nuclearRAG-1 data, but this donor-specific table determines which loci are represented. Repeated accession numbers across locus columns may refer to shared records and are retained rather than counted as independent assays. No GenBank record, raw sequence, alignment or chromatogram was independently authenticated here; inclusion does not measure gene flow, reproductive isolation or divergence time.
+
+## Collection labels are sequence provenance, not a new range census {#s-ebbac9c5ee}
+The S2 locality strings for these donors are Ecuador: Azuay, 7 km E Sigsig; Ecuador: Loja, 11 km NE Urdaneta. They locate the cited sequence material in the source’s record system. The list mixes reused and newly generated data and does not by itself establish a current locality occupancy, collection date, exact coordinates, continuous range or new occurrence in Abra de Zamora. An out-of-core comparative locality must not be inserted into the29-label local S5 inventory. Unresolved population identity in any corresponding main treatment remains explicit.
+
+## catalogue-profile / limitations {#s-f48952665b}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-1178e5f339}
+The revision found its specimens in subpáramo pastureland, at night on grassy vegetation usually 10–20 cm above ground near a road. Calling males were encountered between May and August. This study sample documents pasture encounters and a recorded calling window, without establishing pasture preference, a complete reproductive calendar or breeding success in disturbed habitat.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-5ed06a6309}
+SupplementaryS2 lists 3 donor rows under Pristimantis orestes: KU218257, MUTPL242, MUTPL248. The printed name matches a frozen accepted catalogue entry, but the row is an author-reported specimen/sequence identification, not independent authentication of the donor or a complete taxonomic-concept reconciliation. Candidate labels flavomaculatus?, Pristimantis sp., CCS andUCS remain separate and are not merged into this named record. Specimen citations and accession codes are preserved without interpreting every donor as newly collected in2020.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-9874eb6fbf}
+The published accession assignments for Pristimantis orestes are KU218257:12S=EF493388,16S=EF493388,RAG-1=-; MUTPL242:12S=MT778087,16S=MK604538,RAG-1=MK602185; MUTPL248:12S=MK993330,16S=MK604539,RAG-1=MK602186. A hyphen means no accession is supplied in that locus cell; it is not absence of the gene in the animal. The study concatenates mitochondrial12S/16S and nuclearRAG-1 data, but this donor-specific table determines which loci are represented. Repeated accession numbers across locus columns may refer to shared records and are retained rather than counted as independent assays. No GenBank record, raw sequence, alignment or chromatogram was independently authenticated here; inclusion does not measure gene flow, reproductive isolation or divergence time.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-a509f64325}
+The S2 locality strings for these donors are Ecuador: Azuay, 7 km E Sigsig; Ecuador: Loja, 11 km NE Urdaneta. They locate the cited sequence material in the source’s record system. The list mixes reused and newly generated data and does not by itself establish a current locality occupancy, collection date, exact coordinates, continuous range or new occurrence in Abra de Zamora. An out-of-core comparative locality must not be inserted into the29-label local S5 inventory. Unresolved population identity in any corresponding main treatment remains explicit.
+

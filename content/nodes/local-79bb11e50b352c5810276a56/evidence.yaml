@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Crossodactylus dispar
+    name:
+      en: Crossodactylus dispar
+      zh: Crossodactylus dispar
+    sourceClassification:
+      order: Anura
+      family: Hylodidae
+      genus: Crossodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4e5dd9d1e0
+            part: body
+          zh:
+            page: zh
+            section: s-133a7b6765
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a658d638bf
+            part: body
+          zh:
+            page: zh
+            section: s-5b26c7c993
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1435, 1436; Reference.csv rows 399
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1435
+        values:
+          - Hylodidae
+          - Crossodactylus
+          - Crossodactylus dispar
+          - M
+          - "28.5"
+          - "10.2"
+          - "10.2"
+          - "3.3"
+          - "1.9"
+          - "2.9"
+          - "3.1"
+          - NA
+          - NA
+          - "1.9"
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - "20.7"
+          - NA
+          - "13.1"
+          - "13.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1436
+        values:
+          - Hylodidae
+          - Crossodactylus
+          - Crossodactylus dispar
+          - F
+          - "26.9"
+          - "9.7"
+          - "9.5"
+          - "3.2"
+          - "1.8"
+          - "2.8"
+          - "3"
+          - NA
+          - NA
+          - "1.9"
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - "19.7"
+          - NA
+          - "12.4"
+          - "12.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 399
+        values:
+          - Anura
+          - Crossodactylus_dispar
+          - Pimenta, B. V. S., Cruz, C. A. G. d., & Caramaschi, U. (2014). Taxonomic review of the species complex of Crossodactylus dispar A. Lutz, 1925 (Anura, Hylodidae). Arquivos de Zoologia, 45(1). https://doi.org/10.11606/issn.2176-7793.v45i1p1-33
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - ZMBX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

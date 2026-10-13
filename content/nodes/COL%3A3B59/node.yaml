@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla
+  displayName: Bokermannohyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3B59
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla
+        zh: Bokermannohyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3B59
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/237
+            queryName: Bokermannohyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 74
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e29a5c3a7
+      - s-b40ffd3644
+      - s-9a46fee121
+      - s-cbd4b8a303
+      - s-0900e6965d
+      - s-ab25abd615
+      - s-1e35475a1e
+      - s-8e16ecc9cf
+      - s-0eaf8a20e5
+      - s-9081a6ec16
+      - s-3e31a0a9d1
+      - s-6f2ee7842f
+      - s-32ee592e61
+      - s-0a3abd8395
+      - s-d331058652
+      - s-1716a3a7cb
+      - s-427da9e497
+      - s-9225d0c102
+    zh:
+      - s-60852c3559
+      - s-7227ca0ec6
+      - s-135d6efa3c
+      - s-65524b4a40
+      - s-b7fc303046
+      - s-95b1c12887
+      - s-060b2ac1f8
+      - s-471e5b72da
+      - s-5117f6ef2e
+      - s-74b9cf27f1
+      - s-a466a5e76d
+      - s-4da38a871f
+      - s-85f3ece5fe
+      - s-c228943592
+      - s-7f6a8bfedb
+      - s-66223e6784
+      - s-3a7329787f
+      - s-be02d60cca

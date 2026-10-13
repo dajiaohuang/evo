@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis torresi
+  displayName: Pristimantis torresi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCC92
+  sourceIndexes:
+    - name:
+        en: Pristimantis torresi
+        zh: Pristimantis torresi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCC92
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/139
+            queryName: Pristimantis torresi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4996a5173c
+      - s-3bc23710c7
+      - s-e6220fa866
+      - s-9e690e2f01
+      - s-d4a4c726eb
+      - s-fdc8c6537c
+      - s-4254f1cf68
+      - s-678b746b1d
+      - s-15d5e1b122
+      - s-cfdab6e48f
+      - s-9ef07b1b78
+      - s-0a55976f37
+      - s-ff82c7d6fa
+      - s-1f2c6f06ce
+    zh:
+      - s-ff73827b44
+      - s-1f7646e785
+      - s-5969a22363
+      - s-b553085dfb
+      - s-ed50323e06
+      - s-16af767574
+      - s-7d42a2a806
+      - s-f2da9c5296
+      - s-dded698bd0
+      - s-ff200e695b
+      - s-c056446e0d
+      - s-45dd65b17b
+      - s-eefda36b2c
+      - s-b106fa16a5

@@ -1,0 +1,140 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eleutherodactylinae Lutz, 1954
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Eleutherodactylinae
+      zh: Eleutherodactylinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d07ad5e4d0
+            part: title
+          zh:
+            page: zh
+            section: s-325a78719f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d07ad5e4d0
+            part: body
+          zh:
+            page: zh
+            section: s-325a78719f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9996d63303
+            part: title
+          zh:
+            page: zh
+            section: s-6a26c5b312
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9996d63303
+            part: body
+          zh:
+            page: zh
+            section: s-6a26c5b312
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b95f3e8c5c
+            part: title
+          zh:
+            page: zh
+            section: s-611c68c040
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 44CK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A44CK
+            label:
+              en: Diasporus
+              zh: Diasporus
+          - kind: catalogue
+            colId: 632GS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A632GS
+            label:
+              en: Eleutherodactylus
+              zh: Eleutherodactylus
+        text:
+          en:
+            page: en
+            section: s-b95f3e8c5c
+            part: body
+          zh:
+            page: zh
+            section: s-611c68c040
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-eb68be15d7
+            part: body
+          zh:
+            page: zh
+            section: s-e01763ea6f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Eleutherodactylinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JHS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-88c6d08a4f
+        part: body
+      zh:
+        page: zh
+        section: s-036ca19dc5
+        part: body

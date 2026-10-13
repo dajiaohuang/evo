@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis fichika
+  displayName: Arthroleptis fichika
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYQQ
+  sourceIndexes:
+    - name:
+        en: Arthroleptis fichika
+        zh: Arthroleptis fichika
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYQQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/156
+            queryName: Arthroleptis fichika
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4a4e8fd2a4
+      - s-3b3c7ab976
+      - s-e01e598b3e
+      - s-2b67eb9cda
+      - s-004ebbd412
+      - s-6b7ca896bd
+    zh:
+      - s-eac28d8102
+      - s-5a77b5be03
+      - s-31db554289
+      - s-cb6e15da4b
+      - s-6b2c19e469
+      - s-c0e9d22dc4

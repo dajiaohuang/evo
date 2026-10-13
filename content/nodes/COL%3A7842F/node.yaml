@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pleurodema diplolister
+  displayName: Pleurodema diplolister
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7842F
+  sourceIndexes:
+    - name:
+        en: Pleurodema diplolister
+        zh: Pleurodema diplolister
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7842F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/26
+            queryName: Pleurodema diplolister
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/352
+            queryName: Pleurodema diplolistris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/378
+            queryName: Cystignathus diplolistris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/379
+            queryName: Paludicola diplolistris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/380
+            queryName: Pleurodema diplolistre
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a01ea61c78
+      - s-a188e8d2c2
+      - s-7536caf737
+      - s-14a08dca03
+      - s-c5fc1b1950
+      - s-2c7e29ac98
+      - s-8ac3149f8e
+      - s-88847e6397
+      - s-81ac7b0de1
+      - s-19d1379a2b
+      - s-f6a78b327e
+      - s-bd316cd4fc
+      - s-e7210e0108
+    zh:
+      - s-9dc29405ff
+      - s-3ebdf70fed
+      - s-af3864b842
+      - s-7fb144ce23
+      - s-6217c30f22
+      - s-0f0be05708
+      - s-d56b9b06c7
+      - s-73af842753
+      - s-4d3d1c9642
+      - s-d71025114c
+      - s-f5d1eb7409
+      - s-9f66a9c7a5
+      - s-fb71ba45b2

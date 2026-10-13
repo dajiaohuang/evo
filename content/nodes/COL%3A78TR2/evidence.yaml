@@ -1,0 +1,443 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhinoderma rufum (Philippi, 1902)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rhinoderma rufum
+      zh: Rhinoderma rufum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e1e1997285
+            part: title
+          zh:
+            page: zh
+            section: s-215eecaa8a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e1e1997285
+            part: body
+          zh:
+            page: zh
+            section: s-215eecaa8a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6f965aa74e
+            part: title
+          zh:
+            page: zh
+            section: s-fc66dc19a1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6f965aa74e
+            part: body
+          zh:
+            page: zh
+            section: s-fc66dc19a1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e565fd83b9
+            part: title
+          zh:
+            page: zh
+            section: s-8b4550dd4e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e565fd83b9
+            part: body
+          zh:
+            page: zh
+            section: s-8b4550dd4e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c8b07dae903de6c8f0e5fcebd9bebb44
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-bbc492f54f
+            part: title
+          zh:
+            page: zh
+            section: s-70e27ea210
+            part: title
+        sourceIds:
+          - primary-pmc3680453-78tr2
+        text:
+          en:
+            page: en
+            section: s-bbc492f54f
+            part: body
+          zh:
+            page: zh
+            section: s-70e27ea210
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-2c6d63030c
+            part: title
+          zh:
+            page: zh
+            section: s-cc2af7874d
+            part: title
+        sourceIds:
+          - primary-pmc3680453-78tr2
+        text:
+          en:
+            page: en
+            section: s-2c6d63030c
+            part: body
+          zh:
+            page: zh
+            section: s-cc2af7874d
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-f7c08beefc
+            part: title
+          zh:
+            page: zh
+            section: s-95e0fdc0f0
+            part: title
+        sourceIds:
+          - primary-pmc3680453-78tr2
+        text:
+          en:
+            page: en
+            section: s-f7c08beefc
+            part: body
+          zh:
+            page: zh
+            section: s-95e0fdc0f0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-db842488e0
+            part: title
+          zh:
+            page: zh
+            section: s-e20e8de8c9
+            part: title
+        sourceIds:
+          - primary-pmc10968267-78tr2
+        text:
+          en:
+            page: en
+            section: s-db842488e0
+            part: body
+          zh:
+            page: zh
+            section: s-e20e8de8c9
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-aa258f55b2
+            part: title
+          zh:
+            page: zh
+            section: s-1badf3283c
+            part: title
+        sourceIds:
+          - primary-pmc10968267-78tr2
+        text:
+          en:
+            page: en
+            section: s-aa258f55b2
+            part: body
+          zh:
+            page: zh
+            section: s-1badf3283c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhinoderma rufum
+          url: https://www.checklistbank.org/dataset/316115/taxon/78TR2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1448; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1448 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc3680453-78tr2
+        referenceId: ref-befb081e-f341-4516-a357-e2efa7089369
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhinoderma rufum: Introduction reproductive comparison; Methods Current Distribution and Habitat; Results Current Distribution; species-specific discussion on habitat or conservation. Historical statuses are not current assessments.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10968267-78tr2
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhinoderma rufum: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3812512a81
+        part: body
+      zh:
+        page: zh
+        section: s-bf398ed095
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0066957
+        referenceId: ref-befb081e-f341-4516-a357-e2efa7089369
+        sourceKey: primary-pmc3680453-78tr2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC3680453/article.xml
+        sourceConcept: Rhinoderma rufum
+        evidenceRead: "Rhinoderma rufum: Introduction reproductive comparison; Methods Current Distribution and Habitat; Results Current Distribution; species-specific discussion on habitat or conservation. Historical statuses are not current assessments.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: Vocal-sac care followed by aquatic larval development
+              zh: 声囊照护后在水中继续的幼体发育
+            referenceId: ref-befb081e-f341-4516-a357-e2efa7089369
+            sourceKey: primary-pmc3680453-78tr2
+            locator: "Rhinoderma rufum: Introduction reproductive comparison; Methods Current Distribution and Habitat; Results Current Distribution; species-specific discussion on habitat or conservation. Historical statuses are not current assessments.; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9b3651a47b
+                part: body
+              zh:
+                page: zh
+                section: s-4719c39551
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: conservation
+            heading:
+              en: No detections during a dated historical-range search
+              zh: 有年代限定的历史分布区搜索未检出
+            referenceId: ref-befb081e-f341-4516-a357-e2efa7089369
+            sourceKey: primary-pmc3680453-78tr2
+            locator: "Rhinoderma rufum: Introduction reproductive comparison; Methods Current Distribution and Habitat; Results Current Distribution; species-specific discussion on habitat or conservation. Historical statuses are not current assessments.; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-66bb24a722
+                part: body
+              zh:
+                page: zh
+                section: s-938d6a580f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: A 2013 possibly-extinct recommendation
+              zh: 2013 年可能灭绝的评估建议
+            referenceId: ref-befb081e-f341-4516-a357-e2efa7089369
+            sourceKey: primary-pmc3680453-78tr2
+            locator: "Rhinoderma rufum: Introduction reproductive comparison; Methods Current Distribution and Habitat; Results Current Distribution; species-specific discussion on habitat or conservation. Historical statuses are not current assessments.; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2751cf8bb2
+                part: body
+              zh:
+                page: zh
+                section: s-8c54e4c5b3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/biology13030169
+        referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+        sourceKey: primary-pmc10968267-78tr2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10968267/article.xml
+        sourceConcept: 2024 Chile literature-assessed Rhinoderma rufum; source-selected taxonomic concepts, not independent current-status certification
+        evidenceRead: "Rhinoderma rufum: XML Materials and Methods2.1–2.3, Results Tables1–4 and Discussion/Conclusions read; printed row-level criteria/priority extracted without recalculation, original occurrence maps, government/citizen-science records, independent population datasets and model calculations not reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A dated multicriteria conservation priority
+              zh: 有日期的多准则保育优先级
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-78tr2
+            locator: PMC10968267 XML Methods2.1–2.3; Results Table4 row Rhinoderma rufum
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a8b0439e6e
+                part: body
+              zh:
+                page: zh
+                section: s-adcc3dfafb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: The population and protection scores retain their source limits
+              zh: 种群及保护评分保留来源限制
+            referenceId: ref-b8489eb9-3d42-4f4d-a876-4ce26f51a7f8
+            sourceKey: primary-pmc10968267-78tr2
+            locator: PMC10968267 XML Methods2.2/Table2; Results Table3 row Rhinoderma rufum; Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-012939ee2c
+                part: body
+              zh:
+                page: zh
+                section: s-69ba04b597
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

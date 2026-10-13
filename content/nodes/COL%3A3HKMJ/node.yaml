@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis tasifotsy
+  displayName: Guibemantis tasifotsy
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HKMJ
+  sourceIndexes:
+    - name:
+        en: Guibemantis tasifotsy
+        zh: Guibemantis tasifotsy
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HKMJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/231
+            queryName: Guibemantis tasifotsy
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8790961a96
+      - s-0b860e8bc8
+      - s-e0c1fe1116
+      - s-7001b1bd04
+      - s-1f23fc531c
+      - s-f8af19b1db
+    zh:
+      - s-721bc663da
+      - s-4a4d753b99
+      - s-74d76d5798
+      - s-c7622004a9
+      - s-a2f66550bb
+      - s-45dddf73a3

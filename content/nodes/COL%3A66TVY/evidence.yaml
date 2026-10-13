@@ -1,0 +1,291 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anodonthyla eximia Scherz, Hutter, Rakotoarison, Riemann, Rödel, Ndriantsoa, Glos, Roberts, Crottini et al., 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Anodonthyla eximia
+      zh: Anodonthyla eximia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2648b05ee1
+            part: title
+          zh:
+            page: zh
+            section: s-babc8df546
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2648b05ee1
+            part: body
+          zh:
+            page: zh
+            section: s-babc8df546
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d09c954d5c
+            part: title
+          zh:
+            page: zh
+            section: s-3ae487c46c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d09c954d5c
+            part: body
+          zh:
+            page: zh
+            section: s-3ae487c46c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f096c8c857
+            part: title
+          zh:
+            page: zh
+            section: s-b24de4b3f6
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f096c8c857
+            part: body
+          zh:
+            page: zh
+            section: s-b24de4b3f6
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-11930c8733028e067dba811e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bd6f6c5c29
+            part: title
+          zh:
+            page: zh
+            section: s-bfff980e1d
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bd6f6c5c29
+            part: body
+          zh:
+            page: zh
+            section: s-bfff980e1d
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f1765c55d5
+            part: title
+          zh:
+            page: zh
+            section: s-0a146b15eb
+            part: title
+        sourceIds:
+          - primary-pmc6436692-66tvy
+        text:
+          en:
+            page: en
+            section: s-f1765c55d5
+            part: body
+          zh:
+            page: zh
+            section: s-0a146b15eb
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-650bc5431e
+            part: title
+          zh:
+            page: zh
+            section: s-bc472ba2f7
+            part: title
+        sourceIds:
+          - primary-pmc6436692-66tvy
+        text:
+          en:
+            page: en
+            section: s-650bc5431e
+            part: body
+          zh:
+            page: zh
+            section: s-bc472ba2f7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Anodonthyla eximia
+          url: https://www.checklistbank.org/dataset/316115/taxon/66TVY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 351; Reference.csv rows 21
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc6436692-66tvy
+        referenceId: ref-3a056505-27eb-4895-a81b-e990e466ca0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Anodonthyla eximia: Holotype, Bioacoustics and Distribution/natural history paragraphs only; no osteology figures or acoustic table reproduced; license URL checked in XML; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-628ed5d542
+        part: body
+      zh:
+        page: zh
+        section: s-be607862c9
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-11930c8733028e067dba811e
+        scientificName: Anodonthyla eximia
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0213314
+        referenceId: ref-3a056505-27eb-4895-a81b-e990e466ca0c
+        sourceKey: primary-pmc6436692-66tvy
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6436692/article.xml
+        sourceConcept: Anodonthyla eximia
+        evidenceRead: "Anodonthyla eximia: Holotype, Bioacoustics and Distribution/natural history paragraphs only; no osteology figures or acoustic table reproduced; license URL checked in XML; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A tiny terrestrial frog known from Maharira
+              zh: 从 Maharira 已知的微小地栖蛙
+            referenceId: ref-3a056505-27eb-4895-a81b-e990e466ca0c
+            sourceKey: primary-pmc6436692-66tvy
+            locator: "Anodonthyla eximia: Holotype, Bioacoustics and Distribution/natural history paragraphs only; no osteology figures or acoustic table reproduced; license URL checked in XML; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b399685af5
+                part: body
+              zh:
+                page: zh
+                section: s-47af80cc1e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: behavior
+            heading:
+              en: A tentative assignment of morning leaf-litter calls
+              zh: 早晨落叶层鸣声的暂定归属
+            referenceId: ref-3a056505-27eb-4895-a81b-e990e466ca0c
+            sourceKey: primary-pmc6436692-66tvy
+            locator: "Anodonthyla eximia: Holotype, Bioacoustics and Distribution/natural history paragraphs only; no osteology figures or acoustic table reproduced; license URL checked in XML; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-82af971cc9
+                part: body
+              zh:
+                page: zh
+                section: s-1c9fa6ef05
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Metoposaurus bakeri
+    rank: species
+    sourceTaxonId: txn:159204
+    name:
+      en: Metoposaurus bakeri
+      zh: Metoposaurus bakeri
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-4f50da5e71
+            part: body
+          zh:
+            page: zh
+            section: s-cf8c1fc9ef
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-428696790f
+            part: body
+          zh:
+            page: zh
+            section: s-409c66f243
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-ecfff038b1
+            part: body
+          zh:
+            page: zh
+            section: s-89307a50f1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:159204; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: E. C. Case. 1931. Description of a new species of Buettneria, with a discussion of the brain case. Contributions from the Museum of Palaeontology, University of Michigan 3(11):187-206
+    occurrenceEvidence:
+      - occurrenceId: occ:220039
+        collectionId: col:22666
+        acceptedTaxonId: txn:159204
+        identifiedTaxonId: var:159204
+        identifiedName: Buettneria bakeri n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:43388
+        bibliography: E. C. Case. 1931. Description of a new species of Buettneria, with a discussion of the brain case. Contributions from the Museum of Palaeontology, University of Michigan 3(11):187-206
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Scurry
+        stratigraphy:
+          group: Dockum
+          formation: Santa Rosa Sandstone
+          member: null
+        olderAgeMa: 237
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:933492
+        collectionId: col:107286
+        acceptedTaxonId: txn:159204
+        taxonomicDifference: null
+        referenceId: ref:14907
+        bibliography: "P. E. Olsen and D. Baird. 1986. The ichnogenus Atreipus and its significance for Triassic biostratigraphy. In: K. Padian (ed.), The Beginning of the Age of Dinosaurs: Faunal Changes Across the Triassic-Jurassic Boundary. Cambridge University Press, Cambridge"
+        locality:
+          countryCode: CA
+          stateProvince: Nova Scotia
+          county: null
+        stratigraphy:
+          group: Chatham
+          formation: Wolfville
+          member: null
+        olderAgeMa: 237
+        youngerAgeMa: 227.3
+      - occurrenceId: occ:1546803
+        collectionId: col:218126
+        acceptedTaxonId: txn:159204
+        taxonomicDifference: null
+        referenceId: ref:29602
+        bibliography: J. W. Martz. 2008. Lithostratigraphy, chemostratigraphy, and vertebrate biostratigraphy of the Dockum Group (Upper Triassic), of southern Garza County, West Texas. Unpublished PhD thesis, Texas Tech University.
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Garza
+        stratigraphy:
+          group: Dockum
+          formation: Cooper Canyon
+          member: null
+        olderAgeMa: 227.3
+        youngerAgeMa: 205.7
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ecfff038b1
+            part: body
+          zh:
+            page: zh
+            section: s-89307a50f1
+            part: body
+        sourceIds: []

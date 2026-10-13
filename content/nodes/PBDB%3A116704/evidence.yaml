@@ -1,0 +1,295 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Bridgeremys pusilla
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Bridgeremys pusilla
+      en: Bridgeremys pusilla
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-274ea87770
+            part: body
+          en:
+            page: en
+            section: s-aa17391730
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1d65bb3fce
+            part: body
+          en:
+            page: en
+            section: s-150b488bde
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9023f23618
+            part: body
+          en:
+            page: en
+            section: s-a630430b88
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d856e5c542
+            part: body
+          en:
+            page: en
+            section: s-efd3a18a54
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c170ebadce
+            part: body
+          en:
+            page: en
+            section: s-6fb51ce8ed
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Bridgeremys pusilla
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=116704&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:116704; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:116704
+          selectedOccurrenceIds:
+            - occ:533466
+            - occ:1316663
+            - occ:1316664
+            - occ:1316665
+            - occ:1316666
+            - occ:1316667
+            - occ:1316668
+            - occ:1316669
+            - occ:1316670
+            - occ:1316671
+            - occ:1316672
+            - occ:1316673
+            - occ:1316674
+            - occ:1316675
+            - occ:1316676
+            - occ:1316677
+            - occ:1316678
+            - occ:1316679
+            - occ:1316680
+            - occ:1316681
+            - occ:1316685
+            - occ:1316686
+            - occ:1316687
+            - occ:1316689
+            - occ:1316690
+            - occ:1316691
+            - occ:1316692
+            - occ:1316693
+            - occ:1316694
+            - occ:1316695
+            - occ:1316696
+            - occ:1316697
+            - occ:1316698
+            - occ:1316699
+            - occ:1316700
+            - occ:1316701
+            - occ:1316702
+            - occ:1316703
+            - occ:1316704
+            - occ:1316706
+            - occ:1316707
+            - occ:1316708
+            - occ:1316709
+            - occ:1316710
+            - occ:1316711
+            - occ:1393365
+            - occ:1578105
+            - occ:1578107
+            - occ:1578118
+            - occ:1578131
+            - occ:1578141
+            - occ:1578177
+            - occ:1578178
+            - occ:1578197
+            - occ:1578198
+            - occ:1578211
+            - occ:1578287
+            - occ:1578301
+            - occ:1578302
+            - occ:1578306
+            - occ:1578309
+            - occ:1578315
+            - occ:1578319
+            - occ:1578342
+            - occ:1578343
+            - occ:2069772
+          selectedCollectionIds:
+            - col:16405
+            - col:16228
+            - col:16243
+            - col:176700
+            - col:176707
+            - col:176706
+            - col:176705
+            - col:176704
+            - col:176703
+            - col:176702
+            - col:176701
+            - col:176708
+            - col:176712
+            - col:176711
+            - col:176710
+            - col:176709
+            - col:168275
+            - col:176713
+            - col:16418
+            - col:55207
+            - col:168279
+            - col:176718
+            - col:176717
+            - col:176716
+            - col:176715
+            - col:176714
+            - col:176726
+            - col:176725
+            - col:176724
+            - col:176723
+            - col:176722
+            - col:176721
+            - col:176720
+            - col:176719
+            - col:168278
+            - col:168281
+            - col:168280
+            - col:176727
+            - col:176728
+            - col:176733
+            - col:176732
+            - col:176731
+            - col:176730
+            - col:176729
+            - col:176735
+            - col:186895
+            - col:186896
+            - col:213059
+            - col:109166
+            - col:213066
+            - col:213065
+            - col:109203
+            - col:186893
+            - col:186894
+            - col:186888
+            - col:222799
+            - col:222800
+            - col:222801
+            - col:222802
+            - col:222803
+            - col:222804
+            - col:222805
+            - col:222806
+            - col:222807
+            - col:16657
+          sourceReferenceIds:
+            - ref:58299
+            - ref:14442
+            - ref:78403
+            - ref:95678
+          originalIdentificationMappings:
+            - occurrenceId: occ:1316663
+              originalIdentifiedName: Echmatemys pusilla n. sp.
+              acceptedName: Bridgeremys pusilla
+              difference: recombined as
+            - occurrenceId: occ:1393365
+              originalIdentifiedName: Clemmys morrisiae n. sp.
+              acceptedName: Bridgeremys pusilla
+              difference: null
+            - occurrenceId: occ:2069772
+              originalIdentifiedName: Echmatemys pusilla
+              acceptedName: Bridgeremys pusilla
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-831975f3ed
+        part: body
+      en:
+        page: en
+        section: s-82c54e9dc1
+        part: body

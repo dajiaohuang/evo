@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oxyrhopus
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Oxyrhopus
+      en: Oxyrhopus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-1ae0970db8
+            part: body
+          en:
+            page: en
+            section: s-d8da9b66ad
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-6b0a1e5141
+            part: body
+          en:
+            page: en
+            section: s-78054cbd63
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a4aba17deb
+            part: body
+          en:
+            page: en
+            section: s-19e328fa9c
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c8e056de11
+            part: body
+          en:
+            page: en
+            section: s-d37d5d96bb
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-2a0af04fed
+            part: body
+          en:
+            page: en
+            section: s-4782956c59
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-97e8436901
+            part: body
+          en:
+            page: en
+            section: s-9ec43a37cf
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Oxyrhopus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6BGN
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 6 authored records grouped under Oxyrhopus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 1
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 8 authored records grouped under Oxyrhopus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 4BJY9
+              name: Oxyrhopus clathratus
+              canonicalPath: content/nodes/COL%3A4BJY9
+            - colId: 4BJYD
+              name: Oxyrhopus doliatus
+              canonicalPath: content/nodes/COL%3A4BJYD
+            - colId: 75GRW
+              name: Oxyrhopus erdisii
+              canonicalPath: content/nodes/COL%3A75GRW
+            - colId: 4BJYF
+              name: Oxyrhopus fitzingeri
+              canonicalPath: content/nodes/COL%3A4BJYF
+            - colId: 4BJYR
+              name: Oxyrhopus leucomelas
+              canonicalPath: content/nodes/COL%3A4BJYR
+          fieldCountDistribution:
+            "2": 4
+            "3": 4
+    limitations:
+      zh:
+        page: zh
+        section: s-c83235951d
+        part: body
+      en:
+        page: en
+        section: s-92b69467c4
+        part: body

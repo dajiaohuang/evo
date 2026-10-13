@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium
+  displayName: Leptobrachium
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/638Y7
+  sourceIndexes:
+    - name:
+        en: Leptobrachium
+        zh: Leptobrachium
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 638Y7
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/0
+            queryName: Leptobrachium
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 210
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9f28472491
+      - s-cf3c79b259
+      - s-4029f09a7e
+      - s-33384583e4
+      - s-ebcb70b646
+      - s-b8503f5898
+      - s-b7776a87a4
+      - s-a12d94d179
+      - s-5981bc997e
+      - s-1cac6f096c
+      - s-dd1bbc1e14
+      - s-50597630c7
+      - s-8008379b85
+      - s-9e0c6b61c0
+      - s-2a3de3c35f
+      - s-229bb3d5e5
+    zh:
+      - s-cff806f588
+      - s-abc7bed1a1
+      - s-cabf048c3c
+      - s-c90c74e83d
+      - s-92191c157c
+      - s-b0ca0a6422
+      - s-a201e4f645
+      - s-cd1c51358b
+      - s-7d9696bda1
+      - s-2e08335d91
+      - s-afd4f12f61
+      - s-172e574ed5
+      - s-a93033a4da
+      - s-9b00f63817
+      - s-bd838714e0
+      - s-2a3d766c69

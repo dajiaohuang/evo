@@ -1,0 +1,205 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ectocion collinus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Ectocion collinus
+      en: Ectocion collinus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-07dd79cc60
+            part: body
+          en:
+            page: en
+            section: s-b2bfcd751f
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b636d035ed
+            part: body
+          en:
+            page: en
+            section: s-e3d577a8cd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dcdf9ea2ce
+            part: body
+          en:
+            page: en
+            section: s-dbdfa6af96
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-88257d77e3
+            part: body
+          en:
+            page: en
+            section: s-aaf8aff358
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1e6e0b4106
+            part: body
+          en:
+            page: en
+            section: s-c89d393f7c
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Ectocion collinus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45966&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45966; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45966
+          selectedOccurrenceIds:
+            - occ:165558
+            - occ:165607
+            - occ:165645
+            - occ:165700
+            - occ:165730
+            - occ:165834
+            - occ:165890
+            - occ:165925
+            - occ:165942
+            - occ:166038
+            - occ:166094
+            - occ:166264
+            - occ:166281
+            - occ:166424
+            - occ:166451
+            - occ:166532
+            - occ:166541
+            - occ:166644
+            - occ:1385207
+            - occ:1416449
+          selectedCollectionIds:
+            - col:14931
+            - col:14936
+            - col:14938
+            - col:14939
+            - col:14941
+            - col:14954
+            - col:14959
+            - col:14962
+            - col:14964
+            - col:14977
+            - col:14983
+            - col:15001
+            - col:15006
+            - col:15025
+            - col:15031
+            - col:15037
+            - col:15040
+            - col:15053
+            - col:15060
+            - col:195856
+          sourceReferenceIds:
+            - ref:6294
+            - ref:1731
+            - ref:1534
+            - ref:3401
+            - ref:1609
+            - ref:1983
+            - ref:2165
+            - ref:63104
+            - ref:66668
+          originalIdentificationMappings:
+            - occurrenceId: occ:165645
+              originalIdentifiedName: Ectocion collinus n. sp.
+              acceptedName: Ectocion collinus
+              difference: null
+            - occurrenceId: occ:166264
+              originalIdentifiedName: Gidleyina wyomingensis n. sp.
+              acceptedName: Ectocion collinus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-845cec90e6
+        part: body
+      en:
+        page: en
+        section: s-9908c22b9b
+        part: body

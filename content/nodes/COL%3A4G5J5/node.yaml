@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus mjobergi
+  displayName: Philautus mjobergi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5J5
+  sourceIndexes:
+    - name:
+        en: Philautus mjobergi
+        zh: Philautus mjobergi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5J5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/63
+            queryName: Philautus mjobergi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 406
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d24172c03c
+      - s-130b60d2ba
+      - s-387afcaf54
+      - s-f2d98d9999
+      - s-ff6657c9cb
+      - s-69a63b03c7
+      - s-8927d883ee
+      - s-4664d99ea8
+    zh:
+      - s-e15081c8be
+      - s-bf994af73f
+      - s-264bcb9058
+      - s-b78c9c5112
+      - s-4b420ed0ce
+      - s-25e1c07351
+      - s-615c51bd5c
+      - s-df1965b007

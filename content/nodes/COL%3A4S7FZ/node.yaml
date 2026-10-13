@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinatrema bivittatum
+  displayName: Rhinatrema bivittatum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7FZ
+  sourceIndexes:
+    - name:
+        en: Rhinatrema bivittatum
+        zh: Rhinatrema bivittatum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7FZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/281
+            queryName: Rhinatrema bivittatum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 119
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/85
+            queryName: Coecilia bivitatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/86
+            queryName: Caecilia bivittata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0847a82d8e
+      - s-a8f762574a
+      - s-e076dc06c1
+      - s-0602d3718a
+      - s-03e661ca3a
+      - s-17a922d7a5
+      - s-b28016f7c6
+      - s-58f13966c5
+      - s-1f7552aee1
+      - s-970ba3f6ac
+      - s-87834143ec
+      - s-2833c2f2ba
+      - s-ea084a6cf0
+    zh:
+      - s-8dfc6d4fbf
+      - s-e53daa2d25
+      - s-7e4012b6ab
+      - s-3958a27dcd
+      - s-e7a5ac6094
+      - s-a910c3ba0a
+      - s-47d635b456
+      - s-978f9c51b7
+      - s-f27b617710
+      - s-0d46b4367a
+      - s-458cdc1b8d
+      - s-df0ce1df51
+      - s-e4be8f8d35

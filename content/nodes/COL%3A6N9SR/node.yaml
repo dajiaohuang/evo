@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema bolbodactyla
+  displayName: Ischnocnema bolbodactyla
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N9SR
+  sourceIndexes:
+    - name:
+        en: Ischnocnema bolbodactyla
+        zh: Ischnocnema bolbodactyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N9SR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/9
+            queryName: Ischnocnema bolbodactyla
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/302
+            queryName: Basanitia bolbodactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/303
+            queryName: Eupemphix bolbodactyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/114
+            queryName: Eleutherodactylus bolbodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-95f2e386b5
+      - s-11e4e46158
+      - s-5d13d3b061
+      - s-08a9d88249
+      - s-272ab2ed99
+      - s-e77618e673
+      - s-4c007c44da
+      - s-ad7d668931
+      - s-bab58a186a
+      - s-b6d511ea7d
+      - s-e30b890072
+      - s-35fafa9237
+      - s-18ee42e1d7
+      - s-39cde27e0b
+    zh:
+      - s-9847d2d9ec
+      - s-5f9fb6a811
+      - s-5fb4311fc5
+      - s-84932d30c5
+      - s-f02698c7bb
+      - s-cfa987eed7
+      - s-2d6a8ef18a
+      - s-de64046819
+      - s-cca993e240
+      - s-a4de4cba51
+      - s-9c574601ec
+      - s-5d81299e00
+      - s-bddfd5c616
+      - s-ad18b38557

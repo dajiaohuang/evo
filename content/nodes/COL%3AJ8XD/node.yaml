@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus angelito
+  displayName: Atelopus angelito
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XD
+  sourceIndexes:
+    - name:
+        en: Atelopus angelito
+        zh: Atelopus angelito
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/227
+            queryName: Atelopus angelito
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb5ccd9d3e
+      - s-458f94e062
+      - s-07b52045cd
+      - s-70f1dbaf08
+      - s-45e9d0d2d3
+      - s-66d7b415e2
+      - s-157f43bf45
+      - s-4ff4b375ea
+      - s-48a5e2efdd
+      - s-c1f5783f3b
+    zh:
+      - s-635c3dfadb
+      - s-49ea80314f
+      - s-020acaa1e3
+      - s-ce9578a544
+      - s-a90559c4b7
+      - s-6c8db4d05d
+      - s-caf000240c
+      - s-0d5a9113d2
+      - s-ec9764c5d7
+      - s-8365898bd3

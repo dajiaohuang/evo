@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus cicada
+  displayName: Physalaemus cicada
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF96
+  sourceIndexes:
+    - name:
+        en: Physalaemus cicada
+        zh: Physalaemus cicada
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF96
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/313
+            queryName: Physalaemus cicada
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f4913d6c32
+      - s-94bd3ba3c3
+      - s-e4d7d509d8
+      - s-0e369a4cd6
+      - s-166b2413ba
+      - s-b3ff0642bc
+      - s-10dc66a234
+      - s-fa5317e213
+      - s-ea3033fbe4
+      - s-6603601f74
+      - s-b252a84a1a
+      - s-9bb72b69d3
+      - s-e07767fa2f
+    zh:
+      - s-9f9c6224c7
+      - s-f83d5da0cb
+      - s-cac5963bfa
+      - s-568b08efac
+      - s-c46ffa587e
+      - s-23d9544362
+      - s-a9d81fd315
+      - s-f265d8477a
+      - s-2e86a20f49
+      - s-6d00811591
+      - s-e45070cc3e
+      - s-0fac33a148
+      - s-323ef47f25

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaerotheca dobsonii
+  displayName: Sphaerotheca dobsonii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6YY72
+  sourceIndexes:
+    - name:
+        en: Sphaerotheca dobsonii
+        zh: Sphaerotheca dobsonii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6YY72
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/245
+            queryName: Sphaerotheca dobsonii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/219
+            queryName: Sphaerotheca dobsoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/357
+            queryName: Rana dobsonii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/358
+            queryName: Tomopterna dobsonii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-76f7dddf88
+      - s-2d783db1d5
+      - s-83f900a3df
+      - s-7c913a9a66
+      - s-82d08e614a
+      - s-04b47aec40
+      - s-183dde4098
+      - s-b3ad8d9045
+      - s-7d50286598
+      - s-348c83d694
+    zh:
+      - s-e2b989f77a
+      - s-bc4898babe
+      - s-c5f1116100
+      - s-7af6261af7
+      - s-e924dd2077
+      - s-2b99f32305
+      - s-c0a41f00da
+      - s-22e520dc1e
+      - s-b229e9c96b
+      - s-60518272ba

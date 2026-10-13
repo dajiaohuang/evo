@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis atrabracus
+  displayName: Pristimantis atrabracus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ9T
+  sourceIndexes:
+    - name:
+        en: Pristimantis atrabracus
+        zh: Pristimantis atrabracus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ9T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/125
+            queryName: Pristimantis atrabracus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/265
+            queryName: Eleutherodactylus atrabracus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1df99ad4d1
+      - s-09c61fcb7b
+      - s-a0fde115c9
+      - s-90507684ba
+      - s-43edcdd219
+      - s-1503296e32
+      - s-f92bc91b25
+      - s-9add2421cc
+      - s-fb8f113702
+    zh:
+      - s-9451cadb86
+      - s-ae1eebe3a4
+      - s-f8aea7df28
+      - s-fbc2148c4d
+      - s-66adcd1549
+      - s-8303e80ace
+      - s-7091d08a3c
+      - s-13a57dcf7f
+      - s-a57f31890b

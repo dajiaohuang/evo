@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhyacotriton olympicus
+  displayName: Rhyacotriton olympicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4SP9M
+  sourceIndexes:
+    - name:
+        en: Rhyacotriton olympicus
+        zh: Rhyacotriton olympicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4SP9M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/414
+            queryName: Rhyacotriton olympicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/94
+            queryName: Ranodon olympicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/95
+            queryName: Rhyacotriton olympicus olympicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2658ba8b7
+      - s-36f56dc966
+      - s-892ca1dd35
+      - s-5f063d8b1a
+      - s-ad292227cb
+      - s-a6c1a939dd
+      - s-20a06ba760
+      - s-a796a750d7
+      - s-a55e9bdc27
+      - s-e0b7a59e58
+    zh:
+      - s-8369ac41ee
+      - s-29ae7a42c5
+      - s-6dbb8615ed
+      - s-1c788bd8d2
+      - s-ff54632492
+      - s-5a211afff6
+      - s-7a6698064a
+      - s-362a2a13b8
+      - s-029e472d75
+      - s-e80763e304

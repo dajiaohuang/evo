@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa tzultacaj
+  displayName: Bolitoglossa tzultacaj
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDSR
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa tzultacaj
+        zh: Bolitoglossa tzultacaj
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDSR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/209
+            queryName: Bolitoglossa tzultacaj
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a4c61fc3a
+      - s-e233a85d9f
+      - s-2245b610c2
+      - s-b2ed5a8591
+      - s-5fed76d373
+    zh:
+      - s-48ee3bdf6a
+      - s-d51e9e84d8
+      - s-7fd7de9820
+      - s-e29d44abec
+      - s-8fe45b664b

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes pehuenche
+  displayName: Alsodes pehuenche
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7X9
+  sourceIndexes:
+    - name:
+        en: Alsodes pehuenche
+        zh: Alsodes pehuenche
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7X9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/200
+            queryName: Alsodes pehuenche
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/264
+            queryName: Telmalsodes pehuenche
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc7bbfa70a
+      - s-91db4118cd
+      - s-e18771b3b4
+      - s-e530a2b129
+      - s-379aee0c7b
+      - s-53aa677617
+      - s-bb51f5dcd1
+      - s-15938f2e4d
+      - s-b9b13535c4
+      - s-ad49f1c28d
+      - s-bb169eb2cb
+      - s-e5749385e3
+      - s-cc07993101
+      - s-39f01b7305
+      - s-fd7d1f78c4
+      - s-731a5d47ea
+      - s-c957eb039b
+    zh:
+      - s-6a4894483a
+      - s-cc1900173e
+      - s-f4231c856e
+      - s-c43f44049a
+      - s-5d2c5c2d09
+      - s-1b749499fc
+      - s-e4b3217e6f
+      - s-ed49f48a89
+      - s-f4e56dd1b7
+      - s-24092814b1
+      - s-0c6153056e
+      - s-d7a02d4a35
+      - s-19b5f7df6f
+      - s-ff390fabee
+      - s-a0c4b1b408
+      - s-25adbb08f4
+      - s-4bdcfce239

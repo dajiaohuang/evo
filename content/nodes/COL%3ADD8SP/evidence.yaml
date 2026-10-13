@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hydrobates monorhis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Hydrobates monorhis
+      en: Hydrobates monorhis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetHydrobatesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-80a403644c
+            part: body
+          en:
+            page: en
+            section: s-4e9c952737
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetHydrobatesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-bcddd19a5b
+            part: body
+          en:
+            page: en
+            section: s-a9a83a449e
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetHydrobatesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-bcb4b28aa7
+            part: body
+          en:
+            page: en
+            section: s-58338d5ea3
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetHydrobatesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-c7f1c57dbc
+            part: body
+          en:
+            page: en
+            section: s-179c251a3c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetHydrobatesHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-7046dccd04
+            part: body
+          en:
+            page: en
+            section: s-ec85ddc8e6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hydrobates monorhis
+          url: https://www.checklistbank.org/dataset/316115/taxon/DD8SP
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetHydrobatesHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Hydrobates historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 10 selected AVONET1_BirdLife rows within 10057–10071; each eBird and BirdTree crosswalk, hy/oc/ha COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 十条历史行：旧 Oceanodroma／Halocyptena 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Ten historical rows: retain older Oceanodroma／Halocyptena combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-cc360d39c0
+        part: body
+      en:
+        page: en
+        section: s-fc17ec7ff2
+        part: body

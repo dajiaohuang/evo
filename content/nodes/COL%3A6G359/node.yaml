@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epicrionops bicolor
+  displayName: Epicrionops bicolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6G359
+  sourceIndexes:
+    - name:
+        en: Epicrionops bicolor
+        zh: Epicrionops bicolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6G359
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/364
+            queryName: Epicrionops bicolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/53
+            queryName: Rhinatrema bicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/340
+            queryName: Epicrionops bicolor bicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/341
+            queryName: Epicrionops bicolor subcaudalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-074eb7d2fe
+      - s-3bb6642d87
+      - s-6a1e617ed4
+      - s-7d5e70a7bb
+      - s-dc16b03379
+      - s-24a5b2107a
+      - s-425540dd9f
+      - s-5937f47f26
+      - s-26449b44a3
+      - s-2ff85980b2
+      - s-d7995e6fdc
+      - s-79af8cc051
+      - s-11717441cc
+    zh:
+      - s-f90da3d352
+      - s-1c4819ec4a
+      - s-496f564291
+      - s-a8fec4e40f
+      - s-9976f9046e
+      - s-0a411dc47a
+      - s-19cce552b2
+      - s-2d77bff801
+      - s-e88a7f9126
+      - s-ce94525739
+      - s-f5ee236ae8
+      - s-558fde304b
+      - s-f9e59d7296

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops shihaitaoi
+  displayName: Amolops shihaitaoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LBHR3
+  sourceIndexes:
+    - name:
+        en: Amolops shihaitaoi
+        zh: Amolops shihaitaoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LBHR3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/400
+            queryName: Amolops shihaitaoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-586d2b64b6
+      - s-d5e4262712
+      - s-1b839f011b
+      - s-524eb4f622
+      - s-17f471f64f
+      - s-2e1489d151
+      - s-06884c3566
+      - s-19283efa9e
+      - s-689a35102a
+      - s-b95a5638c3
+      - s-17e410474d
+      - s-0dbed55671
+      - s-a9ace366f3
+      - s-d35273e9b4
+      - s-134f80afe1
+      - s-8012fab607
+      - s-811429f5eb
+      - s-d80a4a3b51
+      - s-f64e798043
+      - s-be94288845
+      - s-b6d605a74a
+    zh:
+      - s-a0f3f03d97
+      - s-3bc5d4a11d
+      - s-b47c98e109
+      - s-5028e01516
+      - s-38152a891d
+      - s-5a5843be1a
+      - s-e1e130b444
+      - s-2b9bc4b904
+      - s-d3668fb8ab
+      - s-747c428f88
+      - s-2eedd1061f
+      - s-c5328753a6
+      - s-1ad347d9bc
+      - s-874bb83f5c
+      - s-a5d1476b72
+      - s-2716c79b8a
+      - s-757d3862b3
+      - s-8a23f161be
+      - s-33b80af304
+      - s-5222807818
+      - s-0f5b275f31

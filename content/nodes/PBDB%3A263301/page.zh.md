@@ -1,0 +1,9 @@
+## PBDB 所记分类概念 {#s-aabd345eba}
+PBDB 于 2026-10-02 核对的快照将 Benthosuchus sushkini 记为 species 级概念（来源概念 txn:263301），其记录父级为 Benthosuchus。这是 Amphibia 存储锚点下的数据库父链；该路径不认证其与 COL26.8 概念等同。
+
+## 8 条 PBDB 出现记录与采集地字段 {#s-abff1092d8}
+这一确切概念返回 8 条出现记录，涉及 8 个不同采集地 ID：occ:840357 (collection col:93203; locality labels RU / Orenburg / Totskoe; stratigraphy fields formation=Kzylsaiskaya; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=247 Ma). occ:1416146 (collection col:195786; locality labels RU / Samara; stratigraphy fields formation=Kamennyi Yar, member=Rybinskian; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=247 Ma). occ:1416246 (collection col:195821; identified name `Benthosuchus cf. sushkini`; locality labels RU / Orenburg; stratigraphy fields formation=Staritskaya; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=248.6 Ma). occ:1416561 (collection col:195874; locality labels RU / Orenburg / Totskoe; stratigraphy fields formation=Staritskaya; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=248.6 Ma). occ:1417059 (collection col:196038; locality labels RU / Orenburg; stratigraphy fields formation=Staritskaya; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=248.6 Ma). occ:1417156 (collection col:196079; locality labels RU / Orenburg; stratigraphy fields formation=Staritskaya; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=248.6 Ma). occ:1417158 (collection col:196080; locality labels RU / Orenburg; stratigraphy fields formation=Staritskaya; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=248.6 Ma). occ:1423615 (collection col:28479; identified name `Benthosuchus sushkini n. sp.`; locality labels RU / Vologda / Nikolsk; `olderAgeMa`=250.8 Ma, `youngerAgeMa`=247 Ma)。年代值是采集地记录中的 Ma（距今百万年）字段，不是测定的物种起源或灭绝时间；该快照不证明全球分布已完整记录。摘录提供出现记录和采集地 ID，但没有标本编号或标本层级描述。
+
+## Benthosuchus sushkini 的文献索引查询 {#s-dea430f9c0}
+链接索引中的 accepted-name 查询以 `Benthosuchus sushkini` 为检索名，报告 4 条参考文献记录匹配。这是书目元数据，不是经核实的生物学结果。该占位记录尚未分配生物学主张，概念等同性尚未认证；本页事实仅限上述 PBDB 字段。
+

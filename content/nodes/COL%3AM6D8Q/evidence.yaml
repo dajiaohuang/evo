@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boana platanera La Marca, Escalona, Castellanos, Rojas-Runjaic, Crawford, Señaris, Fouquet, Giaretta et al., 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boana platanera
+      zh: Boana platanera
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-28221969b7
+            part: title
+          zh:
+            page: zh
+            section: s-778e1a04a1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-28221969b7
+            part: body
+          zh:
+            page: zh
+            section: s-778e1a04a1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6031e5e8dc
+            part: title
+          zh:
+            page: zh
+            section: s-1e43a2fa3b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6031e5e8dc
+            part: body
+          zh:
+            page: zh
+            section: s-1e43a2fa3b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-15da943f1b
+            part: title
+          zh:
+            page: zh
+            section: s-7fae15108d
+            part: title
+        sourceIds:
+          - primary-pmc11383632-m6d8q
+        text:
+          en:
+            page: en
+            section: s-15da943f1b
+            part: body
+          zh:
+            page: zh
+            section: s-7fae15108d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a7128ebf30
+            part: title
+          zh:
+            page: zh
+            section: s-b909b09d36
+            part: title
+        sourceIds:
+          - primary-pmc11383632-m6d8q
+        text:
+          en:
+            page: en
+            section: s-a7128ebf30
+            part: body
+          zh:
+            page: zh
+            section: s-b909b09d36
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-7075467945
+            part: title
+          zh:
+            page: zh
+            section: s-41ea69cbd4
+            part: title
+        sourceIds:
+          - primary-pmc11383632-m6d8q
+        text:
+          en:
+            page: en
+            section: s-7075467945
+            part: body
+          zh:
+            page: zh
+            section: s-41ea69cbd4
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-582092ec6b
+            part: title
+          zh:
+            page: zh
+            section: s-573f64d4c0
+            part: title
+        sourceIds:
+          - primary-pmc11383632-m6d8q
+        text:
+          en:
+            page: en
+            section: s-582092ec6b
+            part: body
+          zh:
+            page: zh
+            section: s-573f64d4c0
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-649aeaf81e
+            part: title
+          zh:
+            page: zh
+            section: s-08a1ea876c
+            part: title
+        sourceIds:
+          - primary-pmc11383632-m6d8q
+        text:
+          en:
+            page: en
+            section: s-649aeaf81e
+            part: body
+          zh:
+            page: zh
+            section: s-08a1ea876c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boana platanera
+          url: https://www.checklistbank.org/dataset/316115/taxon/M6D8Q
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11383632-m6d8q
+        referenceId: ref-bcd85986-0003-4c0b-a0fd-154e468b6e6b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana platanera: XML StudySites/Species, Measures of Microenvironmental and Anuran Body Temperatures, Statistical Analyses, Results, Tables1–2, Discussion and Conclusion read; all17species-by-site/habitat temperature rows135reported individuals and6pooledcorrelation rows extracted. Raw individual observations, calibration experiment records, phylogenetic/detection models, hourly logger series and current taxonomic identity not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-312b8dabfc
+        part: body
+      zh:
+        page: zh
+        section: s-211a1f1208
+        part: body
+    primaryStudyScopes:
+      - doi: 10.21315/tlsr2024.35.1.12
+        referenceId: ref-bcd85986-0003-4c0b-a0fd-154e468b6e6b
+        sourceKey: primary-pmc11383632-m6d8q
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11383632/article.xml
+        sourceConcept: 2018 nocturnal adult source-labelled Boana platanera field temperatures, published2024; exact-name candidate not certified voucher/contemporary biological identity
+        evidenceRead: "Boana platanera: XML StudySites/Species, Measures of Microenvironmental and Anuran Body Temperatures, Statistical Analyses, Results, Tables1–2, Discussion and Conclusion read; all17species-by-site/habitat temperature rows135reported individuals and6pooledcorrelation rows extracted. Raw individual observations, calibration experiment records, phylogenetic/detection models, hourly logger series and current taxonomic identity not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: "Observed temperatures at Mariquita: 455 m.a.s.l in forest habitat"
+              zh: "Mariquita: 455 m.a.s.l 森林生境的观察温度"
+            referenceId: ref-bcd85986-0003-4c0b-a0fd-154e468b6e6b
+            sourceKey: primary-pmc11383632-m6d8q
+            locator: "PMC11383632 XML Table1 bodyrow3 Boana platanera Mariquita: 455 m.a.s.l Forest; Table1 footnote; Methods thermal measures"
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f0483af30
+                part: body
+              zh:
+                page: zh
+                section: s-6a234ad055
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: "Observed temperatures at Líbano: 1,400 m.a.s.l in open habitat"
+              zh: "Líbano: 1,400 m.a.s.l 开阔生境的观察温度"
+            referenceId: ref-bcd85986-0003-4c0b-a0fd-154e468b6e6b
+            sourceKey: primary-pmc11383632-m6d8q
+            locator: "PMC11383632 XML Table1 bodyrow13 Boana platanera Líbano: 1,400 m.a.s.l Open; Table1 footnote; Methods thermal measures"
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6a40d9c327
+                part: body
+              zh:
+                page: zh
+                section: s-584c8eab70
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Dorsal skin temperature is an assumed internal-temperature proxy
+              zh: 背部皮温是所假设内部温度代理
+            referenceId: ref-bcd85986-0003-4c0b-a0fd-154e468b6e6b
+            sourceKey: primary-pmc11383632-m6d8q
+            locator: PMC11383632 XML Measures of Microenvironmental and Anuran Body Temperatures; StudySites/Species; Results; Figure5 caption
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-146dad8322
+                part: body
+              zh:
+                page: zh
+                section: s-f34d2ef1b1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Temperature associations do not establish heat-transfer mechanism
+              zh: 温度关联不确立传热机制
+            referenceId: ref-bcd85986-0003-4c0b-a0fd-154e468b6e6b
+            sourceKey: primary-pmc11383632-m6d8q
+            locator: PMC11383632 XML Table2; Statistical Analyses; Results; Discussion; Conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4c95832e12
+                part: body
+              zh:
+                page: zh
+                section: s-fe117aac98
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: Open-forest comparisons are bounded field observations
+              zh: 开阔—森林比较是有限野外观察
+            referenceId: ref-bcd85986-0003-4c0b-a0fd-154e468b6e6b
+            sourceKey: primary-pmc11383632-m6d8q
+            locator: PMC11383632 XML StudySites/Species; Results; Discussion; Conclusion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-31f6555c8e
+                part: body
+              zh:
+                page: zh
+                section: s-9fddb3e8c0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

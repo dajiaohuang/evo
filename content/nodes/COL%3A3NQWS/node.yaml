@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius ocellatus
+  displayName: Hyperolius ocellatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQWS
+  sourceIndexes:
+    - name:
+        en: Hyperolius ocellatus
+        zh: Hyperolius ocellatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQWS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/305
+            queryName: Hyperolius ocellatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/275
+            queryName: Rappia ocellata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/277
+            queryName: Hyperolius purpurescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/38
+            queryName: Hyperolius ocellatus ocellatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/40
+            queryName: Hyperolius ocellatus purpurescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bea76d8bdd
+      - s-e3c6d12aef
+      - s-cd9499a4f5
+      - s-6175d183bd
+      - s-e07422689b
+      - s-f17e09cdb5
+      - s-89303b9198
+      - s-0860c3c6d7
+      - s-9074fa9cf2
+      - s-e1b7235aa9
+      - s-054b7809ce
+      - s-0e2123e27d
+      - s-d06b3c4657
+      - s-0e9b83322f
+      - s-fe7d3933b1
+      - s-244c028657
+      - s-99ef59a851
+      - s-21aebcaa7d
+    zh:
+      - s-e4044b9995
+      - s-1b42da14ce
+      - s-8fe1d4f4b4
+      - s-f9616d1ef9
+      - s-61d5b623b5
+      - s-3e20b9a87f
+      - s-e764e955de
+      - s-43c57bce9b
+      - s-a9ec3e3f00
+      - s-03542c76e8
+      - s-a9bf034b86
+      - s-962c0442e5
+      - s-7a947a2925
+      - s-5864c5270e
+      - s-e6ddcd100e
+      - s-fc6b61b95f
+      - s-7f46745bcc
+      - s-fe425de23f

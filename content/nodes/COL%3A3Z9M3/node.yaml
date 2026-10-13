@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus rubriventris
+  displayName: Melanophryniscus rubriventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9M3
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus rubriventris
+        zh: Melanophryniscus rubriventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9M3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/403
+            queryName: Melanophryniscus rubriventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/366
+            queryName: Atelopus rubriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/367
+            queryName: Dendrophryniscus rubriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/228
+            queryName: Melanophryniscus rubriventris rubriventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/229
+            queryName: Melanophryniscus rubriventris toldosensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/230
+            queryName: Melanophryniscus rubriventris subconcolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-59b23b2bb4
+      - s-445f301553
+      - s-4122d4a3da
+      - s-a88b8465d8
+      - s-712327af89
+      - s-4ec7d0f9a0
+      - s-072f5cc151
+      - s-635ce61b8e
+      - s-a99cce3c89
+      - s-ae919da562
+    zh:
+      - s-0d7887bc1c
+      - s-5415962840
+      - s-527400bb28
+      - s-7345701405
+      - s-fa1de2bc97
+      - s-6b7be10bb3
+      - s-805d12973c
+      - s-a374d2ecdf
+      - s-2f3feb50ba
+      - s-790c300621

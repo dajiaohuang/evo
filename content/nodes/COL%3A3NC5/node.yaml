@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiromantis
+  displayName: Chiromantis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NC5
+  sourceIndexes:
+    - name:
+        en: Chiromantis
+        zh: Chiromantis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NC5
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/298
+            queryName: Chiromantis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 211
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-566fcaca02
+      - s-f962e16ac7
+      - s-ea6f8bd298
+      - s-a856930340
+      - s-4d0c88b8bb
+      - s-adad236205
+      - s-9219cde473
+      - s-bd9be910d6
+      - s-2b15d451ac
+      - s-0512aed09f
+      - s-7d34755fe5
+      - s-6ee66f0835
+      - s-444a4c1873
+      - s-a41f28a072
+      - s-19b825ea02
+      - s-ff4450b0d8
+      - s-cd56b3a574
+      - s-4850103346
+    zh:
+      - s-93a8b91bf1
+      - s-c3fa324807
+      - s-da32fb0648
+      - s-3f036553f2
+      - s-2306dc0bbd
+      - s-c87719a5dc
+      - s-3b1e382d99
+      - s-ce3b61941e
+      - s-3fa4849dfe
+      - s-a1b2c87717
+      - s-74c4b72830
+      - s-6176c7be26
+      - s-3b54ff888c
+      - s-f48e11152b
+      - s-8735e31a4c
+      - s-eab749f199
+      - s-f5c02cb99d
+      - s-318eceb41f

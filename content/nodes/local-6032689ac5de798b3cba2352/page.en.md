@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-44b803de61}
+This record shows how TadpoleTraits files tadpoles under Rhacophorus calcaneus. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Rhacophorus calcaneus in Rhacophorus and Rhacophoridae. In the literature table, rows 4973, 4974, 4975, 4976, 4977, 4978, 4979 list Rhacophorus calcaneus in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-5d75a59d97}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 7 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 42 (row 4973); 41 (rows 4974, 4975); 36 (row 4976); 37 (row 4977); 32 (rows 4978, 4979). Sample size is entered by row (row 4973: n=1; row 4974: n=1; row 4975: n=1; row 4976: n=1; row 4977: n=1; row 4978: n=1; row 4979: n=1). These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

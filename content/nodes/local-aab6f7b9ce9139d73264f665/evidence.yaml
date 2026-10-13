@@ -1,0 +1,281 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hypogeophis pti
+    name:
+      en: Hypogeophis pti
+      zh: Hypogeophis pti
+    sourceClassification:
+      order: Gymnophiona
+      family: Grandisoniidae
+      genus: Hypogeophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hypogeophis pti in the morphology deposit
+          zh: 形态数据中的 Hypogeophis pti 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e848732bd3
+            part: body
+          zh:
+            page: zh
+            section: s-948dd9f0ea
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 65 and 66: measurement fields and sex codes"
+          zh: 第 65、66 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9c22fd5ea2
+            part: body
+          zh:
+            page: zh
+            section: s-3fbc480ffa
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-fdabcd4b61
+            part: body
+          zh:
+            page: zh
+            section: s-13db51eba1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 65, 66; Reference.csv rows 4346
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 65
+        values:
+          - Grandisoniidae
+          - Hypogeophis
+          - Hypogeophis pti
+          - M
+          - "82.33333333"
+          - "1.05"
+          - NA
+          - NA
+          - "3.966666667"
+          - NA
+          - NA
+          - "62.16666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.683333333"
+          - NA
+          - NA
+          - "4.516666667"
+          - NA
+          - "0.583333333"
+          - NA
+          - "1.65"
+          - "1.466666667"
+          - NA
+          - "1.233333333"
+          - "0.95"
+          - "0.683333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.15"
+          - "1.433333333"
+          - NA
+          - NA
+      - rowNumber: 66
+        values:
+          - Grandisoniidae
+          - Hypogeophis
+          - Hypogeophis pti
+          - F
+          - "88"
+          - "1.066666667"
+          - NA
+          - NA
+          - "4.066666667"
+          - NA
+          - NA
+          - "62.16666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.583333333"
+          - NA
+          - NA
+          - "4.883333333"
+          - NA
+          - "0.55"
+          - NA
+          - "1.683333333"
+          - "1.433333333"
+          - NA
+          - "1.183333333"
+          - "0.916666667"
+          - "0.733333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.133333333"
+          - "1.333333333"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4346
+        values:
+          - Gymnophiona
+          - Hypogeophis_pti
+          - Maddock, S. T., Wilkinson, M., Nussbaum, R. A., & Gower, D. J. (2017). A new species of small and highly abbreviated caecilian (Gymnophiona: Indotyphlidae) from the Seychelles island of Praslin, and a recharacterization of Hypogeophis brevis Boulenger, 1911. Zootaxa, 4329(4), 301-326. https://doi.org/10.11646/zootaxa.4329.4.1
+    availableTraitCodes:
+      - TOL
+      - TL
+      - STFG
+      - TA1
+      - HW1
+      - BW2
+      - IND
+      - EN
+      - IOD
+      - ITD
+      - TE
+      - TN
+      - C1
+      - C2
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NW6D
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

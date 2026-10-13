@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-16c8b4ad04
+      part: title
+    titleZh:
+      page: zh
+      section: s-2d1868c090
+      part: title
+    category: genomics
+    startAge: 103
+    endAge: 79
+    regions:
+      - Global 42-placental and 2-marsupial molecular sample
+    clades:
+      - Afrotheria
+      - Xenarthra
+      - Laurasiatheria
+      - Euarchontoglires
+    summary:
+      page: en
+      section: s-16c8b4ad04
+      part: body
+    summaryZh:
+      page: zh
+      section: s-2d1868c090
+      part: body
+    claimIds:
+      - claim:event:placental-molecular-four-clades
+    evidenceItems:
+      - statement: The 16,397-base-pair matrix combines 19 nuclear and 3 mitochondrial genes; Bayesian and maximum-likelihood analyses recover four major placental clades.
+        relation: supports
+        claimIds:
+          - claim:event:placental-molecular-four-clades
+        referenceLinks:
+          - referenceId: murphy-2001-placental-bayesian
+            relation: supports
+            pages: 2348–2351
+            figure: Figures 1–2
+            quoteLocator: Dataset; Bayesian phylogeny; Divergence estimates
+    uncertaintyItems:
+      - statement: The Afrotheria root, dates and Gondwanan scenario are model-conditioned, later studies test alternatives, and sampled taxa from other packages remain cross-boundary inputs.
+        relation: contextualizes
+        claimIds:
+          - claim:event:placental-molecular-four-clades
+        referenceLinks:
+          - referenceId: murphy-2001-placental-bayesian
+            relation: supports
+            pages: 2348–2351
+            figure: Figures 1–2
+            quoteLocator: Dataset; Bayesian phylogeny; Divergence estimates
+  claims:
+    - subjectId: event:placental-molecular-four-clades
+      claimKind: scientific
+      claimType: topology
+      statement: A 16,397-base-pair dataset of 19 nuclear and 3 mitochondrial genes from 42 placentals and 2 marsupial outgroups recovered Afrotheria, Xenarthra, Laurasiatheria and Euarchontoglires and an Afrotheria-rooted topology under Bayesian and maximum-likelihood analyses; the root, approximately 103 Ma date and Gondwanan scenario remain model-conditioned.
+      confidence: medium
+      confidenceRationale: Sequence sampling and methods are explicit, but root placement, clock estimates and tectonic explanation depend on models, calibrations and taxon sampling and have alternatives in later analyses.
+      referenceLinks:
+        - referenceId: murphy-2001-placental-bayesian
+          relation: supports
+          pages: 2348–2351
+          figure: Figures 1–2
+          quoteLocator: Dataset and methods; Bayesian phylogeny; Molecular divergence estimates
+  claim-rationales.zh:
+    - 序列取样和方法明确，但根部位置、时钟估算和板块解释依赖模型、校准与类群取样，后续研究存在替代结果。
+  claim-statements.zh:
+    - 取样 42 个胎盘类与 2 个有袋类外群的 16397 碱基矩阵包含 19 个核基因和 3 个线粒体基因，在贝叶斯与最大似然分析中恢复非洲兽、异关节、劳亚兽和灵长总目四大支及非洲兽根部拓扑；根部、约 1.03 亿年日期和冈瓦纳情景仍受模型制约。

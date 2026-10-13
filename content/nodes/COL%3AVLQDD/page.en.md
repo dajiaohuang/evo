@@ -1,0 +1,3 @@
+## Leaves, flowers and woody fruit {#s-c380208122}
+A Brazilian Flora 2020 regional entry describes leaves with 7–12 pairs of pinnae, the side divisions of a compound leaf; the pinnae may alternate, nearly oppose one another or stand opposite. Leaflets are oval to elliptic, with wedge-shaped or squared-off bases and blunt tips. They are papery, finely hairy underneath and smooth above, with a conspicuous midrib on the lower surface. The flowers are cream-coloured; the calyx and petals are hairless, as is the spindle-shaped ovary. The fruit is woody, elongated and straight, becoming dark brown at maturity. This is one regional row, not a complete or global description.
+

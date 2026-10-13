@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pelodryas Günther, 1859
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Pelodryas
+      zh: Pelodryas
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-68e016bbc4
+            part: title
+          zh:
+            page: zh
+            section: s-3fee4c3b78
+            part: title
+        text:
+          en:
+            page: en
+            section: s-68e016bbc4
+            part: body
+          zh:
+            page: zh
+            section: s-3fee4c3b78
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-baa725d915
+            part: title
+          zh:
+            page: zh
+            section: s-8a070d0166
+            part: title
+        text:
+          en:
+            page: en
+            section: s-baa725d915
+            part: body
+          zh:
+            page: zh
+            section: s-8a070d0166
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-de6023107c
+            part: title
+          zh:
+            page: zh
+            section: s-212cf8b955
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 76CTL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A76CTL
+            label:
+              en: Pelodryas caerulea
+              zh: Pelodryas caerulea
+          - kind: catalogue
+            colId: 76D5L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A76D5L
+            label:
+              en: Pelodryas cavernicola
+              zh: Pelodryas cavernicola
+          - kind: catalogue
+            colId: 76D5M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A76D5M
+            label:
+              en: Pelodryas gilleni
+              zh: Pelodryas gilleni
+          - kind: catalogue
+            colId: V5GTP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5GTP
+            label:
+              en: Pelodryas mira
+              zh: Pelodryas mira
+          - kind: catalogue
+            colId: 76D3N
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A76D3N
+            label:
+              en: Pelodryas splendida
+              zh: Pelodryas splendida
+        text:
+          en:
+            page: en
+            section: s-de6023107c
+            part: body
+          zh:
+            page: zh
+            section: s-212cf8b955
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pelodryas
+          url: https://www.checklistbank.org/dataset/316115/taxon/6KCM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d8c0fc7038
+        part: body
+      zh:
+        page: zh
+        section: s-d7590f1b8f
+        part: body

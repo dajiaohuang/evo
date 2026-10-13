@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys rubrimera
+  displayName: Boulenophrys rubrimera
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5JGM
+  sourceIndexes:
+    - name:
+        en: Boulenophrys rubrimera
+        zh: Boulenophrys rubrimera
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5JGM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/377
+            queryName: Boulenophrys rubrimera
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/255
+            queryName: Megophrys rubrimera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/309
+            queryName: Panophrys rubrimera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f64b1a1eaa
+      - s-ed31c695a1
+      - s-1b564f2f63
+      - s-f67baabeb7
+      - s-c791da048c
+      - s-1b1dca8381
+      - s-e5a7845ba0
+      - s-076bcd3ccf
+      - s-dd6df1bfc8
+      - s-9c226b87e1
+      - s-dd16519440
+    zh:
+      - s-01416252bd
+      - s-fa4e1de958
+      - s-401f7bc405
+      - s-1204d21fc9
+      - s-a1f120cf06
+      - s-999bad5216
+      - s-7097cbcd5a
+      - s-bf39393c3f
+      - s-e9c53e4872
+      - s-4da0479f5a
+      - s-cca15859e0

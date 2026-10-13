@@ -17,18 +17,28 @@ it('puts body before life and relationships without losing a finding or its sour
 it('keeps identically named source keys from an introduction and study separate', () => {
   const profile = { sections: [{ topic: 'morphology', text: { en: 'A body description.', zh: '身体描述。' }, sourceIds: ['source'] }] } as CatalogueKnowledgeProfile
   const dossier: CatalogueSpeciesDossier = {
-    checkedAt: '2026-10-12', identity: { method: 'Test fixture', scope: 'Test sample' },
-    lifeStatusScope: { wild: 'Wild samples.', domesticated: '', fossil: '' }, sources: [], completeness: { status: 'incomplete' },
-    facets: { morphology: { status: 'partially-supported', claims: [{ text: 'A study finding.', textZh: '未核验文字。', translationStatus: 'untranslated', sourceIds: ['source'], locator: 'Table 2', placeTimeScope: 'One site in 2010.', lifeStatus: 'Wild samples.' }] } },
+    identity: { method: 'Test fixture', scope: 'Test sample' },
+    lifeStatusScope: { wild: 'Wild samples.', domesticated: '', fossil: '' }, sources: [],
+    facets: { morphology: { status: 'partially-supported', claims: [{ text: 'A study finding.', textZh: '一项研究发现。', sourceIds: ['source'], locator: 'Table 2', placeTimeScope: 'One site in 2010.', lifeStatus: 'Wild samples.' }] } },
   }
   const sections = catalogueReadingSections(profile, dossier)
   expect(sections[0].sourceIds).toEqual(['account:source'])
   expect(sections[1].sourceIds).toEqual(['study:source'])
-  expect(sections[1].text).toEqual({ en: 'A study finding.' })
+  expect(sections[1].text).toEqual({ en: 'A study finding.', zh: '一项研究发现。' })
   expect(sections[1].locator).toBe('Table 2')
   expect(sections[1].context).toEqual(['One site in 2010.', 'Wild samples.'])
 })
 
 it('preserves decimals, identifiers and qualifications when formatting paragraphs', () => {
   expect(paragraphParts('TPL 6: 70 ± 3 ka. Not directly dated.\n\np = 0.002; one captive cohort.')).toEqual(['TPL 6: 70 ± 3 ka. Not directly dated.', 'p = 0.002; one captive cohort.'])
+})
+
+it('keeps a passage with recorded claim links without borrowing another passage source', () => {
+  const profile = { sections: [
+    { topic: 'morphology', text: { en: 'The sampled skull preserves an observed structure.' }, claimIds: ['skull-observation'] },
+    { topic: 'methods', text: { en: 'The dataset uses a separate sampling method.' }, sourceIds: ['dataset-method'] },
+  ] } as unknown as CatalogueKnowledgeProfile
+  const sections = catalogueReadingSections(profile, undefined)
+  expect(sections[0]).toMatchObject({ text: { en: 'The sampled skull preserves an observed structure.' }, claimIds: ['skull-observation'], sourceIds: [] })
+  expect(sections[1].sourceIds).toEqual(['account:dataset-method'])
 })

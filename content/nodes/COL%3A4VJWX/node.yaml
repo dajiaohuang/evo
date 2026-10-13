@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax hayii
+  displayName: Scinax hayii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJWX
+  sourceIndexes:
+    - name:
+        en: Scinax hayii
+        zh: Scinax hayii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJWX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/43
+            queryName: Scinax hayii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/212
+            queryName: Hyla hayii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/213
+            queryName: Ololygon hayi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7fa0486b3a
+      - s-db29fc1c06
+      - s-20a927aeb9
+      - s-21220404d9
+      - s-de0ec3a36a
+      - s-3fbcbf17c0
+      - s-d110b6c0b5
+      - s-c9652d3fbc
+      - s-acfc378d49
+      - s-7a08b5169e
+      - s-608357783b
+      - s-bbdde34ba9
+      - s-0fbf49b235
+      - s-1d4012282c
+      - s-56f54d2d27
+    zh:
+      - s-df6cab86b2
+      - s-ca2a28ee08
+      - s-e3e90e5943
+      - s-3d072dd278
+      - s-1e00dcaac3
+      - s-57373b9985
+      - s-747ef681ba
+      - s-cb848a6ff1
+      - s-83cb18376e
+      - s-b3b7203cd8
+      - s-508522cb2a
+      - s-7e6a7e9714
+      - s-b2e8fb9a3a
+      - s-7bac859f27
+      - s-624972299d

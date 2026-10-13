@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus albopunctulatus
+  displayName: Hyloscirtus albopunctulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGPJ
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus albopunctulatus
+        zh: Hyloscirtus albopunctulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGPJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/33
+            queryName: Hyloscirtus albopunctulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/248
+            queryName: Hyla albopunctulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/401
+            queryName: Boana albopunctulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4adc17e910
+      - s-14b59b1a66
+      - s-1fa3cea941
+      - s-db61eb0210
+      - s-10d8d0ef86
+      - s-99829a37ac
+      - s-f26bc650f0
+      - s-0c2299a083
+      - s-7f6d95bfa9
+      - s-c333466ae8
+      - s-a827bc4c6e
+      - s-84bf8cf954
+      - s-aaa4eadac5
+      - s-8b266638db
+      - s-e56c918a9b
+    zh:
+      - s-ca146dcd12
+      - s-215d7122f1
+      - s-041dc98be8
+      - s-9d70c95fe4
+      - s-5d1db9545f
+      - s-f4524c988a
+      - s-a8172c13f1
+      - s-0b3b8070c7
+      - s-240f2b15ae
+      - s-516e7df83d
+      - s-07c1701edd
+      - s-7bc67e6c61
+      - s-165bc444d3
+      - s-584aa6c5d3
+      - s-e2195ba2ef

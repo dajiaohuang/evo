@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelognathus reverberii
+  displayName: Atelognathus reverberii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8TW
+  sourceIndexes:
+    - name:
+        en: Atelognathus reverberii
+        zh: Atelognathus reverberii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8TW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/224
+            queryName: Atelognathus reverberii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/366
+            queryName: Telmatobius reverberii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/33
+            queryName: Alsodes reverberii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1b949f6f62
+      - s-2892951e60
+      - s-b66f62a6f8
+      - s-8a73488dae
+      - s-a65c546f94
+      - s-2a059404c0
+      - s-6ad9d3501a
+      - s-450dbaad8f
+      - s-b3297b31bf
+      - s-9ee7af21ab
+      - s-4b9ed2b953
+      - s-cddd28a8c4
+      - s-8c4e2794b6
+    zh:
+      - s-71ac2e3615
+      - s-6ad7997320
+      - s-107adabec0
+      - s-6324ec28c8
+      - s-12f666924c
+      - s-7eaa88e964
+      - s-aa08aa24ec
+      - s-4c497cb852
+      - s-ac25f1e650
+      - s-50cf3d4c61
+      - s-edc4118d4b
+      - s-41c9d110c7
+      - s-4933295ab3

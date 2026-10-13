@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spea
+  displayName: Spea
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7K5D
+  sourceIndexes:
+    - name:
+        en: Spea
+        zh: Spea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7K5D
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/270
+            queryName: Spea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2916
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e3ddfe5d92
+      - s-b9065c2514
+      - s-a056b2e4e9
+      - s-6e0d1a4435
+      - s-64f9218dad
+      - s-c664db3c59
+      - s-26061f207a
+      - s-8453a98479
+      - s-c63c6fe9d7
+      - s-d022a2c8bc
+      - s-95ab29325a
+      - s-503c62b888
+      - s-0449c861a2
+      - s-921cd0da56
+      - s-132ecddea4
+      - s-1326b0f7ef
+      - s-72b055a5a1
+      - s-4e7565cf9b
+      - s-40d288b11c
+      - s-d4f8988ed6
+      - s-f594eefab9
+      - s-4b04e7977a
+      - s-9e9519b6b1
+      - s-76091fab76
+    zh:
+      - s-509339e578
+      - s-52fdecf5e5
+      - s-6d14c279ea
+      - s-8d71d8cb60
+      - s-9ddbf6c7df
+      - s-42fb087b25
+      - s-7352de844f
+      - s-a97193ad47
+      - s-e3ff5afa94
+      - s-17d5b76905
+      - s-dba233965f
+      - s-16c837faff
+      - s-3f50c85ded
+      - s-bf1e1e309f
+      - s-224df5d067
+      - s-acf366a4da
+      - s-27dff0f48c
+      - s-917d465c16
+      - s-38d2f64703
+      - s-e500e6371b
+      - s-2d70bf01bb
+      - s-11d4453b61
+      - s-9b91b23cbc
+      - s-5304bf9911

@@ -1,0 +1,329 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tetrabelodon angustidens
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Tetrabelodon angustidens
+      en: Tetrabelodon angustidens
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3c1a7fb4b7
+            part: body
+          en:
+            page: en
+            section: s-c48d5bb1fe
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-12cbe82900
+            part: body
+          en:
+            page: en
+            section: s-4a0c7b8f0e
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-519718d5e3
+            part: body
+          en:
+            page: en
+            section: s-6434033563
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b38b67ab0d
+            part: body
+          en:
+            page: en
+            section: s-7a2e2bd70e
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-246f30ef26
+            part: body
+          en:
+            page: en
+            section: s-de290d5ec7
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Tetrabelodon angustidens
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=104414&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:104414; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:104414
+          selectedOccurrenceIds:
+            - occ:332806
+            - occ:332853
+            - occ:341634
+            - occ:365173
+            - occ:384781
+            - occ:384786
+            - occ:384793
+            - occ:384797
+            - occ:384805
+            - occ:384823
+            - occ:384832
+            - occ:384838
+            - occ:411037
+            - occ:411039
+            - occ:411052
+            - occ:411065
+            - occ:411066
+            - occ:475172
+            - occ:502015
+            - occ:699224
+            - occ:711922
+            - occ:711946
+            - occ:837719
+            - occ:987096
+            - occ:1185319
+            - occ:1313366
+            - occ:1356042
+            - occ:1427989
+          selectedCollectionIds:
+            - col:31316
+            - col:31326
+            - col:32191
+            - col:34606
+            - col:36619
+            - col:36621
+            - col:36624
+            - col:36626
+            - col:36628
+            - col:36631
+            - col:36632
+            - col:36633
+            - col:39711
+            - col:39713
+            - col:39714
+            - col:39717
+            - col:39718
+            - col:40031
+            - col:48093
+            - col:75069
+            - col:76289
+            - col:76299
+            - col:71873
+            - col:81668
+            - col:60263
+            - col:176265
+            - col:184130
+            - col:198616
+          sourceReferenceIds:
+            - ref:8464
+            - ref:8672
+            - ref:9131
+            - ref:9820
+            - ref:10749
+            - ref:10857
+            - ref:13613
+            - ref:24838
+            - ref:31402
+            - ref:38149
+            - ref:57920
+            - ref:61526
+            - ref:67647
+          originalIdentificationMappings:
+            - occurrenceId: occ:332806
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:332853
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:341634
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:365173
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384781
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384786
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384793
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384797
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384805
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384823
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384832
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:384838
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:411037
+              originalIdentifiedName: Mastodon augustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:411039
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:411052
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:411065
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:411066
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:475172
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:502015
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:699224
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:711922
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:711946
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:837719
+              originalIdentifiedName: Mastodon (Trilophodon) angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:987096
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:1185319
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:1313366
+              originalIdentifiedName: Trilophodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:1356042
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+            - occurrenceId: occ:1427989
+              originalIdentifiedName: Mastodon angustidens
+              acceptedName: Tetrabelodon angustidens
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0dd4cc3fbc
+        part: body
+      en:
+        page: en
+        section: s-a90382928d
+        part: body

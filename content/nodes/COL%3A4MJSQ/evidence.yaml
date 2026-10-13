@@ -1,0 +1,131 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pristimera delagoensis (Loes.) R.H.Archer
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4MJSQ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4MJSQ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MJSQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4MJSQ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000749983-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4MJSQ / WFO wfo-0000749983
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_7903_0
+        referenceId: ref-9f0d1579-980e-88a3-a2dc-76dbee27f75f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pristimera delagoensis (Loes.) R.H.Archer account; archive rows 83024 (Morphology), 82156 (Diagnostic), source identifier 7903.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_9797_0
+        referenceId: ref-256393ea-a89b-8915-a7a9-2a9f6b9ac2a9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Pristimera delagoensis (Loes.) R.H.Archer account; archive rows 105060 (Habitat), 105062 (Diagnostic), source identifier 9797.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Scandens (?), glaberrima; ramulis mox cortice cinereo saepius transversaliter rimuloso obtectis, vetustioribus teretibus; foliis oppositis, pro genere parvis et densiusculis, modice petiolatis, coriaceis vel tenuiter coriaceis, ambitu oblongis, oblongo-obovatis usque suborbicularibus, saepe secundum costam superne replicatis, basi cuneatim et sensim in petiolum angustatis, apice obtusis vel rotundatis, manifeste crenatis, i. s. nitidis, supra obscurioribus, costa et nervis utrinque prominulis vel subprominentibus, densiuscule reticulatis, reticulo utrinque prominulo; inflorescentiis plerumque in foliorum axillis solitariis; regularibus, bis vel ter dichotome furcatis, modice pedunculatis, axibus lateralibus, manifestis, pauci-(7-15-)floris; floribus mediocribus; alabastris globosis vel depresso-ovoideis; sepalis rotundatis, sub lente minutissime et brevissime ciliolatis; petalis praefloratione imbricatis, breviter unguiculatis, palmato-ovatis, palmatim-nigro-venosis, extra et infra discum explanatum insertis; disco medio et superne in filamenta abeunte; staminibus 3, filamentis basi valde dilatatis, ima basi sese tangentibus, ovarium cingentibus, antheris rima transversali superne et extrorsum dehiscentibus; ovario 3-lobo, in stylum brevem angustato, 3-loculari, ovulis in loculo circ. 10, biserialibus, axi centrali affixis; capsula 3-loba, lobis ab apice compressis, obovato-ellipticis, plurispermis, opacis, obsolete longitudinali-striatis, seminibus (an maturis?) medium tantum lobum aequantibus vel etiam brevioribus.
+            sourceIds:
+              - sanbi_7903_0
+            locator: "SANBI/WFO archive Morphology row 83024; source 7903.0; publication: Loesener, LET. 1904. Hippocrateaceae africanae II. Bot. Jahrb. Syst. 34(1): 103 - 120. [https://www.biodiversitylibrary.org/item/697#page/111/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Der Bau der Blüte bringt die Art in nahere Verwandtschaft mit der kamerunischen H. unguiculata Loes., die aber ganz andere blätter und weit reicher verzweigte Inflorescenzen besitzt.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_7903_0
+            locator: "SANBI/WFO archive Diagnostic row 82156; source 7903.0; publication: Loesener, LET. 1904. Hippocrateaceae africanae II. Bot. Jahrb. Syst. 34(1): 103 - 120. [https://www.biodiversitylibrary.org/item/697#page/111/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: H. delagoensis is sometimes confused with H. longipetiolata Oliv., but is easily distinguished from it by the leaves with prominent reticulate venation and usually shorter petioles and the larger flowers with broader clawed petals and a flat disk.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_9797_0
+            locator: "SANBI/WFO archive Diagnostic row 105062; source 9797.0; publication: Robson, NKB. 1966. 52. Celastraceae (inc. Hippocrateaceae), Fl. Zambes. 2(2): 355 - 418. Crown Agents for Oversea Governments & Administrations, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In open woodland and dune scrub 0-120 m.
+            sourceIds:
+              - sanbi_9797_0
+            locator: "SANBI/WFO archive Habitat row 105060; source 9797.0; publication: Robson, NKB. 1966. 52. Celastraceae (inc. Hippocrateaceae), Fl. Zambes. 2(2): 355 - 418. Crown Agents for Oversea Governments & Administrations, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

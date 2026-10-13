@@ -1,0 +1,35 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Homo neanderthalensis
+  displayName: Homo neanderthalensis
+  rank: species
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=83087
+    parentSourceIdentifier: txn:40901
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=83087
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b50ff8f8d9
+      - s-fbe51f8bb5
+      - s-3f8011378b
+      - s-1d002e2d22
+      - s-61bd672d64
+      - s-3772929065
+    zh:
+      - s-b5b7ab67c5
+      - s-b49e0b5476
+      - s-cae3a3d6e5
+      - s-5e3e3b09ae
+      - s-5ced436d7c
+      - s-f39544aea0

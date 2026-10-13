@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana malabarica
+  displayName: Hylarana malabarica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMSG
+  sourceIndexes:
+    - name:
+        en: Hylarana malabarica
+        zh: Hylarana malabarica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMSG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/439
+            queryName: Hylarana malabarica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/150
+            queryName: Rana malabarica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/258
+            queryName: Hydrophylax malabaricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/259
+            queryName: Hylorana malabarica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-10ba81a292
+      - s-593d8ac2ab
+      - s-081e85253a
+      - s-08e608c4be
+      - s-f648674bb6
+      - s-782d1212a7
+      - s-2ee26f80ee
+      - s-c42fbc3322
+      - s-b2eb6039cf
+      - s-28e17c2899
+    zh:
+      - s-c663fb449c
+      - s-5b00870cb9
+      - s-5ac5789fc3
+      - s-423d27b577
+      - s-24ce102705
+      - s-8094e15392
+      - s-b315a193a4
+      - s-b99fadeb5c
+      - s-688affdc59
+      - s-3f55149d14

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger liupanensis
+  displayName: Scutiger liupanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W374
+  sourceIndexes:
+    - name:
+        en: Scutiger liupanensis
+        zh: Scutiger liupanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W374
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/152
+            queryName: Scutiger liupanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb6a0d1951
+      - s-df666cbca9
+      - s-d213bcee06
+      - s-5202b368f4
+      - s-3b741d75a6
+      - s-d04248e5b9
+      - s-67b627e94a
+      - s-3e03b52e3f
+      - s-87ac45f0cc
+    zh:
+      - s-1bfe1ad2e4
+      - s-7e6e5b14a7
+      - s-d4453fa14a
+      - s-b5195fa11c
+      - s-fe4c339800
+      - s-e3cf0b484c
+      - s-f59cb445db
+      - s-59ccea4c10
+      - s-59523386ca

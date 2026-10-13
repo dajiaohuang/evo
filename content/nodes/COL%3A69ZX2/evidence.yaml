@@ -1,0 +1,504 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Chomelia grandicarpa Dwyer
+    authorship: Dwyer
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 39D
+        scientificName: Gentianales Juss. ex Bercht. & J.Presl
+        authorship: Juss. ex Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: SGJN5
+        scientificName: Rubiaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: V5DKH
+        scientificName: Dialypetalanthoideae Reveal
+        authorship: Reveal
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: V58FV
+        scientificName: Guettardeae DC.
+        authorship: DC.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 8VW7S
+        scientificName: Chomelia Jacq.
+        authorship: Jacq.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 69ZX2
+        scientificName: Chomelia grandicarpa Dwyer
+        authorship: Dwyer
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 69ZX2; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/69ZX2
+          stableId: col:69ZX2@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 69ZX2; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 69ZX2. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_69zx2_distribution_11450
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Chomelia grandicarpa Dwyer, Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: known only from Panama.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 11450
+          archiveSourceId: 57EBAB53-3134-471B-B600-4C886ABAF7DC
+          archiveSourceIds:
+            - 57EBAB53-3134-471B-B600-4C886ABAF7DC
+          referenceRowNumbers:
+            - 12431
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6461f547-d699-8ce3-a8ac-7a191dbcd541
+                metadataVariant: 0
+                usage:
+                  identifier: 57EBAB53-3134-471B-B600-4C886ABAF7DC
+                  referenceRowNumber: 12431
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 11450 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 11450; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:69ZX2:row:11450
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 11450; field distribution; reference rows 12431.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 11450; CC BY 4.0. Citation metadata: Chomelia grandicarpa Dwyer, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_69zx2_general_11493
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Chomelia grandicarpa Dwyer, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Trees to 6 m tall, the branchlets terete, glabrescent, smooth, moss covered. Leaves, oblong, ovate-oblong or ovate, 4.5-11.0 cm long, 2.5-5.5 cm wide, deltoid to subacute at the apex, acuminate, the acumen to 1 cm long, ultimately acute,
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 11493
+          archiveSourceId: 65603220-3BD0-4700-80AB-A7C62BCB490B
+          archiveSourceIds:
+            - 65603220-3BD0-4700-80AB-A7C62BCB490B
+          referenceRowNumbers:
+            - 12474
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6461f547-d699-8ce3-a8ac-7a191dbcd541
+                metadataVariant: 0
+                usage:
+                  identifier: 65603220-3BD0-4700-80AB-A7C62BCB490B
+                  referenceRowNumber: 12474
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 11493 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 11493; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:69ZX2:row:11493
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 11493; field general; reference rows 12474.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 11493; CC BY 4.0. Citation metadata: Chomelia grandicarpa Dwyer, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_69zx2_habit_11494
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Chomelia grandicarpa Dwyer, Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Trees
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 11494
+          archiveSourceId: F887A4D4-61EB-45E3-B339-7766DB994134
+          archiveSourceIds:
+            - F887A4D4-61EB-45E3-B339-7766DB994134
+          referenceRowNumbers:
+            - 12475
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6461f547-d699-8ce3-a8ac-7a191dbcd541
+                metadataVariant: 0
+                usage:
+                  identifier: F887A4D4-61EB-45E3-B339-7766DB994134
+                  referenceRowNumber: 12475
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 11494 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 11494; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:69ZX2:row:11494
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 11494; field habit; reference rows 12475.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 11494; CC BY 4.0. Citation metadata: Chomelia grandicarpa Dwyer, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_69zx2_general_11495
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Chomelia grandicarpa Dwyer, Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: rounded or obtuse at the base, the costa slender, prominulous above and beneath, drying red, the lateral veins 6-8, arcuate, forming an undulate, submarginal vein well in from the margin, the intervenal areas smooth, the smaller veins not visible, rigidly papyraceous to thin coriaceous, drying deep red brown above, lighter beneath, glabrous above and beneath but moderately villose on the costa below; petioles stiff, terete, to 0.5 cm long, glabrate; stipules persistent only at the tips of the twiglets, triangular, to 3.5 mm long. Inflorescences axillary, the peduncle slender, 1.2-4.5 cm long, ca. 0. 15 mm wide, often curved, pubescent, terminated by 2 flowers or by 2 short, spreading branches, to 8 mm long, each branch with 2-5 flowers; bracts and bracteoles not seen. Flowers (in young bud) sessile, the hypanthium scarcely measurable, the calyx urn shaped, ca. 1 mm long, carnose, appressed pilose outside, the margin subtruncate with 4 compressed-rotund lobes, the latter scarcely measurable; corolla tube cream colored or pink and streaked, carnose, pubescent outside, the lobes valvate; ovules pendent, one in each of the 2 cells, the style cylindrical. Fruits presumably rotund when fresh, fleshy, red, when dried oblong, to 3.2 cm long, to 2.5 cm wide, the seeds 2, oblong, to 2 cm long, wider at the apex than at the base, truncate toward the apex, conspicuously rostrate, the beak triangular, to 0.4 cm long, obviously attenuate toward the base, drying purple black, smooth, glabrous, vaguely sulcate.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 11495
+          archiveSourceId: 16810345-5006-4E24-A72A-7C8E6C47E900
+          archiveSourceIds:
+            - 16810345-5006-4E24-A72A-7C8E6C47E900
+          referenceRowNumbers:
+            - 12476
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-6461f547-d699-8ce3-a8ac-7a191dbcd541
+                metadataVariant: 0
+                usage:
+                  identifier: 16810345-5006-4E24-A72A-7C8E6C47E900
+                  referenceRowNumber: 12476
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 11495 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 11495; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:69ZX2:row:11495
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 11495; field general; reference rows 12476.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 11495; CC BY 4.0. Citation metadata: Chomelia grandicarpa Dwyer, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Trees to 6 m tall, the branchlets terete, glabrescent, smooth, moss covered. Leaves, oblong, ovate-oblong or ovate, 4.5-11.0 cm long, 2.5-5.5 cm wide, deltoid to subacute at the apex, acuminate, the acumen to 1 cm long, ultimately acute,
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_69zx2_general_11493
+            locator: "Flora of Panama general field; imported row 11493; sourceIds 65603220-3BD0-4700-80AB-A7C62BCB490B; reference rows 12474; citations: 65603220-3BD0-4700-80AB-A7C62BCB490B: Chomelia grandicarpa Dwyer, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 12474)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+          - text: rounded or obtuse at the base, the costa slender, prominulous above and beneath, drying red, the lateral veins 6-8, arcuate, forming an undulate, submarginal vein well in from the margin, the intervenal areas smooth, the smaller veins not visible, rigidly papyraceous to thin coriaceous, drying deep red brown above, lighter beneath, glabrous above and beneath but moderately villose on the costa below; petioles stiff, terete, to 0.5 cm long, glabrate; stipules persistent only at the tips of the twiglets, triangular, to 3.5 mm long. Inflorescences axillary, the peduncle slender, 1.2-4.5 cm long, ca. 0. 15 mm wide, often curved, pubescent, terminated by 2 flowers or by 2 short, spreading branches, to 8 mm long, each branch with 2-5 flowers; bracts and bracteoles not seen. Flowers (in young bud) sessile, the hypanthium scarcely measurable, the calyx urn shaped, ca. 1 mm long, carnose, appressed pilose outside, the margin subtruncate with 4 compressed-rotund lobes, the latter scarcely measurable; corolla tube cream colored or pink and streaked, carnose, pubescent outside, the lobes valvate; ovules pendent, one in each of the 2 cells, the style cylindrical. Fruits presumably rotund when fresh, fleshy, red, when dried oblong, to 3.2 cm long, to 2.5 cm wide, the seeds 2, oblong, to 2 cm long, wider at the apex than at the base, truncate toward the apex, conspicuously rostrate, the beak triangular, to 0.4 cm long, obviously attenuate toward the base, drying purple black, smooth, glabrous, vaguely sulcate.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_69zx2_general_11495
+            locator: "Flora of Panama general field; imported row 11495; sourceIds 16810345-5006-4E24-A72A-7C8E6C47E900; reference rows 12476; citations: 16810345-5006-4E24-A72A-7C8E6C47E900: Chomelia grandicarpa Dwyer, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 12476)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: known only from Panama.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_69zx2_distribution_11450
+            locator: "Flora of Panama distribution field; imported row 11450; sourceIds 57EBAB53-3134-471B-B600-4C886ABAF7DC; reference rows 12431; citations: 57EBAB53-3134-471B-B600-4C886ABAF7DC: Chomelia grandicarpa Dwyer, Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 12431)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.

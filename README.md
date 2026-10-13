@@ -107,7 +107,7 @@ npm run verify
 
 `verify` 包含 ESLint、基础 Vitest、注册表与资源包投影一致性、数据/主张/翻译/来源校验、TypeScript、生产 PWA 构建、体积预算、静态页面 smoke test、移动数据构建，以及实际页面调用和可访问性的浏览器测试。
 
-来源导入器的重放测试通过 `npm run test:authoring` 手动运行；修改巴西植物批次生成器或输入时，另行运行 `npm run data:brazil-flora-dossiers:check`。物种资料队列用于内容维护，不进入应用运行时；修改其输入时运行 `npm run data:species-queue:build` 和 `npm run data:species-queue:check`。这两项全量重放不进入日常 CI，常规数据校验仍检查实际文件和来源完整性。
+来源导入器的重放测试通过 `npm run test:authoring` 手动运行；巴西植物原始来源由保留的导入器管理，正文和证据在 canonical 节点中编辑并通过 `rtk npm run content:build` 投影。物种资料队列用于内容维护，不进入应用运行时；修改其输入时运行 `npm run data:species-queue:build` 和 `npm run data:species-queue:check`。这两项全量重放不进入日常 CI，常规数据校验仍检查实际文件和来源完整性。
 
 `npm run source:size` 手动报告源资料体积；发布限制由 Web、Pages 和移动产物的实际体积检查执行。
 
@@ -197,7 +197,7 @@ npm run data:indexes
 npm run data:split:geojson -- --input staging/world.geojson
 ```
 
-更完整的格式、缓存、预算和发布规则见 [`docs/static-data-platform-v5.md`](docs/static-data-platform-v5.md)。
+节点身份、正文、证据和投影的存储规则见 [`docs/content-storage.md`](docs/content-storage.md)。
 
 ## 正确性与真实性边界
 

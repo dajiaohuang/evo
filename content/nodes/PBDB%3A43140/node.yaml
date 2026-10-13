@@ -1,0 +1,31 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinocerotoidea
+  displayName: Rhinocerotoidea
+  rank: superfamily
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=43140
+    parentSourceIdentifier: txn:43090
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=43140
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da513c66da
+      - s-e56457ecf7
+      - s-12eabdd88d
+      - s-7a1e501a9b
+    zh:
+      - s-310b9cc341
+      - s-04ba561d32
+      - s-8b67489539
+      - s-6ab91778ba

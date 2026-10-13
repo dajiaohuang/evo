@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pseudopaludicola coracoralinae Andrade, Haga, Lyra, Carvalho, Haddad, Giaretta & Toledo, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pseudopaludicola coracoralinae
+      zh: Pseudopaludicola coracoralinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4802dd94aa
+            part: title
+          zh:
+            page: zh
+            section: s-a1686a5325
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4802dd94aa
+            part: body
+          zh:
+            page: zh
+            section: s-a1686a5325
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f6a290c57f
+            part: title
+          zh:
+            page: zh
+            section: s-94015ec857
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f6a290c57f
+            part: body
+          zh:
+            page: zh
+            section: s-94015ec857
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-0f38223b48
+            part: body
+          zh:
+            page: zh
+            section: s-fe89cda689
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pseudopaludicola coracoralinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/S6SZC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d92e43cb31
+        part: body
+      zh:
+        page: zh
+        section: s-96c185a4b4
+        part: body

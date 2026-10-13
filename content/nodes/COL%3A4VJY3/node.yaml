@@ -1,0 +1,150 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax nebulosus
+  displayName: Scinax nebulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJY3
+  sourceIndexes:
+    - name:
+        en: Scinax nebulosus
+        zh: Scinax nebulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJY3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/58
+            queryName: Scinax nebulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/434
+            queryName: Hyla nebulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/435
+            queryName: Hyla cynocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/436
+            queryName: Hyla egleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/437
+            queryName: Ololygon egleri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/438
+            queryName: Hyla cyanocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/439
+            queryName: Ololygon cynocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/440
+            queryName: Scinax nebulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/441
+            queryName: Scinax cynocephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/442
+            queryName: Scinax cynocephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-09be6b5087
+      - s-805a68c385
+      - s-b8ee849758
+      - s-be1df8969b
+      - s-c091c14c9a
+      - s-623251eca9
+      - s-5c47005b3c
+      - s-fbf01f3767
+      - s-176e99cf64
+      - s-e2e68322b5
+      - s-c0eb4e8eec
+      - s-fa7f9c1781
+      - s-c191429d4b
+      - s-4f60117f58
+      - s-746b56a2eb
+      - s-2aca3084b8
+      - s-8ab1e07cef
+      - s-06b50a2eae
+      - s-69278d8086
+      - s-091f5451ec
+      - s-67d51dfaff
+      - s-8a7a493501
+      - s-2eed8ba8c9
+      - s-8243ec83c7
+      - s-560b3197ef
+      - s-9ed86e04d4
+      - s-8eba2c37f0
+      - s-05bec78035
+    zh:
+      - s-4a95e5b758
+      - s-f44d5820fe
+      - s-cfa90c780f
+      - s-9a49d81b9f
+      - s-6f13feacf8
+      - s-4bdf664cde
+      - s-bc15ba7c34
+      - s-1c7e624e26
+      - s-37a328ffa0
+      - s-16bb2ca59b
+      - s-327b7763b1
+      - s-197ade1d5c
+      - s-0c549ca384
+      - s-b26b233fb4
+      - s-278f3517df
+      - s-21859168fb
+      - s-e04ad986c8
+      - s-1932c0a48c
+      - s-3bfc648979
+      - s-e073a3fe29
+      - s-973deba7d1
+      - s-f0903e3a00
+      - s-68cefdb149
+      - s-babb163e85
+      - s-f2e697960d
+      - s-6852efe7fd
+      - s-0d95a415ad
+      - s-8f5eb58b0c

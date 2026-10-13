@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus atlas
+  displayName: Trachycephalus atlas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PVF
+  sourceIndexes:
+    - name:
+        en: Trachycephalus atlas
+        zh: Trachycephalus atlas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PVF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/94
+            queryName: Trachycephalus atlas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 35
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0de5e0d484
+      - s-f14092db0b
+      - s-f8f9eff757
+      - s-29beda2978
+      - s-5b4d8165ec
+      - s-ad723acc3f
+      - s-5dac1d1305
+      - s-a07973a25e
+      - s-c05e2c59b6
+      - s-af4564a851
+      - s-2f66bfd918
+      - s-38204c848f
+      - s-1e23c0d59a
+      - s-85ef6524c2
+      - s-89c9357d8c
+      - s-ab121ab140
+      - s-485ec1c794
+      - s-b0a36429f9
+    zh:
+      - s-6cbeb14073
+      - s-23ea80bee4
+      - s-85574af31c
+      - s-5a7042825e
+      - s-a1b0def0bb
+      - s-b797d3cd90
+      - s-d2406a3e5c
+      - s-1828da7db0
+      - s-7f22aba065
+      - s-2581952e30
+      - s-555541b450
+      - s-5a94f51591
+      - s-8d62621568
+      - s-8da934f741
+      - s-b3c1dfb100
+      - s-fee85ba0b9
+      - s-5629b81680
+      - s-05f3c51fde

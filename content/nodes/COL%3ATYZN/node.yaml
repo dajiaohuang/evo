@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis alagoana
+  displayName: Chiasmocleis alagoana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TYZN
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis alagoana
+        zh: Chiasmocleis alagoana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TYZN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/233
+            queryName: Chiasmocleis alagoana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/336
+            queryName: Chiasmocleis alagoanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a7d6d6ec72
+      - s-12c1ba3b56
+      - s-1b0fe2af2f
+      - s-e42e12bc93
+      - s-8bbfd7030b
+      - s-c3c4205a50
+      - s-bc51171e22
+      - s-3e9be78deb
+      - s-e18d633748
+      - s-0e0b12f88a
+      - s-115ab00e6d
+      - s-ed7f9e5096
+      - s-6fe3658542
+    zh:
+      - s-e35e85a959
+      - s-dfb6c7c60b
+      - s-7ae7224680
+      - s-94f6d86f74
+      - s-67766f5401
+      - s-1005a47143
+      - s-ed7cb1a523
+      - s-1f2d46dc38
+      - s-5f3a92e51f
+      - s-e6dd3e8863
+      - s-249012ac3c
+      - s-ee19e4a10e
+      - s-abbbee2a64

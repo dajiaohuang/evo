@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus riparius
+  displayName: Cophixalus riparius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y455
+  sourceIndexes:
+    - name:
+        en: Cophixalus riparius
+        zh: Cophixalus riparius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y455
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/480
+            queryName: Cophixalus riparius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5b6c241ea
+      - s-842783f1d0
+      - s-db81790f78
+      - s-7dc70805a3
+      - s-7c7f7c2a65
+      - s-ddf1987024
+      - s-1ec1151610
+      - s-3ab6680740
+      - s-c74a957945
+      - s-58baabdb5f
+      - s-9c50dd4387
+    zh:
+      - s-8305c3605b
+      - s-734421bc09
+      - s-a836a04b34
+      - s-1ff2afc572
+      - s-861c047b24
+      - s-a6ce7ede09
+      - s-1d9b22a5b1
+      - s-f8cf1867fd
+      - s-fb281a5933
+      - s-7e9ef3159e
+      - s-c31992ade2

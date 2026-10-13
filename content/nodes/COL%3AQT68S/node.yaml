@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Occidozyga lingnanica
+  displayName: Occidozyga lingnanica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QT68S
+  sourceIndexes:
+    - name:
+        en: Occidozyga lingnanica
+        zh: Occidozyga lingnanica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QT68S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/465
+            queryName: Occidozyga lingnanica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aef88b67d1
+      - s-655f2a52c9
+      - s-5390c9975b
+      - s-5786f3bc74
+      - s-d90df0ba0b
+      - s-bceb531ebc
+      - s-781d6eb3a6
+      - s-f723a762e4
+      - s-c98ce86f67
+      - s-171a9d31eb
+      - s-3f656cbfa6
+      - s-8507c211a1
+      - s-4a890263ce
+      - s-b15111c3de
+      - s-9763ca4556
+      - s-2b5fb47843
+      - s-e01076c206
+      - s-43f1aa11a6
+      - s-284c1f4822
+      - s-abf618982d
+      - s-817362ba5a
+      - s-0e5398beb4
+      - s-b0a3200283
+      - s-d372836e22
+    zh:
+      - s-c62449c5a6
+      - s-bd9192288a
+      - s-550ed6d131
+      - s-905b7257b0
+      - s-b86a0a1d26
+      - s-286e1f5f3d
+      - s-0720143906
+      - s-7a4b114777
+      - s-860d07f45b
+      - s-8e53cdb444
+      - s-db83c48a14
+      - s-ee2ed32ee6
+      - s-6549e4b07a
+      - s-5fb0417f10
+      - s-49c8c1ef32
+      - s-d0a15ad15f
+      - s-7ae2ff168d
+      - s-173f2bca95
+      - s-7ba8f8d6c6
+      - s-9cb5c4ae1f
+      - s-ce0145c016
+      - s-400515473e
+      - s-c65c920c06
+      - s-982e08b7e1

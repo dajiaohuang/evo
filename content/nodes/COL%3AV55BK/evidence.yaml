@@ -1,0 +1,367 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kalophrynus minutus Imbun, Fui Lian, Lakim & Majuakim, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kalophrynus minutus
+      zh: Kalophrynus minutus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7d2f204536
+            part: title
+          zh:
+            page: zh
+            section: s-00a3b8931a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7d2f204536
+            part: body
+          zh:
+            page: zh
+            section: s-00a3b8931a
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-33ea40b86a
+            part: title
+          zh:
+            page: zh
+            section: s-1ab0812bca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-33ea40b86a
+            part: body
+          zh:
+            page: zh
+            section: s-1ab0812bca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-d850954148
+            part: title
+          zh:
+            page: zh
+            section: s-ec2f605716
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-d850954148
+            part: body
+          zh:
+            page: zh
+            section: s-ec2f605716
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-a6e0bd073f
+            part: title
+          zh:
+            page: zh
+            section: s-411d9d26d8
+            part: title
+        sourceIds:
+          - primary-pmc12423637-v55bk
+        text:
+          en:
+            page: en
+            section: s-a6e0bd073f
+            part: body
+          zh:
+            page: zh
+            section: s-411d9d26d8
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cec869b928
+            part: title
+          zh:
+            page: zh
+            section: s-dfb510db81
+            part: title
+        sourceIds:
+          - primary-pmc12423637-v55bk
+        text:
+          en:
+            page: en
+            section: s-cec869b928
+            part: body
+          zh:
+            page: zh
+            section: s-dfb510db81
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-574bf13aeb
+            part: title
+          zh:
+            page: zh
+            section: s-38b9a28553
+            part: title
+        sourceIds:
+          - primary-pmc12423637-v55bk
+        text:
+          en:
+            page: en
+            section: s-574bf13aeb
+            part: body
+          zh:
+            page: zh
+            section: s-38b9a28553
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6a23bf6f11
+            part: title
+          zh:
+            page: zh
+            section: s-6aae093cd1
+            part: title
+        sourceIds:
+          - primary-pmc12423637-v55bk
+        text:
+          en:
+            page: en
+            section: s-6a23bf6f11
+            part: body
+          zh:
+            page: zh
+            section: s-6aae093cd1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kalophrynus minutus
+          url: https://www.checklistbank.org/dataset/316115/taxon/V55BK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 1271538, row 975771; Distribution.tsv rows 441780; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: primary-pmc12423637-v55bk
+        referenceId: ref-93371430-225f-4a4f-aa65-bc2c3d2d542c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kalophrynus minutus: Retained distribution/ecology paragraphs plus species Description, applicable Distribution and Kalophrynus Diagnosis paragraphs; no figures reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-35a4764178
+        part: body
+      zh:
+        page: zh
+        section: s-3e666529d8
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "1271538"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1271538
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName and species rank; authorship representation normalization limited to NFC, whitespace and and/& conjunction.
+      originalSourceAuthorship: Imbun, Fui Lian, Lakim and Majuakim, 2025
+      colAuthorship: Imbun, Fui Lian, Lakim & Majuakim, 2025
+      exactAuthorship: false
+      equivalentAuthorshipRepresentation: true
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 975771
+        key: "1271538"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "1271538"
+            area: Southern Asia
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 441780
+            key: 1271538|Southern Asia|text|NULL|NULL
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.13.e157470
+        referenceId: ref-93371430-225f-4a4f-aa65-bc2c3d2d542c
+        sourceKey: primary-pmc12423637-v55bk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12423637/article.xml
+        sourceConcept: Kalophrynus minutus
+        evidenceRead: "Kalophrynus minutus: Retained distribution/ecology paragraphs plus species Description, applicable Distribution and Kalophrynus Diagnosis paragraphs; no figures reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Two Crocker Range records
+              zh: 克罗克山脉的两个记录
+            referenceId: ref-93371430-225f-4a4f-aa65-bc2c3d2d542c
+            sourceKey: primary-pmc12423637-v55bk
+            locator: "Kalophrynus minutus: Retained distribution/ecology paragraphs plus species Description, applicable Distribution and Kalophrynus Diagnosis paragraphs; no figures reproduced; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-53c3113211
+                part: body
+              zh:
+                page: zh
+                section: s-c7379b2777
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Litter and soil observations
+              zh: 落叶与土壤中的观察
+            referenceId: ref-93371430-225f-4a4f-aa65-bc2c3d2d542c
+            sourceKey: primary-pmc12423637-v55bk
+            locator: "Kalophrynus minutus: Retained distribution/ecology paragraphs plus species Description, applicable Distribution and Kalophrynus Diagnosis paragraphs; no figures reproduced; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-87d8fba0be
+                part: body
+              zh:
+                page: zh
+                section: s-9c0d4c9ab5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Eighteen measured adults and named error statistics
+              zh: 十八只测量成体与具名误差统计
+            referenceId: ref-93371430-225f-4a4f-aa65-bc2c3d2d542c
+            sourceKey: primary-pmc12423637-v55bk
+            locator: Taxon treatments > Kalophrynus minutus > Description; reading-sections index 1, paragraphs 1 and 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8db6ff9793
+                part: body
+              zh:
+                page: zh
+                section: s-d0cfcb8448
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: morphology
+            heading:
+              en: Live colour distinguished from preservative markings
+              zh: 区分活体颜色与保存斑纹
+            referenceId: ref-93371430-225f-4a4f-aa65-bc2c3d2d542c
+            sourceKey: primary-pmc12423637-v55bk
+            locator: Taxon treatments > Kalophrynus minutus > Description; reading-sections index 1, Colour in life, Colour in preservative and Secondary sexual characteristics; Diagnosis at index 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b97e6533fb
+                part: body
+              zh:
+                page: zh
+                section: s-89f697c4ae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

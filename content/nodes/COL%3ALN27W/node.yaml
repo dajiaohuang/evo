@@ -1,0 +1,172 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aquarana catesbeiana
+  displayName: Aquarana catesbeiana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LN27W
+  sourceIndexes:
+    - name:
+        en: Aquarana catesbeiana
+        zh: Aquarana catesbeiana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LN27W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/97
+            queryName: Aquarana catesbeiana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 96
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/205
+            queryName: Rana catesbeiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9511
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/396
+            queryName: Lithobates catesbeianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 895
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/142
+            queryName: Rana mugiens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/143
+            queryName: Rana scapularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/365
+            queryName: Rana conspersa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/376
+            queryName: Rana nantaiwuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/389
+            queryName: Rana taurina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fbbca71a2b
+      - s-67fd879f3a
+      - s-1088785ad5
+      - s-3ed08515b2
+      - s-07b7379553
+      - s-a16a68c982
+      - s-5ff91ff147
+      - s-da69c64c50
+      - s-3a45dde73e
+      - s-38f9a6596d
+      - s-4a83153b1c
+      - s-25eaa9d72d
+      - s-a7cc7aaa56
+      - s-0f08215fa0
+      - s-3580f89812
+      - s-484e13b425
+      - s-bdf67136a6
+      - s-369a894bc4
+      - s-54a79783e8
+      - s-4ee6153f29
+      - s-d05e971f16
+      - s-e519e494fc
+      - s-362d80126a
+      - s-54eeab7b83
+      - s-2ef28d2d4d
+      - s-f5b980720e
+      - s-35a84e1974
+      - s-bb55b6a554
+      - s-dfac44a347
+      - s-3d83cd0ee8
+      - s-ea9ca81c8f
+      - s-8d1d954641
+      - s-41dfb591b1
+      - s-01cfbe23e4
+      - s-d53cf84ffa
+      - s-dc163e8139
+      - s-28d5be8931
+      - s-d8feb74522
+      - s-2b3ad30973
+      - s-b048e18bdd
+      - s-4314123894
+      - s-fae81e27bc
+      - s-bf266e303f
+      - s-66f9741da8
+      - s-9b75aacbaf
+    zh:
+      - s-e735a4da26
+      - s-54f133a51d
+      - s-5a236151d1
+      - s-714e3ec079
+      - s-707207b014
+      - s-72e8b733e3
+      - s-4c7731383b
+      - s-f12b9b9ceb
+      - s-89bd793c1e
+      - s-7109bcffd2
+      - s-f0dbe2762b
+      - s-094fcade76
+      - s-3f59cde77e
+      - s-9892959bb9
+      - s-aba446eae8
+      - s-97aa371fec
+      - s-e6995e9b11
+      - s-18b273f94b
+      - s-2aa4f9b775
+      - s-ad4cb353d5
+      - s-f02c368013
+      - s-e9b2e40004
+      - s-ba49a28dda
+      - s-599a73a70c
+      - s-1733f4c086
+      - s-48a40a035c
+      - s-fbc2556547
+      - s-0db5976ad5
+      - s-d23995493d
+      - s-8bc179262d
+      - s-07e99950e0
+      - s-3f821d4da0
+      - s-0b999fef1d
+      - s-6dc8dd9301
+      - s-2bd497c461
+      - s-7f248b54a4
+      - s-7fe5283de2
+      - s-41170038f2
+      - s-0e6158fcd9
+      - s-a31118fce4
+      - s-ceb2bc5dbf
+      - s-f47f0d1bca
+      - s-e265fece1b
+      - s-8dc31e06fc
+      - s-6bedb41fe3

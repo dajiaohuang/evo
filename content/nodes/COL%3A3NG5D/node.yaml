@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes asper
+  displayName: Hylodes asper
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG5D
+  sourceIndexes:
+    - name:
+        en: Hylodes asper
+        zh: Hylodes asper
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG5D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/488
+            queryName: Hylodes asper
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/322
+            queryName: Elosia aspera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-151bf9454c
+      - s-d46255a166
+      - s-909f583252
+      - s-6887b95c15
+      - s-0dfdea8ab3
+      - s-32682266de
+      - s-b30994acfa
+      - s-12494140cf
+      - s-a8a4ba2a57
+      - s-b7a06b972f
+      - s-7fcf55a514
+      - s-ccf37a6e2b
+      - s-0f6b6073f9
+      - s-a698077549
+      - s-eee4f48e05
+      - s-d0045d348f
+      - s-a3a4d08a23
+      - s-444e465c53
+      - s-b7fa8e8ace
+      - s-31b9d45f70
+      - s-2a5d2917b0
+      - s-60d518e385
+      - s-7b92a5957c
+      - s-b8b6b17e08
+    zh:
+      - s-c0130c7a3a
+      - s-0763a1372b
+      - s-05af4bc5cf
+      - s-52ffc4a5c9
+      - s-f2c5714816
+      - s-4964fbacae
+      - s-d4bf62b37d
+      - s-0fc6bb3401
+      - s-cff2a55ba9
+      - s-f43d84c8f5
+      - s-cd93183ff4
+      - s-95ffa4eb5f
+      - s-688acd212f
+      - s-b179c00d00
+      - s-64f18f1e8b
+      - s-2f986b2821
+      - s-9825679af9
+      - s-94ab4d6c1f
+      - s-82322ac767
+      - s-934d671b29
+      - s-50a380c81c
+      - s-71266e0fd8
+      - s-767e3d4d2c
+      - s-2f1f44682c

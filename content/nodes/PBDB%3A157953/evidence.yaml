@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chaoyangopteridae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Chaoyangopteridae
+      en: Chaoyangopteridae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4c25430645
+            part: body
+          en:
+            page: en
+            section: s-c7ca8ac091
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a14d187ab6
+            part: body
+          en:
+            page: en
+            section: s-1072e5129a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Chaoyangopteridae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=157953
+          locator: Recorded PBDB parent closure beneath the already documented Pterosauria COL-compatible storage anchor.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:157953
+          readingTargets:
+            - name: Shenzhoupterus chaoyangensis
+              pbdbTaxonId: txn:157952
+              canonicalPath: content/nodes/PBDB%3A157952
+            - name: Apatorhamphus gyrostega
+              pbdbTaxonId: txn:426088
+              canonicalPath: content/nodes/PBDB%3A426088
+            - name: Lacusovagus magnificens
+              pbdbTaxonId: txn:163711
+              canonicalPath: content/nodes/PBDB%3A163711
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=157953&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:157953; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    limitations:
+      zh:
+        page: zh
+        section: s-24912e5a10
+        part: body
+      en:
+        page: en
+        section: s-6676af2180
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:157953
+    scientificName: Chaoyangopteridae
+    commonName: Chaoyangopteridae
+    commonNameZh: Chaoyangopteridae
+    rank: family
+    parentName: Neoazhdarchia
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-c7ca8ac091
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-6676af2180
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+    readerSections:
+      - id: pbdb-occurrence-1
+        title:
+          en: A family route to three species pages
+          zh: 沿科级路径查找三个物种
+        text:
+          zh:
+            page: zh
+            section: s-4c25430645
+            part: body
+          en:
+            page: en
+            section: s-c7ca8ac091
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Compare four selected occurrences
+          zh: 对照四条所选出现记录
+        text:
+          zh:
+            page: zh
+            section: s-a14d187ab6
+            part: body
+          en:
+            page: en
+            section: s-1072e5129a
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 333
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 334
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-24912e5a10
+        part: body
+      en:
+        page: en
+        section: s-6676af2180
+        part: body
+    readerRelatedPages:
+      - targetId: txn:149369
+        label:
+          en: Neoazhdarchia
+          zh: Neoazhdarchia
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+      - targetId: txn:157951
+        label:
+          en: Shenzhoupterus
+          zh: Shenzhoupterus
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:426087
+        label:
+          en: Apatorhamphus
+          zh: Apatorhamphus
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:163710
+        label:
+          en: Lacusovagus
+          zh: Lacusovagus
+        context:
+          zh: 沿记录分类路径查看后代资料；导读不代表全部后代已有完整专论。
+          en: Follow the recorded classification path into descendant material; guides do not imply complete monographs for every descendant.
+      - targetId: txn:157952
+        label:
+          en: Shenzhoupterus chaoyangensis
+          zh: Shenzhoupterus chaoyangensis
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+      - targetId: txn:426088
+        label:
+          en: Apatorhamphus gyrostega
+          zh: Apatorhamphus gyrostega
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+      - targetId: txn:163711
+        label:
+          en: Lacusovagus magnificens
+          zh: Lacusovagus magnificens
+        context:
+          zh: 对读该物种的具名采集地、地层区间与原引文；不是完整生态比较。
+          en: Compare this species’ named collections, stratigraphic brackets and original reference links; not a complete ecological comparison.
+  atlas-node:
+    name: Chaoyangopteridae
+    commonName: Chaoyangopteridae
+    commonNameZh: Chaoyangopteridae
+    rank: family
+    taxonId: txn:157953
+    firstAppearance: 121.4
+    lastAppearance: 93.9
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:157953
+      rangeKind: global-composite
+      taxonomicConcept: Chaoyangopteridae
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 121.4
+      youngerMa: 93.9
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 121.4–113.2 Ma and last-occurrence bracket 100.5–93.9 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:157953; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

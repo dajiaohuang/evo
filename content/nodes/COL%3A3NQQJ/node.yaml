@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius acutirostris
+  displayName: Hyperolius acutirostris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQQJ
+  sourceIndexes:
+    - name:
+        en: Hyperolius acutirostris
+        zh: Hyperolius acutirostris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQQJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/214
+            queryName: Hyperolius acutirostris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/174
+            queryName: Rappia acutirostris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e794dbe927
+      - s-1095919506
+      - s-ba92e62294
+      - s-139faf798d
+      - s-09c954486d
+      - s-cbe1f66fc5
+      - s-589b6a1dbc
+      - s-06dd9b0dde
+      - s-26d698f163
+      - s-f431787fef
+    zh:
+      - s-2e63ced1ba
+      - s-6e54815c72
+      - s-cf483b945d
+      - s-2977cba45e
+      - s-2b7275132f
+      - s-c81e256227
+      - s-2a731058c2
+      - s-c273cd9c6d
+      - s-df83d52511
+      - s-db4d52b689

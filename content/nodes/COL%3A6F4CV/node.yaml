@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus leberi
+  displayName: Eleutherodactylus leberi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4CV
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus leberi
+        zh: Eleutherodactylus leberi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4CV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/250
+            queryName: Eleutherodactylus leberi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e8ebc08063
+      - s-4c8ff0ab6e
+      - s-60876c3498
+      - s-666bc3671b
+      - s-70789e4136
+      - s-16e51f171f
+      - s-be0dc86816
+      - s-808084fa40
+      - s-482dfd2bf2
+    zh:
+      - s-520f792590
+      - s-c7ec88eb79
+      - s-ff8d144de1
+      - s-a3a9c43dc0
+      - s-a66cbd49dc
+      - s-46b2f42d2d
+      - s-090d30480c
+      - s-22001cdfa7
+      - s-20befade07

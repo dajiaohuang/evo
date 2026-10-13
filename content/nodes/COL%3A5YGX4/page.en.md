@@ -1,0 +1,3 @@
+## *Chromolaena latisquamulosa*: round leaves and cylindrical heads {#s-891c4541b1}
+The Brazilian Flora 2020 regional field records a woody underground swelling (xylopodium) and opposite, round or egg-shaped leaves with three main veins. The edges are scalloped or serrated; the lower surface may be hairless or bristly, while the upper is hairless. Sessile or nearly stalkless heads form corymb-like clusters within cylindrical or bell-shaped cups. The fruitlets are inversely cone-shaped, becoming hairless or bearing short bristles, with rough pappus bristles. These are alternatives in the source field.
+

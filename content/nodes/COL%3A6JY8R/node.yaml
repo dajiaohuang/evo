@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca espeletia
+  displayName: Gastrotheca espeletia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JY8R
+  sourceIndexes:
+    - name:
+        en: Gastrotheca espeletia
+        zh: Gastrotheca espeletia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JY8R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/34
+            queryName: Gastrotheca espeletia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-189a8f61df
+      - s-a08f04e698
+      - s-1835fb6cfd
+      - s-f107ef436f
+      - s-4205ff9ffd
+      - s-ef4ebbb123
+      - s-947f5e5499
+      - s-95c082308d
+      - s-49c10e4b4f
+    zh:
+      - s-af4a8391c0
+      - s-317fdaa727
+      - s-cf1f8f793c
+      - s-452f698f43
+      - s-13c21bcfa2
+      - s-50c03879a0
+      - s-e89a77c042
+      - s-c0d73fb476
+      - s-92140182a2

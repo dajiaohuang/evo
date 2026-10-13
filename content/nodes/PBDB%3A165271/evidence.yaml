@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cosgriffius campi
+    rank: species
+    sourceTaxonId: txn:165271
+    name:
+      en: Cosgriffius campi
+      zh: Cosgriffius campi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-4eb11fa280
+            part: body
+          zh:
+            page: zh
+            section: s-d094f3a4b4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-f2cef2e177
+            part: body
+          zh:
+            page: zh
+            section: s-22f8c0cdc3
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-0a5106fdfe
+            part: body
+          zh:
+            page: zh
+            section: s-2961d90d34
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:165271; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. P. Welles. 1993. A review of lonchorhynchine trematosaurs (Labryrinthodontia), and a description of a new genus and species from the lower Moenkopi Formation of Arizona. PaleoBios 14(3):1-24
+    occurrenceEvidence:
+      - occurrenceId: occ:855778
+        collectionId: col:95105
+        acceptedTaxonId: txn:165271
+        identifiedName: Cosgriffius campi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:32397
+        bibliography: S. P. Welles. 1993. A review of lonchorhynchine trematosaurs (Labryrinthodontia), and a description of a new genus and species from the lower Moenkopi Formation of Arizona. PaleoBios 14(3):1-24
+        locality:
+          countryCode: US
+          stateProvince: Arizona
+          county: Coconino
+        stratigraphy:
+          group: null
+          formation: Moenkopi
+          member: Wupatki
+        olderAgeMa: 248.6
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-0a5106fdfe
+            part: body
+          zh:
+            page: zh
+            section: s-2961d90d34
+            part: body
+        sourceIds: []

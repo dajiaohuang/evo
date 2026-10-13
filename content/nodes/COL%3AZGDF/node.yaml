@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia tasmaniensis
+  displayName: Crinia tasmaniensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGDF
+  sourceIndexes:
+    - name:
+        en: Crinia tasmaniensis
+        zh: Crinia tasmaniensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGDF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/215
+            queryName: Crinia tasmaniensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/377
+            queryName: Pterophrynus tasmaniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/378
+            queryName: Camariolus tasmaniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/379
+            queryName: Ranidella tasmaniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/380
+            queryName: Australocrinia tasmaniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-397bc7f33c
+      - s-04b9362cc0
+      - s-468e5118aa
+      - s-050c5f55b5
+      - s-8cb9837126
+      - s-30ede4524b
+      - s-025764bc39
+      - s-cfd9ed5245
+      - s-551f92582b
+      - s-5ead4bf999
+    zh:
+      - s-6703935e33
+      - s-f12117236e
+      - s-5a23e8e1d4
+      - s-666e727ca4
+      - s-3da6392da2
+      - s-a79911001a
+      - s-683da46c3c
+      - s-d96405f9ea
+      - s-f6e59ad4c8
+      - s-c241a1cab6

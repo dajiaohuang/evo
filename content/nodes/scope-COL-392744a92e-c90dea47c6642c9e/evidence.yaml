@@ -1,0 +1,212 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:55149
+    scientificName: Aglaophyton
+    commonName: Aglaophyton
+    commonNameZh: 阿格兰蕨属
+    rank: genus
+    parentName: Plantae
+    extinct: true
+    geography:
+      - Rhynie Chert, Aberdeenshire, Scotland
+    overview:
+      page: en
+      section: s-cbc612967d
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-41b2b633e1
+        part: body
+      habitat:
+        page: en
+        section: s-4083f175ee
+        part: body
+      locomotion:
+        page: en
+        section: s-a4e893ee5b
+        part: body
+      bodySize:
+        page: en
+        section: s-a5c290d0cd
+        part: body
+      guild:
+        page: en
+        section: s-4a3b065d31
+        part: body
+    traits:
+      - page: en
+        section: s-48fd1760b3
+        part: body
+      - page: en
+        section: s-d046ef6ddf
+        part: body
+      - page: en
+        section: s-356bde3dc2
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-c332c72e4e
+      part: body
+    confidence: medium
+    referenceIds:
+      - edwards-1986-aglaophyton
+      - parry-2011-rhynie-age
+    readerSections:
+      - id: axes-and-conducting-tissue
+        title:
+          en:
+            page: en
+            section: s-714514bb92
+            part: title
+          zh:
+            page: zh
+            section: s-a0c0183eb3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-714514bb92
+            part: body
+          zh:
+            page: zh
+            section: s-a0c0183eb3
+            part: body
+        sourceIds:
+          - edwards-1986-aglaophyton
+          - parry-2011-rhynie-age
+    readerSources:
+      - id: edwards-1986-aglaophyton
+        referenceId: edwards-1986-aglaophyton
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 173–204; Reconstruction and conducting-strand figures; Abstract; generic diagnosis; redescription and systematic discussion | 173–204; Title, material and Rhynie Chert provenance | 173–204; Whole-plant reconstruction; Abstract; growth-form reconstruction and discussion | 173–204; Reconstruction and conducting-strand figures; Abstract; reconstruction; conducting-strand description and rediagnosis | 173–204; Rhynie Chert material and redescription
+          scope:
+            en: "Aglaophyton: 173–204; Reconstruction and conducting-strand figures; Abstract; generic diagnosis; redescription and systematic discussion | 173–204; Title, material and Rhynie Chert provenance | 173–204; Whole-plant reconstruction; Abstract; growth-form reconstruction and discussion | 173–204; Reconstruction and conducting-strand figures; Abstract; reconstruction; conducting-strand description and rediagnosis | 173–204; Rhynie Chert material and redescription. Limited to the cited specimens, samples or analyses."
+            zh: Aglaophyton：原文定位 173–204; Reconstruction and conducting-strand figures; Abstract; generic diagnosis; redescription and systematic discussion | 173–204; Title, material and Rhynie Chert provenance | 173–204; Whole-plant reconstruction; Abstract; growth-form reconstruction and discussion | 173–204; Reconstruction and conducting-strand figures; Abstract; reconstruction; conducting-strand description and rediagnosis | 173–204; Rhynie Chert material and redescription。本文仅使用所引标本、样本或分析的对应结果。
+      - id: parry-2011-rhynie-age
+        referenceId: parry-2011-rhynie-age
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: 863–872; Figure 1; Rhynie Outlier geological setting | 863–872; Figures 1–4; Abstract; ID-TIMS methods and Results; 411.5 ± 1.3 Ma zircon age
+          scope:
+            en: "Aglaophyton: 863–872; Figure 1; Rhynie Outlier geological setting | 863–872; Figures 1–4; Abstract; ID-TIMS methods and Results; 411.5 ± 1.3 Ma zircon age. Limited to the cited specimens, samples or analyses."
+            zh: Aglaophyton：原文定位 863–872; Figure 1; Rhynie Outlier geological setting | 863–872; Figures 1–4; Abstract; ID-TIMS methods and Results; 411.5 ± 1.3 Ma zircon age。本文仅使用所引标本、样本或分析的对应结果。
+  claims:
+    - subjectId: taxon:aglaophyton
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Edwards established Aglaophyton for the plant formerly called Rhynia major after re-examining new and historical material; the profile preserves the paper's refusal to assign the genus to a living higher group.
+      confidence: high
+      confidenceRationale: The primary redescription explicitly names the genus, gives its basis and discusses higher placement. High confidence is restricted to that taxonomic act and does not imply direct ancestry or current consensus on every higher relationship.
+      referenceLinks:
+        - referenceId: edwards-1986-aglaophyton
+          relation: supports
+          pages: 173–204
+          figure: Reconstruction and conducting-strand figures
+          quoteLocator: Abstract; generic diagnosis; redescription and systematic discussion
+    - subjectId: taxon:aglaophyton
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profiled Aglaophyton major material is from the Rhynie Chert of Aberdeenshire, Scotland; this named deposit does not establish the genus's complete geographic distribution or centre of origin.
+      confidence: high
+      confidenceRationale: The anatomical paper identifies the Rhynie Chert source and the geochronology paper independently identifies the Rhynie Outlier. High confidence applies only to the represented material and locality.
+      referenceLinks:
+        - referenceId: edwards-1986-aglaophyton
+          relation: supports
+          pages: 173–204
+          quoteLocator: Title, material and Rhynie Chert provenance
+        - referenceId: parry-2011-rhynie-age
+          relation: contextualizes
+          pages: 863–872
+          figure: Figure 1
+          quoteLocator: Rhynie Outlier geological setting
+    - subjectId: taxon:aglaophyton
+      claimType: ecology
+      claimKind: scientific
+      statement: The Aglaophyton reconstruction includes extensive stands of decumbent axes with upright branches, but the fossil study did not measure carbon acquisition, population breadth or a genus-wide ecological guild.
+      confidence: medium
+      confidenceRationale: Axis orientation and the stand reconstruction are results of the sampled anatomy, whereas detailed physiology and population ecology were not observed. Medium confidence marks this boundary between reconstruction and unavailable ecology.
+      referenceLinks:
+        - referenceId: edwards-1986-aglaophyton
+          relation: supports
+          pages: 173–204
+          figure: Whole-plant reconstruction
+          quoteLocator: Abstract; growth-form reconstruction and discussion
+    - subjectId: taxon:aglaophyton
+      claimType: morphology
+      claimKind: scientific
+      statement: Aglaophyton major was reconstructed with decumbent axes, dichotomously branching upright axes and terminal sporangia; its three-zoned conducting strand lacks the differential wall thickenings used to diagnose tracheids.
+      confidence: high
+      confidenceRationale: The primary redescription reports the reconstruction and conducting-strand zones directly from re-examined material. High confidence applies to the studied sample and diagnosis, not to function in every axis or higher-group placement.
+      referenceLinks:
+        - referenceId: edwards-1986-aglaophyton
+          relation: supports
+          pages: 173–204
+          figure: Reconstruction and conducting-strand figures
+          quoteLocator: Abstract; reconstruction; conducting-strand description and rediagnosis
+    - subjectId: taxon:aglaophyton
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 412.8–410.2 Ma interval is the 411.5 ± 1.3 Ma U–Pb uncertainty window used for the represented Rhynie-chert material; it is not a global Aglaophyton first appearance, last appearance or lineage duration.
+      confidence: medium
+      confidenceRationale: The geochronology study directly reports the zircon age and uncertainty, while the anatomical paper ties the profiled material to Rhynie. Confidence remains medium because the dated andesite constrains the deposit rather than directly dating each fossil specimen.
+      referenceLinks:
+        - referenceId: parry-2011-rhynie-age
+          relation: supports
+          pages: 863–872
+          figure: Figures 1–4
+          quoteLocator: Abstract; ID-TIMS methods and Results; 411.5 ± 1.3 Ma zircon age
+        - referenceId: edwards-1986-aglaophyton
+          relation: contextualizes
+          pages: 173–204
+          quoteLocator: Rhynie Chert material and redescription
+  claim-rationales.zh:
+    - 一手再描述明确记录建属依据与高阶归属边界；高置信度仅限该分类处理，不表示直接祖先，也不声称所有更高阶关系已有共识。
+    - 解剖论文与独立年代学论文都明确指向莱尼燧石或莱尼露头；高置信度只适用于具名材料与产地，不推断未取样地区。
+    - 轴的方向和群落复原来自取样解剖，而生理与种群生态没有被直接观察；中等置信度标记复原结果与缺失生态信息之间的边界。
+    - 一手再描述直接记录复原和导管束分区；高置信度只适用于所研究材料与诊断，不外推每条轴的功能或更高阶归属。
+    - 年代学研究直接报告锆石年龄与误差，解剖论文把材料锚定到莱尼；由于被测安山岩约束产地而非每件化石，置信度保持中等。
+  claim-statements.zh:
+    - Edwards 在重新检视新材料与历史材料后，为原称 Rhynia major 的植物建立 Aglaophyton；本档案保留论文不将该属归入任何现生高阶类群的处理。
+    - 档案中的 Aglaophyton major 材料来自苏格兰阿伯丁郡的莱尼燧石；这一具名产地不能确立该属的完整地理分布或起源中心。
+    - Aglaophyton 复原包含由匍匐轴和直立分枝组成的大片群落，但该化石研究没有测量碳获取、种群范围或属级生态功能群。
+    - Aglaophyton major 被复原为具有匍匐轴、二歧直立轴和顶生孢子囊；其三区导管束缺少用于诊断管胞的差异化壁加厚。
+    - 显示的 412.8–410.2 Ma 区间是用于所代表莱尼燧石材料的 411.5 ± 1.3 Ma U–Pb 不确定性窗口；它不是 Aglaophyton 的全球首现、末现或谱系延续时间。
+  ranges:
+    - entityId: aglaophyton
+      rangeKind: global-composite
+      taxonomicConcept: Aglaophyton major represented Rhynie-chert material
+      geographicScope: Rhynie Chert, Rhynie Outlier, Aberdeenshire, Scotland
+      olderMa: 412.8
+      youngerMa: 410.2
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 411.5 ± 1.3 Ma U–Pb constraint is represented as a bounded locality-age window for the cited Rhynie material, not a global first or last appearance of Aglaophyton.
+      evidenceBasis: The anatomical redescription identifies Aglaophyton major in the Rhynie Chert, while the independent ID-TIMS study constrains the Rhynie Outlier with a 411.5 ± 1.3 Ma zircon age.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:aglaophyton:fossil-range
+      referenceLocators:
+        - referenceId: edwards-1986-aglaophyton
+          locator: pp. 173–204; redescription, reconstruction and Rhynie Chert provenance
+        - referenceId: parry-2011-rhynie-age
+          locator: pp. 863–872, especially Abstract and Results; 411.5 ± 1.3 Ma ID-TIMS U–Pb zircon age

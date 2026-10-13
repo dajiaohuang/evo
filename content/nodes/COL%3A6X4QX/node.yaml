@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ranitomeya imitator
+  displayName: Ranitomeya imitator
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X4QX
+  sourceIndexes:
+    - name:
+        en: Ranitomeya imitator
+        zh: Ranitomeya imitator
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X4QX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/104
+            queryName: Ranitomeya imitator
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 114
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/184
+            queryName: Dendrobates imitator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/86
+            queryName: Ranitomeya intermedia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/339
+            queryName: Dendrobates imitator yurimaguensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/340
+            queryName: Dendrobates imitator intermedius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/493
+            queryName: Dendrobates imitator yurimaguensisimitator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3863808d43
+      - s-e78af6535b
+      - s-b48c223f75
+      - s-1eb311bd2a
+      - s-d23d0b56a7
+      - s-7f346f9b54
+      - s-11e948c9cd
+      - s-7db8de0473
+      - s-4f867ccb66
+      - s-a61641787d
+      - s-017f407f65
+      - s-3ce1833bea
+      - s-961e482917
+      - s-0a412c6691
+      - s-d38891a1b8
+      - s-c136c1d107
+      - s-01e7f21dda
+      - s-0247ce83c1
+      - s-8b47e36f1a
+      - s-2ca8e245aa
+      - s-35d65ff23f
+      - s-9fe553d0ca
+      - s-8cc4906ed0
+      - s-23d05a356b
+      - s-5f42d91c55
+    zh:
+      - s-828bb8ef53
+      - s-4e3b478f98
+      - s-a6d414cde0
+      - s-cce04279ba
+      - s-f12e7b07ce
+      - s-284cce0088
+      - s-508071c960
+      - s-e8f34bbf1c
+      - s-51ec6a0d2f
+      - s-5686af30b4
+      - s-305b4f48c2
+      - s-87b6774ccc
+      - s-8e4e162100
+      - s-74ec62b7fb
+      - s-eb50e3c728
+      - s-73add034c0
+      - s-aa58edd7b4
+      - s-25ab39a270
+      - s-20f8c0d20b
+      - s-c3c3102d5a
+      - s-bee6fcb89e
+      - s-98b784ac83
+      - s-f46ddf9600
+      - s-2514dc7b9a
+      - s-9129812dbc

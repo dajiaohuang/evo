@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gasteria glomerata van Jaarsv.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6K9ZR, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6K9ZR; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6K9ZR
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6K9ZR
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000768975-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6K9ZR / WFO wfo-0000768975
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13855_0
+        referenceId: ref-42368a7a-7688-8be0-ac6a-bc957fde9735
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gasteria glomerata van Jaarsv. account; SANBI/WFO archive rows 9062 (Morphology), 25665 (Habitat), source identifier 13855.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_8534_0
+        referenceId: ref-9c34d50f-86bc-8efc-aa18-38c262cdacd6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gasteria glomerata van Jaarsv. account; SANBI/WFO archive rows 78222 (Diagnostic), source identifier 8534.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Acaulescent succulent to 20 cm. Leaves distichous, oblong, rough to tuberculate, margins smooth. Flowers in a suberect raceme, nodding, red and green, inflated at base.
+            textZh: Gasteria glomerata van Jaarsv. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13855_0
+            locator: "SANBI/WFO archive Morphology row 9062; source identifier 13855.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Gasteria Duval. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 74 - 75. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: "Gasteria glomerata is an attractive dwarf species immediately recognized by its immaculate glaucous leaves, the epidermis of which is tuberculate-asperulous. The distichous leaves are compact, lorate to widely ovate, and recurved. The plants proliferate from the base to form dense, tight clusters and with age become globose in shape. The flowers are bright red-pink often with a markedly swollen gasteriform portion, in size not exceeded by any other Gasteria species. A feature unique among Gasteria species is that the capsule often remains pendulous. G. glomerata is related to two other cremnophilous species, G. rawlinsonii and G. baylissiana, but differs from them in several ways. Florally G. glomerata appears to resemble most closely G. rawlinsonii, but vegetatively the two cannot be confused. G. rawlinsonii is distinguished by its long pendent stems bearing asperulous (non-tuberculate) leaves. In vegetative features G. glomerata most closely resembles G. baylissiana, another dwarf species. The latter has dark green, densely tuberculate (not asperulous), erectly spreading to patent leaves and a smaller perianth of 14-16 mm. A special feature of these three species is their flowers: the gasteriform portion of the perianth is often markedly globose and varies considerably. The latter is often triangular in cross section, a unique synapomorphy only rarely shared by G. bicolor. The distribution of G. glomerata, G. rawlinsonii and G. baylissiana is clearly allopatric and confined to rocky quartzitic sandstone soils. The flowering times of G. baylissiana and G. rawlinsonii are also in spring. Another species which has distichous tuberculate leaves with which G. glomerata may possibly be confused is G. nitida var. armstrongii. This taxon has dark green, tuberculate leaves and a perianth of which the gasteriform portion is narrowly elliptic. The specific epithet glomerata (glomerate = compactly clustered) refers to the plant's habit."
+            textZh: SANBI 条目提供了 Gasteria glomerata van Jaarsv. 的鉴别特征。
+            sourceIds:
+              - sanbi_8534_0
+            locator: "SANBI/WFO archive Diagnostic row 78222; source identifier 8534.0; cited publication: Van Jaarsveld, EJ. 1994. Gasterias of South Africa: a new revision of a major succulent group. Fernwood Press, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Vertical sandstone cliffs.
+            textZh: 该 SANBI 区域物种条目记录的生境：Vertical sandstone cliffs.
+            sourceIds:
+              - sanbi_13855_0
+            locator: "SANBI/WFO archive Habitat row 25665; source identifier 13855.0; cited publication: Manning, JC; Goldblatt, P. 2012. Asphodelaceae: Gasteria Duval. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 74 - 75. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

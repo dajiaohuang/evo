@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis roseipalmatus
+  displayName: Boophis roseipalmatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPLD
+  sourceIndexes:
+    - name:
+        en: Boophis roseipalmatus
+        zh: Boophis roseipalmatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPLD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/293
+            queryName: Boophis roseipalmatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf420725be
+      - s-80d5212929
+      - s-4d5bc9c6a5
+      - s-23fb9b1cc7
+      - s-67248a50e2
+      - s-bc764b3691
+      - s-ef27c900b0
+      - s-806a502980
+      - s-b7255bed90
+    zh:
+      - s-3223b903d9
+      - s-4d2ee00626
+      - s-1d60dd47c5
+      - s-943d537250
+      - s-aff42e1b8c
+      - s-004d426869
+      - s-e993d6ef0d
+      - s-c963fa973c
+      - s-924acf6c67

@@ -1,0 +1,211 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Maghriboselache mohamezanei
+    commonName: Broad-snouted Devonian symmoriiform
+    commonNameZh: 宽吻泥盆纪对称鳍鲨形软骨鱼
+    rank: species
+    taxonId: txn:502450
+    firstAppearance: 369.5
+    lastAppearance: 369
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:502450
+    scientificName: Maghriboselache mohamezanei
+    commonName: Broad-snouted Devonian symmoriiform
+    commonNameZh: 宽吻泥盆纪对称鳍鲨形软骨鱼
+    rank: species
+    parentName: Stem-chondrichthyan evidence route
+    extinct: true
+    geography:
+      - Thylacocephalan Layer
+      - southern Maïder and Tafilalt
+      - eastern Anti-Atlas
+      - Morocco
+    overview:
+      page: en
+      section: s-3daca852f3
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-c0d62ef5b5
+        part: body
+      habitat:
+        page: en
+        section: s-3b6da62009
+        part: body
+      locomotion:
+        page: en
+        section: s-4ba150ac90
+        part: body
+      bodySize:
+        page: en
+        section: s-533dacced8
+        part: body
+      guild:
+        page: en
+        section: s-89fdabbe53
+        part: body
+      dietZh:
+        page: zh
+        section: s-b359bee332
+        part: body
+      habitatZh:
+        page: zh
+        section: s-62dc439fad
+        part: body
+      locomotionZh:
+        page: zh
+        section: s-be35b6b805
+        part: body
+      bodySizeZh:
+        page: zh
+        section: s-29504093d6
+        part: body
+      guildZh:
+        page: zh
+        section: s-a4eb27dd88
+        part: body
+    traits:
+      - page: en
+        section: s-541fe910b5
+        part: body
+      - page: en
+        section: s-1bb6caeb3e
+        part: body
+      - page: en
+        section: s-9faaa02688
+        part: body
+      - page: en
+        section: s-ddda62db49
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3ee99cef01
+      part: body
+    confidence: medium
+    referenceIds:
+      - klug-2023-maghriboselache
+    overviewZh:
+      page: zh
+      section: s-e42e8905e3
+      part: body
+    traitsZh:
+      - page: zh
+        section: s-8c7f65d86d
+        part: body
+      - page: zh
+        section: s-43fe61b547
+        part: body
+      - page: zh
+        section: s-5872d05981
+        part: body
+      - page: zh
+        section: s-0e48c40c38
+        part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-1d154e2485
+      part: body
+  claims:
+    - subjectId: taxon:maghriboselache
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Maghriboselache mohamezanei is a new symmoriiform chondrichthyan represented by several partly articulated skeletons, including three-dimensional cranial specimens AA.MEM.DS.12 and PIMUZ A/I 5159; the cited matrix places it with Cladoselache in an early symmoriiform grouping, while alternative analyses can recover symmoriiforms differently.
+      confidence: medium
+      confidenceRationale: The named taxon and specimen-based diagnosis are directly described, but the paper reports alternative placements for symmoriiforms and the atlas preserves that topology sensitivity.
+      referenceLinks:
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: 1–7, 19–25
+          figure: Figures 1–6, 13–15
+          quoteLocator: Systematic palaeontology; phylogenetic analysis; Discussion
+    - subjectId: taxon:maghriboselache
+      claimType: biogeography
+      claimKind: scientific
+      statement: Maghriboselache mohamezanei is documented from the Thylacocephalan Layer at localities in the southern Maïder and Tafilalt regions of the eastern Anti-Atlas, Morocco; this represented sample does not establish a global distribution.
+      confidence: medium
+      confidenceRationale: The source lists named localities and specimen accessions directly; a finite Moroccan sample cannot establish absence, endemism or a worldwide range.
+      referenceLinks:
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: 3–5
+          figure: Figure 1; Supplementary Table S1
+          quoteLocator: Material; localities; Thylacocephalan Layer
+    - subjectId: taxon:maghriboselache
+      claimType: ecology
+      claimKind: scientific
+      statement: Maghriboselache preserves a marine depositional context, digestive-tract and liver traces, a high-aspect-ratio tail and large pectoral fins; PIMUZ A/I 5155 contains a more or less articulated small actinopterygian stomach content approximately 40 mm long, recording one feeding event, while broader diet, habitat preference, locomotor performance and trophic guild remain unresolved.
+      confidence: medium
+      confidenceRationale: The paper reports a more or less articulated small actinopterygian stomach content approximately 40 mm long in PIMUZ A/I 5155 alongside preserved soft-tissue and fin evidence; one feeding event cannot establish broader diet, habitat preference, locomotor performance or trophic guild.
+      referenceLinks:
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: "17"
+          figure: "Figure 1; Additional file 1: Figs. S9, S14, S20, S26–S28"
+          quoteLocator: Description—Soft tissues; paragraph beginning ‘Consequently, the body outline is discernible...’
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: 14–16, 19–28
+          figure: Figures 1–2, 8–9, 15
+          quoteLocator: Pectoral girdle and fins; Caudal fin; Discussion; Conclusions
+    - subjectId: taxon:maghriboselache
+      claimType: morphology
+      claimKind: scientific
+      statement: Maghriboselache has a broad cartilage-enclosed snout with large, widely separated nasal capsules, a high-aspect-ratio lunate tail and strap-like pectoral-fin radials; the holotype neurocranium and referred three-dimensional material document these features separately.
+      confidence: medium
+      confidenceRationale: Figures and descriptions directly document the named cranial and fin features, but the material is distributed across specimens and some regions are compressed or missing.
+      referenceLinks:
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: 5–7, 10–18, 25–28
+          figure: Figures 3–9, 13–15
+          quoteLocator: Neurocranium; pectoral and caudal fins; sensory specialization; Conclusions
+    - subjectId: taxon:maghriboselache
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed 369.5–369 Ma interval is the late early to early middle Famennian Thylacocephalan Layer sample for Maghriboselache mohamezanei and is not a global species FAD, LAD or crown-chondrichthyan origin.
+      confidence: medium
+      confidenceRationale: The primary source fixes the Famennian layer and named localities, but the interval is explicitly a study-sample envelope rather than a complete stratigraphic range.
+      referenceLinks:
+        - relation: supports
+          referenceId: klug-2023-maghriboselache
+          pages: 3–5, 19–28
+          figure: Figures 1, 13–15; Supplementary Table S1
+          quoteLocator: Material; age; time calibration; Discussion; Conclusions
+  claim-rationales.zh:
+    - 具名类群和以标本为基础的诊断有直接描述支持，但论文报告了对称鳍鲨形类的不同位置，因此图谱保留拓扑敏感性。
+    - 来源直接列出具名地点和标本编号；有限的摩洛哥样本不能确定缺失、特有性或全球分布。
+    - 论文直接记录 PIMUZ A/I 5155 胃内一条约 40 mm、大致关节相连的小型辐鳍鱼，支持一次进食事件；但单一胃内容物不能代表更广食谱，且栖息地偏好、运动性能和营养功能群仍未解决。
+    - 图件和描述直接记录具名脑颅与鳍部特征，但这些材料分布于不同标本，且部分区域压扁或缺失。
+    - 一手来源固定了法门期层位和具名地点，但该区间明确是研究样本包络，而不是完整地层延限。
+  claim-statements.zh:
+    - Maghriboselache mohamezanei 是由数件部分关节相连骨架代表、包括三维脑颅标本 AA.MEM.DS.12 与 PIMUZ A/I 5159 的新对称鳍鲨形软骨鱼；所引矩阵将其与 Cladoselache 置于早期对称鳍鲨形类组合，但其他分析可能得到不同的对称鳍鲨形类位置。
+    - Maghriboselache mohamezanei 记录于摩洛哥东部反阿特拉斯山脉南部 Maïder 与 Tafilalt 地区地点的噬甲动物层；该代表性样本不能确立全球分布。
+    - Maghriboselache 保存海相沉积背景、消化道和肝脏痕迹、高展弦比尾和大型胸鳍；PIMUZ A/I 5155 的胃内有一条约 40 mm、大致关节相连的小型辐鳍鱼，记录了一次进食事件，但更广的食性、栖息地偏好、运动性能和营养功能群仍未解决。
+    - Maghriboselache 具有宽大的软骨包围吻部、相距很远的大鼻囊、高展弦比月牙形尾和带状胸鳍辐条；正模脑颅与归入的三维材料分别记录了这些特征。
+    - 显示的 369.5–369 Ma 区间是 Maghriboselache mohamezanei 早法门期晚期至中法门期早期的噬甲动物层样本，不是该物种的全球首现、末现或冠群软骨鱼起源。
+  ranges:
+    - entityId: maghriboselache
+      rangeKind: global-composite
+      taxonomicConcept: Maghriboselache mohamezanei represented Famennian Anti-Atlas sample
+      geographicScope: Thylacocephalan Layer, southern Maïder and Tafilalt, eastern Anti-Atlas, Morocco
+      olderMa: 369.5
+      youngerMa: 369
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Late early to early middle Famennian study envelope; multiple specimens do not establish a global species duration or crown-group boundary.
+      evidenceBasis: The named Moroccan sample includes several partly articulated skeletons and three-dimensional neurocrania from the Thylacocephalan Layer; the numeric window converts the published Famennian assignment only.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:maghriboselache:fossil-range
+      referenceLocators:
+        - referenceId: klug-2023-maghriboselache
+          locator: pp. 1–7, 19–28; Figures 1–2, 13–15; Material; time calibration; Conclusions

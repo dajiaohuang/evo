@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gephyromantis mitsinjo Miralles, Köhler, Glaw, Wollenberg Valero, Crottini, Rosa, Du Preez, Gehring, Vieites et al., 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Gephyromantis mitsinjo
+      zh: Gephyromantis mitsinjo
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c02b7e334c
+            part: title
+          zh:
+            page: zh
+            section: s-add3608082
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c02b7e334c
+            part: body
+          zh:
+            page: zh
+            section: s-add3608082
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b1d76742b6
+            part: title
+          zh:
+            page: zh
+            section: s-a72aa44166
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b1d76742b6
+            part: body
+          zh:
+            page: zh
+            section: s-a72aa44166
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-30850cddc3
+            part: title
+          zh:
+            page: zh
+            section: s-049c98d94d
+            part: title
+        sourceIds:
+          - primary-pmc11802484-pd22w
+        text:
+          en:
+            page: en
+            section: s-30850cddc3
+            part: body
+          zh:
+            page: zh
+            section: s-049c98d94d
+            part: body
+      - topic: development
+        title:
+          en:
+            page: en
+            section: s-3cafe40b04
+            part: title
+          zh:
+            page: zh
+            section: s-0cafbafc6b
+            part: title
+        sourceIds:
+          - primary-pmc11802484-pd22w
+        text:
+          en:
+            page: en
+            section: s-3cafe40b04
+            part: body
+          zh:
+            page: zh
+            section: s-0cafbafc6b
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-ee166fc428
+            part: title
+          zh:
+            page: zh
+            section: s-124994f04b
+            part: title
+        sourceIds:
+          - primary-pmc11802484-pd22w
+        text:
+          en:
+            page: en
+            section: s-ee166fc428
+            part: body
+          zh:
+            page: zh
+            section: s-124994f04b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gephyromantis mitsinjo
+          url: https://www.checklistbank.org/dataset/316115/taxon/PD22W
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11802484-pd22w
+        referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Gephyromantis mitsinjo: Named captive reproduction and care observations only; article online 2024 and print 2025, morphology-only founders, no figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-46a5bbe7b6
+        part: body
+      zh:
+        page: zh
+        section: s-fa19080251
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1002/zoo.21876
+        referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+        sourceKey: primary-pmc11802484-pd22w
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11802484/article.xml
+        sourceConcept: Gephyromantis mitsinjo
+        evidenceRead: "Gephyromantis mitsinjo: Named captive reproduction and care observations only; article online 2024 and print 2025, morphology-only founders, no figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: Terrestrial eggs with larvae remaining in jelly
+              zh: 陆地产卵及留胶幼体
+            referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+            sourceKey: primary-pmc11802484-pd22w
+            locator: PMC11802484 XML zoo21876-sec-0070 and zoo21876-sec-0120 paragraph 0 each; reading-sections section 2, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-35ea8db01b
+                part: body
+              zh:
+                page: zh
+                section: s-622e014e1d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: development
+            heading:
+              en: Small relative clutch size and a twenty-two-day minimum
+              zh: 相对小卵窝及最短二十二日
+            referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+            sourceKey: primary-pmc11802484-pd22w
+            locator: PMC11802484 XML zoo21876-sec-0110 and zoo21876-sec-0130 paragraph 0 each
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9ca14c8c80
+                part: body
+              zh:
+                page: zh
+                section: s-3dc56fd9a7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: Related-species conservation suggestions are analogies
+              zh: 近缘种保护建议属于类比
+            referenceId: ref-7800eb63-e893-45db-aefc-d1e518eec1ba
+            sourceKey: primary-pmc11802484-pd22w
+            locator: PMC11802484 reading-sections section 2, paragraphs 3 and 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5debd10e06
+                part: body
+              zh:
+                page: zh
+                section: s-3bee2e7381
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius cinereus
+  displayName: Hyperolius cinereus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPXP
+  sourceIndexes:
+    - name:
+        en: Hyperolius cinereus
+        zh: Hyperolius cinereus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPXP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/236
+            queryName: Hyperolius cinereus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d19ed3fad
+      - s-3aeb45543a
+      - s-4cae5e88ea
+      - s-85dad18898
+      - s-d74790b7a0
+      - s-6032246f84
+      - s-8be121153d
+      - s-81ad91bb05
+      - s-bd29135508
+    zh:
+      - s-7964c4971f
+      - s-2c097576c8
+      - s-5e91f7f6f6
+      - s-5b748ca04c
+      - s-fe1f346918
+      - s-65ea5609c8
+      - s-190b4ebe9d
+      - s-8a66cc9670
+      - s-f2c22a76a7

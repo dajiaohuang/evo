@@ -1,0 +1,150 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Rhytidosteoidea
+    rank: superfamily
+    sourceTaxonId: txn:37109
+    name:
+      en: Rhytidosteoidea
+      zh: Rhytidosteoidea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-3c28cd7f39
+            part: body
+          zh:
+            page: zh
+            section: s-dd695e966d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-caa7258fe8
+            part: body
+          zh:
+            page: zh
+            section: s-8528e42203
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-ec03844c91
+            part: body
+          zh:
+            page: zh
+            section: s-78f1a1f38a
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-961aeb0aef
+            part: body
+          zh:
+            page: zh
+            section: s-bd4b62b7cc
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:37109; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. W. Cosgriff. 1965. A new genus of Temnospondyli from the Triassic of Western Australia. Journal of the Royal Society of Western Australia 48:65-90
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:251504
+        - txn:251282
+        - txn:251267
+        - txn:251270
+        - txn:251511
+        - txn:251514
+        - txn:113845
+        - txn:251513
+        - txn:251512
+        - txn:251286
+        - txn:91803
+        - txn:251507
+        - txn:251509
+      exactOccurrenceCount: 28
+      datedOccurrenceCount: 28
+      collectionIntervalBoundsMa:
+        older: 259.857
+        younger: 247
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-961aeb0aef
+            part: body
+          zh:
+            page: zh
+            section: s-bd4b62b7cc
+            part: body
+        sourceIds: []

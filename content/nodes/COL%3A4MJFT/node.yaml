@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis jorgevelosai
+  displayName: Pristimantis jorgevelosai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFT
+  sourceIndexes:
+    - name:
+        en: Pristimantis jorgevelosai
+        zh: Pristimantis jorgevelosai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/332
+            queryName: Pristimantis jorgevelosai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/392
+            queryName: Eleutherodactylus jorgevelosai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-23ebf6a29a
+      - s-3b05822d35
+      - s-fc10054b12
+      - s-1d19724015
+      - s-f9ed8f4374
+      - s-dc9c47054e
+      - s-c4d0efdcee
+      - s-3fe49560d4
+      - s-998e086694
+      - s-0e1aa39642
+    zh:
+      - s-406c1968a4
+      - s-ee49f122ff
+      - s-88a0af487d
+      - s-bbdebb3721
+      - s-55437ff384
+      - s-cadc204440
+      - s-7e8f044c7c
+      - s-97b9ae46e1
+      - s-3b8d331613
+      - s-e0d6e27f7c

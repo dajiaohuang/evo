@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus kaiei
+  displayName: Anomaloglossus kaiei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V762
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus kaiei
+        zh: Anomaloglossus kaiei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V762
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/10
+            queryName: Anomaloglossus kaiei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/173
+            queryName: Colostethus kaiei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-85584341f4
+      - s-817da7a2a4
+      - s-fa91cb8a5f
+      - s-6c176cf186
+      - s-91e40490c2
+      - s-89eb34655e
+      - s-38c26fd38e
+      - s-5602fbc134
+      - s-cdaabaf617
+      - s-482599a5d7
+      - s-74a8332957
+      - s-0de3bd7085
+      - s-6f65716379
+      - s-dbbc9093d4
+      - s-cc27037f0f
+      - s-45d85928a2
+      - s-9e8939555f
+    zh:
+      - s-d7435fe926
+      - s-fb2b9ba1b2
+      - s-bbd43bdcb3
+      - s-162ceadcf7
+      - s-ccf1a8f546
+      - s-08f6059942
+      - s-5d4d3c747f
+      - s-3982d299fd
+      - s-f1c20acbe6
+      - s-b23e9d1051
+      - s-50a798af5e
+      - s-e60807ccea
+      - s-6b2959582a
+      - s-ad153f0fa0
+      - s-38b6e8ad7a
+      - s-ffafa86567
+      - s-b43433d54f

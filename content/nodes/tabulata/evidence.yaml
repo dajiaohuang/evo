@@ -1,0 +1,95 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Tabulata
+    commonName: Tabulate Corals
+    commonNameZh: 床板珊瑚
+    rank: order
+    taxonId: ""
+    firstAppearance: 488
+    lastAppearance: 252
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:tabulata
+      claimKind: scientific
+      claimType: morphology
+      statement: Paleofavosites specimens link internal corallite architecture with external colony growth in one sampled tabulate genus; this does not generalize that growth pattern to every Tabulata lineage or define their range.
+      confidence: medium
+      confidenceRationale: Measured internal and external morphology supports the genus-level relationship, while the narrow sample blocks class-wide extrapolation.
+      referenceLinks:
+        - referenceId: young-elias-1999-paleofavosites
+          relation: supports
+          pages: 580–597
+          quoteLocator: Figures 1–12; internal–external morphology comparisons
+    - subjectId: taxon:tabulata
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Tabulata is displayed at 486.85–251.9 Ma as Oliver’s review-bounded Early Ordovician–end-Permian fossil record; the numerical conversion is not a specimen-level FAD/LAD or a claim of uninterrupted global occupancy.
+      confidence: medium
+      confidenceRationale: Oliver (1996), p. 107 and the opening synthesis, explicitly states the Early Ordovician to end-Permian range. Medium confidence reflects conversion from named intervals rather than directly dated boundary specimens.
+      referenceLinks:
+        - relation: supports
+          referenceId: oliver-1996-paleozoic-corals
+          pages: 107–110
+          figure: Opening range synthesis
+          quoteLocator: Abstract; Tabulata range statement
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for the named intervals
+  claim-rationales.zh:
+    - 实测内外形态支持属级关系，但狭窄样本阻止了纲级外推。
+    - Oliver（1996）第 107 页及开篇综述明确给出早奥陶世至二叠纪末的范围。中等置信度反映该范围由命名地层区间换算，而非直接测年的边界标本。
+  claim-statements.zh:
+    - Paleofavosites 标本把一个取样床板珊瑚属的内部珊瑚体结构与外部群体生长联系起来；这不能推广到所有床板珊瑚谱系，也不能界定其范围。
+    - Tabulata 的 486.85–251.9 Ma 展示限定于 Oliver 综述中的早奥陶世—二叠纪末化石记录；数值换算不是标本级首末现，也不表示连续全球占据。
+  ranges:
+    - entityId: tabulata
+      rangeKind: global-composite
+      taxonomicConcept: Tabulata review-bounded fossil record
+      geographicScope: Global fossil record synthesized from Early Ordovician through end-Permian
+      olderMa: 486.85
+      youngerMa: 251.9
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Numerical endpoints translate the source's named Early Ordovician and end-Permian boundaries using ICS v2026/06; they are not specimen-level dates.
+      evidenceBasis: Oliver synthesizes an essentially continuous Early Ordovician–end-Permian tabulate-coral record; ICS supplies only the numerical conversion.
+      confidence: medium
+      claimIds:
+        - claim:taxon:tabulata:range-boundary-rc50
+      referenceLocators:
+        - referenceId: oliver-1996-paleozoic-corals
+          locator: p. 107 Abstract; pp. 107–110; Early Ordovician to end-Permian Tabulata synthesis
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical boundaries
+      evidenceLevel: literature-synthesized
+  catalogue-profile:
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c30c686728
+            part: title
+          zh:
+            page: zh
+            section: s-4fdd460512
+            part: title
+        sourceIds:
+          - young-elias-1999-paleofavosites
+          - oliver-1996-paleozoic-corals
+          - ics-2026-06
+        text:
+          en:
+            page: en
+            section: s-c30c686728
+            part: body
+          zh:
+            page: zh
+            section: s-4fdd460512
+            part: body

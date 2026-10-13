@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus yongi
+  displayName: Kalophrynus yongi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZF6
+  sourceIndexes:
+    - name:
+        en: Kalophrynus yongi
+        zh: Kalophrynus yongi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZF6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/119
+            queryName: Kalophrynus yongi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7f7552466
+      - s-e8fe27e1b4
+      - s-ffee6c4007
+      - s-d695688623
+      - s-780f201ddc
+      - s-7ecfcf1f45
+      - s-9d1043bf69
+      - s-68652bc2b3
+      - s-84cc7c1491
+      - s-85e2003782
+    zh:
+      - s-1a00ba881c
+      - s-b0cb9d4902
+      - s-330f13a1f9
+      - s-4867b0f208
+      - s-d22b854abb
+      - s-a3dfabbb2b
+      - s-a1ec0b9625
+      - s-1b7b22e801
+      - s-2a036da814
+      - s-4108609888

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Parhoplophryne usambarica
+  displayName: Parhoplophryne usambarica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4DLX5
+  sourceIndexes:
+    - name:
+        en: Parhoplophryne usambarica
+        zh: Parhoplophryne usambarica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4DLX5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/431
+            queryName: Parhoplophryne usambarica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/233
+            queryName: Parhoplophryne usambaricus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-128a23684e
+      - s-2322bed37b
+      - s-79cea684c9
+      - s-daa2f1f28e
+      - s-9ca0be8d56
+      - s-daaecfa32f
+      - s-09c76f10ec
+      - s-062a59c458
+      - s-cd0f2ab224
+      - s-248419dabf
+    zh:
+      - s-e2d93d72c0
+      - s-9a67ed08cb
+      - s-d4f979560f
+      - s-3d5ab35518
+      - s-b5c3b0f9ae
+      - s-7c9f872311
+      - s-f0838fde6b
+      - s-77ecce147f
+      - s-8232e644db
+      - s-74e6e806d8

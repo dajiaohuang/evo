@@ -1,0 +1,158 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrophryne olivacea
+  displayName: Gastrophryne olivacea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FDVY
+  sourceIndexes:
+    - name:
+        en: Gastrophryne olivacea
+        zh: Gastrophryne olivacea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FDVY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/7
+            queryName: Gastrophryne olivacea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/345
+            queryName: Engystoma olivaceum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/346
+            queryName: Microhyla carolinensis olivacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/213
+            queryName: Engystoma texense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/214
+            queryName: Engystoma areolata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/215
+            queryName: Gastrophryne areolata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/216
+            queryName: Gastrophryne texana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/217
+            queryName: Gastrophryne texense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/218
+            queryName: Engystoma texensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/219
+            queryName: Microhyla olivacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/220
+            queryName: Microhyla areolata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/126
+            queryName: Microhyla olivacea olivacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/127
+            queryName: Gastrophryne carolinensis olivacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/128
+            queryName: Gastrophryne olivacea olivacea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a4a1eaee84
+      - s-67613e72c4
+      - s-d1b9efef36
+      - s-dc08e3b766
+      - s-f649991693
+      - s-06df89ba7a
+      - s-fd25e93dbf
+      - s-0da6dad2f5
+      - s-316a552562
+      - s-4ab94bf9fd
+      - s-e645e36c05
+      - s-04f1df2701
+      - s-55fbe8bc34
+      - s-2d48f3d162
+      - s-7082aef209
+      - s-b7175059cb
+      - s-28a1f76dee
+      - s-a2d1f6646d
+      - s-7dd09e467a
+      - s-48f2a1c5b3
+    zh:
+      - s-7a84642df0
+      - s-1acaac20f9
+      - s-6bf7052586
+      - s-31c9d241c1
+      - s-a74e5440ed
+      - s-be89b5a5f7
+      - s-be699c8ee1
+      - s-b7edd8d8bc
+      - s-a01e95a054
+      - s-7c713a44dd
+      - s-98eb8ef5ca
+      - s-9f6ded155f
+      - s-be2f3bee33
+      - s-38d3775ea8
+      - s-ce6c0f909c
+      - s-356630971c
+      - s-e90a116e1b
+      - s-59e42ec965
+      - s-2032a333a5
+      - s-674460b67c

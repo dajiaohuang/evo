@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-12ff45d293
+      part: title
+    titleZh:
+      page: zh
+      section: s-054b81e698
+      part: title
+    dek:
+      page: en
+      section: s-12ff45d293
+      part: body
+    theme: blue
+    durationMinutes: 7
+    featured: true
+    steps:
+      - id: xenopus-genome
+        title:
+          page: en
+          section: s-c7c283e426
+          part: title
+        titleZh:
+          page: zh
+          section: s-7f377c5192
+          part: title
+        text:
+          page: en
+          section: s-c7c283e426
+          part: body
+        textZh:
+          page: zh
+          section: s-7f377c5192
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - anura
+        view: evidence
+        eventId: xenopus-tropicalis-draft-genome
+        annotation: Extant genomic comparison does not directly observe lineage origins.
+        claimLinks:
+          - claimId: claim:event:xenopus-tropicalis-draft-genome
+            relation: supports
+      - id: receptor-knockouts
+        title:
+          page: en
+          section: s-8270b16fb4
+          part: title
+        titleZh:
+          page: zh
+          section: s-3be13bc39f
+          part: title
+        text:
+          page: en
+          section: s-8270b16fb4
+          part: body
+        textZh:
+          page: zh
+          section: s-3be13bc39f
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - anura
+        view: evidence
+        eventId: xenopus-thyroid-receptor-metamorphosis
+        annotation: Experimental causation in one laboratory model is not a universal amphibian rule.
+        claimLinks:
+          - claimId: claim:event:xenopus-thyroid-receptor-metamorphosis
+            relation: supports
+      - id: synthetic-timetree
+        title:
+          page: en
+          section: s-583665c684
+          part: title
+        titleZh:
+          page: zh
+          section: s-7df867d019
+          part: title
+        text:
+          page: en
+          section: s-583665c684
+          part: body
+        textZh:
+          page: zh
+          section: s-7df867d019
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - amphibia
+          - anura
+          - caudata
+          - gymnophiona
+        view: tree
+        eventId: extant-amphibian-7238-species-timetree
+        annotation: COL26.8 naming coverage, sequence sampling and mature evidence dossiers remain different inventories.
+        claimLinks:
+          - claimId: claim:event:extant-amphibian-7238-species-timetree
+            relation: supports
+    evidenceStatus: available-with-limitations
+    dekZh:
+      page: zh
+      section: s-054b81e698
+      part: body

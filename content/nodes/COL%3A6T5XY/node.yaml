@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne monticola
+  displayName: Oreophryne monticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T5XY
+  sourceIndexes:
+    - name:
+        en: Oreophryne monticola
+        zh: Oreophryne monticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T5XY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/283
+            queryName: Oreophryne monticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/424
+            queryName: Sphenophryne monticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/425
+            queryName: Callula modesta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-05a0ed304a
+      - s-cdd54990b7
+      - s-87312e7e2d
+      - s-5d2f805ea9
+      - s-ddf0511c50
+      - s-882ed2e0fb
+      - s-7d79c25e04
+      - s-885d9639cd
+      - s-a6ba42296c
+      - s-36d18350ac
+    zh:
+      - s-4429328c76
+      - s-5c34ecb542
+      - s-5515bff8d5
+      - s-4a65ade2ca
+      - s-b1b2af0f51
+      - s-e6797eb5a8
+      - s-990a1d2de4
+      - s-90cfdb2196
+      - s-4cbb63cc68
+      - s-c6291934b7

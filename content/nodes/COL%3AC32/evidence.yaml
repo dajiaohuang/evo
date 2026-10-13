@@ -1,0 +1,299 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Limnodynastidae Lynch, 1969
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Limnodynastidae
+      zh: Limnodynastidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ba47d8b04b
+            part: title
+          zh:
+            page: zh
+            section: s-53254d7bfa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ba47d8b04b
+            part: body
+          zh:
+            page: zh
+            section: s-53254d7bfa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bd5135397f
+            part: title
+          zh:
+            page: zh
+            section: s-259a78ea32
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bd5135397f
+            part: body
+          zh:
+            page: zh
+            section: s-259a78ea32
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-4597d4a01e
+            part: title
+          zh:
+            page: zh
+            section: s-bf8bfb6b36
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4597d4a01e
+            part: body
+          zh:
+            page: zh
+            section: s-bf8bfb6b36
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e86ef23c0d
+            part: title
+          zh:
+            page: zh
+            section: s-1d57d67c19
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e86ef23c0d
+            part: body
+          zh:
+            page: zh
+            section: s-1d57d67c19
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-adfc34792b
+            part: title
+          zh:
+            page: zh
+            section: s-b1b3fc3a4f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: P44
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AP44
+            label:
+              en: Adelotus
+              zh: Adelotus
+          - kind: catalogue
+            colId: 62THV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62THV
+            label:
+              en: Heleioporus
+              zh: Heleioporus
+          - kind: catalogue
+            colId: 62YK7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62YK7
+            label:
+              en: Limnodynastes
+              zh: Limnodynastes
+          - kind: catalogue
+            colId: 63DP8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63DP8
+            label:
+              en: Neobatrachus
+              zh: Neobatrachus
+          - kind: catalogue
+            colId: 64YG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A64YG
+            label:
+              en: Notaden
+              zh: Notaden
+          - kind: catalogue
+            colId: 6NJY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6NJY
+            label:
+              en: Philoria
+              zh: Philoria
+          - kind: catalogue
+            colId: 6RZG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6RZG
+            label:
+              en: Platyplectrum
+              zh: Platyplectrum
+        text:
+          en:
+            page: en
+            section: s-adfc34792b
+            part: body
+          zh:
+            page: zh
+            section: s-b1b3fc3a4f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Limnodynastidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/C32
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Limnodynastidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-18ba54e4a1
+        part: body
+      zh:
+        page: zh
+        section: s-fec7df5257
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Limnodynastidae
+      sourceRowIds:
+        - Anf3454
+        - Anf3455
+        - Anf3456
+        - Anf3457
+        - Anf3458
+        - Anf3459
+        - Anf3460
+        - Anf3461
+        - Anf3462
+        - Anf3463
+        - Anf3464
+        - Anf3465
+        - Anf3466
+        - Anf3467
+        - Anf3468
+        - Anf3469
+        - Anf3470
+        - Anf3471
+        - Anf3472
+        - Anf3473
+        - Anf3474
+        - Anf3475
+        - Anf3476
+        - Anf3477
+        - Anf3478
+        - Anf3479
+        - Anf3480
+        - Anf3481
+        - Anf3482
+        - Anf3483
+        - Anf3484
+        - Anf3485
+        - Anf3486
+        - Anf3487
+        - Anf3488
+        - Anf3489
+        - Anf3490
+        - Anf3491
+        - Anf3492
+        - Anf3493
+        - Anf3494
+        - Anf3495
+        - Anf3496
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 26
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 43
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 42
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 16
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 43
+      currentConceptEquivalenceCertified: false

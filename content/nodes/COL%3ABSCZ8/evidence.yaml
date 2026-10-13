@@ -1,0 +1,121 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oedipomidas geoffroyi (Pucheran, 1845)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 杰氏狨猴
+      en: Geoffroy's Tamarin
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-cef1c37286
+            part: body
+          en:
+            page: en
+            section: s-98a536229c
+            part: body
+        sourceIds:
+          - taxonomy
+          - skinner1985
+          - canopy2010
+          - ancon2025
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-3f6d9898ca
+            part: body
+          en:
+            page: en
+            section: s-864836d87f
+            part: body
+        sourceIds:
+          - skinner1985
+      - topic: habitat
+        text:
+          zh:
+            page: zh
+            section: s-c20d9f0f0a
+            part: body
+          en:
+            page: en
+            section: s-0127c58d66
+            part: body
+        sourceIds:
+          - canopy2010
+      - topic: survey
+        text:
+          zh:
+            page: zh
+            section: s-775e85c111
+            part: body
+          en:
+            page: en
+            section: s-471165d5cc
+            part: body
+        sourceIds:
+          - ancon2025
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Oedipomidas geoffroyi
+          url: https://www.checklistbank.org/dataset/316115/taxon/BSCZ8
+          scope:
+            zh: 固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。
+            en: Pinned checklist name, authorship, rank and parent links; not biological evidence.
+      - id: skinner1985
+        referenceId: ref-96a619af-1141-8c80-a96a-fd738e8c401f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持巴拿马三个月、多地点的出现与相对丰度调查。
+            en: Supports a three-month, multi-site survey of presence and relative abundance in Panama.
+      - id: canopy2010
+        referenceId: ref-9375d777-2ce9-854a-ac75-8e30f8815a38
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Agua Clara 与巴罗科罗拉多岛的林冠样方和个体观察。
+            en: Supports canopy-plot and animal observations at Agua Clara and Barro Colorado Island.
+      - id: ancon2025
+        referenceId: ref-90e1854b-aab7-8a6e-ac5c-8ed51c446e19
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Cerro Ancón 2019–2020 年样线和当地群体估计。
+            en: Supports the 2019–2020 transect survey and local group estimate at Cerro Ancón.
+    limitations:
+      zh:
+        page: zh
+        section: s-83ec854848
+        part: body
+      en:
+        page: en
+        section: s-2a954b06b2
+        part: body

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops deng
+  displayName: Amolops deng
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5DXR
+  sourceIndexes:
+    - name:
+        en: Amolops deng
+        zh: Amolops deng
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5DXR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/360
+            queryName: Amolops deng
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-354845e113
+      - s-e6e50a5435
+      - s-ccf0d7481a
+      - s-8b95fa31a7
+      - s-ba9a21ce88
+      - s-b83987d9e4
+      - s-5209e15ea4
+    zh:
+      - s-5d08fb449a
+      - s-7cdcb4c00f
+      - s-57dc99fc23
+      - s-7bead5f976
+      - s-b586ddbc21
+      - s-70e18a8cd2
+      - s-db0eee11c2

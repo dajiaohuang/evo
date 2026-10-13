@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus sonsonensis
+  displayName: Atelopus sonsonensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J92T
+  sourceIndexes:
+    - name:
+        en: Atelopus sonsonensis
+        zh: Atelopus sonsonensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J92T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/319
+            queryName: Atelopus sonsonensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3719a073f7
+      - s-61a1a3d3ca
+      - s-8e1978b79b
+      - s-c41e6cf78b
+      - s-7eeac74349
+      - s-b80437c9cb
+      - s-30afa43c58
+      - s-94c4767270
+      - s-2a8e4da337
+      - s-0e8e7c7f60
+    zh:
+      - s-65df888ca7
+      - s-3a713fe23b
+      - s-cb161a88f8
+      - s-33f923b39b
+      - s-b640973183
+      - s-338248c2bf
+      - s-59fd1c98e5
+      - s-8d72c2aa60
+      - s-4c4f3c4da5
+      - s-ffdc1cda47

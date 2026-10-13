@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Gladiolus varius F.Bolus
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3G54G, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3G54G; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3G54G
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3G54G
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000790488-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3G54G / WFO wfo-0000790488
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gladiolus varius F.Bolus account; SANBI/WFO archive rows 98079 (Morphology), 96987 (Habitat), 94465 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants 450-700 mm high. Corm depressed-globose, 18-25 mm diam.; tunics cartilaginous, becoming coarsely fibrous, often accumulating around base of stem in a collar of coarse fibres. Stem erect, flexed outward above sheath of penultimate leaf, inclined above, unbranched, ± 3 mm diam. at base of spike. Leaves usually 7, lower 4 or 5 ± basal, forming a lax 2-ranked fan, reaching to ± base of spike, blades narrowly lanceolate to nearly linear, (2.5-)4.0-9.0 mm wide, margins and main vein moderately or strongly thickened, cauline leaves shorter, uppermost usually entirely sheathing. Spike inclined, (6-)8- to 12-flowered; bracts pale greenish brown below and ± dry and rusty brown in distal half by anthesis, outer (25-)30-40(-70) mm long, 1.5-2.0 internodes long, inner bracts slightly shorter. Flowers usually deep pink, occasionally pale pink to nearly white, lower 3 tepals each usually with dark pink to purple median streak, unscented; perianth tube narrowly and obliquely funnel-shaped, (27-)37-50 mm long, cylindric lower part (20-)27-38 mm long, wider upper part ± 10 mm long; tepals lanceolate, unequal, dorsal largest, horizontal and hooded over stamens, 26-32 x 17-20 mm (often smaller in preserved specimens), upper laterals directed forward and curving outward in distal 1/2, 24-32 x ± 12 mm, lower 3 tepals united basally for 4-6 mm, lower lateral tepals 20-24 x 12 mm, narrowed below into claws ± 2 mm long, lower median tepal 23-26 x 12 mm. Filaments 12-16 mm long, exserted 5-8 mm from tube; anthers 8-9 mm long, lilac; pollen cream-coloured. Style arching over stamens, dividing below or up to 5 mm beyond anther apices, branches ± 6 mm long. Capsules oblong, 3-lobed and retuse apically, 12-15 mm long. Seeds discoid to angular, 2.5-3.5 x ± 2.5 mm, wing poorly and irregularly developed or vestigial.
+            textZh: Gladiolus varius F.Bolus 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Morphology row 98079; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Recognised by the narrow, fibrous leaves up to 9 mm wide with strongly thickened margins and midrib, and the moderately large, long-tubed pink flowers with perianth tube (27-)37-50 mm long, and large, rusty brown bracts (25-)30-70 mm long. The narrow, thickened leaves distinguish the species from Gladiolus saxatilis. Shorter tubed plants may be confused with G. ferrugineus, with mostly paler pink flowers with perianth tube 12-16(-25) mm long. Hybrids between the two species are recorded from the upper slopes of Long Tom Pass.
+            textZh: SANBI 条目提供了 Gladiolus varius F.Bolus 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94465; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: High elevations in rock crevices on exposed rocky quartzite ridges and outcrops.
+            textZh: 该 SANBI 区域物种条目记录的生境：High elevations in rock crevices on exposed rocky quartzite ridges and outcrops.
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Habitat row 96987; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

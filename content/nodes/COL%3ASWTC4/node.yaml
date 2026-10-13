@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger kanjiroba
+  displayName: Scutiger kanjiroba
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SWTC4
+  sourceIndexes:
+    - name:
+        en: Scutiger kanjiroba
+        zh: Scutiger kanjiroba
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SWTC4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/150
+            queryName: Scutiger kanjiroba
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d48544922c
+      - s-4e305a6c03
+      - s-3a37dddd17
+      - s-9420b457de
+      - s-f96e3c6777
+      - s-8f87509a3c
+    zh:
+      - s-5a70299ee6
+      - s-4225c2e263
+      - s-ec2da1e6cb
+      - s-957bcf0d8d
+      - s-4f19006a04
+      - s-234d1be0ba

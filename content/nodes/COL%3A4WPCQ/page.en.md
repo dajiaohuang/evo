@@ -1,0 +1,3 @@
+## Falciform nectaries and floral symmetry {#s-1a3cc72306}
+The Brazilian Flora 2020 entry records stems as glabrous or puberulent. Ovate stipules accompany petioles under 5 cm and a rachis 6–10 cm long. Stalked, falciform extrafloral nectaries occur between the basal leaflet pairs. Leaves have 6–10 pairs of obovate leaflets with obtuse tips. The raceme has ovate bracts. Flowers are zygomorphic, with an elliptic central adaxial petal and seven fertile stamens. The legume is dehiscent, erect and flat, with a smooth exterior; seeds are arranged in one series. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

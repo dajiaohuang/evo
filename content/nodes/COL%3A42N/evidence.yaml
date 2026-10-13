@@ -1,0 +1,86 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-ed9676d97b
+          part: title
+        zh:
+          page: zh
+          section: s-41c0b027e5
+          part: title
+      text:
+        en:
+          page: en
+          section: s-ed9676d97b
+          part: body
+        zh:
+          page: zh
+          section: s-41c0b027e5
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-e5b4c0abac
+          part: title
+        zh:
+          page: zh
+          section: s-7313c10d78
+          part: title
+      text:
+        en:
+          page: en
+          section: s-e5b4c0abac
+          part: body
+        zh:
+          page: zh
+          section: s-7313c10d78
+          part: body
+  atlas-node:
+    name: Scorpiones
+    commonName: Scorpions
+    commonNameZh: 蝎类
+    rank: order
+    taxonId: txn:243100
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:scorpiones
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Scorpiones range formerly used the Silurian Parioscorpio occurrence as its older endpoint. Anderson et al. (2021) rejected that fossil's scorpion identification, so this atlas withholds the inherited range pending independent scorpion evidence; no origin date is established here.
+      confidence: medium
+      confidenceRationale: The later redescription invalidates use of Parioscorpio as a scorpion range anchor. This records withdrawal of that inference, not an alternative age estimate.
+      referenceLinks:
+        - referenceId: anderson-2021-parioscorpio-reassessment
+          relation: supports
+          quoteLocator: Redescription and rejection of scorpion affinities; phylogenetic conclusions
+  claim-rationales.zh:
+    - 后续重新描述否定了用 Parioscorpio 作为蝎类延限锚点的依据。这里记录的是撤回该推断，而非提供另一项年代估算。
+  claim-statements.zh:
+    - 蝎类延限此前以志留纪 Parioscorpio 产出作为较老端点。Anderson 等（2021）否定了该化石的蝎类归属，因此图谱暂不提供这一沿用范围，等待独立的蝎类证据；此处不确定起源年代。
+  ranges:
+    - entityId: scorpiones
+      rangeKind: global-composite
+      taxonomicConcept: Scorpiones navigation range
+      geographicScope: Global range pending an independent scorpion fossil source
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former 437.5 Ma endpoint relied on Parioscorpio, whose scorpion identification was rejected in the 2021 redescription. Zero endpoints are withheld placeholders, not an origin date.
+      evidenceBasis: Parioscorpio cannot establish the global Scorpiones range. This interval is withheld until independently supported scorpion fossil evidence is supplied.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: contested
+      claimIds:
+        - claim:taxon:scorpiones
+      referenceLocators:
+        - referenceId: anderson-2021-parioscorpio-reassessment
+          locator: Redescription and rejection of scorpion affinities; phylogenetic conclusions

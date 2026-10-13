@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus
+  displayName: Brachycephalus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3C9X
+  sourceIndexes:
+    - name:
+        en: Brachycephalus
+        zh: Brachycephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3C9X
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/247
+            queryName: Brachycephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 355
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39bc0c2d5c
+      - s-b7e029bc4c
+      - s-89b148a365
+      - s-e322d11d96
+      - s-a272f0cb21
+      - s-064fda750b
+      - s-7c69bdec97
+      - s-519b184f34
+      - s-cf90e59bc4
+      - s-29e0bd4940
+      - s-689bd49bc8
+      - s-5f815925b1
+      - s-a4ea14db5a
+      - s-b2f14cad72
+      - s-ed40b08d4c
+      - s-ba36b778de
+      - s-d7077736e3
+      - s-4977315598
+      - s-2ecf2b5118
+      - s-91e1c9d78a
+      - s-6c02937cfd
+      - s-da0404ef4b
+      - s-718b249d7a
+      - s-276e2781a3
+      - s-d109800e4c
+      - s-60314e56d4
+    zh:
+      - s-8ef7b881e3
+      - s-06bb77b2fc
+      - s-2014e4ab1d
+      - s-603a2a1626
+      - s-2b61756e39
+      - s-d077c7ef20
+      - s-0029955787
+      - s-f485a946c8
+      - s-6749e5f378
+      - s-fd789133e8
+      - s-f9b5b48571
+      - s-98cac85d94
+      - s-15cf5ecf76
+      - s-d197231223
+      - s-5adb1b76e6
+      - s-4ee812845c
+      - s-80ddcb3b3c
+      - s-84346b889a
+      - s-32f59fa564
+      - s-fc783eaaee
+      - s-f3b2328319
+      - s-83c0f31ce7
+      - s-0fc05921f3
+      - s-ffe8988ab5
+      - s-9f714ffed4
+      - s-25f0eff8b9

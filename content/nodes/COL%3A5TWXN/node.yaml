@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates chalcopis
+  displayName: Allobates chalcopis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TWXN
+  sourceIndexes:
+    - name:
+        en: Allobates chalcopis
+        zh: Allobates chalcopis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TWXN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/131
+            queryName: Allobates chalcopis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/74
+            queryName: Colostethus chalcopis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72bf1dd9ed
+      - s-0fcba3135c
+      - s-60c6611a99
+      - s-432f98f6ec
+      - s-4a1099b97e
+      - s-5bc03507d8
+      - s-36cb227811
+      - s-b0f394a81b
+      - s-a774a191b9
+      - s-e8c5782681
+      - s-f08f115b3d
+      - s-bbb3a5dfa3
+      - s-6706fce385
+      - s-eb70c83e63
+      - s-0e3a17b446
+    zh:
+      - s-8f04a914ee
+      - s-8d815c9a59
+      - s-da97d4c5a3
+      - s-bc4676c17f
+      - s-5521907e05
+      - s-131663c959
+      - s-dd000acb2a
+      - s-4c16670750
+      - s-cb0eed9a1c
+      - s-03e612bea0
+      - s-a90a67a687
+      - s-b226d7ec6d
+      - s-4041c1b036
+      - s-6468ef296b
+      - s-32c4f27386

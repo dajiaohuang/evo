@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes kaikatti
+  displayName: Raorchestes kaikatti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78T3P
+  sourceIndexes:
+    - name:
+        en: Raorchestes kaikatti
+        zh: Raorchestes kaikatti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78T3P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/161
+            queryName: Raorchestes kaikatti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/93
+            queryName: Philautus kaikatti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/94
+            queryName: Pseudophilautus kaikatti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3cc2a6e85a
+      - s-4693c98c09
+      - s-400e4cc528
+      - s-e442ffe733
+      - s-30aaebc861
+      - s-eaf46207e0
+      - s-381d8cb8fa
+      - s-e047e0feaa
+      - s-4b9f1e5090
+      - s-c39d92b68c
+    zh:
+      - s-3f4b51d6ca
+      - s-970c3c1c1a
+      - s-8cb1494517
+      - s-2dc4675763
+      - s-2e512f92fb
+      - s-118d377adc
+      - s-46079cae6f
+      - s-270c94042a
+      - s-5b6ffe8371
+      - s-2408e0702c

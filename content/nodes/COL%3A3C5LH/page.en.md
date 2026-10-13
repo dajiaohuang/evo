@@ -1,0 +1,3 @@
+## A grooved midrib and fruit fields left unknown {#s-30abf05411}
+The Brazilian Flora 2020 v393.147 field describes elliptic leaves with acute, rounded or blunt bases and tips that taper to a point. The leaves are papery, with flat margins and no hard, cartilage-like edge. The upper midrib, or main leaf vein, is grooved, with one vein near the leaf edge. Flowers form a raceme, a cluster of stalked flowers along a main axis; the source gives no bract status. Smaller, inconspicuous bracteoles beside flowers persist. The flower cup is smooth but bears hairs; its calyx is open in bud, with four sepals and four petals. Fruit shape and surface, fruit bracteole status, seed number and embryo are marked unknown.
+

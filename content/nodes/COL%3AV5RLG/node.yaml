@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana zhaoermii
+  displayName: Nanorana zhaoermii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5RLG
+  sourceIndexes:
+    - name:
+        en: Nanorana zhaoermii
+        zh: Nanorana zhaoermii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5RLG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/195
+            queryName: Nanorana zhaoermii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-861bbdf9a8
+      - s-e27ed61065
+      - s-7884aef92b
+      - s-f7bca6aecc
+      - s-d3e17b5976
+      - s-a6f3fc68a9
+      - s-a59499cad6
+      - s-9de9779850
+      - s-de2f830ab2
+    zh:
+      - s-7ea0243d57
+      - s-138ca6eef0
+      - s-3f8d35311c
+      - s-b2882607a3
+      - s-7d539ee031
+      - s-6c94f5b944
+      - s-6f01691053
+      - s-1f43e04afc
+      - s-b743e1c595

@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Eorubeta nevadensis
+    rank: species
+    sourceTaxonId: txn:135428
+    name:
+      en: Eorubeta nevadensis
+      zh: Eorubeta nevadensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-50c64f36a2
+            part: body
+          zh:
+            page: zh
+            section: s-564468b109
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-dff23e8ff6
+            part: body
+          zh:
+            page: zh
+            section: s-6ce5500777
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-ca03bad208
+            part: body
+          zh:
+            page: zh
+            section: s-227731818c
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:135428; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. K. Hecht. 1960. A new frog from an Eocene oil-well core in Nevada. American Museum Novitates 2006:1-14
+    occurrenceEvidence:
+      - occurrenceId: occ:785826
+        collectionId: col:84710
+        acceptedTaxonId: txn:135428
+        identifiedName: Eorubeta nevadensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:28414
+        bibliography: M. K. Hecht. 1960. A new frog from an Eocene oil-well core in Nevada. American Museum Novitates 2006:1-14
+        locality:
+          countryCode: US
+          stateProvince: Nevada
+          county: White Pine
+        stratigraphy:
+          group: null
+          formation: Sheep Pass
+          member: B
+        olderAgeMa: 72.2
+        youngerAgeMa: 56
+      - occurrenceId: occ:1395700
+        collectionId: col:192234
+        acceptedTaxonId: txn:135428
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Nevada
+          county: White Pine
+        stratigraphy:
+          group: null
+          formation: Sheep Pass
+          member: C
+        olderAgeMa: 66
+        youngerAgeMa: 56
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ca03bad208
+            part: body
+          zh:
+            page: zh
+            section: s-227731818c
+            part: body
+        sourceIds: []

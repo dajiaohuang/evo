@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus shuar
+  displayName: Hyloxalus shuar
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGYC
+  sourceIndexes:
+    - name:
+        en: Hyloxalus shuar
+        zh: Hyloxalus shuar
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGYC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/132
+            queryName: Hyloxalus shuar
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/148
+            queryName: Colostethus shuar
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2463f5580f
+      - s-b4f9de1100
+      - s-6b44d372f4
+      - s-dd3a923019
+      - s-f024b5d8d5
+      - s-586d25fe87
+      - s-aeac59b0f8
+      - s-19d746f366
+      - s-72b1f9349c
+      - s-9e7444c357
+      - s-18c60abe8c
+      - s-3194f7a38c
+      - s-bac2d04361
+      - s-169cbb2c27
+      - s-1a58ba79cb
+      - s-64e3d483fc
+      - s-e97b35e28f
+    zh:
+      - s-ffb3b432e6
+      - s-1e3a0b6088
+      - s-04c87ca8f2
+      - s-20a1f65d42
+      - s-c743183bb3
+      - s-ba0f18131b
+      - s-ca7dd74b9c
+      - s-7325c3ac64
+      - s-0ac32edeeb
+      - s-88b67e3ba8
+      - s-1d46ee94e8
+      - s-95ccfaefdd
+      - s-9f8f783c47
+      - s-febef25cef
+      - s-f30becc01e
+      - s-cba7085645
+      - s-e1cf6b06b6

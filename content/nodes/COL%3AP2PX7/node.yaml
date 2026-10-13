@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Firouzophrynus stomaticus
+  displayName: Firouzophrynus stomaticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P2PX7
+  sourceIndexes:
+    - name:
+        en: Firouzophrynus stomaticus
+        zh: Firouzophrynus stomaticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P2PX7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/492
+            queryName: Firouzophrynus stomaticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/416
+            queryName: Bufo stomaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/428
+            queryName: Duttaphrynus stomaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/429
+            queryName: Bufo andersonii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14a4daa4cd
+      - s-059daff5e2
+      - s-07d752e1f7
+      - s-83db982b55
+      - s-440b4f2885
+      - s-dba9d101ec
+      - s-3aefd9b3af
+      - s-0c1b0fb2ec
+      - s-43892b0c41
+      - s-52f399a821
+      - s-d5fe12dab4
+      - s-ead2fdeea6
+    zh:
+      - s-db2d758fcd
+      - s-a67a42a559
+      - s-ea75cfa44d
+      - s-5c4e61af6a
+      - s-8adcda2a12
+      - s-9b70768079
+      - s-fac97a9add
+      - s-9f49571c65
+      - s-a4953766e6
+      - s-eb4f065875
+      - s-e6c077cbaf
+      - s-57b67b3cb2

@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinophrynus dorsalis
+  displayName: Rhinophrynus dorsalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S9LS
+  sourceIndexes:
+    - name:
+        en: Rhinophrynus dorsalis
+        zh: Rhinophrynus dorsalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S9LS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/387
+            queryName: Rhinophrynus dorsalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 55
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/168
+            queryName: Rhinophrynus rostratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/169
+            queryName: Rhinophryne rostratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91fbefbe5c
+      - s-d62cd684f3
+      - s-f31dad5db3
+      - s-2c8d4b8bd7
+      - s-4812c8eaf3
+      - s-25c69460ec
+      - s-81a84e3cde
+      - s-49b9f749d9
+      - s-20ffaee94e
+      - s-33d5deee67
+      - s-7383d7744c
+      - s-ab05d7a059
+      - s-888a3e1c5f
+      - s-0d578d3089
+      - s-a3858c2122
+      - s-48951ff36d
+      - s-ec28662187
+      - s-17106b64ee
+      - s-702749a728
+      - s-5d42f0338d
+      - s-184f40b097
+      - s-2b7eb94cc9
+      - s-aff85053b0
+    zh:
+      - s-c14aa424eb
+      - s-9801b9fd5e
+      - s-59153dcfd5
+      - s-52b23b328a
+      - s-00ed43115f
+      - s-120d3e0bce
+      - s-5eeda39c4e
+      - s-f7add693e0
+      - s-20f993017c
+      - s-044488c729
+      - s-f4635cb45c
+      - s-c0beb7f332
+      - s-55a3676429
+      - s-b2fc182426
+      - s-8b517dcf13
+      - s-d815677548
+      - s-38f53f7cea
+      - s-803943de8b
+      - s-7645504c3b
+      - s-d44ea704e7
+      - s-b48fcd748a
+      - s-959c9fbb4f
+      - s-4a6a4cf284

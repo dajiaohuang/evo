@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Fritziana fissilis
+  displayName: Fritziana fissilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JPJP
+  sourceIndexes:
+    - name:
+        en: Fritziana fissilis
+        zh: Fritziana fissilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JPJP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/495
+            queryName: Fritziana fissilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/3
+            queryName: Nototheca fissilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/109
+            queryName: Flectonotus fissilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/384
+            queryName: Coelonotus fissilis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a64ecc74be
+      - s-cfc82890b4
+      - s-15f47a618a
+      - s-f523b851ca
+      - s-6cf5b81c67
+      - s-d523132eff
+      - s-3bcfe624c9
+      - s-5fa93c1efd
+      - s-e98e472db0
+      - s-cccaf73a80
+      - s-c5a306095f
+      - s-24c228c588
+    zh:
+      - s-67c247f74b
+      - s-8110bae904
+      - s-320f9e2051
+      - s-633d16223e
+      - s-6ff2ab5655
+      - s-f369e5025c
+      - s-a21bb577cc
+      - s-5d593b0103
+      - s-3890fa5ca8
+      - s-f79199062a
+      - s-b3916da7e3
+      - s-1c49163af8

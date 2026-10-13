@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis tricolor
+  displayName: Ichthyophis tricolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N63W
+  sourceIndexes:
+    - name:
+        en: Ichthyophis tricolor
+        zh: Ichthyophis tricolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N63W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/429
+            queryName: Ichthyophis tricolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/363
+            queryName: Ichthyophis glutinosus tricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-700ae2c4bf
+      - s-ffb2780d8b
+      - s-037b7fe615
+      - s-719d17c042
+      - s-0503a79faa
+      - s-cf4847de06
+      - s-af58bcd573
+      - s-0264094870
+      - s-1d610709fa
+      - s-a3fdbe5b24
+      - s-f4d856943a
+      - s-bad4edb58f
+      - s-0e59e578a9
+      - s-b41e5caf7d
+      - s-17b135fbad
+    zh:
+      - s-11f90b7822
+      - s-2bd61d72d3
+      - s-4f16a8715b
+      - s-39f13656e0
+      - s-f1933af4aa
+      - s-78524e5cc4
+      - s-e02db61a4d
+      - s-d949e85ac2
+      - s-a637825005
+      - s-481ed2c6ac
+      - s-d408885b09
+      - s-02c68d7368
+      - s-0ad51e03a4
+      - s-5267542006
+      - s-a6f880a05b

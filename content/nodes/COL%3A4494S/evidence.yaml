@@ -1,0 +1,143 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Monopsis variifolia (Sims) Urb.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4494S, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4494S; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4494S
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4494S
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000816505-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4494S / WFO wfo-0000816505
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_4846_0
+        referenceId: ref-5b0b5f1e-9031-8adb-a8ad-760c9ef026de
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Monopsis variifolia (Sims) Urb. account; archive rows 84135 (Morphology), 84136 (Diagnostic), source identifier 4846.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_14349_0
+        referenceId: ref-df333929-6fc3-8b64-a07d-65ab7f689729
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Monopsis variifolia (Sims) Urb. account; archive rows 26789 (Habitat), source identifier 14349.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Caules e radice plures, ascendenti-erecti vel erecti, 5-16 cm lati, rigidi, striati, puberuli vel glabri, dense foliosi. Folia imbricata, alterna, sessilia, linearia, calloso-acuta, remote callose pinnatifido-dentata, superiora passim longiora, 6-20 mm longa 0.5-1 mm lata, inferiora integra, saepe intus et margine ad basin tantum vel superne quoque pilosa. Flores pauci in vertice caulium, sessiles. Prophylla 2 subulata, folio florali triplo breviora, basi calycis inserta. Hypanthium oblongo-obconicum, villosum; lobi eius subulati, integri, erecti, glabrescentes, 4 mm longi. Corolla flava, ca. 12 mm longa, extus minute hirtella vel glabrescens, in nervis mediis petalorum parce hirsuta, bilabiata; lobi 2 superiores lanceolato-lineares, circiter 3 mm supra basin corollae soluti; labium inferius tripartitum lobis ovato-oblongis acutis. Filamenta 6 mm longa, extus glabra, ad fissuras pilosula. Antherae fuscae albido-striatae, apice omnes pilosae. Stigma parum exsertum.
+            sourceIds:
+              - sanbi_4846_0
+            locator: "SANBI/WFO archive Morphology row 84135; source 4846.0; publication: Wimmer, FE. 1953. Campanulaceae-Lobelioideae II. In: A Engler, L Diels, H Stubbe & K Noack (eds), Pflanzenr. (Engler) IV 276b(Heft 107): 1 - 813. Akademie Verlag, Berlin. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: M. arenaria et M. variifolia inter se simillimae, sed prior ab ultima manifeste distincta habitu prostrato, folds minute et apicem versus tantum denticulatis, floribus distincte pedicellatis.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_4846_0
+            locator: "SANBI/WFO archive Diagnostic row 84136; source 4846.0; publication: Wimmer, FE. 1953. Campanulaceae-Lobelioideae II. In: A Engler, L Diels, H Stubbe & K Noack (eds), Pflanzenr. (Engler) IV 276b(Heft 107): 1 - 813. Akademie Verlag, Berlin. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Damp flats.
+            sourceIds:
+              - sanbi_14349_0
+            locator: "SANBI/WFO archive Habitat row 26789; source 14349.0; publication: Phillipson, PB. 2012. Lobeliaceae. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 606 - 613. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-18418c11aa
+            part: title
+          zh:
+            page: zh
+            section: s-0eeeca782b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-18418c11aa
+            part: body
+          zh:
+            page: zh
+            section: s-0eeeca782b
+            part: body

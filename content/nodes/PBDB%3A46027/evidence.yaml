@@ -1,0 +1,469 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mammuthus primigenius
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Mammuthus primigenius
+      en: Mammuthus primigenius
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-14ed394238
+            part: body
+          en:
+            page: en
+            section: s-5d90b77d84
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1900a2a6d5
+            part: body
+          en:
+            page: en
+            section: s-f9ce675850
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-510fb2b719
+            part: body
+          en:
+            page: en
+            section: s-cf24223e16
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d847c7b647
+            part: body
+          en:
+            page: en
+            section: s-8377185e32
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-60a98b2659
+            part: body
+          en:
+            page: en
+            section: s-b52b7ba788
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Mammuthus primigenius
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=46027&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:46027; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:46027
+          selectedOccurrenceIds:
+            - occ:199011
+            - occ:199325
+            - occ:199756
+            - occ:229344
+            - occ:364234
+            - occ:417545
+            - occ:440186
+            - occ:457460
+            - occ:457462
+            - occ:457464
+            - occ:457491
+            - occ:457510
+            - occ:485240
+            - occ:485300
+            - occ:485333
+            - occ:598196
+            - occ:683591
+            - occ:690438
+            - occ:698467
+            - occ:698469
+            - occ:698709
+            - occ:725858
+            - occ:837735
+            - occ:837738
+            - occ:839963
+            - occ:841774
+            - occ:842840
+            - occ:849601
+            - occ:850787
+            - occ:914544
+            - occ:919551
+            - occ:935460
+            - occ:935480
+            - occ:938106
+            - occ:939642
+            - occ:939647
+            - occ:939648
+            - occ:945342
+            - occ:1020803
+            - occ:1032617
+            - occ:1167267
+            - occ:1201165
+            - occ:1243012
+            - occ:1245161
+            - occ:1276231
+            - occ:1315766
+            - occ:1315767
+            - occ:1315768
+            - occ:1315784
+            - occ:1327684
+            - occ:1383231
+            - occ:1383281
+            - occ:1384737
+            - occ:1384738
+            - occ:1385017
+            - occ:1391726
+            - occ:1412695
+            - occ:1422103
+            - occ:1466148
+            - occ:1539090
+            - occ:1578508
+            - occ:1578511
+            - occ:1578512
+            - occ:1578513
+            - occ:1578514
+            - occ:1578515
+            - occ:1578516
+            - occ:1578518
+            - occ:1578519
+            - occ:1578520
+            - occ:1601057
+            - occ:1601058
+            - occ:1630580
+            - occ:1697939
+            - occ:2070735
+          selectedCollectionIds:
+            - col:20545
+            - col:20577
+            - col:20626
+            - col:22724
+            - col:34536
+            - col:40497
+            - col:43015
+            - col:45086
+            - col:45063
+            - col:45067
+            - col:45069
+            - col:45072
+            - col:48592
+            - col:48587
+            - col:48581
+            - col:63394
+            - col:73692
+            - col:74240
+            - col:75033
+            - col:75035
+            - col:75044
+            - col:77750
+            - col:92954
+            - col:92955
+            - col:93180
+            - col:93339
+            - col:93555
+            - col:94425
+            - col:94578
+            - col:103794
+            - col:103358
+            - col:73726
+            - col:82530
+            - col:102954
+            - col:20632
+            - col:108789
+            - col:108790
+            - col:109703
+            - col:124957
+            - col:126446
+            - col:150207
+            - col:155393
+            - col:163820
+            - col:164185
+            - col:169385
+            - col:176608
+            - col:176609
+            - col:176610
+            - col:176611
+            - col:178476
+            - col:189574
+            - col:189573
+            - col:189964
+            - col:189965
+            - col:190079
+            - col:20498
+            - col:195204
+            - col:197461
+            - col:204747
+            - col:216260
+            - col:222853
+            - col:222856
+            - col:222857
+            - col:222858
+            - col:222859
+            - col:222860
+            - col:222861
+            - col:222863
+            - col:222864
+            - col:222865
+            - col:226211
+            - col:225173
+            - col:230983
+            - col:240637
+            - col:189981
+          sourceReferenceIds:
+            - ref:4222
+            - ref:2654
+            - ref:1785
+            - ref:5675
+            - ref:9116
+            - ref:10916
+            - ref:11398
+            - ref:11725
+            - ref:11726
+            - ref:12964
+            - ref:18196
+            - ref:24706
+            - ref:24936
+            - ref:25309
+            - ref:25311
+            - ref:25314
+            - ref:26261
+            - ref:31407
+            - ref:31408
+            - ref:31485
+            - ref:31581
+            - ref:31685
+            - ref:32106
+            - ref:32187
+            - ref:34994
+            - ref:25320
+            - ref:35838
+            - ref:35842
+            - ref:35949
+            - ref:35981
+            - ref:36257
+            - ref:40497
+            - ref:41023
+            - ref:48063
+            - ref:50711
+            - ref:53461
+            - ref:53569
+            - ref:55350
+            - ref:58186
+            - ref:59047
+            - ref:63715
+            - ref:63867
+            - ref:63868
+            - ref:63921
+            - ref:53742
+            - ref:66368
+            - ref:9534
+            - ref:70270
+            - ref:74696
+            - ref:78409
+            - ref:78419
+            - ref:82048
+            - ref:85454
+            - ref:92005
+            - ref:63876
+          originalIdentificationMappings:
+            - occurrenceId: occ:364234
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:440186
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:457460
+              originalIdentifiedName: Mammonteus primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:485300
+              originalIdentifiedName: Mammuthus primigenius <late form>
+              acceptedName: Mammuthus primigenius
+              difference: null
+            - occurrenceId: occ:690438
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:698467
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:698469
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:698709
+              originalIdentifiedName: Elephas boreus
+              acceptedName: Mammuthus primigenius
+              difference: null
+            - occurrenceId: occ:725858
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:849601
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:850787
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:938106
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:939642
+              originalIdentifiedName: Mammonteus (Elephas) primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:939647
+              originalIdentifiedName: Mammonteus (Elephas) primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:939648
+              originalIdentifiedName: Mammonteus (Elephas) primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1032617
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1201165
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1243012
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1391726
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578508
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578511
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578512
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578513
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578514
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578515
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578516
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578518
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578519
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+            - occurrenceId: occ:1578520
+              originalIdentifiedName: Elephas primigenius
+              acceptedName: Mammuthus primigenius
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d8c6ad245c
+        part: body
+      en:
+        page: en
+        section: s-d61991f301
+        part: body

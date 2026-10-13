@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates yavapaiensis
+  displayName: Lithobates yavapaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHR9
+  sourceIndexes:
+    - name:
+        en: Lithobates yavapaiensis
+        zh: Lithobates yavapaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHR9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/203
+            queryName: Lithobates yavapaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 38
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/225
+            queryName: Rana yavapaiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2363b4078c
+      - s-d5735fe059
+      - s-817102262f
+      - s-cda1c6926f
+      - s-eb442817ff
+      - s-e54e40ceb1
+      - s-3bd9326dca
+      - s-07ce225c2b
+      - s-7861889cc5
+      - s-dd63d1b4a1
+      - s-b7e45232a3
+      - s-3a991af57c
+      - s-e579f59e76
+      - s-1b02244fb6
+      - s-92fbb61ba6
+      - s-e4a05da939
+      - s-ddcd0d6ba1
+      - s-9166e97818
+      - s-3e22104df7
+      - s-707889332e
+    zh:
+      - s-95a9bd719b
+      - s-f9b5722512
+      - s-235e403c00
+      - s-c53b8c67fc
+      - s-034c917739
+      - s-ac636a119b
+      - s-99c4bf1994
+      - s-4253a053d5
+      - s-6bc8619c0c
+      - s-8ea71728e6
+      - s-d0c89b3aa6
+      - s-0e53b3e951
+      - s-063135579e
+      - s-4ae4c1f635
+      - s-0665dac77a
+      - s-ad61f85a15
+      - s-44e2d97328
+      - s-7e3d04795c
+      - s-cffcf9796a
+      - s-1c9bfa2550

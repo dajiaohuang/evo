@@ -1,0 +1,3 @@
+## A highly variable shrub with long flower stalks {#s-42de6cea86}
+The account describes a shrub up to 1 m tall with long, narrow, smooth leaves that are often divided into three forks or more deeply lobed. Solitary yellow heads sit on long stalks. The species varies greatly in growth form and leaf shape; some plants arise from a thick underground base, but the source does not know whether this structure is always present. Forms named E. rogersii appear connected to typical plants by transitional forms. The account distinguishes E. pedunculatus from the related E. laxus by its less-joined, more overlapping bracts and usually smaller, more hairy fruits. It grows in mountain grassland and on rocky outcrops.
+

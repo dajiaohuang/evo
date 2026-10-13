@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbine muscicola G.Will.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ2N, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ2N; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ2N
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ2N
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762383-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ2N / WFO wfo-0000762383
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7890_0
+        referenceId: ref-2d3fdd9e-d41b-8afe-a766-12a1e202976f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbine muscicola G.Will. account; SANBI/WFO archive rows 85347 (Morphology), 85090 (Habitat), 84581 (Diagnostic), source identifier 7890.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants arising from perennial dome-shaped tubers 6-10 mm broad x 3-8 mm high, with several spreading wedge-shaped roots. Leaf erect, translucent light green, linear terete when young becoming broader, lanceolate, 35 x 4 mm, eventually clavate, truncate, late in the season ca. 25 mm x 5 mm broad at truncate apex; occasionally before anthesis a second vestigial, narrowly linear, terete leaf appears, ca. 12 mm long. The leaves wither completely before the flowers open. Flowers hysteranthous, 6-10 in a lax, solitary raceme ca. 40 x 15 mm; peduncle plus inflorescence 60-80 mm, rising from a narrow cylindrical sheath 10-25 mm long x 1-1.5 mm wide, which elongates as the leaf withers; flower bract triangular, 2.5 x 0.8 mm with an acuminate apex, basal portion brown enveloping the pedicel base, pedicel ca. 8 x 0.3 mm. Flower with outer whorl swept immediately backwards towards the pedicel, narrowly ovate, 6 x 2 mm, inner whorl ovate,6 x 3 mm, upper segment vertical with margins folded inwards, laterals horizontal, flat outer surface facing filaments, occasionally with a notch towards apical lower border, all tepals very light greenish yellow with a faint green mid-vein. Filaments slender, bearded, all ca. 5.5 x 0.5 mm, outers with a single cushion of glandular hairs towards the anther, central lowest curved backwards in a u-shape, anther 0.8 mm, situated behind and below inner tepals, rest curved forwards; inner filaments with a double cushion of glandular hairs, anthers 0.5 mm, glandular hairs1.4 mm long with a bulbous apex. Ovary greenish, ovoid, 1 mm in diameter; style slender, projecting slightly beyond anthers, 6 x 0.3 mm; stigma minute rugose. Capsule 3 x 2 mm, brownish-bronze, with almost horizontal pedicel 13 x 0.3mm. Seed narrowly pyramidal, brownish black, overall texture rough, margins wavy, remains of placental attachment prominent, upper third of apex with a broad to narrow papyraceous membrane on either keel, 1.3 x 0.5 x 0.3 mm.
+            textZh: Bulbine muscicola G.Will. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7890_0
+            locator: "SANBI/WFO archive Morphology row 85347; source identifier 7890.0; cited publication: Williamson, G. 2000. Four new, succulent Bulbine species (Asphodelaceae) from the Western and Eastern Cape Provinces of the Republic of South Africa. Bradleya 18: 31 - 40. [https://doi.org/10.25223/brad.n18.2000.a3]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Bulbine muscicola is unifoliate with an occasional short second leaf produced just before flowering and can be distinguished from all other single-leafed species by the terete linear leaf which becomes clavate and truncated late in the season. The leaf epidermis is covered with minute shiny granules. Further interesting characters are the severely reflexed outer whorl of tepals covering the pedicel and the non-decurved, upright and horizontally facing inner tepals. The lowest filament curves backwards to lie within the lower tepals and possesses a larger anther than the other filaments. The seed has papyraceous webbing membranes towards the apical third.
+            textZh: SANBI 条目提供了 Bulbine muscicola G.Will. 的鉴别特征。
+            sourceIds:
+              - sanbi_7890_0
+            locator: "SANBI/WFO archive Diagnostic row 84581; source identifier 7890.0; cited publication: Williamson, G. 2000. Four new, succulent Bulbine species (Asphodelaceae) from the Western and Eastern Cape Provinces of the Republic of South Africa. Bradleya 18: 31 - 40. [https://doi.org/10.25223/brad.n18.2000.a3]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In shallow carpets of moss covering rocks in shaded protected places on southwestern aspect. Soil cover so shallow that the base of the tubers lies in contact with the rock surface.
+            textZh: 该 SANBI 区域物种条目记录的生境：In shallow carpets of moss covering rocks in shaded protected places on southwestern aspect. Soil cover so shallow that the base of the tubers lies in contact with the rock surface.
+            sourceIds:
+              - sanbi_7890_0
+            locator: "SANBI/WFO archive Habitat row 85090; source identifier 7890.0; cited publication: Williamson, G. 2000. Four new, succulent Bulbine species (Asphodelaceae) from the Western and Eastern Cape Provinces of the Republic of South Africa. Bradleya 18: 31 - 40. [https://doi.org/10.25223/brad.n18.2000.a3]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

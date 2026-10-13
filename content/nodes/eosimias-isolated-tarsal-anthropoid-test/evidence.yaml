@@ -1,0 +1,70 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a2b82ae2fe
+      part: title
+    titleZh:
+      page: zh
+      section: s-8f77fc1b95
+      part: title
+    category: phylogenetic
+    startAge: 45
+    endAge: 40.5
+    regions:
+      - Shanghuang fissure fillings, Jiangsu, China
+      - Yuanqu Basin, Shanxi, China
+    clades:
+      - Eosimias
+      - Anthropoidea
+      - Haplorhini
+    summary:
+      page: en
+      section: s-a2b82ae2fe
+      part: body
+    summaryZh:
+      page: zh
+      section: s-8f77fc1b95
+      part: body
+    claimIds:
+      - claim:event:eosimias-isolated-tarsal-anthropoid-test
+    evidenceItems:
+      - statement: The sample includes Shanghuang talus IVPP V11855 and calcaneus IVPP V12313, plus Yuanqu right talus IVPP V11846 illustrated in Figure 1; measurements are tabulated in the supplement.
+        relation: supports
+        claimIds:
+          - claim:event:eosimias-isolated-tarsal-anthropoid-test
+        referenceLinks:
+          - referenceId: gebo-2000-eosimias
+            relation: supports
+            pages: 276–278
+            figure: Figures 1–4; Supplementary Tables 1–2
+            quoteLocator: Tarsal description, attribution and PAUP consensus analysis
+    uncertaintyItems:
+      - statement: The tarsals are not dentally associated with Eosimias, the fissure-fill age is broad, and anthropoid status is a character-matrix inference rather than crown membership or a global FAD.
+        relation: contextualizes
+        claimIds:
+          - claim:event:eosimias-isolated-tarsal-anthropoid-test
+        referenceLinks:
+          - referenceId: gebo-2000-eosimias
+            relation: supports
+            pages: 276–278
+            figure: Figures 1–4; Supplementary Tables 1–2
+            quoteLocator: Tarsal description, attribution and PAUP consensus analysis
+  claims:
+    - subjectId: event:eosimias-isolated-tarsal-anthropoid-test
+      claimKind: scientific
+      claimType: topology
+      statement: Isolated IVPP eosimiid tarsals preserve derived and primitive features that place Eosimias on the anthropoid stem in the cited morphology analysis, subject to non-association and matrix limits.
+      confidence: medium
+      confidenceRationale: Medium confidence reflects informative preserved anatomy but indirect taxonomic association, a broad locality age and topology sensitivity to character coding.
+      referenceLinks:
+        - referenceId: gebo-2000-eosimias
+          relation: supports
+          pages: 276–278
+          figure: Figures 1–4; Supplementary Tables 1–2
+          quoteLocator: Tarsal description, attribution and PAUP consensus analysis
+  claim-rationales.zh:
+    - 中等置信度反映信息丰富的保存解剖，但分类关联是间接的、地点年代宽泛，拓扑也对性状编码敏感。
+  claim-statements.zh:
+    - 孤立的 IVPP 曙猿类跗骨兼具衍生与原始特征，在所引形态分析中把 Eosimias 置于类人猿下目干群；这一结果受标本不关联和矩阵限制。

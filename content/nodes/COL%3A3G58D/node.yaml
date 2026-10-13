@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Glandirana tientaiensis
+  displayName: Glandirana tientaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3G58D
+  sourceIndexes:
+    - name:
+        en: Glandirana tientaiensis
+        zh: Glandirana tientaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3G58D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/176
+            queryName: Glandirana tientaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/206
+            queryName: Rana tientaiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/176
+            queryName: Rugosa tientaiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-54e7103ca0
+      - s-4a12eb0953
+      - s-dd28060ba5
+      - s-321a9f5da4
+      - s-39e7a44a1e
+      - s-f26de62b7c
+      - s-5305e33640
+      - s-7b8960e5f9
+      - s-a62906bf54
+    zh:
+      - s-2b0ee83205
+      - s-27b53eeb07
+      - s-881e26c087
+      - s-cf9b06d333
+      - s-5a032f5dce
+      - s-e551dc4dd0
+      - s-d2c9f6a84a
+      - s-4afc3ae985
+      - s-f93b36cd55

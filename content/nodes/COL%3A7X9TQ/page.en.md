@@ -1,0 +1,3 @@
+## What single-flowered form does the regional field describe? {#s-f9ef4e20c8}
+The Flora do Brasil 2020 field records spherical glandular hairs on the stem and leaves. The leaves may be stalked or sessile, have the same color on both faces, and bear one vein. Flowers are solitary. The floral cup is oblong to bell-shaped and has spherical glands; the sepals are oblong, glandular and shorter than the cup. Petals are yellow, the anthers match one another in color and contain multiple pollen sacs, and the ovary has three chambers. These are the regional database's listed traits, not a global survey.
+

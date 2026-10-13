@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor brocchi
+  displayName: Craugastor brocchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCCN
+  sourceIndexes:
+    - name:
+        en: Craugastor brocchi
+        zh: Craugastor brocchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCCN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/96
+            queryName: Craugastor brocchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/46
+            queryName: Eleutherodactylus brocchi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/242
+            queryName: Hylodes brocchi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-009442381b
+      - s-284659af63
+      - s-a4d2d72593
+      - s-283d8fb271
+      - s-4cd0195206
+      - s-835286031c
+      - s-ec82cf1380
+      - s-a11d5bde9d
+      - s-6f8e6e2e3f
+    zh:
+      - s-e7f6892c25
+      - s-3eac92f510
+      - s-7d346d3249
+      - s-cbf40207da
+      - s-323e1f0513
+      - s-3b29f1e9b7
+      - s-80ba9967d9
+      - s-00fe0c926e
+      - s-f1aa29d4e3

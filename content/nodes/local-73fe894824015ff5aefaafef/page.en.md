@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Proceratophrys goyana {#s-37b2b7503d}
+TadpoleTraits version 4 places Proceratophrys goyana in Proceratophrys (Odontophrynidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Proceratophrys goyana. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 1 literature row and 0 image rows {#s-d7a42783f4}
+TadpoleTraits version 4 links 1 literature row and 0 image rows to Proceratophrys goyana. Source row numbers — literature: 4219; image: none recorded. Populated measurement fields — literature: TL, TL.sd, BL, BL.sd, BMH, BMH.sd, BMW, BMW.sd, TMH, TMH.sd, TMW, TMW.sd, DFH, DFH.sd, VFH, VFH.sd, IND.c, IND.c.sd, E, E.sd, N, N.sd, SL, SL.sd; image: none recorded. Literature row 4219: Stage 31, 37. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

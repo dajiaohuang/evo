@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton totonacus
+  displayName: Chiropterotriton totonacus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MFQ6Z
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton totonacus
+        zh: Chiropterotriton totonacus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MFQ6Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/309
+            queryName: Chiropterotriton totonacus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6828b6d1cf
+      - s-f5d39b798f
+      - s-137e5ef255
+      - s-6225af7597
+      - s-a7f091610f
+      - s-3817c50b9b
+      - s-e0c1a01a5f
+      - s-365b9be844
+      - s-5dc913a3b6
+      - s-40972ec86a
+      - s-72dbf88a00
+    zh:
+      - s-1c9d16ac91
+      - s-3175105a10
+      - s-6d87bab565
+      - s-71c7665f1d
+      - s-b323c904ff
+      - s-64dffe1e71
+      - s-d076bf71c7
+      - s-bc023baeb1
+      - s-472bba90e0
+      - s-e317ac8073
+      - s-f7f2e595a3

@@ -1,0 +1,3 @@
+## ## Globose heads and alternative calyx states {#s-0f58d17da0}
+The Brazilian Flora 2020 entry records glabrous stems and capitate glandular hairs; setae and short shoots are absent, although the stem field also lists simple hairs. The stipules persist, extrafloral nectaries are absent, and the projection between pinna pairs is listed as absent or present. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four or five perianth parts and a membranous calyx with absent or triangular lobes. Corolla lobes are hairless and have one to three veins; the androecium is diplostemonous, with pink filaments. These fields list alternatives rather than a quantified survey of variation.
+

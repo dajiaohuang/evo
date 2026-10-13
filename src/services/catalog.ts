@@ -121,6 +121,28 @@ function score(haystack: string, query: string): number {
   return 0
 }
 
+function readerKeywords(sections: EvolutionEvent['readerSections']): string {
+  return sections?.map(section => `${section.title.en} ${section.title.zh} ${section.text.en} ${section.text.zh}`).join(' ') ?? ''
+}
+
+function searchEntry(keywords: string) {
+  return { keywords, normalized: searchable(keywords) }
+}
+
+const taxonSearchIndex = new Map(taxonProfiles.map(profile => [profile.id, searchEntry([
+  profile.commonNameZh, profile.scientificName, profile.commonName, profile.rank, profile.parentName,
+  ...profile.traits, ...(profile.traitsZh ?? []), profile.overview, profile.overviewZh ?? '',
+  profile.evidenceSummary, profile.evidenceSummaryZh ?? '', readerKeywords(profile.readerSections),
+].join(' '))]))
+const eventSearchIndex = new Map(evolutionEvents.map(event => [event.id, searchEntry([
+  event.titleZh, event.title, event.category, ...event.clades, ...event.regions,
+  event.summary, event.summaryZh ?? '', readerKeywords(event.readerSections),
+].join(' '))]))
+const storySearchIndex = new Map(evolutionStories.map(story => [story.id, searchEntry([
+  story.titleZh, story.title, story.dek, story.dekZh ?? '',
+  ...story.steps.map(step => `${step.title} ${step.titleZh ?? ''} ${step.text} ${step.textZh ?? ''}`),
+].join(' '))]))
+
 export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
   const query = searchable(rawQuery.trim())
   if (!query) {
@@ -142,9 +164,8 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
   const candidates: Array<SearchResult & { score: number }> = []
 
   for (const profile of taxonProfiles) {
-    const title = `${profile.commonNameZh} ${profile.scientificName} ${profile.commonName}`
-    const keywords = `${title} ${profile.rank} ${profile.parentName} ${profile.traits.join(' ')}`
-    const resultScore = score(searchable(keywords), query)
+    const { keywords, normalized } = taxonSearchIndex.get(profile.id)!
+    const resultScore = score(normalized, query)
     if (resultScore > 0) candidates.push({
       id: profile.id,
       kind: 'taxon',
@@ -159,8 +180,8 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
   }
 
   for (const event of evolutionEvents) {
-    const keywords = `${event.titleZh} ${event.title} ${event.category} ${event.clades.join(' ')} ${event.regions.join(' ')}`
-    const resultScore = score(searchable(keywords), query)
+    const { keywords, normalized } = eventSearchIndex.get(event.id)!
+    const resultScore = score(normalized, query)
     if (resultScore > 0) candidates.push({
       id: event.id,
       kind: 'event',
@@ -175,8 +196,8 @@ export function searchCatalog(rawQuery: string, limit = 16): SearchResult[] {
   }
 
   for (const story of evolutionStories) {
-    const keywords = `${story.titleZh} ${story.title} ${story.dek}`
-    const resultScore = score(searchable(keywords), query)
+    const { keywords, normalized } = storySearchIndex.get(story.id)!
+    const resultScore = score(normalized, query)
     if (resultScore > 0) candidates.push({
       id: story.id,
       kind: 'story',

@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nyctibatrachus petraeus
+    name:
+      en: Nyctibatrachus petraeus
+      zh: Nyctibatrachus petraeus
+    sourceClassification:
+      order: Anura
+      family: Nyctibatrachidae
+      genus: Nyctibatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a23968884b
+            part: body
+          zh:
+            page: zh
+            section: s-e4c94f9400
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-438a69a653
+            part: body
+          zh:
+            page: zh
+            section: s-db832895b6
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3600, 3601; Reference.csv rows 914
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3600
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus petraeus
+          - F
+          - "38.8"
+          - "15.3"
+          - "15.3"
+          - "4.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.9"
+          - NA
+          - "10.9"
+          - "8"
+          - NA
+          - "18.5"
+          - NA
+          - "17"
+          - "18"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.4"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3601
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus petraeus
+          - M
+          - "43.2"
+          - "17.5"
+          - "17.6"
+          - "4.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.1"
+          - NA
+          - "12.5"
+          - "7.9"
+          - NA
+          - "19.6"
+          - NA
+          - "18.9"
+          - "20.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 914
+        values:
+          - Anura
+          - Nyctibatrachus_petraeus
+          - "Biju, S. D., Bocxlaer, I. V., Mahony, S., Dinesh, K. P., Radhakrishnan, C., Zachariah, A., . . . Bossuyt, F. (2011). A taxonomic review of the Night Frog genus Nyctibatrachus Boulenger, 1882 in the Western Ghats, India (Anura: Nyctibatrachidae) with description of twelve new species. Zootaxa, 3029(1). https://doi.org/10.11646/zootaxa.3029.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 485GK
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

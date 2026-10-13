@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Engystomops petersi
+  displayName: Engystomops petersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39TTW
+  sourceIndexes:
+    - name:
+        en: Engystomops petersi
+        zh: Engystomops petersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 39TTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/358
+            queryName: Engystomops petersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/295
+            queryName: Physalaemus paraensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/296
+            queryName: Physalaemus petersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 40
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/298
+            queryName: Physalaemus schereri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/480
+            queryName: Eupemphix paraensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/481
+            queryName: Eupemphix schereri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01f5a0695f
+      - s-2f3ae81d4a
+      - s-3f72848d64
+      - s-d1573c423c
+      - s-1ab8cc7cd9
+      - s-413602c9b0
+      - s-1dd1262023
+      - s-79583716c6
+      - s-b946d26264
+      - s-066cd73242
+      - s-b0dbedec65
+      - s-24c5b9147f
+      - s-eebab6fdb6
+      - s-a4f3e9002d
+    zh:
+      - s-0d0dbf6027
+      - s-8f252413e7
+      - s-b791993181
+      - s-c187a419d4
+      - s-7f4ea2d489
+      - s-9b2ba4973b
+      - s-1505c2e3bb
+      - s-2557660729
+      - s-51fe3358b5
+      - s-b6d0aa8b37
+      - s-68bf92a042
+      - s-ad657eaa00
+      - s-8622b28343
+      - s-2427f24bc5

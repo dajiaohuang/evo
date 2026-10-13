@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Triturus roehrsi
+    rank: species
+    sourceTaxonId: txn:269999
+    name:
+      en: Triturus roehrsi
+      zh: Triturus roehrsi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-60a6409326
+            part: body
+          zh:
+            page: zh
+            section: s-6fcbbc7b70
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-f9eec297de
+            part: body
+          zh:
+            page: zh
+            section: s-8331170f51
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-753f73a105
+            part: body
+          zh:
+            page: zh
+            section: s-f3e6f32984
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:269999; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: W. Herre. 1955. Die Fauna der miozänen Spaltenfüllung von Neudorf a. d. March (ČSR.), Amphibia (Urodela). Fossile Urodelen aus dem Miozän des Wiener Beckens und ihre stammesgeschichtliche Bedeutung. Sitzungsberichte der Akademie der Wissenschaften in Wien, Mathematisch-Naturwissenschaftliche Klasse, Abteilung 1 - Biologie, Mineralogie, Erdkunde und verwandte Wissenschaften 164(10):783-803
+    occurrenceEvidence:
+      - occurrenceId: occ:1139820
+        collectionId: col:84364
+        acceptedTaxonId: txn:269999
+        taxonomicDifference: null
+        referenceId: ref:46985
+        bibliography: M. Böhme. 2008. Ectothermic vertebrates (Teleostei, Allocaudata, Urodela, Anura, Testudines, Choristodera, Crocodylia, Squamata) from the Upper Oligocene of Oberleichtersbach (Northern Bavaria, Germany). Courier Forschungsinstitut Senckenberg 260:161-183
+        locality:
+          countryCode: DE
+          stateProvince: Bavaria
+          county: Bad Kissingen
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 27.3
+        youngerAgeMa: 23.04
+      - occurrenceId: occ:1434866
+        collectionId: col:190142
+        acceptedTaxonId: txn:269999
+        taxonomicDifference: null
+        referenceId: ref:68266
+        bibliography: M. Ivanov, R. Musil, and R. Brzobohatý. 2006. Terrestrial and marine faunas from the Miocene deposits of the Mokra Plateau (Drahany Upland, Czech Republic) - impact on palaeogeography. Beiträge zur Paläontologie 30:223-239
+        locality:
+          countryCode: CZ
+          stateProvince: Moravia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 20
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1434890
+        collectionId: col:200140
+        acceptedTaxonId: txn:269999
+        taxonomicDifference: null
+        referenceId: ref:68266
+        bibliography: M. Ivanov, R. Musil, and R. Brzobohatý. 2006. Terrestrial and marine faunas from the Miocene deposits of the Mokra Plateau (Drahany Upland, Czech Republic) - impact on palaeogeography. Beiträge zur Paläontologie 30:223-239
+        locality:
+          countryCode: CZ
+          stateProvince: Moravia
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 20
+        youngerAgeMa: 15.98
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-753f73a105
+            part: body
+          zh:
+            page: zh
+            section: s-f3e6f32984
+            part: body
+        sourceIds: []

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis quilombola
+  displayName: Chiasmocleis quilombola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ2K
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis quilombola
+        zh: Chiasmocleis quilombola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ2K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/260
+            queryName: Chiasmocleis quilombola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31ae1589cd
+      - s-9e69808a75
+      - s-665431dbca
+      - s-5582f3ab55
+      - s-0d20eb3107
+      - s-5175247b9a
+      - s-22924e06da
+      - s-3e555f0395
+      - s-fe90210f24
+    zh:
+      - s-5dd963c819
+      - s-12c857abe8
+      - s-8f6076ed17
+      - s-51c86765d0
+      - s-ecaf00ec5e
+      - s-6a9cf0e5e5
+      - s-2c29836690
+      - s-39ee4ba664
+      - s-e3666668a9

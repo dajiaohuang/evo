@@ -1,0 +1,821 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rhaebo guttatus (Schneider, 1799)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rhaebo guttatus
+      zh: Rhaebo guttatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-eb2ec6e2b2
+            part: title
+          zh:
+            page: zh
+            section: s-6093bdccd4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eb2ec6e2b2
+            part: body
+          zh:
+            page: zh
+            section: s-6093bdccd4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5ee492c2f6
+            part: title
+          zh:
+            page: zh
+            section: s-355b2d84f4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5ee492c2f6
+            part: body
+          zh:
+            page: zh
+            section: s-355b2d84f4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-05760720cf
+            part: title
+          zh:
+            page: zh
+            section: s-aee564f032
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-05760720cf
+            part: body
+          zh:
+            page: zh
+            section: s-aee564f032
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2e009350a6
+            part: title
+          zh:
+            page: zh
+            section: s-4fbed888aa
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+          - Crepu
+        text:
+          en:
+            page: en
+            section: s-2e009350a6
+            part: body
+          zh:
+            page: zh
+            section: s-4fbed888aa
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-caa064ba20
+            part: title
+          zh:
+            page: zh
+            section: s-37e3d82d9a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-caa064ba20
+            part: body
+          zh:
+            page: zh
+            section: s-37e3d82d9a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9f4b1a9bd5
+            part: title
+          zh:
+            page: zh
+            section: s-33fbf65761
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-9f4b1a9bd5
+            part: body
+          zh:
+            page: zh
+            section: s-33fbf65761
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-0f1555922f
+            part: title
+          zh:
+            page: zh
+            section: s-d96a212712
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-0f1555922f
+            part: body
+          zh:
+            page: zh
+            section: s-d96a212712
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-9ab26b216b
+            part: title
+          zh:
+            page: zh
+            section: s-99bc31d821
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-9ab26b216b
+            part: body
+          zh:
+            page: zh
+            section: s-99bc31d821
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-92224974fb
+            part: title
+          zh:
+            page: zh
+            section: s-99ddd5c08e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-92224974fb
+            part: body
+          zh:
+            page: zh
+            section: s-99ddd5c08e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-c615d0b3ac266fe21ec45ec89070dc12
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-d59712b13ff3bc505944afd1
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0e63f10fb1
+            part: title
+          zh:
+            page: zh
+            section: s-716f659a7f
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0e63f10fb1
+            part: body
+          zh:
+            page: zh
+            section: s-716f659a7f
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-be6139288a
+            part: title
+          zh:
+            page: zh
+            section: s-e5f19d6c84
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4ry93
+        text:
+          en:
+            page: en
+            section: s-be6139288a
+            part: body
+          zh:
+            page: zh
+            section: s-e5f19d6c84
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f66ad2da3b
+            part: title
+          zh:
+            page: zh
+            section: s-ed39c68a61
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4ry93
+        text:
+          en:
+            page: en
+            section: s-f66ad2da3b
+            part: body
+          zh:
+            page: zh
+            section: s-ed39c68a61
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2f6d860148
+            part: title
+          zh:
+            page: zh
+            section: s-70017900b3
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4ry93
+        text:
+          en:
+            page: en
+            section: s-2f6d860148
+            part: body
+          zh:
+            page: zh
+            section: s-70017900b3
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2188f386a3
+            part: title
+          zh:
+            page: zh
+            section: s-99bcbf8d32
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4ry93
+        text:
+          en:
+            page: en
+            section: s-2188f386a3
+            part: body
+          zh:
+            page: zh
+            section: s-99bcbf8d32
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-66dbbd9fb9
+            part: title
+          zh:
+            page: zh
+            section: s-a4ee42eb27
+            part: title
+        sourceIds:
+          - primary-pmc12654886-4ry93
+        text:
+          en:
+            page: en
+            section: s-66dbbd9fb9
+            part: body
+          zh:
+            page: zh
+            section: s-a4ee42eb27
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a190757a60
+            part: title
+          zh:
+            page: zh
+            section: s-f216dc6c41
+            part: title
+        sourceIds:
+          - primary-pmc4740822-4ry93
+        text:
+          en:
+            page: en
+            section: s-a190757a60
+            part: body
+          zh:
+            page: zh
+            section: s-f216dc6c41
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1581051be9
+            part: title
+          zh:
+            page: zh
+            section: s-9cf5260d9e
+            part: title
+        sourceIds:
+          - primary-pmc4740822-4ry93
+        text:
+          en:
+            page: en
+            section: s-1581051be9
+            part: body
+          zh:
+            page: zh
+            section: s-9cf5260d9e
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-11e6a89b11
+            part: title
+          zh:
+            page: zh
+            section: s-3e58c4297d
+            part: title
+        sourceIds:
+          - primary-pmc4740822-4ry93
+        text:
+          en:
+            page: en
+            section: s-11e6a89b11
+            part: body
+          zh:
+            page: zh
+            section: s-3e58c4297d
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-6c9bc45824
+            part: body
+          zh:
+            page: zh
+            section: s-33aeca9b24
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Rhaebo guttatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/4RY93
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0795; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0795 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5372, 5373; Reference.csv rows 2712
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12654886-4ry93
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhaebo guttatus: Rhaebo guttatus: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc4740822-4ry93
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rhaebo guttatus: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-486770164d
+        part: body
+      zh:
+        page: zh
+        section: s-85e50e79df
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-c615d0b3ac266fe21ec45ec89070dc12
+      sourceRowId: Anf0795
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0795
+        bibliographyRowId: Anf0795
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Rhaebo guttatus
+        candidateBibliographyRowIds:
+          - Anf0795
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-d59712b13ff3bc505944afd1
+        scientificName: Rhaebo guttatus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-4ry93
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Regional source-labelled Rhaebo guttatus molecular-marker/specimen records plus priorinventory/treatment, no voucher/modernconcept certification
+        evidenceRead: "Rhaebo guttatus: Rhaebo guttatus: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4ry93
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow7 Rhaebo guttatus fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-67f8e94d83
+                part: body
+              zh:
+                page: zh
+                section: s-c9f405f6ba
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4ry93
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow7 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9765f1f40a
+                part: body
+              zh:
+                page: zh
+                section: s-a65b80a5aa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4ry93
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-75ac59d803
+                part: body
+              zh:
+                page: zh
+                section: s-505cc4e1d3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Specimen-linked marker availability in the regional workbook
+              zh: 区域工作簿逐标本标记可用性
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4ry93
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows326,327,328 B:I; headersB4:I4; XML sec007/sec033; S3_Table.pdf exactinventoryname
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a43e13e3d9
+                part: body
+              zh:
+                page: zh
+                section: s-cac2d932c8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Marker partitions and correlation labels retain their scope
+              zh: 标记分区及相关标签保留范围
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-4ry93
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows326,327,328 E:I; XML sec007 ASAPmethods andsec033 markercomparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e2b340101a
+                part: body
+              zh:
+                page: zh
+                section: s-1fd310ff9e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-pmc4740822-4ry93
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Source labelsRhaebo guttatus; comparisonvoucher/sequence/focal roles retainedseparately; no originalidentitycertification
+        evidenceRead: "Rhaebo guttatus: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Evidence roles in the Andaman toad description
+              zh: 安达曼蟾蜍描述中的证据角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-4ry93
+            locator: PMC4740822 XML Table3 idT6 rows43;App1 entries
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-30704cb74e
+                part: body
+              zh:
+                page: zh
+                section: s-de1c6496c0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Comparative material does not supply every trait
+              zh: 比较材料并不提供全部性状
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-4ry93
+            locator: PMC4740822 XMLsec4;sec26;App1;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f745b0c388
+                part: body
+              zh:
+                page: zh
+                section: s-dbff6c92eb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Mitochondrial sampling and phylogenetic limits
+              zh: 线粒体采样与系统树限制
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-4ry93
+            locator: PMC4740822 XMLsec4molecularmethods;sec27;Table3idT6;Table6idT5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-af853d4679
+                part: body
+              zh:
+                page: zh
+                section: s-166889af09
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

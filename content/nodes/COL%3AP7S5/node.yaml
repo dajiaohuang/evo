@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia attenuata
+  displayName: Caecilia attenuata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7S5
+  sourceIndexes:
+    - name:
+        en: Caecilia attenuata
+        zh: Caecilia attenuata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7S5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/58
+            queryName: Caecilia attenuata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3ea4ba91b
+      - s-342d88d697
+      - s-89d130e419
+      - s-1118bc3c40
+      - s-b8ba2c2b97
+      - s-bbc762c3c5
+      - s-e8d690044a
+      - s-43a1df45d8
+      - s-3a389daa69
+      - s-ec83f944ee
+      - s-dd2d846401
+    zh:
+      - s-e19cffc4e6
+      - s-ccdad6d7b1
+      - s-3ccf72da14
+      - s-52e1fb02bb
+      - s-c7cf2457ad
+      - s-340d21dadb
+      - s-40b439bc45
+      - s-442837cd28
+      - s-9a37d5c66c
+      - s-9a86f71b85
+      - s-6da143a946

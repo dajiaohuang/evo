@@ -1,0 +1,251 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella niveimontis
+    name:
+      en: Leptobrachella niveimontis
+      zh: Leptobrachella niveimontis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachella niveimontis in the version 3 classification
+          zh: Leptobrachella niveimontis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5e56053424
+            part: body
+          zh:
+            page: zh
+            section: s-1585264b3f
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 19 populated trait fields
+          zh: 2 条测量行与 19 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0c57f27d85
+            part: body
+          zh:
+            page: zh
+            section: s-387d92e1db
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2602, 2603; Reference.csv rows 637
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2602
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella niveimontis
+          - F
+          - "28.57"
+          - "9.58"
+          - "9.24"
+          - "3.485"
+          - NA
+          - "1.08"
+          - "3.115"
+          - "2.87"
+          - "2.76"
+          - "2.265"
+          - "3.8"
+          - "1.705"
+          - "7.005"
+          - "6.26"
+          - NA
+          - "12.755"
+          - NA
+          - "14.04"
+          - "12.445"
+          - NA
+          - "43.475"
+          - "22.34"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.135"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2603
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella niveimontis
+          - M
+          - "23.02"
+          - "8.038"
+          - "7.566"
+          - "3.058"
+          - NA
+          - "0.882"
+          - "2.77"
+          - "2.532"
+          - "2.118"
+          - "1.616"
+          - "3.348"
+          - "1.572"
+          - "5.998"
+          - "5.262"
+          - NA
+          - "11.038"
+          - NA
+          - "11.33"
+          - "11.028"
+          - NA
+          - "36.922"
+          - "1.168"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.762"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 637
+        values:
+          - Anura
+          - Leptobrachella_niveimontis
+          - 'Chen, J. M., Xu, K., Poyarkov, N. A., Wang, K., Yuan, Z. Y., Hou, M., . . . Che, J. (2020). How little is known about "the little brown frogs": description of three new species of the genus Leptobrachella (Anura: Megophryidae) from Yunnan Province, China. Zoological Research, 41(3), 292-313. https://doi.org/10.24272/j.issn.2095-8137.2020.036'
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - HLL
+      - IMT
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - V5L6K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

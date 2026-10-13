@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus arcanus
+  displayName: Phrynobatrachus arcanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/RQ83L
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus arcanus
+        zh: Phrynobatrachus arcanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: RQ83L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/102
+            queryName: Phrynobatrachus arcanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-67ce2f11d0
+      - s-2ac0eeb92b
+      - s-7c017491ca
+      - s-48b779e907
+      - s-6021d8b855
+      - s-94119108e2
+      - s-7aaf90b4d8
+      - s-de84ac3257
+      - s-92dedacb8b
+      - s-d8f1696fe8
+      - s-1ba9ed4fea
+      - s-67de87df9e
+      - s-3c7b25c37f
+      - s-9636c1e5eb
+      - s-a29c2296e2
+      - s-77b8fb9e72
+      - s-404080522f
+      - s-92b61cbaf7
+      - s-d91bbcbff6
+      - s-29b77a1ce6
+      - s-cb397c74b1
+    zh:
+      - s-f7202c3c38
+      - s-838bf5d307
+      - s-243ed6fda1
+      - s-29c5cb98dd
+      - s-38369cf997
+      - s-2e7d2ade60
+      - s-9051e8a297
+      - s-9e49f75fcc
+      - s-67a8d744e1
+      - s-25176ff012
+      - s-bfb0d6a6e5
+      - s-7bd6d145d6
+      - s-0c72c7eeaa
+      - s-cadc34d35c
+      - s-4c1fe38f2c
+      - s-b02a5c9d54
+      - s-b28f462826
+      - s-4fb7d5b4f0
+      - s-379bf08ac2
+      - s-f4ec872b5d
+      - s-174ee7e2b9

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis hybotragus
+  displayName: Pristimantis hybotragus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJF6
+  sourceIndexes:
+    - name:
+        en: Pristimantis hybotragus
+        zh: Pristimantis hybotragus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJF6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/311
+            queryName: Pristimantis hybotragus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/378
+            queryName: Eleutherodactylus hybotragus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1698ebd1a
+      - s-f0a5943b1b
+      - s-1e71a6e894
+      - s-3ef9f62acf
+      - s-85ba9a80f4
+      - s-794f0ce568
+      - s-dfe653dfcb
+    zh:
+      - s-2a3b785ff4
+      - s-9f128b3b03
+      - s-e513e98473
+      - s-cd5baf6fbc
+      - s-bc93c80689
+      - s-49e7f42220
+      - s-c171d4fdaf

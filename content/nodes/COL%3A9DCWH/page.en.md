@@ -1,0 +1,3 @@
+## ## Globose heads and larger bracts {#s-d195ac165d}
+The Brazilian Flora 2020 entry lists pubescent, hispid or strigose stem hairs; their orientation is not specified. Simple hairs are present, while setae, glandular hairs, prickles and short shoots are absent. The stipules may be shed or persistent; extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a paleaceous calyx with pappus-like lobes. Corolla lobes are pubescent and have one to three veins; the androecium is isostemonous, with pink filaments. This regional entry lists alternative states but does not quantify their occurrence or variation.
+

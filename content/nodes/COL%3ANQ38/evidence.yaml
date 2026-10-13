@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbine retinens van Jaarsv. & S.A.Hammer
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ38, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ38; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ38
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ38
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000791897-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ38 / WFO wfo-0000791897
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_6718_0
+        referenceId: ref-6734411c-19ad-8bbd-afba-2c6b7a7695d2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbine retinens van Jaarsv. & S.A.Hammer account; SANBI/WFO archive rows 85352 (Morphology), 85095 (Habitat), 84585 (Diagnostic), source identifier 6718.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants rosulate, cluster-forming, small, to 90 mm high (without inflorescence) and 90 mm in diameter, bearing 3-9 rosettes. Tubers ovate, 12-20 x 10-15 mm, covered with dry remains of amplexicaul leaf bases which weather to a fibrous network; flesh yellow. Roots grey, fleshy, terete, stubby, 1.5 mm in diameter. Leaves 5-7 in an apical rosette and forming a short neck at the base to 7 mm long, erect, soft-textured, linear and sub-terete, adaxial side becoming flat towards base, 50-80 x 5-7 mm; surface smooth, grey-green to bluish due to a dense powdery bloom, obscurely striate; apex acute, apiculate. Inflorescence to 350-490 mm long, erect, 17-35-flowered in the upper half; raceme 230-310 mm long; peduncle 2-3 mm in diameter at base, terete; bracts deltoid, acuminate 2 x 1 mm, clasping. Perianth stellate, becoming reflexed, drooping, about 15-20 mm in diameter; tepals pale orange-yellow; outer tepals elliptic, 11 x 3 mm; inner tepals ovate to ovate-elliptic, 12 x 5 mm, obtuse; pedicel 14-17 mm long. Stamens 8-10 mm long; covered in the central third by +180 cilia, these up to 1.5 mm long, glistening; anthers 0.80 mm long, pale yellow. Ovary globose, 1.5 mm in diameter; style erect, to 6 mm long. Fruit obovate, up to 6 mm x 2 mm, pendulous, orange when ripe, splitting at the carpels but retaining the seeds for 1-3 days. Seeds 10-30 per fruit, 2.2 x 1.2 x 0.9 mm, indistinctly angled, dull brownish black and finely pitted.
+            textZh: Bulbine retinens van Jaarsv. & S.A.Hammer 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_6718_0
+            locator: "SANBI/WFO archive Morphology row 85352; source identifier 6718.0; cited publication: Hammer, SA; Van Jaarsveld, EJ; Van Wyk, AE. 2005. Bulbine retinens, a new cliff-dweller from the Eastern Cape. Aloe 42(1&2): 14 - 15. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Bulbine retinens is at once distinguished from the other dwarf, cluster-forming, cliff-dwelling Bulbine species by its erect linear leaves arising from a short neck, its ovate tubers covered with fibrous, reticulate remains of leaf bases, and its peculiar mode of seed-retention.
+            textZh: SANBI 条目提供了 Bulbine retinens van Jaarsv. & S.A.Hammer 的鉴别特征。
+            sourceIds:
+              - sanbi_6718_0
+            locator: "SANBI/WFO archive Diagnostic row 84585; source identifier 6718.0; cited publication: Hammer, SA; Van Jaarsveld, EJ; Van Wyk, AE. 2005. Bulbine retinens, a new cliff-dweller from the Eastern Cape. Aloe 42(1&2): 14 - 15. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Quartzitic sandstone cliffs.
+            textZh: 该 SANBI 区域物种条目记录的生境：Quartzitic sandstone cliffs.
+            sourceIds:
+              - sanbi_6718_0
+            locator: "SANBI/WFO archive Habitat row 85095; source identifier 6718.0; cited publication: Hammer, SA; Van Jaarsveld, EJ; Van Wyk, AE. 2005. Bulbine retinens, a new cliff-dweller from the Eastern Cape. Aloe 42(1&2): 14 - 15. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

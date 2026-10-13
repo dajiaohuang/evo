@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis pseudangularis
+  displayName: Ichthyophis pseudangularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTS9
+  sourceIndexes:
+    - name:
+        en: Ichthyophis pseudangularis
+        zh: Ichthyophis pseudangularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTS9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/423
+            queryName: Ichthyophis pseudangularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac912f3d67
+      - s-69cf5873bb
+      - s-ccfdfe7d86
+      - s-09310fa057
+      - s-bf9ab918a5
+      - s-931a01e653
+      - s-7a3611a64a
+      - s-72e44bb985
+      - s-afa7a0c53b
+      - s-993c389d49
+      - s-88824cd1c6
+      - s-cbbed95da9
+      - s-c2255de4cc
+    zh:
+      - s-74593378c9
+      - s-dead7bda07
+      - s-e05bc8e9d1
+      - s-e14f93aae7
+      - s-23e3255b33
+      - s-ea5da63e7e
+      - s-7f16343328
+      - s-c235998458
+      - s-7e556614ed
+      - s-6eb2523794
+      - s-11ed04f9f5
+      - s-aaf2e01c40
+      - s-5e547f7075

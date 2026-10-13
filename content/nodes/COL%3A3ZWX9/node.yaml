@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mertensophryne melanopleura
+  displayName: Mertensophryne melanopleura
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3ZWX9
+  sourceIndexes:
+    - name:
+        en: Mertensophryne melanopleura
+        zh: Mertensophryne melanopleura
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3ZWX9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/435
+            queryName: Mertensophryne melanopleura
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/371
+            queryName: Bufo melanopleura
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-860a86ba4e
+      - s-c86f973e79
+      - s-7b4fd96c12
+      - s-9086eb238f
+      - s-b10ca2032e
+      - s-fa39267a16
+      - s-deaed2edf9
+      - s-479fa3e806
+    zh:
+      - s-d85376a37d
+      - s-4632416bc5
+      - s-4fb0544a00
+      - s-4a5b279de9
+      - s-534cd85775
+      - s-8efa1ceedb
+      - s-644f6e3d54
+      - s-018ecf5460

@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Exerodonta abdivita
+  displayName: Exerodonta abdivita
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DKNW
+  sourceIndexes:
+    - name:
+        en: Exerodonta abdivita
+        zh: Exerodonta abdivita
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DKNW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/446
+            queryName: Exerodonta abdivita
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/241
+            queryName: Hyla abdivita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f7b617c3bf
+      - s-38e530e099
+      - s-e9396df10d
+      - s-f66d9ec03c
+      - s-fdc93e3e16
+      - s-e513c73c4d
+      - s-8da5dfe97d
+      - s-a28517b442
+      - s-dea8d4db9e
+      - s-ba480a7977
+      - s-2ff288f06c
+      - s-95c152eaaf
+      - s-7853768d52
+      - s-3b219c9e6a
+      - s-c1e24030bf
+      - s-b8fa5922fa
+    zh:
+      - s-912c6aba04
+      - s-76834fd733
+      - s-a7a9781209
+      - s-af90a48636
+      - s-32bac931b3
+      - s-8b630310ec
+      - s-77c10b844d
+      - s-9483ee4a89
+      - s-2369ded6dc
+      - s-1e579f679c
+      - s-995e2327e6
+      - s-34806ae013
+      - s-c16eef6a70
+      - s-a95d5cc8d2
+      - s-678d319766
+      - s-ea138b3114

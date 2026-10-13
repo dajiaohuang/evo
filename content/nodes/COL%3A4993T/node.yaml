@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ololygon obtriangulata
+  displayName: Ololygon obtriangulata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4993T
+  sourceIndexes:
+    - name:
+        en: Ololygon obtriangulata
+        zh: Ololygon obtriangulata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4993T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/136
+            queryName: Ololygon obtriangulata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/54
+            queryName: Scinax obtriangulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/42
+            queryName: Hyla obtriangulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/43
+            queryName: Scinax obtriangulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/334
+            queryName: Hyla catharinae simplex
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36026af5a7
+      - s-bcfab6f596
+      - s-4698ccbf2f
+      - s-96ea82947d
+      - s-5dbbe78827
+      - s-fd88019e0a
+      - s-2f1c34fb8e
+      - s-f95cec7ade
+      - s-d7196628f2
+      - s-73f5e63567
+      - s-c096f97f27
+      - s-5b47335ce0
+      - s-5ef5a1229d
+      - s-d1f78411ee
+    zh:
+      - s-7e0b82a2bb
+      - s-be0361c960
+      - s-02710b547c
+      - s-6ae191e769
+      - s-6e2c7f5999
+      - s-b68e3af85d
+      - s-5bf96525be
+      - s-4c7b80e548
+      - s-af912c338b
+      - s-7a0b1d9ecf
+      - s-70f30437a9
+      - s-bb3e1949b9
+      - s-f591f29be1
+      - s-1df634493e

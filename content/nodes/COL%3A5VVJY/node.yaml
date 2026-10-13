@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus exiguus
+  displayName: Atelopus exiguus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5VVJY
+  sourceIndexes:
+    - name:
+        en: Atelopus exiguus
+        zh: Atelopus exiguus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5VVJY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/254
+            queryName: Atelopus exiguus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/359
+            queryName: Atelopus exigua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/407
+            queryName: Phryniscus laevis exigua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/408
+            queryName: Atelopus ignescens exigua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de1db43cf5
+      - s-32079d4166
+      - s-dd64015deb
+      - s-3913bc3c03
+      - s-ee235e54e5
+      - s-634e81c2b2
+      - s-02eb99d34b
+      - s-955e7195f5
+      - s-28234490a0
+      - s-90c3598328
+      - s-629f794047
+      - s-291e8fdb0b
+    zh:
+      - s-262cd8ad2d
+      - s-c43b4704c8
+      - s-d1ee26cf04
+      - s-bdd2b72bd3
+      - s-7f924079f6
+      - s-f68eee32da
+      - s-e49b8018f9
+      - s-022f6286d0
+      - s-e4f2fcd5bd
+      - s-4f4f7c87d7
+      - s-5eea097b8b
+      - s-1e18114137

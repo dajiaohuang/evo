@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes montanus
+  displayName: Alsodes montanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7X4
+  sourceIndexes:
+    - name:
+        en: Alsodes montanus
+        zh: Alsodes montanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7X4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/195
+            queryName: Alsodes montanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/363
+            queryName: Telmatobius montanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/261
+            queryName: Eupsophus montanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/262
+            queryName: Telmalsodes montanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62378dc899
+      - s-0d49571724
+      - s-41e6ff6c64
+      - s-f52d09e7f7
+      - s-72c8cd3511
+      - s-f680aea908
+      - s-290787cd36
+      - s-d763889e8f
+      - s-1825fa08ca
+      - s-053860a371
+      - s-70531a85c0
+      - s-9c8b5df35b
+      - s-f78b1b48db
+      - s-dc1abf45c2
+      - s-c85da1d7ef
+      - s-239daa23b5
+      - s-4051461988
+      - s-fa9e41b258
+    zh:
+      - s-bb48c67b90
+      - s-08e58a6822
+      - s-36902ce6e9
+      - s-5b9c3bb1d8
+      - s-72b33dde95
+      - s-abdaa209c5
+      - s-ec71599613
+      - s-7646898b40
+      - s-9f3e1d8c7c
+      - s-3344ffab0f
+      - s-ce5499979c
+      - s-7fdd9f36bb
+      - s-d1b2864a89
+      - s-01fe1f0f03
+      - s-9e9e907975
+      - s-3b9fe5f8cb
+      - s-afa0bb0ca8
+      - s-b81a465f1d

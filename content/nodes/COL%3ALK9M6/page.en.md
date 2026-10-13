@@ -1,0 +1,21 @@
+## Accepted name and placement {#s-be04d9f296}
+COL26.8 accepts Anstisia lutea (Main, 1963) as a species. Its recorded classification places it along Anura (order) → Myobatrachidae (family) → Anstisia (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-0484321b3d}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-eb429fab7b}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [TadpoleTraits v4: Anstisia lutea](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Myobatrachidae/Anstisia/Anstisia_lutea/page.en.md)
+- [AmphiBIO v1: Geocrinia lutea](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Myobatrachidae/Geocrinia/Geocrinia_lutea/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-dd70bc7c1d}
+Deposited source concept: Anstisia lutea, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 2 image-derived rows for this source concept. Supplied stage entries are 25; 31. Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-a30eb474c1}
+Deposited source concept: Anstisia lutea, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports tail length / total length = 0.653254 (source row 125, stage 25); maximum body height / total length = 0.162696 (source row 125, stage 25); maximum tail height / total length = 0.16369 (source row 125, stage 25); maximum body width / total length = 0.192737 (source row 125, stage 25); body length / total length = 0.317372 (source row 126, stage 31). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## catalogue-profile / limitations {#s-3e845b88f6}
+Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
+

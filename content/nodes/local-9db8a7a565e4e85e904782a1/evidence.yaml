@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Amazophrynella xinguensis
+    name:
+      en: Amazophrynella xinguensis
+      zh: Amazophrynella xinguensis
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Amazophrynella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Amazophrynella xinguensis in the version 3 classification
+          zh: Amazophrynella xinguensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b74b5bfa55
+            part: body
+          zh:
+            page: zh
+            section: s-82d2d0bd63
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 12 populated trait fields
+          zh: 2 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4e75301b58
+            part: body
+          zh:
+            page: zh
+            section: s-9c5e08d1b0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 169, 170; Reference.csv rows 2518
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 169
+        values:
+          - Bufonidae
+          - Amazophrynella
+          - Amazophrynella xinguensis
+          - M
+          - "18.8"
+          - "6.6"
+          - "5.1"
+          - "2"
+          - NA
+          - NA
+          - NA
+          - "1.5"
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - "3.7"
+          - NA
+          - NA
+          - "6.4"
+          - NA
+          - "5.5"
+          - "9.5"
+          - "9.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.1"
+          - NA
+      - rowNumber: 170
+        values:
+          - Bufonidae
+          - Amazophrynella
+          - Amazophrynella xinguensis
+          - F
+          - "24.1"
+          - "7.9"
+          - "6.3"
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - "1.6"
+          - NA
+          - NA
+          - "3.75"
+          - NA
+          - "5"
+          - NA
+          - NA
+          - "8.9"
+          - NA
+          - "7.1"
+          - "11.8"
+          - "11.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2518
+        values:
+          - Anura
+          - Amazophrynella_xinguensis
+          - "Rojas, R., Fouquet, A., Ron, S., Hernández, E., Melo-Sampaio, P., Chaparro, J. C., . . . Hrbek, T. (2018). A Pan-Amazonian species delimitation: High species diversity within the genus Amazophrynella (Anura: Bufonidae). PeerJ, 6, e4941. https://doi.org/10.7717/peerj.4941"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IND
+      - SL
+      - HAL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - CKMD
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophrynoides paulae
+  displayName: Nectophrynoides paulae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/462WV
+  sourceIndexes:
+    - name:
+        en: Nectophrynoides paulae
+        zh: Nectophrynoides paulae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 462WV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/218
+            queryName: Nectophrynoides paulae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a7b3400c0
+      - s-bdf28e867c
+      - s-a3bd6f2b42
+      - s-ad04560fea
+      - s-d994da6b7c
+      - s-8cb3482474
+      - s-72554dd663
+      - s-f1fd4b1613
+      - s-bbd2ac03d9
+      - s-72c57d96b2
+      - s-10c30c2fe0
+    zh:
+      - s-7c69f586d2
+      - s-5c290a53c5
+      - s-4716b2d186
+      - s-3d1601853b
+      - s-440d784e6b
+      - s-d3c0a7b12f
+      - s-aff66b430c
+      - s-a8dfa2ffbd
+      - s-9287ab1144
+      - s-275a9aa304
+      - s-38b397fbfe

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius insperatus
+  displayName: Thorius insperatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KSV
+  sourceIndexes:
+    - name:
+        en: Thorius insperatus
+        zh: Thorius insperatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KSV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/42
+            queryName: Thorius insperatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b151fda09a
+      - s-434c62c3d7
+      - s-11854503ca
+      - s-c23d191a52
+      - s-acc9244f15
+      - s-78aaf551fb
+      - s-f6b9ca5301
+    zh:
+      - s-3e253d72fd
+      - s-7076a3dc67
+      - s-bc9b8fc49c
+      - s-a003f2e6aa
+      - s-1ec8db0c6c
+      - s-4e5a21a7e5
+      - s-a91b31aaa9

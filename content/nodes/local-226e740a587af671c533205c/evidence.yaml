@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bufotes pseudoraddei
+    name:
+      en: Bufotes pseudoraddei
+      zh: Bufotes pseudoraddei
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Bufotes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Bufotes pseudoraddei in the version 3 classification
+          zh: Bufotes pseudoraddei 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-746d39bdcb
+            part: body
+          zh:
+            page: zh
+            section: s-ec26fa1aed
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 11 populated trait fields
+          zh: 2 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1f3e3e67cf
+            part: body
+          zh:
+            page: zh
+            section: s-ed5eeec03f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 954, 955; Reference.csv rows 2611
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 954
+        values:
+          - Bufonidae
+          - Bufotes
+          - Bufotes pseudoraddei
+          - F
+          - "69.4"
+          - "15"
+          - "24.5"
+          - "8.5"
+          - "2.5"
+          - NA
+          - "4.1"
+          - "4.8"
+          - NA
+          - "4.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "26.7"
+          - NA
+          - NA
+          - NA
+          - "4.7"
+          - "4.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 955
+        values:
+          - Bufonidae
+          - Bufotes
+          - Bufotes pseudoraddei
+          - J
+          - "59.8"
+          - "13"
+          - "20.4"
+          - "6.7"
+          - "2.7"
+          - NA
+          - "2.8"
+          - "4.5"
+          - NA
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "22.3"
+          - NA
+          - NA
+          - NA
+          - "3"
+          - "3.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2611
+        values:
+          - Anura
+          - Bufotes_pseudoraddei
+          - "Stöck, M. (2001). Progress towards a taxonomic revision of the Asian Bufo viridis group: Current status of nominal taxa and unsolved problems (Amphibia: Anura: Bufonidae). Zoologische Abhandlungen des Staatlichen Museums für Tierkunde Dresden, 51, 253-319."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - TL
+      - IMT
+      - Toe1L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - NPML
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

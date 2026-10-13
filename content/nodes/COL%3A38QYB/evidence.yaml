@@ -1,0 +1,143 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ectopoglossus saxatilis Grant, Rada, Anganoy-Criollo, Batista, Dias, Jeckel, Machado & Rueda-Almonacid, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ectopoglossus saxatilis
+      zh: Ectopoglossus saxatilis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d9f2be5549
+            part: title
+          zh:
+            page: zh
+            section: s-315f7075cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d9f2be5549
+            part: body
+          zh:
+            page: zh
+            section: s-315f7075cf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f6fa41a6cd
+            part: title
+          zh:
+            page: zh
+            section: s-14c38e94df
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f6fa41a6cd
+            part: body
+          zh:
+            page: zh
+            section: s-14c38e94df
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-342cc83432
+            part: title
+          zh:
+            page: zh
+            section: s-5044b7b98f
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-342cc83432
+            part: body
+          zh:
+            page: zh
+            section: s-5044b7b98f
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-e648d6e33ad39a468c2149ee
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ectopoglossus saxatilis
+          url: https://www.checklistbank.org/dataset/316115/taxon/38QYB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1614; Reference.csv rows 3537
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e47cec6cfe
+        part: body
+      zh:
+        page: zh
+        section: s-973a2078b2
+        part: body

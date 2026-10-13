@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Kurixalus berylliniris {#s-833d797f6b}
+TadpoleTraits version 4 places Kurixalus berylliniris in Kurixalus (Rhacophoridae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Kurixalus berylliniris. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 2 literature rows and 0 image rows {#s-7d218ad3ef}
+TadpoleTraits version 4 links 2 literature rows and 0 image rows to Kurixalus berylliniris. Source row numbers — literature: 4867, 4868; image: none recorded. Populated measurement fields — literature: TL, TL.sd, BL, BL.sd, TaL, TaL.sd, MTH, MTH.sd, TMH, TMH.sd, TMW, TMW.sd, IND.a, IND.a.sd, IOD.a, IOD.a.sd; image: none recorded. Literature row 4867: Stage 26-33; Literature row 4868: Stage NA. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

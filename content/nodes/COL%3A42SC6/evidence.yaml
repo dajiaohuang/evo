@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microcebus tavaratra Rasoloarison, Goodman & Ganzhorn, 2000
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 北方鼠狐猴
+      en: Tavaratra Mouse Lemur
+    sections:
+      - topic: distribution_habitat
+        text:
+          zh:
+            page: zh
+            section: s-549ae3a433
+            part: body
+          en:
+            page: en
+            section: s-092b8ae3db
+            part: body
+        sourceIds:
+          - rasoloarison2000
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-e09cf327ad
+            part: body
+          en:
+            page: en
+            section: s-f8f3e96cdd
+            part: body
+        sourceIds:
+          - rasoloarison2000
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8f7475f559
+            part: body
+          en:
+            page: en
+            section: s-52dc1fa626
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-5288920a08
+            part: body
+          en:
+            page: en
+            section: s-8816a35d19
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1877c33af0
+            part: body
+          en:
+            page: en
+            section: s-b188c98fcc
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bbf3e50c0c
+            part: body
+          en:
+            page: en
+            section: s-f2aa7c4e4e
+            part: body
+    sources:
+      - id: rasoloarison2000
+        referenceId: ref-487bebfc-fb87-8a06-a5dd-a65be7e33566
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Ankarana 采样地点、样点环境与物种间形态比较；不代表现今全域范围。
+            en: Supports Ankarana sample localities, site descriptions and interspecific morphology comparisons; not a current full range.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42SC6
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-7d88fd82-89cd-8410-a2e1-5b5d5bfe32ec
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 Tavaratra Mouse Lemur 这一普通名；固定分类身份仍按 COL26.8。
+            en: Supports Tavaratra Mouse Lemur as the common name; the pinned taxonomic identity remains COL26.8.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 476; Scientific=Microcebus tavaratra; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups:
+            - group: diet
+              certainty: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: diet
+              sourceCode: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      zh:
+        page: zh
+        section: s-03f127cbdc
+        part: body
+      en:
+        page: en
+        section: s-fce6d142b1
+        part: body

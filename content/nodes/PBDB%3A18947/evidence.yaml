@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Eurypterida
+    commonName: Sea Scorpions
+    commonNameZh: 海蝎类
+    rank: order
+    taxonId: txn:18947
+    firstAppearance: 467
+    lastAppearance: 252
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:18947
+    scientificName: Eurypterida
+    commonName: Sea Scorpions
+    commonNameZh: 海蝎类
+    rank: order
+    parentName: Chelicerata
+    extinct: true
+    geography:
+      - Upper Tremadocian Fezouata Formation, Morocco (Van Roy et al.)
+      - Late Permian Russian occurrence reviewed by Tetlie
+    overview:
+      page: en
+      section: s-b3809c4085
+      part: body
+    overviewZh:
+      page: zh
+      section: s-58b6745373
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-529b5635ef
+        part: body
+      habitat:
+        page: en
+        section: s-4371155d6a
+        part: body
+      locomotion:
+        page: en
+        section: s-89a832c503
+        part: body
+      bodySize:
+        page: en
+        section: s-deef2f0c0e
+        part: body
+      guild:
+        page: en
+        section: s-1d0148f9fd
+        part: body
+      dietZh:
+        page: zh
+        section: zh-0b38b6271ad622
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-5c38a90581b6ce
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-38f9bf9582d116
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-769708ca25804d
+        part: body
+      guildZh:
+        page: zh
+        section: zh-7c76a1a8aab821
+        part: body
+    traits:
+      - page: en
+        section: s-89795c8546
+        part: body
+      - page: en
+        section: s-d9530fedfe
+        part: body
+      - page: en
+        section: s-41cf1ed821
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-4d98b8971b
+      part: body
+    readerLimitations:
+      en:
+        page: en
+        section: s-6e527cf4a0
+        part: body
+      zh:
+        page: zh
+        section: s-a46a3fd052
+        part: body
+    confidence: medium
+    referenceIds:
+      - van-roy-2025-fezouata-eurypterids
+      - tetlie-2007-eurypterid-history
+      - lamsdell-2015-pentecopterus-eurypterid
+    evidenceSummaryZh:
+      page: zh
+      section: zh-746b91c2160a36
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-1a1e29d6f801c3
+        part: body
+      - page: zh
+        section: zh-276f5e6414ac5e
+        part: body
+      - page: zh
+        section: zh-4c412a0f88959d
+        part: body
+  claims:
+    - subjectId: taxon:eurypterida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Pentecopterus decorahensis material from the Darriwilian Winneshiek Lagerstätte supplies a named local eurypterid occurrence and an expanded morphology matrix. It is a specimen- and locality-bounded minimum record, not the exact global origin or full range of Eurypterida.
+      confidence: high
+      confidenceRationale: Confidence is high because the cited primary study directly supports the bounded fossil range statement at the supplied locator. The confidence does not extend beyond it is a specimen- and locality-bounded minimum record, not the exact global origin or full range of Eurypterida.
+      referenceLinks:
+        - relation: supports
+          referenceId: lamsdell-2015-pentecopterus-eurypterid
+          pages: 1–21
+          figure: Figures 1–15; supplementary matrix
+          quoteLocator: Geological setting; material; systematic palaeontology; phylogenetic analysis
+    - subjectId: taxon:eurypterida
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The atlas shows a 479–250 Ma reviewed eurypterid fossil-record envelope from the oldest unequivocal Fezouata material to Tetlie's reviewed latest record, not an origination or extinction interval.
+      confidence: medium
+      confidenceRationale: Two range-fit studies directly bound the displayed fossil-record endpoints, while taxonomic revision and incomplete sampling prevent treating either edge as a biological event.
+      referenceLinks:
+        - referenceId: van-roy-2025-fezouata-eurypterids
+          relation: supports
+          pages: Article 20252061
+          figure: Figures 1–5
+          quoteLocator: Systematic palaeontology and Discussion section 3(d), upper Tremadocian occurrence and approximately 479 Ma lower interval
+        - referenceId: tetlie-2007-eurypterid-history
+          relation: supports
+          pages: 557–574
+          figure: Tables 1–7
+          quoteLocator: Abstract and Introduction, reviewed latest Late Permian Russian record at approximately 250 Ma
+    - subjectId: taxon:eurypterida
+      claimKind: scientific
+      claimType: morphology
+      statement: Van Roy et al. document Fezouata eurypterid appendages and score morphology in a matrix, while Lamsdell et al. provide a sampled Pentecopterus comparison; these characters do not establish order-wide anatomy.
+      confidence: medium
+      confidenceRationale: The cited primary studies directly report preserved appendages and scored characters, but their fossil samples and matrix choices do not cover every eurypterid lineage.
+      referenceLinks:
+        - referenceId: van-roy-2025-fezouata-eurypterids
+          relation: supports
+          pages: Article 20252061
+          figure: Figures 1-5
+          quoteLocator: Fezouata eurypterid appendages and morphology matrix
+        - referenceId: lamsdell-2015-pentecopterus-eurypterid
+          relation: supports
+          pages: 1-21
+          figure: Figures 1-15; supplementary matrix
+          quoteLocator: Pentecopterus morphology and phylogenetic character scoring
+    - subjectId: taxon:eurypterida
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Van Roy et al. place unequivocal Fezouata sea scorpions in a sampled eurypterid morphology matrix, while Tetlie reviews historical distribution; classification remains a sampled, revisable hypothesis rather than a final order-wide tree.
+      confidence: medium
+      confidenceRationale: The primary occurrence study and distribution review report their sampled characters and taxa, but matrix choice and incomplete fossil sampling leave order-wide classification revisable.
+      referenceLinks:
+        - referenceId: van-roy-2025-fezouata-eurypterids
+          relation: supports
+          pages: Article 20252061
+          figure: Figures 1-5
+          quoteLocator: Systematic palaeontology and morphology matrix
+        - referenceId: tetlie-2007-eurypterid-history
+          relation: supports
+          pages: 557-574
+          figure: Tables 1-7
+          quoteLocator: Distribution review and taxonomic limitations
+    - subjectId: taxon:eurypterida
+      claimKind: scientific
+      claimType: biogeography
+      statement: Fezouata and Late Permian Russian occurrences in Van Roy et al. and Tetlie provide bounded localities across time; they do not constitute a complete geographic distribution of Eurypterida.
+      confidence: medium
+      confidenceRationale: The cited studies identify their fossil localities and sampled intervals, while taxonomic revision and uneven preservation prevent a global presence-absence interpretation.
+      referenceLinks:
+        - referenceId: van-roy-2025-fezouata-eurypterids
+          relation: supports
+          pages: Article 20252061
+          figure: Figures 1-5
+          quoteLocator: Upper Tremadocian Fezouata occurrence
+        - referenceId: tetlie-2007-eurypterid-history
+          relation: supports
+          pages: 557-574
+          figure: Tables 1-7
+          quoteLocator: Latest Late Permian Russian record and distribution review
+    - subjectId: taxon:eurypterida
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited eurypterid studies address morphology, phylogenetic placement and fossil distribution; predatory function, habitat preference, locomotor performance, body size and ecological guild remain study-limited and unassigned here.
+      confidence: high
+      confidenceRationale: The sources are focused on fossil occurrence, morphology and systematics rather than a comparative behavioural or performance dataset, so ecological fields are withheld.
+      referenceLinks:
+        - referenceId: van-roy-2025-fezouata-eurypterids
+          relation: supports
+          pages: Article 20252061
+          figure: Figures 1-5
+          quoteLocator: Morphological and phylogenetic study scope
+        - referenceId: tetlie-2007-eurypterid-history
+          relation: supports
+          pages: 557-574
+          figure: Tables 1-7
+          quoteLocator: Distribution and dispersal study scope
+  claim-rationales.zh:
+    - 置信度为高：所引主研究在给定页码、图版或章节定位器处直接支持这一受限的化石延限表述；置信度不外推到文中明确排除的全群起源、全球首现、直接祖先或精确端点。
+    - 两项范围适配研究直接约束显示的化石记录端点；分类修订与采样不完整使两端都不能被当作生物学事件。
+    - Van Roy 等记录 Fezouata 广翅鲎的附肢并在矩阵中评分形态，Lamsdell 等则提供取样的 Pentecopterus 比较；这些性状不能确立整个目级类群的普遍解剖。
+    - Van Roy 等将明确的 Fezouata 海蝎置于取样的广翅鲎形态矩阵中，Tetlie 则综述历史分布；分类仍是取样且可修订的假说，而不是整个目级类群的最终树。
+    - Van Roy 等和 Tetlie 所报道的 Fezouata 与晚二叠世俄罗斯出现记录，提供跨时间的有界地点；它们不构成广翅鲎目的完整地理分布。
+    - 所引广翅鲎研究讨论形态、系统位置和化石分布；捕食功能、栖息偏好、运动性能、体型与生态营养类群仍受研究范围限制，并在此未作赋值。
+  claim-statements.zh:
+    - 达瑞威尔期 Winneshiek 化石库的 Pentecopterus decorahensis 标本，提供了具名的局部广翅鲎记录及扩展形态矩阵。它只是受标本和地点约束的最低记录，不是广翅鲎目精确的全球起源或完整延限。
+    - 图集以 479–250 Ma 显示板足鲎类经综述的化石记录包络，从 Fezouata 最早无争议材料到 Tetlie 综述的最晚记录，而非起源或灭绝区间。
+  ranges:
+    - entityId: eurypterida
+      rangeKind: global-composite
+      taxonomicConcept: Eurypterida reviewed oldest-to-latest known fossil-record navigation envelope
+      geographicScope: Fezouata oldest record and reviewed global fossil record
+      olderMa: 479
+      youngerMa: 250
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The bounds are literature-reported fossil records, not origination or extinction instants.
+      evidenceBasis: A 2025 primary study reports unequivocal upper Tremadocian eurypterids from the approximately 479 Ma Fezouata interval; Tetlie's systematic review records the latest occurrence at approximately 250 Ma.
+      confidence: medium
+      claimIds:
+        - claim:taxon:eurypterida:fossil-range
+      referenceLocators:
+        - referenceId: van-roy-2025-fezouata-eurypterids
+          locator: Systematic palaeontology; Figures 1–5; Discussion section 3(d); upper Tremadocian Fezouata occurrence and approximately 479 Ma lower interval
+        - referenceId: tetlie-2007-eurypterid-history
+          locator: pp. 557–574; Abstract and Introduction; Tables 1–7; reviewed latest Late Permian Russian record at approximately 250 Ma
+      evidenceLevel: literature-synthesized

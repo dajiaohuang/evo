@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Schoenus filiculmis T.L.Elliott & Muasya
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 8X5LK, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 8X5LK; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/8X5LK
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 8X5LK
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001421038-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 8X5LK / WFO wfo-0001421038
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_17737_0
+        referenceId: ref-ab75b08b-2681-896d-a032-256230805154
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Schoenus filiculmis T.L.Elliott & Muasya account; SANBI/WFO archive rows 104820 (Morphology), 104787 (Habitat), 104720 (Diagnostic), source identifier 17737.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Caespitose, phyllopodic perennial graminoid. Short with wiry leaves. Not viscous. Culms terete, (78-)150-193(-261) x 0.2-0.5(-0.8) mm. Leaves basal, 2-4(-5), short and narrow, rarely reaching half the height of the culm, (6.0-)16.0-35.5(-55.0) x 0.16-0.33(-2.4) mm, sometimes awl-shaped but most often straight, proximally channelled or not, apex usually flat distally, margin mostly serrate above sheath. Sheaths expanded at base, firm, glossy, often striate, ranging from dark red to reddish-brown in colour proximally. Ligule short, firm or membranaceous, colour ranging from dark-red to whitish, 2-lobed, 0.2-0.7(-1.4) mm. Inflorescence a short, delicate, narrowly-contracted panicle, 9.5-18.6(-28.5) x 1.0-3.5(-4.5) mm, proximal rachis length 4.0-7.0(-9.5) mm. Proximal primary inflorescence bracts firm or delicate, often with membranaceous extensions on margins of various widths, 10.0-31.0(-35.0) mm long, exceeding length of inflorescence linear-lanceolate, sometimes slightly twisted, ranging in colour from reddish-black to brown, 3.2-5.2(-5.9) x 0.7-1.3 mm, pedicellate,1-3(-4) spikelets/spike. Rachilla (0.2-)1.1-2.4(-4.2) mm long. Glumes 3-5(-6) per spikelet, proximal glume (2.2-)2.6-3.0(-3.4)mm long, subproximal glume (2.6-)3.4-3.8(-4.9) mm long, firm, shiny, margins sometimes with a narrow scarious margin, obscurely distichous, upper glumes longer in length, apices acuminate to obtuse. Mucros present or not, proximal mucro (0-)0.1-0.3(-1.1) mm long, subproximal mucro 0-0.2(-2.1) mm long. Stamens 3 per floret, anthers2.6-4.0(-4.5) mm long. Stigmas (2-)3-branched. Perianth bristles 0. Nutlet (only one immature observed) 3-sided, wide elliptical. Nutlet beak farinose.
+            textZh: Schoenus filiculmis T.L.Elliott & Muasya 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_17737_0
+            locator: "SANBI/WFO archive Morphology row 104820; source identifier 17737.0; cited publication: Elliott, TL; Muasya, AM. 2018. A taxonomic revision of Schoenus compar - Schoenus pictus and allies (Cyperaceae, tribe Schoeneae) with three new species described from South Africa. S. African J. Bot. 114: 303 - 315. [https://doi.org/10.1016/j.sajb.2017.11.020]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Schoenus filiculmis is a short species (<275 mm) with a somewhat wiry appearance compared to other similar species because of its narrow culms (<0.8 mm) and leaves, which are usually less than 0.5 mm in width. The leaf sheaths and inflorescences can be dark red to almost black in some specimens. In addition, the inflorescences of S. filiculmis are generally shorter (<28.5 mm) and narrower (<4.6 mm) compared to other species in the group, appearing delicate in most specimens. Furthermore, the spikelets of this species sometimes have a slight twist so that they appear to curve outwards from the panicle. The inflorescence bracts of S. filiculmis are relatively short (<45.0 mm) and usually have membranaceous marginal extensions similar to S. aureus, S. pseudoloreus and S. megacarpus; however, the delicate and wiry habit of S. filiculmis make it a distinctive species.
+            textZh: SANBI 条目提供了 Schoenus filiculmis T.L.Elliott & Muasya 的鉴别特征。
+            sourceIds:
+              - sanbi_17737_0
+            locator: "SANBI/WFO archive Diagnostic row 104720; source identifier 17737.0; cited publication: Elliott, TL; Muasya, AM. 2018. A taxonomic revision of Schoenus compar - Schoenus pictus and allies (Cyperaceae, tribe Schoeneae) with three new species described from South Africa. S. African J. Bot. 114: 303 - 315. [https://doi.org/10.1016/j.sajb.2017.11.020]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grows in the western mountains and generally grows among wet to arid fynbos vegetation on relatively high elevation mountain slopes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Grows in the western mountains and generally grows among wet to arid fynbos vegetation on relatively high elevation mountain slopes.
+            sourceIds:
+              - sanbi_17737_0
+            locator: "SANBI/WFO archive Habitat row 104787; source identifier 17737.0; cited publication: Elliott, TL; Muasya, AM. 2018. A taxonomic revision of Schoenus compar - Schoenus pictus and allies (Cyperaceae, tribe Schoeneae) with three new species described from South Africa. S. African J. Bot. 114: 303 - 315. [https://doi.org/10.1016/j.sajb.2017.11.020]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

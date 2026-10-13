@@ -1,0 +1,216 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sachatamia Guayasamin, Castroviejo-Fisher, Trueb, Ayarzagüena, Rada & Vilà, 2009
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Sachatamia
+      zh: Sachatamia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3292b08a24
+            part: title
+          zh:
+            page: zh
+            section: s-6ef7a24f65
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3292b08a24
+            part: body
+          zh:
+            page: zh
+            section: s-6ef7a24f65
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-919da483aa
+            part: title
+          zh:
+            page: zh
+            section: s-0ef4c9b904
+            part: title
+        text:
+          en:
+            page: en
+            section: s-919da483aa
+            part: body
+          zh:
+            page: zh
+            section: s-0ef4c9b904
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-f672daad03
+            part: title
+          zh:
+            page: zh
+            section: s-6c684522d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f672daad03
+            part: body
+          zh:
+            page: zh
+            section: s-6c684522d3
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-44472c3471
+            part: title
+          zh:
+            page: zh
+            section: s-e9ab3d7bbb
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4TXDM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4TXDM
+            label:
+              en: Sachatamia albomaculata
+              zh: Sachatamia albomaculata
+          - kind: catalogue
+            colId: 4TXDN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4TXDN
+            label:
+              en: Sachatamia electrops
+              zh: Sachatamia electrops
+          - kind: catalogue
+            colId: 4TXDP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4TXDP
+            label:
+              en: Sachatamia ilex
+              zh: Sachatamia ilex
+          - kind: catalogue
+            colId: 4TXDQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4TXDQ
+            label:
+              en: Sachatamia orejuela
+              zh: Sachatamia orejuela
+          - kind: catalogue
+            colId: 4TXDR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4TXDR
+            label:
+              en: Sachatamia punctulata
+              zh: Sachatamia punctulata
+        text:
+          en:
+            page: en
+            section: s-44472c3471
+            part: body
+          zh:
+            page: zh
+            section: s-e9ab3d7bbb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sachatamia
+          url: https://www.checklistbank.org/dataset/316115/taxon/7BHZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Sachatamia; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-71479d7974
+        part: body
+      zh:
+        page: zh
+        section: s-d3e29e034f
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Sachatamia
+      sourceRowIds:
+        - Anf1011
+        - Anf1012
+        - Anf1013
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 2
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 3
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 3
+      developmentCounts: []
+      currentConceptEquivalenceCertified: false

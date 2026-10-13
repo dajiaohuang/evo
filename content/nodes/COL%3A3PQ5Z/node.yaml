@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus parvus
+  displayName: Ingerophrynus parvus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PQ5Z
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus parvus
+        zh: Ingerophrynus parvus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PQ5Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/2
+            queryName: Ingerophrynus parvus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/387
+            queryName: Bufo parvus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-83a49605a6
+      - s-82061fdb68
+      - s-dd7195a2a0
+      - s-f1e8b14b9e
+      - s-6035e915bd
+      - s-904c402b72
+      - s-8d6faaaea7
+      - s-0cd51e0425
+      - s-30f83fd7e6
+      - s-fd83b2692d
+      - s-fd3a2a1654
+      - s-cf8fd40300
+    zh:
+      - s-88c844de6a
+      - s-d874e6132d
+      - s-18296509ef
+      - s-1649d34bad
+      - s-3b68b2f27c
+      - s-01b56d9061
+      - s-57f556bfb2
+      - s-192b25c21a
+      - s-855ffeff1b
+      - s-7c3f7c31e3
+      - s-404f5987e5
+      - s-4c0b12663b

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus mittermeieri
+  displayName: Atelopus mittermeieri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8ZF
+  sourceIndexes:
+    - name:
+        en: Atelopus mittermeieri
+        zh: Atelopus mittermeieri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8ZF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/283
+            queryName: Atelopus mittermeieri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca9b3e16e9
+      - s-cfa514caea
+      - s-313d8d9eba
+      - s-c958040d43
+      - s-38861daeac
+      - s-7a0bb3b489
+      - s-88be948c32
+      - s-b3737558f8
+      - s-ac0f69226d
+    zh:
+      - s-1f268534a3
+      - s-99ba9b547f
+      - s-42a399913c
+      - s-1ffc30a6cf
+      - s-6a99ba43fd
+      - s-276a8e30b1
+      - s-1ff14c19a5
+      - s-ce994ab4f1
+      - s-57fbc70aaf

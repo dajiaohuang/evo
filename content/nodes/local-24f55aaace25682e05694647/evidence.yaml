@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyperolius jacobseni
+    name:
+      en: Hyperolius jacobseni
+      zh: Hyperolius jacobseni
+    sourceClassification:
+      order: Anura
+      family: Hyperoliidae
+      genus: Hyperolius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-549069d50e
+            part: body
+          zh:
+            page: zh
+            section: s-2e392cc8d8
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-856844b6f5
+            part: body
+          zh:
+            page: zh
+            section: s-6a41cce7da
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2302, 2303; Reference.csv rows 2333
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2302
+        values:
+          - Hyperoliidae
+          - Hyperolius
+          - Hyperolius jacobseni
+          - F
+          - NA
+          - "6.7"
+          - "6.2"
+          - "1.9"
+          - NA
+          - NA
+          - "2.5"
+          - "1.9"
+          - "1"
+          - "1.9"
+          - "3"
+          - "0.8"
+          - "6.7"
+          - NA
+          - NA
+          - "8.4"
+          - "11.2"
+          - NA
+          - "10.5"
+          - NA
+          - "23.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "19.5"
+      - rowNumber: 2303
+        values:
+          - Hyperoliidae
+          - Hyperolius
+          - Hyperolius jacobseni
+          - M
+          - NA
+          - "7.2"
+          - "5.9"
+          - "1.8"
+          - NA
+          - NA
+          - "2.9"
+          - "2.1"
+          - "1"
+          - "1.6"
+          - "3.1"
+          - "1"
+          - "6"
+          - NA
+          - NA
+          - "8.7"
+          - "11.1"
+          - NA
+          - "10.6"
+          - NA
+          - "34.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "21.3"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2333
+        values:
+          - Anura
+          - Hyperolius_jacobseni
+          - "Channing, A., Hillers, A., Lotters, S., Rodel, M. O., Schick, S., Conradie, W., . . . Burger, M. (2013). Taxonomy of the super-cryptic Hyperolius nasutus group of long reed frogs of Africa (Anura: Hyperoliidae), with descriptions of six new species. Zootaxa, 3620, 301-350. https://doi.org/10.11646/zootaxa.3620.3.1"
+    availableTraitCodes:
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FL
+      - TFL
+      - THL
+      - HLL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MQ9M
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,3 @@
+## A tangled shrub with articulated succulent branches {#s-e2e517a117}
+This description records an erect, tangled dwarf shrub with articulated branches. The green succulent outer layer falls from older sections, revealing dark bark. Short, semi-cylindrical leaves join briefly at their bases when young and later fall. Small flower clusters have four calyx lobes and free white petal-like staminodes. The four-chambered capsule opens when wet and lacks seed bags. A separate diagnostic excerpt under the name “Brownanthus neglectus” compares it with B. arenosus and notes finer, more tangled branching and dark older bark. The account places it in the winter-rainfall region of the northern Richtersveld and southern Namibia, on plains or foothills.
+

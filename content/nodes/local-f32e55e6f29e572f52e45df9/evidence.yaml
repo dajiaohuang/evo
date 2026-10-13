@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius shinichisatoi
+    name:
+      en: Hynobius shinichisatoi
+      zh: Hynobius shinichisatoi
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-fbb176915c
+            part: body
+          zh:
+            page: zh
+            section: s-547eb09fb9
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-348716e29d
+            part: body
+          zh:
+            page: zh
+            section: s-d056addadc
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 177, 178; Reference.csv rows 4256
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 177
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius shinichisatoi
+          - M
+          - NA
+          - "82.9"
+          - NA
+          - "43.108"
+          - "20.2276"
+          - "14.7562"
+          - "4.7253"
+          - "4.7253"
+          - NA
+          - NA
+          - "5.2227"
+          - "6.2175"
+          - "74.9416"
+          - "9.2019"
+          - "8.5387"
+          - "7.7097"
+          - "6.0517"
+          - "20.6421"
+          - "24.9529"
+          - NA
+          - NA
+          - "5.6372"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 178
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius shinichisatoi
+          - F
+          - NA
+          - "84.3"
+          - NA
+          - "45.0162"
+          - "20.0634"
+          - "14.4153"
+          - "4.6365"
+          - "4.6365"
+          - NA
+          - NA
+          - "5.058"
+          - "6.4068"
+          - "71.8236"
+          - "7.9242"
+          - "6.9969"
+          - "6.4911"
+          - "4.8051"
+          - "19.9791"
+          - "24.6999"
+          - NA
+          - NA
+          - "6.2382"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4256
+        values:
+          - Caudata
+          - Hynobius_shinichisatoi
+          - Nishikawa, K., & Matsui, M. (2014). Three new species of the salamander genus Hynobius (Amphibia, Urodela, Hynobiidae) from Kyushu, Japan. Zootaxa, 3852(2), 203-226. https://doi.org/10.11646/zootaxa.3852.2.3
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - T3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MQKW
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

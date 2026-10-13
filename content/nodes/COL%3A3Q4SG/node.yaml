@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema sambaqui
+  displayName: Ischnocnema sambaqui
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4SG
+  sourceIndexes:
+    - name:
+        en: Ischnocnema sambaqui
+        zh: Ischnocnema sambaqui
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4SG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/40
+            queryName: Ischnocnema sambaqui
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/43
+            queryName: Eleutherodactylus sambaqui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da64f7fad4
+      - s-60fd7ffd70
+      - s-5711ea695c
+      - s-027e417370
+      - s-8a5af69a03
+      - s-aa25fb9d12
+      - s-d3d374e3e9
+      - s-523434dc48
+      - s-f17976e135
+      - s-cf6529c442
+      - s-f156834be5
+      - s-2ed192e246
+      - s-dfac8f4b7b
+    zh:
+      - s-3413380c1f
+      - s-992ac6c6da
+      - s-55fa6707d5
+      - s-3b90baa38e
+      - s-8804987b25
+      - s-2b531d53e8
+      - s-a178d18a28
+      - s-3c5f46ed61
+      - s-91694718b2
+      - s-aee6af7131
+      - s-ad41f6bd44
+      - s-30395b6404
+      - s-151c2deaa8

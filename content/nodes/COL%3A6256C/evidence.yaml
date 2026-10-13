@@ -1,0 +1,338 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobiidae Cope, 1859
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobiidae
+      zh: Hynobiidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6e03fec924
+            part: title
+          zh:
+            page: zh
+            section: s-25c494bde2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6e03fec924
+            part: body
+          zh:
+            page: zh
+            section: s-25c494bde2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6cff33c470
+            part: title
+          zh:
+            page: zh
+            section: s-f813d12f85
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6cff33c470
+            part: body
+          zh:
+            page: zh
+            section: s-f813d12f85
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-9d4860f2a4
+            part: title
+          zh:
+            page: zh
+            section: s-7b59011bbf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9d4860f2a4
+            part: body
+          zh:
+            page: zh
+            section: s-7b59011bbf
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-35c24a710d
+            part: title
+          zh:
+            page: zh
+            section: s-ea498ec134
+            part: title
+        text:
+          en:
+            page: en
+            section: s-35c24a710d
+            part: body
+          zh:
+            page: zh
+            section: s-ea498ec134
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-16ac919cec
+            part: title
+          zh:
+            page: zh
+            section: s-8e289cbe02
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: JQS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJQS
+            label:
+              en: Hynobiinae
+              zh: Hynobiinae
+          - kind: catalogue
+            colId: K27
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AK27
+            label:
+              en: Onychodactylinae
+              zh: Onychodactylinae
+        text:
+          en:
+            page: en
+            section: s-16ac919cec
+            part: body
+          zh:
+            page: zh
+            section: s-8e289cbe02
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-db6ecae299
+            part: title
+          zh:
+            page: zh
+            section: s-98ddef3f09
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-db6ecae299
+            part: body
+          zh:
+            page: zh
+            section: s-98ddef3f09
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobiidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/6256C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Hynobiidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Hynobiidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-093634a5a0
+        part: body
+      zh:
+        page: zh
+        section: s-14d9cad5d7
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Hynobiidae
+      sourceRowIds:
+        - Anf6015
+        - Anf6016
+        - Anf6017
+        - Anf6018
+        - Anf6019
+        - Anf6020
+        - Anf6021
+        - Anf6022
+        - Anf6023
+        - Anf6024
+        - Anf6025
+        - Anf6026
+        - Anf6027
+        - Anf6028
+        - Anf6029
+        - Anf6030
+        - Anf6031
+        - Anf6032
+        - Anf6033
+        - Anf6034
+        - Anf6035
+        - Anf6036
+        - Anf6037
+        - Anf6038
+        - Anf6039
+        - Anf6040
+        - Anf6041
+        - Anf6042
+        - Anf6043
+        - Anf6044
+        - Anf6045
+        - Anf6046
+        - Anf6047
+        - Anf6048
+        - Anf6049
+        - Anf6050
+        - Anf6051
+        - Anf6052
+        - Anf6053
+        - Anf6054
+        - Anf6055
+        - Anf6056
+        - Anf6057
+        - Anf6058
+        - Anf6059
+        - Anf6060
+        - Anf6061
+        - Anf6062
+        - Anf6063
+        - Anf6064
+        - Anf6065
+        - Anf6066
+        - Anf6067
+        - Anf6068
+        - Anf6069
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 8
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 43
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 51
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 2
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 46
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Batrachuperus tibetanus
+          path: content/nodes/local-e68e643048b64105dd5a0f3b
+        - scientificName: Batrachuperus yenyuanensis
+          path: content/nodes/local-1e29ac80148e17a47d06a7d3
+        - scientificName: Hynobius fuca
+          path: content/nodes/local-581d6b3aabc963cb1c7031f6
+      metrics:
+        - metric: CTmax
+          rows: 6
+          sourceConcepts: 3
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

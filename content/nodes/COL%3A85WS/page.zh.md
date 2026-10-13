@@ -1,0 +1,43 @@
+## 目录中的位置 {#s-49b60885bd}
+Varanus 在固定 COL26.8 中记录为接受分类单元，阶元为属，父级为 Varanidae。本页沿用这一目录位置。
+
+## 从已有样本页面开始 {#s-527ddc6d68}
+当前本地阅读路径覆盖 Varanus exanthematicus。各物种页分别保留标本编号和观察结果；这是一组研究样本，不是 Varanus 的完整接受种名录。
+
+## 怎样阅读这组比较 {#s-dcd4365694}
+阅读椎骨观察时，应同时看它在脊柱中的位置和骨骼成熟程度。研究把连接解剖标志的骨嵴纳入统一术语，并说明结构可在同一条脊柱中发生变化。名称相同并不自动证明演化同源；候选性状仍需评估，才能作为分类诊断使用。
+
+## 头骨 CT 研究阅读路径 {#s-f6cd1091ea}
+本地头骨研究路径覆盖 Varanus acanthurus、Varanus exanthematicus、Varanus gouldii、Varanus komodoensis、Varanus panoptes、Varanus prasinus、Varanus salvadorii、Varanus salvator、Varanus storri、Varanus tristis。这些页面分别保留样本编号与模型限制；研究的 13 枚头骨来自 12 个物种，V. panoptes 的两个样本不增加物种数。
+
+## 研究分组与分类的边界 {#s-8fe5cf151a}
+论文把 Varanus、Lanthanotus 和 Heloderma 作为取食功能比较组使用，并讨论了它们未必构成单系群。因此本页只沿固定 COL 分类路径导航，不把这个研究分组另建为接受分类单元。比较结果涉及统一体积下的咬合、摇甩和后拉响应。
+
+## 按生活史字段选择对读页面 {#s-7a2ecaab44}
+Varanus 的本批路线包含 52 条历史生活史导读，可从 Varanus acanthurus、Varanus albigularis、Varanus beccarii、Varanus bengalensis、Varanus bogerti 开始。按声明的类群范围保留的字段包括 每窝幼体数或卵数（52 条）、产卵至孵化的时间（52 条）、成年体重（50 条）、出生或孵化时体重（46 条）。这些计数描述本批资料覆盖，不是完整接受种分母；应先看事件、单位与出处，再比较数值。
+
+## 证据边界 {#s-9c57427f90}
+这些有限元模型统一了体积与咬合载荷，并使用均一、各向同性的骨材料及相同的肌肉附着位置假设，以便比较形状差异。模型应变不是活体实测咬合力；单枚头骨、年龄差异与模型约束限制外推，不能据此建立全种或全属的性能排名、保护状态或完整生活史。
+本导读仅覆盖列出的研究阅读路径，本批次没有覆盖其他接受后代。论文中的 Podarcis wagleriana 与 Agama impalearis 已有单独物种页，保留样本原名及来源支持的 Podarcis waglerianus 与 Agama bibronii 对应。Takydromus sp. 没有鉴定到种，不计为物种页面。
+本路线包含原始筛选后写入的同名同科历史条目；部分在撤下字段范围疑点后低于原焦点字段门槛，不是完整后代名册。数值仍带有原汇编中位数、最大寿命和历史分类继承的限制；群级阅读入口不表示所有后代拥有相同繁殖方式或生活史。完整生物学与当前状态仍未完成。
+
+本批部分后代条目存在源字段类群范围疑点；相关数值已从确定事件解释中撤下，原始记录保留，具体边界见各物种页。
+
+## 从有性状记录的物种开始 {#s-8f6bfbc540}
+Varanus 的本批 ReptTraits 阅读路径包含 77 条同名同科、有逐性状出处的物种资料，可从 Varanus acanthurus、Varanus albigularis、Varanus bangonorum、Varanus beccarii、Varanus bengalensis 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+
+## 比较前先看测量定义 {#s-f6f2258008}
+本批已有尺寸记录中，Varanus sparnus 的已报道最大吻肛长（SVL）为 116.4 mm，Varanus komodoensis 为 1570 mm。它们是不同物种记录的两端，不是同一种个体的变异范围，也不表示整个类群最小与最大的实际个体。继续比较活动、食性与繁殖字段时，应保留各字段来源。
+
+## 这组性状资料的边界 {#s-0603cb6a16}
+本导读只概括本批至少四个焦点性状有来源、含尺寸或繁殖数值且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+
+## 从有性状记录的物种开始 {#s-06998ef869}
+Varanus 的本批 ReptTraits 阅读路径包含 6 条同名同科、有逐性状出处的物种资料，可从 [Varanus bennetti](Varanus_bennetti/page.zh.md)、[Varanus citrinus](Varanus_citrinus/page.zh.md)、[Varanus colei](Varanus_colei/page.zh.md)、[Varanus ocreatus](Varanus_ocreatus/page.zh.md)、[Varanus tsukamotoi](Varanus_tsukamotoi/page.zh.md) 开始。分类导航沿用固定 COL26.8，资料则保留工作簿 v1-2 的 2023 年名称框架。这里的记录数量不是该类群全部接受种数量。
+
+## 按现有字段选择比较材料 {#s-57cd3424cb}
+本批后代页只介绍各自有出处的字段；先看每页缺什么，再选择共同有支持的尺寸、活动、食性或繁殖字段对读。资料数量不代表性状完整，缺少数值时不以近缘种补值；存在龟类 SCL 和其他类群 SVL 时，也不把两种测量混作一个排名。
+
+## 这组性状资料的边界 {#s-5ad8bb7aa0}
+本导读只概括本批至少一个焦点性状有逐字段出处、仅按可用字段介绍且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
+

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrophryniscus leucomystax
+  displayName: Dendrophryniscus leucomystax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34RLJ
+  sourceIndexes:
+    - name:
+        en: Dendrophryniscus leucomystax
+        zh: Dendrophryniscus leucomystax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34RLJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/327
+            queryName: Dendrophryniscus leucomystax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9fecbb46e9
+      - s-5aff1dba3b
+      - s-111142430c
+      - s-dbd40dbc95
+      - s-a5ca7a1fd3
+      - s-184312ae0c
+      - s-a67c682c8c
+      - s-58aa5ca250
+      - s-6779825d8d
+      - s-c9a97241d7
+      - s-27942a1bb9
+      - s-86d9373716
+      - s-5f1647fcaf
+    zh:
+      - s-4b9806342c
+      - s-5513c30ca5
+      - s-912eca6061
+      - s-1b53f3151c
+      - s-c89ad9578b
+      - s-296100c3fa
+      - s-b476f3e45d
+      - s-84f1374a8a
+      - s-3b46d10be8
+      - s-c89eca5139
+      - s-6d604d5ae4
+      - s-08477501f2
+      - s-cda3e1a720

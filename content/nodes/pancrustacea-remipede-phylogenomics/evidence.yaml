@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-df2a0862cb
+      part: title
+    titleZh:
+      page: zh
+      section: s-ea12cce7dd
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Taxon-rich living pancrustacean genomic-scale dataset
+    clades:
+      - Pancrustacea
+      - Remipedia
+      - Hexapoda
+    summary:
+      page: en
+      section: s-df2a0862cb
+      part: body
+    summaryZh:
+      page: zh
+      section: s-ea12cce7dd
+      part: body
+    claimIds:
+      - claim:event:pancrustacea-remipede-phylogenomics
+    evidenceItems:
+      - statement: Expanded remipede sampling repeatedly recovers Remipedia plus Hexapoda while supporting several major pancrustacean clades across methods.
+        relation: supports
+        claimIds:
+          - claim:event:pancrustacea-remipede-phylogenomics
+        referenceLinks:
+          - referenceId: lozano-fernandez-2019-pancrustacea
+            relation: supports
+            pages: 2055–2070
+            figure: Figures 1–5
+            quoteLocator: Phylogenetic results
+    uncertaintyItems:
+      - statement: Copepod, cephalocarid and other deep positions remain method- and sampling-sensitive, so the tree is a tested hypothesis rather than a fixed ancestor ladder.
+        relation: contextualizes
+        claimIds:
+          - claim:event:pancrustacea-remipede-phylogenomics
+        referenceLinks:
+          - referenceId: lozano-fernandez-2019-pancrustacea
+            relation: supports
+            pages: 2055–2070
+            figure: Supplementary trees
+            quoteLocator: Sensitivity analyses and discussion
+  claims:
+    - subjectId: event:pancrustacea-remipede-phylogenomics
+      claimKind: scientific
+      claimType: topology
+      statement: The 2019 taxon-rich phylogenomic matrices repeatedly recover Pancrustacea and support Remipedia as the sampled sister to Hexapoda in Labiocarida, while the positions of Copepoda, Cephalocarida and other deep branches vary across analytical treatments.
+      confidence: high
+      confidenceRationale: Repeated analyses support the bounded relationship and the paper documents the unstable nodes and sampling limitations.
+      referenceLinks:
+        - referenceId: lozano-fernandez-2019-pancrustacea
+          relation: supports
+          pages: 2055–2070
+          figure: Figures 1–5; Supplementary data
+          quoteLocator: Dataset assembly; Phylogenetic results; Discussion
+  claim-rationales.zh:
+    - 多种分析反复支持限定关系，同时原研究明确记录桡足类、头虾类等深层节点的不稳定性。
+  claim-statements.zh:
+    - 2019 年的高分类单元覆盖系统基因组矩阵反复恢复出泛甲壳类，并支持桨足纲在 Labiocarida 中是所取样六足类的姐妹群；桡足纲、头虾纲及其他深层分支的位置则随分析处理而变化。

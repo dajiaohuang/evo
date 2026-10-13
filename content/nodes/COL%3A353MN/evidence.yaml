@@ -1,0 +1,731 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Desmognathus marmoratus (Moore, 1899)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Desmognathus marmoratus
+      zh: Desmognathus marmoratus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-d19805d7e5
+            part: title
+          zh:
+            page: zh
+            section: s-bba13ba974
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d19805d7e5
+            part: body
+          zh:
+            page: zh
+            section: s-bba13ba974
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-93b4d26390
+            part: title
+          zh:
+            page: zh
+            section: s-3be7a69c03
+            part: title
+        text:
+          en:
+            page: en
+            section: s-93b4d26390
+            part: body
+          zh:
+            page: zh
+            section: s-3be7a69c03
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-7d82b42823
+            part: title
+          zh:
+            page: zh
+            section: s-339f92d8ad
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-7d82b42823
+            part: body
+          zh:
+            page: zh
+            section: s-339f92d8ad
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9c52fad1a0
+            part: title
+          zh:
+            page: zh
+            section: s-82fbed6192
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-9c52fad1a0
+            part: body
+          zh:
+            page: zh
+            section: s-82fbed6192
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9aae5611e4
+            part: title
+          zh:
+            page: zh
+            section: s-1a4b8b8728
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-9aae5611e4
+            part: body
+          zh:
+            page: zh
+            section: s-1a4b8b8728
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a794d772ec
+            part: title
+          zh:
+            page: zh
+            section: s-63212ba4cc
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-a794d772ec
+            part: body
+          zh:
+            page: zh
+            section: s-63212ba4cc
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-4f03a379cd
+            part: title
+          zh:
+            page: zh
+            section: s-28bae1e5c0
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-4f03a379cd
+            part: body
+          zh:
+            page: zh
+            section: s-28bae1e5c0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bed8ee3bac
+            part: title
+          zh:
+            page: zh
+            section: s-b60f5a8af6
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bed8ee3bac
+            part: body
+          zh:
+            page: zh
+            section: s-b60f5a8af6
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-16be8faecd59f60b28cd8d15d8724ce4
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c3e3019082
+            part: title
+          zh:
+            page: zh
+            section: s-f42214cf13
+            part: title
+        sourceIds:
+          - primary-pmc12510250-353mn
+        text:
+          en:
+            page: en
+            section: s-c3e3019082
+            part: body
+          zh:
+            page: zh
+            section: s-f42214cf13
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-a54ee072e3
+            part: title
+          zh:
+            page: zh
+            section: s-3aff29531b
+            part: title
+        sourceIds:
+          - primary-pmc12510250-353mn
+        text:
+          en:
+            page: en
+            section: s-a54ee072e3
+            part: body
+          zh:
+            page: zh
+            section: s-3aff29531b
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-6ced1761fc
+            part: title
+          zh:
+            page: zh
+            section: s-80e8823d2f
+            part: title
+        sourceIds:
+          - primary-pmc12510250-353mn
+        text:
+          en:
+            page: en
+            section: s-6ced1761fc
+            part: body
+          zh:
+            page: zh
+            section: s-80e8823d2f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cf6ef0a3ec
+            part: title
+          zh:
+            page: zh
+            section: s-5c1e59810c
+            part: title
+        sourceIds:
+          - primary-pmc12510250-353mn
+        text:
+          en:
+            page: en
+            section: s-cf6ef0a3ec
+            part: body
+          zh:
+            page: zh
+            section: s-5c1e59810c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-dbf5deb87b
+            part: title
+          zh:
+            page: zh
+            section: s-867041017e
+            part: title
+        sourceIds:
+          - primary-pmc10658874-353mn
+        text:
+          en:
+            page: en
+            section: s-dbf5deb87b
+            part: body
+          zh:
+            page: zh
+            section: s-867041017e
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-280dc0d42c
+            part: title
+          zh:
+            page: zh
+            section: s-89abebd751
+            part: title
+        sourceIds:
+          - primary-pmc10658874-353mn
+        text:
+          en:
+            page: en
+            section: s-280dc0d42c
+            part: body
+          zh:
+            page: zh
+            section: s-89abebd751
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-ab4bd982c9
+            part: title
+          zh:
+            page: zh
+            section: s-6127c536db
+            part: title
+        sourceIds:
+          - primary-pmc10658874-353mn
+        text:
+          en:
+            page: en
+            section: s-ab4bd982c9
+            part: body
+          zh:
+            page: zh
+            section: s-6127c536db
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Desmognathus marmoratus
+          url: https://www.checklistbank.org/dataset/316115/taxon/353MN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 550398, row 326755; Distribution.tsv rows 82344; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6373; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6368 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12510250-353mn
+        referenceId: ref-844eba50-960a-4fdd-a976-03b952ac19ce
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Desmognathus marmoratus: Raw XML experimental subjects, escape trials, kinematic/statistical methods, Results and Discussion read; three identifiable species and one unresolved northern semi-aquatic group; captive fast-start metric not maximum speed, wild predation success or experimentally demonstrated fitness; source individual labels not independent genetic re-identification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10658874-353mn
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Desmognathus marmoratus: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-49fe9a8d80
+        part: body
+      zh:
+        page: zh
+        section: s-8964f0ca13
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "550398"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=550398
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 326755
+        key: "550398"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "550398"
+            area: North America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 82344
+            key: 550398|North America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-16be8faecd59f60b28cd8d15d8724ce4
+      sourceRowId: Anf6373
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6373
+        bibliographyRowId: Anf6368
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Desmognathus organi
+        candidateBibliographyRowIds:
+          - Anf6368
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.20111
+        referenceId: ref-844eba50-960a-4fdd-a976-03b952ac19ce
+        sourceKey: primary-pmc12510250-353mn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12510250/article.xml
+        sourceConcept: Desmognathus marmoratus
+        evidenceRead: "Desmognathus marmoratus: Raw XML experimental subjects, escape trials, kinematic/statistical methods, Results and Discussion read; three identifiable species and one unresolved northern semi-aquatic group; captive fast-start metric not maximum speed, wild predation success or experimentally demonstrated fitness; source individual labels not independent genetic re-identification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Twelve Virginia aquatic adults define this experiment
+              zh: 十二只弗吉尼亚州水生型成体限定本实验
+            referenceId: ref-844eba50-960a-4fdd-a976-03b952ac19ce
+            sourceKey: primary-pmc12510250-353mn
+            locator: PMC12510250 XML sec3 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-13019ab6de
+                part: body
+              zh:
+                page: zh
+                section: s-1a8a891ad8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: behavior
+            heading:
+              en: Repeated escape trials measured an individual mean fast start
+              zh: 重复逃逸试验测量个体平均快速起动
+            referenceId: ref-844eba50-960a-4fdd-a976-03b952ac19ce
+            sourceKey: primary-pmc12510250-353mn
+            locator: PMC12510250 XML sec4 paragraphs 1–3; sec5 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f191fd0220
+                part: body
+              zh:
+                page: zh
+                section: s-585ba8042d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: The cross-sample trade-off does not quantify this species alone
+              zh: 跨样本的性能权衡不单独量化本种
+            referenceId: ref-844eba50-960a-4fdd-a976-03b952ac19ce
+            sourceKey: primary-pmc12510250-353mn
+            locator: PMC12510250 XML sec6 paragraphs 0–2; sec7 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-45c017bd6e
+                part: body
+              zh:
+                page: zh
+                section: s-b6faddffd7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Functional parallelism is an interpretation with unresolved northern identity
+              zh: 功能平行演化解释保留北方身份疑问
+            referenceId: ref-844eba50-960a-4fdd-a976-03b952ac19ce
+            sourceKey: primary-pmc12510250-353mn
+            locator: PMC12510250 XML sec8 paragraphs 0–2; sec3 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4cb693eced
+                part: body
+              zh:
+                page: zh
+                section: s-cc06b9b258
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-pmc10658874-353mn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Historical compiled hostlabel Desmognathus marmoratus; exact pinned-name link only, not originalvoucher/currentconcept authentication
+        evidenceRead: "Desmognathus marmoratus: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Adult tapeworm associations in a historical North American checklist
+              zh: 北美历史清单中的成体绦虫关联
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-353mn
+            locator: PMC10658874 XML s3j direct-child rows141,142; s3c direct-child row26 namedDesmognathus marmoratus
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8e92f15147
+                part: body
+              zh:
+                page: zh
+                section: s-59e9800222
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities retain their historical scope
+              zh: 寄生记录地点保留历史范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-353mn
+            locator: PMC10658874 XML s3j direct-child rows141,142; s3c direct-child row26 namedDesmognathus marmoratus
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aaa77b353d
+                part: body
+              zh:
+                page: zh
+                section: s-849e3c13a3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: How to interpret the compiled parasite evidence
+              zh: 如何理解汇编的寄生证据
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-353mn
+            locator: PMC10658874 XML s2 methods; s3a introduction; s3j introduction/Amphibia hostlabels; s5 source totals
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ea80d5f57f
+                part: body
+              zh:
+                page: zh
+                section: s-8a9972bdaf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

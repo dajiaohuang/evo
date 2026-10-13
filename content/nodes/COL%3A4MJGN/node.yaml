@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis leptolophus
+  displayName: Pristimantis leptolophus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGN
+  sourceIndexes:
+    - name:
+        en: Pristimantis leptolophus
+        zh: Pristimantis leptolophus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/361
+            queryName: Pristimantis leptolophus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/411
+            queryName: Eleutherodactylus leptolophus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3d095d2e07
+      - s-dda4dca5f1
+      - s-4a0430ddfb
+      - s-9a0340adf4
+      - s-d87281790b
+      - s-864c97f25c
+      - s-dac3348af2
+      - s-4ef50950ad
+      - s-562dbf2928
+      - s-4b6e9fb1ce
+      - s-9804f4bc38
+      - s-8fac10e0fe
+      - s-36abbae14e
+      - s-ca5c048ace
+      - s-df58491602
+    zh:
+      - s-02f6d24b0b
+      - s-9d8fc1f22c
+      - s-776ade91e8
+      - s-dfde4b7893
+      - s-90377a9327
+      - s-11cf80fbbd
+      - s-13801c5d34
+      - s-c17c917d31
+      - s-b6e34e17ba
+      - s-89d5c8f031
+      - s-138a54f6c1
+      - s-35e299f082
+      - s-4b417d6355
+      - s-3783b5fe73
+      - s-978d309daf

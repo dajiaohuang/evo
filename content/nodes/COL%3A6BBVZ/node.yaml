@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor vocalis
+  displayName: Craugastor vocalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BBVZ
+  sourceIndexes:
+    - name:
+        en: Craugastor vocalis
+        zh: Craugastor vocalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BBVZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/195
+            queryName: Craugastor vocalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/219
+            queryName: Eleutherodactylus vocalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/38
+            queryName: Eleutherodactylus rugulosus vocalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-974f7f1f85
+      - s-11c8635e45
+      - s-c2fd7b7901
+      - s-b5c2b748d7
+      - s-2ccdaaa169
+      - s-36cd523c07
+      - s-7fe613ba47
+      - s-c879cfabb2
+      - s-d0489d160d
+      - s-c2bbe1af1a
+      - s-6519ccf551
+      - s-b7572140cb
+      - s-e48c7cc1dd
+      - s-b55727496c
+    zh:
+      - s-ced136abc5
+      - s-a265801b5e
+      - s-6426f727f1
+      - s-ec66a130eb
+      - s-ed745b5039
+      - s-1e67476ebe
+      - s-b0eaf90ca4
+      - s-5fbe692553
+      - s-f1bdabd53f
+      - s-944f3521f8
+      - s-72b8173c70
+      - s-1cee782b14
+      - s-d1297f8229
+      - s-9ec1ef393f

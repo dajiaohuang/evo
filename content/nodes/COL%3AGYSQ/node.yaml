@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis taeniatus
+  displayName: Arthroleptis taeniatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYSQ
+  sourceIndexes:
+    - name:
+        en: Arthroleptis taeniatus
+        zh: Arthroleptis taeniatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYSQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/183
+            queryName: Arthroleptis taeniatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/321
+            queryName: Schoutedenella taeniata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/27
+            queryName: Arthroleptis variabilis pica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-65240bc3e1
+      - s-dc17a283f5
+      - s-18d181081f
+      - s-726f6d5b95
+      - s-1eb40a8233
+      - s-03c8f3612e
+      - s-369e46cc23
+      - s-e1066e4c3b
+      - s-651ac10f4c
+      - s-a637c71f49
+      - s-af70413a5c
+      - s-9843d29564
+      - s-8af018cc53
+    zh:
+      - s-3dba1f422b
+      - s-7b07f13fef
+      - s-413a6ce35b
+      - s-d8ef2042d2
+      - s-f1200bfeea
+      - s-34d9526389
+      - s-34df1f1f0d
+      - s-3595ecf875
+      - s-0f68c62aa4
+      - s-4c0eaa6a60
+      - s-d34eb4fc0f
+      - s-2fba9b65f9
+      - s-20efdccd73

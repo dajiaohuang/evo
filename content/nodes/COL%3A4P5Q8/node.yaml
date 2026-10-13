@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola falcipes
+  displayName: Pseudopaludicola falcipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P5Q8
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola falcipes
+        zh: Pseudopaludicola falcipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P5Q8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/335
+            queryName: Pseudopaludicola falcipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/367
+            queryName: Liuperus falcipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/368
+            queryName: Paludicola falcipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-16fdcb7ec4
+      - s-d4b865af72
+      - s-90b3522bb2
+      - s-3613822bf5
+      - s-39b0961ec6
+      - s-8cb0800fc2
+      - s-f6bfb902fb
+      - s-ea15cd5472
+      - s-70dc401730
+      - s-3c4f45a5b5
+      - s-4cdc101725
+      - s-510a331369
+    zh:
+      - s-1357412a9e
+      - s-66f3d6f0d1
+      - s-4c8507f732
+      - s-51e7792920
+      - s-4f702f2c05
+      - s-37a5dc4f45
+      - s-252741cbab
+      - s-d841c099d0
+      - s-673d25e97c
+      - s-6f6fd5916f
+      - s-4c7c0bb482
+      - s-73b4487b12

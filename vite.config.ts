@@ -75,6 +75,13 @@ export default defineConfig(({ mode }) => {
       }),
     ],
     base: nativeBuild ? './' : '/evo/',
+    server: {
+      watch: {
+        // Reader pages consume generated data. Watching the entire authoring
+        // corpus and source archives creates hundreds of thousands of watchers.
+        ignored: ['**/content/**', '**/data/sources/**', '**/data/reference-leads/**', '**/data/catalogue-of-life/**', '**/public/data/releases/**', '**/dist-mobile/**'],
+      },
+    },
     build: {
       manifest: true,
       rolldownOptions: {

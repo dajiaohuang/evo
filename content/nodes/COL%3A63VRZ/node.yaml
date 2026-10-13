@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Triprion
+  displayName: Triprion
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63VRZ
+  sourceIndexes:
+    - name:
+        en: Triprion
+        zh: Triprion
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63VRZ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/310
+            queryName: Triprion
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 92
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e3286a7331
+      - s-e45ee08f67
+      - s-5a9ace47b9
+      - s-7ebccc8792
+      - s-31c9b0b84e
+      - s-cadc69f7ca
+      - s-5a5bdf76d9
+      - s-a055ddd178
+      - s-0d6335d830
+      - s-ae16566cbe
+      - s-a4d658d414
+    zh:
+      - s-912ed6b812
+      - s-12c390cf08
+      - s-f4c9d3884b
+      - s-111114a077
+      - s-c6916070f1
+      - s-2b832cb284
+      - s-6721cc7324
+      - s-10e3aaaef3
+      - s-e6b99a3c2b
+      - s-6c529ee9d4
+      - s-b70e254391

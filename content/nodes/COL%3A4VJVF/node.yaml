@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax caldarum
+  displayName: Scinax caldarum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJVF
+  sourceIndexes:
+    - name:
+        en: Scinax caldarum
+        zh: Scinax caldarum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJVF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/20
+            queryName: Scinax caldarum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/469
+            queryName: Hyla caldarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/321
+            queryName: Hyla duartei caldarum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7cff24046
+      - s-120435f874
+      - s-850d76a75d
+      - s-be93976d09
+      - s-804ee0ffa1
+      - s-3a2087612d
+      - s-4b0d76b0ef
+      - s-1a873af3e4
+      - s-3997767f1a
+      - s-5289da7caf
+      - s-a6b539269c
+      - s-f02bfe8d63
+      - s-a7efe97dce
+      - s-87b240acdd
+    zh:
+      - s-930d239b14
+      - s-968cb16234
+      - s-32067c7ca8
+      - s-2a094a77a3
+      - s-71fc44b572
+      - s-81d77bd7ba
+      - s-962f00abf5
+      - s-64685aacc9
+      - s-9de7fa38cb
+      - s-848d2a062f
+      - s-871d60b813
+      - s-4852a635f2
+      - s-7c3f2fb560
+      - s-94c84c322f

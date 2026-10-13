@@ -1,0 +1,228 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Plagiosuchus pustuliferus
+    rank: species
+    sourceTaxonId: txn:179397
+    name:
+      en: Plagiosuchus pustuliferus
+      zh: Plagiosuchus pustuliferus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-50875032c8
+            part: body
+          zh:
+            page: zh
+            section: s-48a2f14ec5
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 7 PBDB occurrence rows and collection fields
+          zh: 7 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-5668190af4
+            part: body
+          zh:
+            page: zh
+            section: s-a969768b6c
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Plagiosuchus pustuliferus
+          zh: Plagiosuchus pustuliferus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-2402f15dd0
+            part: body
+          zh:
+            page: zh
+            section: s-3796c252ac
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:179397; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: E. Fraas. 1896. Die Schwäbischen Trias-Saurier nach dem Material der Kgl. Naturalien-Sammlung in Stuttgart zusammengestellt [Swabian Triassic dinosaurs based on the material in the Royal Natural History Collection compiled in Stuttgart]. Festgabe des Königlichen Naturalien-Cabinets In Stuttgart zur 42 Versammlung der Deutschen geologischen Gesellschaft in Stuttgart, August 1896. E. Schweizerbart'sche Verlag-handlung (E. Koch), Stuttgart
+    occurrenceEvidence:
+      - occurrenceId: occ:929771
+        collectionId: col:106350
+        acceptedTaxonId: txn:179397
+        identifiedTaxonId: var:179397
+        identifiedName: Plagiosternum pustuliferum n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:43878
+        bibliography: E. Fraas. 1896. Die Schwäbischen Trias-Saurier nach dem Material der Kgl. Naturalien-Sammlung in Stuttgart zusammengestellt [Swabian Triassic dinosaurs based on the material in the Royal Natural History Collection compiled in Stuttgart]. Festgabe des Königlichen Naturalien-Cabinets In Stuttgart zur 42 Versammlung der Deutschen geologischen Gesellschaft in Stuttgart, August 1896. E. Schweizerbart'sche Verlag-handlung (E. Koch), Stuttgart
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929772
+        collectionId: col:101875
+        acceptedTaxonId: txn:179397
+        taxonomicDifference: null
+        referenceId: ref:35491
+        bibliography: "R. Damiani, R. R. Schoch, and H. Hellrung, R. Werneburg, S. Gastou. 2009. The plagiosaurid temnospondyl Plagiosuchus pustuliferus (Amphibia: Temnospondyli) from the Middle Triassic of Germany: anatomy and functional morphology of the skull. Zoological Journal of the Linnean Society 155:348-373"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929773
+        collectionId: col:106351
+        acceptedTaxonId: txn:179397
+        taxonomicDifference: null
+        referenceId: ref:35491
+        bibliography: "R. Damiani, R. R. Schoch, and H. Hellrung, R. Werneburg, S. Gastou. 2009. The plagiosaurid temnospondyl Plagiosuchus pustuliferus (Amphibia: Temnospondyli) from the Middle Triassic of Germany: anatomy and functional morphology of the skull. Zoological Journal of the Linnean Society 155:348-373"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929774
+        collectionId: col:106352
+        acceptedTaxonId: txn:179397
+        taxonomicDifference: null
+        referenceId: ref:35491
+        bibliography: "R. Damiani, R. R. Schoch, and H. Hellrung, R. Werneburg, S. Gastou. 2009. The plagiosaurid temnospondyl Plagiosuchus pustuliferus (Amphibia: Temnospondyli) from the Middle Triassic of Germany: anatomy and functional morphology of the skull. Zoological Journal of the Linnean Society 155:348-373"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929775
+        collectionId: col:106353
+        acceptedTaxonId: txn:179397
+        identifiedTaxonId: var:179397
+        identifiedName: Plagiosternum pustuliferum
+        taxonomicDifference: recombined as
+        referenceId: ref:35491
+        bibliography: "R. Damiani, R. R. Schoch, and H. Hellrung, R. Werneburg, S. Gastou. 2009. The plagiosaurid temnospondyl Plagiosuchus pustuliferus (Amphibia: Temnospondyli) from the Middle Triassic of Germany: anatomy and functional morphology of the skull. Zoological Journal of the Linnean Society 155:348-373"
+        locality:
+          countryCode: DE
+          stateProvince: Thuringia
+          county: Ilm-Kreis
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: null
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929780
+        collectionId: col:101873
+        acceptedTaxonId: txn:179397
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Hohenlohekreis
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:1419592
+        collectionId: col:196845
+        acceptedTaxonId: txn:179397
+        taxonomicDifference: null
+        referenceId: ref:67041
+        bibliography: R. R. Schoch and R. Werneburg. 1999. The Triassic labyrinthodonts from Germany. Zentralblatt für Geologie und Paläontologie Teil I 7-8:629-650
+        locality:
+          countryCode: DE
+          stateProvince: Thüringen
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 241.464
+        youngerAgeMa: 227.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Plagiosuchus pustuliferus
+          zh: Plagiosuchus pustuliferus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-2402f15dd0
+            part: body
+          zh:
+            page: zh
+            section: s-3796c252ac
+            part: body
+        sourceIds: []

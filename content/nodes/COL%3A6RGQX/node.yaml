@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla mantheyi
+  displayName: Microhyla mantheyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RGQX
+  sourceIndexes:
+    - name:
+        en: Microhyla mantheyi
+        zh: Microhyla mantheyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RGQX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/16
+            queryName: Microhyla mantheyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1fd871d08
+      - s-5806d70cf1
+      - s-d808724967
+      - s-7cf15cc61f
+      - s-8d575ee6d4
+      - s-6b531a99c6
+      - s-d7f736f050
+      - s-26a5671c06
+      - s-291dfe5c0d
+      - s-578259723a
+      - s-bd0802c709
+    zh:
+      - s-9eac3725c7
+      - s-302143592b
+      - s-e29909c123
+      - s-a4299c2bea
+      - s-5ebec15b6c
+      - s-e0d6a4f724
+      - s-e8bdbb58fe
+      - s-3eb61b3fe2
+      - s-6aea369f07
+      - s-4689e9f090
+      - s-c140ab62d6

@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mesotriton Bolkay, 1927
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Mesotriton
+      zh: Mesotriton
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-949c8adf29
+            part: title
+          zh:
+            page: zh
+            section: s-5e66bfa0c1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-949c8adf29
+            part: body
+          zh:
+            page: zh
+            section: s-5e66bfa0c1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0d9173a08d
+            part: title
+          zh:
+            page: zh
+            section: s-d98ade7a6b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0d9173a08d
+            part: body
+          zh:
+            page: zh
+            section: s-d98ade7a6b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-90f2a32bea
+            part: title
+          zh:
+            page: zh
+            section: s-f98dd03d9d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 73BFQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A73BFQ
+            label:
+              en: Mesotriton alpestris
+              zh: Mesotriton alpestris
+        text:
+          en:
+            page: en
+            section: s-90f2a32bea
+            part: body
+          zh:
+            page: zh
+            section: s-f98dd03d9d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mesotriton
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Q2X
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-789acf8f2b
+        part: body
+      zh:
+        page: zh
+        section: s-6aa67361e3
+        part: body

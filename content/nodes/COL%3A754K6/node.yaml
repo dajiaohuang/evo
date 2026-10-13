@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax multipunctatus
+  displayName: Oreolalax multipunctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/754K6
+  sourceIndexes:
+    - name:
+        en: Oreolalax multipunctatus
+        zh: Oreolalax multipunctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 754K6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/220
+            queryName: Oreolalax multipunctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a1277c2d9b
+      - s-2399a8bf0d
+      - s-48cce2c8e0
+      - s-414c049732
+      - s-f6e27dea64
+      - s-d6821c16e3
+      - s-352f926cba
+      - s-cd898378ba
+      - s-0a7e4889d5
+      - s-dfe5c4de8b
+      - s-e748a9e3f6
+    zh:
+      - s-44e88bf231
+      - s-b6ea69c8c6
+      - s-142075cfc3
+      - s-46660dd8ef
+      - s-f5d0e4f7ea
+      - s-ea39366f48
+      - s-fdc89542ee
+      - s-ac3d0a26e7
+      - s-68e9c3dbb3
+      - s-99177eff04
+      - s-dc3c56f854

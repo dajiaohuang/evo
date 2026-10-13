@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus albonotatus
+  displayName: Physalaemus albonotatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF8Q
+  sourceIndexes:
+    - name:
+        en: Physalaemus albonotatus
+        zh: Physalaemus albonotatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF8Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/301
+            queryName: Physalaemus albonotatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 28
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/134
+            queryName: Physalaemus cuqui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/348
+            queryName: Physolaemus albonotatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/349
+            queryName: Leiuperus albonotatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/350
+            queryName: Gomphobates albonotatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-973babc470
+      - s-76b1961434
+      - s-7ce89321bf
+      - s-0e7c973c82
+      - s-fa16971768
+      - s-3b6ae71181
+      - s-4a49c913d1
+      - s-7fa99d17d8
+      - s-bfe2c5504d
+      - s-c20e821dab
+      - s-38dc0ff53c
+      - s-ff026f6e9b
+    zh:
+      - s-67cda577f3
+      - s-027c73f9e6
+      - s-854ac67c64
+      - s-b77db5e944
+      - s-257c125fa1
+      - s-930001b8ea
+      - s-5da0b3333a
+      - s-bb26a59319
+      - s-d7ebaf826c
+      - s-e5fc644ecd
+      - s-20cb60f818
+      - s-b3c51e92a1

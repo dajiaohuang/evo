@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudophilautus fergusonianus
+    name:
+      en: Pseudophilautus fergusonianus
+      zh: Pseudophilautus fergusonianus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Pseudophilautus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-02fa9e8e8b
+            part: body
+          zh:
+            page: zh
+            section: s-47d84aca82
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-99f366ca7b
+            part: body
+          zh:
+            page: zh
+            section: s-5186f9d14b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4992, 4993; Reference.csv rows 1187
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4992
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus fergusonianus
+          - M
+          - "32.1"
+          - "7.478193146"
+          - "7.530346"
+          - "2.785555"
+          - "0.370161"
+          - NA
+          - "1.914368"
+          - "1.772286"
+          - "1.83211"
+          - "2.112535"
+          - "3.32771"
+          - "1.151612"
+          - "5.787972"
+          - "3.982035"
+          - NA
+          - "12.499477"
+          - NA
+          - "9.822353"
+          - "9.164289"
+          - NA
+          - NA
+          - "0.803885"
+          - "1.536729"
+          - "1.925585"
+          - "2.912681"
+          - "4.389586"
+          - "3.275364"
+          - "1.648899"
+          - "2.045233"
+          - "3.409968"
+          - "2.695819"
+          - NA
+          - NA
+          - "1.203958"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4993
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus fergusonianus
+          - F
+          - "44.5"
+          - "5.388764045"
+          - "5.480613"
+          - "2.0559035"
+          - "0.3799245"
+          - NA
+          - "1.4038345"
+          - "1.1667185"
+          - "1.201747"
+          - "1.5223925"
+          - "2.31727"
+          - "0.7787105"
+          - "3.9797765"
+          - "2.9558665"
+          - NA
+          - "9.075076"
+          - NA
+          - "7.307484"
+          - "6.854808"
+          - NA
+          - NA
+          - "0.571234"
+          - "1.0912725"
+          - "1.287971"
+          - "2.0559035"
+          - "3.0205345"
+          - "2.2121845"
+          - "1.228692"
+          - "1.535865"
+          - "2.2552965"
+          - "1.864594"
+          - NA
+          - NA
+          - "0.786794"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1187
+        values:
+          - Anura
+          - Pseudophilautus_fergusonianus
+          - "Manamendra-Arachchi, K., & Pethiyagoda, R. (2005). The Sri Lankan shrub-frogs of the genus Philautus Gistel, 1848 (Ranidae: Rhacophorinae), with description of 27 new species. Raffles Bulletin of Zoology, 163-303."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4P72P
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma Tschudi, 1838
+  displayName: Ambystoma
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TMC
+  sourceIndexes:
+    - name:
+        en: Ambystoma
+        zh: Ambystoma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TMC
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/142
+            queryName: Ambystoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6251
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3ac71237c7
+      - s-7e00a4f814
+      - s-7d32e66998
+      - s-32a100b2cf
+      - s-6115d8f979
+      - s-11a569d617
+      - s-2ae834351e
+      - s-8487ebec1f
+      - s-d72c795c84
+      - s-bb9a9efbba
+      - s-720fee0fd3
+      - s-5e09c71a7c
+      - s-f831a0c1bd
+      - s-bb4bda0df4
+      - s-993cab0889
+      - s-84a483410d
+      - s-0ff6698b4f
+    zh:
+      - s-0ead794321
+      - s-c33cf94a56
+      - s-c1bfefc0eb
+      - s-05b9f05fdc
+      - s-3dab86b9c5
+      - s-9f8c24619d
+      - s-05925ca863
+      - s-93e20f09ff
+      - s-6cdd4a3af0
+      - s-3d616fbcb8
+      - s-1f9a169c6c
+      - s-8b4fcc0cc1
+      - s-190c7f9b08
+      - s-f22c14be92
+      - s-92aac4bb5c
+      - s-969c1cb81d
+      - s-215e1787e5

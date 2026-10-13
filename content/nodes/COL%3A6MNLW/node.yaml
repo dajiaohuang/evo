@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes sazimai
+  displayName: Hylodes sazimai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNLW
+  sourceIndexes:
+    - name:
+        en: Hylodes sazimai
+        zh: Hylodes sazimai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNLW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/10
+            queryName: Hylodes sazimai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3dcaee7799
+      - s-c07e3658ef
+      - s-d90c644583
+      - s-28c4105508
+      - s-80986b7c8d
+      - s-2d21223c0e
+      - s-65f47af4e9
+      - s-13c23543bc
+      - s-9e64a3e8d7
+      - s-7c1e8056ce
+      - s-aee12dd7d5
+      - s-8be4d2f7f0
+      - s-1d7e79c606
+      - s-5c5c206a46
+      - s-59f0be5460
+      - s-dfa39e382b
+      - s-8611c0b9d3
+      - s-21cd85f77f
+      - s-367415541c
+      - s-313b92391f
+      - s-150a349280
+      - s-5d70a8cd64
+      - s-3e19ccc74c
+      - s-e1c0ab653c
+      - s-53aab69f03
+      - s-4261f2e902
+    zh:
+      - s-b2c6aa29b5
+      - s-c150fb2cf8
+      - s-a1e81ea8fc
+      - s-0a7e8ab3a8
+      - s-88762528a7
+      - s-49df66c40c
+      - s-95e9bc971b
+      - s-ca62c478a6
+      - s-9e462d6f65
+      - s-24345b2e0d
+      - s-ad591807a9
+      - s-bb786cf0e1
+      - s-70112fafac
+      - s-7dea758c73
+      - s-5b7570a498
+      - s-b58a8c147f
+      - s-65f8bdd765
+      - s-885cbfa46a
+      - s-2eccfb1519
+      - s-35b0585554
+      - s-7ea5036adc
+      - s-8491f34f54
+      - s-bf784fda26
+      - s-41c9e49839
+      - s-7dd1632412
+      - s-25ec0d5b93

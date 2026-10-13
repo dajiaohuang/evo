@@ -1,0 +1,370 @@
+schemaVersion: 1
+records:
+  caecilian-traits-reader:
+    scientificName: Caecilia aprix
+    name:
+      en: Caecilia aprix
+      zh: Caecilia aprix
+    sourceClassification:
+      family: Caeciliidae
+      genus: Caecilia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Source name and classification
+          zh: 来源名称与分类
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-8a32377b6a
+            part: body
+          zh:
+            page: zh
+            section: s-4c53c2a66b
+            part: body
+      - topic: morphology
+        title:
+          en: Individual measurement rows
+          zh: 个体测量行
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-d56f29c0ea
+            part: body
+          zh:
+            page: zh
+            section: s-137096f339
+            part: body
+      - topic: morphology
+        title:
+          en: Folds and vent-interrupted annuli
+          zh: 褶与被泄殖孔打断的环褶
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-83db28e23f
+            part: body
+          zh:
+            page: zh
+            section: s-a057b5800a
+            part: body
+    sources:
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 5; Individual level data rows 1302; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+    originalSpeciesRow:
+      rowNumber: 5
+      values:
+        - Caeciliidae
+        - Caecilia
+        - Caecilia aprix
+        - Tropical & Subtropical Moist Broadleaf Forests
+        - null
+        - null
+        - we could not associate any field notes with this specimen
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - "Fernández-Roldán, J. D., and J. V. Rueda-Almonacid. 2022. A new species of the genus caecilia linnaeus, 1758 (Amphibia: Gymnophiona: Caeciliidae) from CAQUET?, COLOMBIA. Revista Latinoamericana de Herpetología 5:51-57."
+        - 1250
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 18.9
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 7.3
+        - 3.9
+        - null
+        - 5
+        - 1
+        - null
+        - null
+        - null
+        - null
+        - 5.2
+        - null
+        - null
+        - 5.2
+        - 5
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 4
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 234
+        - 58
+        - null
+        - 17
+        - 15
+        - 14
+        - 8
+        - null
+    originalMeasurementRows:
+      - rowNumber: 1302
+        values:
+          - "Fernández-Roldán, J. D., and J. V. Rueda-Almonacid. 2022. A new species of the genus caecilia linnaeus, 1758 (Amphibia: Gymnophiona: Caeciliidae) from CAQUETÁ, COLOMBIA. Revista Latinoamericana de Herpetología 5:51-57."
+          - Caeciliidae
+          - Caecilia
+          - Caecilia aprix
+          - I
+          - MUJ 10965
+          - M
+          - "1250"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "18.9"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "7.3"
+          - "3.9"
+          - null
+          - "5"
+          - "1"
+          - null
+          - null
+          - null
+          - null
+          - "5.2"
+          - null
+          - null
+          - "5.2"
+          - "5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "4"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "234"
+          - "58"
+          - null
+          - 8-1-8
+          - 7-1-7
+          - 7-7
+          - 4-4
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - M3Z38
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en: Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets remain to be resolved.
+      zh: 本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题仍待核对。
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records

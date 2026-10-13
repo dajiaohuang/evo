@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cochranella ramirezi
+  displayName: Cochranella ramirezi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/WNT2
+  sourceIndexes:
+    - name:
+        en: Cochranella ramirezi
+        zh: Cochranella ramirezi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: WNT2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/386
+            queryName: Cochranella ramirezi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ed3309054
+      - s-7c6058b02f
+      - s-cb30d206a3
+      - s-073d4aba4a
+      - s-e2dae9f2f1
+      - s-96d717a56b
+      - s-ac668a1d02
+      - s-d943bb3d0c
+    zh:
+      - s-7a3cdd5e03
+      - s-2fd12b83f2
+      - s-ba7db44b10
+      - s-e6605613fb
+      - s-6538484ab7
+      - s-e2c68ba8fe
+      - s-f643d7f488
+      - s-664b0a4cb6

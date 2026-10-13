@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Myxozoa
+    commonName: Myxozoan Parasites
+    commonNameZh: 黏体动物
+    rank: subphylum
+    taxonId: ""
+    firstAppearance: 0
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:myxozoa
+      claimKind: scientific
+      claimType: topology
+      statement: New myxozoan genomes and phylogenomic tests place the sampled parasites within Cnidaria and associate extreme body reduction with genome reduction; this does not identify their exact ancestor or origin time.
+      confidence: high
+      confidenceRationale: Genome-scale comparisons robustly support cnidarian placement for the sampled taxa, while exact sister relationships and historical timing remain less certain.
+      referenceLinks:
+        - referenceId: chang-2015-myxozoa
+          relation: supports
+          pages: 14912–14917
+          quoteLocator: Figures 1–4; phylogenomic and genome-reduction analyses
+    - subjectId: taxon:myxozoa
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "Myxozoa has no supported scalar temporal range in the cited evidence: phylogenomics resolves a cnidarian placement and genome reduction but provides no fossil or calibrated origin boundary, so the former 0–0 placeholder is withheld."
+      confidence: low
+      confidenceRationale: Chang et al. (2015) directly supports topology and genomic reduction, not temporal endpoints. Low confidence prevents a living molecular sample from being misrepresented as a zero-duration range.
+      referenceLinks:
+        - relation: supports
+          referenceId: chang-2015-myxozoa
+          pages: 14912–14917
+          figure: Figures 1–4
+          quoteLocator: Phylogenomic and genome-reduction analyses
+  claim-rationales.zh:
+    - 基因组尺度比较稳健支持取样类群的刺胞动物位置，但确切姊妹关系和历史年代仍较不确定。
+    - Chang 等（2015）直接支持拓扑与基因组缩减，而不支持时间端点。低置信度避免把现生分子样本误表为零时长范围。
+  claim-statements.zh:
+    - 新获得的黏体动物基因组和系统基因组检验把取样寄生类群置于刺胞动物内部，并把极端身体简化与基因组缩减联系起来；这不识别其确切祖先或起源时间。
+    - 现有引证不支持 Myxozoa 的单一时间范围：系统基因组学解析了其刺胞动物位置与基因组缩减，却未提供化石或校准起源边界，因此旧有 0–0 占位值被暂缓。
+  ranges:
+    - entityId: myxozoa
+      rangeKind: global-composite
+      taxonomicConcept: Myxozoa temporal range
+      geographicScope: Temporal interval pending fossil or calibrated origin evidence
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Phylogenomic placement and genome reduction in living myxozoans do not date the clade origin or fossil range.
+      evidenceBasis: The 0–0 placeholder is withheld rather than turning a living genomic sample into a numerical origin.
+      confidence: low
+      claimIds:
+        - claim:taxon:myxozoa:range-boundary-rc50
+      referenceLocators:
+        - referenceId: chang-2015-myxozoa
+          locator: 14912–14917; Figures 1–4; phylogenomics and genome-reduction analyses
+      evidenceLevel: withheld-no-range-evidence
+  catalogue-profile:
+    sections:
+      - topic: genomics
+        title:
+          en:
+            page: en
+            section: s-bfd1e445b0
+            part: title
+          zh:
+            page: zh
+            section: s-7fd0b9f2bd
+            part: title
+        sourceIds:
+          - chang-2015-myxozoa
+        text:
+          en:
+            page: en
+            section: s-bfd1e445b0
+            part: body
+          zh:
+            page: zh
+            section: s-7fd0b9f2bd
+            part: body

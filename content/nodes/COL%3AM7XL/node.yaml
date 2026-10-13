@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana cambui
+  displayName: Boana cambui
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7XL
+  sourceIndexes:
+    - name:
+        en: Boana cambui
+        zh: Boana cambui
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7XL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/464
+            queryName: Boana cambui
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/309
+            queryName: Hypsiboas cambui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d88106b376
+      - s-b9639a1d3b
+      - s-1b17e137b9
+      - s-2e40fd12e1
+      - s-eb71ecc5f6
+      - s-b6ff356103
+      - s-a3c8306512
+      - s-304c9c993c
+      - s-5d47a9f098
+      - s-c0b19cabbe
+      - s-1f3a4f4ec0
+      - s-ec751546b0
+    zh:
+      - s-56e6e26373
+      - s-92f56304dc
+      - s-68635af3ad
+      - s-4b5007cc80
+      - s-7d3b231ede
+      - s-720970f292
+      - s-441b1ce058
+      - s-c06d14f6c9
+      - s-0554e79c90
+      - s-5527feb4cc
+      - s-e8e52d2afc
+      - s-1caf95b724

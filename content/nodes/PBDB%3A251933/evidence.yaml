@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Panthasaurus maleriensis
+    rank: species
+    sourceTaxonId: txn:251933
+    name:
+      en: Panthasaurus maleriensis
+      zh: Panthasaurus maleriensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-944ddb7240
+            part: body
+          zh:
+            page: zh
+            section: s-8742882df4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 4 PBDB occurrence rows and collection fields
+          zh: 4 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-b4a6f85985
+            part: body
+          zh:
+            page: zh
+            section: s-7101c02d26
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Panthasaurus maleriensis
+          zh: Panthasaurus maleriensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-d60649ae2b
+            part: body
+          zh:
+            page: zh
+            section: s-504eb81318
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:251933; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: T. R. Chowdhury. 1965. A new metoposaurid amphibian from the Upper Triassic Maleri Formation of central India. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences 250(761):1-52
+    occurrenceEvidence:
+      - occurrenceId: occ:959358
+        collectionId: col:112285
+        acceptedTaxonId: txn:251933
+        identifiedTaxonId: var:251933
+        identifiedName: Metoposaurus maleriensis
+        taxonomicDifference: recombined as
+        referenceId: ref:43765
+        bibliography: T. R. Chowdhury. 1965. A new metoposaurid amphibian from the Upper Triassic Maleri Formation of central India. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences 250(761):1-52
+        locality:
+          countryCode: IN
+          stateProvince: Telangana
+          county: Adilabad
+        stratigraphy:
+          group: Gondwana
+          formation: Maleri
+          member: Lower
+        olderAgeMa: 237
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:1089186
+        collectionId: col:136899
+        acceptedTaxonId: txn:251933
+        identifiedTaxonId: var:251933
+        identifiedName: Metoposaurus maleriensis
+        taxonomicDifference: recombined as
+        referenceId: ref:43765
+        bibliography: T. R. Chowdhury. 1965. A new metoposaurid amphibian from the Upper Triassic Maleri Formation of central India. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences 250(761):1-52
+        locality:
+          countryCode: IN
+          stateProvince: Andhra Pradesh
+          county: Adilabad
+        stratigraphy:
+          group: Gondwana
+          formation: Maleri
+          member: Lower
+        olderAgeMa: 237
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:1089187
+        collectionId: col:136900
+        acceptedTaxonId: txn:251933
+        identifiedTaxonId: var:251933
+        identifiedName: Metoposaurus maleriensis n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:43765
+        bibliography: T. R. Chowdhury. 1965. A new metoposaurid amphibian from the Upper Triassic Maleri Formation of central India. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences 250(761):1-52
+        locality:
+          countryCode: IN
+          stateProvince: Andhra Pradesh
+          county: Adilabad
+        stratigraphy:
+          group: Gondwana
+          formation: Maleri
+          member: Lower
+        olderAgeMa: 237
+        youngerAgeMa: 205.7
+      - occurrenceId: occ:1089188
+        collectionId: col:136901
+        acceptedTaxonId: txn:251933
+        identifiedTaxonId: var:251933
+        identifiedName: Metoposaurus maleriensis
+        taxonomicDifference: recombined as
+        referenceId: ref:43765
+        bibliography: T. R. Chowdhury. 1965. A new metoposaurid amphibian from the Upper Triassic Maleri Formation of central India. Philosophical Transactions of the Royal Society of London. Series B, Biological Sciences 250(761):1-52
+        locality:
+          countryCode: IN
+          stateProvince: Andhra Pradesh
+          county: Adilabad
+        stratigraphy:
+          group: Gondwana
+          formation: Maleri
+          member: Lower
+        olderAgeMa: 237
+        youngerAgeMa: 205.7
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Panthasaurus maleriensis
+          zh: Panthasaurus maleriensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-d60649ae2b
+            part: body
+          zh:
+            page: zh
+            section: s-504eb81318
+            part: body
+        sourceIds: []

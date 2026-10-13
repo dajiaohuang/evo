@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates taylori
+  displayName: Lithobates taylori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHR3
+  sourceIndexes:
+    - name:
+        en: Lithobates taylori
+        zh: Lithobates taylori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHR3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/198
+            queryName: Lithobates taylori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/201
+            queryName: Rana taylori
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-35d17e9539
+      - s-fc8eddef1e
+      - s-14d999c365
+      - s-c39126a898
+      - s-30e3121daa
+      - s-23fc3816fd
+      - s-05cfdce59d
+      - s-6ec11b2be9
+      - s-f841a80e24
+      - s-3dd828b91c
+      - s-c70274ad06
+      - s-e8d7376e9d
+      - s-14762b7332
+      - s-6450eea144
+      - s-47ca8b5c23
+    zh:
+      - s-94b3af81d7
+      - s-ea693b3be6
+      - s-59fe83b8c4
+      - s-d80ca1fd90
+      - s-b803726a36
+      - s-72c55a4903
+      - s-d7309e3eaf
+      - s-0f3d1c95ab
+      - s-226687d2dc
+      - s-67a50d2747
+      - s-7007357309
+      - s-64738009be
+      - s-a4fa3cef7d
+      - s-f09465f85b
+      - s-f3b0b891db

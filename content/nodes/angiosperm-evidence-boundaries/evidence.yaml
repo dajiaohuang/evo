@@ -1,0 +1,229 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-4b9df9a103
+      part: title
+    titleZh:
+      page: zh
+      section: s-0c70b0e078
+      part: title
+    dek:
+      page: en
+      section: s-4b9df9a103
+      part: body
+    dekZh:
+      page: zh
+      section: s-0c70b0e078
+      part: body
+    theme: green
+    durationMinutes: 11
+    featured: true
+    steps:
+      - id: crown-calibrations
+        title:
+          page: en
+          section: s-dd69a10f79
+          part: title
+        text:
+          page: en
+          section: s-dd69a10f79
+          part: body
+        titleZh:
+          page: zh
+          section: s-ca192f3eda
+          part: title
+        textZh:
+          page: zh
+          section: s-ca192f3eda
+          part: body
+        age: 152
+        timeRange:
+          - 152.99
+          - 151.46
+        taxonIds:
+          - angiospermae
+        view: evidence
+        eventId: crown-angiosperm-calibration-sensitivity
+        annotation: The atlas displays the preferred hard-bound result while exposing the much older alternatives beside it.
+        claimLinks:
+          - claimId: claim:event:crown-angiosperm-calibration-sensitivity
+            relation: supports
+      - id: major-crown-models
+        title:
+          page: en
+          section: s-4038b33815
+          part: title
+        text:
+          page: en
+          section: s-4038b33815
+          part: body
+        titleZh:
+          page: zh
+          section: s-04f84ebbf7
+          part: title
+        textZh:
+          page: zh
+          section: s-04f84ebbf7
+          part: body
+        age: 132.5
+        timeRange:
+          - 135
+          - 130
+        taxonIds:
+          - angiospermae
+          - monocotyledones
+          - eudicotyledones
+        view: tree
+        eventId: angiosperm-expansion
+        annotation: "The navigation tree is an educational subset: monocots and eudicots do not exhaust Angiospermae, and Magnoliopsida is not an exact eudicot catalogue root."
+        claimLinks:
+          - claimId: claim:event:angiosperm-expansion
+            relation: supports
+      - id: montsechia-habit
+        title:
+          page: en
+          section: s-8d74da5401
+          part: title
+        text:
+          page: en
+          section: s-8d74da5401
+          part: body
+        titleZh:
+          page: zh
+          section: s-0de7e38842
+          part: title
+        textZh:
+          page: zh
+          section: s-0de7e38842
+          part: body
+        age: 123.5
+        timeRange:
+          - 125.77
+          - 121.4
+        taxonIds:
+          - angiospermae
+        view: evidence
+        eventId: barremian-montsechia
+        annotation: A fossil habit, a phylogenetic placement and an ancestral ecological state are different claims.
+        claimLinks:
+          - claimId: claim:event:barremian-montsechia
+            relation: supports
+      - id: leefructus-body
+        title:
+          page: en
+          section: s-87f18c72f7
+          part: title
+        text:
+          page: en
+          section: s-87f18c72f7
+          part: body
+        titleZh:
+          page: zh
+          section: s-6cbdc873ef
+          part: title
+        textZh:
+          page: zh
+          section: s-6cbdc873ef
+          part: body
+        age: 124.2
+        timeRange:
+          - 125.8
+          - 122.6
+        taxonIds:
+          - eudicotyledones
+        view: evidence
+        eventId: yixian-leefructus
+        annotation: One locality cannot define the global origin, first appearance or diversity of eudicots.
+        claimLinks:
+          - claimId: claim:event:yixian-leefructus
+            relation: supports
+      - id: cratolirion-body
+        title:
+          page: en
+          section: s-82e42e9cfc
+          part: title
+        text:
+          page: en
+          section: s-82e42e9cfc
+          part: body
+        titleZh:
+          page: zh
+          section: s-495f838877
+          part: title
+        textZh:
+          page: zh
+          section: s-495f838877
+          part: body
+        age: 115
+        timeRange:
+          - 115
+          - 115
+        taxonIds:
+          - monocotyledones
+        view: evidence
+        eventId: crato-cratolirion
+        annotation: Whole-plant preservation strengthens character association, not claims beyond the analysed specimen and placement.
+        claimLinks:
+          - claimId: claim:event:crato-cratolirion
+            relation: supports
+      - id: phytolith-transition
+        title:
+          page: en
+          section: s-4e9a1a9c70
+          part: title
+        text:
+          page: en
+          section: s-4e9a1a9c70
+          part: body
+        titleZh:
+          page: zh
+          section: s-30d05e6b2d
+          part: title
+        textZh:
+          page: zh
+          section: s-30d05e6b2d
+          part: body
+        age: 6.75
+        timeRange:
+          - 8
+          - 5.5
+        taxonIds:
+          - poaceae
+        view: evidence
+        eventId: great-plains-c4-phytolith-transition
+        annotation: Regional assemblages and diagnostic limits prevent a synchronous global C4-grassland claim.
+        claimLinks:
+          - claimId: claim:event:great-plains-c4-phytolith-transition
+            relation: supports
+      - id: enamel-c4-biomass
+        title:
+          page: en
+          section: s-ceb619e6e6
+          part: title
+        text:
+          page: en
+          section: s-ceb619e6e6
+          part: body
+        titleZh:
+          page: zh
+          section: s-bd6de048b9
+          part: title
+        textZh:
+          page: zh
+          section: s-bd6de048b9
+          part: body
+        age: 7
+        timeRange:
+          - 8
+          - 6
+        taxonIds:
+          - poaceae
+        view: map
+        eventId: c4-grassland-expansion
+        annotation: Dietary isotope proxy, plant identity, vegetation cover and faunal adaptation must remain separate.
+        claimLinks:
+          - claimId: claim:event:c4-grassland-expansion
+            relation: supports
+    evidenceStatus: available-with-limitations

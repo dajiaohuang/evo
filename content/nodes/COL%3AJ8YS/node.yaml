@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus guitarraensis
+  displayName: Atelopus guitarraensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YS
+  sourceIndexes:
+    - name:
+        en: Atelopus guitarraensis
+        zh: Atelopus guitarraensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/265
+            queryName: Atelopus guitarraensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7328adf660
+      - s-7b334b52d7
+      - s-762456ad3a
+      - s-d0a8d3f0d9
+      - s-71489745a8
+      - s-31028da6f7
+      - s-bab4efc568
+      - s-6315df0c98
+      - s-01cf84baec
+    zh:
+      - s-f55c273217
+      - s-77b2807ad5
+      - s-910ae8dc4c
+      - s-2e7855ae27
+      - s-1e09754793
+      - s-3d5c2a3392
+      - s-6d91695834
+      - s-73f1f98caa
+      - s-9e15253818

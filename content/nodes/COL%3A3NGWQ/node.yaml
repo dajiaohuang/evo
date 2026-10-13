@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus cevallosi
+  displayName: Hyloxalus cevallosi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGWQ
+  sourceIndexes:
+    - name:
+        en: Hyloxalus cevallosi
+        zh: Hyloxalus cevallosi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGWQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/89
+            queryName: Hyloxalus cevallosi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/73
+            queryName: Colostethus cevallosi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e2988ee642
+      - s-3282377262
+      - s-8c174d8a21
+      - s-2ebb4906a4
+      - s-b6f9d4d31c
+      - s-29776e9880
+      - s-3f49b925bb
+      - s-dadb2741b4
+    zh:
+      - s-6a0c2f5b49
+      - s-76398f9efb
+      - s-eadfa5733f
+      - s-dca1fc6525
+      - s-585c245c3e
+      - s-b1479b15f1
+      - s-5440300b16
+      - s-2c4be82df2

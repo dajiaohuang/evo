@@ -1,0 +1,225 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Bufo valentinensis
+    rank: species
+    sourceTaxonId: txn:110635
+    name:
+      en: Bufo valentinensis
+      zh: Bufo valentinensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-1deee8fe3a
+            part: body
+          zh:
+            page: zh
+            section: s-49ac8e855e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-9068ae91df
+            part: body
+          zh:
+            page: zh
+            section: s-ab62133b2c
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-4772f584f4
+            part: body
+          zh:
+            page: zh
+            section: s-9590341526
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110635; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+    occurrenceEvidence:
+      - occurrenceId: occ:286992
+        collectionId: col:18284
+        acceptedTaxonId: txn:110635
+        identifiedName: Bufo valentinensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:7565
+        bibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:287341
+        collectionId: col:18442
+        acceptedTaxonId: txn:110635
+        taxonomicDifference: null
+        referenceId: ref:7565
+        bibliography: R. Estes and J. A. Tihen. 1964. Lower vertebrates from the Valentine Formation of Nebraska. American Midland Naturalist 72(2):453-472
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Cherry
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Crookston Bridge
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:288675
+        collectionId: col:18450
+        acceptedTaxonId: txn:110635
+        taxonomicDifference: null
+        referenceId: ref:7593
+        bibliography: "J. A. Holman. 1975. Herpetofauna of the WaKeeney local fauna (lower Pliocene: Clarendonian) of Trego County, Kansas. University of Michigan Papers on Paleontology 12:49-66"
+        locality:
+          countryCode: US
+          stateProvince: Kansas
+          county: Trego
+        stratigraphy:
+          group: null
+          formation: Ogallala
+          member: null
+        olderAgeMa: 12.5
+        youngerAgeMa: 9.4
+      - occurrenceId: occ:289376
+        collectionId: col:18141
+        acceptedTaxonId: txn:110635
+        taxonomicDifference: null
+        referenceId: ref:705
+        bibliography: J. A. Holman. 1973. Reptiles of the Egelhoff local fauna (Upper Miocene) of Nebraska. Contributions from the Museum of Paleontology, University of Michigan 24(12):125-134
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Brown
+        stratigraphy:
+          group: Ogallala
+          formation: Valentine
+          member: Cornell Dam
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:1108025
+        collectionId: col:18759
+        acceptedTaxonId: txn:110635
+        taxonomicDifference: null
+        referenceId: ref:15074
+        bibliography: J. A. Holman. 1970. Herpetofauna of the Wood Mountain Formation (Upper Miocene) of Saskatchewan. Canadian Journal of Earth Sciences 7:1317-1325
+        locality:
+          countryCode: CA
+          stateProvince: Saskatchewan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Wood Mountain
+          member: null
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:1108130
+        collectionId: col:18208
+        acceptedTaxonId: txn:110635
+        taxonomicDifference: null
+        referenceId: ref:781
+        bibliography: "M. R. Voorhies, J. A. Holman, and X.-X. Xu . 1987. The Hottell Ranch rhino quarries (basal Ogallala: medial Barstovian), Banner County, Nebraska. Part I: Geologic setting, faunal lists, lower vertebrates. Contributions to Geology, University of Wyoming 25(1):55-69"
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Banner
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:1379365
+        collectionId: col:188779
+        acceptedTaxonId: txn:110635
+        taxonomicDifference: null
+        referenceId: ref:63362
+        bibliography: S. T. Tucker, R. E. Otto, and R. M. Joeckel, M. R. Voorhies. 2014. The geology and paleontology of Ashfall Fossil Beds, a late Miocene (Clarendonian) mass-death assemblage, Antelope County and adjacent Knox County, Nebraska, USA. Geological Society of America Field Guide 36:1-22
+        locality:
+          countryCode: US
+          stateProvince: Nebraska
+          county: Antelope
+        stratigraphy:
+          group: null
+          formation: Ash Hollow
+          member: Cap Rock
+        olderAgeMa: 12.5
+        youngerAgeMa: 9.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-4772f584f4
+            part: body
+          zh:
+            page: zh
+            section: s-9590341526
+            part: body
+        sourceIds: []

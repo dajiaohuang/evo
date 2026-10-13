@@ -133,29 +133,42 @@ describe('Chinese catalog coverage', () => {
   })
 
   it('covers every dynamic narrative rendered through the translator', () => {
+    for (const story of stories) {
+      for (const field of ['overviewZh', 'summaryZh'] as const) {
+        if (field in story) expect(story[field as keyof typeof story], `${story.id}/${field}`).toMatch(/\p{Script=Han}/u)
+      }
+    }
     expect(Object.keys(claimRationalesZh).sort()).toEqual(claims.map((claim) => claim.id).sort())
     const translatedClaimStatements = new Set(Object.keys(claimStatementsZh))
     const knownClaimStatements = new Set(claims.map((claim) => claim.statement))
-    expect(claims.every((claim) => translatedClaimStatements.has(claim.statement) || hasChineseTranslation(claim.statement))).toBe(true)
+    const untranslatedClaims = claims.filter((claim) => !translatedClaimStatements.has(claim.statement) && !hasChineseTranslation(claim.statement)).map((claim) => ({ id: claim.id, statement: claim.statement }))
+    expect(untranslatedClaims, JSON.stringify(untranslatedClaims)).toEqual([])
     expect([...translatedClaimStatements].every((statement) => knownClaimStatements.has(statement))).toBe(true)
     const dynamicCopy = [
       ...profiles.flatMap((profile) => [
         ...(localizedProfileText(profile, profile.overview, 'zh', (text) => text) === profile.overview ? [profile.overview] : []),
         ...profile.geography,
-        ...Object.values(profile.ecology),
-        ...profile.traits,
+        ...['diet', 'habitat', 'locomotion', 'bodySize', 'guild'].flatMap((field) => {
+          const text = profile.ecology[field as keyof typeof profile.ecology]
+          return typeof text === 'string' && localizedProfileText(profile, text, 'zh', (copy) => copy) === text ? [text] : []
+        }),
+        ...profile.traits.filter(text => localizedProfileText(profile, text, 'zh', (copy) => copy) === text),
         ...(localizedProfileText(profile, profile.evidenceSummary, 'zh', (text) => text) === profile.evidenceSummary ? [profile.evidenceSummary] : []),
       ]),
       ...events.flatMap((event) => [
-        event.summary,
+        ...('summaryZh' in event && event.summaryZh ? [] : [event.summary]),
         ...event.regions,
         ...event.clades,
         ...event.evidenceItems.map((item) => item.statement),
         ...event.uncertaintyItems.map((item) => item.statement),
       ]),
       ...stories.flatMap((story) => [
-        story.dek,
-        ...story.steps.flatMap((step) => [step.title, step.text, step.annotation, step.view].filter(Boolean)),
+        ...('dekZh' in story && story.dekZh ? [] : [story.dek]),
+        ...story.steps.flatMap((step) => [
+          ...('titleZh' in step && step.titleZh ? [] : [step.title]),
+          ...('textZh' in step && step.textZh ? [] : [step.text]),
+          'annotation' in step ? step.annotation : undefined, step.view,
+        ].filter(Boolean)),
       ]),
       ...claims.filter((claim) => !Object.hasOwn(claimStatementsZh, claim.statement)).map((claim) => claim.statement),
       ...media.flatMap((asset) => [asset.title, asset.type.replace('-', ' '), asset.licenseNote]),
@@ -177,6 +190,6 @@ describe('Chinese catalog coverage', () => {
     ].filter((copy): copy is string => typeof copy === 'string' && copy.length > 0)
 
     const missing = [...new Set(dynamicCopy.filter((copy) => !hasChineseTranslation(copy)))]
-    expect(missing).toEqual([])
+    expect(missing, JSON.stringify(missing)).toEqual([])
   })
 })

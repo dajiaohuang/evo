@@ -1,0 +1,330 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Quilticohyla Faivovich, Pereyra, Luna, Hertz, Blotto, Vásquez-Almazán, McCranie, Sánchez, Baêta et al., 2018
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Quilticohyla
+      zh: Quilticohyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f00a42005c
+            part: title
+          zh:
+            page: zh
+            section: s-8054d8ff0e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f00a42005c
+            part: body
+          zh:
+            page: zh
+            section: s-8054d8ff0e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-24f0bdf45a
+            part: title
+          zh:
+            page: zh
+            section: s-5cf8166aba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-24f0bdf45a
+            part: body
+          zh:
+            page: zh
+            section: s-5cf8166aba
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4c47264c91
+            part: title
+          zh:
+            page: zh
+            section: s-1af5986c20
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4R6SX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4R6SX
+            label:
+              en: Quilticohyla acrochorda
+              zh: Quilticohyla acrochorda
+          - kind: catalogue
+            colId: 4R6SY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4R6SY
+            label:
+              en: Quilticohyla erythromma
+              zh: Quilticohyla erythromma
+          - kind: catalogue
+            colId: 4R6SZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4R6SZ
+            label:
+              en: Quilticohyla sanctaecrucis
+              zh: Quilticohyla sanctaecrucis
+          - kind: catalogue
+            colId: 4R6T2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4R6T2
+            label:
+              en: Quilticohyla zoque
+              zh: Quilticohyla zoque
+        text:
+          en:
+            page: en
+            section: s-4c47264c91
+            part: body
+          zh:
+            page: zh
+            section: s-1af5986c20
+            part: body
+      - topic: occurrence
+        sourceIds:
+          - primary-direct-group-pmc8050035-76k3
+        title:
+          en:
+            page: en
+            section: s-266b430d9d
+            part: title
+          zh:
+            page: zh
+            section: s-46085f568c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-266b430d9d
+            part: body
+          zh:
+            page: zh
+            section: s-46085f568c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc8050035-76k3
+        title:
+          en:
+            page: en
+            section: s-8cdf0f91c7
+            part: title
+          zh:
+            page: zh
+            section: s-e70d4beb93
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8cdf0f91c7
+            part: body
+          zh:
+            page: zh
+            section: s-e70d4beb93
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc8050035-76k3
+        title:
+          en:
+            page: en
+            section: s-753c651365
+            part: title
+          zh:
+            page: zh
+            section: s-8fab6fa003
+            part: title
+        text:
+          en:
+            page: en
+            section: s-753c651365
+            part: body
+          zh:
+            page: zh
+            section: s-8fab6fa003
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc8050035-76k3
+        title:
+          en:
+            page: en
+            section: s-e87640d6a0
+            part: title
+          zh:
+            page: zh
+            section: s-4082765d71
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4R6SX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4R6SX
+            label:
+              en: Quilticohyla acrochorda
+              zh: Quilticohyla acrochorda
+        text:
+          en:
+            page: en
+            section: s-e87640d6a0
+            part: body
+          zh:
+            page: zh
+            section: s-4082765d71
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Quilticohyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/76K3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-direct-group-pmc8050035-76k3
+        referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Quilticohyla acrochorda: Study-area, fieldwork, laboratory, results and amphibian treatment paragraphs; Discussion paragraphs and all main Table1 cells and four figure captions read. Figure pixels, deposited photographs, linked ODbL dataset and original historic collection records not independently reviewed; article license CC BY4.0 verified separately from supplement ODbL.; no figures or deposited datasets reproduced"
+          scope:
+            en: The 2018–2019 Santa Cruz Tepetotutla survey published in2021
+            zh: 2021年发表的2018–2019年Santa Cruz Tepetotutla调查
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5920532c4f
+        part: body
+      zh:
+        page: zh
+        section: s-03345cf63d
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1029.62205
+        referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+        sourceKey: primary-direct-group-pmc8050035-76k3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8050035/article.xml
+        sourceConcept: Selected exact named species in a 2021 local checklist; not a whole-genus revision or a current conservation assessment
+        evidenceRead: "Quilticohyla acrochorda: Study-area, fieldwork, laboratory, results and amphibian treatment paragraphs; Discussion paragraphs and all main Table1 cells and four figure captions read. Figure pixels, deposited photographs, linked ODbL dataset and original historic collection records not independently reviewed; article license CC BY4.0 verified separately from supplement ODbL.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Named records in a community-conserved cloud forest
+              zh: 社区保育云雾林中的具名记录
+            referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+            sourceKey: primary-direct-group-pmc8050035-76k3
+            locator: PMC8050035 article.xml SECID0ETGACp1;SECID0ESKACp1–3;SECID0E3KACp3;T1 named amphibian rows;oaxaca-community-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a2f625fc34
+                part: body
+              zh:
+                page: zh
+                section: s-02514948b1
+                part: body
+            scope:
+              en: The 2018–2019 Santa Cruz Tepetotutla survey published in2021
+              zh: 2021年发表的2018–2019年Santa Cruz Tepetotutla调查
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Conservation evidence has temporal and sampling limits
+              zh: 保护证据有时间及采样边界
+            referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+            sourceKey: primary-direct-group-pmc8050035-76k3
+            locator: PMC8050035 article.xml SECID0ETGACp1;SECID0EYMACp1–3;SECID0E22BGp1,6–7;F2caption;Supplementary material1 license;oaxaca-community-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fd38840ce7
+                part: body
+              zh:
+                page: zh
+                section: s-014b55e225
+                part: body
+            scope:
+              en: The 2018–2019 Santa Cruz Tepetotutla survey published in2021
+              zh: 2021年发表的2018–2019年Santa Cruz Tepetotutla调查
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: A calling male above a stream
+              zh: 溪旁鸣叫雄蛙
+            referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+            sourceKey: primary-direct-group-pmc8050035-76k3
+            locator: PMC8050035 article.xml SECID0EMJBGp7;T1 Quilticohyla row;oaxaca-community-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d3d2d250a9
+                part: body
+              zh:
+                page: zh
+                section: s-5dd15f703e
+                part: body
+            scope:
+              en: The 2018–2019 Santa Cruz Tepetotutla survey published in2021
+              zh: 2021年发表的2018–2019年Santa Cruz Tepetotutla调查
+    primaryResearchGroupSynthesisComplete: false

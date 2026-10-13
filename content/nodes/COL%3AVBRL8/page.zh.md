@@ -1,0 +1,39 @@
+## 从已有历史条目开始 {#s-7e9965e3fe}
+Odocoileini 的本地 PanTHERIA 路径有 10 条可用记录。可从 Blastocerus dichotomus、Hippocamelus antisensis、Hippocamelus bisulcus、Mazama chunyi 或 Mazama rufina 开始。各页保留原始 MSW05 名称、各字段对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
+
+## 比较体型与生活史 {#s-26ed1d5b09}
+可用成年体重端点为 Pudu puda 的 9642.62 g 和 Blastocerus dichotomus 的 112518.53 g。这些是按性别调整后的历史中位数，不是个体极值。比较胎儿发育、断奶、活动或群体指标前，应先读清字段定义；体型差异本身不能证明后代共享相同生活方式。
+
+## 按生活史字段选择对读页面 {#s-c886ae17e6}
+本批 Odocoileini 有 14 条历史生活史记录。成年体重和每胎后代数或每窝卵数各见于 14 条；受孕或受精至出生的时长和汇编中最长寿命记录各见于 13 条。可从 Blastocerus dichotomus、Hippocamelus antisensis、Hippocamelus bisulcus、Mazama americana 或 Mazama chunyi 开始。数量描述本批覆盖，不代表所有接受种；比较前应核对事件、单位和来源。
+
+## 沿食物、取食位置和活动时段对读 {#s-34c2fc96be}
+本批的主要生态路径有 13 条历史记录。食物类别权重、觅食层位和哺乳动物活动时段各有 13 条可用记录；可从 Blastocerus dichotomus、Hippocamelus bisulcus、Hippocamelus antisensis、Mazama rufina 或 Mazama americana 开始。比较前应核对来源、粗略权重及类别或二元编码。数量描述本批，不代表整个群体共享相同生态。
+
+## 沿食物、取食位置和活动时段对读 {#s-f3f2bb857b}
+另一条生态路径有 2 条历史记录：Mazama bororo 和 Mazama temama。食物类别权重和哺乳动物活动时段在 0 条记录中可用，觅食层位见于 2 条。比较前应核对来源、粗略权重和类别代码。这些数量描述本批，不代表所有接受种或群体共享的生态。
+
+## 证据边界 {#s-c704c078b8}
+本指南只涵盖本批至少有三个焦点字段、名称与科相符且具有一对一历史对应的条目，并未覆盖所有接受种。端点是历史汇总值，不是群体个体极值；来源条件可能不同。这些记录不能确定当前物种概念、分布或保护状况。
+
+生活史路径涵盖本批名称与科相符、且至少有三个来源支持焦点字段的历史条目；它不是完整后代目录。汇编中位数、最长寿命记录和历史分类继承各有局限。群级路径不表明所有后代共享同一种繁殖方式或生活史。完整生物学资料和当前状况仍待补充。
+
+一条生态路径仅包括名称和科相符、且至少有两个可用生态字段组的唯一历史条目。它不是完整后代目录，也不会把后代食物类型、估算权重或活动模式转成群体性状。半定量换算、历史分类以及 ABC 字段可能借用同属资料等局限仍需逐页看待。完整物种专论仍待完成。
+
+另一条生态路径仅包括名称和科相符、且恰有一个可用生态字段组的唯一历史条目。它同样不是完整后代目录，也不会把后代食物、估算权重或活动模式转成群体性状。半定量换算、历史分类及 ABC 字段可能借用同属资料等局限仍需按记录看待；完整物种专论仍待完成。
+
+## 从已有历史条目开始 {#s-78e23608b9}
+本地 PanTHERIA 路径有一条可用记录：[Pudu mephistophiles](Pudu/Pudu_mephistophiles/page.zh.md)。该页保留原始 MSW05 名称、各字段对应的材料条件和缺失项。分类导航沿用固定 COL26.8；历史表格行数不是当前接受种分母。
+
+## 这组历史数据的边界 {#s-f87acd4636}
+本指南只涵盖本批至少有一个焦点字段、名称与科相符且具有一对一历史对应的条目，并未覆盖所有接受种。数值汇总自历史条目，不代表个体极值；来源条件可能不同。这些记录不能确定当前物种概念、分布或保护状况。
+
+## 沿生活史资料阅读 {#s-c8f60d9ebd}
+本批 Odocoileini 有 10 条历史生活史记录。可阅读 [Blastocerus dichotomus](Blastocerus/Blastocerus_dichotomus/page.zh.md)、[Hippocamelus bisulcus](Hippocamelus/Hippocamelus_bisulcus/page.zh.md)、[Hippocamelus antisensis](Hippocamelus/Hippocamelus_antisensis/page.zh.md)、[Mazama rufina](Mazama/Mazama_rufina/page.zh.md) 或 [Odocoileus hemionus](Odocoileus/Odocoileus_hemionus/page.zh.md)。分类导航沿用固定 COL26.8。此数量涵盖本批撰写的同名条目，不代表该群全部接受种。
+
+## 先区分平均值与纪录 {#s-bb3efc42e8}
+妊娠期见于 9 条记录，雌性首次繁殖年龄见于 5 条，最长寿命见于 5 条。首次繁殖不同于首次出生和性成熟；最长寿命也不同于平均寿命。字段可能来自不同材料条件。缺失的物种字段需查阅其他来源，名称相同不能解决历史分类变更。
+
+## 这组历史数据的边界 {#s-699aacbbb1}
+本页概述本批撰写的历史生活史记录，不涵盖所有接受种或完整群体生物学。物种条目按名称、科相符及 MSW93/MSW05 一对一同名表匹配；是否等同于当前物种概念仍未证明。除最长寿命外，各字段通常对文献来源等权取平均。输入可能是已发表均值、个体值，或缺少其他资料时采用的范围中点；样本量不决定权重，底层文献也可能重复使用。最长寿命只是最长记录，不是典型寿命。本批未解释成年体重，亲缘种不会填补缺失字段。物种页保留原始参考编号；底层文献及所有野外、圈养和地点条件未逐一核实。
+

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ophryophryne pachyproctus
+  displayName: Ophryophryne pachyproctus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74QZZ
+  sourceIndexes:
+    - name:
+        en: Ophryophryne pachyproctus
+        zh: Ophryophryne pachyproctus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74QZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/182
+            queryName: Ophryophryne pachyproctus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/2
+            queryName: Megophrys koui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6490051e0c
+      - s-1e5b71223c
+      - s-a4c16216d8
+      - s-d7b910edde
+      - s-5d986e3da1
+      - s-5d5d6a889c
+      - s-efc71b0177
+      - s-5b2ba27673
+    zh:
+      - s-60e5d908ab
+      - s-d33e426af5
+      - s-87d70ac211
+      - s-f1dcf4967b
+      - s-3d9846781a
+      - s-3b1093c4aa
+      - s-5f27a2d0d4
+      - s-313c85a033

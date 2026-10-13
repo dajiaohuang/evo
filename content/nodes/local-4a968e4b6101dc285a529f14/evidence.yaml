@@ -1,0 +1,1599 @@
+schemaVersion: 1
+records:
+  amphitherm-source-reader:
+    scientificName: Plethodon jordani
+    name:
+      en: Plethodon jordani
+      zh: Plethodon jordani
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited thermal-physiology concept
+          zh: 存档的热生理来源概念
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-b5ef7a47ca
+            part: body
+          zh:
+            page: zh
+            section: s-d86ab339d7
+            part: body
+      - topic: ecology
+        title:
+          en: Selected critical upper thermal limit estimate
+          zh: 选列的临界高温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "2599"
+        text:
+          en:
+            page: en
+            section: s-110507021e
+            part: body
+          zh:
+            page: zh
+            section: s-5b7edd97a7
+            part: body
+        sourceRowNumber: 2372
+      - topic: ecology
+        title:
+          en: Selected critical lower thermal limit estimate
+          zh: 选列的临界低温限估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "3076"
+        text:
+          en:
+            page: en
+            section: s-acfcf55b39
+            part: body
+          zh:
+            page: zh
+            section: s-1790cd0e1b
+            part: body
+        sourceRowNumber: 2786
+      - topic: ecology
+        title:
+          en: Selected thermal preference estimate
+          zh: 选列的温度偏好估计
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: deposited-thermal-estimate
+        sourceRowId: "4502"
+        text:
+          en:
+            page: en
+            section: s-6a35a886d0
+            part: body
+          zh:
+            page: zh
+            section: s-6a15105568
+            part: body
+        sourceRowNumber: 4075
+    sources:
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 2372, 2373, 2374, 2375, 2376, 2786, 2787, 2788, 2789, 2790, 4041, 4042, 4043, 4044, 4075, 4283; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      authority: Jetz and Pyron (2018), as recorded by deposited metadata
+    originalColumns:
+      - unique_ID
+      - name
+      - ref
+      - title
+      - pub_year
+      - thesis_chapter
+      - chapter_title
+      - peer_reviewed
+      - doi
+      - language
+      - population_ID
+      - cohort_ID
+      - notes_ID
+      - order
+      - family
+      - species
+      - strain
+      - IUCN_status
+      - origin
+      - n_generations_lab
+      - latitude
+      - longitude
+      - elevation
+      - date_sampling
+      - month_sampling
+      - year_sampling
+      - start_range_sampling_dates
+      - end_range_sampling_dates
+      - notes_sampling
+      - ambient_temp
+      - substrate_temp
+      - water_temp
+      - field_body_temp
+      - notes_env_temp
+      - acclimated
+      - incubation_temp
+      - sd_incubation_temp
+      - life_stage_acclimated
+      - gosner_acclimated
+      - acclimation_temp
+      - sd_acclimation_temp
+      - acclimation_time
+      - notes_acclimation
+      - life_stage_tested
+      - gosner_tested
+      - SVL
+      - body_mass
+      - age_tested
+      - sex
+      - metric
+      - endpoint
+      - medium_test_temp
+      - start_temp
+      - ramping
+      - set_time
+      - n_test_temp
+      - n_replicates_per_temp
+      - n_animals_per_replicate
+      - duration_measurement
+      - rate_measurement
+      - gradient_type
+      - gradient_low_temp
+      - gradient_high_temp
+      - notes_test
+      - humidity
+      - oxygen
+      - salinity
+      - pH
+      - photoperiod
+      - chemical
+      - hormone
+      - concentration_chemical_hormone
+      - unit_chemical_hormone
+      - infected
+      - pathogen
+      - notes_supplements
+      - data_source
+      - data_url
+      - flag
+      - mean_trait
+      - error_trait
+      - n_trait
+      - error_type
+      - notes_trait
+    originalRows:
+      - rowNumber: 2372
+        values:
+          - "2599"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop1
+          - Plethodon_jordani_pop1_UTL_co1
+          - Population from Cherokee County, North Carolina
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - teyahalee
+          - NT
+          - wild
+          - NA
+          - "35.11348"
+          - "-84.059029"
+          - "516"
+          - NA
+          - June
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "35.07517084"
+          - NA
+          - "4"
+          - NA
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2373
+        values:
+          - "2600"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop3
+          - Plethodon_jordani_pop3_UTL_co1
+          - Population from Macon County, North Carolina
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - shermani
+          - NT
+          - wild
+          - NA
+          - "35.119752"
+          - "-83.336188"
+          - "800"
+          - NA
+          - June
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "35.14350797"
+          - "0.505694761"
+          - "15"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2374
+        values:
+          - "2601"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop3
+          - Plethodon_jordani_pop3_UTL_co2
+          - Population from Macon County, North Carolina
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - melaventris
+          - NT
+          - wild
+          - NA
+          - "35.119752"
+          - "-83.336188"
+          - "800"
+          - NA
+          - June
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "34.95216401"
+          - "0.328018223"
+          - "10"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2375
+        values:
+          - "2602"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop4
+          - Plethodon_jordani_pop4_UTL_co1
+          - Population from Transylvania County, North Carolina
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - metcalfi
+          - NT
+          - wild
+          - NA
+          - "35.219053"
+          - "-82.777858"
+          - "801"
+          - NA
+          - June
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "34.85649203"
+          - "0.177676538"
+          - "10"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2376
+        values:
+          - "2603"
+          - Patrice Pottier
+          - Hutchison_1961
+          - Critical Thermal Maxima in Salamanders
+          - "1961"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop6
+          - Plethodon_jordani_pop6_UTL_co1
+          - Population from Sevier County, Tennessee
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - jordani
+          - NT
+          - wild
+          - NA
+          - "35.827168"
+          - "-83.50702"
+          - "358"
+          - NA
+          - August
+          - "1958"
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "20"
+          - "0.2"
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - mixed
+          - CTmax
+          - OS
+          - water
+          - "20"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 18
+          - NA
+          - NA
+          - "35.17084282"
+          - "0.492027335"
+          - "10"
+          - sd
+          - Data was digitised from figure because SD was not reported in Rohr et al. 2018.
+      - rowNumber: 2786
+        values:
+          - "3076"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1987
+          - Time courses of thermal acclimation for critical thermal minima in the salamanders Desmognathus quadramaculatus, Desmognathus monticola, Desmognathus ochrophaeus, and Plethodon jordani
+          - "1987"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop2
+          - Plethodon_jordani_pop2_LTL_co1
+          - It was unclear whether the same animals were measured at different time points
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "35.08506755"
+          - "-83.74371212"
+          - "598"
+          - NA
+          - NA
+          - NA
+          - July_1982
+          - October_1982
+          - Collected in Summer or Fall. Coordinates were estimated fro Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - NA
+          - "14"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was taken as the mean of the range presented
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "-2.026607539"
+          - "0.22616408"
+          - "3"
+          - sd
+          - NA
+      - rowNumber: 2787
+        values:
+          - "3077"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1987
+          - Time courses of thermal acclimation for critical thermal minima in the salamanders Desmognathus quadramaculatus, Desmognathus monticola, Desmognathus ochrophaeus, and Plethodon jordani
+          - "1987"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop2
+          - Plethodon_jordani_pop2_LTL_co2
+          - It was unclear whether the same animals were measured at different time points
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "35.08506755"
+          - "-83.74371212"
+          - "598"
+          - NA
+          - NA
+          - NA
+          - July_1982
+          - October_1982
+          - Collected in Summer or Fall. Coordinates were estimated fro Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "1"
+          - Acclimated 2 weeks at 5 C prior to the 25 C acclimation
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was taken as the mean of the range presented
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.873614191"
+          - "0.22616408"
+          - "6"
+          - sd
+          - NA
+      - rowNumber: 2788
+        values:
+          - "3078"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1987
+          - Time courses of thermal acclimation for critical thermal minima in the salamanders Desmognathus quadramaculatus, Desmognathus monticola, Desmognathus ochrophaeus, and Plethodon jordani
+          - "1987"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop2
+          - Plethodon_jordani_pop2_LTL_co3
+          - It was unclear whether the same animals were measured at different time points
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "35.08506755"
+          - "-83.74371212"
+          - "598"
+          - NA
+          - NA
+          - NA
+          - July_1982
+          - October_1982
+          - Collected in Summer or Fall. Coordinates were estimated fro Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "2"
+          - Acclimated 2 weeks at 5 C prior to the 25 C acclimation
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was taken as the mean of the range presented
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "0.993348115"
+          - "0.505543237"
+          - "6"
+          - sd
+          - NA
+      - rowNumber: 2789
+        values:
+          - "3079"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1987
+          - Time courses of thermal acclimation for critical thermal minima in the salamanders Desmognathus quadramaculatus, Desmognathus monticola, Desmognathus ochrophaeus, and Plethodon jordani
+          - "1987"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop2
+          - Plethodon_jordani_pop2_LTL_co4
+          - It was unclear whether the same animals were measured at different time points
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "35.08506755"
+          - "-83.74371212"
+          - "598"
+          - NA
+          - NA
+          - NA
+          - July_1982
+          - October_1982
+          - Collected in Summer or Fall. Coordinates were estimated fro Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "3"
+          - Acclimated 2 weeks at 5 C prior to the 25 C acclimation
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was taken as the mean of the range presented
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.299334812"
+          - "0.798226164"
+          - "6"
+          - sd
+          - NA
+      - rowNumber: 2790
+        values:
+          - "3080"
+          - Natalie_Claunch
+          - Layne_and_Claussen_1987
+          - Time courses of thermal acclimation for critical thermal minima in the salamanders Desmognathus quadramaculatus, Desmognathus monticola, Desmognathus ochrophaeus, and Plethodon jordani
+          - "1987"
+          - NA
+          - NA
+          - peer-reviewed
+          - NA
+          - English
+          - Plethodon_jordani_pop2
+          - Plethodon_jordani_pop2_LTL_co5
+          - It was unclear whether the same animals were measured at different time points
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "35.08506755"
+          - "-83.74371212"
+          - "598"
+          - NA
+          - NA
+          - NA
+          - July_1982
+          - October_1982
+          - Collected in Summer or Fall. Coordinates were estimated fro Google Maps.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - NA
+          - "5"
+          - Acclimated 2 weeks at 5 C prior to the 25 C acclimation
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmin
+          - LRR
+          - water
+          - NA
+          - "0.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Ramping rate was taken as the mean of the range presented
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "1.831485588"
+          - "0.399113082"
+          - "6"
+          - sd
+          - NA
+      - rowNumber: 4041
+        values:
+          - "4468"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Plethodon_jordani_pop5
+          - Plethodon_jordani_pop5_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "35.61136364"
+          - "-83.43862195"
+          - "1629"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - Animals were collected in March to October 1968 and 1969. Geographical coordinates were estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 3
+          - NA
+          - NA
+          - "33.80769231"
+          - "0.615384615"
+          - "10"
+          - sd
+          - Data was dititised from figure 3.
+      - rowNumber: 4042
+        values:
+          - "4469"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Plethodon_jordani_pop7
+          - Plethodon_jordani_pop7_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "36.08337403"
+          - "-81.8514753"
+          - "1298"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - Animals were collected in March to October 1968 and 1969. Geographical coordinates were estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "5"
+          - "1"
+          - "7"
+          - Mixed photoperiods were used
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "32.99387443"
+          - "0.854517611"
+          - "24"
+          - sd
+          - Data was dititised from figure 1.
+      - rowNumber: 4043
+        values:
+          - "4470"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Plethodon_jordani_pop7
+          - Plethodon_jordani_pop7_UTL_co2
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "36.08337403"
+          - "-81.8514753"
+          - "1298"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - Animals were collected in March to October 1968 and 1969. Geographical coordinates were estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - Mixed photoperiods were used
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "34.28943338"
+          - "0.71669219"
+          - "19"
+          - sd
+          - Data was dititised from figure 1.
+      - rowNumber: 4044
+        values:
+          - "4471"
+          - Patrice Pottier
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Plethodon_jordani_pop7
+          - Plethodon_jordani_pop7_UTL_co3
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "36.08337403"
+          - "-81.8514753"
+          - "1298"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - Animals were collected in March to October 1968 and 1969. Geographical coordinates were estimated using Google Maps
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "25"
+          - "1"
+          - "7"
+          - Mixed photoperiods were used
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Fig 1
+          - NA
+          - NA
+          - "35.87901991"
+          - "0.624808576"
+          - "23"
+          - sd
+          - Data was dititised from figure 1.
+      - rowNumber: 4075
+        values:
+          - "4502"
+          - Natalie_Claunch
+          - Spotila_1972
+          - Role of temperature and water in the ecology of lungless salamanders
+          - "1972"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.2307/1942232
+          - English
+          - Plethodon_jordani_pop5
+          - Plethodon_jordani_pop5_PBT_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "35.61064221"
+          - "-83.43875223"
+          - "1644"
+          - NA
+          - NA
+          - NA
+          - March_1968
+          - October_1969
+          - March to October 1968 and 1969 Indian Gap, great smoky mountains national park, sevier county, tennessee
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - "1"
+          - "7"
+          - NA
+          - adults
+          - NA
+          - NA
+          - NA
+          - NA
+          - unknown
+          - Tpref
+          - NA
+          - substrate
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - "0.5"
+          - linear
+          - "-2"
+          - "53.2"
+          - A single measurement was collected after a 2h measurement period, so the rate_measurement was taken as 0.5
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - figure
+          - NA
+          - NA
+          - "20.51351351"
+          - "2.486486486"
+          - "21"
+          - sd
+          - NA
+      - rowNumber: 4283
+        values:
+          - "4756"
+          - Patrice Pottier
+          - Yu_et_al_1998
+          - Heat shock response in the salamanders Plethodon jordani and Plethodon cinereus
+          - "1998"
+          - NA
+          - NA
+          - peer-reviewed
+          - https://doi.org/10.1016/S0306-4565(98)00011-4
+          - English
+          - Plethodon_jordani_pop8
+          - Plethodon_jordani_pop8_UTL_co1
+          - NA
+          - Caudata
+          - Plethodontidae
+          - Plethodon jordani
+          - NA
+          - NT
+          - wild
+          - NA
+          - "36.090029"
+          - "-81.835612"
+          - "1299"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - Coordinates were taken from Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - acclimated
+          - NA
+          - NA
+          - adults
+          - NA
+          - "15"
+          - NA
+          - "30"
+          - NA
+          - adults
+          - NA
+          - "78"
+          - NA
+          - NA
+          - unknown
+          - CTmax
+          - OS
+          - water
+          - "15"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - SVL was reported as in Rohr et al. 2018.
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - main text
+          - NA
+          - NA
+          - "34.1"
+          - NA
+          - "11"
+          - NA
+          - Data was taken from the main text (results section).
+    originalStudyCitations:
+      - ref: Hutchison_1961
+        title: Critical Thermal Maxima in Salamanders
+        doi: NA
+        year: "1961"
+      - ref: Layne_and_Claussen_1987
+        title: Time courses of thermal acclimation for critical thermal minima in the salamanders Desmognathus quadramaculatus, Desmognathus monticola, Desmognathus ochrophaeus, and Plethodon jordani
+        doi: NA
+        year: "1987"
+      - ref: Spotila_1972
+        title: Role of temperature and water in the ecology of lungless salamanders
+        doi: https://doi.org/10.2307/1942232
+        year: "1972"
+      - ref: Yu_et_al_1998
+        title: Heat shock response in the salamanders Plethodon jordani and Plethodon cinereus
+        doi: https://doi.org/10.1016/S0306-4565(98)00011-4
+        year: "1998"
+    selectedEstimateRowNumbers:
+      - 2372
+      - 2786
+      - 4075
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6VQ7W
+    limitations:
+      en: Partial source-compilation reader. Critical, lethal and preferred-temperature metrics, experimental media, acclimation conditions and life stages are distinct. Study reanalysis, current identity and remaining scientific facets are incomplete;.
+      zh: 部分来源汇编读本。临界、致死与偏好温度指标、实验介质、温度适应条件及发育阶段分别处理。研究重新分析、当前身份与其余科学主题尚未完成。

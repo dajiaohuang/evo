@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Diasporus vocator
+  displayName: Diasporus vocator
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CQVF
+  sourceIndexes:
+    - name:
+        en: Diasporus vocator
+        zh: Diasporus vocator
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CQVF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/10
+            queryName: Diasporus vocator
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/220
+            queryName: Eleutherodactylus vocator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/51
+            queryName: Pristimantis vocator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8eb1d6a47b
+      - s-b5fb73caba
+      - s-8c1dd2a029
+      - s-a978392d19
+      - s-071d535247
+      - s-bc1c811517
+      - s-3124f6a768
+      - s-6302432e0c
+      - s-11a7145637
+      - s-a4741c7e98
+      - s-1de47c98f5
+      - s-258c3d78ba
+      - s-5cd32ca6bb
+      - s-fa67db489b
+      - s-d1e5cf97e0
+    zh:
+      - s-7c008c0a9a
+      - s-818870c151
+      - s-0e53abd94f
+      - s-ba8380c2dd
+      - s-1658d23e72
+      - s-629a61a18d
+      - s-757d428d0b
+      - s-26edd4c5e3
+      - s-db2cce6525
+      - s-9d2ce7bac8
+      - s-354d5dd2d6
+      - s-91268ada91
+      - s-89ab05bbc0
+      - s-51de2b3d4b
+      - s-c42b61dea8

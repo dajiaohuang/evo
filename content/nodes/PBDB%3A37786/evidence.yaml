@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Champsosaurus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Champsosaurus
+      en: Champsosaurus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherReptiliaTaxonomy20261002
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-702c1ff05e
+            part: body
+          en:
+            page: en
+            section: s-ce26c59a16
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbOtherReptiliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b887566fb1
+            part: body
+          en:
+            page: en
+            section: s-4a9655fb85
+            part: body
+    sources:
+      - id: pbdbOtherReptiliaTaxonomy20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Champsosaurus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=37786
+          locator: Recorded PBDB parent closure beneath the already documented Reptilia COL-compatible storage anchor.
+      - id: pbdbOtherReptiliaOccurrences20261002
+        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:37786
+          readingTargets:
+            - name: Champsosaurus gigas
+              pbdbTaxonId: txn:67578
+              canonicalPath: content/nodes/PBDB%3A67578
+            - name: Champsosaurus natator
+              pbdbTaxonId: txn:67587
+              canonicalPath: content/nodes/PBDB%3A67587
+            - name: Champsosaurus tenuis
+              pbdbTaxonId: txn:67579
+              canonicalPath: content/nodes/PBDB%3A67579
+            - name: Champsosaurus laramiensis
+              pbdbTaxonId: txn:67589
+              canonicalPath: content/nodes/PBDB%3A67589
+            - name: Champsosaurus ambulator
+              pbdbTaxonId: txn:116715
+              canonicalPath: content/nodes/PBDB%3A116715
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b14de3d110
+        part: body
+      en:
+        page: en
+        section: s-621b70ceea
+        part: body

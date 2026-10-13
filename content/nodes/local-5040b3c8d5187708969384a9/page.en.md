@@ -1,0 +1,9 @@
+## The dataset entry {#s-f9b73ef5e5}
+The pinned AmphiTherm curated snapshot records Ameerega trivittata under Dendrobatidae, Anura. It retains 2 thermal estimate rows across 1 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-f9a12848bb}
+Source row 4339 (ID 4820; von-May_et_al_2019) reports 37.95 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Ameerega_trivittata_pop1. Recorded conditions include acclimation at 25 °C, medium_test_temp = body. The source reports 0.75 °C as its standard error. The source n_trait field is 2. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-f62e50d6c9}
+Source row 4376 (ID 4868; von-May_et_al_2019) reports 10 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Ameerega_trivittata_pop2. Recorded conditions include acclimation at 25 °C, medium_test_temp = body. The source reports 1.8 °C as its standard error. The source n_trait field is 2. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

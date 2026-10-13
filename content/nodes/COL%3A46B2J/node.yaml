@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus fulvus
+  displayName: Neobatrachus fulvus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46B2J
+  sourceIndexes:
+    - name:
+        en: Neobatrachus fulvus
+        zh: Neobatrachus fulvus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46B2J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/235
+            queryName: Neobatrachus fulvus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-daf67b2352
+      - s-c1ba09820d
+      - s-ac12325aab
+      - s-655eb3c6ed
+      - s-2858bf41a8
+      - s-b3761fe247
+      - s-2ef81add9e
+      - s-7eaf775abe
+      - s-36e0285860
+      - s-4fc6496c9d
+    zh:
+      - s-1e4c137e1b
+      - s-ed0967fac1
+      - s-5dec51ed0c
+      - s-44d09edcf6
+      - s-8e17ee484e
+      - s-cf5957e56b
+      - s-b99a2203e6
+      - s-dce4da5c52
+      - s-80369311c4
+      - s-f7313504a7

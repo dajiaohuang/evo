@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla zeylanica
+  displayName: Microhyla zeylanica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42XBZ
+  sourceIndexes:
+    - name:
+        en: Microhyla zeylanica
+        zh: Microhyla zeylanica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42XBZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/44
+            queryName: Microhyla zeylanica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7472899bff
+      - s-61d4648531
+      - s-64f859d47b
+      - s-bcb5be8d4b
+      - s-db95273296
+      - s-f0c816c5b4
+      - s-ecf451135d
+      - s-390808727b
+      - s-2a86c0bc66
+      - s-843e42d9b4
+      - s-f8da22ce8a
+    zh:
+      - s-dc361ab9e0
+      - s-8d2db5bb44
+      - s-39cd79d94c
+      - s-fa44389be1
+      - s-67e8fccc91
+      - s-ba6ab9c681
+      - s-86c9821cb4
+      - s-a139b4b5c6
+      - s-e94f942a08
+      - s-76964e1a06
+      - s-51372ce6c6

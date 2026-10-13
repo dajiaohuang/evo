@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys huntingtoni
+  displayName: Proceratophrys huntingtoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Y6B
+  sourceIndexes:
+    - name:
+        en: Proceratophrys huntingtoni
+        zh: Proceratophrys huntingtoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Y6B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/220
+            queryName: Proceratophrys huntingtoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ea1eb3fe84
+      - s-1626d47624
+      - s-c6339d9e7a
+      - s-0c400a64f1
+      - s-9af905f140
+      - s-16dc064789
+      - s-a841457220
+    zh:
+      - s-269c477fb1
+      - s-068654f02c
+      - s-2daeb8f2ba
+      - s-59fae9a062
+      - s-9a0cdd1db5
+      - s-ed721721c8
+      - s-79a77d8a71

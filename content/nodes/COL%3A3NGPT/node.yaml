@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus chlorosteus
+  displayName: Hyloscirtus chlorosteus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGPT
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus chlorosteus
+        zh: Hyloscirtus chlorosteus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGPT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/42
+            queryName: Hyloscirtus chlorosteus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/304
+            queryName: Hyla chlorostea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/343
+            queryName: Colomascirtus chlorosteus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-142bc025ed
+      - s-e4fa39175f
+      - s-175e8d1f35
+      - s-2d3e90db58
+      - s-22425f77bf
+      - s-89dae3987e
+      - s-69112e6133
+      - s-e72f3e60b4
+    zh:
+      - s-c114374d6a
+      - s-448c82ff6c
+      - s-e9813e091f
+      - s-dfd493545c
+      - s-052603a072
+      - s-5dd6e5e105
+      - s-68e3691e04
+      - s-60352d76e6

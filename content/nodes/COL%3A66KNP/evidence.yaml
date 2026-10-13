@@ -1,0 +1,304 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anas laysanensis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Anas laysanensis
+      en: Anas laysanensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-b3a15c4669
+            part: body
+          en:
+            page: en
+            section: s-e56d84b82e
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-59a658fb4a
+            part: body
+          en:
+            page: en
+            section: s-d3a831f82d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-a6a54df604
+            part: body
+          en:
+            page: en
+            section: s-71e5949f2e
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-240181c72f
+            part: body
+          en:
+            page: en
+            section: s-4e8fcb1c09
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-d2a9b77aae
+            part: body
+          en:
+            page: en
+            section: s-4c7c64262c
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-d441dd60a4
+            part: body
+          en:
+            page: en
+            section: s-d6c6bd9cf7
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-fa314343eb
+            part: body
+          en:
+            page: en
+            section: s-f2384f543f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-d8929878c1
+            part: body
+          en:
+            page: en
+            section: s-6491351564
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-edb2deae2a
+            part: body
+          en:
+            page: en
+            section: s-036f5f7bda
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-85d544f3ee
+            part: body
+          en:
+            page: en
+            section: s-effb1715fd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Anas laysanensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/66KNP
+          locator: Pinned accepted name, rank and ancestor closure; matching names do not establish concept equivalence.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - sourceFileId
+          - sourceFileMd5
+          - sourceFileSha256
+          - sourceTaxonomy
+          - externalConceptId
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET Supplementary dataset 1.xlsx; AVONET1_BirdLife; Species1=Anas laysanensis; Sequence=524; Metadata field definitions.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          sourceFileId: 34480856
+          sourceFileMd5: 1445afdcfb6df784010c2ca034544bc8
+          sourceFileSha256: eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e
+          sourceTaxonomy: HBW–BirdLife version 5.0 (December 2020)
+          externalConceptId: AVIBASE-3F444E5A
+          scope:
+            zh: 历史同名记录的数据导读；仅使用 Inference=NO 且至少一套完整形态测量的记录。保留体重来源和繁殖/留居地理范围限定，不推断当前分类概念等同。
+            en: Historical same-name data account, using Inference=NO records with at least one complete morphological set. Mass provenance and breeding/resident geography retained; no current taxonomic concept equivalence inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 288; name Anas laysanensis; reference table row 288; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - birth_or_hatching_weight_g
+            - incubation_d
+            - fledging_age_d
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: Dunning, 1992 from median of 25(Dunning, 1992, Dunning, 1992, Dunning, 1992, Wasser, D.E. and P.W. Sherman, 2010, Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, Dunning, 1992, Wasser, D.E. and P.W. Sherman, 2010, Dunning, 1992, Dunning, 1992, Boback and Guyer, 2003, Dyke and Kaiser, 2010, Werner and Griebeler, 2013, Werner and Griebeler, 2012, Szekely, Lislevand, and Figuerola, 2007, Krist, 2011, Werner and Griebeler, 2013, Szekely, Lislevand, and Figuerola, 2007, Werner and Griebeler, 2012, Bennett, 1986, Ricklefs, 2010b, de Magalhaes and Costa, 2009, de Magalhaes and Costa, 2009)
+            female_maturity_d: de Magalhaes and Costa, 2009 from median of 4(Bennett, 1986, Ricklefs, 2010b, de Magalhaes and Costa, 2009, de Magalhaes and Costa, 2009)
+            litter_or_clutch_size_n: mean of de Magalhaes and Costa, 2009 & Werner and Griebeler, 2013 from median of 12(Werner and Griebeler, 2013, Werner and Griebeler, 2012, Szekely, Lislevand, and Figuerola, 2007, Krist, 2011, Werner and Griebeler, 2013, Szekely, Lislevand, and Figuerola, 2007, Werner and Griebeler, 2012, Jetz, Sekercioglu, and Bohning-Gaese, 2008, Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009, Bennett, 1986, de Magalhaes and Costa, 2009, de Magalhaes and Costa, 2009)
+            birth_or_hatching_weight_g: Bennett, 1986 from median of 3(Bennett, 1986, de Magalhaes and Costa, 2009, de Magalhaes and Costa, 2009)
+            incubation_d: mean of Ricklefs, 2010b & Bennett, 1986 from median of 4(Bennett, 1986, Ricklefs, 2010b, de Magalhaes and Costa, 2009, de Magalhaes and Costa, 2009)
+            fledging_age_d: mean of Carrier, D.R., Auriemma, J., 1992 and Bennett, 1986
+            maximum_longevity_y: Ricklefs, 2010b
+          sameNameSourceLabels:
+            - Dunning, 1992
+            - Szekely, Lislevand, and Figuerola, 2007
+            - de Magalhaes and Costa, 2009
+            - Ricklefs, 2010b
+            - Boback and Guyer, 2003
+            - Bennett, 1986
+            - Dyke and Kaiser, 2010
+            - Werner and Griebeler, 2012
+            - Werner and Griebeler, 2013
+            - Wasser, D.E. and P.W. Sherman, 2010
+            - Krist, 2011
+            - Boyer, A.G., Cartron, J-L.E., and J.H. Brown, 2009
+            - Jetz, Sekercioglu, and Bohning-Gaese, 2008
+            - Carrier, D.R., Auriemma, J., 1992
+            - Lutmerding, J.A. and A.S. Love, 2013
+            - Fransson, T., Kolehmainen, T., Kroon, C. et al., 2010
+            - Carey, J.R. and D.S. Judge, 2002
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      zh:
+        page: zh
+        section: s-9f13c8c6be
+        part: body
+      en:
+        page: en
+        section: s-737c04f4c5
+        part: body

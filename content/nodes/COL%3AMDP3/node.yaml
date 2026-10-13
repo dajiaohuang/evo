@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa diaphora
+  displayName: Bolitoglossa diaphora
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDP3
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa diaphora
+        zh: Bolitoglossa diaphora
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDP3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/111
+            queryName: Bolitoglossa diaphora
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89bb10f228
+      - s-f6262a0dcc
+      - s-9ab88ace2c
+      - s-a3e67755f9
+      - s-960186f282
+      - s-0f67933ea1
+      - s-47e18c06fb
+      - s-a8350d7e5d
+    zh:
+      - s-7c21053d8c
+      - s-3d1c9889e9
+      - s-a13326b11f
+      - s-47e0f3735b
+      - s-00eb17e87c
+      - s-5c54a0b6bd
+      - s-6fe021c31e
+      - s-bc0757c8fd

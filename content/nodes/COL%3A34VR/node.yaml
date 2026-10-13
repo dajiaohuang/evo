@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelognathus
+  displayName: Atelognathus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34VR
+  sourceIndexes:
+    - name:
+        en: Atelognathus
+        zh: Atelognathus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34VR
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/199
+            queryName: Atelognathus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0f58ab0d2
+      - s-219f52709a
+      - s-b4a3d6c5a3
+      - s-5b78940dea
+      - s-2cf423eb5e
+      - s-523c120010
+      - s-3a27133017
+      - s-1af54f8cf2
+      - s-f7dd4201d7
+      - s-ee95da422f
+      - s-26abb69aa1
+      - s-4418298bcc
+      - s-78721c7588
+      - s-c05a7c17bc
+      - s-e492c1a5b0
+      - s-59b88a99f0
+      - s-85ef7713e6
+    zh:
+      - s-3da0e27f56
+      - s-8d1a93d8bc
+      - s-6b3ed0370f
+      - s-60cbdc5d4a
+      - s-15bbda921c
+      - s-a4dff88cf6
+      - s-1f4d1094ef
+      - s-4690ca82f9
+      - s-4de7173d48
+      - s-8a1e7b6760
+      - s-8ec0e9590b
+      - s-83e570fff6
+      - s-6afb5b32cb
+      - s-96ff869518
+      - s-454e6377af
+      - s-0588f1ed5a
+      - s-f0712baf2a

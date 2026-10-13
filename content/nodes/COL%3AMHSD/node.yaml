@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis albilabris
+  displayName: Boophis albilabris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHSD
+  sourceIndexes:
+    - name:
+        en: Boophis albilabris
+        zh: Boophis albilabris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHSD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/225
+            queryName: Boophis albilabris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/333
+            queryName: Rhacophorus albilabris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/197
+            queryName: Boophis albilabris albilabris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-30fe4135d4
+      - s-e4e5860e2d
+      - s-d04415fba0
+      - s-cd16ea0253
+      - s-a0737e1eac
+      - s-dc50cb405e
+      - s-83e1e17197
+      - s-6aa73a05b7
+      - s-bcfe6afe37
+      - s-0f6dc61530
+      - s-56f3b558bb
+      - s-499b8ad9be
+    zh:
+      - s-80b72acbbe
+      - s-fc201e96f9
+      - s-fd7ce79b2c
+      - s-aab5295692
+      - s-aa2a81ed75
+      - s-bfcdebfcb8
+      - s-05bd58cbf0
+      - s-de494758e8
+      - s-8b8cb69a16
+      - s-679242829f
+      - s-8d3dc06ed5
+      - s-34a83d10de

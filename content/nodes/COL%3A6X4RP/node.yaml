@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes jayarami
+  displayName: Raorchestes jayarami
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X4RP
+  sourceIndexes:
+    - name:
+        en: Raorchestes jayarami
+        zh: Raorchestes jayarami
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X4RP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/158
+            queryName: Raorchestes jayarami
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/355
+            queryName: Philautus jayarami
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/356
+            queryName: Pseudophilautus jayarami
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7c5c4aa84
+      - s-a1b05fdfd8
+      - s-55615a4dd0
+      - s-d59bf4370d
+      - s-4d105c95a6
+      - s-d277c473cf
+      - s-7fa6ce65de
+      - s-779ac42d74
+      - s-2135186fcb
+      - s-22179e6ca3
+    zh:
+      - s-c5864eff59
+      - s-d11e76f25e
+      - s-348353e5c6
+      - s-271f437fc4
+      - s-48daa5e82a
+      - s-48a8b1cd58
+      - s-f5798a92d9
+      - s-0e11a4fa55
+      - s-87a615386d
+      - s-f93bfc429a

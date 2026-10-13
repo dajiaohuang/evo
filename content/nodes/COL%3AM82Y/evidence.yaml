@@ -1,0 +1,410 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boana steinbachi (Boulenger, 1905)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boana steinbachi
+      zh: Boana steinbachi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ca0a3c1eeb
+            part: title
+          zh:
+            page: zh
+            section: s-564ab831b0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ca0a3c1eeb
+            part: body
+          zh:
+            page: zh
+            section: s-564ab831b0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fd586e90f9
+            part: title
+          zh:
+            page: zh
+            section: s-4debd97a33
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fd586e90f9
+            part: body
+          zh:
+            page: zh
+            section: s-4debd97a33
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-af2732cdf0
+            part: title
+          zh:
+            page: zh
+            section: s-314d50719e
+            part: title
+        sourceIds:
+          - primary-pmc10215353-m82y
+        text:
+          en:
+            page: en
+            section: s-af2732cdf0
+            part: body
+          zh:
+            page: zh
+            section: s-314d50719e
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-e0daae7eb2
+            part: title
+          zh:
+            page: zh
+            section: s-b7fb72f8ff
+            part: title
+        sourceIds:
+          - primary-pmc12654886-m82y
+        text:
+          en:
+            page: en
+            section: s-e0daae7eb2
+            part: body
+          zh:
+            page: zh
+            section: s-b7fb72f8ff
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-275a14f6d7
+            part: title
+          zh:
+            page: zh
+            section: s-ef501b93fe
+            part: title
+        sourceIds:
+          - primary-pmc12654886-m82y
+        text:
+          en:
+            page: en
+            section: s-275a14f6d7
+            part: body
+          zh:
+            page: zh
+            section: s-ef501b93fe
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-4bb10f10a1
+            part: title
+          zh:
+            page: zh
+            section: s-111b51d194
+            part: title
+        sourceIds:
+          - primary-pmc12654886-m82y
+        text:
+          en:
+            page: en
+            section: s-4bb10f10a1
+            part: body
+          zh:
+            page: zh
+            section: s-111b51d194
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-01dc959032
+            part: title
+          zh:
+            page: zh
+            section: s-adf4fefc7e
+            part: title
+        sourceIds:
+          - primary-pmc12654886-m82y
+        text:
+          en:
+            page: en
+            section: s-01dc959032
+            part: body
+          zh:
+            page: zh
+            section: s-adf4fefc7e
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-b1fdd1b411
+            part: title
+          zh:
+            page: zh
+            section: s-e412134335
+            part: title
+        sourceIds:
+          - primary-pmc12654886-m82y
+        text:
+          en:
+            page: en
+            section: s-b1fdd1b411
+            part: body
+          zh:
+            page: zh
+            section: s-e412134335
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boana steinbachi
+          url: https://www.checklistbank.org/dataset/316115/taxon/M82Y
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10215353-m82y
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana steinbachi: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12654886-m82y
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boana steinbachi: Boana steinbachi: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5629ca1276
+        part: body
+      zh:
+        page: zh
+        section: s-9c594bbd0e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani13101593
+        referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+        sourceKey: primary-pmc10215353-m82y
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10215353/article.xml
+        sourceConcept: Boana steinbachi reference as listed in Table1
+        evidenceRead: "Boana steinbachi: XML collection; genetic-distance/phylogeny/selection methods; mitogenome structure, distance, phylogeny and selection results; phylogeny/selection discussion; Tables1/4 read fully; original sequence files, supplementary distances and protein models not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: An accession-bounded reference in the 2023 study
+              zh: 2023年研究中受序列号限定的参考
+            referenceId: ref-0d33f632-2446-448f-a3d2-70f12c70ed0c
+            sourceKey: primary-pmc10215353-m82y
+            locator: PMC10215353 XML Table1 named/accession rows; sec2dot5 paragraph1; sec3dot6 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-96b2782a32
+                part: body
+              zh:
+                page: zh
+                section: s-d8089c4f60
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0332753
+        referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+        sourceKey: primary-pmc12654886-m82y
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12654886/article.xml
+        sourceConcept: Regional source-labelled Boana steinbachi molecular-marker/specimen records plus priorinventory/treatment, no voucher/modernconcept certification
+        evidenceRead: "Boana steinbachi: Boana steinbachi: XML sampling, composition and barcode Methods/Results; S3_Table.pdf all99amphibian rows pluslegend (pages1–3 visually inspected); S5_File.pdf amphibian effort Table1 (page1 visually inspected). Existing species treatment reads preserved. Supplement ZIP retrieved/hash recorded; other ZIP figures/workbooks, raw calls/barcodes/vouchers not independently inspected.; no figures or deposited datasets reproduced; S3_File.xlsx worksheet S3 Table1 all384 literal amphibian records B:I rows5–388 inspected read-only; marker availability, partitions and printed correlation flags extracted. Original workbooks unchanged; no raw sequences/traces/specimens or ASAP tree independently reanalysed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Regional occurrence cells retain their evidence sources
+              zh: 区域出现单元保留证据来源
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-m82y
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow25 Boana steinbachi fourarea/sourcecolumns andfootnote; XML sec004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0202606747
+                part: body
+              zh:
+                page: zh
+                section: s-49172ae7a3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Compiled habitat and threat labels are bounded descriptions
+              zh: 汇总生境与威胁标签是有限描述
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-m82y
+            locator: PMC12654886 S3_Table.pdf page1 speciesrow25 habitat/IUCNcolumns andfootnote
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e95ec4e050
+                part: body
+              zh:
+                page: zh
+                section: s-f0e998e50f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Unequal field, museum and genetic effort limits interpretation
+              zh: 不等野外、馆藏及遗传努力限制解释
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-m82y
+            locator: PMC12654886 S5_File.pdf page1 Table1 amphibianeffort andfootnotes; XML sec004/sec006/sec007/sec033
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d4e9cf8e2c
+                part: body
+              zh:
+                page: zh
+                section: s-2570f4d67e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Specimen-linked marker availability in the regional workbook
+              zh: 区域工作簿逐标本标记可用性
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-m82y
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows94,95,96 B:I; headersB4:I4; XML sec007/sec033; S3_Table.pdf exactinventoryname
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-845a50c49b
+                part: body
+              zh:
+                page: zh
+                section: s-3123f591a2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Marker partitions and correlation labels retain their scope
+              zh: 标记分区及相关标签保留范围
+            referenceId: ref-94d7d76e-8d04-42d9-a739-d7102f62b03a
+            sourceKey: primary-pmc12654886-m82y
+            locator: PMC12654886 S3_File.xlsx sheet S3 Table1 rows94,95,96 E:I; XML sec007 ASAPmethods andsec033 markercomparison
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d2080337b0
+                part: body
+              zh:
+                page: zh
+                section: s-184d61a077
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

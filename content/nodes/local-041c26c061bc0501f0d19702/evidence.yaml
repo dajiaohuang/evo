@@ -1,0 +1,237 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Minervarya syhadrensis
+    name:
+      en: Minervarya syhadrensis
+      zh: Minervarya syhadrensis
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Minervarya
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e001af73bb
+            part: body
+          zh:
+            page: zh
+            section: s-096c223058
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b9f2e3d0ee
+            part: body
+          zh:
+            page: zh
+            section: s-d28c4900c0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3383, 3384; Reference.csv rows 3286
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3383
+        values:
+          - Dicroglossidae
+          - Minervarya
+          - Minervarya syhadrensis
+          - F
+          - "37.2"
+          - "12.276"
+          - "11.80384615"
+          - "4.05108"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "5.5242"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3384
+        values:
+          - Dicroglossidae
+          - Minervarya
+          - Minervarya syhadrensis
+          - M
+          - "30"
+          - "9.6"
+          - "9.32038835"
+          - "3.552"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.512"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3286
+        values:
+          - Anura
+          - Minervarya_syhadrensis
+          - "Howlader, M. S. A., Nair, A., & Merilä, J. (2016). A new species of frog (Anura: Dicroglossidae) discovered from the mega city of Dhaka. PLoS One, 11(3), e0149597. https://doi.org/10.1371/journal.pone.0149597"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - SL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 43JBG
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

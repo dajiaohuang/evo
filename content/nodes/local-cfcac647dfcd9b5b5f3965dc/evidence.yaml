@@ -1,0 +1,237 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ischnocnema epipeda
+    name:
+      en: Ischnocnema epipeda
+      zh: Ischnocnema epipeda
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Ischnocnema
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Ischnocnema epipeda in the version 3 classification
+          zh: Ischnocnema epipeda 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cb109fd396
+            part: body
+          zh:
+            page: zh
+            section: s-419a394004
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 6 populated trait fields
+          zh: 2 条测量行与 6 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-94a93255d5
+            part: body
+          zh:
+            page: zh
+            section: s-751bbfa47b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2418, 2419; Reference.csv rows 2251
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2418
+        values:
+          - Brachycephaloidea
+          - Ischnocnema
+          - Ischnocnema epipeda
+          - F
+          - "29.8"
+          - "12.516"
+          - "11.324"
+          - NA
+          - "1.788"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.576"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16.092"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2419
+        values:
+          - Brachycephaloidea
+          - Ischnocnema
+          - Ischnocnema epipeda
+          - M
+          - "20.5"
+          - "8.61"
+          - "7.585"
+          - NA
+          - "1.23"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.46"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.865"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2251
+        values:
+          - Anura
+          - Ischnocnema_epipeda
+          - "Heyer, W. R. (1984). Variation, systematics, and zoogeography of Eleutherodactylus guentheri and closely related species (Amphibia: Anura: Leptodactylidae). https://doi.org/10.5479/SI.00810282.402"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - TD
+      - EN
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

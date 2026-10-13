@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Meristogenys dyscritus
+  displayName: Meristogenys dyscritus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RBD9
+  sourceIndexes:
+    - name:
+        en: Meristogenys dyscritus
+        zh: Meristogenys dyscritus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RBD9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/415
+            queryName: Meristogenys dyscritus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2a7566103f
+      - s-d22adf95c0
+      - s-46a1b4d9d4
+      - s-27f3876697
+      - s-80048788d6
+      - s-8d6d01ebed
+      - s-e78547733d
+    zh:
+      - s-f4feecba4f
+      - s-bd00a6207e
+      - s-a1209b224e
+      - s-9bcaf9ad8d
+      - s-8f2f192ce4
+      - s-afa34246c9
+      - s-5e85c0272b

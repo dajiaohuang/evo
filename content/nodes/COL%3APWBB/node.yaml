@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulops yapenensis
+  displayName: Callulops yapenensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PWBB
+  sourceIndexes:
+    - name:
+        en: Callulops yapenensis
+        zh: Callulops yapenensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PWBB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/140
+            queryName: Callulops yapenensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2dffa9cea1
+      - s-e5e97083a8
+      - s-7da5d548d4
+      - s-6ea078e94c
+      - s-1e43d9101f
+      - s-8b92776bac
+    zh:
+      - s-3c534ed1be
+      - s-dbcfaec2ae
+      - s-76c93c5e1d
+      - s-4ee54ba601
+      - s-5f8d4443ac
+      - s-47b090c0a7

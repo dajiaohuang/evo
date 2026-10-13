@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina similis
+  displayName: Xenorhina similis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBF9
+  sourceIndexes:
+    - name:
+        en: Xenorhina similis
+        zh: Xenorhina similis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBF9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/361
+            queryName: Xenorhina similis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/220
+            queryName: Asterophrys similis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e743e2ddc
+      - s-f2058def0a
+      - s-3a39a1150a
+      - s-925ab5ee74
+      - s-176399b2fa
+      - s-08427fcd66
+      - s-e51cff7c74
+      - s-93acde2026
+      - s-17c4ed5e1b
+      - s-8519b91265
+      - s-684b7e27ab
+    zh:
+      - s-110aa3a4a8
+      - s-e6dac7786c
+      - s-2279d24dd2
+      - s-cf0199e586
+      - s-aa8a32a4f7
+      - s-af178a472d
+      - s-a1667023d8
+      - s-720289b32d
+      - s-10e6087977
+      - s-e5456ff5f0
+      - s-7a242802f3

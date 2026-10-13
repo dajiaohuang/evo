@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella stanlaii
+  displayName: Rhinella stanlaii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7PZ
+  sourceIndexes:
+    - name:
+        en: Rhinella stanlaii
+        zh: Rhinella stanlaii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7PZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/373
+            queryName: Rhinella stanlaii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/409
+            queryName: Bufo scitulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/414
+            queryName: Bufo stanlaii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/23
+            queryName: Rhinella scitula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/452
+            queryName: Rhinella paraguayensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/79
+            queryName: Bufo levicristatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/80
+            queryName: Bufo laevicristatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f3ccdb0cae
+      - s-bb6f68f993
+      - s-bbaf4a00cf
+      - s-15da640afb
+      - s-3bdb18a7f5
+      - s-e55aac547a
+      - s-afb219b8b6
+      - s-b5a69d7941
+      - s-390f35274a
+      - s-0fdf652519
+      - s-b8014bb1ce
+      - s-c025f37a52
+      - s-3019340f7b
+      - s-188cfae68b
+      - s-4e304db381
+      - s-4b0b9d22c8
+      - s-d1040b0fbf
+    zh:
+      - s-d464f8ab5a
+      - s-3e7e4cadae
+      - s-d7d6769cb8
+      - s-fc4759179f
+      - s-7330fbcd9f
+      - s-72280a5e60
+      - s-f711b303bd
+      - s-59d7de3fa4
+      - s-cd31531239
+      - s-16ae8ab1d0
+      - s-b46af48dd9
+      - s-db675d0f79
+      - s-a3d94ddbc0
+      - s-878845f06c
+      - s-f007674361
+      - s-d54057fe4d
+      - s-6ea0d2d79f

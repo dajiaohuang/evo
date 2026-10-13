@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium orocostale
+  displayName: Hyalinobatrachium orocostale
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MH5L
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium orocostale
+        zh: Hyalinobatrachium orocostale
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MH5L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/333
+            queryName: Hyalinobatrachium orocostale
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/212
+            queryName: Centrolenella orocostalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-027bc3d6c0
+      - s-615deac418
+      - s-a5898f7b08
+      - s-5d417729bc
+      - s-ad6de82c91
+      - s-15d8fb2a7e
+      - s-60a57e07b5
+      - s-9731bd8372
+    zh:
+      - s-59eca78c89
+      - s-8cb1b6ae04
+      - s-a79ca5ae15
+      - s-56252e7923
+      - s-5b6c64df97
+      - s-5f975c43d7
+      - s-ba9b1ac2da
+      - s-7cb00121a8

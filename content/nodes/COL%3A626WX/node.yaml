@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Salamandridae
+  displayName: Salamandridae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/626WX
+  sourceIndexes:
+    - name:
+        en: Salamandridae
+        zh: Salamandridae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 626WX
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/269
+            queryName: Salamandridae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3688
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc153dbb25
+      - s-b179b7c1aa
+      - s-5e4d80e186
+      - s-c1cc615f04
+      - s-91382c8be8
+      - s-22607ac7e1
+      - s-8a3184fd7d
+    zh:
+      - s-e76227e9ba
+      - s-3a8828aed6
+      - s-d3c82c6692
+      - s-ce4ae576e5
+      - s-acc8c203f6
+      - s-f0c13c48ea
+      - s-be07091eb1

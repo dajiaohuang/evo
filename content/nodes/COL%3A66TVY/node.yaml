@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anodonthyla eximia
+  displayName: Anodonthyla eximia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66TVY
+  sourceIndexes:
+    - name:
+        en: Anodonthyla eximia
+        zh: Anodonthyla eximia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66TVY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/491
+            queryName: Anodonthyla eximia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2648b05ee1
+      - s-d09c954d5c
+      - s-f096c8c857
+      - s-bd6f6c5c29
+      - s-f1765c55d5
+      - s-650bc5431e
+      - s-628ed5d542
+      - s-b399685af5
+      - s-82af971cc9
+    zh:
+      - s-babc8df546
+      - s-3ae487c46c
+      - s-b24de4b3f6
+      - s-bfff980e1d
+      - s-0a146b15eb
+      - s-bc472ba2f7
+      - s-be607862c9
+      - s-47af80cc1e
+      - s-1c9fa6ef05

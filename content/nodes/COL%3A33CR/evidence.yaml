@@ -1,0 +1,132 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Arthroleptides Nieden, 1911
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Arthroleptides
+      zh: Arthroleptides
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c42dea072c
+            part: title
+          zh:
+            page: zh
+            section: s-7f143e8f22
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c42dea072c
+            part: body
+          zh:
+            page: zh
+            section: s-7f143e8f22
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3bb0478935
+            part: title
+          zh:
+            page: zh
+            section: s-3917ca462e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3bb0478935
+            part: body
+          zh:
+            page: zh
+            section: s-3917ca462e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-35bf1b4423
+            part: title
+          zh:
+            page: zh
+            section: s-915cd1a8f5
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: GYPR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPR
+            label:
+              en: Arthroleptides dutoiti
+              zh: Arthroleptides dutoiti
+          - kind: catalogue
+            colId: GYPS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPS
+            label:
+              en: Arthroleptides martiensseni
+              zh: Arthroleptides martiensseni
+          - kind: catalogue
+            colId: GYPT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AGYPT
+            label:
+              en: Arthroleptides yakusini
+              zh: Arthroleptides yakusini
+        text:
+          en:
+            page: en
+            section: s-35bf1b4423
+            part: body
+          zh:
+            page: zh
+            section: s-915cd1a8f5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Arthroleptides
+          url: https://www.checklistbank.org/dataset/316115/taxon/33CR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-af5c730b45
+        part: body
+      zh:
+        page: zh
+        section: s-a74917fb4e
+        part: body

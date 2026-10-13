@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chrysobatrachus cupreonitens
+  displayName: Chrysobatrachus cupreonitens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5YLZV
+  sourceIndexes:
+    - name:
+        en: Chrysobatrachus cupreonitens
+        zh: Chrysobatrachus cupreonitens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5YLZV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/361
+            queryName: Chrysobatrachus cupreonitens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-677d267619
+      - s-8e1d0eefd4
+      - s-1bfd858e13
+      - s-7b4728479f
+      - s-fedb632b93
+      - s-0c40bfa77a
+      - s-24ef879844
+    zh:
+      - s-8e04cdd8ed
+      - s-44ae9f421b
+      - s-50906738b3
+      - s-6446e3a05b
+      - s-6eb22a25e5
+      - s-f9333b64e9
+      - s-978bebc71b

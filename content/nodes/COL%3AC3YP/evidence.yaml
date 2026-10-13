@@ -1,0 +1,125 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe prinslooi I.Verd. & D.S.Hardy
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C3YP, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C3YP; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3YP
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C3YP
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758692-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C3YP / WFO wfo-0000758692
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_5961_0
+        referenceId: ref-ba3368a6-e3f2-87ea-a40d-9e706b7d6fc6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe prinslooi I.Verd. & D.S.Hardy account; SANBI/WFO archive rows 49085 (Morphology), 55057 (Habitat), 51317 (Diagnostic), source identifier 5961.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe prinslooi I.Verd. & D.S.Hardy account; SANBI/WFO archive rows 78150 (Diagnostic), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants stemless, 150-250 mm tall excluding inflorescence, usually solitary. Leaves 16-30, 140-200 x 40-80 mm, biconvex to slightly channelled, both surfaces with few to many white spots, usually irregular, sometimes in transverse bands, denser on upper surface. Inflorescence with 2-5 ultimate branches, ±600 mm tall; racemes dense, capitate; bracts deltoid-cirrhous, 15-30 x 3-5 mm, ±7-nerved. Flowers greenish white becoming tinged with pink, 13-17 mm long; segments free for almost half their length; pedicels 12-30 mm long, erect. Anthers not or hardly exserted. Ovary 4.0-10.0 x 2.0-2.5 mm, green; style not or hardly exserted. Fruit 14-18 x 10-12 mm, grey. Seeds ±4.0 x 2.5 x 1.0 mm, hardly winged, brown.
+            textZh: Aloe prinslooi I.Verd. & D.S.Hardy 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Morphology row 49085; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The very dense, almost spherical racemes of small, whitish flowers distinguish this species from all others in this section. Sterile specimens are easily confused with A. maculata, and there seems to be no vegetative character that distinguishes unambiguously between these two species.
+            textZh: SANBI 条目提供了 Aloe prinslooi I.Verd. & D.S.Hardy 的鉴别特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Diagnostic row 51317; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Regarded as a link between the Graminialoe and plants belonging to the Saponariae, for at first glance the flowers appear to be like those of A. albida (Stapf) Reynolds. They are, however, not stipitate and are nearest in shape to the flowers of A. grandidentata Salm Dyck, having hardly any constriction above the ovary. Flower colouration is usually off white or pale pink but two yellow forms have been observed at one locality.
+            textZh: SANBI 条目提供了 Aloe prinslooi I.Verd. & D.S.Hardy 的鉴别特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Diagnostic row 78150; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The soil is thin, the rainfall relatively low, the summers are hot and the winters very cold.
+            textZh: 该 SANBI 区域物种条目记录的生境：The soil is thin, the rainfall relatively low, the summers are hot and the winters very cold.
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Habitat row 55057; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

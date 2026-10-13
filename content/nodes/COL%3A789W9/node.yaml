@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys cristiceps
+  displayName: Proceratophrys cristiceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/789W9
+  sourceIndexes:
+    - name:
+        en: Proceratophrys cristiceps
+        zh: Proceratophrys cristiceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 789W9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/215
+            queryName: Proceratophrys cristiceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/310
+            queryName: Ceratophrys cristiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/370
+            queryName: Proceratophrys aridus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/442
+            queryName: Stombus cristiceps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/258
+            queryName: Proceratophrys caramaschii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2108eb5a80
+      - s-19b928b43c
+      - s-eb739969b4
+      - s-de8060679c
+      - s-b086f30717
+      - s-17ed0b7adc
+      - s-a421872152
+      - s-d295b87479
+      - s-d79e2530c5
+      - s-f4e44bc7d9
+      - s-fdedfea916
+      - s-5914250e8c
+      - s-b218554f22
+      - s-de76dfbeb5
+      - s-0b35bf415b
+      - s-7f36bc82f8
+      - s-4df719fa36
+      - s-88af65430c
+      - s-7065704755
+    zh:
+      - s-3d31138519
+      - s-d4b1b5f6ac
+      - s-7dd3851924
+      - s-392c85e9a8
+      - s-f638a7156d
+      - s-5a2e6b4ced
+      - s-f80f225976
+      - s-58d150449f
+      - s-6ceae58597
+      - s-3aea9ca7ee
+      - s-72e4f6ac25
+      - s-bae8c494a6
+      - s-2bed0bdbd3
+      - s-f2d1b330c2
+      - s-6b59544ef5
+      - s-ea73f5861d
+      - s-3a18a462d6
+      - s-2a29dcc3f0
+      - s-b8b41a0c42

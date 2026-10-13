@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes cardosoi
+  displayName: Hylodes cardosoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG66
+  sourceIndexes:
+    - name:
+        en: Hylodes cardosoi
+        zh: Hylodes cardosoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG66
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/491
+            queryName: Hylodes cardosoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-62c219a500
+      - s-8f0d904044
+      - s-35ff9999d6
+      - s-bbe3c0b52c
+      - s-a078de9f82
+      - s-ec86aaaf81
+      - s-799cf238d5
+      - s-cf52de9931
+      - s-4938c202e1
+      - s-584ecb583f
+      - s-6a4b782e8f
+      - s-d715677d82
+      - s-cba81fec2c
+      - s-43282adaed
+      - s-5da3c1e465
+      - s-893a1b368f
+    zh:
+      - s-977cb5953c
+      - s-8917cc33df
+      - s-aaccf7c774
+      - s-1cb0cd9876
+      - s-508a627594
+      - s-8e0f796194
+      - s-5befb59574
+      - s-2bdbca821e
+      - s-fc0548bb87
+      - s-730a44ddef
+      - s-5affebe8ea
+      - s-7cb71d4d37
+      - s-4a5ce48c76
+      - s-1c5e981b2c
+      - s-5d9fdd5c63
+      - s-735e23a999

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana ventripunctata
+  displayName: Nanorana ventripunctata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7X
+  sourceIndexes:
+    - name:
+        en: Nanorana ventripunctata
+        zh: Nanorana ventripunctata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/191
+            queryName: Nanorana ventripunctata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 36
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f8676dc8cc
+      - s-bb70c916b0
+      - s-db5b4e7b04
+      - s-370d306fc5
+      - s-1406975569
+      - s-87f8e1fd36
+      - s-45cf7c6c10
+      - s-a11554b3ae
+      - s-8223747d44
+      - s-f9ebdc60f7
+      - s-8d5ced4861
+      - s-566921cd5f
+      - s-ca7702e2e8
+      - s-6588e707cf
+      - s-df892e95e5
+    zh:
+      - s-f110e169e2
+      - s-2aeccfa77e
+      - s-7c91cdcaa8
+      - s-f6862d3e9e
+      - s-bb58b613e3
+      - s-2837cf4973
+      - s-446194e739
+      - s-8d499e0002
+      - s-5e387f447e
+      - s-0d1db6b4c0
+      - s-171245d054
+      - s-01320c74c6
+      - s-c079b7d0ab
+      - s-dbcf035b07
+      - s-51509bb290

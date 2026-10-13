@@ -24,7 +24,7 @@ export function NodeReadingSections({ sections, sources, language }: {
   const sourceContext = ordered.filter(section => section.group === 'source-context')
   const sourceById = new Map(sources.map(source => [source.id, source]))
   const sourceText = (value: NodeReadingSource['title'] | undefined) => typeof value === 'string' ? value : value?.[language] ?? value?.en ?? value?.zh ?? ''
-  const renderSection = (section: NodeReadingSection) => {
+  const renderSection = (section: NodeReadingSection & { sourceIds: string[] }) => {
     const fallback = !section.text[language]
     const text = section.text[language] || section.text.en || section.text.zh || ''
     if (!text.trim()) return null

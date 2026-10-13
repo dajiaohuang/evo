@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus lacteus
+  displayName: Afrixalus lacteus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65G63
+  sourceIndexes:
+    - name:
+        en: Afrixalus lacteus
+        zh: Afrixalus lacteus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65G63
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/70
+            queryName: Afrixalus lacteus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-26e52d547a
+      - s-23f489a6ed
+      - s-3a10b2742a
+      - s-b8a4dc9b7b
+      - s-c8a79464f0
+      - s-4b094aacce
+      - s-a62c22ef90
+      - s-60b4ee737b
+    zh:
+      - s-a0b7538cad
+      - s-2b170b4e2c
+      - s-addcc40944
+      - s-14d8924db9
+      - s-86cf67e115
+      - s-667300b5c0
+      - s-1b288005fe
+      - s-26c98cf572

@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla acanthodes
+  displayName: Plectrohyla acanthodes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5BM
+  sourceIndexes:
+    - name:
+        en: Plectrohyla acanthodes
+        zh: Plectrohyla acanthodes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5BM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/426
+            queryName: Plectrohyla acanthodes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/447
+            queryName: Hyla acanthodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8ae21bea78
+      - s-44dcb12827
+      - s-e753bfd126
+      - s-c2cae4b58c
+      - s-e4d4b6af81
+      - s-6af5d097c7
+      - s-c35929f4ed
+      - s-8baafb35b5
+      - s-08fb725f8e
+    zh:
+      - s-526eac53db
+      - s-d1cdfb02e1
+      - s-966b31e67d
+      - s-7f1a89253c
+      - s-621a812394
+      - s-f9dfa6136f
+      - s-5c43a21b3b
+      - s-d32eb05fc6
+      - s-1ac30ae138

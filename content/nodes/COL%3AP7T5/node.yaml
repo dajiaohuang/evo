@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia orientalis
+  displayName: Caecilia orientalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7T5
+  sourceIndexes:
+    - name:
+        en: Caecilia orientalis
+        zh: Caecilia orientalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7T5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/80
+            queryName: Caecilia orientalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a9cc8e6cc
+      - s-780b7ce837
+      - s-fa83fa4239
+      - s-50cebc7fe3
+      - s-b65eee05ad
+      - s-c4d2425427
+      - s-b0d182a0bb
+      - s-543f98cd8e
+      - s-c59d373e68
+      - s-76518d8886
+      - s-c7969bbf9b
+      - s-160ab3a469
+      - s-7076668a45
+    zh:
+      - s-9a34efc990
+      - s-89037eee46
+      - s-e678128cec
+      - s-78e8a33943
+      - s-2dee363b54
+      - s-1dc211ebd6
+      - s-f248ff54f3
+      - s-e34cc483cc
+      - s-2219c3dfeb
+      - s-5db609cf53
+      - s-3a7455e483
+      - s-f0ffe64c17
+      - s-13e589c793

@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phyllomedusidae Günther, 1858
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Phyllomedusidae
+      zh: Phyllomedusidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6daf208b0b
+            part: title
+          zh:
+            page: zh
+            section: s-0fc8051e40
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6daf208b0b
+            part: body
+          zh:
+            page: zh
+            section: s-0fc8051e40
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d833ed8e21
+            part: title
+          zh:
+            page: zh
+            section: s-e7ec09c674
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d833ed8e21
+            part: body
+          zh:
+            page: zh
+            section: s-e7ec09c674
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-91058a8d85
+            part: title
+          zh:
+            page: zh
+            section: s-8a2a7c34c0
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: QH7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AQH7
+            label:
+              en: Agalychnis
+              zh: Agalychnis
+          - kind: catalogue
+            colId: 3FFK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3FFK
+            label:
+              en: Callimedusa
+              zh: Callimedusa
+          - kind: catalogue
+            colId: 3WBP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3WBP
+            label:
+              en: Cruziohyla
+              zh: Cruziohyla
+          - kind: catalogue
+            colId: "5244"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5244
+            label:
+              en: Hylomantis
+              zh: Hylomantis
+          - kind: catalogue
+            colId: 6MYL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6MYL
+            label:
+              en: Phasmahyla
+              zh: Phasmahyla
+          - kind: catalogue
+            colId: 6PCN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PCN
+            label:
+              en: Phrynomedusa
+              zh: Phrynomedusa
+          - kind: catalogue
+            colId: 6PP3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PP3
+            label:
+              en: Phyllomedusa
+              zh: Phyllomedusa
+          - kind: catalogue
+            colId: 6QYV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6QYV
+            label:
+              en: Pithecopus
+              zh: Pithecopus
+        text:
+          en:
+            page: en
+            section: s-91058a8d85
+            part: body
+          zh:
+            page: zh
+            section: s-8a2a7c34c0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Phyllomedusidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/625JR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e11b05bd13
+        part: body
+      zh:
+        page: zh
+        section: s-8404188e67
+        part: body

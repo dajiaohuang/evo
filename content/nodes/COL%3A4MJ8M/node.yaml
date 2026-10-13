@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis achatinus
+  displayName: Pristimantis achatinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ8M
+  sourceIndexes:
+    - name:
+        en: Pristimantis achatinus
+        zh: Pristimantis achatinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ8M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/81
+            queryName: Pristimantis achatinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/19
+            queryName: Eleutherodactylus achatinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/42
+            queryName: Eleutherodactylus brederi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/151
+            queryName: Eleutherodactylus pagmae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/117
+            queryName: Hylodes achatinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/118
+            queryName: Hylodes pagmae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b911c1dcb1
+      - s-440b34b485
+      - s-6d8ca760f7
+      - s-ab70a530e2
+      - s-57f20df99d
+      - s-9fd341f9db
+      - s-957efd8973
+      - s-5fc5955715
+      - s-a346650081
+      - s-d0436dfd77
+      - s-74ff8a8348
+      - s-c317526196
+      - s-c930054a5b
+      - s-45c0aee48a
+      - s-62295bafca
+      - s-a32e7a5e51
+      - s-d5c5d662ca
+      - s-0f6110809b
+      - s-f8a708f052
+    zh:
+      - s-c325f206e5
+      - s-aa8c83d75c
+      - s-556b2d4b92
+      - s-748193c4a9
+      - s-ce84e4d2f6
+      - s-8fa849c242
+      - s-745a9dcb83
+      - s-5f579fcf70
+      - s-7cedaf9ac3
+      - s-2c49e7529c
+      - s-24cd3d042e
+      - s-a2a789d77b
+      - s-11ec072545
+      - s-626b40b162
+      - s-9427ff35ad
+      - s-0cf1e05d60
+      - s-149b7c7a79
+      - s-432759b13a
+      - s-8a8f73fe0a

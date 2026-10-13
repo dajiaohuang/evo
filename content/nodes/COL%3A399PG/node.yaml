@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus rivularis
+  displayName: Eleutherodactylus rivularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399PG
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus rivularis
+        zh: Eleutherodactylus rivularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399PG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/313
+            queryName: Eleutherodactylus rivularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/128
+            queryName: Euhyas rivularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7500e34c82
+      - s-7121e35886
+      - s-093c6a1f00
+      - s-68e0f8c2e5
+      - s-d22d20445a
+      - s-689e0e2da2
+      - s-40382504d8
+      - s-77a778c996
+      - s-7548733272
+      - s-fea31d3d93
+    zh:
+      - s-abe17a7d33
+      - s-ecc182157b
+      - s-a02d189476
+      - s-7937b60262
+      - s-f4f92fd366
+      - s-5d0c6a90b0
+      - s-d29167fafd
+      - s-3a2a53a947
+      - s-a5536d24e7
+      - s-330700b3eb

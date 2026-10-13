@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius geojeensis Min & Borzée, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius geojeensis
+      zh: Hynobius geojeensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-29a8f7edc0
+            part: title
+          zh:
+            page: zh
+            section: s-e6ebca3fea
+            part: title
+        text:
+          en:
+            page: en
+            section: s-29a8f7edc0
+            part: body
+          zh:
+            page: zh
+            section: s-e6ebca3fea
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-935a57f4f5
+            part: title
+          zh:
+            page: zh
+            section: s-85ef39a218
+            part: title
+        text:
+          en:
+            page: en
+            section: s-935a57f4f5
+            part: body
+          zh:
+            page: zh
+            section: s-85ef39a218
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bf296277d6
+            part: title
+          zh:
+            page: zh
+            section: s-5e5214644e
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37lt
+        text:
+          en:
+            page: en
+            section: s-bf296277d6
+            part: body
+          zh:
+            page: zh
+            section: s-5e5214644e
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-570218bbb9
+            part: title
+          zh:
+            page: zh
+            section: s-4588b84a4e
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37lt
+        text:
+          en:
+            page: en
+            section: s-570218bbb9
+            part: body
+          zh:
+            page: zh
+            section: s-4588b84a4e
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-c1dd15d871
+            part: title
+          zh:
+            page: zh
+            section: s-664aad331e
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37lt
+        text:
+          en:
+            page: en
+            section: s-c1dd15d871
+            part: body
+          zh:
+            page: zh
+            section: s-664aad331e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-386f247af0
+            part: title
+          zh:
+            page: zh
+            section: s-e71a469bc7
+            part: title
+        sourceIds:
+          - primary-pmc7830202-q37lt
+        text:
+          en:
+            page: en
+            section: s-386f247af0
+            part: body
+          zh:
+            page: zh
+            section: s-e71a469bc7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius geojeensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q37LT
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7830202-q37lt
+        referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hynobius geojeensis: Named treatments, comparative results and conservation paragraphs; additional original XML adult methods and explicitly pooled three-species natural history; no tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-cdee2136c4
+        part: body
+      zh:
+        page: zh
+        section: s-ffa228cfa3
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani11010187
+        referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+        sourceKey: primary-pmc7830202-q37lt
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7830202/article.xml
+        sourceConcept: Hynobius geojeensis
+        evidenceRead: "Hynobius geojeensis: Named treatments, comparative results and conservation paragraphs; additional original XML adult methods and explicitly pooled three-species natural history; no tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: An island holotype and three adult paratypes
+              zh: 岛屿正模及三成年副模
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37lt
+            locator: PMC7830202 reading-sections section 4, paragraphs 5 and 7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bcfca6c78e
+                part: body
+              zh:
+                page: zh
+                section: s-afdddbbffe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A contextual size comparison with ambiguous identification thresholds
+              zh: 具模糊鉴定阈值的情境体型比较
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37lt
+            locator: PMC7830202 reading-sections section 4, paragraph 11; section 1, paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b2c4162b1a
+                part: body
+              zh:
+                page: zh
+                section: s-2e0d15f4c6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Natural history pooled across three species
+              zh: 三种合并的自然史
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37lt
+            locator: PMC7830202 reading-sections article.xml Results > Species Description > Natural History, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2ececd6ca3
+                part: body
+              zh:
+                page: zh
+                section: s-5e07aeba2b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: An island-area proxy and a misplaced species name in the assessment
+              zh: 岛面积代理及评估中的错置物种名
+            referenceId: ref-b223bd3a-3b13-4f2c-a80b-c094dfd19d18
+            sourceKey: primary-pmc7830202-q37lt
+            locator: PMC7830202 reading-sections section 6, paragraph 5; section 7, paragraph 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-be284f2287
+                part: body
+              zh:
+                page: zh
+                section: s-5c2fc72480
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

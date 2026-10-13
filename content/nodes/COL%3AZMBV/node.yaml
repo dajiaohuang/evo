@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus cyclospinus
+  displayName: Crossodactylus cyclospinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMBV
+  sourceIndexes:
+    - name:
+        en: Crossodactylus cyclospinus
+        zh: Crossodactylus cyclospinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMBV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/226
+            queryName: Crossodactylus cyclospinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-80e6a20745
+      - s-3eeec5e664
+      - s-d25fae4ca7
+      - s-a782ce6990
+      - s-b2a6d921ea
+      - s-0e03aac028
+      - s-c5b9d10a02
+      - s-1f4d71e91a
+      - s-d9609766c6
+      - s-f50b3d5cfd
+      - s-9680ddef70
+      - s-fc6bc6dc05
+      - s-5b9065f624
+      - s-6c0f204bef
+      - s-f8c67c8e40
+      - s-b4a96e52bc
+      - s-ed642c5605
+      - s-2938a7601e
+      - s-038e6acc81
+      - s-03ad837ac4
+      - s-1c2de60224
+      - s-20766c82fb
+      - s-39667fbc6d
+    zh:
+      - s-aea61f71c4
+      - s-183e4821be
+      - s-e437d317a2
+      - s-215499d8ca
+      - s-c4a9362c06
+      - s-53f96f1834
+      - s-1a2a1fe390
+      - s-883bb5eddc
+      - s-55960f3eda
+      - s-74b2108889
+      - s-02c2c569ec
+      - s-14bcb55ade
+      - s-9c97c635d0
+      - s-b17ee5e75f
+      - s-bd4c1284d1
+      - s-9988060d13
+      - s-c2f9db1739
+      - s-5fac84069e
+      - s-5311fb3f6d
+      - s-0481daa16e
+      - s-745dfbab55
+      - s-a8a180a2cc
+      - s-ff9d9c26af

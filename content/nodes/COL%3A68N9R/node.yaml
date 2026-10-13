@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla hylax
+  displayName: Bokermannohyla hylax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68N9R
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla hylax
+        zh: Bokermannohyla hylax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68N9R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/56
+            queryName: Bokermannohyla hylax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/348
+            queryName: Hyla hylax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/410
+            queryName: Boana hylax
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6e577527b2
+      - s-64c3631c22
+      - s-dddbf2587f
+      - s-5a94867257
+      - s-3634a6a403
+      - s-b76b74216e
+      - s-1a036a8c78
+      - s-4832d3a265
+      - s-a3b121ac59
+      - s-a22fa1e802
+      - s-46080437e5
+      - s-e214f3d09b
+      - s-d820ed9b29
+      - s-b8a4318764
+      - s-0c940413b6
+      - s-cac73e839e
+    zh:
+      - s-57058815ca
+      - s-a943757a07
+      - s-99c24788d3
+      - s-ebdda985cb
+      - s-3707571c88
+      - s-fe73d327f6
+      - s-bfaed0c196
+      - s-32914dfe38
+      - s-67ef6c5a5e
+      - s-2b02288ee3
+      - s-86c404edc8
+      - s-1d6291d19f
+      - s-4012700989
+      - s-01c0f9627c
+      - s-e34737eda3
+      - s-c87751bafd

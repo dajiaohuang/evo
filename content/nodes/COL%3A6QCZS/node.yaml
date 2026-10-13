@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes parvus
+  displayName: Limnonectes parvus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QCZS
+  sourceIndexes:
+    - name:
+        en: Limnonectes parvus
+        zh: Limnonectes parvus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QCZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/123
+            queryName: Limnonectes parvus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/159
+            queryName: Rana parva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/359
+            queryName: Rana microdisca parva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/360
+            queryName: Euphlyctis microdisca parva
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5cd257064e
+      - s-9f3edb8ffe
+      - s-da82b005a9
+      - s-a705934313
+      - s-a99b86a8f2
+      - s-a4019beafa
+      - s-12a630bae8
+      - s-9aaaea7a32
+      - s-3febe54888
+      - s-ef412ab6d2
+      - s-c76fccc4a7
+      - s-88f9c78610
+    zh:
+      - s-7c5d0cfde2
+      - s-3723eb5e59
+      - s-ed5fa6cb73
+      - s-58685885a5
+      - s-6edf0fcae5
+      - s-3d476928d0
+      - s-3bcad1b5a6
+      - s-2906908752
+      - s-5e01bb1cfa
+      - s-34b5f3f557
+      - s-ef719fa0ac
+      - s-fa6794d1b8

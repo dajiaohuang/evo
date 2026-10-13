@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis marmoratus
+  displayName: Pristimantis marmoratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJHK
+  sourceIndexes:
+    - name:
+        en: Pristimantis marmoratus
+        zh: Pristimantis marmoratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJHK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/393
+            queryName: Pristimantis marmoratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/125
+            queryName: Eleutherodactylus marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/139
+            queryName: Hylodes marmoratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a77593744
+      - s-f167fa9884
+      - s-17ab2c8ce4
+      - s-a2e4356b5f
+      - s-936571a3c1
+      - s-61f5276f3d
+      - s-283086d9e3
+      - s-d9f3a06930
+      - s-1a5d33551f
+      - s-e12bed0a75
+      - s-5d57b0edb8
+    zh:
+      - s-74171c37c2
+      - s-9ad490cac3
+      - s-29f15a2c95
+      - s-0c9dc29d66
+      - s-9311717617
+      - s-64403a7a78
+      - s-424d4b3201
+      - s-88e8a7d159
+      - s-ca53329162
+      - s-165753a332
+      - s-f254b52efa

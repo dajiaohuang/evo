@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis urichi
+  displayName: Pristimantis urichi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQY
+  sourceIndexes:
+    - name:
+        en: Pristimantis urichi
+        zh: Pristimantis urichi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/154
+            queryName: Pristimantis urichi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/297
+            queryName: Eleutherodactylus urichi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/18
+            queryName: Hylodes urichi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-df5182951b
+      - s-8b8b16a154
+      - s-ef68fb9fcc
+      - s-577cd745f9
+      - s-f5817350c8
+      - s-2faa7d0795
+      - s-0c668eb20f
+      - s-7e058be449
+    zh:
+      - s-e2376468c6
+      - s-8ec3ae2fd1
+      - s-999c9a1fa5
+      - s-5c65b41ce3
+      - s-6ec3870251
+      - s-d08d0e6c15
+      - s-5cbd4cf15d
+      - s-dcbe5aeb2a

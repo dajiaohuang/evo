@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbine semenaliundata G.Will.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ3G, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ3G; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ3G
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ3G
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762413-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ3G / WFO wfo-0000762413
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7890_0
+        referenceId: ref-2d3fdd9e-d41b-8afe-a766-12a1e202976f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbine semenaliundata G.Will. account; SANBI/WFO archive rows 85345 (Morphology), 85088 (Habitat), source identifier 7890.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants arising from perennial, dome-shaped tubers up to 13-15 x 8-10 mm, with a number of spreading wedge-shaped roots emanating from a flat base. Leaves usually 4, erect until beginning to wither, linear terete, translucent shiny green, the longest flattish towards base on adaxial surface, ca. 80 x 3 mm with a broader sheathing base ca. 20 x 4 mm, shorter leaves mainly terete and ca. 40 x 1.2 mm, also with sheathing bases; as leaves wither, basal leaf sheaths tighten into a narrow cylinder, up to 35 x 2 mm, clasping developing peduncle, eventually leaves dry off completely as the inflorescences begin to mature; leaf epidermis with minute elongated, raised, horizontal bands of cells. Flowers hysteranthous, 6-20 in a solitary lax raceme, occasionally a second appears; peduncle up to 145 mm including inflorescence, rising from a narrow cylindrical sheath 30-45 x 1.5-2 mm. which elongates as the inflorescence matures and the leaves wither; flower bract 1.2 x 1 mm, elongated, triangular, acuminate with a broad base wrapping around the pedicel, pedicel ca. 7 x 0.5 mm. Flower with outer whorl of tepals swept backwards reaching the peduncle, lanceolate, obtuse, 7 x 2 mm, inner whorl only slightly reflexed, narrowly ovate, obtuse 7 x 4 mm, all tepals light pale yellow with a very fine green mid vein. Filaments slender, bearded, all ca. 6 x 0.3 mm, outers with a single, very dense cushion of glandular hairs towards the anthers and lowest decurved with anther 0.8 mm across, rest of outer anthers ca. 0.5 mm across, inners with an elongated cushion of hairs covering the mid two thirds of the filament, all curving outwards with anthers 0.5 mm, glandular hairs 1 mm long with apex bulbous. Ovary globose, green, 1 mm in diameter; style and stigma about 6 mm long x 0.3 mm, stigma minute. Capsule shiny bronze-green, ovoid, 2 x 1.8 mm, pedicel almost horizontal with a slight upward turn apically, 8 x 0.3 mm. Seed 1 x 0.8 mm, narrowly pyramidal, surface black with low raised humps, all keels on basal two thirds, including base, with very prominent rough jagged serrations and undulations.
+            textZh: Bulbine semenaliundata G.Will. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7890_0
+            locator: "SANBI/WFO archive Morphology row 85345; source identifier 7890.0; cited publication: Williamson, G. 2000. Four new, succulent Bulbine species (Asphodelaceae) from the Western and Eastern Cape Provinces of the Republic of South Africa. Bradleya 18: 31 - 40. [https://doi.org/10.25223/brad.n18.2000.a3]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Moss covered rocks in partly sheltered places; rock cracks and depressions amongst lichen species in open sun, all on south to southwestern aspects.
+            textZh: 该 SANBI 区域物种条目记录的生境：Moss covered rocks in partly sheltered places; rock cracks and depressions amongst lichen species in open sun, all on south to southwestern aspects.
+            sourceIds:
+              - sanbi_7890_0
+            locator: "SANBI/WFO archive Habitat row 85088; source identifier 7890.0; cited publication: Williamson, G. 2000. Four new, succulent Bulbine species (Asphodelaceae) from the Western and Eastern Cape Provinces of the Republic of South Africa. Bradleya 18: 31 - 40. [https://doi.org/10.25223/brad.n18.2000.a3]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

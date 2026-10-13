@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla intermedia
+  displayName: Hyla intermedia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NCXB
+  sourceIndexes:
+    - name:
+        en: Hyla intermedia
+        zh: Hyla intermedia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NCXB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/363
+            queryName: Hyla intermedia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/272
+            queryName: Hylaria variegata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/273
+            queryName: Hyla italica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/195
+            queryName: Hyla perrini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/107
+            queryName: Hyla arborea intermedia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d859f526a6
+      - s-6bacdf64bc
+      - s-7fdc11a1a4
+      - s-91c97c7cf4
+      - s-b1aa828503
+      - s-f94863e614
+      - s-92fc016446
+      - s-686cacb7b7
+      - s-b8144003ca
+      - s-c6e79b2ea6
+    zh:
+      - s-642ea67bc5
+      - s-ba6a171bcc
+      - s-b0ce5941bb
+      - s-772711fece
+      - s-8f3fcf0ed8
+      - s-cafb9eb7a1
+      - s-ce437fc57c
+      - s-20f908b2bb
+      - s-737210c97b
+      - s-89f7498801

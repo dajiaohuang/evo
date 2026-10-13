@@ -1,0 +1,3 @@
+## ## Extrafloral nectaries and retrorse prickles {#s-e14201d5d0}
+The Brazilian Flora 2020 entry records pilose stems with spreading simple hairs and scattered, retrorse prickles; setae, glandular hairs and short shoots are absent. The stipules are shed, extrafloral nectaries are present, and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four or five perianth parts and a membranous calyx without lobes. Corolla lobes have one to three veins and may be hairless or pubescent; the androecium is diplostemonous, with white filaments. These regional character fields do not quantify variation across the species.
+

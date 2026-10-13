@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Cryptobranchus saskatchewanensis
+    rank: species
+    sourceTaxonId: txn:110598
+    name:
+      en: Cryptobranchus saskatchewanensis
+      zh: Cryptobranchus saskatchewanensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-52a3fd8b06
+            part: body
+          zh:
+            page: zh
+            section: s-f668a8a2a9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 2 PBDB occurrence rows and collection fields
+          zh: 2 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-29ecf3c339
+            part: body
+          zh:
+            page: zh
+            section: s-d89b5eec2c
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Cryptobranchus saskatchewanensis
+          zh: Cryptobranchus saskatchewanensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-e0cb69b73d
+            part: body
+          zh:
+            page: zh
+            section: s-98cd4f9404
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110598; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: B. G. Naylor. 1981. Cryptobranchid salamanders from the Paleocene and Miocene of Saskatchewan. Copeia 1981(1):76-86
+    occurrenceEvidence:
+      - occurrenceId: occ:707283
+        collectionId: col:14978
+        acceptedTaxonId: txn:110598
+        identifiedName: Cryptobranchus saskatchewanensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:25656
+        bibliography: B. G. Naylor. 1981. Cryptobranchid salamanders from the Paleocene and Miocene of Saskatchewan. Copeia 1981(1):76-86
+        locality:
+          countryCode: CA
+          stateProvince: Saskatchewan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Ravenscrag
+          member: null
+        olderAgeMa: 60.9
+        youngerAgeMa: 57.5
+      - occurrenceId: occ:1395698
+        collectionId: col:190422
+        acceptedTaxonId: txn:110598
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Park
+        stratigraphy:
+          group: null
+          formation: Fort Union
+          member: null
+        olderAgeMa: 57.5
+        youngerAgeMa: 56
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Cryptobranchus saskatchewanensis
+          zh: Cryptobranchus saskatchewanensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-e0cb69b73d
+            part: body
+          zh:
+            page: zh
+            section: s-98cd4f9404
+            part: body
+        sourceIds: []

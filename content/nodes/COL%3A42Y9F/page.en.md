@@ -1,0 +1,3 @@
+## What leaf, flower and ovary variation is recorded? {#s-05b12c5ac5}
+The Flora do Brasil 2020 field records spherical glands or long-stalked glandular hairs on the stem and leaves. Petiolate leaves differ in color between their two faces and have three veins. Flowers are solitary. The floral cup is cylindrical and may bear either type of glandular hair; the linear sepals also have them. The sepals are listed as longer than or equal to the cup, or shorter than or equal to it. The corolla may be pink or magenta. Anthers are two-colored and have four pollen sacs; the ovary has three chambers. These are regional field alternatives and do not establish how often each occurs.
+

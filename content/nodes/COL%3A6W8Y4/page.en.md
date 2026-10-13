@@ -1,0 +1,3 @@
+## Axillary inflorescences and conspicuous stem colleters {#s-868f95d69c}
+The source description records conspicuous intrapetiolar colleters and a pubescent stem. Leaves lack blade colleters and are membranous and glabrous. Axillary monochasial cymes have glabrescent indumentum; bracts are recorded as conspicuous and foliaceous / inconspicuous and scarious. Flowers have an inconspicuous throat ring, exserted anther tips, a pubescent corolla, glabrous sepals, corolla lobes with exserted throat-lobe tips, and an annular, lobed nectary. Follicles and seed characters are marked unknown. A separate habitat field says “Terrícola” (terrestrial). This single morphology field does not establish variation or full diagnostic scope, and no locality or range evidence was assessed.
+

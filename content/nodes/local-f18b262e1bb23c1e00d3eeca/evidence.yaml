@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyloscirtus antioquia
+    name:
+      en: Hyloscirtus antioquia
+      zh: Hyloscirtus antioquia
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Hyloscirtus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1c2a6f5d6c
+            part: body
+          zh:
+            page: zh
+            section: s-58155e8d6f
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8796f6540f
+            part: body
+          zh:
+            page: zh
+            section: s-411d12bbc2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2208, 2209; Reference.csv rows 3053
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2208
+        values:
+          - Hylidae
+          - Hyloscirtus
+          - Hyloscirtus antioquia
+          - M
+          - "55.7"
+          - "18.1"
+          - "19.4"
+          - "6.3"
+          - "2.9"
+          - NA
+          - "10.7"
+          - "4.7"
+          - NA
+          - "4.9"
+          - NA
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - "24.6"
+          - NA
+          - "28.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2209
+        values:
+          - Hylidae
+          - Hyloscirtus
+          - Hyloscirtus antioquia
+          - F
+          - "61"
+          - "19.2"
+          - "20.5"
+          - "6.2"
+          - "3.2"
+          - NA
+          - "11.6"
+          - "4.8"
+          - NA
+          - "5.1"
+          - NA
+          - "2.7"
+          - NA
+          - NA
+          - NA
+          - "27.6"
+          - NA
+          - "30.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3053
+        values:
+          - Anura
+          - Hyloscirtus_antioquia
+          - "Rivera-Correa, M., & Faivovich, J. (2013). A new species of Hyloscirtus (Anura: Hylidae) from Colombia, with rediagnosis of Hyloascirtus larinopygion (Duellman, 1973). Herpetologica, 69, 298-313. https://doi.org/10.1655/HERPETOLOGICA-D-12-00059"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NGPL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

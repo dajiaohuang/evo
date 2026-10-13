@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus victorianus
+  displayName: Xenopus victorianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBCQ
+  sourceIndexes:
+    - name:
+        en: Xenopus victorianus
+        zh: Xenopus victorianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBCQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/329
+            queryName: Xenopus victorianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 43
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/104
+            queryName: Xenopus bunyoniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/265
+            queryName: Xenopus laevis victorianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/266
+            queryName: Xenopus laevis bunyoniensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c2a81aff30
+      - s-5cab36377d
+      - s-ebdca6dc6b
+      - s-fd51ab76fe
+      - s-b009ffcfd0
+      - s-5ea0b2d2af
+      - s-65c56f20e1
+      - s-c7b9bcb33f
+      - s-338ea18524
+      - s-fdf3375734
+      - s-5b75fa6a60
+      - s-2a9eec859a
+      - s-32af8bd99f
+      - s-ed6533ceb4
+      - s-52ee48f247
+      - s-9a52730909
+      - s-68212d01b0
+      - s-493b1c769f
+      - s-d6ed9ccdc9
+      - s-e288d04052
+      - s-8ac532810b
+    zh:
+      - s-b960805d97
+      - s-d84a3183b6
+      - s-dd187d5738
+      - s-f57d168410
+      - s-fd6a938da8
+      - s-0b0d0a5f83
+      - s-ec300f2f20
+      - s-3f4bb4574b
+      - s-62440562d1
+      - s-d801082e0e
+      - s-51b7dcea8a
+      - s-9542468380
+      - s-80097cc22e
+      - s-2015c42488
+      - s-58540e28c3
+      - s-a530957996
+      - s-0ab1d8ffdd
+      - s-9df2283d2d
+      - s-49e37c7151
+      - s-5e3ca71351
+      - s-be0da8a195

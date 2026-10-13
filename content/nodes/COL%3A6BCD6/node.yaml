@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor coffeus
+  displayName: Craugastor coffeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCD6
+  sourceIndexes:
+    - name:
+        en: Craugastor coffeus
+        zh: Craugastor coffeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCD6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/105
+            queryName: Craugastor coffeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/310
+            queryName: Eleutherodactylus coffeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a02ba8067e
+      - s-4f60ee780e
+      - s-04071ba0b5
+      - s-fe8cf755b7
+      - s-3bd9639b2d
+      - s-a84772b1ad
+      - s-ee75ddd34a
+      - s-8235b2379b
+      - s-6ee53cc047
+    zh:
+      - s-e38d37a7f4
+      - s-00eebb93c1
+      - s-3006ca7f8d
+      - s-4b33333855
+      - s-b4ca89f10a
+      - s-a3ff489ebb
+      - s-90fc3516c5
+      - s-07d592bed4
+      - s-6ef1bb0cb7

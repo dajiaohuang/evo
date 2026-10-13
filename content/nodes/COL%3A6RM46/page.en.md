@@ -1,0 +1,3 @@
+## ## Peltate glandular hairs on the stem {#s-362c8c2d79}
+The Brazilian Flora 2020 entry records pilose stems with spreading simple hairs and peltate glandular hairs; setae, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and no projection occurs between pinna pairs. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a membranous calyx with triangular lobes. Corolla lobes are hairy and have one to three veins; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial” but supplies no locality or more specific habitat account.
+

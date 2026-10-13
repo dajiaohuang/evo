@@ -1,0 +1,3 @@
+## ## Many narrow leaflets and five stamens {#s-82181bfc57}
+Brazilian Flora 2020 records a xylopodium and 6–22 pairs of linear, oblanceolate or narrowly elliptic leaflets; they may be straight or slightly sickle-shaped. Extrafloral nectar glands occur on the petiole. The flowers have five stamens and five unequal petals, including one curved petal distinct from the other four. The straight, reddish-brown pods are 3.5–5 cm long and 0.45–0.5 cm wide; their valves twist at maturity. The oblong, trapezoidal seeds are 4–5.8 mm long, ochre with brown speckling. The dataset classifies the plant as terrestrial.
+

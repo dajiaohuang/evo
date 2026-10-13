@@ -1,0 +1,376 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Centrolene camposi Cisneros-Heredia, Yánez-Muñoz, Sánchez-Nivicela & Ron, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Centrolene camposi
+      zh: Centrolene camposi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-635ad0c558
+            part: title
+          zh:
+            page: zh
+            section: s-6685c0bea7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-635ad0c558
+            part: body
+          zh:
+            page: zh
+            section: s-6685c0bea7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-69e4107d75
+            part: title
+          zh:
+            page: zh
+            section: s-408eaa9668
+            part: title
+        text:
+          en:
+            page: en
+            section: s-69e4107d75
+            part: body
+          zh:
+            page: zh
+            section: s-408eaa9668
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-72a3c1609e
+            part: title
+          zh:
+            page: zh
+            section: s-b127de4f27
+            part: title
+        sourceIds:
+          - primary-pmc10178282-ml5k8
+        text:
+          en:
+            page: en
+            section: s-72a3c1609e
+            part: body
+          zh:
+            page: zh
+            section: s-b127de4f27
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-6ca2c95320
+            part: title
+          zh:
+            page: zh
+            section: s-11b1ac3d6a
+            part: title
+        sourceIds:
+          - primary-pmc10178282-ml5k8
+        text:
+          en:
+            page: en
+            section: s-6ca2c95320
+            part: body
+          zh:
+            page: zh
+            section: s-11b1ac3d6a
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-a03c4c51f5
+            part: title
+          zh:
+            page: zh
+            section: s-92bfddb110
+            part: title
+        sourceIds:
+          - primary-pmc10178282-ml5k8
+        text:
+          en:
+            page: en
+            section: s-a03c4c51f5
+            part: body
+          zh:
+            page: zh
+            section: s-92bfddb110
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-6bd613279f
+            part: title
+          zh:
+            page: zh
+            section: s-d9a8b0458f
+            part: title
+        sourceIds:
+          - primary-pmc10178282-ml5k8
+        text:
+          en:
+            page: en
+            section: s-6bd613279f
+            part: body
+          zh:
+            page: zh
+            section: s-d9a8b0458f
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-8824478062
+            part: title
+          zh:
+            page: zh
+            section: s-aaeaaa0e8a
+            part: title
+        sourceIds:
+          - primary-pmc10178282-ml5k8
+        text:
+          en:
+            page: en
+            section: s-8824478062
+            part: body
+          zh:
+            page: zh
+            section: s-aaeaaa0e8a
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-a67bdb5a7a
+            part: title
+          zh:
+            page: zh
+            section: s-a03cae37a4
+            part: title
+        sourceIds:
+          - primary-pmc10178282-ml5k8
+        text:
+          en:
+            page: en
+            section: s-a67bdb5a7a
+            part: body
+          zh:
+            page: zh
+            section: s-a03cae37a4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Centrolene camposi
+          url: https://www.checklistbank.org/dataset/316115/taxon/ML5K8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10178282-ml5k8
+        referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Centrolene camposi: XML fieldwork sec6; phylogenetic results sec11; species descriptions sec12 paragraphs 8–11,16–19,21,29–31,36–38,40; all discussion sec13 paragraphs 1–5; original recordings unavailable and supplementary/raw sequence data not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fd2cf2a908
+        part: body
+      zh:
+        page: zh
+        section: s-18e99f9536
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.15195
+        referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+        sourceKey: primary-pmc10178282-ml5k8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10178282/article.xml
+        sourceConcept: Centrolene camposi
+        evidenceRead: "Centrolene camposi: XML fieldwork sec6; phylogenetic results sec11; species descriptions sec12 paragraphs 8–11,16–19,21,29–31,36–38,40; all discussion sec13 paragraphs 1–5; original recordings unavailable and supplementary/raw sequence data not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A very small male type sample
+              zh: 很小的雄性模式样本
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-ml5k8
+            locator: PMC10178282 XML sec12 paragraphs 8–10,18
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cc803071d0
+                part: body
+              zh:
+                page: zh
+                section: s-28f5e17096
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Living and ethanol colours remain distinct
+              zh: 活体与乙醇颜色分别保留
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-ml5k8
+            locator: PMC10178282 XML sec12 paragraphs 10,16–19
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-880c551ce9
+                part: body
+              zh:
+                page: zh
+                section: s-b83a48b498
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Heard calls were not recorded or described
+              zh: 听到鸣声但未录制或描述
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-ml5k8
+            locator: PMC10178282 XML sec12 paragraphs 10,30,40
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ce4f2aad7f
+                part: body
+              zh:
+                page: zh
+                section: s-880c8bd575
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: distribution
+            heading:
+              en: A single stream site and later nondetections
+              zh: 单一溪流地点及后续未检出
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-ml5k8
+            locator: PMC10178282 XML sec6 paragraph 1; sec12 paragraphs 8,21,29,40
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-67a9912f09
+                part: body
+              zh:
+                page: zh
+                section: s-c21f5567c4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Different relatives despite a shared site
+              zh: 共享地点却有不同近亲
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-ml5k8
+            locator: PMC10178282 XML sec11 paragraph 2; sec13 paragraphs 2–3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0b28d1b9ce
+                part: body
+              zh:
+                page: zh
+                section: s-a23813bb15
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: conservation
+            heading:
+              en: The 2023 Data Deficient proposal
+              zh: 2023 年资料缺乏建议
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-ml5k8
+            locator: PMC10178282 XML sec13 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4f774425d6
+                part: body
+              zh:
+                page: zh
+                section: s-747eb4c41b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

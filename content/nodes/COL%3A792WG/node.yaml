@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana pirica
+  displayName: Rana pirica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/792WG
+  sourceIndexes:
+    - name:
+        en: Rana pirica
+        zh: Rana pirica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 792WG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/77
+            queryName: Rana pirica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 56
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/430
+            queryName: Rana ezoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0270aed71f
+      - s-306f51e060
+      - s-6b1e34bf26
+      - s-f38cc3420a
+      - s-7a696a94f4
+      - s-a622b0624b
+      - s-93833a5807
+      - s-d7709d6351
+      - s-953a1e869a
+      - s-0cb5c03337
+    zh:
+      - s-7efa769848
+      - s-3b603c254a
+      - s-31fd010fe9
+      - s-293aacbef6
+      - s-c54720c1fd
+      - s-1fcf93f430
+      - s-9c24e9b08f
+      - s-0485eb6ffe
+      - s-1e5aa9eecc
+      - s-f634174369

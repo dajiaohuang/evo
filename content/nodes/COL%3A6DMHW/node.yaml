@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes arenicolor
+  displayName: Dryophytes arenicolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DMHW
+  sourceIndexes:
+    - name:
+        en: Dryophytes arenicolor
+        zh: Dryophytes arenicolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DMHW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/36
+            queryName: Dryophytes arenicolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/259
+            queryName: Hyla arenicolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/317
+            queryName: Hylarana fusca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/318
+            queryName: Hyla copii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/319
+            queryName: Hyla coper
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/320
+            queryName: Hyliola digueti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b3bf8805f4
+      - s-cf03f2ad6e
+      - s-a4f4dbc3b8
+      - s-a0dedcf0c1
+      - s-20db24e468
+      - s-663d44be18
+      - s-b0e234d854
+      - s-4f1edd4183
+      - s-32438dbfc8
+      - s-6dae1d6e8b
+      - s-c4da641843
+      - s-6c767ec2d9
+      - s-b78e47e31f
+      - s-54c7c7429f
+      - s-12797124a0
+      - s-7612d5bb19
+      - s-2549c1866a
+      - s-c998a79497
+      - s-9b40cb78af
+    zh:
+      - s-9ae445d1ce
+      - s-a0d684768e
+      - s-ea3330ef02
+      - s-0f8013c2e7
+      - s-98901e775a
+      - s-370fe82a04
+      - s-fff1e45075
+      - s-96f3766446
+      - s-6138db615d
+      - s-80a3c53556
+      - s-ccb714074b
+      - s-e3e6d52aec
+      - s-fe69d628e3
+      - s-252082e62d
+      - s-b896f22dbc
+      - s-a523b240c0
+      - s-07ccc48d89
+      - s-ed5b4475f0
+      - s-b981ab09d9

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus gollum
+  displayName: Ingerophrynus gollum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3PQ5V
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus gollum
+        zh: Ingerophrynus gollum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3PQ5V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/498
+            queryName: Ingerophrynus gollum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-88cc5f189e
+      - s-d7e80cccbd
+      - s-6a8ea8b74d
+      - s-3b6e3def32
+      - s-cf4625fd6e
+      - s-09307972f0
+      - s-efe1fb99d7
+    zh:
+      - s-e500c1707c
+      - s-0a26bc472e
+      - s-fa3c5ec633
+      - s-92b911dc72
+      - s-59e1673a89
+      - s-beea7d4c85
+      - s-25798d03d4

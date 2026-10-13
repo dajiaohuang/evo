@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-5dabe73aa8
+      part: title
+    titleZh:
+      page: zh
+      section: s-245671ab25
+      part: title
+    category: origin
+    startAge: 79.2
+    endAge: 70
+    regions:
+      - 372-species primate phylogeny
+    clades:
+      - Primates
+      - Strepsirrhini
+      - Haplorhini
+    summary:
+      page: en
+      section: s-5dabe73aa8
+      part: body
+    summaryZh:
+      page: zh
+      section: s-245671ab25
+      part: body
+    claimIds:
+      - claim:event:primate-crown-clock-model
+    evidenceItems:
+      - statement: The 372-species analysis under the autocorrelated clock and calibration strategy A yields 79.2–70.0 Ma for crown Primates and later intervals for major crown subclades.
+        relation: supports
+        claimIds:
+          - claim:event:primate-crown-clock-model
+        referenceLinks:
+          - referenceId: dos-reis-2018-primate-clock
+            relation: supports
+            pages: 594–615
+            figure: Figures 1–5; Table 3; Supplementary spreadsheet
+            quoteLocator: "Results: A Timeline of Primate Evolution; Effect of calibration strategy and relaxed-clock model"
+    uncertaintyItems:
+      - statement: "This is a model posterior, not a fossil occurrence: strategy B gives 71.4–63.9 Ma, and clock choice, fossil priors and taxon sampling materially change deep-node estimates."
+        relation: contextualizes
+        claimIds:
+          - claim:event:primate-crown-clock-model
+        referenceLinks:
+          - referenceId: dos-reis-2018-primate-clock
+            relation: supports
+            pages: 594–615
+            figure: Figures 1–5; Table 3; Supplementary spreadsheet
+            quoteLocator: "Results: A Timeline of Primate Evolution; Effect of calibration strategy and relaxed-clock model"
+  claims:
+    - subjectId: event:primate-crown-clock-model
+      claimKind: scientific
+      claimType: divergence-time
+      statement: Under the cited autocorrelated-clock analysis and calibration strategy A, the posterior interval for crown Primates is 79.2–70.0 Ma; this model interval is not a fossil first appearance.
+      confidence: medium
+      confidenceRationale: Medium confidence reflects reproducible, explicitly sampled phylogenomic modelling while preserving the strong dependence of deep-node ages on calibration strategy, clock model and fossil priors.
+      referenceLinks:
+        - referenceId: dos-reis-2018-primate-clock
+          relation: supports
+          pages: 594–615
+          figure: Figures 1–5; Table 3; Supplementary spreadsheet
+          quoteLocator: "Results: A Timeline of Primate Evolution; Effect of calibration strategy and relaxed-clock model"
+  claim-rationales.zh:
+    - 中等置信度反映可复现且取样范围明确的系统发育基因组模型，同时保留深层节点年代对校准策略、时钟模型和化石先验的强依赖。
+  claim-statements.zh:
+    - 在所引自相关分子钟分析及校准策略 A 下，灵长目冠群的后验区间为 7,920 万至 7,000 万年前；这一模型区间不是化石首次出现时间。

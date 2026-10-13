@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Delosperma velutinum L.Bolus
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 34HCR, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 34HCR; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/34HCR
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 34HCR
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000639619-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 34HCR / WFO wfo-0000639619
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_17912_0
+        referenceId: ref-365af9df-f788-869e-a3e8-30b146b8d517
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Delosperma velutinum L.Bolus account; archive rows 83908 (Morphology), source identifier 17912.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18046_0
+        referenceId: ref-775f98d2-4d0e-826c-ad3f-0184e87120f2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Delosperma velutinum L.Bolus account; archive rows 88326 (Habitat), source identifier 18046.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-c37fc64392
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-61344c396c
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Humile compactum, ad 5 cm. altum; partes herbaceae velutinae ob papillas pat elites minutas capillaceas; rami subftexuosi, in genere lignosi robustique, cuticula pallida, ad 4 mm. diam.; ramuli floriferi erecti, dense 8-12-foliati; folia adscendentia, ovata vel late ovata, prope basin angustata quasi late petiolata, apiculata carinata, supra plana, sat crassa, pallide viridia, ad 1.7 cm. longa, ad 9 mm. lata, vagina 1 mm. longa; flores solitarii diurni, 1.4 cm. diam., peduneulo tereti, ad 5 mm. longo; receptaculum crateriforme, ad 6 mm. diam.; sepala 5 vel rarius 4, inaequilonga, exteriora carinata, interiors externe basi subgibbosa, 5-7 mm. longa; petala 2-seriata, sepala vix superantia, infeme vix angustata, obtusa alba, ad 7 mm. longa, ad 1 mm. lata vel parum ultra; staminodia pallide rosea, ad 4 mm. longa; stamina conico-conferta, filamentis roseis, ad 3.5 mm. longis, interioribus supeme papillatis, polline luteo; glandulae subapproximatae; ovarium medio subcylindrico-elevatum per 1.5 mm., lobis contiguis; stigmata 5 vel rarius 4, anguste subulata, acuminata, 2 mm. longa; capsula expansa 8 mm. diam., g-eneris.
+            sourceIds:
+              - sanbi_17912_0
+            locator: "SANBI/WFO archive Morphology row 83908; source 17912.0; publication: Bolus, HML. 1929. Notes on Mesembrianthemum and allied genera: 33 - 48. University of Cape Town, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Shady, humus-rich areas. Sub-Escarpment Grassland, SubEscarpment Savanna, Indian Ocean Coastal Belt.
+            sourceIds:
+              - sanbi_18046_0
+            locator: "SANBI/WFO archive Habitat row 88326; source 18046.0; publication: Burgoyne, PM; Bredenkamp, CL. 2019. Aizoaceae: Delosperma N.E.Br. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(1): 211 - 224. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

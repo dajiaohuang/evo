@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rulyrana mcdiarmidi
+  displayName: Rulyrana mcdiarmidi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X9DP
+  sourceIndexes:
+    - name:
+        en: Rulyrana mcdiarmidi
+        zh: Rulyrana mcdiarmidi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X9DP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/418
+            queryName: Rulyrana mcdiarmidi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/35
+            queryName: Cochranella mcdiarmidi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9f93831e2c
+      - s-027dc2cc14
+      - s-cf4d6d714f
+      - s-6bc5b12737
+      - s-94cb0f1260
+      - s-01a09d1006
+      - s-af32ea48ea
+      - s-0326d38f38
+    zh:
+      - s-67aaa95088
+      - s-985abed2d6
+      - s-4539e6cd56
+      - s-9ee3c778a4
+      - s-9e982b8fe5
+      - s-b711cd056f
+      - s-54c98b96a6
+      - s-73491968fc

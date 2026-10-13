@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Eimerisaurus graumanni
+    rank: species
+    sourceTaxonId: txn:345427
+    name:
+      en: Eimerisaurus graumanni
+      zh: Eimerisaurus graumanni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-c57566490d
+            part: body
+          zh:
+            page: zh
+            section: s-716620b8e0
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-7f7b28cdbd
+            part: body
+          zh:
+            page: zh
+            section: s-ea6b6c7534
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Eimerisaurus graumanni
+          zh: Eimerisaurus graumanni 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-45f961c6bf
+            part: body
+          zh:
+            page: zh
+            section: s-f84b16acc2
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:345427; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "J. A. Boy. 2002. Über die Mircomelerpetonidae (Amphibia: Temnospondyli). 3. Eimerisaurus n. g. Neues Jahrbuch für Geologie und Paläontologie Abhandlungen 225:425-452"
+    occurrenceEvidence:
+      - occurrenceId: occ:1337697
+        collectionId: col:180563
+        acceptedTaxonId: txn:345427
+        identifiedTaxonId: var:345427
+        identifiedName: Tersomius graumanni n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:57795
+        bibliography: "R. R. Schoch and A. R. Milner. 2014. Handbook of Paleoherpetology Part 3A2 Temnospondyli I.. Munich: Verlag Dr Friedrich Pfeil."
+        locality:
+          countryCode: DE
+          stateProvince: Rhineland-Pfalz
+          county: Bad Kreuznach
+        stratigraphy:
+          group: Nahe
+          formation: Wadern
+          member: null
+        olderAgeMa: 293.52
+        youngerAgeMa: 290.1
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Eimerisaurus graumanni
+          zh: Eimerisaurus graumanni 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-45f961c6bf
+            part: body
+          zh:
+            page: zh
+            section: s-f84b16acc2
+            part: body
+        sourceIds: []

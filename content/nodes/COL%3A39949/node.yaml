@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus brittoni
+  displayName: Eleutherodactylus brittoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/39949
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus brittoni
+        zh: Eleutherodactylus brittoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "39949"
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/170
+            queryName: Eleutherodactylus brittoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a5d22e3c31
+      - s-abbfe0484b
+      - s-16f82b7ce8
+      - s-b5068535b0
+      - s-7f4e8442d7
+      - s-ddf8f607e9
+      - s-5c92d4197d
+      - s-e07d432139
+      - s-10000cfda3
+      - s-289341bc13
+    zh:
+      - s-3e51c79a54
+      - s-3efa375069
+      - s-5b8a6bb715
+      - s-be35222ec3
+      - s-4fc6f1e300
+      - s-dfc32eb7a1
+      - s-abb4dc1a67
+      - s-0456108dc2
+      - s-f7a261d976
+      - s-5701116bb6

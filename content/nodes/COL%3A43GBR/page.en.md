@@ -1,0 +1,3 @@
+## ## Cylindrical heads and spreading hairs {#s-8aeca95392}
+The Brazilian Flora 2020 entry records stems with spreading simple hairs, described as pubescent, pilose or tomentose; setae, prickles and short shoots are absent, while capitate glandular hairs are present. The stipules persist, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are cylindrical, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a membranous calyx with triangular lobes. Corolla lobes have one to three veins and may be hairless or pubescent; the androecium is diplostemonous, with pink filaments. The listed states do not quantify variation across the species.
+

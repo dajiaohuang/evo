@@ -1,0 +1,12 @@
+## 来源中的蝌蚪概念 {#s-db3bd9a592}
+TadpoleTraits 第 4 版将这些来源记录归为 Dendropsophus minutus。来源分类字段列出的属为 Dendropsophus、科为 Hylidae；所据分类体系是 Amphibian Species of the World 6.2 版（2024）。原始文献印出的名称另行保留为 Dendropsophus minutus。该来源归属尚未确定与当前 COL26.8 物种概念等同。
+
+## 发育阶段材料 {#s-1950f1a46d}
+汇编为这一来源概念保留 4 条文献数据行和 4 条图像数据行。来源提供的阶段标签为 34, 39；37；36-41；33 (Judging based on the picture)；32 (Judging based on the picture)；38；39 (Judging based on the picture)，相伴的不确定性仍按来源标签保留。根据图片推定的阶段不属于直接记录的发育观察。行数不等于去重后的动物数，各研究的样本量字段也不跨研究相加。
+
+## 选列的图像比例 {#s-bd041d5228}
+选定的图像数据行记录了 躯体最大高度/全长 = 0.263477（来源第 377 行，阶段 33 (Judging based on the picture)）；尾部最大高度/全长 = 0.31992（来源第 377 行，阶段 33 (Judging based on the picture)）；尾肌高度/全长 = 0.125398（来源第 377 行，阶段 33 (Judging based on the picture)）；腹鳍高度/全长 = 0.128413（来源第 377 行，阶段 33 (Judging based on the picture)）；躯体最大宽度/全长 = 0.216595（来源第 377 行，阶段 33 (Judging based on the picture)）。这些无量纲来源比例已为便于阅读而舍入。图像可能是绘图或照片，因此这些比例不是代表性野生种群的直接测量。与同一行分子和全长不一致的比例字段已排除。
+
+## 未解决的来源比例 {#s-07364dbaf5}
+这一来源概念有 13 个图像比例字段，与同一行所给分子除以全长的结果相差超过 0.001。原始值和行号仍保留在来源差异台账中；未替换校正值，因此这些冲突不能支持读者结论。
+

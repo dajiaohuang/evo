@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Confuciusornis sanctus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Confuciusornis sanctus
+      en: Confuciusornis sanctus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3c314a4508
+            part: body
+          en:
+            page: en
+            section: s-9f89e30bc0
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3684018317
+            part: body
+          en:
+            page: en
+            section: s-661014d725
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fb6ce13b6d
+            part: body
+          en:
+            page: en
+            section: s-9ce4f586d1
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1b1fb564cb
+            part: body
+          en:
+            page: en
+            section: s-05f077679b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5adc57f4ec
+            part: body
+          en:
+            page: en
+            section: s-060daf815e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Confuciusornis sanctus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=67261&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:67261; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:67261
+          selectedOccurrenceIds:
+            - occ:498863
+            - occ:498865
+            - occ:789020
+            - occ:833771
+            - occ:890417
+            - occ:1204814
+            - occ:1587546
+            - occ:1589417
+          selectedCollectionIds:
+            - col:50470
+            - col:85298
+            - col:92626
+            - col:98449
+            - col:156032
+            - col:79522
+            - col:224635
+          sourceReferenceIds:
+            - ref:13533
+            - ref:28753
+            - ref:31208
+            - ref:33997
+            - ref:51087
+            - ref:80984
+          originalIdentificationMappings:
+            - occurrenceId: occ:498865
+              originalIdentifiedName: Confuciusornis suniae n. sp.
+              acceptedName: Confuciusornis sanctus
+              difference: null
+            - occurrenceId: occ:789020
+              originalIdentifiedName: Confuciusornis sanctus n. gen. n. sp.
+              acceptedName: Confuciusornis sanctus
+              difference: null
+            - occurrenceId: occ:833771
+              originalIdentifiedName: Confuciusornis feducciai n. sp.
+              acceptedName: Confuciusornis sanctus
+              difference: null
+            - occurrenceId: occ:890417
+              originalIdentifiedName: Confuciusornis jianchangensis n. sp.
+              acceptedName: Confuciusornis sanctus
+              difference: null
+            - occurrenceId: occ:1204814
+              originalIdentifiedName: Jinzhouornis yixianensis n. gen. n. sp.
+              acceptedName: Confuciusornis sanctus
+              difference: null
+            - occurrenceId: occ:1587546
+              originalIdentifiedName: Jinzhouornis zhangjiyingia n. sp.
+              acceptedName: Confuciusornis sanctus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-090ecbd575
+        part: body
+      en:
+        page: en
+        section: s-2d4a2ba735
+        part: body

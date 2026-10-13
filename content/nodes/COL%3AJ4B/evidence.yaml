@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alcalinae Brown, Siler, Richards, Diesmos & Cannatella, 2015
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Alcalinae
+      zh: Alcalinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-074906fdc3
+            part: title
+          zh:
+            page: zh
+            section: s-9e8b576547
+            part: title
+        text:
+          en:
+            page: en
+            section: s-074906fdc3
+            part: body
+          zh:
+            page: zh
+            section: s-9e8b576547
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b97ca66d13
+            part: title
+          zh:
+            page: zh
+            section: s-471b72df02
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b97ca66d13
+            part: body
+          zh:
+            page: zh
+            section: s-471b72df02
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-3fddd43f76
+            part: title
+          zh:
+            page: zh
+            section: s-8b28bb4dff
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: RKB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ARKB
+            label:
+              en: Alcalus
+              zh: Alcalus
+        text:
+          en:
+            page: en
+            section: s-3fddd43f76
+            part: body
+          zh:
+            page: zh
+            section: s-8b28bb4dff
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Alcalinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/J4B
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b72166ed48
+        part: body
+      zh:
+        page: zh
+        section: s-1e8a441d82
+        part: body

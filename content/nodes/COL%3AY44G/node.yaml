@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus mcdonaldi
+  displayName: Cophixalus mcdonaldi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44G
+  sourceIndexes:
+    - name:
+        en: Cophixalus mcdonaldi
+        zh: Cophixalus mcdonaldi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/459
+            queryName: Cophixalus mcdonaldi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cd2aa70f02
+      - s-effd17638f
+      - s-12ac539eb2
+      - s-a073ce7f02
+      - s-c10a2bdba3
+      - s-2b318d36c4
+      - s-bf3eab008f
+      - s-1b5e6c3065
+      - s-91007ddd26
+      - s-f59bf43700
+      - s-0cddde478e
+      - s-05fe34be06
+      - s-0e6b60a2ba
+      - s-fa3fc8d2d7
+    zh:
+      - s-d9a84b4e93
+      - s-5f5022781c
+      - s-8ef53cae2b
+      - s-1db67c7b4e
+      - s-b21fedcb1d
+      - s-20686d4e1c
+      - s-fe3d4f286b
+      - s-1f4c094ff9
+      - s-a40c2cbffe
+      - s-1633d4e593
+      - s-e6188cef1d
+      - s-c06d861699
+      - s-f16d8e1503
+      - s-edc97d3005

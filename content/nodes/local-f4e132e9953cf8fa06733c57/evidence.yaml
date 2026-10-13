@@ -1,0 +1,473 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Rhacophorus nigropalmatus
+    name:
+      en: Rhacophorus nigropalmatus
+      zh: Rhacophorus nigropalmatus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The source tadpole concept
+          zh: 来源中的蝌蚪概念
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-54b06e3d0b
+            part: body
+          zh:
+            page: zh
+            section: s-77a1cbc281
+            part: body
+      - topic: morphology
+        title:
+          en: Developmental material
+          zh: 发育阶段材料
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-781860b19a
+            part: body
+          zh:
+            page: zh
+            section: s-10862e3eec
+            part: body
+      - topic: morphology
+        title:
+          en: Selected image-derived proportions
+          zh: 选列的图像比例
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-2bb6cae204
+            part: body
+          zh:
+            page: zh
+            section: s-992bc5302c
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 5049, 5050; Picture measurement data rows 1686, 1687; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Rhacophoridae
+      genus: Rhacophorus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows:
+      - rowNumber: 5049
+        values:
+          - "Das, I., Hedeir, H., Pui, Y. M., Hertwig, S. T., & Haas, A. (2016). Larval external morphology and development in Feihyla kajau (Dring, 1983)(Amphibia: Anura: Rhacophoridae). Raffles Bulletin of Zoology, 64, 319-328."
+          - Rhacophorus nigropalmatus
+          - Rhacophoridae
+          - Rhacophorus
+          - Rhacophorus nigropalmatus
+          - null
+          - 39
+          - 50
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+      - rowNumber: 5050
+        values:
+          - "Grosjean, S., & Inthara, C. (2016). Molecular identifications and descriptions of the tadpoles of Rhacophorus kio Ohler & Delorme, 2006 and Rhacophorus rhodopus Liu & Hu, 1960 (Amphibia: Anura: Rhacophoridae). Zoosystema, 38(2), 267-282."
+          - Rhacophorus nigropalmatus
+          - Rhacophoridae
+          - Rhacophorus
+          - Rhacophorus nigropalmatus
+          - null
+          - 36
+          - 39
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+    originalImageRows:
+      - rowNumber: 1686
+        values:
+          - "Haas, A., Das, I., Hertwig, S. T., Bublies, P., & Schulz-Schaeffer, R. (2022). A Guide to the Tadpoles of Borneo: tredition."
+          - Ratio
+          - Color image
+          - Rhacophorus nigropalmatus
+          - Rhacophoridae
+          - Rhacophorus
+          - Rhacophorus nigropalmatus
+          - 30
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.327073847563111
+          - 0.672010130129051
+          - 0.193038230460436
+          - 0.217151170622626
+          - 0.0884769782040574
+          - 0.0742247487674112
+          - 0.0580865910499232
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 1687
+        values:
+          - "Haas, A., Das, I., Hertwig, S. T., Bublies, P., & Schulz-Schaeffer, R. (2022). A Guide to the Tadpoles of Borneo: tredition."
+          - Ratio
+          - Color image
+          - Rhacophorus nigropalmatus
+          - Rhacophoridae
+          - Rhacophorus
+          - Rhacophorus nigropalmatus
+          - 36 (Judging based on the picture)
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.334255202628697
+          - 0.663116100766703
+          - 0.157119386637459
+          - 0.202546549835706
+          - 0.1026286966046
+          - 0.0635815991237678
+          - 0.0526834611171961
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies: []
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.327073847563111
+        row: 1686
+        stage: 30
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.672010130129051
+        row: 1686
+        stage: 30
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.193038230460436
+        row: 1686
+        stage: 30
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.217151170622626
+        row: 1686
+        stage: 30
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0884769782040574
+        row: 1686
+        stage: 30
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6X5RD
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

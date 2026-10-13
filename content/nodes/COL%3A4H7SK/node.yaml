@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllomedusa tetraploidea
+  displayName: Phyllomedusa tetraploidea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7SK
+  sourceIndexes:
+    - name:
+        en: Phyllomedusa tetraploidea
+        zh: Phyllomedusa tetraploidea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7SK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/279
+            queryName: Phyllomedusa tetraploidea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 276
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51b8f67fb9
+      - s-93168b76aa
+      - s-7628b4a15b
+      - s-7115ad3a99
+      - s-3bef010d30
+      - s-ce86f95aa0
+      - s-d7b613fc9f
+      - s-883b857c49
+      - s-be471d7891
+      - s-694e92f6c8
+    zh:
+      - s-f9b121699b
+      - s-b123819bdf
+      - s-3567242f5e
+      - s-5a14baffde
+      - s-b822bd47fc
+      - s-8907af4f3f
+      - s-25f14ca55e
+      - s-d656daf9bb
+      - s-0de1b1adef
+      - s-2a26501310

@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus infraguttatus
+  displayName: Hyloxalus infraguttatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXD
+  sourceIndexes:
+    - name:
+        en: Hyloxalus infraguttatus
+        zh: Hyloxalus infraguttatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/105
+            queryName: Hyloxalus infraguttatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/100
+            queryName: Colostethus infraguttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/190
+            queryName: Phyllobates infraguttatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a5c3795217
+      - s-b666507c95
+      - s-9a34eb5828
+      - s-3597cf8dc7
+      - s-b4be2403c1
+      - s-feaa880050
+      - s-c6840c691a
+      - s-a5d60a9b0e
+      - s-3ee820c181
+      - s-ccc4a54646
+      - s-f4cc0b22c5
+      - s-86763a8afe
+      - s-d07dd717d9
+      - s-fbd597ee22
+      - s-6b3d91143d
+      - s-9516889c9e
+      - s-5a8683bf27
+    zh:
+      - s-f8b9d0e924
+      - s-d59ce42917
+      - s-485ca4e9d5
+      - s-88b8b97e83
+      - s-3c057e693a
+      - s-40bd8bb74f
+      - s-b7ff71be87
+      - s-8bebc31ca6
+      - s-0dbc996ed3
+      - s-e8a4a54a50
+      - s-06e6e0b048
+      - s-dd7decb3dd
+      - s-c849f9706d
+      - s-455e2cd18d
+      - s-090fe3a6d5
+      - s-0ebbf6e7aa
+      - s-4c76383496

@@ -1,0 +1,334 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendropsophus reticulatus (Jiménez de la Espada, 1870)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dendropsophus reticulatus
+      zh: Dendropsophus reticulatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-23eeb64f86
+            part: title
+          zh:
+            page: zh
+            section: s-423259c54f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-23eeb64f86
+            part: body
+          zh:
+            page: zh
+            section: s-423259c54f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3078a35189
+            part: title
+          zh:
+            page: zh
+            section: s-3150c5e1df
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3078a35189
+            part: body
+          zh:
+            page: zh
+            section: s-3150c5e1df
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-984b16c465
+            part: title
+          zh:
+            page: zh
+            section: s-30d9fcea26
+            part: title
+        sourceIds:
+          - primary-pmc5332023-6cl95
+        text:
+          en:
+            page: en
+            section: s-984b16c465
+            part: body
+          zh:
+            page: zh
+            section: s-30d9fcea26
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-01e11290a7
+            part: title
+          zh:
+            page: zh
+            section: s-7f295d9061
+            part: title
+        sourceIds:
+          - primary-pmc5332023-6cl95
+        text:
+          en:
+            page: en
+            section: s-01e11290a7
+            part: body
+          zh:
+            page: zh
+            section: s-7f295d9061
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-21701b8061
+            part: title
+          zh:
+            page: zh
+            section: s-217463bf33
+            part: title
+        sourceIds:
+          - primary-pmc5332023-6cl95
+        text:
+          en:
+            page: en
+            section: s-21701b8061
+            part: body
+          zh:
+            page: zh
+            section: s-217463bf33
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ecbcb882e8
+            part: title
+          zh:
+            page: zh
+            section: s-97ccb72256
+            part: title
+        sourceIds:
+          - primary-pmc5332023-6cl95
+        text:
+          en:
+            page: en
+            section: s-ecbcb882e8
+            part: body
+          zh:
+            page: zh
+            section: s-97ccb72256
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-39d2b9119e
+            part: title
+          zh:
+            page: zh
+            section: s-a43093d3b8
+            part: title
+        sourceIds:
+          - primary-pmc5332023-6cl95
+        text:
+          en:
+            page: en
+            section: s-39d2b9119e
+            part: body
+          zh:
+            page: zh
+            section: s-a43093d3b8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendropsophus reticulatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/6CL95
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc5332023-6cl95
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dendropsophus reticulatus: Resurrection of reticulata as reticulatus clade C, large sex-specific diagnostic sample, live/preserved variation, advertisement/aggressive calls, partly contradictory elevation and conservation text; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-cf0a34b562
+        part: body
+      zh:
+        page: zh
+        section: s-8803354edb
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0171785
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        sourceKey: primary-pmc5332023-6cl95
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5332023/article.xml
+        sourceConcept: Dendropsophus reticulatus
+        evidenceRead: "Dendropsophus reticulatus: Resurrection of reticulata as reticulatus clade C, large sex-specific diagnostic sample, live/preserved variation, advertisement/aggressive calls, partly contradictory elevation and conservation text; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Reticulata was removed from triangulum synonymy
+              zh: reticulata 被移出 triangulum 的同物异名
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-6cl95
+            locator: PMC5332023 reading-sections section 8 paragraph 1; section 12 paragraphs 0–3, 17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-636fe5ef12
+                part: body
+              zh:
+                page: zh
+                section: s-e9fb66547b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Broad colour variation in a relatively large measured series
+              zh: 较大测量系列中的广泛体色变化
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-6cl95
+            locator: PMC5332023 reading-sections section 12 paragraphs 5, 7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a6163ff610
+                part: body
+              zh:
+                page: zh
+                section: s-f9e5caf1cd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Introductory notes and secondary notes must remain distinct
+              zh: 引导音符与次级音符须分别处理
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-6cl95
+            locator: PMC5332023 reading-sections section 12 paragraphs 10–11; section 1 paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-86b72a7690
+                part: body
+              zh:
+                page: zh
+                section: s-289066b0ea
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Forest and clearing records with an elevation-report discrepancy
+              zh: 森林与空地记录及海拔报告差异
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-6cl95
+            locator: PMC5332023 reading-sections section 12 paragraphs 12–13
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c5da63dd0f
+                part: body
+              zh:
+                page: zh
+                section: s-77c07caa9f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: conservation
+            heading:
+              en: A historical range polygon is not occupied habitat
+              zh: 历史分布多边形不是全部已占据生境
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-6cl95
+            locator: PMC5332023 reading-sections section 12 paragraph 16; section 1 paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f7d3dbcd01
+                part: body
+              zh:
+                page: zh
+                section: s-2995cafd79
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

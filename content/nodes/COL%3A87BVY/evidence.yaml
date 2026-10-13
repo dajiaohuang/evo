@@ -1,0 +1,85 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-e5322b104c
+          part: title
+        zh:
+          page: zh
+          section: s-5cd6c5781f
+          part: title
+      text:
+        en:
+          page: en
+          section: s-e5322b104c
+          part: body
+        zh:
+          page: zh
+          section: s-5cd6c5781f
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-37d120363c
+          part: title
+        zh:
+          page: zh
+          section: s-a47b9e1f67
+          part: title
+      text:
+        en:
+          page: en
+          section: s-37d120363c
+          part: body
+        zh:
+          page: zh
+          section: s-a47b9e1f67
+          part: body
+  atlas-node:
+    name: Terebratulida
+    commonName: Terebratulids
+    commonNameZh: 穿孔贝类
+    rank: order
+    taxonId: txn:29979
+    firstAppearance: 409
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:terebratulida
+      claimKind: scientific
+      claimType: morphology
+      statement: Three-dimensional geometric morphometrics of long-looped brachidia tests species assignments in selected living terebratulides; this sample does not characterize all Terebratulida or their fossil duration.
+      confidence: medium
+      confidenceRationale: Quantified three-dimensional landmarks support the species-level test, while narrow living-taxon sampling prevents order-wide extrapolation.
+      referenceLinks:
+        - referenceId: lopez-carranza-carlson-2019-terebratulides
+          relation: supports
+          pages: e0225528
+          quoteLocator: Figures 2–8; geometric-morphometric methods and results
+  claim-rationales.zh:
+    - 量化三维标志点支持物种级检验，但狭窄的现生类群取样阻止了目级外推。
+  claim-statements.zh:
+    - 对长环腕骨进行三维几何形态测量，检验了部分现生穿孔贝类的物种归属；该样本不代表全部穿孔贝目，也不界定其化石延续时间。
+  ranges:
+    - entityId: terebratulida
+      rangeKind: global-composite
+      taxonomicConcept: Terebratulida — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former 409 Ma–present display is withdrawn because the cited morphometric study samples selected living species and supplies no fossil first-appearance endpoint. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: The study is fit for extant species assignment and brachidium morphology, not an order-wide temporal range.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: lopez-carranza-carlson-2019-terebratulides
+          locator: Article e0225528; Materials and methods; Table 1; Figure 2; S1 Table; 58 museum individuals from eight living species

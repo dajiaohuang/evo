@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nyctibatrachus minor
+    name:
+      en: Nyctibatrachus minor
+      zh: Nyctibatrachus minor
+    sourceClassification:
+      order: Anura
+      family: Nyctibatrachidae
+      genus: Nyctibatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Nyctibatrachus minor in the version 3 classification
+          zh: Nyctibatrachus minor 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-28e3a39a5b
+            part: body
+          zh:
+            page: zh
+            section: s-5dc8dd867c
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 12 populated trait fields
+          zh: 2 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-537fcf66eb
+            part: body
+          zh:
+            page: zh
+            section: s-7766690f1a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3596, 3597; Reference.csv rows 912
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3596
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus minor
+          - F
+          - "20.5"
+          - "8.9"
+          - "8"
+          - "2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - "4.8"
+          - "3.2"
+          - NA
+          - "10"
+          - NA
+          - "9.5"
+          - "9.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.6"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3597
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus minor
+          - M
+          - "16.7"
+          - "6.8"
+          - "7.1"
+          - "1.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.8"
+          - NA
+          - "4.1"
+          - "3.1"
+          - NA
+          - "8.4"
+          - NA
+          - "8.4"
+          - "8.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.5"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 912
+        values:
+          - Anura
+          - Nyctibatrachus_minor
+          - "Biju, S. D., Bocxlaer, I. V., Mahony, S., Dinesh, K. P., Radhakrishnan, C., Zachariah, A., . . . Bossuyt, F. (2011). A taxonomic review of the Night Frog genus Nyctibatrachus Boulenger, 1882 in the Western Ghats, India (Anura: Nyctibatrachidae) with description of twelve new species. Zootaxa, 3029(1). https://doi.org/10.11646/zootaxa.3029.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 485GG
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

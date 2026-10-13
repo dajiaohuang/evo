@@ -1,0 +1,209 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Thaumastosaurus bottii
+    rank: species
+    sourceTaxonId: txn:346345
+    name:
+      en: Thaumastosaurus bottii
+      zh: Thaumastosaurus bottii
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-9cec35df3b
+            part: body
+          zh:
+            page: zh
+            section: s-f277ab3627
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-88e1dba211
+            part: body
+          zh:
+            page: zh
+            section: s-d447754bef
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-12ef7e73ed
+            part: body
+          zh:
+            page: zh
+            section: s-6d6cf66038
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:346345; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J.-C. Rage. 1988. The oldest known colubrid snakes. The state of the art. Acta Zoologica Cracoviensia 31(13):457-474
+    occurrenceEvidence:
+      - occurrenceId: occ:1341212
+        collectionId: col:179194
+        acceptedTaxonId: txn:346345
+        identifiedName: Thaumastosaurus bottii n. sp.
+        taxonomicDifference: null
+        referenceId: ref:60203
+        bibliography: "J.-C. Rage. 2006. The lower vertebrates from the Eocene and Oligocene of the Phosphorites du Quercy (France): an overview. Strata 1(13):161-173"
+        locality:
+          countryCode: FR
+          stateProvince: Languedoc-Roussillon-Midi-Pyrénées
+          county: Lot
+        stratigraphy:
+          group: null
+          formation: Quercy Phosphorites
+          member: null
+        olderAgeMa: 37.71
+        youngerAgeMa: 15.98
+      - occurrenceId: occ:1416426
+        collectionId: col:182607
+        acceptedTaxonId: txn:346345
+        taxonomicDifference: null
+        referenceId: ref:66667
+        bibliography: "D. Vasilyan. 2018. Eocene Western European endemic genus Thaumastosaurus: new insights into the question \"Are the Ranidae known prior to the Oligocene?''. PeerJ 6:e5511:1-24"
+        locality:
+          countryCode: CH
+          stateProvince: Canton de Vaud
+          county: Mormont
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 41.03
+        youngerAgeMa: 37.71
+      - occurrenceId: occ:1416427
+        collectionId: col:182385
+        acceptedTaxonId: txn:346345
+        taxonomicDifference: null
+        referenceId: ref:66667
+        bibliography: "D. Vasilyan. 2018. Eocene Western European endemic genus Thaumastosaurus: new insights into the question \"Are the Ranidae known prior to the Oligocene?''. PeerJ 6:e5511:1-24"
+        locality:
+          countryCode: CH
+          stateProvince: Jura
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 41.03
+        youngerAgeMa: 37.71
+      - occurrenceId: occ:1416433
+        collectionId: col:195853
+        acceptedTaxonId: txn:346345
+        taxonomicDifference: null
+        referenceId: ref:66667
+        bibliography: "D. Vasilyan. 2018. Eocene Western European endemic genus Thaumastosaurus: new insights into the question \"Are the Ranidae known prior to the Oligocene?''. PeerJ 6:e5511:1-24"
+        locality:
+          countryCode: CH
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 37.71
+        youngerAgeMa: 33.9
+      - occurrenceId: occ:1416437
+        collectionId: col:195854
+        acceptedTaxonId: txn:346345
+        taxonomicDifference: null
+        referenceId: ref:66667
+        bibliography: "D. Vasilyan. 2018. Eocene Western European endemic genus Thaumastosaurus: new insights into the question \"Are the Ranidae known prior to the Oligocene?''. PeerJ 6:e5511:1-24"
+        locality:
+          countryCode: CH
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 37.71
+        youngerAgeMa: 33.9
+      - occurrenceId: occ:1416443
+        collectionId: col:195855
+        acceptedTaxonId: txn:346345
+        taxonomicDifference: null
+        referenceId: ref:66667
+        bibliography: "D. Vasilyan. 2018. Eocene Western European endemic genus Thaumastosaurus: new insights into the question \"Are the Ranidae known prior to the Oligocene?''. PeerJ 6:e5511:1-24"
+        locality:
+          countryCode: CH
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 37.71
+        youngerAgeMa: 33.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-12ef7e73ed
+            part: body
+          zh:
+            page: zh
+            section: s-6d6cf66038
+            part: body
+        sourceIds: []

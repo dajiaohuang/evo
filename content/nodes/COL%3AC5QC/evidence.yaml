@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alouatta guariba (Humboldt, 1812)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 棕吼猴
+      en: Brown Howler
+    sections:
+      - topic: ecology
+        sourceIds:
+          - chavesdiaz2026
+        text:
+          en:
+            page: en
+            section: s-88d107ccc8
+            part: body
+          zh:
+            page: zh
+            section: s-e84deaf129
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-15befcf5df
+            part: body
+          en:
+            page: en
+            section: s-2c9928fc85
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-28d2d22a8e
+            part: body
+          en:
+            page: en
+            section: s-37cb82be87
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f18782c208
+            part: body
+          en:
+            page: en
+            section: s-85c1783136
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-31a8968326
+            part: body
+          en:
+            page: en
+            section: s-4a330a389f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Alouatta guariba (Humboldt, 1812)
+            zh: 生命名录 COL26.8 — Alouatta guariba (Humboldt, 1812)
+          url: https://www.checklistbank.org/dataset/316115/taxon/C5QC
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent link; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-a42d7b2b-1542-836e-a002-ddcef553a776
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common-name crosswalk only; not occurrence, ecology or a complete range.
+            zh: 仅支持所选英文普通名交叉表；不提供出现记录、生态或完整分布证据。
+      - id: chavesdiaz2026
+        referenceId: ref-e6fb6918-d6f1-86cd-a4f4-753311a1c75f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Observational study of one group at Carlos Botelho State Park, São Paulo, from August 2023 to January 2024; 37 follow days, including 22 full tracking days.
+            zh: 巴西圣保罗州 Carlos Botelho 国家公园一个猴群的观察研究，2023 年 8 月至 2024 年 1 月；跟踪 37 天，其中 22 天完整记录移动。
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 626; Scientific=Alouatta guariba; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups:
+            - group: diet
+              certainty: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+          readerFieldCautions:
+            - fieldGroup: diet
+              sourceCode: D1
+              reason: uncertainty/interpolation, unresolved source labels or unusable category values
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-3816000b26
+        part: body
+      zh:
+        page: zh
+        section: s-9cd8da9f9f
+        part: body

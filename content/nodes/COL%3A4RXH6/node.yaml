@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus marmoridorsum
+  displayName: Rhacophorus marmoridorsum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXH6
+  sourceIndexes:
+    - name:
+        en: Rhacophorus marmoridorsum
+        zh: Rhacophorus marmoridorsum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXH6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/240
+            queryName: Rhacophorus marmoridorsum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-381bece371
+      - s-4022400b51
+      - s-06bed61c10
+      - s-3293514ecb
+      - s-799ec3b1ba
+    zh:
+      - s-fee38af5b7
+      - s-f8415bc383
+      - s-9e8909a6ae
+      - s-6d7e32d1d3
+      - s-2dca83bd33

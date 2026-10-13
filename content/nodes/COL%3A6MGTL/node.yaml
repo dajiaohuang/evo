@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium iaspidiense
+  displayName: Hyalinobatrachium iaspidiense
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MGTL
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium iaspidiense
+        zh: Hyalinobatrachium iaspidiense
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MGTL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/323
+            queryName: Hyalinobatrachium iaspidiense
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/45
+            queryName: Hyalinobatrachium nouraguensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/40
+            queryName: Hyalinobatrachium nouraguense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/485
+            queryName: Centrolenella iaspidiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/486
+            queryName: Centrolene iaspidiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c8fd3cbda5
+      - s-051e23b861
+      - s-f0f91be21c
+      - s-855a77d502
+      - s-6ebe17082c
+      - s-c644fe18e7
+      - s-efec594010
+      - s-6fd8c29124
+      - s-e38c11b8c0
+      - s-61778e344a
+      - s-a7baa4e2c7
+      - s-09e99be7ea
+      - s-bdd8cf2c50
+      - s-c2ed6505ed
+      - s-5e5de7fa01
+      - s-c36be2f8ee
+      - s-9757427a70
+      - s-9a7e94e2a3
+      - s-6085e9d488
+      - s-ea7fa3a711
+      - s-b46596a422
+      - s-c7183b3a32
+    zh:
+      - s-ea441a460f
+      - s-e8dd861552
+      - s-063a666b0e
+      - s-947ca52c67
+      - s-15f3a812b7
+      - s-042302c6a3
+      - s-9e04844f0c
+      - s-4b6f9b8e3d
+      - s-66de9830ff
+      - s-aaee4a808c
+      - s-79d294c3b7
+      - s-f13b8cd5e9
+      - s-3a0f4fd79c
+      - s-a488faf617
+      - s-2bda2b1656
+      - s-0b1ea3f81a
+      - s-2a99b823df
+      - s-753ada8a6b
+      - s-7b1a132c83
+      - s-de521cd454
+      - s-d46a8c926c
+      - s-35a1284ea9

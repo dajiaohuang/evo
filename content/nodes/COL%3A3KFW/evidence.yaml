@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cephalopachus Swainson, 1835
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Western tarsier genus
+      zh: 西方眼镜猴属
+    sections:
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-0146792029
+            part: body
+          zh:
+            page: zh
+            section: s-4cb1a949df
+            part: body
+        sourceIds:
+          - taxonomy
+          - speciesTaxonomy
+          - belitung2021
+          - welman2017
+    sources:
+      - id: taxonomy
+        referenceId: ref-46f28d6d-1327-8c20-a8a6-3c352796fb56
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted genus name, authorship, and rank under COL26.8 ID 3KFW.
+            zh: 固定 COL26.8 下接受属名、作者和等级（ID 3KFW）。
+      - id: speciesTaxonomy
+        referenceId: ref-85d77e1c-faf4-8e44-a5af-b04a4b67c4d8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects the accepted C. bancanus page SDLD under genus ID 3KFW.
+            zh: 将接受种 C. bancanus 页面 SDLD 接入属级 ID 3KFW。
+      - id: belitung2021
+        referenceId: ref-e9d6105c-3f1c-86bd-a3ac-6aa5b1583cd7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Local undergraduate thesis on C. b. saltator linked from C. bancanus; not a genus-wide account.
+            zh: 连接自 C. bancanus 页的 C. b. saltator 局地本科研究；不是属级综述。
+      - id: welman2017
+        referenceId: ref-3b4e27f5-7e2a-85b0-add8-89a10b6847f1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Sama Jaya thermoregulation study linked from C. bancanus; field core-temperature sample was limited to one male and one female.
+            zh: 连接自 C. bancanus 页的 Sama Jaya 体温调节研究；野外核心体温样本限于一雄一雌。
+    limitations:
+      en:
+        page: en
+        section: s-334c8fc084
+        part: body
+      zh:
+        page: zh
+        section: s-bec09c40f9
+        part: body

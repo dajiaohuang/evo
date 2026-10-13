@@ -1,0 +1,253 @@
+schemaVersion: 1
+records:
+  amphibio-source-reader:
+    scientificName: Pseudacris maculata
+    sourceRowId: Anf2575
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Pseudacris
+    name:
+      en: Pseudacris maculata
+      zh: Pseudacris maculata
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Source classification and concept status
+          zh: 来源分类与物种概念
+        sourceIds:
+          - amphibio
+        text:
+          en:
+            page: en
+            section: s-2aa1739033
+            part: body
+          zh:
+            page: zh
+            section: s-ef6c14e8b9
+            part: body
+      - topic: ecology
+        title:
+          en: Foraging categories (fossorial and terrestrial)
+          zh: 觅食类别（穴居与陆栖）
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-d74b1b4ab6
+            part: body
+          zh:
+            page: zh
+            section: s-39dd127aee
+            part: body
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en: Adult food category (arthropods)
+          zh: 成体食物类别（节肢动物）
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-2fe386770a
+            part: body
+          zh:
+            page: zh
+            section: s-08766049d3
+            part: body
+      - topic: ecology
+        title:
+          en: Activity periods (daytime, night and twilight)
+          zh: 活动时段（白天、夜间与晨昏）
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+          - Crepu
+        text:
+          en:
+            page: en
+            section: s-2113705a2c
+            part: body
+          zh:
+            page: zh
+            section: s-fac8cc5628
+            part: body
+      - topic: ecology
+        title:
+          en: Seasonal activity (wet and warm)
+          zh: 季节活动类别（湿暖）
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-cba7421ccb
+            part: body
+          zh:
+            page: zh
+            section: s-c7b661b185
+            part: body
+      - topic: morphology
+        title:
+          en: Maximum adult snout–vent length
+          zh: 最大成体吻肛长
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-85850c461c
+            part: body
+          zh:
+            page: zh
+            section: s-467cef0650
+            part: body
+      - topic: lifeHistory
+        title:
+          en: Life-history measures (age at maturity, maximum lifespan, litter size, offspring-or-egg size)
+          zh: 生活史记录（性成熟年龄、最大寿命、每窝数量、后代或卵尺寸）
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-9cce5bdd65
+            part: body
+          zh:
+            page: zh
+            section: s-bdbb2c2175
+            part: body
+    sources:
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2575; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2575 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+    originalBibliography: Wells 2007;Wright and Wright 1949;Han and Fu 2013;Duellman 1997;Dodd 2013
+    bibliographyAlignment:
+      status: unique-within-source-tuple
+      method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+      dataRowId: Anf2575
+      bibliographyRowId: Anf2575
+      sameIdNameMismatch: false
+      originalSameIdScientificName: Pseudacris maculata
+      candidateBibliographyRowIds:
+        - Anf2575
+    originalValues:
+      id: Anf2575
+      Order: Anura
+      Family: Hylidae
+      Genus: Pseudacris
+      Species: Pseudacris maculata
+      Fos: "1"
+      Ter: "1"
+      Aqu: NA
+      Arb: NA
+      Leaves: NA
+      Flowers: NA
+      Seeds: NA
+      Fruits: NA
+      Arthro: "1"
+      Vert: NA
+      Diu: "1"
+      Noc: "1"
+      Crepu: "1"
+      Wet_warm: "1"
+      Wet_cold: NA
+      Dry_warm: NA
+      Dry_cold: NA
+      Body_mass_g: NA
+      Age_at_maturity_min_y: "1"
+      Age_at_maturity_max_y: "2"
+      Body_size_mm: "52"
+      Size_at_maturity_min_mm: NA
+      Size_at_maturity_max_mm: NA
+      Longevity_max_y: "6"
+      Litter_size_min_n: "137"
+      Litter_size_max_n: "1459"
+      Reproductive_output_y: NA
+      Offspring_size_min_mm: "0.7"
+      Offspring_size_max_mm: "1.3"
+      Dir: NA
+      Lar: NA
+      Viv: NA
+      OBS: NA
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4NH9N
+      method: Exact scientific name, family and order candidate selection only; no equivalence asserted.
+    limitations:
+      en: This is a reader for a deposited trait compilation. NA remains missing data; unlisted categories are not inferred absent. Per-trait primary citations, modern taxonomic reconciliation and seven-facet scientific dossier review remain incomplete.
+      zh: 本页是存档性状汇编的读本。NA 保留为缺失数据；未列出的类别不能据此推断为不存在。逐性状原始出处、现代分类概念核对及七主题科学档案审阅尚未完成。

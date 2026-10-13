@@ -1,0 +1,19 @@
+## Which fossil records this name represents {#s-7eff5f080b}
+Loxodonta atlantica is accepted in the fixed PBDB mammalia working roster, with database parent Loxodonta. This guide uses 7 eligible species-level occurrence records from 7 collections and 7 reference identifiers. Occurrences, collections and references are different units, not specimen or individual counts.
+
+## Begin with named collections and strata {#s-e3fe334aa0}
+Collection Doukkala II, region code MA; database age bracket 2.58–0.0117 Ma, early interval Pleistocene. Collection Tighenif-general, region code DZ; database age bracket 1.8–0.774 Ma, early interval Calabrian. Collection Omo - L.161, region code ET, stratum name Shungura; database age bracket 2.58–1.8 Ma, early interval Gelasian. Locality names, region codes and stratigraphic names retain the source wording. This is not a complete species distribution list, and presence in one region does not prove absence elsewhere.
+
+## Age bounds of these records {#s-22b4e78607}
+Selected occurrences have an outer age envelope of 2.58–0.0117 Ma, where Ma denotes millions of years ago. It combines the oldest early bound and youngest late bound among selected records, rather than a continuous record at every time or measured species origin, extinction or individual lifespan. Each collection retains its own age bracket. Broad intervals are not narrowed to precise specimen ages, and original dating interpretations are not revised here.
+One record supplying the older envelope bound is Doukkala II, occurrence occ:219143 (2.58–0.0117 Ma); one supplying the younger bound is Doukkala II, occurrence occ:219143 (2.58–0.0117 Ma). These are collection-age bounds, not endpoints of species survival.
+
+## Read preservation setting separately from living habitat {#s-ef4b795ea7}
+Doukkala II has collection-environment label cave; collection preservation-mode label body. Tighenif-general has collection-environment label lacustrine indet.; collection preservation-mode label body. These describe database collection settings and assemblages. A depositional setting does not determine this species’ diet or habitat, and an assemblage label does not describe every fossil individually. Unfilled source fields remain unfilled.
+
+## Follow collection records back to references {#s-b7844cbe5b}
+Doukkala II carries database reference attribution Michel and Wengler (1993), identifier ref:5619. Tighenif-general carries database reference attribution Arambourg and Hoffstetter (1954), identifier ref:5647. Omo - L.161 carries database reference attribution Feibel et al. (1989), identifier ref:4486. These are abbreviated database source attributions, not completed author lists or necessarily the original species descriptions. Full rows, collection IDs, accepted/original identifications and reference IDs remain in the independent source archive. Individual papers and specimens have not been rereviewed.
+
+## Evidence limits {#s-36b1b38a94}
+This batch is a guide to PBDB occurrence records dated 2026-10-02, not a complete species monograph. Entries belong to the fixed 13958-item mammalia working roster, retain the current same name and a complete parent chain to the recorded Mammalia storage anchor, and have usable species-level occurrences without uncertain-identification qualifiers. Database accepted names can connect older combinations; that database correspondence does not decide specimen identifications or all taxonomic disputes and is not merged with same-name COL concepts. Collection sites, stratigraphic intervals, depositional settings and collection-level preservation modes have distinct meanings. They do not directly establish complete range, origin or extinction time, fixed species ecology, biological abundance or the condition of every specimen. Original descriptions, revisions, morphology, diet and behavior remain incompletely assembled;
+

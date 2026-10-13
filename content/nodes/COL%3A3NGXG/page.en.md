@@ -1,0 +1,45 @@
+## Accepted name and placement {#s-c45e020bb2}
+COL26.8 accepts Hyloxalus jacobuspetersi (Rivero, 1991) as a species. Its recorded classification places it along Anura (order) → Dendrobatidae (family) → Hyloxalus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-ddbabb0e2a}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-2b35604039}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Colostethus jacobuspetersi](../../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Dendrobatidae/Colostethus/Colostethus_jacobuspetersi/page.en.md)
+- [AmphiTherm curated snapshot: Colostethus jacobuspetersi](../../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Dendrobatidae/Colostethus/Colostethus_jacobuspetersi/page.en.md)
+
+## Hand glands in the examined adult-male evidence {#s-fc31a1d81b}
+In its preserved-specimen comparison, the study lists Hyloxalus jacobuspetersi in the adult-male specialized mucous gland table. Types I and II are scored present; types III, IV are scored absent. These scores concern specialized glands of the hand, not the absence of ordinary mucous or serous glands, and are not prevalence estimates. A zero is a scored condition in the examined material, not proof of absence in all populations, ages or reproductive states. The species-specific specimen numbers, sex/maturity breakdown and localities require Appendix S1 and Tables S1–S2, which were not retrieved here.
+
+## Gland types describe structure rather than chemical identity {#s-cd16a94ca5}
+Type I glands are chiefly alveolar, with a small lumen, a single layer of secretory cells and an incomplete myoepithelial covering; they lie near the epidermis. Type II glands have a more tubular-alveolar or tear-shaped secretory portion and are restricted to the swollen part of finger IV in the examined dendrobatids. They may be interspersed among type I glands or lie beneath them; that arrangement varies among individuals. The definitions combine morphology and histochemical reactions; they do not identify a particular secreted molecule or demonstrate a physiological effect.
+
+## Preserved material, finger numbering and staining {#s-06414ff1e0}
+No new specimens were collected for this study. Its dendrobatoid material comprised 77 specimens representing 36 source species labels; four additional specimens represented three hylodid species, and two Melanophryniscus outgroups were taken from literature. Exact preservation histories were unknown, although the authors understood the specimens to have been formalin-fixed and stored in ethanol. They usually removed one hand, decalcified it in EDTA and made 4.5 micrometre resin sections. Multiple stains tested tissue structure, neutral and acidic mucopolysaccharides, proteins and lipids. Fingers are numbered II–V under a tetrapod homology convention, so finger IV is the third of the four remaining digits. These methods describe the comparative study; they do not supply a species-specific sample size in the inspected main-text table. Appendix S1 and Tables S1–S2 remain unread, and figures were inspected only as captions.
+
+## A proposed reproductive role remains untested {#s-59e6ee59ef}
+The authors suggest that protein-containing specialized hand glands could mediate chemical courtship signals during contact with a female's head. They did not characterize the secretions, identify a pheromone, test female responses or establish whether delivery is olfactory or transdermal. Hand location and stain reactions therefore cannot certify that Hyloxalus jacobuspetersi uses a particular chemical mating mechanism, causes ovulation or oviposition, or secretes an adhesive. A lack of these gland types likewise does not prove a species lacks every form of chemical communication. Behavioral observations cited in the discussion come from earlier studies and populations, not new mating experiments in this histological comparison.
+
+## Swelling extended across the remaining fingers {#s-0d0716cdcd}
+The study observed externally visible swelling on all four fingers of the examined Hyloxalus jacobuspetersi males. In its sampled taxa, swelling on fingers II and V was restricted to this name; type I glands in other species could occur without visible swelling on those digits. That restricted comparison does not establish uniqueness among every living species or turn the structure into a demonstrated nuptial adhesion mechanism.
+
+## catalogue-profile / limitations {#s-710aa5dae0}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-afb034d91a}
+In its preserved-specimen comparison, the study lists Hyloxalus jacobuspetersi in the adult-male specialized mucous gland table. Types I and II are scored present; types III, IV are scored absent. These scores concern specialized glands of the hand, not the absence of ordinary mucous or serous glands, and are not prevalence estimates. A zero is a scored condition in the examined material, not proof of absence in all populations, ages or reproductive states. The species-specific specimen numbers, sex/maturity breakdown and localities require Appendix S1 and Tables S1–S2, which were not retrieved here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-8f0ea71622}
+Type I glands are chiefly alveolar, with a small lumen, a single layer of secretory cells and an incomplete myoepithelial covering; they lie near the epidermis. Type II glands have a more tubular-alveolar or tear-shaped secretory portion and are restricted to the swollen part of finger IV in the examined dendrobatids. They may be interspersed among type I glands or lie beneath them; that arrangement varies among individuals. The definitions combine morphology and histochemical reactions; they do not identify a particular secreted molecule or demonstrate a physiological effect.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-f6806911fb}
+No new specimens were collected for this study. Its dendrobatoid material comprised 77 specimens representing 36 source species labels; four additional specimens represented three hylodid species, and two Melanophryniscus outgroups were taken from literature. Exact preservation histories were unknown, although the authors understood the specimens to have been formalin-fixed and stored in ethanol. They usually removed one hand, decalcified it in EDTA and made 4.5 micrometre resin sections. Multiple stains tested tissue structure, neutral and acidic mucopolysaccharides, proteins and lipids. Fingers are numbered II–V under a tetrapod homology convention, so finger IV is the third of the four remaining digits. These methods describe the comparative study; they do not supply a species-specific sample size in the inspected main-text table. Appendix S1 and Tables S1–S2 remain unread, and figures were inspected only as captions.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-0779c7cad8}
+The authors suggest that protein-containing specialized hand glands could mediate chemical courtship signals during contact with a female's head. They did not characterize the secretions, identify a pheromone, test female responses or establish whether delivery is olfactory or transdermal. Hand location and stain reactions therefore cannot certify that Hyloxalus jacobuspetersi uses a particular chemical mating mechanism, causes ovulation or oviposition, or secretes an adhesive. A lack of these gland types likewise does not prove a species lacks every form of chemical communication. Behavioral observations cited in the discussion come from earlier studies and populations, not new mating experiments in this histological comparison.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-b49b7585ac}
+The study observed externally visible swelling on all four fingers of the examined Hyloxalus jacobuspetersi males. In its sampled taxa, swelling on fingers II and V was restricted to this name; type I glands in other species could occur without visible swelling on those digits. That restricted comparison does not establish uniqueness among every living species or turn the structure into a demonstrated nuptial adhesion mechanism.
+

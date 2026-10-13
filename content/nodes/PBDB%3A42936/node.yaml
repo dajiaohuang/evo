@@ -1,0 +1,31 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Basilosauridae
+  displayName: Basilosauridae
+  rank: family
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=42936
+    parentSourceIdentifier: txn:134057
+    placement: Recorded PBDB ancestry beneath the documented Mammalia storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=42936
+      placement: PBDB-recorded-ancestor-chain-supplement
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc93607b37
+      - s-0c46a90eb8
+      - s-4dd65bbf4c
+      - s-698070baff
+    zh:
+      - s-bddd97a835
+      - s-9463d6cfa4
+      - s-e5af1892fc
+      - s-fc62ad61cf

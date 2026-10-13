@@ -1,0 +1,3 @@
+## ## Filiform setae on the stem {#s-201c3972c1}
+The Brazilian Flora 2020 entry describes hirsute or strigose stems with simple hairs and unbranched, thread-like setae; branched setae, glandular hairs, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and there is no projection between pinna pairs. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a paleaceous calyx with pappus-like lobes. Corolla lobes are hairless and have one to three veins; the androecium is isostemonous, with pink filaments. These regional fields do not establish the species’ full variation.
+

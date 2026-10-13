@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes amadoi
+  displayName: Phyllodytes amadoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DG
+  sourceIndexes:
+    - name:
+        en: Phyllodytes amadoi
+        zh: Phyllodytes amadoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/252
+            queryName: Phyllodytes amadoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b59963a5a
+      - s-699a3e6ebf
+      - s-c069fc5d8b
+      - s-de41f4a6d6
+      - s-6f3b441cf0
+      - s-dd87e829ee
+      - s-c33cf8ba63
+    zh:
+      - s-2f68f2fe7e
+      - s-e511581c49
+      - s-9bb886cb1d
+      - s-fbd8fe9701
+      - s-dbf0973721
+      - s-357311e709
+      - s-043cd51190

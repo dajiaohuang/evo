@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus laevis
+  displayName: Afrixalus laevis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65FTW
+  sourceIndexes:
+    - name:
+        en: Afrixalus laevis
+        zh: Afrixalus laevis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65FTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/72
+            queryName: Afrixalus laevis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/497
+            queryName: Megalixalus laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0fee103dac
+      - s-3116295eb0
+      - s-aa093fb3e8
+      - s-abb09dc98c
+      - s-97353d9d51
+      - s-f7f5732e9e
+      - s-fe2e7fd833
+      - s-0aed5ddff4
+      - s-c0dc1392fa
+      - s-3d3993ad02
+    zh:
+      - s-4c1c3166a7
+      - s-6acb00477b
+      - s-9e7db85b19
+      - s-2c1a97fb92
+      - s-c603544c7d
+      - s-41b3348b4a
+      - s-ecb007e377
+      - s-7cc1a020fc
+      - s-9c2a6b9c91
+      - s-1fc6d333e9

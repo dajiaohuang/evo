@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:240059
+    scientificName: Lycophocyon hutchisoni
+    commonName: Lycophocyon
+    commonNameZh: 狼形兽
+    rank: genus
+    parentName: Carnivoraformes dossier route
+    extinct: true
+    geography:
+      - Santiago Formation, member C
+      - San Diego County, California
+      - United States
+    overview:
+      page: en
+      section: s-087e3565d1
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-0d4d25f335
+        part: body
+      habitat:
+        page: en
+        section: s-949b50b087
+        part: body
+      locomotion:
+        page: en
+        section: s-44c31bd951
+        part: body
+      bodySize:
+        page: en
+        section: s-f808aec743
+        part: body
+      guild:
+        page: en
+        section: s-08ba1a0cd2
+        part: body
+      dietZh:
+        page: zh
+        section: zh-50ff3ba68ad841
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-5459fb74818ad7
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-459a6544d8be5d
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-65cc0d379aada3
+        part: body
+      guildZh:
+        page: zh
+        section: zh-8276c6fc372f2d
+        part: body
+    traits:
+      - page: en
+        section: s-f7a9b8d3c0
+        part: body
+      - page: en
+        section: s-4621212dd3
+        part: body
+      - page: en
+        section: s-e8e60e0d93
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-ee27c827e9
+      part: body
+    confidence: medium
+    referenceIds:
+      - tomiya-2011-lycophocyon
+    overviewZh:
+      page: zh
+      section: s-10fe986894
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-8e3832d1fb
+      part: body
+    readerSources:
+      - id: tomiya-2011-lycophocyon
+        referenceId: tomiya-2011-lycophocyon
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: "Tomiya (2011), pp. 2–3 and 13–16, Figures 2–8, Table 3 and Appendix S3: type and referred material, local horizon, matrix-based placements, and the 83% dietary classifier for the holotype."
+            zh: Tomiya（2011），第 2–3、13–16 页，图 2–8、表 3 与附录 S3：正模及归入标本、局部层位、矩阵分析位置，以及正模的 83% 食性分类器结果。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-087e3565d1
+            part: title
+          zh:
+            page: zh
+            section: s-10fe986894
+            part: title
+        text:
+          en:
+            page: en
+            section: s-087e3565d1
+            part: body
+          zh:
+            page: zh
+            section: s-10fe986894
+            part: body
+        sourceIds:
+          - tomiya-2011-lycophocyon
+      - id: lycophocyon-evidence
+        title:
+          en:
+            page: en
+            section: s-ee27c827e9
+            part: title
+          zh:
+            page: zh
+            section: s-8e3832d1fb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ee27c827e9
+            part: body
+          zh:
+            page: zh
+            section: s-8e3832d1fb
+            part: body
+        sourceIds:
+          - tomiya-2011-lycophocyon
+    traitsZh:
+      - page: zh
+        section: zh-3fa67fccab261b
+        part: body
+      - page: zh
+        section: zh-0444e16180204d
+        part: body
+      - page: zh
+        section: zh-18f1bbd0cd75f7
+        part: body
+  claims:
+    - subjectId: taxon:lycophocyon
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Lycophocyon hutchisoni is bounded by holotype cranium UCMP 85202 and associated paratype skeletons from southern California within an approximately 46.2–42 Ma sample envelope; this is not a direct ancestry date or complete genus duration.
+      confidence: medium
+      confidenceRationale: Named specimens and comparative anatomy are direct; the basal caniform position and dietary interpretation remain matrix- and proxy-dependent.
+      referenceLinks:
+        - relation: supports
+          referenceId: tomiya-2011-lycophocyon
+          pages: Article e24146
+          figure: Figures 2–7
+          quoteLocator: Holotype and paratypes; Phylogenetic analysis
+    - subjectId: taxon:lycophocyon
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Tomiya's Paleogene-only morphology subset recovers Lycophocyon hutchisoni on the caniform branch outside crown Canoidea, whereas the broader analysis does not resolve its nearby carnivoramorphan relationships.
+      confidence: medium
+      confidenceRationale: The named specimens and both analytical outcomes are explicit; placement is matrix- and sample-dependent.
+      referenceLinks:
+        - referenceId: tomiya-2011-lycophocyon
+          relation: supports
+          pages: 13–16
+          figure: Figure 8; Appendix S3
+          quoteLocator: Cladistic Analysis; 50-taxon and Paleogene-only analyses
+    - subjectId: taxon:lycophocyon
+      claimKind: scientific
+      claimType: biogeography
+      statement: The named Lycophocyon material is reported from member C of the Santiago Formation in San Diego County, California; these localities do not establish a genus-wide North American distribution.
+      confidence: high
+      confidenceRationale: The formation, county and specimen localities are directly listed, without extrapolating their geographic scope.
+      referenceLinks:
+        - referenceId: tomiya-2011-lycophocyon
+          relation: supports
+          pages: 2–3
+          quoteLocator: Distribution; Holotype locality; Paratypes
+    - subjectId: taxon:lycophocyon
+      claimKind: scientific
+      claimType: morphology
+      statement: UCMP 85202 preserves craniodental material, while associated SDSNH specimens include cranial, mandibular and selected postcranial elements.
+      confidence: high
+      confidenceRationale: This is limited to the specimen list and does not infer whole-body performance.
+      referenceLinks:
+        - referenceId: tomiya-2011-lycophocyon
+          relation: supports
+          pages: 2–3
+          figure: Figures 2–6
+          quoteLocator: Holotype; Paratypes
+    - subjectId: taxon:lycophocyon
+      claimKind: scientific
+      claimType: ecology
+      statement: A six-variable discriminant classifier predicts carnivory for the holotype with 83% posterior probability, but this comparative model does not observe feeding, habitat, locomotion or an ecological guild.
+      confidence: medium
+      confidenceRationale: The paper reports the model and its probability, while the profile preserves its observational limits.
+      referenceLinks:
+        - referenceId: tomiya-2011-lycophocyon
+          relation: supports
+          pages: 13–14
+          figure: Figure 7; Table 3
+          quoteLocator: Dietary Inference
+  claim-rationales.zh:
+    - 具名标本和两项分析结果均有明确记录；系统位置依赖矩阵与取样。
+    - 产地、地层与标本地点由原始研究直接列出，且未外推其地理范围。
+    - 形态陈述限于已列出的颅齿、下颌和颅后标本，不推断整体运动能力。
+    - 论文报告模型及其概率，而档案保留其非观察性限制。
+    - 具名标本与比较解剖属于直接证据；基干犬型类位置和食性解释仍依赖矩阵与代理指标。
+  claim-statements.zh:
+    - Lycophocyon hutchisoni 由南加州的正模头骨 UCMP 85202 与关联副模骨架约束，处于约 4620 万—4200 万年前的样本区间；这不是直接祖先日期或完整属级延续。
+    - Tomiya 的古近纪限定形态子集将 Lycophocyon hutchisoni 恢复在犬型类支系、犬总科冠群之外，而更广泛的分析未能解析其邻近的食肉形类关系。
+    - 具名 Lycophocyon 材料报道自美国加利福尼亚州圣迭戈县圣地亚哥组 C 段；这些地点不能确立该属覆盖北美的完整分布。
+    - UCMP 85202 保存颅齿材料，相关 SDSNH 标本则包括颅骨、下颌和若干颅后骨骼。
+    - 六变量判别分类器以 83% 后验概率预测正模为食肉性，但该比较模型并未观察取食、栖息地、运动或生态类群。
+  ranges:
+    - entityId: lycophocyon
+      rangeKind: global-composite
+      taxonomicConcept: Lycophocyon hutchisoni sampled occurrence
+      geographicScope: Southern California, USA
+      olderMa: 46.2
+      youngerMa: 42
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance.
+      evidenceBasis: Holotype UCMP 85202 supplies the cranium and dentition; associated paratypes SDSNH 107446 and SDSNH 107447 add postcranial anatomy.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:lycophocyon-holotype-basal-caniform
+      referenceLocators:
+        - referenceId: tomiya-2011-lycophocyon
+          locator: e24146; Figures 2–7; Tables 1–3; Appendices S1–S3; Holotype and paratypes; Phylogenetic analysis; Dietary habits

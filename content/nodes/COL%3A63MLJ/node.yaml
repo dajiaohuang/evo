@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllobates
+  displayName: Phyllobates
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/63MLJ
+  sourceIndexes:
+    - name:
+        en: Phyllobates
+        zh: Phyllobates
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 63MLJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/167
+            queryName: Phyllobates
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 344
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-245e5d7122
+      - s-410ceec5d0
+      - s-c24540e920
+      - s-a8c6e9548e
+      - s-17c4792710
+      - s-7e53aedd90
+      - s-86c8c4dabe
+      - s-fd64394bb3
+      - s-c6f8b2a62d
+      - s-021bfc9284
+      - s-5750be3664
+      - s-bc434f49db
+      - s-b82c14b6ca
+      - s-94074c8854
+      - s-f5b439efe3
+      - s-bec952fb12
+      - s-d34a3757e3
+      - s-e87251fae1
+      - s-6f3128456c
+      - s-1b8d897f6b
+    zh:
+      - s-545afada26
+      - s-89e5366b8f
+      - s-22d32f3988
+      - s-f7abcc9a03
+      - s-c2019442fc
+      - s-49f054b8c9
+      - s-235bc67980
+      - s-34b0acb8b2
+      - s-c5b927f0a9
+      - s-bf493dc685
+      - s-3e14824f7f
+      - s-24e860f2b9
+      - s-f3c800ae72
+      - s-92c7bfc4b2
+      - s-96157b6484
+      - s-046fe7727b
+      - s-be04fb5907
+      - s-db3f73b59c
+      - s-7ca4d95da4
+      - s-928ab40bba

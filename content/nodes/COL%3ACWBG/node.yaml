@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops sinensis
+  displayName: Amolops sinensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CWBG
+  sourceIndexes:
+    - name:
+        en: Amolops sinensis
+        zh: Amolops sinensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CWBG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/404
+            queryName: Amolops sinensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1637c1ffc1
+      - s-519862eb1b
+      - s-95210cdf98
+      - s-22adb37507
+      - s-1d07af5d46
+      - s-691e685497
+      - s-1af2ea8fa4
+      - s-c70d7cc025
+    zh:
+      - s-fd3e83d15f
+      - s-54ab8965e7
+      - s-44be295de2
+      - s-5c018dba6a
+      - s-6e0d4634b5
+      - s-c01098befa
+      - s-0d787b0c77
+      - s-aa6d020453

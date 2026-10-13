@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates vaillanti
+  displayName: Lithobates vaillanti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHR5
+  sourceIndexes:
+    - name:
+        en: Lithobates vaillanti
+        zh: Lithobates vaillanti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHR5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/200
+            queryName: Lithobates vaillanti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/231
+            queryName: Rana vaillanti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/68
+            queryName: Rana bonaccana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/433
+            queryName: Rana brevipalmata rhoadsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/434
+            queryName: Rana palmipes hoffmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bdb00ca56
+      - s-4e0377f2c6
+      - s-752c420819
+      - s-e23ad77b94
+      - s-40954b85a0
+      - s-200ae0e444
+      - s-894c8bd37f
+      - s-3da605b9ba
+      - s-4630931dd5
+      - s-23aa62ddfa
+      - s-f7cc58552a
+      - s-33832ab591
+      - s-fc89e850bb
+      - s-b7080f2137
+      - s-9ea231fc62
+      - s-318544ecfc
+      - s-a58ad18ac5
+      - s-155fa8d38b
+    zh:
+      - s-126a918ef6
+      - s-b6f073a0fe
+      - s-86a66720df
+      - s-3dee7d1e79
+      - s-8f769fe0e0
+      - s-67ebbf5365
+      - s-e590cfe9f3
+      - s-fddf34226b
+      - s-21d6972f95
+      - s-ce54a822a3
+      - s-8cecfaf0d8
+      - s-fc528d699a
+      - s-5154984c27
+      - s-b4c79b23e4
+      - s-74c1b49376
+      - s-3f2d31277d
+      - s-5d0b47252b
+      - s-e1d0cb998d

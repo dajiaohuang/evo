@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Presbytis sabana (Thomas, 1893)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 沙巴灰叶猴
+      en: Sabah Grizzled Langur
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-a24b692f4f
+            part: body
+          en:
+            page: en
+            section: s-22fc1bc62e
+            part: body
+        sourceIds:
+          - taxonomy
+          - ramlee2013
+      - topic: limitations
+        text:
+          zh:
+            page: zh
+            section: s-2bc0c4cf4c
+            part: body
+          en:
+            page: en
+            section: s-5604727d38
+            part: body
+        sourceIds:
+          - ramlee2013
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Presbytis sabana (Thomas, 1893)
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MBBJ
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-8d425322-7bfd-8767-ac5c-2bb1316155f3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页采用的英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine the COL26.8 accepted classification.
+      - id: ramlee2013
+        referenceId: ref-39d4928a-3c25-8c8f-a0b0-b34d72db8f83
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持北婆罗洲研究中何氏叶猴与 P. sabana 的鸣声对照和作者的分类讨论；野外生态主要以 P. hosei 为对象。
+            en: Supports a loud-call comparison between Hose's langur and P. sabana and the author's taxonomic discussion; field ecology chiefly concerned P. hosei.
+    limitations:
+      zh:
+        page: zh
+        section: s-13e88ead12
+        part: body
+      en:
+        page: en
+        section: s-ce12cdff2d
+        part: body

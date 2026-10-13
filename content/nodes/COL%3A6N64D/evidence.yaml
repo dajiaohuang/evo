@@ -1,0 +1,474 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ichthyophis laosensis Taylor, 1969
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ichthyophis laosensis
+      zh: Ichthyophis laosensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c5f8ab86d1
+            part: title
+          zh:
+            page: zh
+            section: s-b168b65f62
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c5f8ab86d1
+            part: body
+          zh:
+            page: zh
+            section: s-b168b65f62
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-92368c90f8
+            part: title
+          zh:
+            page: zh
+            section: s-f3c4521662
+            part: title
+        text:
+          en:
+            page: en
+            section: s-92368c90f8
+            part: body
+          zh:
+            page: zh
+            section: s-f3c4521662
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e695695c94
+            part: title
+          zh:
+            page: zh
+            section: s-3011242f84
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-e695695c94
+            part: body
+          zh:
+            page: zh
+            section: s-3011242f84
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8fff2caf8d
+            part: title
+          zh:
+            page: zh
+            section: s-cf247fd1ad
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - caeciliantraits
+          - amphibian-morphology
+          - huang-2023-methods
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8fff2caf8d
+            part: body
+          zh:
+            page: zh
+            section: s-cf247fd1ad
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f19d1457e7b8de6f2c55a62d99d95b29
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.26075686.v4
+            targetPath: content/nodes/local-1b393517f64b8033d0934547
+            label:
+              en: CaecilianTraits v4 — original dataset
+              zh: CaecilianTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-e4c48d8d3677ee6d2004e1a4
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-661ce1b353
+            part: title
+          zh:
+            page: zh
+            section: s-f8cbab34f2
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-661ce1b353
+            part: body
+          zh:
+            page: zh
+            section: s-f8cbab34f2
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9a4bc6704c
+            part: title
+          zh:
+            page: zh
+            section: s-89ebf4dc1a
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-9a4bc6704c
+            part: body
+          zh:
+            page: zh
+            section: s-89ebf4dc1a
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-d145d94455
+            part: title
+          zh:
+            page: zh
+            section: s-14e85a8eab
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-d145d94455
+            part: body
+          zh:
+            page: zh
+            section: s-14e85a8eab
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3f9961a7af
+            part: title
+          zh:
+            page: zh
+            section: s-1f244c64da
+            part: title
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-3f9961a7af
+            part: body
+          zh:
+            page: zh
+            section: s-1f244c64da
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en:
+            page: en
+            section: s-e3e59ed09f
+            part: title
+          zh:
+            page: zh
+            section: s-5788b02108
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e3e59ed09f
+            part: body
+          zh:
+            page: zh
+            section: s-5788b02108
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-79ab65a0ec
+            part: title
+          zh:
+            page: zh
+            section: s-265bea97e1
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-79ab65a0ec
+            part: body
+          zh:
+            page: zh
+            section: s-265bea97e1
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        sourceReaderKind: additional-deposited-traits
+        title:
+          en:
+            page: en
+            section: s-5f3fb6b15f
+            part: title
+          zh:
+            page: zh
+            section: s-0f86528d9f
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-5f3fb6b15f
+            part: body
+          zh:
+            page: zh
+            section: s-0f86528d9f
+            part: body
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ichthyophis laosensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6N64D
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6743; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6738 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 131; Individual level data rows 504; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 87; Reference.csv rows 4384
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-68f8a494db
+        part: body
+      zh:
+        page: zh
+        section: s-2944f91e74
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-f19d1457e7b8de6f2c55a62d99d95b29
+      sourceRowId: Anf6743
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6743
+        bibliographyRowId: Anf6738
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Ichthyophis nokrekensis
+        candidateBibliographyRowIds:
+          - Anf6738
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: caecilian-traits-reader
+        path: content/nodes/local-1b393517f64b8033d0934547
+        scientificName: Ichthyophis laosensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 5
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-e4c48d8d3677ee6d2004e1a4
+        scientificName: Ichthyophis laosensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2

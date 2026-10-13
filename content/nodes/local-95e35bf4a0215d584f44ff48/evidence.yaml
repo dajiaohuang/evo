@@ -1,0 +1,240 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Rhinatrema gilbertogili
+    name:
+      en: Rhinatrema gilbertogili
+      zh: Rhinatrema gilbertogili
+    sourceClassification:
+      order: Gymnophiona
+      family: Rhinatrematidae
+      genus: Rhinatrema
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c74748ea73
+            part: body
+          zh:
+            page: zh
+            section: s-f4f13ffa4e
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-21fbc8f921
+            part: body
+          zh:
+            page: zh
+            section: s-326b67ea93
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-17d5c248d7
+            part: body
+          zh:
+            page: zh
+            section: s-d43537fd4a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 134; Reference.csv rows 4363
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 134
+        values:
+          - Rhinatrematidae
+          - Rhinatrema
+          - Rhinatrema gilbertogili
+          - NA
+          - "183"
+          - "2.1"
+          - NA
+          - NA
+          - "8.5"
+          - NA
+          - NA
+          - "270"
+          - "292"
+          - "4"
+          - NA
+          - "174"
+          - NA
+          - "5.7"
+          - NA
+          - NA
+          - "7.3"
+          - "3.7"
+          - "1.4"
+          - NA
+          - "2.7"
+          - "3.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.1"
+          - NA
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - NA
+          - "5"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4363
+        values:
+          - Gymnophiona
+          - Rhinatrema_gilbertogili
+          - "Maciel, A. O., Sampaio, M. I. C., Hoogmoed, M. S., & Schneider, H. (2018). Description of two new species of Rhinatrema (Amphibia: Gymnophiona) from Brazil and the return of Epicrionops niger to Rhinatrema. South American Journal of Herpetology, 13(3), 287-299. https://doi.org/10.2994/Sajh-D-17-00054.1"
+    availableTraitCodes:
+      - TOL
+      - TL
+      - STFG
+      - TA1
+      - TA2
+      - PVA
+      - SVL
+      - HW1
+      - BW2
+      - BW3
+      - IND
+      - EN
+      - IOD
+      - EJ
+      - C1
+      - VA
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4S7G4
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis laticlavius
+  displayName: Pristimantis laticlavius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJGF
+  sourceIndexes:
+    - name:
+        en: Pristimantis laticlavius
+        zh: Pristimantis laticlavius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJGF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/354
+            queryName: Pristimantis laticlavius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/405
+            queryName: Eleutherodactylus laticlavius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a54e55d71
+      - s-109444467e
+      - s-8b17842b43
+      - s-5388a360ba
+      - s-a099e76001
+      - s-5c574e1bcf
+      - s-c4be0e5b98
+      - s-a6e9db41cc
+      - s-6e6671e36d
+      - s-cca5d1e4e8
+    zh:
+      - s-97ced4a1bd
+      - s-e20912d697
+      - s-df88d9d23d
+      - s-aad3376ff8
+      - s-51d6b1d519
+      - s-abf94c2db6
+      - s-9af2d31d5b
+      - s-0d802cef56
+      - s-a0ef9b2948
+      - s-ca8a13f0a0

@@ -1,0 +1,13 @@
+## Aloe lettyae: spotted leaves and a branched panicle {#s-707dfabfb0}
+A South African regional account describes a solitary, stemless succulent without stolons. About 20 leaves form a dense rosette. They spread upright, are lanceolate with tapering tips, reach 45 cm long and are 9 cm wide at the base. The upper surface is slightly concave and dull green, with many dull-white spots; these are elongated and only weakly arranged in wavy crosswise bands. The lower surface is convex, dull green and faintly spotted; its spots are larger, less distinct and more often arranged in wavy crosswise bands. The margins are wavy-toothed, with firm brown triangular teeth about 3–4 mm long and 10–15 mm apart. The spaces between teeth are usually leaf-coloured, sometimes slightly horny and pale brown.
+
+The branched panicle reaches 1.75 m. Its peduncle is flattened near the base, about 3 cm across, and branches 8–12 times from around the middle. The lowest branches bear 1–3 branchlets, producing 15–20 racemes in total. The cylindrical racemes taper slightly toward their tips; the terminal raceme is highest, 20–25 cm long and 8–9 cm across. The triangular, taper-pointed bracts are about as long as the pedicels, thin and somewhat scarious, pale brown, with 3–5 veins. Pedicels are 12–15 mm long.
+
+The rose-red perianth is 38–42 mm long, with a rounded basal swelling 10–11 mm across that narrows to 6 mm above the ovary, then bends slightly downward and widens toward the throat; the mouth is faintly pale brown. The outer segments are free for 10 mm, faintly veined, with paler margins and slightly spreading, subacute tips. The inner segments are attached along the back of the outer ones for 30 mm; they are broader, with a wider white margin and blunter tips. The filaments are almost white; the three inner ones are narrower and extend ahead of the three outer ones. Reproductive organs project 1–2 mm. The green ovary is 8 mm long and 3.5 mm in diameter, with six fine grooves. The capsule is 30 mm long and 15 mm across at the middle.
+
+These characters and measurements come from a regional South African flora account cited to a 1974 publication. The excerpt gives no dated sampling frame or population frequency and does not establish variation across the full range. It does not independently classify the material as native, naturalised, cultivated or domesticated.
+
+The habitat account records long grass and growth among bushes and trees on the eastern slopes of hills and mountains.
+
+This habitat statement comes from a regional South African account cited to a 2012 publication. It gives no dated sampling frame or population frequency and does not establish habitat use across the full range.
+

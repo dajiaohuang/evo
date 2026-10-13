@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rupirana
+  displayName: Rupirana
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7B6F
+  sourceIndexes:
+    - name:
+        en: Rupirana
+        zh: Rupirana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7B6F
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/235
+            queryName: Rupirana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-efac7d061f
+      - s-f2797f1e82
+      - s-8e94ebdcf0
+      - s-e1b02544b2
+      - s-0495ad9f00
+      - s-aa54117b8a
+      - s-e00198c45a
+      - s-86b5f7b487
+      - s-7646f6734a
+      - s-ba247b9899
+      - s-43ff1b3dc4
+    zh:
+      - s-8d69a89bce
+      - s-8314f02982
+      - s-5672015777
+      - s-b69f3adcb0
+      - s-7b76bfcd4b
+      - s-0e5c80d412
+      - s-c3ddce94cb
+      - s-1f6a93dff7
+      - s-940b21206a
+      - s-d1087141cb
+      - s-2c527d88d8

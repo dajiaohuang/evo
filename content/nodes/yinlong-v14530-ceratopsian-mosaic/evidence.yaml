@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-fc20c8665a
+      part: title
+    titleZh:
+      page: zh
+      section: s-a21ec0c01f
+      part: title
+    category: origin
+    startAge: 161.2
+    endAge: 155.7
+    regions:
+      - Upper Shishugou Formation, Xinjiang, China
+    clades:
+      - Ceratopsia
+      - Ornithischia
+    summary:
+      page: en
+      section: s-fc20c8665a
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a21ec0c01f
+      part: body
+    claimIds:
+      - claim:event:yinlong-v14530-ceratopsian-mosaic
+    evidenceItems:
+      - statement: Holotype IVPP V14530 preserves a nearly complete articulated skeleton and small skull from the Shishugou Formation; its basal ceratopsian and marginocephalian implications are character-matrix results, not a direct ancestor or global ceratopsian FAD.
+        relation: supports
+        claimIds:
+          - claim:event:yinlong-v14530-ceratopsian-mosaic
+        referenceLinks:
+          - referenceId: xu-2006-yinlong
+            relation: supports
+            pages: 2135–2140
+            figure: Figures 1–3; Electronic Supplementary Material
+            quoteLocator: Systematic palaeontology; Phylogenetic analysis; Discussion
+    uncertaintyItems:
+      - statement: The atlas interval is formation-level; topology and character polarity depend on outgroups, coding and the sampled matrix.
+        relation: contextualizes
+        claimIds:
+          - claim:event:yinlong-v14530-ceratopsian-mosaic
+        referenceLinks:
+          - referenceId: xu-2006-yinlong
+            relation: supports
+            pages: 2135–2140
+            figure: Figures 1–3; Electronic Supplementary Material
+            quoteLocator: Systematic palaeontology; Phylogenetic analysis; Discussion
+  claims:
+    - subjectId: event:yinlong-v14530-ceratopsian-mosaic
+      claimKind: scientific
+      claimType: topology
+      statement: Holotype IVPP V14530 preserves a nearly complete articulated skeleton and small skull from the Shishugou Formation; its basal ceratopsian and marginocephalian implications are character-matrix results, not a direct ancestor or global ceratopsian FAD.
+      confidence: medium
+      confidenceRationale: Exceptional articulation makes the anatomy high-quality evidence, while the calibrated placement and broader character transition remain sampling-dependent interpretations.
+      referenceLinks:
+        - referenceId: xu-2006-yinlong
+          relation: supports
+          pages: 2135–2140
+          figure: Figures 1–3; Electronic Supplementary Material
+          quoteLocator: Systematic palaeontology; Phylogenetic analysis; Discussion
+  claim-rationales.zh:
+    - 出色的关节关联使解剖证据质量很高，而校准位置和更广泛的性状转变仍是依赖取样的解释。
+  claim-statements.zh:
+    - 正模 IVPP V14530 保存石树沟组近完整关节相连骨架与小型头骨；其基干角龙类及头饰龙类意义来自性状矩阵，并非直系祖先或全球角龙类首现。

@@ -1,0 +1,213 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Crocodylus affinis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Crocodylus affinis
+      en: Crocodylus affinis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbCrocodylomorphTaxonomy20261002
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bee1cc5184
+            part: body
+          en:
+            page: en
+            section: s-110872030e
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-95f2009834
+            part: body
+          en:
+            page: en
+            section: s-c54780307f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-74cd5d938d
+            part: body
+          en:
+            page: en
+            section: s-1f90625033
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-28b220473c
+            part: body
+          en:
+            page: en
+            section: s-3b2c61e856
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbCrocodylomorphOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-df4ab097ff
+            part: body
+          en:
+            page: en
+            section: s-2ad5c6fbfe
+            part: body
+    sources:
+      - id: pbdbCrocodylomorphTaxonomy20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Crocodylus affinis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=96550&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbCrocodylomorphOccurrences20261002
+        referenceId: ref-30f8d58a-bd48-4206-a2c0-6f84e8dffebf
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:96550; original response record indices retained in data/sources/crocodylomorph-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: c4a662dc45be8020da61b782b38d37ab583c35a2e4bdf978ceca29e010472ca1
+          pbdbTaxonId: txn:96550
+          selectedOccurrenceIds:
+            - occ:286295
+            - occ:286368
+            - occ:286369
+            - occ:650075
+            - occ:710094
+            - occ:807185
+            - occ:1010676
+            - occ:1010678
+            - occ:1259769
+            - occ:1259770
+            - occ:1259771
+          selectedCollectionIds:
+            - col:15837
+            - col:27269
+            - col:15665
+            - col:16228
+            - col:16656
+            - col:16282
+            - col:167354
+          sourceReferenceIds:
+            - ref:7542
+            - ref:54602
+            - ref:3806
+            - ref:23754
+            - ref:2761
+            - ref:39527
+            - ref:54603
+          originalIdentificationMappings:
+            - occurrenceId: occ:286295
+              originalIdentifiedName: '"Crocodylus" affinis'
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:286368
+              originalIdentifiedName: '"Crocodylus" affinis'
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:650075
+              originalIdentifiedName: '"Crocodylus" affinis'
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:710094
+              originalIdentifiedName: Brachyuranochampsa zangerli n. sp.
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:807185
+              originalIdentifiedName: Crocodilus clavis
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:1010676
+              originalIdentifiedName: Crocodilus liodon n. sp.
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:1010678
+              originalIdentifiedName: Crocodilus grinnelli n. sp.
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:1259769
+              originalIdentifiedName: Crocodylus affinis n. sp.
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:1259770
+              originalIdentifiedName: Crocodilus brevicollis n. sp.
+              acceptedName: Crocodylus affinis
+              difference: null
+            - occurrenceId: occ:1259771
+              originalIdentifiedName: Crocodilus grinnelli
+              acceptedName: Crocodylus affinis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-74ad863ff1
+        part: body
+      en:
+        page: en
+        section: s-2f65de6e8a
+        part: body

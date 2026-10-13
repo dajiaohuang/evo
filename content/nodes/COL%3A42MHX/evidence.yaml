@@ -1,0 +1,96 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mico humilis (M. van Roosmalen, T. van Roosmalen, Mittermeier & de Fonseca, 1998)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Black-crowned Dwarf Marmoset
+      zh: 罗兹马伦矮绒猴
+    sections:
+      - topic: distribution
+        text:
+          en:
+            page: en
+            section: s-750701cf23
+            part: body
+          zh:
+            page: zh
+            section: s-fbb7ed77c2
+            part: body
+        sourceIds:
+          - humilis2013
+      - topic: vocalization
+        text:
+          en:
+            page: en
+            section: s-da780c12a8
+            part: body
+          zh:
+            page: zh
+            section: s-217f7d5be6
+            part: body
+        sourceIds:
+          - humilis2013
+    sources:
+      - id: humilis2013
+        referenceId: ref-a3e251ef-71f6-8a72-a2f6-359e0b86359b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports two locality records, the approximate southward extension and the study's sonogram analysis; the paper uses Callibella humilis.
+            zh: 支持两处地点记录、大致向南延伸及声谱图分析；论文使用 Callibella humilis。
+      - id: mdd_name
+        referenceId: ref-cce7635f-f2a5-8ca4-a3b1-a5b73d5e7f9b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name Black-crowned Dwarf Marmoset only; it does not support the field findings or replace the pinned COL identity.
+            zh: 仅支持英文普通名 Black-crowned Dwarf Marmoset；不支持野外结论，也不替代固定的 COL 分类身份。
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 · source 2144
+            zh: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/42MHX
+          scope:
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+      - id: mdd_taxonomy
+        referenceId: ref-cce7635f-f2a5-8ca4-a3b1-a5b73d5e7f9b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Supports the MDD-listed Callibella subgenus and its note that generic placement under Mico has been treated differently among sources; pinned COL26.8 remains the page identity.
+            zh: 支持 MDD 所列 Callibella 亚属以及其关于不同来源对 Mico 属级归属处理不一的注记；本页分类身份仍依固定 COL26.8。
+    limitations:
+      en:
+        page: en
+        section: s-f864c2a9a0
+        part: body
+      zh:
+        page: zh
+        section: s-6b68f6e3b2
+        part: body

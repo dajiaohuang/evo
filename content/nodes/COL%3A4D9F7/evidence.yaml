@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Parapodium crispum N.E.Br.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4D9F7, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4D9F7; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4D9F7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4D9F7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001103318-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4D9F7 / WFO wfo-0001103318
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9280_0
+        referenceId: ref-dd342af2-2d12-85f2-a0c9-0b44b2d9730d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Parapodium crispum N.E.Br. account; archive rows 77896 (Morphology), 76891 (Diagnostic), source identifier 9280.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18101_0
+        referenceId: ref-01c7117c-4cd6-894d-a098-340281f6009b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Parapodium crispum N.E.Br. account; archive rows 89117 (Habitat), source identifier 18101.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plant about 6-8 in. high; stem simple or branching at the base only, rather stout, pubescent along two broad lines; leaves rather close together, incurved-ascending, 2 1/4-31/4 in. long, 2 1/2-5 lin. broad, linear-lanceolate, acute, narrowed into the 3 lin. long petiole at the base, coriaceous, very much crisped or undulate along the margins, glabrous on both sides; umbels several, subaxillary, 3-4-flowered; peduncles 1-2 lin. long, moderately stout; bracts subulate, 1 1/2-2 lin. long; pedicels 3-4 lin. long; sepals 3-4 lin. long, 3/4 lin. broad, gradually tapering from base to apex, glabrous; corolla 4-6 lin. in diam., 5-lobed to rather more than half-way down, glabrous on both sides; tube about 1 1/2 lin. long, globose-campanulate; lobes 2-2 1/2 lin. long, 1 1/2-1 2/3 lin. broad at the base, ovate-lanceolate, subacute, concave and somewhat incurved in their lower part, recurved at the apex; corona-lobes adnate to the corolla-lube for half their length, and in that part confluent, forming a sort of disk lining the base of the corolla-tube, apical part free, erect and rising slightly above the sinuses of the corolla, 1/2-2/3 lin. long, 1 1/6-1 1/2 lin. broad, transversely oblong, truncate, in dried flowers rather thin, flat or with the margins incurved; staminal column 1 1/2 lin. long, stout, conical; anther-appendages small, oblong, acute, loosely inflexed over and covering the small depressed-truncate style-apex; follicles not seen.
+            sourceIds:
+              - sanbi_9280_0
+            locator: "SANBI/WFO archive Morphology row 77896; source 9280.0; publication: Brown, NE. 1907. Asclepiadeae. In: WT Thiselton-Dyer (ed.), Vacciniaceae to Gentianeae, Fl. Cap. (Harvey) 4(4): 518 - 672. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15242#page/532/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: This remarkable plant bears such a close resemblance to Xysmalobium gomphocarpoides, Dietr., and Woodia mucronata, N. B. Br., as to be readily mistaken for either of them. It was distributed by Drège as Pachycarpus gomphocarpoides under letter 'a.'
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_9280_0
+            locator: "SANBI/WFO archive Diagnostic row 76891; source 9280.0; publication: Brown, NE. 1907. Asclepiadeae. In: WT Thiselton-Dyer (ed.), Vacciniaceae to Gentianeae, Fl. Cap. (Harvey) 4(4): 518 - 672. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15242#page/532/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassy hills. Upper Karoo, Sub-Escarpment Savanna, Albany Thicket.
+            sourceIds:
+              - sanbi_18101_0
+            locator: "SANBI/WFO archive Habitat row 89117; source 18101.0; publication: Nicholas, A; Glen, M; Shuttleworth, A; Bester, SP. 2019. Apocynaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(1): 321 - 417. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

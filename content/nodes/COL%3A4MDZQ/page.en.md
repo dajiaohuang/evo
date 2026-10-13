@@ -1,0 +1,3 @@
+## *Printzia huttonii*: short rays on a scrambling shrub {#s-92dfa9456a}
+The regional account describes a scrambling shrub up to 0.75 m high, with broadly lance-shaped to narrow egg-shaped leaves whose margins have spaced teeth. The leaf stalk has small ear-like lobes at its base. The ray florets are very short, usually not reaching beyond the surrounding bract cup; a comparison passage describes their ends as mostly spoon-shaped with three teeth or lobes. Ray florets are white with pink tips, while the central disc florets may be yellow or white. The account records mountain grassland in kloofs and beside watercourses.
+

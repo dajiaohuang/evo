@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis teslai
+  displayName: Pristimantis teslai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCC8Y
+  sourceIndexes:
+    - name:
+        en: Pristimantis teslai
+        zh: Pristimantis teslai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCC8Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/129
+            queryName: Pristimantis teslai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a5277adbad
+      - s-5d54d339a4
+      - s-70ffb5ec19
+      - s-ddd88050bf
+      - s-1f6d81d76e
+      - s-6474fb54e8
+      - s-7a9e12e668
+      - s-eeabde5d68
+      - s-73e1c21fd3
+      - s-b828871e93
+      - s-94f59a6d08
+      - s-9000fe41cb
+      - s-f048ec5381
+    zh:
+      - s-24ef751fda
+      - s-2cafa462ae
+      - s-f590091ad0
+      - s-fc0547c1a6
+      - s-f972371bbe
+      - s-fb95491b2b
+      - s-ec919a1660
+      - s-38d1f2bbc7
+      - s-654497d0ed
+      - s-fdf8916f3e
+      - s-95223d5ada
+      - s-0dee4ef261
+      - s-d90300d49e

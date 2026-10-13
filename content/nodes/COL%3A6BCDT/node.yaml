@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor cuaquero
+  displayName: Craugastor cuaquero
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCDT
+  sourceIndexes:
+    - name:
+        en: Craugastor cuaquero
+        zh: Craugastor cuaquero
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCDT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/108
+            queryName: Craugastor cuaquero
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/323
+            queryName: Eleutherodactylus cuaquero
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fcc8119902
+      - s-3b83dc0380
+      - s-ad125cd016
+      - s-cb7cbe6c8e
+      - s-58ea027776
+      - s-5d7fff3eb9
+      - s-952caccfc8
+      - s-fd00318bd6
+    zh:
+      - s-2a2eb35ddd
+      - s-929c5d126a
+      - s-7fef83f6a4
+      - s-b0cc150f77
+      - s-793dc9c4c5
+      - s-038d90b581
+      - s-f47c4abbb6
+      - s-691ec92239

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene robledoi
+  displayName: Centrolene robledoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9Z7
+  sourceIndexes:
+    - name:
+        en: Centrolene robledoi
+        zh: Centrolene robledoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9Z7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/200
+            queryName: Centrolene robledoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1fe59162f9
+      - s-71324e955b
+      - s-974573618a
+      - s-4d7ed2fbd5
+      - s-7b5813834e
+      - s-e96c8b5fb0
+      - s-54914342a9
+      - s-3a55bdfcb2
+    zh:
+      - s-dc406ac158
+      - s-93d679162e
+      - s-f85e2c1498
+      - s-0930f8122c
+      - s-d48a333180
+      - s-db55996f8f
+      - s-177c0d0510
+      - s-ac9448cccd

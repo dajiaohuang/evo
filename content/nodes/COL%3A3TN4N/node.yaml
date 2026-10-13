@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus fallax
+  displayName: Leptodactylus fallax
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN4N
+  sourceIndexes:
+    - name:
+        en: Leptodactylus fallax
+        zh: Leptodactylus fallax
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN4N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/383
+            queryName: Leptodactylus fallax
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 65
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b871abfdf3
+      - s-9e584980f4
+      - s-50e12a0d12
+      - s-66af65057d
+      - s-206cd1d3cb
+      - s-5d97418bd7
+      - s-4190d59186
+      - s-1b8c184a1b
+      - s-a1b7e6806b
+      - s-ece78e9edd
+      - s-e9d95979ef
+      - s-41630415e2
+      - s-dc4144cfa9
+      - s-8b2d5287c6
+      - s-ac1838028b
+      - s-2dc6855911
+      - s-a20d0ec998
+      - s-fdc64da0be
+      - s-2dbb801267
+      - s-4cc1fac5d8
+      - s-7e16cc1004
+    zh:
+      - s-5ff8a029b5
+      - s-a0ed5e10f4
+      - s-44eac1280e
+      - s-93fb54e6c6
+      - s-883988ff97
+      - s-35637a02cf
+      - s-8576597730
+      - s-46e9321ce5
+      - s-c58cebe789
+      - s-715cbfcfe0
+      - s-0a0050bd3e
+      - s-7453578151
+      - s-c9a0cdd0fb
+      - s-5774d7827c
+      - s-c119a3fce5
+      - s-f41158296b
+      - s-e32b0f55c8
+      - s-9d79986eb8
+      - s-63a674e821
+      - s-0f67aaf509
+      - s-d71a190ca5

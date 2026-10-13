@@ -1,0 +1,138 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiopus couchii
+  displayName: Scaphiopus couchii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/79THW
+  sourceIndexes:
+    - name:
+        en: Scaphiopus couchii
+        zh: Scaphiopus couchii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 79THW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/0
+            queryName: Scaphiopus couchii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 129
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/35
+            queryName: Scaphiopus varius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/36
+            queryName: Scaphiopus rectifrenis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/37
+            queryName: Spea laticeps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/38
+            queryName: Scaphiopus laticeps
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/338
+            queryName: Scaphiopus couchii varius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/339
+            queryName: Scaphiopus varius varius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/340
+            queryName: Scaphiopus varius rectifrenis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/341
+            queryName: Scaphiopus couchii couchii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/342
+            queryName: Scaphiopus couchii rectifrenis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b7d8ba0747
+      - s-3f03f47c97
+      - s-14a4541750
+      - s-18d5ff3fb2
+      - s-49482c58d2
+      - s-dc24db2439
+      - s-a09572743b
+      - s-baaffb23cb
+      - s-bae956d85a
+      - s-05e30a633e
+      - s-7efbef735d
+      - s-4e72ec82ea
+      - s-712570a14f
+      - s-cd3a4bb461
+      - s-7e5513da5f
+      - s-1caa0ed7c9
+      - s-cdb5af281d
+      - s-1cc6ea5cb0
+      - s-903095815c
+      - s-da48eeb230
+      - s-d6995ba53c
+      - s-4474289f97
+    zh:
+      - s-fec658a102
+      - s-a64f79add2
+      - s-525ec69671
+      - s-70cb43127e
+      - s-41d0e3603a
+      - s-b6755a374c
+      - s-225ee09707
+      - s-72dc38c633
+      - s-591b3b7e11
+      - s-810d85b2ef
+      - s-c5f022a151
+      - s-95047e0b9c
+      - s-f7ba43e49f
+      - s-94c28cdc56
+      - s-23663d62cd
+      - s-85f11c3c72
+      - s-3be817fed8
+      - s-c29bac1346
+      - s-db78a390e1
+      - s-0b4ec09d4d
+      - s-f6b0ce7ec9
+      - s-1e15ceefe7

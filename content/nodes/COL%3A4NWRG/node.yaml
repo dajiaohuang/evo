@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea mixcoatl
+  displayName: Pseudoeurycea mixcoatl
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWRG
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea mixcoatl
+        zh: Pseudoeurycea mixcoatl
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWRG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/302
+            queryName: Pseudoeurycea mixcoatl
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-81b81ba89a
+      - s-329c78cc97
+      - s-79cdd9dcd7
+      - s-07acf5c866
+      - s-9103e5c13e
+      - s-2146221ba2
+      - s-686d1daa63
+      - s-d8e8972849
+    zh:
+      - s-8ea4bfd67a
+      - s-ea784964ad
+      - s-bdedab733f
+      - s-360fb263c0
+      - s-4d1738fc8d
+      - s-47a68629b8
+      - s-e8b90259e0
+      - s-92e98b2e0c

@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates juanii
+  displayName: Allobates juanii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6699M
+  sourceIndexes:
+    - name:
+        en: Allobates juanii
+        zh: Allobates juanii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6699M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/148
+            queryName: Allobates juanii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/103
+            queryName: Colostethus juanii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b1d7d1b60e
+      - s-d78f44c107
+      - s-4446c0db15
+      - s-bb1d44060e
+      - s-8ba765f11b
+      - s-a6028c4bdc
+      - s-52136fda5d
+      - s-6ee0faf4ed
+      - s-c49f475f46
+      - s-4d1bbfa317
+      - s-bc5af9467c
+      - s-5b92263722
+      - s-849a3eb303
+      - s-daa4346fa2
+      - s-e3b181b0e3
+      - s-9a4afa4cfc
+      - s-501beddbac
+      - s-9b864977b2
+      - s-3ce967fdb6
+      - s-fc9b312f3b
+      - s-1fd272ca6b
+      - s-b196f3077c
+      - s-8d89a0b259
+      - s-3d416fbcd6
+      - s-3fa731de08
+    zh:
+      - s-b148e958c6
+      - s-dfcafd1b2a
+      - s-66c1d063df
+      - s-1cefb44743
+      - s-6c4e10bbde
+      - s-d73ebac3e7
+      - s-f31be86bfd
+      - s-8826a8d606
+      - s-c4898fbef2
+      - s-892b52963a
+      - s-257e21d5b2
+      - s-e2f3e18235
+      - s-daf3656ae1
+      - s-fdd796d533
+      - s-39743dad65
+      - s-ac37590ad1
+      - s-037ffbb8a4
+      - s-71d9aeafd9
+      - s-32ce34025e
+      - s-5bc05bdd2d
+      - s-33ed37a458
+      - s-e686f5b011
+      - s-0b43a317c9
+      - s-7a238ff58b
+      - s-06e8ee3c58

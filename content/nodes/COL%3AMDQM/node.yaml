@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa meliana
+  displayName: Bolitoglossa meliana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDQM
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa meliana
+        zh: Bolitoglossa meliana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDQM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/151
+            queryName: Bolitoglossa meliana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fe397d8fbb
+      - s-e2c0adf2b1
+      - s-0918578ace
+      - s-d438c2ff05
+      - s-908d4804e7
+      - s-46f1dadb52
+      - s-26d6bfdb23
+      - s-f126c83242
+    zh:
+      - s-bc35648233
+      - s-b1f4b7c350
+      - s-c3d616f096
+      - s-e7744db4dd
+      - s-fa1c862a3f
+      - s-b5c0108403
+      - s-bee80bda97
+      - s-83727cf50d

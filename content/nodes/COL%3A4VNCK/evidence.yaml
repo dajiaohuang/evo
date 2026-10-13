@@ -1,0 +1,110 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sciurocheirus makandensis Ambrose, 2013
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Makande Squirrel Galago
+      zh: 马坎代松鼠婴猴
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-b308c1ecc0
+            part: body
+          zh:
+            page: zh
+            section: s-1c8628461a
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+          - ambrose2013
+      - topic: bioacoustics
+        text:
+          en:
+            page: en
+            section: s-ee47d0232f
+            part: body
+          zh:
+            page: zh
+            section: s-7238770d86
+            part: body
+        sourceIds:
+          - ambrose2003
+          - ambrose2013
+      - topic: limits
+        text:
+          en:
+            page: en
+            section: s-ed211a0bc4
+            part: body
+          zh:
+            page: zh
+            section: s-93a4ca891e
+            part: body
+        sourceIds:
+          - ambrose2003
+          - ambrose2013
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Sciurocheirus makandensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/4VNCK
+          scope:
+            en: Pins the accepted COL26.8 identity and source authorship.
+            zh: 固定 COL26.8 接受身份与来源作者信息。
+      - id: mdd_label
+        referenceId: ref-1765489d-a2f9-8498-a6a2-cae1f18c4e2b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supplies the English display name and type-locality record.
+            zh: 提供英文显示名与模式地点记录。
+      - id: ambrose2003
+        referenceId: ref-21bfa785-e10e-8c7d-adca-61a25368924a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Primary ten-location comparison; identifies the Makandé acoustic form south of the Ogooué.
+            zh: 十地点原始比较研究；识别 Ogooué 河以南的 Makandé 声学型。
+      - id: ambrose2013
+        referenceId: ref-ec947ea7-7a89-8207-adc4-8ae19faa8e2a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Species account formalizing the Makandé form; the available preview is bibliographic/context material.
+            zh: 将 Makandé 型正式命名的物种条目；可访问预览用于核对书目信息与上下文。
+    limitations:
+      en:
+        page: en
+        section: s-19dc4e5765
+        part: body
+      zh:
+        page: zh
+        section: s-9b83e6b575
+        part: body

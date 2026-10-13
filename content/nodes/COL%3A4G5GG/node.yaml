@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus gunungensis
+  displayName: Philautus gunungensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5GG
+  sourceIndexes:
+    - name:
+        en: Philautus gunungensis
+        zh: Philautus gunungensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5GG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/49
+            queryName: Philautus gunungensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/244
+            queryName: Philautus aurantium gunungensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f39c3352a0
+      - s-c0f6922724
+      - s-fe1a2c0523
+      - s-b4445d8876
+      - s-79d56e4c49
+      - s-af0e8641e3
+      - s-bc66483ec0
+    zh:
+      - s-f3a994fa09
+      - s-c29595e8ef
+      - s-c847d77027
+      - s-b8f700c0fb
+      - s-3d5f76382a
+      - s-b7df33145e
+      - s-d03071e0b7

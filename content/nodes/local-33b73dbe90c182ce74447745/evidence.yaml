@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Duttaphrynus stuarti
+    name:
+      en: Duttaphrynus stuarti
+      zh: Duttaphrynus stuarti
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Duttaphrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Duttaphrynus stuarti in the version 3 classification
+          zh: Duttaphrynus stuarti 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c3b8af4669
+            part: body
+          zh:
+            page: zh
+            section: s-a255b4dc7e
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 15 populated trait fields
+          zh: 2 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5142fc52ad
+            part: body
+          zh:
+            page: zh
+            section: s-8d5d571b50
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1598, 1599; Reference.csv rows 2632
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1598
+        values:
+          - Bufonidae
+          - Duttaphrynus
+          - Duttaphrynus stuarti
+          - F
+          - "61"
+          - "17"
+          - "23.3"
+          - NA
+          - "1.7"
+          - "1.4"
+          - NA
+          - "3.5"
+          - NA
+          - "4.1"
+          - "6.2"
+          - "2.2"
+          - "15.4"
+          - "16.3"
+          - NA
+          - "24.7"
+          - NA
+          - "24.9"
+          - "25.7"
+          - NA
+          - NA
+          - "2.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1599
+        values:
+          - Bufonidae
+          - Duttaphrynus
+          - Duttaphrynus stuarti
+          - M
+          - "60.7"
+          - "17.2"
+          - "21.6"
+          - NA
+          - "2.2"
+          - "1.2"
+          - NA
+          - "3.6"
+          - NA
+          - "3.7"
+          - "6.5"
+          - "6.5"
+          - "15.9"
+          - "16.1"
+          - NA
+          - "26.3"
+          - NA
+          - "25.8"
+          - "26.8"
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2632
+        values:
+          - Anura
+          - Duttaphrynus_stuarti
+          - "Wogan, G. O., Win, H., Thin, T., Lwin, K., Shein, A., Kyi, S., & Tun, H. (2003). A new species of Bufo (Anura: Bufonidae) from Myanmar (Burma), and redescription of the little known species Bufo stuarti Smith 1929. Proceedings of the California Academy of Sciences, 54(7), 141-153."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - TD
+      - ETD
+      - IND
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6DQ5K
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

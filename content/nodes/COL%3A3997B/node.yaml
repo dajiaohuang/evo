@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus cuneatus
+  displayName: Eleutherodactylus cuneatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3997B
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus cuneatus
+        zh: Eleutherodactylus cuneatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3997B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/186
+            queryName: Eleutherodactylus cuneatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/44
+            queryName: Eleutherodactylus brevipalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/191
+            queryName: Eleutherodactylus sierramaestrae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/366
+            queryName: Hylodes cuneatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/367
+            queryName: Euhyas cuneata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9233b1e3ab
+      - s-9e3b0e5d39
+      - s-10af0e30b1
+      - s-177dd97342
+      - s-34da642621
+      - s-9307229c36
+      - s-864541c03b
+      - s-1def953590
+      - s-e1460794fc
+      - s-0087bc2260
+      - s-eca641785b
+      - s-ba720510a1
+      - s-793171ca20
+      - s-cdfb287966
+      - s-1b1b081fca
+      - s-73658cb976
+      - s-c9e848f48a
+    zh:
+      - s-c999fa1e0c
+      - s-ccf6b5de7c
+      - s-14e1c74673
+      - s-2632768de4
+      - s-75b1470e84
+      - s-f1b5315d8a
+      - s-501413b4c0
+      - s-d00440a9db
+      - s-90c9671855
+      - s-31901ba14e
+      - s-27468a93c5
+      - s-a5cc1dbeee
+      - s-4fc034d31c
+      - s-c648f8a321
+      - s-a74e6c3d7a
+      - s-6582feeb23
+      - s-7e987405ac

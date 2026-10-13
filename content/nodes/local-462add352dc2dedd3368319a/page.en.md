@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-9e5028e87e}
+This record shows how TadpoleTraits files tadpoles under Theloderma ryabovi. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Theloderma ryabovi in Theloderma and Rhacophoridae. In the literature table, rows 5135, 5136, 5137, 5138, 5139 list Theloderma ryabovi in both the source Species and ASTW assignment fields. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-b15eec3310}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 5 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 31 (rows 5135, 5136); 33 (row 5137); 39 (row 5138); 37 (row 5139). Sample size is entered by row (row 5136: n=1; row 5137: n=1; row 5138: n=1; row 5139: n=1); 1 other Sample size cells are blank, not zero. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

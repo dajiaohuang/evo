@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rheobatrachus silus
+  displayName: Rheobatrachus silus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S5X9
+  sourceIndexes:
+    - name:
+        en: Rheobatrachus silus
+        zh: Rheobatrachus silus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S5X9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/278
+            queryName: Rheobatrachus silus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-43a4679e8f
+      - s-4695780949
+      - s-7b63409872
+      - s-9f8f207b10
+      - s-30cd2bb879
+      - s-2700948f6b
+      - s-6f92d2afaf
+      - s-60393e0c1c
+      - s-92f0f073d3
+      - s-43a69850ea
+      - s-2bef84f428
+      - s-b6aa7fde9d
+      - s-381b6bac17
+    zh:
+      - s-6b2bdd1498
+      - s-5d134ed97f
+      - s-6fdb333902
+      - s-636edf5d0c
+      - s-584b871d96
+      - s-40bb7ab343
+      - s-ee77ea53b1
+      - s-c327183368
+      - s-6e782ebe0a
+      - s-44b252b416
+      - s-097ba0b23c
+      - s-977b6466fc
+      - s-cd0f7b1b6b

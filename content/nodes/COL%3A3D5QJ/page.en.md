@@ -1,0 +1,3 @@
+## A variable shrub in a difficult species group {#s-d3293ea266}
+This account describes a twiggy shrub up to 1 m tall, with narrow leaves that may be round in cross-section, linear or divided into three to five lobes. Yellow radiate heads grow singly on long stalks. The source calls the species highly variable and places it in a group long confused in the literature and in herbaria. It says the current classification is preliminary: environmental diversity, polyploidy and transitional forms complicate the boundaries, and detailed cytological and experimental work is still needed. The species is recorded from varied habitats.
+

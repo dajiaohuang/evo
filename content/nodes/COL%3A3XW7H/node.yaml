@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantella expectata
+  displayName: Mantella expectata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XW7H
+  sourceIndexes:
+    - name:
+        en: Mantella expectata
+        zh: Mantella expectata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XW7H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/291
+            queryName: Mantella expectata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bdae992c44
+      - s-85f600adf6
+      - s-9110e9ee4f
+      - s-dc6cd9156f
+      - s-07a648a232
+      - s-70ef5ff1f6
+      - s-e586d6afea
+      - s-b4ae611c8a
+      - s-0e500cdf78
+      - s-b203b719dc
+      - s-c9eec9bf14
+      - s-84be1dd1b6
+    zh:
+      - s-e48763a1bb
+      - s-daf6818408
+      - s-93300b9eac
+      - s-b8b647d43c
+      - s-aab3a687c6
+      - s-6dba2df065
+      - s-6f7d156343
+      - s-2934928930
+      - s-e72a7d3b9d
+      - s-721b7a3c3c
+      - s-71b6082dcc
+      - s-130cbbf051

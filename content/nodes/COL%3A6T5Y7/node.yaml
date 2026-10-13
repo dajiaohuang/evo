@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne wolterstorffi
+  displayName: Oreophryne wolterstorffi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T5Y7
+  sourceIndexes:
+    - name:
+        en: Oreophryne wolterstorffi
+        zh: Oreophryne wolterstorffi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T5Y7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/305
+            queryName: Oreophryne wolterstorffi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/68
+            queryName: Hylella wolterstorffi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/69
+            queryName: Hyla wolterstorffi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0749cf362
+      - s-b57ea7fb51
+      - s-9efbdc02be
+      - s-636356aa24
+      - s-f074738e2c
+      - s-083859c331
+      - s-12cf6b1cf2
+      - s-7ba53ec6bb
+      - s-3851c5c4f7
+    zh:
+      - s-48e46759d7
+      - s-8435f32455
+      - s-ee0d68a446
+      - s-2f3c6e6cce
+      - s-a2bf641b33
+      - s-651e3e8b7f
+      - s-7ad80160c0
+      - s-1e01ba3803
+      - s-77d2e7cb26

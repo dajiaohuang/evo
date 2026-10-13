@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amphiuma means
+  displayName: Amphiuma means
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/D6GS
+  sourceIndexes:
+    - name:
+        en: Amphiuma means
+        zh: Amphiuma means
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: D6GS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/425
+            queryName: Amphiuma means
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 98
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/280
+            queryName: Amphiuma means means
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/163
+            queryName: Sireni simile
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/164
+            queryName: Axolotus lacertinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/165
+            queryName: Chrysodonta larvaeformis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/166
+            queryName: Amphiuma didactylum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/167
+            queryName: Sirenoides didactylum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/426
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, with Comments Regarding Confidence in Our Understanding
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-641d6a1895
+      - s-4c2f21c9f7
+      - s-edb0595041
+      - s-3019703bc3
+      - s-c3ec5707ca
+      - s-9f3495870e
+      - s-5232d768e2
+      - s-3d22502085
+      - s-380a570bbe
+      - s-8688632e18
+      - s-c801f72af4
+      - s-ca156608ac
+      - s-c1e7595ddd
+      - s-93c85497d5
+      - s-edb203a921
+    zh:
+      - s-48b664fb4a
+      - s-a11b685bd7
+      - s-362633ffb8
+      - s-1eff437b1d
+      - s-80003017c8
+      - s-7da3fe63a7
+      - s-6aa5fb74e2
+      - s-bc4e5d4d65
+      - s-5c09a2f073
+      - s-248b534017
+      - s-e1011bc74d
+      - s-36810cfbb9
+      - s-318835981b
+      - s-0f15a56d58
+      - s-384213599c

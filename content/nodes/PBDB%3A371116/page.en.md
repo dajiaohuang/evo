@@ -1,0 +1,9 @@
+## Organize fossil records by source classification {#s-edf702406d}
+The Paleobiology Database (PBDB) records Alcione at genus rank beneath Aponyctosauria in its accepted hierarchy. This route links to the included species page for Alcione elainus. It opens a path to selected records, not a complete catalogue of the genus or a phylogenetic conclusion.
+
+## Compare collections, strata and age brackets {#s-e6064bb248}
+The Alcione elainus page covers one selected occurrence from one collection, with Couche III recorded as the stratum. Use that page to check the locality, age bracket and source link. This single database record is not a fossil or animal count.
+
+## Evidence limits {#s-0a548bbffc}
+This route covers one included species page and its selected PBDB occurrence, not a complete list of descendants or an ecological summary of Alcione. Occurrence and collection counts do not measure fossils, individuals or populations. PBDB’s parent path is a database classification, distinct from Catalogue of Life concepts and phylogenetic hypotheses.
+

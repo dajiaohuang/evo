@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Piriqueta caiapoensis? {#s-d3c84c4c22}
+Branches bear spreading star-shaped hairs and bristle-like glandular hairs. Petioles may be present or absent; blades range from oblong to ovate or oblanceolate, with scalloped or toothed, slightly rolled edges. Both surfaces have star-shaped and glandular hairs, and nectaries are absent. The inflorescence has one flower and no bracteoles. Inner calyx lobes are hairless except along the midrib. The corolla is pink to yellowish pink, with a dark corona; styles are heterostylous, with differing lengths. The fruit is tuberculate. Seeds are straight or slightly curved, net-veined and smooth-coated.
+

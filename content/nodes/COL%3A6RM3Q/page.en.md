@@ -1,0 +1,3 @@
+## ## Peltate hairs and retrorse prickles {#s-353ab0f21e}
+The Brazilian Flora 2020 entry records hispid stems with spreading hairs, no simple hairs or setae, and peltate glandular hairs. Prickles are absent or scattered and retrorse; short shoots are absent. The stipules persist, while extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Corolla lobes are hairless and have one to three veins; the androecium is isostemonous, with pink filaments. The habitat field says “terrestrial” but gives no locality or finer habitat detail.
+

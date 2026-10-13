@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hermannia veronicifolia (Eckl. & Zeyh.) Hochr.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3KZQC, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3KZQC; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KZQC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3KZQC
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001141098-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3KZQC / WFO wfo-0001141098
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_18354_0
+        referenceId: ref-d7d88484-d1c7-8ca4-a43d-653b27cfcda6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Hermannia veronicifolia (Eckl. & Zeyh.) Hochr. account; archive rows 102833 (Morphology), 100782 (Habitat), source identifier 18354.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Decumbent suffrutex, branches up to 0.45 m long; gland-dotted, coarsely hairy with white, stipitate, stellate hairs, cobwebby at growing points. Leaves petiolate, oblong, finely serrate with marginal, stipitate, stellate hairs. Stipules leaf-like, clasping, ovate. Inflorescences 2-flowered; peduncles ± 30 mm long; pedicels filiform, gland-dotted, coarsely hairy with sessile, stellate hairs. Flowers 13 mm long, yellow, becoming orange. Calyx campanulate, 5-lobed to less than middle, lobes attenuate; gland-dotted interspersed with white, sessile, stellate hairs, stipitate stellate hairs on venation, simple hairs on margins. Petals twice as long as calyx. Flowering time July-May.
+            sourceIds:
+              - sanbi_18354_0
+            locator: "SANBI/WFO archive Morphology row 102833; source 18354.0; publication: Bredenkamp, CL. 2019. Malvaceae s.l. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1181 - 1216. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Fairly common, stony N-aspect above valley bushveld, banks of Bushman’s River; Eastern Fynbos-Renosterveld, Albany Thicket.
+            sourceIds:
+              - sanbi_18354_0
+            locator: "SANBI/WFO archive Habitat row 100782; source 18354.0; publication: Bredenkamp, CL. 2019. Malvaceae s.l. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1181 - 1216. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

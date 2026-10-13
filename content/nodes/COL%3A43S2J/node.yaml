@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mixophyes hihihorlo
+  displayName: Mixophyes hihihorlo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43S2J
+  sourceIndexes:
+    - name:
+        en: Mixophyes hihihorlo
+        zh: Mixophyes hihihorlo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43S2J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/128
+            queryName: Mixophyes hihihorlo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-94902645ec
+      - s-167ee34bba
+      - s-22bd3d7d00
+      - s-ff1b664e40
+      - s-96804144a9
+      - s-31f8433c5c
+    zh:
+      - s-abb634546f
+      - s-c424e2ac19
+      - s-9c9ee8c14e
+      - s-344ed9c20c
+      - s-9f76d78a3e
+      - s-ae3d27e319

@@ -1,0 +1,545 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Atelopus podocarpus Coloma, Duellman, Almendáriz, Ron, Terán-Valdez & Guayasamin, 2010
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Atelopus podocarpus
+      zh: Atelopus podocarpus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b13a158064
+            part: title
+          zh:
+            page: zh
+            section: s-19657cf3ca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b13a158064
+            part: body
+          zh:
+            page: zh
+            section: s-19657cf3ca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ec0b806c41
+            part: title
+          zh:
+            page: zh
+            section: s-31adde6487
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ec0b806c41
+            part: body
+          zh:
+            page: zh
+            section: s-31adde6487
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f18dd82c54
+            part: title
+          zh:
+            page: zh
+            section: s-bf75af7e5a
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-f18dd82c54
+            part: body
+          zh:
+            page: zh
+            section: s-bf75af7e5a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-502c3740af
+            part: title
+          zh:
+            page: zh
+            section: s-747982fa86
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-502c3740af
+            part: body
+          zh:
+            page: zh
+            section: s-747982fa86
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d52d904066
+            part: title
+          zh:
+            page: zh
+            section: s-852535b370
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-d52d904066
+            part: body
+          zh:
+            page: zh
+            section: s-852535b370
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-4da00e3a87feec50e5137a457ad56b6c
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-742d418aa6c218a7a12a3eda
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bf4c71eca9
+            part: title
+          zh:
+            page: zh
+            section: s-ddb5d0c323
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bf4c71eca9
+            part: body
+          zh:
+            page: zh
+            section: s-ddb5d0c323
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-55eee8df18
+            part: title
+          zh:
+            page: zh
+            section: s-f632e95cc1
+            part: title
+        sourceIds:
+          - primary-pmc7482940-j92c
+        text:
+          en:
+            page: en
+            section: s-55eee8df18
+            part: body
+          zh:
+            page: zh
+            section: s-f632e95cc1
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-7252c55c4c
+            part: title
+          zh:
+            page: zh
+            section: s-cce3a42980
+            part: title
+        sourceIds:
+          - primary-pmc7482940-j92c
+        text:
+          en:
+            page: en
+            section: s-7252c55c4c
+            part: body
+          zh:
+            page: zh
+            section: s-cce3a42980
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7c796cb20b
+            part: title
+          zh:
+            page: zh
+            section: s-45497c289e
+            part: title
+        sourceIds:
+          - primary-pmc7482940-j92c
+        text:
+          en:
+            page: en
+            section: s-7c796cb20b
+            part: body
+          zh:
+            page: zh
+            section: s-45497c289e
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b0ebad17bb
+            part: title
+          zh:
+            page: zh
+            section: s-0c1a3f0d0d
+            part: title
+        sourceIds:
+          - primary-pmc7482940-j92c
+        text:
+          en:
+            page: en
+            section: s-b0ebad17bb
+            part: body
+          zh:
+            page: zh
+            section: s-0c1a3f0d0d
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-c68e5188cb
+            part: title
+          zh:
+            page: zh
+            section: s-a5e6a14329
+            part: title
+        sourceIds:
+          - primary-pmc7482940-j92c
+        text:
+          en:
+            page: en
+            section: s-c68e5188cb
+            part: body
+          zh:
+            page: zh
+            section: s-a5e6a14329
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Atelopus podocarpus
+          url: https://www.checklistbank.org/dataset/316115/taxon/J92C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0516; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0516 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 559, 560; Reference.csv rows 2580
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7482940-j92c
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Atelopus podocarpus: Complete Methods and named focal/other treatments plus Discussion and allmainTables1–3; allnonemptyS4 acoustic andS5inventory cells independently read; DOCXappendix/S1primers/S2accessions andS3distance cells extracted but not scientifically authenticated; originalaudio/sequencealignments/voucher specimens/figurepixels unreviewed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a1ce120343
+        part: body
+      zh:
+        page: zh
+        section: s-d3b7cc9e73
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-4da00e3a87feec50e5137a457ad56b6c
+      sourceRowId: Anf0516
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0516
+        bibliographyRowId: Anf0516
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Atelopus podocarpus
+        candidateBibliographyRowIds:
+          - Anf0516
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-742d418aa6c218a7a12a3eda
+        scientificName: Atelopus podocarpus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0238306
+        referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+        sourceKey: primary-pmc7482940-j92c
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7482940/article.xml
+        sourceConcept: 2020 Abra de Zamora treatment under Atelopus podocarpus; exact frozen-name match is not full concept authentication
+        evidenceRead: "Atelopus podocarpus: Complete Methods and named focal/other treatments plus Discussion and allmainTables1–3; allnonemptyS4 acoustic andS5inventory cells independently read; DOCXappendix/S1primers/S2accessions andS3distance cells extracted but not scientifically authenticated; originalaudio/sequencealignments/voucher specimens/figurepixels unreviewed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Historical type material anchors the name
+              zh: 历史模式材料锚定名称
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-j92c
+            locator: PMC7482940 XMLsec010 Atelopus podocarpus identification/type account
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cd7b0b8025
+                part: body
+              zh:
+                page: zh
+                section: s-848f5d9511
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Separate historical collection sites from present occupancy
+              zh: 区分历史采集点与当前占据
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-j92c
+            locator: PMC7482940 XMLsec010 Atelopus podocarpus remarks
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4b74e99397
+                part: body
+              zh:
+                page: zh
+                section: s-471640bd6d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: A long failure to rediscover is a dated warning
+              zh: 长期未再发现是有日期的警讯
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-j92c
+            locator: PMC7482940 XMLsec010 Atelopus podocarpus scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8c817cea38
+                part: body
+              zh:
+                page: zh
+                section: s-899067c93d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: How the local encounters were recorded
+              zh: 当地遇见如何记录
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-j92c
+            locator: PMC7482940 XMLsec004 fieldwork/detection definitions; sec019 regional threats
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-49392c01ea
+                part: body
+              zh:
+                page: zh
+                section: s-1addbc854e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: range
+            heading:
+              en: The supplementary inventory retains its2020 scope
+              zh: 补充名录保留2020年范围
+            referenceId: ref-e5d81dee-e503-47ac-ad0c-e546232bca1c
+            sourceKey: primary-pmc7482940-j92c
+            locator: PMC7482940 supplementaryS5 pone.0238306.s006.xlsx sheet Abra de Zamora species B3:F3;sha256:c64b782eab38c2f0dc00773213d31df57d5e0f8c9c2c0c1697b6064ab4a82da4;main treatmentAtelopus podocarpus
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-373e4c9711
+                part: body
+              zh:
+                page: zh
+                section: s-c53e15d389
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

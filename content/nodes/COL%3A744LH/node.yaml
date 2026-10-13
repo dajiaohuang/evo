@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana minica
+  displayName: Nanorana minica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/744LH
+  sourceIndexes:
+    - name:
+        en: Nanorana minica
+        zh: Nanorana minica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 744LH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/179
+            queryName: Nanorana minica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/497
+            queryName: Paa minica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/244
+            queryName: Chaparana minica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/245
+            queryName: Rana minica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/246
+            queryName: Rana tuberculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-859598aa75
+      - s-4c82503699
+      - s-e28abbc6c3
+      - s-75df101bfe
+      - s-6f8ef645f4
+      - s-8519a1de0f
+      - s-c230b9b557
+      - s-d2c3d1fcb1
+      - s-acd026d5e6
+      - s-8b245ca77e
+      - s-7eb4be1095
+      - s-6c6937f537
+      - s-3e426137e2
+      - s-d8b22d6d4b
+      - s-dc4e6b0a4f
+      - s-074498f720
+      - s-baa5c555c1
+    zh:
+      - s-35fdb95056
+      - s-910755e2f0
+      - s-e69c50b3cf
+      - s-97afd077d5
+      - s-e45c86bcbd
+      - s-39ea59beba
+      - s-a0dd7cf3e5
+      - s-40593cacda
+      - s-e47108e180
+      - s-6edd9d1455
+      - s-be02f17973
+      - s-dcfacf5c5f
+      - s-b1990019a8
+      - s-2e0210a60f
+      - s-1e8c8d51ed
+      - s-a3b2f6b4d2
+      - s-8e3124d6ab

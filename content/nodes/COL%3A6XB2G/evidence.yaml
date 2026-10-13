@@ -1,0 +1,861 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Salamandra salamandra (Linnaeus, 1758)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Salamandra salamandra
+      zh: Salamandra salamandra
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-879f02ea36
+            part: title
+          zh:
+            page: zh
+            section: s-80636b1b69
+            part: title
+        text:
+          en:
+            page: en
+            section: s-879f02ea36
+            part: body
+          zh:
+            page: zh
+            section: s-80636b1b69
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0caebc9d81
+            part: title
+          zh:
+            page: zh
+            section: s-64ecfcbbb7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0caebc9d81
+            part: body
+          zh:
+            page: zh
+            section: s-64ecfcbbb7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2e055e8c56
+            part: title
+          zh:
+            page: zh
+            section: s-54bf5c6d75
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-2e055e8c56
+            part: body
+          zh:
+            page: zh
+            section: s-54bf5c6d75
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f1c9ef17c1
+            part: title
+          zh:
+            page: zh
+            section: s-df7c95042a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-f1c9ef17c1
+            part: body
+          zh:
+            page: zh
+            section: s-df7c95042a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-973c8c6353
+            part: title
+          zh:
+            page: zh
+            section: s-4a2d1d938e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+          - Crepu
+        text:
+          en:
+            page: en
+            section: s-973c8c6353
+            part: body
+          zh:
+            page: zh
+            section: s-4a2d1d938e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-309e3c926c
+            part: title
+          zh:
+            page: zh
+            section: s-2867815246
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-309e3c926c
+            part: body
+          zh:
+            page: zh
+            section: s-2867815246
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-1958aede2e
+            part: title
+          zh:
+            page: zh
+            section: s-8de13b38ad
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-1958aede2e
+            part: body
+          zh:
+            page: zh
+            section: s-8de13b38ad
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-34107791c9
+            part: title
+          zh:
+            page: zh
+            section: s-4db03f25e4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Viv
+        text:
+          en:
+            page: en
+            section: s-34107791c9
+            part: body
+          zh:
+            page: zh
+            section: s-4db03f25e4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0b21df5fe2
+            part: title
+          zh:
+            page: zh
+            section: s-4703ea3a32
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-0b21df5fe2
+            part: body
+          zh:
+            page: zh
+            section: s-4703ea3a32
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-5301fc469605a5de1e51483330112f39
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-ff6360cda30ca0f51103473e
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-c5e38913aab66d183605dbd8
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7a9913ec83
+            part: title
+          zh:
+            page: zh
+            section: s-9f77785c74
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7a9913ec83
+            part: body
+          zh:
+            page: zh
+            section: s-9f77785c74
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-3ded23951c
+            part: title
+          zh:
+            page: zh
+            section: s-db19f1283d
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "154"
+        text:
+          en:
+            page: en
+            section: s-3ded23951c
+            part: body
+          zh:
+            page: zh
+            section: s-db19f1283d
+            part: body
+        sourceRowNumber: 136
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fd2dde772c
+            part: title
+          zh:
+            page: zh
+            section: s-741731a959
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1486"
+        text:
+          en:
+            page: en
+            section: s-fd2dde772c
+            part: body
+          zh:
+            page: zh
+            section: s-741731a959
+            part: body
+        sourceRowNumber: 1328
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-80f4599043
+            part: title
+          zh:
+            page: zh
+            section: s-0246a9266c
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "2314"
+        text:
+          en:
+            page: en
+            section: s-80f4599043
+            part: body
+          zh:
+            page: zh
+            section: s-0246a9266c
+            part: body
+        sourceRowNumber: 2108
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-d2b013d624
+            part: title
+          zh:
+            page: zh
+            section: s-9bf3e66f9d
+            part: title
+        sourceIds:
+          - primary-pmc8085075-6xb2g
+        text:
+          en:
+            page: en
+            section: s-d2b013d624
+            part: body
+          zh:
+            page: zh
+            section: s-9bf3e66f9d
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-bae49b2875
+            part: title
+          zh:
+            page: zh
+            section: s-bb6fb5aa47
+            part: title
+        sourceIds:
+          - primary-pmc8085075-6xb2g
+        text:
+          en:
+            page: en
+            section: s-bae49b2875
+            part: body
+          zh:
+            page: zh
+            section: s-bb6fb5aa47
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6592cfa5f5
+            part: title
+          zh:
+            page: zh
+            section: s-dc8e85c182
+            part: title
+        sourceIds:
+          - primary-pmc8085075-6xb2g
+        text:
+          en:
+            page: en
+            section: s-6592cfa5f5
+            part: body
+          zh:
+            page: zh
+            section: s-dc8e85c182
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-a9ca0406b7
+            part: title
+          zh:
+            page: zh
+            section: s-419d912af3
+            part: title
+        sourceIds:
+          - primary-pmc8085075-6xb2g
+        text:
+          en:
+            page: en
+            section: s-a9ca0406b7
+            part: body
+          zh:
+            page: zh
+            section: s-419d912af3
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-c2408d7b2f
+            part: title
+          zh:
+            page: zh
+            section: s-b1b6c05b37
+            part: title
+        sourceIds:
+          - primary-pmc8085075-6xb2g
+        text:
+          en:
+            page: en
+            section: s-c2408d7b2f
+            part: body
+          zh:
+            page: zh
+            section: s-b1b6c05b37
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6f85a20436
+            part: title
+          zh:
+            page: zh
+            section: s-64777f4f36
+            part: title
+        sourceIds:
+          - primary-pmc8085075-6xb2g
+        text:
+          en:
+            page: en
+            section: s-6f85a20436
+            part: body
+          zh:
+            page: zh
+            section: s-64777f4f36
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-31e2476e72
+            part: title
+          zh:
+            page: zh
+            section: s-ee4da57914
+            part: title
+        sourceIds:
+          - primary-pmc8085075-6xb2g
+        text:
+          en:
+            page: en
+            section: s-31e2476e72
+            part: body
+          zh:
+            page: zh
+            section: s-ee4da57914
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Salamandra salamandra
+          url: https://www.checklistbank.org/dataset/316115/taxon/6XB2G
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6584; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6579 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 347, 348; Reference.csv rows 4164
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 136, 137, 138, 139, 1328, 2063, 2108, 3120, 3121, 3546, 3547, 3548, 3549; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc8085075-6xb2g
+        referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Salamandra salamandra: Raw XML study system, sampling, molecular/assignment and landscape-analysis methods, phylogeny/genetic/landscape results and environmental-barrier discussion; extracted lineage and contact-zone/introgression discussion read; northern Iberian subspecies contact zones, no independent genotype or geospatial reanalysis, cited reproduction/morphology background distinguished; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-83dd88f33a
+        part: body
+      zh:
+        page: zh
+        section: s-48fec633d0
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-ce45a5cf94661215b6dc0b89d7bfd88f
+      sourceRowId: Anf6584
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6584
+        bibliographyRowId: Anf6579
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Siren intermedia
+        candidateBibliographyRowIds:
+          - Anf6579
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-ff6360cda30ca0f51103473e
+        scientificName: Salamandra salamandra
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-c5e38913aab66d183605dbd8
+        scientificName: Salamandra salamandra
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3
+    primaryStudyScopes:
+      - doi: 10.1038/s41598-021-88349-7
+        referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+        sourceKey: primary-pmc8085075-6xb2g
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8085075/article.xml
+        sourceConcept: Salamandra salamandra
+        evidenceRead: "Salamandra salamandra: Raw XML study system, sampling, molecular/assignment and landscape-analysis methods, phylogeny/genetic/landscape results and environmental-barrier discussion; extracted lineage and contact-zone/introgression discussion read; northern Iberian subspecies contact zones, no independent genotype or geospatial reanalysis, cited reproduction/morphology background distinguished; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: Aquatic larvae and metamorphosed offspring vary among studied lineages
+              zh: 所研究支系的水生幼体与变态后代不同
+            referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+            sourceKey: primary-pmc8085075-6xb2g
+            locator: PMC8085075 XML Sec3 paragraphs 0–1; reading-sections section 2 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b7cd2222ad
+                part: body
+              zh:
+                page: zh
+                section: s-f22fc821b7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: Three rainy-night contact-zone samples have different denominators
+              zh: 三个雨夜接触区样本具有不同分母
+            referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+            sourceKey: primary-pmc8085075-6xb2g
+            locator: PMC8085075 XML Sec4 paragraph 0; Sec15 paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1a7262a0ef
+                part: body
+              zh:
+                page: zh
+                section: s-4e7b3cd336
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Two-cluster assignment and hybrid classes were model choices
+              zh: 双簇归属及杂交类别是模型选择
+            referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+            sourceKey: primary-pmc8085075-6xb2g
+            locator: PMC8085075 XML Sec5 paragraphs 0–1; Sec7 paragraphs 0–1; Sec15 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-17e2b86d91
+                part: body
+              zh:
+                page: zh
+                section: s-d13445129d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Broad admixture in two zones contrasts with the mountain sample
+              zh: 两个区域广泛混合与山地样本对照
+            referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+            sourceKey: primary-pmc8085075-6xb2g
+            locator: PMC8085075 XML Sec15 paragraph 2; reading-sections section 2 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c90ec2583c
+                part: body
+              zh:
+                page: zh
+                section: s-9e48c738d6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Mitochondrial history is not the nuclear subspecies tree
+              zh: 线粒体历史不是核亚种树
+            referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+            sourceKey: primary-pmc8085075-6xb2g
+            locator: PMC8085075 reading-sections section 1 paragraph 0; XML Sec14 paragraph 0; reading-sections section 3 paragraphs 0–3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-268c64968b
+                part: body
+              zh:
+                page: zh
+                section: s-828ed9fa52
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: ecology
+            heading:
+              en: Landscape resistance is an association at the analysed scale
+              zh: 景观阻力是在分析尺度上的关联
+            referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+            sourceKey: primary-pmc8085075-6xb2g
+            locator: PMC8085075 XML Sec9–Sec12; Sec16 paragraph 0; Sec20 paragraphs 0–3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-06d0b407d9
+                part: body
+              zh:
+                page: zh
+                section: s-fbd748db09
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: conservation
+            heading:
+              en: Proposed corridors and adaptation require further evidence
+              zh: 所提通道及适应需要进一步证据
+            referenceId: ref-38fe2967-baa0-4f91-a9fe-b8e6da4dbe39
+            sourceKey: primary-pmc8085075-6xb2g
+            locator: PMC8085075 reading-sections section 3 paragraphs 1–3; XML Sec20 paragraphs 1–3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c71e34661b
+                part: body
+              zh:
+                page: zh
+                section: s-96095b31ce
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vietnamophryne inexpectata
+  displayName: Vietnamophryne inexpectata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5BDFX
+  sourceIndexes:
+    - name:
+        en: Vietnamophryne inexpectata
+        zh: Vietnamophryne inexpectata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5BDFX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/231
+            queryName: Vietnamophryne inexpectata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fd42ac38fe
+      - s-f482fe60d7
+      - s-1d112b7eb1
+      - s-8cd5c868bc
+      - s-724c4c32e6
+      - s-b2c7104da2
+      - s-115f853f03
+      - s-e4f6f1f95c
+      - s-270cdd2bd9
+      - s-7abac7cbca
+      - s-c85437ad16
+      - s-b9c29096fa
+      - s-1fa542f6b8
+      - s-b9534483b4
+      - s-12dc7437ce
+      - s-622a9aa738
+      - s-ebd529ba42
+    zh:
+      - s-69f4464c5c
+      - s-8c6b08f83c
+      - s-5e8261376f
+      - s-628cec5190
+      - s-10687f1506
+      - s-292d120e87
+      - s-43791d7bd5
+      - s-a0320ea63e
+      - s-4894daaa5a
+      - s-003517a7b8
+      - s-6ee049f5ce
+      - s-02cb4da62d
+      - s-c5cea19962
+      - s-f818288b8b
+      - s-12043ca276
+      - s-28b571b8e9
+      - s-c7bffd4022

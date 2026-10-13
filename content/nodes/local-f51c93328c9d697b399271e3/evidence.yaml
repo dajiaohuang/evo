@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Anodonthyla montana
+    name:
+      en: Anodonthyla montana
+      zh: Anodonthyla montana
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Anodonthyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Anodonthyla montana in the version 3 classification
+          zh: Anodonthyla montana 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-638c8196fb
+            part: body
+          zh:
+            page: zh
+            section: s-bab4316f57
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 14 populated trait fields
+          zh: 1 条测量行与 14 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f9f2018d0a
+            part: body
+          zh:
+            page: zh
+            section: s-fd5209bcbd
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 356; Reference.csv rows 24
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 356
+        values:
+          - Microhylidae
+          - Anodonthyla
+          - Anodonthyla montana
+          - F
+          - "33"
+          - "10"
+          - "11.2"
+          - "3.8"
+          - "2.5"
+          - NA
+          - NA
+          - "3.4"
+          - NA
+          - "2.2"
+          - NA
+          - "2.2"
+          - "8.9"
+          - "19.4"
+          - NA
+          - "13.3"
+          - NA
+          - "13.4"
+          - NA
+          - "7"
+          - "41.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 24
+        values:
+          - Anura
+          - Anodonthyla_montana
+          - Vences, M., Glaw, F., Kohler, J., & Wollenberg, K. C. (2010). Molecular phylogeny, morphology and bioacoustics reveal five additional species of arboreal microhylid frogs of the genus Anodonthyla from Madagascar. Contributions to Zoology, 79(1), 1-32. https://doi.org/10.1163/18759866-07901001
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - TSL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5V687
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

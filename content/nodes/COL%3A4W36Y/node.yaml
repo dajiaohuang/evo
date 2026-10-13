@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scutiger jiulongensis
+  displayName: Scutiger jiulongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W36Y
+  sourceIndexes:
+    - name:
+        en: Scutiger jiulongensis
+        zh: Scutiger jiulongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W36Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/149
+            queryName: Scutiger jiulongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-83f09f8094
+      - s-daa6ee5da6
+      - s-cbd7f89319
+      - s-fd85cff17f
+      - s-489e71b311
+      - s-d54ad9721f
+      - s-90088eca9e
+      - s-bdcd871d53
+      - s-c9653208f6
+      - s-8afd0e29aa
+    zh:
+      - s-9761daad1d
+      - s-62b45052d9
+      - s-e873b4e047
+      - s-ffaa37997d
+      - s-ece43be314
+      - s-b4630eb961
+      - s-88923174d1
+      - s-043a772023
+      - s-ed8123dca1
+      - s-6cdef8ab91

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus delicatus
+  displayName: Afrixalus delicatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65FTT
+  sourceIndexes:
+    - name:
+        en: Afrixalus delicatus
+        zh: Afrixalus delicatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65FTT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/62
+            queryName: Afrixalus delicatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6cf68a06e1
+      - s-941ab8b4e6
+      - s-82820ed3cb
+      - s-0311db99d8
+      - s-1f25ec0080
+      - s-61f2b5d4ed
+      - s-a28abbcc15
+      - s-50bcc6b028
+      - s-c835b10cba
+      - s-93c016ab30
+      - s-1857167f4c
+      - s-c794fe0188
+      - s-cca3e1e767
+      - s-e889357792
+      - s-05fa4bd272
+      - s-f2f8ef6391
+      - s-683c82cbf1
+    zh:
+      - s-ac3179c77e
+      - s-d7e0e51d00
+      - s-e00aca4ff0
+      - s-5983d1eddb
+      - s-2461dee64e
+      - s-7df030bfe0
+      - s-e873adc120
+      - s-48c7c6e34e
+      - s-2ceb444387
+      - s-8011616f0e
+      - s-a4f9728457
+      - s-0c2c7ba644
+      - s-f4684c0e9c
+      - s-5097065555
+      - s-7f27e003c3
+      - s-8d75b6b0db
+      - s-47bf104f36

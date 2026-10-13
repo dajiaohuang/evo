@@ -1,0 +1,187 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pinus serotina Michx.
+    authorship: Michx.
+    rank: species
+    sourceDatasetId: "2004"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: C7ZVJ
+        scientificName: Pinopsida Burnett
+        authorship: Burnett
+        rank: class
+        status: accepted
+        sourceDatasetId: "2004"
+      - id: C84L5
+        scientificName: Pinidae Cronquist, Takht. & W.Zimm.
+        authorship: Cronquist, Takht. & W.Zimm.
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "2004"
+      - id: C7ZVH
+        scientificName: Pinales Gorozh.
+        authorship: Gorozh.
+        rank: order
+        status: accepted
+        sourceDatasetId: "2004"
+      - id: C7ZVG
+        scientificName: Pinaceae Spreng. ex Rudolphi
+        authorship: Spreng. ex Rudolphi
+        rank: family
+        status: accepted
+        sourceDatasetId: "2004"
+      - id: C84WJ
+        scientificName: Pinus L.
+        authorship: L.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2004"
+      - id: 6VKSL
+        scientificName: Pinus serotina Michx.
+        authorship: Michx.
+        rank: species
+        status: accepted
+        sourceDatasetId: "2004"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry. The FNA row is joined by its retained COL ID, WFO ID, exact row number, source identifier, and taxon-specific citation; shared nomenclature does not itself prove identical taxonomic circumscription across releases.
+      scope: COL26.8 accepted identity 6VKSL linked to a taxon-specific 2003 Flora of North America account. This regional nomenclatural link is not a claim of full concept equivalence across checklist versions.
+      sourceIds:
+        - col
+        - fna_1a5649f2_f0bf_4279_8fb4_b47fccf52927
+    lifeStatusScope:
+      wild: The FNA taxonomic account describes the species but does not identify the provenance of sampled plants; no population-level wild status is inferred.
+      domesticated: Cultivation, domestication, and horticultural history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2004
+          url: https://www.checklistbank.org/dataset/316115/taxon/6VKSL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6VKSL@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6VKSL; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6VKSL. https://doi.org/10.48580/dgywk.
+      - id: fna_1a5649f2_f0bf_4279_8fb4_b47fccf52927
+        referenceId: ref-e19ff904-b1af-80e8-a8a5-cc68657a9e3e
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - sourceCitation
+          - itemDeclaredLicenseUrl
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+        metadataVariant: 14
+        usage:
+          licenseEvidenceLocator: FNA archive resource metadata licenses text and images CC BY 4.0 unless otherwise noted; this imported item independently declares CC BY 4.0 and names Flora of North America Association as rights holder.
+          licenseAppliesTo: The FNA species-account text in imported description row 12269; no third-party figure, image, or table is reused.
+          stableId: FNA-sourceId:1A5649F2-F0BF-4279-8FB4-B47FCCF52927
+          accessedAt: 2026-09-27
+          locator: FNA imported general-description row 12269; source identifier 1A5649F2-F0BF-4279-8FB4-B47FCCF52927; species account description paragraph.
+          attribution: Pinus serotina A. Michaux in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018. Flora of North America Association; account text paraphrased.
+          licenseAssessment: item-level-verified
+          scope: North American flora taxonomic description. Claim is account-level morphology, not a population-sampled estimate, a current/global range statement, or proof of cross-release taxonomic-concept equivalence.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The 2003 Flora of North America account describes Pinus serotina seed cones as symmetric and 5–8 cm long, ovoid to lanceoloid before opening and broadly ovoid to nearly globose when open; the apophyses are low, rhombic and low cross-keeled.
+            originalLanguage: en
+            sourceIds:
+              - fna_1a5649f2_f0bf_4279_8fb4_b47fccf52927
+            locator: "FNA species account description paragraph; imported general-description row 12269, source identifier 1A5649F2-F0BF-4279-8FB4-B47FCCF52927; citation: Pinus serotina A. Michaux in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2003. Web. Accessed February 2018."
+            placeTimeScope: North American Flora of North America account cited as 2003; no dated population sampling frame, named sampling locality, or frequency estimate is supplied for this structural description. The name Pinus serotina and the account's separate serotiny observations do not determine broader reproductive or ecological behavior; this claim is morphology only.
+            lifeStatus: The account describes taxonomic structures but does not identify a sampled population or state whether the described material was wild or cultivated; neither status is inferred.
+        gaps:
+          - One regional account supports selected seed-cone morphology only; developmental stages, within-species variation, measurement protocols, vegetative and reproductive character coverage, and representation across the complete COL26.8 concept remain incomplete.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Seed maturation, release, germination, recruitment, growth, survival, and the full reproductive cycle have not been assessed from this morphology claim.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Habitat, environmental tolerances, and ecological interactions have not been assessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-specific phylogenetic, population-genetic, or evolutionary analysis was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This regional flora account is not a current range map or global distribution assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil occurrences or bounded species-level fossil search were assessed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current conservation assessment, population trend, or threat analysis was reviewed.

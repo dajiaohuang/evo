@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis tenebrionis
+  displayName: Pristimantis tenebrionis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQ6
+  sourceIndexes:
+    - name:
+        en: Pristimantis tenebrionis
+        zh: Pristimantis tenebrionis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQ6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/127
+            queryName: Pristimantis tenebrionis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/75
+            queryName: Eleutherodactylus tenebrionis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a4195e00d
+      - s-7a989089a9
+      - s-1b3ebf358b
+      - s-6f3b47fe73
+      - s-e0508a01c1
+      - s-574f890d8b
+      - s-170b9f334e
+      - s-4a934e53c7
+    zh:
+      - s-03b5d69c2d
+      - s-6a816fee35
+      - s-6581193e1c
+      - s-b0f2eaec40
+      - s-6260927e75
+      - s-f6a5e51a5b
+      - s-49cc4c133d
+      - s-3bfc164300

@@ -1,0 +1,160 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nanorana quadranus
+  displayName: Nanorana quadranus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45N7L
+  sourceIndexes:
+    - name:
+        en: Nanorana quadranus
+        zh: Nanorana quadranus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45N7L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/185
+            queryName: Nanorana quadranus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/423
+            queryName: Chaparana quadranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/319
+            queryName: Rana quadranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/220
+            queryName: Paa quadrana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/221
+            queryName: Gynandropaa quadranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/24
+            queryName: Rana quadrana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/25
+            queryName: Feirana quadranus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c398a59382
+      - s-1209be7c77
+      - s-6e0a738e86
+      - s-7c450c56da
+      - s-4759d012d0
+      - s-d9ae4b1d30
+      - s-0c001c98e9
+      - s-d1a01d368c
+      - s-8f0a37222c
+      - s-cf535a8a34
+      - s-c9250756e2
+      - s-f73a214622
+      - s-56091e6dfe
+      - s-7aafbcb435
+      - s-5ce02dd8c3
+      - s-45f15ecd55
+      - s-5c822aee15
+      - s-4b29c765d2
+      - s-f22174f86b
+      - s-11285c9dbc
+      - s-11c25582b4
+      - s-4fc868f448
+      - s-dc4a89f0be
+      - s-c6cf2df65a
+      - s-f41769ce8b
+      - s-2ed154be7b
+      - s-3ad827900e
+      - s-48d01ceb0b
+      - s-389e6608f6
+      - s-febf496452
+      - s-b5156fdf7f
+      - s-08d12f50fb
+      - s-7eac112150
+      - s-9a6d30db07
+      - s-1845af43ad
+      - s-a1936d7c00
+      - s-4ddc634f02
+      - s-c93c501333
+      - s-e9cf3bfcaf
+      - s-b15c0ffe7b
+      - s-6e99c09d25
+      - s-c89ad480f6
+    zh:
+      - s-47aab4f6e6
+      - s-b5b4264f54
+      - s-d029484cfa
+      - s-fdb0fe0506
+      - s-5873953a33
+      - s-54ac020fb1
+      - s-951be673b7
+      - s-0c255bb8db
+      - s-19e84e4b38
+      - s-32d697c1a3
+      - s-d627ee7b4e
+      - s-23af6d1e2e
+      - s-cc9a3bd2f1
+      - s-6949502275
+      - s-e854a4195c
+      - s-6a5d6822e5
+      - s-4159aca9fd
+      - s-602932f4be
+      - s-1c05c4262d
+      - s-a2c19dda4e
+      - s-37f84f4d81
+      - s-56afc61ab9
+      - s-ec6140ca38
+      - s-9d4b9f2009
+      - s-abc936f6c3
+      - s-ed316a3a09
+      - s-a8a5b7207f
+      - s-dd739be55d
+      - s-6fd9687720
+      - s-7d34ecac75
+      - s-5316472da9
+      - s-21c636152c
+      - s-c25d465b55
+      - s-fe086f3441
+      - s-79dff71067
+      - s-0dfeb94d65
+      - s-58a23e07a6
+      - s-963edbad34
+      - s-2b232943d6
+      - s-96e06b97d5
+      - s-9bc68cb95b
+      - s-76138be26b

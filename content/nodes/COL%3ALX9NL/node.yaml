@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys shimentaina
+  displayName: Boulenophrys shimentaina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9NL
+  sourceIndexes:
+    - name:
+        en: Boulenophrys shimentaina
+        zh: Boulenophrys shimentaina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9NL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/380
+            queryName: Boulenophrys shimentaina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/261
+            queryName: Megophrys shimentaina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/311
+            queryName: Panophrys shimentaina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39d061f466
+      - s-b3e1266595
+      - s-8466fca356
+      - s-3c35d3a949
+      - s-78b0b9d0f8
+      - s-cb9d1a92cf
+      - s-ff9614f9a4
+      - s-34150de37b
+      - s-ee2bd270ce
+      - s-a53f081a80
+      - s-8f2d42bbce
+      - s-d2954e8ec9
+      - s-31546cbcfc
+    zh:
+      - s-4cf5a151dc
+      - s-5826cb8788
+      - s-b09267f86f
+      - s-51b0685d93
+      - s-a554a442e2
+      - s-aa7a2bae3f
+      - s-f0ec41d5d6
+      - s-df1fd0951a
+      - s-e164645444
+      - s-9ae45156ae
+      - s-5fd05f0fbb
+      - s-c10ce67f69
+      - s-472d148663

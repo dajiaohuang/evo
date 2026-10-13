@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cyclomylus intermedius
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Cyclomylus intermedius
+      en: Cyclomylus intermedius
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-265481fbf1
+            part: body
+          en:
+            page: en
+            section: s-ed3ba393e1
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e8ef46140e
+            part: body
+          en:
+            page: en
+            section: s-b729d7e37c
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8652e1a072
+            part: body
+          en:
+            page: en
+            section: s-b3724c1c9a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-58553380a9
+            part: body
+          en:
+            page: en
+            section: s-bbef023650
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7bf1da57f3
+            part: body
+          en:
+            page: en
+            section: s-22f81f6b90
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Cyclomylus intermedius
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=347027&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:347027; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:347027
+          selectedOccurrenceIds:
+            - occ:1311629
+            - occ:1344708
+            - occ:1344709
+            - occ:1344710
+            - occ:1344711
+            - occ:1344712
+            - occ:1344713
+            - occ:1344714
+            - occ:1344715
+            - occ:1344716
+            - occ:1344717
+            - occ:1344718
+            - occ:1344719
+            - occ:1344720
+            - occ:1344721
+            - occ:1344722
+            - occ:1344723
+            - occ:1344724
+            - occ:1344725
+            - occ:1441299
+            - occ:1441339
+            - occ:1441385
+            - occ:1441547
+            - occ:1441562
+            - occ:1441596
+            - occ:1441669
+          selectedCollectionIds:
+            - col:176066
+            - col:182064
+            - col:135802
+            - col:182062
+            - col:180964
+            - col:75595
+            - col:175168
+            - col:135793
+            - col:175171
+            - col:182065
+            - col:182066
+            - col:182067
+            - col:182042
+            - col:180961
+            - col:182063
+            - col:182055
+            - col:175169
+            - col:182068
+            - col:180971
+            - col:201162
+            - col:135791
+            - col:187298
+            - col:187301
+            - col:201176
+            - col:180959
+            - col:201191
+          sourceReferenceIds:
+            - ref:57775
+            - ref:60526
+            - ref:68908
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-7abd2c1449
+        part: body
+      en:
+        page: en
+        section: s-d8beae7f43
+        part: body

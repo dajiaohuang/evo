@@ -1,0 +1,3 @@
+## ## Hirsute stems and large pre-opening bracts {#s-9a72c8e04f}
+The Brazilian Flora 2020 entry records hirsute stems with forward-appressed simple hairs and capitate glandular hairs; setae, prickles and short shoots are absent. The stipules may be shed or persistent, while extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, and before the flowers open their bracts are longer than the flowers. The flowers have three perianth parts and a membranous calyx with triangular lobes. Corolla lobes have one to three veins and may be hairless or pilose; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial” but gives no locality or finer habitat description.
+

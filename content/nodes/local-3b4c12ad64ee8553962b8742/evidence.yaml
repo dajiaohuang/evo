@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius vandenburghi
+    name:
+      en: Hynobius vandenburghi
+      zh: Hynobius vandenburghi
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hynobius vandenburghi in the morphology deposit
+          zh: 形态数据中的 Hynobius vandenburghi 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0bf580390e
+            part: body
+          zh:
+            page: zh
+            section: s-cde35a0fb6
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 194: measurement fields and sex codes"
+          zh: 第 194 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6d7ea9fd4f
+            part: body
+          zh:
+            page: zh
+            section: s-2885dcd817
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 194; Reference.csv rows 4217
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 194
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius vandenburghi
+          - NA
+          - NA
+          - "56.5"
+          - "43.1"
+          - "29.1"
+          - "13.4"
+          - "9.4"
+          - "3.2"
+          - "3.1"
+          - NA
+          - "1.7"
+          - "2.8"
+          - NA
+          - "39.3"
+          - "5.9"
+          - "6.6"
+          - NA
+          - "2.7"
+          - "14.2"
+          - "16.6"
+          - "2.8"
+          - "2.4"
+          - "4"
+          - "1.2"
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4217
+        values:
+          - Caudata
+          - Hynobius_vandenburghi
+          - "Matsui, M., Okawa, H., Nishikawa, K., Aoki, G., Eto, K., Yoshikawa, N., . . . Tominaga, A. (2019). Systematics of the widely distributed Japanese clouded salamander, Hynobius nebulosus (Amphibia: Caudata: Hynobiidae), and its closest relatives. Current Herpetology, 38(1), 32-90. https://doi.org/10.5358/hsj.38.32"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - UEW
+      - IND
+      - TL
+      - TW
+      - TH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NLV6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

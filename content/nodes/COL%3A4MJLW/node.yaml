@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis proserpens
+  displayName: Pristimantis proserpens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLW
+  sourceIndexes:
+    - name:
+        en: Pristimantis proserpens
+        zh: Pristimantis proserpens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/16
+            queryName: Pristimantis proserpens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/5
+            queryName: Eleutherodactylus proserpens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a143fb02e
+      - s-19842002d3
+      - s-69cfe45062
+      - s-fe3ef6c0e4
+      - s-c1f22067d4
+      - s-54ed736249
+      - s-be3a455798
+      - s-46082901d4
+      - s-3493843b15
+    zh:
+      - s-21fdfc563e
+      - s-099f038fce
+      - s-a562c80adc
+      - s-fd33218fd7
+      - s-17741a232b
+      - s-d845b8dc56
+      - s-62d4dc7723
+      - s-a5c415fa70
+      - s-903baddc71

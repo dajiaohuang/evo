@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana graminea
+  displayName: Odorrana graminea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SFM
+  sourceIndexes:
+    - name:
+        en: Odorrana graminea
+        zh: Odorrana graminea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SFM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/13
+            queryName: Odorrana graminea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 29
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/109
+            queryName: Rana graminea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/334
+            queryName: Hylarana graminea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/335
+            queryName: Huia graminea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba01f919d6
+      - s-8d0287cb28
+      - s-5fe4458846
+      - s-4aecc61995
+      - s-6d66e4f7ec
+      - s-681273506b
+      - s-c55c44b45c
+      - s-ab51928580
+      - s-0ed4eba5dd
+      - s-1d8a78a1a5
+      - s-783b360e14
+      - s-ab9d31b703
+    zh:
+      - s-c71f488e77
+      - s-abb1779071
+      - s-9315f9d8b8
+      - s-9d3de772ee
+      - s-6cc990359e
+      - s-ae7a2571c1
+      - s-fd9d5f70bc
+      - s-22ba0cbf3b
+      - s-bd861fe31b
+      - s-536ecef89d
+      - s-1cdbcad757
+      - s-ed3bb4a1c2

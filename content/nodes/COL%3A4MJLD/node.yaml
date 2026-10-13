@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis phoxocephalus
+  displayName: Pristimantis phoxocephalus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLD
+  sourceIndexes:
+    - name:
+        en: Pristimantis phoxocephalus
+        zh: Pristimantis phoxocephalus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/497
+            queryName: Pristimantis phoxocephalus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/493
+            queryName: Eleutherodactylus phoxocephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6cad9ecfd0
+      - s-d40fa52fb8
+      - s-060e3dcf01
+      - s-7848f6a639
+      - s-a30d7fdc42
+      - s-be42b134af
+      - s-be94de7bf9
+      - s-7ff56adce3
+      - s-aac1380723
+      - s-fc4fff22d0
+      - s-cd4cc744f6
+      - s-4c9e5ba8db
+      - s-3eeaa2fc3a
+      - s-42d8d32b06
+      - s-18e5ff367b
+      - s-7d19fe0fc8
+      - s-178a4a2ba5
+      - s-1a2bc7f092
+      - s-2f28909f89
+      - s-4363db8153
+    zh:
+      - s-cd8ce2b413
+      - s-b0f5c4d1f0
+      - s-8a4a33730b
+      - s-a908390866
+      - s-60fb03ac00
+      - s-d000d6efc4
+      - s-2d9ba710f3
+      - s-e380564511
+      - s-fbc5a519f1
+      - s-934332373e
+      - s-32d669d41e
+      - s-9447baa219
+      - s-739c0f486b
+      - s-8a5bc02979
+      - s-85000e165c
+      - s-3cb5896802
+      - s-82cb15c0c5
+      - s-2cc74b5a19
+      - s-ccf3208f1f
+      - s-1dfdb75aa9

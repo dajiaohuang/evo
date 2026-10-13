@@ -1,0 +1,597 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Ranoidea cyclorhynchus
+    name:
+      en: Ranoidea cyclorhynchus
+      zh: Ranoidea cyclorhynchus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Which source name is assigned to this tadpole record?
+          zh: 这条蝌蚪记录采用什么来源名称？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-1a369d6132
+            part: body
+          zh:
+            page: zh
+            section: s-84232e7871
+            part: body
+      - topic: morphology
+        title:
+          en: What do the rows actually report?
+          zh: 数据行实际记录了什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-a09af0025c
+            part: body
+          zh:
+            page: zh
+            section: s-82c4c5a6c3
+            part: body
+      - topic: morphology
+        title:
+          en: What can the image measurements show?
+          zh: 图像测量能说明什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-6e8a15bc23
+            part: body
+          zh:
+            page: zh
+            section: s-9fa7eefdaf
+            part: body
+      - topic: overview
+        title:
+          en: Where do the supplied ratios disagree?
+          zh: 哪些来源比例存在差异？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-b849615253
+            part: body
+          zh:
+            page: zh
+            section: s-64e2eaeb68
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1507, 1508, 1509, 1510, 1511, 1512, 1513; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Hylidae
+      genus: Ranoidea
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1507
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Litoria cyclorhyncha
+          - Hylidae
+          - Ranoidea
+          - Ranoidea cyclorhynchus
+          - 27
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.350849769794805
+          - 0.649150230205195
+          - 0.155317455806287
+          - 0.21900755982493
+          - 0.0760813960097766
+          - 0.0859716932871028
+          - 0.0826749275279941
+          - null
+          - null
+          - null
+          - Rui Tian
+      - rowNumber: 1508
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Ratio
+          - Color image
+          - Litoria cyclorhyncha
+          - Hylidae
+          - Ranoidea
+          - Ranoidea cyclorhynchus
+          - 29
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.36480086949771
+          - 0.639313717879047
+          - 0.176189736821675
+          - 0.219988096162306
+          - 0.0888776751287426
+          - 0.0722123023574774
+          - 0.0692104650260073
+          - null
+          - null
+          - null
+          - Rui Tian
+      - rowNumber: 1509
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria cyclorhyncha
+          - Hylidae
+          - Ranoidea
+          - Ranoidea cyclorhynchus
+          - 35
+          - 46.132
+          - 16.993
+          - 28.847
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 8.293
+          - 2.432
+          - null
+          - 0.3683562185342
+          - 0.625314315442643
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.179766756264632
+          - 0.527182866556837
+          - null
+          - Rui Tian
+      - rowNumber: 1510
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria cyclorhyncha
+          - Hylidae
+          - Ranoidea
+          - Ranoidea cyclorhynchus
+          - 42
+          - 62.424
+          - 21.995
+          - 40.462
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 10.016
+          - 5.249
+          - null
+          - 0.352348455722158
+          - 0.6481818717523
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.1645118547994
+          - 0.84862488786364
+          - null
+          - Rui Tian
+      - rowNumber: 1511
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria cyclorhyncha
+          - Hylidae
+          - Ranoidea
+          - Ranoidea cyclorhynchus
+          - 41
+          - 67.207
+          - 26.065
+          - 42.84
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 13.769
+          - 4.494
+          - null
+          - 0.387831624681953
+          - 0.6374336666597
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.2487449224392
+          - 0.66868345797313
+          - null
+          - Rui Tian
+      - rowNumber: 1512
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Color image
+          - Litoria cyclorhyncha
+          - Hylidae
+          - Ranoidea
+          - Ranoidea cyclorhynchus
+          - 38
+          - 70.875
+          - 26.584
+          - 44.563
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 14.74
+          - 5.267
+          - null
+          - 0.37582892416226
+          - 0.6287548588183
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 0.2797178135115
+          - 0.74313932985997
+          - null
+          - Rui Tian
+      - rowNumber: 1513
+        values:
+          - "Anstis, M. (2018). Tadpoles and Frogs of Australia: New Holland."
+          - Measurement
+          - Hand-drawn picture
+          - Litoria cyclorhyncha
+          - Hylidae
+          - Ranoidea
+          - Ranoidea cyclorhynchus
+          - 34
+          - 50.174
+          - 19.417
+          - 31.016
+          - 10.251
+          - 12.251
+          - 4.834
+          - 4.667
+          - 3.918
+          - null
+          - null
+          - 3.37
+          - 0.386993263443218
+          - 0.61816877267114
+          - 0.2439466377
+          - 0.24417287399849
+          - 0.9634472373116
+          - 0.9316332646391
+          - 0.78882528799777
+          - null
+          - null
+          - 0.67166261412922
+          - Rui Tian
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1509
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: TMW/TL
+        suppliedRatio: 0.527182866556837
+        originalNumerator: 2.432
+        originalTotalLength: 46.132
+        computedRatio: 0.05271828665568369
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1510
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: BMW/TL
+        suppliedRatio: 0.1645118547994
+        originalNumerator: 10.016
+        originalTotalLength: 62.424
+        computedRatio: 0.16045110854799435
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1510
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: TMW/TL
+        suppliedRatio: 0.84862488786364
+        originalNumerator: 5.249
+        originalTotalLength: 62.424
+        computedRatio: 0.08408624887863642
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1511
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: BMW/TL
+        suppliedRatio: 0.2487449224392
+        originalNumerator: 13.769
+        originalTotalLength: 67.207
+        computedRatio: 0.20487449224039164
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1511
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: TMW/TL
+        suppliedRatio: 0.66868345797313
+        originalNumerator: 4.494
+        originalTotalLength: 67.207
+        computedRatio: 0.06686803457973128
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1512
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: BMW/TL
+        suppliedRatio: 0.2797178135115
+        originalNumerator: 14.74
+        originalTotalLength: 70.875
+        computedRatio: 0.20797178130511465
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1512
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: TMW/TL
+        suppliedRatio: 0.74313932985997
+        originalNumerator: 5.267
+        originalTotalLength: 70.875
+        computedRatio: 0.07431393298059966
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1513
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: BMH/TL
+        suppliedRatio: 0.2439466377
+        originalNumerator: 10.251
+        originalTotalLength: 50.174
+        computedRatio: 0.20430900466377008
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1513
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: TMH/TL
+        suppliedRatio: 0.9634472373116
+        originalNumerator: 4.834
+        originalTotalLength: 50.174
+        computedRatio: 0.0963447203731016
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1513
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: DFH/TL
+        suppliedRatio: 0.9316332646391
+        originalNumerator: 4.667
+        originalTotalLength: 50.174
+        computedRatio: 0.09301630326463906
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1513
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: VFH/TL
+        suppliedRatio: 0.78882528799777
+        originalNumerator: 3.918
+        originalTotalLength: 50.174
+        computedRatio: 0.07808825287997768
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1513
+        scientificName: Ranoidea cyclorhynchus
+        sourceField: OD/TL
+        suppliedRatio: 0.67166261412922
+        originalNumerator: 3.37
+        originalTotalLength: 50.174
+        computedRatio: 0.06716626141029218
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.350849769794805
+        row: 1507
+        stage: 27
+        type: Ratio
+        imageType: Color image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.649150230205195
+        row: 1507
+        stage: 27
+        type: Ratio
+        imageType: Color image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.155317455806287
+        row: 1507
+        stage: 27
+        type: Ratio
+        imageType: Color image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.21900755982493
+        row: 1507
+        stage: 27
+        type: Ratio
+        imageType: Color image
+      - field: TMH/TL
+        label:
+          en: tail muscle height / total length
+          zh: 尾肌高度/全长
+        value: 0.0760813960097766
+        row: 1507
+        stage: 27
+        type: Ratio
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

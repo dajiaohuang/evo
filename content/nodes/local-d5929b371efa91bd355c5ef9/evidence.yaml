@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius tokyoensis
+    name:
+      en: Hynobius tokyoensis
+      zh: Hynobius tokyoensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3f38efe859
+            part: body
+          zh:
+            page: zh
+            section: s-914e97129a
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e96e2984ca
+            part: body
+          zh:
+            page: zh
+            section: s-a274447f9c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 185; Reference.csv rows 4077
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 185
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius tokyoensis
+          - M
+          - NA
+          - "57.4"
+          - "43.61136"
+          - NA
+          - "14.22864"
+          - "10.06416"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "50.08944"
+          - NA
+          - "8.0976"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4077
+        values:
+          - Caudata
+          - Hynobius_tokyoensis
+          - Matsui, M., Kokuryo, Y., Misawa, Y., & Nishikawa, K. (2004). A new species of salamander of the genus Hynobius from Central Honshu, Japan (Amphibia, Urodela). Zoolog Sci, 21(6), 661-669. https://doi.org/10.2108/zsj.21.661
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - HL
+      - HW
+      - TL
+      - TH
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6N2KR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

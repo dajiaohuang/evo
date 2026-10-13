@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scotobleps gabonicus
+  displayName: Scotobleps gabonicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VXQR
+  sourceIndexes:
+    - name:
+        en: Scotobleps gabonicus
+        zh: Scotobleps gabonicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VXQR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/137
+            queryName: Scotobleps gabonicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/66
+            queryName: Astylosternus oxyrhynchus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/67
+            queryName: Scotobleps camerunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/68
+            queryName: Astylosternus gabonicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a78cedfcce
+      - s-4e37ce52ee
+      - s-c58c9056c7
+      - s-7010f15ccd
+      - s-b68cf0b8f4
+      - s-8da8fc1dce
+      - s-a8ebf3dac6
+      - s-e2996c2fc4
+      - s-02a4fcf698
+      - s-7324c2f465
+      - s-965b3a142d
+      - s-81cfe916d4
+      - s-f67a875f32
+    zh:
+      - s-d74756ee46
+      - s-e3377de45c
+      - s-fca69a6bb0
+      - s-a5539d90de
+      - s-f1d3cb198e
+      - s-4c5f5c8776
+      - s-41d2425ead
+      - s-a47410497a
+      - s-fb5efbb2be
+      - s-053e01908c
+      - s-05e1a5bcd3
+      - s-5363b7600d
+      - s-96ae67f304

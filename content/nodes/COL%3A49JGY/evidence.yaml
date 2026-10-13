@@ -1,0 +1,143 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Oncosiphon suffruticosus (L.) Källersjö
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 49JGY, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 49JGY; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/49JGY
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 49JGY
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000090794-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 49JGY / WFO wfo-0000090794
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14187_0
+        referenceId: ref-286454ab-c651-8706-ae8c-348de1ebd10e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Oncosiphon suffruticosus (L.) Källersjö account; archive rows 11379 (Morphology), 26304 (Habitat), source identifier 14187.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18918_0
+        referenceId: ref-7198d65e-eea6-8782-a6a1-eabb924e5390
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Oncosiphon suffruticosus (L.) Källersjö account; archive rows 105178 (Diagnostic), source identifier 18918.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Much-branched, aromatic annual to 50 cm. Leaves bi- to tripinnatisect. Flower heads discoid, many in dense corymbs, yellow.
+            sourceIds:
+              - sanbi_14187_0
+            locator: "SANBI/WFO archive Morphology row 11379; source 14187.0; publication: Manning, JC; Goldblatt, P. 2012. Asteraceae: Oncosiphon Källersjö. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 401 - 401. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Oncosiphon suffruticosus is readily confused with Oncosiphon piluliferus, with which it shares bipinnatisect leaves and glabrous involucral bracts, but is distinguished by the dense, compound corymbs with ?10 heads (solitary or in simple corymbs with ?6 heads in O. piluliferus), smaller campanulate heads, 3-5 mm diam. (larger, hemispherical head, 5-10 mm in diameter, in O. piluliferus), and involucral bracts that are only slightly deflexed and so obscure the receptacle (involucral bracts strongly deflexed, not obscuring the base of the receptacle in O. piluliferus). Occasional hybrids between O. suffruticosus and O. grandiflorus were observed throughout the West Coast where the two species commonly co-occur. The hybrid individuals have intermediately sized (±6 mm diam.), sparsely pilose to pilose heads, in lax simple corymbs (Kolokoto & Magee 3, NBG; Boucher 4073, NBG).
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_18918_0
+            locator: "SANBI/WFO archive Diagnostic row 105178; source 18918.0; publication: Kolokoto, R; Magee, AR. 2018. Cape stinkweeds: Taxonomy of Oncosiphon (Anthemideae, Asteraceae). S. African J. Bot. 117: 57 - 70. [https://doi.org/10.1016/j.sajb.2018.04.020]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandy flats and slopes, often coastal.
+            sourceIds:
+              - sanbi_14187_0
+            locator: "SANBI/WFO archive Habitat row 26304; source 14187.0; publication: Manning, JC; Goldblatt, P. 2012. Asteraceae: Oncosiphon Källersjö. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 401 - 401. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-fc548ca3c8
+            part: title
+          zh:
+            page: zh
+            section: s-5503530cef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fc548ca3c8
+            part: body
+          zh:
+            page: zh
+            section: s-5503530cef
+            part: body

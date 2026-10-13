@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Exerodonta sumichrasti
+  displayName: Exerodonta sumichrasti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DKP8
+  sourceIndexes:
+    - name:
+        en: Exerodonta sumichrasti
+        zh: Exerodonta sumichrasti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DKP8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/452
+            queryName: Exerodonta sumichrasti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/206
+            queryName: Hyla sumichrasti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/308
+            queryName: Hylella platycephala
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/309
+            queryName: Hylella sumichrasti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d4edbb1bc2
+      - s-13fd9f69f0
+      - s-abcbd12547
+      - s-ffc272a2db
+      - s-a1bb73ad38
+      - s-4090f09a3a
+      - s-32a3d76c73
+      - s-7ef1d9bd3c
+      - s-c94ca70444
+    zh:
+      - s-a14334feb3
+      - s-3e70c3fdd9
+      - s-d74e173c60
+      - s-b1249603a9
+      - s-b8bad94095
+      - s-c2c6da6654
+      - s-9e05fa5a47
+      - s-ef7ea095d9
+      - s-58ea17829b

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella dorsospina
+  displayName: Leptobrachella dorsospina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q9Z5F
+  sourceIndexes:
+    - name:
+        en: Leptobrachella dorsospina
+        zh: Leptobrachella dorsospina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q9Z5F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/222
+            queryName: Leptobrachella dorsospina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-690aa9d900
+      - s-a9d9bed520
+      - s-9af42e5eac
+      - s-26d5e2c954
+      - s-e85647bb47
+      - s-ae0529b09f
+      - s-c757b3becf
+    zh:
+      - s-6e95a94e44
+      - s-acc1fe4dfb
+      - s-0d77325b3b
+      - s-64ec25bb9a
+      - s-05247ac4db
+      - s-07664aae36
+      - s-1b51bb3e2e

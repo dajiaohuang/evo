@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Coryphodon lobatus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Coryphodon lobatus
+      en: Coryphodon lobatus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a9ef7b05ff
+            part: body
+          en:
+            page: en
+            section: s-6897f2970e
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-debb9c0cc8
+            part: body
+          en:
+            page: en
+            section: s-730c97f0a6
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ecae450737
+            part: body
+          en:
+            page: en
+            section: s-f197a40e62
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f40949a287
+            part: body
+          en:
+            page: en
+            section: s-14f7780466
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0bb235658a
+            part: body
+          en:
+            page: en
+            section: s-daf386ce2d
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Coryphodon lobatus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=45298&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:45298; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:45298
+          selectedOccurrenceIds:
+            - occ:168691
+            - occ:170852
+            - occ:170919
+            - occ:172682
+            - occ:456863
+            - occ:457574
+            - occ:457601
+            - occ:457625
+            - occ:457648
+            - occ:458640
+            - occ:458654
+            - occ:469670
+            - occ:469810
+            - occ:470010
+            - occ:470077
+            - occ:470237
+            - occ:470308
+            - occ:470385
+          selectedCollectionIds:
+            - col:15452
+            - col:15659
+            - col:15662
+            - col:15926
+            - col:15680
+            - col:15684
+            - col:15687
+            - col:15692
+            - col:15694
+            - col:15704
+            - col:15705
+            - col:46699
+            - col:46708
+            - col:46731
+            - col:46735
+            - col:46749
+            - col:46756
+            - col:46761
+          sourceReferenceIds:
+            - ref:3476
+            - ref:6280
+            - ref:11717
+          originalIdentificationMappings:
+            - occurrenceId: occ:168691
+              originalIdentifiedName: Coryphodon lobatus n. sp.
+              acceptedName: Coryphodon lobatus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-bebf50ac17
+        part: body
+      en:
+        page: en
+        section: s-d94fb009a1
+        part: body

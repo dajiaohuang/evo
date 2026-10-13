@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Qianodus duplicis
+    commonName: Silurian tooth-whorl chondrichthyan
+    commonNameZh: 志留纪齿旋软骨鱼干群
+    rank: species
+    taxonId: txn:503113
+    firstAppearance: 439
+    lastAppearance: 439
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  atlas-profile:
+    pbdbTaxonId: txn:503113
+    scientificName: Qianodus duplicis
+    commonName: Silurian tooth-whorl chondrichthyan
+    commonNameZh: 志留纪齿旋软骨鱼干群
+    rank: species
+    parentName: Stem-chondrichthyan evidence route
+    extinct: true
+    geography:
+      - Leijiatun
+      - Guizhou
+      - China
+    overview:
+      page: en
+      section: s-30cfda2cf4
+      part: body
+    overviewZh:
+      page: zh
+      section: s-683d089b47
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-e489a2346a
+        part: body
+      habitat:
+        page: en
+        section: s-2f5b204fe7
+        part: body
+      locomotion:
+        page: en
+        section: s-1e0d7cc70a
+        part: body
+      bodySize:
+        page: en
+        section: s-a635cbf3f5
+        part: body
+      guild:
+        page: en
+        section: s-72c4dfc01a
+        part: body
+      guildZh:
+        page: zh
+        section: zh-9bcee1cd1c7c63
+        part: body
+    traits:
+      - page: en
+        section: s-3cdff099d3
+        part: body
+      - page: en
+        section: s-bf2c73ff4d
+        part: body
+      - page: en
+        section: s-a1ed074932
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3fe084a507
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-e8141db08e
+      part: body
+    confidence: medium
+    referenceIds:
+      - andreev-2022-qianodus
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-30cfda2cf4
+            part: title
+          zh:
+            page: zh
+            section: s-683d089b47
+            part: title
+        text:
+          en:
+            page: en
+            section: s-30cfda2cf4
+            part: body
+          zh:
+            page: zh
+            section: s-683d089b47
+            part: body
+        sourceIds:
+          - andreev-2022-qianodus
+      - id: tooth-development
+        title:
+          en:
+            page: en
+            section: s-f0b29fabb3
+            part: title
+          zh:
+            page: zh
+            section: s-c5e39e813f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f0b29fabb3
+            part: body
+          zh:
+            page: zh
+            section: s-c5e39e813f
+            part: body
+        sourceIds:
+          - andreev-2022-qianodus
+    readerSources:
+      - id: andreev-2022-qianodus
+        referenceId: andreev-2022-qianodus
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Andreev et al. (2022), pp. 964?968, especially 965?967, Figures 1?2 and Extended Data Figures 1?3: named tooth whorls, tooth addition, histology and the Rongxi Formation sample."
+            zh: Andreev ??2022??? 964?968 ???? 965?967 ???? 1?2 ?????? 1?3???????????????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-f272e79f63
+        part: body
+      zh:
+        page: zh
+        section: s-d4c2cf2aca
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-2bdcda896c7e62
+        part: body
+      - page: zh
+        section: zh-b54d40dc1297c2
+        part: body
+      - page: zh
+        section: zh-8e43dbe7541956
+        part: body
+  claims:
+    - subjectId: taxon:qianodus
+      claimType: taxonomy
+      claimKind: scientific
+      statement: Qianodus duplicis is represented by twenty-three isolated tooth whorls and was recovered as a stem chondrichthyan; it is not an articulated crown shark.
+      confidence: medium
+      confidenceRationale: "Qianodus duplicis: Named material and a published systematic or phylogenetic treatment support this bounded identification. Confidence remains medium because the profile does not turn a sampled placement into direct ancestry or universal consensus."
+      referenceLinks:
+        - referenceId: andreev-2022-qianodus
+          relation: supports
+          pages: 964–968, especially 965–967
+          figure: Figures 1–2; Extended Data Figures 1–3
+          quoteLocator: Systematic palaeontology; tooth-whorl development and histology; geological setting
+    - subjectId: taxon:qianodus
+      claimType: biogeography
+      claimKind: scientific
+      statement: The Qianodus tooth whorls come from the late Aeronian Rongxi Formation at Leijiatun, Guizhou, China; this single sample does not establish a global distribution.
+      confidence: medium
+      confidenceRationale: "Qianodus duplicis: The primary study reports the named locality and horizon directly. Confidence is medium because one study sample cannot establish absence, endemism or a global geographic range."
+      referenceLinks:
+        - referenceId: andreev-2022-qianodus
+          relation: supports
+          pages: 964–968, especially 965–967
+          figure: Figures 1–2; Extended Data Figures 1–3
+          quoteLocator: Systematic palaeontology; tooth-whorl development and histology; geological setting
+    - subjectId: taxon:qianodus
+      claimType: ecology
+      claimKind: scientific
+      statement: The whorls document tooth development and histology, but diet, prey, locomotion, body size and habitat preference cannot be recovered from the isolated elements.
+      confidence: medium
+      confidenceRationale: "Qianodus duplicis: The evidence boundary is explicit: depositional or anatomical context is retained while unsupported behaviour and niche claims are withheld. Medium confidence applies to that bounded negative statement, not to a reconstructed ecology."
+      referenceLinks:
+        - referenceId: andreev-2022-qianodus
+          relation: supports
+          pages: 964–968, especially 965–967
+          figure: Figures 1–2; Extended Data Figures 1–3
+          quoteLocator: Systematic palaeontology; tooth-whorl development and histology; geological setting
+    - subjectId: taxon:qianodus
+      claimType: morphology
+      claimKind: scientific
+      statement: Qianodus whorls preserve non-shedding teeth added lingually in offset rows, with histology examined from named specimens including IVPP V26641.
+      confidence: medium
+      confidenceRationale: "Qianodus duplicis: The cited figures and descriptions directly document the named anatomical observations. Confidence is medium rather than universal because preservation and specimen sampling limit character completeness and variation."
+      referenceLinks:
+        - referenceId: andreev-2022-qianodus
+          relation: supports
+          pages: 964–968, especially 965–967
+          figure: Figures 1–2; Extended Data Figures 1–3
+          quoteLocator: Systematic palaeontology; tooth-whorl development and histology; geological setting
+    - subjectId: taxon:qianodus
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The displayed approximately 439 Ma point is the late Aeronian Rongxi Formation sample and is not a global Chondrichthyes first appearance.
+      confidence: medium
+      confidenceRationale: "Qianodus duplicis: The primary source and concrete locator support the displayed sample interval. Confidence is medium because the envelope is explicitly specimen- or locality-scoped and not a global first or last appearance."
+      referenceLinks:
+        - referenceId: andreev-2022-qianodus
+          relation: supports
+          pages: 964–968, especially 965–967
+          figure: Figures 1–2; Extended Data Figures 1–3
+          quoteLocator: Systematic palaeontology; tooth-whorl development and histology; geological setting
+  claim-rationales.zh:
+    - Qianodus duplicis：具名材料和已发表的系统或系统发育处理支持这一有限鉴定。置信度保持中等，因为画像不会把取样位置转化为直接祖先或普遍共识。
+    - Qianodus duplicis：一手研究直接报告了具名地点与层位。置信度为中等，因为单一研究样本不能确定缺失、特有性或全球地理范围。
+    - Qianodus duplicis：证据边界是明确的：保留沉积或解剖背景，同时不填补无依据的行为与生态位。中等置信度针对这一有限的否定性陈述，而非重建生态。
+    - Qianodus duplicis：所引图件与描述直接记录了具名解剖观察。由于保存与标本取样限制了性状完整性和变异，置信度为中等而非普遍结论。
+    - Qianodus duplicis：一手来源与具体定位符支持显示的样本区间。置信度为中等，因为该包络明确限定于标本或地点，而非全球首现或末现。
+  claim-statements.zh:
+    - Qianodus duplicis 由 23 件孤立齿旋代表，在分析中位于软骨鱼干群；它不是关节连接的冠群鲨类。
+    - Qianodus 齿旋来自中国贵州雷家屯晚埃隆期 Rongxi 组；这一单一样本不能确定全球分布。
+    - 齿旋记录了牙齿发育与组织学，但不能由孤立构件还原食性、猎物、运动、体型或栖息地偏好。
+    - Qianodus 齿旋保存不脱落牙齿并以错列方式向舌侧添加，组织学研究包括正模 IVPP V26641 等具名标本。
+    - 显示的约 439 Ma 时间点仅代表晚埃隆期 Rongxi 组样本，并非软骨鱼类全球首现。
+  ranges:
+    - entityId: qianodus
+      rangeKind: global-composite
+      taxonomicConcept: Qianodus duplicis represented study sample
+      geographicScope: Rongxi Formation, Leijiatun, Guizhou, China
+      olderMa: 439
+      youngerMa: 439
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Approximate late Aeronian horizon at about 439 Ma; no articulated individual links the whorls to body remains.
+      evidenceBasis: Twenty-three isolated tooth whorls occur in the late Aeronian Ozarkodina guizhouensis biozone; the point envelope represents that sample only.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:qianodus:fossil-range
+      referenceLocators:
+        - referenceId: andreev-2022-qianodus
+          locator: 964–968, especially 965–967; Figures 1–2; Extended Data Figures 1–3; Systematic palaeontology; tooth-whorl development and histology; geological setting

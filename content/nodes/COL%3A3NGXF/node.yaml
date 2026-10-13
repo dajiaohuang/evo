@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus italoi
+  displayName: Hyloxalus italoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXF
+  sourceIndexes:
+    - name:
+        en: Hyloxalus italoi
+        zh: Hyloxalus italoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/107
+            queryName: Hyloxalus italoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4cdb86794d
+      - s-aacc7800f1
+      - s-cc396f4b6e
+      - s-3234d71d89
+      - s-5bcb3123dc
+      - s-94e52a6371
+    zh:
+      - s-40d95ea30d
+      - s-03a4c29d7f
+      - s-a44de4f95f
+      - s-420c7c79ef
+      - s-88c97be9ea
+      - s-aadfa3bf95

@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Manulea minor Diels
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3XX6R, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3XX6R; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3XX6R
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3XX6R
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001137494-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3XX6R / WFO wfo-0001137494
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14436_0
+        referenceId: ref-8db1d3f8-82f6-8879-a354-11f3ff9d25f8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Manulea minor Diels account; archive rows 6049 (Morphology), 29956 (Habitat), source identifier 14436.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_15191_0
+        referenceId: ref-da754693-87e1-8838-a70f-bd26393580b9
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Manulea minor Diels account; archive rows 58420 (Diagnostic), source identifier 15191.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Minutely glandular-hairy annual to 30 cm. Leaves crowded basally, usually toothed. Flowers in racemes or cymules, somewhat bilabiate, tube short and inflated above, lobes rounded, white with a yellow centre.
+            sourceIds:
+              - sanbi_14436_0
+            locator: "SANBI/WFO archive Morphology row 6049; source 14436.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Manulea L. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 745 - 747. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Manulea minor has been much confused with M. exigua, from which it is easily distinguished by its scapose stems, much less markedly toothed leaves and glandular pubescence. Its relationship seems to lie with M. praeterita, from which it is distinguished by the longer hairs on the stems (up to 0.2-0.3 mm versus 0.1 mm) and leaves (up to c. 0.3-0.4 mm versus 0.25 mm), and the entire corolla lobes (not distinctly lobed).
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_15191_0
+            locator: "SANBI/WFO archive Diagnostic row 58420; source 15191.0; publication: Vollesen, KB. 2013. 126. Acanthaceae (Part 1), Fl. Zambes. 8(5): 1 - 184. Royal Botanic Gardens, Kew, London. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony slopes.
+            sourceIds:
+              - sanbi_14436_0
+            locator: "SANBI/WFO archive Habitat row 29956; source 14436.0; publication: Manning, JC; Goldblatt, P. 2012. Scrophulariaceae: Manulea L. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 745 - 747. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-d5e5f49a89
+        title:
+          en:
+            page: en
+            section: s-926bcb426d
+            part: title
+          zh:
+            page: zh
+            section: s-f32a21304d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-926bcb426d
+            part: body
+          zh:
+            page: zh
+            section: s-f32a21304d
+            part: body
+        sourceIds:
+          - sanbi_14436_0

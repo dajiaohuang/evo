@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Zhangixalus arvalis
+  displayName: Zhangixalus arvalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5D4LZ
+  sourceIndexes:
+    - name:
+        en: Zhangixalus arvalis
+        zh: Zhangixalus arvalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5D4LZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/380
+            queryName: Zhangixalus arvalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 88
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/310
+            queryName: Rhacophorus arvalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ad750deed
+      - s-831a06fa6f
+      - s-e76f0608cd
+      - s-0ba01e4107
+      - s-6cc71bdd2a
+      - s-c6a2a63ad9
+    zh:
+      - s-3932c2b721
+      - s-dcf94b9e67
+      - s-c023207563
+      - s-b348067bab
+      - s-6732940016
+      - s-c6bd5f6c87

@@ -1,0 +1,87 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-a1cab34b18
+          part: title
+        zh:
+          page: zh
+          section: s-c947c753da
+          part: title
+      text:
+        en:
+          page: en
+          section: s-a1cab34b18
+          part: body
+        zh:
+          page: zh
+          section: s-c947c753da
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-9a9002ead5
+          part: title
+        zh:
+          page: zh
+          section: s-fb0dfd3214
+          part: title
+      text:
+        en:
+          page: en
+          section: s-9a9002ead5
+          part: body
+        zh:
+          page: zh
+          section: s-fb0dfd3214
+          part: body
+  atlas-node:
+    name: Synapsida
+    commonName: Synapsids
+    commonNameZh: 合弓类
+    rank: class
+    taxonId: ""
+    firstAppearance: 308.5
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:synapsida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Echinerpeton material from the 308.5–305.5 Ma Sydney Mines Formation anchors the 308.5–0 Ma Synapsida route; its ophiacodontid assignment is a matrix result and the sample is not the synapsid origin or a global FAD.
+      confidence: medium
+      confidenceRationale: The locality, horizon and referred neural spine are directly reported and compared with the type series. The taxonomic assignment is well scoped but remains analytical, so only the sampled fossil minimum is projected.
+      referenceLinks:
+        - referenceId: mann-reisz-2020-echinerpeton-spine
+          relation: supports
+          pages: 8:83
+          figure: Figure 1
+          quoteLocator: Materials and Methods; Locality and Horizon; Comparative Anatomy; Discussion and Summary
+  claim-rationales.zh:
+    - 产地、层位及所归入的神经棘均有直接报道，并与模式系列比较；分类归属范围明确但仍属分析结果，因此只投影取样化石最低记录。
+  claim-statements.zh:
+    - Sydney Mines 组 308.5–305.5 Ma 的 Echinerpeton 材料锚定 308.5–0 Ma 的合弓类路线；其蛇齿龙科归属是矩阵结果，该样本不是合弓类起源或全球首现。
+  ranges:
+    - entityId: synapsida
+      rangeKind: global-composite
+      taxonomicConcept: Synapsida fossil minimum and living-mammal navigation span
+      geographicScope: Sydney Mines Formation near Florence, Nova Scotia, Canada; living global continuation
+      olderMa: 308.5
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 308.5–305.5 Ma is the formation-level Echinerpeton interval; ophiacodontid placement is analytical and does not date synapsid origination.
+      evidenceBasis: A referred Echinerpeton neural spine, type-series comparison and locality data anchor a sampled early synapsid occurrence; living mammals extend the route.
+      confidence: medium
+      claimIds:
+        - claim:taxon:synapsida:root-range
+      referenceLocators:
+        - referenceId: mann-reisz-2020-echinerpeton-spine
+          locator: Article 83; Figure 1; Locality and Horizon; Comparative Anatomy; Discussion
+      evidenceLevel: literature-synthesized

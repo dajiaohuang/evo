@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis skydmainos
+  displayName: Pristimantis skydmainos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJPB
+  sourceIndexes:
+    - name:
+        en: Pristimantis skydmainos
+        zh: Pristimantis skydmainos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJPB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/101
+            queryName: Pristimantis skydmainos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/396
+            queryName: Eleutherodactylus karcharias
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/61
+            queryName: Eleutherodactylus skydmainos
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-366857f28f
+      - s-1274994d6d
+      - s-15fb81c634
+      - s-82224eeacf
+      - s-017c4bc133
+      - s-37fc390d0d
+      - s-9d4e04fe92
+      - s-10bbdac25d
+      - s-bd9ef1e7a9
+    zh:
+      - s-0182262ab8
+      - s-2d91847aba
+      - s-995069f93b
+      - s-258ff9ecee
+      - s-615718bf58
+      - s-4f2e7228a0
+      - s-0d1e38b605
+      - s-2a4f749465
+      - s-8e209972ff

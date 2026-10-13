@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor yucatanensis
+  displayName: Craugastor yucatanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC7Y
+  sourceIndexes:
+    - name:
+        en: Craugastor yucatanensis
+        zh: Craugastor yucatanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC7Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/198
+            queryName: Craugastor yucatanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/227
+            queryName: Eleutherodactylus yucatanensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4de934abc4
+      - s-f0b8d4f80e
+      - s-4b0787c563
+      - s-8d7e3b46bb
+      - s-2d59ff24b7
+      - s-96728837aa
+      - s-04e3a9a932
+      - s-53afb2fdec
+    zh:
+      - s-17f0112ba1
+      - s-5c58e629ad
+      - s-964e2ea7f0
+      - s-f6c140ad93
+      - s-b50ed543dd
+      - s-a02025bbf8
+      - s-561e12cdda
+      - s-6c455abada

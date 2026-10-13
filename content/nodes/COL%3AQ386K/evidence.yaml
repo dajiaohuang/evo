@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius tsurugiensis Tominaga, Matsui, Tanabe & Nishikawa, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius tsurugiensis
+      zh: Hynobius tsurugiensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e13c0672a4
+            part: title
+          zh:
+            page: zh
+            section: s-927ec40f22
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e13c0672a4
+            part: body
+          zh:
+            page: zh
+            section: s-927ec40f22
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-523a248a0a
+            part: title
+          zh:
+            page: zh
+            section: s-531f76f9e6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-523a248a0a
+            part: body
+          zh:
+            page: zh
+            section: s-531f76f9e6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4048bdfb04
+            part: title
+          zh:
+            page: zh
+            section: s-1b19512b2d
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-4048bdfb04
+            part: body
+          zh:
+            page: zh
+            section: s-1b19512b2d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-3d54f90b79d632ff10000af4
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d94f115180
+            part: title
+          zh:
+            page: zh
+            section: s-fad851738b
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d94f115180
+            part: body
+          zh:
+            page: zh
+            section: s-fad851738b
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius tsurugiensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q386K
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 190; Reference.csv rows 4101
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-05c12c69eb
+        part: body
+      zh:
+        page: zh
+        section: s-bbc3630b7e
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-3d54f90b79d632ff10000af4
+        scientificName: Hynobius tsurugiensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1

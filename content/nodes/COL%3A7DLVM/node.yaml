@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperodon globulosus
+  displayName: Uperodon globulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DLVM
+  sourceIndexes:
+    - name:
+        en: Uperodon globulosus
+        zh: Uperodon globulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DLVM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/174
+            queryName: Uperodon globulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/86
+            queryName: Cacopus globulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/87
+            queryName: Systoma globulosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/88
+            queryName: Uperodon globulosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e981fd738
+      - s-2f0eb01ec6
+      - s-5334ef50d9
+      - s-64d638b77c
+      - s-0cc42a73ea
+      - s-32172e5034
+      - s-6d07ce8dc4
+      - s-57bf108918
+      - s-b790a52788
+      - s-c2bb71639a
+      - s-d871fa0cf3
+      - s-b2a4463970
+      - s-3406497ed4
+    zh:
+      - s-2020f35251
+      - s-9479a4f818
+      - s-d0f38cfea6
+      - s-12fcacd1fd
+      - s-64d7b10227
+      - s-97c3489af2
+      - s-e24258cb2b
+      - s-0fe9638b86
+      - s-4590c67c00
+      - s-c69714379c
+      - s-2f11f978f9
+      - s-043696fe1f
+      - s-5baa891b20

@@ -1,0 +1,381 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ceratophryidae Tschudi, 1838
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Ceratophryidae
+      zh: Ceratophryidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-9faa473f90
+            part: title
+          zh:
+            page: zh
+            section: s-13e8c04cee
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9faa473f90
+            part: body
+          zh:
+            page: zh
+            section: s-13e8c04cee
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ee95d56a8a
+            part: title
+          zh:
+            page: zh
+            section: s-e55820349b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ee95d56a8a
+            part: body
+          zh:
+            page: zh
+            section: s-e55820349b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-14f2d27348
+            part: title
+          zh:
+            page: zh
+            section: s-5ed6ff2e5e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-14f2d27348
+            part: body
+          zh:
+            page: zh
+            section: s-5ed6ff2e5e
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e3a1d63543
+            part: title
+          zh:
+            page: zh
+            section: s-ffa631fde7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e3a1d63543
+            part: body
+          zh:
+            page: zh
+            section: s-ffa631fde7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-cb86e9f93f
+            part: title
+          zh:
+            page: zh
+            section: s-6eed16959d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3KV4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KV4
+            label:
+              en: Ceratophrys
+              zh: Ceratophrys
+          - kind: catalogue
+            colId: 3LFL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3LFL
+            label:
+              en: Chacophrys
+              zh: Chacophrys
+          - kind: catalogue
+            colId: 6398C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6398C
+            label:
+              en: Lepidobatrachus
+              zh: Lepidobatrachus
+        text:
+          en:
+            page: en
+            section: s-cb86e9f93f
+            part: body
+          zh:
+            page: zh
+            section: s-6eed16959d
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-d2ba75db52
+            part: title
+          zh:
+            page: zh
+            section: s-bd1dc14736
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-d2ba75db52
+            part: body
+          zh:
+            page: zh
+            section: s-bd1dc14736
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ceratophryidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/7WM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Ceratophryidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Ceratophryidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6af69eadf4
+        part: body
+      zh:
+        page: zh
+        section: s-49ef902864
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Ceratophryidae
+      sourceRowIds:
+        - Anf1141
+        - Anf1142
+        - Anf1143
+        - Anf1144
+        - Anf1145
+        - Anf1146
+        - Anf1147
+        - Anf1148
+        - Anf1149
+        - Anf1150
+        - Anf1151
+        - Anf1152
+        - Anf1153
+        - Anf1154
+        - Anf1155
+        - Anf1156
+        - Anf1157
+        - Anf1158
+        - Anf1159
+        - Anf1160
+        - Anf1161
+        - Anf1162
+        - Anf1163
+        - Anf1164
+        - Anf1165
+        - Anf1166
+        - Anf1167
+        - Anf1168
+        - Anf1169
+        - Anf1170
+        - Anf1171
+        - Anf1172
+        - Anf1173
+        - Anf1174
+        - Anf1175
+        - Anf1176
+        - Anf1177
+        - Anf1178
+        - Anf1179
+        - Anf1180
+        - Anf1181
+        - Anf1182
+        - Anf1183
+        - Anf1184
+        - Anf1185
+        - Anf1186
+        - Anf1187
+        - Anf1188
+        - Anf1189
+        - Anf1190
+        - Anf1191
+        - Anf1192
+        - Anf1193
+        - Anf1194
+        - Anf1195
+        - Anf1196
+        - Anf1197
+        - Anf1198
+        - Anf1199
+        - Anf1200
+        - Anf1201
+        - Anf1202
+        - Anf1203
+        - Anf1204
+        - Anf1205
+        - Anf1206
+        - Anf1207
+        - Anf1208
+        - Anf1209
+        - Anf1210
+        - Anf1211
+        - Anf1212
+        - Anf1213
+        - Anf1214
+        - Anf1215
+        - Anf1216
+        - Anf1217
+        - Anf1218
+        - Anf1219
+        - Anf1220
+        - Anf1221
+        - Anf1222
+        - Anf1223
+        - Anf1224
+        - Anf1225
+        - Anf1226
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 10
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 55
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 71
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 9
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 82
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Ceratophrys cranwelli
+          path: content/nodes/local-9f89b30aedfcd5d8265dab43
+        - scientificName: Lepidobatrachus llanensis
+          path: content/nodes/local-e7380a860ced8c2552b41b74
+        - scientificName: Ceratophrys aurita
+          path: content/nodes/local-376dc14efa1b259839227522
+        - scientificName: Ceratophrys joazeirensis
+          path: content/nodes/local-a39cc8d7cbf9c6eb2ee95963
+      metrics:
+        - metric: CTmax
+          rows: 4
+          sourceConcepts: 4
+        - metric: CTmin
+          rows: 2
+          sourceConcepts: 2
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus schmidti
+  displayName: Crossodactylus schmidti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMC5
+  sourceIndexes:
+    - name:
+        en: Crossodactylus schmidti
+        zh: Crossodactylus schmidti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMC5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/233
+            queryName: Crossodactylus schmidti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3746ff419f
+      - s-1a1e1e81e8
+      - s-f919c170ac
+      - s-338fd54a85
+      - s-bd2b21657d
+      - s-0b628f0da9
+      - s-495c302a11
+      - s-36102aceab
+      - s-d02865e2c0
+      - s-c74ffca830
+      - s-bcf1a6889f
+      - s-0907a3c9be
+      - s-ed04d037c2
+      - s-ef99b68017
+      - s-3cec29daa0
+      - s-0593883970
+      - s-05997d1c88
+      - s-59d15b0c54
+      - s-039f14863d
+      - s-532c768056
+      - s-5c3998e8ca
+      - s-91a0eb67d4
+      - s-fe21dfd0b8
+      - s-f958f64eb2
+      - s-f58283c52d
+      - s-1b3626d22c
+    zh:
+      - s-b6702f4de8
+      - s-c6c6ac44f7
+      - s-1bd3b73cf6
+      - s-4cffadff06
+      - s-a02a1a54da
+      - s-631e30f9d1
+      - s-bd51356030
+      - s-d2e24be456
+      - s-a2e735e78a
+      - s-b054145e5d
+      - s-27aa09b919
+      - s-b612f8b882
+      - s-77215b2577
+      - s-7e2fe83809
+      - s-552a361857
+      - s-6cbfcf26a9
+      - s-7eb317a4bc
+      - s-c3c917a7bc
+      - s-bbf166c665
+      - s-24a1830763
+      - s-449fc300c6
+      - s-f381df6584
+      - s-efae36e690
+      - s-9429b1eeb5
+      - s-853780e2ca
+      - s-51e78969f4

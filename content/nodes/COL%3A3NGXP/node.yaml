@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloxalus marmoreoventris
+  displayName: Hyloxalus marmoreoventris
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGXP
+  sourceIndexes:
+    - name:
+        en: Hyloxalus marmoreoventris
+        zh: Hyloxalus marmoreoventris
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGXP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/115
+            queryName: Hyloxalus marmoreoventris
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/114
+            queryName: Colostethus marmoreoventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bf67e0136
+      - s-1e38cb6dec
+      - s-c3e4028003
+      - s-93208bcaac
+      - s-b4e8993828
+      - s-651eda201f
+      - s-30582b9f0c
+    zh:
+      - s-b2aee3e81c
+      - s-eff096a36c
+      - s-40d70bd691
+      - s-56aac65cb1
+      - s-b3a4683fa0
+      - s-c228497551
+      - s-b996df7171

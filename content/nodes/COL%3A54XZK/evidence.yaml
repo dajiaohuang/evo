@@ -1,0 +1,400 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tarsius tarsier (Erxleben, 1777)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Selayar Tarsier
+      zh: 塞拉亚眼镜猴
+    sections:
+      - topic: taxonomy
+        text:
+          en:
+            page: en
+            section: s-828c6c0dcc
+            part: body
+          zh:
+            page: zh
+            section: s-0b824b56c3
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - groves2010
+      - topic: field ecology
+        text:
+          en:
+            page: en
+            section: s-20cd60c4e0
+            part: body
+          zh:
+            page: zh
+            section: s-60d9bd0303
+            part: body
+        sourceIds:
+          - wirdateti2008
+      - topic: evidence_scope
+        text:
+          en:
+            page: en
+            section: s-21d0571d37
+            part: body
+          zh:
+            page: zh
+            section: s-ec1cd085f6
+            part: body
+        sourceIds:
+          - wirdateti2008
+          - groves2010
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-0d56c412da
+            part: body
+          en:
+            page: en
+            section: s-66eefa1ad2
+            part: body
+      - topic: morphology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-386f1e113c
+            part: body
+          en:
+            page: en
+            section: s-289ba956cc
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-f8b593513d
+            part: body
+          en:
+            page: en
+            section: s-f28dcbf89c
+            part: body
+      - topic: ecology
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-552ed03fbf
+            part: body
+          en:
+            page: en
+            section: s-788665369a
+            part: body
+      - topic: sources
+        sourceIds:
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-c190c9018a
+            part: body
+          en:
+            page: en
+            section: s-ebcc7f1401
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8e9dc2ad79
+            part: body
+          en:
+            page: en
+            section: s-ada34dbcd5
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1f97004cbe
+            part: body
+          en:
+            page: en
+            section: s-387add3aa8
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-bacb8ba6d7
+            part: body
+          en:
+            page: en
+            section: s-d26dd8ddcb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f27632ac3a
+            part: body
+          en:
+            page: en
+            section: s-25f4023f8a
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-63b416ef5a
+            part: body
+          en:
+            page: en
+            section: s-fca923a028
+            part: body
+    limitations:
+      en:
+        page: en
+        section: s-69d1c0d444
+        part: body
+      zh:
+        page: zh
+        section: s-f6d1c52c93
+        part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tarsius tarsier
+          url: https://www.checklistbank.org/dataset/316115/taxon/54XZK
+          scope:
+            en: Pinned COL26.8 name, authorship, rank and parent link; not biological evidence.
+            zh: 固定 COL26.8 中的名称、作者、等级与父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-20f087f2-b3ab-8f6e-acd1-e0dc12fc2770
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English display name “Selayar Tarsier” as an MDD vernacular; it does not establish ecological claims or override the pinned COL26.8 taxon.
+            zh: 支持英文展示名“Selayar Tarsier”作为 MDD 普通名；不据此推导生态结论或改动固定 COL26.8 分类。
+      - id: groves2010
+        referenceId: ref-cd8804f6-ebfd-8aaa-ae54-220c4bb09d58
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the taxonomic treatment that restricts T. tarsier to Selayar Island and separates other Sulawesi populations under distinct names; this is a classification synthesis, not a field ecology study.
+            zh: 支持将 T. tarsier 限定于 Selayar 岛、并以其他名称处理苏拉威西其他种群的分类处理；这是分类综述，不是野外生态研究。
+      - id: wirdateti2008
+        referenceId: ref-74d46d4b-ff7e-892e-a996-dace7ac35e32
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the 2006 exploratory survey and observations explicitly located on Selayar, including the Punagaan nests and Labau roosts/behavior; the paper also covers mainland Patunuang, so pooled totals, mixed-site plant lists and combined elevation summaries are excluded from this page.
+            zh: 支持 2006 年探索性调查及明确标注为 Selayar 的观察，包括 Punagaan 巢址和 Labau 睡眠点/行为记录；论文也覆盖大陆 Patunuang，因此本页排除混合地点的总数、植物清单和合并海拔范围。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - availableFields
+          - originalReferenceStrings
+          - sameNameSourceLabels
+          - sourceVersion
+          - sourceFileSha256
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Amniote_Database_Aug_2015.csv row 12371; name Tarsius tarsier; reference table row 12371; sparse-table row locators retained per field in data/sources/amniote-lifehistory-2015-authored-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          availableFields:
+            - adult_body_mass_g
+            - female_maturity_d
+            - litter_or_clutch_size_n
+            - gestation_d
+            - weaning_d
+            - birth_or_hatching_weight_g
+            - maximum_longevity_y
+          originalReferenceStrings:
+            adult_body_mass_g: BC mammals - Savage et al., 2004 from median of 3(BC mammals - Savage et al., 2004, Ernest et al., 2003, Jones, K., Bielby, J., Cardillo, M. et al., 2009)
+            female_maturity_d: mean of Ernest et al., 2003 and Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            litter_or_clutch_size_n: mean of Ernest et al., 2003 and Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            gestation_d: mean of Ernest et al., 2003 and Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            weaning_d: mean of Ernest et al., 2003 and Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            birth_or_hatching_weight_g: mean of Ernest et al., 2003 and Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            maximum_longevity_y: Carey, J.R. and D.S. Judge, 2002
+          sameNameSourceLabels:
+            - Jones, K., Bielby, J., Cardillo, M. et al., 2009
+            - Ernest et al., 2003
+            - BC mammals - Savage et al., 2004
+            - Carey, J.R. and D.S. Judge, 2002
+            - Weigl, R., 2005
+          sourceVersion: August 2015 archive
+          sourceFileSha256: ae16377ebe8a172949c2b8c200a50c5d0c7fc04d34bd3c9704635da4a4d51f53
+          scope:
+            zh: 历史同名、同科的汇编生活史字段；保留中位数、最长记录与分类继承，不保证当前概念同一。
+            en: Historical same-name, same-family compilation fields, retaining medians, longest records and taxonomic inheritance; no current concept-equivalence claim.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 842; Scientific=Tarsius tarsier; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.

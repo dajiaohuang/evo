@@ -1,0 +1,207 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Nevillea vlokii H.P.Linder
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 47BPX, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 47BPX; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/47BPX
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 47BPX
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000922779-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 47BPX / WFO wfo-0000922779
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7478_0
+        referenceId: ref-da1ef52d-96d1-83c8-a531-cadf2c316073
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Nevillea vlokii H.P.Linder account; SANBI/WFO archive rows 80698 (Morphology), 80406 (Habitat), 79789 (Diagnostic), source identifier 7478.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants tufted, 0.5-1 m tall. Fertile culms borne on short, spreading, unbranched or sparsely branched rhizomes; culms unbranched, smooth, olivaceous, diameter at base 1.7-2.8 mm, 1.4-2 mm at apex. Sheaths closely convoluted, acute or obtuse or rounded, 20-30 mm long, apical margins narrowly membranous; mucro awl- or needle-shaped, straight and erect, 3.5-6 mm long. Male inflorescence 20-25 x 15-25 mm, with 2-10 paniculate spikelets; spathes persistent or caducous, taller than spikelets, cartilaginous, awned; spikelets elliptical or ovate, rounded or obtuse or acute, 8-11 x 3.5-5 mm, with 10-20 flowers; bracts as tall as or taller than flowers, 2.5-4 mm long, square, truncate or rounded, coriaceous or cartilaginous, bract upper margin like body of bract, bract awn minute or absent. Male flower 2.5-3 mm long; tepals all same size, oblong, glabrous; outer whorl cartilaginous or membranous, laterals conduplicate; inner whorl membranous; anthers 1.3-1.5 mm long, exserted from the flowers. Female inflorescence 20-50 x 8-20 mm, linear, with 2-10 spikelets; spathes longer than and obscuring the spikelets, persistent, cartilaginous; spikelets sessile, elliptical, acute, 9-18 mm long, with 2-4 flowers and 2 sterile bracts; bracts taller than flowers, 5-8 mm long, square or ovate, obtuse or acute, coriaceous or cartilaginous, apical margin like rest of bract or somewhat darker, awn minute or absent or less than half as long as the bract body. Female flower 5.5-6 mm long, without a fleshy pedicel; tepals chartaceous or cartilaginous, glabrous and smooth, apices acuminate; outer lateral tepals conduplicate or keeled or winged, wings entire, narrower than body, 5-6 mm long; inner tepals ovate, 3-5 mm long; staminodes absent; styles 2, feathery, red, bases free; ovary unilocular. Fruit unknown.
+            textZh: Nevillea vlokii H.P.Linder 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7478_0
+            locator: "SANBI/WFO archive Morphology row 80698; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Male spathes overtopping spikelets. Female tepals acuminate.
+            textZh: SANBI 条目提供了 Nevillea vlokii H.P.Linder 的鉴别特征。
+            sourceIds:
+              - sanbi_7478_0
+            locator: "SANBI/WFO archive Diagnostic row 79789; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: All collections of N. vlokii are from sandy or loamy soils derived from sandstone. Most collections indicate seepages (although one is from well-drained soils), some even indicate permanently wet habitats. It seems that the species might need some seepage. It is sometimes locally dominant or at least common.
+            textZh: 该 SANBI 区域物种条目记录的生境：All collections of N. vlokii are from sandy or loamy soils derived from sandstone. Most collections indicate seepages (although one is from well-drained soils), some even indicate permanently wet habitats. It seems that the species might need some seepage. It is sometimes locally dominant or at least common.
+            sourceIds:
+              - sanbi_7478_0
+            locator: "SANBI/WFO archive Habitat row 80406; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Nevillea vlokii H.P.Linder
+    rank: species
+    sourceDatasetId: "2232"
+    name:
+      en: Nevillea vlokii H.P.Linder
+      zh: Nevillea vlokii H.P.Linder
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ec18f64903
+            part: title
+          zh:
+            page: zh
+            section: s-97ec74e441
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ec18f64903
+            part: body
+          zh:
+            page: zh
+            section: s-97ec74e441
+            part: body
+        sourceIds:
+          - sanbi_7478_0
+        locator: "SANBI/WFO archive Morphology row 80698; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ae4cc90973
+            part: title
+          zh:
+            page: zh
+            section: s-b3b528d953
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ae4cc90973
+            part: body
+          zh:
+            page: zh
+            section: s-b3b528d953
+            part: body
+        sourceIds:
+          - sanbi_7478_0
+        locator: "SANBI/WFO archive Habitat row 80406; source identifier 7478.0; cited publication: Linder, HP. 2011. New species and combinations in the African Restionaceae. S. African J. Bot. 77: 415 - 424. [Copyright held by the South African Association of Botanists (2011); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+        evidenceAssessment: partially-supported
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/47BPX
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 47BPX
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000922779-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 47BPX / WFO wfo-0000922779
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7478_0
+        referenceId: ref-da1ef52d-96d1-83c8-a531-cadf2c316073
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Nevillea vlokii H.P.Linder account; SANBI/WFO archive rows 80698 (Morphology), 80406 (Habitat), 79789 (Diagnostic), source identifier 7478.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.

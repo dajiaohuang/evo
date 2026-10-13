@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Batodonoides powayensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Batodonoides powayensis
+      en: Batodonoides powayensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1019ceb57b
+            part: body
+          en:
+            page: en
+            section: s-fa0a29e9ca
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-033d29596a
+            part: body
+          en:
+            page: en
+            section: s-ccfca089cc
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2309dcdef8
+            part: body
+          en:
+            page: en
+            section: s-86d8e6b2a7
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5c04f47e85
+            part: body
+          en:
+            page: en
+            section: s-f1add24106
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9ecb637548
+            part: body
+          en:
+            page: en
+            section: s-990f64b9fc
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Batodonoides powayensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=44483&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:44483; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:44483
+          selectedOccurrenceIds:
+            - occ:175848
+            - occ:176105
+            - occ:176128
+            - occ:176618
+            - occ:176625
+            - occ:176643
+            - occ:176684
+            - occ:176691
+            - occ:176720
+            - occ:176779
+            - occ:176791
+            - occ:176823
+            - occ:176836
+            - occ:176872
+            - occ:176931
+            - occ:176948
+            - occ:176968
+            - occ:176983
+            - occ:177011
+            - occ:177030
+            - occ:177066
+            - occ:177083
+            - occ:177101
+            - occ:177115
+            - occ:177204
+          selectedCollectionIds:
+            - col:16585
+            - col:16615
+            - col:16616
+            - col:16682
+            - col:16683
+            - col:16688
+            - col:16698
+            - col:16702
+            - col:16706
+            - col:16713
+            - col:16714
+            - col:16718
+            - col:16719
+            - col:16733
+            - col:16745
+            - col:16746
+            - col:16747
+            - col:16748
+            - col:16751
+            - col:16752
+            - col:16762
+            - col:16763
+            - col:16764
+            - col:16765
+            - col:16787
+          sourceReferenceIds:
+            - ref:3538
+            - ref:1681
+            - ref:3540
+            - ref:2072
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-667aaf9c21
+        part: body
+      en:
+        page: en
+        section: s-b0cae55a01
+        part: body

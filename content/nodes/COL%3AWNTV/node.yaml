@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cochranella xanthocheridia
+  displayName: Cochranella xanthocheridia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/WNTV
+  sourceIndexes:
+    - name:
+        en: Cochranella xanthocheridia
+        zh: Cochranella xanthocheridia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: WNTV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/389
+            queryName: Cochranella xanthocheridia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-97f3e84911
+      - s-57ba58b100
+      - s-bd237d5ac4
+      - s-3b3f2485af
+      - s-f7f2fbc0e5
+      - s-c3455e766f
+      - s-93ca06507b
+      - s-a087ee49aa
+    zh:
+      - s-8877be10a1
+      - s-5524278fd5
+      - s-a89ff178c8
+      - s-b70abfe761
+      - s-7560419ba9
+      - s-6384caaec3
+      - s-7178af1abc
+      - s-90a04cb030

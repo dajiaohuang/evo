@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema holti
+  displayName: Ischnocnema holti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RT
+  sourceIndexes:
+    - name:
+        en: Ischnocnema holti
+        zh: Ischnocnema holti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/22
+            queryName: Ischnocnema holti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/377
+            queryName: Eleutherodactylus holti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/266
+            queryName: Eleutherodactylus unistrigatus holti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-33f8e06d67
+      - s-b94bf3805f
+      - s-9a67124fe0
+      - s-db280fcc8c
+      - s-37dea33c38
+      - s-bf252b5f20
+      - s-8a62cb568d
+      - s-e6c424e57b
+      - s-26d69eb9f1
+      - s-1cd5901946
+      - s-ff9f88f20b
+      - s-f9089451cd
+      - s-c6bcb56905
+      - s-bcdda47059
+      - s-9851d1f087
+    zh:
+      - s-a94a34a7d9
+      - s-bcb7318d91
+      - s-a7b1418042
+      - s-e311fbf570
+      - s-eabecb04cd
+      - s-06879c5237
+      - s-1749de787e
+      - s-f00fd2163d
+      - s-e8f9d4681b
+      - s-1e14cec64d
+      - s-50ce87c317
+      - s-daf8e1577c
+      - s-71d99bb3e4
+      - s-b88268b71d
+      - s-8108ed35f8

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duttaphrynus kiphirensis
+  displayName: Duttaphrynus kiphirensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DPS6
+  sourceIndexes:
+    - name:
+        en: Duttaphrynus kiphirensis
+        zh: Duttaphrynus kiphirensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DPS6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/80
+            queryName: Duttaphrynus kiphirensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/494
+            queryName: Bufo kiphirensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de88fbde98
+      - s-aa3ce8abc7
+      - s-cce28d1c0a
+      - s-d364bbaffc
+      - s-db84f32e9a
+      - s-3f651401b2
+    zh:
+      - s-071e5c9efb
+      - s-c0a9eb1f62
+      - s-34250639ef
+      - s-f5b3e6c141
+      - s-f9976fcedc
+      - s-1e7efc8523

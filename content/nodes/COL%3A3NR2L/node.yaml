@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius vilhenai
+  displayName: Hyperolius vilhenai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NR2L
+  sourceIndexes:
+    - name:
+        en: Hyperolius vilhenai
+        zh: Hyperolius vilhenai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NR2L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/353
+            queryName: Hyperolius vilhenai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0a5237795d
+      - s-e59aeeea77
+      - s-c08cc7daff
+      - s-b3d022d042
+      - s-a0126d1b5e
+      - s-5366ebb80c
+      - s-98fc8de2cc
+    zh:
+      - s-3a11a15c80
+      - s-948a2d21e1
+      - s-829706a823
+      - s-201523b0b4
+      - s-48cf1a46e9
+      - s-8eeed3284d
+      - s-c75e402a14

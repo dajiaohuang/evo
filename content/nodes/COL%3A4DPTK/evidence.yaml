@@ -1,0 +1,628 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Parmentiera cereifera Seem.
+    authorship: Seem.
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3F4
+        scientificName: Lamiales Bromhead
+        authorship: Bromhead
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 77P
+        scientificName: Bignoniaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV75R
+        scientificName: Crescentieae G.Don
+        authorship: G.Don
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 6HXW
+        scientificName: Parmentiera DC.
+        authorship: DC.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 4DPTK
+        scientificName: Parmentiera cereifera Seem.
+        authorship: Seem.
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted usage verified by stable COL ID in the pinned ChecklistBank dataset 316115 and followed through every parent node in the pinned hierarchy registry, preserving each node status as published. The Flora of Panama descriptions are joined by their retained accepted COL ID and WFO ID; same-name similarity is not used.
+      scope: COL26.8 accepted species usage 4DPTK; the WFO source profile is a regional historical record and does not prove complete taxonomic-concept equivalence across releases.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The Panama flora records regional descriptions/localities but does not establish whether source plants were wild, naturalized, cultivated, or escaped; no status is inferred.
+      domesticated: Domestication and cultivation history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/4DPTK
+          stableId: col:4DPTK@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 4DPTK; exact name, authorship, rank, status, dataset ID, and every parent node's pinned ID, rank, name, and status.
+          licenseAssessment: identity-only
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 4DPTK. https://doi.org/10.48580/dgywk.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: flora_panama_4dptk_distribution_1828
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Parmentiera cereifera Seem., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: restricted in nature to the tropical moist forest of the Atlantic slope of Central Panama. It is widely cultivated as a curiosity throughout the tropics.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 1828
+          archiveSourceId: 17E7A17C-575E-4B70-9373-05623502302A
+          archiveSourceIds:
+            - 17E7A17C-575E-4B70-9373-05623502302A
+          referenceRowNumbers:
+            - 3507
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bf1bd794-0cc0-8091-ac4c-5d259fea11e1
+                metadataVariant: 0
+                usage:
+                  identifier: 17E7A17C-575E-4B70-9373-05623502302A
+                  referenceRowNumber: 3507
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1828 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1828; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:4DPTK:row:1828
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1828; field distribution; reference rows 3507.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1828; CC BY 4.0. Citation metadata: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_4dptk_general_2352
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Parmentiera cereifera Seem., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Small tree to 20 cm d.b.h. and 7 m tall, usually several-branched near the base, the main branches strongly ascending, the crown open; twigs terete, subpuberulous, the nodes often double with a pair of small leaves in the axil of a larger pair, foliaceous pseudostipules sometimes present, 6-10 mm long and 3-4 mm wide. Leaves opposite, 3-foliolate; leaflets elliptic to elliptic- rhomboid, acute to acuminate, basally attenuate, the terminal leaflet 3.6-9.5 cm long and 1.4-4 cm wide, the lateral leaflets 3.0-6.5 cm long and 1.4-3.6 cm wide, membranaceous, secondary veins in 4-6 pairs, somewhat lepidote at least beneath, simple-puberulous along the midvein above and beneath, espe- cially in axils of lateral nerves, usually with a few plate-shaped glands along the mid-vein beneath, drying olive to blackish; petiolules not differentiated, petiole conspicuously winged, 2.4-6.2 cm long, the wing to 0.4 cm wide, widest apically and basally attenuate, the midrib slightly scabrous. Inflorescence a single cauliflorous flower or a fascicle of 2-3 flowers borne on abbreviated short-shoots on larger branches or trunk, the pedicels lepidote, 0.9-1.6 cm long. Flowers with musky odor, the calyx spathaceously split on the ventral side, 1.9-4.9 cm long and 0.9-2.9 cm wide, inconspicuously lepidote, at least at the base; corolla pure white, tubular with a horizontal pleat midway across the lower side of throat, slightly fleshy, 3.7-6.4 cm long and 1.8-2.9 cm wide at the mouth, the tube 2.5-4.0 cm long, the lobes basally fused, 1.0-1.1 cm long, mostly glabrous throughout, the epidermal cells apparently glandular, a few stalked-lepidote trichomes at the level of stamen insertion inside and on lobes outside; stamens subexserted, the anther thecae thick, partially divergent, 5-8 mm long, the anterior filaments 2.6-3.5 cm long, inserted 1.1-1.8 cm from base of corolla tube, the posterior filaments 2.7-3.2 cm long, inserted 1.2-1.7 cm from the base of the corolla tube, the staminode 1.0-1.9 cm long, inserted 0.9-2.3 cm from the base of corolla tube; pistil 3.1-4.8 cm long, the ovary linear- cylindrical, 7-8 mm long and 1.5-2 mm wide, glabrous with glandular epi- dermis, the ovules irregularly 8-10-seriate; disc annular-pulvinate, 1.5-2 mm long and 6 mm wide. Fruit elongate-linear, subterete in cross section, 39-54 cm long and 1.0-2.4 cm wide, glabrous to sparsely lepidote, waxy yellow, divided into a fleshy part surrounding the seeds and a fibrous central core surrounded by the seeds; seeds small, thin, 3-4 cm long and 3-4 cm wide, with a narrow but distinct mucilaginous wing.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 2352
+          archiveSourceId: 858348C7-295F-452E-839C-FD8FEC5626DA
+          archiveSourceIds:
+            - 858348C7-295F-452E-839C-FD8FEC5626DA
+          referenceRowNumbers:
+            - 2323
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bf1bd794-0cc0-8091-ac4c-5d259fea11e1
+                metadataVariant: 0
+                usage:
+                  identifier: 858348C7-295F-452E-839C-FD8FEC5626DA
+                  referenceRowNumber: 2323
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2352 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2352; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:4DPTK:row:2352
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2352; field general; reference rows 2323.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2352; CC BY 4.0. Citation metadata: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_4dptk_habit_2353
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Parmentiera cereifera Seem., Flora of Panama (habit field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Small tree
+          originalLanguage: en
+          sourceField: habit
+          sourceRowNumber: 2353
+          archiveSourceId: 3D2DA95D-74CD-4F12-9721-B77A5AEF7CA1
+          archiveSourceIds:
+            - 3D2DA95D-74CD-4F12-9721-B77A5AEF7CA1
+          referenceRowNumbers:
+            - 2990
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bf1bd794-0cc0-8091-ac4c-5d259fea11e1
+                metadataVariant: 0
+                usage:
+                  identifier: 3D2DA95D-74CD-4F12-9721-B77A5AEF7CA1
+                  referenceRowNumber: 2990
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2353 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2353; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:4DPTK:row:2353
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2353; field habit; reference rows 2990.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2353; CC BY 4.0. Citation metadata: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Small tree to 20 cm d.b.h. and 7 m tall, usually several-branched near the base, the main branches strongly ascending, the crown open; twigs terete, subpuberulous, the nodes often double with a pair of small leaves in the axil of a larger pair, foliaceous pseudostipules sometimes present, 6-10 mm long and 3-4 mm wide. Leaves opposite, 3-foliolate; leaflets elliptic to elliptic- rhomboid, acute to acuminate, basally attenuate, the terminal leaflet 3.6-9.5 cm long and 1.4-4 cm wide, the lateral leaflets 3.0-6.5 cm long and 1.4-3.6 cm wide, membranaceous, secondary veins in 4-6 pairs, somewhat lepidote at least beneath, simple-puberulous along the midvein above and beneath, espe- cially in axils of lateral nerves, usually with a few plate-shaped glands along the mid-vein beneath, drying olive to blackish; petiolules not differentiated, petiole conspicuously winged, 2.4-6.2 cm long, the wing to 0.4 cm wide, widest apically and basally attenuate, the midrib slightly scabrous. Inflorescence a single cauliflorous flower or a fascicle of 2-3 flowers borne on abbreviated short-shoots on larger branches or trunk, the pedicels lepidote, 0.9-1.6 cm long. Flowers with musky odor, the calyx spathaceously split on the ventral side, 1.9-4.9 cm long and 0.9-2.9 cm wide, inconspicuously lepidote, at least at the base; corolla pure white, tubular with a horizontal pleat midway across the lower side of throat, slightly fleshy, 3.7-6.4 cm long and 1.8-2.9 cm wide at the mouth, the tube 2.5-4.0 cm long, the lobes basally fused, 1.0-1.1 cm long, mostly glabrous throughout, the epidermal cells apparently glandular, a few stalked-lepidote trichomes at the level of stamen insertion inside and on lobes outside; stamens subexserted, the anther thecae thick, partially divergent, 5-8 mm long, the anterior filaments 2.6-3.5 cm long, inserted 1.1-1.8 cm from base of corolla tube, the posterior filaments 2.7-3.2 cm long, inserted 1.2-1.7 cm from the base of the corolla tube, the staminode 1.0-1.9 cm long, inserted 0.9-2.3 cm from the base of corolla tube; pistil 3.1-4.8 cm long, the ovary linear- cylindrical, 7-8 mm long and 1.5-2 mm wide, glabrous with glandular epi- dermis, the ovules irregularly 8-10-seriate; disc annular-pulvinate, 1.5-2 mm long and 6 mm wide. Fruit elongate-linear, subterete in cross section, 39-54 cm long and 1.0-2.4 cm wide, glabrous to sparsely lepidote, waxy yellow, divided into a fleshy part surrounding the seeds and a fibrous central core surrounded by the seeds; seeds small, thin, 3-4 cm long and 3-4 cm wide, with a narrow but distinct mucilaginous wing.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_4dptk_general_2352
+            locator: "Flora of Panama general field; imported row 2352; sourceIds 858348C7-295F-452E-839C-FD8FEC5626DA; reference rows 2323; citations: 858348C7-295F-452E-839C-FD8FEC5626DA: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2323)."
+            placeTimeScope: Morphological description in the Flora of Panama source version retrieved 2026-09-08; no population sampling frame or observation date is specified in this text. The source is a historical regional flora record, not a current or global account.
+            lifeStatus: The text does not identify the described plant material as wild, cultivated, domesticated, or escaped; no life status is inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The manual paragraph audit mapped 1837 of 1838 eligible general rows to morphology; COL 64BMF row 4323 is retained as a locality-only voucher list with no morphology claim. Broader morphological variation, life stages, populations, and the complete COL concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - The source habit field is preserved as the flora’s original plant life-form value; it is not evidence of a life-history or reproductive cycle.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: restricted in nature to the tropical moist forest of the Atlantic slope of Central Panama. It is widely cultivated as a curiosity throughout the tropics.
+            originalLanguage: en
+            sourceIds:
+              - flora_panama_4dptk_distribution_1828
+            locator: "Flora of Panama distribution field; imported row 1828; sourceIds 17E7A17C-575E-4B70-9373-05623502302A; reference rows 3507; citations: 17E7A17C-575E-4B70-9373-05623502302A: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 3507)."
+            placeTimeScope: Historical regional statement within the Flora of Panama source version retrieved 2026-09-08; geographic specificity is limited to the localities literally present in the excerpt. It is not a current range or global inventory.
+            lifeStatus: The source does not classify the locality record as native, introduced, cultivated, escaped, or wild; those statuses are not inferred.
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+          - This historical Panama flora statement does not establish the current/global distribution, native versus introduced status, temporal change, or survey completeness.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This facet has not been assessed from the limited Flora of Panama source slice.
+  catalogue-profile:
+    scientificName: Parmentiera cereifera Seem.
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Parmentiera cereifera Seem.
+      zh: Parmentiera cereifera Seem.
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-b710ed9108
+            part: title
+          zh:
+            page: zh
+            section: s-6a4cd98d13
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b710ed9108
+            part: body
+          zh:
+            page: zh
+            section: s-6a4cd98d13
+            part: body
+        sourceIds:
+          - flora_panama_4dptk_general_2352
+        locator: "Flora of Panama general field; imported row 2352; sourceIds 858348C7-295F-452E-839C-FD8FEC5626DA; reference rows 2323; citations: 858348C7-295F-452E-839C-FD8FEC5626DA: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 2323)."
+        evidenceAssessment: partially-supported
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-35abaab058
+            part: title
+          zh:
+            page: zh
+            section: s-6c618eff0a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-35abaab058
+            part: body
+          zh:
+            page: zh
+            section: s-6c618eff0a
+            part: body
+        sourceIds:
+          - flora_panama_4dptk_distribution_1828
+        locator: "Flora of Panama distribution field; imported row 1828; sourceIds 17E7A17C-575E-4B70-9373-05623502302A; reference rows 3507; citations: 17E7A17C-575E-4B70-9373-05623502302A: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018. (reference row 3507)."
+        evidenceAssessment: partially-supported
+    sources:
+      - id: flora_panama_4dptk_distribution_1828
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Parmentiera cereifera Seem., Flora of Panama (distribution field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: restricted in nature to the tropical moist forest of the Atlantic slope of Central Panama. It is widely cultivated as a curiosity throughout the tropics.
+          originalLanguage: en
+          sourceField: distribution
+          sourceRowNumber: 1828
+          archiveSourceId: 17E7A17C-575E-4B70-9373-05623502302A
+          archiveSourceIds:
+            - 17E7A17C-575E-4B70-9373-05623502302A
+          referenceRowNumbers:
+            - 3507
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bf1bd794-0cc0-8091-ac4c-5d259fea11e1
+                metadataVariant: 0
+                usage:
+                  identifier: 17E7A17C-575E-4B70-9373-05623502302A
+                  referenceRowNumber: 3507
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 1828 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 1828; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:4DPTK:row:1828
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 1828; field distribution; reference rows 3507.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 1828; CC BY 4.0. Citation metadata: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.
+      - id: flora_panama_4dptk_general_2352
+        referenceId: ref-fcd27cba-8014-86cc-a4a1-3827ba53a501
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - originalSourceText
+          - originalLanguage
+          - sourceField
+          - sourceRowNumber
+          - archiveSourceId
+          - archiveSourceIds
+          - referenceRowNumbers
+          - sourceCitations
+          - sourcePackLicense
+          - sourcePackLicenseUrl
+          - sourcePackLicenseAssessment
+          - citedWorkLicenseAssessment
+          - rightsHolder
+          - license
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - archiveSha256
+          - sourcePackSha256
+        metadataVariant: 0
+        usage:
+          title: Parmentiera cereifera Seem., Flora of Panama (general field)
+          url: https://files.worldfloraonline.org/files/MBG/Flora_Of_Panama/Flora_Of_Panama.zip
+          version: WFO MBG DwC-A archive retrieved 2026-09-08
+          publishedAt: undated
+          originalSourceText: Small tree to 20 cm d.b.h. and 7 m tall, usually several-branched near the base, the main branches strongly ascending, the crown open; twigs terete, subpuberulous, the nodes often double with a pair of small leaves in the axil of a larger pair, foliaceous pseudostipules sometimes present, 6-10 mm long and 3-4 mm wide. Leaves opposite, 3-foliolate; leaflets elliptic to elliptic- rhomboid, acute to acuminate, basally attenuate, the terminal leaflet 3.6-9.5 cm long and 1.4-4 cm wide, the lateral leaflets 3.0-6.5 cm long and 1.4-3.6 cm wide, membranaceous, secondary veins in 4-6 pairs, somewhat lepidote at least beneath, simple-puberulous along the midvein above and beneath, espe- cially in axils of lateral nerves, usually with a few plate-shaped glands along the mid-vein beneath, drying olive to blackish; petiolules not differentiated, petiole conspicuously winged, 2.4-6.2 cm long, the wing to 0.4 cm wide, widest apically and basally attenuate, the midrib slightly scabrous. Inflorescence a single cauliflorous flower or a fascicle of 2-3 flowers borne on abbreviated short-shoots on larger branches or trunk, the pedicels lepidote, 0.9-1.6 cm long. Flowers with musky odor, the calyx spathaceously split on the ventral side, 1.9-4.9 cm long and 0.9-2.9 cm wide, inconspicuously lepidote, at least at the base; corolla pure white, tubular with a horizontal pleat midway across the lower side of throat, slightly fleshy, 3.7-6.4 cm long and 1.8-2.9 cm wide at the mouth, the tube 2.5-4.0 cm long, the lobes basally fused, 1.0-1.1 cm long, mostly glabrous throughout, the epidermal cells apparently glandular, a few stalked-lepidote trichomes at the level of stamen insertion inside and on lobes outside; stamens subexserted, the anther thecae thick, partially divergent, 5-8 mm long, the anterior filaments 2.6-3.5 cm long, inserted 1.1-1.8 cm from base of corolla tube, the posterior filaments 2.7-3.2 cm long, inserted 1.2-1.7 cm from the base of the corolla tube, the staminode 1.0-1.9 cm long, inserted 0.9-2.3 cm from the base of corolla tube; pistil 3.1-4.8 cm long, the ovary linear- cylindrical, 7-8 mm long and 1.5-2 mm wide, glabrous with glandular epi- dermis, the ovules irregularly 8-10-seriate; disc annular-pulvinate, 1.5-2 mm long and 6 mm wide. Fruit elongate-linear, subterete in cross section, 39-54 cm long and 1.0-2.4 cm wide, glabrous to sparsely lepidote, waxy yellow, divided into a fleshy part surrounding the seeds and a fibrous central core surrounded by the seeds; seeds small, thin, 3-4 cm long and 3-4 cm wide, with a narrow but distinct mucilaginous wing.
+          originalLanguage: en
+          sourceField: general
+          sourceRowNumber: 2352
+          archiveSourceId: 858348C7-295F-452E-839C-FD8FEC5626DA
+          archiveSourceIds:
+            - 858348C7-295F-452E-839C-FD8FEC5626DA
+          referenceRowNumbers:
+            - 2323
+          sourceCitations:
+            citationBindings:
+              - referenceId: ref-bf1bd794-0cc0-8091-ac4c-5d259fea11e1
+                metadataVariant: 0
+                usage:
+                  identifier: 858348C7-295F-452E-839C-FD8FEC5626DA
+                  referenceRowNumber: 2323
+                  license: ""
+                  licenseAssessment: not-verified
+                  rightsHolder: ""
+                originalFields:
+                  - identifier
+                  - citation
+                  - referenceRowNumber
+                  - title
+                  - creator
+                  - date
+                  - source
+                  - language
+                  - license
+                  - licenseAssessment
+                  - rightsHolder
+          sourcePackLicenseAssessment: aggregate-declaration-only
+          citedWorkLicenseAssessment: not-verified-where-citation-license-is-blank
+          licenseEvidenceLocator: The source pack ledger records CC BY 4.0 at archive level and the imported description row 2352 contains the CC BY 4.0 declaration. Bibliographic citation records on that row have blank license values; this does not verify reuse rights for the cited publications.
+          licenseAppliesTo: The normalized plain-text excerpt as supplied in the Flora of Panama DwC-A description row 2352; not the underlying works listed in sourceCitations. Linked Tropicos pages, images, PDFs, and other third-party materials are excluded.
+          stableId: WFO-MBG-Flora-of-Panama:COL:4DPTK:row:2352
+          accessedAt: 2026-09-27
+          locator: Imported DwC-A description row 2352; field general; reference rows 2323.
+          attribution: "Missouri Botanical Garden, Flora of Panama, WFO MBG DwC-A archive retrieved 2026-09-08, row 2352; CC BY 4.0. Citation metadata: Parmentiera cereifera Seem., Flora of Panama (WFO),Tropicos.org, 2013 Accessed February 2018.."
+          licenseAssessment: aggregate-declaration-only
+          scope: A source-record excerpt from the historical regional Flora of Panama. It does not establish concept equivalence across taxonomic versions or a current/global inventory.

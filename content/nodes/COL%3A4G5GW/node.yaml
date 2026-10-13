@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus ingeri
+  displayName: Philautus ingeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4G5GW
+  sourceIndexes:
+    - name:
+        en: Philautus ingeri
+        zh: Philautus ingeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4G5GW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/51
+            queryName: Philautus ingeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/16
+            queryName: Leptomantis ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d952b2566b
+      - s-4e18c23cce
+      - s-446a2781d8
+      - s-5d215a5ad3
+      - s-f25bd1869b
+      - s-a768275498
+      - s-6349c37d9c
+      - s-33bb1228e8
+      - s-273084a63c
+    zh:
+      - s-494c9d974c
+      - s-fc30fa0b37
+      - s-279d63fb2f
+      - s-ffddd17b4a
+      - s-9ac2979027
+      - s-6b8c10d696
+      - s-96ed9631b9
+      - s-3c4103d8f4
+      - s-049eb9b7d1

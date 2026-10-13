@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne minuta
+  displayName: Oreophryne minuta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7569Z
+  sourceIndexes:
+    - name:
+        en: Oreophryne minuta
+        zh: Oreophryne minuta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7569Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/281
+            queryName: Oreophryne minuta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-634b5f94a1
+      - s-330858e7cf
+      - s-f168417bb6
+      - s-b638e32a2e
+      - s-af1690db48
+      - s-59047be7e8
+      - s-ea9a8c1f65
+      - s-b7d0bb2285
+      - s-f26f7b5e5a
+      - s-bfdd336dce
+    zh:
+      - s-03e9133943
+      - s-9b0021103b
+      - s-5283bcdf03
+      - s-01cf8690d0
+      - s-170082bd4f
+      - s-d086ed5a54
+      - s-0c4491d7b2
+      - s-04f4b88166
+      - s-12ef05c680
+      - s-ef14057d1a

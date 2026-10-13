@@ -1,0 +1,96 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus ornatus (Gray, 1866)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 华丽绢毛猴
+      en: Ornate Titi
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-7449ed9b89
+            part: body
+          en:
+            page: en
+            section: s-6b90a4a4a9
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+          - quintero2024
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-b010093ea8
+            part: body
+          en:
+            page: en
+            section: s-ea5360e0e9
+            part: body
+        sourceIds:
+          - quintero2024
+      - topic: interpretation
+        text:
+          zh:
+            page: zh
+            section: s-eed8b64288
+            part: body
+          en:
+            page: en
+            section: s-b64f39d467
+            part: body
+        sourceIds:
+          - quintero2024
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Plecturocebus ornatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/782LM
+          scope:
+            zh: 支持固定名录中的接受名、作者、等级和分类父链；不支持行为或生态正文。
+            en: Supports the accepted name, authorship, rank and parent chain in the pinned catalogue; not the behavior or ecology text.
+      - id: mdd_label
+        referenceId: ref-d494146b-1f82-854b-a53c-cf4977eaf06a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅用于英文普通名标签；页面分类身份按 COL26.8 ID。中文名为编辑译名。
+            en: Used only for the English common-name label; page identity follows the COL26.8 ID. The Chinese name is editorial.
+      - id: quintero2024
+        referenceId: ref-1b9adf7c-2cef-8baa-a6c8-27197da3ad68
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持哥伦比亚亚诺斯两个群体的扫描取样、活动预算与食用植物观察；结果限于两个地点。
+            en: Supports scan-sampling, activity-budget and food-plant observations from two groups in the Colombian Llanos; findings are limited to those sites.
+    limitations:
+      zh:
+        page: zh
+        section: s-27567cf71f
+        part: body
+      en:
+        page: en
+        section: s-f48f0a8526
+        part: body

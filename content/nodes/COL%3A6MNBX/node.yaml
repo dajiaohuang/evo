@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylambates leonardi
+  displayName: Hylambates leonardi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNBX
+  sourceIndexes:
+    - name:
+        en: Hylambates leonardi
+        zh: Hylambates leonardi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNBX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/376
+            queryName: Hylambates leonardi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/223
+            queryName: Phlyctimantis leonardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/409
+            queryName: Kassina leonardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f8ca7a6ec6
+      - s-9d96838379
+      - s-ada1b6e8f4
+      - s-ef37a20119
+      - s-d03374ec17
+      - s-474b9c6960
+      - s-2e386dd52f
+      - s-e6946b383d
+      - s-13e687e25c
+      - s-a67a53a450
+      - s-20c3b7ee09
+      - s-61f4c83524
+      - s-37b59d984d
+      - s-dadb54cb16
+    zh:
+      - s-285ac413f7
+      - s-6d88912dff
+      - s-02814fd714
+      - s-abf352b7fb
+      - s-c2cd668aff
+      - s-893948f035
+      - s-86f75780fc
+      - s-b5acd89271
+      - s-430ca888cc
+      - s-c1381cbd38
+      - s-9a3e934796
+      - s-9b1135e63b
+      - s-15770a227b
+      - s-99d2d2b62c

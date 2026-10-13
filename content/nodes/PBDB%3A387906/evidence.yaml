@@ -1,0 +1,141 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Panpipidae
+    rank: unranked clade
+    sourceTaxonId: txn:387906
+    name:
+      en: Panpipidae
+      zh: Panpipidae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-865e649aed
+            part: body
+          zh:
+            page: zh
+            section: s-a9c15a6cf6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-22393d23fb
+            part: body
+          zh:
+            page: zh
+            section: s-5b2f0c7694
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-89952fea25
+            part: body
+          zh:
+            page: zh
+            section: s-869ecdaddc
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-a40588db6f
+            part: body
+          zh:
+            page: zh
+            section: s-a4ac7c1072
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:387906; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. Aranciaga Rolando, F. L. Agnolin, and J. Corsolini. 2019. A new pipoid frog (Anura, Pipimorpha) from the Paleogene of Patagonia. Paleobiogeographical implications. Comptes Rendus Palevol
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:156615
+        - txn:387909
+        - txn:135373
+        - txn:135372
+      exactOccurrenceCount: 7
+      datedOccurrenceCount: 7
+      collectionIntervalBoundsMa:
+        older: 83.6
+        younger: 33.9
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a40588db6f
+            part: body
+          zh:
+            page: zh
+            section: s-a4ac7c1072
+            part: body
+        sourceIds: []

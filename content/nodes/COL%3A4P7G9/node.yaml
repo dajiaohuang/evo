@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne guentheri
+  displayName: Pseudophryne guentheri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7G9
+  sourceIndexes:
+    - name:
+        en: Pseudophryne guentheri
+        zh: Pseudophryne guentheri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7G9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/439
+            queryName: Pseudophryne guentheri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 38
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/114
+            queryName: Pseudophryne brooksi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d9e535a21a
+      - s-f0bf322bc7
+      - s-eac499cae8
+      - s-8bdf60678f
+      - s-a1e5aeb656
+      - s-07cdc1f5c9
+      - s-c0bea03718
+      - s-db4208403d
+      - s-28724ff4eb
+      - s-c5e6f6e0d5
+    zh:
+      - s-19e900c166
+      - s-10428703c4
+      - s-e5d019eec7
+      - s-5ce8ae5db4
+      - s-142470dbb1
+      - s-cafc917112
+      - s-aec3c88e20
+      - s-1ae372d1ed
+      - s-1566e9dee6
+      - s-3873806893

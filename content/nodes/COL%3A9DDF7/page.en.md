@@ -1,0 +1,3 @@
+## ## Filiform setae and pappus-like calyx lobes {#s-34cd92d6fc}
+The Brazilian Flora 2020 entry lists pubescent or strigose stems with forward-appressed simple hairs and unbranched, thread-like setae; branched setae, glandular hairs, prickles and short shoots are absent. The stipules are shed, extrafloral nectaries are absent, and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a paleaceous calyx with pappus-like lobes. Pubescent corolla lobes have one to three veins; the androecium is isostemonous, with pink filaments. The habitat field says “terrestrial,” without a locality or finer habitat description.
+

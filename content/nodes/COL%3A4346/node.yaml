@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendrophryniscus
+  displayName: Dendrophryniscus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4346
+  sourceIndexes:
+    - name:
+        en: Dendrophryniscus
+        zh: Dendrophryniscus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "4346"
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/344
+            queryName: Dendrophryniscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 31
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e8cae96b05
+      - s-89391a9533
+      - s-ef7d2c617c
+      - s-4b2763dc2f
+      - s-e42358a94c
+      - s-916594af1f
+      - s-9ad3d2ab91
+      - s-a37d68f022
+      - s-3eb638aa23
+      - s-57be3c70a9
+      - s-61e48c0b74
+      - s-edbd57215c
+      - s-9338249eaa
+      - s-ee4fa206fb
+      - s-9c60238906
+      - s-b28f4ad98b
+      - s-7700d69221
+      - s-b5227caf33
+    zh:
+      - s-2bf1541c24
+      - s-623c472f17
+      - s-ec6a69009b
+      - s-c1b95e9fc7
+      - s-dbc2b20167
+      - s-0876593778
+      - s-304d23d599
+      - s-ec2f926962
+      - s-698b8ebe48
+      - s-f7d94d88e8
+      - s-f29fdfa33c
+      - s-39d0f7d0bb
+      - s-1f2df96bf8
+      - s-90f7a4a58c
+      - s-c34780b1dd
+      - s-97fb67eb80
+      - s-c57c4a0050
+      - s-f5afc52dca

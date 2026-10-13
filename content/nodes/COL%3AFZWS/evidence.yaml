@@ -1,0 +1,367 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Aquiloeurycea galeanae (Taylor, 1941)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Aquiloeurycea galeanae
+      zh: Aquiloeurycea galeanae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-aeb354af09
+            part: title
+          zh:
+            page: zh
+            section: s-c94549711f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aeb354af09
+            part: body
+          zh:
+            page: zh
+            section: s-c94549711f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fe6f0288cc
+            part: title
+          zh:
+            page: zh
+            section: s-e8e7ebe852
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fe6f0288cc
+            part: body
+          zh:
+            page: zh
+            section: s-e8e7ebe852
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a1619b1446
+            part: title
+          zh:
+            page: zh
+            section: s-9d7dde4080
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a1619b1446
+            part: body
+          zh:
+            page: zh
+            section: s-9d7dde4080
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-85a1be4e3c65d585fa57fb9871547f01
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-55e1f874c5
+            part: title
+          zh:
+            page: zh
+            section: s-5db3ca01e6
+            part: title
+        sourceIds:
+          - primary-pmc12135470-fzws
+        text:
+          en:
+            page: en
+            section: s-55e1f874c5
+            part: body
+          zh:
+            page: zh
+            section: s-5db3ca01e6
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-161bbb4da9
+            part: title
+          zh:
+            page: zh
+            section: s-7b4c59f440
+            part: title
+        sourceIds:
+          - primary-pmc12135470-fzws
+        text:
+          en:
+            page: en
+            section: s-161bbb4da9
+            part: body
+          zh:
+            page: zh
+            section: s-7b4c59f440
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e3fb0327a3
+            part: title
+          zh:
+            page: zh
+            section: s-f47c174d68
+            part: title
+        sourceIds:
+          - primary-pmc12135470-fzws
+        text:
+          en:
+            page: en
+            section: s-e3fb0327a3
+            part: body
+          zh:
+            page: zh
+            section: s-f47c174d68
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-aa8ca38a7a
+            part: title
+          zh:
+            page: zh
+            section: s-371731172f
+            part: title
+        sourceIds:
+          - primary-pmc12135470-fzws
+        text:
+          en:
+            page: en
+            section: s-aa8ca38a7a
+            part: body
+          zh:
+            page: zh
+            section: s-371731172f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Aquiloeurycea galeanae
+          url: https://www.checklistbank.org/dataset/316115/taxon/FZWS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6295; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6290 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12135470-fzws
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Aquiloeurycea galeanae: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1af78507ad
+        part: body
+      zh:
+        page: zh
+        section: s-668da4f2c6
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s42523-025-00423-x
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        sourceKey: primary-pmc12135470-fzws
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12135470/article.xml
+        sourceConcept: 2017–2018 morphology-identified Aquiloeurycea galeanae Mexican field sample, exact frozen-name candidate not voucher/concept certification
+        evidenceRead: "Aquiloeurycea galeanae: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Selected Mexican survey localities, 2017–2018
+              zh: 2017–2018 年墨西哥所选调查地点
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-fzws
+            locator: PMC12135470 XML Sec3 Methods sampling; Sec7 Results Figure1 caption
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7fc7bc80e7
+                part: body
+              zh:
+                page: zh
+                section: s-deeb586798
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Skin swabs describe a filtered bacterial community
+              zh: 皮肤拭子描述经过筛选的细菌群落
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-fzws
+            locator: PMC12135470 XML Sec3–Sec4 sampling and16S processing; Sec7 controls
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0fad60fed3
+                part: body
+              zh:
+                page: zh
+                section: s-e1e0b924f5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Bd detection is not a test of resistance or disease survival
+              zh: Bd 检出不是抗性或患病存活试验
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-fzws
+            locator: PMC12135470 XML Sec6 Bd assay; Sec10 Bd Results; Sec14 Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f35459efc
+                part: body
+              zh:
+                page: zh
+                section: s-66c0a6e9a7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Antifungal capacity is inferred rather than demonstrated in this host
+              zh: 本宿主抗真菌能力为推断而非实证
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-fzws
+            locator: PMC12135470 XML Sec4–Sec5 database/PICRUSt2/network methods; Sec8–Sec9 Results; Sec13 Discussion; Sec15 Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3031346a06
+                part: body
+              zh:
+                page: zh
+                section: s-b7b19756b6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

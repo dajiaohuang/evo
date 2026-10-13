@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega pulchripecta
+  displayName: Ameerega pulchripecta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ7B
+  sourceIndexes:
+    - name:
+        en: Ameerega pulchripecta
+        zh: Ameerega pulchripecta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ7B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/276
+            queryName: Ameerega pulchripecta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/220
+            queryName: Epipedobates pulchripectus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/283
+            queryName: Phyllobates pulchripectus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/284
+            queryName: Dendrobates pulchripectus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3597c739f5
+      - s-823dd62cb9
+      - s-84c21db2f0
+      - s-8ede05c3b9
+      - s-22d502a5b2
+      - s-bf6d957946
+      - s-552b499fe8
+      - s-d6a0324cb0
+      - s-4034af786a
+      - s-b31705a8a8
+    zh:
+      - s-c582946831
+      - s-cf8a609795
+      - s-683b541a7a
+      - s-b573403989
+      - s-a2e6b63bed
+      - s-2b58b507ea
+      - s-8e2b751c9c
+      - s-b7150fe0c9
+      - s-17b3aa4259
+      - s-f9acf67676

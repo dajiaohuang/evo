@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis inusitatus
+  displayName: Pristimantis inusitatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJFK
+  sourceIndexes:
+    - name:
+        en: Pristimantis inusitatus
+        zh: Pristimantis inusitatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJFK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/323
+            queryName: Pristimantis inusitatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/387
+            queryName: Eleutherodactylus inusitatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-84b938fbd5
+      - s-81e9ca287e
+      - s-b260ab7140
+      - s-72fbf85b60
+      - s-cea8a0b094
+      - s-7223191ce7
+      - s-c5527f4051
+      - s-aca35d5f3d
+      - s-63f9de8567
+    zh:
+      - s-1ba836e385
+      - s-74a0a8b4e8
+      - s-f4b7b168e9
+      - s-ea12900be9
+      - s-60f105bede
+      - s-490b2141b9
+      - s-18b024a68c
+      - s-63a5cd0428
+      - s-f7917b9950

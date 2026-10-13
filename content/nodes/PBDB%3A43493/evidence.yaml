@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Macraucheniidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Macraucheniidae
+      en: Macraucheniidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8080a931e3
+            part: body
+          en:
+            page: en
+            section: s-6647a80755
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fe016b8414
+            part: body
+          en:
+            page: en
+            section: s-bcd0ffb5ba
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Macraucheniidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=43493
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:43493
+          readingTargets:
+            - name: Scalabrinitherium bravardi
+              pbdbTaxonId: txn:246237
+              canonicalPath: content/nodes/PBDB%3A246237
+            - name: Scalabrinitherium rothii
+              pbdbTaxonId: txn:246239
+              canonicalPath: content/nodes/PBDB%3A246239
+            - name: Micrauchenia saladensis
+              pbdbTaxonId: txn:494711
+              canonicalPath: content/nodes/PBDB%3A494711
+            - name: Xenorhinotherium bahiense
+              pbdbTaxonId: txn:251738
+              canonicalPath: content/nodes/PBDB%3A251738
+            - name: Oxyodontherium zeballozi
+              pbdbTaxonId: txn:278313
+              canonicalPath: content/nodes/PBDB%3A278313
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-deaf7b4043
+        part: body
+      en:
+        page: en
+        section: s-81d4d15d64
+        part: body

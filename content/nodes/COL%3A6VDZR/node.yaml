@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus minutus
+  displayName: Phrynobatrachus minutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VDZR
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus minutus
+        zh: Phrynobatrachus minutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VDZR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/151
+            queryName: Phrynobatrachus minutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/248
+            queryName: Arthroleptis minutus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-561a8fd1f5
+      - s-d5e8eab2d4
+      - s-9c0e6f5bb1
+      - s-9d9331ab85
+      - s-a6e9cb342f
+      - s-51e27a40bf
+      - s-c5b61a1908
+      - s-48e23de893
+    zh:
+      - s-3aefbd913d
+      - s-2c2b6e1a4f
+      - s-5927115a7a
+      - s-7641e8ec2e
+      - s-c8c5136fab
+      - s-09feec34a3
+      - s-b97e34016e
+      - s-9a842d2e79

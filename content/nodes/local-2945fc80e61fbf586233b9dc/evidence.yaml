@@ -1,0 +1,248 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Limnonectes utara
+    name:
+      en: Limnonectes utara
+      zh: Limnonectes utara
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Limnonectes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2df4a2fb64
+            part: body
+          zh:
+            page: zh
+            section: s-9df51eeb20
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-45efc1a9fc
+            part: body
+          zh:
+            page: zh
+            section: s-d2ca8a1d1e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2843, 2844; Reference.csv rows 3263
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2843
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes utara
+          - M
+          - "74.2"
+          - "34.132"
+          - "31.7576"
+          - "8.3846"
+          - NA
+          - NA
+          - "5.565"
+          - "5.7134"
+          - "5.7134"
+          - NA
+          - "12.3172"
+          - NA
+          - NA
+          - NA
+          - "32.5738"
+          - "35.1708"
+          - NA
+          - "33.3158"
+          - "36.2096"
+          - NA
+          - "110.0386"
+          - "5.7134"
+          - "10.0912"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.7066"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2844
+        values:
+          - Dicroglossidae
+          - Limnonectes
+          - Limnonectes utara
+          - F
+          - "69.5"
+          - "29.468"
+          - "28.0085"
+          - "8.201"
+          - NA
+          - NA
+          - "5.143"
+          - "5.2125"
+          - "5.3515"
+          - NA
+          - "10.7725"
+          - NA
+          - NA
+          - NA
+          - "29.8155"
+          - "33.0125"
+          - NA
+          - "31.831"
+          - "34.1245"
+          - NA
+          - "101.8175"
+          - "5.282"
+          - "9.174"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.39"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3263
+        values:
+          - Anura
+          - Limnonectes_utara
+          - "Matsui, M., M. Belabut, D., & Ahmad, N. (2014). Two new species of fanged frogs from Peninsular Malaysia (Anura: Dicroglossidae). Zootaxa, 3881, 75-93. https://doi.org/10.11646/zootaxa.3881.1.6"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - LAL
+      - FL
+      - TL
+      - THL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6QDC6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

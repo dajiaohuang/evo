@@ -1,0 +1,3 @@
+## Twining stems and a pod that stays closed {#s-88ba42a9ad}
+The Brazilian Flora 2020 v393.147 morphology field describes twining stems, ovate leaflets with pointed tips, and flower clusters in the leaf axils. It records pink-to-red corollas and an inflated pod that is indehiscent, meaning it does not split open at maturity; the pod is hairless or becoming hairless and lacks a median rib. A separate habitat field says terrestrial. These are regional catalogue fields, with no sampling frame, locality, survey date, or wild/cultivated status, so they do not establish population-wide variation or a complete range.
+

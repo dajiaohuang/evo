@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sphaenorhynchus dorisae
+  displayName: Sphaenorhynchus dorisae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z8WB
+  sourceIndexes:
+    - name:
+        en: Sphaenorhynchus dorisae
+        zh: Sphaenorhynchus dorisae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z8WB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/234
+            queryName: Sphaenorhynchus dorisae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/257
+            queryName: Sphoenohyla dorisae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/258
+            queryName: Dryomelictes dorisae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/259
+            queryName: Hyla dorisae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e19b499454
+      - s-d209d12696
+      - s-286de1db87
+      - s-3b5d838ec8
+      - s-0160babe9b
+      - s-f2d7801377
+      - s-c2969065b3
+      - s-1177e1bb9f
+      - s-746f0b31c1
+      - s-1527261504
+      - s-9a0b50d971
+      - s-45dfa5e6cf
+    zh:
+      - s-3d57c8d582
+      - s-a2f0e9c427
+      - s-5f93a823e0
+      - s-dc20f518ec
+      - s-9e44c86b82
+      - s-172b51d8d1
+      - s-b2d7d55f4c
+      - s-f185a78af6
+      - s-ad91ba77ea
+      - s-9964d8ff98
+      - s-7d0e7da6a3
+      - s-a0ad65bff3

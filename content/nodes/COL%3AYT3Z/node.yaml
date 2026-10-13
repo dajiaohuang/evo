@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Corythomantis greeningi
+  displayName: Corythomantis greeningi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/YT3Z
+  sourceIndexes:
+    - name:
+        en: Corythomantis greeningi
+        zh: Corythomantis greeningi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: YT3Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/78
+            queryName: Corythomantis greeningi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/494
+            queryName: Corythomantis schubarti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/229
+            queryName: Corythomantis schubarthae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be3b21b034
+      - s-ff93e8df46
+      - s-84fc799740
+      - s-98b9084706
+      - s-829aafe218
+      - s-0190382b99
+      - s-c0d6f1d779
+      - s-323289362d
+      - s-57967c8e89
+      - s-cbea370033
+      - s-d12249286c
+      - s-ea7ab04c29
+      - s-50b4f971e7
+      - s-c76492364d
+      - s-adcd0f867c
+      - s-293ad43522
+      - s-e728982174
+      - s-57fe8ec064
+      - s-0d9d073126
+    zh:
+      - s-a081b8f2a9
+      - s-9966c68494
+      - s-622e460a22
+      - s-3fa325d898
+      - s-585740319a
+      - s-f7acb259f3
+      - s-cd64615140
+      - s-c3dc3b3779
+      - s-751fe52c31
+      - s-8a0d820628
+      - s-f6489a4296
+      - s-9538a053b9
+      - s-c6d9d91f58
+      - s-ca09e0b24c
+      - s-4d872da242
+      - s-816d9ee554
+      - s-799d2f2a3b
+      - s-cc22d75537
+      - s-a1f12d988b

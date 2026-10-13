@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus andrewsi
+  displayName: Eleutherodactylus andrewsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/398ZJ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus andrewsi
+        zh: Eleutherodactylus andrewsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 398ZJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/152
+            queryName: Eleutherodactylus andrewsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/166
+            queryName: Euhyas andrewsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3abcb40cd5
+      - s-2f8a47c8a0
+      - s-5586b1d28b
+      - s-0121bf7158
+      - s-e78f69387d
+      - s-56e58de115
+      - s-57831f08c8
+      - s-6cab9d94c7
+      - s-183b3aed48
+    zh:
+      - s-5354cd6c55
+      - s-9f22fb7e79
+      - s-79d0bd32b3
+      - s-ce9348e735
+      - s-57b1f1e7ef
+      - s-d7538d9a77
+      - s-56fafa9787
+      - s-8353ffb323
+      - s-1f907cf8b4

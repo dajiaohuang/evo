@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis boulengeri
+  displayName: Gephyromantis boulengeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FTTF
+  sourceIndexes:
+    - name:
+        en: Gephyromantis boulengeri
+        zh: Gephyromantis boulengeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FTTF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/114
+            queryName: Gephyromantis boulengeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/166
+            queryName: Mantidactylus boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/334
+            queryName: Rhacophorus gephyromantis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7dea421f73
+      - s-f5148ca487
+      - s-3996ad473d
+      - s-c7687f0bca
+      - s-c569716e62
+      - s-5220ee8f5a
+      - s-808ab9e5ca
+      - s-b817bbf5c6
+      - s-3beb195f5c
+      - s-4900c88a92
+    zh:
+      - s-7f411c7793
+      - s-31ce685b03
+      - s-70137b7f88
+      - s-8301104da2
+      - s-9b6254a5c8
+      - s-15720a9e01
+      - s-797d01f3b2
+      - s-200083309e
+      - s-253648fe8b
+      - s-74128eb79a

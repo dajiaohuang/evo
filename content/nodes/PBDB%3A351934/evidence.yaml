@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Angelarctocyon
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Angelarctocyon
+      en: Angelarctocyon
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7e50bc3ecf
+            part: body
+          en:
+            page: en
+            section: s-1e18fa943b
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d34df8cf74
+            part: body
+          en:
+            page: en
+            section: s-e5410a300e
+            part: body
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-c31f928d96
+            part: title
+          zh:
+            page: zh
+            section: s-be614bea48
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c31f928d96
+            part: body
+          zh:
+            page: zh
+            section: s-be614bea48
+            part: body
+        claimIds:
+          - claim:taxon:angelarctocyon:fossil-range
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Angelarctocyon
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=351934
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:351934
+          readingTargets:
+            - name: Angelarctocyon australis
+              pbdbTaxonId: txn:48477
+              canonicalPath: content/nodes/PBDB%3A48477
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b77a719035
+        part: body
+      en:
+        page: en
+        section: s-1e88bf7912
+        part: body
+  atlas-node:
+    name: Angelarctocyon
+    commonName: Angelarctocyon
+    commonNameZh: 天使熊犬兽
+    rank: genus
+    firstAppearance: 42
+    lastAppearance: 38
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    taxonId: txn:351934
+  claims:
+    - subjectId: taxon:angelarctocyon
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Angelarctocyon australis is bounded by holotype TMM 41850-1 and referred jaw material from the Chambers Tuff within an approximately 42–38 Ma sample envelope; this is not a global genus duration or direct ancestor interval.
+      confidence: medium
+      confidenceRationale: Named material and formation context are direct; genus reassignment and basal family placement come from comparative scoring.
+      referenceLinks:
+        - relation: supports
+          referenceId: tomiya-tseng-2016-beardogs
+          pages: Article 160518
+          figure: Figures 4–7
+          quoteLocator: Revised systematics; referred material; phylogenetic analysis
+  claim-rationales.zh:
+    - 具名材料与地层背景属于直接证据；属级重归和基干科位置来自比较编码。
+  claim-statements.zh:
+    - Angelarctocyon australis 由 Chambers Tuff 的正模 TMM 41850-1 与归入颌骨材料约束，处于约 4200 万—3800 万年前的样本区间；这不是全球属级延续或直接祖先区间。
+  ranges:
+    - entityId: angelarctocyon
+      rangeKind: global-composite
+      taxonomicConcept: Angelarctocyon australis sampled occurrence
+      geographicScope: Chambers Tuff, Texas, USA
+      olderMa: 42
+      youngerMa: 38
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: This is a study-level sampled occurrence envelope, not a direct date on ancestry or a guaranteed global first or last appearance.
+      evidenceBasis: The holotype cranium of Gustafsonia cognita, TMM 40209-200, was CT-reconstructed; Angelarctocyon australis is represented by TMM 41850-1 and referred jaw material.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:texas-basal-amphicyonid-reappraisal
+      referenceLocators:
+        - referenceId: tomiya-tseng-2016-beardogs
+          locator: 160518; Figures 1–7; Tables 1–2; Electronic supplementary material; Revised systematics; Digital reconstruction; Phylogenetic analysis

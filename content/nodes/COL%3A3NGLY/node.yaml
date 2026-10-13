@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylophorbus sextus
+  displayName: Hylophorbus sextus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGLY
+  sourceIndexes:
+    - name:
+        en: Hylophorbus sextus
+        zh: Hylophorbus sextus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGLY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/28
+            queryName: Hylophorbus sextus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e664ca5b07
+      - s-2ddda5b775
+      - s-7cbf10ee39
+      - s-e56b889c9a
+      - s-0388b466e6
+      - s-bb7da6d663
+      - s-7b26554a9c
+    zh:
+      - s-6e619a839f
+      - s-05430150ee
+      - s-1cc8c06dd5
+      - s-a87ff96d76
+      - s-605962caf2
+      - s-7ea69d987f
+      - s-c27af763ee

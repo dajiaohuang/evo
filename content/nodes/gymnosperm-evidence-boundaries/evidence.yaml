@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-3c7b5329a8
+      part: title
+    titleZh:
+      page: zh
+      section: s-5763d78610
+      part: title
+    dek:
+      page: en
+      section: s-3c7b5329a8
+      part: body
+    dekZh:
+      page: zh
+      section: s-5763d78610
+      part: body
+    theme: green
+    durationMinutes: 10
+    featured: true
+    steps:
+      - id: ginkgo-wood
+        title:
+          page: en
+          section: s-261aa00bb8
+          part: title
+        titleZh:
+          page: zh
+          section: s-9bb279cc90
+          part: title
+        text:
+          page: en
+          section: s-261aa00bb8
+          part: body
+        textZh:
+          page: zh
+          section: s-9bb279cc90
+          part: body
+        age: 159
+        timeRange:
+          - 165
+          - 153
+        taxonIds:
+          - ginkgophyta
+        view: evidence
+        eventId: tiaojishan-ginkgoxylon
+        annotation: A specimen occurrence, a whole-plant association and a clade first appearance are three different claims.
+        claimLinks:
+          - claimId: claim:event:tiaojishan-ginkgoxylon
+            relation: supports
+      - id: cycadaceae-clock
+        title:
+          page: en
+          section: s-0a9734c36e
+          part: title
+        titleZh:
+          page: zh
+          section: s-5571799a13
+          part: title
+        text:
+          page: en
+          section: s-0a9734c36e
+          part: body
+        textZh:
+          page: zh
+          section: s-5571799a13
+          part: body
+        age: 55
+        timeRange:
+          - 69.31
+          - 42.88
+        taxonIds:
+          - cycadophyta
+        view: evidence
+        eventId: cycadaceae-palaeogene-crown-model
+        annotation: The event dates a modelled crown of living Cycadaceae, not the fossil first appearance of all cycads.
+        claimLinks:
+          - claimId: claim:event:cycadaceae-palaeogene-crown-model
+            relation: supports
+      - id: cycad-latitudes
+        title:
+          page: en
+          section: s-b6bbc80cb3
+          part: title
+        titleZh:
+          page: zh
+          section: s-aadb65d8a9
+          part: title
+        text:
+          page: en
+          section: s-b6bbc80cb3
+          part: body
+        textZh:
+          page: zh
+          section: s-aadb65d8a9
+          part: body
+        age: 34
+        timeRange:
+          - 66
+          - 11.63
+        taxonIds:
+          - cycadophyta
+        view: map
+        eventId: cycad-latitudinal-contraction
+        annotation: The wide interval summarizes a modelled transition; it is not one precisely dated global extinction pulse.
+        claimLinks:
+          - claimId: claim:event:cycad-latitudinal-contraction
+            relation: supports
+      - id: living-cycad-radiation
+        title:
+          page: en
+          section: s-e18de3ec1b
+          part: title
+        titleZh:
+          page: zh
+          section: s-e188c18444
+          part: title
+        text:
+          page: en
+          section: s-e18de3ec1b
+          part: body
+        textZh:
+          page: zh
+          section: s-e188c18444
+          part: body
+        age: 6
+        timeRange:
+          - 12
+          - 0
+        taxonIds:
+          - cycadophyta
+        view: evidence
+        eventId: living-cycad-radiation-model
+        annotation: Living-species radiation, crown age, stem history and fossil first appearance must stay separate.
+        claimLinks:
+          - claimId: claim:event:living-cycad-radiation-model
+            relation: supports
+      - id: conifer-hemispheres
+        title:
+          page: en
+          section: s-18ab998a3d
+          part: title
+        titleZh:
+          page: zh
+          section: s-e8c24c616d
+          part: title
+        text:
+          page: en
+          section: s-18ab998a3d
+          part: body
+        textZh:
+          page: zh
+          section: s-e8c24c616d
+          part: body
+        age: 7
+        timeRange:
+          - 8.7
+          - 5.2
+        taxonIds:
+          - coniferophyta
+          - araucariaceae
+        view: diversity
+        eventId: conifer-hemisphere-node-pattern
+        annotation: The comparison excludes Gnetales and does not validate the atlas's provisional Araucariaceae range.
+        claimLinks:
+          - claimId: claim:event:conifer-hemisphere-node-pattern
+            relation: supports
+      - id: living-backbone
+        title:
+          page: en
+          section: s-5adf69781a
+          part: title
+        titleZh:
+          page: zh
+          section: s-9e4b18fa23
+          part: title
+        text:
+          page: en
+          section: s-5adf69781a
+          part: body
+        textZh:
+          page: zh
+          section: s-9e4b18fa23
+          part: body
+        age: 0
+        timeRange:
+          - 0
+          - 0
+        taxonIds:
+          - gymnospermae
+          - cycadophyta
+          - ginkgophyta
+          - coniferophyta
+        view: tree
+        eventId: extant-gymnosperm-backbone
+        annotation: This hypothesis does not replace the global navigation tree or supply chronological branch lengths.
+        claimLinks:
+          - claimId: claim:event:extant-gymnosperm-backbone
+            relation: supports
+    evidenceStatus: available-with-limitations

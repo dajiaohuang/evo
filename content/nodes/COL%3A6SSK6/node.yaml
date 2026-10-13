@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax liangbeiensis
+  displayName: Oreolalax liangbeiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SSK6
+  sourceIndexes:
+    - name:
+        en: Oreolalax liangbeiensis
+        zh: Oreolalax liangbeiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SSK6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/216
+            queryName: Oreolalax liangbeiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/251
+            queryName: Scutiger liangbeiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a726a0177e
+      - s-f4ad9191ef
+      - s-96ae80456b
+      - s-3e6a8c96ea
+      - s-74dfb5fa6b
+      - s-25be6ae5fe
+      - s-3aaab876d6
+      - s-1468eb5061
+      - s-7666d43bb7
+      - s-69ce4c5d7a
+    zh:
+      - s-f825cabed6
+      - s-051b9d7606
+      - s-5122406b9c
+      - s-81a4ca8983
+      - s-802f0c27f8
+      - s-081e2e8d51
+      - s-39289b5a6b
+      - s-9946c3bd40
+      - s-e98b887d45
+      - s-c521eeec76

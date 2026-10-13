@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Noblella pygmaea
+    name:
+      en: Noblella pygmaea
+      zh: Noblella pygmaea
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Noblella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Noblella pygmaea in the version 3 classification
+          zh: Noblella pygmaea 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f107c71072
+            part: body
+          zh:
+            page: zh
+            section: s-5dd9b7b5d1
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 11 populated trait fields
+          zh: 2 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-df659af645
+            part: body
+          zh:
+            page: zh
+            section: s-d734001005
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3541, 3542; Reference.csv rows 1684
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3541
+        values:
+          - Brachycephaloidea
+          - Noblella
+          - Noblella pygmaea
+          - F
+          - "11.9"
+          - "3.9"
+          - "3.7"
+          - "1.1"
+          - "0.5"
+          - NA
+          - "1.7"
+          - "1.3"
+          - "0.9"
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.9"
+          - NA
+          - "4.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3542
+        values:
+          - Brachycephaloidea
+          - Noblella
+          - Noblella pygmaea
+          - M
+          - "10.7"
+          - "3.9"
+          - "3.6"
+          - "1.2"
+          - "0.6"
+          - NA
+          - "1.5"
+          - "1.1"
+          - "0.8"
+          - "0.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.5"
+          - NA
+          - "4.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1684
+        values:
+          - Anura
+          - Noblella_pygmaea
+          - "Lehr, E., & Catenazzi, A. (2009a). A new species of minute Noblella (Anura: Strabomantidae) from southern Peru: the smallest frog of the Andes. Copeia, 2009(1), 148-156. https://doi.org/10.1643/ch-07-270"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

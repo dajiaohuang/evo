@@ -1,0 +1,264 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mahakala omnogovae
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Mahakala omnogovae
+      en: Mahakala omnogovae
+    sections:
+      - topic: morphology
+        sourceIds:
+          - turnerPolNorell2011Mahakala
+        text:
+          zh:
+            page: zh
+            section: s-ea0a3c5768
+            part: body
+          en:
+            page: en
+            section: s-a5f9482775
+            part: body
+      - topic: morphology
+        sourceIds:
+          - turnerPolNorell2011Mahakala
+        text:
+          zh:
+            page: zh
+            section: s-4fe35f8e9f
+            part: body
+          en:
+            page: en
+            section: s-ec9a66ebc6
+            part: body
+      - topic: morphology
+        sourceIds:
+          - turnerPolNorell2011Mahakala
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-07a1f8356c
+            part: body
+          en:
+            page: en
+            section: s-8098092a7d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - turnerPolNorell2011Mahakala
+        text:
+          zh:
+            page: zh
+            section: s-bd72eb9a56
+            part: body
+          en:
+            page: en
+            section: s-2df13b9642
+            part: body
+      - topic: phylogeny
+        sourceIds:
+          - turnerPolNorell2011Mahakala
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-c1ebf955bf
+            part: body
+          en:
+            page: en
+            section: s-766a1e4969
+            part: body
+      - topic: palaeobiology
+        sourceIds:
+          - turnerPolNorell2011Mahakala
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-e87759592d
+            part: body
+          en:
+            page: en
+            section: s-2ad33f7332
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5c5507b3de
+            part: body
+          en:
+            page: en
+            section: s-69e7a37afb
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6147e11b03
+            part: body
+          en:
+            page: en
+            section: s-4e2b0552a1
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6b9b4394db
+            part: body
+          en:
+            page: en
+            section: s-162b0fc0c9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-56b455b18e
+            part: body
+          en:
+            page: en
+            section: s-fb3e94854b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - turnerPolNorell2011Mahakala
+          - cauMadzia2018Hulsanpes
+        text:
+          zh:
+            page: zh
+            section: s-c0c0ecb4f3
+            part: body
+          en:
+            page: en
+            section: s-fa3ea39bef
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Mahakala omnogovae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=133919&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:133919; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:133919
+          selectedOccurrenceIds:
+            - occ:782321
+          selectedCollectionIds:
+            - col:51033
+          sourceReferenceIds:
+            - ref:28248
+          originalIdentificationMappings:
+            - occurrenceId: occ:782321
+              originalIdentifiedName: Mahakala omnogovae n. gen. n. sp.
+              acceptedName: Mahakala omnogovae
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: turnerPolNorell2011Mahakala
+        referenceId: ref-07d38353-15a6-48d4-a167-1e44878ccb6b
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "Anatomy of Mahakala omnogovae (Theropoda: Dromaeosauridae), Tögrögiin Shiree, Mongolia"
+          url: https://doi.org/10.1206/3722.2
+          locator: Printed pp. 1–7, 31–35, 47–63; Table 1; diagnosis, forelimb and pedal descriptions, Discussion, Phylogeny, Conclusions and Appendix 2. Selected sections, not complete anatomical monograph reading.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 2011 年对 IGM 100/1033 的选段骨骼描述与作者解释；没有原标本复量或矩阵重算。
+            en: Selected 2011 anatomical descriptions and interpretations of IGM 100/1033; no specimen remeasurement or matrix reanalysis.
+      - id: cauMadzia2018Hulsanpes
+        referenceId: ref-11b2b6cd-cda3-48a9-9a03-46ade327ce11
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          title: Redescription and affinities of Hulsanpes perlei (Dinosauria, Theropoda) from the Upper Cretaceous of Mongolia
+          url: https://peerj.com/articles/4868/
+          locator: "Discussion: Mahakala 52/82-mm measurement discrepancy and relationship hypothesis; full main text read in P5-78."
+          accessedAt: 2026-10-03
+    limitations:
+      zh:
+        page: zh
+        section: s-9d5c331e8a
+        part: body
+      en:
+        page: en
+        section: s-65ae1e5e3c
+        part: body

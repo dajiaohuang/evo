@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis aubryi
+  displayName: Leptopelis aubryi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSLQ
+  sourceIndexes:
+    - name:
+        en: Leptopelis aubryi
+        zh: Leptopelis aubryi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSLQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/466
+            queryName: Leptopelis aubryi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/86
+            queryName: Hyla aubryi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/87
+            queryName: Hylambates aubryi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/88
+            queryName: Hylambates haugi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/89
+            queryName: Nyctibates laevis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/90
+            queryName: Leptopelis buchholzi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/91
+            queryName: Leptopelis haugi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a2c75b007d
+      - s-e41da263d8
+      - s-6307c43dec
+      - s-2f377a5185
+      - s-46f9ed34d2
+      - s-fcb1ed1358
+      - s-d9ea0e9fdd
+      - s-762eb89c3d
+      - s-ba3771c75a
+      - s-ff317eb0d1
+      - s-55e5d2c7c8
+      - s-ea907b0f7b
+      - s-7a38cddc7c
+      - s-ace0896cee
+      - s-90fd118879
+    zh:
+      - s-ba65f3b671
+      - s-6f7a16dca7
+      - s-30313cbdf7
+      - s-599f84e95e
+      - s-c78c933649
+      - s-525fc67925
+      - s-256e71efb9
+      - s-9c2a08f690
+      - s-9be5612a67
+      - s-3b2dbb0f32
+      - s-b4ee77a46d
+      - s-240ee8c324
+      - s-ba2cb490cb
+      - s-c2e51a98b6
+      - s-8c31c17e54

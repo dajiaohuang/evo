@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachium lumadorum
+    name:
+      en: Leptobrachium lumadorum
+      zh: Leptobrachium lumadorum
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachium
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-01805b08ca
+            part: body
+          zh:
+            page: zh
+            section: s-b5eaded0f7
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d3f76caf30
+            part: body
+          zh:
+            page: zh
+            section: s-a6f9f9bf61
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2682, 2683; Reference.csv rows 683
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2682
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium lumadorum
+          - F
+          - "56.7"
+          - "22.9"
+          - "21.8"
+          - "6.3"
+          - "4"
+          - NA
+          - "7.1"
+          - "5.1"
+          - NA
+          - NA
+          - "6.1"
+          - NA
+          - "15.2"
+          - "21.1"
+          - NA
+          - "20.7"
+          - NA
+          - "21.8"
+          - "21.1"
+          - "12.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.8"
+          - NA
+          - NA
+          - NA
+          - "10"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18"
+          - NA
+      - rowNumber: 2683
+        values:
+          - Megophryidae
+          - Leptobrachium
+          - Leptobrachium lumadorum
+          - M
+          - "45.3"
+          - "19.2"
+          - "20.8"
+          - "6.3"
+          - "3.1"
+          - NA
+          - "6.4"
+          - "4.3"
+          - NA
+          - NA
+          - "7.1"
+          - NA
+          - "10.6"
+          - "13.8"
+          - NA
+          - "16.2"
+          - NA
+          - "17.2"
+          - "19.4"
+          - "10.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.1"
+          - NA
+          - NA
+          - NA
+          - "8.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.6"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 683
+        values:
+          - Anura
+          - Leptobrachium_lumadorum
+          - "Brown, R. N., Siler, C. D., Diesmos, A. C., & Alcala, A. C. (2009). Philippine frogs of the genus Leptobrachium (Anura: Megophryidae): phylogeny-based species delimitation, taxonomic review, and descriptions of three new species. Herpetological Monographs, 23, 1-44. https://doi.org/10.1655/09-037.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Toe4L
+      - Fin3L
+      - UAL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TKCC
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

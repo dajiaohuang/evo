@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius langi
+  displayName: Hyperolius langi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MQ9C
+  sourceIndexes:
+    - name:
+        en: Hyperolius langi
+        zh: Hyperolius langi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MQ9C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/277
+            queryName: Hyperolius langi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/329
+            queryName: Hyperolius albomarginatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/74
+            queryName: Hyperolius platyceps langi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71ee7b47cd
+      - s-c2a0470afa
+      - s-feeaab896c
+      - s-41c8413177
+      - s-4462707844
+      - s-07903bbfde
+      - s-1f4530c8b4
+      - s-7aac8ac203
+      - s-00339d8864
+      - s-d389388594
+    zh:
+      - s-af549aa652
+      - s-55c4663f16
+      - s-f9d5ed15de
+      - s-1d9b07f507
+      - s-557cfc3f81
+      - s-662399a073
+      - s-ea336e45e4
+      - s-c241b1fdb9
+      - s-f7a6b5c281
+      - s-7562d6ea00

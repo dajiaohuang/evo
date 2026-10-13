@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa equatoriana
+  displayName: Bolitoglossa equatoriana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPC
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa equatoriana
+        zh: Bolitoglossa equatoriana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/118
+            queryName: Bolitoglossa equatoriana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/308
+            queryName: Bolitoglossa ecuatoriana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61d950657f
+      - s-3cc9f1fe6f
+      - s-62d87d6544
+      - s-c25a037b62
+      - s-abc234acdf
+      - s-73177b22cb
+      - s-744b8bcfc7
+      - s-f182bcf156
+      - s-09b7078786
+      - s-779443660f
+      - s-e1ac5007da
+      - s-3d529963b1
+      - s-642b5f79d5
+      - s-c2e2ade247
+      - s-1240e30b21
+      - s-467dac63a1
+      - s-df9ea5a03f
+      - s-53544114de
+      - s-19308f9419
+      - s-1f062586c4
+      - s-c3098dad55
+      - s-f20d53a7f0
+      - s-c97b0b5125
+      - s-0e71e4eb40
+      - s-c8550cb678
+    zh:
+      - s-6a8fbad9f1
+      - s-9607ccd798
+      - s-13eb3db2d5
+      - s-5deaec1018
+      - s-eb922122fd
+      - s-bf56b1e6ba
+      - s-69167bc983
+      - s-4e2ebd28f7
+      - s-f137baf652
+      - s-f80a895e0f
+      - s-f44d05ebd0
+      - s-93de1ba67f
+      - s-1de02c8248
+      - s-3da2272e67
+      - s-dd19f60393
+      - s-7a4a2dceea
+      - s-af6b90b117
+      - s-131a258f71
+      - s-e63eabfe26
+      - s-1d602a7fae
+      - s-de1ba052eb
+      - s-1de8a8f113
+      - s-48fdf887e7
+      - s-7945b44c3b
+      - s-5d6cb62bfa

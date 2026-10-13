@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Wolterstorffina chirioi
+  displayName: Wolterstorffina chirioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5C33P
+  sourceIndexes:
+    - name:
+        en: Wolterstorffina chirioi
+        zh: Wolterstorffina chirioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5C33P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/265
+            queryName: Wolterstorffina chirioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-365bf4cb24
+      - s-5bde49bd23
+      - s-9911dbe0e1
+      - s-829d8a0829
+      - s-07f972c3c4
+      - s-3f76243a97
+    zh:
+      - s-0ee3c3a8c3
+      - s-622bcbe29c
+      - s-7cce6b3b52
+      - s-88808dc5a0
+      - s-52c75dd1de
+      - s-0080284884

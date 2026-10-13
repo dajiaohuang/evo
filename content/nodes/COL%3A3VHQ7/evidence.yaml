@@ -1,0 +1,421 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lithobates lemosespinali (Smith & Chiszar, 2003)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lithobates lemosespinali
+      zh: Lithobates lemosespinali
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f27c2ec076
+            part: title
+          zh:
+            page: zh
+            section: s-de3c859afe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f27c2ec076
+            part: body
+          zh:
+            page: zh
+            section: s-de3c859afe
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-95ba7e3bd3
+            part: title
+          zh:
+            page: zh
+            section: s-e6500bdef8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-95ba7e3bd3
+            part: body
+          zh:
+            page: zh
+            section: s-e6500bdef8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-c49cdd438e
+            part: title
+          zh:
+            page: zh
+            section: s-81afa869e6
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-c49cdd438e
+            part: body
+          zh:
+            page: zh
+            section: s-81afa869e6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b881fcef4f
+            part: title
+          zh:
+            page: zh
+            section: s-035cbb47fc
+            part: title
+        sourceIds:
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b881fcef4f
+            part: body
+          zh:
+            page: zh
+            section: s-035cbb47fc
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-13af9f69177e1f34a301601f7d11580b
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-7f87681e20
+            part: title
+          zh:
+            page: zh
+            section: s-bdedb5ba57
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhq7
+        text:
+          en:
+            page: en
+            section: s-7f87681e20
+            part: body
+          zh:
+            page: zh
+            section: s-bdedb5ba57
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-70168da990
+            part: title
+          zh:
+            page: zh
+            section: s-78250f5594
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhq7
+        text:
+          en:
+            page: en
+            section: s-70168da990
+            part: body
+          zh:
+            page: zh
+            section: s-78250f5594
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-85ae68615c
+            part: title
+          zh:
+            page: zh
+            section: s-55959dfe67
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhq7
+        text:
+          en:
+            page: en
+            section: s-85ae68615c
+            part: body
+          zh:
+            page: zh
+            section: s-55959dfe67
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-174c35604c
+            part: title
+          zh:
+            page: zh
+            section: s-e349cc29bb
+            part: title
+        sourceIds:
+          - primary-pmc12070909-3vhq7
+          - primary-pmc12070909-3vhq7-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-174c35604c
+            part: body
+          zh:
+            page: zh
+            section: s-e349cc29bb
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-9afe6defef
+            part: body
+          zh:
+            page: zh
+            section: s-e09d148add
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Lithobates lemosespinali
+          url: https://www.checklistbank.org/dataset/316115/taxon/3VHQ7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4876; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4879 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: primary-pmc12070909-3vhq7
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Lithobates lemosespinali: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12070909-3vhq7-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 dataset316115 usage7935T exact sourceName Rana lemosespinali accepted3VHQ7; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json
+          scope:
+            en: Recorded catalogue accepted-link only; source specimen identity and biological concept equivalence remain uncertified.
+            zh: 仅所记目录接受名链接；来源标本身份及生物学概念等同性仍未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc12070909-3vhq7-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9281758824
+        part: body
+      zh:
+        page: zh
+        section: s-f7a5662e53
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-13af9f69177e1f34a301601f7d11580b
+      sourceRowId: Anf4876
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4876
+        bibliographyRowId: Anf4879
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Lithobates heckscheri
+        candidateBibliographyRowIds:
+          - Anf4879
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-3vhq7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Rana lemosespinali Smith & Chiszar, 2003; explicit COL26.8 nomenclatural bridge, not independently certified biological equivalence
+        evidenceRead: "Lithobates lemosespinali: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhq7
+            locator: PMC12070909 XML Table1 body row 52 Rana lemosespinali Smith & Chiszar, 2003; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3585cb5d3b
+                part: body
+              zh:
+                page: zh
+                section: s-d9f9c50548
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhq7
+            locator: PMC12070909 XML Table1 row 52 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f738291d54
+                part: body
+              zh:
+                page: zh
+                section: s-0a951e60f2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhq7
+            locator: PMC12070909 XML Table1 row 52 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e2d7cf507a
+                part: body
+              zh:
+                page: zh
+                section: s-fd60c77d4f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Historical name and catalogue link
+              zh: 历史名称与目录对应
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-3vhq7
+            locator: PMC12070909 XML Table1 row 52; COL26.8 dataset316115 usage7935T accepted3VHQ7; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/col26.8-name-bridges.json sourceName Rana lemosespinali
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1d440c2fc6
+                part: body
+              zh:
+                page: zh
+                section: s-df4e851bc3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

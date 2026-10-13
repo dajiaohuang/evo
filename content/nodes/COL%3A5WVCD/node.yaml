@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulina shengena
+  displayName: Callulina shengena
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WVCD
+  sourceIndexes:
+    - name:
+        en: Callulina shengena
+        zh: Callulina shengena
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WVCD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/110
+            queryName: Callulina shengena
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c42c7d4e13
+      - s-2aec988db5
+      - s-71d2f8353d
+      - s-dbd92881b2
+      - s-75d8014fb9
+      - s-c3431a90fb
+      - s-2de56fcfc9
+      - s-fb2c817419
+    zh:
+      - s-9b90ad3f2f
+      - s-8ddf2b1d84
+      - s-07fd6bd215
+      - s-179fb8af3f
+      - s-cb1d780c0d
+      - s-87ae6ddba1
+      - s-b1edb1826a
+      - s-6527eb1df0

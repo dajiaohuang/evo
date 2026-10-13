@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus monticola
+  displayName: Desmognathus monticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/353MQ
+  sourceIndexes:
+    - name:
+        en: Desmognathus monticola
+        zh: Desmognathus monticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 353MQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/480
+            queryName: Desmognathus monticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 42
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/475
+            queryName: Desmognathus monticola jeffersoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/465
+            queryName: Desmognathus monticola monticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7988df5d1d
+      - s-156969ebae
+      - s-938be7d1ed
+      - s-855a4232aa
+      - s-7967b41644
+      - s-1021c76c47
+      - s-5cddf1dc4b
+      - s-63a901ac0d
+      - s-9f30bba2e9
+      - s-08a7f2cdb7
+      - s-213d82b10a
+      - s-1b3ded9f4b
+      - s-0960de8d09
+      - s-235f42f7a6
+      - s-4d9a730893
+      - s-64675825e6
+      - s-9220702c99
+      - s-ec178b57e8
+    zh:
+      - s-f9de25fdd4
+      - s-b71baeb4a5
+      - s-2fb67157f1
+      - s-b0eef98cf5
+      - s-1bd80d2b8b
+      - s-7c31ef9190
+      - s-dbfaf6234b
+      - s-ed3d9df0b3
+      - s-15190d20be
+      - s-49c33871d6
+      - s-be771cc8d2
+      - s-56bbda38f6
+      - s-6e89994fe8
+      - s-cc9efbf259
+      - s-03c51ab5fc
+      - s-251f75b8f1
+      - s-4678d038ca
+      - s-640e1450b5

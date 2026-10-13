@@ -1,0 +1,217 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Thisbemys corrugatus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Thisbemys corrugatus
+      en: Thisbemys corrugatus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c4253fc442
+            part: body
+          en:
+            page: en
+            section: s-6315d3a678
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ca71af087e
+            part: body
+          en:
+            page: en
+            section: s-cd641c5cf3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6cc482fe46
+            part: body
+          en:
+            page: en
+            section: s-46a669a5d6
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-097be092be
+            part: body
+          en:
+            page: en
+            section: s-fdc8814b6f
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e138b4687c
+            part: body
+          en:
+            page: en
+            section: s-43e6f875c2
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Thisbemys corrugatus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52268&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52268; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:52268
+          selectedOccurrenceIds:
+            - occ:173511
+            - occ:173592
+            - occ:173609
+            - occ:173743
+            - occ:173852
+            - occ:173895
+            - occ:173933
+            - occ:174163
+            - occ:174230
+            - occ:174556
+            - occ:174598
+            - occ:174661
+            - occ:174700
+            - occ:174713
+            - occ:174751
+            - occ:174764
+            - occ:174772
+            - occ:174789
+            - occ:174840
+            - occ:174855
+            - occ:174875
+            - occ:174884
+            - occ:175181
+            - occ:175363
+            - occ:175887
+            - occ:175903
+            - occ:176437
+          selectedCollectionIds:
+            - col:16098
+            - col:16108
+            - col:16109
+            - col:16137
+            - col:16192
+            - col:16200
+            - col:16203
+            - col:16223
+            - col:16228
+            - col:16275
+            - col:16283
+            - col:16294
+            - col:16305
+            - col:16306
+            - col:16311
+            - col:16313
+            - col:16314
+            - col:16315
+            - col:16334
+            - col:16340
+            - col:16345
+            - col:16350
+            - col:16418
+            - col:16488
+            - col:16586
+            - col:16587
+            - col:16651
+          sourceReferenceIds:
+            - ref:6294
+            - ref:1404
+            - ref:3731
+            - ref:1115
+            - ref:1623
+            - ref:2523
+            - ref:2640
+          originalIdentificationMappings:
+            - occurrenceId: occ:174230
+              originalIdentifiedName: Thisbemys plicatus n. sp.
+              acceptedName: Thisbemys corrugatus
+              difference: null
+            - occurrenceId: occ:174661
+              originalIdentifiedName: Thisbemys corrugatus n. sp.
+              acceptedName: Thisbemys corrugatus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-4fb6275673
+        part: body
+      en:
+        page: en
+        section: s-567382dcf5
+        part: body

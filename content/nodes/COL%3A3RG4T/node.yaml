@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus yangi
+  displayName: Kurixalus yangi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3RG4T
+  sourceIndexes:
+    - name:
+        en: Kurixalus yangi
+        zh: Kurixalus yangi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3RG4T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/180
+            queryName: Kurixalus yangi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-551eda806c
+      - s-1016ab5e4c
+      - s-288e047d23
+      - s-9e9afd8f35
+      - s-ebee3d758c
+      - s-003ad40304
+      - s-3de9d82132
+      - s-64a319cdcb
+    zh:
+      - s-1cfc9c781b
+      - s-1a94ae2281
+      - s-1e0e8eafd5
+      - s-0714c96054
+      - s-e2cb459405
+      - s-6abbfce7cd
+      - s-b49dbb1cbd
+      - s-fa6cef9ec8

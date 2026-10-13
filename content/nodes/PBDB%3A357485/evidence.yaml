@@ -1,0 +1,145 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Melosaurus uralensis
+    rank: species
+    sourceTaxonId: txn:357485
+    name:
+      en: Melosaurus uralensis
+      zh: Melosaurus uralensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-400f102f87
+            part: body
+          zh:
+            page: zh
+            section: s-9f0cce2875
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-b2cb0996ab
+            part: body
+          zh:
+            page: zh
+            section: s-9b9d1e39de
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-fc7936f6fc
+            part: body
+          zh:
+            page: zh
+            section: s-5c0d58f50b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:357485; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. A. Shishkin, I. V. Novikov, and Y. M. Gubin. 2000. Permian and Triassic temnospondyls from Russia. The Age of Dinosaurs in Russia and Mongolia. Cambridge University Press, Cambridge
+    occurrenceEvidence:
+      - occurrenceId: occ:219961
+        collectionId: col:22644
+        acceptedTaxonId: txn:357485
+        taxonomicDifference: null
+        referenceId: ref:4769
+        bibliography: "J. de Heinzelin. 1983. The Omo Group: Archives of the International Omo Research Expedition. Musee Royal de l'Afrique Centrale, Annales Series 8, Tervuren, Belgique 85"
+        locality:
+          countryCode: RU
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 266.9
+        youngerAgeMa: 264.28
+      - occurrenceId: occ:387723
+        collectionId: col:37065
+        acceptedTaxonId: txn:357485
+        identifiedName: Melosaurus uralensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:9939
+        bibliography: H. v. Meyer. 1860. Melosaurus uralensis aus dem permischen System des westlichen Urals. Palaeontographica 7(2):90-98
+        locality:
+          countryCode: RU
+          stateProvince: Bashkortostan
+          county: Sterlitamak
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 277.3
+        youngerAgeMa: 266.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-fc7936f6fc
+            part: body
+          zh:
+            page: zh
+            section: s-5c0d58f50b
+            part: body
+        sourceIds: []

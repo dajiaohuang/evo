@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius tlaxiacus
+  displayName: Thorius tlaxiacus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KTH
+  sourceIndexes:
+    - name:
+        en: Thorius tlaxiacus
+        zh: Thorius tlaxiacus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KTH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/61
+            queryName: Thorius tlaxiacus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-20a163c15e
+      - s-3798b6f136
+      - s-da56cbdfe1
+      - s-7de47c152e
+      - s-e0c5d502cb
+      - s-88a346a43b
+      - s-7a48f3d73c
+      - s-67eaa66f05
+      - s-75592c4bbe
+      - s-0ad8bed504
+      - s-69b26c0d73
+      - s-80ad9bdfe0
+      - s-4f48185ae1
+      - s-a255dcee1d
+      - s-d95dc4a27c
+      - s-432a4070e4
+      - s-f95d64b8a8
+    zh:
+      - s-4e54c092e0
+      - s-5d28fa4d66
+      - s-b896f4816e
+      - s-98361abd5f
+      - s-fea6301bbe
+      - s-189f785506
+      - s-daf02bec59
+      - s-0858db10e2
+      - s-18a6d2a1ea
+      - s-1027b8a3f6
+      - s-d54e587516
+      - s-8359d3ac79
+      - s-acbc6c2c9d
+      - s-a459189fad
+      - s-998bae68d7
+      - s-dd50a85483
+      - s-ade126a3e0

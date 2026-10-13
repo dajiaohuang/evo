@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Rafetoides messelianus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Rafetoides messelianus
+      en: Rafetoides messelianus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-053aaecdee
+            part: body
+          en:
+            page: en
+            section: s-9ec9e60fd7
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-25a166ae36
+            part: body
+          en:
+            page: en
+            section: s-a38ed1cef5
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4b978e69f4
+            part: body
+          en:
+            page: en
+            section: s-0b7fee2745
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1c3c4a3c90
+            part: body
+          en:
+            page: en
+            section: s-2563489553
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0b2adac276
+            part: body
+          en:
+            page: en
+            section: s-58cae89941
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Rafetoides messelianus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=347392&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:347392; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:347392
+          selectedOccurrenceIds:
+            - occ:409285
+            - occ:1334784
+            - occ:1347480
+            - occ:1554574
+            - occ:1664055
+          selectedCollectionIds:
+            - col:22701
+            - col:177495
+            - col:179236
+            - col:24201
+            - col:236310
+          sourceReferenceIds:
+            - ref:60714
+            - ref:59683
+            - ref:76228
+            - ref:89517
+          originalIdentificationMappings:
+            - occurrenceId: occ:409285
+              originalIdentifiedName: Palaeoamyda messeliana n. gen. n. sp.
+              acceptedName: Rafetoides messelianus
+              difference: recombined as
+            - occurrenceId: occ:1334784
+              originalIdentifiedName: Rafetoides austriacus
+              acceptedName: Rafetoides messelianus
+              difference: null
+            - occurrenceId: occ:1347480
+              originalIdentifiedName: Palaeoamyda messeliana
+              acceptedName: Rafetoides messelianus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-85302ab355
+        part: body
+      en:
+        page: en
+        section: s-a608920996
+        part: body

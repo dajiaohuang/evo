@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyperolius dartevellei Laurent, 1943
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hyperolius dartevellei
+      zh: Hyperolius dartevellei
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-8b0dbc7edd
+            part: title
+          zh:
+            page: zh
+            section: s-6768246277
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8b0dbc7edd
+            part: body
+          zh:
+            page: zh
+            section: s-6768246277
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fa1ac2a9bd
+            part: title
+          zh:
+            page: zh
+            section: s-e43d71b452
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fa1ac2a9bd
+            part: body
+          zh:
+            page: zh
+            section: s-e43d71b452
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-c3731e0f1a
+            part: title
+          zh:
+            page: zh
+            section: s-98a779bc17
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3nqsj
+        text:
+          en:
+            page: en
+            section: s-c3731e0f1a
+            part: body
+          zh:
+            page: zh
+            section: s-98a779bc17
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ba5797a1f1
+            part: title
+          zh:
+            page: zh
+            section: s-a034e5890f
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3nqsj
+        text:
+          en:
+            page: en
+            section: s-ba5797a1f1
+            part: body
+          zh:
+            page: zh
+            section: s-a034e5890f
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-612c6ca1c3
+            part: title
+          zh:
+            page: zh
+            section: s-62739342e1
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3nqsj
+        text:
+          en:
+            page: en
+            section: s-612c6ca1c3
+            part: body
+          zh:
+            page: zh
+            section: s-62739342e1
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-0338eabfe7
+            part: title
+          zh:
+            page: zh
+            section: s-eaf2cbece4
+            part: title
+        sourceIds:
+          - primary-pmc5683629-3nqsj
+        text:
+          en:
+            page: en
+            section: s-0338eabfe7
+            part: body
+          zh:
+            page: zh
+            section: s-eaf2cbece4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyperolius dartevellei
+          url: https://www.checklistbank.org/dataset/316115/taxon/3NQSJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc5683629-3nqsj
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hyperolius dartevellei: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Hyperolius dartevellei accountsec036. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-59d8ed650f
+        part: body
+      zh:
+        page: zh
+        section: s-8279f67681
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-pmc5683629-3nqsj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: 2017 workinglabelHyperolius dartevellei; exactsource accepted-name candidate; originalvoucher/currentconcept uncertified
+        evidenceRead: "Hyperolius dartevellei: XML sampling/reference/analysis/assignment methods andsec015 counts; remainingnamedaccounts sec034–037/039/041–042/044/046/048/050, sec051–053 comparison/richness/discussion inspected; Hyperolius dartevellei accountsec036. Table2 relevantliteralrows inspected, notcompleteindependenttable extraction. Figures captions only, images/rawtraces/sequencefiles/supplementarytrees notindependentlyreviewed. Frozennamebridge records inspected whereused; no biologicalconcept certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Sampled records preserve source localities and names
+              zh: 取样记录保留来源地点与名称
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3nqsj
+            locator: PMC5683629 XML sec036 literalHyperolius dartevellei locality/voucher account; sec003/004/007
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7222121e19
+                part: body
+              zh:
+                page: zh
+                section: s-25f58b37fe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Working identification and reference conflicts remain explicit
+              zh: 工作鉴定及参考冲突保持明确
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3nqsj
+            locator: PMC5683629 XML sec036 literalHyperolius dartevellei marker/reference/identification account; Table2 relevantrows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3dfd16fcd6
+                part: body
+              zh:
+                page: zh
+                section: s-658b0671d7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Two mitochondrial markers and uneven references limit inference
+              zh: 两线粒体标记及不均参考限制推断
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3nqsj
+            locator: PMC5683629 XML sec004/006–012 methods/reference/limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5f02ba2c0e
+                part: body
+              zh:
+                page: zh
+                section: s-d6eb2fa79d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Study counts and identification scope are not population estimates
+              zh: 研究计数及鉴定范围不是种群估计
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-3nqsj
+            locator: PMC5683629 XML sec004/007 collectioncounts; sec015 andTable1 total/source-locality rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9da7a75235
+                part: body
+              zh:
+                page: zh
+                section: s-db73906055
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

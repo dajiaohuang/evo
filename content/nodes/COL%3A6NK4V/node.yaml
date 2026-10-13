@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus interlineatus
+  displayName: Kalophrynus interlineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NK4V
+  sourceIndexes:
+    - name:
+        en: Kalophrynus interlineatus
+        zh: Kalophrynus interlineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NK4V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/101
+            queryName: Kalophrynus interlineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/147
+            queryName: Engystoma interlineatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/148
+            queryName: Diplopelma interlineatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/149
+            queryName: Berdmorea interlineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/150
+            queryName: Calophrynus interlineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/273
+            queryName: Kalophrynus pleurostigma interlineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-922455befe
+      - s-1b6b495262
+      - s-5df4705853
+      - s-e9c737efe8
+      - s-d2c5874f80
+      - s-a133f53bd3
+      - s-77a4b55225
+      - s-f474e75150
+      - s-50e4d86a00
+      - s-d06d19e5b8
+      - s-de47a5ae0b
+      - s-b2459ea7d1
+    zh:
+      - s-1fe52e36cc
+      - s-506d884c30
+      - s-e9bdcf5953
+      - s-442c7c8cd1
+      - s-707262e6ce
+      - s-ac36ae7f41
+      - s-46e2a69182
+      - s-f9037d5c76
+      - s-6f92121b87
+      - s-7506a17a08
+      - s-384d6fbde5
+      - s-2d34b09583

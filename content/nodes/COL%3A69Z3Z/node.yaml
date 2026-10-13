@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne amomani
+  displayName: Choerophryne amomani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69Z3Z
+  sourceIndexes:
+    - name:
+        en: Choerophryne amomani
+        zh: Choerophryne amomani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69Z3Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/325
+            queryName: Choerophryne amomani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a95ad6fbb
+      - s-7b702e3889
+      - s-15adeca66c
+      - s-22c64cabfa
+      - s-dbf4659d70
+      - s-5a5498ac8e
+      - s-0600fd4dec
+    zh:
+      - s-9191544159
+      - s-6e961de0b2
+      - s-6210cc4f27
+      - s-5af32ec201
+      - s-f15e22ff54
+      - s-1d005ab92a
+      - s-cacd81147f

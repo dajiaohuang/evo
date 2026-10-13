@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gephyromantis grosjeani
+    name:
+      en: Gephyromantis grosjeani
+      zh: Gephyromantis grosjeani
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Gephyromantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Gephyromantis grosjeani in the version 3 classification
+          zh: Gephyromantis grosjeani 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4961a71412
+            part: body
+          zh:
+            page: zh
+            section: s-2b992482e7
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 12 populated trait fields
+          zh: 2 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2cf367db09
+            part: body
+          zh:
+            page: zh
+            section: s-dc2fb82a46
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1968, 1969; Reference.csv rows 436
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1968
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis grosjeani
+          - M
+          - "37.25"
+          - "14.15"
+          - "12.65"
+          - "4.9"
+          - "2.7"
+          - NA
+          - NA
+          - "3.7"
+          - NA
+          - "3.7"
+          - NA
+          - "1.95"
+          - "12.05"
+          - NA
+          - "24.35"
+          - "21.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "70.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1969
+        values:
+          - Mantellidae
+          - Gephyromantis
+          - Gephyromantis grosjeani
+          - F
+          - "40.9"
+          - "15.4"
+          - "13.65"
+          - "5"
+          - "2.8"
+          - NA
+          - NA
+          - "4.35"
+          - NA
+          - "3.75"
+          - NA
+          - "2.45"
+          - "12.75"
+          - NA
+          - "25.6"
+          - "23.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "80.35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 436
+        values:
+          - Anura
+          - Gephyromantis_grosjeani
+          - Scherz, M. D., Rakotoarison, A., Ratsoavina, F. M., Hawlitschek, O., Vences, M., & Glaw, F. (2018). Two new Madagascan frog species of the Gephyromantis (Duboimantis) tandroka complex from northern Madagascar. Alytes, 36(1-4), 130-158.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3FTTR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

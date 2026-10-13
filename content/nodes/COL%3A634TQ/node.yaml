@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrophryne
+  displayName: Gastrophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/634TQ
+  sourceIndexes:
+    - name:
+        en: Gastrophryne
+        zh: Gastrophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 634TQ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/398
+            queryName: Gastrophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 121
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2c3c4bbd91
+      - s-2e9d05f954
+      - s-7c5d4f3321
+      - s-30a1109e79
+      - s-c2517e52f7
+      - s-4ffb5a9498
+      - s-a0f8bacac1
+      - s-88a8bedafd
+      - s-22652ca901
+      - s-9d1e06a251
+      - s-cd4a70bf68
+      - s-238e8ca3eb
+      - s-138b1742db
+      - s-fd47019127
+      - s-da85857dff
+      - s-4ecd30c17f
+      - s-4e1d79f119
+      - s-8e8cb31bee
+      - s-8960da4468
+      - s-77609064b4
+      - s-144c3ae9cf
+      - s-57f10b504d
+      - s-eb1e4c794a
+      - s-3dfb09cab8
+    zh:
+      - s-1e35f66fcb
+      - s-7ed221f96c
+      - s-89a4a065f9
+      - s-e81909ea98
+      - s-36312bd9f0
+      - s-b8de057f7b
+      - s-6fb7b64b56
+      - s-fe0a489133
+      - s-3b3adc5749
+      - s-628a29abd9
+      - s-110618ec16
+      - s-57d0905f96
+      - s-deed719af5
+      - s-2198d2db04
+      - s-0f60cc9fee
+      - s-c771e147bc
+      - s-79e674944b
+      - s-50470b0227
+      - s-87778ab647
+      - s-e01e5a98b6
+      - s-627df90dbc
+      - s-c73cf86640
+      - s-f2ddb05323
+      - s-f3d96edc69

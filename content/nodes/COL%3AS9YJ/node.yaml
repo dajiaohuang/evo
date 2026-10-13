@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene lemniscata
+  displayName: Centrolene lemniscata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/S9YJ
+  sourceIndexes:
+    - name:
+        en: Centrolene lemniscata
+        zh: Centrolene lemniscata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: S9YJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/189
+            queryName: Centrolene lemniscata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/474
+            queryName: Centrolene lemniscatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8e962e382a
+      - s-c05827a2be
+      - s-43f31c4dfb
+      - s-a03a689020
+      - s-4e4d906d33
+      - s-6bea11434f
+      - s-123daec2ae
+    zh:
+      - s-f19e079417
+      - s-14ec4358a9
+      - s-c6fd9c5e5c
+      - s-ff5d45dff2
+      - s-d9be3511c5
+      - s-f19fbce0e4
+      - s-fe86b8ac0f

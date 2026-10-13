@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aubria masako
+  displayName: Aubria masako
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JP7B
+  sourceIndexes:
+    - name:
+        en: Aubria masako
+        zh: Aubria masako
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JP7B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/339
+            queryName: Aubria masako
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5421d191a
+      - s-a2f91bf679
+      - s-8d16347364
+      - s-c5017915cc
+      - s-f5bb06009d
+      - s-8316212c49
+      - s-94836c32da
+      - s-4a73a6aadb
+      - s-ab0b726045
+      - s-48e20d106e
+      - s-c65cfd6cb3
+      - s-8dc03f2051
+      - s-23f63e07de
+      - s-c7a0e7deb3
+      - s-2c5dd94034
+      - s-89186791a9
+      - s-6eddfab3a6
+      - s-9151bac5cf
+    zh:
+      - s-16a09f1bfc
+      - s-d261eeba1b
+      - s-d93e2363cc
+      - s-8895f6e82d
+      - s-cced405135
+      - s-36b84fcbfe
+      - s-43540c3a2e
+      - s-32d52e7cbf
+      - s-1a58b9a83b
+      - s-a84436049d
+      - s-48a4a7112e
+      - s-7009241cfb
+      - s-257e1e27f5
+      - s-1eb102333d
+      - s-c28e09e630
+      - s-527e37009c
+      - s-16b0d6507b
+      - s-89f4ef412d

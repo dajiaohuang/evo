@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pampatheriidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Pampatheriidae
+      en: Pampatheriidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7ac0cf0428
+            part: body
+          en:
+            page: en
+            section: s-086b41f528
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2ce3766b7a
+            part: body
+          en:
+            page: en
+            section: s-a79ec45c0f
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Pampatheriidae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=93606
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:93606
+          readingTargets:
+            - name: Tonnicinctus mirus
+              pbdbTaxonId: txn:424310
+              canonicalPath: content/nodes/PBDB%3A424310
+            - name: Scirrotherium hondaensis
+              pbdbTaxonId: txn:268565
+              canonicalPath: content/nodes/PBDB%3A268565
+            - name: Scirrotherium antelucanus
+              pbdbTaxonId: txn:367093
+              canonicalPath: content/nodes/PBDB%3A367093
+            - name: Pampatherium paulacoutoi
+              pbdbTaxonId: txn:273796
+              canonicalPath: content/nodes/PBDB%3A273796
+            - name: Pampatherium typus
+              pbdbTaxonId: txn:137141
+              canonicalPath: content/nodes/PBDB%3A137141
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-48ad442db5
+        part: body
+      en:
+        page: en
+        section: s-689d2ae6e3
+        part: body

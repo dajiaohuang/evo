@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys periosa
+  displayName: Xenophrys periosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TMP5L
+  sourceIndexes:
+    - name:
+        en: Xenophrys periosa
+        zh: Xenophrys periosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TMP5L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/293
+            queryName: Xenophrys periosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/210
+            queryName: Megophrys periosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fc04ff1c6d
+      - s-9e7c4ee60a
+      - s-63044d1dab
+      - s-af4f622b8d
+      - s-ac8a0d85fd
+      - s-e785045b45
+      - s-d1c74b0f5a
+      - s-e6a2ef2ece
+    zh:
+      - s-84b7a1929c
+      - s-cda3476a77
+      - s-0ab8bb01bf
+      - s-bd5cd0d4a1
+      - s-dbec8826ba
+      - s-df9f353840
+      - s-5792068d3f
+      - s-715b8eb73d

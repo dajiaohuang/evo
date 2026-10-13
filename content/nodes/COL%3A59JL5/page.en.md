@@ -1,0 +1,3 @@
+## *Tuberostylis rhizophorae*: mangrove records in a historical account {#s-3988497694}
+The Flora of Panama account, retrieved on 8 September 2026, describes a creeping, much-branched small shrub that is often epiphytic. Its opposite, fleshy leaves are inversely egg-shaped to diamond-shaped, with rounded tips and gently scalloped margins. Small flower heads, each with about 10–12 florets, occur in clusters of two to four near branch tips; the corollas are white. The account says the species was described from Panama but that it had seen only one recent collection from there; it reports the plant as most common in Pacific-coast mangroves of Colombia and extending south into Ecuador. This is the historical regional account’s statement, not a current range survey.
+

@@ -1,0 +1,172 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pachytriton brevipes
+    name:
+      en: Pachytriton brevipes
+      zh: Pachytriton brevipes
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Pachytriton
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d2a7024f62
+            part: body
+          zh:
+            page: zh
+            section: s-a1d558dbb3
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a239800763
+            part: body
+          zh:
+            page: zh
+            section: s-96868d2ec1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 266; Reference.csv rows 4269
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 266
+        values:
+          - Salamandridae
+          - Pachytriton
+          - Pachytriton brevipes
+          - M
+          - NA
+          - "87.6"
+          - "65.1744"
+          - "45.2016"
+          - "22.4256"
+          - "17.1696"
+          - "7.5336"
+          - "3.066"
+          - "5.7816"
+          - "2.1024"
+          - "4.6428"
+          - "7.3584"
+          - "88.5636"
+          - "12.5268"
+          - NA
+          - "11.3004"
+          - "8.76"
+          - "19.272"
+          - "22.6884"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "6.3072"
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4269
+        values:
+          - Caudata
+          - Pachytriton_brevipes
+          - "Nishikawa, K., Jiang, J., & Matsui, M. (2011). Two new species of Pachytriton from Anhui and Guangxi, China (Amphibia: Urodela: Salamandridae). Current Herpetology, 30, 15-31. https://doi.org/10.3105/018.030.0102"
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - VL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4BVTV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

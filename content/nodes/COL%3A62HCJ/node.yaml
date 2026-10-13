@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blythophryne
+  displayName: Blythophryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62HCJ
+  sourceIndexes:
+    - name:
+        en: Blythophryne
+        zh: Blythophryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62HCJ
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/234
+            queryName: Blythophryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75d1ad7a2f
+      - s-f0d34ff2d2
+      - s-f883b82704
+      - s-ea6f61b572
+      - s-3d81b4247b
+      - s-5a4420cabc
+      - s-33d57d24b3
+      - s-1c38cc40f3
+      - s-152b12ade1
+      - s-d483f424e9
+      - s-67a3978e77
+      - s-b6e6dab31b
+      - s-e2c7aed5b2
+    zh:
+      - s-081d357d9e
+      - s-27cec3d11f
+      - s-ed5d8f792a
+      - s-98d2444e53
+      - s-433c80bdf9
+      - s-d096015f35
+      - s-3a943036c5
+      - s-b70eb6d984
+      - s-6326bc861d
+      - s-d89d29dd63
+      - s-c297668a58
+      - s-bb1277323d
+      - s-22431298f8

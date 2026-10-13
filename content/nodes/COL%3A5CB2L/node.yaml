@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenophrys medogensis
+  displayName: Xenophrys medogensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CB2L
+  sourceIndexes:
+    - name:
+        en: Xenophrys medogensis
+        zh: Xenophrys medogensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CB2L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/285
+            queryName: Xenophrys medogensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/465
+            queryName: Megophrys medogensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/131
+            queryName: Megophrys omeimontis medogensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/132
+            queryName: Megophrys omeimontis motuoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4176248bc9
+      - s-4e52560a60
+      - s-821cadeebc
+      - s-6a64ebe5af
+      - s-9c7f311d81
+      - s-5bbb0cda31
+      - s-4dd3a30abd
+      - s-592e2abb4b
+      - s-1e57676b6c
+      - s-907787a0e5
+      - s-affe3f9339
+      - s-a43482f00e
+    zh:
+      - s-cf71d25f71
+      - s-fa50238068
+      - s-6bfbc61c2d
+      - s-0b5d3045ee
+      - s-60f54cea24
+      - s-7999421b18
+      - s-bbbe65efc8
+      - s-0991227216
+      - s-c4e4d6dd93
+      - s-0f9c3980fb
+      - s-8c0d513f40
+      - s-19b74950e8

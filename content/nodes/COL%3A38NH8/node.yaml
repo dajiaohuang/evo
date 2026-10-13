@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ecnomiohyla fimbrimembra
+  displayName: Ecnomiohyla fimbrimembra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38NH8
+  sourceIndexes:
+    - name:
+        en: Ecnomiohyla fimbrimembra
+        zh: Ecnomiohyla fimbrimembra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38NH8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/106
+            queryName: Ecnomiohyla fimbrimembra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/329
+            queryName: Hyla fimbrimembra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/321
+            queryName: Hyla richardi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/322
+            queryName: Hyla richardtaylori
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b6c806534
+      - s-67572520f4
+      - s-562c639906
+      - s-e019a420e4
+      - s-a801ec838a
+      - s-9aa7f08021
+      - s-f12ff5c853
+      - s-ff63b6caba
+      - s-993635e36f
+      - s-39a84db38b
+    zh:
+      - s-7fdcc69cb0
+      - s-f45edc09f3
+      - s-30ce47522c
+      - s-65debe1610
+      - s-a48605fff8
+      - s-855e8f131d
+      - s-070348ea3c
+      - s-8d063adeb4
+      - s-884b221965
+      - s-f60116d8dd

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus saxatilis
+  displayName: Cophixalus saxatilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y458
+  sourceIndexes:
+    - name:
+        en: Cophixalus saxatilis
+        zh: Cophixalus saxatilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y458
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/482
+            queryName: Cophixalus saxatilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b04974540
+      - s-0ac078465e
+      - s-dc17648acf
+      - s-dde6842dbf
+      - s-bfe441442d
+      - s-a20d08b94e
+      - s-c5baa010f1
+      - s-aeb424b4a6
+      - s-04ec4b66c1
+      - s-5eba5ecdf3
+      - s-68ab342742
+      - s-c636ea2a39
+      - s-4d8c7efbdf
+    zh:
+      - s-abfead543b
+      - s-027c991a22
+      - s-2d2c13fc7b
+      - s-cfd4d5f9e3
+      - s-2809711570
+      - s-3aca4ec4bc
+      - s-e075e022cf
+      - s-993596c5ec
+      - s-779c7b7c69
+      - s-3b7302bfd2
+      - s-812450e8a2
+      - s-eeea6b1748
+      - s-676a6a7b17

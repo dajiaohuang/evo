@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys puningensis
+  displayName: Boulenophrys puningensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9MK
+  sourceIndexes:
+    - name:
+        en: Boulenophrys puningensis
+        zh: Boulenophrys puningensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9MK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/375
+            queryName: Boulenophrys puningensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e83f2b30bc
+      - s-a26487908c
+      - s-bb317f892d
+      - s-b45621448c
+      - s-27211f656f
+      - s-d0efea83d9
+      - s-15b1c058ca
+      - s-552ea45057
+      - s-7bdcc94c0b
+      - s-e672f8c5d2
+      - s-6f7a04b212
+    zh:
+      - s-96a4ea398e
+      - s-6b4f7b866b
+      - s-3e660eb8ad
+      - s-e32358c91e
+      - s-f8f76f450f
+      - s-6843cf45d5
+      - s-1fe4442981
+      - s-0856182dc1
+      - s-bb16247dac
+      - s-ef28eb808a
+      - s-6400536f54

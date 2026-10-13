@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes kaweshkari
+  displayName: Alsodes kaweshkari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/C7X2
+  sourceIndexes:
+    - name:
+        en: Alsodes kaweshkari
+        zh: Alsodes kaweshkari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: C7X2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/194
+            queryName: Alsodes kaweshkari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fe7acb847e
+      - s-979240ecd4
+      - s-ebad0ebbad
+      - s-931dde388d
+      - s-5f741cf878
+      - s-2f2ab8a1fe
+      - s-3c673a81ef
+      - s-8cb2fa3af8
+      - s-6f9f8c7a1c
+      - s-b7a6ebedac
+    zh:
+      - s-ab99e689b7
+      - s-dc3ed45f42
+      - s-92b35fda39
+      - s-b8ca06c48e
+      - s-ebc427c4e8
+      - s-a43feb8ebd
+      - s-c61334beeb
+      - s-6a76e00a4e
+      - s-94dc51501e
+      - s-ec5ba41ec1

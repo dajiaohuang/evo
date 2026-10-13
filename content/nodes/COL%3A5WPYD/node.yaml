@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus mirissimus
+  displayName: Brachycephalus mirissimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WPYD
+  sourceIndexes:
+    - name:
+        en: Brachycephalus mirissimus
+        zh: Brachycephalus mirissimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WPYD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/423
+            queryName: Brachycephalus mirissimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-99333d5c0d
+      - s-5d858fafd9
+      - s-164c4f4527
+      - s-8f8a1e3c53
+      - s-5d810eb197
+      - s-2d915ce2bf
+      - s-724779c2a6
+      - s-6934df7159
+      - s-464755a99c
+      - s-a67b13f21a
+      - s-1e64e01479
+    zh:
+      - s-3a0a6b8fb6
+      - s-117167760f
+      - s-3aa75d678f
+      - s-cb6b772497
+      - s-c6530e9145
+      - s-f19d1cd838
+      - s-b4a1687770
+      - s-f961a9062a
+      - s-96ceba52a4
+      - s-281dd301d9
+      - s-43fd6602b0

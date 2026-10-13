@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella jinshaensis
+  displayName: Leptobrachella jinshaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q9Z98
+  sourceIndexes:
+    - name:
+        en: Leptobrachella jinshaensis
+        zh: Leptobrachella jinshaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q9Z98
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/241
+            queryName: Leptobrachella jinshaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-264665c550
+      - s-92ec3f2882
+      - s-a85656006a
+      - s-140ab8501e
+      - s-e609032067
+      - s-b88136c1a6
+      - s-f966e6434e
+      - s-a7b190b3a5
+      - s-e65876cb9f
+    zh:
+      - s-1a7918e9fa
+      - s-382edfdb18
+      - s-1d92883228
+      - s-9c76597584
+      - s-8af24a54f0
+      - s-a49e8254c2
+      - s-9387e686ce
+      - s-b6033857a5
+      - s-0e1e7f6d86

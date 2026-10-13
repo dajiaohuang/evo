@@ -1,0 +1,6 @@
+## Six petals and a finely toothed leaf edge {#s-6666b428a1}
+The Brazilian Flora 2020 v393.147 field records star-shaped or tree-like hairs on young stems. Ovate or oblong leaves have pointed or gradually tapering tips and heart-shaped or rounded bases. Their margins lack fringe-like hairs and may be finely toothed. The field lists seven main veins, or five main veins with two faint veins just inside the edge. The underside is densely covered by star-shaped hairs attached directly to the blade. Flowers branch in pairs. The flower cup is described as urn-shaped or tubular, with a persistent calyx whose lobes end flat. Each flower is recorded with six petals. The tissue joining the anther's pollen sacs is not prolonged and has no appendage. Lilac anthers have one small pore, and the ovary bears hairs. The source gives six petals for this description; it does not quantify variation among plants.
+
+## A terrestrial label accompanying the flower record {#s-eac7114f20}
+The habitat field accompanying the floral description says “terrícola,” or terrestrial. It provides no locality, survey date or range coverage and does not identify wild, cultivated, managed or fossil material. The label is not a complete habitat account.
+

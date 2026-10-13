@@ -1,0 +1,186 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microdyromys koenigswaldi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Microdyromys koenigswaldi
+      en: Microdyromys koenigswaldi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c2c6399ba8
+            part: body
+          en:
+            page: en
+            section: s-995a9cb177
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-04a1197595
+            part: body
+          en:
+            page: en
+            section: s-1fd2e724b3
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b4d42231cb
+            part: body
+          en:
+            page: en
+            section: s-45ee50cbb4
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ef7c2d6c81
+            part: body
+          en:
+            page: en
+            section: s-71f81e90d8
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-df93737aa9
+            part: body
+          en:
+            page: en
+            section: s-b5a8a99b1f
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Microdyromys koenigswaldi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=53444&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:53444; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:53444
+          selectedOccurrenceIds:
+            - occ:332483
+            - occ:386583
+            - occ:386620
+            - occ:386649
+            - occ:386656
+            - occ:386665
+            - occ:386673
+            - occ:387093
+            - occ:387099
+            - occ:389398
+            - occ:419095
+            - occ:640872
+            - occ:1086806
+            - occ:1313306
+            - occ:1423540
+          selectedCollectionIds:
+            - col:31040
+            - col:36877
+            - col:36880
+            - col:36885
+            - col:36886
+            - col:36887
+            - col:36888
+            - col:36889
+            - col:36976
+            - col:37239
+            - col:40716
+            - col:69099
+            - col:136322
+            - col:136269
+            - col:197674
+          sourceReferenceIds:
+            - ref:8378
+            - ref:9874
+            - ref:10008
+            - ref:10964
+            - ref:19926
+            - ref:43601
+            - ref:57907
+            - ref:67400
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0606084a3f
+        part: body
+      en:
+        page: en
+        section: s-37ec7b5f9b
+        part: body

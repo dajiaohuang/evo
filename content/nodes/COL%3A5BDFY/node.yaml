@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vietnamophryne occidentalis
+  displayName: Vietnamophryne occidentalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5BDFY
+  sourceIndexes:
+    - name:
+        en: Vietnamophryne occidentalis
+        zh: Vietnamophryne occidentalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5BDFY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/232
+            queryName: Vietnamophryne occidentalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-841f8c4a15
+      - s-44664aa86f
+      - s-cf20462d03
+      - s-010c9f1024
+      - s-cc4ed3a482
+      - s-e3978bf090
+      - s-1320cee070
+      - s-964c11b5cf
+      - s-5cbf5fb6c3
+      - s-e0ce474e15
+      - s-c19094b435
+      - s-559e925c17
+      - s-b1dd70e29c
+      - s-b9cbe6e4de
+      - s-0bece06f2a
+      - s-bda5099d26
+      - s-6ba017294a
+    zh:
+      - s-b8e912f1bd
+      - s-dbc48b64a5
+      - s-60e56872bf
+      - s-5aacd3c682
+      - s-290aeb919e
+      - s-bc1cd6c3de
+      - s-83e5f20ba2
+      - s-8275d8cfe0
+      - s-2e8382d310
+      - s-40ebc282cc
+      - s-28af1d2232
+      - s-5109967393
+      - s-f2da3e2940
+      - s-5a5cb68123
+      - s-e545909759
+      - s-a741bb5532
+      - s-67110ece3a

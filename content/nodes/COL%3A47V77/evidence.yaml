@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Notobubon capense (Eckl. & Zeyh.) Magee
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 47V77, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 47V77; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/47V77
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 47V77
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000509846-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 47V77 / WFO wfo-0000509846
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14097_0
+        referenceId: ref-ac5db2e6-14c1-873d-ab0b-9a10a59f59d1
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Notobubon capense (Eckl. & Zeyh.) Magee account; archive rows 9300 (Morphology), 25463 (Habitat), source identifier 14097.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_7160_0
+        referenceId: ref-a54c7e9e-834a-88e5-ad57-abfb6f820b69
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Notobubon capense (Eckl. & Zeyh.) Magee account; archive rows 84473 (Diagnostic), source identifier 7160.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Robust, few-branched, glaucous shrub to 3 m. Leaves 3-pinnate, concolorous, leaflets weakly pinnatisect or usually 3-sect, terminal lobes longer, subequal or shorter than adjacent lateral lobes, subterete, venation not visible. Flowers yellow, in large, orbicular, compound umbels, > 40. Fruit mostly rotund, mericarps dorsally compressed and slightly ribbed, marginally narrowly winged, homomorphic, vittae present, with additional rib vittae, rib oil ducts inconspicuous.
+            sourceIds:
+              - sanbi_14097_0
+            locator: "SANBI/WFO archive Morphology row 9300; source 14097.0; publication: Magee, AR; Manning, JC; van Wyk, B-E; Tilney, PM. 2012. Apiaceae: Notobubon Magee. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 329 - 330. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: This species differs from N. tenuifolium in the weakly pinnatisect or 3-sect ultimate leaflet segments with subterete and needle-like lobes. It is easily distinguished from N. ferulaceum by the stout, shortly pedunculate inflorescence with at most two small secondary umbels, the very large and multiradiate primary umbel and the glaucous appearance of the entire plant. It differs furthermore from ferulaceum by having smaller, usually rotund fruit that are more narrowly-winged. The Kamiesberg form of N. capense is unusual in that the inflorescence may appear somewhat long-pedunculate, the primary umbel few-rayed and the ultimate leaflet segments longer and significantly thicker. This taxon was once considered a separate species (Peucedanum kamiesbergense). However, intermediate specimens collected in other localities in the Northern Cape Province suggest that it is merely an extreme northern form. It can however, as in the typical form, be distinguished from N. ferulaceum and N. pearsonii by the small, rotund fruit with narrow marginal wings and the combination of additional vittae below the vascular bundles in the ribs and broad commissural vittae.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_7160_0
+            locator: "SANBI/WFO archive Diagnostic row 84473; source 7160.0; publication: Magee, AR; Van Wyk, B-E; Tilney, PM. 2009. A taxonomic revision of the woody South African genus Notobubon (Apiaceae: Apioideae). Syst. Bot. 34(1): 220 - 242. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sandstone or granite slopes.
+            sourceIds:
+              - sanbi_14097_0
+            locator: "SANBI/WFO archive Habitat row 25463; source 14097.0; publication: Magee, AR; Manning, JC; van Wyk, B-E; Tilney, PM. 2012. Apiaceae: Notobubon Magee. In: J Manning & P Goldblatt (eds), Plants of the Greater Cape Floristic Region 1: The Core Cape flora, Strelitzia 29: 329 - 330. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-281e402113
+        title:
+          en:
+            page: en
+            section: s-f525e09b00
+            part: title
+          zh:
+            page: zh
+            section: s-f9be6d8c5e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f525e09b00
+            part: body
+          zh:
+            page: zh
+            section: s-f9be6d8c5e
+            part: body
+        sourceIds:
+          - sanbi_14097_0
+      - id: page-7b7f187d27
+        title:
+          en:
+            page: en
+            section: s-861b5ca7cd
+            part: title
+          zh:
+            page: zh
+            section: s-934e3dc849
+            part: title
+        text:
+          en:
+            page: en
+            section: s-861b5ca7cd
+            part: body
+          zh:
+            page: zh
+            section: s-934e3dc849
+            part: body
+        sourceIds:
+          - sanbi_7160_0
+      - id: page-de98b07a2d
+        title:
+          en:
+            page: en
+            section: s-e038efcfb8
+            part: title
+          zh:
+            page: zh
+            section: s-7822941307
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e038efcfb8
+            part: body
+          zh:
+            page: zh
+            section: s-7822941307
+            part: body
+        sourceIds:
+          - sanbi_14097_0

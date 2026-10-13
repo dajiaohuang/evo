@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynoidis asper
+  displayName: Phrynoidis asper
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWK6
+  sourceIndexes:
+    - name:
+        en: Phrynoidis asper
+        zh: Phrynoidis asper
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWK6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/193
+            queryName: Phrynoidis asper
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/288
+            queryName: Bufo asper
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/495
+            queryName: Phrynoidis aspera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/41
+            queryName: Phrynoides asper
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/42
+            queryName: Cyclogaster borneensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/43
+            queryName: Nectes obscurus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/44
+            queryName: Bufo obscurus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/45
+            queryName: Pseudobufo obscurus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/46
+            queryName: Bufo verrucigerus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a09873cf75
+      - s-31e61c3a1d
+      - s-fcc7295cbc
+      - s-eb745cfb14
+      - s-a1f9a1b010
+      - s-0dbd7c77d0
+      - s-38e61af7b2
+      - s-6c3ec80577
+      - s-d4f158530e
+      - s-6d4c8e3aff
+      - s-337ee4f392
+      - s-5e30e1cb1b
+      - s-92aa41cc5c
+      - s-f97fb0f040
+    zh:
+      - s-7c11a85cb8
+      - s-fb2facab5d
+      - s-0c35d485a1
+      - s-ae227f6de0
+      - s-6148058b3e
+      - s-5d59074273
+      - s-b9b2bcfcbb
+      - s-aea04e085d
+      - s-23726b4a36
+      - s-5a8a710627
+      - s-86c0932c6c
+      - s-5a6562bee0
+      - s-d43300c964
+      - s-fb8860ab6c

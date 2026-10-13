@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Necturus moleri
+    name:
+      en: Necturus moleri
+      zh: Necturus moleri
+    sourceClassification:
+      order: Caudata
+      family: Proteidae
+      genus: Necturus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c923e7d6be
+            part: body
+          zh:
+            page: zh
+            section: s-239cd7d8e3
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-15c1d6cfcf
+            part: body
+          zh:
+            page: zh
+            section: s-689955ecb2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 215, 216; Reference.csv rows 4107
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 215
+        values:
+          - Proteidae
+          - Necturus
+          - Necturus moleri
+          - F
+          - NA
+          - "134"
+          - NA
+          - NA
+          - "19.4"
+          - "11.3"
+          - NA
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - "5.3"
+          - "63"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 216
+        values:
+          - Proteidae
+          - Necturus
+          - Necturus moleri
+          - M
+          - NA
+          - "173"
+          - NA
+          - NA
+          - "24.7"
+          - "14.5"
+          - NA
+          - "1.8"
+          - NA
+          - NA
+          - NA
+          - "7.2"
+          - "73"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4107
+        values:
+          - Caudata
+          - Necturus_moleri
+          - "Guyer, C., Murray, C., Bart, H. L., Crother, B. I., Chabarria, R. E., Bailey, M. A., & Dunn, K. (2020). Colour and size reveal hidden diversity of Necturus (Caudata: Proteidae) from the Gulf Coastal Plain of the United States. Journal of Natural History, 54(1-4), 15-41. https://doi.org/10.1080/00222933.2020.1736677"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - SL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - QXNBB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

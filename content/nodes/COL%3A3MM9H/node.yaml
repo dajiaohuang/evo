@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hoplophryne uluguruensis
+  displayName: Hoplophryne uluguruensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MM9H
+  sourceIndexes:
+    - name:
+        en: Hoplophryne uluguruensis
+        zh: Hoplophryne uluguruensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MM9H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/307
+            queryName: Hoplophryne uluguruensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b27a99fae3
+      - s-fee98f32a5
+      - s-64e91e5f63
+      - s-1db1bb9e13
+      - s-33ac307299
+      - s-68ce3ad610
+      - s-e899fa2f16
+      - s-c02fe10952
+      - s-917c649331
+      - s-59bb1468a0
+    zh:
+      - s-c22fc21d57
+      - s-4f332385dd
+      - s-fdd8b8422d
+      - s-254b3f0a24
+      - s-31cb646b1c
+      - s-fd4a48e8af
+      - s-bafc90341b
+      - s-df72ae08ff
+      - s-7e2abaf43a
+      - s-287d8d6f6c

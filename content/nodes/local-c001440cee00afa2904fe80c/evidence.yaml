@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Polypedates discantus
+    name:
+      en: Polypedates discantus
+      zh: Polypedates discantus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Polypedates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d7933088d6
+            part: body
+          zh:
+            page: zh
+            section: s-dfdb940cd8
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-207e952878
+            part: body
+          zh:
+            page: zh
+            section: s-01222381fa
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4396, 4397; Reference.csv rows 1131
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4396
+        values:
+          - Rhacophoridae
+          - Polypedates
+          - Polypedates discantus
+          - M
+          - "50.9"
+          - "17.8659"
+          - "15.1682"
+          - "7.2787"
+          - "4.5301"
+          - NA
+          - "5.1409"
+          - "3.563"
+          - "5.4972"
+          - "5.1918"
+          - "7.7877"
+          - "2.3923"
+          - NA
+          - NA
+          - "27.2824"
+          - "21.7343"
+          - NA
+          - "28.0459"
+          - "27.3333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.8504"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.2905"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4397
+        values:
+          - Rhacophoridae
+          - Polypedates
+          - Polypedates discantus
+          - F
+          - "67.5"
+          - "11.9025"
+          - "10.6605"
+          - "4.692"
+          - "2.967"
+          - NA
+          - "3.4845"
+          - "2.5185"
+          - "3.5535"
+          - "3.45"
+          - "5.106"
+          - "1.7595"
+          - NA
+          - NA
+          - "18.63"
+          - "14.4555"
+          - NA
+          - "19.527"
+          - "18.492"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.001"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.725"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1131
+        values:
+          - Anura
+          - Polypedates_discantus
+          - "Rujirawan, A., Stuart, B. L., & Aowphol, A. (2013). A new tree frog in the genus Polypedates (Anura: Rhacophoridae) from southern Thailand. Zootaxa, 3702, 545-565. https://doi.org/10.11646/zootaxa.3702.6.3"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - LAL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4LD47
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

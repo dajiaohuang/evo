@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax maracaya
+  displayName: Scinax maracaya
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJXS
+  sourceIndexes:
+    - name:
+        en: Scinax maracaya
+        zh: Scinax maracaya
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJXS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/55
+            queryName: Scinax maracaya
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/408
+            queryName: Hyla maracaya
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/409
+            queryName: Ololygon maracaya
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca1affeff3
+      - s-ed0f5da0b1
+      - s-35545a39a6
+      - s-a5acbe2029
+      - s-1bc6ffd39d
+      - s-7026b25953
+      - s-179432648f
+      - s-6b79935d53
+    zh:
+      - s-3ab704e607
+      - s-496a0cbbf8
+      - s-17a0ee1f2c
+      - s-4739d93584
+      - s-a32fbe6e61
+      - s-3dbcba6c20
+      - s-b82d0a2ef8
+      - s-5b7f308520

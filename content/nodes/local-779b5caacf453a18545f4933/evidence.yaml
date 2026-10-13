@@ -1,0 +1,157 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ambystoma barbouri
+    name:
+      en: Ambystoma barbouri
+      zh: Ambystoma barbouri
+    sourceClassification:
+      order: Caudata
+      family: Ambystomatidae
+      genus: Ambystoma
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Ambystoma barbouri in the morphology deposit
+          zh: 形态数据中的 Ambystoma barbouri 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bc19336fe9
+            part: body
+          zh:
+            page: zh
+            section: s-6199d416bd
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 4: measurement fields and sex codes"
+          zh: 第 4 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-293bfbec1e
+            part: body
+          zh:
+            page: zh
+            section: s-1714a5cceb
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 4; Reference.csv rows 4050
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 4
+        values:
+          - Ambystomatidae
+          - Ambystoma
+          - Ambystoma barbouri
+          - F
+          - NA
+          - "82"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "58"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4050
+        values:
+          - Caudata
+          - Ambystoma_barbouri
+          - Kraus, F., & Petranka, J. W. (1989). A new sibling species of Ambystoma from the Ohio River drainage. Copeia(1), 94-110. https://doi.org/10.2307/1445610
+    availableTraitCodes:
+      - SVL
+      - IND
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - CQ3F
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

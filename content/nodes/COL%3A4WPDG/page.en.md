@@ -1,0 +1,3 @@
+## Leaflet and nectary alternatives in the entry {#s-41d6255bd5}
+The Brazilian Flora 2020 entry records stems as glabrous or sparsely pubescent. Stipules are linear or falcate; the petiole and rachis are each listed as under 5 cm or 6–10 cm. Sessile extrafloral nectaries occur between all leaflet pairs and are ovate. Leaves have two pairs of elliptic, ovate or obovate leaflets with acuminate or cuspidate tips. The panicle has ovate or lanceolate bracts. Flowers are zygomorphic, with a central adaxial petal described as obovate or oblong and seven fertile stamens. The legume is late dehiscent and erect, subcylindrical and externally depressed between seeds; seeds are arranged in two series. No habitat field is included, so the entry does not establish habitat or range.
+

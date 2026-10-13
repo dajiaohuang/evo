@@ -1,0 +1,123 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Piliocolobus bouvieri Rochebrune, 1887
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Bouvier’s Red Colobus
+      zh: 布维耶红疣猴
+    sections:
+      - topic: historicalNameType
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
+          zh:
+            page: zh
+            section: s-1d6cc2a852
+            part: body
+          en:
+            page: en
+            section: s-01c263d197
+            part: body
+      - topic: typeSeriesBoundary
+        sourceIds:
+          - turni2024RedColobusTypes
+        text:
+          zh:
+            page: zh
+            section: s-b70ad512cf
+            part: body
+          en:
+            page: en
+            section: s-fdbfa194fb
+            part: body
+      - topic: distribution_habitat
+        text:
+          en:
+            page: en
+            section: s-9a457baf9d
+            part: body
+          zh:
+            page: zh
+            section: s-14fc27118c
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - ndzai2019
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Piliocolobus bouvieri
+          url: https://www.checklistbank.org/dataset/316115/taxon/4HTQK
+          scope:
+            en: Pinned COL26.8 accepted name, authorship, rank and parent classification; not biological evidence.
+            zh: 固定 COL26.8 中的接受名、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-1c055122-68ce-8569-a51a-9edcc4e6ea95
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used for the page; not evidence of occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: ndzai2019
+        referenceId: ref-2fe6eafa-2c36-88ed-a0a7-61eaba6f8a27
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A 2016 large-mammal survey in Lefini and Lesio-Louna reserves reported one Bouvier’s red colobus group during travel through a remote river section; it was not a population estimate.
+            zh: 支持 2016 年 Lefini 与 Lesio-Louna 保护区大型哺乳动物调查中沿偏远河段行进时记录到的一个布维耶红疣猴群；不是种群估计。
+      - id: turni2024RedColobusTypes
+        referenceId: ref-fb75c3a3-0864-4560-8710-e3fee33c755d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - journal
+          - volume
+          - issue
+          - pages
+          - publishedYear
+          - publishedAt
+          - url
+          - sourceVersion
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Type specimens of Primates (Mammalia) in the collections of the Museum für Naturkunde Berlin
+          url: https://mapress.com/zt/article/download/zootaxa.5543.2.1/54941/69264
+          accessedAt: 2026-10-03
+          locator: PDF pp. 1–3 front matter/collector table/methods; red-colobus accounts PDF pp. 27–28, printed pp. 177–178. Layouts viewed pp. 27–28. No full 44-page or current physical inventory audit.
+          scope:
+            zh: 六种红疣猴的限定模式身份、历史原名归属与材料边界；属与族为比较入口。
+            en: Bounded type identity, historical-name placement and material limits for six red-colobus species; genus and tribe offer comparisons.
+    limitations:
+      en:
+        page: en
+        section: s-ec3e73b96c
+        part: body
+      zh:
+        page: zh
+        section: s-dba1a1251f
+        part: body

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis boehmei
+  displayName: Boophis boehmei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHSR
+  sourceIndexes:
+    - name:
+        en: Boophis boehmei
+        zh: Boophis boehmei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHSR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/239
+            queryName: Boophis boehmei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ebeda9d06a
+      - s-0caee966e4
+      - s-63c6a1c8ae
+      - s-cd13044806
+      - s-392ac4c21d
+      - s-5aa4ebc8fb
+      - s-daa8a6904f
+      - s-3d484da025
+      - s-8b2635e9a7
+      - s-1978daf48f
+    zh:
+      - s-02f9602b7e
+      - s-63c62cd896
+      - s-c770f398bb
+      - s-fec31d65a2
+      - s-612c316de9
+      - s-eec26512e3
+      - s-d3fb28cd67
+      - s-45098b9369
+      - s-7c7b79007c
+      - s-04d42f7154

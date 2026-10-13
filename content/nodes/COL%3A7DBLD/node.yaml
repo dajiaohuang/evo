@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton anhuiensis
+  displayName: Tylototriton anhuiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLD
+  sourceIndexes:
+    - name:
+        en: Tylototriton anhuiensis
+        zh: Tylototriton anhuiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/128
+            queryName: Tylototriton anhuiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7e757d20da
+      - s-16ea4077ef
+      - s-4eb2612c98
+      - s-05038c75bf
+      - s-79f085d173
+      - s-4c9543905d
+      - s-61d7b54bcd
+    zh:
+      - s-68f9cc5d03
+      - s-3dc5c28bfb
+      - s-99b5ade442
+      - s-64495c6a0e
+      - s-98e19885e7
+      - s-486a232be0
+      - s-753f83b67d

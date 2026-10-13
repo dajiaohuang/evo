@@ -1,0 +1,214 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Callimico goeldii (Thomas, 1904)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 戈尔迪猴
+      en: Goeldi's Monkey
+    sections:
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-6599dc140c
+            part: body
+          en:
+            page: en
+            section: s-14ffd19035
+            part: body
+        sourceIds:
+          - mourthe2022
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-e18b83e9de
+            part: body
+          en:
+            page: en
+            section: s-fbee59fa1d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-63e014e70c
+            part: body
+          en:
+            page: en
+            section: s-300e917b09
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-7a9461dd0c
+            part: body
+          en:
+            page: en
+            section: s-02e9732098
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-a3e0d97b8e
+            part: body
+          en:
+            page: en
+            section: s-a90f822853
+            part: body
+      - topic: ecology
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-db16f12cd5
+            part: body
+          en:
+            page: en
+            section: s-c1363f28b5
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-df8fb13291
+            part: body
+          en:
+            page: en
+            section: s-2d7494dfa8
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-6a57dfd6b6
+            part: body
+          en:
+            page: en
+            section: s-6d77ff0928
+            part: body
+    sources:
+      - id: mourthe2022
+        referenceId: ref-5f64b6aa-f75e-8d8d-a879-cb95aedb6f6e
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 研究使用 IUCN 范围图比较巴西亚马逊十个主要间河区的灵长类组合；补充表 S1 列出范围图与各间河区的相交矩阵。支持区域范围图叠置摘要，不是现场出现点记录、丰度估计或完整分布评估。
+            en: The study compares primate assemblages across ten major Brazilian Amazon interfluves using IUCN range maps; Supplementary Table S1 gives the range-map overlap matrix for each interfluve. It supports regional map-overlay summaries, not field occurrence points, abundance estimates or complete range assessments.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/PQG3
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-ab0074b9-b008-8e17-af27-2850420046a4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅用于英文普通名标签；分类身份采用 COL26.8，区域研究结论采用 Mourthé 等（2022）。中文名为编辑翻译。
+            en: Used only for the English common-name label; taxonomic identity follows COL26.8 and the regional study claim follows Mourthé et al. (2022). Chinese common names are editorial translations.
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - sourceVersion
+          - sourceFileSha256
+          - sourceRecordName
+          - originalReferenceNumbers
+          - availableFocalFields
+          - uninterpretedFocalFields
+          - withheldFields
+          - historicalCrosswalk
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Mammal_lifehistories_v2.txt: Callimico goeldii; original refs=1,2,3,22,23,24,29; metadata Class II B data collection and variable definitions; Class IV units and reference list."
+          sourceVersion: Ecological Archives E084-093-D1; 2003 v2
+          sourceFileSha256: 9b7a4ef7082c7b37ab76b922cfd5c86fd3e49444fa2db180439cfbe051fef6b9
+          sourceRecordName: Callimico goeldii
+          originalReferenceNumbers:
+            - "1"
+            - "2"
+            - "3"
+            - "22"
+            - "23"
+            - "24"
+            - "29"
+          availableFocalFields:
+            - gestation(mo)
+            - newborn(g)
+            - weaning(mo)
+            - wean mass(g)
+            - AFR(mo)
+            - max. life(mo)
+            - litter size
+            - litters/year
+          uninterpretedFocalFields: []
+          withheldFields:
+            - mass(g)
+          historicalCrosswalk:
+            MSW93Binomial: Callimico goeldii
+            MSW05Binomial: Callimico goeldii
+            mapping: one-to-one same-name MSW93/MSW05 in separate PanTHERIA supplied SppSynonymID1.0 table; not equivalence to COL
+            sourceConceptEquivalenceToCOL: not established
+          accessedAt: 2026-10-03
+          licenseAssessment: archived-no-restrictions-attributed-factual-summary
+          scope:
+            zh: 历史生活史汇总：一般等权平均，最高寿命取记录最大值；成年体重不在本批解读，底层物种文献未逐条读取。
+            en: "Historical life-history summaries: generally equally weighted averages, maximum lifespan as a record maximum; adult mass not interpreted in this batch, underlying species literature not individually read."
+    limitations:
+      zh:
+        page: zh
+        section: s-85101ac318
+        part: body
+      en:
+        page: en
+        section: s-85909f6739
+        part: body

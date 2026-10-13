@@ -1,0 +1,161 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leiuperinae Bonaparte, 1850
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Leiuperinae
+      zh: Leiuperinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e7af17f7f2
+            part: title
+          zh:
+            page: zh
+            section: s-f7d29c696e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e7af17f7f2
+            part: body
+          zh:
+            page: zh
+            section: s-f7d29c696e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-44b50f373f
+            part: title
+          zh:
+            page: zh
+            section: s-2fa79379c7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-44b50f373f
+            part: body
+          zh:
+            page: zh
+            section: s-2fa79379c7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-e4a3dc7e1e
+            part: title
+          zh:
+            page: zh
+            section: s-8a1f7951b4
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62QJV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62QJV
+            label:
+              en: Edalorhina
+              zh: Edalorhina
+          - kind: catalogue
+            colId: 62S7T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62S7T
+            label:
+              en: Engystomops
+              zh: Engystomops
+          - kind: catalogue
+            colId: 6PVZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PVZ
+            label:
+              en: Physalaemus
+              zh: Physalaemus
+          - kind: catalogue
+            colId: 6SRQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6SRQ
+            label:
+              en: Pleurodema
+              zh: Pleurodema
+          - kind: catalogue
+            colId: 63R2T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63R2T
+            label:
+              en: Pseudopaludicola
+              zh: Pseudopaludicola
+        text:
+          en:
+            page: en
+            section: s-e4a3dc7e1e
+            part: body
+          zh:
+            page: zh
+            section: s-8a1f7951b4
+            part: body
+      - topic: limitations
+        title:
+          en: Scope of these records
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-16e68b1734
+            part: body
+          zh:
+            page: zh
+            section: s-2febcbc18b
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leiuperinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JSY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9f70dcaac8
+        part: body
+      zh:
+        page: zh
+        section: s-b2bad91f12
+        part: body

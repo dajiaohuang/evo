@@ -1,0 +1,179 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Eudinoceras mongoliensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Eudinoceras mongoliensis
+      en: Eudinoceras mongoliensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-023da4e75d
+            part: body
+          en:
+            page: en
+            section: s-2a47e5755f
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-159d4ca9b7
+            part: body
+          en:
+            page: en
+            section: s-5bb1454dfd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3dcda769a2
+            part: body
+          en:
+            page: en
+            section: s-42be0a5a20
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5d373c79d2
+            part: body
+          en:
+            page: en
+            section: s-270b30f02e
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cb989971af
+            part: body
+          en:
+            page: en
+            section: s-5f09bbcb63
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Eudinoceras mongoliensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=101345&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:101345; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:101345
+          selectedOccurrenceIds:
+            - occ:669290
+            - occ:1307832
+            - occ:1307833
+            - occ:1307834
+            - occ:1307835
+            - occ:1307836
+            - occ:1307837
+            - occ:1318046
+            - occ:1412500
+            - occ:1412502
+          selectedCollectionIds:
+            - col:72183
+            - col:175350
+            - col:175351
+            - col:175352
+            - col:175353
+            - col:175354
+            - col:174914
+            - col:28792
+            - col:195165
+          sourceReferenceIds:
+            - ref:24437
+            - ref:57316
+            - ref:58466
+            - ref:66380
+          originalIdentificationMappings:
+            - occurrenceId: occ:1412500
+              originalIdentifiedName: Metacoryphodon luminis n. sp.
+              acceptedName: Eudinoceras mongoliensis
+              difference: null
+            - occurrenceId: occ:1412502
+              originalIdentifiedName: Gobiatherium monolobotum
+              acceptedName: Eudinoceras mongoliensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-28d72587d3
+        part: body
+      en:
+        page: en
+        section: s-7f6c9390d3
+        part: body

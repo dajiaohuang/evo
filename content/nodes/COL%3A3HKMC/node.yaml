@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis kathrinae
+  displayName: Guibemantis kathrinae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3HKMC
+  sourceIndexes:
+    - name:
+        en: Guibemantis kathrinae
+        zh: Guibemantis kathrinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3HKMC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/220
+            queryName: Guibemantis kathrinae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/182
+            queryName: Mantidactylus kathrinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b37e9f5d3a
+      - s-e4c4a81d55
+      - s-feadbca305
+      - s-7492e110cd
+      - s-0d24263468
+      - s-436c601a85
+      - s-f077a3ee70
+      - s-04e5fc286b
+      - s-27194014f4
+      - s-880a57aa12
+      - s-bdbe3455a1
+    zh:
+      - s-1bb1db1760
+      - s-451db4a1ff
+      - s-cd2d7a5e67
+      - s-44d444813c
+      - s-9f1ef73c75
+      - s-50694ed86f
+      - s-d358758dc1
+      - s-c59b1327a7
+      - s-9087a0bd8e
+      - s-c3e4a0fd02
+      - s-de8336cc36

@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus grandisonae
+  displayName: Nymphargus grandisonae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JK
+  sourceIndexes:
+    - name:
+        en: Nymphargus grandisonae
+        zh: Nymphargus grandisonae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/427
+            queryName: Nymphargus grandisonae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/468
+            queryName: Centrolene grandisonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/399
+            queryName: Centrolenella grandisonae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b1f1a139e
+      - s-99f3f82bb7
+      - s-2280320852
+      - s-0c49d4ffde
+      - s-75d66e7361
+      - s-82fdd8c411
+      - s-264cee4e8e
+      - s-dbe7554bcf
+      - s-f780995243
+      - s-a652232eb1
+      - s-e782b39988
+      - s-4a4b1fc487
+      - s-a984da4d08
+      - s-1b38f7fd2c
+      - s-8cb34fe755
+      - s-84269b23f0
+      - s-2e1dd5abd3
+      - s-78b23ac77f
+      - s-368c37405b
+      - s-0a1517aad1
+      - s-15743fa3ea
+      - s-0947468c90
+    zh:
+      - s-07b30721be
+      - s-86fc5cb175
+      - s-db6948fc23
+      - s-5b74a83089
+      - s-ffe5c98608
+      - s-0cae57ea39
+      - s-086dc0f254
+      - s-353939ce27
+      - s-38c9fc8eb1
+      - s-da1b1584ec
+      - s-0356a496ec
+      - s-02846efc93
+      - s-486d4bd16d
+      - s-e0e0e9afbb
+      - s-2ee0c39888
+      - s-7dd3712001
+      - s-523c032fa9
+      - s-7f7ba08dc3
+      - s-ca50cc9679
+      - s-4efbb418cb
+      - s-fa62462a79
+      - s-985ef50773

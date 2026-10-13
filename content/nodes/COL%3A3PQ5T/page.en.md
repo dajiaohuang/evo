@@ -1,0 +1,60 @@
+## Accepted name and placement {#s-c14f6428c1}
+COL26.8 accepts Ingerophrynus divergens (Peters, 1871) as a species. Its recorded classification places it along Anura (order) → Bufonidae (family) → Ingerophrynus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-b77d848f53}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Foraging strata — AmphiBIO source {#s-5420e6f7f6}
+Historical source concept: Ingerophrynus divergens, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags terrestrial; aquatic as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Adult food categories — AmphiBIO source {#s-5a9e589b6f}
+Historical source concept: Ingerophrynus divergens, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags arthropods as present categories. The dataset aggregates adult diet categories from literature reports of expert judgement, observation or stomach contents. A listed category is not a complete diet or a measured diet proportion.
+
+## Activity periods — AmphiBIO source {#s-f5376949ed}
+Historical source concept: Ingerophrynus divergens, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags night as present categories. These are overall activity categories rather than a continuous behavioural time series.
+
+## Seasonal activity — AmphiBIO source {#s-e84814eedc}
+Historical source concept: Ingerophrynus divergens, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags wet and cold as present categories. Seasonal categories compare conditions during activity with the local annual climate; they are not fixed calendar months worldwide.
+
+## Compiled adult dimensions — AmphiBIO source {#s-d91a560f24}
+Historical source concept: Ingerophrynus divergens, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body length: 55 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual.
+
+## Compiled life history — AmphiBIO source {#s-78573da290}
+Historical source concept: Ingerophrynus divergens, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum reproductive events per year: 1 events/year. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental strategy — AmphiBIO source {#s-b76fd409a1}
+Historical source concept: Ingerophrynus divergens, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The deposited record flags a larval stage. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related source records and datasets {#s-02d1119e7c}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Ingerophrynus divergens](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Bufonidae/Ingerophrynus/Ingerophrynus_divergens/page.en.md)
+- [TadpoleTraits v4: Ingerophrynus divergens](../../../../../../../../../../../../../topics/research/TadpoleTraits/Bufonidae/Ingerophrynus/Ingerophrynus_divergens/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-9f5f3cd3ef}
+Deposited source concept: Ingerophrynus divergens, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 1 image-derived rows for this source concept. Supplied stage entries are 34 (Judging based on the picture). Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-1c314db781}
+Deposited source concept: Ingerophrynus divergens, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports body length / total length = 0.390716 (source row 594, stage 34 (Judging based on the picture)); tail length / total length = 0.606908 (source row 594, stage 34 (Judging based on the picture)); maximum body height / total length = 0.173246 (source row 594, stage 34 (Judging based on the picture)); maximum tail height / total length = 0.167215 (source row 594, stage 34 (Judging based on the picture)); tail muscle height / total length = 0.0776681 (source row 594, stage 34 (Judging based on the picture)). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Evidence roles in the Andaman toad description {#s-5730497a82}
+The2016 paper uses the source label(s) Ingerophrynus divergens. Table3 lists sequence entries: Ingerophrynus divergens: KT991328, KT991339; range/collection-location field Malaysia; reference This study; tree7a/7b/7c membership +/blank/blank. Appendix1 lists examined comparative material: Ingerophrynus divergens: FMNH 138867 (cleared and stained); UNIMAS 7943. These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## Comparative material does not supply every trait {#s-f917dd3b9b}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Ingerophrynus divergens specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Ingerophrynus divergens is established by its inclusion in this comparison.
+
+## Mitochondrial sampling and phylogenetic limits {#s-2e622b43a9}
+The molecular comparison concatenates partial12S and16S mitochondrial regions and uses model-based maximum-likelihood and Bayesian inference. The focal sequences are reported as417bp and551bp, respectively; alignment lengths and raw data were not independently verified. The paper reports43 species across21 genera in Table3, with a36-species broad analysis and selected Asian subtrees. Its closest-to-focal Bufoides placement in the broad tree had relatively low support and changes in restricted sampling must retain their context. Two mitochondrial regions are not independent nuclear evidence of ancestry or reproductive isolation. The paper calls distances “uncorrected k2p”; that wording is retained as a source ambiguity, not silently interpreted as an uncorrected p-distance or a universal genus-delimitation threshold.
+
+## catalogue-profile / limitations {#s-7417d93dc3}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-8ba189bc34}
+The2016 paper uses the source label(s) Ingerophrynus divergens. Table3 lists sequence entries: Ingerophrynus divergens: KT991328, KT991339; range/collection-location field Malaysia; reference This study; tree7a/7b/7c membership +/blank/blank. Appendix1 lists examined comparative material: Ingerophrynus divergens: FMNH 138867 (cleared and stained); UNIMAS 7943. These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3e63d09b4b}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Ingerophrynus divergens specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Ingerophrynus divergens is established by its inclusion in this comparison.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3a838dc78d}
+The molecular comparison concatenates partial12S and16S mitochondrial regions and uses model-based maximum-likelihood and Bayesian inference. The focal sequences are reported as417bp and551bp, respectively; alignment lengths and raw data were not independently verified. The paper reports43 species across21 genera in Table3, with a36-species broad analysis and selected Asian subtrees. Its closest-to-focal Bufoides placement in the broad tree had relatively low support and changes in restricted sampling must retain their context. Two mitochondrial regions are not independent nuclear evidence of ancestry or reproductive isolation. The paper calls distances “uncorrected k2p”; that wording is retained as a source ambiguity, not silently interpreted as an uncorrected p-distance or a universal genus-delimitation threshold.
+

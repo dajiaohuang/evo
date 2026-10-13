@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis gladiator
+  displayName: Pristimantis gladiator
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/788FP
+  sourceIndexes:
+    - name:
+        en: Pristimantis gladiator
+        zh: Pristimantis gladiator
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 788FP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/289
+            queryName: Pristimantis gladiator
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/365
+            queryName: Eleutherodactylus gladiator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c1280b0499
+      - s-7fbe60e0c0
+      - s-b70182e872
+      - s-c137328393
+      - s-a17b99bf65
+      - s-9fb109dfc5
+      - s-800d18d0e6
+      - s-a85b0fcaed
+      - s-63e74f8869
+      - s-25de943ece
+      - s-4636920eb8
+      - s-ea916b5fe6
+      - s-4a340b8e5a
+      - s-bf943675c2
+      - s-f4f69ba6a5
+      - s-0bef090f64
+      - s-d92c423753
+      - s-8966244a8f
+      - s-8678774150
+      - s-36d9b858da
+      - s-bf794f7b25
+      - s-ad653d58fc
+      - s-f18792c180
+      - s-d14d5eb838
+      - s-a3b9117817
+      - s-9e48278bb5
+      - s-95c17c1b4c
+      - s-e24c82403a
+    zh:
+      - s-3a41ef8f59
+      - s-0b487db0bb
+      - s-bf6103956c
+      - s-6d13915031
+      - s-5c1259b383
+      - s-353308df76
+      - s-f23662291d
+      - s-f5da8b52d5
+      - s-17fca26189
+      - s-a308b60436
+      - s-3a6c2f586e
+      - s-6e56643454
+      - s-059e62da14
+      - s-9c577a8ba2
+      - s-dd43baeb5b
+      - s-c74627510f
+      - s-fd9c441b79
+      - s-4b919ab634
+      - s-08afaec633
+      - s-3aa480bdb0
+      - s-4c10a2fa4d
+      - s-f5987a37a9
+      - s-1d253de462
+      - s-1b99167ca6
+      - s-c922746b83
+      - s-1ed650f0b9
+      - s-662bb6e30d
+      - s-075bbd3e4b

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis appendiculatus
+  displayName: Pristimantis appendiculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ9L
+  sourceIndexes:
+    - name:
+        en: Pristimantis appendiculatus
+        zh: Pristimantis appendiculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ9L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/116
+            queryName: Pristimantis appendiculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/29
+            queryName: Eleutherodactylus appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/343
+            queryName: Hylodes appendiculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-601d18a280
+      - s-a54f777f2f
+      - s-5860431eba
+      - s-2352df96ea
+      - s-1c02260f04
+      - s-601b69428d
+      - s-b2a856e52e
+      - s-98451f4a42
+      - s-a29e489ce1
+      - s-e7f2d094c5
+      - s-35bf21a674
+    zh:
+      - s-28a36d8c03
+      - s-0d57a4e5ba
+      - s-107895e733
+      - s-e61fd2859f
+      - s-e9dba86680
+      - s-63120374be
+      - s-a057b5a204
+      - s-c1fe4bcd46
+      - s-efa9e55c32
+      - s-d53b4e2c8e
+      - s-bf552b44dd

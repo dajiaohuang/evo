@@ -1,0 +1,122 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris triseriata
+  displayName: Pseudacris triseriata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9Z
+  sourceIndexes:
+    - name:
+        en: Pseudacris triseriata
+        zh: Pseudacris triseriata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/264
+            queryName: Pseudacris triseriata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 158
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/458
+            queryName: Hyla triseriata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/459
+            queryName: Pseudacris nigrita triseriata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/106
+            queryName: Helocaetes triseriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/107
+            queryName: Chorophilus triseriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/446
+            queryName: Chorophilus triseriatus triseriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/447
+            queryName: Chorophilus nigritus triseriatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/448
+            queryName: Pseudacris triseriata triseriata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-49024e1eb8
+      - s-9faa739820
+      - s-50c93199c9
+      - s-b03efb168b
+      - s-3e54a9e823
+      - s-caaa9c58e5
+      - s-33c208bf1d
+      - s-adeba5ac13
+      - s-1308cd35e6
+      - s-678ab64a66
+      - s-81999c1a98
+      - s-c88101f61f
+      - s-de0e34d490
+      - s-c6f21c940d
+      - s-799ed9cbe4
+      - s-79f953b231
+      - s-2ef0c3acca
+      - s-487ed888ee
+      - s-200d63e424
+      - s-c13ccc04ce
+    zh:
+      - s-5c6eba6c1c
+      - s-8558b7fcde
+      - s-5024994897
+      - s-e3f613dde8
+      - s-d89ebc4895
+      - s-2297dc9c6e
+      - s-0ad32aebe5
+      - s-4ca99f2112
+      - s-cd8a287779
+      - s-64b3452f10
+      - s-a5ae707e1d
+      - s-e3ba1f6a50
+      - s-fee63cf7fc
+      - s-dbb403a96b
+      - s-4f19f8af15
+      - s-67c8fe5f37
+      - s-dcfcbe3d62
+      - s-687aa6eb07
+      - s-afeb74319c
+      - s-ac94db08f5

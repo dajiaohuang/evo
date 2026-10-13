@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chimerella mariaelenae
+  displayName: Chimerella mariaelenae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5XRQJ
+  sourceIndexes:
+    - name:
+        en: Chimerella mariaelenae
+        zh: Chimerella mariaelenae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5XRQJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/274
+            queryName: Chimerella mariaelenae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/29
+            queryName: Centrolene mariaelenae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f19b391d7a
+      - s-ee0490a1c2
+      - s-1cd3096745
+      - s-f32a20ab50
+      - s-a3d39da97e
+      - s-aa166d4dc7
+      - s-7be1d89b66
+      - s-977cdaabca
+      - s-e2f74283f8
+      - s-d93e579dd9
+    zh:
+      - s-41ad5afc2f
+      - s-8adc83252b
+      - s-69a9381052
+      - s-239330f3e3
+      - s-7f1f2d916f
+      - s-66a7ee2fec
+      - s-58f05df78b
+      - s-0cdf40c1f7
+      - s-480d5fe431
+      - s-8edb6d7d57

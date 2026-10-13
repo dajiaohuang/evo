@@ -1,0 +1,260 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Epicrionops Boulenger, 1883
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Epicrionops
+      zh: Epicrionops
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-acfa7ca55a
+            part: title
+          zh:
+            page: zh
+            section: s-7c3e46322e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-acfa7ca55a
+            part: body
+          zh:
+            page: zh
+            section: s-7c3e46322e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7ec4bce829
+            part: title
+          zh:
+            page: zh
+            section: s-7330492cd8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7ec4bce829
+            part: body
+          zh:
+            page: zh
+            section: s-7330492cd8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-8de2fcebee
+            part: title
+          zh:
+            page: zh
+            section: s-a1bab46d66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8de2fcebee
+            part: body
+          zh:
+            page: zh
+            section: s-a1bab46d66
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-b13891505b
+            part: title
+          zh:
+            page: zh
+            section: s-edff893c36
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b13891505b
+            part: body
+          zh:
+            page: zh
+            section: s-edff893c36
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b4ddd99820
+            part: title
+          zh:
+            page: zh
+            section: s-50bf3c4416
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6G359
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6G359
+            label:
+              en: Epicrionops bicolor
+              zh: Epicrionops bicolor
+          - kind: catalogue
+            colId: 6FQSY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6FQSY
+            label:
+              en: Epicrionops columbianus
+              zh: Epicrionops columbianus
+          - kind: catalogue
+            colId: 6FR4Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6FR4Y
+            label:
+              en: Epicrionops lativittatus
+              zh: Epicrionops lativittatus
+          - kind: catalogue
+            colId: 6G2SY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6G2SY
+            label:
+              en: Epicrionops marmoratus
+              zh: Epicrionops marmoratus
+          - kind: catalogue
+            colId: 6FQSV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6FQSV
+            label:
+              en: Epicrionops parkeri
+              zh: Epicrionops parkeri
+          - kind: catalogue
+            colId: 6FR4V
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6FR4V
+            label:
+              en: Epicrionops peruvianus
+              zh: Epicrionops peruvianus
+          - kind: catalogue
+            colId: 6FR57
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6FR57
+            label:
+              en: Epicrionops petersi
+              zh: Epicrionops petersi
+        text:
+          en:
+            page: en
+            section: s-b4ddd99820
+            part: body
+          zh:
+            page: zh
+            section: s-50bf3c4416
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Epicrionops
+          url: https://www.checklistbank.org/dataset/316115/taxon/4D25
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Epicrionops; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0a500e4a32
+        part: body
+      zh:
+        page: zh
+        section: s-2988c18560
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Epicrionops
+      sourceRowIds:
+        - Anf6766
+        - Anf6767
+        - Anf6768
+        - Anf6769
+        - Anf6770
+        - Anf6771
+        - Anf6772
+        - Anf6773
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 8
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 8
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 8
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 8
+      currentConceptEquivalenceCertified: false

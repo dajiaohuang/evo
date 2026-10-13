@@ -1,0 +1,3 @@
+## Traits recorded in the Flora entry {#s-bd5c75becc}
+The Brazilian Flora 2020 v393.147 description records three to five pairs of leaflets, hairy below and hairless above; the upper midrib is channelled. Terminal inflorescences have reddish-brown indumentum. The flowers are recorded with pink petals, a reddish-brown calyx covering, glabrous ovaries and lamellae on the wing petals. The fruit entry describes a green outer layer, fibrous middle layer and woody, fibrous inner layer. It lists two seeds there, while a separate seed entry gives a count of three; the record does not resolve this difference. These are observations from one regional dataset description, not a complete account of species variation.
+

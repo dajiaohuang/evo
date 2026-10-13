@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis kivuensis
+  displayName: Leptopelis kivuensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSMR
+  sourceIndexes:
+    - name:
+        en: Leptopelis kivuensis
+        zh: Leptopelis kivuensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSMR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/486
+            queryName: Leptopelis kivuensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/117
+            queryName: Leptopelis graueri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/118
+            queryName: Leptopelis rugegensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-61722ddb83
+      - s-3ca9ba9c71
+      - s-7c4a6ff705
+      - s-f22aa25312
+      - s-7c3aea939a
+      - s-b01a463802
+      - s-03710afbdb
+      - s-9a748a8589
+      - s-00c0d86190
+      - s-ae80198e47
+      - s-b51f37f378
+      - s-aaf469e1d9
+      - s-be41a30b90
+      - s-c2027bcab7
+      - s-adac6db19f
+    zh:
+      - s-56cb2d67d6
+      - s-8c2192d924
+      - s-4a642c9758
+      - s-b241b29b78
+      - s-c4b3aa7b58
+      - s-1c77c3a926
+      - s-729499d088
+      - s-53b2066bf3
+      - s-8889ccb1e8
+      - s-c7bb533686
+      - s-d91e44e427
+      - s-d7fc7fe3b7
+      - s-5e556562f6
+      - s-392ea0a193
+      - s-309b705a70

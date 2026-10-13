@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus rhodopus
+  displayName: Rhacophorus rhodopus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXK9
+  sourceIndexes:
+    - name:
+        en: Rhacophorus rhodopus
+        zh: Rhacophorus rhodopus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXK9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/253
+            queryName: Rhacophorus rhodopus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/328
+            queryName: Rhacophorus namdaphaensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4109b40106
+      - s-d5b5db7949
+      - s-d9b9bbe2a2
+      - s-fd6980a41a
+      - s-c9d8181ff7
+      - s-6e4cea7e85
+      - s-87f08af943
+      - s-b7bfe75e29
+      - s-410c8d13e2
+      - s-a73dc32751
+    zh:
+      - s-34daec38a9
+      - s-baa43e36de
+      - s-de443106cb
+      - s-df2c67efb1
+      - s-83ca33510d
+      - s-9f95f44d11
+      - s-3bca1e15bc
+      - s-9bf33d53ee
+      - s-efffbddb6e
+      - s-ded61f3b85

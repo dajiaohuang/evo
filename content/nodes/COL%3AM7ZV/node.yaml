@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana paranaiba
+  displayName: Boana paranaiba
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7ZV
+  sourceIndexes:
+    - name:
+        en: Boana paranaiba
+        zh: Boana paranaiba
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7ZV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/12
+            queryName: Boana paranaiba
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/365
+            queryName: Hypsiboas paranaiba
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2dd10573d
+      - s-068f567996
+      - s-9bf2cc5285
+      - s-443b5fd40d
+      - s-651e2d4814
+      - s-eea6681640
+      - s-21f029c652
+      - s-b8132b9070
+      - s-c4b80263b3
+      - s-3b46483719
+    zh:
+      - s-35e1f6a366
+      - s-c7ace3e7ca
+      - s-e2d5bb1c9f
+      - s-d934627466
+      - s-6354eaf84c
+      - s-d89d7edbf1
+      - s-cfe63c1be8
+      - s-a912f16462
+      - s-5c3f80bd43
+      - s-3c77b117a5

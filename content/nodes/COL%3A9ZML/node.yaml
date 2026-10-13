@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera engelsi
+  displayName: Adenomera engelsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZML
+  sourceIndexes:
+    - name:
+        en: Adenomera engelsi
+        zh: Adenomera engelsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZML
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/34
+            queryName: Adenomera engelsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/189
+            queryName: Leptodactylus engelsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-100b6977ba
+      - s-02e8eca3d0
+      - s-71f640de94
+      - s-bad3e7a02b
+      - s-fcb20e626a
+      - s-7b1758ba32
+      - s-a97a885c7b
+      - s-78ca5d0f34
+      - s-7bbb21ac59
+      - s-30efc606b8
+      - s-b5e436c84b
+    zh:
+      - s-6578b09770
+      - s-ccd24a07cf
+      - s-ad71aba9c3
+      - s-e1a81b43e2
+      - s-9fc6dbe6ab
+      - s-04f8d12b12
+      - s-faf394e50d
+      - s-23632060a5
+      - s-5206d750e7
+      - s-1d4d8c775a
+      - s-d7a19d4dd3

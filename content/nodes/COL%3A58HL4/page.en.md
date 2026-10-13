@@ -1,0 +1,3 @@
+## Pausing when food is present in culture {#s-a3658aa3cb}
+In laboratory observations on a glass surface, 90% of Trichoplax seen with microalgae present (n=30) paused within the first 17 minutes, compared with 22% without food (n=76). Over the observation periods, animals with food spent an average 39% of the time paused (12 animals; 5.8 hours total), versus 2.6% without food (65 animals; 33.5 hours total). The food was the microalga Rhodamonas salina. These measurements describe one laboratory culture under the reported food conditions; they do not estimate wild feeding behavior, geographic or seasonal variation, or species-wide rates.
+

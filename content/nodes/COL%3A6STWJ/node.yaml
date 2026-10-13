@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne alticola
+  displayName: Oreophryne alticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6STWJ
+  sourceIndexes:
+    - name:
+        en: Oreophryne alticola
+        zh: Oreophryne alticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6STWJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/236
+            queryName: Oreophryne alticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-954afe07fc
+      - s-4700062eb8
+      - s-05ddafc88c
+      - s-2a6059967a
+      - s-db8579e47a
+      - s-2e98de29eb
+      - s-c23012b869
+      - s-3c0587db63
+      - s-5d9da0bc67
+    zh:
+      - s-c566d4ab93
+      - s-c755088fa4
+      - s-1a3d7df382
+      - s-b022bf4cc6
+      - s-448e4338d7
+      - s-92c65ffbbf
+      - s-d92ad3e680
+      - s-7fc479d5db
+      - s-1f0f8ab008

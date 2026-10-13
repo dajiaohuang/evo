@@ -1,0 +1,42 @@
+## Name and classification in COL26.8 {#s-cd3cca56f5}
+The 20 August 2026 COL26.8 release accepts Leptobrachium sylheticum Al-Razi, Maria & Poyarkov, 2021 as a species. Its recorded placement is Anura (order) → Megophryidae (family) → Leptobrachium (genus). This identifies the catalogue name and classification; biological observations below retain the scope of their own sources.
+
+## What the record shows {#s-99c10019d1}
+The sections below pair the catalogue identity with selected observations from named studies and datasets. Each observation belongs to the taxon concept, specimens and method described by its source; a shared name alone does not make it a species-wide result.
+
+## The revised diagnosis combines eye colour and small webbing {#s-da7a060c4d}
+Males are reported at 50.2–60.9 mm snout–vent length (measured from the tip of the snout to the vent), with a head nearly as long as wide, shagreened to sparsely granular dorsal skin, large axillary glands (glands at the forelimb-body junction) and a canthal stripe (a stripe along the ridge from snout to eye). Toe webbing reaches the first subarticular tubercle (a raised pad beneath a toe joint) beside toe IV. The iris is black below and fire-red in its upper third, with bright blue sclera (the outer white of the eye); brown dorsal blotches and variable blue-tinged, reticulated ventral colour contribute to the combination. The source also includes skull characters, but these external features are not a substitute for the full comparative diagnosis or proof that every red-and-blue-eyed frog has this identity. The cited account gives no female measurement range.
+
+## The sampled clade includes aryatium as its sister species {#s-b39dff2e5f}
+Sylheticum and aryatium form a supported mitochondrial clade (a group supported by mitochondrial DNA), sister to the sampled smithi–rakhinense clade in this revision. The reported 16S comparisons are 1.8–2.5% to aryatium, 2.8–5.2% to smithi and 4.4–4.9% to rakhinense. The relationship describes the analysed mitochondrial dataset and does not independently certify all current catalogue concepts, nuclear-gene histories or every geographically adjacent population. Tentative older smithi assignments in the distribution discussion remain separate from sequenced sylheticum records.
+
+## Call and pulse timings contain a source inconsistency {#s-11b7d943a6}
+Mawlynnong recordings were made at 19:30–20:00 on 29 June 2023, at dry/wet bulb temperatures 24/23.5 °C, from males under wet leaf litter near a stream. Groups contained two to six calls; the source gives group duration 739.5 ms and a typical individual call duration 136.8 ms. Calls had 19–32 pulses, reported rate 165.2 ± 18.3 pulses/s and mean dominant frequency (the frequency with the strongest call energy) 1.41 ± 0.03 kHz, range 1.34–1.46. The maximum-amplitude pulse is printed as 7.4 ms long but with rise time 74.7 ms, longer than the pulse itself; that value is not silently repaired or used as a valid pulse measurement. Counts of calls and pulses are not counts of independent males.
+
+## Terminology limits comparison with the original call description {#s-81a776498c}
+The authors compare only dominant frequency and pulse rate directly with the 2021 original description because terminology differs between studies. Their mean frequency is 1.41 kHz versus the earlier 1.6 kHz, with ranges 1.34–1.46 versus 1.4–1.9 kHz; those ranges overlap partly, rather than the whole new range falling inside the old range as the source wording suggests. Mean pulse rate is 165.2 versus 124.8 pulses/s, with reported new and old ranges 150.6–197.2 and 64.4–208.3. These comparisons are not an evolutionary trend, controlled temperature effect or permission to equate differently named call/group units.
+
+## Confirmed records remain separate from proposed nearby assignments {#s-2daf52e2d4}
+The source reports Bangladesh records from Lawachara and the Sylhet hills and Chittagong Hill Tracts, and genetically confirmed Indian records from Mawlynnong, Manipur, Mizoram and Tripura. Southern Assam records formerly called smithi are proposed as likely sylheticum on geography, and occurrence in Nagaland is only predicted. Neither is promoted to genetic confirmation. The source summarizes roughly 50–600 m elevation and forest types from evergreen to mixed deciduous, with calling males hidden under stream-bank litter at 19:30–23:00 during breeding activity. These observations do not demonstrate continuous occupancy, universal calling times or deposited egg sites.
+
+## catalogue-profile / limitations {#s-c2824c7a4f}
+The observations on this page are bounded by the named sources, taxon concepts, specimens and methods. They are not a complete account of every member of the accepted taxon.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-99651c1850}
+Males are reported at 50.2–60.9 mm snout–vent length, with a head nearly as long as wide, shagreened to sparsely granular dorsal skin, large axillary glands and a canthal stripe. Toe webbing reaches the first subarticular tubercle beside toe IV. The iris is black below and fire-red in its upper third, with bright blue sclera; brown dorsal blotches and variable blue-tinged, reticulated ventral colour contribute to the combination. The source also includes skull characters, but these external features are not a substitute for the full comparative diagnosis or proof that every red-and-blue-eyed frog has this identity. No female range is established by this paragraph.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-525c6e5481}
+Sylheticum and aryatium form a supported mitochondrial clade, sister to the sampled smithi–rakhinense clade in this revision. The reported 16S comparisons are 1.8–2.5% to aryatium, 2.8–5.2% to smithi and 4.4–4.9% to rakhinense. The relationship describes the analysed mitochondrial dataset and does not independently certify all current catalogue concepts, nuclear-gene histories or every geographically adjacent population. Tentative older smithi assignments in the distribution discussion remain separate from sequenced sylheticum records.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-55ace087f1}
+Mawlynnong recordings were made at 19:30–20:00 on 29 June 2023, at dry/wet bulb temperatures 24/23.5 °C, from males under wet leaf litter near a stream. Groups contained two to six calls; the source gives group duration 739.5 ms and a typical individual call duration 136.8 ms. Calls had 19–32 pulses, reported rate 165.2 ± 18.3 pulses/s and mean dominant frequency 1.41 ± 0.03 kHz, range 1.34–1.46. The maximum-amplitude pulse is printed as 7.4 ms long but with rise time 74.7 ms, longer than the pulse itself; that value is not silently repaired or used as a valid pulse measurement. Counts of calls and pulses are not counts of independent males.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-7113d3de86}
+The authors compare only dominant frequency and pulse rate directly with the 2021 original description because terminology differs between studies. Their mean frequency is 1.41 kHz versus the earlier 1.6 kHz, with ranges 1.34–1.46 versus 1.4–1.9 kHz; those ranges overlap partly, rather than the whole new range falling inside the old range as the source wording suggests. Mean pulse rate is 165.2 versus 124.8 pulses/s, with reported new and old ranges 150.6–197.2 and 64.4–208.3. These comparisons are not an evolutionary trend, controlled temperature effect or permission to equate differently named call/group units.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-ed786c6a1c}
+The source reports Bangladesh records from Lawachara and the Sylhet hills and Chittagong Hill Tracts, and genetically confirmed Indian records from Mawlynnong, Manipur, Mizoram and Tripura. Southern Assam records formerly called smithi are proposed as likely sylheticum on geography, and occurrence in Nagaland is only predicted. Neither is promoted to genetic confirmation. The source summarizes roughly 50–600 m elevation and forest types from evergreen to mixed deciduous, with calling males hidden under stream-bank litter at 19:30–23:00 during breeding activity. These observations do not demonstrate continuous occupancy, universal calling times or deposited egg sites.
+
+## Research text pending {#s-023f80f767}
+This page presents selected observations rather than a complete species account. Read each result within the taxon concept, sample and method named by its source.
+

@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:135928
+    scientificName: Morotopithecus bishopi
+    commonName: Moroto postcranial sample
+    commonNameZh: 莫罗古猿姿势骨骼样本
+    rank: genus
+    parentName: Hominoidea
+    extinct: true
+    geography:
+      - Moroto I
+      - Moroto II
+      - Karamoja District, Uganda
+    overview:
+      page: en
+      section: s-1e886fad2c
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-0346aa9be9
+        part: body
+      habitat:
+        page: en
+        section: s-6637423c5a
+        part: body
+      locomotion:
+        page: en
+        section: s-9f04f1f812
+        part: body
+      bodySize:
+        page: en
+        section: s-3ef2f3c9dc
+        part: body
+      guild:
+        page: en
+        section: s-01c4592368
+        part: body
+      dietZh:
+        page: zh
+        section: zh-8edbcb43380499
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-f212f734988d2b
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-2ef1906fafb6fd
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-37233f9153eed8
+        part: body
+      guildZh:
+        page: zh
+        section: zh-105dde6669e947
+        part: body
+    traits:
+      - page: en
+        section: s-eac7425286
+        part: body
+      - page: en
+        section: s-c47a554074
+        part: body
+      - page: en
+        section: s-9ab791b8ea
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-2d53929e70
+      part: body
+    confidence: medium
+    referenceIds:
+      - maclatchy-2000-morotopithecus
+    readerSections:
+      - id: two-localities-two-bones
+        title:
+          en:
+            page: en
+            section: s-6f279e3269
+            part: title
+          zh:
+            page: zh
+            section: s-96838f6da0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6f279e3269
+            part: body
+          zh:
+            page: zh
+            section: s-96838f6da0
+            part: body
+        sourceIds:
+          - maclatchy-2000-morotopithecus
+      - id: locomotor-reconstruction
+        title:
+          en:
+            page: en
+            section: s-592da12ab5
+            part: title
+          zh:
+            page: zh
+            section: s-b1e36d505b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-592da12ab5
+            part: body
+          zh:
+            page: zh
+            section: s-b1e36d505b
+            part: body
+        sourceIds:
+          - maclatchy-2000-morotopithecus
+      - id: species-and-ancestry-limits
+        title:
+          en:
+            page: en
+            section: s-e08040cf40
+            part: title
+          zh:
+            page: zh
+            section: s-c13def08ac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e08040cf40
+            part: body
+          zh:
+            page: zh
+            section: s-c13def08ac
+            part: body
+        sourceIds:
+          - maclatchy-2000-morotopithecus
+    readerSources:
+      - id: maclatchy-2000-morotopithecus
+        referenceId: maclatchy-2000-morotopithecus
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Comparative analysis of separate shoulder and femoral specimens from Moroto I and II; functional reconstruction is specimen bounded.
+            zh: 比较 Moroto I、II 的分离肩部与股骨标本；功能重建受具体标本范围限制。
+    readerLimitations:
+      en:
+        page: en
+        section: s-582a2e1fde
+        part: body
+      zh:
+        page: zh
+        section: s-87c3f06f98
+        part: body
+    overviewZh:
+      page: zh
+      section: zh-51eb2fe4f4d7d1
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-44596c300439fc
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-4771e7093d2863
+        part: body
+      - page: zh
+        section: zh-70bb1066105f16
+        part: body
+      - page: zh
+        section: zh-00205d13118ba8
+        part: body
+  claims:
+    - subjectId: taxon:morotopithecus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Morotopithecus is bounded by separate Moroto I and II postcranial specimens MUZM 60 and MUZM 80 in an approximately 21–20.6 Ma locality interval; they are not one skeleton, and locomotor or crown-hominoid placement remains comparative.
+      confidence: medium
+      confidenceRationale: Named specimens and localities are direct evidence. The statement preserves non-association and functional/topological uncertainty.
+      referenceLinks:
+        - relation: supports
+          referenceId: maclatchy-2000-morotopithecus
+          pages: 159–183
+          figure: Figures 1–12
+          quoteLocator: Specimen descriptions; locality context; functional comparisons
+    - subjectId: taxon:morotopithecus
+      claimType: taxonomy
+      claimKind: scientific
+      statement: MacLatchy and colleagues attribute the separately described Moroto postcranial specimens MUZM 60 and MUZM 80 to Morotopithecus bishopi for functional comparison, without making them an associated skeleton or a demonstrated direct crown-hominoid ancestor.
+      confidence: medium
+      confidenceRationale: The paper names and compares the specimens, while their attribution, association and higher-level evolutionary implications remain separate comparative inferences.
+      referenceLinks:
+        - referenceId: maclatchy-2000-morotopithecus
+          relation: supports
+          pages: 159–183
+          figure: Figures 1–12; Tables 1–10
+          quoteLocator: Specimen descriptions, attribution and functional-comparative discussion of MUZM 60 and MUZM 80
+    - subjectId: taxon:morotopithecus
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profiled Morotopithecus material is bounded to Moroto I and Moroto II in Uganda's Karamoja District; the two locality records do not demonstrate a species-wide distribution or an ape dispersal route.
+      confidence: high
+      confidenceRationale: Named specimens and locality context are directly reported in the primary study, whereas distribution beyond those sampled localities is not observed.
+      referenceLinks:
+        - referenceId: maclatchy-2000-morotopithecus
+          relation: supports
+          pages: 159–183
+          figure: Figures 1–2
+          quoteLocator: Discovery and geochronology; Moroto I and Moroto II locality context for MUZM 60 and MUZM 80
+    - subjectId: taxon:morotopithecus
+      claimType: ecology
+      claimKind: scientific
+      statement: Comparative functional analysis of the separate Moroto shoulder and femoral specimens supports a mixed arboreal locomotor interpretation, while diet, habitual habitat and ecological guild are not directly observed.
+      confidence: medium
+      confidenceRationale: Detailed functional comparisons support the locomotor inference, but fossils do not observe behaviour, diet or a complete ecological niche and the specimens are not associated.
+      referenceLinks:
+        - referenceId: maclatchy-2000-morotopithecus
+          relation: supports
+          pages: 159–183
+          figure: Figures 3–12; Tables 1–10
+          quoteLocator: Shoulder and femoral functional comparisons; discussion of locomotor implications
+    - subjectId: taxon:morotopithecus
+      claimType: morphology
+      claimKind: scientific
+      statement: MUZM 60 and MUZM 80 preserve separate shoulder and femoral anatomies described and measured in the Moroto study; the material is not one complete skeleton.
+      confidence: high
+      confidenceRationale: The paper directly figures, measures and compares the two postcranial specimens, with the non-association limiting whole-body reconstruction.
+      referenceLinks:
+        - referenceId: maclatchy-2000-morotopithecus
+          relation: supports
+          pages: 159–183
+          figure: Figures 3–12; Tables 1–10
+          quoteLocator: Morphological descriptions and measurements of the separate shoulder and femoral material
+  claim-rationales.zh:
+    - 具名标本与地点属于直接证据；表述保留非关联性及功能、拓扑不确定性。
+    - 论文对具名标本进行归属和比较，但其归属、关联关系及更高阶演化含义仍是彼此独立的比较推断。
+    - 具名标本与地点背景由一手论文直接报告，而超出这些取样地点的分布并未被观察到。
+    - 细致的功能比较支持运动方式推断，但化石不能直接观察行为、食性或完整生态位，且两件标本并不关联。
+    - 论文直接绘图、测量并比较两件姿势骨骼标本；二者不关联限制了对完整身体的重建。
+  claim-statements.zh:
+    - Morotopithecus 由 Moroto I 与 II 的两件独立头后标本 MUZM 60 和 MUZM 80 约束，处于约 2100 万—2060 万年前的地点区间；它们并非同一骨架，运动方式或冠群猿类位置仍属比较推断。
+    - MacLatchy 及同事将分别描述的莫罗姿势骨骼标本 MUZM 60 和 MUZM 80 归于莫罗古猿，用于功能比较；它们并非关联骨架，也未被证明是类人猿冠群的直接祖先。
+    - 档案中的莫罗古猿材料限定于乌干达卡拉莫贾区的 Moroto I 和 Moroto II；这两处地点记录并不能证明物种整体分布或类人猿扩散路线。
+    - 对分别出土的莫罗肩部和股骨标本所作的比较功能分析支持混合树栖运动方式解释，而食性、惯常栖息地和生态类群均未被直接观察到。
+    - MUZM 60 和 MUZM 80 保存了莫罗研究中描述和测量的、彼此独立的肩部与股骨解剖结构；这些材料并非一具完整骨架。
+  ranges:
+    - entityId: morotopithecus
+      rangeKind: global-composite
+      taxonomicConcept: Morotopithecus Moroto postcranial model occurrence
+      geographicScope: Moroto I and Moroto II, Karamoja District, Uganda
+      olderMa: 21
+      youngerMa: 20.6
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The two specimens are not one skeleton, their attribution is locality-comparative, and vertical climbing, suspension and crown-hominoid affinity are functional or phylogenetic interpretations.
+      evidenceBasis: Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:morotopithecus-moroto-postcranial-model
+      referenceLocators:
+        - referenceId: maclatchy-2000-morotopithecus
+          locator: 159–183; Figures 1–12; Tables 1–10

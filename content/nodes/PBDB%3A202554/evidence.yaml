@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Parotosuchus speleus
+    rank: species
+    sourceTaxonId: txn:202554
+    name:
+      en: Parotosuchus speleus
+      zh: Parotosuchus speleus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-c237865695
+            part: body
+          zh:
+            page: zh
+            section: s-0e23e46225
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-669a081456
+            part: body
+          zh:
+            page: zh
+            section: s-f4fe5ba2dc
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-c24d81ede0
+            part: body
+          zh:
+            page: zh
+            section: s-60bae0a2eb
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:202554; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: M. A. Shishkin and T. Sulej. 2009. The Early Triassic temnospondyls of the Czatkowice 1 tetrapod assemblage. Palaeontologia Polonica 65:31-77
+    occurrenceEvidence:
+      - occurrenceId: occ:401598
+        collectionId: col:38528
+        acceptedTaxonId: txn:202554
+        identifiedName: Parotosuchus speleus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:38008
+        bibliography: M. A. Shishkin and T. Sulej. 2009. The Early Triassic temnospondyls of the Czatkowice 1 tetrapod assemblage. Palaeontologia Polonica 65:31-77
+        locality:
+          countryCode: PL
+          stateProvince: Malopolskie
+          county: Krakowski
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 250.8
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-c24d81ede0
+            part: body
+          zh:
+            page: zh
+            section: s-60bae0a2eb
+            part: body
+        sourceIds: []

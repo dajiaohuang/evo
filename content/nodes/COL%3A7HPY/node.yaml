@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Siphonops
+  displayName: Siphonops
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7HPY
+  sourceIndexes:
+    - name:
+        en: Siphonops
+        zh: Siphonops
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7HPY
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/266
+            queryName: Siphonops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 137
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-502feb08fb
+      - s-cd9c230e0b
+      - s-c14fb8a344
+      - s-8486d67c57
+      - s-eedc820523
+      - s-e23cb0b931
+      - s-8868d3377a
+      - s-1a05b44013
+      - s-51e3b28212
+      - s-8515e9291e
+      - s-99a12c7630
+      - s-33f097a2f2
+      - s-38d9b97443
+    zh:
+      - s-e5ab6e6e24
+      - s-2bf032f506
+      - s-fb5b86da3f
+      - s-88161ee0a1
+      - s-616df5e739
+      - s-7243983b7e
+      - s-22949ca1c4
+      - s-53d076ed8f
+      - s-1367b51664
+      - s-a00d344419
+      - s-53c99060ea
+      - s-52d212262b
+      - s-47925e686b

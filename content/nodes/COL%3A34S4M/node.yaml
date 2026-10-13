@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus bipunctatus
+  displayName: Dendropsophus bipunctatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4M
+  sourceIndexes:
+    - name:
+        en: Dendropsophus bipunctatus
+        zh: Dendropsophus bipunctatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/343
+            queryName: Dendropsophus bipunctatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/275
+            queryName: Hyla bipunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/357
+            queryName: Scinax bipunctatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/358
+            queryName: Hyla capistrata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/359
+            queryName: Hyla pumila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/360
+            queryName: Hylella tenera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/361
+            queryName: Scinax bipunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/362
+            queryName: Hyla tenera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/429
+            queryName: Hyla bipunctata bipunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f2613f5fa5
+      - s-64a9b2ceb5
+      - s-1d2c2f1b83
+      - s-1cc2d5c929
+      - s-593667fe7e
+      - s-98c347c488
+      - s-14870c558a
+      - s-5e8e0a548f
+      - s-fbb18e3959
+      - s-2162302377
+      - s-0b7b38dd45
+      - s-913056b70a
+      - s-b65c263d28
+      - s-9b4af1eac5
+      - s-e487176aff
+      - s-3596a26285
+    zh:
+      - s-fe9e2721f4
+      - s-28d5754f09
+      - s-00869d3b94
+      - s-9c7cf9b7e0
+      - s-796301ae3d
+      - s-cb2f0112ec
+      - s-e9bdeeb3a7
+      - s-905fcd4d70
+      - s-68e9c5132d
+      - s-af873ada23
+      - s-0100fbe6d4
+      - s-f7d1560d9e
+      - s-8a4fe415a0
+      - s-91f1d042de
+      - s-faa09e1268
+      - s-8ab7cc0cf2

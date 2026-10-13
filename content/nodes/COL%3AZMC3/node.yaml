@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus grandis
+  displayName: Crossodactylus grandis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMC3
+  sourceIndexes:
+    - name:
+        en: Crossodactylus grandis
+        zh: Crossodactylus grandis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMC3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/231
+            queryName: Crossodactylus grandis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/208
+            queryName: Crossodactylus dispar grandis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6da8882cc4
+      - s-59dec6062c
+      - s-3611248bfa
+      - s-4c25ad8ea5
+      - s-83d17509a6
+      - s-68ecd61ae6
+      - s-4e86de2d90
+      - s-1b5037b850
+      - s-087442c971
+      - s-cdbc263362
+      - s-5772efc2e0
+      - s-effe08e985
+      - s-a682ecefd6
+      - s-a6a9faa3e7
+      - s-5525560f0a
+    zh:
+      - s-ae8b181647
+      - s-7ce91e75b0
+      - s-98f2d38440
+      - s-dd1fd13eb8
+      - s-e610d537cb
+      - s-7f12ff00ae
+      - s-d09dae055c
+      - s-e5d13f92d0
+      - s-859f2b4dbd
+      - s-e4e2bd5fe0
+      - s-68d0891af8
+      - s-cca0898f11
+      - s-27cfae0faa
+      - s-12dc477ce5
+      - s-f69b33aa8c

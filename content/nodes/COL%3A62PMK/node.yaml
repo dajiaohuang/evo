@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dermophis
+  displayName: Dermophis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62PMK
+  sourceIndexes:
+    - name:
+        en: Dermophis
+        zh: Dermophis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62PMK
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/349
+            queryName: Dermophis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 61
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b102853efb
+      - s-6468b768d0
+      - s-895b8ee576
+      - s-8d1e75aea0
+      - s-72402c123f
+      - s-5ee8506357
+    zh:
+      - s-60078df470
+      - s-3cfa4696b8
+      - s-ad5925c8a4
+      - s-cf16d24293
+      - s-6e0250eb86
+      - s-d4e9f092a2

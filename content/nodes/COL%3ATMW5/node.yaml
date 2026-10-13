@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Charadrahyla tecuani
+  displayName: Charadrahyla tecuani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TMW5
+  sourceIndexes:
+    - name:
+        en: Charadrahyla tecuani
+        zh: Charadrahyla tecuani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TMW5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/230
+            queryName: Charadrahyla tecuani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d20cd9a2d9
+      - s-4e7d5c1389
+      - s-c9891e2529
+      - s-e648ac47a8
+      - s-d7ef062e04
+      - s-b74039c333
+      - s-d4fa008477
+      - s-2c0fe9315c
+    zh:
+      - s-56640d729b
+      - s-7701fb1152
+      - s-d26cd7f240
+      - s-1787005785
+      - s-b2d4bfa7c9
+      - s-1428af55c2
+      - s-0a4a4e8d6a
+      - s-b9d41f0db7

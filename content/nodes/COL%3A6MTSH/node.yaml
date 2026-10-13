@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis glandulosus
+  displayName: Ichthyophis glandulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTSH
+  sourceIndexes:
+    - name:
+        en: Ichthyophis glandulosus
+        zh: Ichthyophis glandulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTSH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/400
+            queryName: Ichthyophis glandulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c5db2727b9
+      - s-9adc08f230
+      - s-bc47972994
+      - s-c165cf50f6
+      - s-bcbbf50352
+      - s-33811a5b3e
+      - s-351e0d1a1d
+      - s-c6bda0afb7
+      - s-760d11b5ba
+      - s-a2b3d838af
+      - s-46b7da0988
+      - s-25364454a9
+      - s-240beecf21
+    zh:
+      - s-7b5f25ede9
+      - s-e33a36bbc7
+      - s-4404587795
+      - s-cc7e2f0311
+      - s-f8ecf84020
+      - s-936eb5cf3a
+      - s-325d104558
+      - s-af2fab857b
+      - s-64eca4a12f
+      - s-343ca32d86
+      - s-7e678fa681
+      - s-c84b0b226b
+      - s-56b914f022

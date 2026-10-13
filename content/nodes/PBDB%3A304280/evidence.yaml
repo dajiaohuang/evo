@@ -1,0 +1,943 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hamipterus tianshanensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Hamipterus tianshanensis
+      en: Hamipterus tianshanensis
+    sections:
+      - topic: taxonomy
+        sourceIds:
+          - pegas2023SinopterusRevision
+          - naish2021HamipterusFlightDebate
+        text:
+          zh:
+            page: zh
+            section: s-36cdd92057
+            part: body
+          en:
+            page: en
+            section: s-d8dff89f0c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - naish2021HamipterusModelReadingRoute
+        text:
+          zh:
+            page: zh
+            section: s-7d174c12fb
+            part: body
+          en:
+            page: en
+            section: s-a43a8df996
+            part: body
+      - topic: overview
+        sourceIds:
+          - unwin2019HamipterusPrenatal
+          - naish2021HamipterusFlightDebate
+        text:
+          zh:
+            page: zh
+            section: s-ea1eee46c8
+            part: body
+          en:
+            page: en
+            section: s-853156f16d
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - unwin2019HamipterusPrenatal
+        text:
+          zh:
+            page: zh
+            section: s-f92b4d1365
+            part: body
+          en:
+            page: en
+            section: s-10c6a4a669
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+        text:
+          zh:
+            page: zh
+            section: s-026ab0e2d4
+            part: body
+          en:
+            page: en
+            section: s-21cafb3e1b
+            part: body
+      - topic: methods
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+        text:
+          zh:
+            page: zh
+            section: s-2deb94034a
+            part: body
+          en:
+            page: en
+            section: s-c3e0f54c83
+            part: body
+      - topic: methods
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+        text:
+          zh:
+            page: zh
+            section: s-1d26b74dfa
+            part: body
+          en:
+            page: en
+            section: s-71453ac8b6
+            part: body
+      - topic: behavior
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+        text:
+          zh:
+            page: zh
+            section: s-9f62d4d25e
+            part: body
+          en:
+            page: en
+            section: s-10a8d582cb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+        text:
+          zh:
+            page: zh
+            section: s-e66cb98699
+            part: body
+          en:
+            page: en
+            section: s-07cda67154
+            part: body
+      - topic: morphology
+        sourceIds:
+          - chen2024HamipterusPalate
+        text:
+          zh:
+            page: zh
+            section: s-901b3ba5a9
+            part: body
+          en:
+            page: en
+            section: s-0d1cf1ce38
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+          - naish2021HatchlingFlightCorrection
+          - chen2024HamipterusPalate
+        text:
+          zh:
+            page: zh
+            section: s-2020eef475
+            part: body
+          en:
+            page: en
+            section: s-2e012e6bd3
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ebdb1cf3cf
+            part: body
+          en:
+            page: en
+            section: s-f7cc5f8df8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-81f01ff1c9
+            part: body
+          en:
+            page: en
+            section: s-5ef8b74a32
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cdb76b6848
+            part: body
+          en:
+            page: en
+            section: s-015357e0fb
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0b141ed281
+            part: body
+          en:
+            page: en
+            section: s-d39ed7caa3
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-91f76ca6b5
+            part: body
+          en:
+            page: en
+            section: s-9e33546848
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Hamipterus tianshanensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=304280&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:304280; original response record indices retained in data/sources/pterosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: bae4c11926f8cde7bd7b1b7418d63b8ba856066f5005a9181b8bdf8dcb047035
+          pbdbTaxonId: txn:304280
+          selectedOccurrenceIds:
+            - occ:1225230
+            - occ:1569367
+          selectedCollectionIds:
+            - col:58103
+            - col:221560
+          sourceReferenceIds:
+            - ref:52468
+            - ref:77626
+          originalIdentificationMappings:
+            - occurrenceId: occ:1225230
+              originalIdentifiedName: Hamipterus tianshanensis n. gen. n. sp.
+              acceptedName: Hamipterus tianshanensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Recorded PBDB accepted identity and parent chain
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=304280&show=parent,app,attr
+          locator: P5-42 retained accepted hierarchy; oid txn:304280; ancestry below the documented Pterosauria anchor.
+          accessedAt: 2026-10-02
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: unwin2019HamipterusPrenatal
+        referenceId: ref-a206324b-f18d-4639-b0a1-48d9e615fd06
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - publishedOnline
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Prenatal development in pterosaurs and its implications for their postnatal locomotory ability
+          url: https://doi.org/10.1098/rspb.2019.0409
+          accessedAt: 2026-10-03
+          locator: "Official PMC full HTML: front authors, publication date and rights statement; all four scientific main sections Introduction, Material and methods, Results and Discussion, including textual figure captions. Supplementary tables, figures, original 2014/2017 descriptions and raw specimens not inspected. Public reader use limited to a concise independent summary of developmental inference."
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+      - id: naish2021HamipterusFlightDebate
+        referenceId: ref-bd571ca5-15db-43e1-8678-cd07f4dd0b0a
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - publishedOnline
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "Powered flight in hatchling pterosaurs: evidence from wing form and bone strength"
+          url: https://doi.org/10.1038/s41598-021-92499-z
+          accessedAt: 2026-10-03
+          locator: "Official Europe PMC XML: metadata; all five scientific main sections Introduction, Methods including taxon sampling, glide and bone-strength assumptions and Table 1, Results including Table 2, complete Discussion and Conclusions. Corrected main text; images, raw specimens, supplemental data and independent model calculations not inspected."
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+      - id: naish2021HatchlingFlightCorrection
+        referenceId: ref-28e7307b-0c0f-4812-ad43-da82ac52f727
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - publishedOnline
+          - url
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "Author Correction: Powered flight in hatchling pterosaurs: evidence from wing form and bone strength"
+          url: https://doi.org/10.1038/s41598-021-96190-1
+          accessedAt: 2026-10-03
+          locator: "Official Europe PMC XML: entire front and correction body. Two citation-number corrections from reference 12 to 13; no numerical model change stated."
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+      - id: chen2024HamipterusPalate
+        referenceId: ref-fc799d8a-ffe6-48e8-9b58-ac9ceff2c059
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - publishedOnline
+          - url
+          - accessedAt
+          - locator
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          title: "New insights into pterosaur cranial anatomy: X-ray imaging reveals palatal structure and evolutionary trends"
+          url: https://doi.org/10.1038/s42003-024-06132-6
+          accessedAt: 2026-10-03
+          locator: "Official Europe PMC XML actually read in P5-93: all seven scientific main sections and Table 1, including CT of IVPP V 18943.3 and comparison with V 18943.1. Figure pixels and raw scans not inspected."
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+          readingTargets:
+            - name: Dsungaripterus weii
+              pbdbTaxonId: txn:100403
+              canonicalPath: content/nodes/PBDB%3A100403
+      - id: naish2021HamipterusModelReadingRoute
+        referenceId: ref-bd571ca5-15db-43e1-8678-cd07f4dd0b0a
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - publishedOnline
+          - url
+          - accessedAt
+          - locator
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          title: "Powered flight in hatchling pterosaurs: evidence from wing form and bone strength"
+          url: https://doi.org/10.1038/s41598-021-92499-z
+          accessedAt: 2026-10-03
+          locator: Same 2021 primary study read in P5-96 and methods/results reread in P5-97; reciprocal route to Pterodaustro model subjects, not new Hamipterus quantitative data.
+          scope:
+            zh: Pterodaustro 幼体滑翔与肱骨弯曲模型及跨标本输入；成长生态与照料保留推断。
+            en: Pterodaustro hatchling gliding and humeral bending models with composite inputs; growth ecology and care remain inferential.
+          readingTargets:
+            - name: Pterodaustro guinazui
+              pbdbTaxonId: txn:156857
+              canonicalPath: content/nodes/PBDB%3A156857
+            - name: Hamipterus tianshanensis
+              pbdbTaxonId: txn:304280
+              canonicalPath: content/nodes/PBDB%3A304280
+      - id: pegas2023SinopterusRevision
+        referenceId: ref-5d4a1ef9-93fe-475f-a41c-308ebbf8e424
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - publishedOnline
+          - url
+          - accessedAt
+          - locator
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          title: A taxonomic revision of the Sinopterus complex (Pterosauria, Tapejaridae) from the Early Cretaceous Jehol Biota, with the new genus Huaxiadraco
+          url: https://doi.org/10.7717/peerj.14829
+          accessedAt: 2026-10-03
+          locator: "Official Europe PMC XML: front author group (five authors, editor excluded), date and CC BY 4.0; complete Introduction; Methods through Nomenclatural acts (phylogenetic nomenclature not read); full IVPP V 13363 and BPV-077 accounts; SMA, multivariate and Kruskal-Wallis results; full species-level interpretations with Tables 4–5, crest interpretation and taxonomy, Nemicolopterus comments, phylogenetic results, Systematic Paleontology and Conclusions. Other specimen accounts, detailed anatomical-variation discussion, Eopteranodon comments, figure pixels, supplementary datasets and independent reanalysis not read."
+          scope:
+            zh: 2023 年修订的正模、成长、形态组合、异名与幼体鉴定边界；固定目录身份单独保留。
+            en: Holotypes, growth, anatomical combinations, synonymy and juvenile-identification limits in the 2023 revision; fixed catalogue identity remains separate.
+          readingTargets:
+            - name: Sinopterus dongi
+              pbdbTaxonId: txn:138765
+              canonicalPath: content/nodes/PBDB%3A138765
+            - name: Sinopterus gui
+              pbdbTaxonId: txn:138766
+              canonicalPath: content/nodes/PBDB%3A138766
+            - name: Hamipterus tianshanensis
+              pbdbTaxonId: txn:304280
+              canonicalPath: content/nodes/PBDB%3A304280
+            - name: Pterodaustro guinazui
+              pbdbTaxonId: txn:156857
+              canonicalPath: content/nodes/PBDB%3A156857
+    limitations:
+      zh:
+        page: zh
+        section: s-40a8b0cbcc
+        part: body
+      en:
+        page: en
+        section: s-4e149d6687
+        part: body
+  atlas-profile:
+    pbdbTaxonId: txn:304280
+    scientificName: Hamipterus tianshanensis
+    commonName: Hamipterus tianshanensis
+    commonNameZh: Hamipterus tianshanensis
+    rank: species
+    parentName: Hamipterus
+    extinct: true
+    geography: []
+    overview:
+      page: en
+      section: s-853156f16d
+      part: body
+    ecology:
+      diet: Not assessed from occurrence counts or depositional setting.
+      habitat: Collection environments are not a species-wide habitat assessment.
+      locomotion: Not independently assessed.
+      bodySize: Not assessed from this occurrence batch.
+      guild: Not assessed.
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-4e149d6687
+      part: body
+    confidence: low
+    referenceIds:
+      - ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+      - ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+      - ref-a206324b-f18d-4639-b0a1-48d9e615fd06
+      - ref-bd571ca5-15db-43e1-8678-cd07f4dd0b0a
+      - ref-28e7307b-0c0f-4812-ad43-da82ac52f727
+      - ref-fc799d8a-ffe6-48e8-9b58-ac9ceff2c059
+      - ref-5d4a1ef9-93fe-475f-a41c-308ebbf8e424
+    readerSections:
+      - id: sinopterus-revision-reader-0
+        title:
+          zh: 比较飞行模型时保留幼体鉴定分歧
+          en: Retain juvenile-identification differences when comparing flight models
+        text:
+          zh:
+            page: zh
+            section: s-36cdd92057
+            part: body
+          en:
+            page: en
+            section: s-d8dff89f0c
+            part: body
+        sourceIds:
+          - pegas2023SinopterusRevision
+          - naish2021HamipterusFlightDebate
+      - id: pterodaustro-flight-reader-0
+        title:
+          zh: 回到实际采用的幼体模型
+          en: Return to the hatchlings actually modeled
+        text:
+          zh:
+            page: zh
+            section: s-7d174c12fb
+            part: body
+          en:
+            page: en
+            section: s-a43a8df996
+            part: body
+        sourceIds:
+          - naish2021HamipterusModelReadingRoute
+      - id: hamipterus-reader-0
+        title:
+          zh: 蛋与胚胎让成长问题可以分开提问
+          en: Eggs and embryos separate developmental questions
+        text:
+          zh:
+            page: zh
+            section: s-ea1eee46c8
+            part: body
+          en:
+            page: en
+            section: s-853156f16d
+            part: body
+        sourceIds:
+          - unwin2019HamipterusPrenatal
+          - naish2021HamipterusFlightDebate
+      - id: hamipterus-reader-1
+        title:
+          zh: 胚胎分期改变对弱骨化的解释
+          en: Embryonic staging changes the meaning of poor ossification
+        text:
+          zh:
+            page: zh
+            section: s-f92b4d1365
+            part: body
+          en:
+            page: en
+            section: s-10c6a4a669
+            part: body
+        sourceIds:
+          - unwin2019HamipterusPrenatal
+      - id: hamipterus-reader-2
+        title:
+          zh: 肱骨冠小不能单独证明幼体不会飞
+          en: A small humeral crest alone does not prove flightlessness
+        text:
+          zh:
+            page: zh
+            section: s-026ab0e2d4
+            part: body
+          en:
+            page: en
+            section: s-21cafb3e1b
+            part: body
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+      - id: hamipterus-reader-3
+        title:
+          zh: 定量飞行模型主要采用另外两个类群
+          en: The quantitative models primarily use two other taxa
+        text:
+          zh:
+            page: zh
+            section: s-2deb94034a
+            part: body
+          en:
+            page: en
+            section: s-c3e0f54c83
+            part: body
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+      - id: hamipterus-reader-4
+        title:
+          zh: 骨强度模型仍依赖材料与保存假设
+          en: Bone-strength models retain material and preservation assumptions
+        text:
+          zh:
+            page: zh
+            section: s-1d26b74dfa
+            part: body
+          en:
+            page: en
+            section: s-71453ac8b6
+            part: body
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+      - id: hamipterus-reader-5
+        title:
+          zh: 能早飞与接受亲代照料可以同时成立
+          en: Early flight and parental care can coexist
+        text:
+          zh:
+            page: zh
+            section: s-9f62d4d25e
+            part: body
+          en:
+            page: en
+            section: s-10a8d582cb
+            part: body
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+      - id: hamipterus-reader-6
+        title:
+          zh: 成长中的飞行差异不是已知的完整生态史
+          en: Flight changes during growth do not establish a complete ecology
+        text:
+          zh:
+            page: zh
+            section: s-e66cb98699
+            part: body
+          en:
+            page: en
+            section: s-07cda67154
+            part: body
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+      - id: hamipterus-reader-7
+        title:
+          zh: 腭部扫描揭示的是融合后的骨结构
+          en: Palatal scans examine fused bone architecture
+        text:
+          zh:
+            page: zh
+            section: s-901b3ba5a9
+            part: body
+          en:
+            page: en
+            section: s-0d1cf1ce38
+            part: body
+        sourceIds:
+          - chen2024HamipterusPalate
+      - id: hamipterus-reader-8
+        title:
+          zh: 按胚胎、模型和独立腭部材料对读
+          en: Read embryos, models and separate palatal material
+        text:
+          zh:
+            page: zh
+            section: s-2020eef475
+            part: body
+          en:
+            page: en
+            section: s-2e012e6bd3
+            part: body
+        sourceIds:
+          - naish2021HamipterusFlightDebate
+          - naish2021HatchlingFlightCorrection
+          - chen2024HamipterusPalate
+      - id: pbdb-occurrence-1
+        title:
+          en: Which fossil records this name represents
+          zh: 这个名称对应哪些化石记录
+        text:
+          zh:
+            page: zh
+            section: s-ebdb1cf3cf
+            part: body
+          en:
+            page: en
+            section: s-f7cc5f8df8
+            part: body
+        sourceIds:
+          - pbdbPterosaurTaxonomy20261002
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-2
+        title:
+          en: Begin with named collections and strata
+          zh: 从具名采集地和地层开始
+        text:
+          zh:
+            page: zh
+            section: s-81f01ff1c9
+            part: body
+          en:
+            page: en
+            section: s-5ef8b74a32
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-3
+        title:
+          en: Age bounds of these records
+          zh: 这些记录的年代边界
+        text:
+          zh:
+            page: zh
+            section: s-cdb76b6848
+            part: body
+          en:
+            page: en
+            section: s-015357e0fb
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-4
+        title:
+          en: Read preservation setting separately from living habitat
+          zh: 保存环境与生活环境分开阅读
+        text:
+          zh:
+            page: zh
+            section: s-0b141ed281
+            part: body
+          en:
+            page: en
+            section: s-d39ed7caa3
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+      - id: pbdb-occurrence-5
+        title:
+          en: Follow collection records back to references
+          zh: 沿采集记录追到文献
+        text:
+          zh:
+            page: zh
+            section: s-91f76ca6b5
+            part: body
+          en:
+            page: en
+            section: s-9e33546848
+            part: body
+        sourceIds:
+          - pbdbPterosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+    readerSources:
+      - id: taxonomy
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 740
+        usage:
+          scope:
+            zh: 仅来源所述材料和数据库记录范围。
+            en: Only material and database-record scope described by this source.
+      - id: pbdbPterosaurOccurrences20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 2
+        usage:
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: pbdbPterosaurTaxonomy20261002
+        referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 740
+        usage:
+          scope:
+            zh: PBDB 接受名、外部 OID 和记录父链；不与 COL 概念等同，不裁决系统发育。
+            en: PBDB accepted name, external OID and recorded parent chain; no equivalence with COL or phylogenetic adjudication.
+      - id: unwin2019HamipterusPrenatal
+        referenceId: ref-a206324b-f18d-4639-b0a1-48d9e615fd06
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+      - id: naish2021HamipterusFlightDebate
+        referenceId: ref-bd571ca5-15db-43e1-8678-cd07f4dd0b0a
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+      - id: naish2021HatchlingFlightCorrection
+        referenceId: ref-28e7307b-0c0f-4812-ad43-da82ac52f727
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+      - id: chen2024HamipterusPalate
+        referenceId: ref-fc799d8a-ffe6-48e8-9b58-ac9ceff2c059
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 胚胎分期与出壳飞行争议、跨类群模型的适用范围，以及本种腭部扫描结果；不等于直接行为观察或完整生活史。
+            en: Embryonic staging and hatchling-flight debate, limits of cross-taxon models and species-specific palatal scans; not observed behavior or complete life history.
+      - id: naish2021HamipterusModelReadingRoute
+        referenceId: ref-bd571ca5-15db-43e1-8678-cd07f4dd0b0a
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: Pterodaustro 幼体滑翔与肱骨弯曲模型及跨标本输入；成长生态与照料保留推断。
+            en: Pterodaustro hatchling gliding and humeral bending models with composite inputs; growth ecology and care remain inferential.
+      - id: pegas2023SinopterusRevision
+        referenceId: ref-5d4a1ef9-93fe-475f-a41c-308ebbf8e424
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 2023 年修订的正模、成长、形态组合、异名与幼体鉴定边界；固定目录身份单独保留。
+            en: Holotypes, growth, anatomical combinations, synonymy and juvenile-identification limits in the 2023 revision; fixed catalogue identity remains separate.
+    readerLimitations:
+      zh:
+        page: zh
+        section: s-40a8b0cbcc
+        part: body
+      en:
+        page: en
+        section: s-4e149d6687
+        part: body
+    readerRelatedPages:
+      - targetId: hamipterus
+        label:
+          en: Hamipterus
+          zh: Hamipterus
+        context:
+          zh: 返回记录父级的阅读入口，保留各出现与采集记录的范围。
+          en: Return to the recorded parent reading route, retaining occurrence and collection scope.
+      - targetId: txn:156857
+        label:
+          zh: Pterodaustro guinazui
+          en: Pterodaustro guinazui
+        context:
+          zh: 对读胚胎分期与实际建模材料，保留跨物种适用边界。
+          en: Compare embryonic staging with actual model subjects, retaining cross-species limits.
+      - targetId: txn:138765
+        label:
+          zh: Sinopterus dongi
+          en: Sinopterus dongi
+        context:
+          zh: 比较幼体鉴定与模型对象，保留各论文的种级范围。
+          en: Compare juvenile identification and model subjects while retaining each study’s species scope.
+  atlas-node:
+    name: Hamipterus tianshanensis
+    commonName: Hamipterus tianshanensis
+    commonNameZh: Hamipterus tianshanensis
+    rank: species
+    taxonId: txn:304280
+    firstAppearance: 137.05
+    lastAppearance: 132.6
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  ranges:
+    - entityId: txn:304280
+      rangeKind: global-composite
+      taxonomicConcept: Hamipterus tianshanensis
+      geographicScope: PBDB database represented occurrences, not a complete geographic distribution
+      olderMa: 137.05
+      youngerMa: 132.6
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: PBDB first-occurrence bracket 137.05–132.6 Ma and last-occurrence bracket 137.05–132.6 Ma. Database summary uses all represented occurrences, while reader paragraphs explicitly use the eligible subset. Neither is a direct specimen date, origin or extinction estimate.
+      evidenceBasis: Dated accepted-taxonomy app fields retained in P5-42 source snapshots; database-derived appearance brackets.
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: ref-bbf448f2-2fdf-40da-91d9-c714754a9cff
+          locator: P5-42 accepted hierarchy oid txn:304280; fea/fla/lea/lla in retained taxa response.
+      evidenceLevel: database-derived

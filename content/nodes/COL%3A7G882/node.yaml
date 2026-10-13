@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina ocellata
+  displayName: Xenorhina ocellata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7G882
+  sourceIndexes:
+    - name:
+        en: Xenorhina ocellata
+        zh: Xenorhina ocellata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7G882
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/351
+            queryName: Xenorhina ocellata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/284
+            queryName: Xenobatrachus ocellatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-87e3830b27
+      - s-b8949d7e2a
+      - s-c8716d633c
+      - s-da022628a6
+      - s-c469136fa3
+      - s-0c14b438e1
+      - s-47ef933da6
+      - s-06931f0f4e
+      - s-bdeb50c24a
+    zh:
+      - s-56c6e3c196
+      - s-316d2d0382
+      - s-816fd9d6ba
+      - s-c9032b5b8a
+      - s-a6648729a3
+      - s-8125395448
+      - s-af3ddcb0ce
+      - s-a6e52ff7d7
+      - s-bf2b42834c

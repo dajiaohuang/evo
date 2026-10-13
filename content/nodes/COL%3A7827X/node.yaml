@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon vehiculum
+  displayName: Plethodon vehiculum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7827X
+  sourceIndexes:
+    - name:
+        en: Plethodon vehiculum
+        zh: Plethodon vehiculum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7827X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/498
+            queryName: Plethodon vehiculum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/491
+            queryName: Ambystoma vehiculum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/320
+            queryName: Plethodon intermedius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/321
+            queryName: Plethodon vehiculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0b2e315870
+      - s-28bf6ad5e8
+      - s-9e515802cc
+      - s-1df8f83598
+      - s-765a0e7b9f
+      - s-c06b283f8e
+      - s-2a4c82de95
+      - s-520c1df9f1
+      - s-0eef12d059
+      - s-3894461d93
+    zh:
+      - s-d2e591b488
+      - s-784188d5b6
+      - s-cfac101ba4
+      - s-b3d458dd14
+      - s-a773e4c67a
+      - s-7045fbc560
+      - s-eb2e04e1ee
+      - s-275cf95777
+      - s-d400230952
+      - s-93fa440406

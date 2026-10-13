@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cardioglossa oreas
+  displayName: Cardioglossa oreas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/R5GM
+  sourceIndexes:
+    - name:
+        en: Cardioglossa oreas
+        zh: Cardioglossa oreas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: R5GM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/162
+            queryName: Cardioglossa oreas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/444
+            queryName: Cardioglossa manengouba
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d17557151
+      - s-943c1f6df7
+      - s-b5f1d8ffc8
+      - s-83d91703a3
+      - s-12c3625181
+      - s-c1e9d959dc
+      - s-d792c0cea5
+      - s-a604231119
+    zh:
+      - s-389a49a235
+      - s-dd718a2d85
+      - s-a6ac91f113
+      - s-6334f98deb
+      - s-23c03505df
+      - s-b2ace28745
+      - s-fe0e8e30be
+      - s-1de6c2559a

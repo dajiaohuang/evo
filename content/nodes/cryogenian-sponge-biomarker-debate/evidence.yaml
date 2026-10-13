@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-ab84750dac
+      part: title
+    titleZh:
+      page: zh
+      section: s-55ff1a6738
+      part: title
+    category: geochemical
+    startAge: 635
+    endAge: 541
+    regions:
+      - South Oman Salt Basin, Sultanate of Oman
+    clades:
+      - Demospongiae
+      - Rhizaria
+    summary:
+      page: en
+      section: s-ab84750dac
+      part: body
+    summaryZh:
+      page: zh
+      section: s-55ff1a6738
+      part: body
+    claimIds:
+      - claim:event:cryogenian-sponge-biomarker-debate
+    evidenceItems:
+      - statement: Love et al. measured covalently bound and extractable C30 steranes in a dated Oman succession; Nettersheim et al. detected relevant precursors across sampled Rhizaria.
+        relation: supports
+        claimIds:
+          - claim:event:cryogenian-sponge-biomarker-debate
+        referenceLinks:
+          - referenceId: love-2009-sponge-steranes
+            relation: supports
+            pages: 718–721
+            figure: Figures 1–3; Supplementary Tables 1–4
+            quoteLocator: MRM sterane measurements and stratigraphic context
+          - referenceId: nettersheim-2019-rhizaria-steranes
+            relation: contradicts
+            pages: 577–581
+            figure: Figures 1–3; Supplementary Tables
+            quoteLocator: Rhizarian sterol assays and biosynthetic interpretation
+    uncertaintyItems:
+      - statement: Compound presence, depositional age and biological source are separate propositions; alternative extinct producers and diagenetic pathways are not exhaustively excluded.
+        relation: contextualizes
+        claimIds:
+          - claim:event:cryogenian-sponge-biomarker-debate
+        referenceLinks:
+          - referenceId: love-2009-sponge-steranes
+            relation: supports
+            pages: 718–721
+            figure: Figures 1–3; Supplementary Tables 1–4
+            quoteLocator: MRM sterane measurements and stratigraphic context
+          - referenceId: nettersheim-2019-rhizaria-steranes
+            relation: contradicts
+            pages: 577–581
+            figure: Figures 1–3; Supplementary Tables
+            quoteLocator: Rhizarian sterol assays and biosynthetic interpretation
+  claims:
+    - subjectId: event:cryogenian-sponge-biomarker-debate
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Cryogenian-to-Cambrian 24-isopropylcholestanes are measured compounds, but sampled Rhizaria can synthesize their sterol precursors, so these rocks do not uniquely establish Demospongiae.
+      confidence: contested
+      confidenceRationale: The geochemical occurrence is replicated, while source-organism attribution is explicitly contradicted by an experimentally sampled alternative source.
+      referenceLinks:
+        - referenceId: love-2009-sponge-steranes
+          relation: supports
+          pages: 718–721
+          figure: Figures 1–3; Supplementary Tables 1–4
+          quoteLocator: MRM sterane measurements and stratigraphic context
+        - referenceId: nettersheim-2019-rhizaria-steranes
+          relation: contradicts
+          pages: 577–581
+          figure: Figures 1–3; Supplementary Tables
+          quoteLocator: Rhizarian sterol assays and biosynthetic interpretation
+  claim-rationales.zh:
+    - 地球化学出现记录可复核，但来源生物归属受到实验取样的替代来源直接挑战。
+  claim-statements.zh:
+    - 成冰纪至寒武纪岩石中确实测得 24-异丙基胆甾烷，但已取样的 *Rhizaria* 也能合成其甾醇前体，因此这些岩石不能唯一证明寻常海绵纲已存在。

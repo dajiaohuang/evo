@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella aurantirosea Ninh, Nguyen, Le, Nguyen, Quoc, Orlov, Bezman-Moseyko, Le, Nguyen & Ziegler, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella aurantirosea
+      zh: Leptobrachella aurantirosea
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cd41f984dc
+            part: title
+          zh:
+            page: zh
+            section: s-3bfda4b3eb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cd41f984dc
+            part: body
+          zh:
+            page: zh
+            section: s-3bfda4b3eb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5c2dada9c6
+            part: title
+          zh:
+            page: zh
+            section: s-85ef3e61ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5c2dada9c6
+            part: body
+          zh:
+            page: zh
+            section: s-85ef3e61ab
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4ec3fd2558
+            part: title
+          zh:
+            page: zh
+            section: s-ff5e8d830d
+            part: title
+        sourceIds:
+          - primary-pmc12627998-v5dj4
+        text:
+          en:
+            page: en
+            section: s-4ec3fd2558
+            part: body
+          zh:
+            page: zh
+            section: s-ff5e8d830d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella aurantirosea
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5DJ4
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12627998-v5dj4
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella aurantirosea: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0b2ee5c428
+        part: body
+      zh:
+        page: zh
+        section: s-803f1d738e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-v5dj4
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella aurantirosea
+        evidenceRead: "Leptobrachella aurantirosea: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-v5dj4
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b46406cec4
+                part: body
+              zh:
+                page: zh
+                section: s-0742deb7dc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

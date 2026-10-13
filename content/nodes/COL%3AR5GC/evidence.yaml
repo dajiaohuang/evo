@@ -1,0 +1,382 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cardioglossa gracilis Boulenger, 1900
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Cardioglossa gracilis
+      zh: Cardioglossa gracilis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-32378716bb
+            part: title
+          zh:
+            page: zh
+            section: s-33fd6337a1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-32378716bb
+            part: body
+          zh:
+            page: zh
+            section: s-33fd6337a1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f93418a39e
+            part: title
+          zh:
+            page: zh
+            section: s-103a2c4032
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f93418a39e
+            part: body
+          zh:
+            page: zh
+            section: s-103a2c4032
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-29d09137f3
+            part: title
+          zh:
+            page: zh
+            section: s-c9af64c70d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-29d09137f3
+            part: body
+          zh:
+            page: zh
+            section: s-c9af64c70d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-14926cddd521acb550527708ecafd41f
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-fa668f8401
+            part: title
+          zh:
+            page: zh
+            section: s-7c97960aa4
+            part: title
+        sourceIds:
+          - primary-pmc5683629-r5gc
+        text:
+          en:
+            page: en
+            section: s-fa668f8401
+            part: body
+          zh:
+            page: zh
+            section: s-7c97960aa4
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-32399ca434
+            part: title
+          zh:
+            page: zh
+            section: s-c734d8f2b3
+            part: title
+        sourceIds:
+          - primary-pmc5683629-r5gc
+        text:
+          en:
+            page: en
+            section: s-32399ca434
+            part: body
+          zh:
+            page: zh
+            section: s-c734d8f2b3
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-3ff1cc9b04
+            part: title
+          zh:
+            page: zh
+            section: s-e5a9a262bd
+            part: title
+        sourceIds:
+          - primary-pmc5683629-r5gc
+        text:
+          en:
+            page: en
+            section: s-3ff1cc9b04
+            part: body
+          zh:
+            page: zh
+            section: s-e5a9a262bd
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1f1a722188
+            part: title
+          zh:
+            page: zh
+            section: s-ee52493c09
+            part: title
+        sourceIds:
+          - primary-pmc5683629-r5gc
+        text:
+          en:
+            page: en
+            section: s-1f1a722188
+            part: body
+          zh:
+            page: zh
+            section: s-ee52493c09
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f39ed3415a
+            part: body
+          zh:
+            page: zh
+            section: s-815c527f60
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cardioglossa gracilis
+          url: https://www.checklistbank.org/dataset/316115/taxon/R5GC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0177; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0177 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc5683629-r5gc
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Cardioglossa gracilis: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedCardioglossa gracilis account sec021. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6b9e76dade
+        part: body
+      zh:
+        page: zh
+        section: s-3bc52ae917
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-pmc5683629-r5gc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: NamedCardioglossa gracilis workingidentification in2017 barcode library; no originalvoucher/currentCOLconcept authentication
+        evidenceRead: "Cardioglossa gracilis: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedCardioglossa gracilis account sec021. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Sampled localities and voucher forms remain distinct
+              zh: 取样地点与凭证形式保持区分
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-r5gc
+            locator: PMC5683629 XML sec021 namedCardioglossa gracilis locality/voucher account; sec003/004/007 scope
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c2f06f8f5a
+                part: body
+              zh:
+                page: zh
+                section: s-b67825df4d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: Barcode-supported identification retains provisional boundaries
+              zh: 条形码支持鉴定保留暂定界限
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-r5gc
+            locator: PMC5683629 XML sec021 namedCardioglossa gracilis markeridentification paragraphs; sec009–012 assignmentcriteria
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-50fd73340b
+                part: body
+              zh:
+                page: zh
+                section: s-2da3b73b3c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Two mitochondrial markers and uneven references limit inference
+              zh: 两线粒体标记及不均参考限制推断
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-r5gc
+            locator: PMC5683629 XML sec004/006–012 methods/reference/limitations
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-30b6192bbe
+                part: body
+              zh:
+                page: zh
+                section: s-f30dc70276
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Study counts and identification scope are not population estimates
+              zh: 研究计数及鉴定范围不是种群估计
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-pmc5683629-r5gc
+            locator: PMC5683629 XML sec004/007 collectioncounts; sec015 andTable1 total/source-locality rows
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c045f0a756
+                part: body
+              zh:
+                page: zh
+                section: s-af1a8da148
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,249 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Centrolene charapita Twomey, Delia & Castroviejo-Fisher, 2014
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Centrolene charapita
+      zh: Centrolene charapita
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-a67c65986a
+            part: title
+          zh:
+            page: zh
+            section: s-bdcde2fb64
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a67c65986a
+            part: body
+          zh:
+            page: zh
+            section: s-bdcde2fb64
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fe434f01c0
+            part: title
+          zh:
+            page: zh
+            section: s-230c0a929d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fe434f01c0
+            part: body
+          zh:
+            page: zh
+            section: s-230c0a929d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8703eb7222
+            part: title
+          zh:
+            page: zh
+            section: s-95718ecd8c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8703eb7222
+            part: body
+          zh:
+            page: zh
+            section: s-95718ecd8c
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-5adeeb40c83ebd20dd22f107
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-11ddd4cf16
+            part: title
+          zh:
+            page: zh
+            section: s-c3bdfa927c
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-11ddd4cf16
+            part: body
+          zh:
+            page: zh
+            section: s-c3bdfa927c
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6202570ba0
+            part: title
+          zh:
+            page: zh
+            section: s-430a1521bf
+            part: title
+        sourceIds:
+          - primary-pmc10178282-s9xw
+        text:
+          en:
+            page: en
+            section: s-6202570ba0
+            part: body
+          zh:
+            page: zh
+            section: s-430a1521bf
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Centrolene charapita
+          url: https://www.checklistbank.org/dataset/316115/taxon/S9XW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1032; Reference.csv rows 198
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10178282-s9xw
+        referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Centrolene charapita: XML fieldwork sec6; phylogenetic results sec11; species descriptions sec12 paragraphs 8–11,16–19,21,29–31,36–38,40; all discussion sec13 paragraphs 1–5; original recordings unavailable and supplementary/raw sequence data not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-040832b4b6
+        part: body
+      zh:
+        page: zh
+        section: s-027edc1471
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-5adeeb40c83ebd20dd22f107
+        scientificName: Centrolene charapita
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.15195
+        referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+        sourceKey: primary-pmc10178282-s9xw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10178282/article.xml
+        sourceConcept: Centrolene charapita
+        evidenceRead: "Centrolene charapita: XML fieldwork sec6; phylogenetic results sec11; species descriptions sec12 paragraphs 8–11,16–19,21,29–31,36–38,40; all discussion sec13 paragraphs 1–5; original recordings unavailable and supplementary/raw sequence data not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Placement in a limited reference phylogeny
+              zh: 有限参考系统树中的位置
+            referenceId: ref-552d0c24-0d0b-4641-a376-32d7e2bc868f
+            sourceKey: primary-pmc10178282-s9xw
+            locator: PMC10178282 XML sec11 paragraph 1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0b1960239d
+                part: body
+              zh:
+                page: zh
+                section: s-ee75c536c5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

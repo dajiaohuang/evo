@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis kunam Ortega, Brito-M. & Ron, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis kunam
+      zh: Pristimantis kunam
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cc0c2e8175
+            part: title
+          zh:
+            page: zh
+            section: s-1ad6c73ca4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cc0c2e8175
+            part: body
+          zh:
+            page: zh
+            section: s-1ad6c73ca4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8cbe27549c
+            part: title
+          zh:
+            page: zh
+            section: s-48311d70fa
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8cbe27549c
+            part: body
+          zh:
+            page: zh
+            section: s-48311d70fa
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7e9a9a1a44
+            part: title
+          zh:
+            page: zh
+            section: s-8ec541b235
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scf8q
+        text:
+          en:
+            page: en
+            section: s-7e9a9a1a44
+            part: body
+          zh:
+            page: zh
+            section: s-8ec541b235
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d5d08048ca
+            part: title
+          zh:
+            page: zh
+            section: s-0427052fd5
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scf8q
+        text:
+          en:
+            page: en
+            section: s-d5d08048ca
+            part: body
+          zh:
+            page: zh
+            section: s-0427052fd5
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-87d40e088b
+            part: title
+          zh:
+            page: zh
+            section: s-ac9d3a0fb2
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scf8q
+        text:
+          en:
+            page: en
+            section: s-87d40e088b
+            part: body
+          zh:
+            page: zh
+            section: s-ac9d3a0fb2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis kunam
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCF8Q
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9583859-scf8q
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis kunam: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-075113dd14
+        part: body
+      zh:
+        page: zh
+        section: s-5d24c366a3
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.13761
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        sourceKey: primary-pmc9583859-scf8q
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9583859/article.xml
+        sourceConcept: Pristimantis kunam
+        evidenceRead: "Pristimantis kunam: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: One male defines the reported size observation
+              zh: 一雄定义所报告体长观察
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scf8q
+            locator: PMC9583859 reading-sections section 1, paragraph 52
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-54e7033e17
+                part: body
+              zh:
+                page: zh
+                section: s-e6dc0dc946
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A single fern-leaf encounter in primary forest
+              zh: 原生林一次蕨叶遭遇
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scf8q
+            locator: PMC9583859 reading-sections section 1, paragraph 58
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9f4bb6accc
+                part: body
+              zh:
+                page: zh
+                section: s-16014b8267
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: Unknown population status after possible volcanic impacts
+              zh: 可能火山影响后的未知种群状态
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scf8q
+            locator: PMC9583859 reading-sections section 1, paragraph 59
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-efea370a3a
+                part: body
+              zh:
+                page: zh
+                section: s-bf6aae4027
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

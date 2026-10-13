@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptella villiersi
+  displayName: Arthroleptella villiersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYPQ
+  sourceIndexes:
+    - name:
+        en: Arthroleptella villiersi
+        zh: Arthroleptella villiersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYPQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/142
+            queryName: Arthroleptella villiersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/279
+            queryName: Arthroleptella bicolor villiersi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c2fde32c6
+      - s-424119b8b3
+      - s-979c29f0f5
+      - s-c73b05bcaa
+      - s-086c56733f
+      - s-b9b7520529
+      - s-ed2af093be
+      - s-c91efa4070
+    zh:
+      - s-553dd78865
+      - s-eeb00ff239
+      - s-b97a5cfa49
+      - s-06a278bb5d
+      - s-959359d23c
+      - s-1af3cfceee
+      - s-388c433218
+      - s-67f11bff4e

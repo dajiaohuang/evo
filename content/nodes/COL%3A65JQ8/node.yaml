@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Agalychnis spurrelli
+  displayName: Agalychnis spurrelli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65JQ8
+  sourceIndexes:
+    - name:
+        en: Agalychnis spurrelli
+        zh: Agalychnis spurrelli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65JQ8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/105
+            queryName: Agalychnis spurrelli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/389
+            queryName: Agalychnis litodryas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/130
+            queryName: Phyllomedusa spurrelli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/131
+            queryName: Phyllomedusa litodryas
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd99911924
+      - s-b2c9484d33
+      - s-084c7cdc49
+      - s-7ad0e66dc1
+      - s-9813409ed8
+      - s-1feb5d803e
+      - s-863abf5207
+      - s-b1d91810ab
+      - s-53da75da91
+      - s-a6985adff8
+      - s-bbf5eaa2e3
+    zh:
+      - s-46cc77eede
+      - s-3dc94b5f58
+      - s-e47cb58937
+      - s-26ae245452
+      - s-88d4a56c5a
+      - s-96ac133a55
+      - s-e66a5a8b04
+      - s-a39d5f51f6
+      - s-55fd0e81f7
+      - s-78485e3896
+      - s-a3f6f63d1a

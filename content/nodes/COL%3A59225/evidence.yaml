@@ -1,0 +1,100 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Triraphis purpurea Hack.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 59225, name, authorship, rank and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted-name-and-authorship to wfo-0000904875.
+      scope: Triraphis purpurea Hack. as represented by COL26.8 usage 59225. SANBI claims remain attributed to the southern African treatment and its taxonomic concept; exact nomenclatural mapping alone does not prove full circumscription equivalence.
+    lifeStatusScope:
+      wild: Claims describe observations in a regional flora treatment; source wording does not consistently distinguish native wild from naturalised populations.
+      domesticated: Cultivation and domestication are not covered by the cited material; no conclusion about either is made.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col-wfo-crosswalk
+        referenceId: ref-b7a0da64-36cd-8130-ab0c-cf9d69929170
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 3
+        usage:
+          title: COL26.8 accepted usage and pinned WFO plant crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000904875-2026-06
+          version: COL26.8 released 2026-08-20; WFO 2026-06 snapshot; local crosswalk record 59225
+          locator: COL ID 59225; exact accepted-name-and-authorship mapping to WFO wfo-0000904875
+          scope: Exact accepted identity for Triraphis purpurea Hack.; mapping does not by itself establish full species-concept equivalence.
+      - id: sanbi-grasses
+        referenceId: ref-8df2e3e0-d3d3-8b08-aeb1-59f9ee8269be
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Strelitzia 36 (2015), species account pp. 727–728; SANBI archive Morphology row 80469 and Habitat row 80189, source identifier 15590.0. Archive citation preserves the publication page range.
+          scope: Southern African grass flora treatment. Its regional ranges and ecological accounts are not represented as global or exhaustive.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The account describes this as a tufted annual 90–770 mm tall, with bulbous-based hairs on the culm and a purple inflorescence.
+            textZh: 该条目将其描述为丛生一年生草本，高 90–770 mm，茎秆具基部膨大的毛，花序呈紫色。
+            sourceIds:
+              - sanbi-grasses
+            locator: Strelitzia 36 (2015), species account pp. 727–728; SANBI archive Morphology row 80469 and Habitat row 80189, source identifier 15590.0.
+            placeTimeScope: Regional southern African grass treatment published in 2015; morphology statements are limited to the printed species account and do not imply global coverage.
+            lifeStatus: Regional flora account; it does not consistently distinguish native wild and naturalised populations, and does not cover cultivation.
+        gaps:
+          - Population, developmental, sexual, geographic and diagnostic variation have not been comprehensively reviewed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The account reports flowering from January through June.
+            textZh: 该条目记载花期为 1 月至 6 月。
+            sourceIds:
+              - sanbi-grasses
+            locator: Strelitzia 36 (2015), species account p. 728; flowering statement.
+            placeTimeScope: Regional southern African grass treatment published in 2015; flowering phenology statements are limited to the printed species account and do not imply global coverage.
+            lifeStatus: Regional flora account; it does not consistently distinguish native wild and naturalised populations, and does not cover cultivation.
+        gaps:
+          - Reproduction, pollination, germination, dormancy, recruitment and full life-cycle evidence remain unreviewed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The account records red sand or rocky calcareous soils, often in moist patches or shade.
+            textZh: 该条目记载其生境包括红沙土或岩质钙质土，常见于湿润斑块或荫蔽处。
+            sourceIds:
+              - sanbi-grasses
+            locator: Strelitzia 36 (2015), species account pp. 727–728; SANBI archive Morphology row 80469 and Habitat row 80189, source identifier 15590.0.
+            placeTimeScope: Regional southern African grass treatment published in 2015; habitat statements are limited to the printed species account and do not imply global coverage.
+            lifeStatus: Regional flora account; it does not consistently distinguish native wild and naturalised populations, and does not cover cultivation.
+        gaps:
+          - Seasonal use, measured environmental conditions, species interactions and populations beyond these regional accounts remain unreviewed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The regional account lists Angola and the coded areas N, B, NW and NC. The codes are retained as printed; the entry does not establish a complete global range.
+            textZh: 区域条目列出安哥拉以及代码 N、B、NW、NC。这里保留原文代码；该条目不能证明完整全球分布。
+            sourceIds:
+              - sanbi-grasses
+            locator: Strelitzia 36 (2015), species account p. 728; regional distribution statement.
+            placeTimeScope: Regional southern African grass treatment published in 2015; distribution statements are limited to the printed species account and do not imply global coverage.
+            lifeStatus: Regional flora account; it does not consistently distinguish native wild and naturalised populations, and does not cover cultivation.
+        gaps:
+          - A dated, specimen-backed assessment of the complete native, introduced and cultivated range has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

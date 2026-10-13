@@ -1,0 +1,3 @@
+## Leaves, flowers and fruit in the source record {#s-b0c01bb99f}
+The Brazilian Flora 2020 entry records buttresses as absent, with bark and lenticels present. Leaves are classified as simple; stipules are deciduous, and the leaflet field gives ovate and glabrous. The inflorescence is a simple axillary raceme. Flowers are papilionaceous and sessile; bracts are under 5 mm, bracteoles under 4 mm, and the calyx is pubescent. The standard is yellowish. Anthers have elliptic thecae and are dorsifixed; the ovary is superior and sessile. Fruit fields label the form as drupe and circular, record a wing remnant in the fruit chamber with the hydrochoric category, and give a subterminal position. No habitat field is included, so the entry does not establish habitat or range.
+

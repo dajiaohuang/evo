@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Guibemantis ambakoana
+  displayName: Guibemantis ambakoana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NXLDC
+  sourceIndexes:
+    - name:
+        en: Guibemantis ambakoana
+        zh: Guibemantis ambakoana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NXLDC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/213
+            queryName: Guibemantis ambakoana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-76093ad298
+      - s-48a6adb0f7
+      - s-c0e17592cc
+      - s-b2476b9b71
+      - s-f74451a55f
+      - s-cc10d53360
+      - s-2058051e8f
+    zh:
+      - s-c2cdc3831a
+      - s-ec3c55b535
+      - s-c4d50a3c4a
+      - s-454e9a8a25
+      - s-06b228472f
+      - s-3f9be64816
+      - s-e9c4ff4f2c

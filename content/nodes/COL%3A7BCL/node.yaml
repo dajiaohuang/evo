@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sabahphrynus
+  displayName: Sabahphrynus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7BCL
+  sourceIndexes:
+    - name:
+        en: Sabahphrynus
+        zh: Sabahphrynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7BCL
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/236
+            queryName: Sabahphrynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-277b86736a
+      - s-ad86a9af3f
+      - s-33e15c4b38
+      - s-7a9795d171
+      - s-901c01d942
+      - s-6b09a9ad87
+      - s-f20a66512e
+      - s-81fba1e5ef
+      - s-5a202e8464
+      - s-7399a39f80
+      - s-918f9991f0
+    zh:
+      - s-601b5e7a8e
+      - s-f12c342e5b
+      - s-816ec319f3
+      - s-7aeda7372d
+      - s-e4ed858229
+      - s-dc2dfbe1a9
+      - s-5f812f75ed
+      - s-1ea2df9611
+      - s-c4bbda1666
+      - s-40528cbaa6
+      - s-1716588a79

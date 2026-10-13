@@ -1,0 +1,262 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oryzorictinae
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      zh: Oryzorictinae
+      en: Oryzorictinae
+    sections:
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d7ca88d08e
+            part: body
+          en:
+            page: en
+            section: s-e8c3083154
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-27d1158d93
+            part: body
+          en:
+            page: en
+            section: s-3feef28549
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-462e9f96fe
+            part: body
+          en:
+            page: en
+            section: s-9481628802
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-5bc1f3229f
+            part: body
+          en:
+            page: en
+            section: s-5854cde1a9
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-eb776fa194
+            part: body
+          en:
+            page: en
+            section: s-444728d3fe
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Oryzorictinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/K2M
+          locator: Pinned name, rank and recorded ancestry.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 15 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 14
+            foraging: 15
+            activity: 12
+          readingTargets:
+            - name: Microgale longicaudata
+              colId: 42WJC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJC
+            - name: Microgale thomasi
+              colId: 42WJN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJN
+            - name: Microgale soricoides
+              colId: 42WJK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJK
+            - name: Microgale pusilla
+              colId: 42WJJ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJJ
+            - name: Microgale principula
+              colId: 42WJG
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJG
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 3
+            activity: 0
+          readingTargets:
+            - name: Microgale taiva
+              colId: 42WJL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJL
+            - name: Microgale fotsifotsy
+              colId: 42WJ9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJ9
+            - name: Microgale nasoloi
+              colId: 6RGPC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6RGPC
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 8 authored entries grouped under Oryzorictinae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 42WJ4
+              name: Microgale brevicaudata
+              canonicalPath: content/nodes/COL%3A42WJ4
+            - colId: 42WJ8
+              name: Microgale dryas
+              canonicalPath: content/nodes/COL%3A42WJ8
+            - colId: 73GPD
+              name: Microgale gracilis
+              canonicalPath: content/nodes/COL%3A73GPD
+            - colId: 42WJC
+              name: Microgale longicaudata
+              canonicalPath: content/nodes/COL%3A42WJC
+            - colId: 42WJG
+              name: Microgale principula
+              canonicalPath: content/nodes/COL%3A42WJG
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+    limitations:
+      zh:
+        page: zh
+        section: s-1395605710
+        part: body
+      en:
+        page: en
+        section: s-d39c56befd
+        part: body

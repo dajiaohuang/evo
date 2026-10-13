@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Eulophia meleagris Rchb.f.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 3CC25, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3CC25; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/3CC25
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3CC25
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000960071-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3CC25 / WFO wfo-0000960071
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_10448_0
+        referenceId: ref-9bbd0d67-04f8-8899-afad-f3d85c5fc840
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Eulophia meleagris Rchb.f. account; SANBI/WFO archive rows 42240 (Morphology), 43103 (Habitat), source identifier 10448.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Plants with subterranean, moniliformous rhizomes; leaves thin-tissued, up to 300-600 x 20-55 mm; flowering stem 200-800 mm tall. Inflorescences lax, 3-30-flowered; bracts lanceolate-acuminate, slightly shorter than the ovary. Flowers: sepals dark lime green on the outer surface, dark brownish purple with flecks of dull green within, petals and lip purple to white, with dark bluish-purple along the margins and veins, crests pale purple basally, to white and dark purple distally. Sepals spreading; median sepal (12-) 14-17 (-18) mm long, elliptic to oblong, apiculate; lateral sepals similar. Petals half the length of the median sepal, broadly ovate-rotund, obtuse to mucronate. Lip midlobe with fleshy crenulate margins, crests consisting of 3-5 undulate lamellae, tallest on the central veins in the distal part of the midlobe; mentum vestigial, broad; spur cylindrical, slightly longer than the gynostemium, often abruptly decurved near the apex. Gynostemium 4-5 mm long."
+            textZh: Eulophia meleagris Rchb.f. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_10448_0
+            locator: "SANBI/WFO archive Morphology row 42240; source identifier 10448.0; cited publication: Kurzweil, H; Linder, HP. 1999. Orchids of Southern Africa. A.A. Balkema, Rotterdam. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Near margins of upland forests, often in dense herbaceous vegetation.
+            textZh: 该 SANBI 区域物种条目记录的生境：Near margins of upland forests, often in dense herbaceous vegetation.
+            sourceIds:
+              - sanbi_10448_0
+            locator: "SANBI/WFO archive Habitat row 43103; source identifier 10448.0; cited publication: Kurzweil, H; Linder, HP. 1999. Orchids of Southern Africa. A.A. Balkema, Rotterdam. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-f753b10817
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-bbd4b3307c
+          part: body

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stumpffia grandis
+  displayName: Stumpffia grandis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/537SK
+  sourceIndexes:
+    - name:
+        en: Stumpffia grandis
+        zh: Stumpffia grandis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 537SK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/360
+            queryName: Stumpffia grandis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e19cd7900
+      - s-73b14e4a9f
+      - s-0676a3c4b5
+      - s-460105fe37
+      - s-11ae1c630d
+      - s-1e6f625d19
+      - s-593b2286fd
+      - s-7fc36a7ecc
+      - s-dd869e1b0b
+    zh:
+      - s-98cc7f1227
+      - s-0f971a7866
+      - s-8c5f92310a
+      - s-d56c73a8f1
+      - s-fb640a19d0
+      - s-9820e0f85f
+      - s-44fc161e06
+      - s-32e4e5ad04
+      - s-95c5fe008c

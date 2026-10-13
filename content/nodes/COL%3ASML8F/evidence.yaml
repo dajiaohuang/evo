@@ -1,0 +1,412 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ptychadena beka Goutte, Reyes-Velasco, Freilich, Kassie & Boissinot, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ptychadena beka
+      zh: Ptychadena beka
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-194f95de0c
+            part: title
+          zh:
+            page: zh
+            section: s-6b44565aca
+            part: title
+        text:
+          en:
+            page: en
+            section: s-194f95de0c
+            part: body
+          zh:
+            page: zh
+            section: s-6b44565aca
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c4d7a3d47b
+            part: title
+          zh:
+            page: zh
+            section: s-38ea13c5d9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c4d7a3d47b
+            part: body
+          zh:
+            page: zh
+            section: s-38ea13c5d9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-b108fad027
+            part: title
+          zh:
+            page: zh
+            section: s-ce0a1455d5
+            part: title
+        sourceIds:
+          - primary-pmc7892535-sml8f
+        text:
+          en:
+            page: en
+            section: s-b108fad027
+            part: body
+          zh:
+            page: zh
+            section: s-ce0a1455d5
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-7065ba4f69
+            part: title
+          zh:
+            page: zh
+            section: s-c7f18988e5
+            part: title
+        sourceIds:
+          - primary-pmc7892535-sml8f
+        text:
+          en:
+            page: en
+            section: s-7065ba4f69
+            part: body
+          zh:
+            page: zh
+            section: s-c7f18988e5
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-3d4d3c9b2f
+            part: title
+          zh:
+            page: zh
+            section: s-0647b04ee3
+            part: title
+        sourceIds:
+          - primary-pmc10434514-sml8f
+        text:
+          en:
+            page: en
+            section: s-3d4d3c9b2f
+            part: body
+          zh:
+            page: zh
+            section: s-0647b04ee3
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-00e6c052ac
+            part: title
+          zh:
+            page: zh
+            section: s-8e03c7af73
+            part: title
+        sourceIds:
+          - primary-pmc10434514-sml8f
+        text:
+          en:
+            page: en
+            section: s-00e6c052ac
+            part: body
+          zh:
+            page: zh
+            section: s-8e03c7af73
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-89c22caaa2
+            part: title
+          zh:
+            page: zh
+            section: s-99cce9425e
+            part: title
+        sourceIds:
+          - primary-pmc10434514-sml8f
+        text:
+          en:
+            page: en
+            section: s-89c22caaa2
+            part: body
+          zh:
+            page: zh
+            section: s-99cce9425e
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-e920292a6f
+            part: title
+          zh:
+            page: zh
+            section: s-4b75922028
+            part: title
+        sourceIds:
+          - primary-pmc10434514-sml8f
+        text:
+          en:
+            page: en
+            section: s-e920292a6f
+            part: body
+          zh:
+            page: zh
+            section: s-4b75922028
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ptychadena beka
+          url: https://www.checklistbank.org/dataset/316115/taxon/SML8F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7892535-sml8f
+        referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - authorMetadataEvidence
+          - authorsAsRecordedInXml
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena beka: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10434514-sml8f
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena beka: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-192df63dcb
+        part: body
+      zh:
+        page: zh
+        section: s-0b2c8bb1ba
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1016.59699
+        referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+        sourceKey: primary-pmc7892535-sml8f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7892535/article.xml
+        sourceConcept: Ptychadena beka
+        evidenceRead: "Ptychadena beka: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: An elevation sample from 106 barcoded individuals
+              zh: 一百零六只条形码个体的海拔样本
+            referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+            sourceKey: primary-pmc7892535-sml8f
+            locator: "Ptychadena beka: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-563ffba98b
+                part: body
+              zh:
+                page: zh
+                section: s-5cbc5e671b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Rain-associated calling in shallow water
+              zh: 浅水中与降雨相关的鸣叫
+            referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+            sourceKey: primary-pmc7892535-sml8f
+            locator: "Ptychadena beka: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0bc5d0f1a7
+                part: body
+              zh:
+                page: zh
+                section: s-04020bc245
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3389/fgene.2023.1215715
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        sourceKey: primary-pmc10434514-sml8f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10434514/article.xml
+        sourceConcept: 2023 Ethiopian Highlands Ptychadena beka sample and author-reported distributions
+        evidenceRead: "Ptychadena beka: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A geographically sampled mitochondrial and nuclear dataset
+              zh: 有地理取样的线粒体与核数据集
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-sml8f
+            locator: PMC10434514 XML Methods2.1–2.3; Table1; Results3.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dd7e13b56e
+                part: body
+              zh:
+                page: zh
+                section: s-d5aaebdda2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: A study-defined highland clade and regional distribution
+              zh: 研究界定的高地支系及区域分布
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-sml8f
+            locator: PMC10434514 XML Results3.2–3.3; Discussion4.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f8ed909d76
+                part: body
+              zh:
+                page: zh
+                section: s-17453b7e62
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: A dated reassessment argument, with remaining demographic gaps
+              zh: 有日期的重评论据与仍缺的人口统计证据
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-sml8f
+            locator: PMC10434514 XML Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a1ceca7121
+                part: body
+              zh:
+                page: zh
+                section: s-ed1c355f38
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Three sampled regions without detected geographic structure
+              zh: 三个取样区域未检出地理结构
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-sml8f
+            locator: PMC10434514 XML Results3.2; Discussion4.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-650e959710
+                part: body
+              zh:
+                page: zh
+                section: s-4ab57a27ae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

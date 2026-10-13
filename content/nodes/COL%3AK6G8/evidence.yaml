@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Babiana spathacea (L.f.) Ker Gawl.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage K6G8, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage K6G8; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/K6G8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage K6G8
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000788170-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL K6G8 / WFO wfo-0000788170
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14562_0
+        referenceId: ref-2134358d-3cd0-8c7f-ab54-aec576ea88f5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana spathacea (L.f.) Ker Gawl. account; SANBI/WFO archive rows 33033 (Morphology), 38976 (Habitat), source identifier 14562.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Babiana spathacea (L.f.) Ker Gawl. account; SANBI/WFO archive rows 94972 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, mostly 150-400 mm tall, stem usually branched, smooth. Leaves linear-lanceolate, pleated, velvety. Flowers several in a dense, erect spike, bilabiate, cream to white, flushed lilac outside, odourless, perianth tube elongate-cylindrical, (30-)35-45 mm long, dorsal tepal 20-23 mm long, ovary smooth, bracts dry, translucent pale brown or colourless with brown flecks, attenuate, inner bract divided in the upper two thirds.
+            textZh: Babiana spathacea (L.f.) Ker Gawl. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Morphology row 33033; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Immediately recognised by the long-tubed, usually creamy beige to ± white flowers with dark red to purple markings near the bases of the lower three tepals, a perianth tube 35-45 mm long and dorsal tepal ± 25 mm long. The dry, membranous, long-cuspidate floral bracts, which prompted the name spathacea, are distinctive only in combination with the perianth characters. Two other species also have similar floral bracts, B. scariosa, which has bilabiate, blue flowers with a relatively short perianth tube, 12-20 mm long, and the acaulescent B. papyracea, which has large, radially symmetric flowers. South of Nieuwoudtville plants included in B. spathacea are unusually variable, some having pale lilac-blue flowers with purple markings, a somewhat smaller perianth with the tube 30-36 mm long and the dorsal tepal 13-23 mm long. These plants also sometimes have longer style branches, up to 4 mm long, unusual for the species, in which 1.8-2.0 mm long is typical. It seems likely that hybridisation with Babiana scariosa, which also grows there and in the same habitat, is the source of the bluish colouring, shorter perianth tube, and longer style branches. Closer to Nieuwoudtville plants have white flowers with red markings, flushed lilac on the tube and reverse of the tepals, and the anthers and pollen are dark purple. Flowers are smaller and have a tube ± 30 mm long and a dorsal tepal ± 15 mm long, but the style branches in these plants are 2.0-2.5 mm long, which is typical of B. spathacea.
+            textZh: SANBI 条目提供了 Babiana spathacea (L.f.) Ker Gawl. 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 94972; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony clay, often in dolerite outcrops.
+            textZh: 该 SANBI 区域物种条目记录的生境：Stony clay, often in dolerite outcrops.
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Habitat row 38976; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

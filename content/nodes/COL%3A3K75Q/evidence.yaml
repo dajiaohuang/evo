@@ -1,0 +1,101 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Helichrysum praecinctum Klatt
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3K75Q, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3K75Q; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3K75Q
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3K75Q
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000004667-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3K75Q / WFO wfo-0000004667
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9268_0
+        referenceId: ref-96c1317e-001a-8dd0-abdf-fbc04a2f1f9a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Helichrysum praecinctum Klatt account; archive rows 48902 (Morphology), 54903 (Habitat), source identifier 9268.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Dwarf shrublet branching from the base, taproot woody, deeply penetrative, stems up to 200 mm long, nude at the base and rooting there, laxly branched above, thinly white-felted, leafy throughout. Leaves mostly 5-20 x 1.5-5 mm, diminishing upwards, spathulate-oblong to oblong, apex rounded, base narrowed, half-clasping, both surfaces thickly white woolly-felted. Heads homogamous, cylindric, ±5 x 3 mm several clustered in glomerules 10-15 mm across at the branch tips, surrounded by leaves. Involucre surrounded by 2-3 reduced leaves webbed together with wool, bracts in 3-4 series, soon caducous, subequal, equalling flowers, loosely imbricate, not radiating, pale straw-coloured to light golden-brown, obtuse, apiculate, translucent, tips opaque or subopaque. Receptacle nearly smooth. Flowers 11-17. Achenes 0.75 mm long, glabrous. Pappus bristles many, delicate, scabrid, equalling corolla, bases cohering lightly by patent cilia.
+            sourceIds:
+              - sanbi_9268_0
+            locator: "SANBI/WFO archive Morphology row 48902; source 9268.0; publication: Hilliard, OM. 1983. Gnaphaliinae (first part): Facelis - Edmondia, Fl. S. Africa 33(7,2): 1 - 317. Botanical Research Institute, Department Agriculture, Pretoria. [http://www.biodiversitylibrary.org/item/209547#page/5/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Often found growing on bare, well compacted and often stony sand dunes and slopes on the foreshore.
+            sourceIds:
+              - sanbi_9268_0
+            locator: "SANBI/WFO archive Habitat row 54903; source 9268.0; publication: Hilliard, OM. 1983. Gnaphaliinae (first part): Facelis - Edmondia, Fl. S. Africa 33(7,2): 1 - 317. Botanical Research Institute, Department Agriculture, Pretoria. [http://www.biodiversitylibrary.org/item/209547#page/5/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

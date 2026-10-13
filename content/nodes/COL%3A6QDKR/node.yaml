@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes ingeri
+  displayName: Limnonectes ingeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDKR
+  sourceIndexes:
+    - name:
+        en: Limnonectes ingeri
+        zh: Limnonectes ingeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDKR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/80
+            queryName: Limnonectes ingeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/412
+            queryName: Rana ingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-749e783a29
+      - s-7de5fb7731
+      - s-6767461994
+      - s-45c6caf76e
+      - s-d56ed00e5b
+      - s-3615447694
+      - s-e5107209f0
+      - s-543ec4b5fa
+      - s-1c566930c7
+      - s-f55f533ddb
+      - s-f198890489
+    zh:
+      - s-b2a7cd8918
+      - s-cc072a3652
+      - s-89ed50053c
+      - s-676b0b4f0d
+      - s-5662b29d37
+      - s-1aec8fa6a7
+      - s-b5f12266cb
+      - s-229c04563b
+      - s-055fbfa079
+      - s-5f1ac8dd47
+      - s-1673d37e27

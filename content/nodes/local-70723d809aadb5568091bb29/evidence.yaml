@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Micrixalus herrei
+    name:
+      en: Micrixalus herrei
+      zh: Micrixalus herrei
+    sourceClassification:
+      order: Anura
+      family: Micrixalidae
+      genus: Micrixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-289a38fb28
+            part: body
+          zh:
+            page: zh
+            section: s-019b52d45b
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f1bce10707
+            part: body
+          zh:
+            page: zh
+            section: s-410ee50162
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3228, 3229; Reference.csv rows 824
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3228
+        values:
+          - Micrixalidae
+          - Micrixalus
+          - Micrixalus herrei
+          - F
+          - "25.8"
+          - "8.5"
+          - "8.4"
+          - "2.7"
+          - "1.1"
+          - NA
+          - "2.2"
+          - NA
+          - "1.8"
+          - "1.7"
+          - "3.8"
+          - "1.5"
+          - "6.3"
+          - "4.8"
+          - NA
+          - "12.1"
+          - NA
+          - "13.5"
+          - "13.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3229
+        values:
+          - Micrixalidae
+          - Micrixalus
+          - Micrixalus herrei
+          - M
+          - "18.3"
+          - "6.1"
+          - "6"
+          - "2.5"
+          - "0.9"
+          - NA
+          - "1.7"
+          - NA
+          - "1.4"
+          - "1.3"
+          - "2.7"
+          - "1.1"
+          - "4.9"
+          - "3.7"
+          - NA
+          - "9"
+          - NA
+          - "10.1"
+          - "10"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 824
+        values:
+          - Anura
+          - Micrixalus_herrei
+          - "Biju, S. D., Garg, S., Gururaja, K. V., Shouche, Y., & Walujkar, S. A. (2014). DNA barcoding reveals unprecedented diversity in dancing Frogs of India (Micrixalidae, Micrixalus): a taxonomic revision with description of 14 new species. Ceylon Journal of Science (Biological Sciences), 43(1). https://doi.org/10.4038/cjsbs.v43i1.6850"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 42RGR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,192 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Syngonanthus appressus (Körn.) Ruhland
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: COL26.8 accepted species ID 53WRC and exact name/authorship map through exactly one accepted WFO usage wfo-0000563571; the Brazilian Flora source record carries the same WFO ID.
+      scope: COL26.8 accepted species concept. Brazilian Flora fields remain regional dataset records; no global, current, complete-range or taxonomic-equivalence claim is made.
+      sourceIds:
+        - col26
+        - wfo2026
+        - brazilFlora2020
+      classificationPath:
+        - id: 53WRC
+          scientificName: Syngonanthus appressus (Körn.) Ruhland
+          rank: species
+          status: accepted
+        - id: 8W3XJ
+          scientificName: Syngonanthus Ruhland
+          rank: genus
+          status: accepted
+        - id: 623NZ
+          scientificName: Eriocaulaceae
+          rank: family
+          status: accepted
+        - id: 627VM
+          scientificName: Poales Small
+          rank: order
+          status: accepted
+        - id: L2L
+          scientificName: Liliopsida
+          rank: class
+          status: accepted
+        - id: TP
+          scientificName: Tracheophyta
+          rank: phylum
+          status: accepted
+        - id: CMQ8S
+          scientificName: Pteridobiotina Britton & Brown
+          rank: subkingdom
+          status: accepted
+        - id: P
+          scientificName: Plantae
+          rank: kingdom
+          status: accepted
+        - id: CS5HF
+          scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+          rank: domain
+          status: accepted
+    lifeStatusScope:
+      wild: Wild status is not specified in these source fields.
+      domesticated: Cultivated or managed status is not specified; none is inferred.
+      fossil: Fossil applicability is not assessed from this extant-flora source.
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Nomenclatural identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/53WRC
+          stableId: COL26.8:53WRC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 53WRC; source dataset 2232
+          attribution: Catalogue of Life COL26.8; underlying dataset 2232
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID, parent chain and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000563571-2026-06
+          stableId: wfo:wfo-0000563571-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-27
+          locator: Accepted species record wfo-0000563571; exact accepted-name/authorship mapping to COL 53WRC
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: brazilFlora2020
+        referenceId: ref-352c188a-fa63-8d4e-a243-10428cf85b9c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Brazilian Flora 2020 archived dataset fields; not inferred for linked publications, images or PDFs
+          stableId: doi:10.15468/1mtkaw; archive sha256 79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923; WFO wfo-0000563571
+          accessedAt: 2026-09-06
+          locator: 'Brazilian Flora 2020 v393.147, morphology row 88314; WFO wfo-0000563571; source identifier ref-morph-BR-pt-0000563571; reference row 51493; source-reported citation: "Echternacht, L.; Watanabe, M.T.C. 2020 Syngonanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29013. Accessed on: Jun. 30, 2021."; habitat row 33086'
+          attribution: "Group Brazil Flora, REFLORA Program (2014): Brazilian Flora 2020, v393.147, doi:10.15468/1mtkaw"
+          licenseAssessment: aggregate-declaration-only
+          scope: Regional source fields are retained verbatim with physical archive row locators. A morphology citation is the reference reported by the dataset; rights for the referenced publication are not independently verified. Habitat rows have dataset-level attribution only.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Raiz: cor creme/esponjosa(s). Caule: tipo aéreo longo(s)/ramificado(s). Folha: disposição no caule(s) em roseta(s) solitária(s)/em roseta(s) agrupada(s)/espiralada(s) ao longo(s) do caule(s); posição recurvada(s)/patente(s)/ascendente(s); forma lanceolada(s)/linear(es); ápice(s) agudo(s); indumento adaxial/abaxial; tipo de indumento pilosa(s)/pubescente(s)/com pelo(s) filamentoso(s) e ou malpiguiáceo(s). Inflorescência: eixo da sinflorescência(s) ausente(s); bráctea(s) do eixo da sinflorescência(s) ausente(s); posição do escapo terminal(ais) ou central(ais) no caule(s); bráctea(s) involucral(ais) uniforme ou gradual(ais) em forma/mais curta que ou na(s) mesma alt. que o disco de flor(es); ápice(s) das bráctea-involucral(ais) arredondado(s)/obtusa(s)/aguda(s); cor das bráctea-involucral(ais) concolor(es)/creme/estramínea/dourada/banda central(ais) longitudinal(ais) mais clara; indumento abaxial da bráctea-involucral(ais) glabrescente(s)/com tricoma(s) simples; bráctea(s) floral(ais) ausente(s). Flor: flor(es) unissexual(ais); flor(es) estaminada(s) com tubo da corola crassa(s) com curto(s) lobo(s) membranáceo(s); indumento da pétala(s) da flor(es) pistilada(s) piloso(s); gineceu com apêndice(s) nectarífero(s)."
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: 'Brazilian Flora 2020 v393.147, morphology description row 88314; WFO wfo-0000563571; source identifier ref-morph-BR-pt-0000563571; reference row 51493; dataset-reported citation: "Echternacht, L.; Watanabe, M.T.C. 2020 Syngonanthus in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB29013. Accessed on: Jun. 30, 2021."'
+            placeTimeScope: Verbatim morphology field in the Brazilian Flora 2020 regional dataset. The field does not establish a global description, sampling coverage, population variation, sex or life stage unless stated in its text.
+            lifeStatus: The field does not state whether observations concern wild, cultivated, managed or fossil material; none is inferred.
+        gaps:
+          - Only one source-labelled morphology field is included; its completeness, variation and diagnostic scope have not been assessed.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The source habit field is not treated as life-history evidence; life cycle and reproduction were not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Terrícola
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: Brazilian Flora 2020 v393.147, habitat field row 33086; dataset DOI 10.15468/1mtkaw; WFO wfo-0000563571
+            placeTimeScope: Habitat or substrate category exactly as recorded in this Brazilian Flora dataset row; no collection locality, survey date, global range or sampling completeness is supplied by the field.
+            lifeStatus: Wild, cultivated, managed and fossil applicability are not specified by this field.
+        gaps:
+          - Only source-labelled habitat field(s) are included; interactions, variation, locality and sampling coverage have not been assessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative evidence was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - No locality or range evidence was assessed; the regional flora dataset does not establish a complete distribution.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil search or species-level fossil evidence was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No qualifying conservation assessment was reviewed.

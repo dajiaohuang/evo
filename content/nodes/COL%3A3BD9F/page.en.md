@@ -1,0 +1,3 @@
+## ## Large leaflets and scarlet seeds {#s-ae6bedd796}
+The historical Flora of Panama describes *Erythrina costaricensis* as a tree, often with scattered spines. Its leaflets are 9–22 cm long and 6–20 cm wide, ranging from ovate to trapezoid-shaped, with narrowly pointed tips; their undersides are often glaucous, or pale and waxy-looking. The standard petal is 60–75 mm long. The beadlike, segmented fruit is 15–23 cm long and 1–2 cm wide; its seeds are scarlet and about 1 cm long or longer. The same historical flora says the species was known from Costa Rica, Panama and Colombia; this statement has no survey date or sampling frame and is not a current range inventory.
+

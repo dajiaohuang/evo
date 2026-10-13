@@ -1,0 +1,6 @@
+## A grooved leaf vein and one-flowered axes {#s-46e12640af}
+A Brazilian Flora 2020 v393.147 field describes oval to elliptic-oblong leaves, with long-tapering or tail-like tips and bases that are acute or sharply narrowed. The upper midrib is grooved; below, it is raised and winged or angular. The rest of the venation is recorded as inconspicuous. Axillary flower clusters have one to five branches, two or three internodes per axis and one flower per axis; bracts and bracteoles remain through flower opening. A true flower stalk is absent or at most 1 mm long. Flowers are five-part, with sepals free in bud and triangular at the tip, and white petals. Glands occur behind and below the anther sacs and are up to 0.6 mm long. The stamens are described as caudate (tail-like) and listed at 0.6–1.0 mm or 1.1–1.5 mm; the ovary has one chamber. The separate habitat field says “terrícola,” or terrestrial.
+
+## A terrestrial category alongside floral measurements {#s-a12d502756}
+The habitat field records “terrícola,” meaning terrestrial. It provides no locality, survey date or range coverage and does not distinguish wild, cultivated, managed or fossil material. The floral measurements and this habitat category are separate source fields.
+

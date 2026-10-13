@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylambates verrucosus
+  displayName: Hylambates verrucosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNC3
+  sourceIndexes:
+    - name:
+        en: Hylambates verrucosus
+        zh: Hylambates verrucosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNC3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/378
+            queryName: Hylambates verrucosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/224
+            queryName: Phlyctimantis verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/406
+            queryName: Kassina verrucosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa530c2990
+      - s-d7111b739a
+      - s-12a044d9b1
+      - s-f3ca8d7b05
+      - s-80f8b9b498
+      - s-e39ca6e805
+      - s-21bf1a4a3a
+      - s-5cec84ca20
+      - s-5f6d05b670
+      - s-0ca3413fc3
+      - s-2122bcedab
+      - s-7bd1c20c27
+      - s-7872f685fd
+      - s-6c03c0341a
+    zh:
+      - s-92575254c3
+      - s-fe69f60e22
+      - s-fb759af0e8
+      - s-52e73a72c4
+      - s-937099c765
+      - s-daeabcc42c
+      - s-e7a7dbba4e
+      - s-bed45f6f17
+      - s-19b016c50f
+      - s-2c27bd1478
+      - s-94f41b9952
+      - s-5c59e40a26
+      - s-aa6a391e6a
+      - s-0c679f83de

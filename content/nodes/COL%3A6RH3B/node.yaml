@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla irrawaddy
+  displayName: Microhyla irrawaddy
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6RH3B
+  sourceIndexes:
+    - name:
+        en: Microhyla irrawaddy
+        zh: Microhyla irrawaddy
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6RH3B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/8
+            queryName: Microhyla irrawaddy
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-682309b7c7
+      - s-5e20d5ce15
+      - s-d4e2e54536
+      - s-50a925d8ba
+      - s-d9e91e3ec3
+      - s-7c49d7fc1f
+      - s-8072ce4832
+      - s-70b17b21e7
+      - s-26ae17fbe0
+      - s-9f5b1e6182
+      - s-6c0a58f1bd
+      - s-88abee5dcc
+      - s-bbd352f6f3
+      - s-effca40db7
+      - s-3ddc09343b
+      - s-13d2b01aa5
+      - s-6029ac8ca7
+    zh:
+      - s-b524170929
+      - s-14e396d20f
+      - s-72eaff16b2
+      - s-0544461fdf
+      - s-57c4f29f1e
+      - s-9292357f51
+      - s-e1c0632074
+      - s-625744fa41
+      - s-3994684ed1
+      - s-9e53e46541
+      - s-b367fd7107
+      - s-86236ae546
+      - s-7a59c2866e
+      - s-1dc9c70028
+      - s-f9c193792e
+      - s-0b7b6d32d1
+      - s-7897502c12

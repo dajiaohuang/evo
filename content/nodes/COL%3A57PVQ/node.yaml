@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus helioi
+  displayName: Trachycephalus helioi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PVQ
+  sourceIndexes:
+    - name:
+        en: Trachycephalus helioi
+        zh: Trachycephalus helioi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PVQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/99
+            queryName: Trachycephalus helioi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad6533d5c6
+      - s-0e09190eee
+      - s-38563723fa
+      - s-d39f6fc13e
+      - s-e40f7d4231
+      - s-82c151d0fc
+    zh:
+      - s-16d31078fd
+      - s-fad66e30f1
+      - s-76ea8664cc
+      - s-f4492452c8
+      - s-fd21f0f7e4
+      - s-001cf43eb6

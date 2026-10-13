@@ -1,0 +1,718 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ischnocnema melanopygia Targino, Costa & Carvalho-e-Silva, 2009
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ischnocnema melanopygia
+      zh: Ischnocnema melanopygia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5a91e415b4
+            part: title
+          zh:
+            page: zh
+            section: s-62f4f4c4d1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5a91e415b4
+            part: body
+          zh:
+            page: zh
+            section: s-62f4f4c4d1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-255b5deec1
+            part: title
+          zh:
+            page: zh
+            section: s-34b10229c4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-255b5deec1
+            part: body
+          zh:
+            page: zh
+            section: s-34b10229c4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e9a3e43118
+            part: title
+          zh:
+            page: zh
+            section: s-441f100950
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-e9a3e43118
+            part: body
+          zh:
+            page: zh
+            section: s-441f100950
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-10835a5059
+            part: title
+          zh:
+            page: zh
+            section: s-a84d7dacfa
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-10835a5059
+            part: body
+          zh:
+            page: zh
+            section: s-a84d7dacfa
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-535829ee7c
+            part: title
+          zh:
+            page: zh
+            section: s-537ba2777d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-535829ee7c
+            part: body
+          zh:
+            page: zh
+            section: s-537ba2777d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9af6734c99
+            part: title
+          zh:
+            page: zh
+            section: s-50d24bac60
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-9af6734c99
+            part: body
+          zh:
+            page: zh
+            section: s-50d24bac60
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-63dcaeed839e490fc668130aa90c0764
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-8105945f464385554538503b
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9660e4d5de
+            part: title
+          zh:
+            page: zh
+            section: s-a76cb211c1
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3q4rz
+        text:
+          en:
+            page: en
+            section: s-9660e4d5de
+            part: body
+          zh:
+            page: zh
+            section: s-a76cb211c1
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-480bedde9d
+            part: title
+          zh:
+            page: zh
+            section: s-1637498ee9
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3q4rz
+        text:
+          en:
+            page: en
+            section: s-480bedde9d
+            part: body
+          zh:
+            page: zh
+            section: s-1637498ee9
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8bea57ce1e
+            part: title
+          zh:
+            page: zh
+            section: s-0370bd8564
+            part: title
+        sourceIds:
+          - primary-pmc10688756-3q4rz
+        text:
+          en:
+            page: en
+            section: s-8bea57ce1e
+            part: body
+          zh:
+            page: zh
+            section: s-0370bd8564
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-38720668f7
+            part: title
+          zh:
+            page: zh
+            section: s-c3d70f1846
+            part: title
+        sourceIds:
+          - primary-pmc6746222-3q4rz
+        text:
+          en:
+            page: en
+            section: s-38720668f7
+            part: body
+          zh:
+            page: zh
+            section: s-c3d70f1846
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-aac3bd29a0
+            part: title
+          zh:
+            page: zh
+            section: s-6f1dc80396
+            part: title
+        sourceIds:
+          - primary-pmc6746222-3q4rz
+        text:
+          en:
+            page: en
+            section: s-aac3bd29a0
+            part: body
+          zh:
+            page: zh
+            section: s-6f1dc80396
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-55d4a83196
+            part: title
+          zh:
+            page: zh
+            section: s-96db059211
+            part: title
+        sourceIds:
+          - primary-pmc6746222-3q4rz
+        text:
+          en:
+            page: en
+            section: s-55d4a83196
+            part: body
+          zh:
+            page: zh
+            section: s-96db059211
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-47d7c30020
+            part: title
+          zh:
+            page: zh
+            section: s-5ed53cd878
+            part: title
+        sourceIds:
+          - primary-pmc6746222-3q4rz
+        text:
+          en:
+            page: en
+            section: s-47d7c30020
+            part: body
+          zh:
+            page: zh
+            section: s-5ed53cd878
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-cd163f8afc
+            part: title
+          zh:
+            page: zh
+            section: s-8fbbf46c89
+            part: title
+        sourceIds:
+          - primary-pmc6746222-3q4rz
+        text:
+          en:
+            page: en
+            section: s-cd163f8afc
+            part: body
+          zh:
+            page: zh
+            section: s-8fbbf46c89
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-b858890829
+            part: body
+          zh:
+            page: zh
+            section: s-ebc5eb0684
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ischnocnema melanopygia
+          url: https://www.checklistbank.org/dataset/316115/taxon/3Q4RZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0298; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0298 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2433, 2434; Reference.csv rows 2231
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-3q4rz
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ischnocnema melanopygia: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc6746222-3q4rz
+        referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ischnocnema melanopygia: Complete sec2Methods including Table1; complete sec3 twenty namedResults accounts andfigurecaptions, sec4Discussion subsections sec5–17 inspected. Sourceconflicts retained; no figurepixels/rawaudio/supplementalTableS1/originalvouchers independentreview or acousticanalysis.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c050994254
+        part: body
+      zh:
+        page: zh
+        section: s-931e0a31db
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-63dcaeed839e490fc668130aa90c0764
+      sourceRowId: Anf0298
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0298
+        bibliographyRowId: Anf0298
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Ischnocnema melanopygia
+        candidateBibliographyRowIds:
+          - Anf0298
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-3q4rz
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Ischnocnema_melanopygia, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Ischnocnema melanopygia: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3q4rz
+            locator: PMC10688756 S3 File Traits row 206 Ischnocnema_melanopygia; XML Functional diversity; upstream reference numbers 1, 2, 3, 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f11b330652
+                part: body
+              zh:
+                page: zh
+                section: s-c153865dc0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3q4rz
+            locator: PMC10688756 S3 File Traits row 206 Ischnocnema_melanopygia habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-aadc856e02
+                part: body
+              zh:
+                page: zh
+                section: s-71a05aff95
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-3q4rz
+            locator: PMC10688756 S3 File Traits row 206 Ischnocnema_melanopygia length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d9f377356d
+                part: body
+              zh:
+                page: zh
+                section: s-f9fd8c6dcd
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.7612
+        referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+        sourceKey: primary-pmc6746222-3q4rz
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6746222/article.xml
+        sourceConcept: Source Ischnocnema melanopygia historic archive recordings; exact writtenname or explicit frozenusage link only
+        evidenceRead: "Ischnocnema melanopygia: Complete sec2Methods including Table1; complete sec3 twenty namedResults accounts andfigurecaptions, sec4Discussion subsections sec5–17 inspected. Sourceconflicts retained; no figurepixels/rawaudio/supplementalTableS1/originalvouchers independentreview or acousticanalysis.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Organization of the recorded vocalization
+              zh: 录音中的鸣声组织
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-3q4rz
+            locator: PMC6746222 XML sec3 direct-child rows6–7; Table1 tbody row3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2597d1043c
+                part: body
+              zh:
+                page: zh
+                section: s-950610b368
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Temporal and spectral measurements retain their samples
+              zh: 时间与频谱测量保留样本范围
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-3q4rz
+            locator: PMC6746222 XML sec3 direct-child rows6–7; Table1 tbody row3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-58750de4a2
+                part: body
+              zh:
+                page: zh
+                section: s-5a8ec31e26
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Archive recordings preserve locality and identification scope
+              zh: 档案录音保留地点和鉴定范围
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-3q4rz
+            locator: PMC6746222 XML Table1 tbody row3;sec2 identification
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f79da75a6
+                part: body
+              zh:
+                page: zh
+                section: s-0d19706376
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Filtering and energy-defined frequencies
+              zh: 滤波与按能量定义的频率
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-3q4rz
+            locator: PMC6746222 XML sec2 audioanalysis methods; Table1 row3; figurecaption rows8
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d01be8ab94
+                part: body
+              zh:
+                page: zh
+                section: s-857f5d42f3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Environmental and historical limits
+              zh: 环境与历史限制
+            referenceId: ref-302b1353-2e7a-478e-a76f-345887178f5d
+            sourceKey: primary-pmc6746222-3q4rz
+            locator: PMC6746222 XML sec2/Table1/sec3 namedaccount;sec3 opening inventory;sec4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-73f75a1aea
+                part: body
+              zh:
+                page: zh
+                section: s-e0da5488fb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

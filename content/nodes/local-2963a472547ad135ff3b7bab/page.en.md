@@ -1,0 +1,6 @@
+## Which source name is assigned to this tadpole record? {#s-c34582cac9}
+This record shows how TadpoleTraits files tadpoles under Jingophrys yeae. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Jingophrys yeae in Jingophrys and Megophryidae. In the literature table, rows 5537, 5538, 5539, 5540, 5542, 5543, 5544, 5545, 5548 list source Species Megophrys yeae → Species (ASTW) Jingophrys yeae. No image-measurement rows are present. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-630cdc172d}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 9 literature rows and 0 image-measurement rows for this source record. Literature Stage values are 31 (rows 5537, 5548); 29 (row 5538); 35 (row 5539); 28 (rows 5540, 5542, 5544); 32 (row 5543); 34 (row 5545). Sample size is populated in 9 rows, with source values from 1 to 1; the entries remain row-specific. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+

@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes keirasabinae Garg, Suyesh, Das, Bee & Biju, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes keirasabinae
+      zh: Raorchestes keirasabinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-453a89a044
+            part: title
+          zh:
+            page: zh
+            section: s-fdc27f271c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-453a89a044
+            part: body
+          zh:
+            page: zh
+            section: s-fdc27f271c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b7833ae82c
+            part: title
+          zh:
+            page: zh
+            section: s-d316bbb5cb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b7833ae82c
+            part: body
+          zh:
+            page: zh
+            section: s-d316bbb5cb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4ed24fc31f
+            part: title
+          zh:
+            page: zh
+            section: s-e71f7a1090
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx7d
+        text:
+          en:
+            page: en
+            section: s-4ed24fc31f
+            part: body
+          zh:
+            page: zh
+            section: s-e71f7a1090
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-1a169ed8b2
+            part: title
+          zh:
+            page: zh
+            section: s-17c6968db4
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx7d
+        text:
+          en:
+            page: en
+            section: s-1a169ed8b2
+            part: body
+          zh:
+            page: zh
+            section: s-17c6968db4
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-c4e48d109b
+            part: title
+          zh:
+            page: zh
+            section: s-03f75ca498
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx7d
+        text:
+          en:
+            page: en
+            section: s-c4e48d109b
+            part: body
+          zh:
+            page: zh
+            section: s-03f75ca498
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-35a05ec599
+            part: title
+          zh:
+            page: zh
+            section: s-9199ecf906
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slx7d
+        text:
+          en:
+            page: en
+            section: s-35a05ec599
+            part: body
+          zh:
+            page: zh
+            section: s-9199ecf906
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes keirasabinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/SLX7D
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7936570-slx7d
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes keirasabinae: Three-specimen morphology and colour hypothesis, canopy distribution, expressly unanalysed vocalisations and mitochondrial comparisons within wider multilocus study; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-75ad59239a
+        part: body
+      zh:
+        page: zh
+        section: s-c0690b2876
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-slx7d
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes keirasabinae
+        evidenceRead: "Raorchestes keirasabinae: Three-specimen morphology and colour hypothesis, canopy distribution, expressly unanalysed vocalisations and mitochondrial comparisons within wider multilocus study; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Webbed digits and limb fringes in a canopy frog
+              zh: 树冠蛙的指趾蹼与肢体皮缘
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx7d
+            locator: PMC7936570 XML sec11 paragraphs 39, 44
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a533fbbd30
+                part: body
+              zh:
+                page: zh
+                section: s-c651d320fe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: Known canopy records south of the Palghat gap
+              zh: Palghat 山口以南的树冠分布记录
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx7d
+            locator: PMC7936570 XML sec11 paragraph 45
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7178aaffaf
+                part: body
+              zh:
+                page: zh
+                section: s-e5f378b858
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Vocalisations were not recorded and analysed
+              zh: 研究尚未记录并分析其鸣声
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx7d
+            locator: PMC7936570 XML sec11 paragraph 45
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-616e5d9058
+                part: body
+              zh:
+                page: zh
+                section: s-4fa1bf6696
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: A sister relationship to nerostagona in the sampled tree
+              zh: 所采系统树中与 nerostagona 互为姐妹种
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slx7d
+            locator: PMC7936570 XML sec11 paragraph 38; sec4 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b249d975eb
+                part: body
+              zh:
+                page: zh
+                section: s-00767c0d9b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

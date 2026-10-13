@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Galagoides kumbirensis Svensson, Bersacola, Mills, Munds, Nijman, Perkin et al., 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 安哥拉小婴猴
+      en: Angolan Dwarf Galago
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-07c374a246
+            part: body
+          en:
+            page: en
+            section: s-cffc975a7a
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+          - svensson2017
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-27069be600
+            part: body
+          en:
+            page: en
+            section: s-15961433d7
+            part: body
+        sourceIds:
+          - svensson2017
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-8728bf9cb4
+            part: body
+          en:
+            page: en
+            section: s-148353d33f
+            part: body
+        sourceIds:
+          - svensson2017
+      - topic: interpretation
+        text:
+          zh:
+            page: zh
+            section: s-d3c8eb65ad
+            part: body
+          en:
+            page: en
+            section: s-78af302771
+            part: body
+        sourceIds:
+          - svensson2017
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Galagoides kumbirensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/3F2DY
+          scope:
+            zh: 支持固定 COL26.8 接受名、作者、等级和父链；不支持生物学正文。
+            en: Supports the pinned COL26.8 accepted name, authorship, rank and parent link; not biological claims.
+      - id: mdd_label
+        referenceId: ref-1d29e0f8-2523-8243-ad6b-17355f842b8b
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅用于英文普通名标签；物种身份按 COL26.8 ID。中文名为编辑译名。
+            en: Used only for the English common-name label; species identity follows the COL26.8 ID. The Chinese name is editorial.
+      - id: svensson2017
+        referenceId: ref-7d704bd2-1b29-85fd-ab31-9cb536928cd6
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持安哥拉三处森林生境调查、未知鸣声比较、博物馆样本及种级诊断；不支持种群估计或完整分布。
+            en: Supports surveys in three Angolan forest habitats, comparison of the unknown call, museum material and the species diagnosis; not population estimates or a full range.
+    limitations:
+      zh:
+        page: zh
+        section: s-ecfb9e61e6
+        part: body
+      en:
+        page: en
+        section: s-3ded196054
+        part: body

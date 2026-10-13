@@ -1,0 +1,388 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Blaira ornata (Günther, 1876)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Blaira ornata
+      zh: Blaira ornata
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0f5bc24a40
+            part: title
+          zh:
+            page: zh
+            section: s-7f1ac0dc3c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0f5bc24a40
+            part: body
+          zh:
+            page: zh
+            section: s-7f1ac0dc3c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-7a16fa1fc3
+            part: title
+          zh:
+            page: zh
+            section: s-d7eacdc645
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7a16fa1fc3
+            part: body
+          zh:
+            page: zh
+            section: s-d7eacdc645
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3c2b3ee9d3
+            part: title
+          zh:
+            page: zh
+            section: s-4416def618
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3c2b3ee9d3
+            part: body
+          zh:
+            page: zh
+            section: s-4416def618
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-7acfce231c157fbaa3797482dd06e2e9
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-97a5d99001
+            part: title
+          zh:
+            page: zh
+            section: s-08bbf01d04
+            part: title
+        sourceIds:
+          - primary-pmc4740822-m3zdj
+        text:
+          en:
+            page: en
+            section: s-97a5d99001
+            part: body
+          zh:
+            page: zh
+            section: s-08bbf01d04
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-59ad8d0bf3
+            part: title
+          zh:
+            page: zh
+            section: s-f784cf0941
+            part: title
+        sourceIds:
+          - primary-pmc4740822-m3zdj
+        text:
+          en:
+            page: en
+            section: s-59ad8d0bf3
+            part: body
+          zh:
+            page: zh
+            section: s-f784cf0941
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6d81e9a0d2
+            part: title
+          zh:
+            page: zh
+            section: s-b714476fe8
+            part: title
+        sourceIds:
+          - primary-pmc4740822-m3zdj
+        text:
+          en:
+            page: en
+            section: s-6d81e9a0d2
+            part: body
+          zh:
+            page: zh
+            section: s-b714476fe8
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4cbb58af9a
+            part: title
+          zh:
+            page: zh
+            section: s-eaf9bd062d
+            part: title
+        sourceIds:
+          - primary-pmc4740822-m3zdj
+          - primary-pmc4740822-m3zdj-catalogue-alias-3fyhy
+        text:
+          en:
+            page: en
+            section: s-4cbb58af9a
+            part: body
+          zh:
+            page: zh
+            section: s-eaf9bd062d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Blaira ornata
+          url: https://www.checklistbank.org/dataset/316115/taxon/M3ZDJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0606; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0606 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc4740822-m3zdj
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Blaira ornata: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc4740822-m3zdj-catalogue-alias-3fyhy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 usage3FYHY acceptedM3ZDJ
+          scope:
+            en: Exact nomenclatural link Ghatophryne ornata to Blaira ornata; no voucher/sequence authentication
+            zh: Ghatophryne ornata 至 Blaira ornata 的精确命名链接；未认证凭证/序列
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc4740822-m3zdj-catalogue-alias-3fyhy
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-78f39f1200
+        part: body
+      zh:
+        page: zh
+        section: s-f2b36cc2c9
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-pmc4740822-m3zdj
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Source labelsGhatophryne ornata; comparisonvoucher/sequence/focal roles retainedseparately; no originalidentitycertification
+        evidenceRead: "Blaira ornata: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Evidence roles in the Andaman toad description
+              zh: 安达曼蟾蜍描述中的证据角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-m3zdj
+            locator: PMC4740822 XML Table3 idT6 rows23;App1 entries
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a6d61255eb
+                part: body
+              zh:
+                page: zh
+                section: s-3adde6d2a5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Comparative material does not supply every trait
+              zh: 比较材料并不提供全部性状
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-m3zdj
+            locator: PMC4740822 XMLsec4;sec26;App1;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f9478a7ace
+                part: body
+              zh:
+                page: zh
+                section: s-7aac87bec3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Mitochondrial sampling and phylogenetic limits
+              zh: 线粒体采样与系统树限制
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-m3zdj
+            locator: PMC4740822 XMLsec4molecularmethods;sec27;Table3idT6;Table6idT5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fcb684b8dd
+                part: body
+              zh:
+                page: zh
+                section: s-e965e4837f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Frozen nomenclatural correspondence retains the source label
+              zh: 冻结命名对应保留来源标签
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-m3zdj
+            locator: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/col26.8-name-bridges.json usage3FYHY
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6c459f0f84
+                part: body
+              zh:
+                page: zh
+                section: s-549ff66cb2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

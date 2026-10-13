@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera bokermanni
+  displayName: Adenomera bokermanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZMG
+  sourceIndexes:
+    - name:
+        en: Adenomera bokermanni
+        zh: Adenomera bokermanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZMG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/28
+            queryName: Adenomera bokermanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/325
+            queryName: Leptodactylus bokermanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-342a26cff8
+      - s-b3498bc130
+      - s-977c1952b6
+      - s-4489cbdd2d
+      - s-61642ca542
+      - s-9ed3be785a
+      - s-581c1de437
+      - s-e7a056bd36
+      - s-8c7c11a50d
+      - s-a79de3240b
+      - s-9cf1baeb3c
+      - s-7b4be360f3
+      - s-afdd3e18bb
+    zh:
+      - s-09fcc3a866
+      - s-68c89d0d26
+      - s-69caef5cc9
+      - s-6327ea0344
+      - s-c0e60cbb04
+      - s-0ddf602cd9
+      - s-0731c2b3f1
+      - s-e717314b0f
+      - s-3c8c7654b1
+      - s-b2b64c5d30
+      - s-805be0b889
+      - s-c49a43a9ef
+      - s-d14cfc8ce0

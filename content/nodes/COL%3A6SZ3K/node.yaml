@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oscaecilia elongata
+  displayName: Oscaecilia elongata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SZ3K
+  sourceIndexes:
+    - name:
+        en: Oscaecilia elongata
+        zh: Oscaecilia elongata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SZ3K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/316
+            queryName: Oscaecilia elongata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/414
+            queryName: Caecilia elongata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-549980e341
+      - s-b61448cc7d
+      - s-668d2fd5d5
+      - s-1c4b6a0b9e
+      - s-e0a7bcc1e2
+      - s-7dbc621d5a
+      - s-52ffb4265d
+      - s-e4f7136f8a
+      - s-a49b0f5136
+      - s-c41e8f3814
+    zh:
+      - s-68b3f8950a
+      - s-57a08e98f1
+      - s-911a938b8c
+      - s-b8c34c8fd8
+      - s-266a2b5902
+      - s-0236f5d150
+      - s-d3fc91792b
+      - s-f6fbf5af37
+      - s-d78b4b6146
+      - s-2b4789e8ee

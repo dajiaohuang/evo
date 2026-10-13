@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachylophosaurus canadensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Brachylophosaurus canadensis
+      en: Brachylophosaurus canadensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-96e5e95c28
+            part: body
+          en:
+            page: en
+            section: s-f0da6782c5
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d3d1f629e9
+            part: body
+          en:
+            page: en
+            section: s-6b955f6528
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-32506f635e
+            part: body
+          en:
+            page: en
+            section: s-ab1c0d880b
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1154efc6cc
+            part: body
+          en:
+            page: en
+            section: s-a5f4598756
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5f80424d0
+            part: body
+          en:
+            page: en
+            section: s-ddd6580d0c
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Brachylophosaurus canadensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=65213&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:65213; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:65213
+          selectedOccurrenceIds:
+            - occ:280571
+            - occ:520762
+            - occ:565134
+            - occ:642473
+            - occ:686854
+            - occ:1231991
+            - occ:1606924
+          selectedCollectionIds:
+            - col:26779
+            - col:53146
+            - col:59041
+            - col:69281
+            - col:73891
+            - col:162171
+            - col:227264
+          sourceReferenceIds:
+            - ref:7405
+            - ref:4217
+            - ref:51599
+            - ref:82729
+            - ref:82676
+            - ref:52782
+          originalIdentificationMappings:
+            - occurrenceId: occ:280571
+              originalIdentifiedName: Brachylophosaurus goodwini n. sp.
+              acceptedName: Brachylophosaurus canadensis
+              difference: null
+            - occurrenceId: occ:565134
+              originalIdentifiedName: Brachylophosaurus canadensis n. gen. n. sp.
+              acceptedName: Brachylophosaurus canadensis
+              difference: null
+            - occurrenceId: occ:642473
+              originalIdentifiedName: Brachylophosaurus goodwini
+              acceptedName: Brachylophosaurus canadensis
+              difference: null
+            - occurrenceId: occ:1606924
+              originalIdentifiedName: Brachylophosaurus goodwini
+              acceptedName: Brachylophosaurus canadensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8259def564
+        part: body
+      en:
+        page: en
+        section: s-7fe9694dc4
+        part: body

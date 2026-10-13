@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus leopardus
+  displayName: Brachycephalus leopardus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PYB
+  sourceIndexes:
+    - name:
+        en: Brachycephalus leopardus
+        zh: Brachycephalus leopardus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PYB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/420
+            queryName: Brachycephalus leopardus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d8a1381948
+      - s-9d1969e195
+      - s-0edf8b2864
+      - s-24af41f034
+      - s-d56cc3e842
+      - s-0ee28ee659
+      - s-bad2a35273
+      - s-a81b34da66
+      - s-31685488d6
+      - s-f8c9e02989
+      - s-24dea6bf28
+      - s-fd13041d65
+      - s-dc4971ec84
+    zh:
+      - s-3456b35b14
+      - s-ad69610970
+      - s-0de63b888f
+      - s-88f8213f01
+      - s-b52ab8decc
+      - s-6804181842
+      - s-47909eb902
+      - s-b852b47e7e
+      - s-3d8ac53479
+      - s-491adace6c
+      - s-459e16d8bf
+      - s-2193755193
+      - s-407b1f44ef

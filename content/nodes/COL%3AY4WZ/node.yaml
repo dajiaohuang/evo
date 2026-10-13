@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Copiula exspectata
+  displayName: Copiula exspectata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y4WZ
+  sourceIndexes:
+    - name:
+        en: Copiula exspectata
+        zh: Copiula exspectata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y4WZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/7
+            queryName: Copiula exspectata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8f1177dee9
+      - s-78d987bf3d
+      - s-41c221aa33
+      - s-8ed3e32d44
+      - s-57d5d6c656
+      - s-5cf31bb295
+      - s-bff104af51
+    zh:
+      - s-3f86702043
+      - s-da552ebe47
+      - s-76d0db00ce
+      - s-e1ebc745ec
+      - s-bc39ee0b46
+      - s-26e5a5a4e8
+      - s-0eeaa643e3

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Charadrahyla chaneque
+  displayName: Charadrahyla chaneque
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TMVV
+  sourceIndexes:
+    - name:
+        en: Charadrahyla chaneque
+        zh: Charadrahyla chaneque
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TMVV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/223
+            queryName: Charadrahyla chaneque
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/172
+            queryName: Hyla chaneque
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/273
+            queryName: Hyla duellmani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be8a0f767b
+      - s-1be1c67235
+      - s-d76a2028fd
+      - s-643963896a
+      - s-1328905e11
+      - s-fcf544540d
+      - s-d8b6703490
+      - s-011a146e05
+      - s-a3506b594b
+      - s-e4d87393a0
+      - s-b2c0fd2315
+    zh:
+      - s-d083c8eebd
+      - s-7717db4c7c
+      - s-678591e934
+      - s-c4a9428f9c
+      - s-2aeb6e8d4b
+      - s-c0fd99817d
+      - s-b94c615e53
+      - s-0a9f667d11
+      - s-13503e8e94
+      - s-4fa932058d
+      - s-6c52881447

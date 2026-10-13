@@ -1,0 +1,148 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus gaudichaudii
+  displayName: Crossodactylus gaudichaudii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMC2
+  sourceIndexes:
+    - name:
+        en: Crossodactylus gaudichaudii
+        zh: Crossodactylus gaudichaudii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMC2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/230
+            queryName: Crossodactylus gaudichaudii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/318
+            queryName: Crossodactylus aeneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/466
+            queryName: Limnocharis fuscus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/467
+            queryName: Elosia vomerina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/468
+            queryName: Phyllobates fuscigula
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/469
+            queryName: Phyllobates gaudichaudii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/470
+            queryName: Leptodactylus gaudichaudii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/471
+            queryName: Grossodactylus vomerinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/472
+            queryName: Phyllobates brasiliensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-37fa16fcb6
+      - s-c62cc43f15
+      - s-779f3eb6f9
+      - s-1446aca09f
+      - s-46e22a063a
+      - s-216bdea836
+      - s-d5b58c509f
+      - s-521c05528e
+      - s-1c49e0d30f
+      - s-d326eaa4d9
+      - s-3e226a8e2a
+      - s-bffc534524
+      - s-fac0601fcf
+      - s-4a7e211932
+      - s-b983ed1e2c
+      - s-435f615cf0
+      - s-fb23a10585
+      - s-18efca5ff4
+      - s-03744ec5fd
+      - s-ac836b9bcf
+      - s-5d07073ab2
+      - s-07297fa213
+      - s-4174fbd0d5
+      - s-ac3028f61a
+      - s-7efa6ed406
+      - s-b43e7cfded
+      - s-945e68099f
+    zh:
+      - s-2e67ccff1b
+      - s-abdb938353
+      - s-ed283a5365
+      - s-7c57a04080
+      - s-6d73c7dd31
+      - s-85fe265aa9
+      - s-9f58bdf8c5
+      - s-c84b7c1615
+      - s-da94b6a4f1
+      - s-0a33c9b3b8
+      - s-130de1dadf
+      - s-3d0190dcc5
+      - s-e95870acd3
+      - s-2fe786abdd
+      - s-d85b630867
+      - s-ce3e15b5e6
+      - s-9d419e2c9a
+      - s-d811d69eba
+      - s-84b2917e2e
+      - s-3ca03de00e
+      - s-d3778cee52
+      - s-2dd8023b95
+      - s-93d4a73d01
+      - s-bbd2e7b524
+      - s-95f4506030
+      - s-99388b6b98
+      - s-bb635b1a73

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla lacertosa
+  displayName: Plectrohyla lacertosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5CG
+  sourceIndexes:
+    - name:
+        en: Plectrohyla lacertosa
+        zh: Plectrohyla lacertosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5CG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/438
+            queryName: Plectrohyla lacertosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/381
+            queryName: Hyla lacertosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a691865179
+      - s-8475f2ccdc
+      - s-80c52d0905
+      - s-29ccdb8c60
+      - s-eb65bd35af
+      - s-3be07cc0a7
+      - s-f5eba49b92
+      - s-558e75fc94
+      - s-d86cd5e639
+    zh:
+      - s-a75e574b26
+      - s-7b385d123a
+      - s-ee2e0f3b76
+      - s-d2c8a4e541
+      - s-6599a29a25
+      - s-1474bd2ed5
+      - s-9d7a840168
+      - s-913f6c1ed7
+      - s-e74caf4109

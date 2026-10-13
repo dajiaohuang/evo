@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyloscirtus torrenticola
+  displayName: Hyloscirtus torrenticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGQR
+  sourceIndexes:
+    - name:
+        en: Hyloscirtus torrenticola
+        zh: Hyloscirtus torrenticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGQR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/76
+            queryName: Hyloscirtus torrenticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/485
+            queryName: Hyla torrenticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/352
+            queryName: Boana torrenticola
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6dece50fc
+      - s-4734709599
+      - s-d9ffb113f2
+      - s-0ef3a54c4a
+      - s-e4c11e2dea
+      - s-a405db351b
+      - s-22c4dd42ef
+      - s-6a64d483f7
+      - s-1abc458bd0
+    zh:
+      - s-ca569aa341
+      - s-8616754d0a
+      - s-2fca486a14
+      - s-6b0b0a7baa
+      - s-3835d17db3
+      - s-4f5226c5ad
+      - s-c4db4a23b0
+      - s-d7857e6756
+      - s-76bc9ab913

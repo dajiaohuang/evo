@@ -1,0 +1,3 @@
+## ## Branched setae on tomentose stems {#s-2f13905c19}
+The Brazilian Flora 2020 entry records tomentose stems with hairs appressed forward or backward, unbranched thread-like setae and branched plumose or star-shaped setae. Glandular hairs, prickles and short shoots are absent. The stipules persist; extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose or ellipsoid, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Corolla lobes are pilose and have one to three veins; the androecium is isostemonous, with yellow filaments. This regional entry lists character states but does not quantify species-wide variation.
+

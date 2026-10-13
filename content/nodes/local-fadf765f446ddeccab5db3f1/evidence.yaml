@@ -1,0 +1,343 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Vitreorana ritae
+    name:
+      en: Vitreorana ritae
+      zh: Vitreorana ritae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Which source name is assigned to this tadpole record?
+          zh: 这条蝌蚪记录采用什么来源名称？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-5fec82030f
+            part: body
+          zh:
+            page: zh
+            section: s-6b2d562701
+            part: body
+      - topic: morphology
+        title:
+          en: What do the rows actually report?
+          zh: 数据行实际记录了什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-f3230748c4
+            part: body
+          zh:
+            page: zh
+            section: s-b0ad5f2c6a
+            part: body
+      - topic: morphology
+        title:
+          en: What can the image measurements show?
+          zh: 图像测量能说明什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-79b8db07e2
+            part: body
+          zh:
+            page: zh
+            section: s-3bea18b0a0
+            part: body
+      - topic: overview
+        title:
+          en: Where do the supplied ratios disagree?
+          zh: 哪些来源比例存在差异？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-881c48e543
+            part: body
+          zh:
+            page: zh
+            section: s-0ef9f42c57
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1910; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Centrolenidae
+      genus: Vitreorana
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 1910
+        values:
+          - "Schiesari, L., Rossa-Feres, D. D. C., Menin, M. & Hödl, W. (2022). Tadpoles of Central Amazonia (Amphibia: Anura). Zootaxa, 5223, 1-149."
+          - Measurement
+          - Hand-drawn picture
+          - Vitreorana ritae
+          - Centrolenidae
+          - Vitreorana
+          - Vitreorana ritae
+          - 25
+          - 13.166
+          - 3.258
+          - 9.932
+          - 1.377
+          - 1.766
+          - 1.032
+          - 0.505
+          - 0.298
+          - 2.638
+          - 1.08
+          - 1.007
+          - 0.247455567375
+          - 0.7543673973722
+          - 0.1458757454383
+          - 0.134133373841714
+          - 0.783837156311712
+          - 0.383563724745557
+          - 0.2263457426289
+          - 0.236457542154
+          - 0.82294698465745
+          - 0.76484885316486
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 1910
+        scientificName: Vitreorana ritae
+        sourceField: BMH/TL
+        suppliedRatio: 0.1458757454383
+        originalNumerator: 1.377
+        originalTotalLength: 13.166
+        computedRatio: 0.1045875740543825
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1910
+        scientificName: Vitreorana ritae
+        sourceField: TMH/TL
+        suppliedRatio: 0.783837156311712
+        originalNumerator: 1.032
+        originalTotalLength: 13.166
+        computedRatio: 0.0783837156311712
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1910
+        scientificName: Vitreorana ritae
+        sourceField: DFH/TL
+        suppliedRatio: 0.383563724745557
+        originalNumerator: 0.505
+        originalTotalLength: 13.166
+        computedRatio: 0.03835637247455567
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1910
+        scientificName: Vitreorana ritae
+        sourceField: VFH/TL
+        suppliedRatio: 0.2263457426289
+        originalNumerator: 0.298
+        originalTotalLength: 13.166
+        computedRatio: 0.022634057420628892
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1910
+        scientificName: Vitreorana ritae
+        sourceField: BMW/TL
+        suppliedRatio: 0.236457542154
+        originalNumerator: 2.638
+        originalTotalLength: 13.166
+        computedRatio: 0.20036457542154032
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1910
+        scientificName: Vitreorana ritae
+        sourceField: TMW/TL
+        suppliedRatio: 0.82294698465745
+        originalNumerator: 1.08
+        originalTotalLength: 13.166
+        computedRatio: 0.08202946984657451
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 1910
+        scientificName: Vitreorana ritae
+        sourceField: OD/TL
+        suppliedRatio: 0.76484885316486
+        originalNumerator: 1.007
+        originalTotalLength: 13.166
+        computedRatio: 0.07648488531064863
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.247455567375
+        row: 1910
+        stage: 25
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.7543673973722
+        row: 1910
+        stage: 25
+        type: Measurement
+        imageType: Hand-drawn picture
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.134133373841714
+        row: 1910
+        stage: 25
+        type: Measurement
+        imageType: Hand-drawn picture
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 7FTFF
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

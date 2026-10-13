@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c452aa3a29
+      part: title
+    titleZh:
+      page: zh
+      section: s-a465f0e14e
+      part: title
+    category: phylogenetic
+    startAge: 0
+    endAge: 0
+    regions:
+      - Global living-taxon transcriptome and genome samples
+    clades:
+      - Anthozoa
+      - Medusozoa
+      - Cnidaria
+    summary:
+      page: en
+      section: s-c452aa3a29
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a465f0e14e
+      part: body
+    claimIds:
+      - claim:event:cnidarian-phylogenomic-sample
+    evidenceItems:
+      - statement: Fifteen new transcriptomes were combined with twenty-six public genomes or transcriptomes; raw data and analysis assets were deposited.
+        relation: supports
+        claimIds:
+          - claim:event:cnidarian-phylogenomic-sample
+        referenceLinks:
+          - referenceId: zapata-2015-cnidaria
+            relation: supports
+            pages: e0139068
+            figure: Figures 1–4; Supplementary Figures S1–S12; BioProject PRJNA263637
+            quoteLocator: 41-taxon matrices, partition/model tests and node support
+    uncertaintyItems:
+      - statement: A living-taxon topology does not date fossil specimens, settle extinct placements or make the navigation ontology a complete phylogeny.
+        relation: contextualizes
+        claimIds:
+          - claim:event:cnidarian-phylogenomic-sample
+        referenceLinks:
+          - referenceId: zapata-2015-cnidaria
+            relation: supports
+            pages: e0139068
+            figure: Figures 1–4; Supplementary Figures S1–S12; BioProject PRJNA263637
+            quoteLocator: 41-taxon matrices, partition/model tests and node support
+  claims:
+    - subjectId: event:cnidarian-phylogenomic-sample
+      claimKind: scientific
+      claimType: topology
+      statement: A 41-taxon phylogenomic matrix supports Anthozoa, Medusozoa, Octocorallia, Hydrozoa and a Staurozoa–Cubozoa–Scyphozoa clade, while Hexacorallia support is weak because Ceriantharia placement is equivocal.
+      confidence: high
+      confidenceRationale: The matrices, raw accessions and alternative topology tests are explicit; confidence is limited to sampled living taxa and stated nodes rather than every cnidarian relationship.
+      referenceLinks:
+        - referenceId: zapata-2015-cnidaria
+          relation: supports
+          pages: e0139068
+          figure: Figures 1–4; Supplementary Figures S1–S12; BioProject PRJNA263637
+          quoteLocator: 41-taxon matrices, partition/model tests and node support
+  claim-rationales.zh:
+    - 矩阵、原始登录号和替代拓扑检验均明确；置信度仅适用于取样现生类群和指定节点，而非所有刺胞动物关系。
+  claim-statements.zh:
+    - 一套含 41 个分类单元的系统基因组矩阵支持珊瑚虫纲、水母亚门、八放珊瑚亚纲、水螅纲以及十字水母纲—箱水母纲—钵水母纲支系；但因角海葵目位置不确定，六放珊瑚亚纲的支持较弱。

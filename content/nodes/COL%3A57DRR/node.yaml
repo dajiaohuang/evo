@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tomopterna natalensis
+  displayName: Tomopterna natalensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57DRR
+  sourceIndexes:
+    - name:
+        en: Tomopterna natalensis
+        zh: Tomopterna natalensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57DRR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/89
+            queryName: Tomopterna natalensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/455
+            queryName: Pyxicephalus natalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/456
+            queryName: Rana natalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/457
+            queryName: Pyxicephalus pondoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8fe16b17d7
+      - s-01f3327cdd
+      - s-5dfefca298
+      - s-c62ca00480
+      - s-cb17953a54
+      - s-fd0b626b64
+      - s-0e66af452c
+      - s-ca20967890
+      - s-6207363512
+      - s-0df648b3a6
+      - s-8793ff7845
+      - s-75ed5aa1ee
+      - s-1fdba62768
+      - s-ae3ed46c19
+      - s-ccf83c285f
+      - s-8880cfe68f
+    zh:
+      - s-a39b417a22
+      - s-59378e08e9
+      - s-bfb00df7e8
+      - s-ef5f3b7892
+      - s-c7d397b20f
+      - s-8327112fad
+      - s-cd19f4d278
+      - s-e5155a6e53
+      - s-ce6920bb0a
+      - s-7fd2a9c723
+      - s-bf74c949bf
+      - s-44f2cfe96b
+      - s-af39098f35
+      - s-053143e0d7
+      - s-69d9f63052
+      - s-60084e85ef

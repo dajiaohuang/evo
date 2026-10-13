@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiropterotriton casasi
+  displayName: Chiropterotriton casasi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MFQ2Y
+  sourceIndexes:
+    - name:
+        en: Chiropterotriton casasi
+        zh: Chiropterotriton casasi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MFQ2Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/289
+            queryName: Chiropterotriton casasi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6278aa475
+      - s-a125f5dcee
+      - s-a2c36e923e
+      - s-e2b30a67c8
+      - s-420acc6cc9
+      - s-3985131023
+      - s-21025e5098
+      - s-3705c7f8fc
+      - s-ccc87ce1c7
+      - s-2af4b74cdd
+      - s-8b505e5029
+      - s-84943abc76
+      - s-15d64d790d
+    zh:
+      - s-2640a14597
+      - s-5d99ca9dd1
+      - s-de93a5408e
+      - s-cad8ab0768
+      - s-de67eb52cc
+      - s-59d3164236
+      - s-3f13794686
+      - s-4b87f0ed43
+      - s-4f7548d792
+      - s-2b33839ac9
+      - s-d79c1c12ae
+      - s-1543dcae69
+      - s-6482799b0f

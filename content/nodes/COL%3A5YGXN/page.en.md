@@ -1,0 +1,3 @@
+## *Chromolaena punctulata*: gland-dotted bracts and oblong fruits {#s-236703dba8}
+The Brazilian Flora 2020 regional field records opposite, egg-shaped leaves with three main veins and entire or serrated margins. The lower surface may be gland-dotted or bristly, while the upper may become hairless. Sessile or nearly stalkless heads form corymb-like clusters inside cylindrical bract cups. Outer bracts may be upright, glandular, or finely hairy; inner bracts are upright and hairless. The oblong fruitlets are hairless and have rough pappus bristles. These alternatives are recorded in a regional dataset.
+

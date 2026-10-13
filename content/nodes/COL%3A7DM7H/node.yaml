@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperodon systoma
+  displayName: Uperodon systoma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DM7H
+  sourceIndexes:
+    - name:
+        en: Uperodon systoma
+        zh: Uperodon systoma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DM7H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/181
+            queryName: Uperodon systoma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/283
+            queryName: Rana systoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/284
+            queryName: Bombinator systoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/285
+            queryName: Systoma leschenaultii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/286
+            queryName: Cacopus systoma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/287
+            queryName: Pachybatrachus petersii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-96f714ccdf
+      - s-40d1a410a3
+      - s-b65d6e05d8
+      - s-dabf73df38
+      - s-a3273a41e3
+      - s-57d719aabd
+      - s-aae14268b3
+      - s-747d26e649
+      - s-085b64a706
+      - s-b9b8292d8a
+      - s-03b085cc3a
+      - s-1841c81a9f
+      - s-9794cb2e97
+    zh:
+      - s-cefbd36978
+      - s-4fa1f0d3e6
+      - s-52ab948850
+      - s-4bcc1fd925
+      - s-090fc7bd14
+      - s-d4ce19dfd9
+      - s-ec94c53219
+      - s-8c61c9ed30
+      - s-3418943935
+      - s-84ca78a420
+      - s-4c5b2d37c2
+      - s-47e2f72e07
+      - s-17d27998c0

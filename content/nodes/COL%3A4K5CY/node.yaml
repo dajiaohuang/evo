@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla tecunumani
+  displayName: Plectrohyla tecunumani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5CY
+  sourceIndexes:
+    - name:
+        en: Plectrohyla tecunumani
+        zh: Plectrohyla tecunumani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5CY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/445
+            queryName: Plectrohyla tecunumani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/385
+            queryName: Hyla tecunumani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c105639c3
+      - s-5f45b70325
+      - s-e35febd846
+      - s-e5c4031bd0
+      - s-34778947a3
+      - s-ccacfdf9ff
+      - s-0270236a32
+      - s-9289a0d1d1
+    zh:
+      - s-d9127a995e
+      - s-01ce66965d
+      - s-80e0ba0b0c
+      - s-13ea11ea88
+      - s-0040b49d90
+      - s-74c7aa41b1
+      - s-c39df21019
+      - s-1bde925bc9

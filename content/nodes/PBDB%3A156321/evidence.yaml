@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Macropelobates osborni
+    rank: species
+    sourceTaxonId: txn:156321
+    name:
+      en: Macropelobates osborni
+      zh: Macropelobates osborni
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-f9ea0f37ef
+            part: body
+          zh:
+            page: zh
+            section: s-eb579b4e1a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-02351ee373
+            part: body
+          zh:
+            page: zh
+            section: s-93a8fb8530
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-1fdab4066c
+            part: body
+          zh:
+            page: zh
+            section: s-bb2e9071c0
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156321; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: G. K. Noble. 1924. A new spadefoot toad from the Oligocene of Mongolia, with a summary of the evolution of the Pelobatidae. American Museum Novitates 132:1-15
+    occurrenceEvidence:
+      - occurrenceId: occ:831817
+        collectionId: col:53977
+        acceptedTaxonId: txn:156321
+        identifiedName: Macropelobates osborni n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:30967
+        bibliography: G. K. Noble. 1924. A new spadefoot toad from the Oligocene of Mongolia, with a summary of the evolution of the Pelobatidae. American Museum Novitates 132:1-15
+        locality:
+          countryCode: MN
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Hsanda Gol
+          member: null
+        olderAgeMa: 33.9
+        youngerAgeMa: 27.3
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-1fdab4066c
+            part: body
+          zh:
+            page: zh
+            section: s-bb2e9071c0
+            part: body
+        sourceIds: []

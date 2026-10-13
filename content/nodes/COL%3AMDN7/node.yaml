@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa aureogularis
+  displayName: Bolitoglossa aureogularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDN7
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa aureogularis
+        zh: Bolitoglossa aureogularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDN7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/82
+            queryName: Bolitoglossa aureogularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8fda327200
+      - s-0c7a53a62c
+      - s-2d0c999854
+      - s-7708eed6db
+      - s-cdf4f2c33e
+    zh:
+      - s-a9e0397dd6
+      - s-aa9261d955
+      - s-c8219285a8
+      - s-a2671be4e7
+      - s-9fe49f2e53

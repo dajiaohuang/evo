@@ -1,0 +1,28 @@
+## Accepted name and placement {#s-fcb4895324}
+COL26.8 accepts Gastrotheca lojana Parker, 1932 as a species. Its recorded classification places it along Anura (order) → Hemiphractidae (family) → Gastrotheca (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-35e9cbc68f}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-42496f478e}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [TadpoleTraits v4: Gastrotheca lojana](../../../../../../../../../../../../../topics/research/TadpoleTraits/Hemiphractidae/Gastrotheca/Gastrotheca_lojana/page.en.md)
+- [Amphibian morphology v3: Gastrotheca lojana](../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Hemiphractidae/Gastrotheca/Gastrotheca_lojana/page.en.md)
+- [AmphiTherm curated snapshot: Gastrotheca lojana](../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Hemiphractidae/Gastrotheca/Gastrotheca_lojana/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-281523f675}
+Deposited source concept: Gastrotheca lojana, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 8 literature-derived rows and 0 image-derived rows for this source concept. Supplied stage entries are 34; 36; 37; 38; 41. Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Sex-specific measurement material — Amphibian morphology source {#s-e986c3e88f}
+Deposited source concept: Gastrotheca lojana, in Amphibian morphology. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation retains 2 rows and 14 populated trait columns for this source concept. Recorded sex codes are M, F: F and M denote the source female and male categories; J denotes juvenile material, and NA leaves the category unspecified. These are compiled rows rather than unique specimen counts. Values from separate sexes, life stages and publications must not be pooled into a single diagnostic size. Missing cells do not establish absence of an anatomical structure.
+
+## Selected critical upper thermal limit estimate — AmphiTherm source {#s-c0407a0f06}
+Deposited source concept: Gastrotheca lojana, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 3581 (ID 3908, Pintanel_2018) reports 39.53 °C for larvae, metric CTmax, no response to prodding. Recorded acclimation temperature: 20 °C. Recorded heating/cooling rate: 0.25 °C/min. The source n_trait field is 7; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is water; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review. The deposited uncertainty field is 0.11 °C (standard error); these measures are not interchangeable.
+
+## Selected critical lower thermal limit estimate — AmphiTherm source {#s-80c46b076b}
+Deposited source concept: Gastrotheca lojana, in AmphiTherm. Matching names provide a reading lead; equivalence with this current species concept remains unverified. Source row 3673 (ID 4013, Pintanel_et_al_2021) reports 0.07 °C for larvae, metric CTmin, no response to prodding. Recorded acclimation temperature: 20 °C. Recorded heating/cooling rate: 0.25 °C/min. The source n_trait field is 6; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is water; sex category unknown; animal origin wild. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review. The deposited uncertainty field is 0.09 °C (standard error); these measures are not interchangeable.
+
+## catalogue-profile / limitations {#s-6275eb2eb0}
+Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
+

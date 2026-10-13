@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius kachalolae
+  displayName: Hyperolius kachalolae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N29M
+  sourceIndexes:
+    - name:
+        en: Hyperolius kachalolae
+        zh: Hyperolius kachalolae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N29M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/270
+            queryName: Hyperolius kachalolae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cc98bdef5f
+      - s-99d6a9e01a
+      - s-bf35dde1af
+      - s-82a9ecadd1
+      - s-8c5f31bdd8
+      - s-54d8ca6a78
+      - s-6587859748
+      - s-82aa8b3351
+    zh:
+      - s-c761906563
+      - s-767b1909ff
+      - s-834972d78a
+      - s-e4c043d912
+      - s-2051fac202
+      - s-c899135981
+      - s-ae29de198d
+      - s-9fed7c4ced

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis nelsongalloi
+  displayName: Pristimantis nelsongalloi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCFZM
+  sourceIndexes:
+    - name:
+        en: Pristimantis nelsongalloi
+        zh: Pristimantis nelsongalloi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCFZM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/435
+            queryName: Pristimantis nelsongalloi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a51935969
+      - s-43ab5304bb
+      - s-8bb6df69aa
+      - s-56ac2f6106
+      - s-30b09c4dfb
+      - s-a11e6ab1f5
+      - s-c2d20bf585
+      - s-201dd54512
+      - s-bf6203424c
+      - s-43f169f1f6
+      - s-b2b1bacfd2
+      - s-5f5a6933e8
+      - s-98bf5157e8
+      - s-dc4a7dbbd3
+      - s-9f36d2de2a
+      - s-c097a515f4
+      - s-820d16c8b6
+      - s-d770559dc6
+    zh:
+      - s-7154db14f3
+      - s-1f7c05fd0c
+      - s-94401cf5a5
+      - s-4e20ab25b9
+      - s-fbcff80bf3
+      - s-87f84dbc49
+      - s-938c675121
+      - s-0135008a00
+      - s-f5bdbde5c8
+      - s-a66f8b3a74
+      - s-d37d131776
+      - s-5d27327a9b
+      - s-dbd4eed66a
+      - s-b7792e713e
+      - s-f1a112c92d
+      - s-a871bfa448
+      - s-aff5e4ed6a
+      - s-2b6e1471ba

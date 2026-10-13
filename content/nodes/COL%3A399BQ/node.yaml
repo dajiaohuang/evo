@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus hedricki
+  displayName: Eleutherodactylus hedricki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399BQ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus hedricki
+        zh: Eleutherodactylus hedricki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399BQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/229
+            queryName: Eleutherodactylus hedricki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-454a347c08
+      - s-123e6380eb
+      - s-bd2a542c4a
+      - s-8d93cf5548
+      - s-61e567b740
+      - s-02810511cc
+      - s-3bd7b4dd60
+      - s-dc9ab9841f
+      - s-087b2cfccd
+      - s-e9d00503ce
+      - s-5bdac10e67
+    zh:
+      - s-493fe6c848
+      - s-84f36dd00d
+      - s-03584c5f75
+      - s-48bb7808a5
+      - s-51d31e400d
+      - s-32c984de78
+      - s-212f52a01c
+      - s-0a78e05289
+      - s-3d888f783e
+      - s-7a0658dd80
+      - s-71023e1841

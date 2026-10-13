@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Onychodactylus japonicus
+    name:
+      en: Onychodactylus japonicus
+      zh: Onychodactylus japonicus
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Onychodactylus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Onychodactylus japonicus in the morphology deposit
+          zh: 形态数据中的 Onychodactylus japonicus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c4014384d3
+            part: body
+          zh:
+            page: zh
+            section: s-7af418976d
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 247 and 248: measurement fields and sex codes"
+          zh: 第 247、248 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d99af5909e
+            part: body
+          zh:
+            page: zh
+            section: s-cfc901330f
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 247, 248; Reference.csv rows 4189
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 247
+        values:
+          - Hynobiidae
+          - Onychodactylus
+          - Onychodactylus japonicus
+          - M
+          - NA
+          - "62.3"
+          - NA
+          - "34.5142"
+          - "14.2667"
+          - "8.5974"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "81.2392"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.8769"
+          - "20.8082"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 248
+        values:
+          - Hynobiidae
+          - Onychodactylus
+          - Onychodactylus japonicus
+          - F
+          - NA
+          - "65.3"
+          - NA
+          - "35.7191"
+          - "15.3455"
+          - "8.7502"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "66.9978"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "19.1329"
+          - "22.0714"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4189
+        values:
+          - Caudata
+          - Onychodactylus_japonicus
+          - "Poyarkov, J. N. A., Che, J., Min, M.-S., Kuro-O, M., Yan, F., Li, C., . . . Vieites, D. R. (2012). Review of the systematics, morphology and distribution of Asian Clawed Salamanders, genus Onychodactylus (Amphibia, Caudata: Hynobiidae), with the description of four new species. Zootaxa, 3465(1), 1-106. https://doi.org/10.11646/zootaxa.3465.1.1"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 49R6D
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

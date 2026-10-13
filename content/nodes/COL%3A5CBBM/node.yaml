@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus andrei
+  displayName: Xenopus andrei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBBM
+  sourceIndexes:
+    - name:
+        en: Xenopus andrei
+        zh: Xenopus andrei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBBM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/304
+            queryName: Xenopus andrei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75d2843810
+      - s-3e9bd89217
+      - s-c57b00f737
+      - s-1180f701cf
+      - s-ab15832485
+      - s-21d784a924
+      - s-eb1a0e48cf
+      - s-c893d73b2e
+      - s-dac252ee66
+      - s-9df7b49525
+      - s-c1ebb20dfe
+      - s-76271cebd2
+      - s-ca70c08190
+      - s-82a2ef602c
+      - s-976c057953
+      - s-88669ab4be
+      - s-49566dfbb5
+    zh:
+      - s-9548d9bea3
+      - s-63055b3820
+      - s-36d2c2cbc4
+      - s-8574e7b28e
+      - s-6594e9fc11
+      - s-877ec84759
+      - s-3b118bf3d2
+      - s-1313f3b02a
+      - s-9de4d0a212
+      - s-3db03b9c65
+      - s-e25e0aa963
+      - s-f4b20474c0
+      - s-e8f24eaaf3
+      - s-60e2990b36
+      - s-975fabb9eb
+      - s-fd7dcdcf43
+      - s-618791cd95

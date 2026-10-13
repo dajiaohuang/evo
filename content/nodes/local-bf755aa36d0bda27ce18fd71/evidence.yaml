@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pleurodeles nebulosus
+    name:
+      en: Pleurodeles nebulosus
+      zh: Pleurodeles nebulosus
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Pleurodeles
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b15f8a24f9
+            part: body
+          zh:
+            page: zh
+            section: s-6ecb17a8a9
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0f23a12edc
+            part: body
+          zh:
+            page: zh
+            section: s-dd14a8b132
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 308, 309; Reference.csv rows 4219
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 308
+        values:
+          - Salamandridae
+          - Pleurodeles
+          - Pleurodeles nebulosus
+          - F
+          - NA
+          - "59.336"
+          - NA
+          - NA
+          - "14.342"
+          - "11.391"
+          - "4.966"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "64.654"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "16.127"
+          - NA
+          - NA
+          - NA
+          - "5.572"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 309
+        values:
+          - Salamandridae
+          - Pleurodeles
+          - Pleurodeles nebulosus
+          - M
+          - NA
+          - "60.575"
+          - NA
+          - NA
+          - "15.138"
+          - "12.045"
+          - "5.055"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "79.425"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "19.725"
+          - NA
+          - NA
+          - NA
+          - "6.316"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4219
+        values:
+          - Caudata
+          - Pleurodeles_nebulosus
+          - "Carranza, S., & Wade, E. (2004). Taxonomic revision of Algero-Tunisian Pleurodeles (Caudata : Salamandridae) using molecular and morphological data. Revalidation of the taxon Pleurodeles nebulosus (Guichenot, 1850). Zootaxa, 488, 1-24. https://doi.org/10.11646/ZOOTAXA.488.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - IOD
+      - TL
+      - FLL
+      - T3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4KBD8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

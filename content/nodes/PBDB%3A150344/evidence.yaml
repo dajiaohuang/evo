@@ -1,0 +1,228 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Capitosauria
+    rank: unranked clade
+    sourceTaxonId: txn:150344
+    name:
+      en: Capitosauria
+      zh: Capitosauria
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-24741905f1
+            part: body
+          zh:
+            page: zh
+            section: s-656174e02f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-2898e798de
+            part: body
+          zh:
+            page: zh
+            section: s-784fd024be
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-e089fe16e3
+            part: body
+          zh:
+            page: zh
+            section: s-e14c406d81
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-e47c6dab37
+            part: body
+          zh:
+            page: zh
+            section: s-d1500c1070
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:150344; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "A. M. Yates and A. Warren. 2000. The phylogeny of the ‘higher’ temnospondyls (Vertebrata: Choanata) and its implications for the monophyly and origins of the Stereospondyli. Zoological Journal of the Linnean Society 128(1):77-121"
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:86786
+        - txn:248239
+        - txn:251496
+        - txn:174775
+        - txn:263709
+        - txn:263301
+        - txn:269991
+        - txn:263707
+        - txn:433444
+        - txn:269990
+        - txn:251277
+        - txn:251261
+        - txn:251260
+        - txn:167334
+        - txn:57042
+        - txn:251490
+        - txn:367485
+        - txn:358664
+        - txn:81760
+        - txn:57083
+        - txn:180131
+        - txn:57082
+        - txn:57081
+        - txn:57084
+        - txn:165258
+        - txn:378971
+        - txn:375381
+        - txn:270209
+        - txn:378956
+        - txn:55051
+        - txn:170523
+        - txn:367548
+        - txn:169903
+        - txn:251493
+        - txn:202713
+        - txn:202554
+        - txn:248280
+        - txn:202565
+        - txn:270194
+        - txn:270197
+        - txn:270191
+        - txn:138609
+        - txn:265669
+        - txn:270195
+        - txn:376194
+        - txn:269994
+        - txn:165254
+        - txn:269996
+        - txn:57054
+        - txn:375356
+        - txn:375376
+        - txn:375379
+        - txn:375418
+        - txn:375417
+        - txn:53202
+        - txn:375426
+        - txn:375427
+        - txn:375377
+        - txn:324881
+        - txn:172538
+        - txn:165248
+        - txn:377227
+        - txn:150364
+        - txn:157509
+        - txn:169907
+        - txn:179487
+        - txn:202715
+        - txn:270202
+        - txn:179402
+        - txn:251715
+        - txn:172535
+        - txn:251489
+        - txn:375419
+        - txn:375421
+        - txn:375423
+        - txn:251610
+        - txn:270335
+        - txn:167473
+        - txn:167336
+        - txn:251487
+        - txn:251607
+        - txn:170673
+        - txn:170674
+        - txn:270211
+        - txn:165268
+        - txn:367543
+        - txn:414214
+        - txn:270206
+        - txn:270207
+        - txn:375435
+        - txn:367484
+      exactOccurrenceCount: 177
+      datedOccurrenceCount: 177
+      collectionIntervalBoundsMa:
+        older: 251.902
+        younger: 161.5
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-e47c6dab37
+            part: body
+          zh:
+            page: zh
+            section: s-d1500c1070
+            part: body
+        sourceIds: []

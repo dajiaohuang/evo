@@ -1,0 +1,27 @@
+## Source classification and concept status {#s-8cc8ff3a70}
+AmphiBIO v1 row Anf3007 records Phyllomedusa tetraploidea under the source classification Phyllomedusa (Hylidae, Anura). The compilation follows Amphibian Species of the World (Frost 2011); this source concept has not been reconciled with a current COL26.8 species concept.
+
+## Foraging categories (terrestrial, aquatic and arboreal) {#s-168f7669ab}
+The compilation records terrestrial, aquatic and arboreal as foraging categories for this row. The compilation uses broad categories rather than fine-grained habitat observations. A later TetrapodTraits revision reports corrections to some earlier microhabitat entries; this row has not been checked against those changes.
+
+## Activity period (night) {#s-5e0269924d}
+The row lists night as an activity-period category. This is a broad summary, not a continuous behavioural time series.
+
+## Seasonal activity (wet and warm) {#s-fce3a74de5}
+The row carries the seasonal categories wet and warm. They relate activity to the local annual climate, not fixed calendar months.
+
+## Maximum adult snout–vent length {#s-cd634c8830}
+AmphiBIO reports maximum adult snout–vent length of 69.4 mm for this row. The source field Body_size_mm is defined as maximum adult body size in millimetres; for Anura, it is reported as snout–vent length (SVL). This is a compiled maximum, not a measurement of every individual.
+
+## Life-history measures (litter size, annual reproductive output, offspring-or-egg size) {#s-c784949aa0}
+Litter size: minimum 130; maximum 332 per litter. The source field does not distinguish offspring from eggs.
+
+Annual reproductive output: 1 event per year.
+
+Offspring-or-egg size: minimum 2.9 mm; maximum 2.9 mm. The source's offspring-size entries may refer to offspring or eggs.
+
+These are literature-compiled values; AmphiBIO does not provide per-trait citations here, so the underlying studies and sample conditions cannot be checked from this row.
+
+## Developmental record (a larval stage) {#s-6524d41db8}
+AmphiBIO v1 records a larval stage for this row. This classification does not describe parental care, breeding location, or seasonal timing.
+

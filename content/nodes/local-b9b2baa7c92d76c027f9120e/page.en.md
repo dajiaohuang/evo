@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-fd09180803}
+The version 3 Amphibian database lists Euphlyctis cyanophlyctis in a source measurement table. Its classification fields read order = Anura, family = Dicroglossidae, genus = Euphlyctis; the linked citation is in Reference.csv row 3212. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-07b9ed4c6c}
+Anura.csv rows 1830, 1831 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1830 (F) = 42.3, row 1831 (M) = 35.1; HL: row 1830 (F) = 13.09, row 1831 (M) = 11.08; HW: row 1830 (F) = 14.21, row 1831 (M) = 12; other populated codes are ED, TD, IOD, IND, UEW, EN, NS, HAL, FL, TL, THL, HLL, … (21 entries). These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

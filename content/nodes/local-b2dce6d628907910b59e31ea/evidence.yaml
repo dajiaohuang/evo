@@ -1,0 +1,203 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius osumiensis
+    name:
+      en: Hynobius osumiensis
+      zh: Hynobius osumiensis
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hynobius osumiensis in the morphology deposit
+          zh: 形态数据中的 Hynobius osumiensis 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b1e8a29ba2
+            part: body
+          zh:
+            page: zh
+            section: s-04e3346d28
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 167 and 168: measurement fields and sex codes"
+          zh: 第 167、168 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e90d9ca1e5
+            part: body
+          zh:
+            page: zh
+            section: s-e4e76dae04
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 167, 168; Reference.csv rows 4255
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 167
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius osumiensis
+          - M
+          - NA
+          - "68.4"
+          - NA
+          - "36.3888"
+          - "16.074"
+          - "11.628"
+          - "3.8304"
+          - "3.762"
+          - NA
+          - NA
+          - "3.6936"
+          - "4.3092"
+          - "51.0264"
+          - "7.5924"
+          - "6.84"
+          - "6.84"
+          - "5.6088"
+          - "15.8004"
+          - "19.7676"
+          - NA
+          - NA
+          - "4.0356"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 168
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius osumiensis
+          - F
+          - NA
+          - "70.2"
+          - NA
+          - "38.4696"
+          - "16.0758"
+          - "11.232"
+          - "3.5802"
+          - "3.9312"
+          - NA
+          - NA
+          - "3.51"
+          - "4.212"
+          - "46.1916"
+          - "6.9498"
+          - "6.4584"
+          - "6.2478"
+          - "5.3352"
+          - "15.795"
+          - "19.2348"
+          - NA
+          - NA
+          - "4.6332"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4255
+        values:
+          - Caudata
+          - Hynobius_osumiensis
+          - Nishikawa, K., & Matsui, M. (2014). Three new species of the salamander genus Hynobius (Amphibia, Urodela, Hynobiidae) from Kyushu, Japan. Zootaxa, 3852(2), 203-226. https://doi.org/10.11646/zootaxa.3852.2.3
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - T3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6N2KY
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

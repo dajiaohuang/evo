@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes sinuatodorsalis
+  displayName: Limnonectes sinuatodorsalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DB2
+  sourceIndexes:
+    - name:
+        en: Limnonectes sinuatodorsalis
+        zh: Limnonectes sinuatodorsalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DB2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/139
+            queryName: Limnonectes sinuatodorsalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c3ea9d7bb2
+      - s-f31c3b5b5a
+      - s-2a1f891331
+      - s-0d0ce0dfa8
+      - s-8142add237
+    zh:
+      - s-09d2b4bf1f
+      - s-033c22bf82
+      - s-652f2933af
+      - s-03d15bceca
+      - s-e2a2061b07

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duttaphrynus microtympanum
+  displayName: Duttaphrynus microtympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DQ45
+  sourceIndexes:
+    - name:
+        en: Duttaphrynus microtympanum
+        zh: Duttaphrynus microtympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DQ45
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/85
+            queryName: Duttaphrynus microtympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/374
+            queryName: Bufo microtympanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e83cb8b92
+      - s-9d2c93d312
+      - s-4514875cfe
+      - s-4490ec01a4
+      - s-43b4f8789e
+      - s-341100205e
+      - s-d758b5ff8d
+    zh:
+      - s-9d7b7f00c8
+      - s-3ce80c22b9
+      - s-df8a46ead0
+      - s-861d5d6c0b
+      - s-e614ee2ba6
+      - s-b61cfa0106
+      - s-e6f360bc58

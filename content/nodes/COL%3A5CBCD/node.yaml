@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenopus mellotropicalis
+  displayName: Xenopus mellotropicalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBCD
+  sourceIndexes:
+    - name:
+        en: Xenopus mellotropicalis
+        zh: Xenopus mellotropicalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBCD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/320
+            queryName: Xenopus mellotropicalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/321
+            queryName: Xenopus paratropicalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fc6464596f
+      - s-4fcd0fc21e
+      - s-826cabe083
+      - s-273aa5a742
+      - s-628984d9cc
+      - s-808aa8eec6
+      - s-7ee135e901
+      - s-22464851fa
+      - s-1117acf1bb
+      - s-b9cc77af32
+      - s-421b346a33
+      - s-fa27aec16c
+      - s-6a0211a94b
+    zh:
+      - s-41b1ee3392
+      - s-ce6bd5f35c
+      - s-517e0704c9
+      - s-472dbf9762
+      - s-7e8ba8be51
+      - s-111d02f7ea
+      - s-120ac714b8
+      - s-814dce082a
+      - s-583c6fec0a
+      - s-c370ed7aaa
+      - s-5102a0b1eb
+      - s-cd78fcc8cf
+      - s-db8fbe8399

@@ -1,0 +1,418 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hynobius oni Kanamori, Nishikawa, Matsui & Tanabe, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Hynobius oni
+      zh: Hynobius oni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f3a736b45c
+            part: title
+          zh:
+            page: zh
+            section: s-47b88635ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f3a736b45c
+            part: body
+          zh:
+            page: zh
+            section: s-47b88635ab
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ddf62eb664
+            part: title
+          zh:
+            page: zh
+            section: s-0fc0191e16
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ddf62eb664
+            part: body
+          zh:
+            page: zh
+            section: s-0fc0191e16
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-066a4d1688
+            part: title
+          zh:
+            page: zh
+            section: s-ef10ad2d72
+            part: title
+        sourceIds:
+          - primary-pmc9422979-q37wk
+        text:
+          en:
+            page: en
+            section: s-066a4d1688
+            part: body
+          zh:
+            page: zh
+            section: s-ef10ad2d72
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5f28dcb46e
+            part: title
+          zh:
+            page: zh
+            section: s-b968765f39
+            part: title
+        sourceIds:
+          - primary-pmc9422979-q37wk
+        text:
+          en:
+            page: en
+            section: s-5f28dcb46e
+            part: body
+          zh:
+            page: zh
+            section: s-b968765f39
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-9d9a860833
+            part: title
+          zh:
+            page: zh
+            section: s-62e9a79511
+            part: title
+        sourceIds:
+          - primary-pmc9422979-q37wk
+        text:
+          en:
+            page: en
+            section: s-9d9a860833
+            part: body
+          zh:
+            page: zh
+            section: s-62e9a79511
+            part: body
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-75c609535b
+            part: title
+          zh:
+            page: zh
+            section: s-ca69a2ba0a
+            part: title
+        sourceIds:
+          - primary-pmc9422979-q37wk
+        text:
+          en:
+            page: en
+            section: s-75c609535b
+            part: body
+          zh:
+            page: zh
+            section: s-ca69a2ba0a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-671f9dc008
+            part: title
+          zh:
+            page: zh
+            section: s-0fd66de8fe
+            part: title
+        sourceIds:
+          - primary-pmc9422979-q37wk
+        text:
+          en:
+            page: en
+            section: s-671f9dc008
+            part: body
+          zh:
+            page: zh
+            section: s-0fd66de8fe
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-7804fe4449
+            part: title
+          zh:
+            page: zh
+            section: s-b4b16a2105
+            part: title
+        sourceIds:
+          - primary-pmc9422979-q37wk
+        text:
+          en:
+            page: en
+            section: s-7804fe4449
+            part: body
+          zh:
+            page: zh
+            section: s-b4b16a2105
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-006ec420b6
+            part: title
+          zh:
+            page: zh
+            section: s-dd1816c283
+            part: title
+        sourceIds:
+          - primary-pmc9422979-q37wk
+        text:
+          en:
+            page: en
+            section: s-006ec420b6
+            part: body
+          zh:
+            page: zh
+            section: s-dd1816c283
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hynobius oni
+          url: https://www.checklistbank.org/dataset/316115/taxon/Q37WK
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9422979-q37wk
+        referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Hynobius oni: Named species systematics and discussion, with additionally read original XML SNP results and morphological methods paragraphs; no figures or tables reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6e31be533e
+        part: body
+      zh:
+        page: zh
+        section: s-173ce4c636
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.13891
+        referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+        sourceKey: primary-pmc9422979-q37wk
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9422979/article.xml
+        sourceConcept: Hynobius oni
+        evidenceRead: "Hynobius oni: Named species systematics and discussion, with additionally read original XML SNP results and morphological methods paragraphs; no figures or tables reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Twelve types and a separately measured male series
+              zh: 十二件模式及单列雄性测量系列
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-q37wk
+            locator: PMC9422979 reading-sections section 2, paragraphs 7–9 and 11–15
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cbf2b1d132
+                part: body
+              zh:
+                page: zh
+                section: s-84cde0443d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Adult plain colours and spotted young
+              zh: 成体素色及有斑幼年个体
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-q37wk
+            locator: PMC9422979 reading-sections section 2, paragraphs 14–15 and 17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-913741b2b9
+                part: body
+              zh:
+                page: zh
+                section: s-9003ddbda1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Crescent sacs and separate clutch and sac samples
+              zh: 新月形卵囊及单列窝卵、卵囊样本
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-q37wk
+            locator: PMC9422979 reading-sections section 2, paragraph 16
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1ffb5ee3f7
+                part: body
+              zh:
+                page: zh
+                section: s-bececc4f7f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: lifeHistory
+            heading:
+              en: Stage-specific larvae and one overwintering encounter
+              zh: 特定阶段幼体及一次越冬遭遇
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-q37wk
+            locator: PMC9422979 reading-sections section 2, paragraphs 17 and 20; article.xml Materials and Methods > Morphological data and analysis, paragraph 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f76e81cdf7
+                part: body
+              zh:
+                page: zh
+                section: s-90e9c4c6c6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: Southwestern Shikoku streams and an inferred late-April season
+              zh: Shikoku 西南溪流及推断晚四月季节
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-q37wk
+            locator: PMC9422979 reading-sections section 2, paragraphs 19–20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2f31b63267
+                part: body
+              zh:
+                page: zh
+                section: s-de45c7a0e3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: evolution
+            heading:
+              en: The Nanyo lineage and a different unresolved hybrid boundary
+              zh: Nanyo 谱系及另一未解决杂交边界
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-q37wk
+            locator: PMC9422979 reading-sections section 2, paragraph 0; article.xml Results > SNP analysis, paragraph 0; section 3, paragraph 0
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-223bc800f1
+                part: body
+              zh:
+                page: zh
+                section: s-74d95f6be1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 6
+            topic: ecology
+            heading:
+              en: Threat concerns and preliminary explanations of small adult size
+              zh: 威胁关注及较小成体的初步解释
+            referenceId: ref-24fa0966-5f7d-49e1-a10d-8758d8edcd06
+            sourceKey: primary-pmc9422979-q37wk
+            locator: PMC9422979 reading-sections section 2, paragraph 21; section 3, paragraphs 2–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d48f05d707
+                part: body
+              zh:
+                page: zh
+                section: s-85b45a0575
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

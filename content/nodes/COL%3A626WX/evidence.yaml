@@ -1,0 +1,425 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Salamandridae Goldfuss, 1820
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Salamandridae
+      zh: Salamandridae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cc153dbb25
+            part: title
+          zh:
+            page: zh
+            section: s-e76227e9ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cc153dbb25
+            part: body
+          zh:
+            page: zh
+            section: s-e76227e9ba
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b179b7c1aa
+            part: title
+          zh:
+            page: zh
+            section: s-3a8828aed6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b179b7c1aa
+            part: body
+          zh:
+            page: zh
+            section: s-3a8828aed6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5e4d80e186
+            part: title
+          zh:
+            page: zh
+            section: s-d3c82c6692
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5e4d80e186
+            part: body
+          zh:
+            page: zh
+            section: s-d3c82c6692
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c1cc615f04
+            part: title
+          zh:
+            page: zh
+            section: s-ce4ae576e5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c1cc615f04
+            part: body
+          zh:
+            page: zh
+            section: s-ce4ae576e5
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-91382c8be8
+            part: title
+          zh:
+            page: zh
+            section: s-acc8c203f6
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: K6F
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AK6F
+            label:
+              en: Pleurodelinae
+              zh: Pleurodelinae
+          - kind: catalogue
+            colId: 628NM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A628NM
+            label:
+              en: Salamandrinae
+              zh: Salamandrinae
+          - kind: catalogue
+            colId: 628NN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A628NN
+            label:
+              en: Salamandrininae
+              zh: Salamandrininae
+        text:
+          en:
+            page: en
+            section: s-91382c8be8
+            part: body
+          zh:
+            page: zh
+            section: s-acc8c203f6
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-22607ac7e1
+            part: title
+          zh:
+            page: zh
+            section: s-f0c13c48ea
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-22607ac7e1
+            part: body
+          zh:
+            page: zh
+            section: s-f0c13c48ea
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Salamandridae
+          url: https://www.checklistbank.org/dataset/316115/taxon/626WX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Salamandridae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Salamandridae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8a3184fd7d
+        part: body
+      zh:
+        page: zh
+        section: s-be07091eb1
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Salamandridae
+      sourceRowIds:
+        - Anf6498
+        - Anf6499
+        - Anf6500
+        - Anf6501
+        - Anf6502
+        - Anf6503
+        - Anf6504
+        - Anf6505
+        - Anf6506
+        - Anf6507
+        - Anf6508
+        - Anf6509
+        - Anf6510
+        - Anf6511
+        - Anf6512
+        - Anf6513
+        - Anf6514
+        - Anf6515
+        - Anf6516
+        - Anf6517
+        - Anf6518
+        - Anf6519
+        - Anf6520
+        - Anf6521
+        - Anf6522
+        - Anf6523
+        - Anf6524
+        - Anf6525
+        - Anf6526
+        - Anf6527
+        - Anf6528
+        - Anf6529
+        - Anf6530
+        - Anf6531
+        - Anf6532
+        - Anf6533
+        - Anf6534
+        - Anf6535
+        - Anf6536
+        - Anf6537
+        - Anf6538
+        - Anf6539
+        - Anf6540
+        - Anf6541
+        - Anf6542
+        - Anf6543
+        - Anf6544
+        - Anf6545
+        - Anf6546
+        - Anf6547
+        - Anf6548
+        - Anf6549
+        - Anf6550
+        - Anf6551
+        - Anf6552
+        - Anf6553
+        - Anf6554
+        - Anf6555
+        - Anf6556
+        - Anf6557
+        - Anf6558
+        - Anf6559
+        - Anf6560
+        - Anf6561
+        - Anf6562
+        - Anf6563
+        - Anf6564
+        - Anf6565
+        - Anf6566
+        - Anf6567
+        - Anf6568
+        - Anf6569
+        - Anf6570
+        - Anf6571
+        - Anf6572
+        - Anf6573
+        - Anf6574
+        - Anf6575
+        - Anf6576
+        - Anf6577
+        - Anf6578
+        - Anf6579
+        - Anf6580
+        - Anf6581
+        - Anf6582
+        - Anf6583
+        - Anf6584
+        - Anf6585
+        - Anf6586
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 7
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 59
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 72
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 5
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 53
+        - key: Viv
+          en: viviparity
+          zh: 胎生
+          count: 13
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Ichthyosaura alpestris
+          path: content/nodes/local-e5d0a1e69fbaa673cb838fc1
+        - scientificName: Lissotriton vulgaris
+          path: content/nodes/local-05038dcbee049d6600e6f0d5
+        - scientificName: Notophthalmus viridescens
+          path: content/nodes/local-787fd3ece139744d80c0ead0
+        - scientificName: Lissotriton helveticus
+          path: content/nodes/local-7f8a62ee1ee45b8bf323e8a8
+        - scientificName: Salamandra salamandra
+          path: content/nodes/local-c5e38913aab66d183605dbd8
+        - scientificName: Calotriton arnoldi
+          path: content/nodes/local-0fa877f61beb89c87bcbd3a9
+        - scientificName: Lissotriton boscai
+          path: content/nodes/local-9ff169530ac0b33bc19bf8f5
+        - scientificName: Pleurodeles waltl
+          path: content/nodes/local-3e253dc8bdfb95018a5ecea2
+        - scientificName: Triturus cristatus
+          path: content/nodes/local-cde5f4b1ccbe3f220c40d6dd
+        - scientificName: Triturus pygmaeus
+          path: content/nodes/local-91a12778330514ac5fdae26e
+        - scientificName: Triturus dobrogicus
+          path: content/nodes/local-da3eb1af93fa39ca3bf45b5b
+        - scientificName: Triturus carnifex
+          path: content/nodes/local-1fea05945bb86a53a46429c3
+        - scientificName: Cynops orientalis
+          path: content/nodes/local-acdd0c6436226c946b0de445
+        - scientificName: Lissotriton montandoni
+          path: content/nodes/local-b6054f7b9696406f95bf5723
+        - scientificName: Triturus karelinii
+          path: content/nodes/local-393ebb66d18ad544ac1722d5
+        - scientificName: Taricha granulosa
+          path: content/nodes/local-0b391a0e3f7d22a3ee1b3b19
+        - scientificName: Paramesotriton chinensis
+          path: content/nodes/local-f02427e6dd026eef08c8dbd3
+        - scientificName: Paramesotriton labiatus
+          path: content/nodes/local-b49fc7e810b911f0b95d4006
+        - scientificName: Tylototriton kweichowensis
+          path: content/nodes/local-14f1ce71b3acd6cb0457581e
+        - scientificName: Lyciasalamandra helverseni
+          path: content/nodes/local-8787b86e09dd6a9b9e31a03b
+        - scientificName: Calotriton asper
+          path: content/nodes/local-bccff1ca124bcd9cbe188e30
+      metrics:
+        - metric: Tpref
+          rows: 80
+          sourceConcepts: 16
+        - metric: CTmax
+          rows: 161
+          sourceConcepts: 12
+        - metric: CTmin
+          rows: 11
+          sourceConcepts: 5
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

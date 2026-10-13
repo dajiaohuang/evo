@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Callulops sagittatus
+  displayName: Callulops sagittatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PWB3
+  sourceIndexes:
+    - name:
+        en: Callulops sagittatus
+        zh: Callulops sagittatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PWB3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/133
+            queryName: Callulops sagittatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a00f15ef52
+      - s-23bc1200e9
+      - s-2e05271a0f
+      - s-1b0f95ce25
+      - s-0cbac3bcbd
+      - s-3f393b7efb
+      - s-aaffc178ff
+    zh:
+      - s-edf7fe4ecb
+      - s-ffdd87532e
+      - s-42c1cd0d8b
+      - s-c6543f42df
+      - s-bee97085b6
+      - s-5357ede37e
+      - s-35c4311234

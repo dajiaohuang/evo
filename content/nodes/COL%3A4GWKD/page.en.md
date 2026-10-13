@@ -1,0 +1,45 @@
+## Accepted name and placement {#s-52d98d9f76}
+COL26.8 accepts Phrynoidis juxtasper (Inger, 1964) as a species. Its recorded classification places it along Anura (order) → Bufonidae (family) → Phrynoidis (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-f15d87d46c}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-a5e9e0688c}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [TadpoleTraits v4: Phrynoidis juxtasper](../../../../../../../../../../../../../topics/research/TadpoleTraits/Bufonidae/Phrynoidis/Phrynoidis_juxtasper/page.en.md)
+- [AmphiBIO v1: Phrynoidis juxtaspera](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Bufonidae/Phrynoidis/Phrynoidis_juxtaspera/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-ee85fbb5d8}
+Deposited source concept: Phrynoidis juxtasper, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 1 image-derived rows for this source concept. Supplied stage entries are 35 (Judging based on the picture). Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-333fff011a}
+Deposited source concept: Phrynoidis juxtasper, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports body length / total length = 0.4425 (source row 1256, stage 35 (Judging based on the picture)); tail length / total length = 0.553205 (source row 1256, stage 35 (Judging based on the picture)); maximum body height / total length = 0.23811 (source row 1256, stage 35 (Judging based on the picture)); maximum tail height / total length = 0.22125 (source row 1256, stage 35 (Judging based on the picture)); tail muscle height / total length = 0.10132 (source row 1256, stage 35 (Judging based on the picture)). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Evidence roles in the Andaman toad description {#s-06f79010c4}
+The2016 paper uses the source label(s) Phrynoidis juxtasper. Table3 lists sequence entries: Phrynoidis juxtasper: KT991327, KT9913387; range/collection-location field Malaysia; reference This study; tree7a/7b/7c membership +/blank/blank.  These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## Comparative material does not supply every trait {#s-b3fd6dc936}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Phrynoidis juxtasper specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Phrynoidis juxtasper is established by its inclusion in this comparison.
+
+## Mitochondrial sampling and phylogenetic limits {#s-97be856b2e}
+The molecular comparison concatenates partial12S and16S mitochondrial regions and uses model-based maximum-likelihood and Bayesian inference. The focal sequences are reported as417bp and551bp, respectively; alignment lengths and raw data were not independently verified. The paper reports43 species across21 genera in Table3, with a36-species broad analysis and selected Asian subtrees. Its closest-to-focal Bufoides placement in the broad tree had relatively low support and changes in restricted sampling must retain their context. Two mitochondrial regions are not independent nuclear evidence of ancestry or reproductive isolation. The paper calls distances “uncorrected k2p”; that wording is retained as a source ambiguity, not silently interpreted as an uncorrected p-distance or a universal genus-delimitation threshold.
+
+## An accession string requires reconciliation {#s-526ca5daa4}
+Table3 prints KT991327 and KT9913387 for this label, while the paired accessions elsewhere generally follow a six-digit suffix. The printed longer string is retained, not silently shortened or treated as a verified retrievable sequence. No sequence identity or corrected accession is established here.
+
+## catalogue-profile / limitations {#s-7cffc5bb46}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bb111c71ab}
+The2016 paper uses the source label(s) Phrynoidis juxtasper. Table3 lists sequence entries: Phrynoidis juxtasper: KT991327, KT9913387; range/collection-location field Malaysia; reference This study; tree7a/7b/7c membership +/blank/blank.  These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-54a1831fc4}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Phrynoidis juxtasper specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Phrynoidis juxtasper is established by its inclusion in this comparison.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-f449b93a03}
+The molecular comparison concatenates partial12S and16S mitochondrial regions and uses model-based maximum-likelihood and Bayesian inference. The focal sequences are reported as417bp and551bp, respectively; alignment lengths and raw data were not independently verified. The paper reports43 species across21 genera in Table3, with a36-species broad analysis and selected Asian subtrees. Its closest-to-focal Bufoides placement in the broad tree had relatively low support and changes in restricted sampling must retain their context. Two mitochondrial regions are not independent nuclear evidence of ancestry or reproductive isolation. The paper calls distances “uncorrected k2p”; that wording is retained as a source ambiguity, not silently interpreted as an uncorrected p-distance or a universal genus-delimitation threshold.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-92242a3f11}
+Table3 prints KT991327 and KT9913387 for this label, while the paired accessions elsewhere generally follow a six-digit suffix. The printed longer string is retained, not silently shortened or treated as a verified retrievable sequence. No sequence identity or corrected accession is established here.
+

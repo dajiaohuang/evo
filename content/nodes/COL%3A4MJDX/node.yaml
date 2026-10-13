@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis exoristus
+  displayName: Pristimantis exoristus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJDX
+  sourceIndexes:
+    - name:
+        en: Pristimantis exoristus
+        zh: Pristimantis exoristus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJDX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/266
+            queryName: Pristimantis exoristus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/355
+            queryName: Eleutherodactylus exoristus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5bfdc664c1
+      - s-054ec9b966
+      - s-032eae3ed0
+      - s-6bebb6fb5b
+      - s-cfd1b8bee6
+      - s-05c70d662c
+      - s-7ebb3bd90b
+      - s-41d7147577
+    zh:
+      - s-7f9711380f
+      - s-31338f2b15
+      - s-b8f62100fd
+      - s-971e6c8322
+      - s-cbce181b42
+      - s-deb997a77a
+      - s-8dd8df2808
+      - s-1cea36df5d

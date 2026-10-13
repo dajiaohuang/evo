@@ -1,0 +1,144 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrophryne carolinensis
+  displayName: Gastrophryne carolinensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FDVS
+  sourceIndexes:
+    - name:
+        en: Gastrophryne carolinensis
+        zh: Gastrophryne carolinensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FDVS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/4
+            queryName: Gastrophryne carolinensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 74
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/340
+            queryName: Engystoma carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/341
+            queryName: Microhyla carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/342
+            queryName: Microhyla carolinensis carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/30
+            queryName: Engystoma carolinense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/188
+            queryName: Stenocephalus carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/189
+            queryName: Engystoma rugosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/190
+            queryName: Gastrophryne rugosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/191
+            queryName: Gastrophryne carolinense
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/119
+            queryName: Gastrophryne carolinensis carolinensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bbfa1fe019
+      - s-45fcbb5287
+      - s-eac23807a2
+      - s-e35321c55b
+      - s-d2b42d9347
+      - s-5803ee5911
+      - s-9f76b180d5
+      - s-1dbfe55b6c
+      - s-cce3c236d9
+      - s-9e7eb6a142
+      - s-e89b37f798
+      - s-9e52b35b25
+      - s-332bbbbb44
+      - s-e33ecc1f8c
+      - s-a65b84fbdd
+      - s-148261da40
+      - s-f52cebadc0
+      - s-0985be3269
+      - s-547465f310
+      - s-9461437260
+      - s-1a6ff02918
+      - s-2da8c27789
+      - s-ab2e507622
+      - s-4865e1553b
+      - s-a88d984d46
+    zh:
+      - s-467f6a0171
+      - s-7124c1db44
+      - s-1e792f4ba9
+      - s-1882c96e40
+      - s-df2ee151e2
+      - s-ed2c237d0f
+      - s-7cc2a0e71e
+      - s-a53e4a8115
+      - s-00071df705
+      - s-e623d089db
+      - s-785be8bcc9
+      - s-3a45b9801c
+      - s-d44b69b268
+      - s-242c3e3691
+      - s-b65bc71b2d
+      - s-4f98fc2327
+      - s-5e886a475c
+      - s-9c1c568052
+      - s-d243ea6bbf
+      - s-9fac6d1b65
+      - s-643758bbb2
+      - s-93bfcb85df
+      - s-40a1eb979e
+      - s-53bc8dffde
+      - s-c810b0e2be

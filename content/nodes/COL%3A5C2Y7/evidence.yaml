@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Wolffiella denticulata
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Wolffiella denticulata
+      en: Wolffiella denticulata
+    sections:
+      - topic: morphology
+        sourceIds:
+          - sanbi_10845_0
+        locator: SANBI/WFO archive Morphology row 80713 and Diagnostic row 79784; source identifier 10845.0; Cook (2004), Aquatic and wetland plants of southern Africa
+        text:
+          zh:
+            page: zh
+            section: s-c3c3ad91e4
+            part: body
+          en:
+            page: en
+            section: s-4bdc4d8cf0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - sanbi_10845_0
+        locator: SANBI/WFO archive Habitat row 80413; source identifier 10845.0; Cook (2004), Aquatic and wetland plants of southern Africa
+        text:
+          zh:
+            page: zh
+            section: s-ebb52f9eff
+            part: body
+          en:
+            page: en
+            section: s-8f3e29b238
+            part: body
+    sources:
+      - id: sanbi_10845_0
+        referenceId: ref-caabba31-9e23-85e4-a52f-63fa7e283c6c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Wolffiella denticulata (Hegelm.) Hegelm. account; SANBI/WFO archive rows 80713 (Morphology), 80413 (Habitat), 79784 (Diagnostic), source identifier 10845.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    limitations:
+      zh:
+        page: zh
+        section: s-1e3a76918e
+        part: body
+      en:
+        page: en
+        section: s-d388815ec0
+        part: body
+  catalogue-dossier:
+    scientificName: Wolffiella denticulata (Hegelm.) Hegelm.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5C2Y7, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 5C2Y7; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5C2Y7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 5C2Y7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000334479-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 5C2Y7 / WFO wfo-0000334479
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_10845_0
+        referenceId: ref-caabba31-9e23-85e4-a52f-63fa7e283c6c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Wolffiella denticulata (Hegelm.) Hegelm. account; SANBI/WFO archive rows 80713 (Morphology), 80413 (Habitat), 79784 (Diagnostic), source identifier 10845.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial or perhaps sometimes annual. Fronds submerged, with the basal part near the surface of the water and the tip bent downwards, cohering 2-7 together (often star-like), ribbon-shaped, 2-7 mm long, 0.3-0.8 mm wide, with 2-4 marginal teeth. Inflorescence 1 on each frond. Flowers and fruits rare (flowering plants shorter and wider than vegetative ones). Seeds unknown. Not very gregarious, usually found mixed with other floating plants or between emergent reeds in pools and lakes.
+            textZh: Wolffiella denticulata (Hegelm.) Hegelm. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_10845_0
+            locator: "SANBI/WFO archive Morphology row 80713; source identifier 10845.0; cited publication: Cook, CDK. 2004. Aquatic and wetland plants of southern Africa. Backhuys Publishers, Leiden. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Fronds cohering 2-7 together (usually in star-like groups), ribbon-shaped, 2-7 mm long, 0.3-0.8 mm wide, with 2-4 marginal teeth.
+            textZh: SANBI 条目提供了 Wolffiella denticulata (Hegelm.) Hegelm. 的鉴别特征。
+            sourceIds:
+              - sanbi_10845_0
+            locator: "SANBI/WFO archive Diagnostic row 79784; source identifier 10845.0; cited publication: Cook, CDK. 2004. Aquatic and wetland plants of southern Africa. Backhuys Publishers, Leiden. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Pools and lakes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Pools and lakes.
+            sourceIds:
+              - sanbi_10845_0
+            locator: "SANBI/WFO archive Habitat row 80413; source identifier 10845.0; cited publication: Cook, CDK. 2004. Aquatic and wetland plants of southern Africa. Backhuys Publishers, Leiden. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

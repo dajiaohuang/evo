@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kassina jozani
+  displayName: Kassina jozani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3R3JP
+  sourceIndexes:
+    - name:
+        en: Kassina jozani
+        zh: Kassina jozani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3R3JP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/146
+            queryName: Kassina jozani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-589ea4fd4c
+      - s-3e18b74aeb
+      - s-bb9772fffb
+      - s-1ca3c68bba
+      - s-2906186f62
+      - s-1ad9c65749
+      - s-c43c774ded
+      - s-8e90f53661
+      - s-0a4b464c14
+      - s-42b0257f66
+    zh:
+      - s-166ddb0793
+      - s-8c602bf8f8
+      - s-3c55263a3c
+      - s-b2387a0f23
+      - s-987301d8ed
+      - s-c936778ff8
+      - s-18ede14ce3
+      - s-0fdcba0fd8
+      - s-db8202296e
+      - s-62d1f74cc6

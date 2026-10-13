@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-c9de38eda1
+      part: title
+    titleZh:
+      page: zh
+      section: s-838b71b3fd
+      part: title
+    category: genomics
+    startAge: 0.001
+    endAge: 0
+    regions:
+      - Living female platypus Glennie; genome assembly and chromosome map
+    clades:
+      - Ornithorhynchus anatinus
+      - Monotremata
+    summary:
+      page: en
+      section: s-c9de38eda1
+      part: body
+    summaryZh:
+      page: zh
+      section: s-838b71b3fd
+      part: body
+    claimIds:
+      - claim:event:platypus-genome-mosaic
+    evidenceItems:
+      - statement: Approximately 26.9 million reads produced a 1.84-gigabase draft at about sixfold coverage, with 437 megabases ordered on 20 chromosomes and 18,527 predicted protein-coding genes.
+        relation: supports
+        claimIds:
+          - claim:event:platypus-genome-mosaic
+        referenceLinks:
+          - referenceId: warren-2008-platypus-genome
+            relation: supports
+            pages: 175–183
+            figure: Figure 1; Table 1
+            quoteLocator: Sequencing and assembly; Comparative genome analysis; Methods
+    uncertaintyItems:
+      - statement: Assembly gaps, one-individual sampling, annotation and comparative models prevent direct reconstruction of an ancestral genome or single-gene explanations for organismal traits.
+        relation: contextualizes
+        claimIds:
+          - claim:event:platypus-genome-mosaic
+        referenceLinks:
+          - referenceId: warren-2008-platypus-genome
+            relation: supports
+            pages: 175–183
+            figure: Figure 1; Table 1
+            quoteLocator: Sequencing and assembly; Comparative genome analysis; Methods
+  claims:
+    - subjectId: event:platypus-genome-mosaic
+      claimKind: scientific
+      claimType: topology
+      statement: The approximately sixfold whole-genome assembly from the female platypus Glennie combined 26.9 million reads into a 1.84-gigabase draft and comparative annotations; these data sample one individual and do not directly reconstruct an ancestral monotreme genome or prove single-gene causes for organismal traits.
+      confidence: medium
+      confidenceRationale: Sequence reads, assembly statistics and chromosome assignments are directly documented, but annotation, orthology, molecular dating and trait interpretation are computational comparisons.
+      referenceLinks:
+        - referenceId: warren-2008-platypus-genome
+          relation: supports
+          pages: 175–183
+          figure: Figure 1; Table 1
+          quoteLocator: Sequencing and assembly; Comparative genome analysis; Methods; Supplementary Notes 1–24
+  claim-rationales.zh:
+    - 读段、组装统计和染色体定位有直接记录，但注释、直系同源、分子定年与性状解释属于计算比较。
+  claim-statements.zh:
+    - 雌性鸭嘴兽 Glennie 的约六倍全基因组装配将 2690 万条读段组成 18.4 亿碱基草图并进行比较注释；这些数据只取样一个个体，不能直接复原祖先单孔类基因组，也不能证明单基因导致整体性状。

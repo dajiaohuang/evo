@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia dunni
+  displayName: Caecilia dunni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7SH
+  sourceIndexes:
+    - name:
+        en: Caecilia dunni
+        zh: Caecilia dunni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7SH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/65
+            queryName: Caecilia dunni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/340
+            queryName: Caecilia intermedia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41713e19f6
+      - s-a79bbeaab8
+      - s-631aaf9e62
+      - s-b47af2c74e
+      - s-e251a599ba
+      - s-56dc9ac662
+      - s-f382046eec
+      - s-35a8552d15
+      - s-365172fccb
+      - s-f1f6fd4502
+      - s-e112816e45
+      - s-e01ea94002
+      - s-94aa77e743
+    zh:
+      - s-257a195d5d
+      - s-82330eb34e
+      - s-4debbc71bd
+      - s-7e841587f5
+      - s-655222113c
+      - s-8d2824c08b
+      - s-610e3fb470
+      - s-a7848cccdf
+      - s-5fab826f17
+      - s-480dc195ee
+      - s-8f575e568c
+      - s-d60d02069b
+      - s-c583470160

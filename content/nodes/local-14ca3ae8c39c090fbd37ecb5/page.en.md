@@ -1,0 +1,9 @@
+## The dataset entry {#s-d3cfbeb5aa}
+The pinned AmphiTherm curated snapshot records Engystomops freibergi under Leptodactylidae, Anura. It retains 2 thermal estimate rows across 1 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-8e1a5f949c}
+Source row 4349 (ID 4832; von-May_et_al_2019) reports 36.41428571 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Engystomops_freibergi_pop1. Recorded conditions include acclimation at 25 °C, medium_test_temp = body. The source reports 0.672036199 °C as its standard error. The source n_trait field is 8. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-683c292cc3}
+Source row 4384 (ID 4877; von-May_et_al_2019) reports 11.2 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Engystomops_freibergi_pop2. Recorded conditions include acclimation at 25 °C, medium_test_temp = body. The source reports 0.6 °C as its standard error. The source n_trait field is 8. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

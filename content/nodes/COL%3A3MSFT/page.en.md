@@ -1,0 +1,6 @@
+## Domatia present and a smooth flower cup {#s-1e8f2fbd9b}
+A Brazilian Flora 2020 v393.147 field describes somewhat papery elliptic leaves with acute or blunt bases and acute tips. Their margins are entire or saw-toothed. Domatia—small structures on the leaf surface—are present, and the main veins begin above the base. The leaf surface bears fine, scurfy-looking glandular hairs. Flower clusters bear few flowers. Each flower is four-part, with a nearly four-sided stalk and a smooth flower cup. Sepals are described as reduced, narrow-triangular or nearly cylindrical, with blunt or rounded tips; the field records four vascular strands in each sepal. Petals are white. Stamens, anther sacs, the appendage joining the anther sacs, and the stigma are each marked as present. The fruit surface is smooth. The habitat field records “terrícola,” meaning terrestrial. These fields do not provide a broader ecological or developmental account.
+
+## A terrestrial label with limited scope {#s-aa492588c7}
+The habitat field classifies the setting as “terrícola,” or terrestrial. No collection locality, survey date or range coverage is provided, and the field does not identify wild, cultivated, managed or fossil material. It should be read only as a habitat category.
+

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Otophryne steyermarki
+  displayName: Otophryne steyermarki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4B7QD
+  sourceIndexes:
+    - name:
+        en: Otophryne steyermarki
+        zh: Otophryne steyermarki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4B7QD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/373
+            queryName: Otophryne steyermarki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/290
+            queryName: Otophryne robusta steyermarki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bf1426baf2
+      - s-c94e5d3eaa
+      - s-c296465914
+      - s-e5adde3a20
+      - s-abc9cc4c52
+      - s-0ae71cf6a1
+      - s-b5214ef3f7
+      - s-ab3d7580f5
+      - s-46deb87a3e
+      - s-87478f99c6
+      - s-20aaa851d1
+    zh:
+      - s-99492491ec
+      - s-6418e446dd
+      - s-d02f01c4f2
+      - s-875c209bf4
+      - s-2a1c236217
+      - s-9622d9f1a8
+      - s-a8069b73af
+      - s-a58d9e5d6b
+      - s-72f23a5280
+      - s-14f428b535
+      - s-aeb230c2f5

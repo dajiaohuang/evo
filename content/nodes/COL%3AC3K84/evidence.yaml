@@ -1,0 +1,463 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Canidae G. Fischer von Waldheim, 1817
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      zh: 犬科
+      en: Canid family
+    sections:
+      - topic: form
+        text:
+          zh:
+            page: zh
+            section: s-7f3c46f635
+            part: body
+          en:
+            page: en
+            section: s-0881d953e1
+            part: body
+        sourceIds:
+          - account
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-fcfd840abf
+            part: body
+          en:
+            page: en
+            section: s-48fcd52b2f
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-b02360da00
+            part: body
+          en:
+            page: en
+            section: s-234a398305
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-93c6f594a9
+            part: body
+          en:
+            page: en
+            section: s-070fbc0e34
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-8eb47c14f3
+            part: body
+          en:
+            page: en
+            section: s-0f3afc4a9e
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-476f5e28c7
+            part: body
+          en:
+            page: en
+            section: s-1391e4671f
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-e90ce4c662
+            part: body
+          en:
+            page: en
+            section: s-b0a966fc54
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-32004f7265
+            part: body
+          en:
+            page: en
+            section: s-e50f167a93
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-6f512a73c7
+            part: body
+          en:
+            page: en
+            section: s-b8b655d5c3
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-be887a4566
+            part: body
+          en:
+            page: en
+            section: s-4a5085cbd6
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-88e27326c6
+            part: body
+          en:
+            page: en
+            section: s-2500868130
+            part: body
+    sources:
+      - id: account
+        referenceId: ref-80aa26f5-0f78-8c95-addc-14b0d5b10e31
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持页面所述犬科身体形态线索及科内饮食、社会行为差异；不采用页面中的科级数量、旧分类或管理叙述。
+            en: Supports the described canid body-form traits and variation in diet and social behavior; family counts, older classification and management statements are not used.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3K84
+          scope:
+            zh: 固定版本中的名称、作者、等级与父子关系；不是系统发育分歧证据。
+            en: Pinned names, authorship, ranks and parent links; not evidence of phylogenetic divergence.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 17 authored entries grouped under Canidae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 30 authored same-name records placed under Canidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 33 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 33
+            foraging: 33
+            activity: 32
+          readingTargets:
+            - name: Vulpes vulpes
+              colId: 5BSG3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5BSG3
+            - name: Vulpes cana
+              colId: 5BSFN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5BSFN
+            - name: Vulpes chama
+              colId: 5BSFP
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5BSFP
+            - name: Vulpes corsac
+              colId: 5BSFQ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5BSFQ
+            - name: Vulpes ferrilata
+              colId: 5BSFR
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5BSFR
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Canidae by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 3844R
+              name: Dusicyon australis
+              canonicalPath: content/nodes/COL%3A3844R
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 17 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: J8SQ
+              name: Atelocynus microtis
+              canonicalPath: content/nodes/COL%3AJ8SQ
+            - colId: 5WXTW
+              name: Canis simensis
+              canonicalPath: content/nodes/COL%3A5WXTW
+            - colId: QLXJ
+              name: Canis latrans
+              canonicalPath: content/nodes/COL%3AQLXJ
+            - colId: SWGW
+              name: Cerdocyon thous
+              canonicalPath: content/nodes/COL%3ASWGW
+            - colId: 5YNGG
+              name: Chrysocyon brachyurus
+              canonicalPath: content/nodes/COL%3A5YNGG
+          fieldAccountCounts:
+            gestation(mo): 16
+            newborn(g): 13
+            weaning(mo): 14
+            wean mass(g): 4
+            AFR(mo): 14
+            max. life(mo): 10
+            litter size: 16
+            litters/year: 9
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-cb1a6ab41f
+        part: body
+      en:
+        page: en
+        section: s-a7615e7126
+        part: body
+  atlas-node:
+    name: Canidae
+    commonName: Dogs & Wolves
+    commonNameZh: 犬与狼
+    rank: family
+    taxonId: txn:41189
+    firstAppearance: 40
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:canidae
+      claimKind: scientific
+      claimType: topology
+      statement: Canidae is recovered as an extant family branch in the complete living-carnivoran supertree, whose canid subtree samples dog-like and fox-like lineages; extinct canid radiations and the family’s earliest fossil range are outside that tree’s direct coverage.
+      confidence: medium
+      confidenceRationale: The study supports living family topology and explicitly discusses the canid subtree. Fossil exclusions prevent temporal overreach.
+      referenceLinks:
+        - relation: supports
+          referenceId: nyakatura-2012-carnivora-supertree
+          pages: Article 12
+          figure: Figure 3
+          quoteLocator: Canidae subtree and higher caniform topology
+  claim-rationales.zh:
+    - 研究支持现生科级拓扑并明确讨论犬科子树；化石排除项防止时间外推。
+  claim-statements.zh:
+    - 犬科在完整现生食肉类超级树中被恢复为一个现生科级分支，其犬科子树取样犬样与狐样谱系；灭绝犬科辐射及该科最早化石范围不在该树直接覆盖内。
+  ranges:
+    - entityId: canidae
+      rangeKind: global-composite
+      taxonomicConcept: Canidae — source-bounded sample window — numerical range withheld
+      geographicScope: No numerical geographic-temporal range exposed
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The former navigation numbers are withdrawn because the extant-carnivoran supertree does not directly document extinct canid radiations or a fossil family range. Zero values are non-display placeholders required by the schema.
+      evidenceBasis: "A source audit of Updating the evolutionary history of Carnivora (Mammalia): a new species-level supertree complete with divergence time estimates found relationship or taxonomic evidence but no range-fit support for the former numerical display."
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: nyakatura-2012-carnivora-supertree
+          locator: Article 12; Canidae subtree and higher caniform topology
+      evidenceLevel: withheld-no-range-evidence

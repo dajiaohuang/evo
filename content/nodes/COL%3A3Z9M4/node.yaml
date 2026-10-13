@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus sanmartini
+  displayName: Melanophryniscus sanmartini
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9M4
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus sanmartini
+        zh: Melanophryniscus sanmartini
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9M4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/404
+            queryName: Melanophryniscus sanmartini
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a8fb6cdb8
+      - s-a334b52f0b
+      - s-ec8c7efccd
+      - s-f59d26f108
+      - s-ebe587a9f3
+      - s-ce6c2abacc
+      - s-e56ff57616
+      - s-b6e2c748cb
+      - s-d764c66c8e
+      - s-4fd5da836e
+    zh:
+      - s-a5459fd5aa
+      - s-b5d4eed70b
+      - s-a63b282b26
+      - s-b3d9d790f1
+      - s-dfdfe001bb
+      - s-96fb32534e
+      - s-caf58e2c83
+      - s-f8a20642e8
+      - s-9df5533384
+      - s-b196113f9a

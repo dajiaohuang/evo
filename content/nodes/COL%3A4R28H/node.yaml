@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quasipaa boulengeri
+  displayName: Quasipaa boulengeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4R28H
+  sourceIndexes:
+    - name:
+        en: Quasipaa boulengeri
+        zh: Quasipaa boulengeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4R28H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/25
+            queryName: Quasipaa boulengeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 70
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/483
+            queryName: Paa boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/331
+            queryName: Rana tibetana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/332
+            queryName: Rana boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/335
+            queryName: Nanorana boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/336
+            queryName: Quasipaa tibetana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-085254bc48
+      - s-e0e3681b35
+      - s-9c2d64ea1d
+      - s-c3401cb945
+      - s-a56e443d63
+      - s-a33009de35
+      - s-cd2ef77692
+      - s-e6c5a5c69a
+      - s-a20fb94ac3
+      - s-e92f35638c
+      - s-dcb16c85b5
+      - s-5a97e0682c
+      - s-d47e786b4b
+      - s-7cd5657db7
+      - s-cc18a3d128
+      - s-6d0ea375bb
+      - s-bce3b28a7d
+    zh:
+      - s-1ef1befc1c
+      - s-cd32815957
+      - s-fd81bdea95
+      - s-e192c71b85
+      - s-3aeae7aa28
+      - s-6b844e17ab
+      - s-bfab4643e8
+      - s-909f2141f4
+      - s-c2c09a243f
+      - s-fc9cb59c86
+      - s-3571d84394
+      - s-c98dd7281b
+      - s-28edd417e8
+      - s-eb96bffc5a
+      - s-9d02580594
+      - s-0efcd7bf1d
+      - s-0ae87cb82b

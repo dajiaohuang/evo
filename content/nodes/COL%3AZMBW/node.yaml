@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylus dantei
+  displayName: Crossodactylus dantei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZMBW
+  sourceIndexes:
+    - name:
+        en: Crossodactylus dantei
+        zh: Crossodactylus dantei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZMBW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/227
+            queryName: Crossodactylus dantei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b81532f88a
+      - s-1f54a7a104
+      - s-83fc09b24a
+      - s-1a7c7c71c8
+      - s-45266f8f2f
+      - s-c731296c6f
+      - s-ceb8fd3c6f
+      - s-8c874e9e5d
+      - s-01abe0b890
+      - s-4e37456a03
+      - s-3d82de6bc6
+      - s-e08462726b
+      - s-b280dc94a0
+      - s-997c8d18e9
+      - s-84c65cd570
+    zh:
+      - s-8733458381
+      - s-7e3c078ad1
+      - s-b2eb9d2a66
+      - s-e0d1d75b24
+      - s-d103c28bb4
+      - s-6a86953c39
+      - s-807976e620
+      - s-aa44461b89
+      - s-3d2822883b
+      - s-40f85381df
+      - s-a3e81a316d
+      - s-beb69a097f
+      - s-bb598a881f
+      - s-1173f998a9
+      - s-4b6e3af90d

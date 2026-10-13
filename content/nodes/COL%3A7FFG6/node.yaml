@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vandijkophrynus gariepensis
+  displayName: Vandijkophrynus gariepensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FFG6
+  sourceIndexes:
+    - name:
+        en: Vandijkophrynus gariepensis
+        zh: Vandijkophrynus gariepensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FFG6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/225
+            queryName: Vandijkophrynus gariepensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/333
+            queryName: Bufo gariepensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/487
+            queryName: Bufo granti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-75e91dfc3b
+      - s-2ccb800d2f
+      - s-522a8812fc
+      - s-f13b43d605
+      - s-9433b5f416
+      - s-372292e5eb
+      - s-edea98d77b
+      - s-67cde6721d
+      - s-71a15e187a
+      - s-ad92f98863
+    zh:
+      - s-8bbd7d6ddd
+      - s-75fa88f5df
+      - s-6223ce4cd5
+      - s-b1c1daa250
+      - s-b09cbb551e
+      - s-83cd1f3c35
+      - s-d538d543e4
+      - s-b3d5f3f7fd
+      - s-e2d7fc9559
+      - s-cbe3767c79

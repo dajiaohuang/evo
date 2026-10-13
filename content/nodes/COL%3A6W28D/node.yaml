@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodontohyla inguinalis
+  displayName: Plethodontohyla inguinalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W28D
+  sourceIndexes:
+    - name:
+        en: Plethodontohyla inguinalis
+        zh: Plethodontohyla inguinalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W28D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/10
+            queryName: Plethodontohyla inguinalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/177
+            queryName: Mantipus hildebrandti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/178
+            queryName: Mantipus inguinalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8097522917
+      - s-97019c4f25
+      - s-74883f3ccf
+      - s-b4bc04bb28
+      - s-8ded8004bb
+      - s-c86114baf2
+      - s-9db8e8801b
+      - s-d29fad7005
+      - s-1f47d46200
+    zh:
+      - s-8760ffeafe
+      - s-f75b4f119a
+      - s-9d7a53bd0c
+      - s-d920898746
+      - s-3d26455768
+      - s-600aae580a
+      - s-10b2ed4331
+      - s-5f42fd35e4
+      - s-f6d2703888

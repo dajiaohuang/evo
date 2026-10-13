@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Engystomops randi
+  displayName: Engystomops randi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F8XX
+  sourceIndexes:
+    - name:
+        en: Engystomops randi
+        zh: Engystomops randi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F8XX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/362
+            queryName: Engystomops randi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/137
+            queryName: Physalaemus randi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da649b6b77
+      - s-f48d64201d
+      - s-e887d57eb8
+      - s-08261d8823
+      - s-6df13c489a
+      - s-bc9abda6bc
+      - s-92c20bb7fb
+      - s-ce32839050
+      - s-6ee5a178d9
+      - s-d950edd08c
+      - s-2527d01342
+      - s-9ec8b18060
+      - s-1abfc55d94
+      - s-5e80c4f28b
+      - s-4b669979f3
+    zh:
+      - s-bbc4125c7d
+      - s-8d3eefb495
+      - s-ad10772e15
+      - s-83d09151f5
+      - s-c6dcc5cbed
+      - s-2f2b46c80e
+      - s-cb746d3b65
+      - s-838d9560e6
+      - s-a173858e3f
+      - s-6a9c31fd30
+      - s-18a40e1eb2
+      - s-aba2eb8991
+      - s-b86e562a20
+      - s-4f6116f063
+      - s-0f5cfc9f78

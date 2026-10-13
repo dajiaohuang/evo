@@ -1,0 +1,388 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Firouzophrynus stomaticus (Lütken, 1864)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Firouzophrynus stomaticus
+      zh: Firouzophrynus stomaticus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-14a4daa4cd
+            part: title
+          zh:
+            page: zh
+            section: s-db2d758fcd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-14a4daa4cd
+            part: body
+          zh:
+            page: zh
+            section: s-db2d758fcd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-059daff5e2
+            part: title
+          zh:
+            page: zh
+            section: s-a67a42a559
+            part: title
+        text:
+          en:
+            page: en
+            section: s-059daff5e2
+            part: body
+          zh:
+            page: zh
+            section: s-a67a42a559
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-07d752e1f7
+            part: title
+          zh:
+            page: zh
+            section: s-ea75cfa44d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-07d752e1f7
+            part: body
+          zh:
+            page: zh
+            section: s-ea75cfa44d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-65662134c1e146d41ebd35edb0fae599
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-83db982b55
+            part: title
+          zh:
+            page: zh
+            section: s-5c4e61af6a
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2px7
+        text:
+          en:
+            page: en
+            section: s-83db982b55
+            part: body
+          zh:
+            page: zh
+            section: s-5c4e61af6a
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-440b4f2885
+            part: title
+          zh:
+            page: zh
+            section: s-8adcda2a12
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2px7
+        text:
+          en:
+            page: en
+            section: s-440b4f2885
+            part: body
+          zh:
+            page: zh
+            section: s-8adcda2a12
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-dba9d101ec
+            part: title
+          zh:
+            page: zh
+            section: s-9b70768079
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2px7
+        text:
+          en:
+            page: en
+            section: s-dba9d101ec
+            part: body
+          zh:
+            page: zh
+            section: s-9b70768079
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3aefd9b3af
+            part: title
+          zh:
+            page: zh
+            section: s-fac97a9add
+            part: title
+        sourceIds:
+          - primary-pmc4740822-p2px7
+          - primary-pmc4740822-p2px7-catalogue-alias-6dptk
+        text:
+          en:
+            page: en
+            section: s-3aefd9b3af
+            part: body
+          zh:
+            page: zh
+            section: s-fac97a9add
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Firouzophrynus stomaticus
+          url: https://www.checklistbank.org/dataset/316115/taxon/P2PX7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0597; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0597 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc4740822-p2px7
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Firouzophrynus stomaticus: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc4740822-p2px7-catalogue-alias-6dptk
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: COL26.8 usage6DPTK acceptedP2PX7
+          scope:
+            en: Exact nomenclatural link Duttaphrynus stomaticus to Firouzophrynus stomaticus; no voucher/sequence authentication
+            zh: Duttaphrynus stomaticus 至 Firouzophrynus stomaticus 的精确命名链接；未认证凭证/序列
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc4740822-p2px7-catalogue-alias-6dptk
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-0c1b0fb2ec
+        part: body
+      zh:
+        page: zh
+        section: s-9f49571c65
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-pmc4740822-p2px7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Source labelsDuttaphrynus stomaticus; comparisonvoucher/sequence/focal roles retainedseparately; no originalidentitycertification
+        evidenceRead: "Firouzophrynus stomaticus: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Evidence roles in the Andaman toad description
+              zh: 安达曼蟾蜍描述中的证据角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2px7
+            locator: PMC4740822 XML Table3 idT6 rows21;App1 entries
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-43892b0c41
+                part: body
+              zh:
+                page: zh
+                section: s-a4953766e6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Comparative material does not supply every trait
+              zh: 比较材料并不提供全部性状
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2px7
+            locator: PMC4740822 XMLsec4;sec26;App1;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-52f399a821
+                part: body
+              zh:
+                page: zh
+                section: s-eb4f065875
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Mitochondrial sampling and phylogenetic limits
+              zh: 线粒体采样与系统树限制
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2px7
+            locator: PMC4740822 XMLsec4molecularmethods;sec27;Table3idT6;Table6idT5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d5fe12dab4
+                part: body
+              zh:
+                page: zh
+                section: s-e6c077cbaf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: Frozen nomenclatural correspondence retains the source label
+              zh: 冻结命名对应保留来源标签
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-p2px7
+            locator: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/col26.8-name-bridges.json usage6DPTK
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ead2fdeea6
+                part: body
+              zh:
+                page: zh
+                section: s-57b67b3cb2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

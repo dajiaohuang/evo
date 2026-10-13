@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ficinia jardinei Muasya & C.H.Stirt.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6HWC4, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6HWC4; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6HWC4
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6HWC4
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001332970-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6HWC4 / WFO wfo-0001332970
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7636_0
+        referenceId: ref-28bb915d-4068-811f-a613-00a6fa25e095
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ficinia jardinei Muasya & C.H.Stirt. account; SANBI/WFO archive rows 83891 (Morphology), 83682 (Habitat), 83318 (Diagnostic), source identifier 7636.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial, rhizome to 8.0-10.0 mm diameter. Culm 350-765 mm tall, 0.9-1.2 mm thick, but c. 2.0 mm thick across the rim of the leaf sheath, glabrous. Leaf sheath 70-140 mm long, glabrous, not papery, wine-red, sticky. Leaf blade reduced to lobe, 1.0-13.0 mm long, glabrous, canaliculate. Involucral bract 1, leaf-like and erect or deflected to one side, 7.0-9.0 mm long, margin glabrous. Inflorescence globose, 8.0-10.0 mm diameter, each with over 20 spikelets. Spikelets 4.0-5.5 x 2.0-2.5 mm, terete, dark brown. Glumes 2.3-2.6 mm long, boat-shaped with a mucro 0.5 mm long; margins serrated. Style trifid. Stamens 3, anthers crested. Nutlets 1.5-1.7 x 0.9-1.0 mm, dark brown, weakly reticulate; hypogynous disc to 0.5 mm long, cupular, 6 to 9-lobed.
+            textZh: Ficinia jardinei Muasya & C.H.Stirt. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7636_0
+            locator: "SANBI/WFO archive Morphology row 83891; source identifier 7636.0; cited publication: Muasya, AM; Viljoen, J; Stirton, CH; Helme, NA. 2012. Two new leafless species of Ficinia (Cypereae, Cyperaceae) from the Greater Cape Floristic Region of South Africa. S. African J. Bot. 79: 96 - 101. [Copyright held by the South African Association of Botanists (2012); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Ficinia jardinei is most similar to F. nodosa, sharing gross morphological similarities (well-developed rhizome, absent or reduced leaf blades, globose inflorescence). F. jardinei is characterised by its sticky leaf sheaths and glumes with serrate margins.
+            textZh: SANBI 条目提供了 Ficinia jardinei Muasya & C.H.Stirt. 的鉴别特征。
+            sourceIds:
+              - sanbi_7636_0
+            locator: "SANBI/WFO archive Diagnostic row 83318; source identifier 7636.0; cited publication: Muasya, AM; Viljoen, J; Stirton, CH; Helme, NA. 2012. Two new leafless species of Ficinia (Cypereae, Cyperaceae) from the Greater Cape Floristic Region of South Africa. S. African J. Bot. 79: 96 - 101. [Copyright held by the South African Association of Botanists (2012); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Ficinia jardinei is currently known from seepages and stream banks at 1000-1200 m in the Swartruggens and Witteberg quartzite ranges at the arid edge of the Fynbos biome. All known localities occur in the transition zone between the Fynbos and Succulent Karoo biomes.
+            textZh: 该 SANBI 区域物种条目记录的生境：Ficinia jardinei is currently known from seepages and stream banks at 1000-1200 m in the Swartruggens and Witteberg quartzite ranges at the arid edge of the Fynbos biome. All known localities occur in the transition zone between the Fynbos and Succulent Karoo biomes.
+            sourceIds:
+              - sanbi_7636_0
+            locator: "SANBI/WFO archive Habitat row 83682; source identifier 7636.0; cited publication: Muasya, AM; Viljoen, J; Stirton, CH; Helme, NA. 2012. Two new leafless species of Ficinia (Cypereae, Cyperaceae) from the Greater Cape Floristic Region of South Africa. S. African J. Bot. 79: 96 - 101. [Copyright held by the South African Association of Botanists (2012); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Heleophryne hewitti
+  displayName: Heleophryne hewitti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3K4W8
+  sourceIndexes:
+    - name:
+        en: Heleophryne hewitti
+        zh: Heleophryne hewitti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3K4W8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/256
+            queryName: Heleophryne hewitti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a3d764e10
+      - s-1d68d64dcb
+      - s-0d01057029
+      - s-6764bde5f0
+      - s-4bcd697e7a
+      - s-b1d3a0eb6d
+      - s-c71a4365f0
+      - s-da052564fd
+      - s-5ab86284ae
+      - s-b1a0e90ac5
+    zh:
+      - s-7104c21dac
+      - s-5418d02ecc
+      - s-233024d495
+      - s-f0075f52e0
+      - s-f9c610fbd9
+      - s-1967952180
+      - s-25fe474f1e
+      - s-47d561911c
+      - s-6504e7650c
+      - s-30e4eda290

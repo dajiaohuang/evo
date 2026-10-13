@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton kweichowensis
+  displayName: Tylototriton kweichowensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBM6
+  sourceIndexes:
+    - name:
+        en: Tylototriton kweichowensis
+        zh: Tylototriton kweichowensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBM6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/140
+            queryName: Tylototriton kweichowensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 38
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/128
+            queryName: Pleurodeles kweichowensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-99d0d9fe0f
+      - s-3d32aa3e2a
+      - s-4cd4afba9f
+      - s-31fe447b57
+      - s-f44b5e52a6
+      - s-bc8c2bf9f9
+      - s-9ccd7d3853
+      - s-d5da641eb5
+      - s-a514478b56
+      - s-09d9544cec
+      - s-9c4074bdd6
+      - s-cfca0285b6
+      - s-fb7cf7904a
+      - s-abf3f7356a
+      - s-09d8d9bcfc
+    zh:
+      - s-6d340f4a76
+      - s-a4fc4300c8
+      - s-688cbc7175
+      - s-b0d67c8428
+      - s-441f712cc1
+      - s-9dda38a1df
+      - s-7652695670
+      - s-a0a99bded8
+      - s-5f67563895
+      - s-f0ae5c3c13
+      - s-8d0e5e72bb
+      - s-540378a358
+      - s-0c8adc84a6
+      - s-2e14ce98ac
+      - s-718b2030bb

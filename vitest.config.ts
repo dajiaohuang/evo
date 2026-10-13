@@ -12,7 +12,7 @@ export const coreScriptTests = [
   'scripts/mobile-descriptor-pins.test.mjs',
   'scripts/reference-date-status.test.mjs',
   'scripts/search-occurrence-scenes.test.mjs',
-  'scripts/tree-path-content.test.mjs',
+  'scripts/node-content.test.mjs',
 ]
 
 export default defineConfig({

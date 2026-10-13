@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Neochoerus pinckneyi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Neochoerus pinckneyi
+      en: Neochoerus pinckneyi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9bf16e093f
+            part: body
+          en:
+            page: en
+            section: s-e895fa601b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8ed94719b3
+            part: body
+          en:
+            page: en
+            section: s-fac0e9b266
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-511bf78503
+            part: body
+          en:
+            page: en
+            section: s-c9a98b4fd9
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cc3c61817e
+            part: body
+          en:
+            page: en
+            section: s-c1be87b2ac
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bb06cf1a02
+            part: body
+          en:
+            page: en
+            section: s-6d85495d6f
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Neochoerus pinckneyi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=47147&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:47147; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:47147
+          selectedOccurrenceIds:
+            - occ:198283
+            - occ:199345
+            - occ:610345
+            - occ:750027
+            - occ:750028
+            - occ:750029
+            - occ:750030
+            - occ:1196536
+            - occ:1196571
+            - occ:1196896
+            - occ:1208225
+            - occ:1487192
+            - occ:1487193
+            - occ:1515327
+          selectedCollectionIds:
+            - col:20440
+            - col:20581
+            - col:65405
+            - col:79923
+            - col:80230
+            - col:79757
+            - col:80232
+            - col:74292
+            - col:154773
+            - col:154804
+            - col:156789
+            - col:206989
+            - col:206985
+            - col:154921
+          sourceReferenceIds:
+            - ref:2050
+            - ref:3132
+            - ref:18853
+            - ref:26822
+            - ref:50339
+            - ref:3131
+            - ref:50371
+            - ref:51404
+            - ref:71195
+            - ref:73089
+          originalIdentificationMappings:
+            - occurrenceId: occ:1208225
+              originalIdentifiedName: Neochoerus pinckneyi n. gen.
+              acceptedName: Neochoerus pinckneyi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-96234300a4
+        part: body
+      en:
+        page: en
+        section: s-08d95cde27
+        part: body

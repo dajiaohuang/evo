@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bolitoglossa savagei
+    name:
+      en: Bolitoglossa savagei
+      zh: Bolitoglossa savagei
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Bolitoglossa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-01938a961d
+            part: body
+          zh:
+            page: zh
+            section: s-8c8aa5d61e
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-693e3576b1
+            part: body
+          zh:
+            page: zh
+            section: s-75c672f495
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 83, 84; Reference.csv rows 4292
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 83
+        values:
+          - Plethodontidae
+          - Bolitoglossa
+          - Bolitoglossa savagei
+          - F
+          - NA
+          - "48.8"
+          - NA
+          - "27.1"
+          - "10.8"
+          - "7.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 84
+        values:
+          - Plethodontidae
+          - Bolitoglossa
+          - Bolitoglossa savagei
+          - M
+          - NA
+          - "43.7"
+          - NA
+          - "24.2"
+          - "10.6"
+          - "7.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4292
+        values:
+          - Caudata
+          - Bolitoglossa_savagei
+          - "Acevedo, A. A., Wake, D. B., Marquez, R., Silva, K., Franco, R., & Amezquita, A. (2013). Two new species of Salamanders, genus Bolitoglossa (Amphibia: Plethodontidae), from the eastern Colombian andes. Zootaxa, 3609, 69-84. https://doi.org/10.11646/zootaxa.3609.1.5"
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - MDS2
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

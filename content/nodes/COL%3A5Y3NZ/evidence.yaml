@@ -1,0 +1,94 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cheirogaleus shethi Frasier, Lei, McLain, Taylor, Bailey et al., 2016
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 安卡拉纳侏狐猴
+      en: Ankarana Dwarf Lemur
+    sections:
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-72ac6e7ef4
+            part: body
+          en:
+            page: en
+            section: s-574434d893
+            part: body
+        sourceIds:
+          - frasier2016
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-c1c0377134
+            part: body
+          en:
+            page: en
+            section: s-b5ff1b2703
+            part: body
+        sourceIds:
+          - hending2017
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Cheirogaleus shethi
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Y3NZ
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-572c8d15-3749-83c7-a3b7-b82c362ac690
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页所用英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine COL26.8 accepted classification.
+      - id: frasier2016
+        referenceId: ref-ac00e177-9d7b-84f7-a3f4-74dce7d912e0
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 C. shethi 的原始描述、北部干燥与过渡林地点以及遗传和形态比较。
+            en: Supports the original description of C. shethi, northern dry and transitional forest localities, and genetic and morphological comparisons.
+      - id: hending2017
+        referenceId: ref-ac77c5f0-b85d-8414-a1c1-aed9ef74680c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 SAVA 地区 10 处调查地点的观察及两处南向新记录；不提供完整种群估计。
+            en: Supports observations at ten SAVA survey sites and two new southerly records; it does not provide a complete population estimate.
+    limitations:
+      zh:
+        page: zh
+        section: s-0271113878
+        part: body
+      en:
+        page: en
+        section: s-60fbbc4278
+        part: body

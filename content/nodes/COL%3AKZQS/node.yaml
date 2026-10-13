@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachoseps pacificus
+  displayName: Batrachoseps pacificus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZQS
+  sourceIndexes:
+    - name:
+        en: Batrachoseps pacificus
+        zh: Batrachoseps pacificus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZQS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/403
+            queryName: Batrachoseps pacificus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/36
+            queryName: Hemidactylium pacificum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/37
+            queryName: Batrachoseps attenuatus pacificus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/348
+            queryName: Batrachoseps pacificus pacificus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e10ee7fee3
+      - s-5690605a31
+      - s-5d5114f013
+      - s-e7830ed416
+      - s-04b8be28bd
+      - s-dc57004b2f
+      - s-a6d8355973
+      - s-0bd5d2ef6d
+      - s-5eef0f883f
+    zh:
+      - s-646d4e1a9b
+      - s-91cc5fcbc1
+      - s-28580e778c
+      - s-65d0942b75
+      - s-7e01fdfc0c
+      - s-67b8d7d7ae
+      - s-bbedc36d59
+      - s-09c336450d
+      - s-fd5468f8b3

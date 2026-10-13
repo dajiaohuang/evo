@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus scapularis
+  displayName: Phrynobatrachus scapularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77DNV
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus scapularis
+        zh: Phrynobatrachus scapularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77DNV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/172
+            queryName: Phrynobatrachus scapularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/187
+            queryName: Arthroleptis scapularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bce7184ec7
+      - s-bb49248f18
+      - s-1cc11ac1d4
+      - s-2d4cc2f232
+      - s-d150c3531d
+      - s-e385717c8e
+      - s-1405c0290f
+      - s-66c5e92e53
+    zh:
+      - s-a8a2bb5525
+      - s-cd6cc112ba
+      - s-6f2af43ae5
+      - s-f23d39102c
+      - s-169b939b68
+      - s-08e9745bdc
+      - s-577166d069
+      - s-00c156194d

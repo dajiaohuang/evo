@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys sangzhiensis
+  displayName: Boulenophrys sangzhiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5GX2
+  sourceIndexes:
+    - name:
+        en: Boulenophrys sangzhiensis
+        zh: Boulenophrys sangzhiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5GX2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/378
+            queryName: Boulenophrys sangzhiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/475
+            queryName: Megophrys sangzhiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/476
+            queryName: Xenophrys sangzhiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c78ac6aea
+      - s-76112c28bb
+      - s-8bf4c49a57
+      - s-31be5e30be
+      - s-f6e0050954
+      - s-5e2d25d883
+      - s-303f9a5ef0
+      - s-82b60fc03c
+      - s-48f23569c5
+      - s-5bac2ef39a
+      - s-80ae7ef719
+    zh:
+      - s-64d4d3330a
+      - s-5b659e89f0
+      - s-7c602b1aa9
+      - s-f16034f459
+      - s-f1bff23104
+      - s-2f9222b715
+      - s-ad68552615
+      - s-0be23530b5
+      - s-494138b416
+      - s-6aee2e15ab
+      - s-021852f0f8

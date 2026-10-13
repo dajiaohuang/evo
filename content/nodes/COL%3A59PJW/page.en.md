@@ -1,0 +1,18 @@
+## Locate names using source spellings {#s-217ea13a97}
+Pinned COL26.8 organizes this page at Turdoides hindei (59PJW). BirdLife 2020 row 4941 and eBird 2021 row 10763 share the name and Avibase ID AVIBASE-224B2B08, with type 1BL to 1eBird. BirdTree row 10694 gives Turdoides hindei, with type 1BL to 1BT. The table and catalogue accepted name match exactly without establishing identical species boundaries across dates. Source family Leiotrichidae and catalogue ancestor Leiothrichidae retain their original spellings.
+
+## Separate total birds from complete sets {#s-a86cb92154}
+Morphology comprises 4 birds: 2 female, 2 male and 0 unsexed; 4 complete sets. Nostril-to-tip beak length 12.8 mm, tarsus 33.2 mm, unflattened wing 100.8 mm, tail 108.8 mm and hand-wing index 9.5 are historical row means. Complete-set and total counts agree without supplying individual variation bounds. Inference=NO does not replace each field’s sampling denominator. Hand-wing index is Kipp’s distance/wing length ×100, not flight speed; beak length supplies neither bite force nor the ability to process particular prey.
+
+## Mass comes from a separate compilation {#s-79367ada6a}
+Mass=67.6 g with Mass.Source=Dunning is a compiled species-average body mass incorporating both sexes; the 4 morphology birds are not a verified independent weighing denominator. The original book, weighed individuals, localities and dates were not read, leaving sex, seasonal and regional mass ranges unsupported. Mass and beak length do not establish feeding mechanics.
+
+## Read the two omnivore fields separately {#s-d1576d9886}
+Trophic.Niche=Omnivore; Omnivore niche means using multiple food niches in relatively equal proportions, within or across trophic levels. Trophic.Level=Omnivore; Omnivore level means obtaining resources from multiple trophic levels in roughly equal proportions. Both fields say Omnivore, but one describes food niches and the other trophic levels, not one measured proportion. These are source categories and definitions rather than seasonal feeding observations. No prey or plant species, food amounts or seasonal grouping are supplied, leaving specific menus, capture techniques and breeding-season diets unsupported.
+
+## Diet does not replace primary lifestyle {#s-eff14f1691}
+Primary.Lifestyle=Generalist means time across lifestyle classes, without one primary category in the source definition. Habitat=Shrubland; density code 2 denotes semi-open vegetation, not bird abundance. Migration=1 is the sedentary category without implying lifelong immobility. A shared food niche does not establish shared foraging strata, social activity or seasonal movements. Historical map fields are uninterpreted here and do not supply current range-wide distributions or movement routes.
+
+## Evidence limits {#s-8bb2f5f7be}
+This page uses one of twelve selected historical AVONET v7 rows, full eBird/BirdTree crosswalks, field definitions and the read COL tu shard. Source family Leiotrichidae remains distinct from catalogue Leiothrichidae. Exact catalogue correspondence for reinwardii is unconfirmed in the read shard, not claimed absent from every catalogue. Same-name rows also do not prove identical historical and current species boundaries. Morphology birds, complete sets and Dunning compiled mass retain separate denominators; original specimens, Dunning’s book, the whole workbook and a new full methods-paper reading were not examined. Niche and trophic level are not interchangeable and underlying diet papers were not read; seasonal menus, prey lists, social cooperation, breeding, plumage, calls, current range and migration routes are unsupported. Complete natural history are not counted.
+

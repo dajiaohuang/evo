@@ -1,0 +1,6 @@
+## Three veins and a dense coat on the leaf underside {#s-db6c80a4ad}
+A Brazilian Flora 2020 v393.147 field describes star-shaped hairs on young stems. The leaves are elliptic, with an acute tip, a tapered base and entire, non-ciliate margins. Three veins arise above the leaf base; the lower surface has a dense coat of sessile star-shaped hairs, which sit directly on the surface. Flowers are grouped in compact clusters. The bell-shaped hypanthium bears a persistent calyx with defined lobes. Each flower has five petals. The anther connective is not prolonged and carries two lower lobes; white anthers have one broad pore, while the ovary is hairless. The habitat field separately labels the species “terrícola,” or terrestrial. These are descriptors from a regional dataset field; they do not establish population variation, complete range or a full diagnostic account.
+
+## A terrestrial habitat label {#s-7800b351d5}
+The Brazilian Flora habitat field classifies the recorded setting as “terrícola,” meaning terrestrial. It provides no collection locality, survey date or range coverage and does not say whether the material is wild, cultivated, managed or fossil. This label is not a full ecological account.
+

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chiasmocleis schubarti
+  displayName: Chiasmocleis schubarti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ2N
+  sourceIndexes:
+    - name:
+        en: Chiasmocleis schubarti
+        zh: Chiasmocleis schubarti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ2N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/263
+            queryName: Chiasmocleis schubarti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bd16b55704
+      - s-f97f6f24a2
+      - s-2561392c3b
+      - s-149a76b68d
+      - s-cd0f0530b6
+      - s-60d7cf79e1
+      - s-24fa8119a0
+      - s-5e1c99465f
+      - s-143878fd13
+      - s-44d7b12828
+      - s-3f660c9ab2
+      - s-5c5425e7fa
+      - s-e524f31183
+      - s-7ed09ddb85
+      - s-2943f75a56
+      - s-37947914bf
+      - s-0b6e059aa3
+      - s-f29e16aa99
+    zh:
+      - s-0c14f36c1b
+      - s-64869aa434
+      - s-b14f5aca43
+      - s-7f6177facb
+      - s-053cc943b5
+      - s-8692df044a
+      - s-b6689b89b2
+      - s-b10b66aea6
+      - s-26f3a6100f
+      - s-4962491f86
+      - s-903b657844
+      - s-10aeaf8f57
+      - s-1067ef90ce
+      - s-411d32d3da
+      - s-ce70013a7a
+      - s-ca8a8c8ef2
+      - s-00280d32ad
+      - s-6c1b5a6a37

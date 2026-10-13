@@ -1,0 +1,102 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Spatula querquedula
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Spatula querquedula
+      en: Spatula querquedula
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-2e30b50262
+            part: body
+          en:
+            page: en
+            section: s-e3a1b884c8
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-afc828caeb
+            part: body
+          en:
+            page: en
+            section: s-016df7524f
+            part: body
+      - topic: feedingEcology
+        sourceIds:
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-ef92c4a112
+            part: body
+          en:
+            page: en
+            section: s-e41f3d2edf
+            part: body
+      - topic: movement
+        sourceIds:
+          - avonetSpatulaNameV7
+        text:
+          zh:
+            page: zh
+            section: s-3c4ccb83ea
+            part: body
+          en:
+            page: en
+            section: s-ef4f5476a4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Spatula querquedula
+          url: https://www.checklistbank.org/dataset/316115/taxon/9HKHG
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetSpatulaNameV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET dataset v7 — Spatula historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: AVONET1_BirdLife rows396–405; Metadata definitions; BirdLife–eBird rows9727–9736; BirdLife–BirdTree rows9667–9676.
+          scope:
+            zh: 十个历史 BirdLife／eBird 同名条目及旧 Anas 表内一对一对应；形态、体重与生态来源分开。
+            en: Ten same-name historical BirdLife/eBird rows and one-to-one older Anas workbook links; morphology, mass and ecological sources kept separate.
+    limitations:
+      zh:
+        page: zh
+        section: s-454f2c633f
+        part: body
+      en:
+        page: en
+        section: s-38ea4089e1
+        part: body

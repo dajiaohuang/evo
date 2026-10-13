@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Protea namaquana Rourke
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4N2VC, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4N2VC; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4N2VC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4N2VC
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000484745-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4N2VC / WFO wfo-0000484745
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_9580_0
+        referenceId: ref-264744d1-e360-8386-ac6f-232c7501e319
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Protea namaquana Rourke account; archive rows 43493 (Morphology), 43782 (Habitat), 44052 (Diagnostic), source identifier 9580.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "An erect rounded shrub 1-2 m in height; 1-2 m in diam., compact, densely branched. Trunk up to 200 mm in diam. Flowering branches erect, glabrous, 3-4 mm in diam. Leaves ascending, narrowly oblanceolate to linear-spathulate, glabrous, pale green in live state, 31-60 mm long, 4-9 mm wide, apices obtuse, minutely mucronate. Inflorescences pendulous, sphaerical in bud, shallowly crateriform at anthesis, 90-100 mm in diam. Involucral receptacle very prominent, conic-acute, 30 mm wide, 20-25 mm high. Involucral bracts glabrous, 6-7 seriate; outer series tightly imbricate, ovate-acute, 10-15 mm wide, 8-10 mm long; inner series oblong to broadly oblong, 15-20 mm wide, 20-25 mm long, apices incurved, rounded, margins scarious. Perianth 25-33 mm long, strongly incurved; tube region glabrous, 10 mm long, inflated, quadrangular; claws narrowing abruptly, glabrous but upper part sparsely tawny setose; limbs linear, 10 mm long, sparsely setose with tawny trichomes, apices uncinate-acuminate. Anthers 4, subsessile, filaments 2-3 mm long. Style very strongly adaxially arcuate, ancipitous proximally, tapering and terete terminally, 30-33 mm long. Pollen presenter straight, linear-acute, 8 mm long, clearly differentiated from style. Ovary obconic, 3 mm long, covered with long tawny trichomes. Hypogynous scales ovate-acute, 1 mm long. Flowering time: (May) June-September (October)."
+            sourceIds:
+              - sanbi_9580_0
+            locator: "SANBI/WFO archive Morphology row 43493; source 9580.0; publication: Rourke, JP. 1990. A new species of Protea (Proteaceae) from Namaqualand with comments on the Kamiesberg as a centre of. S. African J. Bot. 56: 261 - 265. [Copyright held by the South African Association of Botanists (1990); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Protea namaquana is readily distinguished by its growth habit and foliage. Unlike P. sulphurea which assumes a procumbent, horizontally sprawling mode of growth, P. namaquana is an erect, compact, rounded shrub 1 to 2 m in height. The leaves are narrowly oblanceolate to linear-spathulate, 30-60 mm long and pale green in the live state, unlike the elliptic glaucous leaves, 11^40 mm long in P. sulphurea. The involucral bracts are dull carmine in contrast to the predominantly yellow bracts of P. sulphurea. Newly opened inflorescences emit a strong yeasty odour.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_9580_0
+            locator: "SANBI/WFO archive Diagnostic row 44052; source 9580.0; publication: Rourke, JP. 1990. A new species of Protea (Proteaceae) from Namaqualand with comments on the Kamiesberg as a centre of. S. African J. Bot. 56: 261 - 265. [Copyright held by the South African Association of Botanists (1990); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Most populations consist of just a few dozen individuals. They occur an both north- and south-facing slopes but mainly in habitats of southerly aspect. P. namaquana occurs exclusively on granite-derived soils, in contrast to P. sulphurea which is restricted to Witteberg Quartzite and Table Mountain Sandstone.
+            sourceIds:
+              - sanbi_9580_0
+            locator: "SANBI/WFO archive Habitat row 43782; source 9580.0; publication: Rourke, JP. 1990. A new species of Protea (Proteaceae) from Namaqualand with comments on the Kamiesberg as a centre of. S. African J. Bot. 56: 261 - 265. [Copyright held by the South African Association of Botanists (1990); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

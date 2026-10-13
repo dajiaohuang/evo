@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:19629
+    scientificName: Olenoides serratus
+    commonName: Burgess Shale gill-branch sample
+    commonNameZh: 布尔吉斯页岩鳃支样本
+    rank: genus
+    parentName: Trilobite evidence samples
+    extinct: true
+    geography:
+      - Burgess Shale
+      - British Columbia, Canada
+    overview:
+      page: en
+      section: s-8d66ee608f
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-db49af3a90
+        part: body
+      habitat:
+        page: en
+        section: s-ba6b4a64d6
+        part: body
+      locomotion:
+        page: en
+        section: s-9c7da89bc7
+        part: body
+      bodySize:
+        page: en
+        section: s-a4ceed326b
+        part: body
+      guild:
+        page: en
+        section: s-52415fb45e
+        part: body
+    traits:
+      - page: en
+        section: s-4c67975606
+        part: body
+      - page: en
+        section: s-cfba277e27
+        part: body
+      - page: en
+        section: s-44542cd62f
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-815bd5bd33
+      part: body
+    confidence: medium
+    referenceIds:
+      - hou-2021-trilobite-gill
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-8d66ee608f
+            part: title
+          zh:
+            page: zh
+            section: s-8643c7e797
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8d66ee608f
+            part: body
+          zh:
+            page: zh
+            section: s-8643c7e797
+            part: body
+        sourceIds:
+          - hou-2021-trilobite-gill
+      - id: body-observations
+        title:
+          en:
+            page: en
+            section: s-cb4e35777e
+            part: title
+          zh:
+            page: zh
+            section: s-90d44ce750
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cb4e35777e
+            part: body
+          zh:
+            page: zh
+            section: s-90d44ce750
+            part: body
+        sourceIds:
+          - hou-2021-trilobite-gill
+      - id: ecology-context
+        title:
+          en:
+            page: en
+            section: s-a00dc9e6a1
+            part: title
+          zh:
+            page: zh
+            section: s-527ff4846a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a00dc9e6a1
+            part: body
+          zh:
+            page: zh
+            section: s-527ff4846a
+            part: body
+        sourceIds:
+          - hou-2021-trilobite-gill
+      - id: interpretation-boundary
+        title:
+          en:
+            page: en
+            section: s-815bd5bd33
+            part: title
+          zh:
+            page: zh
+            section: s-4750329e6f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-815bd5bd33
+            part: body
+          zh:
+            page: zh
+            section: s-4750329e6f
+            part: body
+        sourceIds:
+          - hou-2021-trilobite-gill
+    readerSources:
+      - id: hou-2021-trilobite-gill
+        referenceId: hou-2021-trilobite-gill
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: ESEM and micro-CT compare trilobite upper limb branches; respiratory function is inferred from structure, not measured as gas exchange.
+            zh: 研究通过环境扫描电镜与微型 CT 比较三叶虫肢体上支；呼吸功能由结构推断，并非气体交换实测。
+  claims:
+    - subjectId: taxon:olenoides
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Olenoides serratus is the named Burgess Shale trilobite in the cited appendage comparison; its sample does not establish a direct ancestral relationship.
+      confidence: medium
+      confidenceRationale: The taxonomy field is restricted to the named Olenoides serratus comparison specimen and study, without extending the result to unobserved species or ancestry.
+      referenceLinks:
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: eabe7377; Figures 3–5; Supplementary materials
+          figure: Figures 3–5; Supplementary materials
+          quoteLocator: Olenoides serratus articulation and upper limb branch
+    - subjectId: taxon:olenoides
+      claimKind: scientific
+      claimType: biogeography
+      statement: This profile is limited to the cited Burgess Shale sample in British Columbia and does not establish a genus-wide distribution.
+      confidence: medium
+      confidenceRationale: The locality is explicit in the comparative fossil sample, but one deposit cannot delimit the geographic distribution of Olenoides.
+      referenceLinks:
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: eabe7377; Figures 3–5; Supplementary materials
+          figure: Figures 3–5; Supplementary materials
+          quoteLocator: Burgess Shale Olenoides serratus comparative sample
+    - subjectId: taxon:olenoides
+      claimKind: scientific
+      claimType: ecology
+      statement: Upper-branch morphology is consistent with a respiratory function, but gas exchange, haemolymph flow, diet and ecological guild are not directly measured.
+      confidence: medium
+      confidenceRationale: The functional comparison is explicitly morphology-based, so physiology and behaviour remain bounded interpretations.
+      referenceLinks:
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: eabe7377; Figures 1–5; Supplementary materials
+          figure: Figures 1–5; Supplementary materials
+          quoteLocator: Functional comparison of filament geometry and respiratory branch morphology
+    - subjectId: taxon:olenoides
+      claimKind: scientific
+      claimType: morphology
+      statement: Olenoides serratus preserves a partly articulated, filament-bearing upper limb branch with body-wall attachment used in the study's structural comparison.
+      confidence: high
+      confidenceRationale: The branch and its articulation are directly preserved morphology, although the function inferred from them is separate.
+      referenceLinks:
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: eabe7377; Figures 3–5; Supplementary materials
+          figure: Figures 3–5; Supplementary materials
+          quoteLocator: Olenoides upper limb branch, body-wall attachment and filament morphology
+    - subjectId: taxon:olenoides
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Olenoides serratus is bounded here by the cited Burgess Shale sample from British Columbia, Canada; this named locality sample is not a genus-wide distribution or exact complete range.
+      confidence: medium
+      confidenceRationale: "Olenoides: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: eabe7377
+          figure: Figures 1–5; Supplementary materials
+          quoteLocator: Burgess Shale Olenoides serratus comparative sample
+  claim-rationales.zh:
+    - 布尔吉斯页岩鳃支样本的分类字段限于 Olenoides serratus 的具名比较标本；不把样本相似性或矩阵位置改写为直系祖先。
+    - 布尔吉斯页岩鳃支样本的地理字段限于不列颠哥伦比亚的具名样本，不外推为该属的全球分布或起源中心。
+    - 布尔吉斯页岩鳃支样本的生态字段区分附肢形态和呼吸功能解释；气体交换、血淋巴流、食性与行为均未被直接测量。
+    - 布尔吉斯页岩鳃支样本的形态字段限于保存的上肢支、体壁连接和丝状结构，并连接到精确图版和补充材料。
+    - 奥莱诺虫属：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+  claim-statements.zh:
+    - 本档案限于所引不列颠哥伦比亚省的布尔吉斯页岩样本，不能据此确定整个属的分布。
+    - 附肢上支的形态与呼吸功能相符，但气体交换、血淋巴流动、食性及生态功能群并未被直接测定。
+    - Olenoides serratus 保存了部分保持连接、带有丝状结构的附肢上支及其体壁附着关系，研究将其用于结构比较。
+    - Olenoides serratus 是所引附肢比较研究中具名的布尔吉斯页岩三叶虫；这一样本不能确立直系祖先关系。
+    - Olenoides serratus 在此由加拿大不列颠哥伦比亚省所引的布尔吉斯页岩样本约束；这一具名地点样本不是整个属的分布或精确完整延限。
+  ranges:
+    - entityId: olenoides
+      rangeKind: global-composite
+      taxonomicConcept: Olenoides respiratory-appendage sample
+      geographicScope: Burgess Shale, Canada
+      olderMa: 509
+      youngerMa: 505
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Formation-level sample envelope, not a global first or last appearance.
+      evidenceBasis: The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:trilobite-upper-limb-gill
+        - claim:taxon:olenoides
+      referenceLocators:
+        - referenceId: hou-2021-trilobite-gill
+          locator: eabe7377; Figures 1–5; Supplementary materials; Triarthrus imaging; Olenoides articulation; Functional comparison

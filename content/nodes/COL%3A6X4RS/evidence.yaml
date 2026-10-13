@@ -1,0 +1,368 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes manohari Zachariah, Dinesh, Kunhikrishnan, Das, Raju, Radhakrishnan, Palot & Kalesh, 2011
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes manohari
+      zh: Raorchestes manohari
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-7b340ccd6a
+            part: title
+          zh:
+            page: zh
+            section: s-df5d40bc18
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7b340ccd6a
+            part: body
+          zh:
+            page: zh
+            section: s-df5d40bc18
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-62f9809309
+            part: title
+          zh:
+            page: zh
+            section: s-bd8fa88036
+            part: title
+        text:
+          en:
+            page: en
+            section: s-62f9809309
+            part: body
+          zh:
+            page: zh
+            section: s-bd8fa88036
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-ab55f38740
+            part: title
+          zh:
+            page: zh
+            section: s-8488852a89
+            part: title
+        sourceIds:
+          - primary-pmc7936570-6x4rs
+        text:
+          en:
+            page: en
+            section: s-ab55f38740
+            part: body
+          zh:
+            page: zh
+            section: s-8488852a89
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-287dfbba57
+            part: title
+          zh:
+            page: zh
+            section: s-202a788910
+            part: title
+        sourceIds:
+          - primary-pmc7936570-6x4rs
+        text:
+          en:
+            page: en
+            section: s-287dfbba57
+            part: body
+          zh:
+            page: zh
+            section: s-202a788910
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e22c4f3488
+            part: title
+          zh:
+            page: zh
+            section: s-b01e608bf9
+            part: title
+        sourceIds:
+          - primary-pmc10480065-6x4rs
+        text:
+          en:
+            page: en
+            section: s-e22c4f3488
+            part: body
+          zh:
+            page: zh
+            section: s-b01e608bf9
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-90f8fa6a77
+            part: title
+          zh:
+            page: zh
+            section: s-c47dd1a37b
+            part: title
+        sourceIds:
+          - primary-pmc10480065-6x4rs
+        text:
+          en:
+            page: en
+            section: s-90f8fa6a77
+            part: body
+          zh:
+            page: zh
+            section: s-c47dd1a37b
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-899a1d1d01
+            part: title
+          zh:
+            page: zh
+            section: s-53be3ab199
+            part: title
+        sourceIds:
+          - primary-pmc10480065-6x4rs
+        text:
+          en:
+            page: en
+            section: s-899a1d1d01
+            part: body
+          zh:
+            page: zh
+            section: s-53be3ab199
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes manohari
+          url: https://www.checklistbank.org/dataset/316115/taxon/6X4RS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7936570-6x4rs
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes manohari: Individually read species-specific acoustic comparison and table 2 species row 28, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10480065-6x4rs
+        referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes manohari: XML Sampling, CT processing, all Analysis, Results and Discussion paragraphs and Conclusions read; original meshes, landmark coordinates, supplementary specimen table and cited primary natural-history studies not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-67dfedd5f9
+        part: body
+      zh:
+        page: zh
+        section: s-c7a2766694
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-6x4rs
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes manohari
+        evidenceRead: "Raorchestes manohari: Individually read species-specific acoustic comparison and table 2 species row 28, including adjacent additional call types where stated; source discrepancies retained; height not breeding-substrate evidence; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: behavior
+            heading:
+              en: Species-specific call structure in the 2021 comparison
+              zh: 2021 年比较中的物种专属鸣声结构
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-6x4rs
+            locator: PMC7936570 XML sec13 paragraph 25; table-2 species row 28 and adjacent rows for additional call types; sec7 paragraphs 1–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-46e513fd41
+                part: body
+              zh:
+                page: zh
+                section: s-9c7f1190f9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Reported calling height is an observation range
+              zh: 报告的鸣叫高度是观察范围
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-6x4rs
+            locator: PMC7936570 XML table-2 species row 28; caption and calling-height column
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c4689e3045
+                part: body
+              zh:
+                page: zh
+                section: s-dcd262e262
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1002/ece3.10493
+        referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+        sourceKey: primary-pmc10480065-6x4rs
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10480065/article.xml
+        sourceConcept: Raorchestes manohari
+        evidenceRead: "Raorchestes manohari: XML Sampling, CT processing, all Analysis, Results and Discussion paragraphs and Conclusions read; original meshes, landmark coordinates, supplementary specimen table and cited primary natural-history studies not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Bamboo-clade skulls in a single-male comparative sample
+              zh: 单雄比较样本中的竹栖支系头骨
+            referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+            sourceKey: primary-pmc10480065-6x4rs
+            locator: PMC10480065 XML Sampling paragraph1; CT processing paragraph1; Analysis paragraphs1–2; Results paragraphs4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b0201bfcb6
+                part: body
+              zh:
+                page: zh
+                section: s-0a00b27c49
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: A clade-specific history and model-dependent rate shift
+              zh: 支系特定历史及模型依赖速率转变
+            referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+            sourceKey: primary-pmc10480065-6x4rs
+            locator: PMC10480065 XML Analysis paragraph3; Results paragraph7; Discussion paragraphs2,5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5c041276da
+                part: body
+              zh:
+                page: zh
+                section: s-8c3f9f2cee
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: reproduction
+            heading:
+              en: Bamboo breeding context is cited rather than newly observed here
+              zh: 竹内繁殖背景为引用而非本研究新观察
+            referenceId: ref-0dbdb015-9de1-4a42-a016-f9345dd352f5
+            sourceKey: primary-pmc10480065-6x4rs
+            locator: PMC10480065 XML Results paragraph6; Discussion paragraphs1–3,7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e5508d88a7
+                part: body
+              zh:
+                page: zh
+                section: s-3710a98644
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

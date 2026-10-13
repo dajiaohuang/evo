@@ -1,0 +1,183 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:310815
+    scientificName: Rhyniella praecursor
+    commonName: Rhynie springtail material
+    commonNameZh: 莱尼燧石弹尾类材料
+    rank: species
+    parentName: Early Hexapoda evidence route
+    extinct: true
+    geography:
+      - Rhynie Chert
+      - Aberdeenshire, Scotland
+    overview:
+      page: en
+      section: s-b35601d075
+      part: body
+    overviewZh:
+      page: zh
+      section: s-5736bf8ef7
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-142370d860
+        part: body
+      habitat:
+        page: en
+        section: s-010a0cc919
+        part: body
+      locomotion:
+        page: en
+        section: s-7f95c0e8b3
+        part: body
+      bodySize:
+        page: en
+        section: s-df656ef436
+        part: body
+      guild:
+        page: en
+        section: s-68e03b6df3
+        part: body
+      dietZh:
+        page: zh
+        section: zh-7bf124e28d93d7
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-567f572fc4e2e1
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-213f0c68eb2485
+        part: body
+      guildZh:
+        page: zh
+        section: zh-8911f2c5c790e8
+        part: body
+    traits:
+      - page: en
+        section: s-cec8237a49
+        part: body
+      - page: en
+        section: s-42890aebd8
+        part: body
+      - page: en
+        section: s-fc3aab4cc0
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-6fcf08d94f
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-88545aa2bf
+      part: body
+    confidence: medium
+    referenceIds:
+      - whalley-jarzembowski-1981-rhyniella
+    traitsZh:
+      - page: zh
+        section: zh-37f1f750ca1396
+        part: body
+      - page: zh
+        section: zh-537e3c368846ba
+        part: body
+      - page: zh
+        section: zh-107754dabef10b
+        part: body
+  claims:
+    - subjectId: taxon:rhyniella
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Rhyniella praecursor is bounded here by four head capsules and roughly ten additional body specimens from the Rhynie Chert, Aberdeenshire, Scotland; this named specimen series is not a complete species history or global range.
+      confidence: medium
+      confidenceRationale: "Rhynie springtail material: Medium confidence applies to the named specimen or sampled analysis at the inherited concrete locator. The wording deliberately limits the claim to that evidence and does not promote a range-ledger display envelope into a global biological boundary."
+      referenceLinks:
+        - referenceId: whalley-jarzembowski-1981-rhyniella
+          relation: supports
+          pages: "317"
+          figure: Published specimen assessment
+          quoteLocator: Rhynie Chert head capsules and additional body specimens
+    - subjectId: taxon:rhyniella
+      claimKind: scientific
+      claimType: taxonomy
+      statement: The reassessed Rhynie Chert material is treated as Rhyniella praecursor, a springtail sample whose furcula supports collembolan affinity; this does not establish a direct ancestor or a complete Hexapoda history.
+      confidence: medium
+      confidenceRationale: Confidence is limited to the named specimen series and the published furcula-based interpretation, not to unobserved populations, ancestry or an origin date.
+      referenceLinks:
+        - referenceId: whalley-jarzembowski-1981-rhyniella
+          relation: supports
+          pages: "317"
+          figure: Published specimen assessment
+          quoteLocator: Four head capsules; additional body specimens; abdomen and springtail-like furcula
+    - subjectId: taxon:rhyniella
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profiled Rhyniella material is restricted to the Rhynie Chert in Aberdeenshire, Scotland; this locality sample does not establish a complete geographic distribution.
+      confidence: high
+      confidenceRationale: The primary reassessment concerns the named Rhynie material. High confidence applies only to that locality context, not to presence or absence elsewhere.
+      referenceLinks:
+        - referenceId: whalley-jarzembowski-1981-rhyniella
+          relation: supports
+          pages: "317"
+          figure: Published specimen assessment
+          quoteLocator: Devonian material from Rhynie, Scotland
+    - subjectId: taxon:rhyniella
+      claimKind: scientific
+      claimType: ecology
+      statement: The described head capsules, body specimens and furcula provide anatomical context, but they do not directly record diet, habitat use, locomotor performance, body-size variation or ecological guild.
+      confidence: medium
+      confidenceRationale: The specimen inventory is directly reported, whereas ecological behaviour and population-level traits are not observed in the material and remain unassigned.
+      referenceLinks:
+        - referenceId: whalley-jarzembowski-1981-rhyniella
+          relation: supports
+          pages: "317"
+          figure: Published specimen assessment
+          quoteLocator: Head capsules; body specimens; abdomen and furcula anatomy
+    - subjectId: taxon:rhyniella
+      claimKind: scientific
+      claimType: morphology
+      statement: Four Rhyniella head capsules and roughly ten additional body specimens include an abdomen with a springtail-like furcula; those observations are confined to the described material.
+      confidence: high
+      confidenceRationale: The article directly reports the specimen count and preserved abdomen and furcula. The claim does not extend these structures to every individual or to other hexapods.
+      referenceLinks:
+        - referenceId: whalley-jarzembowski-1981-rhyniella
+          relation: supports
+          pages: "317"
+          figure: Published specimen assessment
+          quoteLocator: Four head capsules; additional specimens; abdomen and springtail-like furcula
+  claim-rationales.zh:
+    - 莱尼燧石弹尾类材料：置信度为中：继承的具体页码、图版或章节定位器支持具名标本或抽样分析的存在与范围；措辞有意把结论限制在该证据内，不把导航包络提升为全球生物边界、直接祖先或精确起源。
+    - 分类表述限于莱尼燧石中具名标本系列及其弹尾类解释；不会把局部材料改写为六足类直系祖先或完整历史。
+    - 地理字段只记录苏格兰阿伯丁郡莱尼燧石这一具名样本地点；它不表示该物种的完整分布或其他地区的缺失。
+    - 头壳、躯干材料和叉状尾是形态观察；食性、实际栖息地、运动性能、体型变异和生态类群都没有被该标本系列直接观察到。
+    - 论文直接报告四个头壳、约十件附加躯干材料、腹部和弹尾状叉；高置信度仅适用于这些具名材料。
+  claim-statements.zh:
+    - Rhyniella praecursor 在此由来自苏格兰阿伯丁郡莱尼燧石的四个头壳和约十件其他躯体标本约束；这一具名标本系列不是完整物种史或全球分布。
+    - 重新评估的莱尼燧石材料被归作 Rhyniella praecursor；其弹器支持弹尾类亲缘，但这一弹尾虫样本不能确立直系祖先或完整六足动物历史。
+    - 本档案中的 Rhyniella 材料限定于苏格兰阿伯丁郡莱尼燧石；这一地点样本不能确立完整地理分布。
+    - 所描述的头壳、躯体标本和弹器提供了解剖背景，但没有直接记录食性、生境利用、运动性能、体型变异或生态功能群。
+    - 四件 Rhyniella 头壳和约十件其他躯体标本中包括一件带弹尾类样弹器的腹部；这些观察仅限于所描述材料。
+  ranges:
+    - entityId: rhyniella
+      rangeKind: global-composite
+      taxonomicConcept: Rhyniella praecursor Rhynie Chert material
+      geographicScope: Rhynie Chert, Aberdeenshire, Scotland
+      olderMa: 411
+      youngerMa: 407
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Broad modern Pragian display window; the 1981 source used older numerical correlations.
+      evidenceBasis: Four head capsules and about ten additional specimens include abdomen and furcula anatomy.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:rhyniella-springtail-material
+        - claim:taxon:rhyniella
+      referenceLocators:
+        - referenceId: whalley-jarzembowski-1981-rhyniella
+          locator: 291:317; specimen reassessment

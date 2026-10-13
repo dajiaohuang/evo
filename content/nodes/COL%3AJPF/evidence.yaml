@@ -1,0 +1,181 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Holoadeninae Hedges, Duellman & Heinicke, 2008
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Holoadeninae
+      zh: Holoadeninae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-60d20033af
+            part: title
+          zh:
+            page: zh
+            section: s-7ea116da9c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-60d20033af
+            part: body
+          zh:
+            page: zh
+            section: s-7ea116da9c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-34145cfe78
+            part: title
+          zh:
+            page: zh
+            section: s-49aeebce6b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-34145cfe78
+            part: body
+          zh:
+            page: zh
+            section: s-49aeebce6b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b256858157
+            part: title
+          zh:
+            page: zh
+            section: s-362bb441e3
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: MLK5D
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMLK5D
+            label:
+              en: Bahius
+              zh: Bahius
+          - kind: catalogue
+            colId: 62F4X
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62F4X
+            label:
+              en: Barycholos
+              zh: Barycholos
+          - kind: catalogue
+            colId: 3DNN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3DNN
+            label:
+              en: Bryophryne
+              zh: Bryophryne
+          - kind: catalogue
+            colId: 4G78
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4G78
+            label:
+              en: Euparkerella
+              zh: Euparkerella
+          - kind: catalogue
+            colId: 4XX6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4XX6
+            label:
+              en: Holoaden
+              zh: Holoaden
+          - kind: catalogue
+            colId: 63B4Q
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63B4Q
+            label:
+              en: Microkayla
+              zh: Microkayla
+          - kind: catalogue
+            colId: 64K4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A64K4
+            label:
+              en: Noblella
+              zh: Noblella
+          - kind: catalogue
+            colId: 6PPL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PPL
+            label:
+              en: Phyllonastes
+              zh: Phyllonastes
+          - kind: catalogue
+            colId: SCYNX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3ASCYNX
+            label:
+              en: Qosqophryne
+              zh: Qosqophryne
+          - kind: catalogue
+            colId: V2HSJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV2HSJ
+            label:
+              en: Urkuphryne
+              zh: Urkuphryne
+        text:
+          en:
+            page: en
+            section: s-b256858157
+            part: body
+          zh:
+            page: zh
+            section: s-362bb441e3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Holoadeninae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JPF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9abe1fff31
+        part: body
+      zh:
+        page: zh
+        section: s-3b9d52cc28
+        part: body

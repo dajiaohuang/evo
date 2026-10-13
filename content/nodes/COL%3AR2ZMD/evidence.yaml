@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Odorrana concelata Wang, Zeng & Lin, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Odorrana concelata
+      zh: Odorrana concelata
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fc35ff906a
+            part: title
+          zh:
+            page: zh
+            section: s-90fcc0d485
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fc35ff906a
+            part: body
+          zh:
+            page: zh
+            section: s-90fcc0d485
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e0c88492ec
+            part: title
+          zh:
+            page: zh
+            section: s-4ebc4126a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e0c88492ec
+            part: body
+          zh:
+            page: zh
+            section: s-4ebc4126a6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-28422b8f6e
+            part: title
+          zh:
+            page: zh
+            section: s-afedde9131
+            part: title
+        sourceIds:
+          - primary-pmc9848673-r2zmd
+        text:
+          en:
+            page: en
+            section: s-28422b8f6e
+            part: body
+          zh:
+            page: zh
+            section: s-afedde9131
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-88bd7dccf2
+            part: title
+          zh:
+            page: zh
+            section: s-56ea6eb759
+            part: title
+        sourceIds:
+          - primary-pmc9848673-r2zmd
+        text:
+          en:
+            page: en
+            section: s-88bd7dccf2
+            part: body
+          zh:
+            page: zh
+            section: s-56ea6eb759
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Odorrana concelata
+          url: https://www.checklistbank.org/dataset/316115/taxon/R2ZMD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9848673-r2zmd
+        referenceId: ref-87c00a5f-ffb5-4ec4-af74-f7e5e6aa53c0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Odorrana concelata: Species distribution and habits account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-54f8b7eb66
+        part: body
+      zh:
+        page: zh
+        section: s-48a5b13592
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1120.87067
+        referenceId: ref-87c00a5f-ffb5-4ec4-af74-f7e5e6aa53c0
+        sourceKey: primary-pmc9848673-r2zmd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9848673/article.xml
+        sourceConcept: Odorrana concelata
+        evidenceRead: "Odorrana concelata: Species distribution and habits account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Night-time use of mossy karst forest
+              zh: 夜间苔藓喀斯特林生境使用
+            referenceId: ref-87c00a5f-ffb5-4ec4-af74-f7e5e6aa53c0
+            sourceKey: primary-pmc9848673-r2zmd
+            locator: "Odorrana concelata: Species distribution and habits account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3bfbd2d1d9
+                part: body
+              zh:
+                page: zh
+                section: s-664bb8d60c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Seasonal congregation and juvenile records
+              zh: 季节性聚集及幼体记录
+            referenceId: ref-87c00a5f-ffb5-4ec4-af74-f7e5e6aa53c0
+            sourceKey: primary-pmc9848673-r2zmd
+            locator: "Odorrana concelata: Species distribution and habits account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2116620862
+                part: body
+              zh:
+                page: zh
+                section: s-44f13b99dc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

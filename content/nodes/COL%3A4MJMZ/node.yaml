@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis riveti
+  displayName: Pristimantis riveti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMZ
+  sourceIndexes:
+    - name:
+        en: Pristimantis riveti
+        zh: Pristimantis riveti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/53
+            queryName: Pristimantis riveti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/181
+            queryName: Eleutherodactylus riveti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/178
+            queryName: Hylodes riveti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8fc72106dd
+      - s-6e48eb1a4f
+      - s-a70b8fb692
+      - s-c74fbd09e4
+      - s-ac047fa04d
+      - s-1f0c6df658
+      - s-471e16e3b4
+      - s-10b6fbaf20
+      - s-01c9e39566
+    zh:
+      - s-2af56d131b
+      - s-05ad9e1125
+      - s-be34995367
+      - s-3dca1cc650
+      - s-336788013e
+      - s-5a8a620e55
+      - s-b8a6f0a921
+      - s-b67f23a869
+      - s-40c0251c0e

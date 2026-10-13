@@ -1,0 +1,9 @@
+## PBDB 所记分类概念 {#s-7e0909ec1c}
+PBDB 于 2026-10-02 核对的快照将 Eryops grandis 记为 species 级概念（来源概念 txn:345657），其记录父级为 Eryops。这是 Amphibia 存储锚点下的数据库父链；该路径不认证其与 COL26.8 概念等同。
+
+## 8 条 PBDB 出现记录与采集地字段 {#s-28baa41eaf}
+这一确切概念返回 8 条出现记录，涉及 8 个不同采集地 ID：occ:789984 (collection col:85478; identified name `Eryops cf. grandis`; locality labels US / Colorado / San Miguel; stratigraphy fields formation=Cutler; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1335611 (collection col:180106; locality labels US / New Mexico / Rio Arriba; stratigraphy fields group=Cutler, formation=El Cobre Canyon; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1335677 (collection col:80833; locality labels US / New Mexico / Rio Arriba; stratigraphy fields formation=Abo/Cutler; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1337193 (collection col:180382; locality labels US / New Mexico / Rio Arriba; stratigraphy fields group=Cutler, formation=Arroyo del Agua; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1337202 (collection col:180383; locality labels US / New Mexico / Rio Arriba; stratigraphy fields group=Cutler, formation=El Cobre Canyon; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1337210 (collection col:180384; locality labels US / New Mexico / Rio Arriba; stratigraphy fields group=Cutler, formation=El Cobre Canyon; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1339758 (collection col:180940; locality labels US / New Mexico / Rio Arriba; stratigraphy fields formation=Cutler; `olderAgeMa`=298.9 Ma, `youngerAgeMa`=286 Ma). occ:1339947 (collection col:77412; locality labels US / New Mexico / Rio Arriba; stratigraphy fields formation=Abo/Cutler; `olderAgeMa`=303.7 Ma, `youngerAgeMa`=286 Ma)。年代值是采集地记录中的 Ma（距今百万年）字段，不是测定的物种起源或灭绝时间；该快照不证明全球分布已完整记录。摘录提供出现记录和采集地 ID，但没有标本编号或标本层级描述。
+
+## Eryops grandis 的文献索引查询 {#s-de5a5e18c5}
+链接索引中的 accepted-name 查询以 `Eryops grandis` 为检索名，报告 0 条参考文献记录匹配。这是书目元数据，不是经核实的生物学结果。该占位记录尚未分配生物学主张，概念等同性尚未认证；本页事实仅限上述 PBDB 字段。
+

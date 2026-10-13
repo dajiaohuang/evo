@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates melanolaemus
+  displayName: Allobates melanolaemus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV26
+  sourceIndexes:
+    - name:
+        en: Allobates melanolaemus
+        zh: Allobates melanolaemus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV26
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/157
+            queryName: Allobates melanolaemus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/117
+            queryName: Colostethus melanolaemus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-87cde8beae
+      - s-5e56dc9fab
+      - s-71f7aa7971
+      - s-5e0f9514bc
+      - s-b6ca0000e8
+      - s-ca6ab58cb0
+      - s-e3191f969f
+      - s-1578c16a7b
+      - s-239279e7c9
+      - s-77448f3406
+    zh:
+      - s-e8618a0fb9
+      - s-acb8035a1c
+      - s-3515ec1bcb
+      - s-22260cc47a
+      - s-e9f2c3450e
+      - s-b743cabc4f
+      - s-6def8d7626
+      - s-2b06abe4ab
+      - s-ee0d4c5593
+      - s-e478fcca62

@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus dimidiatus
+  displayName: Eleutherodactylus dimidiatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3997X
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus dimidiatus
+        zh: Eleutherodactylus dimidiatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3997X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/191
+            queryName: Eleutherodactylus dimidiatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/5
+            queryName: Hylodes dimidiatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/6
+            queryName: Euhyas dimidiata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/322
+            queryName: Eleutherodactylus dimidiatus dimidiatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/323
+            queryName: Eleutherodactylus dimidiatus amelasma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f0023ad763
+      - s-bd8404994b
+      - s-d449a1cb5d
+      - s-4bb58fdfbf
+      - s-b44c09dbfd
+      - s-e95807f46f
+      - s-729f366268
+      - s-edadc313ea
+      - s-ca52815e8c
+      - s-a1ecd82932
+      - s-b2cb4648a7
+      - s-c1ada24e8d
+      - s-b6fc909001
+      - s-ec1bc61cb0
+      - s-2317f129ae
+    zh:
+      - s-3a727a7750
+      - s-2d05f35c60
+      - s-7167903200
+      - s-1e2cadd71f
+      - s-0cc2d25848
+      - s-1b15946236
+      - s-58a4f0e6e3
+      - s-332a0f345b
+      - s-24562e45d2
+      - s-fe956fce05
+      - s-051590c424
+      - s-d2dcd97117
+      - s-4f657cd7e8
+      - s-1d81b3e16c
+      - s-d4cb19de15

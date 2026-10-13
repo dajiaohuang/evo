@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis toftae
+  displayName: Pristimantis toftae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQJ
+  sourceIndexes:
+    - name:
+        en: Pristimantis toftae
+        zh: Pristimantis toftae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/137
+            queryName: Pristimantis toftae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/81
+            queryName: Eleutherodactylus toftae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db924c30c8
+      - s-fe17904d75
+      - s-cdbe5d6c57
+      - s-8318199eef
+      - s-f2e157c5a4
+      - s-05d2f8ab47
+      - s-11641ddcb3
+      - s-842097c780
+      - s-7cc0ffea3b
+      - s-585b2f3dc8
+      - s-0448c720d9
+      - s-e37d0b04d6
+    zh:
+      - s-9f6463044a
+      - s-8900f2d6ba
+      - s-f2f973340d
+      - s-910949f61d
+      - s-6828c9d4c9
+      - s-194498a43f
+      - s-1963cb8ae4
+      - s-3343d98dcf
+      - s-c5671d64b9
+      - s-18adb72e57
+      - s-4b066590b5
+      - s-17e3130d2d

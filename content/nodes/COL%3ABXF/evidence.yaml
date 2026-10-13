@@ -1,0 +1,485 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptodactylidae Werner, 1896
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Leptodactylidae
+      zh: Leptodactylidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c04d3cb906
+            part: title
+          zh:
+            page: zh
+            section: s-7c1a46d9ef
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c04d3cb906
+            part: body
+          zh:
+            page: zh
+            section: s-7c1a46d9ef
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-327ca47321
+            part: title
+          zh:
+            page: zh
+            section: s-f94539d658
+            part: title
+        text:
+          en:
+            page: en
+            section: s-327ca47321
+            part: body
+          zh:
+            page: zh
+            section: s-f94539d658
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ea4117fd03
+            part: title
+          zh:
+            page: zh
+            section: s-2ec765116b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ea4117fd03
+            part: body
+          zh:
+            page: zh
+            section: s-2ec765116b
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-4327140307
+            part: title
+          zh:
+            page: zh
+            section: s-fecb95cce4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4327140307
+            part: body
+          zh:
+            page: zh
+            section: s-fecb95cce4
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-eb0f48ef5c
+            part: title
+          zh:
+            page: zh
+            section: s-981c207517
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: JSY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJSY
+            label:
+              en: Leiuperinae
+              zh: Leiuperinae
+          - kind: catalogue
+            colId: JTB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJTB
+            label:
+              en: Leptodactylinae
+              zh: Leptodactylinae
+          - kind: catalogue
+            colId: K3T
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AK3T
+            label:
+              en: Paratelmatobiinae
+              zh: Paratelmatobiinae
+        text:
+          en:
+            page: en
+            section: s-eb0f48ef5c
+            part: body
+          zh:
+            page: zh
+            section: s-981c207517
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-4c80092af2
+            part: title
+          zh:
+            page: zh
+            section: s-15e010699e
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-4c80092af2
+            part: body
+          zh:
+            page: zh
+            section: s-15e010699e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptodactylidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/BXF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Leptodactylidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Leptodactylidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-54e66a960e
+        part: body
+      zh:
+        page: zh
+        section: s-a3d7ec5fc4
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Leptodactylidae
+      sourceRowIds:
+        - Anf3354
+        - Anf3355
+        - Anf3356
+        - Anf3357
+        - Anf3358
+        - Anf3359
+        - Anf3360
+        - Anf3361
+        - Anf3362
+        - Anf3363
+        - Anf3364
+        - Anf3365
+        - Anf3366
+        - Anf3367
+        - Anf3368
+        - Anf3369
+        - Anf3370
+        - Anf3371
+        - Anf3372
+        - Anf3373
+        - Anf3374
+        - Anf3375
+        - Anf3376
+        - Anf3377
+        - Anf3378
+        - Anf3379
+        - Anf3380
+        - Anf3381
+        - Anf3382
+        - Anf3383
+        - Anf3384
+        - Anf3385
+        - Anf3386
+        - Anf3387
+        - Anf3388
+        - Anf3389
+        - Anf3390
+        - Anf3391
+        - Anf3392
+        - Anf3393
+        - Anf3394
+        - Anf3395
+        - Anf3396
+        - Anf3397
+        - Anf3398
+        - Anf3399
+        - Anf3400
+        - Anf3401
+        - Anf3402
+        - Anf3403
+        - Anf3404
+        - Anf3405
+        - Anf3406
+        - Anf3407
+        - Anf3408
+        - Anf3409
+        - Anf3410
+        - Anf3411
+        - Anf3412
+        - Anf3413
+        - Anf3414
+        - Anf3415
+        - Anf3416
+        - Anf3417
+        - Anf3418
+        - Anf3419
+        - Anf3420
+        - Anf3421
+        - Anf3422
+        - Anf3423
+        - Anf3424
+        - Anf3425
+        - Anf3426
+        - Anf3427
+        - Anf3428
+        - Anf3429
+        - Anf3430
+        - Anf3431
+        - Anf3432
+        - Anf3433
+        - Anf3434
+        - Anf3435
+        - Anf3436
+        - Anf3437
+        - Anf3438
+        - Anf3439
+        - Anf3440
+        - Anf3441
+        - Anf3442
+        - Anf3443
+        - Anf3444
+        - Anf3445
+        - Anf3446
+        - Anf3447
+        - Anf3448
+        - Anf3449
+        - Anf3450
+        - Anf3451
+        - Anf3452
+        - Anf3453
+      foragingCounts:
+        - key: Fos
+          en: fossorial
+          zh: 穴居
+          count: 20
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 93
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 78
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 31
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 79
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Eupemphix nattereri
+          path: content/nodes/local-792f3b4f5eabfb550e984e71
+        - scientificName: Pleurodema thaul
+          path: content/nodes/local-9575b87bc9136f0200f375e5
+        - scientificName: Physalaemus henselii
+          path: content/nodes/local-70901c757c65eef2953b0e47
+        - scientificName: Leptodactylus lithonaetes
+          path: content/nodes/local-619a9ed58685db0784d9551c
+        - scientificName: Pleurodema bufoninum
+          path: content/nodes/local-9ed5c78289e8d0c754864ae2
+        - scientificName: Leptodactylus latrans
+          path: content/nodes/local-5ee237075584f3744ba28b96
+        - scientificName: Physalaemus cuvieri
+          path: content/nodes/local-559344420acf163b68f5be4a
+        - scientificName: Leptodactylus melanonotus
+          path: content/nodes/local-2d509d0d09dfaab5d126122c
+        - scientificName: Engystomops pustulosus
+          path: content/nodes/local-79f734a8552e85146590741d
+        - scientificName: Pleurodema brachyops
+          path: content/nodes/local-674138e249095a201d0140a9
+        - scientificName: Leptodactylus bufonius
+          path: content/nodes/local-f720b20f0902cc2e289c5ff6
+        - scientificName: Leptodactylus latinasus
+          path: content/nodes/local-3f2fd23541461c816500e2d8
+        - scientificName: Leptodactylus podicipinus
+          path: content/nodes/local-b04d3f304fc83499b37dc020
+        - scientificName: Physalaemus albonotatus
+          path: content/nodes/local-4a67d45f2c121888c550d413
+        - scientificName: Leptodactylus mystacinus
+          path: content/nodes/local-b74368680b1f46c565e30cc6
+        - scientificName: Engystomops guayaco
+          path: content/nodes/local-c5118a3e67b8c3da891a91ee
+        - scientificName: Engystomops petersi
+          path: content/nodes/local-2a29d72833824789b2597496
+        - scientificName: Leptodactylus ventrimaculatus
+          path: content/nodes/local-cd37f0a296fc1eed6ed0de90
+        - scientificName: Leptodactylus fuscus
+          path: content/nodes/local-fbe64c8d4fc4c40114b2b83d
+        - scientificName: Physalaemus camacan
+          path: content/nodes/local-19e4e7169c994578fe95ceed
+        - scientificName: Physalaemus erikae
+          path: content/nodes/local-7ab8815ec0547c18993d42c7
+        - scientificName: Leptodactylus albilabris
+          path: content/nodes/local-812b11dc1c6d26c9122c938e
+        - scientificName: Leptodactylus gracilis
+          path: content/nodes/local-b628015d0e70533028fed798
+        - scientificName: Physalaemus cicada
+          path: content/nodes/local-c7a0c4154cd97013152f64d4
+        - scientificName: Physalaemus gracilis
+          path: content/nodes/local-a8159502a19aa95676812c0b
+        - scientificName: Physalaemus riograndensis
+          path: content/nodes/local-18d9d9c80e7cbbc7705d38f2
+        - scientificName: Physalaemus signifer
+          path: content/nodes/local-3ebe45f0a0c9041f0bc35db1
+        - scientificName: Pseudopaludicola falcipes
+          path: content/nodes/local-46732c4bf681a5451e4edc49
+        - scientificName: Leptodactylus troglodytes
+          path: content/nodes/local-9866aa7ba7ca342479942ca6
+        - scientificName: Physalaemus crombiei
+          path: content/nodes/local-af0735fc7f1939b164bac6c9
+        - scientificName: Leptodactylus colombiensis
+          path: content/nodes/local-99c07de1c7dba0d5b248e1f4
+        - scientificName: Leptodactylus mystaceus
+          path: content/nodes/local-74438dbb4d962b311d8856d5
+        - scientificName: Leptodactylus pentadactylus
+          path: content/nodes/local-ef51e6ffd75c470be6610924
+        - scientificName: Engystomops randi
+          path: content/nodes/local-eefc70971434c0f299082095
+        - scientificName: Leptodactylus labrosus
+          path: content/nodes/local-2dc39241586b6f1224e87065
+        - scientificName: Leptodactylus wagneri
+          path: content/nodes/local-64ba8699d8718b7381109144
+        - scientificName: Pleurodema marmoratum
+          path: content/nodes/local-000c17bca210e7ae06af67a2
+        - scientificName: Pleurodema nebulosum
+          path: content/nodes/local-a8687aade33942abaf9eec66
+        - scientificName: Pleurodema tucumanum
+          path: content/nodes/local-4df4d654ef412b0ecd884d0d
+        - scientificName: Pleurodema diplolister
+          path: content/nodes/local-7fad25e7b4e32aaff4d1469c
+        - scientificName: Adenomera andreae
+          path: content/nodes/local-a70398c30e85b20efa58eb92
+        - scientificName: Edalorhina perezi
+          path: content/nodes/local-87a8e6cfdf8da2a6439048e9
+        - scientificName: Engystomops freibergi
+          path: content/nodes/local-14ca3ae8c39c090fbd37ecb5
+        - scientificName: Leptodactylus bolivianus
+          path: content/nodes/local-b751b60f29c56df1d851615a
+        - scientificName: Leptodactylus leptodactyloides
+          path: content/nodes/local-8ad3311cad0fb893540d2b7a
+        - scientificName: Leptodactylus petersii
+          path: content/nodes/local-af05f07464937e5d37acba86
+      metrics:
+        - metric: CTmax
+          rows: 132
+          sourceConcepts: 46
+        - metric: Tpref
+          rows: 18
+          sourceConcepts: 3
+        - metric: CTmin
+          rows: 70
+          sourceConcepts: 22
+        - metric: LT50_hot
+          rows: 2
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

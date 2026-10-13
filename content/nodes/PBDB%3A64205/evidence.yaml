@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Democricetodontinae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Democricetodontinae
+      en: Democricetodontinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-af0b505c5d
+            part: body
+          en:
+            page: en
+            section: s-e2ec61a9b4
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-82563277aa
+            part: body
+          en:
+            page: en
+            section: s-8c8c79494c
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Democricetodontinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=64205
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:64205
+          readingTargets:
+            - name: Protarsomys lavocati
+              pbdbTaxonId: txn:348839
+              canonicalPath: content/nodes/PBDB%3A348839
+            - name: Karydomys wigharti
+              pbdbTaxonId: txn:64203
+              canonicalPath: content/nodes/PBDB%3A64203
+            - name: Karydomys debruijni
+              pbdbTaxonId: txn:229112
+              canonicalPath: content/nodes/PBDB%3A229112
+            - name: Karydomys symeonidisi
+              pbdbTaxonId: txn:64204
+              canonicalPath: content/nodes/PBDB%3A64204
+            - name: Karydomys boskosi
+              pbdbTaxonId: txn:120894
+              canonicalPath: content/nodes/PBDB%3A120894
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-8b3b912ce1
+        part: body
+      en:
+        page: en
+        section: s-97eae00be1
+        part: body

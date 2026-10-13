@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys sanctaritae
+  displayName: Proceratophrys sanctaritae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMVF
+  sourceIndexes:
+    - name:
+        en: Proceratophrys sanctaritae
+        zh: Proceratophrys sanctaritae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMVF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/240
+            queryName: Proceratophrys sanctaritae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3795cf265f
+      - s-6dd20dc216
+      - s-ab1cbe44dd
+      - s-550cb6152d
+      - s-e22a089596
+      - s-7096d7a454
+      - s-3db7ebfc27
+      - s-d764d38f42
+      - s-cf1252ae8f
+      - s-e8727e83d2
+    zh:
+      - s-f2cde4c4f8
+      - s-43b8647426
+      - s-2c1e122876
+      - s-b9b0dcf83b
+      - s-8b3dc021a1
+      - s-93b34a40af
+      - s-2e46ed7c1d
+      - s-8ded563b4b
+      - s-422c539a87
+      - s-16f2be7f99

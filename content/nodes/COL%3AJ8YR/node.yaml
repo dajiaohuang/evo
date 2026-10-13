@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus guanujo
+  displayName: Atelopus guanujo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8YR
+  sourceIndexes:
+    - name:
+        en: Atelopus guanujo
+        zh: Atelopus guanujo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8YR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/264
+            queryName: Atelopus guanujo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-864441c18e
+      - s-96b7bb6af6
+      - s-d0e7d99867
+      - s-900ffbd8a8
+      - s-4a55dd346c
+      - s-55f2cbb65d
+      - s-adf162a046
+      - s-7fb60c9c28
+      - s-e41e4b31e5
+      - s-1ea9e84449
+      - s-3242ee7ff8
+      - s-9ad7d0d065
+    zh:
+      - s-a6a57fa01b
+      - s-0a1d78acf6
+      - s-e5ead9d076
+      - s-8364dab908
+      - s-cf72690886
+      - s-facd240a92
+      - s-2043966f42
+      - s-cfebb6b066
+      - s-64000b1f47
+      - s-0cd167deef
+      - s-e1245eae68
+      - s-a68f833d8c

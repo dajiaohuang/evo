@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus petraeus
+  displayName: Nyctibatrachus petraeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GK
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus petraeus
+        zh: Nyctibatrachus petraeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/357
+            queryName: Nyctibatrachus petraeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5ed2a8b85c
+      - s-1b82a40ec6
+      - s-5de2df8558
+      - s-0d8135ec80
+      - s-c690afe706
+      - s-a0cba1c3af
+      - s-76a513afbf
+      - s-9ff71cf297
+      - s-587d12f8d7
+      - s-f6c54a1d03
+      - s-eec47b0b44
+    zh:
+      - s-5f7c15e61e
+      - s-a9c476336a
+      - s-9372be999a
+      - s-78b1ae067b
+      - s-6e916d13f4
+      - s-7a3bd4d6cf
+      - s-6e598cb289
+      - s-00b43bc201
+      - s-b975840311
+      - s-7881a0a491
+      - s-c7bba7b7a5

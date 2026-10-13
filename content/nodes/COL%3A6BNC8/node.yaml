@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cryptothylax minutus
+  displayName: Cryptothylax minutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BNC8
+  sourceIndexes:
+    - name:
+        en: Cryptothylax minutus
+        zh: Cryptothylax minutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BNC8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/250
+            queryName: Cryptothylax minutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-404a60bb12
+      - s-54cf1b182e
+      - s-3b532f6d0f
+      - s-1b27643fa5
+      - s-6dd3dc5ea8
+      - s-174314cccc
+      - s-a658369bca
+    zh:
+      - s-491b7e990a
+      - s-704bebe7ac
+      - s-60bd99f245
+      - s-37c7202e56
+      - s-f797cfefa6
+      - s-14ef7c4597
+      - s-5acf1736e3

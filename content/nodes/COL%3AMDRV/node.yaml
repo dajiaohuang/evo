@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa robusta
+  displayName: Bolitoglossa robusta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDRV
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa robusta
+        zh: Bolitoglossa robusta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDRV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/186
+            queryName: Bolitoglossa robusta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/243
+            queryName: Oedipus robustus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/244
+            queryName: Magnadigita robusta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/427
+            queryName: A Solution to the Large Black Salamander Problem (Genus Bolitoglossa) in Costa Rica and Panamá
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f7d0df1b79
+      - s-aa0138c0de
+      - s-9d3ed500c8
+      - s-6ef091f95b
+      - s-359afe8a04
+      - s-17ed00f474
+      - s-680353da22
+      - s-772c7e322b
+      - s-062cfb2cde
+      - s-d3cfe1b9d1
+    zh:
+      - s-c2c0696b9b
+      - s-5023f647a0
+      - s-dc8b8d5316
+      - s-0abf92a4ce
+      - s-3d51036627
+      - s-473a1e36c9
+      - s-54b6ce7291
+      - s-36456b6441
+      - s-6498b7e950
+      - s-11d0bcedc6

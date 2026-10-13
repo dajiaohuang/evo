@@ -1,0 +1,166 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Oxalis semiloba Sond.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4BBGV, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4BBGV; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4BBGV
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4BBGV
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000386750-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4BBGV / WFO wfo-0000386750
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 2
+        usage:
+          locator: Oxalis semiloba Sond. account; archive rows 2910 (Morphology), 15340 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_11510_0
+        referenceId: ref-ca557395-5daa-885d-a316-df8cc24db9ad
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Oxalis semiloba Sond. account; archive rows 74981 (Diagnostic), source identifier 11510.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_18377_0
+        referenceId: ref-bf3ade09-5a0b-8bc6-a99a-2fbc39c0768c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Oxalis semiloba Sond. account; archive rows 99087 (Diagnostic), source identifier 18377.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Herb, up to 400 mm tall. Bulb with contractile root, bulb tunics smooth. Rhizome without runners. Sepals with rusty apical calli. Peduncles basal. Flowers purplish pink with yellow tube.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 2910; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: "This species is only known to me from dried specimens. The name seems to cover a polymorphic group of plants which may possibly be divisible by the characters of the root-system, but the bulbs are almost invariably missing in herbarium specimens. If it is possible to classify the group, it can only be done after special study in the field. 1695, Kentani, Pegler 220: Griqualand E.; Tzitza Riv., Schltr. 6362, Tyson 1243, 2147: Natal; B.H. 20032, 20086, Wood 550 (double flowers): Zululand; Mogg 4414 ex pte.: Basutoland; Leribe, Dieterlen 6787: O.F.State; Caledon River, Burke & Zey. 440, 271 (type of 0. semiloba): Griqualand W.; B.H. 15023, 15024: Transvaal; Rogers 18090: Bechuanaland; Harber (Herb. Rogers): Southern Rhodesia; Eyles 4421, Teague 340, 476, Rogers 5773, 13675: Lourenço Marques; Weintroub (B.H. 21160), Howard 76. In the absence of the bulbs, some forms are very difficult to distinguish from O. tragopoda Salter. The type is a form with smallish leaflets. It is possible that the species O. angustiloba R. E. Fries from Rhodesia and O. uhuhensis Engler from Tropical Africa, both with very deeply lobed leaflets, merge into this group. In many South African herbaria it has been confused with O. latifolia H.B. & K., an introduction from Mexico."
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_11510_0
+            locator: "SANBI/WFO archive Diagnostic row 74981; source 11510.0; publication: Salter, TM. 1944. The genus Oxalis in South Africa: A taxonomic revision. J. S. African Bot. 1 Suppl.: 1 - 355. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: Differs from O. bowiei in having smaller leaves and apical calli on sepals, otherwise the two species are similar.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_18377_0
+            locator: "SANBI/WFO archive Diagnostic row 99087; source 18377.0; publication: Dreyer, LL; Oberlander, KC. 2019. Oxalidaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(2): 1280 - 1284. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Grassland, wet and sandy soil, shady places.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 15340; source 11118.0; publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-f3aaf3877e
+            part: title
+          zh:
+            page: zh
+            section: s-d2e7ce9749
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f3aaf3877e
+            part: body
+          zh:
+            page: zh
+            section: s-d2e7ce9749
+            part: body

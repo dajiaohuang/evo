@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor rayo
+  displayName: Craugastor rayo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC6H
+  sourceIndexes:
+    - name:
+        en: Craugastor rayo
+        zh: Craugastor rayo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC6H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/168
+            queryName: Craugastor rayo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/19
+            queryName: Eleutherodactylus rayo
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5fde085167
+      - s-8bf598290b
+      - s-f6a22af0f4
+      - s-3964132ed1
+      - s-0d173d7511
+      - s-74c083718e
+      - s-ff2390e6ae
+      - s-f99fdf9e0b
+      - s-69d690bc9b
+    zh:
+      - s-c35143d568
+      - s-9d241536e7
+      - s-57231dbf1e
+      - s-973d25420b
+      - s-17989fcc00
+      - s-545c7cb847
+      - s-0f20b690a8
+      - s-fe879698fe
+      - s-016bdb0aad

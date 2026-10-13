@@ -1,0 +1,235 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Desmatolagus gobiensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Desmatolagus gobiensis
+      en: Desmatolagus gobiensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bbd6e9e750
+            part: body
+          en:
+            page: en
+            section: s-837910957b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a3bd1f1214
+            part: body
+          en:
+            page: en
+            section: s-11835c920a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2d22f524ab
+            part: body
+          en:
+            page: en
+            section: s-8f5feb1a70
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-438fc560e3
+            part: body
+          en:
+            page: en
+            section: s-acd96dd91d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-31846aced4
+            part: body
+          en:
+            page: en
+            section: s-110aba4511
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Desmatolagus gobiensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=54400&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:54400; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:54400
+          selectedOccurrenceIds:
+            - occ:725755
+            - occ:725760
+            - occ:1307280
+            - occ:1308022
+            - occ:1308046
+            - occ:1345108
+            - occ:1345109
+            - occ:1345110
+            - occ:1345111
+            - occ:1345112
+            - occ:1345113
+            - occ:1345114
+            - occ:1345115
+            - occ:1345116
+            - occ:1345117
+            - occ:1345119
+            - occ:1349674
+            - occ:1350421
+            - occ:1350422
+            - occ:1350423
+            - occ:1350424
+            - occ:1350425
+            - occ:1441038
+            - occ:1441112
+            - occ:1441180
+            - occ:1441214
+            - occ:1441305
+            - occ:1441330
+            - occ:1441351
+            - occ:1441398
+            - occ:1441495
+            - occ:1441527
+            - occ:1441536
+            - occ:1441559
+            - occ:1441582
+            - occ:1441607
+            - occ:1441629
+            - occ:1441657
+          selectedCollectionIds:
+            - col:77998
+            - col:77999
+            - col:53979
+            - col:175386
+            - col:175387
+            - col:135804
+            - col:75601
+            - col:180955
+            - col:75588
+            - col:176446
+            - col:75595
+            - col:180964
+            - col:182121
+            - col:180971
+            - col:180972
+            - col:180986
+            - col:182895
+            - col:77771
+            - col:177035
+            - col:183102
+            - col:183103
+            - col:183104
+            - col:187257
+            - col:176447
+            - col:182091
+            - col:182131
+            - col:175169
+            - col:135791
+            - col:175168
+            - col:182075
+            - col:182084
+            - col:180956
+            - col:187301
+            - col:201176
+            - col:180959
+            - col:201185
+            - col:180961
+            - col:201191
+          sourceReferenceIds:
+            - ref:26315
+            - ref:57222
+            - ref:57348
+            - ref:60553
+            - ref:61008
+            - ref:61092
+            - ref:68908
+          originalIdentificationMappings:
+            - occurrenceId: occ:1307280
+              originalIdentifiedName: Desmatolagus gobiensis n. gen. n. sp.
+              acceptedName: Desmatolagus gobiensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-faf736342e
+        part: body
+      en:
+        page: en
+        section: s-255d749455
+        part: body

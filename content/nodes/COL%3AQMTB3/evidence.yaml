@@ -1,0 +1,477 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Nanohyla marmorata (Bain & Nguyen, 2004)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Nanohyla marmorata
+      zh: Nanohyla marmorata
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-24f613fc2f
+            part: title
+          zh:
+            page: zh
+            section: s-b545643a3d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-24f613fc2f
+            part: body
+          zh:
+            page: zh
+            section: s-b545643a3d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3ed51716b4
+            part: title
+          zh:
+            page: zh
+            section: s-afbc07c312
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3ed51716b4
+            part: body
+          zh:
+            page: zh
+            section: s-afbc07c312
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f0b8da003f
+            part: title
+          zh:
+            page: zh
+            section: s-30350ef802
+            part: title
+        sourceIds:
+          - amphibian-morphology
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f0b8da003f
+            part: body
+          zh:
+            page: zh
+            section: s-30350ef802
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-14eb77173d90b31eac0cc28f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-8afe3543caf388fcc77fac4622a3eeed
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-c2cc8d958c
+            part: title
+          zh:
+            page: zh
+            section: s-11bc7f6f55
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c2cc8d958c
+            part: body
+          zh:
+            page: zh
+            section: s-11bc7f6f55
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6fcd25d126
+            part: title
+          zh:
+            page: zh
+            section: s-a85c6127f4
+            part: title
+        sourceIds:
+          - primary-pmc13213382-qmtb3
+        text:
+          en:
+            page: en
+            section: s-6fcd25d126
+            part: body
+          zh:
+            page: zh
+            section: s-a85c6127f4
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-c8d79e28dd
+            part: title
+          zh:
+            page: zh
+            section: s-883c4a8063
+            part: title
+        sourceIds:
+          - primary-pmc10415765-qmtb3
+        text:
+          en:
+            page: en
+            section: s-c8d79e28dd
+            part: body
+          zh:
+            page: zh
+            section: s-883c4a8063
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f4fbef9240
+            part: title
+          zh:
+            page: zh
+            section: s-7937992cac
+            part: title
+        sourceIds:
+          - primary-pmc10415765-qmtb3
+        text:
+          en:
+            page: en
+            section: s-f4fbef9240
+            part: body
+          zh:
+            page: zh
+            section: s-7937992cac
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-4aab1f7679
+            part: title
+          zh:
+            page: zh
+            section: s-f2fe48483d
+            part: title
+        sourceIds:
+          - primary-pmc10415765-qmtb3
+        text:
+          en:
+            page: en
+            section: s-4aab1f7679
+            part: body
+          zh:
+            page: zh
+            section: s-f2fe48483d
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-cc8a9e9e5f
+            part: body
+          zh:
+            page: zh
+            section: s-7dc837f4dc
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Nanohyla marmorata
+          url: https://www.checklistbank.org/dataset/316115/taxon/QMTB3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3419, 3420; Reference.csv rows 884
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4295; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4296 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13213382-qmtb3
+        referenceId: ref-25987ac1-6d46-4346-aaf7-c8b62d8bc72d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nanohyla marmorata: Species Notes paragraph from Ba Vi National Park checklist; field encounter conditions, not physiology or habitat preference; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10415765-qmtb3
+        referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Nanohyla marmorata: All extracted letter, taxonomic-account and nomenclatural paragraphs read; type observations, compared reference phylogeny and cited acoustics distinguished; original supplementary specimen/recording/statistical tables not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c61ce4e20a
+        part: body
+      zh:
+        page: zh
+        section: s-d9a30f55a7
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-14eb77173d90b31eac0cc28f
+        scientificName: Nanohyla marmorata
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.14.e178266
+        referenceId: ref-25987ac1-6d46-4346-aaf7-c8b62d8bc72d
+        sourceKey: primary-pmc13213382-qmtb3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13213382/article.xml
+        sourceConcept: Nanohyla marmorata
+        evidenceRead: "Nanohyla marmorata: Species Notes paragraph from Ba Vi National Park checklist; field encounter conditions, not physiology or habitat preference; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Two night records at separate ruin sites
+              zh: 两个遗址地点的夜间记录
+            referenceId: ref-25987ac1-6d46-4346-aaf7-c8b62d8bc72d
+            sourceKey: primary-pmc13213382-qmtb3
+            locator: "Nanohyla marmorata: Species Notes paragraph from Ba Vi National Park checklist; field encounter conditions, not physiology or habitat preference; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-405b4c5aaa
+                part: body
+              zh:
+                page: zh
+                section: s-1cc4159f2f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.24272/j.issn.2095-8137.2023.029
+        referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+        sourceKey: primary-pmc10415765-qmtb3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10415765/article.xml
+        sourceConcept: Nanohyla marmorata
+        evidenceRead: "Nanohyla marmorata: All extracted letter, taxonomic-account and nomenclatural paragraphs read; type observations, compared reference phylogeny and cited acoustics distinguished; original supplementary specimen/recording/statistical tables not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Marmorata is the sampled sister of the Song Hinh lineage
+              zh: marmorata 是所采 Song Hinh 支的姐妹
+            referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+            sourceKey: primary-pmc10415765-qmtb3
+            locator: PMC10415765 XML s01 paragraphs 4–7; s01.01 paragraph 17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2cda032186
+                part: body
+              zh:
+                page: zh
+                section: s-65aec06600
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Relative head and skin traits come from a cited comparison
+              zh: 相对头部及皮肤性状来自被引比较
+            referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+            sourceKey: primary-pmc10415765-qmtb3
+            locator: PMC10415765 XML s01.01 paragraph 17
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-74c7533a74
+                part: body
+              zh:
+                page: zh
+                section: s-6316f6fdbb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: A cited pulse comparison does not resolve source unit conflicts
+              zh: 被引脉冲比较没有解决来源单位冲突
+            referenceId: ref-73d48402-3477-4c57-a096-10f292777bb5
+            sourceKey: primary-pmc10415765-qmtb3
+            locator: PMC10415765 XML s01.01 paragraphs 13–14
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1abb8ff1d0
+                part: body
+              zh:
+                page: zh
+                section: s-eb14872030
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

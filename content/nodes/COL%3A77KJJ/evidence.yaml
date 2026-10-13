@@ -1,0 +1,85 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Piliocolobus parmentieri (Colyn & Verheyen, 1987)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Lomami Red Colobus
+      zh: 洛马米红疣猴
+    sections:
+      - topic: survey
+        text:
+          en:
+            page: en
+            section: s-cb56825146
+            part: body
+          zh:
+            page: zh
+            section: s-96cc8873b4
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+          - red_colobus_plan2021
+          - parmentieri_patrol2017
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Piliocolobus parmentieri (Colyn & Verheyen, 1987)
+          url: https://www.checklistbank.org/dataset/316115/taxon/77KJJ
+          scope:
+            en: Pinned COL26.8 name, authorship, rank and parent identity; not biological evidence.
+            zh: 固定 COL26.8 中的名称、作者、等级和分类父链；不提供生物学证据。
+      - id: mdd_name
+        referenceId: ref-5eda4774-efe5-8b09-a374-1e7c43f9d45a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the current English common-name crosswalk used here; not occurrence, ecology or a complete range.
+            zh: 支持本页采用的当前英文普通名交叉表；不作为出现记录、生态或完整分布证据。
+      - id: red_colobus_plan2021
+        referenceId: ref-bc98707a-8b2c-8906-aee3-2167bcb899fd
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: A conservation synthesis drawing on cited field reports and assessments through its publication period; species summaries are not new surveys.
+            zh: 一份汇集发表时已引用的野外报告与评估资料的保护综述；各物种摘要不是新调查。
+      - id: parmentieri_patrol2017
+        referenceId: ref-efc3372e-d306-808c-a585-04ce9850999a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: First-hand field notes report patrol-team sightings in and near Lomami National Park in 2016–2017; these observations are not a standardized abundance survey.
+            zh: 第一手野外记录转述巡护队在 2016—2017 年 Lomami 国家公园内及附近的目击；这些观察不是标准化丰度调查。
+    limitations:
+      en:
+        page: en
+        section: s-d805cfaffe
+        part: body
+      zh:
+        page: zh
+        section: s-d050038d02
+        part: body

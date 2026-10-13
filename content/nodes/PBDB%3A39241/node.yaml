@@ -1,0 +1,51 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neornithes
+  displayName: Neornithes
+  rank: subclass
+  classification:
+    authority: Paleobiology Database
+    release: 2026-10-02 response
+    status: accepted
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=39241
+    parentSourceIdentifier: txn:36616
+    placement: Recorded PBDB ancestry beneath the documented Dinosauria storage anchor; source concepts not merged with COL.
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/pbdb-taxon-resolution.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=39241
+      placement: PBDB-recorded-ancestor-chain-supplement
+  subjectPath: content/nodes/PBDB%3A39241
+  scopeRecord: atlas-profile
+  packagePath: data/packages/archosauria/crocodylomorphs-birds
+relationships: []
+structure:
+  sections:
+    en:
+      - s-48ccb8ae7c
+      - s-86eebf2c55
+      - s-99a1a040a4
+      - s-30602e26fa
+      - s-8d968a9480
+      - s-0a45f49af3
+      - s-aa112aa3c0
+      - s-c92cac953a
+      - s-743b625978
+      - s-908f35e759
+      - s-197a71e830
+      - s-6e9b311f8e
+      - s-18903f4a31
+      - s-ec8a994e41
+      - s-392f0fa451
+      - s-52332a73cd
+    zh:
+      - s-7a634102d4
+      - s-ccc7bb1382
+      - s-8e648e7719
+      - s-092051250f
+      - s-0fa28097da
+      - s-70c63d3a15
+      - zh-7c3f645a15b310
+      - zh-38508c0d3e42f4
+      - zh-62d371bae072b9

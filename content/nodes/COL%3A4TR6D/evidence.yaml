@@ -1,0 +1,108 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ruschia ruralis (N.E.Br.) Schwantes
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 4TR6D, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 4TR6D; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/4TR6D
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 4TR6D
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001294134-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 4TR6D / WFO wfo-0001294134
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_8393_0
+        referenceId: ref-183f9e77-6764-875d-a2b0-1548f8c70053
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Ruschia ruralis (N.E.Br.) Schwantes account; archive rows 84314 (Morphology), 93926 (Habitat), 93731 (Diagnostic), source identifier 8393.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Davey 14426 and Horwood 11 appear to be only very stunted plants of this species, with stems 2.5-5 cm h., rising from short thick irregularly brchd., woody prostrate brchs., but they require to be compared when alive, no other distinction being apparent in the dried material. This plant bears a great semblance to that figured by Salm Dyck as M. semidentatum, but I consider best to give it a distinct name for the present. The name M. semidentatum appeared in Salm Dyck's catalogues as a mere nomen nudum; he sent a species under that name to Haworth and also to Kew; Haworth described it as having only one tooth on the back of the lvs. There are at Kew two original drawings of the species sent by Salm Dyck under that name which agree with Haworth's description in having only one tooth on the back of the lvs., these are also described as more erect and more crowded, and the fls. as being smaller with more numerous and obtuse (not acum.) pet. than those in the figure which Salm Dyck gives of his plant.
+            sourceIds:
+              - sanbi_8393_0
+            locator: "SANBI/WFO archive Morphology row 84314; source 8393.0; publication: Burtt Davy, J. 1926. A manual of the flowering plants and ferns of the Transvaal with Swaziland, South Africa. Longmans, Green and Co. Ltd., London. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+          - text: As Haworth was the first to describe M. semidentatum, the name goes with his description; until more is known of the plant it is impossible to say whether the one Salm Dyck figured is distinct from that which Haworth described or not. In either case it seems very improbable that a plant end. to the Trans, should have been in cult, in Eur. in 1820; and as the Trans, plant seems to have smaller fls. than Salm Dyck represents, I deem it best to consider it a distinct species for the present. Sond. quotes a specimen of M. semidentatum, collected by Zey. near the Gamka River, which is a more likely locality for it.
+            textZh: SANBI 条目提供了该种的鉴别特征。
+            sourceIds:
+              - sanbi_8393_0
+            locator: "SANBI/WFO archive Diagnostic row 93731; source 8393.0; publication: Burtt Davy, J. 1926. A manual of the flowering plants and ferns of the Transvaal with Swaziland, South Africa. Longmans, Green and Co. Ltd., London. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Bushveld, karroidveld & highveld 2, 3, 4.
+            sourceIds:
+              - sanbi_8393_0
+            locator: "SANBI/WFO archive Habitat row 93926; source 8393.0; publication: Burtt Davy, J. 1926. A manual of the flowering plants and ferns of the Transvaal with Swaziland, South Africa. Longmans, Green and Co. Ltd., London. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

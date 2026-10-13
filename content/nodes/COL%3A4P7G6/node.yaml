@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne dendyi
+  displayName: Pseudophryne dendyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P7G6
+  sourceIndexes:
+    - name:
+        en: Pseudophryne dendyi
+        zh: Pseudophryne dendyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P7G6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/437
+            queryName: Pseudophryne dendyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/365
+            queryName: Limnodynastes nigrolutea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-97398364e2
+      - s-11b80e725c
+      - s-fbaa05eebe
+      - s-4a4e9a00cd
+      - s-bcad8154b2
+      - s-5dafeba61f
+      - s-0f3748b20c
+      - s-503488263f
+      - s-0d737f90d3
+      - s-93f46d18c4
+      - s-acefc35ff9
+      - s-275d359805
+      - s-237942f1ca
+    zh:
+      - s-8252b2bc95
+      - s-34f28983c1
+      - s-84de4816ff
+      - s-e76227fe9d
+      - s-f4c30ca98e
+      - s-bde8556cc1
+      - s-2b54eb043f
+      - s-dc5bc57146
+      - s-36d76edc95
+      - s-f8296e95d5
+      - s-16df21b40f
+      - s-c037820ee1
+      - s-4324df681d

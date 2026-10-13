@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus quercicus
+  displayName: Anaxyrus quercicus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66LVF
+  sourceIndexes:
+    - name:
+        en: Anaxyrus quercicus
+        zh: Anaxyrus quercicus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66LVF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/447
+            queryName: Anaxyrus quercicus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/233
+            queryName: Bufo quercicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/220
+            queryName: Chilophryne dialopha
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/221
+            queryName: Incilius dialophus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/222
+            queryName: Bufo dialophus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-91e260b6ee
+      - s-d25bf70eb5
+      - s-8797a6271a
+      - s-92b98a888f
+      - s-4bc6523343
+      - s-8e6158b23c
+      - s-98c9a2bdd9
+      - s-258d31088b
+      - s-b018fed1a6
+      - s-026226a1b6
+      - s-2e2244dd60
+      - s-2ab6834ec1
+      - s-0a22adfadb
+    zh:
+      - s-004e836c6e
+      - s-8622702535
+      - s-811a102b4d
+      - s-228b254fbe
+      - s-401e25c3a1
+      - s-3fc727f25f
+      - s-9cf7f61915
+      - s-64595e4b29
+      - s-95da87fe31
+      - s-46950bcfd2
+      - s-0ca45d8609
+      - s-db32fcdb45
+      - s-bc2af0fa06

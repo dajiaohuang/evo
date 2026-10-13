@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crinia glauerti
+  displayName: Crinia glauerti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/ZGCT
+  sourceIndexes:
+    - name:
+        en: Crinia glauerti
+        zh: Crinia glauerti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: ZGCT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/205
+            queryName: Crinia glauerti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/369
+            queryName: Ranidella glauerti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-47e45a16e5
+      - s-3ffcb27c65
+      - s-128ed682eb
+      - s-3ecfeab182
+      - s-a95a898d5f
+      - s-a968e4e069
+      - s-3acf472cfe
+      - s-84a20b8c97
+      - s-ae4d73b051
+      - s-90cc84926f
+    zh:
+      - s-a9d9f65be1
+      - s-1d711d176b
+      - s-6ba033d220
+      - s-b3ce8597b5
+      - s-1cc402e597
+      - s-7389755dd0
+      - s-69a92beb9b
+      - s-99416dc11d
+      - s-6bde1dcba1
+      - s-a4dcc86507

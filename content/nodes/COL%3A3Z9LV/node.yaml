@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus montevidensis
+  displayName: Melanophryniscus montevidensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LV
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus montevidensis
+        zh: Melanophryniscus montevidensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/397
+            queryName: Melanophryniscus montevidensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/382
+            queryName: Phryniscus montevidensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/236
+            queryName: Melanophryniscus stelzneri montevidensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/390
+            queryName: Rana tricolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8b97bb83af
+      - s-65717adb8d
+      - s-72787fa548
+      - s-e7682235f5
+      - s-cad46933c8
+      - s-aaf4706748
+      - s-1e66ec9320
+      - s-382400329e
+      - s-212a295a9a
+      - s-d4b0d61834
+      - s-b6ae8c2204
+    zh:
+      - s-c90a298b59
+      - s-1cecdd187d
+      - s-d9308d0635
+      - s-64e56daf72
+      - s-eaf6b285c3
+      - s-03c8df1408
+      - s-71d3017054
+      - s-2e9b6cd7d9
+      - s-fd7613a606
+      - s-d10fab1b2c
+      - s-61e3a64618

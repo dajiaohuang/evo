@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odontophrynus
+  displayName: Odontophrynus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66YX
+  sourceIndexes:
+    - name:
+        en: Odontophrynus
+        zh: Odontophrynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66YX
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/105
+            queryName: Odontophrynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 204
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bce8d1e3e6
+      - s-30b07ca42a
+      - s-c566c2dcf6
+      - s-a05678ac33
+      - s-704f29a025
+      - s-1efb4a3d32
+      - s-e2e457b3eb
+      - s-a8a74523e8
+      - s-5e551e8fdd
+      - s-ecc23393bb
+      - s-b614f61572
+      - s-ef67c17aea
+      - s-3b278893e9
+      - s-a3ac37f252
+      - s-d6a997964b
+      - s-3661afb720
+      - s-e008e0bc0a
+      - s-b160dc0004
+    zh:
+      - s-e50ff49267
+      - s-8c8726bc37
+      - s-90f18496b9
+      - s-45af4c9d11
+      - s-64f4f62e68
+      - s-46cabbb110
+      - s-f108a77edd
+      - s-83a0405650
+      - s-8031df60a4
+      - s-b105846bec
+      - s-2b7cbdfa01
+      - s-6025c1d153
+      - s-6d44d5b51f
+      - s-5001179984
+      - s-ada437a3ba
+      - s-bf62c8570e
+      - s-7b6ee710a3
+      - s-5e8a326b21

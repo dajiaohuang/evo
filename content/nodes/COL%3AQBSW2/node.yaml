@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Luetkenotyphlus fredi
+  displayName: Luetkenotyphlus fredi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QBSW2
+  sourceIndexes:
+    - name:
+        en: Luetkenotyphlus fredi
+        zh: Luetkenotyphlus fredi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QBSW2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/237
+            queryName: Luetkenotyphlus fredi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8afad1cc05
+      - s-6a6de1654a
+      - s-1ebb97702b
+      - s-b8c343dc57
+      - s-f41aac3fe1
+      - s-0d8972e9f1
+      - s-592a91d0b6
+      - s-4fa6347785
+      - s-d37d94d5ab
+      - s-bddac57605
+      - s-65442bae45
+    zh:
+      - s-3a3e7b8efb
+      - s-94f8c4acfc
+      - s-9152cfbe0f
+      - s-01f2fa2c9c
+      - s-91e63be03a
+      - s-26e3c7055a
+      - s-225d92772d
+      - s-b53694c285
+      - s-839c7e3390
+      - s-3322df3e84
+      - s-77a686a407

@@ -1,0 +1,3 @@
+## *Heterocondylus vitalbae*: a climbing shrub with broad flower panicles {#s-2009c633e4}
+The Flora of Panama account, retrieved on 8 September 2026, describes a woody climbing herb or shrub reaching 6 m. Its opposite, leathery leaves have toothed edges and three prominent veins from the base. Loose panicles can reach 15 cm wide and 25 cm tall; their small heads each contain about 60–65 florets, with narrow funnel-shaped corollas that range from white to pink or purple. The account’s historical range statement runs from Honduras south to Peru and Brazil. This is a regional historical statement, not a current range inventory.
+

@@ -1,0 +1,273 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Hensonbatrachus kermiti
+    rank: species
+    sourceTaxonId: txn:326747
+    name:
+      en: Hensonbatrachus kermiti
+      zh: Hensonbatrachus kermiti
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-c2a4629c72
+            part: body
+          zh:
+            page: zh
+            section: s-4464b27379
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-20ebd15d46
+            part: body
+          zh:
+            page: zh
+            section: s-7980321dc3
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-f1f092e663
+            part: body
+          zh:
+            page: zh
+            section: s-282b95602f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:326747; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada. All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell"
+    occurrenceEvidence:
+      - occurrenceId: occ:1292576
+        collectionId: col:14463
+        acceptedTaxonId: txn:326747
+        identifiedName: Hensonbatrachus kermiti n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292577
+        collectionId: col:47816
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292578
+        collectionId: col:45264
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292579
+        collectionId: col:22697
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Dinosaur Park
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292580
+        collectionId: col:47794
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292581
+        collectionId: col:47795
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292582
+        collectionId: col:172610
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: Oldman
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292583
+        collectionId: col:172611
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: null
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1292584
+        collectionId: col:172612
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:56071
+        bibliography: "J. D. Gardner and D. B. Brinkman. 2015. A new frog (Lissamphibia, Anura) from the Late Cretaceous of Alberta, Canada.  In O. R. P. Bininda-Emonds, G. L. Powell, H. A. Jamniczky, A. M. Bauer, J. Theodor (eds.), All Animals are Interesting: A Festschrift in Honour of Anthony P. Russell. Oldenburg: BIS-Verlag der Carl von Ossietzky Universität Oldenburg."
+        locality:
+          countryCode: CA
+          stateProvince: Alberta
+          county: null
+        stratigraphy:
+          group: Belly River
+          formation: null
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1385913
+        collectionId: col:14446
+        acceptedTaxonId: txn:326747
+        taxonomicDifference: null
+        referenceId: ref:64015
+        bibliography: "J. D. Gardner, C. M. Redman, and R. L. Cifelli. 2016. The hopping dead: Late Cretaceous frogs from the middle-late Campanian (Judithian) of western North America. Fossil Imprint 72(1-2):78-107"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Chouteau
+        stratigraphy:
+          group: Montana
+          formation: Judith River
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-f1f092e663
+            part: body
+          zh:
+            page: zh
+            section: s-282b95602f
+            part: body
+        sourceIds: []

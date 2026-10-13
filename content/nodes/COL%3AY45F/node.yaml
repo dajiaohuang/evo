@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus timidus
+  displayName: Cophixalus timidus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y45F
+  sourceIndexes:
+    - name:
+        en: Cophixalus timidus
+        zh: Cophixalus timidus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y45F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/488
+            queryName: Cophixalus timidus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-41a8fbbabb
+      - s-960718546b
+      - s-3125cf03da
+      - s-bc0f49acb8
+      - s-e5b67155bd
+      - s-beaf744851
+      - s-0ee6f66dd4
+      - s-c48e2d7457
+      - s-4847234c83
+      - s-c583e69642
+    zh:
+      - s-751f861b17
+      - s-97f5a0b50a
+      - s-0a977c4d72
+      - s-51475e7ef7
+      - s-f36ee5543e
+      - s-4e35d82eb3
+      - s-b69382873a
+      - s-3daf85cf2f
+      - s-e796837689
+      - s-5df98a7702

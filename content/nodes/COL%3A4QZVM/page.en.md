@@ -1,0 +1,3 @@
+## Rows of teeth on leafless stems {#s-6552d757ac}
+A regional flora account describes *Quaqua arenicola* as a leafless, clump-forming succulent with stout, upright stems. Small raised stem bumps, or tubercles, carry sharp teeth arranged in four rows; its sap is clear. The bell-shaped flowers usually appear in dense clusters and open at nearly the same time. Their centers are cream-colored with dark rings, while the petals range from blackish purple to reddish. The inside of the flower tube, the fused lower part of the petals, is rough with tiny bumps near its mouth, and the flowers smell unpleasant. The cited Greater Cape flora lists karroid scrub as habitat. These are regional descriptions, not a survey of variation across the species.
+

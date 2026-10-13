@@ -1,0 +1,142 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ceratophrys aurita
+  displayName: Ceratophrys aurita
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SNT4
+  sourceIndexes:
+    - name:
+        en: Ceratophrys aurita
+        zh: Ceratophrys aurita
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SNT4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/207
+            queryName: Ceratophrys aurita
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/315
+            queryName: Ceratophrys varia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/229
+            queryName: Bufo auritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/231
+            queryName: Ceratophrys varius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/232
+            queryName: Ceratophrys dorsata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/233
+            queryName: Stombus dorsatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/234
+            queryName: Ceratophris clipeata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/235
+            queryName: Ceratophryne dorsata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb643d5edb
+      - s-d51ace867a
+      - s-539583ed14
+      - s-a4c617a68a
+      - s-c60fd435fd
+      - s-d26ec9ec7e
+      - s-c163e35986
+      - s-69948cd0b9
+      - s-07bd8728b4
+      - s-22f1244845
+      - s-6522a58578
+      - s-c492186b1c
+      - s-1b0577acc6
+      - s-b759888888
+      - s-c51966ed78
+      - s-1b172d8df1
+      - s-6e779e647a
+      - s-e4ccd03998
+      - s-4d6e003e09
+      - s-f466b7d2fa
+      - s-4055598dd9
+      - s-2f267d611e
+      - s-fe084e69a7
+      - s-e798c3114b
+      - s-b05289f2a7
+      - s-2f83a44abc
+      - s-5cded585fe
+    zh:
+      - s-e6ff2daf02
+      - s-6653dc1599
+      - s-cf2fd432c3
+      - s-6f035247cb
+      - s-815b4f0a17
+      - s-a5d386adac
+      - s-4b1b28a17f
+      - s-f7e7b6fcef
+      - s-7969404464
+      - s-8b2613493e
+      - s-433c528bb4
+      - s-101547cf94
+      - s-b4935d2cec
+      - s-218a1c044c
+      - s-6d45b0ebc4
+      - s-4a94640609
+      - s-ef8fb3b47a
+      - s-e1d44d5470
+      - s-afaa1c899e
+      - s-ea23525c49
+      - s-6e8d97cc39
+      - s-768587bdae
+      - s-2e31fabab7
+      - s-9bf6367eef
+      - s-b65ec1024a
+      - s-1922fa2547
+      - s-31c732aaa8

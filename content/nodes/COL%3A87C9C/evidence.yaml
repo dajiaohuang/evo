@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Psammophiidae
+    rank: family
+    sourceDatasetId: "1008"
+    name:
+      zh: Psammophiidae
+      en: Psammophiidae
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a4fe1a30a6
+            part: body
+          en:
+            page: en
+            section: s-d929bbe1bc
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-598b41c348
+            part: body
+          en:
+            page: en
+            section: s-5c12c5ea15
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c8e7f1f843
+            part: body
+          en:
+            page: en
+            section: s-eaad4e5f5a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-de4c455556
+            part: body
+          en:
+            page: en
+            section: s-ef1c7c7bdb
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-ac5ed79803
+            part: body
+          en:
+            page: en
+            section: s-4b364a085e
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-8eb498761c
+            part: body
+          en:
+            page: en
+            section: s-ace7d7545f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Psammophiidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/87C9C
+          locator: Pinned accepted name, rank and ancestry.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 35 authored records grouped under Psammophiidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 1
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 17 authored records grouped under Psammophiidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 8H68P
+              name: Kladirostratus acutus
+              canonicalPath: content/nodes/COL%3A8H68P
+            - colId: 8H69Q
+              name: Kladirostratus togoensis
+              canonicalPath: content/nodes/COL%3A8H69Q
+            - colId: 6RLQP
+              name: Mimophis mahfalensis
+              canonicalPath: content/nodes/COL%3A6RLQP
+            - colId: 8GQ8F
+              name: Psammophis afroccidentalis
+              canonicalPath: content/nodes/COL%3A8GQ8F
+            - colId: 4NCWJ
+              name: Psammophis angolensis
+              canonicalPath: content/nodes/COL%3A4NCWJ
+          fieldCountDistribution:
+            "1": 3
+            "2": 3
+            "3": 11
+    limitations:
+      zh:
+        page: zh
+        section: s-5feff8d877
+        part: body
+      en:
+        page: en
+        section: s-42a1cabcd7
+        part: body

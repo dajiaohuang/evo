@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus adelus
+  displayName: Eleutherodactylus adelus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/398YS
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus adelus
+        zh: Eleutherodactylus adelus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 398YS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/145
+            queryName: Eleutherodactylus adelus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/122
+            queryName: Euhyas adela
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-237fc61c63
+      - s-48e356e59c
+      - s-a1b2f62bba
+      - s-8671bcec3a
+      - s-bbf0d9b6fc
+      - s-849cd2d074
+      - s-5bd386d561
+      - s-c2a994464c
+      - s-a9e62b53e6
+    zh:
+      - s-6acaa3e7e4
+      - s-ca2e0b6669
+      - s-5192268947
+      - s-d62362837a
+      - s-b840645806
+      - s-2f3dd3481e
+      - s-8c26aaa763
+      - s-bb2792736c
+      - s-2dd93595a0

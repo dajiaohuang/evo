@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates granti
+  displayName: Allobates granti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/668XL
+  sourceIndexes:
+    - name:
+        en: Allobates granti
+        zh: Allobates granti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 668XL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/140
+            queryName: Allobates granti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/1
+            queryName: Colostethus granti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1424bd2bf7
+      - s-c0e35f9cab
+      - s-7336e9d0c5
+      - s-260bf63013
+      - s-0377980ed2
+      - s-85d6a2a9b2
+      - s-284b5381a9
+      - s-5333bad59e
+      - s-e3f6458a0a
+      - s-6c5ac0865a
+      - s-d39ae912bb
+      - s-7f52fdab71
+      - s-e8baa67887
+      - s-5cff14dea2
+      - s-a1c658d1ec
+      - s-b506850b94
+      - s-b1fdabcf8b
+      - s-4a06696406
+      - s-f35bf1c30b
+    zh:
+      - s-16d52777d7
+      - s-d8e4e8d5bf
+      - s-d97ec6e130
+      - s-62efc95637
+      - s-5cbfd47eb5
+      - s-d73e0283d0
+      - s-31b53ff6d7
+      - s-72e6a288a6
+      - s-450ccae01b
+      - s-6d4b958527
+      - s-78e81b308d
+      - s-863f122499
+      - s-aa5d03f30b
+      - s-81c64b626c
+      - s-4648f90fc5
+      - s-055ee947d5
+      - s-df7d43deb1
+      - s-c9fb769a7e
+      - s-deca4b32f1

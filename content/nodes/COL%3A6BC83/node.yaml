@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor tarahumaraensis
+  displayName: Craugastor tarahumaraensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC83
+  sourceIndexes:
+    - name:
+        en: Craugastor tarahumaraensis
+        zh: Craugastor tarahumaraensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC83
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/189
+            queryName: Craugastor tarahumaraensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/202
+            queryName: Eleutherodactylus tarahumaraensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/317
+            queryName: Hylactophryne tarahumaraensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9acfb2657
+      - s-9f210bbdd1
+      - s-b6890599a2
+      - s-d53c492c46
+      - s-a1ad5c3710
+      - s-d14fd57c17
+      - s-4a858d083c
+      - s-9331ac608e
+      - s-ace1b69980
+      - s-74dcde93a6
+      - s-c27b843f57
+      - s-0f4952f683
+      - s-ca930f1f12
+      - s-bdbf5a91db
+    zh:
+      - s-b2a25d51e2
+      - s-ce80c34141
+      - s-1566fae2a6
+      - s-9f6204d256
+      - s-fdbf3d8f76
+      - s-278e5d28e1
+      - s-904d096083
+      - s-4a575c4173
+      - s-362b7471f7
+      - s-9a903624c2
+      - s-6c5e4fdea7
+      - s-cf4eb081e8
+      - s-1504ea523d
+      - s-20677d46cd

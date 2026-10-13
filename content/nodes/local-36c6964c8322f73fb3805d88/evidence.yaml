@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Micrixalus spelunca
+    name:
+      en: Micrixalus spelunca
+      zh: Micrixalus spelunca
+    sourceClassification:
+      order: Anura
+      family: Micrixalidae
+      genus: Micrixalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Micrixalus spelunca in the version 3 classification
+          zh: Micrixalus spelunca 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ff843405ef
+            part: body
+          zh:
+            page: zh
+            section: s-c3b798b547
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 15 populated trait fields
+          zh: 2 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-53acfe323b
+            part: body
+          zh:
+            page: zh
+            section: s-a201646a6c
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3257, 3258; Reference.csv rows 839
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3257
+        values:
+          - Micrixalidae
+          - Micrixalus
+          - Micrixalus spelunca
+          - F
+          - "21.8"
+          - "6.4"
+          - "6.3"
+          - "1.1"
+          - "0.6"
+          - NA
+          - "2"
+          - NA
+          - "1.4"
+          - "1.4"
+          - "3.4"
+          - "1.1"
+          - "5.2"
+          - "4.4"
+          - NA
+          - "9.1"
+          - NA
+          - "9.1"
+          - "10.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3258
+        values:
+          - Micrixalidae
+          - Micrixalus
+          - Micrixalus spelunca
+          - M
+          - "16.6"
+          - "5.6"
+          - "5.6"
+          - "1.8"
+          - "0.6"
+          - NA
+          - "2"
+          - NA
+          - "1.2"
+          - "1.2"
+          - "2.3"
+          - "1.1"
+          - "4.5"
+          - "3.2"
+          - NA
+          - "8.4"
+          - NA
+          - "8.4"
+          - "9.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 839
+        values:
+          - Anura
+          - Micrixalus_spelunca
+          - "Biju, S. D., Garg, S., Gururaja, K. V., Shouche, Y., & Walujkar, S. A. (2014). DNA barcoding reveals unprecedented diversity in dancing Frogs of India (Micrixalidae, Micrixalus): a taxonomic revision with description of 14 new species. Ceylon Journal of Science (Biological Sciences), 43(1). https://doi.org/10.4038/cjsbs.v43i1.6850"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 42RHF
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

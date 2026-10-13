@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus pipilans
+  displayName: Eleutherodactylus pipilans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399M7
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus pipilans
+        zh: Eleutherodactylus pipilans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399M7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/301
+            queryName: Eleutherodactylus pipilans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/283
+            queryName: Syrrhophus pipilans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/493
+            queryName: Syrrhophus pipilans pipilans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-214e37dd8b
+      - s-5fac6c2c92
+      - s-9efd37fec0
+      - s-c8666339fa
+      - s-3c86e03bbd
+      - s-0b12b1a744
+      - s-b5640ac10e
+      - s-33590bc95a
+      - s-989c7faabb
+      - s-22d7e8f22b
+    zh:
+      - s-7ed93ac104
+      - s-393103d3c1
+      - s-b657f994bd
+      - s-5345544dcc
+      - s-4ac6e5b77f
+      - s-6d0aabc943
+      - s-36b61ffe0c
+      - s-43f664a0b3
+      - s-5f5923ecc9
+      - s-929d40e842

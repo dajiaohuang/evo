@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Chioglossa lusitanica
+    name:
+      en: Chioglossa lusitanica
+      zh: Chioglossa lusitanica
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Chioglossa
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Chioglossa lusitanica in the morphology deposit
+          zh: 形态数据中的 Chioglossa lusitanica 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5c632296b7
+            part: body
+          zh:
+            page: zh
+            section: s-c6f664c9a1
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 98 and 99: measurement fields and sex codes"
+          zh: 第 98、99 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6e6f1e3a97
+            part: body
+          zh:
+            page: zh
+            section: s-8321ccd0ba
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 98, 99; Reference.csv rows 4158
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 98
+        values:
+          - Salamandridae
+          - Chioglossa
+          - Chioglossa lusitanica
+          - F
+          - NA
+          - "44.50833333"
+          - NA
+          - NA
+          - "10.23333333"
+          - "6.908333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.18333333"
+          - "12.60416667"
+          - NA
+          - "2.6125"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 99
+        values:
+          - Salamandridae
+          - Chioglossa
+          - Chioglossa lusitanica
+          - M
+          - NA
+          - "43.37333333"
+          - NA
+          - NA
+          - "9.993333333"
+          - "6.99"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.51333333"
+          - "12.61666667"
+          - NA
+          - "2.68"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4158
+        values:
+          - Caudata
+          - Chioglossa_lusitanica
+          - Arntzen, J. W., Groenenberg, D. S. J., Alexandrino, J., Ferrand, N., & Sequeira, F. (2007). Geographical variation in the golden-striped salamander, Chioglossa lusitanica Bocage, 1864 and the description of a newly recognized subspecies. Journal of Natural History, 41(13-16), 925-936. https://doi.org/10.1080/00222930701300147
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - FLL
+      - HLL
+      - F3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5Y477
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

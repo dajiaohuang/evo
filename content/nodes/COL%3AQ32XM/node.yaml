@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Jingophrys vegrandis
+  displayName: Jingophrys vegrandis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q32XM
+  sourceIndexes:
+    - name:
+        en: Jingophrys vegrandis
+        zh: Jingophrys vegrandis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q32XM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/76
+            queryName: Jingophrys vegrandis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/146
+            queryName: Megophrys vegrandis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/147
+            queryName: Xenophrys vegrandis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b92cbd768
+      - s-f134d8fbfe
+      - s-8ae24aced2
+      - s-54319ab53e
+      - s-01441cd75d
+      - s-1ffc96d168
+      - s-30859c2a30
+      - s-4f06d82805
+    zh:
+      - s-9979cdcd3a
+      - s-1c4b7da243
+      - s-de27b1078e
+      - s-2457329211
+      - s-761582cea3
+      - s-e5ffc32f64
+      - s-d7d695d2ac
+      - s-8ef5576a20

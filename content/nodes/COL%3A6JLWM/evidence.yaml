@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Freesia speciosa L.Bolus
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6JLWM, name, authorship, rank and source dataset checked; pinned WFO 2026-06 crosswalk maps it to wfo-0000789550 by exact accepted name and authorship.
+      scope: Freesia speciosa L.Bolus as represented by COL26.8 usage 6JLWM; the regional flora account is not a global species synthesis.
+    lifeStatusScope:
+      wild: The flora account does not distinguish native wild from naturalised populations at claim level.
+      domesticated: No cultivated or domesticated claim is made; this source does not assess domestication.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 19
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/6JLWM
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 6JLWM
+          scope: Accepted name, authorship, rank, status and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000789550-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6JLWM / WFO wfo-0000789550
+          scope: Identity-link evidence only; exact accepted name and authorship mapping, not biological evidence.
+      - id: sanbi
+        referenceId: ref-a3ad50e2-00d8-8957-a67a-ec1c51e38864
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 3
+        usage:
+          locator: Strelitzia 29 (2012), Freesia speciosa L.Bolus account, p. 132; morphology archive row 6884, habitat archive row 29074; source ID 13878.0
+          scope: Southern African flora treatment; range statements refer to its regional scope.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The regional account characterizes the species as follows: A cormous geophyte 8–20 cm tall, with blunt sword-shaped leaves and large white-and-deep-yellow scented flowers."
+            textZh: 区域性植物志的形态记载：球茎地生植物，高 8–20 cm，具钝端剑形叶；大型花呈白色和深黄色且有香气。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Freesia speciosa L.Bolus account, p. 132; archive Morphology row 6884
+            placeTimeScope: Southern African flora account published 2012; not a global species synthesis. No population sampling or measurement protocol is stated.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Population variation, developmental stages and independent specimen-based diagnosis remain unassessed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The account reports flowering in August–September.
+            textZh: 该区域性植物志记载花期为8月–9月。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Freesia speciosa L.Bolus account, p. 132, flowering-time entry
+            placeTimeScope: Southern African flora account published 2012; not a global species synthesis. No multi-year or population-level phenology analysis is supplied.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Reproductive biology, pollination, fruiting, seed dispersal and life-cycle stages have not been assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The account records karroid flats on sandstone or alluvium. as habitat.
+            textZh: 该条目记载的生境为砂岩或冲积层上的 Karoo 型平地。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Freesia speciosa L.Bolus account, p. 132; archive Habitat row 29074
+            placeTimeScope: Southern African flora account published 2012; not a global species synthesis. No dated observation sites, frequency or sampling frame is given.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Species interactions, resource use and population-level ecology have not been assessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The account gives the regional range as KM (Montagu to Calitzdorp).
+            textZh: 该条目列出的区域分布为KM（Montagu 至 Calitzdorp）。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012), Freesia speciosa L.Bolus account, p. 132, distribution entry
+            placeTimeScope: Regional distribution summary published 2012; not a current global range polygon.
+            lifeStatus: Regional flora account; wild native and naturalised populations are not distinguished at claim level.
+        gaps:
+          - Current occurrence records, status and unsampled areas have not been reconciled.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-eb8e3364dd
+        title:
+          en:
+            page: en
+            section: s-4636c8064a
+            part: title
+          zh:
+            page: zh
+            section: s-b7eae92a88
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4636c8064a
+            part: body
+          zh:
+            page: zh
+            section: s-b7eae92a88
+            part: body
+        sourceIds:
+          - sanbi
+      - id: page-21038637ac
+        title:
+          en:
+            page: en
+            section: s-e11793bb1a
+            part: title
+          zh:
+            page: zh
+            section: s-c6759216fe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e11793bb1a
+            part: body
+          zh:
+            page: zh
+            section: s-c6759216fe
+            part: body
+        sourceIds:
+          - sanbi
+      - id: page-52e12840f6
+        title:
+          en:
+            page: en
+            section: s-af58514457
+            part: title
+          zh:
+            page: zh
+            section: s-b8a395da9b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-af58514457
+            part: body
+          zh:
+            page: zh
+            section: s-b8a395da9b
+            part: body
+        sourceIds:
+          - sanbi
+      - id: page-1c7a7beaba
+        title:
+          en:
+            page: en
+            section: s-b99730d47b
+            part: title
+          zh:
+            page: zh
+            section: s-28786a42c2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b99730d47b
+            part: body
+          zh:
+            page: zh
+            section: s-28786a42c2
+            part: body
+        sourceIds:
+          - sanbi

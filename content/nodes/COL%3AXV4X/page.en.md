@@ -1,0 +1,45 @@
+## Accepted name and placement {#s-2e95dcff39}
+COL26.8 accepts Conraua crassipes (Buchholz & Peters in Peters, 1875) as a species. Its recorded classification places it along Anura (order) → Conrauidae (family) → Conraua (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-743d78e456}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-1a947db9a5}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Conraua crassipes](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Petropedetidae/Conraua/Conraua_crassipes/page.en.md)
+- [TadpoleTraits v4: Conraua crassipes](../../../../../../../../../../../../../topics/research/TadpoleTraits/Conrauidae/Conraua/Conraua_crassipes/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-f1973ffc6b}
+Deposited source concept: Conraua crassipes, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 0 literature-derived rows and 1 image-derived rows for this source concept. Supplied stage entries are 35 (Judging based on the picture). Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Selected image-derived proportions — TadpoleTraits source {#s-bea9758e69}
+Deposited source concept: Conraua crassipes, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The image-data source reports body length / total length = 0.310191 (source row 247, stage 35 (Judging based on the picture)); tail length / total length = 0.696848 (source row 247, stage 35 (Judging based on the picture)); maximum body height / total length = 0.136572 (source row 247, stage 35 (Judging based on the picture)); maximum tail height / total length = 0.148165 (source row 247, stage 35 (Judging based on the picture)); tail muscle height / total length = 0.0995359 (source row 247, stage 35 (Judging based on the picture)). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Sampled localities and voucher forms remain distinct {#s-3a5966fbec}
+Three Republic of Congo entries USNM584162–63 and USNM Herp Tissue5 were included; no Conraua was observed at the LMR site. These are records from the2017 study’s sampled material. LMR denotes the Loubomo–Mougagara Road corridor in Nyanga, Gabon; the Republic of Congo is distinguished from the Democratic Republic of Congo. Museum reference samples are not automatically observations at LMR. Survey non-detection is bounded by effort and seasons, not regional absence or a complete species range. Original vouchers, contemporary occurrence and taxonomic identity have not been independently inspected here.
+
+## Barcode-supported identification retains provisional boundaries {#s-bab1eecf39}
+The source places the entries in one COI BIN and ABGD group. It specifically compares16S from USNM584162–63 with crassipes-labelled references DQ019600, DQ022355 and DQ347305. This two-voucher16S comparison is not automatically attributed to the tissue-only entry or every local animal.
+
+## Two mitochondrial markers and uneven references limit inference {#s-d9f93acebd}
+For Conraua crassipes, the study’s identification workflow combines COI BIN/ABGD clustering,16S reference comparison and morphology/type-locality context. COI and16S are both mitochondrial and do not constitute independent nuclear confirmation or reproductive-isolation tests. The authors use neighbor joining to cluster similar sequences, explicitly limiting its use for evolutionary-history inference. Most per-species material came from only one or two localities, and not all GenBank vouchers could be morphologically examined. Reference labels and missing sequences therefore remain evidence limits. Fieldwork took place in May–June2012 and March–April2013; GenBank/BOLD comparison queries refer to the2016 source-library snapshot, not a refreshed present-day database audit.
+
+## Study counts and identification scope are not population estimates {#s-b8ea963298}
+The study reports540 sequenced specimens overall,524COI sequences and52816S sequences, assigned94BINs and85ABGD groups. These totals cover the whole multispecies reference library, not Conraua crassipes alone. Methods describe80 first-season LMR and97 second-season specimens, whereas Table1 lists79 and97 sequenced/retained entries; methods also describe275 Congo reference specimens while Table1 locality rows total274. These collection-versus-analysis counts are retained without inventing an exclusion reason. The library’s group counts are not a verified census of current accepted species. Raw traces, BOLD assignments and GenBank accessions were not independently reanalysed here.
+
+## catalogue-profile / limitations {#s-5de1829d19}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-7eba1b5e81}
+Three Republic of Congo entries USNM584162–63 and USNM Herp Tissue5 were included; no Conraua was observed at the LMR site. These are records from the2017 study’s sampled material. LMR denotes the Loubomo–Mougagara Road corridor in Nyanga, Gabon; the Republic of Congo is distinguished from the Democratic Republic of Congo. Museum reference samples are not automatically observations at LMR. Survey non-detection is bounded by effort and seasons, not regional absence or a complete species range. Original vouchers, contemporary occurrence and taxonomic identity have not been independently inspected here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-7eda13194b}
+The source places the entries in one COI BIN and ABGD group. It specifically compares16S from USNM584162–63 with crassipes-labelled references DQ019600, DQ022355 and DQ347305. This two-voucher16S comparison is not automatically attributed to the tissue-only entry or every local animal.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3148e19d6f}
+For Conraua crassipes, the study’s identification workflow combines COI BIN/ABGD clustering,16S reference comparison and morphology/type-locality context. COI and16S are both mitochondrial and do not constitute independent nuclear confirmation or reproductive-isolation tests. The authors use neighbor joining to cluster similar sequences, explicitly limiting its use for evolutionary-history inference. Most per-species material came from only one or two localities, and not all GenBank vouchers could be morphologically examined. Reference labels and missing sequences therefore remain evidence limits. Fieldwork took place in May–June2012 and March–April2013; GenBank/BOLD comparison queries refer to the2016 source-library snapshot, not a refreshed present-day database audit.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-049b7da020}
+The study reports540 sequenced specimens overall,524COI sequences and52816S sequences, assigned94BINs and85ABGD groups. These totals cover the whole multispecies reference library, not Conraua crassipes alone. Methods describe80 first-season LMR and97 second-season specimens, whereas Table1 lists79 and97 sequenced/retained entries; methods also describe275 Congo reference specimens while Table1 locality rows total274. These collection-versus-analysis counts are retained without inventing an exclusion reason. The library’s group counts are not a verified census of current accepted species. Raw traces, BOLD assignments and GenBank accessions were not independently reanalysed here.
+

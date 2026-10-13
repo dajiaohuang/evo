@@ -8,7 +8,7 @@ export function isRecordedUndatedLead(reference) {
   const field = reference.type === 'bibliographic-record' && reference.metadataStatus === 'verbatim-archive-citation-unparsed'
     ? 'importedCitationMetadata'
     : ['publication', 'web-resource'].includes(reference.type) && reference.metadataStatus === 'imported-without-bibliographic-enrichment'
-      ? 'importedSourceMetadata' : null
+      ? 'metadataVariants' : null
   return Boolean(field && reference[field]?.some(value => value && typeof value === 'object' && Object.keys(value).length > 0))
 }
 

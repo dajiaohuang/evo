@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylorina
+  displayName: Hylorina
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5259
+  sourceIndexes:
+    - name:
+        en: Hylorina
+        zh: Hylorina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: "5259"
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/445
+            queryName: Hylorina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 15
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3be943aeed
+      - s-4ba0f11a5a
+      - s-4fc3acf322
+      - s-7b0363405c
+      - s-aa19706a9d
+      - s-cc931b92ce
+      - s-c0b47b0666
+      - s-f79a55956a
+      - s-0066be3a1e
+      - s-5bf95e8acd
+      - s-9e266d5c0b
+      - s-77f78fe197
+      - s-4adf64ce8c
+      - s-da81e1374c
+      - s-6c9e282dfd
+      - s-86c178452f
+      - s-9df9058a0c
+      - s-e039293d0e
+      - s-8c2192d02a
+      - s-4202f798f0
+      - s-7e0a4fcbcd
+      - s-7a44e6f882
+      - s-2b19344f39
+      - s-ec46aa5d16
+      - s-244c1adab6
+    zh:
+      - s-d7ac622221
+      - s-518e7d36b8
+      - s-21935cefb1
+      - s-5770068472
+      - s-ddf2e614c7
+      - s-e3cd61e2d7
+      - s-9da718b429
+      - s-2c9a3b8703
+      - s-192008a823
+      - s-8ee4e6ff14
+      - s-e02c9825f1
+      - s-f9792ac04f
+      - s-f182b38b84
+      - s-f11e278f0a
+      - s-2f7551125a
+      - s-a48085eb08
+      - s-99a37737a6
+      - s-4378addcb8
+      - s-e833d5e919
+      - s-15acdd4f4f
+      - s-6f73b9b20a
+      - s-a710452f64
+      - s-c8226b5616
+      - s-e61766f742
+      - s-8f48eaa3f2

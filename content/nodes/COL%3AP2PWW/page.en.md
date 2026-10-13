@@ -1,0 +1,32 @@
+## Accepted name and placement {#s-b4c426b9e9}
+COL26.8 accepts Firouzophrynus olivaceus (Blanford, 1874) as a species. Its recorded classification places it along Anura (order) → Bufonidae (family) → Firouzophrynus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-a34f9721a7}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Related source records and datasets {#s-e11064ec74}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Duttaphrynus olivaceus](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Bufonidae/Duttaphrynus/Duttaphrynus_olivaceus/page.en.md)
+
+## Evidence roles in the Andaman toad description {#s-9987e46680}
+The2016 paper uses the source label(s) Duttaphrynus olivaceus.  Appendix1 lists examined comparative material: Duttaphrynus olivaceus: ZSIC 3523–25. These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## Comparative material does not supply every trait {#s-3a29538045}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Firouzophrynus olivaceus specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Firouzophrynus olivaceus is established by its inclusion in this comparison.
+
+## Frozen nomenclatural correspondence retains the source label {#s-bd50b52293}
+Frozen COL26.8 dataset316115 usage6DQ48 links source Duttaphrynus olivaceus to accepted Firouzophrynus olivaceus (P2PWW). This supports navigation under a nomenclatural correspondence, not independent re-identification of the2016 comparison's specimens or sequence donors. Where several source labels link to one accepted species, their distinct sequence rows and provenance remain separate rather than being counted as independent accepted species.
+
+## catalogue-profile / limitations {#s-5dd300c584}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-80d69c30d8}
+The2016 paper uses the source label(s) Duttaphrynus olivaceus.  Appendix1 lists examined comparative material: Duttaphrynus olivaceus: ZSIC 3523–25. These roles are retained separately. A GenBank comparison is not a newly collected Andaman animal, and a listed museum specimen is not automatically the donor of a listed sequence. The combined range/collection-location field is not sufficient to establish a precise collecting event or the complete native range. No historical voucher or accession identity has been independently authenticated here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3ce96e77ec}
+The study combines focal-toad field observations, preserved adults and larvae, osteology of selected specimens, earlier literature and mitochondrial sequence comparisons. Only material explicitly annotated as cleared-and-stained or radiographed carries that particular examination label; an unannotated voucher is not inferred to have undergone it. Generic contrasts in the paper cannot automatically become species-specific measurements for every Firouzophrynus olivaceus specimen. Historical genus size, distribution and trait summaries belong to the2016 literature context. No present-day population survey, full species diagnosis or new conservation assessment of Firouzophrynus olivaceus is established by its inclusion in this comparison.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-abeb9a52b2}
+Frozen COL26.8 dataset316115 usage6DQ48 links source Duttaphrynus olivaceus to accepted Firouzophrynus olivaceus (P2PWW). This supports navigation under a nomenclatural correspondence, not independent re-identification of the2016 comparison's specimens or sequence donors. Where several source labels link to one accepted species, their distinct sequence rows and provenance remain separate rather than being counted as independent accepted species.
+

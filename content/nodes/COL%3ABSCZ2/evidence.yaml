@@ -1,0 +1,98 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tamarinus inustus (Schwarz, 1951)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 斑脸狨
+      en: Mottled-face Tamarin
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-9d2d3a638e
+            part: body
+          en:
+            page: en
+            section: s-d8a87fa34a
+            part: body
+        sourceIds:
+          - taxonomy
+          - brcko2022
+          - palacios2004
+          - valsecchi2010
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-3703692f33
+            part: body
+          en:
+            page: en
+            section: s-c1b2904736
+            part: body
+        sourceIds:
+          - palacios2004
+          - valsecchi2010
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tamarinus Trouessart, 1904
+          url: https://www.checklistbank.org/dataset/316115/taxon/7S9R
+          scope:
+            zh: 固定版本中的名称、作者、等级和父子关系；不提供生物学证据。
+            en: Pinned names, authorship, ranks and parent links; not biological evidence.
+      - id: brcko2022
+        referenceId: ref-295b56d2-e0f7-88ae-a925-9fe7a0c8a713
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 44 个核与线粒体标记支持提出的 Tamarinus 分类安排；用于解释旧组合，不作为局地生态资料。
+            en: Uses 44 nuclear and mitochondrial markers to support the proposed Tamarinus arrangement; clarifies combinations, not local ecology.
+      - id: palacios2004
+        referenceId: ref-44f830ad-7619-8e56-a182-2087e383fadf
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 哥伦比亚下 Caquetá 河单群短期观察；家域与取食数据受五个完整跟踪日限制。
+            en: Short-term observation of one group on the lower Caquetá River in Colombia; range and feeding data are limited by five complete follow days.
+      - id: valsecchi2010
+        referenceId: ref-b957846a-6452-8fb2-ac28-411c017797e4
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: Amanã 两次季节调查的 11 个地点记录；不表示全种边界、丰度或趋势。
+            en: Eleven locality records from two seasonal Amanã expeditions; not a full range, abundance or trend estimate.
+    limitations:
+      zh:
+        page: zh
+        section: s-7923c80756
+        part: body
+      en:
+        page: en
+        section: s-51a171ef0a
+        part: body

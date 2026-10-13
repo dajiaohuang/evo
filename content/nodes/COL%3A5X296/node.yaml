@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus curupira
+  displayName: Brachycephalus curupira
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5X296
+  sourceIndexes:
+    - name:
+        en: Brachycephalus curupira
+        zh: Brachycephalus curupira
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5X296
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/407
+            queryName: Brachycephalus curupira
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9f85d7939
+      - s-98a192da33
+      - s-ed1ff126ac
+      - s-7081106ab6
+      - s-a07df8a7d4
+      - s-de02814862
+      - s-905e699507
+      - s-b16d6928f7
+      - s-0a02e4561a
+      - s-0eaf076e6d
+      - s-6a981ee290
+      - s-f694a349a7
+      - s-40065d20dc
+      - s-59a8cde256
+      - s-b51e53cb82
+      - s-e08cfeac10
+      - s-fd28d10c3f
+      - s-258b276180
+      - s-a0f0212552
+      - s-76ae6ebf02
+    zh:
+      - s-047419fd05
+      - s-8e3077f50b
+      - s-776dc19ebb
+      - s-7bf4a88405
+      - s-53fdd0345b
+      - s-3598fbe9c3
+      - s-54e6f5b22a
+      - s-afae46022f
+      - s-40837787d3
+      - s-728ddf5518
+      - s-23753d4002
+      - s-90627a677d
+      - s-ecf2716680
+      - s-4387ae7644
+      - s-a654089f23
+      - s-3bce93939b
+      - s-ca086e539f
+      - s-6bdc3596eb
+      - s-48bcfc7d6a
+      - s-a5d0da12b5

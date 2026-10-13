@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes
+  displayName: Phyllodytes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PN4
+  sourceIndexes:
+    - name:
+        en: Phyllodytes
+        zh: Phyllodytes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PN4
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/168
+            queryName: Phyllodytes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 69
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-23b6e8a805
+      - s-d56480c983
+      - s-97d94a31b2
+      - s-4ad6471eb4
+      - s-03d08b3c0b
+      - s-f75714cf54
+      - s-d9de77d0d2
+      - s-b24871e95f
+      - s-cd4b4822d7
+      - s-f7bbf9ddc9
+      - s-b6566d56f2
+      - s-43f6db9bf7
+    zh:
+      - s-fd79e95a5b
+      - s-a1e0d24da4
+      - s-80e5bc37ff
+      - s-69d9c42d79
+      - s-a106366977
+      - s-66fecd19dc
+      - s-2c4341e6f7
+      - s-57c9fc7247
+      - s-0e6e0916cd
+      - s-0692a41420
+      - s-4b8b22434f
+      - s-59c5a1ce16

@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Tylototriton kachinorum
+  displayName: Tylototriton kachinorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DBLH
+  sourceIndexes:
+    - name:
+        en: Tylototriton kachinorum
+        zh: Tylototriton kachinorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DBLH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/138
+            queryName: Tylototriton kachinorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ecec81dc13
+      - s-f85789b91d
+      - s-4ce816a59f
+      - s-090a73ad66
+      - s-313b143ab6
+      - s-4877148479
+      - s-41ee7fdf68
+      - s-9a06a56374
+      - s-84caaf7aaa
+      - s-30cea86859
+      - s-5a92da5baf
+      - s-52b873876c
+      - s-abf12cf8f2
+      - s-4749ce3fbe
+      - s-71b70f7f9c
+      - s-9200a0009c
+      - s-9d9e437105
+      - s-4da2e86fad
+      - s-9e5adab422
+      - s-4d17e4c3cd
+      - s-2cb36b8fed
+    zh:
+      - s-d5c3d3915f
+      - s-8be5052184
+      - s-da556e8386
+      - s-7b54f8a389
+      - s-2d6161a56f
+      - s-e7d5d7cd75
+      - s-fe7cd57802
+      - s-65007d2931
+      - s-dfb63cd28b
+      - s-6740dc2fd1
+      - s-9948c541bf
+      - s-06ca2b06cf
+      - s-faec7179e2
+      - s-e54d7170ce
+      - s-3ff6a30ec3
+      - s-0e585c1cce
+      - s-9e3214d544
+      - s-4b734e40c8
+      - s-bc5b73ea07
+      - s-2b48167b3c
+      - s-cf6590a58a

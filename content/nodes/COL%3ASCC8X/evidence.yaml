@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis tamia Ortega, Brito-M. & Ron, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis tamia
+      zh: Pristimantis tamia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-002dd4641b
+            part: title
+          zh:
+            page: zh
+            section: s-f39cca631f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-002dd4641b
+            part: body
+          zh:
+            page: zh
+            section: s-f39cca631f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d06255599f
+            part: title
+          zh:
+            page: zh
+            section: s-36bef3b98d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d06255599f
+            part: body
+          zh:
+            page: zh
+            section: s-36bef3b98d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bfcd99a1be
+            part: title
+          zh:
+            page: zh
+            section: s-2e5429cde8
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scc8x
+        text:
+          en:
+            page: en
+            section: s-bfcd99a1be
+            part: body
+          zh:
+            page: zh
+            section: s-2e5429cde8
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4890fc7f0a
+            part: title
+          zh:
+            page: zh
+            section: s-4ca8eb5762
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scc8x
+        text:
+          en:
+            page: en
+            section: s-4890fc7f0a
+            part: body
+          zh:
+            page: zh
+            section: s-4ca8eb5762
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-8439967229
+            part: title
+          zh:
+            page: zh
+            section: s-4bdb83da28
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scc8x
+        text:
+          en:
+            page: en
+            section: s-8439967229
+            part: body
+          zh:
+            page: zh
+            section: s-4bdb83da28
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis tamia
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCC8X
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9583859-scc8x
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis tamia: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-21dba2fb81
+        part: body
+      zh:
+        page: zh
+        section: s-d4db48baff
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.13761
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        sourceKey: primary-pmc9583859-scc8x
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9583859/article.xml
+        sourceConcept: Pristimantis tamia
+        evidenceRead: "Pristimantis tamia: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Larger sex samples with an absent membrane but present annulus
+              zh: 较大性别样本的无膜有环状态
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scc8x
+            locator: PMC9583859 reading-sections section 1, paragraph 108
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-495b9003dd
+                part: body
+              zh:
+                page: zh
+                section: s-154b7cb570
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Primary-forest perches from half a metre to five metres
+              zh: 原生林半米至五米栖位
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scc8x
+            locator: PMC9583859 reading-sections section 1, paragraph 126
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a247eaa921
+                part: body
+              zh:
+                page: zh
+                section: s-fbf3418ff1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: A locally common collection sample is not a complete population estimate
+              zh: 地方较常见采样不是完整种群估计
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scc8x
+            locator: PMC9583859 reading-sections section 1, paragraph 127
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b9626d62b9
+                part: body
+              zh:
+                page: zh
+                section: s-b365a1ffbb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

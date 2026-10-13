@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-112e6b5e0f
+      part: title
+    titleZh:
+      page: zh
+      section: s-1f723b2252
+      part: title
+    category: transition
+    startAge: 201.4
+    endAge: 161.5
+    regions:
+      - Lufeng Formation, Yunnan, and Daohugou Beds, Inner Mongolia, China
+    clades:
+      - Mammaliaformes
+      - Dianoconodon youngi
+      - Feredocodon chowi
+    summary:
+      page: en
+      section: s-112e6b5e0f
+      part: body
+    summaryZh:
+      page: zh
+      section: s-1f723b2252
+      part: body
+    claimIds:
+      - claim:event:jurassic-mammaliaform-jaw-ear-load-shift
+    evidenceItems:
+      - statement: Dianoconodon holotype IVPP V4257 and Feredocodon paratype IMMNH-PV01925 preserve articular, quadrate, dentary and postdentary anatomy used in MorphoBank Project 5075 and the archived phylogenetic analyses to compare jaw–ear configurations.
+        relation: supports
+        claimIds:
+          - claim:event:jurassic-mammaliaform-jaw-ear-load-shift
+        referenceLinks:
+          - referenceId: mao-2024-jaw-middle-ear
+            relation: supports
+            pages: 576–580
+            figure: Figures 1–4; Extended Data Figures 1–9
+            quoteLocator: Cranial morphology; Jaw joint and middle ear; Methods
+    uncertaintyItems:
+      - statement: Reduced load-bearing and improved auditory suitability are inferred from morphology and finite comparative anatomy rather than directly measured hearing or bite forces in the fossils.
+        relation: contextualizes
+        claimIds:
+          - claim:event:jurassic-mammaliaform-jaw-ear-load-shift
+        referenceLinks:
+          - referenceId: mao-2024-jaw-middle-ear
+            relation: supports
+            pages: 578–581
+            figure: Figures 3 and 4
+            quoteLocator: Jaw joint and middle ear; Discussion
+      - statement: The 201.4–161.5 Ma event range is a composite envelope spanning two fossils from separate formations and times; it is not one population, a continuous sequence, a direct ancestor–descendant pair or a crown-Mammalia origin interval.
+        relation: contextualizes
+        claimIds:
+          - claim:event:jurassic-mammaliaform-jaw-ear-load-shift
+        referenceLinks:
+          - referenceId: mao-2024-jaw-middle-ear
+            relation: supports
+            pages: 576–581
+            figure: Figure 1
+            quoteLocator: Abstract; Geological context; Discussion
+  claims:
+    - subjectId: event:jurassic-mammaliaform-jaw-ear-load-shift
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Jaw and postdentary anatomy in Dianoconodon IVPP V4257 and Feredocodon IMMNH-PV01925 supports a comparative reduction of articular–quadrate load-bearing before complete middle-ear detachment, but function is inferred and the specimens are not an ancestor–descendant pair.
+      confidence: medium
+      confidenceRationale: The named fossils, detailed anatomy, MorphoBank matrix and archived analyses support comparison. Medium confidence separates anatomical observation from biomechanical and auditory interpretation and rejects a linear transition assembled from separate lineages and horizons.
+      referenceLinks:
+        - referenceId: mao-2024-jaw-middle-ear
+          relation: supports
+          pages: 576–581
+          figure: Figures 1–4; Extended Data Figures 1–9
+          quoteLocator: Cranial morphology; Jaw joint and middle ear; Discussion; Methods
+  claim-rationales.zh:
+    - 具名化石、详细解剖、MorphoBank 矩阵与归档分析支持比较。中等置信度把解剖观察同生物力学和听觉解释分开，并拒绝用不同时代和谱系拼成线性转型。
+  claim-statements.zh:
+    - Dianoconodon IVPP V4257 与 Feredocodon IMMNH-PV01925 的颌部和齿骨后区解剖支持中耳完全脱离前关节骨—方骨承重相对减弱，但功能属于推断，两件标本也不是祖先—后代配对。

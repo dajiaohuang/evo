@@ -1,0 +1,164 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chelus
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: Chelus 属
+      en: Chelus
+    sections:
+      - text:
+          zh:
+            page: zh
+            section: s-92eb4d6c8c
+            part: body
+          en:
+            page: en
+            section: s-4507cd4e02
+            part: body
+        sourceIds:
+          - taxonomy
+        topic: overview
+      - text:
+          zh:
+            page: zh
+            section: s-4253740a8e
+            part: body
+          en:
+            page: en
+            section: s-ae5441802c
+            part: body
+        sourceIds:
+          - chelusNeuroanatomy
+        topic: morphology
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3c5c24a1d0
+            part: body
+          en:
+            page: en
+            section: s-46fcd22390
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-525d967de7
+            part: body
+          en:
+            page: en
+            section: s-326cc21a1f
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-47e9fa4f83
+            part: body
+          en:
+            page: en
+            section: s-07bc3ddeb7
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chelus
+          url: https://www.checklistbank.org/dataset/316115/taxon/87DY8
+          locator: Accepted COL26.8 genus usage and parent classification.
+          scope:
+            zh: 固定 COL26.8 接受名称、阶元与父级分类；不推断现生状态或后代覆盖完整性。
+            en: Pinned COL26.8 accepted name, rank and parent classification; no inference about living status or complete descendant coverage.
+      - id: chelusNeuroanatomy
+        referenceId: ref-12a1495c-e3a3-4bd2-b122-6f1a95a588f6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - publishedAt
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - licenseAssessment
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods and comparative description of Chelus fimbriata specimen MNHN.ZA.AC A9940; CT scanning and cranial neuroanatomy.
+          licenseAssessment: paraphrase-only
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅支持一具 Chelus fimbriata 比较标本的 CT 扫描、重建及文中描述；不外推为属级特征。
+            en: Supports CT scanning, reconstruction and descriptions of one comparative Chelus fimbriata specimen only; not genus-wide generalization.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 2 authored records grouped under Chelus by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+    limitations:
+      zh:
+        page: zh
+        section: s-359aac0a21
+        part: body
+      en:
+        page: en
+        section: s-e1047e78a0
+        part: body

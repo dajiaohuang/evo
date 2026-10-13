@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus nanus
+  displayName: Physalaemus nanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77GHY
+  sourceIndexes:
+    - name:
+        en: Physalaemus nanus
+        zh: Physalaemus nanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77GHY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/338
+            queryName: Physalaemus nanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/334
+            queryName: Eupemphix nana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/335
+            queryName: Physalaemus nana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f8aba268aa
+      - s-635ca8e5df
+      - s-ebd51d75a4
+      - s-208cb706d4
+      - s-2c6230fdea
+      - s-e751432eb6
+      - s-29d6a459de
+      - s-e628b71b86
+      - s-fbcade7dd4
+      - s-fc1b7fe341
+      - s-5a4b5bee41
+    zh:
+      - s-50c48a33fe
+      - s-4b3350f488
+      - s-80b8efbc2f
+      - s-2d9f31b604
+      - s-f31514e1e5
+      - s-9b7bb258c1
+      - s-ca9024349c
+      - s-95859b7780
+      - s-a04ba7475d
+      - s-05f1b3e91e
+      - s-d0dd1fc7dd

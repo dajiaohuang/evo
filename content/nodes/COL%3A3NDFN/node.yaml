@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla zhaopingensis
+  displayName: Hyla zhaopingensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NDFN
+  sourceIndexes:
+    - name:
+        en: Hyla zhaopingensis
+        zh: Hyla zhaopingensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NDFN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/373
+            queryName: Hyla zhaopingensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-883644479d
+      - s-71e862a3a0
+      - s-abc7fb9e4e
+      - s-d66a9ccffb
+      - s-c880e3f969
+      - s-57eaaa8da5
+      - s-11f6f29eb2
+    zh:
+      - s-3c95ceda37
+      - s-2b9412c396
+      - s-18af40ded8
+      - s-9399f98db8
+      - s-b3a941fee4
+      - s-186530774d
+      - s-7bd4297ada

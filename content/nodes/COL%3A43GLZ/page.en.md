@@ -1,0 +1,3 @@
+## ## Three-part flowers and serial prickles {#s-46993d23d5}
+The Brazilian Flora 2020 entry records pubescent stems with spreading simple hairs and capitate glandular hairs; setae and short shoots are absent. Prickles are absent or retrorse and serial. The stipules persist; extrafloral nectaries are absent, and a projection between pinna pairs may be present or absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have three perianth parts and a membranous calyx with triangular lobes. Corolla lobes are hairless and have one to three veins; the androecium is diplostemonous, with pink filaments. A habitat field says “terrestrial” but supplies no locality or finer description.
+

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Desmognathus orestes
+  displayName: Desmognathus orestes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6CNY7
+  sourceIndexes:
+    - name:
+        en: Desmognathus orestes
+        zh: Desmognathus orestes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6CNY7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/483
+            queryName: Desmognathus orestes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c66de5f643
+      - s-b9146ab5d1
+      - s-7b53f0f377
+      - s-51be420e68
+      - s-5c2db5ee4e
+      - s-987fc4cf48
+      - s-ca426d14b0
+      - s-382663c7ff
+      - s-739015368a
+      - s-cc8f7fe572
+      - s-e46ad6aa3c
+    zh:
+      - s-60be256159
+      - s-b980defcd7
+      - s-ea11449421
+      - s-5cff3b246b
+      - s-8779074f8e
+      - s-04134d603a
+      - s-ab8b742a3b
+      - s-f1cf702fd4
+      - s-c1f92c01f3
+      - s-b58e17a2d9
+      - s-7cb2670daf

@@ -1,0 +1,533 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hyperoliidae Laurent, 1943
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Hyperoliidae
+      zh: Hyperoliidae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-cd60fe40b6
+            part: title
+          zh:
+            page: zh
+            section: s-63eab82a92
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cd60fe40b6
+            part: body
+          zh:
+            page: zh
+            section: s-63eab82a92
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-49eee3de7e
+            part: title
+          zh:
+            page: zh
+            section: s-0d124d42b8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-49eee3de7e
+            part: body
+          zh:
+            page: zh
+            section: s-0d124d42b8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5f4fc9a41c
+            part: title
+          zh:
+            page: zh
+            section: s-b61ea2d18f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5f4fc9a41c
+            part: body
+          zh:
+            page: zh
+            section: s-b61ea2d18f
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-ab2df56c86
+            part: title
+          zh:
+            page: zh
+            section: s-090aa6ecac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ab2df56c86
+            part: body
+          zh:
+            page: zh
+            section: s-090aa6ecac
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-ee0f022ded
+            part: title
+          zh:
+            page: zh
+            section: s-a3239e1af5
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5CPT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5CPT
+            label:
+              en: Acanthixalinae
+              zh: Acanthixalinae
+          - kind: catalogue
+            colId: 32Z4
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A32Z4
+            label:
+              en: Arlequinus
+              zh: Arlequinus
+          - kind: catalogue
+            colId: 3FMG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3FMG
+            label:
+              en: Callixalus
+              zh: Callixalus
+          - kind: catalogue
+            colId: 3PFD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3PFD
+            label:
+              en: Chrysobatrachus
+              zh: Chrysobatrachus
+          - kind: catalogue
+            colId: JQT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AJQT
+            label:
+              en: Hyperoliinae
+              zh: Hyperoliinae
+          - kind: catalogue
+            colId: V5JQP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5JQP
+            label:
+              en: Kassininae
+              zh: Kassininae
+        text:
+          en:
+            page: en
+            section: s-ee0f022ded
+            part: body
+          zh:
+            page: zh
+            section: s-a3239e1af5
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-0203114b22
+            part: title
+          zh:
+            page: zh
+            section: s-936a9c66fe
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-0203114b22
+            part: body
+          zh:
+            page: zh
+            section: s-936a9c66fe
+            part: body
+      - topic: limitations
+        title:
+          en: Scope of these records
+          zh: 现有证据的范围
+        text:
+          en:
+            page: en
+            section: s-5d3250527d
+            part: body
+          zh:
+            page: zh
+            section: s-3c69d44042
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hyperoliidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/624W2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Family = Hyperoliidae; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Hyperoliidae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-41223cc394
+        part: body
+      zh:
+        page: zh
+        section: s-a520c99720
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Family
+      sourceName: Hyperoliidae
+      sourceRowIds:
+        - Anf3054
+        - Anf3055
+        - Anf3056
+        - Anf3057
+        - Anf3058
+        - Anf3059
+        - Anf3060
+        - Anf3061
+        - Anf3062
+        - Anf3063
+        - Anf3064
+        - Anf3065
+        - Anf3066
+        - Anf3067
+        - Anf3068
+        - Anf3069
+        - Anf3070
+        - Anf3071
+        - Anf3072
+        - Anf3073
+        - Anf3074
+        - Anf3075
+        - Anf3076
+        - Anf3077
+        - Anf3078
+        - Anf3079
+        - Anf3080
+        - Anf3081
+        - Anf3082
+        - Anf3083
+        - Anf3084
+        - Anf3085
+        - Anf3086
+        - Anf3087
+        - Anf3088
+        - Anf3089
+        - Anf3090
+        - Anf3091
+        - Anf3092
+        - Anf3093
+        - Anf3094
+        - Anf3095
+        - Anf3096
+        - Anf3097
+        - Anf3098
+        - Anf3099
+        - Anf3100
+        - Anf3101
+        - Anf3102
+        - Anf3103
+        - Anf3104
+        - Anf3105
+        - Anf3106
+        - Anf3107
+        - Anf3108
+        - Anf3109
+        - Anf3110
+        - Anf3111
+        - Anf3112
+        - Anf3113
+        - Anf3114
+        - Anf3115
+        - Anf3116
+        - Anf3117
+        - Anf3118
+        - Anf3119
+        - Anf3120
+        - Anf3121
+        - Anf3122
+        - Anf3123
+        - Anf3124
+        - Anf3125
+        - Anf3126
+        - Anf3127
+        - Anf3128
+        - Anf3129
+        - Anf3130
+        - Anf3131
+        - Anf3132
+        - Anf3133
+        - Anf3134
+        - Anf3135
+        - Anf3136
+        - Anf3137
+        - Anf3138
+        - Anf3139
+        - Anf3140
+        - Anf3141
+        - Anf3142
+        - Anf3143
+        - Anf3144
+        - Anf3145
+        - Anf3146
+        - Anf3147
+        - Anf3148
+        - Anf3149
+        - Anf3150
+        - Anf3151
+        - Anf3152
+        - Anf3153
+        - Anf3154
+        - Anf3155
+        - Anf3156
+        - Anf3157
+        - Anf3158
+        - Anf3159
+        - Anf3160
+        - Anf3161
+        - Anf3162
+        - Anf3163
+        - Anf3164
+        - Anf3165
+        - Anf3166
+        - Anf3167
+        - Anf3168
+        - Anf3169
+        - Anf3170
+        - Anf3171
+        - Anf3172
+        - Anf3173
+        - Anf3174
+        - Anf3175
+        - Anf3176
+        - Anf3177
+        - Anf3178
+        - Anf3179
+        - Anf3180
+        - Anf3181
+        - Anf3182
+        - Anf3183
+        - Anf3184
+        - Anf3185
+        - Anf3186
+        - Anf3187
+        - Anf3188
+        - Anf3189
+        - Anf3190
+        - Anf3191
+        - Anf3192
+        - Anf3193
+        - Anf3194
+        - Anf3195
+        - Anf3196
+        - Anf3197
+        - Anf3198
+        - Anf3199
+        - Anf3200
+        - Anf3201
+        - Anf3202
+        - Anf3203
+        - Anf3204
+        - Anf3205
+        - Anf3206
+        - Anf3207
+        - Anf3208
+        - Anf3209
+        - Anf3210
+        - Anf3211
+        - Anf3212
+        - Anf3213
+        - Anf3214
+        - Anf3215
+        - Anf3216
+        - Anf3217
+        - Anf3218
+        - Anf3219
+        - Anf3220
+        - Anf3221
+        - Anf3222
+        - Anf3223
+        - Anf3224
+        - Anf3225
+        - Anf3226
+        - Anf3227
+        - Anf3228
+        - Anf3229
+        - Anf3230
+        - Anf3231
+        - Anf3232
+        - Anf3233
+        - Anf3234
+        - Anf3235
+        - Anf3236
+        - Anf3237
+        - Anf3238
+        - Anf3239
+        - Anf3240
+        - Anf3241
+        - Anf3242
+        - Anf3243
+        - Anf3244
+        - Anf3245
+        - Anf3246
+        - Anf3247
+        - Anf3248
+        - Anf3249
+        - Anf3250
+        - Anf3251
+        - Anf3252
+        - Anf3253
+        - Anf3254
+        - Anf3255
+        - Anf3256
+        - Anf3257
+        - Anf3258
+        - Anf3259
+        - Anf3260
+        - Anf3261
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 180
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 142
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 183
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 202
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Hyperolius marmoratus
+          path: content/nodes/local-5f934e21d1605764ab8b0984
+        - scientificName: Hyperolius tuberilinguis
+          path: content/nodes/local-20f9ca6fd71cfe572804025b
+        - scientificName: Hyperolius viridiflavus
+          path: content/nodes/local-859d91db6b3f743cde0f6696
+      metrics:
+        - metric: CTmax
+          rows: 25
+          sourceConcepts: 3
+        - metric: CTmin
+          rows: 18
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

@@ -1,0 +1,239 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Arthroleptides yakusini
+    name:
+      en: Arthroleptides yakusini
+      zh: Arthroleptides yakusini
+    sourceClassification:
+      order: Anura
+      family: Petropedetidae
+      genus: Arthroleptides
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Arthroleptides yakusini in the version 3 classification
+          zh: Arthroleptides yakusini 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1cb76b0c99
+            part: body
+          zh:
+            page: zh
+            section: s-c4a6a6d951
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 7 populated trait fields
+          zh: 2 条测量行与 7 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-883574216c
+            part: body
+          zh:
+            page: zh
+            section: s-06db26b852
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 463, 464; Reference.csv rows 33
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 463
+        values:
+          - Petropedetidae
+          - Arthroleptides
+          - Arthroleptides yakusini
+          - M
+          - "64"
+          - NA
+          - NA
+          - "7"
+          - "5.55"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.1"
+          - NA
+          - NA
+          - NA
+          - "38.95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "33.65"
+          - NA
+          - NA
+          - NA
+          - "18.35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 464
+        values:
+          - Petropedetidae
+          - Arthroleptides
+          - Arthroleptides yakusini
+          - F
+          - "56.5"
+          - NA
+          - NA
+          - "7.15"
+          - "3.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.35"
+          - NA
+          - NA
+          - NA
+          - "35.75"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "31.4"
+          - NA
+          - NA
+          - NA
+          - "17.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 33
+        values:
+          - Anura
+          - Arthroleptides_yakusini
+          - Channing, A., Moyer, D. C., & Howell, K. M. (2002). Description of a new torrent frog in the genus Arthroleptides from Tanzania (Amphibia, Anura, Ranidae). Alytes Paris, 20(1/2), 13-27.
+    availableTraitCodes:
+      - SVL
+      - ED
+      - TD
+      - FLL
+      - TL
+      - Toe4L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - GYPT
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

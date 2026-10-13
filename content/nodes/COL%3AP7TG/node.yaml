@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia subnigricans
+  displayName: Caecilia subnigricans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7TG
+  sourceIndexes:
+    - name:
+        en: Caecilia subnigricans
+        zh: Caecilia subnigricans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7TG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/85
+            queryName: Caecilia subnigricans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db3816e278
+      - s-cf648ec123
+      - s-3aff18fac1
+      - s-3e9c216f88
+      - s-0edc81567d
+      - s-dc6bf429b2
+      - s-57497aabd8
+      - s-9dba6c6b4b
+      - s-e2c093598c
+      - s-28e7e0f708
+    zh:
+      - s-62475ef223
+      - s-742b964830
+      - s-8a6fcb0901
+      - s-f57e238361
+      - s-0f946e1678
+      - s-94d2c1975e
+      - s-985be0525b
+      - s-c36699ca9c
+      - s-5cd14c1f3f
+      - s-c4f62f5696

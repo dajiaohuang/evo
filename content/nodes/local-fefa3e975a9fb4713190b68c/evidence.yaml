@@ -1,0 +1,193 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hynobius yangi
+    name:
+      en: Hynobius yangi
+      zh: Hynobius yangi
+    sourceClassification:
+      order: Caudata
+      family: Hynobiidae
+      genus: Hynobius
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a95cafa76c
+            part: body
+          zh:
+            page: zh
+            section: s-f199d952ee
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ae76c36753
+            part: body
+          zh:
+            page: zh
+            section: s-1f78d798bd
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 195, 196; Reference.csv rows 4073
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 195
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius yangi
+          - F
+          - NA
+          - "57.8"
+          - "45.0262"
+          - NA
+          - "12.7738"
+          - "10.6352"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "42.4252"
+          - NA
+          - "5.8956"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 196
+        values:
+          - Hynobiidae
+          - Hynobius
+          - Hynobius yangi
+          - M
+          - NA
+          - "52.6"
+          - "39.9234"
+          - NA
+          - "12.6766"
+          - "10.52"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "43.2372"
+          - NA
+          - "6.1016"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4073
+        values:
+          - Caudata
+          - Hynobius_yangi
+          - Min, M. S., Baek, H. J., Song, J. Y., Chang, M. H., & Poyarkov, N. A. (2016). A new species of salamander of the genus Hynobius (Amphibia, Caudata, Hynobiidae) from South Korea. Zootaxa, 4169(3), 475-503. https://doi.org/10.11646/zootaxa.4169.3.4
+    availableTraitCodes:
+      - SVL
+      - TRL
+      - HL
+      - HW
+      - TL
+      - TH
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3NLV7
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

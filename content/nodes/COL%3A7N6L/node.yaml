@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stereocyclops
+  displayName: Stereocyclops
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7N6L
+  sourceIndexes:
+    - name:
+        en: Stereocyclops
+        zh: Stereocyclops
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7N6L
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/282
+            queryName: Stereocyclops
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 41
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0beaf6204b
+      - s-e219ccd5de
+      - s-448eaa2cb2
+      - s-4cb1b6588f
+      - s-fa4380d86d
+      - s-135e12e7f2
+      - s-cb56762ea9
+      - s-6fefab5302
+      - s-856f38e26b
+      - s-d0ef01a297
+      - s-ae3451b6d8
+      - s-826ae8f2f6
+    zh:
+      - s-fc7d0d20d5
+      - s-74e1f69c2d
+      - s-602048104b
+      - s-232d597472
+      - s-5e7d9dd252
+      - s-4bd3fd53f2
+      - s-0c534d9c0e
+      - s-4eec463ddf
+      - s-7839ac1ebb
+      - s-759815ed90
+      - s-15a97b759a
+      - s-e3d4306460

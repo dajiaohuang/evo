@@ -1,0 +1,491 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allobates grillisimilis Simões, Sturaro, Peloso & Lima, 2013
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Allobates grillisimilis
+      zh: Allobates grillisimilis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-848f2ed477
+            part: title
+          zh:
+            page: zh
+            section: s-514d459a07
+            part: title
+        text:
+          en:
+            page: en
+            section: s-848f2ed477
+            part: body
+          zh:
+            page: zh
+            section: s-514d459a07
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-4a5bea5b2c
+            part: title
+          zh:
+            page: zh
+            section: s-b951bc4baf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4a5bea5b2c
+            part: body
+          zh:
+            page: zh
+            section: s-b951bc4baf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-e2b6e3123d
+            part: title
+          zh:
+            page: zh
+            section: s-3d10335516
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-e2b6e3123d
+            part: body
+          zh:
+            page: zh
+            section: s-3d10335516
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-aab06d1ad2f4cf1a15f2e24a
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-4967ac318bf28c083b786bc0
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e6c2a8cdd3
+            part: title
+          zh:
+            page: zh
+            section: s-397d3b067f
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-e6c2a8cdd3
+            part: body
+          zh:
+            page: zh
+            section: s-397d3b067f
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-859bf67040
+            part: title
+          zh:
+            page: zh
+            section: s-0beca22235
+            part: title
+        sourceIds:
+          - primary-pmc7648453-6699l
+        text:
+          en:
+            page: en
+            section: s-859bf67040
+            part: body
+          zh:
+            page: zh
+            section: s-0beca22235
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fd6e83c184
+            part: title
+          zh:
+            page: zh
+            section: s-76cffac09b
+            part: title
+        sourceIds:
+          - primary-pmc7648453-6699l
+        text:
+          en:
+            page: en
+            section: s-fd6e83c184
+            part: body
+          zh:
+            page: zh
+            section: s-76cffac09b
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3405a875bb
+            part: title
+          zh:
+            page: zh
+            section: s-2d737b1612
+            part: title
+        sourceIds:
+          - primary-pmc7648453-6699l
+        text:
+          en:
+            page: en
+            section: s-3405a875bb
+            part: body
+          zh:
+            page: zh
+            section: s-2d737b1612
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-a9e80c02b6
+            part: title
+          zh:
+            page: zh
+            section: s-146843f72c
+            part: title
+        sourceIds:
+          - primary-pmc7648453-6699l
+        text:
+          en:
+            page: en
+            section: s-a9e80c02b6
+            part: body
+          zh:
+            page: zh
+            section: s-146843f72c
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-9b3e5cfad4
+            part: title
+          zh:
+            page: zh
+            section: s-85fe158e3b
+            part: title
+        sourceIds:
+          - primary-pmc7648453-6699l
+        text:
+          en:
+            page: en
+            section: s-9b3e5cfad4
+            part: body
+          zh:
+            page: zh
+            section: s-85fe158e3b
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-b502d7a826
+            part: title
+          zh:
+            page: zh
+            section: s-1a1be85700
+            part: title
+        sourceIds:
+          - primary-pmc7648453-6699l
+        text:
+          en:
+            page: en
+            section: s-b502d7a826
+            part: body
+          zh:
+            page: zh
+            section: s-1a1be85700
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Allobates grillisimilis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6699L
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 166, 167, 168, 169; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 100, 101; Reference.csv rows 3455
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc7648453-6699l
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Allobates grillisimilis: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-587e04d239
+        part: body
+      zh:
+        page: zh
+        section: s-7615e68aef
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-aab06d1ad2f4cf1a15f2e24a
+        scientificName: Allobates grillisimilis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.9979
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        sourceKey: primary-pmc7648453-6699l
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7648453/article.xml
+        sourceConcept: Exact frozen accepted-name label in2020 comparison/table/Appendix; primary observations and reviewed comparisons explicitly distinguished; original specimens/sequence concepts not authenticated
+        evidenceRead: "Allobates grillisimilis: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reported distance to velocicantus
+              zh: 所报与 velocicantus 的距离
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-6699l
+            locator: PMC7648453 article.xml Table2 row15 leftname/p/K2P cells andfootnote;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6f5c8bf3a7
+                part: body
+              zh:
+                page: zh
+                section: s-5ccd5d4410
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Selected hand and colour contrasts
+              zh: 选定手部及色彩对照
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-6699l
+            locator: PMC7648453 article.xml Taxonomy paragraph19;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e37a5ba9b3
+                part: body
+              zh:
+                page: zh
+                section: s-dc6f6f6471
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Larval papillae in the authors’ comparison
+              zh: 作者比较中的幼体乳突
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-6699l
+            locator: PMC7648453 article.xml Taxonomy paragraph27;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4f69c93f11
+                part: body
+              zh:
+                page: zh
+                section: s-dd94dd0031
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: occurrence
+            heading:
+              en: Examined vouchers retain their source localities
+              zh: 检查凭证保留来源地点
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-6699l
+            locator: PMC7648453 article.xml AppendixI paragraph10;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ce962e5b5e
+                part: body
+              zh:
+                page: zh
+                section: s-c7f7b0eda9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Reported donor codes and available loci
+              zh: 所报供体编号及可得位点
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-6699l
+            locator: PMC7648453 peerj-08-9979-s001.xls sheet Table 1 rows26 columnsA:B/D:N;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9d390aec7c
+                part: body
+              zh:
+                page: zh
+                section: s-b70dd0580f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: occurrence
+            heading:
+              en: Source locality strings remain donor-specific
+              zh: 来源地点字符串保持供体特定
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-6699l
+            locator: PMC7648453 peerj-08-9979-s001.xls same rows columnsA:C;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4c4ba5279a
+                part: body
+              zh:
+                page: zh
+                section: s-9d52dd7ee4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

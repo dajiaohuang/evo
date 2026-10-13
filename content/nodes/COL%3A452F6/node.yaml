@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Myersiohyla chamaeleo
+  displayName: Myersiohyla chamaeleo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/452F6
+  sourceIndexes:
+    - name:
+        en: Myersiohyla chamaeleo
+        zh: Myersiohyla chamaeleo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 452F6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/138
+            queryName: Myersiohyla chamaeleo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8d35131f68
+      - s-2d5eac8e11
+      - s-b3005a17ea
+      - s-aa594b39a1
+      - s-a662f6dc0a
+      - s-42dd46955b
+    zh:
+      - s-c25c4e8edf
+      - s-5a0145d9b3
+      - s-635c9e4b0a
+      - s-6b57eaeaf6
+      - s-881a6644ac
+      - s-43a2381950

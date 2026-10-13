@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella bondangensis
+    name:
+      en: Leptobrachella bondangensis
+      zh: Leptobrachella bondangensis
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Leptobrachella bondangensis in the version 3 classification
+          zh: Leptobrachella bondangensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-67d08231b1
+            part: body
+          zh:
+            page: zh
+            section: s-ac55bd3289
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 16 populated trait fields
+          zh: 1 条测量行与 16 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1b7c0f6d06
+            part: body
+          zh:
+            page: zh
+            section: s-947f0d2860
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2537; Reference.csv rows 597
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2537
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella bondangensis
+          - M
+          - "17.8"
+          - "6.408"
+          - "5.8028"
+          - "2.9014"
+          - NA
+          - NA
+          - "1.7088"
+          - "1.9046"
+          - "1.7088"
+          - "0.801"
+          - "2.2962"
+          - "1.1036"
+          - "4.005"
+          - NA
+          - "7.1022"
+          - "7.9032"
+          - NA
+          - "9.3984"
+          - NA
+          - NA
+          - "27.9994"
+          - "1.4062"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 597
+        values:
+          - Anura
+          - Leptobrachella_bondangensis
+          - "Eto, K., Matsui, M., Hamidy, A., Munir, M., & Iskandar, D. (2018). Two new species of the genus Leptobrachella (Amphibia: Anura: Megophryidae) from Kalimantan, Indonesia. Current Herpetology, 37(2), 95-105. https://doi.org/10.5358/hsj.37.95"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3TK98
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

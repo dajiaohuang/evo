@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Triturus pygmaeus
+  displayName: Triturus pygmaeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/595FX
+  sourceIndexes:
+    - name:
+        en: Triturus pygmaeus
+        zh: Triturus pygmaeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 595FX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/122
+            queryName: Triturus pygmaeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 27
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/69
+            queryName: Triturus marmoratus pygmaeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/75
+            queryName: Triturus pygmaeus lusitanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/76
+            queryName: Triturus pygmaeus pygmaus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/82
+            queryName: Triton marmoratus pygmaea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-876f759a9c
+      - s-2d7e55675a
+      - s-6476294b6e
+      - s-4bf7faa533
+      - s-48eec294a2
+      - s-358e157bab
+      - s-2555812615
+      - s-d52a76f00d
+      - s-3465264037
+      - s-168411d719
+      - s-dd02ffff84
+      - s-92e4eebc17
+      - s-156e465259
+    zh:
+      - s-518f7dfbdc
+      - s-738540df8d
+      - s-84ebf2b2c1
+      - s-dbbdc6ab6e
+      - s-778da5d803
+      - s-7a0d8553de
+      - s-d379ccdc1a
+      - s-c8130c8f11
+      - s-dfd53b5869
+      - s-aa48f59973
+      - s-fdcf8debf0
+      - s-25adaa0a20
+      - s-75fe83ca2a

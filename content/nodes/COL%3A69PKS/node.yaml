@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Charadrahyla altipotens
+  displayName: Charadrahyla altipotens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69PKS
+  sourceIndexes:
+    - name:
+        en: Charadrahyla altipotens
+        zh: Charadrahyla altipotens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69PKS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/222
+            queryName: Charadrahyla altipotens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/167
+            queryName: Hyla altipotens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9aca4a58d8
+      - s-da25ee6765
+      - s-d535851b18
+      - s-91bfa25c15
+      - s-ca7152560b
+      - s-77fc9163e8
+      - s-c3477b5b8a
+      - s-ead644416e
+      - s-2bed9889d4
+      - s-2e9a830fda
+      - s-250e034f64
+    zh:
+      - s-3980a9ceec
+      - s-41bd10df4a
+      - s-3d670da400
+      - s-a346e87d50
+      - s-0bd1c85b8c
+      - s-ec8bce518b
+      - s-c6bae4bf3b
+      - s-0088d1509a
+      - s-cd70367a34
+      - s-55afe414ee
+      - s-8c7977a108

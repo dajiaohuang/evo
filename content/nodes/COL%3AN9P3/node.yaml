@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps carruthersi
+  displayName: Breviceps carruthersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9P3
+  sourceIndexes:
+    - name:
+        en: Breviceps carruthersi
+        zh: Breviceps carruthersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9P3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/458
+            queryName: Breviceps carruthersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-37d242e9b9
+      - s-f50924273e
+      - s-e2954d413b
+      - s-512c6ab2b4
+      - s-01b10d9010
+      - s-a5397af593
+      - s-f7d0381a4f
+      - s-804564bbaf
+      - s-e874841a94
+      - s-745e023156
+      - s-e9396dce15
+    zh:
+      - s-192b6c3734
+      - s-255bf5a9e6
+      - s-89f93ec8d0
+      - s-276100c2bf
+      - s-2ac26b3ff9
+      - s-7d528f1db9
+      - s-abf081c35e
+      - s-d1c73a6409
+      - s-d3a2e0a05f
+      - s-bda1896eaa
+      - s-d9721eeab6

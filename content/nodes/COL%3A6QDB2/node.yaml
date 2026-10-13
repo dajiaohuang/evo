@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes shompenorum
+  displayName: Limnonectes shompenorum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDB2
+  sourceIndexes:
+    - name:
+        en: Limnonectes shompenorum
+        zh: Limnonectes shompenorum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDB2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/138
+            queryName: Limnonectes shompenorum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e1519303e
+      - s-7fcc83e4a5
+      - s-dee4331cd4
+      - s-78365c299f
+      - s-0047b46cf5
+      - s-4f82c1ab0d
+      - s-6b02eb5834
+      - s-0f4798055d
+      - s-6d765f5852
+      - s-135fe12720
+    zh:
+      - s-701c485d3b
+      - s-ee41eced83
+      - s-5dd3a8bc74
+      - s-bc3557f664
+      - s-839d8d5574
+      - s-d55f4c95e9
+      - s-9bae432a14
+      - s-13bf664bdb
+      - s-76ed8baa5f
+      - s-23a28e06cc

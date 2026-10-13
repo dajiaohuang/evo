@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius jackie
+  displayName: Hyperolius jackie
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPXM
+  sourceIndexes:
+    - name:
+        en: Hyperolius jackie
+        zh: Hyperolius jackie
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPXM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/267
+            queryName: Hyperolius jackie
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be44d3be6b
+      - s-84ae06490b
+      - s-3924a55bd8
+      - s-f39443bbda
+      - s-913a79db1a
+      - s-4546817785
+      - s-b327735c0c
+      - s-5488405ad9
+      - s-6f87508626
+      - s-0424f8fd08
+      - s-536adb8ea8
+      - s-9437e99b48
+      - s-8dd502c70e
+      - s-2fca3f7d8b
+    zh:
+      - s-d7df7fc0e4
+      - s-b8c357393d
+      - s-2e95738b7b
+      - s-3ac93ff7d6
+      - s-3ced96ab13
+      - s-443e205691
+      - s-7f8661188e
+      - s-56e663e3d6
+      - s-e2cdd3c147
+      - s-269df7c5e8
+      - s-c8da55a6e7
+      - s-136c60dfda
+      - s-3472b8898d
+      - s-6daabc372d

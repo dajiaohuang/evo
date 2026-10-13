@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax alter
+  displayName: Scinax alter
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6XY9V
+  sourceIndexes:
+    - name:
+        en: Scinax alter
+        zh: Scinax alter
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6XY9V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/13
+            queryName: Scinax alter
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 32
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/459
+            queryName: Ololygon altera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/460
+            queryName: Scinax altera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/315
+            queryName: Hyla rubra orientalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/316
+            queryName: Hyla rubra altera
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-11123c2798
+      - s-929d717f84
+      - s-63f4a10c1c
+      - s-9ca88c47b9
+      - s-540ca6ecf7
+      - s-5310501496
+      - s-b8b27edaa5
+      - s-ead6b41e7f
+      - s-e4a4b6dcbd
+      - s-8bfe4030a6
+      - s-05b60443c5
+      - s-c2b79a235e
+      - s-2ee3c1f437
+      - s-56c3c4e937
+      - s-f1c5f5a760
+      - s-7b60d0d396
+      - s-c7ecf74493
+      - s-289c9c9abc
+    zh:
+      - s-0cd48d9b9f
+      - s-cabaccee12
+      - s-69ad23350d
+      - s-95bfa1485f
+      - s-7b4db2ae73
+      - s-36c6d5fca9
+      - s-4eef73dbb2
+      - s-734d66a2c6
+      - s-2a54354b0e
+      - s-cb2d8ae6ce
+      - s-f3ef8eef4b
+      - s-c11e961e4e
+      - s-f16748dff6
+      - s-b00446648b
+      - s-3eb286efaf
+      - s-63fea5d080
+      - s-e6d76c0d48
+      - s-8216f0bf99

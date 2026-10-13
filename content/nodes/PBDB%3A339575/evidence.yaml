@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Euroemys kehreri
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Euroemys kehreri
+      en: Euroemys kehreri
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbPantestudinesTaxonomy20261002
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-caf486ddaf
+            part: body
+          en:
+            page: en
+            section: s-0515aba88e
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-14b1ba3a05
+            part: body
+          en:
+            page: en
+            section: s-e556a1efaf
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-22ad63b5c4
+            part: body
+          en:
+            page: en
+            section: s-35e247ff17
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-264ee24184
+            part: body
+          en:
+            page: en
+            section: s-c58d442cc8
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbPantestudinesOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e2f2714303
+            part: body
+          en:
+            page: en
+            section: s-de3f845534
+            part: body
+    sources:
+      - id: pbdbPantestudinesTaxonomy20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Euroemys kehreri
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=339575&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbPantestudinesOccurrences20261002
+        referenceId: ref-ca0a2dd7-4ca6-470e-bc1d-9aba950cee4c
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:339575; original response record indices retained in data/sources/pantestudines-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 420dc1c50b596ab358c29c338c87a9400512fd005c369ade614416e403aeff56
+          pbdbTaxonId: txn:339575
+          selectedOccurrenceIds:
+            - occ:1323300
+            - occ:1607169
+            - occ:1607202
+            - occ:1607213
+          selectedCollectionIds:
+            - col:22701
+            - col:120036
+            - col:120798
+            - col:138656
+          sourceReferenceIds:
+            - ref:58591
+          originalIdentificationMappings:
+            - occurrenceId: occ:1323300
+              originalIdentifiedName: Ocadia kehreri
+              acceptedName: Euroemys kehreri
+              difference: recombined as
+            - occurrenceId: occ:1607169
+              originalIdentifiedName: Ocadia kehreri
+              acceptedName: Euroemys kehreri
+              difference: recombined as
+            - occurrenceId: occ:1607202
+              originalIdentifiedName: Ocadia kehreri n. sp.
+              acceptedName: Euroemys kehreri
+              difference: recombined as
+            - occurrenceId: occ:1607213
+              originalIdentifiedName: Ocadia kehreri
+              acceptedName: Euroemys kehreri
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0294760504
+        part: body
+      en:
+        page: en
+        section: s-330673959a
+        part: body

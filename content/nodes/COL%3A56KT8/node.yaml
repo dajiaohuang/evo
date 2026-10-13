@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Thorius omiltemi
+  displayName: Thorius omiltemi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/56KT8
+  sourceIndexes:
+    - name:
+        en: Thorius omiltemi
+        zh: Thorius omiltemi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 56KT8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/53
+            queryName: Thorius omiltemi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-175220076a
+      - s-69b4ab19b2
+      - s-3a7fabd8fa
+      - s-cf41b69157
+      - s-29653cc2d3
+      - s-628e98e0ff
+      - s-eab7164609
+      - s-55afbf9d13
+    zh:
+      - s-8b9c374740
+      - s-c602cb105d
+      - s-ace7c3c32e
+      - s-9cafc6f84b
+      - s-0501574510
+      - s-5093bbf13c
+      - s-3c05704246
+      - s-0ccb2e6cc1

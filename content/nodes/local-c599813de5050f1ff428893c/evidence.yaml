@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Scinax sateremawe
+    name:
+      en: Scinax sateremawe
+      zh: Scinax sateremawe
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Scinax
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Scinax sateremawe in the morphology deposit
+          zh: 形态数据中的 Scinax sateremawe 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-270d2427d7
+            part: body
+          zh:
+            page: zh
+            section: s-32a8259167
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5623 and 5624: measurement fields and sex codes"
+          zh: 第 5623、5624 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e5118eb597
+            part: body
+          zh:
+            page: zh
+            section: s-1015ea9b77
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5623, 5624; Reference.csv rows 3175
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5623
+        values:
+          - Hylidae
+          - Scinax
+          - Scinax sateremawe
+          - F
+          - "36.6"
+          - "13"
+          - "12.6"
+          - "4.2"
+          - "2.1"
+          - NA
+          - "4"
+          - "2.9"
+          - "3.6"
+          - "4.1"
+          - NA
+          - "1.7"
+          - NA
+          - NA
+          - NA
+          - "26"
+          - NA
+          - "19.6"
+          - "17.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5624
+        values:
+          - Hylidae
+          - Scinax
+          - Scinax sateremawe
+          - M
+          - "36.27"
+          - "12.72"
+          - "12.63"
+          - "4.06"
+          - "2.08"
+          - NA
+          - "3.95"
+          - "2.7"
+          - "3.33"
+          - "3.88"
+          - NA
+          - "1.72"
+          - NA
+          - NA
+          - NA
+          - "26.02"
+          - NA
+          - "19.29"
+          - "17.47"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.83"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.73"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3175
+        values:
+          - Anura
+          - Scinax_sateremawe
+          - "Sturaro, M., & Peloso, P. (2014). A new species of Scinax wagler, 1830 (Anura: Hylidae) from the middle Amazon River Basin, Brazil. Papéis Avulsos de Zoologia (São Paulo), 54, 9-23. https://doi.org/10.1590/0031-1049.2014.54.02"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4VJZ3
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

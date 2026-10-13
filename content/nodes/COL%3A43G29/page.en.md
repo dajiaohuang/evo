@@ -1,0 +1,3 @@
+## ## Stem hairs and cylindrical flower heads {#s-a94b088c61}
+The Brazilian Flora 2020 entry records pubescent stems with recurved simple hairs and peltate glandular hairs; prickles are absent or described as scattered and retrorse. The stipules persist, extrafloral nectaries are absent, and a projection occurs between pinna pairs. The inflorescences are cylindrical, with floral bracts shorter than the flowers before they open. The flowers have four perianth parts and a membranous calyx with triangular lobes. Corolla lobes have one to three veins and may be hairless or pubescent. The androecium is diplostemonous, with white filaments. These regional character fields do not establish variation across the species.
+

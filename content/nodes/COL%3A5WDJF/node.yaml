@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Barygenys atra
+  displayName: Barygenys atra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WDJF
+  sourceIndexes:
+    - name:
+        en: Barygenys atra
+        zh: Barygenys atra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WDJF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/380
+            queryName: Barygenys atra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/118
+            queryName: Xenorhina atra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/119
+            queryName: Metopostira atra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-144252f082
+      - s-4986e151da
+      - s-a6ba304277
+      - s-a12f896cc7
+      - s-17c87c9c5f
+      - s-684b3ab5d6
+      - s-b2fb8104e5
+      - s-f6a0a85f3b
+      - s-05ba424aba
+      - s-3738f78664
+    zh:
+      - s-ed190772a3
+      - s-9256b15f2c
+      - s-c961cdcda3
+      - s-a7330f8aa5
+      - s-3701a5a82a
+      - s-fe4aa93b3d
+      - s-9deb36f419
+      - s-8b4dc8a9e7
+      - s-4685d3a4fd
+      - s-a6ee1f0609

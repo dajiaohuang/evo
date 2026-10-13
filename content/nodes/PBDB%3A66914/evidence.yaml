@@ -1,0 +1,140 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Actinodontidae
+    rank: family
+    sourceTaxonId: txn:66914
+    name:
+      en: Actinodontidae
+      zh: Actinodontidae
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-b597bc719a
+            part: body
+          zh:
+            page: zh
+            section: s-0e058d8347
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-157ee0a464
+            part: body
+          zh:
+            page: zh
+            section: s-82a2a9ee87
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-b086c13a35
+            part: body
+          zh:
+            page: zh
+            section: s-07212fefb3
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-8f90603baa
+            part: body
+          zh:
+            page: zh
+            section: s-aa16921134
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:66914; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "J. Boy. 1990. Über einige Vertreter der Eryopoidea (Amphibia: Temnospondyli) aus dem europäischen Rotliegend (?höchstes Karbon - Perm), 3. Onchiodon; (On some representatives of the Eryopoidea (Amphibia: Temnospondyli) from the European Rotliegend (?Uppermost Carboniferous - Permian), 3. Onchiodon). Paläontologische Zeitschrift 64(3/4):287-312"
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:142539
+        - txn:345846
+        - txn:379298
+      exactOccurrenceCount: 3
+      datedOccurrenceCount: 3
+      collectionIntervalBoundsMa:
+        older: 290.1
+        younger: 259.857
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-8f90603baa
+            part: body
+          zh:
+            page: zh
+            section: s-aa16921134
+            part: body
+        sourceIds: []

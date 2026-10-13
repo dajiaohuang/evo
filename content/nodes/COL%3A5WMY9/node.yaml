@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla luctuosa
+  displayName: Bokermannohyla luctuosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMY9
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla luctuosa
+        zh: Bokermannohyla luctuosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMY9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/64
+            queryName: Bokermannohyla luctuosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/383
+            queryName: Hyla luctuosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/409
+            queryName: Boana luctuosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d08804c0a6
+      - s-c64471464d
+      - s-c1b21655cc
+      - s-4e4dbcdf55
+      - s-168f517f36
+      - s-4f7dd44fa3
+      - s-e4f9d613dd
+      - s-d42a14928f
+      - s-c68366d700
+      - s-40016460ef
+      - s-f787a8bb95
+      - s-986fd8e929
+      - s-9913c59dd0
+      - s-a979a2b8db
+      - s-519d79ecac
+      - s-4ce83813a5
+      - s-d56b006827
+      - s-2de2847bd2
+    zh:
+      - s-64f24bb041
+      - s-2919b7ba72
+      - s-0a5379df3a
+      - s-ee9370b71f
+      - s-69d039e602
+      - s-1c0d1e6f6e
+      - s-1e6a495fc4
+      - s-91591ff89e
+      - s-f450878de8
+      - s-855a2fa96f
+      - s-2de8ffc222
+      - s-8a97ef05df
+      - s-40f2455fd9
+      - s-1486fe96eb
+      - s-1b1ea56202
+      - s-74331daf34
+      - s-064e37542d
+      - s-aabb5c5666

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps poweri
+  displayName: Breviceps poweri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9PJ
+  sourceIndexes:
+    - name:
+        en: Breviceps poweri
+        zh: Breviceps poweri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9PJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/469
+            queryName: Breviceps poweri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-46269492c0
+      - s-b235f98374
+      - s-b04a09b0a5
+      - s-f9cf61cbc9
+      - s-2de1f25756
+      - s-98332a42fc
+      - s-a1300a67ab
+      - s-d5b39273d2
+      - s-d05d62ae37
+      - s-7966589eea
+    zh:
+      - s-d98cc8665e
+      - s-928e3c39ae
+      - s-baebc87dff
+      - s-5ba0327162
+      - s-b621a24175
+      - s-ba966c3933
+      - s-f1b5089512
+      - s-e0665d432e
+      - s-7d21ae4ecf
+      - s-af79a16d7b

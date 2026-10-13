@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Boophis miniatus
+    name:
+      en: Boophis miniatus
+      zh: Boophis miniatus
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Boophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-db269c279a
+            part: body
+          zh:
+            page: zh
+            section: s-8ab967b1a7
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9bc97c09eb
+            part: body
+          zh:
+            page: zh
+            section: s-8cc4e274fb
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 782, 783; Reference.csv rows 116
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 782
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis miniatus
+          - M
+          - "26.62"
+          - "9.753333333"
+          - "9.58"
+          - "3.773333333"
+          - "2.006666667"
+          - NA
+          - NA
+          - "2.573333333"
+          - NA
+          - "2.106666667"
+          - NA
+          - "2.006666667"
+          - "8.086666667"
+          - NA
+          - "16.55"
+          - "11.13333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "45.84666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 783
+        values:
+          - Mantellidae
+          - Boophis
+          - Boophis miniatus
+          - F
+          - "36.5"
+          - "13.4"
+          - "13"
+          - "4"
+          - "2.15"
+          - NA
+          - NA
+          - "3.55"
+          - NA
+          - "3.05"
+          - NA
+          - "2.7"
+          - "10.5"
+          - NA
+          - "21.35"
+          - "14.95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "58.15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 116
+        values:
+          - Anura
+          - Boophis_miniatus
+          - "Glaw, F. (2001). Revision of the Boophis majori group (Amphibia: Mantellidae) from Madagascar, with descriptions of five new species. Zoological Journal of the Linnean Society, 133(4), 495-529. https://doi.org/10.1006/zjls.2001.0301"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - LAL
+      - FL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 68PLR
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

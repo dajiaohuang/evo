@@ -1,0 +1,131 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Micranthus plantagineus Eckl.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 42QJC, name, authorship, rank, and source dataset 2232 checked against the pinned taxon; WFO 2026-06 crosswalk maps it to wfo-0000784910 by exact accepted name and authorship.
+      scope: Micranthus plantagineus Eckl. as represented by COL26.8 usage 42QJC; regional flora evidence remains limited to its southern African source scope.
+    lifeStatusScope:
+      wild: Claims concern wild populations described by the regional flora.
+      domesticated: Cultivation is not covered by the cited claims; no domestication claim is made.
+      fossil: No fossil claim is made; fossil occurrence has not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 20
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/42QJC
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted taxon usage 42QJC
+          scope: Accepted name, authorship, rank, status, and source-dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784910-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Exact accepted COL 42QJC / WFO wfo-0000784910 crosswalk row
+          scope: Identity-link evidence only; not biological evidence.
+      - id: sanbi2020
+        referenceId: ref-a2c82bbf-bb8f-8117-a1e3-5aefbf03dc12
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Micranthus account, printed p. 158; flowering-time and distribution/ecology entries
+          scope: Southern African regional flora account; not a current global range or conservation assessment.
+      - id: sanbi-archive
+        referenceId: ref-240f872a-55ec-83ef-ae4f-5731c9346cae
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Source 18638.0; morphology row 98031; habitat row 96942
+          scope: South African flora description fields; morphology and habitat evidence only, not a global account.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The archived species description records Micranthus plantagineus Eckl.: plants 200–400 mm tall, with 2–4 hollow, round to oval leaves and usually dark-blue flowers."
+            textZh: SANBI 档案对 Micranthus plantagineus Eckl. 的形态记载为：株高 200–400 mm，有 2–4 枚中空、圆至椭圆形叶，花通常深蓝。
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, morphology row 98031
+            placeTimeScope: Source 18638.0 in the SANBI e-Flora archive; South African source-description scope, with no global or current-population inference.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of morphology has not been completed.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: The 2020 flora reports flowering October–December, rarely May; it does not provide a full life-history study.
+            textZh: 2020 年植物志记载花期为 October–December, rarely May；该条目不构成完整生活史研究。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 158, flowering-time entry
+            placeTimeScope: Species account in a 2020 southern African flora, printed p. 158; temporal and geographic scope are limited to that account, not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of lifeHistory has not been completed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: "The archived habitat field reports: Seasonally wet or moist sites, including stream margins and marshy or winter-waterlogged places."
+            textZh: 档案中的生境字段记载：Seasonally wet or moist sites, including stream margins and marshy or winter-waterlogged places.
+            sourceIds:
+              - sanbi-archive
+            locator: SANBI e-Flora source 18638.0, habitat row 96942
+            placeTimeScope: Source 18638.0 in the SANBI e-Flora archive; South African source-description scope, with no global or current-population inference.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of ecology has not been completed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: partially-supported
+        claims:
+          - text: "The 2020 flora reports the regional range as: From the Bokkeveld near Nieuwoudtville south through the Western Cape to the Cape Peninsula and east to Port Elizabeth; sparse records in the Little Karoo and Swartberg. This is not a current global range inventory."
+            textZh: 2020 年植物志记载的区域分布为：From the Bokkeveld near Nieuwoudtville south through the Western Cape to the Cape Peninsula and east to Port Elizabeth; sparse records in the Little Karoo and Swartberg. 这不是当前全球分布清单。
+            sourceIds:
+              - sanbi2020
+            locator: Strelitzia 42 (2020), printed p. 158, distribution paragraph
+            placeTimeScope: Species account in a 2020 southern African flora, printed p. 158; temporal and geographic scope are limited to that account, not a current global synthesis.
+            lifeStatus: Wild regional flora evidence; cultivated status is not assessed.
+        gaps:
+          - Regional source evidence is partial; a systematic scope-complete review of distribution has not been completed.
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

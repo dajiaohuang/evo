@@ -1,0 +1,6 @@
+## How does the cited account describe Manihot esculenta? {#s-3d9be80254}
+The account describes a glabrous herb or shrub, sometimes tree-like, about 1–3 m tall. Its long-stalked leaves have deciduous, pointed, lance-shaped stipules. Most blades are deeply divided into three to five lobes, less often seven or undivided; the tapering elliptic-lanceolate lobes are bluish beneath, with the middle lobe usually largest. Flowering panicles are 5–10 cm long and lengthen as fruits form. Male flowers have yellow-green, bell-shaped calyces and ten stamens with unequal filaments; the flower disc is ten-lobed, and a sterile pistil is absent. Female flowers have five long sepals and a ribbed or winged ovary; their styles widen and divide into several head-shaped tips. The capsule is about 1.5 cm long, rough, and six-winged. Seeds are flattened, bluntly beaked, grayish or pale brown with dark flecks, and bear a broad triangular caruncle.
+
+## What range and cultivation does the cited account report? {#s-40f25d3203}
+That account says the species is apparently native to South America and widely cultivated in the tropics, including Panama, where it at least occasionally escapes cultivation. This is the source’s statement, not a current range assessment.
+

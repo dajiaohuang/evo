@@ -1,0 +1,190 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana boans
+  displayName: Boana boans
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7X9
+  sourceIndexes:
+    - name:
+        en: Boana boans
+        zh: Boana boans
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7X9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/456
+            queryName: Boana boans
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/278
+            queryName: Hyla boans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/136
+            queryName: Hypsiboas boans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/408
+            queryName: Rana boans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/322
+            queryName: Rana maxima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/323
+            queryName: Calamita maximus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/324
+            queryName: Calamita boans
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/325
+            queryName: Hyla palmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/326
+            queryName: Rana zebra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/327
+            queryName: Hyla maxima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/328
+            queryName: Calamita palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/329
+            queryName: Hypsiboas palmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/330
+            queryName: Hypsiboas palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/331
+            queryName: Lobipes palmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/332
+            queryName: Cinclidium granulatum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/333
+            queryName: Hyla daudini
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14cf58331b
+      - s-73d347edb4
+      - s-bd05122ff8
+      - s-a7b873db2e
+      - s-50b20001f7
+      - s-a1e5c0d7d0
+      - s-2073a43aec
+      - s-86c7ab60be
+      - s-6bc0c3ec3e
+      - s-3d8e1e6ebd
+      - s-dec7498aca
+      - s-766d9deb19
+      - s-1b934e4652
+      - s-a5e2c4c397
+      - s-004aec78c4
+      - s-25d496c189
+      - s-d646d1cc77
+      - s-7caa5f69b9
+      - s-95f478e883
+      - s-c770ce632d
+      - s-fe34d88e70
+      - s-f0a94fe343
+      - s-8472d80808
+      - s-1cb3af2508
+      - s-cdf4ef7a91
+      - s-77184247a0
+      - s-17a9b0103b
+      - s-94ef0b33b9
+      - s-4a3174d751
+      - s-0d7e5118a3
+    zh:
+      - s-c376677896
+      - s-94ea4f7655
+      - s-5b8ea9d6b5
+      - s-87dfed4065
+      - s-c55643f86c
+      - s-dbeec6d2aa
+      - s-8b67df0bf3
+      - s-2072603cbe
+      - s-224bb71667
+      - s-457d4f462f
+      - s-4286ec36e3
+      - s-9b7e982347
+      - s-beaf5e0427
+      - s-caf2abc672
+      - s-53e9b64c4d
+      - s-f938377e93
+      - s-7362fcf4e1
+      - s-50a07b3b53
+      - s-07cd908970
+      - s-e4e5c4a125
+      - s-59b00f75a4
+      - s-db470e8b15
+      - s-d612ec2d12
+      - s-9bd384907f
+      - s-3e0e8982c2
+      - s-d475d7fe87
+      - s-8c03f23c9e
+      - s-12c01f8ed8
+      - s-9a125651bc
+      - s-97e437f2b4

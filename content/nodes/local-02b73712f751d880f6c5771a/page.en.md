@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Scutiger boulengeri {#s-71ad9c8022}
+TadpoleTraits version 4 places Scutiger boulengeri in Scutiger (Megophryidae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Scutiger boulengeri. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 2 literature rows and 0 image rows {#s-cafbcce86c}
+TadpoleTraits version 4 links 2 literature rows and 0 image rows to Scutiger boulengeri. Source row numbers — literature: 3705, 3706; image: none recorded. Populated measurement fields — literature: TL, BL, BMH, BMW, TaL, MTH, TMW, IOD.b, SSD.c, OD; image: none recorded. Literature row 3705: Stage 37-40; Literature row 3706: Stage 37-40. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

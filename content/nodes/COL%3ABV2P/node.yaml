@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates tinae
+  displayName: Allobates tinae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2P
+  sourceIndexes:
+    - name:
+        en: Allobates tinae
+        zh: Allobates tinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/176
+            queryName: Allobates tinae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-65e5b24c8a
+      - s-fe8c8cd0bb
+      - s-af3d2f2b9e
+      - s-6b571ea5da
+      - s-79200be9bb
+      - s-5b718e645a
+      - s-a9c46ec059
+      - s-13c5116e9e
+      - s-5f1cfa6ec1
+      - s-a9fc7244d9
+    zh:
+      - s-d6d9ae0096
+      - s-58ac253c07
+      - s-328b80aa85
+      - s-36d7adec69
+      - s-808bf1aa87
+      - s-2eb9731977
+      - s-261b38bae5
+      - s-9e2d57590d
+      - s-01c028fefe
+      - s-eef4e35d62

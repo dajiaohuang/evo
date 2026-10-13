@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus macrogranulosus
+  displayName: Melanophryniscus macrogranulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Z9LT
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus macrogranulosus
+        zh: Melanophryniscus macrogranulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Z9LT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/395
+            queryName: Melanophryniscus macrogranulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d75f131ed5
+      - s-3b450a8dad
+      - s-53cd4526d7
+      - s-c2492474ed
+      - s-bf0153f711
+      - s-d993acfe13
+      - s-e071706931
+      - s-10d4e532e2
+      - s-5a2f4d3550
+      - s-0c1fe7c7c1
+      - s-90581b1250
+      - s-57ab522c76
+      - s-bfcce8081e
+    zh:
+      - s-4a0ff59f06
+      - s-ff57683ce6
+      - s-6fc32734e7
+      - s-bbe2906cbc
+      - s-731f13d0c3
+      - s-eb8ca54b5f
+      - s-32306442b0
+      - s-114fc14074
+      - s-40c0b96a4d
+      - s-a4b560fac8
+      - s-3b0713f011
+      - s-918a5d40b1
+      - s-52889a9e90

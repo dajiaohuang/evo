@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius laurenti
+  displayName: Hyperolius laurenti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQV5
+  sourceIndexes:
+    - name:
+        en: Hyperolius laurenti
+        zh: Hyperolius laurenti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQV5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/280
+            queryName: Hyperolius laurenti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8a4efc43cf
+      - s-bd783589da
+      - s-64ad126da8
+      - s-b21d48a818
+      - s-7d481236bf
+      - s-aac34fbe52
+      - s-c8da29fdd1
+      - s-1f3072e1a9
+      - s-8d43c24e90
+    zh:
+      - s-8af06c0d29
+      - s-c81164bb92
+      - s-c8f78da123
+      - s-3b43b6eab8
+      - s-c6d1166ea7
+      - s-3642fe6314
+      - s-7603e20da7
+      - s-be9ed650a4
+      - s-0d82eafbbd

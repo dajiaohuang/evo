@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius quadratomaculatus
+  displayName: Hyperolius quadratomaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQY6
+  sourceIndexes:
+    - name:
+        en: Hyperolius quadratomaculatus
+        zh: Hyperolius quadratomaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQY6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/324
+            queryName: Hyperolius quadratomaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-16e872c498
+      - s-4b58f41f0e
+      - s-9d6cf969b6
+      - s-d6e0bc9fab
+      - s-c10ebd97c4
+      - s-47bbaa28a6
+    zh:
+      - s-ac1931589e
+      - s-a221dca8cc
+      - s-f7516c45cc
+      - s-f9c8ea5387
+      - s-8874fe7657
+      - s-400c94dbcf

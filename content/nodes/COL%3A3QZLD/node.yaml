@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kaloula walteri
+  displayName: Kaloula walteri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QZLD
+  sourceIndexes:
+    - name:
+        en: Kaloula walteri
+        zh: Kaloula walteri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QZLD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/139
+            queryName: Kaloula walteri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7abe010624
+      - s-f645461d35
+      - s-3952439189
+      - s-ddddbaa701
+      - s-c4ddbdbc07
+      - s-189f7353f8
+      - s-1176a580e1
+      - s-ffd801635c
+      - s-0643dd1e57
+      - s-7adde9c23b
+      - s-4ca9665d72
+    zh:
+      - s-14afb6d831
+      - s-6bef5b907f
+      - s-1fcdbd55f0
+      - s-a1a3c0cdce
+      - s-2ecb5e6281
+      - s-a25b1d3201
+      - s-90840c8b67
+      - s-859e453e08
+      - s-04127f47da
+      - s-fb78230438
+      - s-945d118bdb

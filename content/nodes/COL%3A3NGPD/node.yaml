@@ -1,0 +1,150 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylorina sylvatica
+  displayName: Hylorina sylvatica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGPD
+  sourceIndexes:
+    - name:
+        en: Hylorina sylvatica
+        zh: Hylorina sylvatica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGPD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/32
+            queryName: Hylorina sylvatica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/483
+            queryName: Cystignathus aeneus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/484
+            queryName: Hylorhinus silvatica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/485
+            queryName: Hylorhina aenea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/486
+            queryName: Hylorina andina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/487
+            queryName: Hylorina longipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/488
+            queryName: Hilorina andina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/489
+            queryName: Hilorina silvatica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/490
+            queryName: Hilorina longipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/491
+            queryName: Eupsophus sylvaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f978591f1a
+      - s-d4a4486628
+      - s-a7ac69a235
+      - s-1d42b402c6
+      - s-921226f2d4
+      - s-164e09e7a3
+      - s-26655e28d9
+      - s-a1fa5a31b4
+      - s-bdf1a3182d
+      - s-1364bcc84f
+      - s-d1a85d0aef
+      - s-79a6cafc12
+      - s-11cecd657d
+      - s-87f5da2f31
+      - s-2c6bfe3ab5
+      - s-00817ba354
+      - s-9fd35dff24
+      - s-09b6f740f3
+      - s-cfb2ddea38
+      - s-a1187ce501
+      - s-cff76f8db4
+      - s-8f67b278c9
+      - s-d62cd18b83
+      - s-0f3b46e952
+      - s-b74a32e51e
+    zh:
+      - s-9107eb44de
+      - s-52dba6c482
+      - s-2f60e60ef1
+      - s-1833a58be0
+      - s-c9eef0f336
+      - s-44f0087b1b
+      - s-97a31273f5
+      - s-fb8c90b517
+      - s-a5de234ae1
+      - s-74c4a8ee8d
+      - s-7f97117354
+      - s-72ab27f76a
+      - s-ae876e6709
+      - s-0a3304f2a4
+      - s-505e1ca17c
+      - s-7b81a90ab1
+      - s-34f2e68ae6
+      - s-9f7f38f414
+      - s-a1c04169c6
+      - s-462ce3c90c
+      - s-5fe6867ed7
+      - s-a6dab6277c
+      - s-e212cfb361
+      - s-85bc5c512f
+      - s-73f12f167b

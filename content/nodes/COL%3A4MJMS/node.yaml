@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis rhabdolaemus
+  displayName: Pristimantis rhabdolaemus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMS
+  sourceIndexes:
+    - name:
+        en: Pristimantis rhabdolaemus
+        zh: Pristimantis rhabdolaemus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/46
+            queryName: Pristimantis rhabdolaemus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/24
+            queryName: Eleutherodactylus rhabdolaemus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-107f967f83
+      - s-c97bb58013
+      - s-323b27a9a9
+      - s-fce77dbe9f
+      - s-cb94d3eda6
+      - s-ec503253ab
+      - s-80428d2e8b
+      - s-48629b44d2
+    zh:
+      - s-406834458a
+      - s-2ead95c508
+      - s-afa7f30243
+      - s-d8257f99d4
+      - s-b7909f4710
+      - s-067a707a07
+      - s-b4db3cb5e9
+      - s-6672685827

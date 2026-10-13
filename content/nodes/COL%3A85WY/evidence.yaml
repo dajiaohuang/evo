@@ -1,0 +1,226 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Varecia Gray, 1863
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Ruffed Lemurs
+      zh: 领狐猴属
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-4d4a39094a
+            part: body
+          zh:
+            page: zh
+            section: s-2e2a261196
+            part: body
+        sourceIds:
+          - taxonomy
+          - beeby2021
+          - martinez2014
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-e99d620dd8
+            part: body
+          zh:
+            page: zh
+            section: s-cdd236f982
+            part: body
+        sourceIds:
+          - beeby2021
+          - martinez2014
+      - topic: limits
+        text:
+          en:
+            page: en
+            section: s-9fe5c7f431
+            part: body
+          zh:
+            page: zh
+            section: s-907655a267
+            part: body
+        sourceIds:
+          - beeby2021
+          - martinez2014
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-1253f4f411
+            part: body
+          en:
+            page: en
+            section: s-99daf565eb
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-31938dcf44
+            part: body
+          en:
+            page: en
+            section: s-9f42f66a5d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Varecia
+          url: https://www.checklistbank.org/dataset/316115/taxon/85WY
+          scope:
+            en: Pins accepted genus identity and authorship.
+            zh: 固定属级接受身份与作者。
+      - id: beeby2021
+        referenceId: ref-c43d5989-89b8-82fc-a2fd-8bbcbcb8da10
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the Mangevo seasonal-feeding reading path.
+            zh: 支持 Mangevo 季节取食阅读路径。
+      - id: martinez2014
+        referenceId: ref-93c6f24c-42b6-8275-a8c9-b475c086076d
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the Masoala restoration-site reading path.
+            zh: 支持 Masoala 恢复地阅读路径。
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 2 authored same-name records placed under Varecia by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 2 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 2
+            foraging: 2
+            activity: 2
+          readingTargets:
+            - name: Varecia rubra
+              colId: 7FHRL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7FHRL
+            - name: Varecia variegata
+              colId: 7FHRK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7FHRK
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-1a72656e7f
+        part: body
+      zh:
+        page: zh
+        section: s-f39e364225
+        part: body

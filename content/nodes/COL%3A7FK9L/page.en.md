@@ -1,0 +1,3 @@
+## Leaflet surfaces and a winged samara {#s-6f4fdc15d1}
+The Brazilian Flora 2020 entry records buttresses as absent and 5–9 leaflets, with acute or acuminate tips. The adaxial leaflet surface field is recorded only as “sub,” without a complete surface description. Leaflet arrangement is listed as alternate or subopposite, the margins denticulate, and secondary veins inconspicuous. Flowers are over 20 mm long; the hypanthium is campanulate or turbinate, the ovary laterally expanded, and the calyx teeth very distinct. The fruit is a samara with a wing on the seed bearing body. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

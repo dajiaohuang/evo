@@ -1,0 +1,191 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Hyloxalus aeruginosus
+    name:
+      en: Hyloxalus aeruginosus
+      zh: Hyloxalus aeruginosus
+    sourceClassification:
+      order: Anura
+      family: Dendrobatoidea
+      genus: Hyloxalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Hyloxalus aeruginosus in the version 3 classification
+          zh: Hyloxalus aeruginosus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2cefb5163a
+            part: body
+          zh:
+            page: zh
+            section: s-9da695c43c
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 8 populated trait fields
+          zh: 1 条测量行与 8 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f3df3d784b
+            part: body
+          zh:
+            page: zh
+            section: s-835e493da2
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2225; Reference.csv rows 3545
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2225
+        values:
+          - Dendrobatoidea
+          - Hyloxalus
+          - Hyloxalus aeruginosus
+          - F
+          - "29.2"
+          - "9.5"
+          - "10.4"
+          - "3.5"
+          - "2.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.5"
+          - NA
+          - "14"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3545
+        values:
+          - Anura
+          - Hyloxalus_aeruginosus
+          - "Duellman, W. E., & Missouri. Department of, C. (2004). Frogs of the genus Colostethus (Anura; Dendrobatidae) in the Andes of northern Peru (Vol. no.35 (2004)). Lawrence, Kan: Natural History Museum, University of Kansas."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

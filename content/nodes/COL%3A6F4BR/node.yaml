@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus glaucoreius
+  displayName: Eleutherodactylus glaucoreius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4BR
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus glaucoreius
+        zh: Eleutherodactylus glaucoreius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4BR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/214
+            queryName: Eleutherodactylus glaucoreius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/101
+            queryName: Euhyas glaucoreia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/497
+            queryName: Eleutherodactylus cundalli glaucoreius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f567bf226b
+      - s-d597c4ff5c
+      - s-ae7c408746
+      - s-4b676a0ce5
+      - s-fe49032b56
+      - s-0018a28b8c
+      - s-583752b804
+      - s-fe49126290
+    zh:
+      - s-30c08dabcb
+      - s-e8be6496f9
+      - s-d40360df9a
+      - s-a911918bc5
+      - s-498049b713
+      - s-82959dc4d6
+      - s-84bad3350a
+      - s-0dbecfc707

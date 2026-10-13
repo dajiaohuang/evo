@@ -1,0 +1,428 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ololygon cosenzai (Lacerda, Peixoto & Feio, 2012)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ololygon cosenzai
+      zh: Ololygon cosenzai
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f333160c2e
+            part: title
+          zh:
+            page: zh
+            section: s-2836806b2e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f333160c2e
+            part: body
+          zh:
+            page: zh
+            section: s-2836806b2e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5fb072407c
+            part: title
+          zh:
+            page: zh
+            section: s-c540bb97fd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5fb072407c
+            part: body
+          zh:
+            page: zh
+            section: s-c540bb97fd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a73ccab5ae
+            part: title
+          zh:
+            page: zh
+            section: s-7b854f51bb
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-a73ccab5ae
+            part: body
+          zh:
+            page: zh
+            section: s-7b854f51bb
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-088d7581c9edd764ec1720e7
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-5ef54868170621fa6daaba8f
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-daa7d9f32c
+            part: title
+          zh:
+            page: zh
+            section: s-e07c5c69a2
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-daa7d9f32c
+            part: body
+          zh:
+            page: zh
+            section: s-e07c5c69a2
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1586f54bdd
+            part: title
+          zh:
+            page: zh
+            section: s-3ca0735a22
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4992d
+        text:
+          en:
+            page: en
+            section: s-1586f54bdd
+            part: body
+          zh:
+            page: zh
+            section: s-3ca0735a22
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b568d6b9be
+            part: title
+          zh:
+            page: zh
+            section: s-d34d8bf7b2
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4992d
+        text:
+          en:
+            page: en
+            section: s-b568d6b9be
+            part: body
+          zh:
+            page: zh
+            section: s-d34d8bf7b2
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5bbcf47a01
+            part: title
+          zh:
+            page: zh
+            section: s-e2cef2e375
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4992d
+        text:
+          en:
+            page: en
+            section: s-5bbcf47a01
+            part: body
+          zh:
+            page: zh
+            section: s-e2cef2e375
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2f291c8859
+            part: title
+          zh:
+            page: zh
+            section: s-41d11b5070
+            part: title
+        sourceIds:
+          - primary-pmc10688756-4992d
+          - primary-pmc10688756-4992d-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-2f291c8859
+            part: body
+          zh:
+            page: zh
+            section: s-41d11b5070
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ololygon cosenzai
+          url: https://www.checklistbank.org/dataset/316115/taxon/4992D
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 2089, 2090, 2091, 2092, 2093, 2094, 2095, 2096, 2097, 2098, 2099, 2100, 2101, 2102, 2103, 2104, 2105, 2106, 2107, 2108, 2109, 2110, 2111, 2112, 2113, 2114, 2115, 2116, 2117, 2118, 2119; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5568, 5569; Reference.csv rows 3144
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10688756-4992d
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ololygon cosenzai: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-4992d-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: "COL26.8 dataset316115; Scinax cosenzai: usage4VJVT accepted4992D; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json"
+          scope:
+            en: Explicit nomenclatural accepted-links only; biological-concept equivalence and original specimen identity uncertified.
+            zh: 仅明确命名接受名链接；生物学概念等同性及原标本身份未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc10688756-4992d-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fe3b8074da
+        part: body
+      zh:
+        page: zh
+        section: s-b873239c93
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-088d7581c9edd764ec1720e7
+        scientificName: Ololygon cosenzai
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-4992d
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 source workbook names Scinax cosenzai linked through explicit frozen COL26.8 nomenclatural records; original row concepts retained, not certified specimen identity
+        evidenceRead: "Ololygon cosenzai: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax cosenzai: development and oviposition coding"
+              zh: 工作簿记录 Scinax cosenzai：发育及产卵编码
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4992d
+            locator: PMC10688756 S3 Traits row404 Scinax_cosenzai; XML Functional diversity; upstream reference numbers 1, 2, 3, 110; original upstream sources not independently read
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8afed02259
+                part: body
+              zh:
+                page: zh
+                section: s-d628d74d68
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: "Workbook record Scinax cosenzai: juvenile habitat and egg sites"
+              zh: 工作簿记录 Scinax cosenzai：幼体生境及卵位点
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4992d
+            locator: PMC10688756 S3 Traits row404 Scinax_cosenzai; XML Functional diversity; upstream reference numbers 1, 2, 3, 110; original upstream sources not independently read habitat/S1–S7 columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5b8cb13b8e
+                part: body
+              zh:
+                page: zh
+                section: s-adfc5d6607
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: "Workbook record Scinax cosenzai: inference and length limits"
+              zh: 工作簿记录 Scinax cosenzai：推断及长度限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4992d
+            locator: PMC10688756 S3 Traits row404 Scinax_cosenzai; XML Functional diversity; upstream reference numbers 1, 2, 3, 110; original upstream sources not independently read length/Observation columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2035a26ed1
+                part: body
+              zh:
+                page: zh
+                section: s-181ae4c6a8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: "Workbook record Scinax cosenzai: an explicit frozen catalogue accepted-link"
+              zh: 工作簿记录 Scinax cosenzai：明确冻结目录接受名链接
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-4992d
+            locator: PMC10688756 S3 Traits row404 Scinax_cosenzai; XML Functional diversity; upstream reference numbers 1, 2, 3, 110; original upstream sources not independently read; COL26.8 usage4VJVT accepted4992D; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json Scinax cosenzai
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f9696fa14d
+                part: body
+              zh:
+                page: zh
+                section: s-d9998db9c5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

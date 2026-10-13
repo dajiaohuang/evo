@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudorana weiningensis
+  displayName: Pseudorana weiningensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WH5F
+  sourceIndexes:
+    - name:
+        en: Pseudorana weiningensis
+        zh: Pseudorana weiningensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WH5F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/446
+            queryName: Pseudorana weiningensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/216
+            queryName: Rana weiningensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b2b8d0096b
+      - s-8f6243437b
+      - s-c7b48d563c
+      - s-f8d9771abd
+      - s-b3b4edd57f
+      - s-5feddfff03
+      - s-4f14a6e8cd
+      - s-36c40491e6
+      - s-f1470d095c
+      - s-689f457330
+    zh:
+      - s-f09d949db1
+      - s-0e00f31506
+      - s-908357eb90
+      - s-fc4e765206
+      - s-4858aaa495
+      - s-6f75def0ba
+      - s-73f378e8b5
+      - s-ec0853fab4
+      - s-ded3967521
+      - s-d8ec93c79e

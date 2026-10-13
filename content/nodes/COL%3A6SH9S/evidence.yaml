@@ -1,0 +1,666 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Odorrana margaretae (Liu, 1950)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Odorrana margaretae
+      zh: Odorrana margaretae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-5cdd449b06
+            part: title
+          zh:
+            page: zh
+            section: s-ffd759ba21
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5cdd449b06
+            part: body
+          zh:
+            page: zh
+            section: s-ffd759ba21
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5649cb96ab
+            part: title
+          zh:
+            page: zh
+            section: s-9ef44da70c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5649cb96ab
+            part: body
+          zh:
+            page: zh
+            section: s-9ef44da70c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9f470a4819
+            part: title
+          zh:
+            page: zh
+            section: s-f8958463c8
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-9f470a4819
+            part: body
+          zh:
+            page: zh
+            section: s-f8958463c8
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-71d99bbdc3
+            part: title
+          zh:
+            page: zh
+            section: s-7f8b067a0f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-71d99bbdc3
+            part: body
+          zh:
+            page: zh
+            section: s-7f8b067a0f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-d9bc85fb1a
+            part: title
+          zh:
+            page: zh
+            section: s-aab82321d4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-d9bc85fb1a
+            part: body
+          zh:
+            page: zh
+            section: s-aab82321d4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-9c4051e637
+            part: title
+          zh:
+            page: zh
+            section: s-7b0a443eeb
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-9c4051e637
+            part: body
+          zh:
+            page: zh
+            section: s-7b0a443eeb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-22990979ab
+            part: title
+          zh:
+            page: zh
+            section: s-b7ca60d199
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-22990979ab
+            part: body
+          zh:
+            page: zh
+            section: s-b7ca60d199
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-7e5b63236960d3434898a7bc5bff3d53
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-b69828490c4133ecd762ef44
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-9f2f3f7d4565523fdcc3aca6
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-92413d489b
+            part: title
+          zh:
+            page: zh
+            section: s-d52172c652
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-92413d489b
+            part: body
+          zh:
+            page: zh
+            section: s-d52172c652
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2dc1c45256
+            part: title
+          zh:
+            page: zh
+            section: s-86297a8d96
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2dc1c45256
+            part: body
+          zh:
+            page: zh
+            section: s-86297a8d96
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-d20eb7c7b7
+            part: title
+          zh:
+            page: zh
+            section: s-974cd75884
+            part: title
+        sourceIds:
+          - primary-pmc12189923-6sh9s
+        text:
+          en:
+            page: en
+            section: s-d20eb7c7b7
+            part: body
+          zh:
+            page: zh
+            section: s-974cd75884
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6995495247
+            part: title
+          zh:
+            page: zh
+            section: s-373ec9c0d6
+            part: title
+        sourceIds:
+          - primary-pmc12189923-6sh9s
+        text:
+          en:
+            page: en
+            section: s-6995495247
+            part: body
+          zh:
+            page: zh
+            section: s-373ec9c0d6
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-2e702c8710
+            part: title
+          zh:
+            page: zh
+            section: s-a520148628
+            part: title
+        sourceIds:
+          - primary-pmc12189923-6sh9s
+        text:
+          en:
+            page: en
+            section: s-2e702c8710
+            part: body
+          zh:
+            page: zh
+            section: s-a520148628
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-798594d896
+            part: title
+          zh:
+            page: zh
+            section: s-cc4f42cfc0
+            part: title
+        sourceIds:
+          - primary-pmc10351143-6sh9s
+        text:
+          en:
+            page: en
+            section: s-798594d896
+            part: body
+          zh:
+            page: zh
+            section: s-cc4f42cfc0
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-7597caec60
+            part: body
+          zh:
+            page: zh
+            section: s-f5d3ae8be6
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Odorrana margaretae
+          url: https://www.checklistbank.org/dataset/316115/taxon/6SH9S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4948; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4951 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4715; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3782, 3783; Reference.csv rows 3922
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12189923-6sh9s
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Odorrana margaretae: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10351143-6sh9s
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Odorrana margaretae: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-88fbcdbe09
+        part: body
+      zh:
+        page: zh
+        section: s-1737a95fb6
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-7e5b63236960d3434898a7bc5bff3d53
+      sourceRowId: Anf4948
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4948
+        bibliographyRowId: Anf4951
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Odorrana livida
+        candidateBibliographyRowIds:
+          - Anf4951
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-b69828490c4133ecd762ef44
+        scientificName: Odorrana margaretae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-9f2f3f7d4565523fdcc3aca6
+        scientificName: Odorrana margaretae
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/biology14060614
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        sourceKey: primary-pmc12189923-6sh9s
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12189923/article.xml
+        sourceConcept: 2025 Tangjiahe source-labelled Odorrana margaretae, mixed contemporary and historical inventory; not certified specimen/lineage equivalence
+        evidenceRead: "Odorrana margaretae: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A mixed field-and-literature inventory in northern Sichuan
+              zh: 四川北部混合野外与文献名册
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-6sh9s
+            locator: PMC12189923 XML Table1 row10 Odorrana margaretae; Results3.1; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2b7fb5adf9
+                part: body
+              zh:
+                page: zh
+                section: s-6223fd5b3c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Local habitat assignments are broader than a breeding diagnosis
+              zh: 地方生境分配宽于繁殖诊断
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-6sh9s
+            locator: PMC12189923 XML Table1 row10 habitat columns/caption; Results3.3; Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4e36bcad12
+                part: body
+              zh:
+                page: zh
+                section: s-b504ccae7a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Regional gradients and survey gains do not certify recovery
+              zh: 区域梯度及名册增加不认证恢复
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-6sh9s
+            locator: PMC12189923 XML Methods2.1/2.2/2.5; Results3.1/3.4/3.5; Discussion4.1/4.4/4.5; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7ebb56a5ce
+                part: body
+              zh:
+                page: zh
+                section: s-f7df90f9f1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-6sh9s
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Odorrana margaretae: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A source donor with uneven locus coverage
+              zh: 位点覆盖不均匀的来源供体
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-6sh9s
+            locator: PMC10351143 article.xml Tab1 row2 allsixcolumns;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-914572c3e7
+                part: body
+              zh:
+                page: zh
+                section: s-2cbf3205b6
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

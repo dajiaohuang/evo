@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana morafkai
+  displayName: Odorrana morafkai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/48SGF
+  sourceIndexes:
+    - name:
+        en: Odorrana morafkai
+        zh: Odorrana morafkai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 48SGF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/37
+            queryName: Odorrana morafkai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/164
+            queryName: Rana morafkai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/80
+            queryName: Huia morafkai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0b60dd1b56
+      - s-3b3cdaf704
+      - s-b62f27586a
+      - s-e8d244c321
+      - s-559fb6375c
+      - s-4db277809c
+      - s-45128fdad6
+      - s-7d8af5ccf5
+      - s-0f2dacde4f
+    zh:
+      - s-f49c46d25f
+      - s-65b3667742
+      - s-ffbc8d9614
+      - s-cd32e67ad5
+      - s-b2c604364d
+      - s-1ad290681a
+      - s-aa0e51a971
+      - s-15118fdcef
+      - s-57b1f223b9

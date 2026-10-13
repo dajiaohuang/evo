@@ -1,0 +1,3 @@
+## *Bidens bipinnata*: finely divided leaves and barbed fruits {#s-97006af7fa}
+The Brazilian Flora 2020 regional field records thin leaves divided into small leaflets, with toothed edges and sparse, short, stiff hairs on both surfaces. Flower heads may be discoid or radiate and are arranged in loose clusters. The ray florets are yellow and may be inconspicuous or absent; the central florets are also yellow. The oblong fruitlets have sparse short bristles and a pappus of two to four upright awns, the stiff bristle-like projections at the tip. The field lists alternatives rather than one complete combination and gives only the broad substrate category “terrestrial.”
+

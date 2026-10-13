@@ -1,0 +1,134 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe lettyae Reynolds
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C3SJ, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C3SJ; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C3SJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C3SJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758391-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C3SJ / WFO wfo-0000758391
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe lettyae Reynolds account; SANBI/WFO archive rows 79334 (Morphology), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_14975_0
+        referenceId: ref-9fd1287d-a84f-83b8-a872-e7d45c684570
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe lettyae Reynolds account; SANBI/WFO archive rows 78814 (Habitat), source identifier 14975.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plant succulent, not stoloniferous, acaulescent, solitary. Leaves about 20 in a dense rosette, erectly spreading, lanceolate-attenuate, up to 45 cm, long, 9 cm broad at base; upper surface slightly concave, dull green, with numerous dull white spots throughout, the spots elongate and scarcely arranged in undulating transverse bands; lower surface convex, dull green, obscurely spotted throughout, the spots larger, more obscure and more in undulating transverse bands; margins sinuate-dentate, armed with deltoid brownish firm teeth about 3-4 mm long, 10-15 mm distant, the interspaces usually the colour of the leaf, sometimes slightly corneous and pale brownish. Inflorescence a branched panicle up to 1.75 met. high. Peduncle flattened low down, about 3 cm diam., 8-12-branched from about the middle, the lowest branches with 1-3 branchlets producing a total of 15-20 racemes. Racemes cylindric slightly acuminate, the terminal the highest, 20-25 cm, long, 8-9 cm diam. Bracts deltoid-acuminate, about as long as their pedicels, thin sub-scarious pale brown, 3-5-nerved, Pedicels 12-15 mm long. Perianth rose-red, 38-42 mm long, with a globular basal swelling 10-11 mm diam., constricted to 6 mm, above the ovary, thence slightly decurved and enlarging towards the throat, the mouth slightly pale brownish; outer segments free for 10 mm, obscurely nerved, with paler margins and sub-acute slightly spreading apices; inner segments dorsally adnate to the outer for 30 mm, broader than the outer, with broader white marginal border and more obtuse apices. Filaments almost white, the 3 inner narrower and lengthening in advance of the 3 outer. Genitals exserted 1-2 mm. Ovary 8 mm long, 3.5 mm, diam., finely 6-grooved, green. Capsule 30 mm long, 15 mm diam. at middle.
+            textZh: Aloe lettyae Reynolds 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Morphology row 79334; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Long grass and among bushes and trees on eastern slopes of hills and mountains.
+            textZh: 该 SANBI 区域物种条目记录的生境：Long grass and among bushes and trees on eastern slopes of hills and mountains.
+            sourceIds:
+              - sanbi_14975_0
+            locator: "SANBI/WFO archive Habitat row 78814; source identifier 14975.0; cited publication: Smith, GF; Figueiredo, E; Klopper, RR; Crouch, NR. 2012. Summer-flowering species of maculate Aloe L. (Asphodelaceae: Alooideae) in the Aloe zebrina-complex from South Africa: reinstament of four names, and description of A. braamvanwykii Gideon F.Sm. & Figueiredo. Bradleya 30: 155 - 166. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-b847d99183
+        title:
+          en:
+            page: en
+            section: s-707dfabfb0
+            part: title
+          zh:
+            page: zh
+            section: s-ff042a5421
+            part: title
+        text:
+          en:
+            page: en
+            section: s-707dfabfb0
+            part: body
+          zh:
+            page: zh
+            section: s-ff042a5421
+            part: body
+        sourceIds:
+          - sanbi_13236_0
+          - sanbi_14975_0

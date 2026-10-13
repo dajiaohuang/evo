@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lucidosignatus
+  displayName: Pristimantis lucidosignatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJH5
+  sourceIndexes:
+    - name:
+        en: Pristimantis lucidosignatus
+        zh: Pristimantis lucidosignatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJH5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/378
+            queryName: Pristimantis lucidosignatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b9d4ea0d4
+      - s-c6f2352607
+      - s-5901fce0cf
+      - s-cab734ceca
+      - s-6275330542
+      - s-88b15f25f6
+      - s-fcd47f744d
+      - s-ff0afef9cb
+      - s-2bc2d89d3f
+      - s-907c5e793e
+      - s-f1a5f3e9fa
+      - s-489825261a
+      - s-eac3bee379
+      - s-ce108a0a5d
+      - s-83b0c93a05
+      - s-4119eaac57
+      - s-42b884ea4d
+      - s-6b54c11705
+      - s-ce0973455e
+      - s-58a5582790
+      - s-485ad30acc
+      - s-677a85b2ef
+    zh:
+      - s-661df76bcd
+      - s-58b4694032
+      - s-f2067fe226
+      - s-2d6f86f07b
+      - s-3ff2a40452
+      - s-2c8f9fdea8
+      - s-dbc5884b70
+      - s-f25b88e6cc
+      - s-ef5ab6b163
+      - s-ac8955f194
+      - s-c65a0d9aff
+      - s-4c77742803
+      - s-c12a2f10e3
+      - s-47db0bbcaf
+      - s-ae8bffe071
+      - s-cdc6b8d1ab
+      - s-d14f9aa78f
+      - s-a23ffff2ef
+      - s-ca33634611
+      - s-a283c18762
+      - s-5ef07f5685
+      - s-658b299bf8

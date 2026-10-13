@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophrynoides vestergaardi
+  displayName: Nectophrynoides vestergaardi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/462WZ
+  sourceIndexes:
+    - name:
+        en: Nectophrynoides vestergaardi
+        zh: Nectophrynoides vestergaardi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 462WZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/222
+            queryName: Nectophrynoides vestergaardi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-87a1b7afbb
+      - s-7f723ae663
+      - s-37e544110d
+      - s-1f96cd32b2
+      - s-96b015d3f5
+      - s-3f9bb5ebec
+      - s-c2f530da4a
+      - s-0e058c8429
+      - s-4d2b6327ec
+    zh:
+      - s-b5768dab5d
+      - s-710c2f253f
+      - s-957e8e8079
+      - s-0b93ecc665
+      - s-bb1a33535f
+      - s-356177847b
+      - s-b5f542b3f3
+      - s-7687074c2b
+      - s-656df9f4e3

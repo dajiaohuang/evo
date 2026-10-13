@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oxyaena forcipata
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Oxyaena forcipata
+      en: Oxyaena forcipata
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5ea43b90cd
+            part: body
+          en:
+            page: en
+            section: s-81a3aa8552
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-eaa3bf8e24
+            part: body
+          en:
+            page: en
+            section: s-1a0dc89b82
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-a43469204f
+            part: body
+          en:
+            page: en
+            section: s-75e55e1c3c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ce0d7a9068
+            part: body
+          en:
+            page: en
+            section: s-949517338d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5d72a6e808
+            part: body
+          en:
+            page: en
+            section: s-6fbe646313
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Oxyaena forcipata
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=49534&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:49534; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:49534
+          selectedOccurrenceIds:
+            - occ:168413
+            - occ:169737
+            - occ:170712
+            - occ:170729
+            - occ:171044
+            - occ:171071
+            - occ:171082
+            - occ:171123
+            - occ:171978
+            - occ:172079
+            - occ:172952
+            - occ:457611
+            - occ:457722
+            - occ:458614
+            - occ:469447
+            - occ:469686
+            - occ:469728
+            - occ:469738
+            - occ:469895
+            - occ:470053
+            - occ:470395
+            - occ:471236
+            - occ:1370111
+          selectedCollectionIds:
+            - col:15399
+            - col:15534
+            - col:15608
+            - col:15618
+            - col:15680
+            - col:15690
+            - col:15694
+            - col:15707
+            - col:15814
+            - col:15839
+            - col:15964
+            - col:15687
+            - col:15697
+            - col:15702
+            - col:46682
+            - col:46699
+            - col:46701
+            - col:46702
+            - col:46719
+            - col:46733
+            - col:46761
+            - col:46820
+            - col:186935
+          sourceReferenceIds:
+            - ref:1745
+            - ref:3202
+            - ref:3596
+            - ref:1760
+            - ref:11717
+            - ref:62695
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-23faa1766e
+        part: body
+      en:
+        page: en
+        section: s-575523a64f
+        part: body

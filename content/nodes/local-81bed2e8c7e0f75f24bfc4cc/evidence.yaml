@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Tomopterna branchi
+    name:
+      en: Tomopterna branchi
+      zh: Tomopterna branchi
+    sourceClassification:
+      order: Anura
+      family: Pyxicephalidae
+      genus: Tomopterna
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4c6585aee6
+            part: body
+          zh:
+            page: zh
+            section: s-cfd041a56a
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3380568850
+            part: body
+          zh:
+            page: zh
+            section: s-5d656c04b4
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5930, 5931; Reference.csv rows 3437
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5930
+        values:
+          - Pyxicephalidae
+          - Tomopterna
+          - Tomopterna branchi
+          - F
+          - "32.6"
+          - "15"
+          - "18.2"
+          - "6.2"
+          - "2.6"
+          - "2.8"
+          - "3.2"
+          - "3.8"
+          - "6.9"
+          - "3"
+          - "6.5"
+          - NA
+          - "11.2"
+          - NA
+          - NA
+          - "22.3"
+          - NA
+          - "18.2"
+          - NA
+          - NA
+          - NA
+          - "4.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5931
+        values:
+          - Pyxicephalidae
+          - Tomopterna
+          - Tomopterna branchi
+          - M
+          - "42.75"
+          - "15.4"
+          - "18.4"
+          - "6.1"
+          - "2.85"
+          - "1.4"
+          - "3.15"
+          - "3.55"
+          - "7.05"
+          - "2.95"
+          - "6.5"
+          - NA
+          - "10.75"
+          - NA
+          - NA
+          - "19.55"
+          - NA
+          - "16.25"
+          - NA
+          - NA
+          - NA
+          - "4.15"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3437
+        values:
+          - Anura
+          - Tomopterna_branchi
+          - "Wilson, L., & Channing, A. (2019). A new sand frog from Namaqualand, South Africa (Pyxicephalidae: Tomopterna). Zootaxa, 4609(2), 225-246. https://doi.org/10.11646/zootaxa.4609.2.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FL
+      - TL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 57DR8
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca testudinea
+  displayName: Gastrotheca testudinea
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9W4
+  sourceIndexes:
+    - name:
+        en: Gastrotheca testudinea
+        zh: Gastrotheca testudinea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9W4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/78
+            queryName: Gastrotheca testudinea
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/0
+            queryName: Gastrotheca viviparum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/391
+            queryName: Nototrema testudineum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/392
+            queryName: Nototrema viviparum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3bae2ff714
+      - s-720cbfdd5b
+      - s-bc5e6dcbaa
+      - s-c9cafec25d
+      - s-6d3daf3c1c
+      - s-4054a98b92
+      - s-47d04ba93b
+      - s-dd8d10190f
+      - s-57e5261ea1
+      - s-c2233e3941
+      - s-693d56353a
+      - s-e78bb49f6a
+      - s-cfc5e26efd
+      - s-d724d8fe30
+      - s-6f9f9e3467
+      - s-d8e92c29f6
+      - s-a90480b5f2
+      - s-9d7241ee3c
+    zh:
+      - s-bcbb399013
+      - s-388697468e
+      - s-da200c96f4
+      - s-27f913ee3c
+      - s-ec95501b36
+      - s-5aed571878
+      - s-9f561141d8
+      - s-110c425654
+      - s-f8a385f56c
+      - s-3973b238f4
+      - s-785d3f0882
+      - s-a4a1b745d6
+      - s-67d2cdc9b2
+      - s-3bd4909019
+      - s-87f92b4a60
+      - s-98c92516fe
+      - s-782edf804b
+      - s-8515b47d41

@@ -1,0 +1,31 @@
+## The name and this data account {#s-ccb920b836}
+Pachyptila crassirostris is accepted in COL26.8 within Procellariidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 5 measured individuals, 5 with a complete morphological set; usable sample sizes may differ among traits.
+
+## Measured beak dimensions {#s-6c79fb968c}
+Recorded mean beak measurements are 17.6 mm from the anterior nostril edge to the tip, 8.4 mm in width and 8.4 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+
+## Wing, tarsus and mass {#s-6eb342c908}
+Mean unflattened wing length from the carpal joint to the longest primary is 182 mm; mean tarsus length is 31.1 mm. Compiled mean mass is 138.33 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+
+## Habitat, feeding and lifestyle {#s-a456b89ffb}
+The dataset assigns habitat Marine, trophic niche Aquatic predator and lifestyle Aquatic. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+
+## Movement and geographical summary {#s-2359c4d7fe}
+The migration field classifies this record as partially migratory. Historical breeding and resident maps span latitude endpoints -62.62° to -32.41°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+
+## Read this historical record through food and foraging position {#s-55247614eb}
+Pachyptila crassirostris is accepted in pinned COL26.8 within Procellariidae. This page compares the same-name, same-family EltonTraits 1.0 record through 2 ecological field groups with source information. The source follows earlier bird or MSW3 mammal taxonomy; a name match does not resolve modern splits or synonym disputes.
+
+## Relative weights of food categories {#s-94ed62c1f5}
+The archive’s nonzero food weights are invertebrates 90%; fish 10%. Source code A indicates high compiler confidence in the source and diet information. These percentages standardize verbal descriptions rather than measure diet composition; zero does not prove an item is never eaten. Categories such as Nect, Seed and PlantO are broader than their everyday names and cannot imply exclusively nectar, seeds or plants.
+
+## Foraging strata differ from whole-day activity {#s-1941dcb68a}
+Foraging-stratum weights flagged as species-level in the archive are below the water surface 50%; on or just below the water surface 50%. They estimate relative use of feeding positions, not nest sites, all habitat or whole-day time budgets. Surface-water, understory, mid/high, canopy and aerial categories have different source definitions; they are not elevational ranges and cannot yield flight heights or habitat area.
+
+## Trace each field group to its source labels {#s-dc50ac9405}
+The used groups carry labels Ref_1. Diet, strata and activity can come from different material; the same Ref number in bird and mammal reference tables does not identify the same source. This batch retains complete original strings by file, row, field group and reference table. Underlying books and papers have not been individually read; source labels do not count as new independent observations.
+
+## Evidence limits {#s-7b4117faee}
+This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.
+This is a reading guide to historical same-name, same-family foraging records in EltonTraits 1.0, not a complete species monograph. Matching names and classification do not establish equivalence between historical species concepts and COL26.8. Food and avian stratum percentages are coarse relative weights standardized by the authors from literature descriptions, not direct measurements of stomach contents, intake, energy or observation time. Avian A/B diet codes retain source and proportional uncertainty. Mammalian ABC diet or activity codes can also refer to a congener judged ecologically similar by the compilers; this page does not claim direct observations of this species for every field. Genus/family typical values, non-species-level avian strata and split records needing individual review do not fill definite conclusions. Underlying books and papers have not been individually reread. Individual, seasonal and local variation, current range, population and conservation still require other sources.
+

@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nyctibatrachus periyar
+    name:
+      en: Nyctibatrachus periyar
+      zh: Nyctibatrachus periyar
+    sourceClassification:
+      order: Anura
+      family: Nyctibatrachidae
+      genus: Nyctibatrachus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-78560377e0
+            part: body
+          zh:
+            page: zh
+            section: s-91bfb5d2c4
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4d58052996
+            part: body
+          zh:
+            page: zh
+            section: s-abc25bb2df
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3598, 3599; Reference.csv rows 913
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3598
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus periyar
+          - M
+          - "24.7"
+          - "9.5"
+          - "9.5"
+          - "2.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "6.6"
+          - "4.5"
+          - NA
+          - "11.9"
+          - NA
+          - "11.4"
+          - "12.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.8"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3599
+        values:
+          - Nyctibatrachidae
+          - Nyctibatrachus
+          - Nyctibatrachus periyar
+          - F
+          - "29.9"
+          - "12.7"
+          - "12.8"
+          - "3.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "4.8"
+          - NA
+          - "8.3"
+          - "6.2"
+          - NA
+          - "16.2"
+          - NA
+          - "14"
+          - "14.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 913
+        values:
+          - Anura
+          - Nyctibatrachus_periyar
+          - "Biju, S. D., Bocxlaer, I. V., Mahony, S., Dinesh, K. P., Radhakrishnan, C., Zachariah, A., . . . Bossuyt, F. (2011). A taxonomic review of the Night Frog genus Nyctibatrachus Boulenger, 1882 in the Western Ghats, India (Anura: Nyctibatrachidae) with description of twelve new species. Zootaxa, 3029(1). https://doi.org/10.11646/zootaxa.3029.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - SL
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

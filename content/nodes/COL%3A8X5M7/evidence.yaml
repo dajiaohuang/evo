@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Schoenus schonlandii (Turrill) T.L.Elliott & Muasya
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 8X5M7, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 8X5M7; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/8X5M7
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 8X5M7
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001421050-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 8X5M7 / WFO wfo-0001421050
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_254_0
+        referenceId: ref-7316e3a4-5400-804e-a498-d960193d41ad
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Schoenus schonlandii (Turrill) T.L.Elliott & Muasya account; SANBI/WFO archive rows 103517 (Morphology), 103464 (Habitat), 103379 (Diagnostic), source identifier 254.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Herba perennis, dense caespitosa, glabra. Caules inferne vaginis atro-brunneis saepissime nitentibus haud fimbriatis vel cancellatis obtecti, teretes, graciles, usque ad 3.5 dm. alti, 0.75 mm. diametro, inter fere ad basem et bracteam haud nodosi. Folia basalia vel subbasalia, lamina angustissime lineari apice acuta usque ad 8 mm. longa sed saepe breviora 0.5 mm. lata subplana margine leviter serrulata, vagina clausa arta. Inflorescentia spiculis 1-5 instructa, circiter 1-2 cm. longa; bracteae foliis similes sed haud vaginatae, saepissime inflorescentia longiores. Spiculae 7-8 mm. longae, complanatae, sessiles vel pedunculo usque ad 2 mm. longo instructae. Glumae acutae, infimae 6-7 vacuae, 2-5 mm. longae, floriferae 6 mm. longae. Flos inferior hermaphroditus sed ovar o probabiliter infertile, superior hermaphroditus, staminibus 3, filamentis 4 mm. longis, ovario obovoideo 1 mm. alto 0.75 mm. diametro leviter complanato, stylo 4 mm. longo, ramis 2-3 stigmatosis circiter 4 mm. longis.
+            textZh: Schoenus schonlandii (Turrill) T.L.Elliott & Muasya 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_254_0
+            locator: "SANBI/WFO archive Morphology row 103517; source identifier 254.0; cited publication: Turrill, WB. 1925. Notes on Cyperaceae: II (New species etc. from Africa). Bull. Misc. Inform. Kew 1925(2): 67 - 76. [https://www.jstor.org/stable/4107520]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Inflorescentia compacta, spiculis majoribus, a T. Drègeana [Boeck.] C. B. Cl. laminis evolutis, spiculis latioribus glumis supremis supra inferioribus vix conspicue exsertis distinguitur.
+            textZh: SANBI 条目提供了 Schoenus schonlandii (Turrill) T.L.Elliott & Muasya 的鉴别特征。
+            sourceIds:
+              - sanbi_254_0
+            locator: "SANBI/WFO archive Diagnostic row 103379; source identifier 254.0; cited publication: Turrill, WB. 1925. Notes on Cyperaceae: II (New species etc. from Africa). Bull. Misc. Inform. Kew 1925(2): 67 - 76. [https://www.jstor.org/stable/4107520]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Dry slopes near Sanatorium.
+            textZh: 该 SANBI 区域物种条目记录的生境：Dry slopes near Sanatorium.
+            sourceIds:
+              - sanbi_254_0
+            locator: "SANBI/WFO archive Habitat row 103464; source identifier 254.0; cited publication: Turrill, WB. 1925. Notes on Cyperaceae: II (New species etc. from Africa). Bull. Misc. Inform. Kew 1925(2): 67 - 76. [https://www.jstor.org/stable/4107520]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

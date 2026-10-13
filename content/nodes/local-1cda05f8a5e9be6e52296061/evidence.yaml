@@ -1,0 +1,190 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Engystomops puyango
+    name:
+      en: Engystomops puyango
+      zh: Engystomops puyango
+    sourceClassification:
+      order: Anura
+      family: Leptodactylidae
+      genus: Engystomops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Engystomops puyango in the version 3 classification
+          zh: Engystomops puyango 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c130420ba5
+            part: body
+          zh:
+            page: zh
+            section: s-2c6c12e5a6
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 6 populated trait fields
+          zh: 1 条测量行与 6 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0235e2a21b
+            part: body
+          zh:
+            page: zh
+            section: s-cb2e6fe319
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1813; Reference.csv rows 2816
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1813
+        values:
+          - Leptodactylidae
+          - Engystomops
+          - Engystomops puyango
+          - NA
+          - "27.31"
+          - "8.49"
+          - "8.81"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.88"
+          - "11.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2816
+        values:
+          - Anura
+          - Engystomops_puyango
+          - "Ron, S., Toral, E., Rivera, M., & Terán-Valdez, A. (2010). A new species of Engystomops (Anura: Leiuperidae) from southwestern Ecuador. Zootaxa, 2606, 25-49. https://doi.org/10.11646/zootaxa.2606.1.2"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - EN
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 39TTZ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,127 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-649d7dcae1
+      part: title
+    titleZh:
+      page: zh
+      section: s-e3d3f8b2e7
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Forty fossil and living carnivoramorphan terminals
+    clades:
+      - Carnivoramorpha
+      - Carnivora
+    summary:
+      page: en
+      section: s-649d7dcae1
+      part: body
+    summaryZh:
+      page: zh
+      section: s-e3d3f8b2e7
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-985b095892
+            part: title
+          zh:
+            page: zh
+            section: s-a64710c879
+            part: title
+        text:
+          en:
+            page: en
+            section: s-985b095892
+            part: body
+          zh:
+            page: zh
+            section: s-a64710c879
+            part: body
+        id: observed-material
+        sourceIds:
+          - wesley-hunt-flynn-2005-miacoidea
+      - title:
+          en:
+            page: en
+            section: s-d5e92cc8f0
+            part: title
+          zh:
+            page: zh
+            section: s-1db779b834
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d5e92cc8f0
+            part: body
+          zh:
+            page: zh
+            section: s-1db779b834
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - wesley-hunt-flynn-2005-miacoidea
+    claimIds:
+      - claim:event:miacoidea-character-matrix-topology
+    evidenceItems:
+      - statement: The matrix samples 99 cranial and dental characters across 40 terminals and excludes traditional “Miacidae” and Viverravidae from crown Carnivora in the preferred trees.
+        relation: supports
+        claimIds:
+          - claim:event:miacoidea-character-matrix-topology
+        referenceLinks:
+          - referenceId: wesley-hunt-flynn-2005-miacoidea
+            relation: supports
+            pages: 1–28
+            figure: Figures 1–6; Appendices 1–3
+            quoteLocator: Character descriptions; Phylogenetic analyses; Discussion of Miacoidea
+    uncertaintyItems:
+      - statement: This result rejects a convenient feliform–caniform ancestor ladder but remains a sampled morphology topology whose nodes can change with scoring, taxon sampling and analytical assumptions.
+        relation: contextualizes
+        claimIds:
+          - claim:event:miacoidea-character-matrix-topology
+        referenceLinks:
+          - referenceId: wesley-hunt-flynn-2005-miacoidea
+            relation: supports
+            pages: 1–28
+            figure: Figures 1–6; Appendices 1–3
+            quoteLocator: Character descriptions; Phylogenetic analyses; Discussion of Miacoidea
+    readerSources:
+      - id: wesley-hunt-flynn-2005-miacoidea
+        referenceId: wesley-hunt-flynn-2005-miacoidea
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 1–28; figure: Figures 1–6; Appendices 1–3; Character descriptions; Phylogenetic analyses; Discussion of Miacoidea"
+  claims:
+    - subjectId: event:miacoidea-character-matrix-topology
+      claimKind: scientific
+      claimType: topology
+      statement: The published 99-character analysis places sampled Vulpavus, Uintacyon and Miacis-grade taxa outside crown Carnivora and does not recover traditional “Miacidae” or Viverravidae as simple stem branches of Feliformia and Caniformia.
+      confidence: medium
+      confidenceRationale: “Miacoidea” character-matrix topology uses explicit named specimens or disclosed datasets, but placement, function or ecology depends on a sampled matrix or comparative model and is kept separate from observation.
+      referenceLinks:
+        - referenceId: wesley-hunt-flynn-2005-miacoidea
+          relation: supports
+          pages: 1–28
+          figure: Figures 1–6; Appendices 1–3
+          quoteLocator: Character descriptions; Phylogenetic analyses; Discussion of Miacoidea
+  claim-rationales.zh:
+    - ““细齿兽总科”性状矩阵拓扑”的具名标本或已公开数据集是明确的，但位置、功能或生态依赖采样矩阵或比较模型，且已与直接观察分开。
+  claim-statements.zh:
+    - 已发表的 99 性状分析把所取样的 Vulpavus、Uintacyon 和 Miacis 级分类单元置于食肉目冠群之外，也没有把传统“Miacidae”或 Viverravidae 恢复为猫型亚目与犬型亚目的简单干群分支。

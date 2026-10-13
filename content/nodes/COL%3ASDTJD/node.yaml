@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys salvatori
+  displayName: Proceratophrys salvatori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SDTJD
+  sourceIndexes:
+    - name:
+        en: Proceratophrys salvatori
+        zh: Proceratophrys salvatori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SDTJD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/239
+            queryName: Proceratophrys salvatori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/232
+            queryName: Odontophrynus salvatori
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e2c3a1b9b
+      - s-dbad7489b6
+      - s-993cdc5550
+      - s-cf0daca913
+      - s-53ca3a9412
+      - s-9e47844398
+      - s-a1d2c109e8
+      - s-cc75f56111
+      - s-0e70b9179b
+      - s-78ed3ca543
+      - s-936f4d9f98
+      - s-acc2ba0934
+      - s-6fdfd782d2
+      - s-ff710d6847
+    zh:
+      - s-3a519dbbcc
+      - s-45fe2612cc
+      - s-29cfef768a
+      - s-829ce282f8
+      - s-4d536fd7dd
+      - s-bda9f0309f
+      - s-e214db2ca5
+      - s-e317c6b597
+      - s-1962a1c241
+      - s-6eea687569
+      - s-dff6e551db
+      - s-c9c48e78d4
+      - s-752e936897
+      - s-5f56d5e9a4

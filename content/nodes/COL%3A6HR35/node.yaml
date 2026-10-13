@@ -1,0 +1,134 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Fejervarya limnocharis
+  displayName: Fejervarya limnocharis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6HR35
+  sourceIndexes:
+    - name:
+        en: Fejervarya limnocharis
+        zh: Fejervarya limnocharis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6HR35
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/478
+            queryName: Fejervarya limnocharis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 177
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/363
+            queryName: Rana limnocharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 250
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/364
+            queryName: Rana lymnocharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/365
+            queryName: Rana wasl
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/366
+            queryName: Dicroglossus limnocharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/367
+            queryName: Euphlyctis limnocharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/368
+            queryName: Limnonectes limnocharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/369
+            queryName: Fejervarya wasl
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/416
+            queryName: Rana limnocharis limnocharis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc160c39c7
+      - s-0e2898a777
+      - s-be5b357dee
+      - s-7035d6c290
+      - s-b1418cbaa3
+      - s-14acf41d55
+      - s-0a4a154e17
+      - s-53b72d99f2
+      - s-ae0c337b3d
+      - s-d72ce41ba3
+      - s-e0518d9084
+      - s-487ed76f26
+      - s-0f48a9aac9
+      - s-24ba56728c
+      - s-658268da1f
+      - s-994eddb259
+      - s-1119458540
+      - s-6b58d6f8fb
+      - s-45eabb2b7f
+      - s-c4c91492bf
+      - s-e505edeb1b
+      - s-6349a6b094
+      - s-e66515e512
+    zh:
+      - s-7ad209270b
+      - s-0d190f97b2
+      - s-14e1923daf
+      - s-3a8dcebd3d
+      - s-7a05491f42
+      - s-2b0fa94608
+      - s-226ed8de3f
+      - s-7ff3c3458c
+      - s-079de1adc0
+      - s-9900fa80af
+      - s-3241f8257e
+      - s-dc13ae34bd
+      - s-b3d53308fe
+      - s-d8d38470f0
+      - s-09490660da
+      - s-258ec0def9
+      - s-a9db4a109f
+      - s-17e87edb46
+      - s-4eb9d58d83
+      - s-eacb71fda4
+      - s-7ad36dc4ea
+      - s-9b71973cd6
+      - s-a1d6d3f162

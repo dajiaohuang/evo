@@ -1,0 +1,676 @@
+schemaVersion: 1
+records:
+  caecilian-traits-reader:
+    scientificName: Ichthyophis glandulosus
+    name:
+      en: Ichthyophis glandulosus
+      zh: Ichthyophis glandulosus
+    sourceClassification:
+      family: Ichthyophiidae
+      genus: Ichthyophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: A name with separate evidence levels
+          zh: 名称与不同层级的证据
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-8fc417a49a
+            part: body
+          zh:
+            page: zh
+            section: s-445cabcd49
+            part: body
+      - topic: morphology
+        title:
+          en: Measurement rows and their sample context
+          zh: 测量行及其样本背景
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-381e0f73d7
+            part: body
+          zh:
+            page: zh
+            section: s-6cd96af6a5
+            part: body
+      - topic: ecology
+        title:
+          en: Habitat labels in the source table
+          zh: 来源表中的栖地标签
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-54314ac7e5
+            part: body
+          zh:
+            page: zh
+            section: s-47cab0dadd
+            part: body
+      - topic: lifeHistory
+        title:
+          en: The reproduction field and its qualifier
+          zh: 繁殖字段及其限定
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-5ecab68b17
+            part: body
+          zh:
+            page: zh
+            section: s-0fd9bce3f5
+            part: body
+      - topic: morphology
+        title:
+          en: Counts in the species-level row
+          zh: 种级行中的计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-f131fb3d5c
+            part: body
+          zh:
+            page: zh
+            section: s-87bb7e59fe
+            part: body
+      - topic: lifeHistory
+        sourceField: aquatic-larvae
+        sourceIds:
+          - caeciliantraits
+        title:
+          en: A water-dependent larval-stage entry
+          zh: 依赖水环境的幼体阶段记录
+        text:
+          en:
+            page: en
+            section: s-63a3c62d9d
+            part: body
+          zh:
+            page: zh
+            section: s-76c37abd84
+            part: body
+    sources:
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 122; Individual level data rows 461, 462, 463, 464, 465; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+    originalSpeciesRow:
+      rowNumber: 122
+      values:
+        - Ichthyophiidae
+        - Ichthyophis
+        - Ichthyophis glandulosus
+        - Tropical & Subtropical Moist Broadleaf Forests
+        - Terrestrial|Freshwater (=Inland waters)
+        - Fossorial
+        - the adults are subterranean
+        - oviparous
+        - It is presumably oviparous with terrestrial eggs and aquatic larvae
+        - 1
+        - null
+        - null
+        - null
+        - "IUCN. The IUCN Red List of Threatened Species. Version 2023-1, <https://www.iucnredlist.org> (2023). "
+        - 251.8
+        - null
+        - null
+        - 262.2
+        - 6.025
+        - null
+        - 10.575
+        - null
+        - null
+        - null
+        - 12.5
+        - 8.8
+        - 9.66666666666667
+        - null
+        - null
+        - 12.5
+        - 15.35
+        - 20.9
+        - 5.9
+        - 3
+        - 7.3
+        - 1.55
+        - 3.575
+        - null
+        - null
+        - null
+        - 8.1
+        - null
+        - null
+        - null
+        - 4.35
+        - 1.9
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 7.2
+        - null
+        - null
+        - 4.4
+        - null
+        - null
+        - 2.9
+        - 3.9
+        - null
+        - 294.333333333333
+        - null
+        - null
+        - null
+        - null
+        - 42.6
+        - 42.2
+        - 38
+        - 16.8
+        - 109.333333333333
+    originalMeasurementRows:
+      - rowNumber: 461
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis glandulosus
+          - I
+          - CAS 60073
+          - M
+          - "250"
+          - null
+          - null
+          - null
+          - "6.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "12.5"
+          - "9.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "5.8"
+          - null
+          - null
+          - "1.3"
+          - "3.5"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 23-23
+          - 24-24
+          - 21-21
+          - 11-11
+          - null
+      - rowNumber: 462
+        values:
+          - "Taylor, E. H. 1968. The Caecilians of the World: A Taxonomic Review. University of Kansas Press."
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis glandulosus
+          - I
+          - Stanford  museum 6065
+          - null
+          - "167"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "8.8"
+          - null
+          - null
+          - null
+          - null
+          - "8"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 14-13
+          - 16-15
+          - 13-14
+          - 6-7
+          - null
+      - rowNumber: 463
+        values:
+          - "Nishikawa, K., M. Matsui, and P. Yambun. 2012. A New Unstriped Ichthyophis (Amphibia: Gymnophiona: Ichthyophiidae) from Mt. Kinabalu, Sabah, Malaysia. Current herpetology 31:67-77."
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis glandulosus
+          - I
+          - CAS 60073
+          - M
+          - 250
+          - null
+          - null
+          - 231.3
+          - 6.2
+          - null
+          - 11
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 9.3
+          - null
+          - null
+          - 12.5
+          - null
+          - null
+          - 5.8
+          - null
+          - null
+          - 1.3
+          - 3.5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 273
+          - null
+          - null
+          - null
+          - null
+          - 23-23
+          - 24-24
+          - 21-21
+          - 11-11
+          - 102
+      - rowNumber: 464
+        values:
+          - "Nishikawa, K., M. Matsui, and P. Yambun. 2012. A New Unstriped Ichthyophis (Amphibia: Gymnophiona: Ichthyophiidae) from Mt. Kinabalu, Sabah, Malaysia. Current herpetology 31:67-77."
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis glandulosus
+          - I
+          - FMNH 50958
+          - null
+          - 276
+          - null
+          - null
+          - 257.6
+          - 6.4
+          - null
+          - 9.8
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 9.3
+          - null
+          - null
+          - 12
+          - 15
+          - 20
+          - 6
+          - null
+          - null
+          - 1.5
+          - 3.6
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 4.5
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 308
+          - null
+          - null
+          - null
+          - null
+          - 25-26
+          - 24-24
+          - 17-18
+          - 8-8
+          - 111
+      - rowNumber: 465
+        values:
+          - "Nishikawa, K., M. Matsui, and P. Yambun. 2012. A New Unstriped Ichthyophis (Amphibia: Gymnophiona: Ichthyophiidae) from Mt. Kinabalu, Sabah, Malaysia. Current herpetology 31:67-77."
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis glandulosus
+          - I
+          - FMNH 50957
+          - F
+          - 316
+          - null
+          - null
+          - 297.7
+          - 5.3
+          - null
+          - 12.7
+          - null
+          - null
+          - null
+          - null
+          - 9.1
+          - 10.4
+          - null
+          - null
+          - 13
+          - 15.7
+          - 21.8
+          - 6
+          - 3
+          - 7.3
+          - 2.1
+          - 3.7
+          - null
+          - null
+          - null
+          - 8.1
+          - null
+          - null
+          - null
+          - 4.2
+          - 1.9
+          - null
+          - null
+          - null
+          - null
+          - null
+          - 7.2
+          - null
+          - null
+          - 4.4
+          - null
+          - null
+          - 2.9
+          - 3.9
+          - null
+          - 302
+          - null
+          - null
+          - null
+          - null
+          - 22-21
+          - 19-17
+          - 23-21
+          - 6-5
+          - 115
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6MTSH
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en: Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets remain to be resolved.
+      zh: 本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题仍待核对。
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records

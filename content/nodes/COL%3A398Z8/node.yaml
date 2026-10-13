@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus amadeus
+  displayName: Eleutherodactylus amadeus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/398Z8
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus amadeus
+        zh: Eleutherodactylus amadeus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 398Z8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/150
+            queryName: Eleutherodactylus amadeus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/412
+            queryName: Euhyas amadeus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff5917085a
+      - s-2b553da11b
+      - s-9d4d5179e0
+      - s-a1e5842bea
+      - s-855b06090f
+      - s-61669206d5
+      - s-a2a9d00926
+      - s-56d578865d
+      - s-cbd7164412
+    zh:
+      - s-a4ae24782f
+      - s-c974e0f91e
+      - s-5b0f6ef646
+      - s-f7ccf19594
+      - s-2134632c50
+      - s-f4f0a9aefc
+      - s-a743e56416
+      - s-b67d4b68ec
+      - s-ecf3ddf244

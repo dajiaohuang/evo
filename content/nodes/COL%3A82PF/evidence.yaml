@@ -1,0 +1,103 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Trochalopteron
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Trochalopteron
+      en: Trochalopteron
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4cce756ae2
+            part: body
+          en:
+            page: en
+            section: s-ccb63ecdc6
+            part: body
+      - topic: sampleComparison
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-3b3ccaa382
+            part: body
+          en:
+            page: en
+            section: s-b40b0b553d
+            part: body
+      - topic: ecologicalComparison
+        sourceIds:
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-3e30da9c1b
+            part: body
+          en:
+            page: en
+            section: s-d9beb182e1
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - avonetTrochalopteronHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-20aa6ba3f3
+            part: body
+          en:
+            page: en
+            section: s-78ed838f66
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Trochalopteron
+          url: https://www.checklistbank.org/dataset/316115/taxon/82PF
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetTrochalopteronHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Trochalopteron historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 14 selected AVONET1_BirdLife rows within 4918–4935; individual BirdLife–eBird and BirdLife–BirdTree rows and relevant Metadata definitions in receipt.
+          scope:
+            zh: 十四条历史行；保留来源科名 Leiotrichidae 与目录 Leiothrichidae 的拼写差异及旧 Garrulax 名称。
+            en: Fourteen historical rows; retain source family spelling Leiotrichidae versus catalogue Leiothrichidae and older Garrulax names.
+    limitations:
+      zh:
+        page: zh
+        section: s-b570702fa5
+        part: body
+      en:
+        page: en
+        section: s-646d394285
+        part: body

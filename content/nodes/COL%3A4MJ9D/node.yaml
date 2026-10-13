@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis angustilineatus
+  displayName: Pristimantis angustilineatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJ9D
+  sourceIndexes:
+    - name:
+        en: Pristimantis angustilineatus
+        zh: Pristimantis angustilineatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJ9D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/110
+            queryName: Pristimantis angustilineatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/119
+            queryName: Eleutherodactylus angustilineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8105a2d3f4
+      - s-eb649731b4
+      - s-5539794baa
+      - s-0d56c75ee8
+      - s-2c15b27125
+      - s-33cb17dce0
+      - s-35f6931db0
+      - s-7815f59e23
+      - s-0b90dbb5f0
+      - s-450afe3001
+      - s-373d69e53e
+      - s-4abbea4b2c
+      - s-6ac7d2dcaa
+    zh:
+      - s-8a70616a7e
+      - s-cb9a6219c6
+      - s-004424545e
+      - s-9d58fd8e67
+      - s-84e5bd6753
+      - s-895897ffd6
+      - s-57e787365d
+      - s-7d2354fb3f
+      - s-09d481b13c
+      - s-dbbc64f786
+      - s-fdf2b868a1
+      - s-42df0fc1de
+      - s-55724e61b4

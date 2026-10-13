@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-d90ad6bd21}
+The version 3 Amphibian database lists Anodonthyla boulengerii in a source measurement table. Its classification fields read order = Anura, family = Microhylidae, genus = Anodonthyla; the linked citation is in Reference.csv row 19. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-8b1bc05247}
+Anura.csv rows 348, 349 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 348 (F) = 20.7, row 349 (M) = 18.48461538; HL: row 348 (F) = 6.4, row 349 (M) = 5.776923077; HW: row 348 (F) = 6.7, row 349 (M) = 5.892307692; other populated codes are ED, TD, IND, EN, NS, HAL, FLL, FL, TL, TSL, HLL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

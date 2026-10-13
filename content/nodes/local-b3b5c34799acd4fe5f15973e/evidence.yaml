@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ichthyophis glutinosus
+    name:
+      en: Ichthyophis glutinosus
+      zh: Ichthyophis glutinosus
+    sourceClassification:
+      order: Gymnophiona
+      family: Ichthyophiidae
+      genus: Ichthyophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Ichthyophis glutinosus in the morphology deposit
+          zh: 形态数据中的 Ichthyophis glutinosus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-c50e25ccc6
+            part: body
+          zh:
+            page: zh
+            section: s-991da60d40
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 81: measurement fields and sex codes"
+          zh: 第 81 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-22f1a169c3
+            part: body
+          zh:
+            page: zh
+            section: s-1da597d9b7
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-d1a396b02e
+            part: body
+          zh:
+            page: zh
+            section: s-a94fc65c99
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 81; Reference.csv rows 4370
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 81
+        values:
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis glutinosus
+          - NA
+          - "307"
+          - "5"
+          - NA
+          - "6.2"
+          - "13.6"
+          - "17.4"
+          - "21"
+          - "361"
+          - NA
+          - "8"
+          - NA
+          - NA
+          - NA
+          - "10"
+          - NA
+          - NA
+          - "14"
+          - NA
+          - NA
+          - NA
+          - "5.5"
+          - "6.5"
+          - NA
+          - NA
+          - "2.2"
+          - "3.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4370
+        values:
+          - Gymnophiona
+          - Ichthyophis_glutinosus
+          - "Pillai, R. S. N., & Ravichandran, M. S. (1999). Gymnophiona (Amphibia) of India : a taxonomic study."
+    availableTraitCodes:
+      - TOL
+      - TL
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - PVA
+      - HW1
+      - BW2
+      - EN
+      - IOD
+      - TE
+      - TN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6N5SH
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophryne rhopophilia
+  displayName: Pelophryne rhopophilia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CG8
+  sourceIndexes:
+    - name:
+        en: Pelophryne rhopophilia
+        zh: Pelophryne rhopophilia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CG8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/469
+            queryName: Pelophryne rhopophilia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/447
+            queryName: Pelophryne rhopophilius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d4d179847d
+      - s-dc914ca360
+      - s-3328993a5d
+      - s-002381f0ae
+      - s-8f29d56dec
+      - s-cde7926a21
+      - s-10bb1a2393
+      - s-a617cd6a08
+      - s-be2f6b83a3
+      - s-a1c7e501e6
+      - s-3d0d282167
+      - s-9333643add
+      - s-fef5190efa
+      - s-ae97937d9a
+    zh:
+      - s-5a73e06a1f
+      - s-c50e7443b9
+      - s-d68a0e46ad
+      - s-5a021209dc
+      - s-1fa2a0fab2
+      - s-f6e7e5cde3
+      - s-b8028521e3
+      - s-5e4284159d
+      - s-22cef74b89
+      - s-b46b98b558
+      - s-06e7276840
+      - s-cae8a83124
+      - s-c354ef883e
+      - s-18b875168f

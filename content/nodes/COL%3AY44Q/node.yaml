@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus nubicola
+  displayName: Cophixalus nubicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44Q
+  sourceIndexes:
+    - name:
+        en: Cophixalus nubicola
+        zh: Cophixalus nubicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/468
+            queryName: Cophixalus nubicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ff0101ceee
+      - s-8cd921d702
+      - s-e562e88566
+      - s-18e8f43a4b
+      - s-296d9ca042
+      - s-d50ff14dda
+      - s-4e179c43c9
+      - s-ed958f786d
+    zh:
+      - s-a9b74dce31
+      - s-ea68dd8578
+      - s-544d06f2c2
+      - s-e3e103c2ea
+      - s-75ed977f15
+      - s-8810c2e854
+      - s-e372285fa2
+      - s-029a43d140

@@ -1,0 +1,342 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Tiktaalik
+    commonName: Tiktaalik
+    commonNameZh: 提塔利克鱼
+    rank: genus
+    taxonId: txn:77132
+    firstAppearance: 375
+    lastAppearance: 375
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  atlas-profile:
+    pbdbTaxonId: txn:77132
+    scientificName: Tiktaalik
+    commonName: Tiktaalik
+    commonNameZh: 提塔利克鱼
+    rank: genus
+    parentName: Stem tetrapodomorph navigation grade
+    extinct: true
+    geography:
+      - Fram Formation, southern Ellesmere Island, Nunavut, Canada
+    regionalRanges:
+      - canonicalRangeId: range:tiktaalik:fram-formation
+        label: Fram Formation occurrence
+    overview:
+      page: en
+      section: s-52fa93b363
+      part: body
+    overviewZh:
+      page: zh
+      section: s-a556ff922c
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-c3888dab09
+        part: body
+      habitat:
+        page: en
+        section: s-9783a3ff96
+        part: body
+      locomotion:
+        page: en
+        section: s-10331f6c59
+        part: body
+      bodySize:
+        page: en
+        section: s-9844599a12
+        part: body
+      guild:
+        page: en
+        section: s-95bd95db30
+        part: body
+      dietZh:
+        page: zh
+        section: zh-3d5e623146061c
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-055cf555716260
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-ce03ae9e54d2e9
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-53b80733519eee
+        part: body
+      guildZh:
+        page: zh
+        section: zh-52e808cf4d8a8e
+        part: body
+    traits:
+      - page: en
+        section: s-78612656c4
+        part: body
+      - page: en
+        section: s-bc7a1ac8bb
+        part: body
+      - page: en
+        section: s-1e4d794085
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-8641f2297e
+      part: body
+    confidence: high
+    referenceIds:
+      - daeschler-2006-tiktaalik-body-plan
+      - shubin-2006-tiktaalik-pectoral-fin
+    readerSources:
+      - id: daeschler-2006-tiktaalik-body-plan
+        referenceId: daeschler-2006-tiktaalik-body-plan
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+            zh: 用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+      - id: shubin-2006-tiktaalik-pectoral-fin
+        referenceId: shubin-2006-tiktaalik-pectoral-fin
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: The selected anatomical, relationship or time-estimate material described in this account; no complete species history or distribution is inferred.
+            zh: 用于本文选取的解剖、关系或时间估计材料，不由此推断完整物种史或分布。
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-b648f075ae
+            part: title
+          zh:
+            page: zh
+            section: s-fe05ec7a20
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-fe05ec7a20
+            part: body
+          en:
+            page: en
+            section: s-b648f075ae
+            part: body
+        sourceIds:
+          - daeschler-2006-tiktaalik-body-plan
+          - shubin-2006-tiktaalik-pectoral-fin
+      - id: tiktaalik-reading-0
+        title:
+          zh:
+            page: zh
+            section: s-05b7f5e558
+            part: title
+          en:
+            page: en
+            section: s-4f72cfe23c
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-05b7f5e558
+            part: body
+          en:
+            page: en
+            section: s-4f72cfe23c
+            part: body
+        sourceIds:
+          - daeschler-2006-tiktaalik-body-plan
+          - shubin-2006-tiktaalik-pectoral-fin
+      - id: tiktaalik-reading-1
+        title:
+          zh:
+            page: zh
+            section: s-de74678f92
+            part: title
+          en:
+            page: en
+            section: s-770b1319da
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-de74678f92
+            part: body
+          en:
+            page: en
+            section: s-770b1319da
+            part: body
+        sourceIds:
+          - daeschler-2006-tiktaalik-body-plan
+          - shubin-2006-tiktaalik-pectoral-fin
+      - id: tiktaalik-reading-2
+        title:
+          zh:
+            page: zh
+            section: s-75526bc9fb
+            part: title
+          en:
+            page: en
+            section: s-80cde4ace7
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-75526bc9fb
+            part: body
+          en:
+            page: en
+            section: s-80cde4ace7
+            part: body
+        sourceIds:
+          - shubin-2006-tiktaalik-pectoral-fin
+    readerLimitations:
+      en:
+        page: en
+        section: s-ca287a89a5
+        part: body
+      zh:
+        page: zh
+        section: s-3ed15ee090
+        part: body
+    evidenceSummaryZh:
+      page: zh
+      section: zh-2854aa7f372e05
+      part: body
+    traitsZh:
+      - page: zh
+        section: zh-4263b9ac4027f0
+        part: body
+      - page: zh
+        section: zh-0fe1f0e5fffffa
+        part: body
+      - page: zh
+        section: zh-9c7b097cd2ad6c
+        part: body
+  claims:
+    - subjectId: taxon:tiktaalik
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Tiktaalik roseae is a Frasnian elpistostegalian tetrapodomorph documented by NUFV 108 and referred material; its intermediate character combination does not establish direct ancestry.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:taxonomy.
+      referenceLinks:
+        - referenceId: daeschler-2006-tiktaalik-body-plan
+          relation: supports
+          pages: 757–763
+          figure: Figures 2–8
+          quoteLocator: taxonomy
+    - subjectId: taxon:tiktaalik
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The claim-linked Tiktaalik range in this package is the approximately 375 Ma Fram Formation occurrence, not a global genus duration inferred from absence elsewhere.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:fossil-range.
+      referenceLinks:
+        - referenceId: daeschler-2006-tiktaalik-body-plan
+          relation: supports
+          pages: 757–763
+          figure: Figures 2–8
+          quoteLocator: fossil-range
+    - subjectId: taxon:tiktaalik
+      claimKind: scientific
+      claimType: biogeography
+      statement: Documented Tiktaalik material used here comes from the Fram Formation of southern Ellesmere Island, Nunavut, Canada.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:biogeography.
+      referenceLinks:
+        - referenceId: daeschler-2006-tiktaalik-body-plan
+          relation: supports
+          pages: 757–763
+          figure: Figures 2–8
+          quoteLocator: biogeography
+    - subjectId: taxon:tiktaalik
+      claimKind: scientific
+      claimType: morphology
+      statement: Tiktaalik combines scales and fin rays with a mobile neck, robust ribs and a pectoral appendage containing wrist-like joints while retaining a fin.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:morphology.
+      referenceLinks:
+        - referenceId: daeschler-2006-tiktaalik-body-plan
+          relation: supports
+          pages: 757–763
+          figure: Figures 2–8
+          quoteLocator: morphology
+    - subjectId: taxon:tiktaalik
+      claimKind: scientific
+      claimType: ecology
+      statement: The anatomy and depositional setting support shallow marginal-water hypotheses, but habitual terrestrial walking is not directly observed.
+      confidence: high
+      confidenceRationale: The profile separates directly documented specimens and explicit analyses from global range, behaviour and ancestry inferences; confidence is bounded by the cited primary study and its stated sample. This rationale is specific to tiktaalik:ecology.
+      referenceLinks:
+        - referenceId: daeschler-2006-tiktaalik-body-plan
+          relation: supports
+          pages: 757–763
+          figure: Figures 2–8
+          quoteLocator: ecology
+  claim-rationales.zh:
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 tiktaalik:taxonomy。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 tiktaalik:fossil-range。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 tiktaalik:biogeography。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 tiktaalik:morphology。
+    - 档案把直接记录的标本和显式分析与全球延限、行为及祖先推断分开；置信度限定于所引一手研究及其样本。此理由专用于 tiktaalik:ecology。
+  claim-statements.zh:
+    - Tiktaalik roseae 是由 NUFV 108 与引证材料记录的弗拉斯期希望螈鱼类四足形动物；中间型性状组合并不证明直系祖先关系。
+    - 本包有主张关联的 Tiktaalik 延限仅指约 3.75 亿年前 Fram 组出现记录，不依据其他地区的缺失推定全球属级持续时间。
+    - 本包使用的 Tiktaalik 材料来自加拿大努纳武特南埃尔斯米尔岛 Fram 组。
+    - Tiktaalik 同时保存鳞片与鳍条、可动颈部、粗壮肋骨以及含腕样关节但仍属鳍的胸附肢。
+    - 解剖与沉积环境支持浅水边缘生境假说，但没有直接观察到经常性陆地行走。
+  ranges:
+    - entityId: tiktaalik
+      rangeKind: global-composite
+      taxonomicConcept: Tiktaalik
+      geographicScope: Global or represented navigation composite
+      olderMa: 375
+      youngerMa: 375
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Rounded Fram Formation occurrence; not a global absence-based duration.
+      evidenceBasis: The approximately 375 Ma display is tied to the Fram Formation material described by Daeschler et al.
+      confidence: high
+      claimIds:
+        - claim:taxon:tiktaalik:fossil-range
+      referenceLocators:
+        - referenceId: daeschler-2006-tiktaalik-body-plan
+          locator: pp. 757–763; Geological setting and age; Figures 2–8
+      evidenceLevel: literature-synthesized
+    - entityId: tiktaalik
+      rangeKind: taxon-range
+      taxonomicConcept: Tiktaalik roseae
+      geographicScope: Fram Formation, southern Ellesmere Island, Nunavut, Canada
+      olderMa: 375
+      youngerMa: 375
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Stage-level envelope; it does not establish absence outside the cited study sample.
+      evidenceBasis: The regional record is tied to the Fram Formation specimens and rounded approximately 375 Ma age reported in the primary description.
+      confidence: high
+      claimIds:
+        - claim:taxon:tiktaalik:fossil-range
+      referenceLocators:
+        - referenceId: daeschler-2006-tiktaalik-body-plan
+          locator: pp. 757–763; Geological setting and age; Figures 2–8
+      evidenceLevel: literature-synthesized

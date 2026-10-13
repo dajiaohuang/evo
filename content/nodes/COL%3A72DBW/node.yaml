@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes taylori
+  displayName: Limnonectes taylori
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72DBW
+  sourceIndexes:
+    - name:
+        en: Limnonectes taylori
+        zh: Limnonectes taylori
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72DBW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/144
+            queryName: Limnonectes taylori
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b089c3cfdf
+      - s-08d1bb8db1
+      - s-ec6ba01d06
+      - s-fa15a6105b
+      - s-1b46ddb5e9
+      - s-0b638b19e7
+    zh:
+      - s-7d986e85fd
+      - s-ab89a94911
+      - s-05652ce645
+      - s-bca467a16e
+      - s-4070ce87c4
+      - s-c2e81ab8bc

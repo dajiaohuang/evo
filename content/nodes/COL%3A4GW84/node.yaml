@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus bequaerti
+  displayName: Phrynobatrachus bequaerti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW84
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus bequaerti
+        zh: Phrynobatrachus bequaerti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW84
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/106
+            queryName: Phrynobatrachus bequaerti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/361
+            queryName: Arthroleptis bequaerti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/362
+            queryName: Pararthroleptis bequaerti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-72fc7ed329
+      - s-63ac4ad102
+      - s-27f84326a6
+      - s-afeac08bb2
+      - s-86edd4b800
+      - s-7438bd42a6
+      - s-7e635a0302
+      - s-74c3f1b249
+      - s-6fa0a58e09
+      - s-2685eae3f6
+      - s-2e97740931
+      - s-3e366b1078
+      - s-d3e6378fd6
+      - s-1d215205f5
+      - s-793e803d2c
+      - s-dd74e47c99
+      - s-22f8b5af87
+      - s-71245b1170
+    zh:
+      - s-551a835a25
+      - s-bb78e35ef5
+      - s-9a9dea5deb
+      - s-f30f9a6d02
+      - s-4895954993
+      - s-cc03ff1495
+      - s-33a1e1f3f9
+      - s-ad8c119f91
+      - s-e883f56c83
+      - s-1151ea3466
+      - s-2adb8b65cf
+      - s-a139817f59
+      - s-dc86e22fc1
+      - s-e0e1ebd763
+      - s-8024730970
+      - s-34c5c1b893
+      - s-93d8a0f079
+      - s-a700edc62e

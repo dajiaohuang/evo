@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quasipaa acanthophora
+  displayName: Quasipaa acanthophora
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4R28G
+  sourceIndexes:
+    - name:
+        en: Quasipaa acanthophora
+        zh: Quasipaa acanthophora
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4R28G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/23
+            queryName: Quasipaa acanthophora
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-20f35cb8d9
+      - s-c862a9f3bf
+      - s-556e950b29
+      - s-09cc5c327f
+      - s-dca248550a
+      - s-ebcff55132
+      - s-74ee91bfb6
+      - s-79995c9944
+      - s-faba107d86
+      - s-496fef16fd
+    zh:
+      - s-16fd5cfc5a
+      - s-47ee905b36
+      - s-e0442a68bd
+      - s-2f7f67a406
+      - s-3f47558c60
+      - s-4a9eafa5d4
+      - s-13d9b41b99
+      - s-21d571dc66
+      - s-e978080dda
+      - s-53d623c6da

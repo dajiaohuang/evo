@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachuperus londongensis
+  displayName: Batrachuperus londongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/KZSM
+  sourceIndexes:
+    - name:
+        en: Batrachuperus londongensis
+        zh: Batrachuperus londongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: KZSM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/413
+            queryName: Batrachuperus londongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/129
+            queryName: Batrachuperus longdongensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e70afbc97
+      - s-1f34e849d0
+      - s-1236e69543
+      - s-e011a92691
+      - s-c62a4229a8
+      - s-c79cc93a61
+      - s-676a08dff3
+      - s-795ce4cc87
+      - s-5be4563416
+    zh:
+      - s-39241fcb4f
+      - s-d041c93198
+      - s-7dd83314f3
+      - s-5756b64363
+      - s-c2392b7d2b
+      - s-a3c0956086
+      - s-2855f043dc
+      - s-ff9c37fbfc
+      - s-62675c26be

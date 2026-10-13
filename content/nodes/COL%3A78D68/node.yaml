@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris brachyphona
+  displayName: Pseudacris brachyphona
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78D68
+  sourceIndexes:
+    - name:
+        en: Pseudacris brachyphona
+        zh: Pseudacris brachyphona
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78D68
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/248
+            queryName: Pseudacris brachyphona
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 147
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/352
+            queryName: Chorophilus feriarum brachyphonus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/108
+            queryName: Hyla brachyphona
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6628387fcc
+      - s-b49e0dd23a
+      - s-967f02575a
+      - s-fffc1cf706
+      - s-6156608b34
+      - s-669bcd9505
+      - s-c9e41b4bd4
+      - s-b35d58b9f1
+      - s-a79b05f7e1
+      - s-b9a23882d1
+      - s-9bcf261e62
+      - s-647ed27ee6
+      - s-c688e16701
+      - s-3e38c402d7
+      - s-4bbb66fe5a
+    zh:
+      - s-ece5dbc5e9
+      - s-d2569c234f
+      - s-78732d3768
+      - s-c53f0529f3
+      - s-4178fa8814
+      - s-f68d4b38f7
+      - s-bfc539fd10
+      - s-79b50f71a4
+      - s-0441d43269
+      - s-167563ce1e
+      - s-ca97d2db3a
+      - s-761c1fd1d2
+      - s-c0e65344b7
+      - s-4583b6d44c
+      - s-2dcab4c555

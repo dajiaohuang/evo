@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Geum peckii Pursh
+    authorship: Pursh
+    rank: species
+    sourceDatasetId: "1141"
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: P
+        scientificName: Plantae
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CMQ8S
+        scientificName: Pteridobiotina Britton & Brown
+        authorship: Britton & Brown
+        rank: subkingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: TP
+        scientificName: Tracheophyta
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: MG
+        scientificName: Magnoliopsida
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: null
+      - id: 3Z6
+        scientificName: Rosales Bercht. & J.Presl
+        authorship: Bercht. & J.Presl
+        rank: order
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: FTK
+        scientificName: Rosaceae Juss.
+        authorship: Juss.
+        rank: family
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 628NC
+        scientificName: Rosoideae Arn.
+        authorship: Arn.
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: KV5HT
+        scientificName: Colurieae Rydb.
+        authorship: Rydb.
+        rank: tribe
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 6356B
+        scientificName: Geum L.
+        authorship: L.
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1141"
+      - id: 6KG6R
+        scientificName: Geum peckii Pursh
+        authorship: Pursh
+        rank: species
+        status: accepted
+        sourceDatasetId: "1141"
+    identity:
+      method: Matched the retained COL ID and WFO-linked FNA source row to exactly one accepted species usage in the pinned COL26.8 search registry; followed each parent through the pinned hierarchy registry and retained the complete accepted parent chain. The source join also preserves the exact FNA row number, source identifier, and taxon-specific citation.
+      scope: COL26.8 accepted identity 6KG6R linked through WFO wfo-0001004216 to one Flora of North America species account. This link does not assert full concept equivalence across checklist versions.
+      sourceIds:
+        - col
+        - fna_e9bbc8cb_5c97_466d_b5aa_b1288942aa57
+    lifeStatusScope:
+      wild: The account does not identify the provenance of the described material; population-level wild status has not been assessed.
+      domesticated: Cultivation, domestication, and horticultural history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/6KG6R
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6KG6R@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 6KG6R; exact name, authorship, rank, status, sourceDatasetId, and complete accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6KG6R. https://doi.org/10.48580/dgywk.
+      - id: fna_e9bbc8cb_5c97_466d_b5aa_b1288942aa57
+        referenceId: ref-d5e5a10c-78c4-879a-afab-38b965cff50d
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - sourceCitation
+          - itemDeclaredLicenseUrl
+          - license
+          - rightsHolder
+          - rights
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Archive resource metadata declares CC BY 4.0; the imported source item independently retains its CC BY 4.0 license URL and rights-holder field.
+          licenseAppliesTo: The taxon-specific FNA description text in row 16419; no third-party figure, image, or table is reused.
+          stableId: FNA-sourceId:E9BBC8CB-5C97-466D-B5AA-B1288942AA57
+          accessedAt: 2026-09-27
+          locator: FNA imported general-description row 16419; source identifier E9BBC8CB-5C97-466D-B5AA-B1288942AA57; exact taxon-specific citation retained.
+          attribution: Geum peckii Pursh in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018. Flora of North America Association; one short excerpt retained with its source locator.
+          licenseAssessment: item-level-verified
+          scope: Regional North American taxonomic description; morphology excerpt only, not a population-sampled estimate, current/global range statement, or proof of cross-release concept equivalence.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "The FNA account describes these morphology characters: “Leaves: basal 5–15 cm, blade strongly lyrate-pinnate, major leaflet 1, minor leaflets 4–10, terminal leaflet much larger than minor laterals;”"
+            originalLanguage: en
+            sourceIds:
+              - fna_e9bbc8cb_5c97_466d_b5aa_b1288942aa57
+            locator: "FNA description row 16419, source identifier E9BBC8CB-5C97-466D-B5AA-B1288942AA57; citation: Geum peckii Pursh in Flora of North America @ efloras.org eFlora. Missouri Botanical Garden, St. Louis, MO & Harvard University Herbaria, Cambridge, MA., 2015. Web. Accessed February 2018."
+            placeTimeScope: Regional Flora of North America taxonomic account; the excerpt does not provide a population-sampling frame, named observation locality, or temporal estimate.
+            lifeStatus: The source describes taxonomic structures but does not identify whether the described material was wild or cultivated; neither status is inferred.
+        gaps:
+          - One reviewed excerpt supports selected morphology characters only; completeness, variation, methods, and coverage of the full COL26.8 concept remain unassessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Seed maturation, release, germination, recruitment, growth, survival, and the full reproductive cycle have not been assessed.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Habitat, environmental tolerances, and ecological interactions have not been assessed.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-specific phylogenetic, population-genetic, or evolutionary analysis was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - This regional flora excerpt is not a current range map or global distribution assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil occurrences or bounded species-level fossil search were assessed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current conservation assessment, population trend, or threat analysis was reviewed.

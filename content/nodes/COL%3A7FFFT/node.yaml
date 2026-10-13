@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Vandijkophrynus inyangae
+  displayName: Vandijkophrynus inyangae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FFFT
+  sourceIndexes:
+    - name:
+        en: Vandijkophrynus inyangae
+        zh: Vandijkophrynus inyangae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FFFT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/226
+            queryName: Vandijkophrynus inyangae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/343
+            queryName: Bufo inyangae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/322
+            queryName: Bufo gariepensis inyangae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-50d09c7f95
+      - s-4ad391084e
+      - s-6fcbce934c
+      - s-a0185931ea
+      - s-65ae50afbf
+      - s-514d213e0e
+      - s-06ae92c2fe
+      - s-54361da2bf
+      - s-c5de4b5088
+      - s-a075f08052
+    zh:
+      - s-be3ff5201e
+      - s-6b8aa19bef
+      - s-edc41beb2e
+      - s-4ee4b39a7f
+      - s-ee48d0263d
+      - s-cde2de01d3
+      - s-9f8a7b6fc5
+      - s-e27b801acd
+      - s-f971150417
+      - s-fdce90947a

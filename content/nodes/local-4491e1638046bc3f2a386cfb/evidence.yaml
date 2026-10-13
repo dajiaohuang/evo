@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudophilautus stictomerus
+    name:
+      en: Pseudophilautus stictomerus
+      zh: Pseudophilautus stictomerus
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Pseudophilautus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-61eca0e82b
+            part: body
+          zh:
+            page: zh
+            section: s-b201efe17e
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1136b5c0b7
+            part: body
+          zh:
+            page: zh
+            section: s-af35b4e4d3
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5062, 5063; Reference.csv rows 1237
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5062
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus stictomerus
+          - M
+          - "23.2"
+          - "9.806034483"
+          - "8.648892"
+          - "4.040072"
+          - "0.862928"
+          - NA
+          - "2.30441"
+          - "2.30441"
+          - "2.882964"
+          - "2.59859"
+          - "4.040072"
+          - "1.441482"
+          - "6.148362"
+          - "5.667868"
+          - NA
+          - "15.866108"
+          - NA
+          - "12.30653"
+          - "11.345542"
+          - NA
+          - NA
+          - "1.059048"
+          - "1.725856"
+          - "2.20635"
+          - "3.461518"
+          - "5.09912"
+          - "3.177144"
+          - "1.637602"
+          - "1.921976"
+          - "3.177144"
+          - "2.50053"
+          - NA
+          - NA
+          - "1.059048"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5063
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus stictomerus
+          - F
+          - "34"
+          - "6.623529412"
+          - "5.918544"
+          - "2.444256"
+          - "0.39744"
+          - NA
+          - "1.520208"
+          - "1.447344"
+          - "1.497024"
+          - "1.834848"
+          - "2.695968"
+          - "0.986976"
+          - "4.335408"
+          - "3.699504"
+          - NA
+          - "10.568592"
+          - NA
+          - "8.260128"
+          - "7.23672"
+          - NA
+          - NA
+          - "0.659088"
+          - "1.248624"
+          - "1.4904"
+          - "2.378016"
+          - "3.530592"
+          - "2.50056"
+          - "1.245312"
+          - "1.470528"
+          - "2.325024"
+          - "1.947456"
+          - NA
+          - NA
+          - "0.818064"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1237
+        values:
+          - Anura
+          - Pseudophilautus_stictomerus
+          - "Manamendra-Arachchi, K., & Pethiyagoda, R. (2005). The Sri Lankan shrub-frogs of the genus Philautus Gistel, 1848 (Ranidae: Rhacophorinae), with description of 27 new species. Raffles Bulletin of Zoology, 163-303."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4P74Y
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

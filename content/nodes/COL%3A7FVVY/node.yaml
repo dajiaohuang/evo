@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina arfakiana
+  displayName: Xenorhina arfakiana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FVVY
+  sourceIndexes:
+    - name:
+        en: Xenorhina arfakiana
+        zh: Xenorhina arfakiana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FVVY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/334
+            queryName: Xenorhina arfakiana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/275
+            queryName: Xenobatrachus arfakianus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6bd5033178
+      - s-7845f173ad
+      - s-16fcb82533
+      - s-ebd6aefb33
+      - s-0fd34fd388
+      - s-2d3f0f39bb
+      - s-489dd0b683
+      - s-9750f1770c
+    zh:
+      - s-f288b0334a
+      - s-a413d44a29
+      - s-10cc6ccf02
+      - s-0ab043a113
+      - s-a23997b433
+      - s-17a9a1c715
+      - s-59738609ef
+      - s-067bbf91a7

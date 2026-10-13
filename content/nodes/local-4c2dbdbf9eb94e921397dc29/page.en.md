@@ -1,0 +1,12 @@
+## The dataset entry {#s-f31c42e7ae}
+The pinned AmphiTherm curated snapshot records Plethodon glutinosus under Plethodontidae, Caudata. It retains 22 thermal estimate rows across 5 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-e9f929c2c5}
+Source row 1384 (ID 1542; Elwood_2003) reports 32.5 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as adults. The source population code is Plethodon_glutinosus_pop10. Recorded conditions include acclimation at 15 °C, medium_test_temp = water. The source reports 0.16 °C as its standard error. The source n_trait field is 10. The endpoint is OS. Sex is recorded as mixed. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## thermal preference estimate {#s-f25a1bd33f}
+Source row 1410 (ID 1568; Elwood_2003) reports 23.7 °C for the thermal preference estimate (metric code Tpref). The tested stage is recorded as adults. The source population code is Plethodon_glutinosus_pop4. Recorded conditions include acclimation at 15 °C, medium_test_temp = substrate, rate_measurement = 1. The source reports 0.91 °C as its standard error. The source n_trait field is 11. The source row does not state an endpoint. Sex is recorded as mixed. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-65c2e12b6f}
+Source row 3205 (ID 3522; Markle_2015) reports -1 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as adults. The source population code is Plethodon_glutinosus_pop6. Recorded conditions include acclimation at 14 °C, medium_test_temp = water. The source n_trait field is 60. The endpoint is LRR. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

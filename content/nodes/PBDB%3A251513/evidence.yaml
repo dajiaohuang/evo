@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Deltasaurus pustulatus
+    rank: species
+    sourceTaxonId: txn:251513
+    name:
+      en: Deltasaurus pustulatus
+      zh: Deltasaurus pustulatus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-2a0c1fb36b
+            part: body
+          zh:
+            page: zh
+            section: s-7f94789633
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-793938f109
+            part: body
+          zh:
+            page: zh
+            section: s-f6f6472d0f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Deltasaurus pustulatus
+          zh: Deltasaurus pustulatus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-10e0675d28
+            part: body
+          zh:
+            page: zh
+            section: s-c8c25c22fb
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:251513; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. W. Cosgriff. 1965. A new genus of Temnospondyli from the Triassic of Western Australia. Journal of the Royal Society of Western Australia 48:65-90
+    occurrenceEvidence:
+      - occurrenceId: occ:1087524
+        collectionId: col:136550
+        acceptedTaxonId: txn:251513
+        identifiedName: Deltasaurus pustulatus n. sp.
+        taxonomicDifference: null
+        referenceId: ref:43676
+        bibliography: J. W. Cosgriff. 1965. A new genus of Temnospondyli from the Triassic of Western Australia. Journal of the Royal Society of Western Australia 48:65-90
+        locality:
+          countryCode: AU
+          stateProvince: Western Australia
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kockatea Shale
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Deltasaurus pustulatus
+          zh: Deltasaurus pustulatus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-10e0675d28
+            part: body
+          zh:
+            page: zh
+            section: s-c8c25c22fb
+            part: body
+        sourceIds: []

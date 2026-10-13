@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Quasipaa binhi
+  displayName: Quasipaa binhi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V3TM5
+  sourceIndexes:
+    - name:
+        en: Quasipaa binhi
+        zh: Quasipaa binhi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V3TM5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/24
+            queryName: Quasipaa binhi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f59a857f97
+      - s-71f55cab11
+      - s-3b516cc684
+      - s-d49a84ffdb
+      - s-7874f90387
+      - s-e73ce942cc
+      - s-0d2a4dc271
+    zh:
+      - s-b4cb8a1fb1
+      - s-09429fcd6a
+      - s-65402791b7
+      - s-9cb08df2f6
+      - s-d7e25538c3
+      - s-a0b4897496
+      - s-5a463964fa

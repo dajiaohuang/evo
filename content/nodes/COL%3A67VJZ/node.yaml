@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus carrikeri
+  displayName: Atelopus carrikeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/67VJZ
+  sourceIndexes:
+    - name:
+        en: Atelopus carrikeri
+        zh: Atelopus carrikeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 67VJZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/238
+            queryName: Atelopus carrikeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/336
+            queryName: Atelopus leoperezii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5302b61b88
+      - s-40d30ea0a9
+      - s-16487fbd48
+      - s-b9d77309f5
+      - s-3fcd8b357e
+      - s-4c5546d4ca
+      - s-f86d49c8d8
+      - s-7928419857
+      - s-6752f7fdfa
+      - s-fd8972251f
+    zh:
+      - s-0487e9ec41
+      - s-9acd6d4755
+      - s-ff9165cd27
+      - s-62112685f1
+      - s-93e3f25000
+      - s-e357c744f3
+      - s-428c0dfef7
+      - s-3a7066edbd
+      - s-84670620ba
+      - s-087e348cc1

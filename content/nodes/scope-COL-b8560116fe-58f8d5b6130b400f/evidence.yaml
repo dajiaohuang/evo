@@ -1,0 +1,316 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Testudines Batsch, 1788
+    rank: order
+    sourceDatasetId: "1008"
+    name:
+      zh: 龟类
+      en: Turtles
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-991868a590
+            part: body
+          en:
+            page: en
+            section: s-fc6341d3ac
+            part: body
+        sourceIds:
+          - taxonomy
+        topicZh: overview
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-5ba3f27ae5
+            part: body
+          en:
+            page: en
+            section: s-6bde95a47b
+            part: body
+        sourceIds:
+          - taxonomy
+        topicZh: overview
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-7021f3d14b
+            part: body
+          en:
+            page: en
+            section: s-00788cd207
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-e908a44430
+            part: body
+          en:
+            page: en
+            section: s-3da4b7c013
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3151dfcbd5
+            part: body
+          en:
+            page: en
+            section: s-67a7da4bb8
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-ed778ebff6
+            part: body
+          en:
+            page: en
+            section: s-10fdc086c7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-9495edcfac
+            part: body
+          en:
+            page: en
+            section: s-a64bf67e76
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-72745ddf75
+            part: body
+          en:
+            page: en
+            section: s-9865d56995
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c54efe6b70
+            part: body
+          en:
+            page: en
+            section: s-f52dd07040
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-1c67e56d46
+            part: body
+          en:
+            page: en
+            section: s-63ea4ccc65
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Testudines
+          url: https://www.checklistbank.org/dataset/316115/taxon/477
+          locator: Accepted COL26.8 order usage and direct child placement.
+          scope:
+            zh: 固定 COL26.8 的接受目身份和直接亚目位置；本来源绑定用于分类导航，不用于完整生物学或物种档案。
+            en: Pinned COL26.8 accepted order identity and direct suborder placements. The source binding is used for classification navigation, not a complete biological or species account.
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 244 authored records grouped under Testudines by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 41
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 195 authored same-name records placed under Testudines by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 113 authored records grouped under Testudines by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 87LYV
+              name: Actinemys pallida
+              canonicalPath: content/nodes/COL%3A87LYV
+            - colId: D8SX
+              name: Amyda ornata
+              canonicalPath: content/nodes/COL%3AD8SX
+            - colId: KVXC
+              name: Batagur affinis
+              canonicalPath: content/nodes/COL%3AKVXC
+            - colId: KVXG
+              name: Batagur dhongoka
+              canonicalPath: content/nodes/COL%3AKVXG
+            - colId: KVXR
+              name: Batagur trivittata
+              canonicalPath: content/nodes/COL%3AKVXR
+          fieldCountDistribution:
+            "1": 9
+            "2": 34
+            "3": 62
+            "4": 7
+            "5": 1
+    limitations:
+      zh:
+        page: zh
+        section: s-fd540fd0cf
+        part: body
+      en:
+        page: en
+        section: s-2c71987bba
+        part: body
+  atlas-node:
+    name: Testudines
+    commonName: Turtles & Tortoises
+    commonNameZh: 龟鳖类
+    rank: order
+    taxonId: txn:56475
+    firstAppearance: 220
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier

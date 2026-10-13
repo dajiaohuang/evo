@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyla felixarabica
+  displayName: Hyla felixarabica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NCTW
+  sourceIndexes:
+    - name:
+        en: Hyla felixarabica
+        zh: Hyla felixarabica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NCTW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/360
+            queryName: Hyla felixarabica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-93937db49b
+      - s-4db2817725
+      - s-09ed97c5d4
+      - s-c3f473aab4
+      - s-2473c7b499
+      - s-66ee1f63ab
+      - s-0421eed074
+      - s-0e4198feb6
+      - s-0d0fdc41b5
+    zh:
+      - s-d8040f2358
+      - s-9457256a13
+      - s-42f046d58e
+      - s-b05cf7e14d
+      - s-c0fe4c6d23
+      - s-e80dc482d5
+      - s-86b9e46930
+      - s-122877c205
+      - s-3dc1a56cb9

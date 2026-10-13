@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax sugillatus
+  displayName: Scinax sugillatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJZC
+  sourceIndexes:
+    - name:
+        en: Scinax sugillatus
+        zh: Scinax sugillatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJZC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/79
+            queryName: Scinax sugillatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/481
+            queryName: Hyla sugillata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/482
+            queryName: Scinax sugillata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-53597db715
+      - s-2d135dde7e
+      - s-8e49fde873
+      - s-8957fb2a30
+      - s-27f9be10ab
+      - s-c7eaf0bdca
+      - s-7009e3900a
+      - s-b4ecaec9b0
+      - s-192bc5861d
+    zh:
+      - s-13743b21ce
+      - s-3bf7d86782
+      - s-79ef5af0d1
+      - s-cfb56518f1
+      - s-aa40ccaea5
+      - s-b9f9bf5d7e
+      - s-af03ed6c5f
+      - s-86a591fa2a
+      - s-d631a803c4

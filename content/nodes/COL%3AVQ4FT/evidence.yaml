@@ -1,0 +1,95 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Colobus congoensis J. Hart, Amboko, Arenson, Horton, Coates, Kapale, Koko, T. Hart, Gilbert, Sargis & Detwiler, 2026
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 利夸利疣猴
+      en: Likweli
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-73a3884ed2
+            part: body
+          en:
+            page: en
+            section: s-6173cc8944
+            part: body
+        sourceIds:
+          - taxonomy
+          - hart2026
+      - topic: fieldStudy
+        text:
+          zh:
+            page: zh
+            section: s-a0461b7f92
+            part: body
+          en:
+            page: en
+            section: s-3f82d4ba0d
+            part: body
+        sourceIds:
+          - hart2026
+      - topic: ecology
+        text:
+          zh:
+            page: zh
+            section: s-fd690eed00
+            part: body
+          en:
+            page: en
+            section: s-6826c74bca
+            part: body
+        sourceIds:
+          - hart2026
+      - topic: classification
+        text:
+          zh:
+            page: zh
+            section: s-c9c4b31792
+            part: body
+          en:
+            page: en
+            section: s-efe68cd945
+            part: body
+        sourceIds:
+          - hart2026
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Colobus congoensis J. Hart et al., 2026
+          url: https://www.checklistbank.org/dataset/316115/taxon/VQ4FT
+          scope:
+            zh: 固定名录中的接受名、作者、等级和分类父链；不提供生物学正文。
+            en: Pinned checklist identity, authorship, rank and parent links; not biological evidence.
+      - id: hart2026
+        referenceId: ref-d71da16c-47e0-8411-a742-1ae5a205ab63
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持新种描述、推荐名称、类型地点、形态/遗传/声学比较和 2018–2022 年野外观察；作者提出的保育分类不在本页转述。
+            en: Supports the species description, recommended name, type locality, morphological/genetic/acoustic comparisons and 2018–2022 field observations; the authors’ conservation classification is not reproduced here.
+    limitations:
+      zh:
+        page: zh
+        section: s-b3366a71fe
+        part: body
+      en:
+        page: en
+        section: s-71f1f20527
+        part: body

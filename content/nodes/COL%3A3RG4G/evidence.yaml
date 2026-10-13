@@ -1,0 +1,272 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kurixalus chaseni (Smith, 1924)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kurixalus chaseni
+      zh: Kurixalus chaseni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2404550a4d
+            part: title
+          zh:
+            page: zh
+            section: s-16ccc58a8c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2404550a4d
+            part: body
+          zh:
+            page: zh
+            section: s-16ccc58a8c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bad5d7b89d
+            part: title
+          zh:
+            page: zh
+            section: s-f57dd1303b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bad5d7b89d
+            part: body
+          zh:
+            page: zh
+            section: s-f57dd1303b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-115680b21a
+            part: title
+          zh:
+            page: zh
+            section: s-666aac7663
+            part: title
+        sourceIds:
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-115680b21a
+            part: body
+          zh:
+            page: zh
+            section: s-666aac7663
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-88773acb289b649ba5c1e76d
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ace6cbe6f3
+            part: title
+          zh:
+            page: zh
+            section: s-3732d1c2af
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-ace6cbe6f3
+            part: body
+          zh:
+            page: zh
+            section: s-3732d1c2af
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fae0404372
+            part: title
+          zh:
+            page: zh
+            section: s-4094c19044
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-fae0404372
+            part: body
+          zh:
+            page: zh
+            section: s-4094c19044
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-82c3ec5974
+            part: title
+          zh:
+            page: zh
+            section: s-ab57938dd6
+            part: title
+        sourceIds:
+          - primary-pmc10486437-3rg4g
+        text:
+          en:
+            page: en
+            section: s-82c3ec5974
+            part: body
+          zh:
+            page: zh
+            section: s-ab57938dd6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kurixalus chaseni
+          url: https://www.checklistbank.org/dataset/316115/taxon/3RG4G
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 615; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: primary-pmc10486437-3rg4g
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kurixalus chaseni: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b80a7abf37
+        part: body
+      zh:
+        page: zh
+        section: s-e87974dbfb
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-88773acb289b649ba5c1e76d
+        scientificName: Kurixalus chaseni
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.3390/ani13172754
+        referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+        sourceKey: primary-pmc10486437-3rg4g
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10486437/article.xml
+        sourceConcept: 2023 Table2 Kurixalus chaseni sequence row
+        evidenceRead: "Kurixalus chaseni: XML Abstract, Methods2.1–2.4 including Table2, Results3.1–3.3 including Tables3–5, Discussion and Conclusions read; original sequences, alignments, vouchers and calibration source study not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Marker availability in the 2023 island-origin comparison
+              zh: 2023 年岛屿起源比较的标记覆盖
+            referenceId: ref-6c658ef2-0e32-4a8c-a3a1-a2256bc21058
+            sourceKey: primary-pmc10486437-3rg4g
+            locator: PMC10486437 XML Methods2.1/Table2; Results3.1/Table3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b932d16b90
+                part: body
+              zh:
+                page: zh
+                section: s-55ae912b9f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

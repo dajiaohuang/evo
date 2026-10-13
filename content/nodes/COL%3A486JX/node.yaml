@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus ocellatus
+  displayName: Nymphargus ocellatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JX
+  sourceIndexes:
+    - name:
+        en: Nymphargus ocellatus
+        zh: Nymphargus ocellatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/442
+            queryName: Nymphargus ocellatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/9
+            queryName: Cochranella ocellata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/57
+            queryName: Hylella ocellata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-58dd28dc68
+      - s-95ec4a2b33
+      - s-bd95f1c3e8
+      - s-4b4466a89c
+      - s-4ac82faf0d
+      - s-afafbe7585
+      - s-0382ee9e72
+      - s-1409e63bb7
+      - s-766361a2e0
+      - s-d521e3afeb
+      - s-662f2b926a
+    zh:
+      - s-b46bdd1f43
+      - s-c93ed85804
+      - s-9b0674d20a
+      - s-c8893bb4d1
+      - s-1b6117fc36
+      - s-b1f9b9147f
+      - s-81f695fe0b
+      - s-6b72861446
+      - s-82813c2fa2
+      - s-d78ef60b3c
+      - s-e24a4b3e44

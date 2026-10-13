@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylophorbus richardsi
+  displayName: Hylophorbus richardsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NGLV
+  sourceIndexes:
+    - name:
+        en: Hylophorbus richardsi
+        zh: Hylophorbus richardsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NGLV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/26
+            queryName: Hylophorbus richardsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-16f9f7edfb
+      - s-9bae64ef69
+      - s-f29c641ef6
+      - s-b2374e63e6
+      - s-ece423a52a
+      - s-86e4bf953f
+      - s-3093cd64cd
+      - s-5f1413d663
+    zh:
+      - s-6d940c0701
+      - s-2eccddf01b
+      - s-40535b88af
+      - s-d92098d0fa
+      - s-6c171d2a19
+      - s-1ae0f9050d
+      - s-2521e4b8be
+      - s-be965a6710

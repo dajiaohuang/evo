@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera diffusa? {#s-c44d73a0d8}
+The branches bear simple hairs and sessile glandular hairs with rounded heads. Petioles may be present or absent; extrafloral nectaries are absent. Ovate, elliptic or obovate leaves have toothed or scalloped margins. The upper surface ranges from sparsely hairy to hairless, while the lower is woolly to densely hairy. The inflorescence has one flower, a peduncle and bracteoles, but no pedicel. The yellow corolla lacks a corona, and the filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is warty; seeds are net-veined with a smooth outer layer and blunt chalaza.
+

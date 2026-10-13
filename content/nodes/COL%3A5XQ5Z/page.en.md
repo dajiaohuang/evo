@@ -1,0 +1,3 @@
+## ## A woody underground organ and yellow flowers {#s-7515ed9a47}
+Brazilian Flora 2020 records a xylopodium, a woody underground organ, and alternate leaves with 6–10 pairs of leaflets. The leaflets are 9–16 mm long, with cordate bases and tips described as obtuse and mucronate or apiculate; the stipules are bristle-shaped and 3–12 mm long. The flowers have ten stamens and unequal yellow petals. The oblong fruit valves are 3–4 cm long and bear yellow bristles; the seed is recorded as 5 mm long. Glandular hairs are absent from the stem but recorded in the inflorescence. The same dataset labels the plant as terrestrial; these regional character fields do not establish a global account.
+

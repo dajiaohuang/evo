@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylarana temporalis
+  displayName: Hylarana temporalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MMTC
+  sourceIndexes:
+    - name:
+        en: Hylarana temporalis
+        zh: Hylarana temporalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MMTC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/482
+            queryName: Hylarana temporalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/202
+            queryName: Rana temporalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/411
+            queryName: Indosylvirana temporalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/412
+            queryName: Hylorana temporalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/413
+            queryName: Sylvirana temporalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 72
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce4ed01119
+      - s-69cfa6c38e
+      - s-f01b2a8765
+      - s-0bfe3ee338
+      - s-f664880382
+      - s-ab51be9e7d
+      - s-95df00b7ae
+      - s-c9810fb4eb
+      - s-1351d543ab
+      - s-f9fa8e1f24
+      - s-3d78fc363b
+    zh:
+      - s-375ea01e0a
+      - s-bf253506c7
+      - s-68ca718bd7
+      - s-a5aeceb7d9
+      - s-5da494dff7
+      - s-8e5c6f6898
+      - s-27b01a44c0
+      - s-a455c4093d
+      - s-b441c89706
+      - s-04d1d7b310
+      - s-bb52b345e6

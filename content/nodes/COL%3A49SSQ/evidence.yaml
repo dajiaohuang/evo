@@ -1,0 +1,1277 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Oophaga pumilio (Schmidt, 1857)
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact COL26.8 accepted species usage was verified by COL ID, verbatim scientific name, authorship, rank, accepted status, sourceDatasetId, and every accepted parent node in the pinned hierarchy.
+      scope: Nominal species as represented by the pinned COL26.8 accepted usage. Evidence concerns measured coloration and clay-model predator interactions at six sampled Central American populations; it does not constitute a full species account.
+      sourceIds:
+        - col
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: PH
+        scientificName: Amphibia
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: PW
+        scientificName: Anura
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 52K
+        scientificName: Dendrobatoidea Cope, 1865
+        authorship: Cope, 1865
+        rank: superfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 93G
+        scientificName: Dendrobatidae Cope, 1865
+        authorship: Cope, 1865
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: JF6
+        scientificName: Dendrobatinae Cope, 1865
+        authorship: Cope, 1865
+        rank: subfamily
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 68KL
+        scientificName: Oophaga Bauer, 1994
+        authorship: Bauer, 1994
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 49SSQ
+        scientificName: Oophaga pumilio (Schmidt, 1857)
+        authorship: (Schmidt, 1857)
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+    lifeStatusScope:
+      wild: Live frogs were measured in the field and released at their capture sites. The predation experiment used standardized non-toxic clay models placed in frog habitat; model attacks are not observations of live-frog survival.
+      domesticated: Domestication and captive populations have not been assessed; no captive or domesticated frogs support these claims.
+      fossil: Fossil occurrence and geological age have not been assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; pinned source checklist
+          url: https://www.checklistbank.org/dataset/316115/taxon/49SSQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:49SSQ@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage 49SSQ; exact accepted name, authorship, species rank, sourceDatasetId 2144, and accepted parent chain verified in the pinned hierarchy.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification metadata only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 49SSQ. https://doi.org/10.48580/dgywk
+      - id: dreher2015
+        referenceId: ref-104ce3e5-b24b-8032-a534-f97636eec80f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article copyright notice links to the Creative Commons Attribution License; PLOS policy identifies CC BY 4.0 International as the article-content license.
+          licenseAppliesTo: Published article text. Any separately credited third-party content is excluded; this dossier paraphrases findings and does not reuse images or figures.
+          stableId: doi:10.1371/journal.pone.0130571
+          accessedAt: 2026-09-28
+          locator: Methods, Reflectance Measurements and Visual Modeling and Predation experiments; Results, Overall conspicuousness and Predation experiments.
+          licenseAssessment: item-level-verified
+          scope: Original live-frog skin reflectance and clay-model predation experiments across six populations in Costa Rica and Panama. Claims do not rely on figures or third-party material.
+          attribution: Dreher CE, Cummings ME, Pröhl H (2015). An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species. PLOS ONE 10(6):e0130571. https://doi.org/10.1371/journal.pone.0130571. Findings paraphrased.
+      - id: plos2015correction
+        referenceId: ref-a67d98d3-a788-81a2-a015-4ba1ab6c379b
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Correction copyright notice links to the Creative Commons Attribution License; PLOS policy identifies CC BY 4.0 International as the article-content license.
+          licenseAppliesTo: Correction notice text. The corrected figure and any separately credited third-party content are not reused.
+          stableId: doi:10.1371/journal.pone.0134628
+          accessedAt: 2026-09-28
+          locator: "Correction notice: the first author's email and Fig. 4 were corrected. The claims in this dossier do not rely on Fig. 4."
+          licenseAssessment: item-level-verified
+          scope: Publisher correction associated with the 2015 Oophaga pumilio research article. It corrects Fig. 4 and the first author's email; it does not alter the Methods or Results passages cited for these claims.
+          attribution: "The PLOS ONE Staff (2015). Correction: An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species. PLOS ONE 10(7):e0134628. https://doi.org/10.1371/journal.pone.0134628. Correction notice paraphrased."
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Researchers measured skin reflectance in 255 live Oophaga pumilio from six populations in Costa Rica and Panama between December 2008 and June 2011. Their visual models found population differences in color and brightness contrast among sampled dorsal and ventral coloration. These measurements describe the sampled populations; they do not establish that selection caused the divergence or characterize every population of the species.
+            sourceIds:
+              - dreher2015
+            locator: Methods, Reflectance Measurements and Visual Modeling; Results, Color Contrast, Brightness Contrast, and Overall conspicuousness.
+            placeTimeScope: "Six populations: Sarapiquí and Hitoy Cerere in Costa Rica; Río Gloria, Tierra Oscura, Isla Colón, and Isla Solarte in Panama. Field measurements were collected between December 2008 and June 2011; the article was published 2015-06-25."
+            lifeStatus: Live, free-living frogs were measured in the field and released at their capture sites. No captive or domesticated frogs support the claim.
+            originalLanguage: en
+            textZh: 研究者于 2008 年 12 月至 2011 年 6 月，在哥斯达黎加和巴拿马六个种群测量 255 只活体 Oophaga pumilio 的皮肤反射率。视觉模型显示，所采样背部和腹部颜色的色彩与亮度对比在种群之间不同。样地为 Sarapiquí、Hitoy Cerere、Río Gloria、Tierra Oscura、Isla Colón 和 Isla Solarte。蛙在野外测量后原地放回；这些结果不证明差异由选择造成，也不代表本种全部种群。
+        gaps:
+          - The study measures color and brightness contrasts, not all morphological traits or within-population variation across the species range.
+          - A population comparison does not by itself establish the evolutionary causes of coloration differences.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In 20-day experiments at six sampled populations, researchers deployed 1,600 standardized clay frog models per population. Attack rates varied among populations and were higher at the two sampled Panama island populations than at several mainland populations; local versus non-local model origin had no significant overall effect. These are predator interactions with clay models, not mortality or survival measurements of live frogs.
+            sourceIds:
+              - dreher2015
+            locator: Methods, Predation experiments; Results, Predation experiments and Fig. 2 caption.
+            placeTimeScope: The six model-placement populations were Sarapiquí, Hitoy Cerere, Río Gloria, Tierra Oscura, Isla Colón, and Isla Solarte in Costa Rica and Panama. The main article gives the live-frog field-work period as December 2008 to June 2011 but does not date each model experiment separately; exact experiment dates remain unknown.
+            lifeStatus: The focal frogs are free-living; attacks were recorded on non-toxic clay models placed in their habitat, not on live or captive frogs.
+            originalLanguage: en
+            textZh: 研究者在哥斯达黎加和巴拿马的六个样地分别进行 20 天实验，每处放置 1,600 个标准化黏土蛙模型。模型受攻击率在样地间不同，所采样的两个巴拿马岛屿样地高于若干大陆样地；模型属于本地或非本地型的总体效应不显著。这是捕食者与黏土模型的相互作用，不是活蛙死亡率或存活率测量。样地为 Sarapiquí、Hitoy Cerere、Río Gloria、Tierra Oscura、Isla Colón 和 Isla Solarte；正文没有逐一给出模型实验日期，因此精确实验日期仍未知。
+        gaps:
+          - Clay-model attacks cannot estimate live-frog mortality, survival, or realized predator selection on natural populations.
+          - Some imprints were classified only as potential bird marks; other predator classes had few observations, and the result is limited to six populations.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Oophaga pumilio (Schmidt, 1857)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Oophaga pumilio
+      zh: Oophaga pumilio
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fb387e55f4
+            part: title
+          zh:
+            page: zh
+            section: s-b5a4f990b0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fb387e55f4
+            part: body
+          zh:
+            page: zh
+            section: s-b5a4f990b0
+            part: body
+        sourceIds:
+          - dreher2015
+        locator: Methods, Reflectance Measurements and Visual Modeling; Results, Color Contrast, Brightness Contrast, and Overall conspicuousness.
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ad28ac433e
+            part: title
+          zh:
+            page: zh
+            section: s-a194a46e46
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ad28ac433e
+            part: body
+          zh:
+            page: zh
+            section: s-a194a46e46
+            part: body
+        sourceIds:
+          - dreher2015
+        locator: Methods, Predation experiments; Results, Predation experiments and Fig. 2 caption.
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-da1b5c4fb0
+            part: title
+          zh:
+            page: zh
+            section: s-29ab6d0835
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-da1b5c4fb0
+            part: body
+          zh:
+            page: zh
+            section: s-29ab6d0835
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-773cc0a437
+            part: title
+          zh:
+            page: zh
+            section: s-512f583bed
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-773cc0a437
+            part: body
+          zh:
+            page: zh
+            section: s-512f583bed
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-add8350bc5
+            part: title
+          zh:
+            page: zh
+            section: s-0ef1a09f2d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-add8350bc5
+            part: body
+          zh:
+            page: zh
+            section: s-0ef1a09f2d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0c8c431ed0
+            part: title
+          zh:
+            page: zh
+            section: s-d7be050596
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-0c8c431ed0
+            part: body
+          zh:
+            page: zh
+            section: s-d7be050596
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-bbf5269f0d
+            part: title
+          zh:
+            page: zh
+            section: s-7407d70934
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-bbf5269f0d
+            part: body
+          zh:
+            page: zh
+            section: s-7407d70934
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-957a3d691a
+            part: title
+          zh:
+            page: zh
+            section: s-faeb81f16f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-957a3d691a
+            part: body
+          zh:
+            page: zh
+            section: s-faeb81f16f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-264924d3f0
+            part: title
+          zh:
+            page: zh
+            section: s-5ee51d6319
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-264924d3f0
+            part: body
+          zh:
+            page: zh
+            section: s-5ee51d6319
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-de96dd3f325763e9f55fb8d239362a8f
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-5c7f728d5404951c2dc2504e
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-c17407a78230cde3ae757ffa
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ceee378989
+            part: title
+          zh:
+            page: zh
+            section: s-9ad70bae45
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-ceee378989
+            part: body
+          zh:
+            page: zh
+            section: s-9ad70bae45
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-31f7645dce
+            part: title
+          zh:
+            page: zh
+            section: s-42aa64872f
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-31f7645dce
+            part: body
+          zh:
+            page: zh
+            section: s-42aa64872f
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2322480920
+            part: title
+          zh:
+            page: zh
+            section: s-80456cb864
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "3763"
+        text:
+          en:
+            page: en
+            section: s-2322480920
+            part: body
+          zh:
+            page: zh
+            section: s-80456cb864
+            part: body
+        sourceRowNumber: 3438
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-edda747d74
+            part: title
+          zh:
+            page: zh
+            section: s-fb8a156b74
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "4123"
+        text:
+          en:
+            page: en
+            section: s-edda747d74
+            part: body
+          zh:
+            page: zh
+            section: s-fb8a156b74
+            part: body
+        sourceRowNumber: 3762
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-0d52a62c3f
+            part: title
+          zh:
+            page: zh
+            section: s-82574b7a58
+            part: title
+        sourceIds:
+          - primary-pmc10548314-49ssq
+        text:
+          en:
+            page: en
+            section: s-0d52a62c3f
+            part: body
+          zh:
+            page: zh
+            section: s-82574b7a58
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-27c227ecee
+            part: title
+          zh:
+            page: zh
+            section: s-635d72146d
+            part: title
+        sourceIds:
+          - primary-pmc10548314-49ssq
+        text:
+          en:
+            page: en
+            section: s-27c227ecee
+            part: body
+          zh:
+            page: zh
+            section: s-635d72146d
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-9b7395f136
+            part: title
+          zh:
+            page: zh
+            section: s-e8d39fb8a2
+            part: title
+        sourceIds:
+          - primary-pmc10548314-49ssq
+        text:
+          en:
+            page: en
+            section: s-9b7395f136
+            part: body
+          zh:
+            page: zh
+            section: s-e8d39fb8a2
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-e6ec98cfa9
+            part: title
+          zh:
+            page: zh
+            section: s-eb6689a8c3
+            part: title
+        sourceIds:
+          - primary-pmc12822217-49ssq
+        text:
+          en:
+            page: en
+            section: s-e6ec98cfa9
+            part: body
+          zh:
+            page: zh
+            section: s-eb6689a8c3
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b7e835efce
+            part: title
+          zh:
+            page: zh
+            section: s-8ec5f12489
+            part: title
+        sourceIds:
+          - primary-pmc12822217-49ssq
+        text:
+          en:
+            page: en
+            section: s-b7e835efce
+            part: body
+          zh:
+            page: zh
+            section: s-8ec5f12489
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-97dc3cdf44
+            part: title
+          zh:
+            page: zh
+            section: s-2c3275bb43
+            part: title
+        sourceIds:
+          - primary-pmc12822217-49ssq
+        text:
+          en:
+            page: en
+            section: s-97dc3cdf44
+            part: body
+          zh:
+            page: zh
+            section: s-2c3275bb43
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-5399424f2f
+            part: title
+          zh:
+            page: zh
+            section: s-c07081c85f
+            part: title
+        sourceIds:
+          - primary-pmc12822217-49ssq
+        text:
+          en:
+            page: en
+            section: s-5399424f2f
+            part: body
+          zh:
+            page: zh
+            section: s-c07081c85f
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-3fad10a4c7
+            part: title
+          zh:
+            page: zh
+            section: s-71e9f05105
+            part: title
+        sourceIds:
+          - primary-pmc12822217-49ssq
+        text:
+          en:
+            page: en
+            section: s-3fad10a4c7
+            part: body
+          zh:
+            page: zh
+            section: s-71e9f05105
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-03518a391f
+            part: title
+          zh:
+            page: zh
+            section: s-ee943c5c37
+            part: title
+        sourceIds:
+          - primary-pmc12822217-49ssq
+        text:
+          en:
+            page: en
+            section: s-03518a391f
+            part: body
+          zh:
+            page: zh
+            section: s-ee943c5c37
+            part: body
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; pinned source checklist
+          url: https://www.checklistbank.org/dataset/316115/taxon/49SSQ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:49SSQ@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-28
+          locator: Accepted species usage 49SSQ; exact accepted name, authorship, species rank, sourceDatasetId 2144, and accepted parent chain verified in the pinned hierarchy.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 accepted-name identity and classification metadata only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 49SSQ. https://doi.org/10.48580/dgywk
+      - id: dreher2015
+        referenceId: ref-104ce3e5-b24b-8032-a534-f97636eec80f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Article copyright notice links to the Creative Commons Attribution License; PLOS policy identifies CC BY 4.0 International as the article-content license.
+          licenseAppliesTo: Published article text. Any separately credited third-party content is excluded; this dossier paraphrases findings and does not reuse images or figures.
+          stableId: doi:10.1371/journal.pone.0130571
+          accessedAt: 2026-09-28
+          locator: Methods, Reflectance Measurements and Visual Modeling and Predation experiments; Results, Overall conspicuousness and Predation experiments.
+          licenseAssessment: item-level-verified
+          scope: Original live-frog skin reflectance and clay-model predation experiments across six populations in Costa Rica and Panama. Claims do not rely on figures or third-party material.
+          attribution: Dreher CE, Cummings ME, Pröhl H (2015). An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species. PLOS ONE 10(6):e0130571. https://doi.org/10.1371/journal.pone.0130571. Findings paraphrased.
+      - id: plos2015correction
+        referenceId: ref-a67d98d3-a788-81a2-a015-4ba1ab6c379b
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: Correction copyright notice links to the Creative Commons Attribution License; PLOS policy identifies CC BY 4.0 International as the article-content license.
+          licenseAppliesTo: Correction notice text. The corrected figure and any separately credited third-party content are not reused.
+          stableId: doi:10.1371/journal.pone.0134628
+          accessedAt: 2026-09-28
+          locator: "Correction notice: the first author's email and Fig. 4 were corrected. The claims in this dossier do not rely on Fig. 4."
+          licenseAssessment: item-level-verified
+          scope: Publisher correction associated with the 2015 Oophaga pumilio research article. It corrects Fig. 4 and the first author's email; it does not alter the Methods or Results passages cited for these claims.
+          attribution: "The PLOS ONE Staff (2015). Correction: An Analysis of Predator Selection to Affect Aposematic Coloration in a Poison Frog Species. PLOS ONE 10(7):e0134628. https://doi.org/10.1371/journal.pone.0134628. Correction notice paraphrased."
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1530; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1530 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 1190; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 3438, 3760, 3761, 3762, 3763; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10548314-49ssq
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Oophaga pumilio: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12822217-49ssq
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Oophaga pumilio: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-75084d650b
+        part: body
+      zh:
+        page: zh
+        section: s-95824d8022
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-de96dd3f325763e9f55fb8d239362a8f
+      sourceRowId: Anf1530
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1530
+        bibliographyRowId: Anf1530
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Oophaga pumilio
+        candidateBibliographyRowIds:
+          - Anf1530
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-5c7f728d5404951c2dc2504e
+        scientificName: Oophaga pumilio
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-c17407a78230cde3ae757ffa
+        scientificName: Oophaga pumilio
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1093/molbev/msad206
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        sourceKey: primary-pmc10548314-49ssq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10548314/article.xml
+        sourceConcept: 2023 source-labelled Oophaga pumilio; cited observations distinguished from new genomic analyses
+        evidenceRead: "Oophaga pumilio: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: Three complementary searches support a missing opsin hypothesis
+              zh: 三种互补搜索支持视蛋白缺失假说
+            referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+            sourceKey: primary-pmc10548314-49ssq
+            locator: PMC10548314 XML Results1.3; Methods4.5 transcriptomics/synteny/genome-mining paragraphs
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-830b29f256
+                part: body
+              zh:
+                page: zh
+                section: s-ed7554d3cf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Visual consequences remain partly inferred from earlier measurements
+              zh: 视觉后果部分由较早测量推断
+            referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+            sourceKey: primary-pmc10548314-49ssq
+            locator: PMC10548314 XML Discussion2.4 paragraphs2,4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dc385d4b20
+                part: body
+              zh:
+                page: zh
+                section: s-d4f0b9ac6e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Colour-mediated behaviour is cited background
+              zh: 色彩介导行为是被引背景
+            referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+            sourceKey: primary-pmc10548314-49ssq
+            locator: PMC10548314 XML Discussion2.3 paragraph1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7a97a84f62
+                part: body
+              zh:
+                page: zh
+                section: s-c3ccf69a16
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1186/s12864-025-12414-y
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        sourceKey: primary-pmc12822217-49ssq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/article.xml
+        sourceConcept: Table1source Oophaga pumilio listedassemblyGCA_933207985.1; conflictingS1quantitativeassignments withheld, no rawgenomeauthentication
+        evidenceRead: "Oophaga pumilio: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reference assembly in a comparative genome study
+              zh: 比较基因组研究中的参考组装
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-49ssq
+            locator: PMC12822217 XML Tab1 tbody row14 sourceOophaga pumilio accessionGCA_933207985.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ba665fe01a
+                part: body
+              zh:
+                page: zh
+                section: s-8a488cc6ac
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Assembly metadata has limits
+              zh: 组装元数据有其限制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-49ssq
+            locator: PMC12822217 XML Tab1 tbody row14 sourceOophaga pumilio accessionGCA_933207985.1;Tab1caption;Sec3assemblyfilter
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bc2801ef1d
+                part: body
+              zh:
+                page: zh
+                section: s-1b01fe72b8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Repeat annotations are computational observations
+              zh: 重复序列注释是计算观察
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-49ssq
+            locator: PMC12822217 XML Sec3 repeatannotation
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-20302d6e7f
+                part: body
+              zh:
+                page: zh
+                section: s-562f9ece00
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Across-species correlations do not prove this species mechanism
+              zh: 跨物种相关性不能证明本种机制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-49ssq
+            locator: PMC12822217 XML Sec5–8/Sec11–15/Sec17–20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-cea708d6c9
+                part: body
+              zh:
+                page: zh
+                section: s-9e45fba6de
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Conflicting source identifiers prevent a repeat-data assignment
+              zh: 来源编号冲突阻止重复数据归属
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-49ssq
+            locator: PMC12822217 XML Tab1 tbody row14 sourceOophaga pumilio accessionGCA_933207985.1; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM1_ESM.xlsx Table S1 A49:B49; TableS2/S3headers
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-315fe5b437
+                part: body
+              zh:
+                page: zh
+                section: s-de62a04a29
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: methods
+            heading:
+              en: The ORF count differs between text and supplement
+              zh: 正文与补充表的开放阅读框数不同
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-49ssq
+            locator: PMC12822217 XML Sec13;workbookS6row30
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b35f1d492a
+                part: body
+              zh:
+                page: zh
+                section: s-f99ce1e216
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

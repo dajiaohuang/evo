@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Moraea cooperi Baker
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 44C49, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000784930.
+      scope: Moraea as represented by COL26.8 usage 44C49. Each SANBI account and its region/date remain scoped to the cited treatment; exact nomenclatural matching alone does not prove full concept equivalence.
+    lifeStatusScope:
+      wild: The regional flora descriptions are not treated as a global or population census; native, naturalised, and cultivated occurrence are distinguished only where the source does so.
+      domesticated: Cultivation and domestication history have not been assessed in this batch.
+      fossil: Fossil records and geological ages have not been assessed; extant flora accounts are not used to infer fossil occurrence.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/44C49
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 44C49
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000784930-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 44C49 / WFO wfo-0000784930
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_13878_0
+        referenceId: ref-20d0ec4d-c325-85a0-a01a-cecb4d7f1682
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 6918 (Morphology), 29384 (Habitat), source identifier 13878.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-810c5049-05c7-8ac1-ae57-ed01199f68ac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Moraea species account; SANBI/WFO archive rows 95253 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; the excerpt does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 20-35 cm, stem much branched. Leaves 2 or 3, linear, channelled and trailing. Flowers yellow, tubular below, inner tepals absent, ovary subsessile and capsules concealed in spathes.
+            textZh: Moraea cooperi Baker 的 SANBI 物种条目记载了植株、叶片和花部形态。
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Morphology row 6918, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+          - text: Immediately recognised in Moraea by the yellow, finely veined flowers and perianth of only three tepals, united basally in a short perianth tube. In addition, the narrowly fusiform ovary is included within the spathes and the compressed seeds are winged at both ends. The relationships of M. cooperi remain puzzling and it is provisionally included in subg. Umbellatae, with which its brown corm tunics, pale yellow, finely veined tepals and chromosome number, n = 10 are consistent. A perianth tube is also found in M. longiflora of the subgenus and the two species were placed together in sect. Tubiflorae of subg. Moraea in earlier studies. Molecular phylogenetic studies do not place M. cooperi among other species of subg. Umbellatae but show it to be isolated, at least with the plastid DNA loci so far sequenced. The presence of a floral tube prompted Foster (1939) to transfer both Moraea cooperi and M. longiflora to Gynandriris (now sect. Gynandriris of Moraea) but the members of sect. Gynandriris do not actually have a perianth tube but rather a tubular extension of the ovary and are not closely related to M. cooperi.
+            textZh: SANBI 条目提供了 Moraea cooperi Baker 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: Strelitzia 42; archive Diagnostic row 95253, source 18638.0
+            placeTimeScope: Regional species account published 2020; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - Only cited regional descriptions and available diagnostic notes have been assessed; developmental, population-level and independent comparative variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Rocky sandstone and clay slopes and flats, often near water.
+            textZh: SANBI 区域植物志将 Moraea cooperi Baker 的生境记为：Rocky sandstone and clay slopes and flats, often near water.
+            sourceIds:
+              - sanbi_13878_0
+            locator: Strelitzia 29; archive Habitat row 29384, source 13878.0
+            placeTimeScope: Regional species account published 2012; the archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for each observation.
+        gaps:
+          - The cited habitat account does not establish locality-level sampling, seasonal variation, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6d3fc31132
+            part: title
+          zh:
+            page: zh
+            section: s-2d0c381632
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d3fc31132
+            part: body
+          zh:
+            page: zh
+            section: s-2d0c381632
+            part: body
+        sourceIds:
+          - sanbi_13878_0
+          - sanbi_18638_0
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f4bc1a5fc9
+            part: title
+          zh:
+            page: zh
+            section: s-8fe400c438
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f4bc1a5fc9
+            part: body
+          zh:
+            page: zh
+            section: s-8fe400c438
+            part: body
+        sourceIds:
+          - sanbi_13878_0

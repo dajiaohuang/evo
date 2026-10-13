@@ -1,0 +1,102 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis kohtaoensis
+  displayName: Ichthyophis kohtaoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N64B
+  sourceIndexes:
+    - name:
+        en: Ichthyophis kohtaoensis
+        zh: Ichthyophis kohtaoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N64B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/407
+            queryName: Ichthyophis kohtaoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/405
+            queryName: Ichthyophis bannanicus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 47
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/32
+            queryName: Ichthyophis kotaoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/165
+            queryName: Ichthyophis bannanica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-abf1eb7d53
+      - s-7e73ecb8a6
+      - s-b9cdf3de5e
+      - s-26b176f743
+      - s-1f8aeb1c79
+      - s-550a719f77
+      - s-d8a519e1c7
+      - s-4d90ecb5e2
+      - s-926a0ec1bf
+      - s-75bae52642
+      - s-f2faa12400
+      - s-026f34b8e1
+      - s-a12fc25008
+      - s-28b457377a
+      - s-6e74a4fe5b
+      - s-95ea1d6b0a
+      - s-8b8a94180e
+      - s-a214dc5f35
+      - s-01cff89ce5
+      - s-30e4e3be1f
+      - s-20c824543b
+      - s-c16bd2a0e4
+    zh:
+      - s-2c02bd1ac0
+      - s-8a3eba711d
+      - s-7faec30809
+      - s-71505334c4
+      - s-1927ed24e1
+      - s-1eda8dc633
+      - s-e961ae43e4
+      - s-6af742184a
+      - s-a3b906076f
+      - s-ea274af9ee
+      - s-f5a8f26bc9
+      - s-e36a8a8749
+      - s-4329e7d15b
+      - s-c0f3940168
+      - s-100930453d
+      - s-ecd6c63bd5
+      - s-ed1928d91c
+      - s-1b5009ce47
+      - s-ae327b12b0
+      - s-f60315c0cc
+      - s-2f87566139
+      - s-8a07462b22

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oedipina stuarti
+  displayName: Oedipina stuarti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74JN9
+  sourceIndexes:
+    - name:
+        en: Oedipina stuarti
+        zh: Oedipina stuarti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74JN9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/92
+            queryName: Oedipina stuarti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad64289cda
+      - s-ed4464b5f5
+      - s-7b9d7fc424
+      - s-dbf81e7e9e
+      - s-655589bda3
+      - s-640f59251f
+      - s-af27357346
+    zh:
+      - s-1dbaa8ccab
+      - s-57e04fe92f
+      - s-6df172b563
+      - s-692f3104e4
+      - s-3c65a2ffb3
+      - s-565e7169e0
+      - s-ad1db8a36d

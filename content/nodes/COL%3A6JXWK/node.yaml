@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca dendronastes
+  displayName: Gastrotheca dendronastes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXWK
+  sourceIndexes:
+    - name:
+        en: Gastrotheca dendronastes
+        zh: Gastrotheca dendronastes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXWK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/28
+            queryName: Gastrotheca dendronastes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f87d222e36
+      - s-ad5ced9d77
+      - s-1cac0b6c20
+      - s-dac515aa32
+      - s-aba10e9e21
+      - s-aef83191b2
+      - s-f99203856e
+      - s-3c19e486f2
+      - s-d005aee8ad
+    zh:
+      - s-5c507c490a
+      - s-fb0735859e
+      - s-5d17ac4ae1
+      - s-10607b1a5f
+      - s-acc990d107
+      - s-15bff16390
+      - s-b91d9c7f9a
+      - s-6307d37632
+      - s-a8c768ee39

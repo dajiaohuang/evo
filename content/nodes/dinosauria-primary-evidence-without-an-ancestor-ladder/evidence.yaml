@@ -1,0 +1,388 @@
+schemaVersion: 1
+records:
+  story:
+    title:
+      page: en
+      section: s-cc5a342753
+      part: title
+    titleZh:
+      page: zh
+      section: s-ef43c150df
+      part: title
+    dek:
+      page: en
+      section: s-cc5a342753
+      part: body
+    theme: amber
+    durationMinutes: 20
+    featured: true
+    evidenceStatus: available-with-limitations
+    steps:
+      - id: competing-roots
+        title:
+          page: en
+          section: s-a4de6304bf
+          part: title
+        text:
+          page: en
+          section: s-a4de6304bf
+          part: body
+        age: 230.5
+        timeRange:
+          - 233
+          - 228
+        taxonIds:
+          - dinosauria
+          - ornithischia
+          - saurischia
+        view: tree
+        eventId: dinosaur-radiation
+        annotation: The 233–228 Ma atlas interval is a display context for early dinosaur fossils, not an age inferred by either morphology matrix.
+        claimLinks:
+          - claimId: claim:event:dinosaur-radiation
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-c2b9d28c3c
+          part: title
+        textZh:
+          page: zh
+          section: s-c2b9d28c3c
+          part: body
+      - id: carnivorous-sauropodomorph
+        title:
+          page: en
+          section: s-ccb4d14b56
+          part: title
+        text:
+          page: en
+          section: s-ccb4d14b56
+          part: body
+        age: 232.3
+        timeRange:
+          - 233.2
+          - 231.4
+        taxonIds:
+          - buriolestes
+          - buriolestes_schultzi
+          - sauropodomorpha
+        view: evidence
+        eventId: buriolestes-holotype-feeding-boundary
+        annotation: Formation correlation bounds the age; the dietary transition is a mapped hypothesis across sampled taxa, not a linear sequence observed in one lineage.
+        claimLinks:
+          - claimId: claim:event:buriolestes-holotype-feeding-boundary
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-415a85c432
+          part: title
+        textZh:
+          page: zh
+          section: s-415a85c432
+          part: body
+      - id: early-ornithischian
+        title:
+          page: en
+          section: s-049abe889a
+          part: title
+        text:
+          page: en
+          section: s-049abe889a
+          part: body
+        age: 205.65
+        timeRange:
+          - 210
+          - 201.3
+        taxonIds:
+          - eocursor
+          - ornithischia
+        view: evidence
+        eventId: eocursor-holotype-ornithischian-test
+        annotation: The broad display interval follows formation-level correlation and must not be read as a direct specimen date or a global ornithischian FAD.
+        claimLinks:
+          - claimId: claim:event:eocursor-holotype-ornithischian-test
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-2ffbe49ba6
+          part: title
+        textZh:
+          page: zh
+          section: s-2ffbe49ba6
+          part: body
+      - id: growth-changes-stance
+        title:
+          page: en
+          section: s-efe2a7d7b4
+          part: title
+        text:
+          page: en
+          section: s-efe2a7d7b4
+          part: body
+        age: 188.55
+        timeRange:
+          - 192.9
+          - 184.2
+        taxonIds:
+          - mussaurus
+          - sauropodomorpha
+        view: evidence
+        eventId: mussaurus-ontogenetic-stance-model
+        annotation: The fossils constrain anatomy; centre of mass and stance are sensitivity-tested reconstructions and cannot be generalized to every sauropodomorph.
+        claimLinks:
+          - claimId: claim:event:mussaurus-ontogenetic-stance-model
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-ebce51ead0
+          part: title
+        textZh:
+          page: zh
+          section: s-ebce51ead0
+          part: body
+      - id: giant-with-flexed-limbs
+        title:
+          page: en
+          section: s-995a7855dc
+          part: title
+        text:
+          page: en
+          section: s-995a7855dc
+          part: body
+        age: 197.75
+        timeRange:
+          - 200.5
+          - 195
+        taxonIds:
+          - ledumahadi
+          - sauropodomorpha
+        view: evidence
+        eventId: ledumahadi-body-mass-quadrupedality-model
+        annotation: The specimen is incomplete and the earliest-Jurassic interval is formation-bounded; it is not a universal threshold or ancestor for sauropod gigantism.
+        claimLinks:
+          - claimId: claim:event:ledumahadi-body-mass-quadrupedality-model
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-dbbb13f7a8
+          part: title
+        textZh:
+          page: zh
+          section: s-dbbb13f7a8
+          part: body
+      - id: armour-and-placement
+        title:
+          page: en
+          section: s-1374931cf6
+          part: title
+        text:
+          page: en
+          section: s-1374931cf6
+          part: body
+        age: 192
+        timeRange:
+          - 193
+          - 191
+        taxonIds:
+          - scelidosaurus
+          - thyreophora
+        view: evidence
+        eventId: scelidosaurus-r1111-dermal-skeleton
+        annotation: Missing armour and preparation history prevent a complete in-place map; placement is one analysis rather than an uncontested thyreophoran topology.
+        claimLinks:
+          - claimId: claim:event:scelidosaurus-r1111-dermal-skeleton
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-33da981735
+          part: title
+        textZh:
+          page: zh
+          section: s-33da981735
+          part: body
+      - id: ceratopsian-mosaic
+        title:
+          page: en
+          section: s-1d9187f660
+          part: title
+        text:
+          page: en
+          section: s-1d9187f660
+          part: body
+        age: 158.45
+        timeRange:
+          - 161.2
+          - 155.7
+        taxonIds:
+          - yinlong
+          - yinlong_downsi
+          - ceratopsia
+        view: tree
+        eventId: yinlong-v14530-ceratopsian-mosaic
+        annotation: The atlas interval is formation-level; topology and character polarity depend on outgroups, coding and the sampled matrix.
+        claimLinks:
+          - claimId: claim:event:yinlong-v14530-ceratopsian-mosaic
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-7c32ea15f9
+          part: title
+        textZh:
+          page: zh
+          section: s-7c32ea15f9
+          part: body
+      - id: skin-preservation-pathway
+        title:
+          page: en
+          section: s-b643038f61
+          part: title
+        text:
+          page: en
+          section: s-b643038f61
+          part: body
+        age: 66.5
+        timeRange:
+          - 67
+          - 66
+        taxonIds:
+          - edmontosaurus
+          - hadrosauridae
+        view: evidence
+        eventId: edmontosaurus-ndgs2000-skin-taphonomy
+        annotation: The evidence concerns one specimen and one depositional history; skin presence does not establish original colour, physiology or preservation frequency.
+        claimLinks:
+          - claimId: claim:event:edmontosaurus-ndgs2000-skin-taphonomy
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-13c05d6cd4
+          part: title
+        textZh:
+          page: zh
+          section: s-13c05d6cd4
+          part: body
+      - id: large-bodied-filaments
+        title:
+          page: en
+          section: s-7a8316d767
+          part: title
+        text:
+          page: en
+          section: s-7a8316d767
+          part: body
+        age: 124.94999999999999
+        timeRange:
+          - 125.8
+          - 124.1
+        taxonIds:
+          - yutyrannus
+          - yutyrannus_huali
+          - theropoda
+        view: evidence
+        eventId: yutyrannus-feathered-tyrannosauroid
+        annotation: Non-avian integument stays here; Avialae, flight models and living-bird COL26.8 names remain owned by crocodylomorphs-birds.
+        claimLinks:
+          - claimId: claim:event:yutyrannus-feathered-tyrannosauroid
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-b1eee1ca70
+          part: title
+        textZh:
+          page: zh
+          section: s-b1eee1ca70
+          part: body
+      - id: nest-association
+        title:
+          page: en
+          section: s-8ff1c3395f
+          part: title
+        text:
+          page: en
+          section: s-8ff1c3395f
+          part: body
+        age: 73
+        timeRange:
+          - 75
+          - 71
+        taxonIds:
+          - oviraptorosauria
+          - theropoda
+        view: evidence
+        eventId: oviraptorid-igm100979-nest-association
+        annotation: The original paper explicitly retains alternative explanations and limits testing of parental-system hypotheses in the fossil record.
+        claimLinks:
+          - claimId: claim:event:oviraptorid-igm100979-nest-association
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-7c3cc847bf
+          part: title
+        textZh:
+          page: zh
+          section: s-7c3cc847bf
+          part: body
+      - id: growth-curve-model
+        title:
+          page: en
+          section: s-9d621adf1f
+          part: title
+        text:
+          page: en
+          section: s-9d621adf1f
+          part: body
+        age: 74.5
+        timeRange:
+          - 83
+          - 66
+        taxonIds:
+          - tyrannosaurus
+          - tyrannosauridae
+        view: evidence
+        eventId: tyrannosaurid-histology-growth-curves
+        annotation: The 83–66 Ma atlas window spans sampled tyrannosaurids, not one population; the fitted curve is not a universal dinosaur growth schedule.
+        claimLinks:
+          - claimId: claim:event:tyrannosaurid-histology-growth-curves
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-d88ec6c9b8
+          part: title
+        textZh:
+          page: zh
+          section: s-d88ec6c9b8
+          part: body
+      - id: bone-crushing-model
+        title:
+          page: en
+          section: s-c1a46dd804
+          part: title
+        text:
+          page: en
+          section: s-c1a46dd804
+          part: body
+        age: 67
+        timeRange:
+          - 68
+          - 66
+        taxonIds:
+          - tyrannosaurus
+          - triceratops
+        view: evidence
+        eventId: tyrannosaurus-osteophagy-biomechanics
+        annotation: The models test capability rather than observe a feeding event; MOR 799 and the coprolite do not identify every individual or every feeding context.
+        claimLinks:
+          - claimId: claim:event:tyrannosaurus-osteophagy-biomechanics
+            relation: supports
+        titleZh:
+          page: zh
+          section: s-59694f5679
+          part: title
+        textZh:
+          page: zh
+          section: s-59694f5679
+          part: body
+    dekZh:
+      page: zh
+      section: s-ef43c150df
+      part: body

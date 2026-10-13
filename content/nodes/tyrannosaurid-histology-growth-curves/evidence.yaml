@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-6439eae522
+      part: title
+    titleZh:
+      page: zh
+      section: s-5bd6cfe7b0
+      part: title
+    category: adaptation
+    startAge: 83
+    endAge: 66
+    regions:
+      - North American tyrannosaurid specimen series
+    clades:
+      - Tyrannosauridae
+      - Tyrannosaurus
+    summary:
+      page: en
+      section: s-6439eae522
+      part: body
+    summaryZh:
+      page: zh
+      section: s-5bd6cfe7b0
+      part: body
+    claimIds:
+      - claim:event:tyrannosaurid-histology-growth-curves
+    evidenceItems:
+      - statement: Growth marks in a catalogued tyrannosaurid specimen series including FMNH PR 2081 provide histological observations; ages, asymptotic masses and a peak Tyrannosaurus growth rate near 2.1 kilograms per day are fitted estimates conditional on missing marks and body-mass equations.
+        relation: supports
+        claimIds:
+          - claim:event:tyrannosaurid-histology-growth-curves
+        referenceLinks:
+          - referenceId: erickson-2004-tyrannosaurid-growth
+            relation: supports
+            pages: 772–775
+            figure: Figures 1–3; Supplementary Information and specimen tables
+            quoteLocator: Histological methods; Growth curves; Life-history comparisons
+    uncertaintyItems:
+      - statement: The 83–66 Ma atlas window spans sampled tyrannosaurids, not one population; the fitted curve is not a universal dinosaur growth schedule.
+        relation: contextualizes
+        claimIds:
+          - claim:event:tyrannosaurid-histology-growth-curves
+        referenceLinks:
+          - referenceId: erickson-2004-tyrannosaurid-growth
+            relation: supports
+            pages: 772–775
+            figure: Figures 1–3; Supplementary Information and specimen tables
+            quoteLocator: Histological methods; Growth curves; Life-history comparisons
+  claims:
+    - subjectId: event:tyrannosaurid-histology-growth-curves
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Growth marks in a catalogued tyrannosaurid specimen series including FMNH PR 2081 provide histological observations; ages, asymptotic masses and a peak Tyrannosaurus growth rate near 2.1 kilograms per day are fitted estimates conditional on missing marks and body-mass equations.
+      confidence: medium
+      confidenceRationale: Histological marks are repeatable observations, but retrospective ageing, mass estimates and logistic curve parameters are model-dependent and have since been revisited.
+      referenceLinks:
+        - referenceId: erickson-2004-tyrannosaurid-growth
+          relation: supports
+          pages: 772–775
+          figure: Figures 1–3; Supplementary Information and specimen tables
+          quoteLocator: Histological methods; Growth curves; Life-history comparisons
+  claim-rationales.zh:
+    - 组织学生长线可重复观察，但回推年龄、体重估计与逻辑斯蒂曲线参数依赖模型，且后来已有重新分析。
+  claim-statements.zh:
+    - 包含 FMNH PR 2081 在内的编目暴龙科标本序列，其生长线提供组织学观察；年龄、渐近体重及霸王龙约每日 2.1 千克的峰值生长速率，都是受缺失生长线与体重方程制约的拟合估计。

@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys daiyunensis
+  displayName: Boulenophrys daiyunensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5R5X
+  sourceIndexes:
+    - name:
+        en: Boulenophrys daiyunensis
+        zh: Boulenophrys daiyunensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5R5X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/337
+            queryName: Boulenophrys daiyunensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/292
+            queryName: Panophrys daiyunensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9171958a9d
+      - s-eec7b8e7c4
+      - s-b22f550b1e
+      - s-157ed1d15b
+      - s-58aa08012c
+      - s-7ff51c55f5
+      - s-954ffb7c75
+      - s-b1c5422c06
+      - s-3f05bf6cb0
+      - s-27cacdca64
+    zh:
+      - s-7442963cac
+      - s-2b471a3e87
+      - s-2d6b803be8
+      - s-bcd5fe2ae9
+      - s-9f0e280ada
+      - s-ad44fb63e4
+      - s-1961f0a92a
+      - s-69c273b3e5
+      - s-846e30176c
+      - s-4b0feead31

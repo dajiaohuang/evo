@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pipa myersi
+  displayName: Pipa myersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4J2ZD
+  sourceIndexes:
+    - name:
+        en: Pipa myersi
+        zh: Pipa myersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4J2ZD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/355
+            queryName: Pipa myersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-18d4efd8d8
+      - s-22c772f2aa
+      - s-49716f5d01
+      - s-36a8d528a4
+      - s-dedc8887cc
+      - s-082aa04bd6
+      - s-4765b37e13
+      - s-c79a7fa07b
+      - s-e0ef11dfd0
+      - s-a46f9e7def
+    zh:
+      - s-427d695e38
+      - s-19284dbb82
+      - s-30e4d0198a
+      - s-c32de795d0
+      - s-a6c6d92b4c
+      - s-4f2692bfb4
+      - s-081135df33
+      - s-1eaded2808
+      - s-0a334492a3
+      - s-0372faab35

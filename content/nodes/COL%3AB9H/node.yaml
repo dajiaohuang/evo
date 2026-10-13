@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylidae Rafinesque, 1815
+  displayName: Hylidae
+  rank: family
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/B9H
+  sourceIndexes:
+    - name:
+        en: Hylidae
+        zh: Hylidae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: B9H
+          rank: family
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/94
+            queryName: Hylidae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1219
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e04bbb1207
+      - s-b580699b27
+      - s-f8bb4704c1
+      - s-34219f5071
+      - s-e77da48bde
+      - s-2493665084
+      - s-912815888e
+    zh:
+      - s-8ec564d0e1
+      - s-08b49b0d08
+      - s-21866041e0
+      - s-59f5cc298f
+      - s-b7eb89c977
+      - s-96e6e11503
+      - s-2002409702

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis corvus
+  displayName: Gephyromantis corvus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FTTJ
+  sourceIndexes:
+    - name:
+        en: Gephyromantis corvus
+        zh: Gephyromantis corvus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FTTJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/118
+            queryName: Gephyromantis corvus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/169
+            queryName: Mantidactylus corvus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/334
+            queryName: Gephyromantis azzurrae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b0c46fe57
+      - s-900e61cf89
+      - s-4a8a073e51
+      - s-824c4867dd
+      - s-e4e5cd407b
+      - s-52bef0d7b2
+      - s-4d614df2d0
+      - s-829a7ffc2c
+      - s-1f26591067
+      - s-0cac3c977f
+    zh:
+      - s-a62f78bfdc
+      - s-e53134ac80
+      - s-ab545b125b
+      - s-dd46c0c7d1
+      - s-0d7c5699c8
+      - s-299f585dff
+      - s-cc276a5dd9
+      - s-9f334ce178
+      - s-b39972fcb1
+      - s-ce4e112061

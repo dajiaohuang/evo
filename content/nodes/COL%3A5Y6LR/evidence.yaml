@@ -1,0 +1,376 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton infernalis Rovito & Parra-Olea, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton infernalis
+      zh: Chiropterotriton infernalis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e8904a7837
+            part: title
+          zh:
+            page: zh
+            section: s-2370530da0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e8904a7837
+            part: body
+          zh:
+            page: zh
+            section: s-2370530da0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f2d27f2998
+            part: title
+          zh:
+            page: zh
+            section: s-20521e159b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f2d27f2998
+            part: body
+          zh:
+            page: zh
+            section: s-20521e159b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-d57494f949
+            part: title
+          zh:
+            page: zh
+            section: s-73ea91f926
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6lr
+        text:
+          en:
+            page: en
+            section: s-d57494f949
+            part: body
+          zh:
+            page: zh
+            section: s-73ea91f926
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-18709ca54d
+            part: title
+          zh:
+            page: zh
+            section: s-23e416d45e
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6lr
+        text:
+          en:
+            page: en
+            section: s-18709ca54d
+            part: body
+          zh:
+            page: zh
+            section: s-23e416d45e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e6378ab2df
+            part: title
+          zh:
+            page: zh
+            section: s-5c8e017bad
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6lr
+        text:
+          en:
+            page: en
+            section: s-e6378ab2df
+            part: body
+          zh:
+            page: zh
+            section: s-5c8e017bad
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-61647b8d66
+            part: title
+          zh:
+            page: zh
+            section: s-16cf0c5110
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6lr
+        text:
+          en:
+            page: en
+            section: s-61647b8d66
+            part: body
+          zh:
+            page: zh
+            section: s-16cf0c5110
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-1e4bdbac61
+            part: title
+          zh:
+            page: zh
+            section: s-0e2004472b
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6lr
+        text:
+          en:
+            page: en
+            section: s-1e4bdbac61
+            part: body
+          zh:
+            page: zh
+            section: s-0e2004472b
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f56d08a092
+            part: title
+          zh:
+            page: zh
+            section: s-ff9d8f28c3
+            part: title
+        sourceIds:
+          - primary-pmc12135470-5y6lr
+        text:
+          en:
+            page: en
+            section: s-f56d08a092
+            part: body
+          zh:
+            page: zh
+            section: s-ff9d8f28c3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton infernalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/5Y6LR
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12135470-5y6lr
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton infernalis: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1fa7225240
+        part: body
+      zh:
+        page: zh
+        section: s-77aa9ae370
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s42523-025-00423-x
+        referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+        sourceKey: primary-pmc12135470-5y6lr
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12135470/article.xml
+        sourceConcept: 2017–2018 morphology-identified Chiropterotriton infernalis Mexican field sample, exact frozen-name candidate not voucher/concept certification
+        evidenceRead: "Chiropterotriton infernalis: XML Methods Sec3–Sec6, Results Sec7–Sec10, Discussion Sec12–Sec14 and Conclusions read. Original independently written factual summaries only, no article translation or reused images. Individual supplementary files unavailable after CDN DNS failure; raw reads/functions/individual diagnostic metadata not independently reconstructed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: Selected Mexican survey localities, 2017–2018
+              zh: 2017–2018 年墨西哥所选调查地点
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6lr
+            locator: PMC12135470 XML Sec3 Methods sampling; Sec7 Results Figure1 caption
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e3720e21e5
+                part: body
+              zh:
+                page: zh
+                section: s-17aabf4ed7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Skin swabs describe a filtered bacterial community
+              zh: 皮肤拭子描述经过筛选的细菌群落
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6lr
+            locator: PMC12135470 XML Sec3–Sec4 sampling and16S processing; Sec7 controls
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4f3adda799
+                part: body
+              zh:
+                page: zh
+                section: s-17bb0f153f
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Bd detection is not a test of resistance or disease survival
+              zh: Bd 检出不是抗性或患病存活试验
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6lr
+            locator: PMC12135470 XML Sec6 Bd assay; Sec10 Bd Results; Sec14 Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-960750bdd6
+                part: body
+              zh:
+                page: zh
+                section: s-930fe7002b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Antifungal capacity is inferred rather than demonstrated in this host
+              zh: 本宿主抗真菌能力为推断而非实证
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6lr
+            locator: PMC12135470 XML Sec4–Sec5 database/PICRUSt2/network methods; Sec8–Sec9 Results; Sec13 Discussion; Sec15 Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-03900ac0c4
+                part: body
+              zh:
+                page: zh
+                section: s-c8d8fad89a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: ecology
+            heading:
+              en: Within-species cave–forest comparisons retain their sample sizes
+              zh: 种内洞穴—森林比较保留样本量
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6lr
+            locator: PMC12135470 XML Sec4 reduceddataset counts; Sec8 within-species comparisons
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eb63396a1e
+                part: body
+              zh:
+                page: zh
+                section: s-ff1518a383
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: ecology
+            heading:
+              en: High ITS-copy observations without a measured fatal threshold
+              zh: 高 ITS 拷贝观察但未测致死阈值
+            referenceId: ref-ea24d12d-f00f-4662-a657-67a543981923
+            sourceKey: primary-pmc12135470-5y6lr
+            locator: PMC12135470 XML Sec6 ITS-copy limitation; Sec10 GZsamples; Sec14 Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-66df86188e
+                part: body
+              zh:
+                page: zh
+                section: s-bace5cd7d1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

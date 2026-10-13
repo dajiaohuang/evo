@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera araucaria
+  displayName: Adenomera araucaria
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZMF
+  sourceIndexes:
+    - name:
+        en: Adenomera araucaria
+        zh: Adenomera araucaria
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZMF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/26
+            queryName: Adenomera araucaria
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/324
+            queryName: Leptodactylus araucaria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f289914c9b
+      - s-45b9171de6
+      - s-d5aac65ca1
+      - s-4b25d9029d
+      - s-33e07b9682
+      - s-347954a9ff
+      - s-84b8655f3b
+      - s-04d59660b5
+      - s-c342dc0095
+      - s-d1cf513912
+    zh:
+      - s-7ecbed2c04
+      - s-8fd607c6fe
+      - s-c9917c752e
+      - s-19d7b5b2d3
+      - s-8a13fb4196
+      - s-ed09a83111
+      - s-1d8c245982
+      - s-7f7accaaf0
+      - s-403b36e6f0
+      - s-349d7b82ed

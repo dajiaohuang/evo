@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-189421dd3b
+      part: title
+    titleZh:
+      page: zh
+      section: s-b31c2cb96a
+      part: title
+    category: fossil
+    startAge: 506
+    endAge: 504
+    regions:
+      - Raymond Quarry, Burgess Shale, British Columbia, Canada
+    clades:
+      - Burgessomedusa phasmiformis
+      - Medusozoa
+    summary:
+      page: en
+      section: s-189421dd3b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-b31c2cb96a
+      part: body
+    claimIds:
+      - claim:event:burgessomedusa-swimming-medusa
+    evidenceItems:
+      - statement: The described sample includes bell-shaped bodies up to roughly 20 cm with a circumferential margin, dense tentacles and radial internal features.
+        relation: supports
+        claimIds:
+          - claim:event:burgessomedusa-swimming-medusa
+        referenceLinks:
+          - referenceId: moon-2023-burgessomedusa
+            relation: supports
+            pages: "20222490"
+            figure: Figures 1–5; Supplementary Figures
+            quoteLocator: Raymond Quarry specimens, diagnosis and medusozoan comparisons
+    uncertaintyItems:
+      - statement: Compression changes three-dimensional shape; affinity does not identify a direct ancestor, the first medusa of every lineage or measured locomotor speed.
+        relation: contextualizes
+        claimIds:
+          - claim:event:burgessomedusa-swimming-medusa
+        referenceLinks:
+          - referenceId: moon-2023-burgessomedusa
+            relation: supports
+            pages: "20222490"
+            figure: Figures 1–5; Supplementary Figures
+            quoteLocator: Raymond Quarry specimens, diagnosis and medusozoan comparisons
+  claims:
+    - subjectId: event:burgessomedusa-swimming-medusa
+      claimKind: scientific
+      claimType: morphology
+      statement: Burgessomedusa specimens preserve a large bell, more than ninety marginal tentacles and internal radial structures consistent with a free-swimming medusozoan by the middle Cambrian.
+      confidence: high
+      confidenceRationale: Multiple specimens preserve diagnostic gross anatomy; exact placement within Acraspeda and swimming performance remain comparative interpretations.
+      referenceLinks:
+        - referenceId: moon-2023-burgessomedusa
+          relation: supports
+          pages: "20222490"
+          figure: Figures 1–5; Supplementary Figures
+          quoteLocator: Raymond Quarry specimens, diagnosis and medusozoan comparisons
+  claim-rationales.zh:
+    - 多件标本保存诊断性宏观解剖；其在无缘膜水母类中的精确位置和游泳性能仍属比较解释。
+  claim-statements.zh:
+    - Burgessomedusa 标本保存了大型伞部、九十余条边缘触手和内部辐射构造，与中寒武世已出现自由游泳的水母型刺胞动物相符。

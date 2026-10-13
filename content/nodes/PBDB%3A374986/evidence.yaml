@@ -1,0 +1,270 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sus waylandi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sus waylandi
+      en: Sus waylandi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-8e7bc5259f
+            part: body
+          en:
+            page: en
+            section: s-60a417480c
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f05cb7418d
+            part: body
+          en:
+            page: en
+            section: s-78ef29295f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-39f7f5ade9
+            part: body
+          en:
+            page: en
+            section: s-53192685e6
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-85c15be314
+            part: body
+          en:
+            page: en
+            section: s-1f51faadf3
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b1dec6dd61
+            part: body
+          en:
+            page: en
+            section: s-e567c9bac1
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Sus waylandi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=374986&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:374986; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:374986
+          selectedOccurrenceIds:
+            - occ:217544
+            - occ:218826
+            - occ:218845
+            - occ:219008
+            - occ:227534
+            - occ:227570
+            - occ:227583
+            - occ:227757
+            - occ:227760
+            - occ:227772
+            - occ:228363
+            - occ:228583
+            - occ:228697
+            - occ:228709
+            - occ:228720
+            - occ:228763
+            - occ:228828
+            - occ:228837
+            - occ:228859
+          selectedCollectionIds:
+            - col:22218
+            - col:22344
+            - col:22345
+            - col:22427
+            - col:22198
+            - col:22214
+            - col:22217
+            - col:22245
+            - col:22247
+            - col:22394
+            - col:22418
+            - col:22422
+            - col:22424
+            - col:22435
+            - col:22455
+            - col:22456
+            - col:22461
+          sourceReferenceIds:
+            - ref:5427
+            - ref:5454
+            - ref:5432
+            - ref:5429
+            - ref:5384
+            - ref:5437
+            - ref:5428
+            - ref:5607
+            - ref:5433
+            - ref:5435
+          originalIdentificationMappings:
+            - occurrenceId: occ:217544
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:218826
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:218845
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:219008
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:227534
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:227570
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:227583
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:227757
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:227760
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:227772
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228363
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228583
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228697
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228709
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228720
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228763
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228828
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228837
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+            - occurrenceId: occ:228859
+              originalIdentifiedName: Nyanzachoerus waylandi
+              acceptedName: Sus waylandi
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-e54964d9c0
+        part: body
+      en:
+        page: en
+        section: s-389e11b094
+        part: body

@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-9b1defdefb
+      part: title
+    titleZh:
+      page: zh
+      section: s-14d3f2bb19
+      part: title
+    category: genomics
+    startAge: 0.001
+    endAge: 0
+    regions:
+      - Global living-bat molecular sample
+    clades:
+      - Chiroptera
+      - Rhinolophoidea
+      - Pteropodidae
+    summary:
+      page: en
+      section: s-9b1defdefb
+      part: body
+    summaryZh:
+      page: zh
+      section: s-14d3f2bb19
+      part: body
+    claimIds:
+      - claim:event:bat-seven-gene-topology
+    evidenceItems:
+      - statement: Four nuclear and three mitochondrial genes contributed 8,230 aligned base pairs; analyses group sampled rhinolophoids with megabats rather than other microbats.
+        relation: supports
+        claimIds:
+          - claim:event:bat-seven-gene-topology
+        referenceLinks:
+          - referenceId: teeling-2000-bat-echolocation-topology
+            relation: supports
+            pages: 188–192
+            figure: Figures 1–3
+            quoteLocator: Molecular dataset; Phylogenetic analyses; Trait scenarios
+    uncertaintyItems:
+      - statement: Multiple origins or losses of laryngeal echolocation are alternative historical reconstructions; the topology does not directly observe the first flight or sonar event.
+        relation: contextualizes
+        claimIds:
+          - claim:event:bat-seven-gene-topology
+        referenceLinks:
+          - referenceId: teeling-2000-bat-echolocation-topology
+            relation: supports
+            pages: 188–192
+            figure: Figures 1–3
+            quoteLocator: Molecular dataset; Phylogenetic analyses; Trait scenarios
+  claims:
+    - subjectId: event:bat-seven-gene-topology
+      claimKind: scientific
+      claimType: topology
+      statement: An 8,230-base-pair alignment of four nuclear and three mitochondrial genes grouped sampled rhinolophoid microbats with megabats rather than other microbats; repeated gain or loss of laryngeal echolocation is therefore a historical inference from the topology, not a directly observed origin event.
+      confidence: medium
+      confidenceRationale: The sequence matrix and multiple phylogenetic analyses are reproducible, but limited loci and taxa, model choice and trait coding leave alternative histories of echolocation.
+      referenceLinks:
+        - referenceId: teeling-2000-bat-echolocation-topology
+          relation: supports
+          pages: 188–192
+          figure: Figures 1–3
+          quoteLocator: Molecular dataset; Phylogenetic analyses; Echolocation scenarios
+  claim-rationales.zh:
+    - 序列矩阵与多种系统分析可复核，但有限基因与类群、模型选择及性状编码仍容许回声定位的替代历史。
+  claim-statements.zh:
+    - 由 4 个核基因和 3 个线粒体基因构成的 8230 碱基比对把取样的菊头蝠总科小蝙蝠与大蝙蝠归为一支，而非与其他小蝙蝠成支；喉源回声定位的重复获得或丢失因此是从拓扑推导的历史解释，不是直接观察到的起源事件。

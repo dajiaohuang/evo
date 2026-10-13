@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Blaira ornata
+  displayName: Blaira ornata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M3ZDJ
+  sourceIndexes:
+    - name:
+        en: Blaira ornata
+        zh: Blaira ornata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M3ZDJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/426
+            queryName: Blaira ornata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/272
+            queryName: Ansonia ornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/376
+            queryName: Ghatophryne ornata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/377
+            queryName: Bufo pulcher
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f5bc24a40
+      - s-7a16fa1fc3
+      - s-3c2b3ee9d3
+      - s-97a5d99001
+      - s-59ad8d0bf3
+      - s-6d81e9a0d2
+      - s-4cbb58af9a
+      - s-78f39f1200
+      - s-a6d61255eb
+      - s-f9478a7ace
+      - s-fcb684b8dd
+      - s-6c459f0f84
+    zh:
+      - s-7f1ac0dc3c
+      - s-d7eacdc645
+      - s-4416def618
+      - s-08bbf01d04
+      - s-f784cf0941
+      - s-b714476fe8
+      - s-eaf9bd062d
+      - s-f2b36cc2c9
+      - s-3adde6d2a5
+      - s-7aac87bec3
+      - s-e965e4837f
+      - s-549ff66cb2

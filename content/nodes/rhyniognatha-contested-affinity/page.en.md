@@ -1,0 +1,3 @@
+## Rhyniognatha: an insect or a myriapod? {#s-fc271bd41b}
+The fossil called *Rhyniognatha hirsti* comes from Scotland’s Rhynie Chert. NHMUK PI IN 38234 is an isolated head fragment that preserves mouthparts. A 2004 study read its mandibles as those of a dicondylic insect, perhaps related to winged insects; a 2017 three-dimensional reanalysis instead favored a myriapod, possibly a centipede. Because the same incomplete specimen anchors these incompatible readings, its insect identity remains unsettled: it is not secure evidence for an early insect or a dependable calibration for the origin of flight.
+

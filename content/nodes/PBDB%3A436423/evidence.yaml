@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Bermanerpeton kinneyi
+    rank: species
+    sourceTaxonId: txn:436423
+    name:
+      en: Bermanerpeton kinneyi
+      zh: Bermanerpeton kinneyi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-d4c9b6192a
+            part: body
+          zh:
+            page: zh
+            section: s-4b133c1a7f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-bb1614a7b4
+            part: body
+          zh:
+            page: zh
+            section: s-5ec2415918
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-dbb079bbd8
+            part: body
+          zh:
+            page: zh
+            section: s-7ce2c02427
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:436423; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Werneburg, J. W. Schneider, and S. G. Lucas. 2021. The new dvinosaurian Bermanerpeton kinneyi (Temnospondyli), with “branchiosaurid” characters, from the Late Pennsylvanian Kinney Brick Quarry in New Mexico. New Mexico Museum of Natural History and Science Bulletin 84:433-451
+    occurrenceEvidence:
+      - occurrenceId: occ:1558355
+        collectionId: col:179964
+        acceptedTaxonId: txn:436423
+        identifiedName: Bermanerpeton kinneyi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:76641
+        bibliography: R. Werneburg, J. W. Schneider, and S. G. Lucas. 2021. The new dvinosaurian Bermanerpeton kinneyi (Temnospondyli), with “branchiosaurid” characters, from the Late Pennsylvanian Kinney Brick Quarry in New Mexico.  In S. G. Lucas, W. A. DiMichele, B. D. Allen (eds.), New Mexico Museum of Natural History and Science Bulletin 84:433-451
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Bernalillo
+        stratigraphy:
+          group: null
+          formation: Wild Cow
+          member: Pine Shadow
+        olderAgeMa: 303.7
+        youngerAgeMa: 298.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-dbb079bbd8
+            part: body
+          zh:
+            page: zh
+            section: s-7ce2c02427
+            part: body
+        sourceIds: []

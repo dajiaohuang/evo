@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla oxente
+  displayName: Bokermannohyla oxente
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68N9X
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla oxente
+        zh: Bokermannohyla oxente
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68N9X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/68
+            queryName: Bokermannohyla oxente
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-34cf5f4f8e
+      - s-8aa5591317
+      - s-8cae5acc39
+      - s-cf8c8307c9
+      - s-d5ed37aa19
+      - s-1e20181132
+      - s-ee5648505e
+      - s-b3f17f1ed3
+      - s-a492eb5d72
+      - s-9d726a1a07
+      - s-c3862101a3
+      - s-aad0081bf4
+      - s-ae94c903a3
+      - s-13bdb91cb3
+      - s-89977d8b13
+      - s-2cba9a1b29
+      - s-204072b85a
+      - s-f13e20e5dc
+    zh:
+      - s-5b52f02ac8
+      - s-e3239af53e
+      - s-f70aba462c
+      - s-026e63d960
+      - s-b346b60eda
+      - s-c0cf46779a
+      - s-d01e369eb6
+      - s-19d6d169c4
+      - s-36dc746a24
+      - s-9cf7fc4f85
+      - s-bb5f15e081
+      - s-256a2d163c
+      - s-bd010e2e17
+      - s-c75158d90b
+      - s-7c56afbb04
+      - s-47e2a39101
+      - s-f7600450dc
+      - s-6b3c2fbdbf

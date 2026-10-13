@@ -1,0 +1,148 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Rhinesuchoides capensis
+    rank: species
+    sourceTaxonId: txn:266933
+    name:
+      en: Rhinesuchoides capensis
+      zh: Rhinesuchoides capensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-cc8e7442d7
+            part: body
+          zh:
+            page: zh
+            section: s-30a671cfa9
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-45aa8c356c
+            part: body
+          zh:
+            page: zh
+            section: s-69eb7c8481
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-b9583aef54
+            part: body
+          zh:
+            page: zh
+            section: s-209c10aa6e
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:266933; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: S. H. Haughton. 1925. Investigations in South African fossil reptiles and amphibians (Part 13). Annals of the South African Museum 22:227-261
+    occurrenceEvidence:
+      - occurrenceId: occ:1133423
+        collectionId: col:144271
+        acceptedTaxonId: txn:266933
+        identifiedTaxonId: var:266933
+        identifiedName: Rhinesuchus capensis n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:46648
+        bibliography: S. H. Haughton. 1925. Investigations in South African fossil reptiles and amphibians (Part 13). Annals of the South African Museum 22:227-261
+        locality:
+          countryCode: ZA
+          stateProvince: Eastern Cape
+          county: null
+        stratigraphy:
+          group: Beaufort
+          formation: null
+          member: null
+        olderAgeMa: 259.857
+        youngerAgeMa: 254.14
+      - occurrenceId: occ:1393307
+        collectionId: col:93096
+        acceptedTaxonId: txn:266933
+        identifiedTaxonId: txn:267023
+        identifiedName: Rhinesuchus avenanti n. sp.
+        taxonomicDifference: null
+        referenceId: ref:62606
+        bibliography: "C. A. Marsicano, E. Latimer, and B. Rubidge, R. M. H. Smith. 2017. The Rhinesuchidae and early history of the Stereospondyli (Amphibia: Temnospondyli) at the end of the Palaeozoic. Zoological Journal of the Linnean Society"
+        locality:
+          countryCode: ZA
+          stateProvince: Western Cape
+          county: Beaufort West
+        stratigraphy:
+          group: Beaufort
+          formation: Abrahamskraal
+          member: null
+        olderAgeMa: 264.28
+        youngerAgeMa: 259.857
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-b9583aef54
+            part: body
+          zh:
+            page: zh
+            section: s-209c10aa6e
+            part: body
+        sourceIds: []

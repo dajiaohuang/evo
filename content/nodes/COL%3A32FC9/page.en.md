@@ -1,0 +1,3 @@
+## What underground stem, leaves and flowers are described? {#s-057d9cbc5e}
+The Flora do Brasil 2020 field records a rhizome and no Malpighian-type hairs on the stem. Opposite leaves are oval or heart-shaped, with blunt to tapered bases and flat margins. The inflorescence is leafy. Flower stalks are 0.1–6 mm long, and bracteoles are present. The 3–10 mm floral tube bears closely pressed stiff hairs; its blunt spur points horizontally. Purple petals are absent by the fruit stage. Stamens attach in the upper third of the tube; no vesicle is recorded, and the nectar gland at the ovary base may point upward or downward. The fruit is tubular and the seed margin blunt. These are alternatives from one regional database row.
+

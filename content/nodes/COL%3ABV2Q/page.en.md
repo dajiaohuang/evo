@@ -1,0 +1,91 @@
+## Accepted name and placement {#s-1dfe68aa50}
+COL26.8 accepts Allobates trilineatus (Boulenger, 1884) as a species. Its recorded classification places it along Anura (order) → Aromobatidae (family) → Allobates (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-ec51cc80af}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Foraging strata — AmphiBIO source {#s-3bd84eaae0}
+Historical source concept: Allobates trilineatus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags terrestrial; aquatic as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Activity periods — AmphiBIO source {#s-ce7b0bb440}
+Historical source concept: Allobates trilineatus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags daytime as present categories. These are overall activity categories rather than a continuous behavioural time series.
+
+## Compiled adult dimensions — AmphiBIO source {#s-ecda0dd54e}
+Historical source concept: Allobates trilineatus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body mass: 0.54 g; maximum adult body length: 19 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Compiled life history — AmphiBIO source {#s-820fded478}
+Historical source concept: Allobates trilineatus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum reproductive events per year: 1 events/year. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental strategy — AmphiBIO source {#s-7a9050f08b}
+Historical source concept: Allobates trilineatus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The deposited record flags a larval stage. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related source records and datasets {#s-7bf9f3b59b}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Allobates trilineatus](../../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Aromobatidae/Allobates/Allobates_trilineatus/page.en.md)
+- [Amphibian morphology v3: Allobates trilineatus](../../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Dendrobatoidea/Allobates/Allobates_trilineatus/page.en.md)
+- [AmphiTherm curated snapshot: Allobates trilineatus](../../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Dendrobatidae/Allobates/Allobates_trilineatus/page.en.md)
+
+## Hand glands in the examined adult-male evidence {#s-98a7bd5695}
+In its preserved-specimen comparison, the study lists Allobates trilineatus in the adult-male specialized mucous gland table. Types I are scored present; types II, III, IV are scored absent. These scores concern specialized glands of the hand, not the absence of ordinary mucous or serous glands, and are not prevalence estimates. A zero is a scored condition in the examined material, not proof of absence in all populations, ages or reproductive states. The species-specific specimen numbers, sex/maturity breakdown and localities require Appendix S1 and Tables S1–S2, which were not retrieved here.
+
+## Gland types describe structure rather than chemical identity {#s-d5236993af}
+Type I glands are chiefly alveolar, with a small lumen, a single layer of secretory cells and an incomplete myoepithelial covering; they lie near the epidermis.  The definitions combine morphology and histochemical reactions; they do not identify a particular secreted molecule or demonstrate a physiological effect.
+
+## Preserved material, finger numbering and staining {#s-08290ba12e}
+No new specimens were collected for this study. Its dendrobatoid material comprised 77 specimens representing 36 source species labels; four additional specimens represented three hylodid species, and two Melanophryniscus outgroups were taken from literature. Exact preservation histories were unknown, although the authors understood the specimens to have been formalin-fixed and stored in ethanol. They usually removed one hand, decalcified it in EDTA and made 4.5 micrometre resin sections. Multiple stains tested tissue structure, neutral and acidic mucopolysaccharides, proteins and lipids. Fingers are numbered II–V under a tetrapod homology convention, so finger IV is the third of the four remaining digits. These methods describe the comparative study; they do not supply a species-specific sample size in the inspected main-text table. Appendix S1 and Tables S1–S2 remain unread, and figures were inspected only as captions.
+
+## A proposed reproductive role remains untested {#s-7f42c6e508}
+The authors suggest that protein-containing specialized hand glands could mediate chemical courtship signals during contact with a female's head. They did not characterize the secretions, identify a pheromone, test female responses or establish whether delivery is olfactory or transdermal. Hand location and stain reactions therefore cannot certify that Allobates trilineatus uses a particular chemical mating mechanism, causes ovulation or oviposition, or secretes an adhesive. A lack of these gland types likewise does not prove a species lacks every form of chemical communication. Behavioral observations cited in the discussion come from earlier studies and populations, not new mating experiments in this histological comparison.
+
+## Finger III distinguishes observation from imported coding {#s-70e3ab3dc9}
+The examined sample did not show swelling or type I glands on finger III. Nevertheless, the study coded swelling there as present using an earlier report of some individuals from three populations, while leaving the glandular basis unknown because that earlier report lacked histology. This is a population and evidence-source distinction, not a contradiction resolved by assigning the present specimens glands that were not observed.
+
+## Dark dorsal marks in the published comparison {#s-d2edb53739}
+The velocicantus description places trilineatus among compared Allobates with large dark dorsal patches or rhomboid,diamond,hourglass ortriangular marks. It contrasts this group with the focal species’ lack of large dark marks; it does not assign one particular shape to every listed species. This is the2020 author comparison, not a newly inspected photograph series, a full diagnosis or an invariant pattern in all life stages.
+
+## Duration and spacing in cited acoustic comparisons {#s-6e1b1ded11}
+The2020 paper attributes to previous studies a maximum call duration of 1.6 s, maximum 13 notes and inter-note interval 71–88 ms for trilineatus. These cited summaries preserve their units and do not describe the same sampling protocol or temperatures as the eight focal velocicantus males. Original source recordings have not been independently reanalysed, and no new mate-recognition experiment follows from this numerical contrast.
+
+## Examined vouchers retain their source localities {#s-e30f3d5a84}
+AppendixI reports the following examined material: Allobates trilineatus . Adults. Brazil: Acre: Parque Zoobotânico da Universidade Federal do Acre (INPAH 11958–11993). These are historical author-listed voucher/locality strings, not newly authenticated museum objects, a contemporary occurrence survey or complete range. Adult and tadpole lots and type/topotype labels remain as printed; ranges of voucher numbers do not certify that every intervening object was independently inspected here.
+
+## Reported donor codes and available loci {#s-1ddab1867d}
+The supplementary donor sheet reports row61 KU215172: 12S=DQ501986, 16S=DQ501986, 28S=DQ502938, COI=DQ502712, CYTB=DQ502411, HH3=DQ502279, RAG1=DQ503284, RHO=DQ503176, SIA=DQ503040; source=Grant et al. 2006; row62 MJH7477: 12S=DQ502118, 16S=DQ502118, COI=DQ502826, CYTB=DQ502550; source=Grant et al. 2006; row63 MPEG12356: 12S=DQ502050, 16S=DQ502050, COI=DQ502775, CYTB=DQ502481; source=Grant et al. 2006; row64 MNRJ91664: 16S=KY886584, COI=KY886601, CYTB=KY886625; source=Melo-Sampaio et al. 2018; row65 MNRJ91666: 16S=KY886586, COI=KY886603, CYTB=KY886627; source=Melo-Sampaio et al. 2018. Empty locus fields are unreported in this table, not evidence that the organism lacks that gene. Some accession strings appear in multiple locus columns; this does not certify separate assays or whole-genome coverage. Present-study and earlier-source categories stay attached to their donor rows. Original sequence records and museum specimens have not been independently authenticated.
+
+## Source locality strings remain donor-specific {#s-ed3b80c456}
+The same donor rows list row61 KU215172: Cusco Amazonico, Madre de Dios, Peru; row62 MJH7477: Panguana, Peru; row63 MPEG12356: Porto Walter, Acre, Brazil; row64 MNRJ91664: Envira, Amazonas, Brazil; row65 MNRJ91666: Feijó, Acre, Brazil. These are source locality strings, not coordinates from a new field survey or a complete contemporary species range. Qualified tinae sensu lato/sensu stricto and aff.tinae rows remain separate unmapped source labels; the name match here does not absorb them into this accepted species. No blank country field or country/place mismatch is silently georeferenced or repaired.
+
+## catalogue-profile / limitations {#s-a2d871e6d1}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-70dead3234}
+In its preserved-specimen comparison, the study lists Allobates trilineatus in the adult-male specialized mucous gland table. Types I are scored present; types II, III, IV are scored absent. These scores concern specialized glands of the hand, not the absence of ordinary mucous or serous glands, and are not prevalence estimates. A zero is a scored condition in the examined material, not proof of absence in all populations, ages or reproductive states. The species-specific specimen numbers, sex/maturity breakdown and localities require Appendix S1 and Tables S1–S2, which were not retrieved here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-bd140e3601}
+Type I glands are chiefly alveolar, with a small lumen, a single layer of secretory cells and an incomplete myoepithelial covering; they lie near the epidermis.  The definitions combine morphology and histochemical reactions; they do not identify a particular secreted molecule or demonstrate a physiological effect.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-9a00a6308f}
+No new specimens were collected for this study. Its dendrobatoid material comprised 77 specimens representing 36 source species labels; four additional specimens represented three hylodid species, and two Melanophryniscus outgroups were taken from literature. Exact preservation histories were unknown, although the authors understood the specimens to have been formalin-fixed and stored in ethanol. They usually removed one hand, decalcified it in EDTA and made 4.5 micrometre resin sections. Multiple stains tested tissue structure, neutral and acidic mucopolysaccharides, proteins and lipids. Fingers are numbered II–V under a tetrapod homology convention, so finger IV is the third of the four remaining digits. These methods describe the comparative study; they do not supply a species-specific sample size in the inspected main-text table. Appendix S1 and Tables S1–S2 remain unread, and figures were inspected only as captions.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-8fa4fb5683}
+The authors suggest that protein-containing specialized hand glands could mediate chemical courtship signals during contact with a female's head. They did not characterize the secretions, identify a pheromone, test female responses or establish whether delivery is olfactory or transdermal. Hand location and stain reactions therefore cannot certify that Allobates trilineatus uses a particular chemical mating mechanism, causes ovulation or oviposition, or secretes an adhesive. A lack of these gland types likewise does not prove a species lacks every form of chemical communication. Behavioral observations cited in the discussion come from earlier studies and populations, not new mating experiments in this histological comparison.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-af1275ddee}
+The examined sample did not show swelling or type I glands on finger III. Nevertheless, the study coded swelling there as present using an earlier report of some individuals from three populations, while leaving the glandular basis unknown because that earlier report lacked histology. This is a population and evidence-source distinction, not a contradiction resolved by assigning the present specimens glands that were not observed.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-ca77f8e0cf}
+The velocicantus description places trilineatus among compared Allobates with large dark dorsal patches or rhomboid,diamond,hourglass ortriangular marks. It contrasts this group with the focal species’ lack of large dark marks; it does not assign one particular shape to every listed species. This is the2020 author comparison, not a newly inspected photograph series, a full diagnosis or an invariant pattern in all life stages.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-e8d08d7fc5}
+The2020 paper attributes to previous studies a maximum call duration of 1.6 s, maximum 13 notes and inter-note interval 71–88 ms for trilineatus. These cited summaries preserve their units and do not describe the same sampling protocol or temperatures as the eight focal velocicantus males. Original source recordings have not been independently reanalysed, and no new mate-recognition experiment follows from this numerical contrast.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-19e712c3c1}
+AppendixI reports the following examined material: Allobates trilineatus . Adults. Brazil: Acre: Parque Zoobotânico da Universidade Federal do Acre (INPAH 11958–11993). These are historical author-listed voucher/locality strings, not newly authenticated museum objects, a contemporary occurrence survey or complete range. Adult and tadpole lots and type/topotype labels remain as printed; ranges of voucher numbers do not certify that every intervening object was independently inspected here.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-f70e5d5c07}
+The supplementary donor sheet reports row61 KU215172: 12S=DQ501986, 16S=DQ501986, 28S=DQ502938, COI=DQ502712, CYTB=DQ502411, HH3=DQ502279, RAG1=DQ503284, RHO=DQ503176, SIA=DQ503040; source=Grant et al. 2006; row62 MJH7477: 12S=DQ502118, 16S=DQ502118, COI=DQ502826, CYTB=DQ502550; source=Grant et al. 2006; row63 MPEG12356: 12S=DQ502050, 16S=DQ502050, COI=DQ502775, CYTB=DQ502481; source=Grant et al. 2006; row64 MNRJ91664: 16S=KY886584, COI=KY886601, CYTB=KY886625; source=Melo-Sampaio et al. 2018; row65 MNRJ91666: 16S=KY886586, COI=KY886603, CYTB=KY886627; source=Melo-Sampaio et al. 2018. Empty locus fields are unreported in this table, not evidence that the organism lacks that gene. Some accession strings appear in multiple locus columns; this does not certify separate assays or whole-genome coverage. Present-study and earlier-source categories stay attached to their donor rows. Original sequence records and museum specimens have not been independently authenticated.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-1e51375df9}
+The same donor rows list row61 KU215172: Cusco Amazonico, Madre de Dios, Peru; row62 MJH7477: Panguana, Peru; row63 MPEG12356: Porto Walter, Acre, Brazil; row64 MNRJ91664: Envira, Amazonas, Brazil; row65 MNRJ91666: Feijó, Acre, Brazil. These are source locality strings, not coordinates from a new field survey or a complete contemporary species range. Qualified tinae sensu lato/sensu stricto and aff.tinae rows remain separate unmapped source labels; the name match here does not absorb them into this accepted species. No blank country field or country/place mismatch is silently georeferenced or repaired.
+

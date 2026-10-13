@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptodactylus rhodonotus
+  displayName: Leptodactylus rhodonotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TN7G
+  sourceIndexes:
+    - name:
+        en: Leptodactylus rhodonotus
+        zh: Leptodactylus rhodonotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TN7G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/432
+            queryName: Leptodactylus rhodonotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/431
+            queryName: Cystignathus rhodonotus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/432
+            queryName: Gnathophysa rubido
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/433
+            queryName: Pleurodema rubida
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/434
+            queryName: Leptodactylus rubido
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/435
+            queryName: Leptodactylus rubidus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-96d45c577a
+      - s-5a76c36ada
+      - s-edc5d710a7
+      - s-3e2d0fe84f
+      - s-a9473280f2
+      - s-3abc23e300
+      - s-562cb4947f
+      - s-aaa8efcb7d
+      - s-c94e660a6e
+      - s-df79cc7ff5
+      - s-fce166dcfa
+      - s-1b2d506e06
+      - s-48c0951821
+      - s-a706382218
+      - s-acdf8b965f
+      - s-b14b3238e6
+      - s-17243ef3ce
+      - s-d40ee14f24
+    zh:
+      - s-46a7438e2d
+      - s-88d7202584
+      - s-25f7edb8b9
+      - s-ff33e1f598
+      - s-a645f269e2
+      - s-17bddc7de2
+      - s-e5223d87b2
+      - s-79d82a4eaa
+      - s-268c7ebbfa
+      - s-edae0ab4c5
+      - s-58d40e763d
+      - s-9014cff3c4
+      - s-871fba72d4
+      - s-51f4e66e62
+      - s-7707f4a55d
+      - s-10e26d6628
+      - s-7ef2a11d6c
+      - s-dff30da05f

@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Afrixalus fulvovittatus
+  displayName: Afrixalus fulvovittatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65FTR
+  sourceIndexes:
+    - name:
+        en: Afrixalus fulvovittatus
+        zh: Afrixalus fulvovittatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65FTR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/68
+            queryName: Afrixalus fulvovittatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/457
+            queryName: Hyperolius fulvovittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/458
+            queryName: Rappia fulvovittata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/459
+            queryName: Megalixalus fulvovittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/460
+            queryName: Hyperolius brevipalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/461
+            queryName: Afrixalus brevipalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/83
+            queryName: Afrixalus fulvovittatus fulvovittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/84
+            queryName: Afrixalus fulvovittatus brevipalmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ae1b7f18e9
+      - s-acb02a21a3
+      - s-460fed1a59
+      - s-70f2d1721f
+      - s-f3f67ae276
+      - s-f14102364d
+      - s-2400bbe852
+      - s-7a44d2536c
+      - s-4c7cc64c8b
+      - s-18ae912e26
+      - s-581578d805
+      - s-697f400f60
+      - s-64a0f0e73c
+      - s-0537c15102
+      - s-e6f6478a8b
+      - s-d757715c56
+      - s-a109e507fc
+      - s-05d8b74484
+      - s-f0c31c3fa7
+      - s-dd4369d03b
+      - s-efab9a242e
+    zh:
+      - s-661877effb
+      - s-847ad59775
+      - s-e29aeec9a6
+      - s-0daadd8672
+      - s-3577ae3a6f
+      - s-7f306755d9
+      - s-a67c6753a6
+      - s-f708553b21
+      - s-aa66f72ff4
+      - s-667591d988
+      - s-1e9df15015
+      - s-e6529c15e5
+      - s-01ebedf11d
+      - s-0cb11eca37
+      - s-fe3db9e137
+      - s-72d1542781
+      - s-089565422d
+      - s-3788f93030
+      - s-8afbb31c1f
+      - s-e411d8d225
+      - s-ca14e95662

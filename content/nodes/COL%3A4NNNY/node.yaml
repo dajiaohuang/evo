@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudis platensis
+  displayName: Pseudis platensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NNNY
+  sourceIndexes:
+    - name:
+        en: Pseudis platensis
+        zh: Pseudis platensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NNNY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/275
+            queryName: Pseudis platensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 28
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/99
+            queryName: Batrachichthys pizarronis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/434
+            queryName: Pseudis paradoxus platensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-24ca16f16b
+      - s-d19477661c
+      - s-e2a78f6224
+      - s-c9f183fc47
+      - s-71b91b0d91
+      - s-dc6634537f
+      - s-3fe704b294
+      - s-d754ddf4e5
+      - s-bca79caebd
+      - s-248c317806
+      - s-8aa209605b
+      - s-b1f0ab61f4
+      - s-fe89d137dd
+      - s-3b45ed1a2d
+      - s-9904e7b075
+    zh:
+      - s-f9862d7d9c
+      - s-c89bd000f2
+      - s-f6d449ab0a
+      - s-f7c32027f1
+      - s-9d7ba04d33
+      - s-b1f78d28a1
+      - s-42112b3c0e
+      - s-85c2df03bf
+      - s-1fcdab7d9f
+      - s-72597ab48c
+      - s-2453439fd1
+      - s-2a0a0e41c8
+      - s-d44c4890f0
+      - s-37b6729bff
+      - s-36833034b6

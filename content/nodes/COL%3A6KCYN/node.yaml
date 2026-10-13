@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis runewsweeki
+  displayName: Gephyromantis runewsweeki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6KCYN
+  sourceIndexes:
+    - name:
+        en: Gephyromantis runewsweeki
+        zh: Gephyromantis runewsweeki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6KCYN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/152
+            queryName: Gephyromantis runewsweeki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-42f3012749
+      - s-11460785c9
+      - s-22339b9ce0
+      - s-8000d66a76
+      - s-3f8cc7dbd2
+      - s-80979a2b77
+      - s-bd34560fe8
+      - s-1df4d42c26
+      - s-3d9b071c3c
+      - s-49eab84852
+    zh:
+      - s-3f5240dbed
+      - s-f3e677fd61
+      - s-5ae3603e69
+      - s-8ab47c4bb6
+      - s-3ec8e871b9
+      - s-f8b5f75c1b
+      - s-f83b89b1bc
+      - s-3fcdb69119
+      - s-0c87576ab5
+      - s-1b0b854309

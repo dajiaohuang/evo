@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus arthuri
+  displayName: Atelopus arthuri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8XG
+  sourceIndexes:
+    - name:
+        en: Atelopus arthuri
+        zh: Atelopus arthuri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8XG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/230
+            queryName: Atelopus arthuri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f576e10f5
+      - s-d48c19d477
+      - s-bf61a0e4f4
+      - s-110263ed09
+      - s-809693e04a
+      - s-3366028227
+      - s-b6b51d6c74
+      - s-ccbcd14718
+      - s-b4021e458d
+      - s-c8475d35bf
+    zh:
+      - s-c2b3d2df4a
+      - s-ec87fb6a77
+      - s-debff1ff4d
+      - s-1bc2e1cc40
+      - s-b175094acb
+      - s-922013f332
+      - s-6b09114587
+      - s-8c2ee04067
+      - s-e63ac13929
+      - s-cf4fab44d2

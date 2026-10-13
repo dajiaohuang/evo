@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius bambusicolus
+  displayName: Hynobius bambusicolus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q37HR
+  sourceIndexes:
+    - name:
+        en: Hynobius bambusicolus
+        zh: Hynobius bambusicolus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q37HR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/154
+            queryName: Hynobius bambusicolus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb59e1a976
+      - s-becd76ee35
+      - s-b97c8a9d27
+      - s-5330a92c96
+      - s-da13d31b93
+      - s-68b65aa2ed
+      - s-5586b27fe6
+      - s-d0a332a50b
+      - s-89db002152
+      - s-b2dc58348d
+      - s-12174838b9
+      - s-3fc3cd71b3
+      - s-49d26c8ec5
+      - s-d87206323a
+      - s-c307cff42e
+      - s-2638c5ac3d
+      - s-4dc39eee85
+      - s-5f4e8b983f
+      - s-eb33081868
+    zh:
+      - s-81caa793fa
+      - s-450da5476f
+      - s-95cd1df463
+      - s-fdd69f5ed9
+      - s-14719b7f13
+      - s-48f09df431
+      - s-e502fefd74
+      - s-46d33f17d3
+      - s-bdf4848879
+      - s-c7e0894497
+      - s-16b6310111
+      - s-0241491e84
+      - s-dff544e16a
+      - s-4de55eb239
+      - s-b93f349d11
+      - s-75c0231313
+      - s-653523e8f6
+      - s-36fcb88083
+      - s-09389a45a7

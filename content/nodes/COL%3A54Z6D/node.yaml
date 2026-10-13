@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Taudactylus pleione
+  displayName: Taudactylus pleione
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/54Z6D
+  sourceIndexes:
+    - name:
+        en: Taudactylus pleione
+        zh: Taudactylus pleione
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 54Z6D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/423
+            queryName: Taudactylus pleione
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e0fcfeb38e
+      - s-ae278d3eae
+      - s-14f1e16e60
+      - s-9ae3fdec4a
+      - s-7e74b085ae
+      - s-4db5ac6b09
+      - s-4cf370bed0
+      - s-0600b830f5
+      - s-3c9e39e018
+      - s-e61e07e5e2
+      - s-bbe200576c
+      - s-18dcff0609
+      - s-0c6b7c1c04
+      - s-6d3d8cd82e
+      - s-fade67b9b4
+      - s-4e5365707e
+      - s-95d4066775
+      - s-fcb6b249c0
+      - s-48bff06361
+    zh:
+      - s-8b7716d00d
+      - s-c35aed4bee
+      - s-89978a70f6
+      - s-470e1fbb49
+      - s-01e99e9c42
+      - s-3ce259a6bf
+      - s-55505afea1
+      - s-218d7929d5
+      - s-48132f58a7
+      - s-f9b8f7d741
+      - s-23bf880274
+      - s-8bf5f898da
+      - s-9f92bae688
+      - s-c7e6bede9b
+      - s-6e67c93b10
+      - s-4e8267f749
+      - s-612397a256
+      - s-0367094e0c
+      - s-e602fba503

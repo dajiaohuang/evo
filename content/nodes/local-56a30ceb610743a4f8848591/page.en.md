@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-fee9978bd1}
+The version 3 Amphibian database lists Leptobrachium guangxiense in a source measurement table. Its classification fields read order = Anura, family = Megophryidae, genus = Leptobrachium; the linked citation is in Reference.csv row 672. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-543a9b7bfb}
+Anura.csv rows 2662, 2663 contain 2 measurement entries; the Sex field records M (male category), F (female category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 2662 (M) = 54.47, row 2663 (F) = 62.52; HL: row 2662 (M) = 23.9668, row 2663 (F) = 25.6332; HW: row 2662 (M) = 23.9668, row 2663 (F) = 26.8836; other populated codes are LAL, TL. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

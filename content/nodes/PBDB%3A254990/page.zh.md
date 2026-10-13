@@ -1,0 +1,9 @@
+## PBDB 所记分类概念 {#s-e3f256cfef}
+PBDB 于 2026-10-02 核对的快照将 Albanerpeton pannonicum 记为 species 级概念（来源概念 txn:254990），其记录父级为 Albanerpeton。这是 Amphibia 存储锚点下的数据库父链；该路径不认证其与 COL26.8 概念等同。
+
+## 9 条 PBDB 出现记录与采集地字段 {#s-4385994d3a}
+这一确切概念返回 9 条出现记录，涉及 9 个不同采集地 ID：occ:646881 (collection col:35354; identified name `Albanerpeton pannonicus n. sp.` (taxonomicDifference: `corrected to`); locality labels HU / Barany; `olderAgeMa`=5.09 Ma, `youngerAgeMa`=1.8 Ma). occ:1432646 (collection col:199860; locality labels IT / Piedmont; stratigraphy fields formation=facies à Congeria; `olderAgeMa`=7.246 Ma, `youngerAgeMa`=5.333 Ma). occ:1432771 (collection col:172912; locality labels IT / Piedmont; stratigraphy fields formation=facies à Congeria; `olderAgeMa`=7.246 Ma, `youngerAgeMa`=5.333 Ma). occ:1433044 (collection col:172914; locality labels IT / Piedmont; stratigraphy fields formation=facies à Congeria; `olderAgeMa`=7.246 Ma, `youngerAgeMa`=5.333 Ma). occ:1433162 (collection col:172915; locality labels IT / Piedmont; stratigraphy fields formation=facies à Congeria; `olderAgeMa`=7.246 Ma, `youngerAgeMa`=5.333 Ma). occ:1433218 (collection col:172916; locality labels IT / Piedmont; stratigraphy fields formation=facies à Congeria; `olderAgeMa`=7.246 Ma, `youngerAgeMa`=5.333 Ma). occ:1485999 (collection col:206747; locality labels IT / Verona; `olderAgeMa`=3.55 Ma, `youngerAgeMa`=1.8 Ma). occ:1566194 (collection col:172917; locality labels IT; stratigraphy fields formation=facies à Congeria; `olderAgeMa`=7.246 Ma, `youngerAgeMa`=5.333 Ma). occ:1566195 (collection col:220503; locality labels IT / Piedmont; `olderAgeMa`=7.246 Ma, `youngerAgeMa`=5.333 Ma)。年代值是采集地记录中的 Ma（距今百万年）字段，不是测定的物种起源或灭绝时间；该快照不证明全球分布已完整记录。摘录提供出现记录和采集地 ID，但没有标本编号或标本层级描述。
+
+## Albanerpeton pannonicum 的文献索引查询 {#s-63677d8a26}
+链接索引中的 accepted-name 查询以 `Albanerpeton pannonicum` 为检索名，报告 1 条参考文献记录匹配。这是书目元数据，不是经核实的生物学结果。该占位记录尚未分配生物学主张，概念等同性尚未认证；本页事实仅限上述 PBDB 字段。
+

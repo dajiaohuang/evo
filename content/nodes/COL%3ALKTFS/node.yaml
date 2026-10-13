@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis nyungwensis
+  displayName: Arthroleptis nyungwensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LKTFS
+  sourceIndexes:
+    - name:
+        en: Arthroleptis nyungwensis
+        zh: Arthroleptis nyungwensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LKTFS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/171
+            queryName: Arthroleptis nyungwensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-db9aac2a8b
+      - s-f4f1d251f3
+      - s-bc90b88d6f
+      - s-4f91bffc71
+      - s-5e6c7b1970
+      - s-f3b957663f
+      - s-91fb272283
+      - s-5255e39110
+      - s-bc7480f807
+      - s-8e4b6ef344
+      - s-80d03cb3e2
+    zh:
+      - s-87d432ff00
+      - s-db1d3acc14
+      - s-f4b5efd8f9
+      - s-52c7dee054
+      - s-52aca5e9bc
+      - s-4a266f9535
+      - s-9ef3629486
+      - s-a79982dd1c
+      - s-f2b7c728f6
+      - s-a739f3dbef
+      - s-3fe7a6f951

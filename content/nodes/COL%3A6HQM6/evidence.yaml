@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Ferraria schaeferi Dinter
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6HQM6, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6HQM6; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6HQM6
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6HQM6
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000789491-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6HQM6 / WFO wfo-0000789491
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14562_0
+        referenceId: ref-2134358d-3cd0-8c7f-ab54-aec576ea88f5
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ferraria schaeferi Dinter account; SANBI/WFO archive rows 33073 (Morphology), 39016 (Habitat), source identifier 14562.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ferraria schaeferi Dinter account; SANBI/WFO archive rows 95224 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 200-500 mm tall, branching in the upper axils, branches rotated in clockwise fashion. Leaves with overlapping sheaths, sword-shaped, spirally 2-ranked, arching outward. Flowers yellow with brown spots and margins, sweetly to putrid scented, tepal claws broad, forming a wide cup, nectaries prominent, anther lobes parallel. Capsule beaked.
+            textZh: Ferraria schaeferi Dinter 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Morphology row 33073; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Unlike the flowers of the related species, Ferraria crispa and F. foliosa, those of F. schaeferi sometimes have, at least to the human nose, a pleasant, sweet scent reminiscent of violets, but with a slightly sour undertone. The flowers otherwise resemble those F. crispa and F. foliosa, having widely spreading tepals, the broad claws forming a shallow cup, ± 8 mm deep and some 12 mm wide at the rim. The tepal claws bear large heart-shaped nectaries, while the limbs have a creamy pale yellow ground colour speckled with small dark brown spots, the same colour as the crisped margins. In vegetative form, F. schaeferi most closely resembles F. foliosa, which also has the leaves and branches arranged in a two-ranked spiral, and the leaf blades are similarly thick and leathery with a weakly defined central vein. In addition to the differently coloured perianth, the ovary and capsule have a pronounced beak up to 8 mm long. This readily separates F. schaeferi from F. foliosa. In its sandy habitat, plants spread vegetatively by long runners produced from the base of the stem that can extend below the ground a metre or more from the parent plant, each terminating in a corm.
+            textZh: SANBI 条目提供了 Ferraria schaeferi Dinter 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 95224; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Deep sands mainly along the coast.
+            textZh: 该 SANBI 区域物种条目记录的生境：Deep sands mainly along the coast.
+            sourceIds:
+              - sanbi_14562_0
+            locator: "SANBI/WFO archive Habitat row 39016; source identifier 14562.0; cited publication: Goldblatt, P; Manning, JC. 2013. Iridaceae. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 94 - 124. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-4f6e86c1d2
+        title:
+          en:
+            page: en
+            section: s-aba2f7e403
+            part: title
+          zh:
+            page: zh
+            section: s-18fdf7da9b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aba2f7e403
+            part: body
+          zh:
+            page: zh
+            section: s-18fdf7da9b
+            part: body
+        sourceIds:
+          - sanbi_14562_0
+      - id: page-f9d2b7f640
+        title:
+          en:
+            page: en
+            section: s-ff65e907b8
+            part: title
+          zh:
+            page: zh
+            section: s-a16ced1c18
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ff65e907b8
+            part: body
+          zh:
+            page: zh
+            section: s-a16ced1c18
+            part: body
+        sourceIds:
+          - sanbi_18638_0
+      - id: page-bd1625d828
+        title:
+          en:
+            page: en
+            section: s-0bdf081507
+            part: title
+          zh:
+            page: zh
+            section: s-d8b228d19f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0bdf081507
+            part: body
+          zh:
+            page: zh
+            section: s-d8b228d19f
+            part: body
+        sourceIds:
+          - sanbi_14562_0

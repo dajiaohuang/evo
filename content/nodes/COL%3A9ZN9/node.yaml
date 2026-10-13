@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomus kelaartii
+  displayName: Adenomus kelaartii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/9ZN9
+  sourceIndexes:
+    - name:
+        en: Adenomus kelaartii
+        zh: Adenomus kelaartii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 9ZN9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/55
+            queryName: Adenomus kelaartii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/383
+            queryName: Bufo kelaartii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/384
+            queryName: Adenomus badioflavus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/385
+            queryName: Bufo kelaarti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-94bc325604
+      - s-525272a0eb
+      - s-034abf514c
+      - s-0c6c2373bc
+      - s-67567cae60
+      - s-d7ab95e147
+      - s-9a427a18e1
+      - s-ad313961c1
+      - s-75d598489a
+      - s-6208569751
+      - s-0ad80b3b8c
+      - s-b98071126d
+      - s-6de6dc43da
+      - s-bdf0c4e988
+      - s-74c614917e
+      - s-1a796a4bd0
+    zh:
+      - s-15690bbb4c
+      - s-9765906c94
+      - s-d4c4804312
+      - s-1d83f4cc6a
+      - s-613b20a45d
+      - s-3a913c2c09
+      - s-f5d098d772
+      - s-174739a0f5
+      - s-f9496ba062
+      - s-c9c7f7fadf
+      - s-375d8803fb
+      - s-3a585670e4
+      - s-1ec01be6d0
+      - s-48a0963199
+      - s-018e1f9740
+      - s-75b9348812

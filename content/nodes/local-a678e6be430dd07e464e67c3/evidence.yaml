@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bokermannohyla nanuzae
+    name:
+      en: Bokermannohyla nanuzae
+      zh: Bokermannohyla nanuzae
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Bokermannohyla
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d46969f36b
+            part: body
+          zh:
+            page: zh
+            section: s-2bd9816dfd
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b044f1659c
+            part: body
+          zh:
+            page: zh
+            section: s-0f513fc6e0
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 706, 707; Reference.csv rows 2966
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 706
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla nanuzae
+          - M
+          - "38.6"
+          - "13.6"
+          - "13.4"
+          - "4.3"
+          - "2.3"
+          - NA
+          - "4.5"
+          - "3"
+          - NA
+          - "3.6"
+          - NA
+          - "2.3"
+          - NA
+          - "3.3"
+          - NA
+          - "27.7"
+          - NA
+          - "19.3"
+          - "19.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 707
+        values:
+          - Hylidae
+          - Bokermannohyla
+          - Bokermannohyla nanuzae
+          - F
+          - "39.8"
+          - "13.6"
+          - "14"
+          - "4.65"
+          - "2.4"
+          - NA
+          - "4.6"
+          - "2.95"
+          - NA
+          - "3.6"
+          - NA
+          - "2.45"
+          - NA
+          - "3.2"
+          - NA
+          - "28.1"
+          - NA
+          - "19.75"
+          - "19.85"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2966
+        values:
+          - Anura
+          - Bokermannohyla_nanuzae
+          - Napoli, M., & Caramaschi, U. (2004). Two new species of the Hyla circumdata group from Serra do Mar and Serra da Mantiqueira, southeastern Brazil, with Description of the advertisement call of Hyla ibitipoca (Anura, Hylidae). Copeia, 2004, 534-545. https://doi.org/10.1643/CH-02-079R1
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - FLL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 68MXX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

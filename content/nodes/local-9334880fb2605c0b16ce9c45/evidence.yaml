@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Trachycephalus mambaiensis
+    name:
+      en: Trachycephalus mambaiensis
+      zh: Trachycephalus mambaiensis
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Trachycephalus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-323efefab6
+            part: body
+          zh:
+            page: zh
+            section: s-c30800741f
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b4975435dd
+            part: body
+          zh:
+            page: zh
+            section: s-f3fff2fe0e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5946, 5947; Reference.csv rows 3206
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5946
+        values:
+          - Hylidae
+          - Trachycephalus
+          - Trachycephalus mambaiensis
+          - F
+          - "85.19"
+          - "28.68"
+          - "27.315"
+          - "7.34"
+          - "6.03"
+          - NA
+          - "5.225"
+          - "11.425"
+          - "20.63"
+          - "8.655"
+          - "25.81"
+          - NA
+          - "15.46"
+          - NA
+          - NA
+          - "34.13"
+          - NA
+          - "41.06"
+          - "40.86"
+          - "3.41"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5947
+        values:
+          - Hylidae
+          - Trachycephalus
+          - Trachycephalus mambaiensis
+          - M
+          - "78.64"
+          - "24.52"
+          - "24.47"
+          - "6.55"
+          - "5.25"
+          - NA
+          - "4.96"
+          - "10.43"
+          - "18.88"
+          - "6.84"
+          - "23.43"
+          - NA
+          - "12.35"
+          - NA
+          - NA
+          - "30.44"
+          - NA
+          - "35.22"
+          - "35.3"
+          - "3.16"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3206
+        values:
+          - Anura
+          - Trachycephalus_mambaiensis
+          - "Cintra, C., Silva, H., Silva, N., Garcia, P., & Zaher, H. (2009). A new species of Trachycephalus (Amphibia, Anura, Hylidae) from the state of Goiás, Brazil. Zootaxa, 1975, 58–68. https://doi.org/10.11646/zootaxa.1975.1.2 "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - HAL
+      - FL
+      - TL
+      - THL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 57PVX
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

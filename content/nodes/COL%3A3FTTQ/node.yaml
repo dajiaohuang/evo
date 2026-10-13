@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis granulatus
+  displayName: Gephyromantis granulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FTTQ
+  sourceIndexes:
+    - name:
+        en: Gephyromantis granulatus
+        zh: Gephyromantis granulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FTTQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/125
+            queryName: Gephyromantis granulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/179
+            queryName: Mantidactylus granulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 34
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/295
+            queryName: Limnodytes granulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e7f4cdd257
+      - s-642f6dacee
+      - s-759e3492cd
+      - s-b6beed30d8
+      - s-a59b644668
+      - s-67098b07f9
+      - s-ffba24135e
+      - s-3d879c3360
+      - s-43f5a71f03
+      - s-38bb2dff64
+      - s-40f4765602
+    zh:
+      - s-00f66e5404
+      - s-50e2e3185a
+      - s-c54bd72205
+      - s-2f4d600584
+      - s-3046eda2f9
+      - s-9756ad202f
+      - s-f44a4b549f
+      - s-a5186d9d0d
+      - s-f555263b4c
+      - s-1c1148ea55
+      - s-c5e77d3038

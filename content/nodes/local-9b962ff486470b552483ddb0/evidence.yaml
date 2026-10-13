@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nidirana guangdongensis
+    name:
+      en: Nidirana guangdongensis
+      zh: Nidirana guangdongensis
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Nidirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Nidirana guangdongensis in the version 3 classification
+          zh: Nidirana guangdongensis 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cf47f1a67c
+            part: body
+          zh:
+            page: zh
+            section: s-b7bd779762
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-1e5af68b74
+            part: body
+          zh:
+            page: zh
+            section: s-534b677a87
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3501, 3502; Reference.csv rows 3883
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3501
+        values:
+          - Ranidae
+          - Nidirana
+          - Nidirana guangdongensis
+          - M
+          - "53.9"
+          - "19.58"
+          - "17.82"
+          - "5.66"
+          - "4.42"
+          - "1.4"
+          - "4.68"
+          - "5.64"
+          - NA
+          - NA
+          - "7.8"
+          - NA
+          - "14.1"
+          - "9.1"
+          - NA
+          - NA
+          - "42.2"
+          - "28.24"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3502
+        values:
+          - Ranidae
+          - Nidirana
+          - Nidirana guangdongensis
+          - F
+          - "57"
+          - "21.26666667"
+          - "18.4"
+          - "6"
+          - "4.5"
+          - "1.366666667"
+          - "5.233333333"
+          - "5.866666667"
+          - NA
+          - NA
+          - "8.233333333"
+          - NA
+          - "14.93333333"
+          - "9.466666667"
+          - NA
+          - NA
+          - "46.46666667"
+          - "31.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3883
+        values:
+          - Anura
+          - Nidirana_guangdongensis
+          - Lyu, Z.-T., Dai, K.-Y., Li, Y., Wan, H., Liu, Z., Qi, S., . . . Wang, Y.-Y. (2020). Comprehensive approaches reveal three cryptic species of genus Nidirana (Anura, Ranidae) from China. Zookeys, 914, 127-159. https://doi.org/10.3897/zookeys.914.36604
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - SL
+      - HAL
+      - FLL
+      - TFL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - QT3BV
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus pleurostigma
+  displayName: Kalophrynus pleurostigma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NK4W
+  sourceIndexes:
+    - name:
+        en: Kalophrynus pleurostigma
+        zh: Kalophrynus pleurostigma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NK4W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/112
+            queryName: Kalophrynus pleurostigma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/277
+            queryName: Bombinator pleurostigma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/278
+            queryName: Calophrynus pleurostigma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/279
+            queryName: Calophryne pleurostigma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/287
+            queryName: Kalophrynus pleurostigma pleurostigma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5862d8e6df
+      - s-6ca04a332e
+      - s-d36c78d9b9
+      - s-797b1b13d3
+      - s-94fc1cafa8
+      - s-388625f45c
+      - s-0593c3a33a
+      - s-68bfc5f613
+      - s-d20970fb81
+      - s-8fc93a238a
+    zh:
+      - s-66e7175d41
+      - s-2bbd0552b1
+      - s-836b7c62a6
+      - s-1eefae8174
+      - s-eb013beba3
+      - s-6bc2d60d6e
+      - s-bd3aa719ad
+      - s-30f9e6b0a2
+      - s-e59ee57e37
+      - s-264db01f22

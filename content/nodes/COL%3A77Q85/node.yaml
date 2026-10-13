@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon hubrichti
+  displayName: Plethodon hubrichti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77Q85
+  sourceIndexes:
+    - name:
+        en: Plethodon hubrichti
+        zh: Plethodon hubrichti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77Q85
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/468
+            queryName: Plethodon hubrichti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/453
+            queryName: Plethodon richmondi hubrichti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/454
+            queryName: Plethodon nettingi hubrichti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5331acebe
+      - s-a5ccbb19bc
+      - s-433b3a4eeb
+      - s-974b6a2c01
+      - s-7bf110340f
+      - s-1cf2f020ce
+      - s-46c966bd5a
+      - s-70e13c6872
+      - s-fdb0ab92e7
+      - s-3400746576
+      - s-cac046ab90
+    zh:
+      - s-bffe2ac85b
+      - s-757c740840
+      - s-3a7c1d6be5
+      - s-21bdfc7ed1
+      - s-7b0dc3f46b
+      - s-4bd6a1b3ba
+      - s-8cc616fb6b
+      - s-8c51665e5f
+      - s-1bf2b8d2b5
+      - s-8021767fe6
+      - s-e6a669f18b

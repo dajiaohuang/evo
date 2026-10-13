@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Galerix symeonidisi
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Galerix symeonidisi
+      en: Galerix symeonidisi
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bc3c6cd029
+            part: body
+          en:
+            page: en
+            section: s-47c21938c2
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bead76ceca
+            part: body
+          en:
+            page: en
+            section: s-2eece23b8d
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-58186cf85c
+            part: body
+          en:
+            page: en
+            section: s-754c8fe21f
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-41f724419b
+            part: body
+          en:
+            page: en
+            section: s-7bd7839c72
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-82ccf04056
+            part: body
+          en:
+            page: en
+            section: s-8bded0dd7a
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Galerix symeonidisi
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=92256&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:92256; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:92256
+          selectedOccurrenceIds:
+            - occ:466283
+            - occ:466593
+            - occ:639914
+            - occ:1091824
+            - occ:1309568
+            - occ:1532393
+            - occ:1532410
+            - occ:1532411
+            - occ:1532412
+            - occ:1532413
+            - occ:1532414
+            - occ:1589071
+          selectedCollectionIds:
+            - col:46284
+            - col:46267
+            - col:68032
+            - col:48325
+            - col:175727
+            - col:214976
+            - col:214986
+            - col:214987
+            - col:214988
+            - col:214989
+            - col:214990
+            - col:180192
+          sourceReferenceIds:
+            - ref:12335
+            - ref:19904
+            - ref:43885
+            - ref:57549
+            - ref:74163
+            - ref:80834
+          originalIdentificationMappings:
+            - occurrenceId: occ:639914
+              originalIdentifiedName: Galerix symeonidisi n. sp.
+              acceptedName: Galerix symeonidisi
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-6e741c22dd
+        part: body
+      en:
+        page: en
+        section: s-0d4653fd59
+        part: body

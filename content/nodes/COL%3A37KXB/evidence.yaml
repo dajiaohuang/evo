@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Dracoscirpoides surculosa Muasya, Reynders & Goetgh.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 37KXB, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 37KXB; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/37KXB
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 37KXB
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001332560-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 37KXB / WFO wfo-0001332560
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_7607_0
+        referenceId: ref-2bac5b24-44ca-8876-a5f5-cc262725e0d7
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Dracoscirpoides surculosa Muasya, Reynders & Goetgh. account; SANBI/WFO archive rows 83890 (Morphology), 83681 (Habitat), source identifier 7607.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Tufted perennial with surculose base; cataphylls dark brown with pale nerves, 6-10 mm long. Culms 340-750 x 1.6-3.0 mm, coarse, terete at base but becoming triangular towards inflorescence, scabrid along angles. Leaves: sheath pale, membranaceous, up to 40-90 mm long, rim ciliate; blade 200-550 x 1.0-1.5 mm, stiff and wiry, sabrid on the margins. Inflorescence pseudolateral, congested into one or rarely two heads of 7-18 mm wide; bracts 2-4, main bract erect, 80-125 x 0.6-1.5 mm, other bracts spreading. Spikelets 12-50, 3.0-5.0 x 1.6-3.0 mm, brown; glumes 2.6-3.2 mm long, elliptic, dark chestnut brown, with many pale nerves, midrib excurrent as a slightly scabrid mucro 0.2-0.5 mm long. Perianth bristles 6, sparsely and antrorsely scabrid. Anthers 1.5-2.3 mm long. Nutlets 1.3-1.7 x 0.8-0.9 mm, triangular, elliptic, pale brown, surface smooth"
+            textZh: Dracoscirpoides surculosa Muasya, Reynders & Goetgh. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_7607_0
+            locator: "SANBI/WFO archive Morphology row 83890; source identifier 7607.0; cited publication: Muasya, AM; Reynders, M; Goetghebeur, P; Simpson, DA; Vrijdaghs, A. 2012. Dracoscirpoides (Cyperaceae) — A new genus from southern Africa, its taxonomy and floral ontogeny. S. African J. Bot. 78: 104 - 115. [doi:10.1016/j.sajb.2011.05.011]. [Copyright held by the South African Association of Botanists (2012); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: D. surculosa is predominantly allopatric and occurs in wet habitats.
+            textZh: 该 SANBI 区域物种条目记录的生境：D. surculosa is predominantly allopatric and occurs in wet habitats.
+            sourceIds:
+              - sanbi_7607_0
+            locator: "SANBI/WFO archive Habitat row 83681; source identifier 7607.0; cited publication: Muasya, AM; Reynders, M; Goetghebeur, P; Simpson, DA; Vrijdaghs, A. 2012. Dracoscirpoides (Cyperaceae) — A new genus from southern Africa, its taxonomy and floral ontogeny. S. African J. Bot. 78: 104 - 115. [doi:10.1016/j.sajb.2011.05.011]. [Copyright held by the South African Association of Botanists (2012); http://www.sciencedirect.com/science/journal/02546299]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

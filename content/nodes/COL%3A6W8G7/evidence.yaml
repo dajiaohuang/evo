@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis sacharuna Reyes-Puig, Reyes-Puig, Pérez-L. & Yánez-Muñoz, 2015
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis sacharuna
+      zh: Pristimantis sacharuna
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-660a55bcbb
+            part: title
+          zh:
+            page: zh
+            section: s-be3b4bdc8d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-660a55bcbb
+            part: body
+          zh:
+            page: zh
+            section: s-be3b4bdc8d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d54d29d03d
+            part: title
+          zh:
+            page: zh
+            section: s-4404d0bff8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d54d29d03d
+            part: body
+          zh:
+            page: zh
+            section: s-4404d0bff8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f7f0ea2974
+            part: title
+          zh:
+            page: zh
+            section: s-5feab18bab
+            part: title
+        sourceIds:
+          - primary-pmc12717849-6w8g7
+        text:
+          en:
+            page: en
+            section: s-f7f0ea2974
+            part: body
+          zh:
+            page: zh
+            section: s-5feab18bab
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fcf4e7f5cf
+            part: title
+          zh:
+            page: zh
+            section: s-5bf487d866
+            part: title
+        sourceIds:
+          - primary-pmc12717849-6w8g7
+        text:
+          en:
+            page: en
+            section: s-fcf4e7f5cf
+            part: body
+          zh:
+            page: zh
+            section: s-5bf487d866
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis sacharuna
+          url: https://www.checklistbank.org/dataset/316115/taxon/6W8G7
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12717849-6w8g7
+        referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis sacharuna: XML taxon sampling; molecular assay paragraphs 1–5; candidate-species definition; phylogenetic relationships; systematic account; both species-group accounts; all 21 New species paragraphs; Cryptomantis discussion and cryptic-diversity discussion; no supplementary, original sequences or specimens independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3a77cbdc69
+        part: body
+      zh:
+        page: zh
+        section: s-a5b41165d5
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.20512
+        referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+        sourceKey: primary-pmc12717849-6w8g7
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12717849/article.xml
+        sourceConcept: Pristimantis sacharuna
+        evidenceRead: "Pristimantis sacharuna: XML taxon sampling; molecular assay paragraphs 1–5; candidate-species definition; phylogenetic relationships; systematic account; both species-group accounts; all 21 New species paragraphs; Cryptomantis discussion and cryptic-diversity discussion; no supplementary, original sequences or specimens independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Placement in the proposed Cryptomantis framework
+              zh: 拟议 Cryptomantis 框架中的位置
+            referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+            sourceKey: primary-pmc12717849-6w8g7
+            locator: PMC12717849 XML Phylogenetic relationships paragraph 1; Systematic account paragraphs 4–8; Pristimantis (Cryptomantis) bicantus species group new taxon paragraphs 1–4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0cb1acd649
+                part: body
+              zh:
+                page: zh
+                section: s-116a5feb7b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Characters in the paganus comparison
+              zh: paganus 比较中的性状
+            referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+            sourceKey: primary-pmc12717849-6w8g7
+            locator: PMC12717849 XML New species paragraphs 9–11; Systematic account paragraph 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3a820a7d02
+                part: body
+              zh:
+                page: zh
+                section: s-fd2e865950
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

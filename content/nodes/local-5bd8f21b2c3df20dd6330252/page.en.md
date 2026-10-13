@@ -1,0 +1,12 @@
+## Which source name is assigned to this tadpole record? {#s-86a41b99cc}
+This record shows how TadpoleTraits files tadpoles under Litoria wollastoni. Version 4 uses the classification authority recorded by its dataset authors, Amphibian Species of the World 6.2 (2024), to assign the record to Litoria wollastoni in Litoria and Hylidae. No literature rows are present. In the image-measurement table, rows 1001 list Litoria wollastoni in both the source Species and ASTW assignment fields. The dataset-to-COL26.8 concept mapping is marked unresolved, so these row labels do not settle a current species identity.
+
+## What do the rows actually report? {#s-318ba760cf}
+The TadpoleTraits version 4 (workbook dated 2025.4.21) contains 0 literature rows and 1 image-measurement row for this source record. No literature rows are present; the image rows are the only measurements in this entry. Image-table Stage values are 36 (row 1001); Type labels are Measurement and image types are Hand-drawn picture. These are source-table rows, not a count of unique tadpoles. The TadpoleTraits readme does not confirm units for absolute dimensions, so no body-size claim is drawn from them.
+
+## What can the image measurements show? {#s-74f9426925}
+The image-derived records support these source proportions: body length / total length = 0.348983 (image row 1001, stage 36, Hand-drawn picture); tail length / total length = 0.649573 (image row 1001, stage 36, Hand-drawn picture); maximum body height / total length = 0.131462 (image row 1001, stage 36, Hand-drawn picture); maximum tail height / total length = 0.145853 (image row 1001, stage 36, Hand-drawn picture); tail muscle height / total length = 0.114217 (image row 1001, stage 36, Hand-drawn picture). Each value describes only its cited image row; it is not a species-wide estimate.
+
+## Where do the supplied ratios disagree? {#s-e5e022832c}
+The source ratio cells in image row 1001 contain 2 discrepancies from the quotient of the same-row numerator and total length, including fields DFH/TL, VFH/TL. Their original values remain in the evidence record; no correction is substituted and these cells are not used as proportions.
+

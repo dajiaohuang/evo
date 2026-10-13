@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus abbotti
+  displayName: Eleutherodactylus abbotti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/398YF
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus abbotti
+        zh: Eleutherodactylus abbotti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 398YF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/143
+            queryName: Eleutherodactylus abbotti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/0
+            queryName: Eleutherodactylus abbotti abbotti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b3ac9e2ae5
+      - s-165174479e
+      - s-888a2117ed
+      - s-3d9936d5b4
+      - s-af2d07622a
+      - s-6b950155da
+      - s-b4efd7e2ed
+      - s-725b6ac113
+      - s-ee9638eb2a
+    zh:
+      - s-4af705f5b7
+      - s-dd2bf8b866
+      - s-7db34d6288
+      - s-cf97f850b7
+      - s-717ea3a835
+      - s-cb5534aba6
+      - s-1d2b2460e4
+      - s-e83848491a
+      - s-d6dd25134d

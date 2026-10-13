@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana leptolineata
+  displayName: Boana leptolineata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M7Z6
+  sourceIndexes:
+    - name:
+        en: Boana leptolineata
+        zh: Boana leptolineata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M7Z6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/499
+            queryName: Boana leptolineata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/375
+            queryName: Hyla leptolineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/166
+            queryName: Hypsiboas leptolineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8376cf3892
+      - s-7fc0ec1d88
+      - s-cbd5f0cabf
+      - s-d33fac886b
+      - s-70f4ee719d
+      - s-53cd6445c2
+      - s-960f99a872
+      - s-a602ebd806
+      - s-6ca6c0f336
+      - s-33214dff6e
+      - s-c248e28fb4
+      - s-476687b05d
+      - s-a2e074cd2e
+      - s-bdd2a79a9c
+      - s-7c2cd5610c
+      - s-7e64125cc1
+      - s-18b4970f65
+      - s-1de29ec777
+      - s-7d84c207fd
+      - s-4e5fbd69f3
+      - s-61f473b58c
+    zh:
+      - s-c89ba0d42e
+      - s-eac45980f2
+      - s-477ff99e53
+      - s-ae304f51b7
+      - s-30db5bb170
+      - s-ca1bc88f46
+      - s-913cf6d710
+      - s-32f592ac73
+      - s-9371c07f38
+      - s-3a0de175d8
+      - s-0429a6a79e
+      - s-7ea4ccba72
+      - s-18f350f74f
+      - s-f78dbd3a90
+      - s-3217c6e8a4
+      - s-b69e211ed2
+      - s-789cc620b3
+      - s-78cd4a1227
+      - s-22ff8faf00
+      - s-44c81686f0
+      - s-13254bcd76

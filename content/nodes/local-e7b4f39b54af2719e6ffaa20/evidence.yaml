@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Callulops omnistriatus
+    name:
+      en: Callulops omnistriatus
+      zh: Callulops omnistriatus
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Callulops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0e030ccf2f
+            part: body
+          zh:
+            page: zh
+            section: s-942ff8a113
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4393edeb40
+            part: body
+          zh:
+            page: zh
+            section: s-334fbada77
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1004, 1005; Reference.csv rows 186
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1004
+        values:
+          - Microhylidae
+          - Callulops
+          - Callulops omnistriatus
+          - M
+          - "57"
+          - "18.81"
+          - "21.09"
+          - "7.41"
+          - "3.249"
+          - NA
+          - NA
+          - "4.674"
+          - NA
+          - "3.99"
+          - "6.27"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "25.08"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.596"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.109"
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1005
+        values:
+          - Microhylidae
+          - Callulops
+          - Callulops omnistriatus
+          - F
+          - "59.1"
+          - "19.503"
+          - "21.867"
+          - "7.683"
+          - "3.1323"
+          - NA
+          - NA
+          - "4.8462"
+          - NA
+          - "4.0779"
+          - "6.501"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "26.004"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.773"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "2.1276"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 186
+        values:
+          - Anura
+          - Callulops_omnistriatus
+          - Kraus, F. & Allison, A. (2009) New species of frogs from Papua New Guinea. Bishop Museum Occasional Papers, 104, 1-36.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - SL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 5X7CN
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

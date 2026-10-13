@@ -1,0 +1,3 @@
+## What floral structures are recorded for Hypericum calycinum? {#s-a3bebc9206}
+The stems branch along their length. Opposite leaf pairs cross at right angles; the blades are separate, flat, and have unthickened margins. Their secondary veins loop toward the edge. Flowers over 7 mm wide occur in terminal and lateral cymose clusters, with reduced bracts. The sepals are unequal with flat margins, and the petals are asymmetrical. The stamens form five bundles, the anthers have no elongated connective, and there are five styles. The capsule is ovoid. Seed color and seed-coat details were not observed in this record.
+

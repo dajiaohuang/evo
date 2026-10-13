@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Crossodactylodes
+  displayName: Crossodactylodes
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3W6J
+  sourceIndexes:
+    - name:
+        en: Crossodactylodes
+        zh: Crossodactylodes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3W6J
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/326
+            queryName: Crossodactylodes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 16
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de943c1abd
+      - s-463bf205fd
+      - s-a058e5c94b
+      - s-1cdf9e75e9
+      - s-85de5b77fe
+      - s-8d38f33751
+      - s-5c6fe559db
+      - s-906b4f4d4d
+      - s-a343b336ec
+      - s-3d0ca37490
+      - s-67d6af9d32
+    zh:
+      - s-85e4773183
+      - s-fed87d294d
+      - s-2a127ff37b
+      - s-a986fa384e
+      - s-b8db9c22e2
+      - s-2f8fe2e5e0
+      - s-564e05cc74
+      - s-04409cf6af
+      - s-547909ca14
+      - s-a9c7e3f707
+      - s-94403e4277

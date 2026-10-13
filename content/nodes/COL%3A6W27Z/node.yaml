@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon wehrlei
+  displayName: Plethodon wehrlei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W27Z
+  sourceIndexes:
+    - name:
+        en: Plethodon wehrlei
+        zh: Plethodon wehrlei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W27Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/2
+            queryName: Plethodon wehrlei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/458
+            queryName: Plethodon wehrlei wehrlei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-732a30cbc1
+      - s-602476f887
+      - s-9cf33f0aff
+      - s-ad0c7ccbb0
+      - s-333d9afd58
+      - s-7bb5f3c486
+      - s-13b8931273
+      - s-bab721d358
+      - s-e6a6e3a5e8
+      - s-fd41a2c680
+      - s-918c49ed5f
+    zh:
+      - s-bae6d7c466
+      - s-07e6c8583c
+      - s-1506c539aa
+      - s-e65985830d
+      - s-804eb94015
+      - s-0f6583811b
+      - s-8c2ac7bc9b
+      - s-c9464f6940
+      - s-82d242d2c8
+      - s-1974734c61
+      - s-bfbc34458a

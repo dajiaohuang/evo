@@ -1,0 +1,367 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylototriton broadoridgus Shen, Jiang & Mo, 2012
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Tylototriton broadoridgus
+      zh: Tylototriton broadoridgus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ed1676ce39
+            part: title
+          zh:
+            page: zh
+            section: s-27419bbb0c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ed1676ce39
+            part: body
+          zh:
+            page: zh
+            section: s-27419bbb0c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-42b178c1f7
+            part: title
+          zh:
+            page: zh
+            section: s-0a180f7aa7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42b178c1f7
+            part: body
+          zh:
+            page: zh
+            section: s-0a180f7aa7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f7e9580cd3
+            part: title
+          zh:
+            page: zh
+            section: s-d5b65f89d4
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f7e9580cd3
+            part: body
+          zh:
+            page: zh
+            section: s-d5b65f89d4
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-32966fed83cc9f9ab9035db2
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-db34825d2a
+            part: title
+          zh:
+            page: zh
+            section: s-c19eece993
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-db34825d2a
+            part: body
+          zh:
+            page: zh
+            section: s-c19eece993
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-4184d9a048
+            part: title
+          zh:
+            page: zh
+            section: s-37e84c64eb
+            part: title
+        sourceIds:
+          - primary-pmc13463510-7dblm
+        text:
+          en:
+            page: en
+            section: s-4184d9a048
+            part: body
+          zh:
+            page: zh
+            section: s-37e84c64eb
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-047835291c
+            part: title
+          zh:
+            page: zh
+            section: s-212e96b393
+            part: title
+        sourceIds:
+          - primary-pmc7369190-7dblm
+        text:
+          en:
+            page: en
+            section: s-047835291c
+            part: body
+          zh:
+            page: zh
+            section: s-212e96b393
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-9832423e53
+            part: title
+          zh:
+            page: zh
+            section: s-82a6f31816
+            part: title
+        sourceIds:
+          - primary-pmc7369190-7dblm
+        text:
+          en:
+            page: en
+            section: s-9832423e53
+            part: body
+          zh:
+            page: zh
+            section: s-82a6f31816
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tylototriton broadoridgus
+          url: https://www.checklistbank.org/dataset/316115/taxon/7DBLM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 372, 373; Reference.csv rows 4084
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc13463510-7dblm
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton broadoridgus: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc7369190-7dblm
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Tylototriton broadoridgus: Methods, Table 1 and footnotes, landmark/statistical design, lateral/dorsal results, phylogeny/ecology/shape results and morphology/phylogeny/ecology discussion read; supplementary matrices, original images and scans not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-80b2485c25
+        part: body
+      zh:
+        page: zh
+        section: s-0cbedd1eee
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-32966fed83cc9f9ab9035db2
+        scientificName: Tylototriton broadoridgus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/ani16152340
+        referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+        sourceKey: primary-pmc13463510-7dblm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13463510/article.xml
+        sourceConcept: Tylototriton broadoridgus
+        evidenceRead: "Tylototriton broadoridgus: Named-species morphological comparison only; new sheni biology not reassigned to accepted comparators; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: appearance
+            heading:
+              en: A broad ridge and comparison-specific tail shape
+              zh: 宽背脊及比较范围内尾形
+            referenceId: ref-cdfd652b-899e-480a-ac21-40c9c4f3bcff
+            sourceKey: primary-pmc13463510-7dblm
+            locator: PMC13463510 XML section sec3dot3-animals-16-02340, paragraph 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8db5d74cb3
+                part: body
+              zh:
+                page: zh
+                section: s-7b0752f78a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1111/joa.13201
+        referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+        sourceKey: primary-pmc7369190-7dblm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7369190/article.xml
+        sourceConcept: Tylototriton broadoridgus
+        evidenceRead: "Tylototriton broadoridgus: Methods, Table 1 and footnotes, landmark/statistical design, lateral/dorsal results, phylogeny/ecology/shape results and morphology/phylogeny/ecology discussion read; supplementary matrices, original images and scans not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sample counts distinguish external heads from skulls
+              zh: 样本数区分外部头部与头骨
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-7dblm
+            locator: PMC7369190 XML joa13201-sec-0002 paragraph 0; joa13201-tbl-0001 with note-0001; joa13201-sec-0003–0004
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-694a527e29
+                part: body
+              zh:
+                page: zh
+                section: s-d0eab18379
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: evolution
+            heading:
+              en: Comparative results retain their measurement limits
+              zh: 比较结果保留测量限制
+            referenceId: ref-0cf2133a-2367-40e4-a3dc-d9ca8347d1d0
+            sourceKey: primary-pmc7369190-7dblm
+            locator: PMC7369190 XML joa13201-sec-0004; joa13201-sec-0007 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5704794866
+                part: body
+              zh:
+                page: zh
+                section: s-cd6e5b32cc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

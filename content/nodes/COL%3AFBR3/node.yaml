@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aphantophryne pansa
+  displayName: Aphantophryne pansa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/FBR3
+  sourceIndexes:
+    - name:
+        en: Aphantophryne pansa
+        zh: Aphantophryne pansa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: FBR3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/77
+            queryName: Aphantophryne pansa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/435
+            queryName: Cophixalus pansus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/76
+            queryName: Asterophrys pansa pansa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b784cf2d8d
+      - s-2639c78ab4
+      - s-4a6a195d6b
+      - s-6a024ba4d1
+      - s-c9a12d3cf6
+      - s-f627789e9a
+      - s-96626431a4
+      - s-125faaf412
+      - s-3d5f0739c3
+      - s-e6251a6e2f
+    zh:
+      - s-3c8f63fc82
+      - s-161c2b84dc
+      - s-139cc83f8d
+      - s-b1162aacaa
+      - s-603a9b7905
+      - s-c0c50cdb5a
+      - s-3cfdae9db5
+      - s-149b0074fb
+      - s-0b83ef719d
+      - s-4eb9733dde

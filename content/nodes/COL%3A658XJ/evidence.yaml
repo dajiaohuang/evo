@@ -1,0 +1,200 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aegiphila laevis (Aubl.) J.F.Gmel.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: COL26.8 accepted species ID 658XJ and exact name/authorship map through exactly one accepted WFO usage wfo-0000810346; the Brazilian Flora source record carries the same WFO ID.
+      scope: COL26.8 accepted species concept. Brazilian Flora fields remain regional dataset records; no global, current, complete-range or taxonomic-equivalence claim is made.
+      sourceIds:
+        - col26
+        - wfo2026
+        - brazilFlora2020
+      classificationPath:
+        - id: 658XJ
+          scientificName: Aegiphila laevis (Aubl.) J.F.Gmel.
+          rank: species
+          status: accepted
+        - id: 8VTC4
+          scientificName: Aegiphila Jacq.
+          rank: genus
+          status: accepted
+        - id: V5Q63
+          scientificName: Clerodendreae Briq.
+          rank: tribe
+          status: accepted
+        - id: V5LVH
+          scientificName: Ajugoideae Kostel.
+          rank: subfamily
+          status: accepted
+        - id: PR82T
+          scientificName: Lamiaceae Martinov
+          rank: family
+          status: accepted
+        - id: 3F4
+          scientificName: Lamiales Bromhead
+          rank: order
+          status: accepted
+        - id: MG
+          scientificName: Magnoliopsida
+          rank: class
+          status: accepted
+        - id: TP
+          scientificName: Tracheophyta
+          rank: phylum
+          status: accepted
+        - id: CMQ8S
+          scientificName: Pteridobiotina Britton & Brown
+          rank: subkingdom
+          status: accepted
+        - id: P
+          scientificName: Plantae
+          rank: kingdom
+          status: accepted
+        - id: CS5HF
+          scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+          rank: domain
+          status: accepted
+    lifeStatusScope:
+      wild: Wild status is not specified in these source fields.
+      domesticated: Cultivated or managed status is not specified; none is inferred.
+      fossil: Fossil applicability is not assessed from this extant-flora source.
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Nomenclatural identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/658XJ
+          stableId: COL26.8:658XJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 658XJ; source dataset 1141
+          attribution: Catalogue of Life COL26.8; underlying dataset 1141
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID, parent chain and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000810346-2026-06
+          stableId: wfo:wfo-0000810346-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-27
+          locator: Accepted species record wfo-0000810346; exact accepted-name/authorship mapping to COL 658XJ
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: brazilFlora2020
+        referenceId: ref-352c188a-fa63-8d4e-a243-10428cf85b9c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Brazilian Flora 2020 archived dataset fields; not inferred for linked publications, images or PDFs
+          stableId: doi:10.15468/1mtkaw; archive sha256 79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923; WFO wfo-0000810346
+          accessedAt: 2026-09-06
+          locator: 'Brazilian Flora 2020 v393.147, morphology row 92512; WFO wfo-0000810346; source identifier ref-morph-BR-pt-0000810346; reference row 55691; source-reported citation: "França, F. 2020 Aegiphila in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8111. Accessed on: Jun. 30, 2021."; habitat row 46274'
+          attribution: "Group Brazil Flora, REFLORA Program (2014): Brazilian Flora 2020, v393.147, doi:10.15468/1mtkaw"
+          licenseAssessment: aggregate-declaration-only
+          scope: Regional source fields are retained verbatim with physical archive row locators. A morphology citation is the reference reported by the dataset; rights for the referenced publication are not independently verified. Habitat rows have dataset-level attribution only.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Caule: ereto(s) ereto(s)/não ereto(s). Folha: filotaxia decussado(s); pecíolo(s) conspícuo(s); prefoliação conduplicada(s); forma do limbo elíptico(s)/oblongo(s)/ovado(s)/oval-lanceolada(s); consistência membranáceo(s)/coriáceo(s)/cartáceo(s); ápice(s) do limbo cuspidado(s)/acuminado(s)/agudo(s)/caudado(s)/arredondado(s); margem(ns) do limbo inteira; base do limbo arredondada(s)/cuspidada(s)/cordada(s); indumento da face(s) adaxial do limbo puberulenta(s)/glabra(s)/subglabra(s) com nervura-central puberulenta(s)/subglabra(s) com nervura-central setulosa(s); indumento da face(s) abaxial do limbo puberulenta(s)/glabra(s)/subglabra(s) com nervura-central puberulenta(s)/subglabra(s) com nervura-central setulosa(s). Inflorescência: cimeira(s) número de flor(es) multiflora(s); pedúnculo(s) da cimeira(s) conspícuo(s); sinflorescência(s) determinada(s). Flor: lobo(s) do cálice(s) lobado(s)/sub truncado(s) mucronado(s)/sub truncado(s) repando(s) sinuoso(s); tipo da flor(es) número parte tetrâmera(s)/pentâmera(s); cor da corola branca/amarela/amarelo esverdeada; androceu número de estame(s) 4; indumento corola glabra(s) externamente e internamente/glabra(s) externamente e com indumento internamente/com indumento externamente e com indumento internamente/com indumento externamente e glabro(s) internamente."
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: 'Brazilian Flora 2020 v393.147, morphology description row 92512; WFO wfo-0000810346; source identifier ref-morph-BR-pt-0000810346; reference row 55691; dataset-reported citation: "França, F. 2020 Aegiphila in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB8111. Accessed on: Jun. 30, 2021."'
+            placeTimeScope: Verbatim morphology field in the Brazilian Flora 2020 regional dataset. The field does not establish a global description, sampling coverage, population variation, sex or life stage unless stated in its text.
+            lifeStatus: The field does not state whether observations concern wild, cultivated, managed or fossil material; none is inferred.
+        gaps:
+          - Only one source-labelled morphology field is included; its completeness, variation and diagnostic scope have not been assessed.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The source habit field is not treated as life-history evidence; life cycle and reproduction were not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Terrícola
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: Brazilian Flora 2020 v393.147, habitat field row 46274; dataset DOI 10.15468/1mtkaw; WFO wfo-0000810346
+            placeTimeScope: Habitat or substrate category exactly as recorded in this Brazilian Flora dataset row; no collection locality, survey date, global range or sampling completeness is supplied by the field.
+            lifeStatus: Wild, cultivated, managed and fossil applicability are not specified by this field.
+        gaps:
+          - Only source-labelled habitat field(s) are included; interactions, variation, locality and sampling coverage have not been assessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative evidence was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - No locality or range evidence was assessed; the regional flora dataset does not establish a complete distribution.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil search or species-level fossil evidence was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No qualifying conservation assessment was reviewed.

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus peninsularis
+  displayName: Cophixalus peninsularis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44W
+  sourceIndexes:
+    - name:
+        en: Cophixalus peninsularis
+        zh: Cophixalus peninsularis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/472
+            queryName: Cophixalus peninsularis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e5dbbe4896
+      - s-f5b16a9169
+      - s-afa0725d1a
+      - s-3509e6e20b
+      - s-d82b3b2006
+      - s-38189325c5
+      - s-27ff9b1dd8
+      - s-030eb0717f
+      - s-daae489f14
+    zh:
+      - s-48b71a8904
+      - s-4c0b1d10b2
+      - s-29cccf4c47
+      - s-dc03d372ed
+      - s-1b23e1a901
+      - s-8d6671e7be
+      - s-919caa2278
+      - s-802ac7435b
+      - s-2cee1e1b65

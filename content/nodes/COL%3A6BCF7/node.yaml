@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor matudai
+  displayName: Craugastor matudai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCF7
+  sourceIndexes:
+    - name:
+        en: Craugastor matudai
+        zh: Craugastor matudai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCF7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/134
+            queryName: Craugastor matudai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/127
+            queryName: Eleutherodactylus matudai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a58d34fee0
+      - s-1975de951b
+      - s-8992c6d164
+      - s-0312700903
+      - s-839af0c09f
+      - s-d598996177
+      - s-a8b72e5362
+      - s-b1a659d3d8
+    zh:
+      - s-0c40be19f3
+      - s-0aef2c1593
+      - s-5d3e052df2
+      - s-6863153c6c
+      - s-eb2b1787cf
+      - s-8937a0ac1e
+      - s-28a68a39b7
+      - s-b18a51534e

@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys shunhuangensis
+  displayName: Boulenophrys shunhuangensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5DZ7
+  sourceIndexes:
+    - name:
+        en: Boulenophrys shunhuangensis
+        zh: Boulenophrys shunhuangensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5DZ7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/382
+            queryName: Boulenophrys shunhuangensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/262
+            queryName: Megophrys shunhuangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/313
+            queryName: Panophrys shunhuangensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4fcd2cb0cd
+      - s-625360688b
+      - s-ffce92e884
+      - s-145042d5aa
+      - s-edc6e050e6
+      - s-2929c21e90
+      - s-a0d996a132
+      - s-e4a9b29994
+      - s-4d25b88b54
+      - s-e7129c3e53
+      - s-6e8061376b
+      - s-c9b9a32f05
+    zh:
+      - s-6c7d6bcd7d
+      - s-06854a9600
+      - s-f96d371b5b
+      - s-5854650e51
+      - s-f9e770012e
+      - s-d711b02790
+      - s-a932eaf0c6
+      - s-f33fe71f89
+      - s-df6b2acee6
+      - s-d701fa1b82
+      - s-efd2c281c5
+      - s-4e26f500ea

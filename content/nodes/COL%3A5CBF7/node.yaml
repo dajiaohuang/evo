@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina scheepstrai
+  displayName: Xenorhina scheepstrai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5CBF7
+  sourceIndexes:
+    - name:
+        en: Xenorhina scheepstrai
+        zh: Xenorhina scheepstrai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5CBF7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/359
+            queryName: Xenorhina scheepstrai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/287
+            queryName: Xenobatrachus scheepstrai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9ae7585235
+      - s-ab1022b6e1
+      - s-27c87ab550
+      - s-63cdc7eeee
+      - s-c809b5229f
+      - s-48370579be
+      - s-8978d8ea38
+    zh:
+      - s-c385a1a377
+      - s-77323344b6
+      - s-bd6857ffb7
+      - s-350111fdbe
+      - s-a589028857
+      - s-099678964e
+      - s-c6b96b2e40

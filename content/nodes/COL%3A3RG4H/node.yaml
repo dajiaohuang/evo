@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus eiffingeri
+  displayName: Kurixalus eiffingeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3RG4H
+  sourceIndexes:
+    - name:
+        en: Kurixalus eiffingeri
+        zh: Kurixalus eiffingeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3RG4H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/165
+            queryName: Kurixalus eiffingeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 20
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/271
+            queryName: Rana eiffingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/272
+            queryName: Polypedates eiffingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/273
+            queryName: Rhacophorus eiffingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/275
+            queryName: Rhacophorus iriomotensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/276
+            queryName: Chirixalus eiffingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c7a91ea500
+      - s-ccb70b570d
+      - s-6ad88288bf
+      - s-f4000c8903
+      - s-44c4076895
+      - s-f6f0c70209
+      - s-b41089842c
+      - s-e0f13c937a
+      - s-cf60f4f40b
+      - s-441a467e04
+      - s-d984c3afaf
+      - s-87c67af6e0
+      - s-93beb71556
+      - s-4dd839f7c0
+      - s-779e0c1b7f
+      - s-202edfb38f
+      - s-fdc91e47df
+    zh:
+      - s-3f9f023f13
+      - s-4fc920f15b
+      - s-53c11f0ae2
+      - s-713e303cb9
+      - s-732f99aadf
+      - s-ab518d5dc1
+      - s-4c2c74b6c8
+      - s-95c6eaf884
+      - s-8fe73489cb
+      - s-c594a63a4a
+      - s-3c220f9973
+      - s-fa598dba20
+      - s-67055d4fae
+      - s-5a75746a40
+      - s-749a392ad5
+      - s-cc36f20a48
+      - s-d3495a7195

@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis taeniatus
+  displayName: Pristimantis taeniatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJPY
+  sourceIndexes:
+    - name:
+        en: Pristimantis taeniatus
+        zh: Pristimantis taeniatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJPY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/121
+            queryName: Pristimantis taeniatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/200
+            queryName: Eleutherodactylus taeniatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/132
+            queryName: Hylodes taeniatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ad204f4edf
+      - s-04d9a94ea8
+      - s-39ccfeafc4
+      - s-7d089a7f54
+      - s-3d1ffe1564
+      - s-261e5a94c7
+      - s-904aed9ccb
+      - s-c742269bc5
+      - s-d30e4a8d1d
+      - s-0ab7eb8888
+      - s-bb45d87465
+      - s-93ad3b4b29
+      - s-ac96f6acad
+      - s-18a23bd620
+      - s-6951e8d1a8
+      - s-6c45311f8f
+      - s-563cdc389a
+      - s-b2e896dccd
+      - s-d09629e174
+      - s-31d4a9a61c
+      - s-7708261267
+      - s-0e8d9c8eea
+    zh:
+      - s-b477e33665
+      - s-9b8597c437
+      - s-9e3be662c2
+      - s-c16bf6e662
+      - s-055844e9b1
+      - s-d825a041c7
+      - s-3744775925
+      - s-5097eaaed6
+      - s-f6df49fb34
+      - s-4a9509d0b3
+      - s-95f632ae53
+      - s-fefee01d64
+      - s-051db2b485
+      - s-8f751cf23b
+      - s-b27cd6048b
+      - s-5d80341d3f
+      - s-0b075b1b72
+      - s-4588909bc5
+      - s-35e7572744
+      - s-41706c3f62
+      - s-47d69afef6
+      - s-126f77a32f

@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bobartia gracilis Baker
+    rank: species
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-4d9a28a4b3
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-861331e144
+          part: body
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage M89N, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage M89N; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/M89N
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage M89N
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000788327-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL M89N / WFO wfo-0000788327
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_18505_0
+        referenceId: ref-509bad8f-f571-82c4-af46-04f0017508fd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bobartia gracilis Baker account; SANBI/WFO archive rows 90706 (Morphology), 92238 (Habitat), source identifier 18505.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_18638_0
+        referenceId: ref-4d85e647-18c6-87c9-a02f-7cce759f31dd
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bobartia gracilis Baker account; SANBI/WFO archive rows 95213 (Diagnostic), source identifier 18638.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Perennial herb, 0.20-0.45 m high; rhizome erect, moderately branched. Leaves terete to subterete, rather flexible, basally dilated; sheath purplish, fibrous. Spathe green, erect, rigid, terete, exceeding stem, appearing as a straight continuation of stem. Bracts imbricate, dull green, sometimes purplish, lower ones broadly lanceolate, upper one tubular, completely sheathing flower bud. Inflorescence composed of 2-6 cymes; single flower per cyme in axils or often 2 developing from base to apex; segments yellow, often with a reddish midvein, narrowly elliptical. Flowering time July-Apr. Capsule broadly obovoid to nearly globose, smooth.
+            textZh: Bobartia gracilis Baker 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_18505_0
+            locator: "SANBI/WFO archive Morphology row 90706; source identifier 18505.0; cited publication: Bredenkamp, CL; Magwaza, ZL. 2019. Iridaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1821 - 1882. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Superficially similar to Bobartia aphylla and distinguished by its small, smooth, subglobose capsules, 5-8 mm long. A poorly understood species that can also be difficult to separate from forms of B. orientalis but typically with fewer, longer rhipidia.
+            textZh: SANBI 条目提供了 Bobartia gracilis Baker 的鉴别特征。
+            sourceIds:
+              - sanbi_18638_0
+            locator: "SANBI/WFO archive Diagnostic row 95213; source identifier 18638.0; cited publication: Goldblatt, P; Manning, JC. 2020. Iridaceae of southern Africa. Strelitzia 42: 1 - 1159. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In grassy hills. Albany Thicket.
+            textZh: 该 SANBI 区域物种条目记录的生境：In grassy hills. Albany Thicket.
+            sourceIds:
+              - sanbi_18505_0
+            locator: "SANBI/WFO archive Habitat row 92238; source identifier 18505.0; cited publication: Bredenkamp, CL; Magwaza, ZL. 2019. Iridaceae. In: CL Bredenkamp (ed.), A Flora of the Eastern Cape Province, Strelitzia 41(3): 1821 - 1882. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

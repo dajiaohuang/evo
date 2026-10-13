@@ -1,0 +1,33 @@
+## 本地 PanTHERIA 记录 {#s-bd11ec3dd5}
+本批次有四条可用记录：Tupaia longipes、T. minor、T. montana 和 T. tana。页面保留历史 MSW05 名称、野外条件和缺项。固定版本 COL26.8 用于导航；历史行数不是当前物种总数。
+
+## 成体体重端点 {#s-ac39ce3835}
+按性别调整后的历史中位数范围从 Tupaia minor 的 70 g 到 T. tana 的 182.33 g。胎儿发育、断奶、活动和群体的定义应分别阅读；这些是汇总值，不是个体极值或整个后代类群的性状。
+
+## 生活史路径覆盖情况 {#s-4dee921a0e}
+八条记录包括 Dendrogale murina、Tupaia belangeri、T. chrysogaster、T. glis 和 T. longipes。八条记录均有成体体重、窝/胎卵数、依赖非乳食物的年龄和最大寿命字段。这个数目只表示本批次覆盖量，不是全部接受物种的分母。
+
+## 生态数据路径的覆盖情况 {#s-ef175cbbfd}
+十七条记录包括 Anathana ellioti、Dendrogale melanura、D. murina、Tupaia gracilis 和 T. tana。十七条记录都有食物权重、地层和哺乳动物活动字段。比较前应区分不同来源、半定量权重以及类别/二元代码；这不表示整个科共享相同生态。
+
+## 各路径视图的整体限制 {#s-a7003cec93}
+PanTHERIA、生活史和生态视图只覆盖达到各自批次证据与名称匹配阈值的记录，并非每个后代类群。端点是历史汇总值，野外条件也各不相同；路径计数不是当前物种分母。食物、权重和活动不能证明全科共有的性状。历史分类继承和来源定义仍然有效；当前分类概念、分布与保护状况需要其他证据。
+
+## 其他 PanTHERIA 记录 {#s-22c86377a8}
+八个可用页面包括 [Dendrogale melanura](Dendrogale/Dendrogale_melanura/page.zh.md)、[D. murina](Dendrogale/Dendrogale_murina/page.zh.md)、[Anathana ellioti](Anathana/Anathana_ellioti/page.zh.md)、[Tupaia dorsalis](Tupaia/Tupaia_dorsalis/page.zh.md) 和 [T. gracilis](Tupaia/Tupaia_gracilis/page.zh.md)。每页保留 MSW05 名称、条件差异和缺失信息。
+
+## 其他体重端点 {#s-c87f859057}
+按性别调整后的可用中位数端点为 Dendrogale murina 的 49.99 g 和 Tupaia nicobarica 的 170.25 g。这些是汇编统计值，不是个体极值，也不代表整个后代类群的共同性状。
+
+## PanTHERIA 比较范围 {#s-2c34eef997}
+此视图仅包括至少有一个重点字段、名称/科匹配且具有一对一历史对应关系的批次记录。它不覆盖所有后代类群；端点为汇总值，条件也有差异。当前分类概念、分布和保护状况需要其他证据。
+
+## 三个生活史页面 {#s-531cb11d34}
+本批次有三条记录：[Tupaia montana](Tupaia/Tupaia_montana/page.zh.md)、[T. minor](Tupaia/Tupaia_minor/page.zh.md) 和 [T. tana](Tupaia/Tupaia_tana/page.zh.md)。这些链接只涵盖此处已编写的同名页面，不代表整个类群。
+
+## 时间字段与记录 {#s-63c4558178}
+一条记录列有妊娠期；没有记录列出雌性首次繁殖年龄或最大寿命。首次繁殖并非首次产仔或性成熟，最大寿命也不等于平均寿命。来源条件各异；缺失性状需要其他证据。
+
+## 生活史汇编的限制 {#s-dec6fed8b8}
+此路径汇总的是已编写的批次页面，不是完整的后代类群生物学。名称/科级匹配以及 MSW93/MSW05 的一对一对应关系不能证明现行分类概念等同。除最大寿命外，数值通常对等权重来源取平均；来源可能重复，且不按样本量加权。成体体重未作解释，也不以近缘种填补缺项。页面保留参考文献，但未逐一核查底层文献和所有采集条件。
+

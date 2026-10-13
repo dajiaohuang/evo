@@ -1,0 +1,324 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sporophila
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Sporophila
+      en: Sporophila
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetSporophilaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-4299490928
+            part: body
+          en:
+            page: en
+            section: s-09a64880ac
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetSporophilaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-469da27304
+            part: body
+          en:
+            page: en
+            section: s-c5126746eb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetSporophilaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-31a2b7ceea
+            part: body
+          en:
+            page: en
+            section: s-982e098432
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - avonetSporophilaHistoricalV7
+          - avonetV7
+          - amnioteLifeHistory2015
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-1b1cec3f70
+            part: body
+          en:
+            page: en
+            section: s-1adc6652a3
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-6baeffe8c6
+            part: body
+          en:
+            page: en
+            section: s-82316a6ff8
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-83863feba1
+            part: body
+          en:
+            page: en
+            section: s-1dfe9837cf
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-e7a7c4e3ac
+            part: body
+          en:
+            page: en
+            section: s-733cca8f35
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-e0ef898e71
+            part: body
+          en:
+            page: en
+            section: s-422f68fbb9
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-bb5985a0ed
+            part: body
+          en:
+            page: en
+            section: s-7eec551180
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-887ac3fdc4
+            part: body
+          en:
+            page: en
+            section: s-1d8015b797
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Sporophila
+          url: https://www.checklistbank.org/dataset/316115/taxon/7LMG
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 21 selected measured records placed under Sporophila in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 5 authored same-name records placed under Sporophila by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 4 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: 4ZD3B
+              name: Sporophila ardesiaca
+              canonicalPath: content/nodes/COL%3A4ZD3B
+            - colId: 4ZD3J
+              name: Sporophila cinnamomea
+              canonicalPath: content/nodes/COL%3A4ZD3J
+            - colId: 4ZD43
+              name: Sporophila nigrorufa
+              canonicalPath: content/nodes/COL%3A4ZD43
+            - colId: 4ZD4B
+              name: Sporophila simplex
+              canonicalPath: content/nodes/COL%3A4ZD4B
+          fieldAccountCounts:
+            Habitat: 4
+            Trophic.Niche: 4
+            Primary.Lifestyle: 4
+            Migration: 4
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+      - id: avonetSporophilaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Sporophila historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 7 selected AVONET1_BirdLife rows within 8196–8226; each eBird and BirdTree crosswalk, sp/or/do COL name shards, two subspecies target shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 七条历史行：旧 Oryzoborus／Dolospingus 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Seven historical rows: retain older Oryzoborus／Dolospingus combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-b9d591f1b9
+        part: body
+      en:
+        page: en
+        section: s-6b08ba886d
+        part: body

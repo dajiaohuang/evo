@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Bombinatoridae Gray, 1825
+    rank: family
+    sourceDatasetId: "2144"
+    name:
+      en: Bombinatoridae
+      zh: Bombinatoridae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2207b52d60
+            part: title
+          zh:
+            page: zh
+            section: s-1185411e2d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2207b52d60
+            part: body
+          zh:
+            page: zh
+            section: s-1185411e2d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8630f7e2fa
+            part: title
+          zh:
+            page: zh
+            section: s-21bc954dd7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8630f7e2fa
+            part: body
+          zh:
+            page: zh
+            section: s-21bc954dd7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-c06fe7e0a8
+            part: title
+          zh:
+            page: zh
+            section: s-8f8cdf2da4
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 382C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A382C
+            label:
+              en: Barbourula
+              zh: Barbourula
+          - kind: catalogue
+            colId: 3BBJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3BBJ
+            label:
+              en: Bombina
+              zh: Bombina
+        text:
+          en:
+            page: en
+            section: s-c06fe7e0a8
+            part: body
+          zh:
+            page: zh
+            section: s-8f8cdf2da4
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-abeff77c69
+            part: title
+          zh:
+            page: zh
+            section: s-b3bb6a1cb0
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-abeff77c69
+            part: body
+          zh:
+            page: zh
+            section: s-b3bb6a1cb0
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-cc27a210ba
+            part: body
+          zh:
+            page: zh
+            section: s-873ee74085
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Bombinatoridae
+          url: https://www.checklistbank.org/dataset/316115/taxon/622GJ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Bombinatoridae; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d4d25bdfb0
+        part: body
+      zh:
+        page: zh
+        section: s-f0b0955299
+        part: body
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Bombina variegata
+          path: content/nodes/local-c4cbf427e761776c2ad72d81
+      metrics:
+        - metric: CTmax
+          rows: 1
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

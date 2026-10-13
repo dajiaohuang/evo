@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Firouzophrynus olivaceus
+  displayName: Firouzophrynus olivaceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P2PWW
+  sourceIndexes:
+    - name:
+        en: Firouzophrynus olivaceus
+        zh: Firouzophrynus olivaceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P2PWW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/490
+            queryName: Firouzophrynus olivaceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/382
+            queryName: Bufo olivaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/495
+            queryName: Duttaphrynus olivaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b4c426b9e9
+      - s-a34f9721a7
+      - s-e11064ec74
+      - s-9987e46680
+      - s-3a29538045
+      - s-bd50b52293
+      - s-5dd300c584
+      - s-80d69c30d8
+      - s-3ce96e77ec
+      - s-abeb9a52b2
+    zh:
+      - s-a8acafde50
+      - s-cf8c89bd39
+      - s-8ea7336df5
+      - s-e14e09de27
+      - s-5fd4409229
+      - s-f0802922e3
+      - s-18ab196280
+      - s-38cff2c7e4
+      - s-408e47aabd
+      - s-29cfaf28cd

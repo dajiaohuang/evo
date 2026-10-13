@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhaebo lynchi
+  displayName: Rhaebo lynchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RY97
+  sourceIndexes:
+    - name:
+        en: Rhaebo lynchi
+        zh: Rhaebo lynchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RY97
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/274
+            queryName: Rhaebo lynchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bade371a64
+      - s-4a5c6111f4
+      - s-673a7778a1
+      - s-2b1ac0e7bc
+      - s-2d8993c75d
+      - s-7ea97898c3
+      - s-0a4c6be72c
+    zh:
+      - s-bcca491da5
+      - s-dc935adc3f
+      - s-caec7ee38d
+      - s-3f43e03fb7
+      - s-9bd932a39c
+      - s-d62fc665c2
+      - s-3541718920

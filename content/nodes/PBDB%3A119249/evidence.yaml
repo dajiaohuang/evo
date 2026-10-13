@@ -1,0 +1,180 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sapeornis chaoyangensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sapeornis chaoyangensis
+      en: Sapeornis chaoyangensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7d0bdd62e9
+            part: body
+          en:
+            page: en
+            section: s-47d97bf302
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2ae8f66715
+            part: body
+          en:
+            page: en
+            section: s-2b6e6b7e30
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-40e4b72bcf
+            part: body
+          en:
+            page: en
+            section: s-24bbca4955
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-73614b2fba
+            part: body
+          en:
+            page: en
+            section: s-7d8ba01077
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-35b8afbe1b
+            part: body
+          en:
+            page: en
+            section: s-b9dd85da63
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Sapeornis chaoyangensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=119249&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:119249; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:119249
+          selectedOccurrenceIds:
+            - occ:739583
+            - occ:739675
+            - occ:826861
+            - occ:872374
+            - occ:881275
+            - occ:1071228
+          selectedCollectionIds:
+            - col:55536
+            - col:79518
+            - col:67611
+            - col:132934
+          sourceReferenceIds:
+            - ref:26679
+            - ref:26672
+            - ref:30690
+            - ref:32928
+            - ref:33404
+            - ref:42794
+          originalIdentificationMappings:
+            - occurrenceId: occ:739675
+              originalIdentifiedName: Sapeornis chaoyangensis n. gen. n. sp.
+              acceptedName: Sapeornis chaoyangensis
+              difference: null
+            - occurrenceId: occ:826861
+              originalIdentifiedName: Didactylornis jii n. gen. n. sp.
+              acceptedName: Sapeornis chaoyangensis
+              difference: null
+            - occurrenceId: occ:872374
+              originalIdentifiedName: Shenshiornis primita n. gen. n. sp.
+              acceptedName: Sapeornis chaoyangensis
+              difference: null
+            - occurrenceId: occ:881275
+              originalIdentifiedName: Sapeornis angustis n. sp.
+              acceptedName: Sapeornis chaoyangensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d753fc40a6
+        part: body
+      en:
+        page: en
+        section: s-d07472cfa8
+        part: body

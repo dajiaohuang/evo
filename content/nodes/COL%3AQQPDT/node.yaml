@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus humboldti
+  displayName: Nymphargus humboldti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QQPDT
+  sourceIndexes:
+    - name:
+        en: Nymphargus humboldti
+        zh: Nymphargus humboldti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QQPDT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/429
+            queryName: Nymphargus humboldti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b5329a9036
+      - s-f523552289
+      - s-98cf145469
+      - s-2242161c2e
+      - s-4931494a97
+      - s-e0d2826d6b
+      - s-80c87f7013
+    zh:
+      - s-bd90cd1175
+      - s-43687bc4d0
+      - s-9f21923625
+      - s-b108c19597
+      - s-484c31ebaa
+      - s-fe3ae91e91
+      - s-ef302989a3

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa gracilis
+  displayName: Bolitoglossa gracilis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MDPN
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa gracilis
+        zh: Bolitoglossa gracilis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MDPN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/124
+            queryName: Bolitoglossa gracilis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-843f51bd81
+      - s-281687a9d0
+      - s-6c9fec75fe
+      - s-8d97051cd8
+      - s-305e0326eb
+      - s-e5ac193e3c
+      - s-70cae2e65f
+      - s-d338db53df
+    zh:
+      - s-6c9d410e56
+      - s-6ba19d02bd
+      - s-74560e9527
+      - s-4d505f58e9
+      - s-0d6da4400d
+      - s-f3b43f7075
+      - s-4688fa4762
+      - s-facdd99911

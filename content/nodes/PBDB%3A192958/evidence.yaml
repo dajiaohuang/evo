@@ -1,0 +1,130 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Macrerpeton huxleyi
+    rank: species
+    sourceTaxonId: txn:192958
+    name:
+      en: Macrerpeton huxleyi
+      zh: Macrerpeton huxleyi
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-c8a746bb8f
+            part: body
+          zh:
+            page: zh
+            section: s-0a18b6ea0e
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-f9083a989b
+            part: body
+          zh:
+            page: zh
+            section: s-5a6ce8028d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Macrerpeton huxleyi
+          zh: Macrerpeton huxleyi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-fff8907a93
+            part: body
+          zh:
+            page: zh
+            section: s-bef9b43c4a
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:192958; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. L. Moodie. 1909. A contribution to a monograph of the extinct Amphibia of North America. New forms from the Carboniferous. Journal of Geology 17(1):38-82
+    occurrenceEvidence:
+      - occurrenceId: occ:1338187
+        collectionId: col:85292
+        acceptedTaxonId: txn:192958
+        identifiedTaxonId: var:192958
+        identifiedName: Tuditanus huxleyi n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:59938
+        bibliography: Y. M. Gubin. 1980. [New Permian dissorophids of the Ural forelands]. In Russian. Paleontologicheskii Zhurnal 3:82-90
+        locality:
+          countryCode: US
+          stateProvince: Ohio
+          county: Jefferson
+        stratigraphy:
+          group: Allegheny
+          formation: null
+          member: Upper Freeport Coal
+        olderAgeMa: 309.8
+        youngerAgeMa: 307.4
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Macrerpeton huxleyi
+          zh: Macrerpeton huxleyi 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-fff8907a93
+            part: body
+          zh:
+            page: zh
+            section: s-bef9b43c4a
+            part: body
+        sourceIds: []

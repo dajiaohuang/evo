@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana longicrus
+  displayName: Rana longicrus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDVS
+  sourceIndexes:
+    - name:
+        en: Rana longicrus
+        zh: Rana longicrus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDVS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/66
+            queryName: Rana longicrus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/235
+            queryName: Rana japonica longicrus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51925581c2
+      - s-574f7f1bd9
+      - s-01a41c48ee
+      - s-d6e85f0f7e
+      - s-be0d9dc3c0
+      - s-c7354a6f13
+      - s-2c82cea5fa
+      - s-e567f06b32
+      - s-4829ce2efc
+      - s-fe81de1813
+      - s-c9936cb25e
+    zh:
+      - s-34b0927ee7
+      - s-b35e4be59b
+      - s-29a57b13df
+      - s-3dbc26e0aa
+      - s-e0eb73631d
+      - s-2ff341b9cd
+      - s-f98d00a57f
+      - s-37a11cb9ac
+      - s-f077265212
+      - s-286fff4944
+      - s-f7597ab2f0

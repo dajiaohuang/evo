@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates lemosespinali
+  displayName: Lithobates lemosespinali
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQ7
+  sourceIndexes:
+    - name:
+        en: Lithobates lemosespinali
+        zh: Lithobates lemosespinali
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQ7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/176
+            queryName: Lithobates lemosespinali
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/138
+            queryName: Rana lemosespinali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f27c2ec076
+      - s-95ba7e3bd3
+      - s-c49cdd438e
+      - s-b881fcef4f
+      - s-7f87681e20
+      - s-70168da990
+      - s-85ae68615c
+      - s-174c35604c
+      - s-9281758824
+      - s-3585cb5d3b
+      - s-f738291d54
+      - s-e2d7cf507a
+      - s-1d440c2fc6
+      - s-9afe6defef
+    zh:
+      - s-de3c859afe
+      - s-e6500bdef8
+      - s-81afa869e6
+      - s-035cbb47fc
+      - s-bdedb5ba57
+      - s-78250f5594
+      - s-55959dfe67
+      - s-e349cc29bb
+      - s-f7a5662e53
+      - s-d9f9c50548
+      - s-0a951e60f2
+      - s-fd60c77d4f
+      - s-df4e851bc3
+      - s-e09d148add

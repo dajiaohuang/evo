@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates taeniatus
+  displayName: Polypedates taeniatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4LD6K
+  sourceIndexes:
+    - name:
+        en: Polypedates taeniatus
+        zh: Polypedates taeniatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4LD6K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/56
+            queryName: Polypedates taeniatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/460
+            queryName: Rhacophorus taeniatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a04456d0e3
+      - s-507c396beb
+      - s-660a2e78ac
+      - s-979f08156f
+      - s-1382d5c792
+      - s-de4dd2cdc3
+      - s-1cd5f8f0c9
+    zh:
+      - s-f7020964fa
+      - s-c14b6ed903
+      - s-57ce49e96a
+      - s-c8b5076c1f
+      - s-1c7881c370
+      - s-cfcb6f5512
+      - s-e6ae603a10

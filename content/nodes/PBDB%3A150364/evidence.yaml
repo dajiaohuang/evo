@@ -1,0 +1,310 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Mastodonsaurus giganteus
+    rank: species
+    sourceTaxonId: txn:150364
+    name:
+      en: Mastodonsaurus giganteus
+      zh: Mastodonsaurus giganteus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-a9dd45b4f4
+            part: body
+          zh:
+            page: zh
+            section: s-6c3e880d5d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-70ac4e494c
+            part: body
+          zh:
+            page: zh
+            section: s-c6571658e6
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-9f1336c778
+            part: body
+          zh:
+            page: zh
+            section: s-9e4f2c3933
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:150364; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: G. F. Jaeger. 1828. Über die Fossile Reptilien, Welche in Württemberg Aufgefunden Sind [On the Fossil Reptiles That Are Found in Württemberg]. Verlag der Metzler'schen Buchhandlung, Stuttgart
+    occurrenceEvidence:
+      - occurrenceId: occ:906412
+        collectionId: col:101875
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929766
+        collectionId: col:106349
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:35488
+        bibliography: R. S. Schoch. 2006. A complete trematosaurid amphibian from the Middle Triassic of Germany. Journal of Vertebrate Paleontology 26(1):29-43
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929782
+        collectionId: col:101873
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Hohenlohekreis
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929799
+        collectionId: col:106350
+        acceptedTaxonId: txn:150364
+        identifiedTaxonId: txn:150362
+        identifiedName: Mastodonsaurus jaegeri n. sp.
+        taxonomicDifference: null
+        referenceId: ref:23491
+        bibliography: F. Holl. 1829. Handbuch der Petrefactenkunde, mit einer Einleitung über die Vorwelt der organischen Wesen auf der Erde von Dr. Ludwig Choulant 1:1-115
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929800
+        collectionId: col:106350
+        acceptedTaxonId: txn:150364
+        identifiedTaxonId: var:150364
+        identifiedName: Salamandroides giganteus n. gen. n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:30405
+        bibliography: "G. F. Jaeger. 1828. Über die Fossile Reptilien, Welche in Württemberg Aufgefunden Sind [On the Fossil Reptiles That Are Found in Württemberg]. Verlag der Metzler'schen Buchhandlung, Stuttgart. Stuttgart: J. B. Metzler."
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Schwäbisch Hall
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929801
+        collectionId: col:106356
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Ludwigsburg
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Lower Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929802
+        collectionId: col:106357
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Ludwigsburg
+        stratigraphy:
+          group: null
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929803
+        collectionId: col:106358
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Baden-Württemberg
+          county: Ludwigsburg
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Lower Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929804
+        collectionId: col:57781
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Untere Graue Mergel
+        olderAgeMa: 241.464
+        youngerAgeMa: 237
+      - occurrenceId: occ:929808
+        collectionId: col:106359
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Thuringia
+          county: Erfurt
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929809
+        collectionId: col:106360
+        acceptedTaxonId: txn:150364
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Thuringia
+          county: null
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+      - occurrenceId: occ:929812
+        collectionId: col:106361
+        acceptedTaxonId: txn:150364
+        identifiedTaxonId: txn:179480
+        identifiedName: Mastodonsaurus acuminatus
+        taxonomicDifference: null
+        referenceId: ref:33823
+        bibliography: "R. R. Schoch. 1999. Comparative osteology of Mastodonsaurus giganteus (Jaeger, 1828) from the Middle Triassic (Lettenkeuper: Longobardian) of Germany (Baden-Württemberg, Bayern, Thüringen). Stuttgarter Beiträge zur Naturkunde Serie B (Geologie und Paläontologie) 278:1-170"
+        locality:
+          countryCode: DE
+          stateProvince: Thuringia
+          county: Hildburghausen
+        stratigraphy:
+          group: Keuper
+          formation: Erfurt
+          member: Upper Lettenkeuper
+        olderAgeMa: 239.48
+        youngerAgeMa: 237
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-9f1336c778
+            part: body
+          zh:
+            page: zh
+            section: s-9e4f2c3933
+            part: body
+        sourceIds: []

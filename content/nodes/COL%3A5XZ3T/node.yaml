@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Choerophryne bisyllaba
+  displayName: Choerophryne bisyllaba
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5XZ3T
+  sourceIndexes:
+    - name:
+        en: Choerophryne bisyllaba
+        zh: Choerophryne bisyllaba
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5XZ3T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/328
+            queryName: Choerophryne bisyllaba
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-792ca970f1
+      - s-e4b8449d30
+      - s-b41b8384e0
+      - s-5a3b14a2e5
+      - s-dea2709d37
+      - s-e2c1df0b9c
+    zh:
+      - s-3b6d89dcac
+      - s-6bf3ed4ded
+      - s-964399843c
+      - s-4051991c95
+      - s-63aa51e831
+      - s-a806130337

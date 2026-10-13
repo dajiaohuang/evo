@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis tribulosus
+  displayName: Pristimantis tribulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJQM
+  sourceIndexes:
+    - name:
+        en: Pristimantis tribulosus
+        zh: Pristimantis tribulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJQM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/142
+            queryName: Pristimantis tribulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/84
+            queryName: Eleutherodactylus tribulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a56fda5840
+      - s-4913e8f2fa
+      - s-aa004f23fd
+      - s-c1b6db3c62
+      - s-b895380c2e
+      - s-f990cd6401
+      - s-8a89fb31ce
+    zh:
+      - s-100027d3e9
+      - s-1f3f393b61
+      - s-2e1c25893d
+      - s-07ce451a86
+      - s-5fe52c20e9
+      - s-ca2efc5326
+      - s-e700a9f74f

@@ -1,0 +1,3 @@
+## What leaf and flower measurements are recorded? {#s-b3802da785}
+The Flora do Brasil 2020 regional field describes leaves with rounded bases and acute or tiny-pointed tips; the blades may be oblong, ovate or elliptic. Their lower surfaces are silky-haired or densely woolly-haired. Petioles are 1.5–2.5 cm long, and leaves have 6–8 pairs of secondary veins. The main flowering axis is listed as 4 cm long. The style is 0.5 cm long and lies to one side of the ovary; the ovary may be hairless or bristly. Petal hairs form clusters near both the inner tip and base. These alternatives belong to a regional database description, which does not specify their frequency.
+

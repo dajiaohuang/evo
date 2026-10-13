@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nimbaphrynoides occidentalis
+  displayName: Nimbaphrynoides occidentalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/47FB6
+  sourceIndexes:
+    - name:
+        en: Nimbaphrynoides occidentalis
+        zh: Nimbaphrynoides occidentalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 47FB6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/286
+            queryName: Nimbaphrynoides occidentalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/442
+            queryName: Nectophrynoides occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 33
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/152
+            queryName: Nimbaphrynoides liberiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/114
+            queryName: Nectophrynoides liberiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/20
+            queryName: Nectophrynoides occidentalis occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/21
+            queryName: Nectophrynoides occidentalis liberiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0059451339
+      - s-387546b4f8
+      - s-a3bf6cf8a2
+      - s-d3bef22fb6
+      - s-e5524822b6
+      - s-fa78e6dc84
+      - s-773a5fdaa2
+      - s-a02bbbd146
+      - s-193cdf1edb
+      - s-18577da7b9
+      - s-87acd13d8d
+    zh:
+      - s-49ce69313a
+      - s-8496a8efb9
+      - s-796d45a0cc
+      - s-8f5cd7d44a
+      - s-f787cbdd6e
+      - s-4fb6e7e213
+      - s-e681724718
+      - s-a1d6abec0c
+      - s-ee5a4452d8
+      - s-deff34db98
+      - s-b5bce5a52e

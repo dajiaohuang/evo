@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea ahuitzotl
+  displayName: Pseudoeurycea ahuitzotl
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NWQK
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea ahuitzotl
+        zh: Pseudoeurycea ahuitzotl
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NWQK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/280
+            queryName: Pseudoeurycea ahuitzotl
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-87191325ea
+      - s-ce9607577d
+      - s-3dab6dc889
+      - s-8391c12e90
+      - s-0521ab291f
+      - s-b6a6784651
+      - s-a5cbfe9770
+      - s-ace862fe22
+      - s-9d42341a17
+    zh:
+      - s-6b42c8562e
+      - s-f63f095b12
+      - s-e0f61aa152
+      - s-b0a089d559
+      - s-b5187c4246
+      - s-35308b8bc0
+      - s-365e58fd8f
+      - s-7cc835d592
+      - s-4e3dc2ffe7

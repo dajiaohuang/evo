@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa alberchi
+  displayName: Bolitoglossa alberchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68MWL
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa alberchi
+        zh: Bolitoglossa alberchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68MWL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/77
+            queryName: Bolitoglossa alberchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0389fff22e
+      - s-ba193d772f
+      - s-e560ac9fd0
+      - s-54bad755d3
+      - s-276af78266
+      - s-40884f8684
+      - s-c6ec72dae9
+    zh:
+      - s-46a1267bb1
+      - s-b63a78851d
+      - s-afdbda3385
+      - s-7b696b1367
+      - s-f6ee4f3c75
+      - s-7b2fd4f06b
+      - s-61d7e64bde

@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus balionotus
+  displayName: Nymphargus balionotus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486J9
+  sourceIndexes:
+    - name:
+        en: Nymphargus balionotus
+        zh: Nymphargus balionotus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486J9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/416
+            queryName: Nymphargus balionotus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/489
+            queryName: Cochranella balionota
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/25
+            queryName: Centrolene balionotum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/417
+            queryName: Nymphargus balionota
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/418
+            queryName: Centrolenella balionota
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7b42410439
+      - s-1c7dfa739b
+      - s-867bf1c3d9
+      - s-f1409e245d
+      - s-178c44a454
+      - s-3e14c24670
+      - s-6c40b46c50
+      - s-94cb1d628b
+      - s-8899b627b9
+      - s-38b5f84e4b
+      - s-291e5423fc
+      - s-fcc71f46b6
+      - s-6a53b147bc
+      - s-7f5e21a201
+      - s-047358a17e
+      - s-bef82d66d6
+      - s-f679348c94
+      - s-51997ab5ad
+      - s-697905eb61
+      - s-c3459f1d0d
+      - s-08f526bb9f
+    zh:
+      - s-af02d18702
+      - s-f44f4d582f
+      - s-9f9513b9f5
+      - s-a3ea8ffd7b
+      - s-baede0b840
+      - s-918989bfe2
+      - s-c55e091179
+      - s-dceb334036
+      - s-7293cb312b
+      - s-c45a75a860
+      - s-b09f26c62f
+      - s-94958f3f49
+      - s-b38508305a
+      - s-efa55f2182
+      - s-e8ab5d7df2
+      - s-c69ee0a268
+      - s-c866b5770a
+      - s-2efdbb8dcc
+      - s-e339cac996
+      - s-227af8d613
+      - s-93c2ede1cd

@@ -1,0 +1,187 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:155131
+    scientificName: Bohemolichas incola
+    commonName: Gut-content trilobite specimen
+    commonNameZh: 保存肠内容物的三叶虫标本
+    rank: genus
+    parentName: Trilobite evidence samples
+    extinct: true
+    geography:
+      - Šárka Formation
+      - Prague Basin
+      - Czech Republic
+    overview:
+      page: en
+      section: s-85b3b704b3
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-331f57d144
+        part: body
+      habitat:
+        page: en
+        section: s-0834e70d62
+        part: body
+      locomotion:
+        page: en
+        section: s-4bd1086baa
+        part: body
+      bodySize:
+        page: en
+        section: s-acba32abe6
+        part: body
+      guild:
+        page: en
+        section: s-7d5a4b981d
+        part: body
+    traits:
+      - page: en
+        section: s-74f34f043c
+        part: body
+      - page: en
+        section: s-1aecd9e530
+        part: body
+      - page: en
+        section: s-606b65b010
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-f9b1edb207
+      part: body
+    readerSections:
+      - id: gut-contents
+        sourceIds:
+          - kraft-2023-trilobite-gut
+        title:
+          en:
+            page: en
+            section: s-c7fabc7de5
+            part: title
+          zh:
+            page: zh
+            section: s-9959c4b152
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c7fabc7de5
+            part: body
+          zh:
+            page: zh
+            section: s-9959c4b152
+            part: body
+      - id: sample-and-taxonomy
+        sourceIds:
+          - kraft-2023-trilobite-gut
+        title:
+          en:
+            page: en
+            section: s-5064ada44a
+            part: title
+          zh:
+            page: zh
+            section: s-f573819e10
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5064ada44a
+            part: body
+          zh:
+            page: zh
+            section: s-f573819e10
+            part: body
+    confidence: high
+    referenceIds:
+      - kraft-2023-trilobite-gut
+    evidenceSummaryZh:
+      page: zh
+      section: zh-8a7fb01298e9d2
+      part: body
+  claims:
+    - subjectId: taxon:bohemolichas
+      claimKind: scientific
+      claimType: taxonomy
+      statement: The profiled specimen is referred to Bohemolichas incola, while PBDB treats Bohemolichas as a subjective synonym of Uralichas; the profile preserves that taxonomic caveat.
+      confidence: high
+      confidenceRationale: The taxonomy field is bounded to Bohemolichas incola, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: kraft-2023-trilobite-gut
+          relation: supports
+          pages: 545–551; Figures 1–4; Extended Data
+    - subjectId: taxon:bohemolichas
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profile is restricted to one Šárka Formation specimen from the Prague Basin and does not define a genus-wide distribution.
+      confidence: medium
+      confidenceRationale: The biogeography field is bounded to Bohemolichas incola, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: kraft-2023-trilobite-gut
+          relation: supports
+          pages: 545–551; Figures 1–4; Extended Data
+    - subjectId: taxon:bohemolichas
+      claimKind: scientific
+      claimType: ecology
+      statement: Ostracod, hyolith and stylophoran remains directly document one meal; prey selectivity, feeding rate and usual diet remain inferred.
+      confidence: medium
+      confidenceRationale: The ecology field is bounded to Bohemolichas incola, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: kraft-2023-trilobite-gut
+          relation: supports
+          pages: 545–551; Figures 1–4; Extended Data
+    - subjectId: taxon:bohemolichas
+      claimKind: scientific
+      claimType: morphology
+      statement: Synchrotron microtomography maps the alimentary tract and shelly prey remains in inventory specimen 8.
+      confidence: medium
+      confidenceRationale: The morphology field is bounded to Bohemolichas incola, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: kraft-2023-trilobite-gut
+          relation: supports
+          pages: 545–551; Figures 1–4; Extended Data
+    - subjectId: taxon:bohemolichas
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 466–463 Ma interval is a formation-level context for the profiled specimen, not a global genus FAD, LAD or continuous duration.
+      confidence: medium
+      confidenceRationale: The fossil-range field is bounded to Bohemolichas incola, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: kraft-2023-trilobite-gut
+          relation: supports
+          pages: 545–551; Figures 1–4; Extended Data
+  claim-rationales.zh:
+    - 保存肠内容物的三叶虫标本的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。
+    - 保存肠内容物的三叶虫标本的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。
+    - 保存肠内容物的三叶虫标本的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。
+    - 保存肠内容物的三叶虫标本的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。
+    - 保存肠内容物的三叶虫标本的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - 本档案中的标本归入 Bohemolichas incola，而 PBDB 将 Bohemolichas 作为 Uralichas 的主观异名处理；档案保留这一分类差异说明。
+    - 本档案限于布拉格盆地 Šárka 组的一件标本，不能确定整个属的分布。
+    - 介形虫、软舌螺和 Stylophora 类棘皮动物的遗骸直接记录了一次进食；猎物选择性、摄食速率及通常食性仍属推断。
+    - 同步辐射显微断层成像揭示了馆藏编号为 8 的标本中的消化道及带壳猎物遗骸。
+    - 466–463 Ma 区间是档案标本的组级地层背景，并非该属的全球首现、末现或连续延续时长。
+  ranges:
+    - entityId: bohemolichas
+      rangeKind: global-composite
+      taxonomicConcept: Bohemolichas incola gut-content occurrence
+      geographicScope: Šárka Formation, Czech Republic
+      olderMa: 466
+      youngerMa: 463
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 466–463 Ma interval is a formation-level context for the profiled specimen, not a global genus FAD, LAD or continuous duration.
+      evidenceBasis: The displayed interval is bounded to the cited dossier sample or model and does not establish a global first appearance, origin or uninterrupted lineage.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:bohemolichas-gut-contents
+        - claim:taxon:bohemolichas:fossil-range
+      referenceLocators:
+        - referenceId: kraft-2023-trilobite-gut
+          locator: 545–551; Figures 1–4; Extended Data; Specimen inventory no. 8; Gut-content mapping; Palaeophysiological interpretation

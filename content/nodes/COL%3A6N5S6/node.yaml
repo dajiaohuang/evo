@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis paucisulcus
+  displayName: Ichthyophis paucisulcus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5S6
+  sourceIndexes:
+    - name:
+        en: Ichthyophis paucisulcus
+        zh: Ichthyophis paucisulcus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5S6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/421
+            queryName: Ichthyophis paucisulcus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c866f1035b
+      - s-207e5145de
+      - s-6218761b64
+      - s-3d3f67078b
+      - s-cdb33ae352
+      - s-bfd6647f54
+      - s-84aadc730d
+      - s-82f12fa8db
+      - s-3bf14cc873
+      - s-a5d65bbbd2
+      - s-b8f3123db1
+    zh:
+      - s-8c325ca2b0
+      - s-4d5fa931aa
+      - s-cbd8ab1d92
+      - s-5adbb5d716
+      - s-9b014f5b35
+      - s-6b8d84d02f
+      - s-dfb2f730af
+      - s-993f3990f0
+      - s-a5acc61d7b
+      - s-6bc28bf877
+      - s-4ec16f8eb6

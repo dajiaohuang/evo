@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis luzonensis
+  displayName: Platymantis luzonensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSQG
+  sourceIndexes:
+    - name:
+        en: Platymantis luzonensis
+        zh: Platymantis luzonensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSQG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/386
+            queryName: Platymantis luzonensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2272ccbb27
+      - s-9418ad449d
+      - s-d69db1ce50
+      - s-53cf5c7ecd
+      - s-8060750cd9
+      - s-72b23622df
+      - s-3ca0628867
+      - s-525df66a03
+    zh:
+      - s-ce350ce499
+      - s-3fc1e807f0
+      - s-3fd8488eaa
+      - s-be33ab802f
+      - s-6754094873
+      - s-66232bf016
+      - s-a65940fc11
+      - s-67b93fa5bf

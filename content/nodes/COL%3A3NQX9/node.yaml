@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius parkeri
+  displayName: Hyperolius parkeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQX9
+  sourceIndexes:
+    - name:
+        en: Hyperolius parkeri
+        zh: Hyperolius parkeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQX9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/310
+            queryName: Hyperolius parkeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/144
+            queryName: Hyperolius parkeri rovumae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/145
+            queryName: Hyperolius parkeri parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36022ae073
+      - s-df15fa9f88
+      - s-1379d9a8e6
+      - s-188e44ecd2
+      - s-65c40b6cd2
+      - s-cac65acb03
+      - s-b6b0aabaf4
+      - s-7c25e798d8
+    zh:
+      - s-731ce649e2
+      - s-c473e50108
+      - s-11d3bb21b0
+      - s-b35d9ac360
+      - s-94339e8bb9
+      - s-c805a9749b
+      - s-9ca8d9f441
+      - s-96f4dffdd8

@@ -1,0 +1,123 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Nemesia macroceras Schltr.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 467S5, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 467S5; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/467S5
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 467S5
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001137429-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 467S5 / WFO wfo-0001137429
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_931_0
+        referenceId: ref-0985f5f9-c242-848c-a3e4-ce6ee6f9178d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Nemesia macroceras Schltr. account; archive rows 84116 (Morphology), 84115 (Habitat), source identifier 931.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: An erect herb, annual, slender, simple or but little branched, 1/6-1 ft. high or rather more, leafy at the base, distantly leafy above; stem straight, nearly glabrous, shining; lower leaves opposite, upper alternating or opposite, patent or spreading, linear or lanceolate, somewhat acute or obtuse, more or less distinctly dentate or denticulate; lowest leaves subpetiolate, glabrous, ranging nearly up to 2 1/2 in. long by 2/5 in. broad; uppermost leaves gradually passing into the bracts; racemes loosely several- or many-flowered, elongating; deflexed or spreading bracts and elongating pedicels glandular-puberulous; calyx-segments oblong or lanceolate, somewhat obtuse, glandular-puberulous, 1/12-1/6 in. long; upper lip of the corolla normally white; lobes linear or oblong-linear, obtuse, equal, about 1/4-2/7 in. long, scarcely 1/12 in. broad; lower lip rounded, emarginate at the apex, bigibbous at the base, about 1/4 in. long, yellow; spur deflexed, cylindrical, very blunt at the apex, about 1/3 in. long, somewhat incurved at the tip; capsule obovate-oblong, broadly notched at the apex, glabrous, 1/4-1/3 in. long and broad, unequal at the nearly rounded base, not horned.
+            sourceIds:
+              - sanbi_931_0
+            locator: "SANBI/WFO archive Morphology row 84116; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: In sandy places.
+            sourceIds:
+              - sanbi_931_0
+            locator: "SANBI/WFO archive Habitat row 84115; source 931.0; publication: Hiern, WP. 1904. XCV. Scrophulariaceae. In: WT Thiselton-Dyer (ed.), Fl. Cap. (Harvey) 4(1-3): 121 - 420. Lovell Reeve & Co., London. [https://www.biodiversitylibrary.org/item/15241#page/129/mode/1up]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-2de2106d5b
+        title:
+          en:
+            page: en
+            section: s-7a9eb25116
+            part: title
+          zh:
+            page: zh
+            section: s-1a549bae01
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7a9eb25116
+            part: body
+          zh:
+            page: zh
+            section: s-1a549bae01
+            part: body
+        sourceIds:
+          - sanbi_931_0

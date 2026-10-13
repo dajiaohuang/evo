@@ -1,0 +1,194 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Austrochaperina fryi
+    name:
+      en: Austrochaperina fryi
+      zh: Austrochaperina fryi
+    sourceClassification:
+      order: Anura
+      family: Microhylidae
+      genus: Austrochaperina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Austrochaperina fryi in the version 3 classification
+          zh: Austrochaperina fryi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-ed09b88360
+            part: body
+          zh:
+            page: zh
+            section: s-63a80f33a4
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 10 populated trait fields
+          zh: 1 条测量行与 10 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-777abc39b6
+            part: body
+          zh:
+            page: zh
+            section: s-a7570e9f73
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 583; Reference.csv rows 47
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 583
+        values:
+          - Microhylidae
+          - Austrochaperina
+          - Austrochaperina fryi
+          - NA
+          - "25"
+          - NA
+          - "9.675"
+          - "2.725"
+          - NA
+          - NA
+          - NA
+          - "2.425"
+          - NA
+          - "1.825"
+          - NA
+          - NA
+          - "5.125"
+          - NA
+          - NA
+          - "9.8"
+          - NA
+          - "9.725"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.65"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.95"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 47
+        values:
+          - Anura
+          - Austrochaperina_fryi
+          - Zweifel, R. G. (1985). Australian frogs of the family Microhylidae. Bulletin of the American Museum of Natural History, 182(3), 267-388.
+    availableTraitCodes:
+      - SVL
+      - HW
+      - ED
+      - IND
+      - EN
+      - HAL
+      - FL
+      - TL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - JVZS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

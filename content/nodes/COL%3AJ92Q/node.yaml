@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus sernai
+  displayName: Atelopus sernai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J92Q
+  sourceIndexes:
+    - name:
+        en: Atelopus sernai
+        zh: Atelopus sernai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J92Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/316
+            queryName: Atelopus sernai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4f53a060bc
+      - s-60d58571de
+      - s-20dc5c644e
+      - s-5b98e8de6e
+      - s-655e581bfd
+      - s-e4cc779932
+      - s-a5442d026f
+      - s-26a68c25fc
+      - s-9601f525a5
+    zh:
+      - s-c32606d195
+      - s-4ebe68a49d
+      - s-05796ddea5
+      - s-6badfee45f
+      - s-1d65493c21
+      - s-f0b5485adc
+      - s-c3c71ed728
+      - s-04726bbaa6
+      - s-06f34837aa

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nothophryne broadleyi
+  displayName: Nothophryne broadleyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6SCCY
+  sourceIndexes:
+    - name:
+        en: Nothophryne broadleyi
+        zh: Nothophryne broadleyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6SCCY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/305
+            queryName: Nothophryne broadleyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a05e394c28
+      - s-32a3ce3726
+      - s-3375e1dabc
+      - s-42011c668b
+      - s-0b7d14f876
+      - s-b0ceeb6e6a
+      - s-0315a3e276
+      - s-0b66173217
+      - s-9baf262380
+    zh:
+      - s-254c6fd139
+      - s-e05c8061cf
+      - s-a967af205c
+      - s-0aec4b116a
+      - s-6d9945909a
+      - s-69c2fa9f0b
+      - s-423f3e3da8
+      - s-37dd89bdf4
+      - s-a3cd1b9009

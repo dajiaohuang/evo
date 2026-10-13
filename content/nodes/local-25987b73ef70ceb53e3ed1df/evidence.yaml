@@ -1,0 +1,393 @@
+schemaVersion: 1
+records:
+  tadpole-traits-reader:
+    scientificName: Anaxyrus fowleri
+    name:
+      en: Anaxyrus fowleri
+      zh: Anaxyrus fowleri
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Which source name is assigned to this tadpole record?
+          zh: 这条蝌蚪记录采用什么来源名称？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-ad0cb0900f
+            part: body
+          zh:
+            page: zh
+            section: s-534bf6ada3
+            part: body
+      - topic: morphology
+        title:
+          en: What do the rows actually report?
+          zh: 数据行实际记录了什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-3681c9971e
+            part: body
+          zh:
+            page: zh
+            section: s-311101d33f
+            part: body
+      - topic: morphology
+        title:
+          en: What can the image measurements show?
+          zh: 图像测量能说明什么？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0796833160
+            part: body
+          zh:
+            page: zh
+            section: s-8d770d1f98
+            part: body
+      - topic: overview
+        title:
+          en: Where do the supplied ratios disagree?
+          zh: 哪些来源比例存在差异？
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-d6b01c90b2
+            part: body
+          zh:
+            page: zh
+            section: s-74ba1fb9a7
+            part: body
+    sources:
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows none; Picture measurement data rows 91, 92; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+    sourceClassification:
+      family: Bufonidae
+      genus: Anaxyrus
+      authority: Amphibian Species of the World 6.2 (2024), as recorded by dataset authors
+    originalLiteratureRows: []
+    originalImageRows:
+      - rowNumber: 91
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Black-and-white image
+          - Anaxyrus fowleri
+          - Bufonidae
+          - Anaxyrus
+          - Anaxyrus fowleri
+          - 35
+          - 23
+          - 8.891
+          - 14.206
+          - 4.558
+          - 3.963
+          - 1.643
+          - 1.353
+          - 1.256
+          - null
+          - null
+          - null
+          - 0.38656521739134
+          - 0.61765217391344
+          - 0.19817391343478
+          - 0.1723434782687
+          - 0.71434782686957
+          - 0.58826869565217
+          - 0.54686956521739
+          - null
+          - null
+          - null
+          - Yanfang Song
+      - rowNumber: 92
+        values:
+          - Altig, R., & McDiarmid, R. W. (2015). Handbook of larval amphibians of the United States and Canada. Cornell University Press.
+          - Measurement
+          - Color image
+          - Anaxyrus fowleri
+          - Bufonidae
+          - Anaxyrus
+          - Anaxyrus fowleri
+          - 35
+          - 28
+          - 10.621
+          - 17.283
+          - 5.601
+          - 5.7
+          - 2.8
+          - 2.028
+          - 1.448
+          - null
+          - null
+          - null
+          - 0.379321428571429
+          - 0.61725
+          - 0.235714285714
+          - 0.23571428571429
+          - 0.1
+          - 0.724285714285714
+          - 0.517142857142857
+          - null
+          - null
+          - null
+          - Yanfang Song
+    originalColumns:
+      literature:
+        - Reference
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Sample size
+        - Stage
+        - TL
+        - TL.sd
+        - BL
+        - BL.sd
+        - BMH
+        - BMH.sd
+        - BMW
+        - BMW.sd
+        - BWN
+        - BWN.sd
+        - BWE
+        - BWE.sd
+        - TaL
+        - TaL.sd
+        - MTH
+        - MTH.sd
+        - TMH
+        - TMH.sd
+        - TMW
+        - TMW.sd
+        - DFH
+        - DFH.sd
+        - VFH
+        - VFH.sd
+        - IND.a
+        - IND.a.sd
+        - IND.b
+        - IND.b.sd
+        - IND.c
+        - IND.c.sd
+        - END.a
+        - END.a.sd
+        - END.b
+        - END.b.sd
+        - END.c
+        - END.c.sd
+        - IOD.a
+        - IOD.a.sd
+        - IOD.b
+        - IOD.b.sd
+        - IOD.c
+        - IOD.c.sd
+        - E
+        - E.sd
+        - SSD.a
+        - SSD.sd
+        - SSD.b
+        - SSD.b.sd
+        - SSD.c
+        - SSD.c.sd
+        - NS.a
+        - NS.a.sd
+        - NS.b
+        - NS.b.sd
+        - NS.c
+        - NS.c.sd
+        - ES.a
+        - ES.a.sd
+        - ES.b
+        - ES.b.sd
+        - ES.c
+        - ES.c.sd
+        - N
+        - N.sd
+        - OD
+        - OD.sd
+        - VTL
+        - VTL.sd
+        - SL
+        - SL.sd
+      image:
+        - Reference
+        - Type
+        - Image type
+        - Species
+        - Family (ASTW)
+        - Genus (ASTW)
+        - Species (ASTW)
+        - Stage
+        - TL
+        - BL
+        - TaL
+        - BMH
+        - MTH
+        - TMH
+        - DFH
+        - VFH
+        - BMW
+        - TMW
+        - OD
+        - BL/TL
+        - TaL/TL
+        - BMH/TL
+        - MTH/TL
+        - TMH/TL
+        - DFH/TL
+        - VFH/TL
+        - BMW/TL
+        - TMW/TL
+        - OD/TL
+        - Person taking measurements
+    ratioDiscrepancies:
+      - sheet: Picture measurement data
+        row: 91
+        scientificName: Anaxyrus fowleri
+        sourceField: TMH/TL
+        suppliedRatio: 0.71434782686957
+        originalNumerator: 1.643
+        originalTotalLength: 23
+        computedRatio: 0.07143478260869565
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 91
+        scientificName: Anaxyrus fowleri
+        sourceField: DFH/TL
+        suppliedRatio: 0.58826869565217
+        originalNumerator: 1.353
+        originalTotalLength: 23
+        computedRatio: 0.058826086956521736
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 91
+        scientificName: Anaxyrus fowleri
+        sourceField: VFH/TL
+        suppliedRatio: 0.54686956521739
+        originalNumerator: 1.256
+        originalTotalLength: 23
+        computedRatio: 0.05460869565217391
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 92
+        scientificName: Anaxyrus fowleri
+        sourceField: BMH/TL
+        suppliedRatio: 0.235714285714
+        originalNumerator: 5.601
+        originalTotalLength: 28
+        computedRatio: 0.2000357142857143
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 92
+        scientificName: Anaxyrus fowleri
+        sourceField: MTH/TL
+        suppliedRatio: 0.23571428571429
+        originalNumerator: 5.7
+        originalTotalLength: 28
+        computedRatio: 0.20357142857142857
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 92
+        scientificName: Anaxyrus fowleri
+        sourceField: DFH/TL
+        suppliedRatio: 0.724285714285714
+        originalNumerator: 2.028
+        originalTotalLength: 28
+        computedRatio: 0.07242857142857143
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+      - sheet: Picture measurement data
+        row: 92
+        scientificName: Anaxyrus fowleri
+        sourceField: VFH/TL
+        suppliedRatio: 0.517142857142857
+        originalNumerator: 1.448
+        originalTotalLength: 28
+        computedRatio: 0.05171428571428571
+        disposition: Preserve original cells; do not use the inconsistent ratio as a reader claim without source review.
+    selectedSourceRatios:
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.38656521739134
+        row: 91
+        stage: 35
+        type: Measurement
+        imageType: Black-and-white image
+      - field: TaL/TL
+        label:
+          en: tail length / total length
+          zh: 尾长/全长
+        value: 0.61765217391344
+        row: 91
+        stage: 35
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BMH/TL
+        label:
+          en: maximum body height / total length
+          zh: 躯体最大高度/全长
+        value: 0.19817391343478
+        row: 91
+        stage: 35
+        type: Measurement
+        imageType: Black-and-white image
+      - field: MTH/TL
+        label:
+          en: maximum tail height / total length
+          zh: 尾部最大高度/全长
+        value: 0.1723434782687
+        row: 91
+        stage: 35
+        type: Measurement
+        imageType: Black-and-white image
+      - field: BL/TL
+        label:
+          en: body length / total length
+          zh: 躯体长度/全长
+        value: 0.379321428571429
+        row: 92
+        stage: 35
+        type: Measurement
+        imageType: Color image
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 66M6Z
+    quantitativeLengthUnits: not-confirmed-from-readme; absolute dimensions omitted from reader claims
+    limitations:
+      en: A source compilation reader for tadpoles. Source attribution, images, uncertain stages and inconsistent ratios retain their separate scopes. Primary-work review, absolute measurement units, current species identity and the remaining scientific facets are incomplete.
+      zh: 本页为蝌蚪来源汇编读本。来源归属、图像、未确定阶段和冲突比例分别保留其范围。原始文献审阅、绝对尺寸单位、当前物种身份及其余科学主题尚未完成。

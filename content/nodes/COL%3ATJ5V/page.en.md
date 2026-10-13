@@ -1,0 +1,3 @@
+## *Chamaecostus lanceolatus*: colourful bracts and a crenulate floral lip {#s-ec206ca0f7}
+The Brazilian Flora 2020 regional field records tuberous roots, a rhizome, and jointed stem nodes. The leaf-sheaths are hairless, and the leaf tips are long-pointed. The inflorescence is oval to spindle-shaped, with egg-shaped, membranous bracts whose lower surfaces are green. The corolla may be orange, red, or pink; the petal-like stamen and the lip-shaped labellum are red or pink. The labellum has scalloped edges, and the corolla is hairy while the ovary is hairless. The substrate fields include both rock-associated and terrestrial categories, without localities.
+

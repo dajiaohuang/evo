@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aubria subsigillata
+  displayName: Aubria subsigillata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JP7D
+  sourceIndexes:
+    - name:
+        en: Aubria subsigillata
+        zh: Aubria subsigillata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JP7D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/340
+            queryName: Aubria subsigillata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/43
+            queryName: Rana subsigillata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/44
+            queryName: Phrynopsis ventrimaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/45
+            queryName: Leptodactylodon ventrimaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/46
+            queryName: Aubrya subsigillata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/47
+            queryName: Aubria occidentalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-406c1a05e8
+      - s-b7ff1b0791
+      - s-66cae8741d
+      - s-ab3a7ab30b
+      - s-01746d4c32
+      - s-ff0cf3ffe9
+      - s-a4f3ee8aaa
+      - s-00cdafd8dc
+      - s-cf1150ef5a
+      - s-db135b9e0b
+      - s-ad8e103aaa
+      - s-07fed7272f
+      - s-321d887437
+    zh:
+      - s-92f1563220
+      - s-4b636b8758
+      - s-da2977c771
+      - s-d7c8b3bee4
+      - s-6826b2809a
+      - s-72d89b89de
+      - s-75d1526b9a
+      - s-8fca3b9199
+      - s-7d7dfd3cef
+      - s-329d3911d6
+      - s-75b27feddf
+      - s-06f185821d
+      - s-6930c3c786

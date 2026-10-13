@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Firouzophrynus
+  displayName: Firouzophrynus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/V5BD3
+  sourceIndexes:
+    - name:
+        en: Firouzophrynus
+        zh: Firouzophrynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: V5BD3
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/394
+            queryName: Firouzophrynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6c052eeb66
+      - s-3aa4394528
+      - s-e88e66c457
+      - s-801a83e7eb
+      - s-277918c6b8
+      - s-c39ab3e1d5
+      - s-596b1d7cf0
+      - s-daf3d4abde
+      - s-88d0adc0b5
+      - s-cfd3169a79
+      - s-5e205e8fc8
+      - s-4b9d750810
+      - s-c2c8e01a3f
+      - s-e3d2057773
+      - s-b77dc97a20
+      - s-a08ec540a2
+      - s-c6f87c053a
+    zh:
+      - s-6007e04c67
+      - s-bc107e2819
+      - s-4db953afa0
+      - s-63f078bd1e
+      - s-5d17b8343e
+      - s-1a86a7459f
+      - s-d00f041486
+      - s-95053a820b
+      - s-318afd5540
+      - s-812b8648ae
+      - s-20cad6e931
+      - s-e3aa86907e
+      - s-52524cc905
+      - s-9f54206e30
+      - s-b1b0f1bc27
+      - s-010abce8e4
+      - s-e3711c87cd

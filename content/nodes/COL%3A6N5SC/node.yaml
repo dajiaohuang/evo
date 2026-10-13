@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis hypocyaneus
+  displayName: Ichthyophis hypocyaneus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6N5SC
+  sourceIndexes:
+    - name:
+        en: Ichthyophis hypocyaneus
+        zh: Ichthyophis hypocyaneus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6N5SC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/403
+            queryName: Ichthyophis hypocyaneus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/191
+            queryName: Coecilia hypocyanea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/192
+            queryName: Epicrium hasselti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/165
+            queryName: Caecilia hypocyanea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/189
+            queryName: Epicrium hypocyana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/227
+            queryName: Ichthopis hasselti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ac9bec7bc
+      - s-6c07318476
+      - s-01dd63f666
+      - s-1952ee7e08
+      - s-9f786abe16
+      - s-fd56498c0b
+      - s-e411e2b7cc
+      - s-82378e56a6
+      - s-d8a261453f
+      - s-9b67d8d6b4
+      - s-ba61b5b277
+      - s-7ca7a14762
+      - s-408a6f1ab6
+    zh:
+      - s-825f338b24
+      - s-6e09204578
+      - s-4043c35a7c
+      - s-cb38479949
+      - s-53be29ee37
+      - s-f747b9ccb4
+      - s-2a0f659dec
+      - s-d343caf185
+      - s-802eb86670
+      - s-d9e04af849
+      - s-5221629055
+      - s-5013555ceb
+      - s-97450c01b6

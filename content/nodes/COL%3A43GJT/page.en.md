@@ -1,0 +1,3 @@
+## ## Variable stem indumentum and silky corolla lobes {#s-5645e414f0}
+The Brazilian Flora 2020 entry lists stems as glabrous, pubescent or velvety, with spreading simple hairs and peltate glandular hairs; setae and short shoots are absent. Prickles are absent or forward-pointing and scattered. The stipules persist; extrafloral nectaries and projections between pinna pairs are absent. The inflorescences are globose, with floral bracts shorter than the flowers before opening. The flowers have three perianth parts, a membranous calyx with triangular lobes, and silky corolla lobes with one to three veins. The androecium is diplostemonous, with pink filaments. The source lists alternative states but does not quantify their distribution.
+

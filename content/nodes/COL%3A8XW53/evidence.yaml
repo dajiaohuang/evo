@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Schoenus quartziticus T.L.Elliott & Muasya
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 8XW53, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 8XW53; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/8XW53
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 8XW53
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001421048-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 8XW53 / WFO wfo-0001421048
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_17820_0
+        referenceId: ref-d9893c78-e25d-89dc-a95e-711b7a95abac
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Schoenus quartziticus T.L.Elliott & Muasya account; SANBI/WFO archive rows 103540 (Morphology), 103476 (Habitat), 103388 (Diagnostic), source identifier 17820.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Caespitose, phyllopodic perennial graminoid. Culms terete, 310-678x 0.3-0.5 mm. Leaves basal, 1-3(-6), 130-189(-273) x 0.2-1.0 mm, usually straight, proximally channelled, margin serrate above sheath. Sheaths firm, reddish-brown but paler above, longitudinally striate. Ligule usually firm but can be scarcely membranaceous, 0.2-0.8 mm long. Inflorescence a narrow pseudolateral panicle, 22-28(-47) x 3-8 mm, proximal rachis length varying in length, 7-25 mm. Proximal primary inflorescence bracts sometimes channelled proximally, apex acute to acuminate, not widened at base, (26-)37-112(-134) mm long, exceeding length of inflorescence up to several times, longitudinal veins not notable. Proximal and subproximal primary inflorescence bracts without membranaceous extensions at base. Spikes 2-4, 7.0-15.0 mm long, usually dispersed along rachis. Spikelets lanceolate, relatively short, 3.4-3.9x 0.7-1.0 mm, pedicellate, 3-6 spikelets per spike, ranging from firm to membranaceous or chaffy in texture. Proximal spikelet prophyll 1 perspikelet, with an inconspicuous vein extending to mucro, 0.4-0.9 mm long, prophyll mucro (0.8-)2.2-3.4 mm long. Rachilla 0.6-2.4(-7.2)mm long. Glumes 4-7 per spikelet, proximal glume (0.5-)1.0-1.8 mm long, subproximal glume 1.0-2.2 mm long, upper glumes longer than basal ones, lower glumes sometimes over half the length of spikelet, apex obtuse. Glume mucros absent or short, proximal mucro 0.1-1.7 mm long, subproximal mucro 0.1-1.6 mm long. Stamens 3per floret, anthers not measured. Stigmas 3-branched, vestigial stigmas of second bisexual floret not observed. Perianth bristles about half the length of nutlet. Nutlet broad elliptic, trigonous, yellowish in colour, 1.9-2.0 x 0.6-0.7 mm. Nutlet beak, 0.4-0.8 mm long, hispid.
+            textZh: Schoenus quartziticus T.L.Elliott & Muasya 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_17820_0
+            locator: "SANBI/WFO archive Morphology row 103540; source identifier 17820.0; cited publication: Elliott, TL; Barrett, RL; Muasya, AM. 2019. A taxonomic revision of Schoenus cuspidatus and allies (Cyperaceae, tribe Schoeneae) - Part 1. S. African J. Bot. 121: 519 - 535. [https://doi.org/10.1016/j.sajb.2018.11.021]. [Copyright held by the South African Association of Botanists (2019); http://www.sciencedirect.com/science/journal/02546299]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: The lanceolate spikelets of S. quartziticus often have relatively thin, membranaceous glumes and somewhat resemble those of the more robust form of S. exilis in size and shape. However, the nutlets of the two species differ, with those of S. quartziticus being broad elliptic, while S. exilis has narrow elliptic nutlets.
+            textZh: SANBI 条目提供了 Schoenus quartziticus T.L.Elliott & Muasya 的鉴别特征。
+            sourceIds:
+              - sanbi_17820_0
+            locator: "SANBI/WFO archive Diagnostic row 103388; source identifier 17820.0; cited publication: Elliott, TL; Barrett, RL; Muasya, AM. 2019. A taxonomic revision of Schoenus cuspidatus and allies (Cyperaceae, tribe Schoeneae) - Part 1. S. African J. Bot. 121: 519 - 535. [https://doi.org/10.1016/j.sajb.2018.11.021]. [Copyright held by the South African Association of Botanists (2019); http://www.sciencedirect.com/science/journal/02546299]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Appearing to be endemic to quartz patches on shale-derived soils.
+            textZh: 该 SANBI 区域物种条目记录的生境：Appearing to be endemic to quartz patches on shale-derived soils.
+            sourceIds:
+              - sanbi_17820_0
+            locator: "SANBI/WFO archive Habitat row 103476; source identifier 17820.0; cited publication: Elliott, TL; Barrett, RL; Muasya, AM. 2019. A taxonomic revision of Schoenus cuspidatus and allies (Cyperaceae, tribe Schoeneae) - Part 1. S. African J. Bot. 121: 519 - 535. [https://doi.org/10.1016/j.sajb.2018.11.021]. [Copyright held by the South African Association of Botanists (2019); http://www.sciencedirect.com/science/journal/02546299]. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

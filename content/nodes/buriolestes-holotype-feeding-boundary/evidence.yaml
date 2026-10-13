@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-a15df72390
+      part: title
+    titleZh:
+      page: zh
+      section: s-0c7ec0eec7
+      part: title
+    category: origin
+    startAge: 233.2
+    endAge: 231.4
+    regions:
+      - Candelária Sequence, Paraná Basin, Brazil
+    clades:
+      - Sauropodomorpha
+      - Saurischia
+    summary:
+      page: en
+      section: s-a15df72390
+      part: body
+    summaryZh:
+      page: zh
+      section: s-0c7ec0eec7
+      part: body
+    claimIds:
+      - claim:event:buriolestes-holotype-feeding-boundary
+    evidenceItems:
+      - statement: Holotype ULBRA-PVT280 preserves recurved, serrated teeth and a gracile skeleton in a Late Triassic assemblage; the cited matrix maps faunivory near the sauropodomorph root, but neither the diet reconstruction nor the specimen establishes a direct ancestor of herbivorous sauropods.
+        relation: supports
+        claimIds:
+          - claim:event:buriolestes-holotype-feeding-boundary
+        referenceLinks:
+          - referenceId: cabreira-2016-buriolestes
+            relation: supports
+            pages: 3090–3095
+            figure: Figures 1–4; Supplemental Information
+            quoteLocator: Systematic palaeontology; Character-state and diet reconstruction
+    uncertaintyItems:
+      - statement: Formation correlation bounds the age; the dietary transition is a mapped hypothesis across sampled taxa, not a linear sequence observed in one lineage.
+        relation: contextualizes
+        claimIds:
+          - claim:event:buriolestes-holotype-feeding-boundary
+        referenceLinks:
+          - referenceId: cabreira-2016-buriolestes
+            relation: supports
+            pages: 3090–3095
+            figure: Figures 1–4; Supplemental Information
+            quoteLocator: Systematic palaeontology; Character-state and diet reconstruction
+  claims:
+    - subjectId: event:buriolestes-holotype-feeding-boundary
+      claimKind: scientific
+      claimType: ecology
+      statement: Holotype ULBRA-PVT280 preserves recurved, serrated teeth and a gracile skeleton in a Late Triassic assemblage; the cited matrix maps faunivory near the sauropodomorph root, but neither the diet reconstruction nor the specimen establishes a direct ancestor of herbivorous sauropods.
+      confidence: medium
+      confidenceRationale: The named skeleton and dental morphology are directly documented, while diet and ancestral-state reconstruction depend on comparative coding and topology.
+      referenceLinks:
+        - referenceId: cabreira-2016-buriolestes
+          relation: supports
+          pages: 3090–3095
+          figure: Figures 1–4; Supplemental Information
+          quoteLocator: Systematic palaeontology; Character-state and diet reconstruction
+  claim-rationales.zh:
+    - 具名骨架与牙齿形态有直接记录，而食性与祖先状态重建依赖比较编码和拓扑。
+  claim-statements.zh:
+    - 正模 ULBRA-PVT280 在晚三叠世组合中保存后弯具锯齿牙与纤细骨架；所引矩阵将肉食性映射到蜥脚形类根部附近，但食性重建与该标本都不能证明它是植食性蜥脚类的直系祖先。

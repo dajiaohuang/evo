@@ -1,0 +1,345 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Henriettea martiusii (DC.) Naudin
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: COL26.8 accepted species ID 3KVK3 and exact name/authorship map through exactly one accepted WFO usage wfo-0001082207; the Brazilian Flora source record carries the same WFO ID.
+      scope: COL26.8 accepted species concept. Brazilian Flora fields remain regional dataset records; no global, current, complete-range or taxonomic-equivalence claim is made.
+      sourceIds:
+        - col26
+        - wfo2026
+        - brazilFlora2020
+      classificationPath:
+        - id: 3KVK3
+          scientificName: Henriettea martiusii (DC.) Naudin
+          rank: species
+          status: accepted
+        - id: 62VCG
+          scientificName: Henriettea DC.
+          rank: genus
+          status: accepted
+        - id: KVDZD
+          scientificName: Henrietteeae Penneys, Michelangeli, Judd & Almeda
+          rank: tribe
+          status: accepted
+        - id: JVV
+          scientificName: Melastomatoideae Ser. ex DC.
+          rank: subfamily
+          status: accepted
+        - id: CK9
+          scientificName: Melastomataceae Juss.
+          rank: family
+          status: accepted
+        - id: 3LY
+          scientificName: Myrtales Juss. ex Bercht. & J.Presl
+          rank: order
+          status: accepted
+        - id: MG
+          scientificName: Magnoliopsida
+          rank: class
+          status: accepted
+        - id: TP
+          scientificName: Tracheophyta
+          rank: phylum
+          status: accepted
+        - id: CMQ8S
+          scientificName: Pteridobiotina Britton & Brown
+          rank: subkingdom
+          status: accepted
+        - id: P
+          scientificName: Plantae
+          rank: kingdom
+          status: accepted
+        - id: CS5HF
+          scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+          rank: domain
+          status: accepted
+    lifeStatusScope:
+      wild: Wild status is not specified in these source fields.
+      domesticated: Cultivated or managed status is not specified; none is inferred.
+      fossil: Fossil applicability is not assessed from this extant-flora source.
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Nomenclatural identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KVK3
+          stableId: COL26.8:3KVK3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 3KVK3; source dataset 1141
+          attribution: Catalogue of Life COL26.8; underlying dataset 1141
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID, parent chain and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001082207-2026-06
+          stableId: wfo:wfo-0001082207-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-27
+          locator: Accepted species record wfo-0001082207; exact accepted-name/authorship mapping to COL 3KVK3
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: brazilFlora2020
+        referenceId: ref-352c188a-fa63-8d4e-a243-10428cf85b9c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Brazilian Flora 2020 archived dataset fields; not inferred for linked publications, images or PDFs
+          stableId: doi:10.15468/1mtkaw; archive sha256 79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923; WFO wfo-0001082207
+          accessedAt: 2026-09-06
+          locator: 'Brazilian Flora 2020 v393.147, morphology row 97613; WFO wfo-0001082207; source identifier ref-morph-BR-pt-0001082207; reference row 60792; source-reported citation: "Brito, E.S. 2020 Henriettea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB85261. Accessed on: Jun. 30, 2021."; habitat row 63123'
+          attribution: "Group Brazil Flora, REFLORA Program (2014): Brazilian Flora 2020, v393.147, doi:10.15468/1mtkaw"
+          licenseAssessment: aggregate-declaration-only
+          scope: Regional source fields are retained verbatim with physical archive row locators. A morphology citation is the reference reported by the dataset; rights for the referenced publication are not independently verified. Habitat rows have dataset-level attribution only.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Raiz: forma da raiz(es) axial(ais) ou pivotante(s)/não axial(ais). Caule: ramo(s) da planta(s) semi-cilíndrico(s). Folha: ápice(s) acuminado(s)/agudo(s) à acuminado(s)/arredondado(s) à acuminado(s); folha(s) peciolada(s); lâmina(s) foliar(es) elíptica(s)/estreita(s) obovada(s)/estreita(s) lanceada(s) à linear(es); base cuneada(s)/aguda(s) à levemente atenuada(s)/atenuada(s) à arredondada(s); margem(ns) inteira e ciliada(s)/inteira à ciliada(s)/ciliada(s)/crenulada(s); nervação 5 nervura(s) acródroma(s) par marginal(ais) basal(ais) par interno(s) 1 à 1.2 mm suprabasal(ais)/3 nervura(s) acródroma(s) 1 par marginal(ais) basal(ais) uninérvea(s)/3 nervura(s) acródroma(s) 1 par marginal(ais) basal(ais). Inflorescência: em fascículo(s). Flor: hipanto oblongo(s); cálice(s) lobo(s) interno(s) ovado(s)/lobo(s) externo(s) estreito(s) triangular(es)/lobo(s) externo(s) obsoleto(s)/lobo(s) externo(s) denticulado(s) apiculado(s); pétala(s) branca/alvo rosado à lilás/obovada(s)/ápice(s) cuspidado(s); estame(s) antera(s) purpúrea/antera(s) alvo à lilás/antera(s) lanceolada(s)/antera(s) obtusa(s)/antera(s) subulada(s)/poro(s) terminal(ais)/conectivo(s) não prolongado(s)/apêndice(s) dorso lateral(ais) bilobado(s); ovário(s) completamente adnata ao hipanto/6 loculicida(s)/tubuloso(s). Fruto: tipo globoso(s)/bacáceo(s). Semente: forma piriforme(s)/oblonga(s)."
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: 'Brazilian Flora 2020 v393.147, morphology description row 97613; WFO wfo-0001082207; source identifier ref-morph-BR-pt-0001082207; reference row 60792; dataset-reported citation: "Brito, E.S. 2020 Henriettea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB85261. Accessed on: Jun. 30, 2021."'
+            placeTimeScope: Verbatim morphology field in the Brazilian Flora 2020 regional dataset. The field does not establish a global description, sampling coverage, population variation, sex or life stage unless stated in its text.
+            lifeStatus: The field does not state whether observations concern wild, cultivated, managed or fossil material; none is inferred.
+        gaps:
+          - Only one source-labelled morphology field is included; its completeness, variation and diagnostic scope have not been assessed.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The source habit field is not treated as life-history evidence; life cycle and reproduction were not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Terrícola
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: Brazilian Flora 2020 v393.147, habitat field row 63123; dataset DOI 10.15468/1mtkaw; WFO wfo-0001082207
+            placeTimeScope: Habitat or substrate category exactly as recorded in this Brazilian Flora dataset row; no collection locality, survey date, global range or sampling completeness is supplied by the field.
+            lifeStatus: Wild, cultivated, managed and fossil applicability are not specified by this field.
+        gaps:
+          - Only source-labelled habitat field(s) are included; interactions, variation, locality and sampling coverage have not been assessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative evidence was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - No locality or range evidence was assessed; the regional flora dataset does not establish a complete distribution.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil search or species-level fossil evidence was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No qualifying conservation assessment was reviewed.
+  catalogue-profile:
+    scientificName: Henriettea martiusii (DC.) Naudin
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Henriettea martiusii
+      zh: Henriettea martiusii
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Nomenclatural identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/3KVK3
+          stableId: COL26.8:3KVK3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 3KVK3; source dataset 1141
+          attribution: Catalogue of Life COL26.8; underlying dataset 1141
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID, parent chain and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001082207-2026-06
+          stableId: wfo:wfo-0001082207-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-27
+          locator: Accepted species record wfo-0001082207; exact accepted-name/authorship mapping to COL 3KVK3
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: brazilFlora2020
+        referenceId: ref-352c188a-fa63-8d4e-a243-10428cf85b9c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Brazilian Flora 2020 archived dataset fields; not inferred for linked publications, images or PDFs
+          stableId: doi:10.15468/1mtkaw; archive sha256 79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923; WFO wfo-0001082207
+          accessedAt: 2026-09-06
+          locator: 'Brazilian Flora 2020 v393.147, morphology row 97613; WFO wfo-0001082207; source identifier ref-morph-BR-pt-0001082207; reference row 60792; source-reported citation: "Brito, E.S. 2020 Henriettea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB85261. Accessed on: Jun. 30, 2021."; habitat row 63123'
+          attribution: "Group Brazil Flora, REFLORA Program (2014): Brazilian Flora 2020, v393.147, doi:10.15468/1mtkaw"
+          licenseAssessment: aggregate-declaration-only
+          scope: Regional source fields are retained verbatim with physical archive row locators. A morphology citation is the reference reported by the dataset; rights for the referenced publication are not independently verified. Habitat rows have dataset-level attribution only.
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d7bb8147ae
+            part: title
+          zh:
+            page: zh
+            section: s-90a151654f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d7bb8147ae
+            part: body
+          zh:
+            page: zh
+            section: s-90a151654f
+            part: body
+        sourceIds:
+          - brazilFlora2020
+        locator: 'Brazilian Flora 2020 v393.147, morphology description row 97613; WFO wfo-0001082207; source identifier ref-morph-BR-pt-0001082207; reference row 60792; dataset-reported citation: "Brito, E.S. 2020 Henriettea in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB85261. Accessed on: Jun. 30, 2021."'
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f07cdcfafd
+            part: title
+          zh:
+            page: zh
+            section: s-ccd19f8501
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f07cdcfafd
+            part: body
+          zh:
+            page: zh
+            section: s-ccd19f8501
+            part: body
+        sourceIds:
+          - brazilFlora2020
+        locator: Brazilian Flora 2020 v393.147, habitat field row 63123; dataset DOI 10.15468/1mtkaw; WFO wfo-0001082207

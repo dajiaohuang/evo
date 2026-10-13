@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena perreti
+  displayName: Ptychadena perreti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/78NGM
+  sourceIndexes:
+    - name:
+        en: Ptychadena perreti
+        zh: Ptychadena perreti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 78NGM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/490
+            queryName: Ptychadena perreti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/223
+            queryName: Rana perreti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4629254a03
+      - s-5d040e0546
+      - s-fa672d7cdd
+      - s-a8966ae3e2
+      - s-039fbe3654
+      - s-c45b825fcb
+      - s-33af218da7
+      - s-901a834c16
+      - s-1391f288b3
+      - s-26152f065a
+    zh:
+      - s-ec28fc7a0f
+      - s-d828589368
+      - s-0ea853e8f6
+      - s-76665da7ca
+      - s-8c6d45d563
+      - s-2a0bb4d3a6
+      - s-bfaa0ca901
+      - s-cd21158293
+      - s-920f6c15b0
+      - s-cb91f8981b

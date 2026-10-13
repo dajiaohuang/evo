@@ -1,0 +1,23 @@
+## Accepted name and placement {#s-d341e778e1}
+In COL26.8, Echinotriton is an accepted genus below Pleurodelinae. The complete accepted-species query contains 4 species beneath this recorded classification path. This is a dated catalogue count, with distinct names and concepts retained in their recorded hierarchy.
+
+## Reading route {#s-8acc3964ba}
+Read from this genus to its subordinate groups and species. Compare accepted names within the same release before consulting species research. The hierarchy provides a route through the catalogue; it does not establish shared traits or a biological history for every descendant.
+
+## Foraging in the historical compilation {#s-ac478ac499}
+AmphiBIO retains 2 source records under Echinotriton in the Frost 2011 source classification. Positive foraging codes occur in 2 records for terrestrial, 2 records for aquatic, 2 records for arboreal. Categories can overlap within a record; unreported values remain unknown. These counts describe represented historical concepts, not the prevalence of traits across every species in the current group.
+
+## Recorded developmental categories {#s-7b47653fe5}
+Within the same historical source subset, positive codes record larval development in 2 records. The coded records are not independent population samples, and missing categories are not inferred absent. Species-level readers retain the original values and compilation scope.
+
+## Continue through the recorded tree {#s-691aa2fe66}
+The following materialized child pages follow the pinned classification. Source-specific biological accounts keep their own identity and review boundaries.
+
+- [Echinotriton andersoni](Echinotriton_andersoni/page.en.md)
+- [Echinotriton chinhaiensis](Echinotriton_chinhaiensis/page.en.md)
+- [Echinotriton maxiquadratus](Echinotriton_maxiquadratus/page.en.md)
+- [Echinotriton raffaellii](Echinotriton_raffaellii/page.en.md)
+
+## catalogue-profile / limitations {#s-030f65ba85}
+Taxonomic and source-bounded group introduction. Historical source subsets are not assumed equivalent to the entire current group; unrepresented biological evidence remains to be reviewed. This reader is.
+

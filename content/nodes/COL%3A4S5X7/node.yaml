@@ -1,0 +1,146 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rheobates palmatus
+  displayName: Rheobates palmatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S5X7
+  sourceIndexes:
+    - name:
+        en: Rheobates palmatus
+        zh: Rheobates palmatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S5X7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/276
+            queryName: Rheobates palmatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/126
+            queryName: Colostethus palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/118
+            queryName: Phyllobates palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/119
+            queryName: Hylixalus granuliventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/120
+            queryName: Syrrhophus palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/121
+            queryName: Hyloxalus granuliventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/122
+            queryName: Hyloxalus palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/123
+            queryName: Prostherapis palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/124
+            queryName: Prostherapis granuliventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/125
+            queryName: Colostethus granuliventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/487
+            queryName: Colostethus palmatus granuliventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/488
+            queryName: Colostethus palmatus palmatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c0ddedf9af
+      - s-f358889ffb
+      - s-3ab2025515
+      - s-824377e797
+      - s-ac0a881c68
+      - s-5f6c389104
+      - s-2fc3116b04
+      - s-3259ff03a2
+      - s-a0ba3c1214
+      - s-b9a150d6ab
+      - s-95c730cae3
+      - s-44e087d140
+      - s-0b71198c99
+      - s-414eeeb52c
+      - s-c94411afc4
+      - s-56015039b9
+      - s-782c6abb47
+      - s-645b729f5b
+      - s-16edf3b613
+      - s-11c7e3997b
+    zh:
+      - s-103da477ce
+      - s-ef6b734780
+      - s-79321355e1
+      - s-d9c51d6372
+      - s-82ef419cb3
+      - s-002e767a32
+      - s-5a13beb2e2
+      - s-5676d98b04
+      - s-fc05de4a68
+      - s-3d73b69705
+      - s-a495f28159
+      - s-9ee433288a
+      - s-2976e9c762
+      - s-b8f58e8e90
+      - s-925a48d477
+      - s-d10cdd48bc
+      - s-46b4e94aae
+      - s-205625116f
+      - s-9a00a3db8b
+      - s-fa25a6dcd8

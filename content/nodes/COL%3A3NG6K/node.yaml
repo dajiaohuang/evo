@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes dactylocinus
+  displayName: Hylodes dactylocinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG6K
+  sourceIndexes:
+    - name:
+        en: Hylodes dactylocinus
+        zh: Hylodes dactylocinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG6K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/493
+            queryName: Hylodes dactylocinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6d74c366c3
+      - s-5c53ca3c42
+      - s-92f988aaa7
+      - s-39c6d3b728
+      - s-d0df7d5c57
+      - s-894ed6a436
+      - s-ad8b5ac11a
+      - s-57eb068355
+      - s-0e77cbe6e5
+      - s-127ddd882f
+      - s-e0497d8d42
+      - s-5ef0da415a
+      - s-4993693929
+      - s-37fff5fb1f
+      - s-d1041c635c
+      - s-cab2475cf7
+      - s-4c6af375cf
+      - s-cc95208529
+      - s-b4707d24b6
+    zh:
+      - s-0a4fe4bee0
+      - s-5890c91e8b
+      - s-ab34da00ee
+      - s-34e9b705a4
+      - s-3c684e6318
+      - s-9a13d8d23f
+      - s-4841035705
+      - s-6e934b080b
+      - s-e24eeffc58
+      - s-ce1c0c9243
+      - s-a3578481d7
+      - s-5a6842d4a7
+      - s-de5af5351c
+      - s-f212bc5d17
+      - s-fe7687de5b
+      - s-e80bbfb8b2
+      - s-ecaa1e4c6e
+      - s-379d554e16
+      - s-cf056d1e40

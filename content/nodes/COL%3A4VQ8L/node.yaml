@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sclerophrys gracilipes
+  displayName: Sclerophrys gracilipes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VQ8L
+  sourceIndexes:
+    - name:
+        en: Sclerophrys gracilipes
+        zh: Sclerophrys gracilipes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VQ8L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/104
+            queryName: Sclerophrys gracilipes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/335
+            queryName: Bufo gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/462
+            queryName: Amietophrynus gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/452
+            queryName: Bufo petiti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/266
+            queryName: Bufo funereus gracilipes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-85bf052336
+      - s-befa35217e
+      - s-c7ab13d62e
+      - s-4d3d2bc9d7
+      - s-b7a658e9f2
+      - s-dc5e8595f0
+      - s-800dc5e87e
+      - s-3a1659ee2f
+      - s-01ebccda81
+      - s-5a510742d0
+      - s-2039c4b404
+      - s-dd42939546
+      - s-80f046d6fb
+      - s-985a745492
+      - s-b7180becb3
+      - s-6654a2a27a
+      - s-5e29fef0a9
+      - s-617da37c4d
+      - s-fcb983b81d
+      - s-a3623b5c96
+      - s-9e016ca3e0
+      - s-e83c19de99
+    zh:
+      - s-5d554ff96a
+      - s-bb60211ad1
+      - s-b2ca7503b5
+      - s-79c9cd1455
+      - s-e240e7e9af
+      - s-a5106c391f
+      - s-cfac752f08
+      - s-6d5fc42688
+      - s-1b1a8eafb4
+      - s-56b89ab8fa
+      - s-8b633f50e3
+      - s-c741c43765
+      - s-ca7d4c3d46
+      - s-64a3ec5a04
+      - s-32fef8fe11
+      - s-facab64d02
+      - s-0bbc9f364a
+      - s-d50b251f52
+      - s-64649c97a5
+      - s-a6d9bded4f
+      - s-f48cf9e0c0
+      - s-5c29c66464

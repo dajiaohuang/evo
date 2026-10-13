@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudopaludicola canga
+  displayName: Pseudopaludicola canga
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P5Q4
+  sourceIndexes:
+    - name:
+        en: Pseudopaludicola canga
+        zh: Pseudopaludicola canga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P5Q4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/330
+            queryName: Pseudopaludicola canga
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/38
+            queryName: Pseudopaludicola parnaiba
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-008b033fb9
+      - s-3ce8e51832
+      - s-837cb670ed
+      - s-23fe75d7f9
+      - s-e3611dbaf0
+      - s-669a6971b0
+      - s-ec6d16a4e5
+      - s-0c33a7e850
+      - s-8bc64b12ef
+      - s-11c1345ca0
+      - s-e45beefc5f
+      - s-9acae170aa
+      - s-153e7c34e0
+      - s-803801a9bd
+      - s-43943e6678
+      - s-a64598eda3
+    zh:
+      - s-d8ebf96602
+      - s-323c5daddc
+      - s-407c1f9c07
+      - s-c4c68682d8
+      - s-ad52dcf20e
+      - s-bc5400a82c
+      - s-014e1b61dc
+      - s-a562b1839f
+      - s-1c1b71d974
+      - s-7ba12db454
+      - s-e96cad8f24
+      - s-7c95960310
+      - s-1b4c5b2504
+      - s-6b80b04bee
+      - s-52e0ce9614
+      - s-8c0743b1bf

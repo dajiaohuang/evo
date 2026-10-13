@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius lamottei
+  displayName: Hyperolius lamottei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MPXC
+  sourceIndexes:
+    - name:
+        en: Hyperolius lamottei
+        zh: Hyperolius lamottei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MPXC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/276
+            queryName: Hyperolius lamottei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b58e47dfca
+      - s-65b0d45413
+      - s-65fb3979a6
+      - s-b09b6a312e
+      - s-4cc99c1d96
+      - s-f060694ae1
+      - s-54b0f2ea64
+      - s-3b7b76a415
+      - s-ad5aa6eb7d
+      - s-59cb7a3696
+      - s-1c7f5c34e7
+    zh:
+      - s-344bc2bc26
+      - s-32d3a6670c
+      - s-00ac538106
+      - s-487d57453b
+      - s-8455abd212
+      - s-73440adc47
+      - s-19327cffa9
+      - s-ad50ebc2c5
+      - s-be0f8f9283
+      - s-f1580b9bc5
+      - s-2d6da4539a

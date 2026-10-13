@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynopus oblivius
+  displayName: Phrynopus oblivius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GWR2
+  sourceIndexes:
+    - name:
+        en: Phrynopus oblivius
+        zh: Phrynopus oblivius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GWR2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/231
+            queryName: Phrynopus oblivius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1f4d5dbada
+      - s-27a8339a77
+      - s-758c2b3c22
+      - s-bfd3bc2297
+      - s-76a8b2433b
+      - s-d56bc6e900
+      - s-f68876d81f
+    zh:
+      - s-47eaf067bd
+      - s-9dfe4a3fc2
+      - s-93fe37f16a
+      - s-161613148f
+      - s-4b8c7fed51
+      - s-f5d94ee3c1
+      - s-809deb7086

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates bacurau
+  displayName: Allobates bacurau
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65X9K
+  sourceIndexes:
+    - name:
+        en: Allobates bacurau
+        zh: Allobates bacurau
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65X9K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/124
+            queryName: Allobates bacurau
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-19572d5175
+      - s-bf7a586e2d
+      - s-80d37dbb5d
+      - s-00e3b51be1
+      - s-9303d11bc6
+      - s-05f505b037
+      - s-7a5b9bb3d8
+      - s-476157ab50
+      - s-d557cce16e
+      - s-00b27d7738
+      - s-0bc31c6dfa
+      - s-3983af079a
+      - s-4641938960
+      - s-3ae66f762a
+      - s-72f036ed76
+      - s-c20ee70c72
+    zh:
+      - s-b741ac6824
+      - s-79421aaec7
+      - s-bf6f95d7f0
+      - s-c262f3b496
+      - s-25d659099d
+      - s-95dd0b0f15
+      - s-55816965dc
+      - s-cecea3a8c7
+      - s-7bb51a3efc
+      - s-e6f9781064
+      - s-eccd52c517
+      - s-305504fdb8
+      - s-3ea8265c1c
+      - s-d1a5a99482
+      - s-aa197ba627
+      - s-d5d99f23f8

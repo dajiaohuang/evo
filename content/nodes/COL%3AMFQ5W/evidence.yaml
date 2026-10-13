@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chiropterotriton perotensis Parra-Olea, García-Castillo, Rovito, Maisano, Hanken & Wake, 2020
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Chiropterotriton perotensis
+      zh: Chiropterotriton perotensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-ff0049a620
+            part: title
+          zh:
+            page: zh
+            section: s-a3a0b67805
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ff0049a620
+            part: body
+          zh:
+            page: zh
+            section: s-a3a0b67805
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-60237e97ca
+            part: title
+          zh:
+            page: zh
+            section: s-daa93d3fde
+            part: title
+        text:
+          en:
+            page: en
+            section: s-60237e97ca
+            part: body
+          zh:
+            page: zh
+            section: s-daa93d3fde
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bcd14195a9
+            part: title
+          zh:
+            page: zh
+            section: s-e2f290ab78
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq5w
+        text:
+          en:
+            page: en
+            section: s-bcd14195a9
+            part: body
+          zh:
+            page: zh
+            section: s-e2f290ab78
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-13c443eb0a
+            part: title
+          zh:
+            page: zh
+            section: s-7c05b41558
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq5w
+        text:
+          en:
+            page: en
+            section: s-13c443eb0a
+            part: body
+          zh:
+            page: zh
+            section: s-7c05b41558
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6682c11df7
+            part: title
+          zh:
+            page: zh
+            section: s-2233dc191a
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq5w
+        text:
+          en:
+            page: en
+            section: s-6682c11df7
+            part: body
+          zh:
+            page: zh
+            section: s-2233dc191a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8ce30a1aea
+            part: title
+          zh:
+            page: zh
+            section: s-49a60961b6
+            part: title
+        sourceIds:
+          - primary-pmc7258950-mfq5w
+        text:
+          en:
+            page: en
+            section: s-8ce30a1aea
+            part: body
+          zh:
+            page: zh
+            section: s-49a60961b6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Chiropterotriton perotensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/MFQ5W
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7258950-mfq5w
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Chiropterotriton perotensis: Named species holotype, paratypes, diagnosis, live/preserved colour and distribution/ecology paragraphs; no comparative tables or images reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-94904f479a
+        part: body
+      zh:
+        page: zh
+        section: s-4b2c424c7c
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.8800
+        referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+        sourceKey: primary-pmc7258950-mfq5w
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7258950/article.xml
+        sourceConcept: Chiropterotriton perotensis
+        evidenceRead: "Chiropterotriton perotensis: Named species holotype, paratypes, diagnosis, live/preserved colour and distribution/ecology paragraphs; no comparative tables or images reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Twenty types and a female locality with kilometre-scale uncertainty
+              zh: 二十件模式标本及具有千米级不确定性的雌性地点
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq5w
+            locator: Results > Chiropterotriton perotensis; reading-sections index 2, paragraphs 40–41 and 43
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e7e1583b6f
+                part: body
+              zh:
+                page: zh
+                section: s-7f44d705ab
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Short limbs and relatively small hands and feet
+              zh: 短肢及相对小手足
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq5w
+            locator: Results > Chiropterotriton perotensis; reading-sections index 2, paragraphs 43
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-65032fd4f8
+                part: body
+              zh:
+                page: zh
+                section: s-e540d0106e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Live colours from referred specimens, not the type series
+              zh: 来自参考标本而非模式系列的活体颜色
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq5w
+            locator: Results > Chiropterotriton perotensis; reading-sections index 2, paragraphs 54–55
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0bfb8d6b05
+                part: body
+              zh:
+                page: zh
+                section: s-ba46f89cab
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Cofre de Perote from forest to the summit
+              zh: Cofre de Perote 从森林至山顶
+            referenceId: ref-a2581dd8-f999-48d6-a988-027c845982f4
+            sourceKey: primary-pmc7258950-mfq5w
+            locator: Results > Chiropterotriton perotensis; reading-sections index 2, paragraphs 59
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1f0d75ecaf
+                part: body
+              zh:
+                page: zh
+                section: s-ae761224f4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

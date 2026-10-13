@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus acreanus
+  displayName: Dendropsophus acreanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S49
+  sourceIndexes:
+    - name:
+        en: Dendropsophus acreanus
+        zh: Dendropsophus acreanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S49
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/333
+            queryName: Dendropsophus acreanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/242
+            queryName: Hyla acreana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/413
+            queryName: Hyla senicula acreana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f23a467e2
+      - s-ff6f176154
+      - s-7a15c674d8
+      - s-0264c757f0
+      - s-7d7c4f830b
+      - s-82e28b8f1f
+      - s-798a7b37f3
+      - s-0e43504938
+      - s-8a0ebbd62d
+      - s-0075fab396
+    zh:
+      - s-0bdf199397
+      - s-6f3fb2e0e3
+      - s-de09cea0d1
+      - s-073663f1fa
+      - s-850ce78b3b
+      - s-57e2349380
+      - s-c674b39308
+      - s-7fabc98f10
+      - s-3dc4cb39ef
+      - s-67bea992d4

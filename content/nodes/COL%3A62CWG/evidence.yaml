@@ -1,0 +1,320 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Apalis
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Apalis
+      en: Apalis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetV7
+        text:
+          zh:
+            page: zh
+            section: s-abe19457b7
+            part: body
+          en:
+            page: en
+            section: s-753a610ab3
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetV7
+          - avonetProtocol2022
+        text:
+          zh:
+            page: zh
+            section: s-8c8d655631
+            part: body
+          en:
+            page: en
+            section: s-4f86d51cd1
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-4654a22e7c
+            part: body
+          en:
+            page: en
+            section: s-b3a8c6bf39
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-8337bbd522
+            part: body
+          en:
+            page: en
+            section: s-7245685c06
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-c32917f657
+            part: body
+          en:
+            page: en
+            section: s-216f52e4a1
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-7d23a97f09
+            part: body
+          en:
+            page: en
+            section: s-e7366f9fa9
+            part: body
+      - topic: overview
+        sourceIds:
+          - avonetEcologyOnlyV7
+        text:
+          zh:
+            page: zh
+            section: s-f0288e6326
+            part: body
+          en:
+            page: en
+            section: s-096dabe019
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Apalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/62CWG
+          locator: Pinned name, rank and ancestor closure.
+      - id: avonetV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AVONET1_BirdLife; the 17 selected measured records placed under Apalis in pinned COL26.8.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的历史数据记录，不推断完整后代覆盖。
+            en: Only this batch’s authored historical records; no complete descendant coverage inferred.
+      - id: avonetProtocol2022
+        referenceId: ref-43f38f21-86d6-45b9-a255-7b157984216b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Measurement protocol, taxonomic harmonization and species-average data; workbook Metadata sheet defines field meanings.
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 支持测量定义、取样与物种均值的解释；不证明 2020 历史分类概念与 COL26.8 完全等同。
+            en: Measurement definitions, sampling and species-average interpretation; not proof that historical 2020 species concepts equal COL26.8 concepts.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 19 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 19
+            foraging: 19
+            activity: 0
+          readingTargets:
+            - name: Apalis thoracica
+              colId: F6N6
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6N6
+            - name: Apalis nigriceps
+              colId: F6MV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MV
+            - name: Apalis jacksoni
+              colId: F6MQ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MQ
+            - name: Apalis chariessa
+              colId: F6MH
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MH
+            - name: Apalis binotata
+              colId: F6MF
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MF
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 3
+            foraging: 0
+            activity: 0
+          readingTargets:
+            - name: Apalis fuscigularis
+              colId: F6MN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MN
+            - name: Apalis lynesi
+              colId: F6MT
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MT
+            - name: Apalis argentea
+              colId: F6MD
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3AF6MD
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: avonetEcologyOnlyV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - readingTargets
+          - fieldAccountCounts
+          - withheldBiometricFields
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "AVONET1_BirdLife: 4 authored ecological records under recorded COL ancestry."
+          readingTargets:
+            - colId: F6MD
+              name: Apalis argentea
+              canonicalPath: content/nodes/COL%3AF6MD
+            - colId: 67L5L
+              name: Apalis bamendae
+              canonicalPath: content/nodes/COL%3A67L5L
+            - colId: F6MH
+              name: Apalis chariessa
+              canonicalPath: content/nodes/COL%3AF6MH
+            - colId: F6MP
+              name: Apalis goslingi
+              canonicalPath: content/nodes/COL%3AF6MP
+          fieldAccountCounts:
+            Habitat: 4
+            Trophic.Niche: 4
+            Primary.Lifestyle: 4
+            Migration: 4
+          withheldBiometricFields:
+            - Beak.Length_Culmen
+            - Beak.Length_Nares
+            - Beak.Width
+            - Beak.Depth
+            - Tarsus.Length
+            - Wing.Length
+            - Kipps.Distance
+            - Secondary1
+            - Hand-Wing.Index
+            - Tail.Length
+            - Mass
+          accessedAt: 2026-10-03
+          scope:
+            zh: 仅本批已写生态与地理条目；完整后代内容未完成。
+            en: This batch’s ecology and geography records only; complete descendant content remains unfinished.
+    limitations:
+      zh:
+        page: zh
+        section: s-810485674a
+        part: body
+      en:
+        page: en
+        section: s-8937954e9d
+        part: body

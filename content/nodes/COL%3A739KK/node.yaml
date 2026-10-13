@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus vilavelhensis
+  displayName: Melanophryniscus vilavelhensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/739KK
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus vilavelhensis
+        zh: Melanophryniscus vilavelhensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 739KK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/410
+            queryName: Melanophryniscus vilavelhensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ccf1625aa
+      - s-3c29ca01b4
+      - s-170739ec72
+      - s-100cb725d7
+      - s-b1132acc0a
+      - s-5454a95b28
+      - s-74aaa5764a
+      - s-84e7c653dc
+      - s-d9a46f6575
+      - s-e012dd43df
+      - s-5292637a37
+      - s-711070c8b4
+      - s-e7b0837b18
+      - s-1f6220c025
+      - s-e9d5de5e8a
+      - s-a8bda3eea7
+      - s-6dce96edd0
+      - s-1a244cc564
+      - s-104212b24c
+      - s-7a9b2b8696
+      - s-ee75b0641d
+      - s-2ba6e7ea36
+      - s-8ca2ea4f9f
+      - s-a4d05c85ba
+      - s-6dc3c0a99d
+    zh:
+      - s-ab54fb787e
+      - s-0e51ea143d
+      - s-984eee610a
+      - s-aecd283d53
+      - s-8bb0b59a2c
+      - s-067794dc16
+      - s-ed0784aae9
+      - s-a68cd35816
+      - s-1f8f27b567
+      - s-ac4ce80447
+      - s-60d8a5dd55
+      - s-8efc87b415
+      - s-2830f139f3
+      - s-94e02252de
+      - s-1479a8d1b5
+      - s-cc5ab089a8
+      - s-0c32380c10
+      - s-1a57589193
+      - s-bbb6156c8b
+      - s-0866fa3ef5
+      - s-adbc348d98
+      - s-4adc6dea69
+      - s-ce2eb14079
+      - s-79f53594eb
+      - s-6cafb2a6da

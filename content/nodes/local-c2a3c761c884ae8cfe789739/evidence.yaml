@@ -1,0 +1,198 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ischnocnema feioi
+    name:
+      en: Ischnocnema feioi
+      zh: Ischnocnema feioi
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Ischnocnema
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-465bfe49a4
+            part: body
+          zh:
+            page: zh
+            section: s-df21ba2cb1
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0e833c9cc2
+            part: body
+          zh:
+            page: zh
+            section: s-d98877227e
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2421; Reference.csv rows 2218
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2421
+        values:
+          - Brachycephaloidea
+          - Ischnocnema
+          - Ischnocnema feioi
+          - M
+          - "22"
+          - "9.2"
+          - "7.3"
+          - "2.5"
+          - "1"
+          - NA
+          - NA
+          - "2"
+          - NA
+          - "2.6"
+          - NA
+          - NA
+          - "6.9"
+          - "4.6"
+          - NA
+          - "15.6"
+          - NA
+          - "16.1"
+          - "14.5"
+          - "7.5"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2218
+        values:
+          - Anura
+          - Ischnocnema_feioi
+          - "Taucce, P. P. G., Canedo, C., & Haddad, C. F. B. (2018). Two new species of Ischnocnema(Anura: Brachycephalidae) from southeastern Brazil and their phylogenetic position within the I. guentheri series. Herpetological Monographs, 32(1), 1-21. https://doi.org/10.1655/herpmonographs-d-16-00014.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IND
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - TSL
+      - Fin3DW
+      - Toe4DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

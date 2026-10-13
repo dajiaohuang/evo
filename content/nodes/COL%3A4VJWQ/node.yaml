@@ -1,0 +1,164 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax fuscomarginatus
+  displayName: Scinax fuscomarginatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJWQ
+  sourceIndexes:
+    - name:
+        en: Scinax fuscomarginatus
+        zh: Scinax fuscomarginatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJWQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/38
+            queryName: Scinax fuscomarginatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 16
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/55
+            queryName: Scinax parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/62
+            queryName: Scinax trilineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/198
+            queryName: Hyla fuscomarginata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/199
+            queryName: Hyla parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/200
+            queryName: Ololygon parkeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/201
+            queryName: Ololygon fuscomarginata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/202
+            queryName: Ololygon trilineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/203
+            queryName: Scinax fuscomarginata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/204
+            queryName: Scinax trilineata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/205
+            queryName: Scinax lutzorum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/206
+            queryName: Scinax pusillus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-48081f222b
+      - s-ddd1071cbd
+      - s-a921011489
+      - s-6fc1232c43
+      - s-95c06b4a8f
+      - s-df9f6a230c
+      - s-07be513642
+      - s-290dbc55c7
+      - s-4aa9172578
+      - s-73278dc395
+      - s-b94b9718f0
+      - s-06312d3187
+      - s-456c3ac58f
+      - s-ba2e2b77d1
+      - s-081a4121b2
+      - s-d772c03864
+      - s-ff6767f77c
+      - s-9a4036b53f
+      - s-e2ce7af22e
+      - s-9caa09f271
+      - s-9cdce5d6c3
+      - s-94ba78d063
+      - s-6e5230b933
+      - s-eb76843dca
+      - s-e80acefb02
+      - s-4348408cfa
+      - s-62fa8cc67f
+      - s-2b39cf858b
+      - s-bd7f78f7fb
+    zh:
+      - s-ccbb77f5e7
+      - s-13edb1b004
+      - s-2ea31f1b7a
+      - s-9cd39df24b
+      - s-8397d40e1c
+      - s-cf77be0231
+      - s-337aed3b57
+      - s-e6d1a90c55
+      - s-90b29e56ec
+      - s-beeb915307
+      - s-396002df77
+      - s-e47291dc38
+      - s-b8186f6d6c
+      - s-17f611fcb3
+      - s-c678e77ff4
+      - s-003db7dac0
+      - s-5a0fcd73bc
+      - s-03145266ba
+      - s-62743dbd4d
+      - s-b32d31bfc0
+      - s-eccf3ba2a1
+      - s-9f2aa61249
+      - s-9d2eb9b14e
+      - s-5f47503230
+      - s-33b7cd5c96
+      - s-1a28288a66
+      - s-b3e6ca645d
+      - s-601659410d
+      - s-ad56bf0114

@@ -1,0 +1,469 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops himalayanus (Boulenger, 1888)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops himalayanus
+      zh: Amolops himalayanus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b6d23aa82a
+            part: title
+          zh:
+            page: zh
+            section: s-6973c8c97f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b6d23aa82a
+            part: body
+          zh:
+            page: zh
+            section: s-6973c8c97f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-54737203b9
+            part: title
+          zh:
+            page: zh
+            section: s-5b884b885d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-54737203b9
+            part: body
+          zh:
+            page: zh
+            section: s-5b884b885d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-fe4aebcc7e
+            part: title
+          zh:
+            page: zh
+            section: s-91958e095e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-fe4aebcc7e
+            part: body
+          zh:
+            page: zh
+            section: s-91958e095e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b0a944758c
+            part: title
+          zh:
+            page: zh
+            section: s-7219609d1d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b0a944758c
+            part: body
+          zh:
+            page: zh
+            section: s-7219609d1d
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-32e660bad7bece526ac2c909da18dbc1
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-53ff595fd4e73a2b8d096cad
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2506b118f9
+            part: title
+          zh:
+            page: zh
+            section: s-451507b389
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-2506b118f9
+            part: body
+          zh:
+            page: zh
+            section: s-451507b389
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-60dfb810f2
+            part: title
+          zh:
+            page: zh
+            section: s-f34f3ae87f
+            part: title
+        sourceIds:
+          - primary-pmc11929006-66dxw
+        text:
+          en:
+            page: en
+            section: s-60dfb810f2
+            part: body
+          zh:
+            page: zh
+            section: s-f34f3ae87f
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-13756f3d90
+            part: title
+          zh:
+            page: zh
+            section: s-c549334617
+            part: title
+        sourceIds:
+          - primary-pmc10351143-66dxw
+        text:
+          en:
+            page: en
+            section: s-13756f3d90
+            part: body
+          zh:
+            page: zh
+            section: s-c549334617
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d4b63f1489
+            part: title
+          zh:
+            page: zh
+            section: s-7e8e4d8e46
+            part: title
+        sourceIds:
+          - primary-pmc10351143-66dxw
+        text:
+          en:
+            page: en
+            section: s-d4b63f1489
+            part: body
+          zh:
+            page: zh
+            section: s-7e8e4d8e46
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops himalayanus
+          url: https://www.checklistbank.org/dataset/316115/taxon/66DXW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4722; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4725 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 261, 262; Reference.csv rows 3753
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc11929006-66dxw
+        referenceId: ref-98c5bf25-5d63-47c2-a27a-8ab422b4d9be
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops himalayanus: Species ecological notes in Chinese range-extension and juvenile report; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10351143-66dxw
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops himalayanus: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-cf999b943a
+        part: body
+      zh:
+        page: zh
+        section: s-d3cb537346
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-32e660bad7bece526ac2c909da18dbc1
+      sourceRowId: Anf4722
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4722
+        bibliographyRowId: Anf4725
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Amolops gerbillus
+        candidateBibliographyRowIds:
+          - Anf4725
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-53ff595fd4e73a2b8d096cad
+        scientificName: Amolops himalayanus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.13.e148957
+        referenceId: ref-98c5bf25-5d63-47c2-a27a-8ab422b4d9be
+        sourceKey: primary-pmc11929006-66dxw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11929006/article.xml
+        sourceConcept: Amolops himalayanus
+        evidenceRead: "Amolops himalayanus: Species ecological notes in Chinese range-extension and juvenile report; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A river-side shrubland specimen at night
+              zh: 夜间河边灌丛中的标本
+            referenceId: ref-98c5bf25-5d63-47c2-a27a-8ab422b4d9be
+            sourceKey: primary-pmc11929006-66dxw
+            locator: "Amolops himalayanus: Species ecological notes in Chinese range-extension and juvenile report; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9d232b1cf6
+                part: body
+              zh:
+                page: zh
+                section: s-1e245c899c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-66dxw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops himalayanus: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Characters in the dated group comparison
+              zh: 有年代群比较中的性状
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-66dxw
+            locator: PMC10351143 article.xml Sec20p7;Sec4p1 comparative-source scope;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4b608b6074
+                part: body
+              zh:
+                page: zh
+                section: s-49d04016e9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Sex-specific size in a published comparison
+              zh: 发表比较中的性别特定体型
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-66dxw
+            locator: PMC10351143 article.xml Sec20p7;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7b555c08d0
+                part: body
+              zh:
+                page: zh
+                section: s-af97520e1c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

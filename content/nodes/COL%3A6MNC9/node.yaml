@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylambates maculatus
+  displayName: Hylambates maculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNC9
+  sourceIndexes:
+    - name:
+        en: Hylambates maculatus
+        zh: Hylambates maculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNC9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/377
+            queryName: Hylambates maculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/218
+            queryName: Kassina maculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 26
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/426
+            queryName: Phlyctimantis maculatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/427
+            queryName: Kassina poweri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-777e7a79c3
+      - s-e90d0c2401
+      - s-3c4b3b4e8f
+      - s-89dc90d7d7
+      - s-d9a5774a7b
+      - s-ec598e4d07
+      - s-400c7604f2
+      - s-dbb323f640
+      - s-2feb458877
+      - s-f5f2b737ed
+      - s-a5028073d4
+      - s-6b84d27d60
+      - s-f2e62085f9
+      - s-db21632de5
+    zh:
+      - s-b294e3e860
+      - s-ac4c1b686d
+      - s-ad45b89070
+      - s-55c298b19b
+      - s-edafdf83cc
+      - s-861cc95d06
+      - s-7c1e9878ad
+      - s-c4e0b99117
+      - s-e87a1506a7
+      - s-fdb9855f04
+      - s-c1f68299bd
+      - s-e165b0b01e
+      - s-8edf3ba21b
+      - s-988d8fb796

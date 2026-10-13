@@ -1,0 +1,114 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Peucaea carpalis
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: Peucaea carpalis
+      en: Peucaea carpalis
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - avonetPeucaeaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-63a9537937
+            part: body
+          en:
+            page: en
+            section: s-549af4e728
+            part: body
+      - topic: morphology
+        sourceIds:
+          - avonetPeucaeaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-8564b11e8d
+            part: body
+          en:
+            page: en
+            section: s-8450bc7824
+            part: body
+      - topic: bodyMass
+        sourceIds:
+          - avonetPeucaeaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-1bbca511e3
+            part: body
+          en:
+            page: en
+            section: s-a54fc8ccaa
+            part: body
+      - topic: feeding
+        sourceIds:
+          - avonetPeucaeaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-81d1923557
+            part: body
+          en:
+            page: en
+            section: s-8db5d27c7f
+            part: body
+      - topic: ecology
+        sourceIds:
+          - avonetPeucaeaHistoricalV7
+        text:
+          zh:
+            page: zh
+            section: s-b117435b64
+            part: body
+          en:
+            page: en
+            section: s-2ec717b506
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Peucaea carpalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/4FF35
+          locator: Pinned accepted name and recorded ancestry; source-specific older combinations preserved separately.
+      - id: avonetPeucaeaHistoricalV7
+        referenceId: ref-a0ada1fe-b948-4d2b-b1d5-6044eda73c61
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - accessedAt
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: AVONET v7 — selected Peucaea historical records
+          url: https://figshare.com/articles/dataset/16586228/7
+          accessedAt: 2026-10-03
+          locator: 8 selected AVONET1_BirdLife rows within 6481–6488; each eBird and BirdTree crosswalk, pe/ai COL name shards and relevant Metadata definitions retained in receipt.
+          scope:
+            zh: 八条历史行：旧 Aimophila 组合、形态样本、独立文献体重与生态类别分开。
+            en: "Eight historical rows: retain older Aimophila combinations, morphology samples, separately compiled mass and ecological categories."
+    limitations:
+      zh:
+        page: zh
+        section: s-7351b63215
+        part: body
+      en:
+        page: en
+        section: s-973d40a9a8
+        part: body

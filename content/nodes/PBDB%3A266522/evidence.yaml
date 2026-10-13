@@ -1,0 +1,267 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Aphaneramma rostratum
+    rank: species
+    sourceTaxonId: txn:266522
+    name:
+      en: Aphaneramma rostratum
+      zh: Aphaneramma rostratum
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-ac84b81f2a
+            part: body
+          zh:
+            page: zh
+            section: s-48a45beea7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-3b2b9d9d96
+            part: body
+          zh:
+            page: zh
+            section: s-8b679f806a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-58162deb24
+            part: body
+          zh:
+            page: zh
+            section: s-9512092323
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:266522; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. S. Woodward. 1904. On two new labyrinthodont skulls of the genera Capitosaurus and Aphaneramma. Proceedings of the Zoological Society of London 1904(2):170-176
+    occurrenceEvidence:
+      - occurrenceId: occ:1131219
+        collectionId: col:143886
+        acceptedTaxonId: txn:266522
+        identifiedName: Aphaneramma rostratum n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:10295
+        bibliography: A. S. Woodward. 1904. On two new labyrinthodont skulls of the genera Capitosaurus and Aphaneramma. Proceedings of the Zoological Society of London 1904(2):170-176
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131223
+        collectionId: col:143892
+        acceptedTaxonId: txn:266522
+        identifiedTaxonId: txn:266520
+        identifiedName: Lonchorhynchus oebergi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:46560
+        bibliography: C. Wiman. 1910. Ein paar Labyrinthodontenreste aus der Trias Spitzbergens. Bulletin of the Geological Institutions of the University of Uppsala 9:34-40
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131899
+        collectionId: col:120228
+        acceptedTaxonId: txn:266522
+        identifiedTaxonId: txn:266520
+        identifiedName: Lonchorhynchus oebergi
+        taxonomicDifference: null
+        referenceId: ref:46568
+        bibliography: C. Wiman. 1914. Über die Stegocephalen aus der Trias Spitzbergens. Bulletin of the Geological Institutions of the University of Uppsala 13:1-34
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131900
+        collectionId: col:120231
+        acceptedTaxonId: txn:266522
+        identifiedTaxonId: txn:266520
+        identifiedName: Lonchorhynchus oebergi
+        taxonomicDifference: null
+        referenceId: ref:46568
+        bibliography: C. Wiman. 1914. Über die Stegocephalen aus der Trias Spitzbergens. Bulletin of the Geological Institutions of the University of Uppsala 13:1-34
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131901
+        collectionId: col:120230
+        acceptedTaxonId: txn:266522
+        identifiedTaxonId: txn:266520
+        identifiedName: Lonchorhynchus oebergi
+        taxonomicDifference: null
+        referenceId: ref:46568
+        bibliography: C. Wiman. 1914. Über die Stegocephalen aus der Trias Spitzbergens. Bulletin of the Geological Institutions of the University of Uppsala 13:1-34
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131902
+        collectionId: col:120372
+        acceptedTaxonId: txn:266522
+        identifiedTaxonId: txn:266520
+        identifiedName: Lonchorhynchus oebergi
+        taxonomicDifference: null
+        referenceId: ref:46568
+        bibliography: C. Wiman. 1914. Über die Stegocephalen aus der Trias Spitzbergens. Bulletin of the Geological Institutions of the University of Uppsala 13:1-34
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131904
+        collectionId: col:120228
+        acceptedTaxonId: txn:266522
+        taxonomicDifference: null
+        referenceId: ref:46568
+        bibliography: C. Wiman. 1914. Über die Stegocephalen aus der Trias Spitzbergens. Bulletin of the Geological Institutions of the University of Uppsala 13:1-34
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131971
+        collectionId: col:120366
+        acceptedTaxonId: txn:266522
+        taxonomicDifference: null
+        referenceId: ref:46574
+        bibliography: T. Nilsson. 1943. On the morphology of the lower jaw of Stegocephalia with special reference to Eotriassic stegocephalians from Spitzbergen. I. Descriptive Part. Kungl. Svenska Vetenskapsakademiens Handlingar 20(9):1-46
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+      - occurrenceId: occ:1131972
+        collectionId: col:144048
+        acceptedTaxonId: txn:266522
+        taxonomicDifference: null
+        referenceId: ref:46574
+        bibliography: T. Nilsson. 1943. On the morphology of the lower jaw of Stegocephalia with special reference to Eotriassic stegocephalians from Spitzbergen. I. Descriptive Part. Kungl. Svenska Vetenskapsakademiens Handlingar 20(9):1-46
+        locality:
+          countryCode: SJ
+          stateProvince: null
+          county: null
+        stratigraphy:
+          group: null
+          formation: Kongressfjellet
+          member: Sticky Keep
+        olderAgeMa: 250.8
+        youngerAgeMa: 248.6
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-58162deb24
+            part: body
+          zh:
+            page: zh
+            section: s-9512092323
+            part: body
+        sourceIds: []

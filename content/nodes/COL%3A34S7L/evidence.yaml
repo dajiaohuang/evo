@@ -1,0 +1,375 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendropsophus vraemi Caminer, Milá, Jansen, Fouquet, Venegas, Chávez, Lougheed & Ron, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Dendropsophus vraemi
+      zh: Dendropsophus vraemi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-370e531516
+            part: title
+          zh:
+            page: zh
+            section: s-7003a41bcd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-370e531516
+            part: body
+          zh:
+            page: zh
+            section: s-7003a41bcd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8b4adbe939
+            part: title
+          zh:
+            page: zh
+            section: s-9dc90b55b7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8b4adbe939
+            part: body
+          zh:
+            page: zh
+            section: s-9dc90b55b7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fe7b52ad37
+            part: title
+          zh:
+            page: zh
+            section: s-863f436898
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-fe7b52ad37
+            part: body
+          zh:
+            page: zh
+            section: s-863f436898
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-17ce8f641203a53c7ab37398
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8e689d2347
+            part: title
+          zh:
+            page: zh
+            section: s-54913a2fbf
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8e689d2347
+            part: body
+          zh:
+            page: zh
+            section: s-54913a2fbf
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0a40aedccc
+            part: title
+          zh:
+            page: zh
+            section: s-ad51806217
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7l
+        text:
+          en:
+            page: en
+            section: s-0a40aedccc
+            part: body
+          zh:
+            page: zh
+            section: s-ad51806217
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-b9dd229394
+            part: title
+          zh:
+            page: zh
+            section: s-76d1cac318
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7l
+        text:
+          en:
+            page: en
+            section: s-b9dd229394
+            part: body
+          zh:
+            page: zh
+            section: s-76d1cac318
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-16e87bf566
+            part: title
+          zh:
+            page: zh
+            section: s-d29dad367f
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7l
+        text:
+          en:
+            page: en
+            section: s-16e87bf566
+            part: body
+          zh:
+            page: zh
+            section: s-d29dad367f
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-d455c6578c
+            part: title
+          zh:
+            page: zh
+            section: s-8d6ed9d800
+            part: title
+        sourceIds:
+          - primary-pmc5332023-34s7l
+        text:
+          en:
+            page: en
+            section: s-d455c6578c
+            part: body
+          zh:
+            page: zh
+            section: s-8d6ed9d800
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendropsophus vraemi
+          url: https://www.checklistbank.org/dataset/316115/taxon/34S7L
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1552; Reference.csv rows 3025
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc5332023-34s7l
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Dendropsophus vraemi: Eight-male diagnosis, live holotype versus preserved series appearance, one-locality ecology and dated Data Deficient proposal; no species call or female range inferred; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a24800851c
+        part: body
+      zh:
+        page: zh
+        section: s-d06fe74e21
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-17ce8f641203a53c7ab37398
+        scientificName: Dendropsophus vraemi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0171785
+        referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+        sourceKey: primary-pmc5332023-34s7l
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5332023/article.xml
+        sourceConcept: Dendropsophus vraemi
+        evidenceRead: "Dendropsophus vraemi: Eight-male diagnosis, live holotype versus preserved series appearance, one-locality ecology and dated Data Deficient proposal; no species call or female range inferred; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A bifid palmar tubercle in an eight-male diagnosis
+              zh: 八只雄性鉴别中的分叉掌结节
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7l
+            locator: PMC5332023 reading-sections section 14 paragraph 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6c4d3193c4
+                part: body
+              zh:
+                page: zh
+                section: s-1edd8b658c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live holotype colours and preserved variation are separate
+              zh: 活体正模颜色与保存变异分别记录
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7l
+            locator: PMC5332023 reading-sections section 14 paragraphs 7, 9
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-363b376ebb
+                part: body
+              zh:
+                page: zh
+                section: s-f624e45691
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: distribution
+            heading:
+              en: One recorded locality beside an Apurímac tributary
+              zh: Apurímac 支流旁的一个记录地点
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7l
+            locator: PMC5332023 reading-sections section 14 paragraph 12
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ae0758415a
+                part: body
+              zh:
+                page: zh
+                section: s-7fe373c196
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: Data Deficient was the authors’ dated recommendation
+              zh: 资料缺乏是作者当年的建议
+            referenceId: ref-ff45ab6c-0a97-4338-a610-01dcbf9734ee
+            sourceKey: primary-pmc5332023-34s7l
+            locator: PMC5332023 reading-sections section 14 paragraph 13
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-78f3db9b3e
+                part: body
+              zh:
+                page: zh
+                section: s-1a4cd5ed48
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

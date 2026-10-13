@@ -1,0 +1,232 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Avahi occidentalis (Lorenz, 1898)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 西部毛狐猴
+      en: Western Woolly Lemur
+    sections:
+      - topic: taxonomy
+        text:
+          en:
+            page: en
+            section: s-f02f6d8e1e
+            part: body
+          zh:
+            page: zh
+            section: s-e4d9870abe
+            part: body
+        sourceIds:
+          - western2000
+          - avahi2006
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c348fad9e6
+            part: body
+          en:
+            page: en
+            section: s-4da2abdd1a
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-a5597563fe
+            part: body
+          en:
+            page: en
+            section: s-68352aebc0
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-02c607e2d2
+            part: body
+          en:
+            page: en
+            section: s-e5792aa794
+            part: body
+      - topic: ecology
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-c524425abe
+            part: body
+          en:
+            page: en
+            section: s-58b7f852b3
+            part: body
+      - topic: sources
+        sourceIds:
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-1a577f0582
+            part: body
+          en:
+            page: en
+            section: s-1c976edce0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 · Avahi occidentalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/K29T
+          scope:
+            zh: 仅支持 COL26.8 固定分类中的接受名、作者、等级和父链；不作为生物学证据。
+            en: Supports the accepted name, authorship, rank and parent in pinned COL26.8 only; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-558ce8cb-5d08-80f7-a65a-59323290f7f7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持本页所用英文普通名；不决定 COL26.8 的接受分类。
+            en: Supports the English common name used here; it does not determine COL26.8 accepted classification.
+      - id: western2000
+        referenceId: ref-5da80371-ee09-8434-a89b-f8849c3eb4cb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持西部毛狐猴的地理与外观比较及单色毛狐猴的描述；分类论证依赖当时所用地点和材料。
+            en: Supports geographic and pelage comparisons of western woolly lemurs and the description of A. unicolor; the taxonomic argument is tied to the sites and material available to that study.
+      - id: avahi2006
+        referenceId: ref-1696e10e-6af6-8979-aaf6-7ea4b0ecbef8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持 2002—2006 年东部 14 处、西部 3 处共 55 只毛狐猴的细胞遗传与线粒体比较，以及三种东部分类单元的原始描述；不构成现今全种分布调查。
+            en: Supports cytogenetic and mitochondrial comparisons of 55 woolly lemurs from 14 eastern and 3 western sites in 2002–2006 and the original descriptions of three eastern taxa; not a current range-wide survey.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - sourceVersion
+          - sourceFileSha256
+          - selectedFieldGroups
+          - withheldFieldGroups
+          - sourceRecordComment
+          - associationBoundary
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: MamFuncDat.txt logical TSV row 516; Scientific=Avahi occidentalis; MamFuncDatSources.txt; selected group source labels retained separately.
+          accessedAt: 2026-10-02
+          sourceVersion: EltonTraits 1.0; metadata latest update August 2013
+          sourceFileSha256: 51acbe6215b3c1f742463ff3fb37ef607150c052e0f7a9dc0d97fcaca61d3f76
+          selectedFieldGroups:
+            diet:
+              fields:
+                - Diet-Inv
+                - Diet-Vend
+                - Diet-Vect
+                - Diet-Vfish
+                - Diet-Vunk
+                - Diet-Scav
+                - Diet-Fruit
+                - Diet-Nect
+                - Diet-Seed
+                - Diet-PlantO
+              references:
+                - id: Ref_11
+                  verbatim: Andrainarivo, C., Andriaholinirina, V.N., Feistner, A., Felix, T., Ganzhorn, J., Garbutt, N., Golden, C., Konstant, B., Louis Jr., E., Meyers, D., Mittermeier, R.A., Perieras, A., Princee, F., Rabarivola, J.C., Rakotosamimanana, B., Rasamimanana, H., Rats
+              certainty: ABC
+            foraging:
+              fields:
+                - ForStrat-Value
+                - ForStrat-Comment
+              references:
+                - id: metadata:Nowak1999
+                  verbatim: Nowak, R. M. 1999. Walker's mammals of the world. Sixth edition. The Johns Hopkins University Press, Baltimore, Maryland, USA. Source assigned to all mammal foraging strata by Table 2 metadata.
+              certainty: A
+            activity:
+              fields:
+                - Activity-Nocturnal
+                - Activity-Crepuscular
+                - Activity-Diurnal
+              references:
+                - id: Ref_1
+                  verbatim: Nowak R.M. (1999). Walker's mammals of the world. Sixth edition edn. The Johns Hopkins University Press, Baltimore, Maryland
+              certainty: ABC
+          withheldFieldGroups: []
+          sourceRecordComment: null
+          associationBoundary: Historical exact same-name and same-family record only. Modern species concept equivalence not established. Mammal ABC flags can include inference from a named congener; no primary species-level observation claim.
+          scope:
+            zh: 历史同名同科的取食生态；相对权重为文献描述估计，ABC 字段可含同属材料。
+            en: Historical same-name, same-family foraging ecology; weights are literature-description estimates, and ABC fields can include congeneric material.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+    limitations:
+      en:
+        page: en
+        section: s-858aa55837
+        part: body
+      zh:
+        page: zh
+        section: s-bea291419e
+        part: body

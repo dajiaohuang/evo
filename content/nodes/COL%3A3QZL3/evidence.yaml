@@ -1,0 +1,473 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kaloula picta (Duméril & Bibron, 1841)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Kaloula picta
+      zh: Kaloula picta
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0299e18c9d
+            part: title
+          zh:
+            page: zh
+            section: s-c84ef62bae
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0299e18c9d
+            part: body
+          zh:
+            page: zh
+            section: s-c84ef62bae
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3a8cfa69f0
+            part: title
+          zh:
+            page: zh
+            section: s-669785ad1c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3a8cfa69f0
+            part: body
+          zh:
+            page: zh
+            section: s-669785ad1c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5a28697d7e
+            part: title
+          zh:
+            page: zh
+            section: s-f1094c0464
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-5a28697d7e
+            part: body
+          zh:
+            page: zh
+            section: s-f1094c0464
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-13cd8e7923
+            part: title
+          zh:
+            page: zh
+            section: s-668bd7a75f
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-13cd8e7923
+            part: body
+          zh:
+            page: zh
+            section: s-668bd7a75f
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b6b9f59425
+            part: title
+          zh:
+            page: zh
+            section: s-a698ab5315
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-b6b9f59425
+            part: body
+          zh:
+            page: zh
+            section: s-a698ab5315
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2098ac4950
+            part: title
+          zh:
+            page: zh
+            section: s-3d238f69d0
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-2098ac4950
+            part: body
+          zh:
+            page: zh
+            section: s-3d238f69d0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-006f25edca
+            part: title
+          zh:
+            page: zh
+            section: s-f02a6d7001
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-006f25edca
+            part: body
+          zh:
+            page: zh
+            section: s-f02a6d7001
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8f60112425
+            part: title
+          zh:
+            page: zh
+            section: s-f766404422
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-8f60112425
+            part: body
+          zh:
+            page: zh
+            section: s-f766404422
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-dbc6ca7b6f
+            part: title
+          zh:
+            page: zh
+            section: s-b63f929a41
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-dbc6ca7b6f
+            part: body
+          zh:
+            page: zh
+            section: s-b63f929a41
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-474655863937b3c13c65284b08eac7f4
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-931751f0b3
+            part: title
+          zh:
+            page: zh
+            section: s-335c9c737d
+            part: title
+        sourceIds:
+          - primary-pmc5096358-3qzl3
+        text:
+          en:
+            page: en
+            section: s-931751f0b3
+            part: body
+          zh:
+            page: zh
+            section: s-335c9c737d
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-e702103c76
+            part: title
+          zh:
+            page: zh
+            section: s-52087508dd
+            part: title
+        sourceIds:
+          - primary-pmc5096358-3qzl3
+        text:
+          en:
+            page: en
+            section: s-e702103c76
+            part: body
+          zh:
+            page: zh
+            section: s-52087508dd
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-26a2f6f32e
+            part: body
+          zh:
+            page: zh
+            section: s-1399562a33
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kaloula picta
+          url: https://www.checklistbank.org/dataset/316115/taxon/3QZL3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf4271; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf4272 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc5096358-3qzl3
+        referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Kaloula picta: Named species account only, with historical and putative identifications retained as recorded; conservation statements dated 2016; no tables or figures reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-02d07f0f5e
+        part: body
+      zh:
+        page: zh
+        section: s-2725c3da6d
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-474655863937b3c13c65284b08eac7f4
+      sourceRowId: Anf4271
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf4271
+        bibliographyRowId: Anf4272
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Kaloula mediolineata
+        candidateBibliographyRowIds:
+          - Anf4272
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.624.9814
+        referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+        sourceKey: primary-pmc5096358-3qzl3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5096358/article.xml
+        sourceConcept: Kaloula picta
+        evidenceRead: "Kaloula picta: Named species account only, with historical and putative identifications retained as recorded; conservation statements dated 2016; no tables or figures reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Historical rainy-season aggregations with recent-record gaps
+              zh: 存在近期记录缺口的历史雨季聚集
+            referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+            sourceKey: primary-pmc5096358-3qzl3
+            locator: Species accounts > Kaloula picta; reading-sections index 18, paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-520a5340de
+                part: body
+              zh:
+                page: zh
+                section: s-fc847e020a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: conservation
+            heading:
+              en: A proposed information-gap category and untested invasive threats
+              zh: 建议的信息缺口类别与未经评估的入侵威胁
+            referenceId: ref-495d5181-5d3b-4411-a699-740f61924ac9
+            sourceKey: primary-pmc5096358-3qzl3
+            locator: Species accounts > Kaloula picta; reading-sections index 18, paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0f6d8ecdef
+                part: body
+              zh:
+                page: zh
+                section: s-370295f85e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

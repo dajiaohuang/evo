@@ -1,0 +1,306 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:495050
+    scientificName: Burgessomedusa phasmiformis
+    commonName: Burgess Shale macroscopic medusa
+    commonNameZh: 伯吉斯页岩大型水母
+    rank: genus
+    parentName: Medusozoa evidence route
+    extinct: true
+    geography:
+      - Raymond Quarry
+      - Burgess Shale
+      - British Columbia, Canada
+    overview:
+      page: en
+      section: s-855ae5ecb7
+      part: body
+    overviewZh:
+      page: zh
+      section: s-fecc3a8ff9
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-4ce13d819d
+        part: body
+      habitat:
+        page: en
+        section: s-d1cdb26fb8
+        part: body
+      locomotion:
+        page: en
+        section: s-5ea7169c27
+        part: body
+      bodySize:
+        page: en
+        section: s-ddea17474f
+        part: body
+      guild:
+        page: en
+        section: s-4a3b6aad15
+        part: body
+      dietZh:
+        page: zh
+        section: zh-2a39eb0ba79d7e
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-2f9c883efc3bb6
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-7ccbc8e7cbede1
+        part: body
+      guildZh:
+        page: zh
+        section: zh-fc5bc16faf51d5
+        part: body
+    traits:
+      - page: en
+        section: s-fc69773275
+        part: body
+      - page: en
+        section: s-adba1d13e7
+        part: body
+      - page: en
+        section: s-4d9c0b8444
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-3589a7ca2b
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-468b4ad8d6
+      part: body
+    confidence: medium
+    referenceIds:
+      - moon-2023-burgessomedusa
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-855ae5ecb7
+            part: title
+          zh:
+            page: zh
+            section: s-fecc3a8ff9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-855ae5ecb7
+            part: body
+          zh:
+            page: zh
+            section: s-fecc3a8ff9
+            part: body
+        sourceIds:
+          - moon-2023-burgessomedusa
+      - id: bell-and-tentacles
+        title:
+          en:
+            page: en
+            section: s-401df844c3
+            part: title
+          zh:
+            page: zh
+            section: s-7507b485ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-401df844c3
+            part: body
+          zh:
+            page: zh
+            section: s-7507b485ba
+            part: body
+        sourceIds:
+          - moon-2023-burgessomedusa
+      - id: placement
+        title:
+          en:
+            page: en
+            section: s-fc6241d836
+            part: title
+          zh:
+            page: zh
+            section: s-838b84ff4e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fc6241d836
+            part: body
+          zh:
+            page: zh
+            section: s-838b84ff4e
+            part: body
+        sourceIds:
+          - moon-2023-burgessomedusa
+      - id: ecological-inference
+        title:
+          en:
+            page: en
+            section: s-7f2b208c14
+            part: title
+          zh:
+            page: zh
+            section: s-48e0b34f6d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7f2b208c14
+            part: body
+          zh:
+            page: zh
+            section: s-48e0b34f6d
+            part: body
+        sourceIds:
+          - moon-2023-burgessomedusa
+    readerSources:
+      - id: moon-2023-burgessomedusa
+        referenceId: moon-2023-burgessomedusa
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Moon et al. (2023), pp. 290:20222490, Figures 1?5 and Supplementary Figures S17?S21: Raymond Quarry anatomy, size, tentacles, medusozoan affinity, character-coding sensitivity and conditional ecological interpretation."
+            zh: Moon ??2023??? 290 ??? 20222490?? 1?5 ???? S17?S21????????????????Medusozoa ???????????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-d40d7ccf34
+        part: body
+      zh:
+        page: zh
+        section: s-3b8af0bc55
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-67c14dd2953019
+        part: body
+      - page: zh
+        section: zh-614b7d563d9ce0
+        part: body
+      - page: zh
+        section: zh-016909b8e39722
+        part: body
+  claims:
+    - subjectId: taxon:burgessomedusa
+      claimKind: scientific
+      claimType: morphology
+      statement: Raymond Quarry Burgessomedusa specimens preserve a bell, marginal tentacles and radial structures consistent with a swimming medusozoan; this middle-Cambrian sample is not the first appearance of all medusae.
+      confidence: high
+      confidenceRationale: Multiple specimens support the described gross anatomy, while broader medusozoan placement and first-occurrence claims remain outside the sampled quarry evidence.
+      referenceLinks:
+        - referenceId: moon-2023-burgessomedusa
+          relation: supports
+          pages: "20222490"
+          figure: Figures 1–5; Supplementary Figures
+          quoteLocator: Raymond Quarry specimens, diagnosis and medusozoan comparisons
+    - subjectId: taxon:burgessomedusa
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Burgessomedusa is displayed at 506–504 Ma only as the Raymond Quarry specimen interval described for the genus; it is not a crown-medusozoan FAD, direct ancestor or global continuous duration.
+      confidence: medium
+      confidenceRationale: Moon et al. (2023) directly documents the Raymond Quarry specimens, diagnosis and medusozoan comparison. Medium confidence is bounded to that sampled occurrence and does not extrapolate a higher-clade range.
+      referenceLinks:
+        - relation: supports
+          referenceId: moon-2023-burgessomedusa
+          pages: Article 20222490
+          figure: Figures 1–5; Supplementary Figures
+          quoteLocator: Raymond Quarry specimens, diagnosis and medusozoan comparisons
+    - subjectId: taxon:burgessomedusa
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Moon et al. describe Burgessomedusa phasmiformis from Raymond Quarry and recover a medusozoan affinity; exact placement among stem cubozoans, stem Acraspeda and alternatives remains model-dependent.
+      confidence: medium
+      confidenceRationale: The named material and matrix result are directly reported, but alternative coding lowers placement resolution.
+      referenceLinks:
+        - referenceId: moon-2023-burgessomedusa
+          relation: supports
+          pages: 290:20222490
+          figure: Figure 3; Supplementary Figures S18–S21
+          quoteLocator: Systematic palaeontology; Bayesian placement and ambiguous-bell sensitivity analysis
+    - subjectId: taxon:burgessomedusa
+      claimKind: scientific
+      claimType: morphology
+      statement: The Raymond Quarry sample includes 182 specimens, with a cuboidal umbrella up to about 20 cm high, more than 90 short marginal tentacles and preserved internal features.
+      confidence: high
+      confidenceRationale: These are observations from described specimens; three-dimensional shape remains affected by compression.
+      referenceLinks:
+        - referenceId: moon-2023-burgessomedusa
+          relation: supports
+          pages: 290:20222490
+          figure: Figures 1–2
+          quoteLocator: Abstract; type material and morphological description
+    - subjectId: taxon:burgessomedusa
+      claimKind: scientific
+      claimType: biogeography
+      statement: The described Burgessomedusa material is from Raymond Quarry in the Burgess Shale of British Columbia, Canada; this is a locality claim, not a global distribution.
+      confidence: high
+      confidenceRationale: The source identifies the quarry and collection; it does not establish wider occurrence.
+      referenceLinks:
+        - referenceId: moon-2023-burgessomedusa
+          relation: supports
+          pages: 290:20222490
+          figure: Figures 1–2
+          quoteLocator: Abstract; fossil material section
+    - subjectId: taxon:burgessomedusa
+      claimKind: scientific
+      claimType: ecology
+      statement: Bell shape and specimen associations provide indirect support for free swimming and a possible nektobenthic predatory habit, not observed feeding or measured swimming performance.
+      confidence: medium
+      confidenceRationale: The authors explicitly condition prey-capture inference on preservation and comparison with living medusozoans.
+      referenceLinks:
+        - referenceId: moon-2023-burgessomedusa
+          relation: supports
+          pages: 290:20222490
+          figure: Figure 5; Supplementary Figure S17
+          quoteLocator: "Results and discussion: locomotion, burial, and conditional nektobenthic-predator discussion"
+  claim-rationales.zh:
+    - 多件标本支持所述总体解剖，但更广水母亚门位置和首现主张超出该采石场样本证据。
+    - Moon 等（2023）直接记录雷蒙德采石场标本、鉴定特征及水母亚门比较。中等置信度仅限该采样出现记录，不外推高阶类群范围。
+    - 具名材料和矩阵结果均有直接报告，但替代编码会降低位置解析度。
+    - 这些形态来自已描述标本的观察；三维形状仍会受压扁保存影响。
+    - 来源明确采石场和收藏地点，但不支持更广出现范围。
+    - 作者明确将捕食推断限定于保存状态及与现生水母类的比较。
+  claim-statements.zh:
+    - 雷蒙德采石场 Burgessomedusa 标本保存钟体、边缘触手和放射结构，与游泳型水母亚门动物相符；这一中寒武世样本不是全部水母的首现。
+    - Burgessomedusa 的 506–504 Ma 仅作为该属在雷蒙德采石场标本的限定区间；它不是冠群水母亚门首现、直接祖先或全球连续存续期。
+    - Moon 等描述了来自 Raymond Quarry 的 Burgessomedusa phasmiformis，并在矩阵中恢复其水母亚门亲缘；其在箱水母干群、无缘膜水母类干群及替代位置之间的精确位置仍依赖模型。
+    - Raymond Quarry 样本含 182 件标本，保存最高约 20 厘米的方形伞部、90 余条短缘触手及内部构造。
+    - 已描述的 Burgessomedusa 材料来自加拿大不列颠哥伦比亚省伯吉斯页岩的 Raymond Quarry；这只是地点记录，不是全球分布。
+    - 伞部形状和标本共现为游泳及可能近底捕食提供间接支持，而非直接的取食记录或游泳性能测量。
+  ranges:
+    - entityId: burgessomedusa
+      rangeKind: global-composite
+      taxonomicConcept: Burgessomedusa swimming-medusa evidence evidence boundary
+      geographicScope: Raymond Quarry, Burgess Shale, British Columbia, Canada
+      olderMa: 506
+      youngerMa: 504
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Compression changes three-dimensional shape; affinity does not identify a direct ancestor, the first medusa of every lineage or measured locomotor speed.
+      evidenceBasis: Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.
+      evidenceLevel: literature-synthesized
+      confidence: high
+      claimIds:
+        - claim:event:burgessomedusa-swimming-medusa
+        - claim:taxon:burgessomedusa:range-boundary-rc50
+      referenceLocators:
+        - referenceId: moon-2023-burgessomedusa
+          locator: 20222490; Figures 1–5; Supplementary Figures; Raymond Quarry specimens, diagnosis and medusozoan comparisons

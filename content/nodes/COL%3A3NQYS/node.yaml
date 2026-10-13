@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius rwandae
+  displayName: Hyperolius rwandae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQYS
+  sourceIndexes:
+    - name:
+        en: Hyperolius rwandae
+        zh: Hyperolius rwandae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQYS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/331
+            queryName: Hyperolius rwandae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3aca14bc22
+      - s-d0c4e80e66
+      - s-1f95626ccb
+      - s-cc316758c8
+      - s-1bb890bd47
+      - s-c20aaacf38
+      - s-8a4bbd7a7e
+      - s-4e625e2ea6
+      - s-f00ada474b
+      - s-8a02101363
+      - s-a5f0acb902
+      - s-f6b21b0a95
+      - s-873c44f8a7
+    zh:
+      - s-c8c718d1ef
+      - s-9149856453
+      - s-1367084c3e
+      - s-4e870a92f7
+      - s-e787e895b0
+      - s-b2b6d1ee78
+      - s-243234d4db
+      - s-dc157ffbeb
+      - s-c358074507
+      - s-81161a820c
+      - s-71b21d54f6
+      - s-b3888a2fb7
+      - s-f94f06b565

@@ -1,0 +1,19 @@
+## Leaves and growth {#s-3be8540a61}
+Scott's 1985 regional revision describes a stemless plant whose basal rosette is about 2–6 mm across and produces small clusters from the base. Each plant has 12–40 leaves. Young leaves ascend and curve back slightly; older leaves ascend, taper for a long distance, and often curve back. They reach 100 mm long, 14 mm wide near the base, and 3.5 mm thick. The leaves are lance-shaped and sharply pointed, narrowing gradually from base to tip, and are dark, dull green or brownish green. Their upper surface is concave below and convex to flat near the tip, smooth, with 1–2 raised lines matching the leaf colour and 5–7 faint lengthwise lines. A single oblique keel lies in the upper half: blunt below and somewhat sharp above, with many tiny, scattered whitish teeth. The margins range from sharp to somewhat blunt and are sparsely, irregularly toothed from the tip almost to the base. A bare white terminal awn measures 2–3 mm.
+
+## Flowering structure {#s-40bd9bd1c3}
+The inflorescence is about 20 cm tall. Its simple, round stalk is about 2 mm in diameter and 12 cm long, and bears bracts. The erect, keeled sterile bracts are membranous, abruptly long-pointed, and 5–8 mm long. The loose raceme is about 8 cm long, with 6–10 flowers and buds arranged in a spiral; 1–2 are open at a time. Membranous floral bracts are 4–5 mm long, triangular and pointed, keeled with fine light-brown veins, and clasp the pedicels, which they exceed in length. The erect pedicels are light greenish brown, up to 3 mm long and 1 mm in diameter.
+
+The perianth is dull pinkish white with reddish-brown keels on its segments and measures 14 mm long. It is compressed at the base and funnel-shaped; its curved tube is about 3 mm across and narrows to 2.25 mm above. The segments are free to the base, with a two-lipped limb. The posterior lobes are free, strongly recurved, and only slightly spreading, pinkish white with fine reddish-brown veins. The outer portion is also strongly recurved and slightly spreading, pinkish white with fine pale-green veins; the outer segments are folded back. There are 6 stamens in two lengths, 4 and 5 mm, inserted inside the perianth tube. The yellow-green ovary is 3 mm long and 1.25 mm in diameter; the curved, white, head-shaped style is 0.5 mm long.
+These measurements come from Scott's 1985 regional species account. The excerpt gives no dated sampling frame or population frequency.
+
+## How it is distinguished {#s-f8e04de8f7}
+Scott characterises the species by its narrow lance-shaped leaves with sparse teeth along the margins. The account compares it with *H. monticola* and *H. floribunda*: relative to *H. monticola*, its marginal teeth are fewer and shorter and its leaf tips are longer and more gradually tapered; relative to *H. floribunda*, it has toothed margins, sharply pointed leaf tips, a longer inflorescence, and soon forms larger clumps.
+
+This comparison is from a regional South African treatment published in 1985; it does not establish global representativeness or population frequencies.
+
+## Habitat and climate described in the account {#s-c0944b2d61}
+Scott's account places the species in a variable-rainfall area receiving about 300–700 mm annually, mainly in summer. Summers are hot, especially from December to February; winters are cold, and snow often falls on the higher surrounding mountain peaks. The account says the species is adapted to these conditions. Plants grow mainly between rocks or in rock crevices, in Karroid vegetation or open grassland, and are reported to prefer firm, hard soil with pH 7.
+
+This is a regional South African species account; it does not give a dated sampling frame or population frequency, and its habitat description should not be read as a survey of the full species range.
+

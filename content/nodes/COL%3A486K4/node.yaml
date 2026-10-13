@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus prasinus
+  displayName: Nymphargus prasinus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486K4
+  sourceIndexes:
+    - name:
+        en: Nymphargus prasinus
+        zh: Nymphargus prasinus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486K4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/448
+            queryName: Nymphargus prasinus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/17
+            queryName: Cochranella prasina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/394
+            queryName: Centrolenella prasina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7b93e9fe5
+      - s-a41ed6840b
+      - s-614bdbba95
+      - s-89294e3e17
+      - s-31f7bdf8e2
+      - s-48dfe1e7f0
+      - s-8e0ac4096e
+      - s-af4b4462df
+      - s-b8d1446cd8
+      - s-1756aba4e8
+      - s-ffa3aaff2e
+      - s-5f76a36079
+      - s-32a699dcec
+      - s-0ae6df6046
+      - s-656a2e5d6b
+    zh:
+      - s-1d8af8b6f8
+      - s-515dd1ef81
+      - s-58283bb3b4
+      - s-f23071ed15
+      - s-ef5f182e94
+      - s-8c031a775d
+      - s-24edfc4580
+      - s-c0cf605fa2
+      - s-210ef99398
+      - s-2644e3fae8
+      - s-b315bdc210
+      - s-6c4cca9525
+      - s-3912cd9a9c
+      - s-e8741bfa2f
+      - s-3312e94417

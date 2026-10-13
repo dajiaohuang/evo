@@ -1,0 +1,136 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudacris nigrita
+  displayName: Pseudacris nigrita
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4NH9P
+  sourceIndexes:
+    - name:
+        en: Pseudacris nigrita
+        zh: Pseudacris nigrita
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4NH9P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/259
+            queryName: Pseudacris nigrita
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/463
+            queryName: Helocaetes nigrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/464
+            queryName: Pseudacris nigrita nigrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/465
+            queryName: Pseudacris nigrita verrucosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/466
+            queryName: Chorophilus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/427
+            queryName: Rana nigrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/69
+            queryName: Acris nigrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/70
+            queryName: Cystignathus nigritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/71
+            queryName: Chorophilus nigritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/73
+            queryName: Pseudacris verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/74
+            queryName: Hyla nigrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/430
+            queryName: Chorophilus nigritus verrucosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0e670a9054
+      - s-b26ddb939c
+      - s-221f6d4eee
+      - s-68a1c30e48
+      - s-863cc8d66c
+      - s-0276b0db09
+      - s-673450c4da
+      - s-17905fe115
+      - s-e575e37d4f
+      - s-b14fdbf0b8
+      - s-db01329710
+      - s-eef13dcee3
+      - s-655b7924c4
+      - s-a79b7ef72d
+      - s-20631b205c
+    zh:
+      - s-cc29ea6c99
+      - s-0c65482784
+      - s-6c033e7f7c
+      - s-7e399b42f2
+      - s-67081648fa
+      - s-6a3ca8efab
+      - s-e1542a2bad
+      - s-b715183306
+      - s-80e97aeeb0
+      - s-bd595ed473
+      - s-ff5d8ed112
+      - s-49629d2b97
+      - s-f890f0ce53
+      - s-f7ff30b80e
+      - s-6cdd8cd2c6

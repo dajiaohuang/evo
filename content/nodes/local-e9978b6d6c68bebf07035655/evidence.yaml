@@ -1,0 +1,259 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Pseudophilautus decoris
+    name:
+      en: Pseudophilautus decoris
+      zh: Pseudophilautus decoris
+    sourceClassification:
+      order: Anura
+      family: Rhacophoridae
+      genus: Pseudophilautus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-551b0ea50a
+            part: body
+          zh:
+            page: zh
+            section: s-5e36d1c530
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3b10ffee83
+            part: body
+          zh:
+            page: zh
+            section: s-c14113543a
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4983, 4984; Reference.csv rows 1181
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 4983
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus decoris
+          - F
+          - "23.9"
+          - "9.370292887"
+          - "8.662565"
+          - "3.34509"
+          - "0.360745"
+          - NA
+          - "2.51116"
+          - "2.14573"
+          - "2.05203"
+          - "2.76415"
+          - "4.155595"
+          - "1.44298"
+          - "6.2779"
+          - "5.336215"
+          - NA
+          - "14.43917"
+          - NA
+          - "11.31896"
+          - "10.470975"
+          - NA
+          - NA
+          - "0.87141"
+          - "1.46172"
+          - "1.98644"
+          - "3.181115"
+          - "4.8724"
+          - "3.340405"
+          - "1.46172"
+          - "2.02392"
+          - "3.134265"
+          - "2.61423"
+          - NA
+          - NA
+          - "1.147825"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 4984
+        values:
+          - Rhacophoridae
+          - Pseudophilautus
+          - Pseudophilautus decoris
+          - M
+          - "18.3"
+          - "12.45355191"
+          - "11.494119"
+          - "4.2402465"
+          - "0.8032185"
+          - NA
+          - "3.36231"
+          - "2.8081515"
+          - "2.540412"
+          - "3.536652"
+          - "5.529132"
+          - "1.9862535"
+          - "8.09445"
+          - "5.6972475"
+          - NA
+          - "18.7978035"
+          - NA
+          - "13.972266"
+          - "13.6796205"
+          - NA
+          - NA
+          - "1.419642"
+          - "1.7994585"
+          - "2.552865"
+          - "4.2776055"
+          - "6.8678295"
+          - "4.371003"
+          - "2.067198"
+          - "2.61513"
+          - "4.7134605"
+          - "3.6425025"
+          - NA
+          - NA
+          - "1.7994585"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1181
+        values:
+          - Anura
+          - Pseudophilautus_decoris
+          - "Manamendra-Arachchi, K., & Pethiyagoda, R. (2005). The Sri Lankan shrub-frogs of the genus Philautus Gistel, 1848 (Ranidae: Rhacophorinae), with description of 27 new species. Raffles Bulletin of Zoology, 163-303."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4P72G
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

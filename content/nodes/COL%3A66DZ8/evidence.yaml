@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amolops senchalensis (Chanda, 1987)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amolops senchalensis
+      zh: Amolops senchalensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-226c715dcf
+            part: title
+          zh:
+            page: zh
+            section: s-ec1be20390
+            part: title
+        text:
+          en:
+            page: en
+            section: s-226c715dcf
+            part: body
+          zh:
+            page: zh
+            section: s-ec1be20390
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2d1d128225
+            part: title
+          zh:
+            page: zh
+            section: s-2df58272a6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2d1d128225
+            part: body
+          zh:
+            page: zh
+            section: s-2df58272a6
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bcee69eb86
+            part: title
+          zh:
+            page: zh
+            section: s-7013972d9f
+            part: title
+        sourceIds:
+          - primary-pmc10351143-66dz8
+        text:
+          en:
+            page: en
+            section: s-bcee69eb86
+            part: body
+          zh:
+            page: zh
+            section: s-7013972d9f
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2cb773e3a3
+            part: title
+          zh:
+            page: zh
+            section: s-f8fddd0f86
+            part: title
+        sourceIds:
+          - primary-pmc10351143-66dz8
+        text:
+          en:
+            page: en
+            section: s-2cb773e3a3
+            part: body
+          zh:
+            page: zh
+            section: s-f8fddd0f86
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amolops senchalensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/66DZ8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10351143-66dz8
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Amolops senchalensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3043298417
+        part: body
+      zh:
+        page: zh
+        section: s-33da23024a
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00214-9
+        referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+        sourceKey: primary-pmc10351143-66dz8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10351143/article.xml
+        sourceConcept: Exactnamed2023comparison/donorrow;authorcomparisonnotnewwhole-speciesmeasurementorconceptauthentication
+        evidenceRead: "Amolops senchalensis: Amolops ailao: All22 mainXMLsection directparagraphs,allfive main tables and12figurecaptions read;figurepixels/rawalignments/GenBank/museumobjects unreviewed;no fullarticle/currentassessment certification; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Characters in the dated group comparison
+              zh: 有年代群比较中的性状
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-66dz8
+            locator: PMC10351143 article.xml Sec20p7;Sec4p1 comparative-source scope;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e2399835ce
+                part: body
+              zh:
+                page: zh
+                section: s-3bfdd2c4c1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Sex-specific size in a published comparison
+              zh: 发表比较中的性别特定体型
+            referenceId: ref-f2f0a32c-4411-428c-a73f-604e9af9c771
+            sourceKey: primary-pmc10351143-66dz8
+            locator: PMC10351143 article.xml Sec20p7;yunnan-amolops-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-ea01b398af
+                part: body
+              zh:
+                page: zh
+                section: s-666262773d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

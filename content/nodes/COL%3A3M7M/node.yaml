@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Charadrahyla
+  displayName: Charadrahyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3M7M
+  sourceIndexes:
+    - name:
+        en: Charadrahyla
+        zh: Charadrahyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3M7M
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/290
+            queryName: Charadrahyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-64aa0b94eb
+      - s-2c02d6d7c5
+      - s-e295d9e127
+      - s-844343a7fb
+      - s-d0e75563c1
+      - s-91919a3234
+      - s-99f66748c3
+      - s-b4ae5bcad7
+      - s-aea16f1249
+      - s-3d3191a94f
+      - s-83495e14eb
+      - s-8c0285a6c9
+    zh:
+      - s-244c1b7e8e
+      - s-7ebcec7be5
+      - s-37fa7d69dd
+      - s-02cd3fdbe2
+      - s-4dde51ea12
+      - s-94399328f3
+      - s-3d26f32970
+      - s-5af5114627
+      - s-0a49d8198d
+      - s-0815769a0f
+      - s-e1ee0a7542
+      - s-3f36c49b5d

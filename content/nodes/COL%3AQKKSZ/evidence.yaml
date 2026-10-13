@@ -1,0 +1,89 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla nakkavaram Garg, Sivaperuman, Gokulakrishnan, Chandramouli & Biju, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla nakkavaram
+      zh: Microhyla nakkavaram
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f73ba8a41f
+            part: title
+          zh:
+            page: zh
+            section: s-787b36d907
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f73ba8a41f
+            part: body
+          zh:
+            page: zh
+            section: s-787b36d907
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-efb35d0866
+            part: title
+          zh:
+            page: zh
+            section: s-f53947c590
+            part: title
+        text:
+          en:
+            page: en
+            section: s-efb35d0866
+            part: body
+          zh:
+            page: zh
+            section: s-f53947c590
+            part: body
+        sourceIds:
+          - taxonomy
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla nakkavaram
+          url: https://www.checklistbank.org/dataset/316115/taxon/QKKSZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2555fadb27
+        part: body
+      zh:
+        page: zh
+        section: s-78e8949a6a
+        part: body

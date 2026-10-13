@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cyperus prolifer Lam.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 33D84, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 33D84; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/33D84
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 33D84
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000380390-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 33D84 / WFO wfo-0000380390
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_2804_0
+        referenceId: ref-e55b4d7f-c37c-8159-a6dc-f3ec6c168bd2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cyperus prolifer Lam. account; SANBI/WFO archive rows 83867 (Morphology), 83668 (Habitat), source identifier 2804.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Perennial, erect or nodding, 23-105 cm high, in large clumps: rhizome horizontal, rarely vertical, ligneous; internode 0.6-3.1 x 0.2-0.6 cm, clothed by many-nerved, red-brown, persistent sheaths: leaves limited to sheaths; sheaths 4.5-6.5 x 0.4-2.4 cm, glabrous, many-nerved, nerves converging at apex, margin of mouth scarious; blades generally absent: culms triquetrous to terete, mainly triangular, glabrous: inflorescence bud ovoid, up to 4.6 cm long: involucral bracts 3, subtending rays, not exceeding inflorescence; inflorescence 5.6-18 x 5-5.5 cm; rays 101-259, umbellate, up to 16 cm long, forming reflex angle with culm apex, sheathed at base by tubular prophylls, 0.9 cm long: capillary rays occasional; ray receptacle globose: spikelets 1-30 per ray, 6-17 x 1-1.5 mm, generally flat, elliptic to narrowly ovate, yellow-brown to red-brown, darkening on drying and age: rhachilla straight, yellow-brown: glumes lowermost 1-3 sterile, remainder fertile, 1.2-1.7 x 0.2-0.4 mm, broadly ovate, base truncate, glabrous, yellow-brown, margin scarious, keel three-nerved, central nerve excurrent into mucron, 0.1 mm long: stamens 3; anthers 1.2 x 0.2 mm, yellow-brown, crested; filament as long as anther, pallid, with small red-brown markings: style 0.3 mm long, pale yellow-brown; style branches three, 1.2 mm long, dark brown, papillate: achene 0.4 x 0.2 mm, obovate, trigonous in transverse section; outermost cells rectangular, with markedly sinuous margins."
+            textZh: Cyperus prolifer Lam. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_2804_0
+            locator: "SANBI/WFO archive Morphology row 83867; source identifier 2804.0; cited publication: Getliffe Norris, FM; Baijnath, H. 1976. Studies in Cyperaceae in southern Africa: 7. Cyperus prolifer Lam. A case of mistaken identity. J. S. African Bot. 42(2): 273 - 281. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The species is hygrophilous, preferring well-aerated habitats near streams or drinking holes with running water where, in the absence of competition, it may form dense stands resembling beds of diminutive papyrus. C. prolifer is, however, intolerant of shading and of stagnant conditions and if drainage is severely impeded, the population exhibits sterile inflorescences and considerable vegetative reproduction in the form of proliferations from bract axils or ray tips. If stagnation is prolonged, the population may be restricted to the fringes of the stagnant area. If culms are trampled or lodged by floods, the plants multiply by vegetative proliferation within a short while.
+            textZh: 该 SANBI 区域物种条目记录的生境：The species is hygrophilous, preferring well-aerated habitats near streams or drinking holes with running water where, in the absence of competition, it may form dense stands resembling beds of diminutive papyrus. C. prolifer is, however, intolerant of shading and of stagnant conditions and if drainage is severely impeded, the population exhibits sterile inflorescences and considerable vegetative reproduction in the form of proliferations from bract axils or ray tips. If stagnation is prolonged, the population may be restricted to the fringes of the stagnant area. If culms are trampled or lodged by floods, the plants multiply by vegetative proliferation within a short while.
+            sourceIds:
+              - sanbi_2804_0
+            locator: "SANBI/WFO archive Habitat row 83668; source identifier 2804.0; cited publication: Getliffe Norris, FM; Baijnath, H. 1976. Studies in Cyperaceae in southern Africa: 7. Cyperus prolifer Lam. A case of mistaken identity. J. S. African Bot. 42(2): 273 - 281. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

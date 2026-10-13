@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Breviceps sopranus
+  displayName: Breviceps sopranus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/N9PN
+  sourceIndexes:
+    - name:
+        en: Breviceps sopranus
+        zh: Breviceps sopranus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: N9PN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/471
+            queryName: Breviceps sopranus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dbe563a852
+      - s-f80feb5334
+      - s-18bc977b83
+      - s-dbe441f6f4
+      - s-576f417421
+      - s-b73b27fee3
+      - s-64ddfcdcb6
+      - s-77b9f9830b
+      - s-1e40df268c
+      - s-98df3490c6
+      - s-6b98a7a3e0
+      - s-9aa183a10a
+      - s-1ce898160a
+      - s-dada9c58e4
+      - s-4c4e4fb69e
+      - s-e26ce5c200
+      - s-6e05075a74
+    zh:
+      - s-a5d4a9f8ac
+      - s-52aa3a4945
+      - s-1214cbe57e
+      - s-27b6f55ddd
+      - s-ad4db736dd
+      - s-f196dd76b3
+      - s-6924101bcb
+      - s-d2c9d79139
+      - s-9e9f57234e
+      - s-e06c171660
+      - s-05fc5af490
+      - s-1a25f927aa
+      - s-fe76d6bb1d
+      - s-17e7fc6c9a
+      - s-12b4b75702
+      - s-49b462b9fe
+      - s-b0bafd39e3

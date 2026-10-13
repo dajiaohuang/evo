@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nannophryne variegata
+  displayName: Nannophryne variegata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/45MMR
+  sourceIndexes:
+    - name:
+        en: Nannophryne variegata
+        zh: Nannophryne variegata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 45MMR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/148
+            queryName: Nannophryne variegata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/424
+            queryName: Bufo variegatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/154
+            queryName: Phryniscus variegatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/155
+            queryName: Bufo albigularis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/156
+            queryName: Bufo trivittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/157
+            queryName: Nannophryne variegatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1259b6ea9b
+      - s-95b7429308
+      - s-6d8d1425a3
+      - s-d2c052d74f
+      - s-ce5dfc44d2
+      - s-b3920f8025
+      - s-8884a065c5
+      - s-ddefc51a0d
+      - s-f054ed55f5
+      - s-95db7847d0
+      - s-842bf8a7cf
+      - s-98a60f03de
+    zh:
+      - s-b63bc64b2b
+      - s-5409f5d8cf
+      - s-efad10524d
+      - s-564864ae8a
+      - s-656baa16d7
+      - s-36fe89b0ed
+      - s-f7fd996b0a
+      - s-650c52e288
+      - s-a6c49dd6b7
+      - s-0c0f4f5c73
+      - s-5116bdf9b7
+      - s-c3dbc586ae

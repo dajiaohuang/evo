@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tachiramantis Heinicke, Barrio-Amorós & Hedges, 2015
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Tachiramantis
+      zh: Tachiramantis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6d6abe98ab
+            part: title
+          zh:
+            page: zh
+            section: s-c61bc663ab
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6d6abe98ab
+            part: body
+          zh:
+            page: zh
+            section: s-c61bc663ab
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fa5a836978
+            part: title
+          zh:
+            page: zh
+            section: s-2412a289c4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fa5a836978
+            part: body
+          zh:
+            page: zh
+            section: s-2412a289c4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-19c49521cd
+            part: title
+          zh:
+            page: zh
+            section: s-1fa96772f6
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: T5FPB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AT5FPB
+            label:
+              en: Tachiramantis cuentasi
+              zh: Tachiramantis cuentasi
+          - kind: catalogue
+            colId: 54BYK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54BYK
+            label:
+              en: Tachiramantis douglasi
+              zh: Tachiramantis douglasi
+          - kind: catalogue
+            colId: T5FPL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AT5FPL
+            label:
+              en: Tachiramantis lassoalcalai
+              zh: Tachiramantis lassoalcalai
+          - kind: catalogue
+            colId: 54BYL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54BYL
+            label:
+              en: Tachiramantis lentiginosus
+              zh: Tachiramantis lentiginosus
+          - kind: catalogue
+            colId: T5FPT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AT5FPT
+            label:
+              en: Tachiramantis padrecarlosi
+              zh: Tachiramantis padrecarlosi
+          - kind: catalogue
+            colId: 54BYM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A54BYM
+            label:
+              en: Tachiramantis prolixodiscus
+              zh: Tachiramantis prolixodiscus
+          - kind: catalogue
+            colId: T5FQ5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AT5FQ5
+            label:
+              en: Tachiramantis tayrona
+              zh: Tachiramantis tayrona
+        text:
+          en:
+            page: en
+            section: s-19c49521cd
+            part: body
+          zh:
+            page: zh
+            section: s-1fa96772f6
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Tachiramantis
+          url: https://www.checklistbank.org/dataset/316115/taxon/7RS9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-91b5ec2643
+        part: body
+      zh:
+        page: zh
+        section: s-77b0577bc3
+        part: body

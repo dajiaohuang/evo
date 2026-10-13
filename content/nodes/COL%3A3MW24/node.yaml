@@ -1,0 +1,50 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyalinobatrachium muiraquitan
+  displayName: Hyalinobatrachium muiraquitan
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MW24
+  sourceIndexes:
+    - name:
+        en: Hyalinobatrachium muiraquitan
+        zh: Hyalinobatrachium muiraquitan
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MW24
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/329
+            queryName: Hyalinobatrachium muiraquitan
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-921d7c5c74
+      - s-06f7b237d3
+      - s-d3d106097e
+      - s-fa60fae277
+      - s-3ec5f22466
+    zh:
+      - s-0031b4d76c
+      - s-1826fdf2bb
+      - s-e0cd29c11f
+      - s-e607e59967
+      - s-9ae6a9246a

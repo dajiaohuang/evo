@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes meridionalis
+  displayName: Hylodes meridionalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG8N
+  sourceIndexes:
+    - name:
+        en: Hylodes meridionalis
+        zh: Hylodes meridionalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG8N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/0
+            queryName: Hylodes meridionalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/251
+            queryName: Elosia meridionalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/206
+            queryName: Elosia nasus meridionalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb22942e22
+      - s-2a767e4445
+      - s-4ceef76c80
+      - s-35bc88ad64
+      - s-24a96cc184
+      - s-5bbfb7eaba
+      - s-040aadbcfb
+      - s-5690b35933
+      - s-e79e3de395
+      - s-e37106d18b
+      - s-a5bcf5a4e5
+      - s-21dc304014
+      - s-6e8e30be01
+      - s-f0a754c4d1
+      - s-2770d1e219
+      - s-03192c9e62
+      - s-115d070839
+      - s-edba6cf4ee
+      - s-56610683a1
+      - s-92eea52cef
+      - s-4361ce62d3
+      - s-0d1ba7dcae
+      - s-372ebb1fc4
+      - s-570f86d613
+      - s-8ca9789122
+      - s-c40e7e2da3
+    zh:
+      - s-f414f15a0c
+      - s-5cdb195a4d
+      - s-8a23f43227
+      - s-2a1703c09b
+      - s-3c1be32419
+      - s-4060c392f1
+      - s-ae10e37713
+      - s-e9d5421979
+      - s-937ae0ed33
+      - s-18510ba6da
+      - s-fe5d33f255
+      - s-61962db2f1
+      - s-03f5492f81
+      - s-ae10b966df
+      - s-c81e8c2c36
+      - s-118c69994f
+      - s-2f289e0ee5
+      - s-ec0f18b1b8
+      - s-645e316dfd
+      - s-b4ea27f1c0
+      - s-c72f9d0c9e
+      - s-d7757b65f3
+      - s-e43b916959
+      - s-3d93a74991
+      - s-78c8c2bb6f
+      - s-1412155014

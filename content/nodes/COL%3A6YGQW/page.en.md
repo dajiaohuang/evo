@@ -1,0 +1,3 @@
+## Basal nectaries and indehiscent fruit {#s-b4a1d8b80a}
+The Brazilian Flora 2020 entry records glabrous stems and ovate stipules. Petioles are under 5 cm and the rachis is 6–10 cm long. Stalked extrafloral nectaries occur between the basal leaflet pairs and are listed as cylindrical, fusiform or linear. Leaves have 6–10 pairs of elliptic or obovate leaflets with obtuse tips. The raceme has ovate bracts. Flowers are zygomorphic, with an elliptic central adaxial petal and seven fertile stamens. The legume is indehiscent and pendulous, subcylindrical with a smooth exterior; seeds are arranged in two series. The habitat field records terrestrial. These regional fields do not establish variation or a complete range.
+

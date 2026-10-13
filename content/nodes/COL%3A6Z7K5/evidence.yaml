@@ -1,0 +1,140 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Sparaxis bulbifera (L.) Ker Gawl.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6Z7K5, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000786083.
+      scope: Sparaxis as represented by COL26.8 usage 6Z7K5. The cited regional flora treatment is retained as its own taxonomic and geographic scope; name agreement alone does not demonstrate complete circumscription equivalence.
+    lifeStatusScope:
+      wild: The regional flora account describes plants in the treatment region; native, naturalised, and cultivated occurrence are not inferred beyond statements in the cited record.
+      domesticated: No domestication history or cultivar evidence is assessed in this batch.
+      fossil: Fossil evidence is not assessed; no fossil occurrence or age is inferred from extant flora accounts.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6Z7K5
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6Z7K5
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000786083-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6Z7K5 / WFO wfo-0000786083
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi
+        referenceId: ref-c1d410f2-aa64-82d5-ac4b-ea777907e854
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Strelitzia 29 (2012); species-linked SANBI/WFO archive rows 6843 (Morphology) and 27252 (Habitat), source identifier 13878.0
+          scope: Regional Cape flora treatment. Geographic and ecological statements retain the treatment scope; the source does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, 15-45 cm, stem branched and with axillary cormlets after blooming. Leaves sword-shaped. Flowers nearly actinomorphic, with unilateral stamens and style, white to cream-coloured, outer tepals often purplish on reverse, often faintly sweet scented.
+            textZh: Sparaxis bulbifera (L.) Ker Gawl. 的 SANBI 区域植物志条目记录了其球茎、叶片及花部形态特征。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012); SANBI/WFO archive Morphology record row 6843, source identifier 13878.0
+            placeTimeScope: Strelitzia 29 (2012) species account; regional treatment published 2012. The archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for every observation.
+        gaps:
+          - Only the cited regional flora account excerpt has been assessed; developmental, population-level and independent diagnostic variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Wet sandy or clay flats.
+            textZh: SANBI 区域植物志将该种的生境记为：Wet sandy or clay flats.
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 29 (2012); SANBI/WFO archive Habitat record row 27252, source identifier 13878.0
+            placeTimeScope: Strelitzia 29 (2012) species account; regional treatment published 2012. The archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for every observation.
+        gaps:
+          - Locality-level observations, seasonality, interactions, and variation across the full species range have not been assessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-69c6088cac
+            part: title
+          zh:
+            page: zh
+            section: s-f6ca17b3e9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-69c6088cac
+            part: body
+          zh:
+            page: zh
+            section: s-f6ca17b3e9
+            part: body
+        sourceIds:
+          - sanbi
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ee7421f729
+            part: title
+          zh:
+            page: zh
+            section: s-89484ea7bf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ee7421f729
+            part: body
+          zh:
+            page: zh
+            section: s-89484ea7bf
+            part: body
+        sourceIds:
+          - sanbi

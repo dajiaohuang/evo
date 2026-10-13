@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops granulosus
+  displayName: Amolops granulosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66DXV
+  sourceIndexes:
+    - name:
+        en: Amolops granulosus
+        zh: Amolops granulosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66DXV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/364
+            queryName: Amolops granulosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/218
+            queryName: Staurois granulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7ad3b66277
+      - s-defc9b97c5
+      - s-ec365ce47e
+      - s-5f1cbbf506
+      - s-3d44f263e0
+      - s-6f264eb1a4
+      - s-30b211e0f2
+      - s-698c0ed1dd
+      - s-15d32ae02f
+      - s-60e640c8f5
+      - s-b6a06e527f
+      - s-ddc24f239d
+      - s-14fc36920c
+      - s-953c45821a
+      - s-4e3957c3b9
+      - s-1576fe8148
+      - s-7ee180c9ae
+      - s-afd15a9626
+      - s-2d0366a62f
+      - s-4a4a5c0aff
+      - s-b6a5a57b26
+      - s-5442483a4f
+    zh:
+      - s-2b2df51d69
+      - s-bc7a8faf01
+      - s-694d0a3241
+      - s-c9a83cbf36
+      - s-f6356f9820
+      - s-c7328b793e
+      - s-f02c95c821
+      - s-0ac406640a
+      - s-29d2185417
+      - s-88653e501b
+      - s-7f934c1d6b
+      - s-07c4076983
+      - s-5e2c2ac09b
+      - s-ceebeea434
+      - s-89dd2e5d3f
+      - s-c50d071d39
+      - s-8ebc4b3a91
+      - s-e7c3fe60cc
+      - s-c1b8b3683e
+      - s-3b3c107bbf
+      - s-c1e4c4ff71
+      - s-79c55d185c

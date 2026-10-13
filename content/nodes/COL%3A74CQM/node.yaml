@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus bejaranoi
+  displayName: Nymphargus bejaranoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74CQM
+  sourceIndexes:
+    - name:
+        en: Nymphargus bejaranoi
+        zh: Nymphargus bejaranoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74CQM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/417
+            queryName: Nymphargus bejaranoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/490
+            queryName: Cochranella bejaranoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/396
+            queryName: Centrolenella bejaranoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/397
+            queryName: Centrolenella flavidigitata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/398
+            queryName: Cochranella flavidigitata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1a1a07660
+      - s-83982e9979
+      - s-8542e757bf
+      - s-239d414bfc
+      - s-56f6f93cbe
+      - s-88fea7015c
+      - s-dfcfb92243
+      - s-eeb59344f9
+      - s-05ac25de5f
+      - s-b87fc677a2
+      - s-dd2e4e4a8d
+      - s-ea607fec4e
+      - s-d22f8d1797
+    zh:
+      - s-9b6e9dcac3
+      - s-2a9085ac69
+      - s-d576a75201
+      - s-7158ab3d71
+      - s-8d8db12478
+      - s-0e24ec9d81
+      - s-96c853afa1
+      - s-6a7abbe6c1
+      - s-05677042fe
+      - s-bfd095d701
+      - s-76136bfead
+      - s-970b8d6745
+      - s-77ecddfc6d

@@ -1,0 +1,223 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Petropedetes newtonii (Barboza du Bocage, 1895)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Petropedetes newtonii
+      zh: Petropedetes newtonii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f7d151a973
+            part: title
+          zh:
+            page: zh
+            section: s-0edb7082e8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f7d151a973
+            part: body
+          zh:
+            page: zh
+            section: s-0edb7082e8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9cba9ac27b
+            part: title
+          zh:
+            page: zh
+            section: s-3548574c93
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9cba9ac27b
+            part: body
+          zh:
+            page: zh
+            section: s-3548574c93
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-c7239afcca
+            part: title
+          zh:
+            page: zh
+            section: s-c6c5029d32
+            part: title
+        sourceIds:
+          - primary-pmc5999683-776cx
+        text:
+          en:
+            page: en
+            section: s-c7239afcca
+            part: body
+          zh:
+            page: zh
+            section: s-c6c5029d32
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-28c3b0056c
+            part: title
+          zh:
+            page: zh
+            section: s-4db15891fe
+            part: title
+        sourceIds:
+          - primary-pmc5999683-776cx
+        text:
+          en:
+            page: en
+            section: s-28c3b0056c
+            part: body
+          zh:
+            page: zh
+            section: s-4db15891fe
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-e264f57825
+            part: body
+          zh:
+            page: zh
+            section: s-cbd0c9fb71
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Petropedetes newtonii
+          url: https://www.checklistbank.org/dataset/316115/taxon/776CX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc5999683-776cx
+        referenceId: ref-fd8fe82c-3d7a-4ae6-a6ac-0eb35559eaf3
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Petropedetes newtonii: Distribution and associated natural-history account under the revised taxonomic concept; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-1a73892d15
+        part: body
+      zh:
+        page: zh
+        section: s-f44f5a5214
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.765.24764
+        referenceId: ref-fd8fe82c-3d7a-4ae6-a6ac-0eb35559eaf3
+        sourceKey: primary-pmc5999683-776cx
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5999683/article.xml
+        sourceConcept: Petropedetes newtonii
+        evidenceRead: "Petropedetes newtonii: Distribution and associated natural-history account under the revised taxonomic concept; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Records reconsidered under a revised name
+              zh: 修订名称下重新考虑的记录
+            referenceId: ref-fd8fe82c-3d7a-4ae6-a6ac-0eb35559eaf3
+            sourceKey: primary-pmc5999683-776cx
+            locator: "Petropedetes newtonii: Distribution and associated natural-history account under the revised taxonomic concept; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b51ff4e3de
+                part: body
+              zh:
+                page: zh
+                section: s-367ed4cfcf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: The 2003 Bioko field observations
+              zh: 2003 年比奥科野外观察
+            referenceId: ref-fd8fe82c-3d7a-4ae6-a6ac-0eb35559eaf3
+            sourceKey: primary-pmc5999683-776cx
+            locator: "Petropedetes newtonii: Distribution and associated natural-history account under the revised taxonomic concept; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7af30985d0
+                part: body
+              zh:
+                page: zh
+                section: s-0208ed24f9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

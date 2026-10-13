@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophryne pengilleyi
+  displayName: Pseudophryne pengilleyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WGZY
+  sourceIndexes:
+    - name:
+        en: Pseudophryne pengilleyi
+        zh: Pseudophryne pengilleyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WGZY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/442
+            queryName: Pseudophryne pengilleyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 24
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b11aa93b03
+      - s-951b1b3b88
+      - s-eecddfbcbc
+      - s-a69424197c
+      - s-f4c40e69cb
+      - s-c80c6c0b2d
+      - s-86b1fa9ccb
+      - s-810fe5368f
+      - s-53235dbaad
+      - s-dfab7576ce
+      - s-36af9b5072
+      - s-731523308c
+    zh:
+      - s-8e8e986b3c
+      - s-8a277eb1d3
+      - s-d1259e4902
+      - s-86ada76839
+      - s-3d4a325161
+      - s-6d8667fde0
+      - s-1da85a3c77
+      - s-fac311ceef
+      - s-e79d75d555
+      - s-b71ed24d1c
+      - s-d4ea1aa5ed
+      - s-0044e456b8

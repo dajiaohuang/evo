@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis lutitus
+  displayName: Pristimantis lutitus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJH8
+  sourceIndexes:
+    - name:
+        en: Pristimantis lutitus
+        zh: Pristimantis lutitus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJH8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/381
+            queryName: Pristimantis lutitus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/422
+            queryName: Eleutherodactylus lutitus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ba6c25e831
+      - s-0a4d03ee98
+      - s-7691036c99
+      - s-e66bc0c9a7
+      - s-1777fd0400
+      - s-7bab7a0c6e
+      - s-bfd1c51ff2
+    zh:
+      - s-9d80128e43
+      - s-cd89797c84
+      - s-c0278edd94
+      - s-f56de56409
+      - s-d6ce017e97
+      - s-afb39a5dd6
+      - s-0e668ce71b

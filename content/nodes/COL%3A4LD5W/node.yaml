@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Polypedates pseudocruciger
+  displayName: Polypedates pseudocruciger
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4LD5W
+  sourceIndexes:
+    - name:
+        en: Polypedates pseudocruciger
+        zh: Polypedates pseudocruciger
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4LD5W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/52
+            queryName: Polypedates pseudocruciger
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4724a3b9fe
+      - s-ddc87830f8
+      - s-3f6ba50558
+      - s-1ec5f23fd0
+      - s-1543102ce1
+      - s-3bf3d10c63
+      - s-cd51fa122f
+    zh:
+      - s-7d8774728e
+      - s-14cd5f33e0
+      - s-f7c009a38a
+      - s-543fb64906
+      - s-3ff0a70654
+      - s-ee6e338dbd
+      - s-e9378c6664

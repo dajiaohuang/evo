@@ -1,0 +1,173 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Alloblarinella europaea
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Alloblarinella europaea
+      en: Alloblarinella europaea
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-35d751b9f1
+            part: body
+          en:
+            page: en
+            section: s-6ae7e88c3b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d850ec5042
+            part: body
+          en:
+            page: en
+            section: s-97a93ed612
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5f90d1f1b2
+            part: body
+          en:
+            page: en
+            section: s-d6d97fdf22
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5b216aee9d
+            part: body
+          en:
+            page: en
+            section: s-fa0db1fc55
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-aee88637e7
+            part: body
+          en:
+            page: en
+            section: s-a4a94416f9
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Alloblarinella europaea
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=110668&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:110668; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:110668
+          selectedOccurrenceIds:
+            - occ:366148
+            - occ:366151
+            - occ:366154
+            - occ:366169
+          selectedCollectionIds:
+            - col:32240
+            - col:33396
+            - col:33473
+            - col:33873
+          sourceReferenceIds:
+            - ref:9172
+          originalIdentificationMappings:
+            - occurrenceId: occ:366148
+              originalIdentifiedName: Blarinella europaea
+              acceptedName: Alloblarinella europaea
+              difference: recombined as
+            - occurrenceId: occ:366151
+              originalIdentifiedName: Blarinella europaea
+              acceptedName: Alloblarinella europaea
+              difference: recombined as
+            - occurrenceId: occ:366154
+              originalIdentifiedName: Blarinella europaea
+              acceptedName: Alloblarinella europaea
+              difference: recombined as
+            - occurrenceId: occ:366169
+              originalIdentifiedName: Blarinella europaea
+              acceptedName: Alloblarinella europaea
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-b067b1213c
+        part: body
+      en:
+        page: en
+        section: s-c79cbb1b99
+        part: body

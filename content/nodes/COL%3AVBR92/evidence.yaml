@@ -1,0 +1,320 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Pantoea graminicola Ferreira et al., 2025
+    rank: species
+    sourceDatasetId: "2015"
+    identity:
+      method: Exact COL26.8 usage VBR92 checked for full name Pantoea graminicola Ferreira et al., 2025, authorship Ferreira et al., 2025, species rank, accepted status and sourceDatasetId 2015; pinned LPSN crosswalk maps this COL ID to record 68572.
+      scope: Nomenclatural usage crosswalk only; no complete biological species-concept equivalence inferred.
+      sourceIds:
+        - col
+        - lpsn
+    lifeStatusScope:
+      wild: Biological statements refer only to wild-origin cultured type strain(s) and observations reported in the cited paper.
+      domesticated: No domesticated or captive populations were studied or inferred.
+      fossil: Fossil evidence was not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 26
+        usage:
+          licenseAppliesTo: COL26.8 nomenclatural usage only
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          version: COL26.8 pinned 2026-08-20; accepted usage checked 2026-09-24
+          attribution: Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, DOI 10.48580/dgywk
+          licenseAssessment: identity-only
+          scope: Nomenclatural usage fields only; no biological claims are derived from COL.
+          url: https://www.checklistbank.org/dataset/316115/taxon/VBR92
+          stableId: VBR92
+          locator: "Pinned COL26.8 API usage VBR92: exact name, authorship, species rank, accepted status and sourceDatasetId 2015"
+      - id: lpsn
+        referenceId: ref-7f800c47-4933-8b13-ae60-4f003fe3da51
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Nomenclatural source data and pinned crosswalk only
+          stableId: "68572"
+          attribution: Freese et al. (2026), List of Prokaryotic names with Standing in Nomenclature (LPSN), https://doi.org/10.1093/nar/gkaf1110
+          licenseAssessment: identity-only
+          scope: Release-pinned source-record nomenclature crosswalk only; no biological claims or full species-concept equivalence inferred.
+          locator: Exact release-pinned row COL VBR92 -> LPSN 68572; row response SHA-256 dd53a9ccbc8512348b31949a27c21db33fa0838d3296a3b9aad1faafb6b7f88e
+      - id: paper
+        referenceId: ref-899bf77d-daef-8246-a48d-5188483fe18f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - scope
+          - attribution
+        metadataVariant: 0
+        usage:
+          stableId: 10.1099/ijsem.0.006952
+          accessedAt: 2026-09-24
+          locator: Taxon-specific species account and cited item sections; linked journal/PMC article and item-level open-access metadata
+          licenseAssessment: item-level-verified
+          scope: Publisher item page marks the paper Open Access and attributes copyright to authors; the Society's open-access licence form specifies CC BY 4.0. Article text and original material only; third-party items may have separate terms.
+          attribution: Ferreira et al. (2025), Pantoea graminicola sp. nov., a Gram-negative bacterium isolated from sweet corn (Zea mays L.) in the USA, DOI 10.1099/ijsem.0.006952
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: The paper characterizes the isolates as Gram-negative; the title and abstract report bacterial isolates KXB24, KXB25 and KXB45 from symptomatic sweet corn.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; species description and phenotypic characterization
+            placeTimeScope: The named cultured isolates and tested conditions only.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: KXB24, KXB25 and KXB45 were recovered from symptomatic sweet corn in the Everglades Agricultural Area, Florida, USA; this source association does not establish causation or prevalence.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; strain isolation section
+            placeTimeScope: Three cultured isolates from the reported crop/site context.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: The authors use polyphasic taxonomic characterization, including genomic comparisons, to propose Pantoea graminicola for the studied isolates.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Abstract; phylogenetic and genomic analyses; species description
+            placeTimeScope: The isolates and comparator taxa analyzed in this treatment; authors’ taxonomic inference only.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      distribution:
+        status: partially-supported
+        claims:
+          - text: The paper reports the studied isolates from symptomatic sweet corn in the Everglades Agricultural Area, Florida, USA.
+            originalLanguage: en
+            sourceIds:
+              - paper
+            locator: Title; Abstract; strain isolation section
+            placeTimeScope: Reported sampling locality only; no wider range implied.
+            lifeStatus: Wild-origin cultured type strain or isolates; claim limited to the stated observations.
+        gaps:
+          - Evidence is limited to the named strain(s), sites, methods and conditions in the cited paper; population-wide generalization was not assessed.
+      lifeHistory:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No systematic life-history study/search was performed; reproductive, developmental, behavioral and lifespan claims are not assessed.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil or paleontological search was performed; no fossil presence or absence is claimed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No conservation assessment or current formal Red List record was assessed.
+  catalogue-profile:
+    scientificName: Pantoea graminicola Ferreira et al., 2025
+    rank: species
+    sourceDatasetId: "2015"
+    name:
+      en: Pantoea graminicola
+      zh: Pantoea graminicola
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0a8a8eb913
+            part: title
+          zh:
+            page: zh
+            section: s-6346a508b8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0a8a8eb913
+            part: body
+          zh:
+            page: zh
+            section: s-6346a508b8
+            part: body
+        sourceIds:
+          - paper
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-bdc8a49ce2
+            part: title
+          zh:
+            page: zh
+            section: s-08d6d8697d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bdc8a49ce2
+            part: body
+          zh:
+            page: zh
+            section: s-08d6d8697d
+            part: body
+        sourceIds:
+          - paper
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-942ba26ffe
+            part: title
+          zh:
+            page: zh
+            section: s-d6633060ac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-942ba26ffe
+            part: body
+          zh:
+            page: zh
+            section: s-d6633060ac
+            part: body
+        sourceIds:
+          - paper
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 26
+        usage:
+          licenseAppliesTo: COL26.8 nomenclatural usage only
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          version: COL26.8 pinned 2026-08-20; accepted usage checked 2026-09-24
+          attribution: Catalogue of Life (2026), COL26.8, ChecklistBank dataset 316115, DOI 10.48580/dgywk
+          licenseAssessment: identity-only
+          scope: Nomenclatural usage fields only; no biological claims are derived from COL.
+          url: https://www.checklistbank.org/dataset/316115/taxon/VBR92
+          stableId: VBR92
+          locator: "Pinned COL26.8 API usage VBR92: exact name, authorship, species rank, accepted status and sourceDatasetId 2015"
+      - id: lpsn
+        referenceId: ref-7f800c47-4933-8b13-ae60-4f003fe3da51
+        fields:
+          - id
+          - title
+          - version
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+          - url
+          - stableId
+          - locator
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Nomenclatural source data and pinned crosswalk only
+          stableId: "68572"
+          attribution: Freese et al. (2026), List of Prokaryotic names with Standing in Nomenclature (LPSN), https://doi.org/10.1093/nar/gkaf1110
+          licenseAssessment: identity-only
+          scope: Release-pinned source-record nomenclature crosswalk only; no biological claims or full species-concept equivalence inferred.
+          locator: Exact release-pinned row COL VBR92 -> LPSN 68572; row response SHA-256 dd53a9ccbc8512348b31949a27c21db33fa0838d3296a3b9aad1faafb6b7f88e
+      - id: paper
+        referenceId: ref-899bf77d-daef-8246-a48d-5188483fe18f
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAssessment
+          - scope
+          - attribution
+        metadataVariant: 0
+        usage:
+          stableId: 10.1099/ijsem.0.006952
+          accessedAt: 2026-09-24
+          locator: Taxon-specific species account and cited item sections; linked journal/PMC article and item-level open-access metadata
+          licenseAssessment: item-level-verified
+          scope: Publisher item page marks the paper Open Access and attributes copyright to authors; the Society's open-access licence form specifies CC BY 4.0. Article text and original material only; third-party items may have separate terms.
+          attribution: Ferreira et al. (2025), Pantoea graminicola sp. nov., a Gram-negative bacterium isolated from sweet corn (Zea mays L.) in the USA, DOI 10.1099/ijsem.0.006952
+    limitations:
+      en:
+        page: en
+        section: s-01e0f3b4c8
+        part: body
+      zh:
+        page: zh
+        section: s-fa57517c43
+        part: body

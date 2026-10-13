@@ -1,0 +1,370 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ptychadena goweri Smith, Noonan & Colston, 2017
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Ptychadena goweri
+      zh: Ptychadena goweri
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-05376dcd6f
+            part: title
+          zh:
+            page: zh
+            section: s-2b3f6ae0d8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-05376dcd6f
+            part: body
+          zh:
+            page: zh
+            section: s-2b3f6ae0d8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-98a4cde2e2
+            part: title
+          zh:
+            page: zh
+            section: s-24f7ec19f8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-98a4cde2e2
+            part: body
+          zh:
+            page: zh
+            section: s-24f7ec19f8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-b66826bf1a
+            part: title
+          zh:
+            page: zh
+            section: s-8d45ae690d
+            part: title
+        sourceIds:
+          - primary-pmc7892535-4q9qf
+        text:
+          en:
+            page: en
+            section: s-b66826bf1a
+            part: body
+          zh:
+            page: zh
+            section: s-8d45ae690d
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-98794d3ee6
+            part: title
+          zh:
+            page: zh
+            section: s-ebdc30e45b
+            part: title
+        sourceIds:
+          - primary-pmc7892535-4q9qf
+        text:
+          en:
+            page: en
+            section: s-98794d3ee6
+            part: body
+          zh:
+            page: zh
+            section: s-ebdc30e45b
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6b1ee63724
+            part: title
+          zh:
+            page: zh
+            section: s-dce3328435
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qf
+        text:
+          en:
+            page: en
+            section: s-6b1ee63724
+            part: body
+          zh:
+            page: zh
+            section: s-dce3328435
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-4e7b0c84ef
+            part: title
+          zh:
+            page: zh
+            section: s-a333927f79
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qf
+        text:
+          en:
+            page: en
+            section: s-4e7b0c84ef
+            part: body
+          zh:
+            page: zh
+            section: s-a333927f79
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-695ca7d3c1
+            part: title
+          zh:
+            page: zh
+            section: s-1cf4c2f7e2
+            part: title
+        sourceIds:
+          - primary-pmc10434514-4q9qf
+        text:
+          en:
+            page: en
+            section: s-695ca7d3c1
+            part: body
+          zh:
+            page: zh
+            section: s-1cf4c2f7e2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ptychadena goweri
+          url: https://www.checklistbank.org/dataset/316115/taxon/4Q9QF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7892535-4q9qf
+        referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - authorMetadataEvidence
+          - authorsAsRecordedInXml
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena goweri: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10434514-4q9qf
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Ptychadena goweri: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-e820aacde7
+        part: body
+      zh:
+        page: zh
+        section: s-e534a4bd90
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1016.59699
+        referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+        sourceKey: primary-pmc7892535-4q9qf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7892535/article.xml
+        sourceConcept: Ptychadena goweri
+        evidenceRead: "Ptychadena goweri: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Southeastern rift-area forest clearings
+              zh: 裂谷东南林间空地
+            referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+            sourceKey: primary-pmc7892535-4q9qf
+            locator: "Ptychadena goweri: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8da2fc5f2c
+                part: body
+              zh:
+                page: zh
+                section: s-22d6a04748
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Shallow-puddle night calling
+              zh: 浅水坑中的夜间鸣叫
+            referenceId: ref-aa6d559b-ccd6-4665-a864-8052e51ec04e
+            sourceKey: primary-pmc7892535-4q9qf
+            locator: "Ptychadena goweri: Species habitat, distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-44ba8f30a7
+                part: body
+              zh:
+                page: zh
+                section: s-9c55e0c827
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3389/fgene.2023.1215715
+        referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+        sourceKey: primary-pmc10434514-4q9qf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10434514/article.xml
+        sourceConcept: 2023 Ethiopian Highlands Ptychadena goweri sample and author-reported distributions
+        evidenceRead: "Ptychadena goweri: XML abstract, Methods 2.1–2.5, Results 3.1–3.3 including Table1 and figure captions, Discussion 4.1–4.3 read; supplementary tables, original sequence reads, deposited assemblies and analysis pipelines not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A geographically sampled mitochondrial and nuclear dataset
+              zh: 有地理取样的线粒体与核数据集
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qf
+            locator: PMC10434514 XML Methods2.1–2.3; Table1; Results3.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0a861bb326
+                part: body
+              zh:
+                page: zh
+                section: s-9db7e12d2a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: A study-defined highland clade and regional distribution
+              zh: 研究界定的高地支系及区域分布
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qf
+            locator: PMC10434514 XML Results3.2–3.3; Discussion4.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-622f284695
+                part: body
+              zh:
+                page: zh
+                section: s-101db4b714
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: A dated reassessment argument, with remaining demographic gaps
+              zh: 有日期的重评论据与仍缺的人口统计证据
+            referenceId: ref-6e8b040b-4495-4663-a54c-9a3b30361ec6
+            sourceKey: primary-pmc10434514-4q9qf
+            locator: PMC10434514 XML Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-275dd32ca6
+                part: body
+              zh:
+                page: zh
+                section: s-61c5ed2a21
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

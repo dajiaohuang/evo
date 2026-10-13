@@ -1,0 +1,3 @@
+## ## Bulbous glandular hairs and small pods {#s-6364d4143a}
+Brazilian Flora 2020 records a xylopodium and persistent, upright, awl-shaped stipules 1–3 mm long. Alternate leaves have 5–14 pairs of oblong, ovate or elliptic leaflets, 3–12 mm long and 2.5–4.5 mm wide, with strongly asymmetrical bases, mucronulate tips and commonly setulose margins. Bulbous glandular hairs occur on the stem and inflorescence; terminal racemes bear yellow flowers with ten stamens and petals of different forms. The brown, bristly pods are oblong and 1.5–2 cm long. Seeds were not observed in this record. The dataset classifies the plant as terrestrial.
+

@@ -1,0 +1,215 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Epihippus gracilis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Epihippus gracilis
+      en: Epihippus gracilis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4ffd2672cc
+            part: body
+          en:
+            page: en
+            section: s-c6f873d951
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-bf1e01ca39
+            part: body
+          en:
+            page: en
+            section: s-29c589ffcd
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-68ffed983c
+            part: body
+          en:
+            page: en
+            section: s-38fb0e6ec3
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5420b9e55d
+            part: body
+          en:
+            page: en
+            section: s-50b9d41f01
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7490780944
+            part: body
+          en:
+            page: en
+            section: s-e19d6d4e86
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Epihippus gracilis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=44060&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:44060; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:44060
+          selectedOccurrenceIds:
+            - occ:175492
+            - occ:175532
+            - occ:175590
+            - occ:175605
+            - occ:175761
+            - occ:175780
+            - occ:175783
+            - occ:175794
+            - occ:175815
+            - occ:175932
+            - occ:176040
+            - occ:176094
+            - occ:176173
+            - occ:176283
+            - occ:176310
+            - occ:176315
+            - occ:176327
+            - occ:176354
+            - occ:176429
+            - occ:176472
+            - occ:176492
+            - occ:177563
+            - occ:1448917
+            - occ:1707039
+            - occ:1707081
+            - occ:1707085
+            - occ:2069787
+            - occ:2069788
+          selectedCollectionIds:
+            - col:16513
+            - col:16514
+            - col:16517
+            - col:16518
+            - col:16552
+            - col:16560
+            - col:16562
+            - col:16570
+            - col:16578
+            - col:16589
+            - col:16607
+            - col:16614
+            - col:16623
+            - col:16630
+            - col:16642
+            - col:16643
+            - col:16645
+            - col:16646
+            - col:16649
+            - col:16654
+            - col:16657
+            - col:16842
+            - col:202168
+            - col:109203
+            - col:208341
+            - col:242020
+          sourceReferenceIds:
+            - ref:1094
+            - ref:6294
+            - ref:2052
+            - ref:2802
+            - ref:2495
+            - ref:1782
+            - ref:2494
+            - ref:92850
+            - ref:95678
+          originalIdentificationMappings:
+            - occurrenceId: occ:2069788
+              originalIdentifiedName: Epihippus parvus
+              acceptedName: Epihippus gracilis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f7109c4e11
+        part: body
+      en:
+        page: en
+        section: s-e33f4c355d
+        part: body

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys lichun
+  displayName: Boulenophrys lichun
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TZ76C
+  sourceIndexes:
+    - name:
+        en: Boulenophrys lichun
+        zh: Boulenophrys lichun
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TZ76C
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/361
+            queryName: Boulenophrys lichun
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ea4d97fcf9
+      - s-b7615f38e8
+      - s-40c98c951d
+      - s-6add70056e
+      - s-2a2cf86bca
+      - s-b260ab3927
+      - s-b59924f149
+      - s-684f5bd55d
+      - s-60c5c1ee47
+    zh:
+      - s-3485b7c532
+      - s-bde64f9290
+      - s-bf62ea8246
+      - s-f3cfecb994
+      - s-e3a06047bb
+      - s-d22fcc5965
+      - s-de93dafc91
+      - s-9480c3a794
+      - s-c5e62720b0

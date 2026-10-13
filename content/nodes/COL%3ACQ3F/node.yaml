@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma barbouri
+  displayName: Ambystoma barbouri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ3F
+  sourceIndexes:
+    - name:
+        en: Ambystoma barbouri
+        zh: Ambystoma barbouri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ3F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/232
+            queryName: Ambystoma barbouri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 51
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-21ed062cf0
+      - s-792680e549
+      - s-a9c2472506
+      - s-9a06c02f8c
+      - s-5b89df62d0
+      - s-0aee8fcd94
+      - s-d4c3cc7d16
+      - s-f626a09beb
+      - s-57e1fea4c0
+      - s-8d017223d2
+      - s-970d9cdeb9
+    zh:
+      - s-e16cd787b2
+      - s-83046aa98a
+      - s-989f7bd2f4
+      - s-fc24c5efa0
+      - s-3b98118e28
+      - s-8db3638506
+      - s-8926fb0ad1
+      - s-0625d4b2c3
+      - s-a8b669957d
+      - s-27583eb3d9
+      - s-ab5cb084b9

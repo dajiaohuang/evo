@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Octopus vulgaris Cuvier, 1797
+    authorship: Cuvier, 1797
+    rank: species
+    sourceDatasetId: "1130"
+    sections:
+      - topic: life-history
+        sourceIds:
+          - casalini2020octopus
+        text:
+          en:
+            page: en
+            section: s-aab9fac17e
+            part: body
+          zh:
+            page: zh
+            section: s-22953a0417
+            part: body
+      - topic: evolution
+        sourceIds:
+          - deluca2016octopuspopulation
+        text:
+          en:
+            page: en
+            section: s-f136ad6513
+            part: body
+          zh:
+            page: zh
+            section: s-aae43832f8
+            part: body
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: M2L
+        scientificName: Mollusca
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: "1130"
+      - id: 7NF3H
+        scientificName: Cephalopoda Cuvier, 1795
+        authorship: Cuvier, 1795
+        rank: class
+        status: accepted
+        sourceDatasetId: "1130"
+      - id: 7NF54
+        scientificName: Coleoidea Bather, 1888
+        authorship: Bather, 1888
+        rank: subclass
+        status: accepted
+        sourceDatasetId: "1130"
+      - id: 7NVY5
+        scientificName: Octopodiformes Berthold & Engeser, 1987
+        authorship: Berthold & Engeser, 1987
+        rank: superorder
+        status: accepted
+        sourceDatasetId: "1130"
+      - id: 7NK44
+        scientificName: Octopodidae A. d'Orbigny, 1839
+        authorship: A. d'Orbigny, 1839
+        rank: family
+        status: accepted
+        sourceDatasetId: "1130"
+      - id: 7PB4N
+        scientificName: Octopus Cuvier, 1797
+        authorship: Cuvier, 1797
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1130"
+      - id: 48KQY
+        scientificName: Octopus vulgaris Cuvier, 1797
+        authorship: Cuvier, 1797
+        rank: species
+        status: accepted
+        sourceDatasetId: "1130"
+    identity:
+      method: Exact accepted COL26.8 usage verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Exact accepted COL26.8 species usage 48KQY. The reproductive evidence concerns wild-caught sub-adults subsequently maintained as captive broodstock in a recirculating aquaculture system; it does not estimate wild fecundity.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: Wild sub-adults were captured near Gallipoli, Italy, as broodstock founders; the measured reproductive result is from captivity.
+      domesticated: The source does not assess domestication or a domesticated population.
+      captive: Captive broodstock were maintained in a recirculating aquaculture system and assigned mixed-fish or mixed-crustacean diets.
+      fossil: Fossil occurrence and geological age were not assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1130
+          url: https://www.checklistbank.org/dataset/316115/taxon/48KQY
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:48KQY@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 48KQY; exact name, authorship, rank, status, sourceDatasetId, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 48KQY. https://doi.org/10.48580/dgywk.
+      - id: casalini2020octopus
+        referenceId: ref-69bf8a17-5da1-8867-a032-d50b96e7c606
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - license
+          - rightsHolder
+          - licenseEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+          - attribution
+          - licenseVersion
+          - licenseUrl
+          - licenseAssessment
+          - scope
+          - accessedAt
+        metadataVariant: 0
+        usage:
+          licenseEvidenceLocator: The full-text article license block states Creative Commons Attribution 4.0 International and © The Author(s) 2020; the article page identifies an author correction published 2022-08-01.
+          licenseAppliesTo: Article text under the item-level CC BY 4.0 notice; separately credited third-party content is excluded. Claim paraphrased; no figure or table is reproduced.
+          stableId: doi:10.1038/s41598-020-72151-y
+          locator: Abstract; Results, “Regarding egg clusters”; Table 2; Methods, Animals and feeding-group design; item-level full-text license statement.
+          attribution: Casalini A, Roncarati A, Emmanuele P, et al. (2020). Evaluation of reproductive performances of the common octopus (Octopus vulgaris) reared in water recirculation systems and fed different diets. Scientific Reports 10:15261. https://doi.org/10.1038/s41598-020-72151-y. CC BY 4.0. Claim paraphrased.
+          licenseAssessment: item-level-verified
+          scope: Egg-cluster output from four female captive broodstock per diet in a recirculating system; broodstock were wild-caught sub-adults, so this is not a wild fecundity estimate.
+          accessedAt: 2026-09-25
+      - id: deluca2016octopuspopulation
+        referenceId: ref-abb2343c-f650-8519-a3d6-e6da33eb4ae1
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article content covered by its license; separately credited third-party material remains governed by its credit line. This record paraphrases article text and reproduces no figures or tables.
+          stableId: doi:10.1371/journal.pone.0149496
+          accessedAt: 2026-09-26
+          locator: Abstract; Materials and Methods > Sampling; Results > Genetic diversity and population structure; Discussion; Table 1 and Fig. 2.
+          licenseAssessment: item-level-verified
+          rightsEvidenceUrl: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0149496
+          attribution: "De Luca D, Catanese G, Procaccini G, Fiorito G (2016). Octopus vulgaris (Cuvier, 1797) in the Mediterranean Sea: Genetic Diversity and Population Structure. PLoS ONE 11(2):e0149496. https://doi.org/10.1371/journal.pone.0149496. CC BY 4.0. Claim paraphrased; no figures or tables reproduced."
+          scope: Population-genetic study of 193 adult octopuses from seven Mediterranean localities and one nearby Atlantic locality, using 13 microsatellite loci and COI barcoding. Population differentiation applies to these sampled localities and markers, not to all populations or the debated O. vulgaris species complex.
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The diet experiment does not assess diagnostic morphology or species-level anatomical variation.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: In a captive broodstock experiment, females fed a mixed-crustacean diet produced 78.1±6.5 egg clusters per kg body weight, compared with 31.1±13.3 in the mixed-fish diet group; each diet group contained four females. The broodstock originated as wild sub-adults caught in the Ionian Sea near Gallipoli, Italy, and were then kept in a recirculating aquaculture system in Cesenatico. This diet-group result describes captive reproduction, not fecundity in wild populations.
+            textZh: 在一项圈养亲本实验中，混合甲壳类饲料组雌性每千克体重产卵团数为 78.1±6.5，混合鱼类饲料组为 31.1±13.3；每种饲料组均有四只雌性。亲本为从意大利加利波利附近爱奥尼亚海捕获的野生亚成体，之后在切塞纳蒂科的循环水养殖系统中饲养。该饲料组结果描述的是圈养繁殖，并非野外种群的繁殖力。
+            originalLanguage: en
+            sourceIds:
+              - casalini2020octopus
+            locator: Abstract; Results, “Regarding egg clusters”; Table 2; Methods, Animals and feeding-group design.
+            placeTimeScope: Wild sub-adults were caught at the end of February in the Ionian Sea near Gallipoli, Puglia, Italy, and transferred to a recirculating aquaculture system in Cesenatico. The article does not specify the collection/trial calendar year.
+            lifeStatus: Wild-caught sub-adults became captive broodstock; the reproductive outcome was measured under managed feeding in a recirculating aquaculture system.
+        gaps:
+          - A single captive broodstock comparison with four females per diet does not establish wild fecundity, lifetime reproductive output, natural diet effects, or geographic variation.
+      ecology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Captive feeding groups do not establish natural diet, habitat use, or field ecological interactions.
+      evolution:
+        status: partially-supported
+        claims:
+          - text: In a study of 193 adult Octopus vulgaris collected by local fishers at seven Mediterranean localities and one nearby Atlantic locality, analysis of 13 microsatellite loci distinguished the Ria Formosa Atlantic sample and the Strait of Messina sample from the other sampled groups; the authors reported 23 private alleles in Ria Formosa versus 2–7 in each Mediterranean sample. This is population structure among these samples, not a species-wide phylogeny or a resolution of the debated O. vulgaris complex.
+            textZh: 一项研究分析了当地渔民在地中海七个地点及附近大西洋一个地点采集的 193 只成年普通章鱼。对 13 个微卫星位点的分析显示，葡萄牙里亚福尔摩萨的大西洋样本和墨西拿海峡样本与其他受采样群体有所区分；作者报告里亚福尔摩萨样本有 23 个私有等位基因，而各地中海样本为 2–7 个。该结果描述的是这些样本之间的种群结构，不是物种范围内的系统发育结论，也没有解决 O. vulgaris 复合群的分类争议。
+            sourceIds:
+              - deluca2016octopuspopulation
+            locator: Abstract; Materials and Methods > Sampling; Results > DNA Barcoding and Genetic diversity; Discussion; Table 1 and Fig. 2.
+            placeTimeScope: Seven localities across the Mediterranean Sea and one nearby Atlantic locality (Ria Formosa, Portugal); the article gives the Spanish sample as collected during MEDITS_ES_2014 but does not report collection dates for all samples. Adults were caught near the coast by local fishers.
+            lifeStatus: Wild-caught adult specimens were received as preserved or freshly dead material; no live animals were used in the study.
+            originalLanguage: en
+        gaps:
+          - This marker and locality sample does not establish a range-wide species phylogeny, resolve the debated Octopus vulgaris complex, or infer the timing or cause of population differentiation.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - Collection near Gallipoli is not a geographic range inventory.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The study does not assess fossil occurrences or geological age.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The captive trial does not establish wild population trends, threats, or a conservation assessment.

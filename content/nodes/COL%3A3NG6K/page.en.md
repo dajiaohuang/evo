@@ -1,0 +1,60 @@
+## Accepted name and placement {#s-6d74c366c3}
+COL26.8 accepts Hylodes dactylocinus Pavan, Narvaes & Rodrigues, 2001 as a species. Its recorded classification places it along Anura (order) → Hylodidae (family) → Hylodes (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-5c53ca3c42}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Foraging strata — AmphiBIO source {#s-92f988aaa7}
+Historical source concept: Hylodes dactylocinus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags terrestrial; aquatic as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports correcting some amphibian body-mass and microhabitat entries propagated from earlier compilations. The affected row-level comparison has not yet been captured here. This deposited historical value or category requires review before reuse; no replacement value is inferred, and this notice does not identify every original entry as erroneous.
+
+## Activity periods — AmphiBIO source {#s-39c6d3b728}
+Historical source concept: Hylodes dactylocinus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags daytime as present categories. These are overall activity categories rather than a continuous behavioural time series.
+
+## Seasonal activity — AmphiBIO source {#s-d0df7d5c57}
+Historical source concept: Hylodes dactylocinus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The source flags dry and warm as present categories. Seasonal categories compare conditions during activity with the local annual climate; they are not fixed calendar months worldwide.
+
+## Compiled adult dimensions — AmphiBIO source {#s-894ed6a436}
+Historical source concept: Hylodes dactylocinus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports maximum adult body length: 31 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual.
+
+## Compiled life history — AmphiBIO source {#s-ad8b5ac11a}
+Historical source concept: Hylodes dactylocinus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. AmphiBIO reports minimum number of offspring or eggs per clutch: 40 individuals/eggs; maximum number of offspring or eggs per clutch: 60 individuals/eggs. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental strategy — AmphiBIO source {#s-57eb068355}
+Historical source concept: Hylodes dactylocinus, under the compilation's Frost 2011 classification. Equivalence with the current species concept remains unverified. The deposited record flags a larval stage. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related source records and datasets {#s-0e77cbe6e5}
+The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
+
+- [AmphiBIO v1: Hylodes dactylocinus](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hylodidae/Hylodes/Hylodes_dactylocinus/page.en.md)
+- [TadpoleTraits v4: Hylodes dactylocinus](../../../../../../../../../../../../../topics/research/TadpoleTraits/Hylodidae/Hylodes/Hylodes_dactylocinus/page.en.md)
+
+## Developmental material — TadpoleTraits source {#s-127ddd882f}
+Deposited source concept: Hylodes dactylocinus, in TadpoleTraits. Matching names provide a reading lead; equivalence with this current species concept remains unverified. The compilation contains 1 literature-derived rows and 0 image-derived rows for this source concept. Supplied stage entries are 25-29. Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## A larval image record with explicit provenance {#s-e0497d8d42}
+The 2024 paired-stage shape study includes Hylodes dactylocinus. Table S1 records its tadpole source as “Literature”, meaning literature images, and retains the voucher field “-”. A dash denotes no voucher listed in this table, not proof that no specimen ever existed. Across the study, 112 tadpole photographs/drawings represent 83 species, with one or two images per species and Gosner stages 26–41. Thirty-two landmarks were digitized by one person, tail curvature was digitally corrected for fixation artifacts, and species mean shapes were used. This row does not specify each specimen’s exact stage, and the images are not new live developmental trajectories or an independently checked species diagnosis.
+
+## Adult measurements preserve source type and sex limits {#s-5ef0da415a}
+For Hylodes dactylocinus, the adult-source field is “ImageJ, figure”: ImageJ measurements from published figures. Its voucher field is “-” and sex field “M” (male). This describes the adult record used in the compilation, not a population sex ratio or demonstrated sexual dimorphism. The study selects ten linear measurements, chiefly from male dorsal/lateral images or earlier descriptions, and uses PCA-based imputation for missing values; Table S1 does not flag every imputed cell. Log-shape ratios correct linear measurements other than snout–vent length by their geometric mean. Those values describe image/literature-derived external proportions rather than live performance, internal anatomy or a new sex-specific size range.
+
+## Larval guild and adult ecomorph are separate source categories {#s-4993693929}
+The row codes Hylodes dactylocinus as larval LO (lotic) and adult TOR (torrential). The two stages are retained separately; the adult code cannot be assigned automatically to tadpoles, or the reverse. Lentic/lotic and torrential labels summarize broad habitat associations rather than quantified flow tolerance, while saxicolous or terrestrial codes do not define an entire geographic range. An endotrophic tadpole category is distinct from direct development and does not remove the larval stage. The authors compiled functional assignments from species accounts rather than experimentally measuring every species’ feeding, hydrodynamics, locomotion or habitat choice.
+
+## Paired-stage comparisons do not establish complete developmental independence {#s-37fff5fb1f}
+Across the sampled species, larval–adult shape dissimilarities show a weak but significant Mantel association (r 0.16, p 0.003), while disparity correlations differ among families. The authors interpret the overall pattern as support for adaptive decoupling; it does not demonstrate zero correlation, genetic independence, an experimentally selected trait or this species’ developmental trajectory. Phylogenetic analyses use 74 of the 83 sampled species, and ancestral shape/time patterns are model reconstructions from extant data rather than newly measured fossil morphology. Adult K 0.44 with p 0.001 describes less close-relative similarity than the reference expectation; the paper’s “not phylogenetically structured” wording cannot mean that the test is nonsignificant. Supplement S3 repeats family N values summing to 112 for both stages, so adult individual denominators and imputed cells remain uncertified without raw matrices.
+
+## catalogue-profile / limitations {#s-d1041c635c}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-cab2475cf7}
+The 2024 paired-stage shape study includes Hylodes dactylocinus. Table S1 records its tadpole source as “Literature”, meaning literature images, and retains the voucher field “-”. A dash denotes no voucher listed in this table, not proof that no specimen ever existed. Across the study, 112 tadpole photographs/drawings represent 83 species, with one or two images per species and Gosner stages 26–41. Thirty-two landmarks were digitized by one person, tail curvature was digitally corrected for fixation artifacts, and species mean shapes were used. This row does not specify each specimen’s exact stage, and the images are not new live developmental trajectories or an independently checked species diagnosis.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-4c6af375cf}
+For Hylodes dactylocinus, the adult-source field is “ImageJ, figure”: ImageJ measurements from published figures. Its voucher field is “-” and sex field “M” (male). This describes the adult record used in the compilation, not a population sex ratio or demonstrated sexual dimorphism. The study selects ten linear measurements, chiefly from male dorsal/lateral images or earlier descriptions, and uses PCA-based imputation for missing values; Table S1 does not flag every imputed cell. Log-shape ratios correct linear measurements other than snout–vent length by their geometric mean. Those values describe image/literature-derived external proportions rather than live performance, internal anatomy or a new sex-specific size range.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-cc95208529}
+The row codes Hylodes dactylocinus as larval LO (lotic) and adult TOR (torrential). The two stages are retained separately; the adult code cannot be assigned automatically to tadpoles, or the reverse. Lentic/lotic and torrential labels summarize broad habitat associations rather than quantified flow tolerance, while saxicolous or terrestrial codes do not define an entire geographic range. An endotrophic tadpole category is distinct from direct development and does not remove the larval stage. The authors compiled functional assignments from species accounts rather than experimentally measuring every species’ feeding, hydrodynamics, locomotion or habitat choice.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-b4707d24b6}
+Across the sampled species, larval–adult shape dissimilarities show a weak but significant Mantel association (r 0.16, p 0.003), while disparity correlations differ among families. The authors interpret the overall pattern as support for adaptive decoupling; it does not demonstrate zero correlation, genetic independence, an experimentally selected trait or this species’ developmental trajectory. Phylogenetic analyses use 74 of the 83 sampled species, and ancestral shape/time patterns are model reconstructions from extant data rather than newly measured fossil morphology. Adult K 0.44 with p 0.001 describes less close-relative similarity than the reference expectation; the paper’s “not phylogenetically structured” wording cannot mean that the test is nonsignificant. Supplement S3 repeats family N values summing to 112 for both stages, so adult individual denominators and imputed cells remain uncertified without raw matrices.
+

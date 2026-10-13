@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bromeliohyla dendroscarta
+  displayName: Bromeliohyla dendroscarta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NCKH
+  sourceIndexes:
+    - name:
+        en: Bromeliohyla dendroscarta
+        zh: Bromeliohyla dendroscarta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NCKH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/475
+            queryName: Bromeliohyla dendroscarta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/177
+            queryName: Hyla dendroscarta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc1bbdcb57
+      - s-c93bf322c3
+      - s-c2246a36e7
+      - s-89dd4ec0b8
+      - s-35d094c195
+      - s-11d6dbc387
+      - s-db098841aa
+      - s-622e6f7fe8
+      - s-90aa306787
+      - s-ccfa2e5916
+    zh:
+      - s-d0706cfb19
+      - s-96cdd8df5e
+      - s-9702f6d61b
+      - s-bff7dce8da
+      - s-f54959dcf6
+      - s-d4238033e7
+      - s-3b2823632f
+      - s-53cc68f555
+      - s-c2f826ba96
+      - s-7760b4a46a

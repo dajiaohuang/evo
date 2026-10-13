@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla pycnochila
+  displayName: Plectrohyla pycnochila
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5CS
+  sourceIndexes:
+    - name:
+        en: Plectrohyla pycnochila
+        zh: Plectrohyla pycnochila
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5CS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/442
+            queryName: Plectrohyla pycnochila
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/367
+            queryName: Hyla pycnochila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-868aec5fde
+      - s-4324fe7f66
+      - s-0ac885fead
+      - s-b47ad2e41f
+      - s-e464df29e3
+      - s-d9207b21ed
+      - s-d9cb4c402d
+      - s-a26f336197
+      - s-5ab67a03ce
+    zh:
+      - s-33f3a406ba
+      - s-08d94dce80
+      - s-ab07f4e983
+      - s-c4cb073f7d
+      - s-2b690fee4e
+      - s-2f0b03ad7d
+      - s-b57d7eebc1
+      - s-f4b1c0b93f
+      - s-50eb55cfab

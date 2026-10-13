@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus mambaiensis
+  displayName: Trachycephalus mambaiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PVX
+  sourceIndexes:
+    - name:
+        en: Trachycephalus mambaiensis
+        zh: Trachycephalus mambaiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PVX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/104
+            queryName: Trachycephalus mambaiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ccdc9e7449
+      - s-7fc2c886f0
+      - s-8f6a92db19
+      - s-e8a324edc0
+      - s-761ab8ea2b
+      - s-842247f9b3
+      - s-0ee6f37c1d
+      - s-4b2b666697
+    zh:
+      - s-c0acb33ce1
+      - s-65453f3b2c
+      - s-52e7d67e94
+      - s-32e7393669
+      - s-1365cb61e2
+      - s-2694dee234
+      - s-9c455b2711
+      - s-814e3b241e

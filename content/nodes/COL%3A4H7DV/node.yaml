@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes tuberculosus
+  displayName: Phyllodytes tuberculosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DV
+  sourceIndexes:
+    - name:
+        en: Phyllodytes tuberculosus
+        zh: Phyllodytes tuberculosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/265
+            queryName: Phyllodytes tuberculosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-02807362eb
+      - s-5460707dab
+      - s-e28c5344df
+      - s-3be50de2e5
+      - s-e0be7cb753
+      - s-bf80fef10c
+      - s-049b1fa693
+      - s-8ad95988ab
+      - s-5458101fe1
+      - s-ef52e2414d
+      - s-613fdb0830
+      - s-f3258cfc20
+      - s-1a4480d201
+      - s-e6a20eaf82
+      - s-1e35eed1c4
+    zh:
+      - s-2e64cfbc99
+      - s-c27fbd538a
+      - s-fc6dedd15d
+      - s-e5e822b162
+      - s-094db0afbf
+      - s-72fe16d212
+      - s-d587fecb06
+      - s-02c270ad5b
+      - s-f7aff98806
+      - s-65cabc0d99
+      - s-8394ec82bd
+      - s-7585f1a938
+      - s-6771accc20
+      - s-aa6e7bed82
+      - s-ce9e80d7d1

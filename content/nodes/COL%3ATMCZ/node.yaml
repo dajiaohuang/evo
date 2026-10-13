@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Chaperina fusca
+  displayName: Chaperina fusca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TMCZ
+  sourceIndexes:
+    - name:
+        en: Chaperina fusca
+        zh: Chaperina fusca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TMCZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/221
+            queryName: Chaperina fusca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 18
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/156
+            queryName: Microhyla leucostigma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/157
+            queryName: Chaperina beyeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/158
+            queryName: Nectophryne picturata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/159
+            queryName: Sphenophryne fusca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/160
+            queryName: Sphenophryne beyeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/161
+            queryName: Sphenophryne leucostigma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e6f4d0b86
+      - s-aac2dae739
+      - s-5f5224a9b4
+      - s-5614a90277
+      - s-fd66bae5d2
+      - s-eb1f047373
+      - s-e6eacfbb8f
+      - s-ee7540e79a
+      - s-c6b2baebfc
+      - s-27330526a1
+      - s-c380224de8
+      - s-3546a4ebcb
+      - s-832b7aa66c
+      - s-6f60bbefa9
+      - s-31a76e0347
+    zh:
+      - s-6917a9dfa5
+      - s-d507b91b11
+      - s-1dead89425
+      - s-e2ec5fa78d
+      - s-77ce7b8c7b
+      - s-973ac18560
+      - s-07b13f94eb
+      - s-a32e0a3890
+      - s-155a42d1e7
+      - s-446fdf41e7
+      - s-223c474504
+      - s-bc143160e1
+      - s-0e39916b73
+      - s-ff3585c3f9
+      - s-dac8684a0b

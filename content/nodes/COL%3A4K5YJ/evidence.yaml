@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Plecturocebus urubambensis (Vermeer & Tello-Alvarado, 2015)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 乌鲁班巴棕色绢毛猴
+      en: Urubamba Brown Titi
+    sections:
+      - topic: distribution
+        text:
+          zh:
+            page: zh
+            section: s-cfabc39278
+            part: body
+          en:
+            page: en
+            section: s-ba51aa81ba
+            part: body
+        sourceIds:
+          - vermeer2015
+          - taxonomy
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-f10ede16a2
+            part: body
+          en:
+            page: en
+            section: s-bdf2467ebf
+            part: body
+        sourceIds:
+          - vermeer2015
+      - topic: taxonomy
+        text:
+          zh:
+            page: zh
+            section: s-dd0dccfec9
+            part: body
+          en:
+            page: en
+            section: s-9c4fa2f600
+            part: body
+        sourceIds:
+          - vermeer2015
+          - mdd_name
+          - taxonomy
+    sources:
+      - id: vermeer2015
+        referenceId: ref-5728f378-3b91-84d0-a3d6-fcceca9ec771
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持新种描述、模式地点、局地标本形态及作者标作假设的分布范围；不支持完整边界或种群估计。
+            en: Supports the species description, type locality, local specimen morphology and the authors' explicitly hypothetical range; not complete boundaries or a population estimate.
+      - id: mdd_name
+        referenceId: ref-d8dc9ca0-bf51-8111-a903-8e00e53a56ce
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅支持英文普通名及名录入口；中文名为编辑翻译，生物学内容采用专门物种研究。
+            en: Supports the English common name and catalogue entry only; the Chinese name is an editorial translation, and biological content uses the species study.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/4K5YJ
+          scope:
+            zh: 固定版本中的接受名、作者、等级和分类父链；不提供生物学证据。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-8d8f7c41f5
+        part: body
+      en:
+        page: en
+        section: s-9de1067350
+        part: body

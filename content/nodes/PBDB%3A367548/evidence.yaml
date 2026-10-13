@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Yuanansuchus maopingchangensis
+    rank: species
+    sourceTaxonId: txn:367548
+    name:
+      en: Yuanansuchus maopingchangensis
+      zh: Yuanansuchus maopingchangensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-1610b73716
+            part: body
+          zh:
+            page: zh
+            section: s-47e8d9b6d7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-85613a14dd
+            part: body
+          zh:
+            page: zh
+            section: s-e0ee4b0c7a
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-2fac9548e6
+            part: body
+          zh:
+            page: zh
+            section: s-b24bf68962
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:367548; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. Liu. 2016. Yuanansuchus maopingchangensis sp. nov., the second capitosauroid temnospondyl from the Middle Triassic Badong Formation of Yuanan, Hubei, China. PeerJ 4:e1903
+    occurrenceEvidence:
+      - occurrenceId: occ:1396077
+        collectionId: col:97694
+        acceptedTaxonId: txn:367548
+        identifiedName: Yuanansuchus maopingchangensis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:65072
+        bibliography: J. Liu. 2016. Yuanansuchus maopingchangensis sp. nov., the second capitosauroid temnospondyl from the Middle Triassic Badong Formation of Yuanan, Hubei, China. PeerJ 4:e1903
+        locality:
+          countryCode: CN
+          stateProvince: Hubei
+          county: Yuanan
+        stratigraphy:
+          group: Badong
+          formation: Xinlingzhen
+          member: null
+        olderAgeMa: 247
+        youngerAgeMa: 241.464
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-2fac9548e6
+            part: body
+          zh:
+            page: zh
+            section: s-b24bf68962
+            part: body
+        sourceIds: []

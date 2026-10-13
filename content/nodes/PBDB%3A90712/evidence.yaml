@@ -1,0 +1,233 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Dissorophoidea
+    rank: unranked clade
+    sourceTaxonId: txn:90712
+    name:
+      en: Dissorophoidea
+      zh: Dissorophoidea
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-d04de7984a
+            part: body
+          zh:
+            page: zh
+            section: s-fc939d5696
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Fossil concepts below this PBDB node
+          zh: 此 PBDB 节点下的化石概念
+        text:
+          en:
+            page: en
+            section: s-8ce8a3acb1
+            part: body
+          zh:
+            page: zh
+            section: s-413e067e32
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Child concepts in the PBDB hierarchy
+          zh: PBDB 分类链中的子概念
+        text:
+          en:
+            page: en
+            section: s-51de1f5ab0
+            part: body
+          zh:
+            page: zh
+            section: s-26014659d2
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-4f753e6354
+            part: body
+          zh:
+            page: zh
+            section: s-a9df56ffa7
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:90712; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "J. R. Bolt. 1969. Lissamphibian Origins: Possible Protolissamphibian from the Lower Permian of Oklahoma. Science 166:888-891"
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:344750
+        - txn:136412
+        - txn:229320
+        - txn:344537
+        - txn:81713
+        - txn:500623
+        - txn:379301
+        - txn:152960
+        - txn:221859
+        - txn:230701
+        - txn:345161
+        - txn:345484
+        - txn:255227
+        - txn:344543
+        - txn:229313
+        - txn:255228
+        - txn:136990
+        - txn:136989
+        - txn:194932
+        - txn:345459
+        - txn:136991
+        - txn:345458
+        - txn:345487
+        - txn:349952
+        - txn:345263
+        - txn:362806
+        - txn:175857
+        - txn:362803
+        - txn:56737
+        - txn:330108
+        - txn:330110
+        - txn:349951
+        - txn:345270
+        - txn:345163
+        - txn:137779
+        - txn:335336
+        - txn:194929
+        - txn:433343
+        - txn:125108
+        - txn:345813
+        - txn:345820
+        - txn:345824
+        - txn:229308
+        - txn:345645
+        - txn:345822
+        - txn:345812
+        - txn:345815
+        - txn:320814
+        - txn:349935
+        - txn:255222
+        - txn:433345
+        - txn:345646
+        - txn:345777
+        - txn:320964
+        - txn:345778
+        - txn:320962
+        - txn:345779
+        - txn:345807
+        - txn:345780
+        - txn:344618
+        - txn:229329
+        - txn:345146
+        - txn:230693
+        - txn:123084
+        - txn:345148
+        - txn:153288
+        - txn:90714
+        - txn:90713
+        - txn:344740
+        - txn:152839
+        - txn:229305
+        - txn:193400
+        - txn:140536
+        - txn:255226
+        - txn:391929
+        - txn:229338
+        - txn:345466
+        - txn:344178
+        - txn:229322
+        - txn:433344
+        - txn:433327
+        - txn:379311
+        - txn:379310
+        - txn:345425
+        - txn:345427
+        - txn:229334
+        - txn:337384
+        - txn:343368
+        - txn:337469
+        - txn:433239
+        - txn:336840
+        - txn:255225
+        - txn:336838
+        - txn:397940
+        - txn:336864
+        - txn:336865
+      exactOccurrenceCount: 191
+      datedOccurrenceCount: 191
+      collectionIntervalBoundsMa:
+        older: 358.86
+        younger: 247
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-4f753e6354
+            part: body
+          zh:
+            page: zh
+            section: s-a9df56ffa7
+            part: body
+        sourceIds: []

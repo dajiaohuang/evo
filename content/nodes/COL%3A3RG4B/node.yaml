@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus baliogaster
+  displayName: Kurixalus baliogaster
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3RG4B
+  sourceIndexes:
+    - name:
+        en: Kurixalus baliogaster
+        zh: Kurixalus baliogaster
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3RG4B
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/160
+            queryName: Kurixalus baliogaster
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/312
+            queryName: Rhacophorus baliogaster
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/281
+            queryName: Aquixalus baliogaster
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa30e0fba9
+      - s-163ec0aa24
+      - s-773c940d2a
+      - s-094015302d
+      - s-3077eccb48
+      - s-215a49d297
+      - s-4d25f28618
+      - s-c7685a2a3c
+      - s-6382a5c02b
+      - s-a257fcc858
+      - s-5758d57690
+    zh:
+      - s-04a28bd540
+      - s-4c9be99ad0
+      - s-b5abd76796
+      - s-69409a09a7
+      - s-32d88889a3
+      - s-3942990fec
+      - s-d42e421598
+      - s-3ed371c2f6
+      - s-314f8e505b
+      - s-fabf084822
+      - s-0ecbf27d70

@@ -1,0 +1,196 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cynops glaucus
+    name:
+      en: Cynops glaucus
+      zh: Cynops glaucus
+    sourceClassification:
+      order: Caudata
+      family: Salamandridae
+      genus: Cynops
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cynops glaucus in the morphology deposit
+          zh: 形态数据中的 Cynops glaucus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-71c0a7f384
+            part: body
+          zh:
+            page: zh
+            section: s-adda932ac2
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 106 and 107: measurement fields and sex codes"
+          zh: 第 106、107 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4df3d33206
+            part: body
+          zh:
+            page: zh
+            section: s-b7e7944afb
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 106, 107; Reference.csv rows 4045
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 106
+        values:
+          - Salamandridae
+          - Cynops
+          - Cynops glaucus
+          - F
+          - "89.67"
+          - "45.72"
+          - NA
+          - "22.53"
+          - "14.35"
+          - NA
+          - "5.76"
+          - NA
+          - "2.76"
+          - NA
+          - "2.9"
+          - NA
+          - "39.35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.67"
+          - "15.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 107
+        values:
+          - Salamandridae
+          - Cynops
+          - Cynops glaucus
+          - M
+          - "69.28"
+          - "35.72"
+          - NA
+          - "17.24"
+          - "12.26"
+          - NA
+          - "4.9"
+          - NA
+          - "2.52"
+          - NA
+          - "2.67"
+          - NA
+          - "28.95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "13.2"
+          - "13.69"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4045
+        values:
+          - Caudata
+          - Cynops_glaucus
+          - "Zhiyong, Y., Jiang, K., Limin, D., Liang, Z., & Che, J. (2013). A new newt of the genus Cynops (Caudata: Salamandridae) from Guangdong, China. Asian Herpetological Research, 4, 116-123. https://doi.org/10.3724/SP.J.1245.2013.00116"
+    availableTraitCodes:
+      - TOL
+      - SVL
+      - AGS
+      - HL
+      - IOD
+      - EN
+      - IND
+      - TL
+      - FLL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

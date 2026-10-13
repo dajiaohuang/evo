@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Duttaphrynus parietalis (Boulenger, 1882)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Duttaphrynus parietalis
+      zh: Duttaphrynus parietalis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b91146dd22
+            part: title
+          zh:
+            page: zh
+            section: s-2a003bc913
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b91146dd22
+            part: body
+          zh:
+            page: zh
+            section: s-2a003bc913
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-5b19c6b75e
+            part: title
+          zh:
+            page: zh
+            section: s-aa419026c1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5b19c6b75e
+            part: body
+          zh:
+            page: zh
+            section: s-aa419026c1
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1a93d70777
+            part: title
+          zh:
+            page: zh
+            section: s-642b828929
+            part: title
+        sourceIds:
+          - primary-pmc4740822-6dprv
+        text:
+          en:
+            page: en
+            section: s-1a93d70777
+            part: body
+          zh:
+            page: zh
+            section: s-642b828929
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b805c1c781
+            part: title
+          zh:
+            page: zh
+            section: s-6ec274e747
+            part: title
+        sourceIds:
+          - primary-pmc4740822-6dprv
+        text:
+          en:
+            page: en
+            section: s-b805c1c781
+            part: body
+          zh:
+            page: zh
+            section: s-6ec274e747
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-378639f73f
+            part: title
+          zh:
+            page: zh
+            section: s-fb76eca2d0
+            part: title
+        sourceIds:
+          - primary-pmc4740822-6dprv
+        text:
+          en:
+            page: en
+            section: s-378639f73f
+            part: body
+          zh:
+            page: zh
+            section: s-fb76eca2d0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Duttaphrynus parietalis
+          url: https://www.checklistbank.org/dataset/316115/taxon/6DPRV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc4740822-6dprv
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Duttaphrynus parietalis: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-105f8dfbd8
+        part: body
+      zh:
+        page: zh
+        section: s-58bddb46ce
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.555.6522
+        referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+        sourceKey: primary-pmc4740822-6dprv
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC4740822/article.xml
+        sourceConcept: Source labelsDuttaphrynus parietalis; comparisonvoucher/sequence/focal roles retainedseparately; no originalidentitycertification
+        evidenceRead: "Duttaphrynus parietalis: Complete XMLsec4Methods, sec8–28focaltype/diagnosis/adult/osteology/calls/distribution/ecology/conservation/larval/comparison/molecular/Discussion accounts, Appendix1, Tables1–6 cells andsec29supplementlink inspected. No originalvouchers/rawsequences/alignments/callrecording/figurepixels/supplementarytreatment independentreview; nofullarticle/specimenidentity/currentconservation certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Evidence roles in the Andaman toad description
+              zh: 安达曼蟾蜍描述中的证据角色
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-6dprv
+            locator: PMC4740822 XML Table3 idT6 rows19;App1 entries
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-24b0ed912c
+                part: body
+              zh:
+                page: zh
+                section: s-43bcb64ee5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Comparative material does not supply every trait
+              zh: 比较材料并不提供全部性状
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-6dprv
+            locator: PMC4740822 XMLsec4;sec26;App1;Table1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-40b134d818
+                part: body
+              zh:
+                page: zh
+                section: s-3bcb343c04
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Mitochondrial sampling and phylogenetic limits
+              zh: 线粒体采样与系统树限制
+            referenceId: ref-238d7a08-8e89-43ca-a94b-def4d68551c6
+            sourceKey: primary-pmc4740822-6dprv
+            locator: PMC4740822 XMLsec4molecularmethods;sec27;Table3idT6;Table6idT5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-add3b44929
+                part: body
+              zh:
+                page: zh
+                section: s-73c96d34d9
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,84 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Lepilemur seali Louis Jr., Engberg, Lei, Geng, Sommer, Randriamampionona, Randriamanana, Zaonarivelo et al., 2006
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 西尔运动狐猴
+      en: Seal's Sportive Lemur
+    sections:
+      - topic: morphology and field description
+        text:
+          zh:
+            page: zh
+            section: s-26fa0f5336
+            part: body
+          en:
+            page: en
+            section: s-6decca0fb1
+            part: body
+        sourceIds:
+          - louis2006_11_lemurs
+      - topic: known locality and limits
+        text:
+          zh:
+            page: zh
+            section: s-a277035dc0
+            part: body
+          en:
+            page: en
+            section: s-7c46588f28
+            part: body
+        sourceIds:
+          - louis2006_11_lemurs
+    sources:
+      - id: louis2006_11_lemurs
+        referenceId: ref-e7286c18-3afc-8ad6-a1de-f35902a2d9c7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 研究结合约 3,800 bp 的线粒体序列片段、形态特征和当时采集的标本，提出 11 个此前未识别种；支持论文当时的诊断、亲缘和取样地记录，不是现行全分布区普查。
+            en: The study combined about 3,800 bp of mitochondrial sequence fragments, morphology, and specimens then available to propose 11 previously unrecognized species; it supports the paper's diagnoses, relationships, and sampled localities, not a current range-wide survey.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            zh: Catalogue of Life COL26.8 · source 2144
+            en: Catalogue of Life COL26.8 · source 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/6PC3V
+          scope:
+            zh: 固定版本接受名、作者、等级与分类父链；不支持生物学正文。
+            en: Pinned accepted name, authorship, rank and parent classification; not biological evidence.
+      - id: mdd_name
+        referenceId: ref-4c0f4032-1f1e-864c-a8ac-a0e9906bc9f3
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 仅用于英文普通名标签；分类身份采用 COL26.8，中文标签为编辑翻译。
+            en: Used only for the English common-name label; taxonomy follows COL26.8 and the Chinese label is an editorial translation.
+    limitations:
+      zh:
+        page: zh
+        section: s-703cf46884
+        part: body
+      en:
+        page: en
+        section: s-6d6b4b93cd
+        part: body

@@ -1,0 +1,9 @@
+## The dataset entry {#s-01d51fa9fa}
+The pinned AmphiTherm curated snapshot records Pipa carvalhoi under Pipidae, Anura. It retains 3 thermal estimate rows across 2 study-reference labels. These are separate dataset entries, not a count of animals or a single value for the whole species.
+
+## critical upper thermal limit estimate {#s-a8a5b85e48}
+Source row 2057 (ID 2261; Gutierrez-Pesquera_et_al_2016) reports 40.8 °C for the critical upper thermal limit estimate (metric code CTmax). The tested stage is recorded as larvae. The source population code is Pipa_carvalhoi_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.58 °C as its standard deviation. The source n_trait field is 12. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+
+## critical lower thermal limit estimate {#s-4009c78f5a}
+Source row 2102 (ID 2308; Gutierrez-Pesquera_et_al_2016) reports 10 °C for the critical lower thermal limit estimate (metric code CTmin). The tested stage is recorded as larvae. The source population code is Pipa_carvalhoi_pop1. Recorded conditions include acclimation at 20 °C, medium_test_temp = water. The source reports 0.92 °C as its standard deviation. The source n_trait field is 14. The endpoint is prodding. Sex is recorded as unknown. Animal origin is recorded as wild. Chemical, hormone, infection and pathogen fields are unreported; this does not establish that no treatment occurred. This is one compiled estimate under the recorded conditions, not a value that applies to every population or field temperature.
+

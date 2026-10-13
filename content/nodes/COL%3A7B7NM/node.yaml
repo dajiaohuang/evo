@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Synapturanus salseri
+  displayName: Synapturanus salseri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7B7NM
+  sourceIndexes:
+    - name:
+        en: Synapturanus salseri
+        zh: Synapturanus salseri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7B7NM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/401
+            queryName: Synapturanus salseri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-807c036f25
+      - s-5133f1fb8e
+      - s-aa325bb785
+      - s-3a0bc755f2
+      - s-53b0c1e087
+      - s-18a546f5ba
+      - s-3dfc22a6bf
+      - s-f16b727b52
+      - s-9590b60c49
+      - s-ff98ee04a8
+      - s-2c22d88817
+    zh:
+      - s-83081ca142
+      - s-40d1b7f90b
+      - s-b0acdeb472
+      - s-bfed329e09
+      - s-329535f6cc
+      - s-b9a5534798
+      - s-38b70c18b3
+      - s-76e034208b
+      - s-3044aed4c5
+      - s-0bbcd77aef
+      - s-049eb28b18

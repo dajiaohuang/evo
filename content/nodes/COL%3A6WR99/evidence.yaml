@@ -1,0 +1,1105 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Rana temporaria Linnaeus, 1758
+    authorship: Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "2144"
+    identity:
+      method: Exact accepted COL26.8 usage 6WR99 verified in the release-pinned ChecklistBank search registry, then followed through every accepted parent node in the pinned hierarchy registry.
+      scope: Nominal species represented by COL26.8 accepted usage 6WR99. The evidence is local wild-spawn monitoring in Skåne, Sweden, and does not establish global or species-wide breeding phenology.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: The study monitored spawning at wild breeding ponds in Skåne, southern Sweden.
+      domesticated: Domestication was not assessed.
+      captive: No captive frogs were used in the monitored wild-spawn study.
+      fossil: No fossil occurrence or geological age was assessed.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/6WR99
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6WR99@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 6WR99; exact name, authorship, rank, status, sourceDatasetId 2144, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6WR99. https://doi.org/10.48580/dgywk
+      - id: loman2016
+        referenceId: ref-700177e7-e259-8580-ad13-c0aeb93a468b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: The version-of-record article text under its item-level CC BY 4.0 license; separately credited third-party material is excluded.
+          stableId: doi:10.1002/ece3.2356
+          accessedAt: 2026-09-25
+          locator: Abstract; Methods > Monitoring frog spawn and Temperature measurements in ponds; Results > pond and year effects and average breeding time; Figure 5.
+          licenseAssessment: item-level-verified
+          scope: Primary wild breeding-phenology monitoring in Skåne, southern Sweden; only article text is paraphrased, without reusing figures or third-party material.
+          attribution: Loman J (2016). Ecology and Evolution 6:6202–6209. https://doi.org/10.1002/ece3.2356. Claims paraphrased from article text.
+    facets:
+      morphology:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The breeding-phenology study did not assess diagnostic morphology or species-level variation.
+      lifeHistory:
+        status: partially-supported
+        claims:
+          - text: In the author's Skåne monitoring series, start of breeding among local Rana temporaria populations varied by as much as three weeks within a year. The observations span 1990–2015, with the number of monitored ponds varying from 29 to 84 and the most distant ponds separated by 60 kilometres; this is a local monitoring series, not a species-wide phenology estimate.
+            sourceIds:
+              - loman2016
+            locator: Abstract; Methods > Monitoring frog spawn.
+            placeTimeScope: Skåne province, southern Sweden; monitoring from 1990 through 2015; 29–84 ponds depending on year, maximum pond separation 60 km.
+            lifeStatus: Wild breeding populations observed through their spawn at ponds.
+            originalLanguage: en
+            textZh: 在瑞典南部斯科讷的 Rana temporaria 监测序列中，同一年内当地种群的开始繁殖时间最多相差三周。观察持续于 1990–2015 年，每年监测 29–84 处池塘，最远池塘间距为 60 千米。研究通过池塘卵团观察野生繁殖种群；这是地方监测序列，不能作为整个物种的繁殖物候估计。
+        gaps:
+          - This local time series does not cover the species' range, other life stages, survival, or reproduction outside the monitored ponds and years.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: For 19 Skåne ponds with logger data in 2011–2015, earlier mean breeding time was associated with warmer average logged pond temperatures and larger average breeding congregations, estimated from spawn-clump counts; the reported temperature and congregation terms were statistically significant. Substantial residual pond variation remained, and this observational association does not identify a causal mechanism.
+            sourceIds:
+              - loman2016
+            locator: Methods > Temperature measurements in ponds; Results paragraph beginning ‘There were effects of pond temperature’; Figure 5.
+            placeTimeScope: 19 logger ponds in Skåne, southern Sweden; breeding and temperature subset from 2011–2015. Spawn-clump count was used as the breeding-congregation estimate.
+            lifeStatus: Wild breeding populations; no captive frogs were studied.
+            originalLanguage: en
+            textZh: 在斯科讷 19 处具有 2011–2015 年温度记录仪数据的池塘，较早的平均繁殖时间与较暖的平均池塘温度、以及用卵团数量估计的较大平均繁殖聚集相关；温度和聚集项具有统计学显著性，但池塘之间仍有较大残余差异。这是野生繁殖种群的观察性关联，不能确定因果机制，也不能推广为全分布区的生态结论。
+        gaps:
+          - A local pond association does not establish mechanism, diet, habitat use across the range, or ecological interactions beyond breeding-site temperature and congregation size.
+      evolution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No species-specific phylogenetic or comparative evolutionary analysis was assessed.
+      distribution:
+        status: not-assessed
+        claims: []
+        gaps:
+          - The Skåne study area is not a range-wide distribution assessment.
+      fossil:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No fossil evidence or bounded fossil-record search was assessed.
+      conservation:
+        status: not-assessed
+        claims: []
+        gaps:
+          - No current assessment, population trend, or threat analysis was reviewed.
+    classificationPath:
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V3
+        scientificName: Vertebrata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8V4V5
+        scientificName: Gnathostomata
+        authorship: null
+        rank: infraphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 8VVWB
+        scientificName: Osteichthyes
+        authorship: null
+        rank: parvphylum
+        status: accepted
+        sourceDatasetId: null
+      - id: 9CK8W
+        scientificName: Tetrapoda
+        authorship: null
+        rank: megaclass
+        status: accepted
+        sourceDatasetId: null
+      - id: PH
+        scientificName: Amphibia
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: PW
+        scientificName: Anura
+        authorship: null
+        rank: order
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: FJM
+        scientificName: Ranidae Batsch, 1796
+        authorship: Batsch, 1796
+        rank: family
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 642HY
+        scientificName: Rana Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: genus
+        status: accepted
+        sourceDatasetId: "2144"
+      - id: 6WR99
+        scientificName: Rana temporaria Linnaeus, 1758
+        authorship: Linnaeus, 1758
+        rank: species
+        status: accepted
+        sourceDatasetId: "2144"
+  catalogue-profile:
+    scientificName: Rana temporaria Linnaeus, 1758
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Rana temporaria
+      zh: Rana temporaria
+    sections:
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-93dc3f153b
+            part: title
+          zh:
+            page: zh
+            section: s-a178980d43
+            part: title
+        text:
+          en:
+            page: en
+            section: s-93dc3f153b
+            part: body
+          zh:
+            page: zh
+            section: s-a178980d43
+            part: body
+        sourceIds:
+          - loman2016
+        locator: Abstract; Methods > Monitoring frog spawn.
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-59017a7c83
+            part: title
+          zh:
+            page: zh
+            section: s-e8ce76e265
+            part: title
+        text:
+          en:
+            page: en
+            section: s-59017a7c83
+            part: body
+          zh:
+            page: zh
+            section: s-e8ce76e265
+            part: body
+        sourceIds:
+          - loman2016
+        locator: Methods > Temperature measurements in ponds; Results paragraph beginning ‘There were effects of pond temperature’; Figure 5.
+        evidenceAssessment: partially-supported
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-eb16a42326
+            part: title
+          zh:
+            page: zh
+            section: s-4dfbf2bb7b
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-eb16a42326
+            part: body
+          zh:
+            page: zh
+            section: s-4dfbf2bb7b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8b299c3d1d
+            part: title
+          zh:
+            page: zh
+            section: s-4fc0ebbe5e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-8b299c3d1d
+            part: body
+          zh:
+            page: zh
+            section: s-4fc0ebbe5e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-74998918e9
+            part: title
+          zh:
+            page: zh
+            section: s-0ec3a60be0
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-74998918e9
+            part: body
+          zh:
+            page: zh
+            section: s-0ec3a60be0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-4d09ff53d2
+            part: title
+          zh:
+            page: zh
+            section: s-4f02938e7d
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-4d09ff53d2
+            part: body
+          zh:
+            page: zh
+            section: s-4f02938e7d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-90e919a934
+            part: title
+          zh:
+            page: zh
+            section: s-035686f623
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Age_at_maturity_min_y
+          - Age_at_maturity_max_y
+          - Size_at_maturity_min_mm
+          - Size_at_maturity_max_mm
+          - Longevity_max_y
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-90e919a934
+            part: body
+          zh:
+            page: zh
+            section: s-035686f623
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-0d310f70d0
+            part: title
+          zh:
+            page: zh
+            section: s-41ea99e968
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-0d310f70d0
+            part: body
+          zh:
+            page: zh
+            section: s-41ea99e968
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cb75cec260
+            part: title
+          zh:
+            page: zh
+            section: s-373c841d0f
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-cb75cec260
+            part: body
+          zh:
+            page: zh
+            section: s-373c841d0f
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f10ce6bce437b34eef2017a03df6e06d
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-6a44fc7b71711279b0918ddc
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-40abe807c4424e4e4d979e23
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-629136345a
+            part: title
+          zh:
+            page: zh
+            section: s-99aaee3d51
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-629136345a
+            part: body
+          zh:
+            page: zh
+            section: s-99aaee3d51
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-981ac05f28
+            part: title
+          zh:
+            page: zh
+            section: s-3df823a837
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "153"
+        text:
+          en:
+            page: en
+            section: s-981ac05f28
+            part: body
+          zh:
+            page: zh
+            section: s-3df823a837
+            part: body
+        sourceRowNumber: 135
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-0cef854edf
+            part: title
+          zh:
+            page: zh
+            section: s-9e573421aa
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1445"
+        text:
+          en:
+            page: en
+            section: s-0cef854edf
+            part: body
+          zh:
+            page: zh
+            section: s-9e573421aa
+            part: body
+        sourceRowNumber: 1287
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-26ca6224b7
+            part: title
+          zh:
+            page: zh
+            section: s-fa43c203ad
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1603"
+        text:
+          en:
+            page: en
+            section: s-26ca6224b7
+            part: body
+          zh:
+            page: zh
+            section: s-fa43c203ad
+            part: body
+        sourceRowNumber: 1445
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-504988ab26
+            part: title
+          zh:
+            page: zh
+            section: s-711d52acd4
+            part: title
+        sourceIds:
+          - primary-pmc10548314-6wr99
+        text:
+          en:
+            page: en
+            section: s-504988ab26
+            part: body
+          zh:
+            page: zh
+            section: s-711d52acd4
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-7057cc06a9
+            part: title
+          zh:
+            page: zh
+            section: s-2e43e5a335
+            part: title
+        sourceIds:
+          - primary-pmc12822217-6wr99
+        text:
+          en:
+            page: en
+            section: s-7057cc06a9
+            part: body
+          zh:
+            page: zh
+            section: s-2e43e5a335
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-fd6ca4bbb9
+            part: title
+          zh:
+            page: zh
+            section: s-8dd22b3a19
+            part: title
+        sourceIds:
+          - primary-pmc12822217-6wr99
+        text:
+          en:
+            page: en
+            section: s-fd6ca4bbb9
+            part: body
+          zh:
+            page: zh
+            section: s-8dd22b3a19
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-1523c860c6
+            part: title
+          zh:
+            page: zh
+            section: s-2dc7f5ca90
+            part: title
+        sourceIds:
+          - primary-pmc12822217-6wr99
+        text:
+          en:
+            page: en
+            section: s-1523c860c6
+            part: body
+          zh:
+            page: zh
+            section: s-2dc7f5ca90
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6d3a51c587
+            part: title
+          zh:
+            page: zh
+            section: s-995e188a2c
+            part: title
+        sourceIds:
+          - primary-pmc12822217-6wr99
+        text:
+          en:
+            page: en
+            section: s-6d3a51c587
+            part: body
+          zh:
+            page: zh
+            section: s-995e188a2c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-5cac0f0bbb
+            part: title
+          zh:
+            page: zh
+            section: s-947a893157
+            part: title
+        sourceIds:
+          - primary-pmc12822217-6wr99
+        text:
+          en:
+            page: en
+            section: s-5cac0f0bbb
+            part: body
+          zh:
+            page: zh
+            section: s-947a893157
+            part: body
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 1
+        usage:
+          licenseAppliesTo: Pinned nomenclatural and taxonomic checklist metadata only.
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2144
+          url: https://www.checklistbank.org/dataset/316115/taxon/6WR99
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          stableId: col:6WR99@COL26.8
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-25
+          locator: Accepted species usage 6WR99; exact name, authorship, rank, status, sourceDatasetId 2144, and full accepted parent chain.
+          licenseAssessment: identity-only
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+          attribution: Catalogue of Life (2026), Version 2026-08-20, dataset 316115, usage 6WR99. https://doi.org/10.48580/dgywk
+      - id: loman2016
+        referenceId: ref-700177e7-e259-8580-ad13-c0aeb93a468b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - stableId
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseAssessment
+          - scope
+          - rightsHolder
+          - licenseVersion
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: The version-of-record article text under its item-level CC BY 4.0 license; separately credited third-party material is excluded.
+          stableId: doi:10.1002/ece3.2356
+          accessedAt: 2026-09-25
+          locator: Abstract; Methods > Monitoring frog spawn and Temperature measurements in ponds; Results > pond and year effects and average breeding time; Figure 5.
+          licenseAssessment: item-level-verified
+          scope: Primary wild breeding-phenology monitoring in Skåne, southern Sweden; only article text is paraphrased, without reusing figures or third-party material.
+          attribution: Loman J (2016). Ecology and Evolution 6:6202–6209. https://doi.org/10.1002/ece3.2356. Claims paraphrased from article text.
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5041; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5044 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5206, 5207; Reference.csv rows 4013
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 135, 1260, 1261, 1262, 1263, 1264, 1265, 1287, 1324, 1422, 1423, 1424, 1425, 1426, 1427, 1428, 1429, 1430, 1431, 1432, 1433, 1434, 1435, 1436, 1437, 1438, 1439, 1440, 1441, 1442, 1443, 1444, 1445, 1446, 1447, 1448, 1449, 1450, 1451, 1452, 1453, 1454, 1455, 1456, 1457, 1458, 1459, 1460, 1461, 1462, 1463, 1464, 1465, 1466, 1467, 1468, 1469, 1470, 1471, 1472, 1473, 1474, 1475, 1476, 1477, 1478, 1479, 1480, 1811, 1812, 1813, 1814, 1815, 1816, 1817, 1818, 1819, 1820, 1821, 1822, 1823, 1824, 1825, 1826, 1827, 1828, 1829, 1830, 1831, 1832, 1833, 1834, 1835, 1836, 1837, 1838, 1839, 1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851, 1852, 1904, 1905, 1906, 1946, 1947, 1948, 1949, 1968, 1969, 1970, 1971, 1972, 1985, 1986, 1987, 1988, 1989, 2005, 2006, 2007, 2023, 2024, 2025, 2059, 2104, 2576, 2647, 2648, 2997, 2998, 2999, 3054, 3055, 3056, 3118, 3119, 3790, 3791, 3792, 3793, 3794, 3795, 3796, 3797, 3798, 3799, 4092, 4132; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc10548314-6wr99
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rana temporaria: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12822217-6wr99
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Rana temporaria: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-559c88173d
+        part: body
+      zh:
+        page: zh
+        section: s-016712b9e5
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-f10ce6bce437b34eef2017a03df6e06d
+      sourceRowId: Anf5041
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5041
+        bibliographyRowId: Anf5044
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Rana sierrae
+        candidateBibliographyRowIds:
+          - Anf5044
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-6a44fc7b71711279b0918ddc
+        scientificName: Rana temporaria
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-40abe807c4424e4e4d979e23
+        scientificName: Rana temporaria
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 3
+    primaryStudyScopes:
+      - doi: 10.1093/molbev/msad206
+        referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+        sourceKey: primary-pmc10548314-6wr99
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10548314/article.xml
+        sourceConcept: 2023 source-labelled Rana temporaria; cited observations distinguished from new genomic analyses
+        evidenceRead: "Rana temporaria: XML Results1.1–1.3, Tables1–2 and Figure2 caption, Discussion2.1–2.4, Methods4.1–4.2 and4.4–4.5 read; supplementary specimen/sequence tables, original alignments, deposited reads and cited functional/behavioural experiments not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A genomic synteny comparator, not a new behaviour experiment
+              zh: 基因组共线性对照而非新行为实验
+            referenceId: ref-8f62a163-7c26-4c72-a299-615447ed8e15
+            sourceKey: primary-pmc10548314-6wr99
+            locator: PMC10548314 XML Results1.3/Figure2 caption; Methods4.5 synteny/genome-mining paragraphs
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8d96253e98
+                part: body
+              zh:
+                page: zh
+                section: s-065f73045a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1186/s12864-025-12414-y
+        referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+        sourceKey: primary-pmc12822217-6wr99
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/article.xml
+        sourceConcept: Table1source Rana temporaria listedassemblyGCA_009801035.1; conflictingS1quantitativeassignments withheld, no rawgenomeauthentication
+        evidenceRead: "Rana temporaria: Complete XMLMethods Sec3/Sec5–8 andResults Sec10–15,Tables1–5 andDiscussion Sec17–20 inspected. Table1 61rows extractedpreservingfamilyrowspans/accessionversions/unitlabels/technologycells. Supplementaryxlsx retrievedwithhash, all17sheets extractedread-only; S1name-accessioncrosschecks, S2/S3headers+populatedrowcounts, allS6labels/counts, selectedS8coefficients inspected. RemainingS4/S5/S7/S9–17 extractedbutnotfullyscientificallyinterpreted. SupplementaryPDFdownloaded, webcaptionsreadonly; nopixelinspection. No rawassembly/repeatlibrary/Rpipeline/voucherreview orfullarticle/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reference assembly in a comparative genome study
+              zh: 比较基因组研究中的参考组装
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-6wr99
+            locator: PMC12822217 XML Tab1 tbody row49 sourceRana temporaria accessionGCA_009801035.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f105e96fe3
+                part: body
+              zh:
+                page: zh
+                section: s-d842516946
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Assembly metadata has limits
+              zh: 组装元数据有其限制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-6wr99
+            locator: PMC12822217 XML Tab1 tbody row49 sourceRana temporaria accessionGCA_009801035.1;Tab1caption;Sec3assemblyfilter
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3f74bf36dc
+                part: body
+              zh:
+                page: zh
+                section: s-78701390ec
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Repeat annotations are computational observations
+              zh: 重复序列注释是计算观察
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-6wr99
+            locator: PMC12822217 XML Sec3 repeatannotation
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-900a148f35
+                part: body
+              zh:
+                page: zh
+                section: s-009ee2b7c5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Across-species correlations do not prove this species mechanism
+              zh: 跨物种相关性不能证明本种机制
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-6wr99
+            locator: PMC12822217 XML Sec5–8/Sec11–15/Sec17–20
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eca3016a95
+                part: body
+              zh:
+                page: zh
+                section: s-e4cc9b91ed
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: methods
+            heading:
+              en: Conflicting source identifiers prevent a repeat-data assignment
+              zh: 来源编号冲突阻止重复数据归属
+            referenceId: ref-5f7849fc-a964-4472-a99b-63c24eadff41
+            sourceKey: primary-pmc12822217-6wr99
+            locator: PMC12822217 XML Tab1 tbody row49 sourceRana temporaria accessionGCA_009801035.1; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12822217/12864_2025_12414_MOESM1_ESM.xlsx Table S1 A61:B61; TableS2/S3headers
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-692e14fc77
+                part: body
+              zh:
+                page: zh
+                section: s-9c042b0d5a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

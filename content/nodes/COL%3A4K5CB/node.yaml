@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla guatemalensis
+  displayName: Plectrohyla guatemalensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5CB
+  sourceIndexes:
+    - name:
+        en: Plectrohyla guatemalensis
+        zh: Plectrohyla guatemalensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5CB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/434
+            queryName: Plectrohyla guatemalensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/10
+            queryName: Cauphias guatemalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/11
+            queryName: Hyla guatemalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7d7e8eeae5
+      - s-e98675df04
+      - s-ca0d2f05ec
+      - s-c9b4a66813
+      - s-5f26deeea7
+      - s-132bc6b633
+      - s-84d3a5606b
+      - s-da5eeb3b62
+      - s-b4c30200bc
+      - s-f4e6a65172
+    zh:
+      - s-fd721116ba
+      - s-5f4cd4e2a3
+      - s-f474eed38d
+      - s-e44810be0a
+      - s-44d654ca60
+      - s-44ee0aa405
+      - s-1efb093002
+      - s-f52f33236c
+      - s-dc76d09aa6
+      - s-98d8ade846

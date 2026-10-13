@@ -1,0 +1,155 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dagasuchus santacruzensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Dagasuchus santacruzensis
+      en: Dagasuchus santacruzensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbOtherArchosauriaTaxonomy20261002
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-94583532a7
+            part: body
+          en:
+            page: en
+            section: s-6e406ed7bf
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-da59ac79c6
+            part: body
+          en:
+            page: en
+            section: s-e2fb9d0d26
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-809c3010a9
+            part: body
+          en:
+            page: en
+            section: s-76ed3de63d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dcf07b41a7
+            part: body
+          en:
+            page: en
+            section: s-58f62f6340
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbOtherArchosauriaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e8db93bbff
+            part: body
+          en:
+            page: en
+            section: s-c7b6e73778
+            part: body
+    sources:
+      - id: pbdbArchosauriaTaxonomy20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Dagasuchus santacruzensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=333692&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbOtherArchosauriaOccurrences20261002
+        referenceId: ref-d904a353-9f55-4918-a6a5-9ff24bb69837
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:333692; original response record indices retained in data/sources/other-archosauria-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 95c66a034ee801effe8e70dd0e2d80f080cfb92730dab8e60a52bf5d4a379a25
+          pbdbTaxonId: txn:333692
+          selectedOccurrenceIds:
+            - occ:1308719
+          selectedCollectionIds:
+            - col:98598
+          sourceReferenceIds:
+            - ref:57402
+          originalIdentificationMappings:
+            - occurrenceId: occ:1308719
+              originalIdentifiedName: Dagasuchus santacruzensis n. gen. n. sp.
+              acceptedName: Dagasuchus santacruzensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-78a1fc6020
+        part: body
+      en:
+        page: en
+        section: s-9a099ae9cd
+        part: body

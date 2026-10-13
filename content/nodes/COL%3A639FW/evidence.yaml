@@ -1,0 +1,133 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Latonia Meyer, 1843
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Latonia
+      zh: Latonia
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-2a5dc7b7c7
+            part: title
+          zh:
+            page: zh
+            section: s-b493367159
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2a5dc7b7c7
+            part: body
+          zh:
+            page: zh
+            section: s-b493367159
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3c3d58a740
+            part: title
+          zh:
+            page: zh
+            section: s-3d9b8f4588
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3c3d58a740
+            part: body
+          zh:
+            page: zh
+            section: s-3d9b8f4588
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-b7dcbca9fd
+            part: title
+          zh:
+            page: zh
+            section: s-4169e6f36f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3SLRG
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3SLRG
+            label:
+              en: Latonia nigriventer
+              zh: Latonia nigriventer
+        text:
+          en:
+            page: en
+            section: s-b7dcbca9fd
+            part: body
+          zh:
+            page: zh
+            section: s-4169e6f36f
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-08c1e5b24f
+            part: body
+          zh:
+            page: zh
+            section: s-480ebdeb80
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Latonia
+          url: https://www.checklistbank.org/dataset/316115/taxon/639FW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-aaf0759dfc
+        part: body
+      zh:
+        page: zh
+        section: s-24a0d95f96
+        part: body

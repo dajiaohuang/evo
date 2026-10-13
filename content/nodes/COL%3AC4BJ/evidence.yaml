@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloidendron pillansii (L.Guthrie) Klopper & Gideon F.Sm.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage C4BJ, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage C4BJ; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/C4BJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage C4BJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001335022-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL C4BJ / WFO wfo-0001335022
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_14533_0
+        referenceId: ref-e7bddb2b-19b9-87a9-a229-8c856f098703
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloidendron pillansii (L.Guthrie) Klopper & Gideon F.Sm. account; SANBI/WFO archive rows 32893 (Morphology), 38801 (Habitat), source identifier 14533.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_13236_0
+        referenceId: ref-4e1f793f-f50b-865d-ac17-a11eeda46a6e
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloidendron pillansii (L.Guthrie) Klopper & Gideon F.Sm. account; SANBI/WFO archive rows 78146 (Diagnostic), source identifier 13236.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Tree aloe, 1-12 m tall. Branches robust, erect, never spreading, carrying large rosettes at terminal ends. Leaves grey-green, fairly large, up to 600 mm long, ± 100 mm wide at base, distinctly clasping branches, margins with small white teeth. Flowers in branched, recurved racemes arising from lowest leaves of rosettes, yellow, slightly swollen in middle.
+            textZh: Aloidendron pillansii (L.Guthrie) Klopper & Gideon F.Sm. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_14533_0
+            locator: "SANBI/WFO archive Morphology row 32893; source identifier 14533.0; cited publication: Klopper, RR; Smith, GF. 2013. Asphodelaceae: Aloe. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 45 - 48. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Apart from its general habit of growth and its thick smooth dichotomous branches, the most distinctive (and unexpected) feature of A. pillansii is the method of producing the inflorescences laterally from the axils of the lowest leaves. The peduncle is sharply decurved near base, branched about the middle, with the branches ascending and the racemes sub-erect to erect. The whole inflorescence (about 50 cm long) hangs downwards in between the lowest leaves, with the racemes upturned, so that the base of the peduncle is usually a little higher than the terminal raceme. This character appears to be unique in the genus Aloe. In racemes which are erect, the flowers are evenly distributed around the axis, but in oblique racemes the flowers are erectly sub-secund. A. pillansii is usually branched about the middle or lower, and ranges from few to many compactly or divaricately branched trees. Young simple-stemmed plants reach a height of 1.8-2.7 m [as '6-9 ft.'] before dividing at the summit and branching commences. Occasionally one sees a simple-stemmed plant 6-9 m [as '20-30 ft.'] high, forked at the summit, but this is not typical. In structure, size, shape and yellow flowers, A. pillansii, A. ramosissima and A. dichtoma are almost indistinguishable, but in size, branching and leaves, they could never be confused, while the inflorescence of A. pillansii immediately separates it from all other species.
+            textZh: SANBI 条目提供了 Aloidendron pillansii (L.Guthrie) Klopper & Gideon F.Sm. 的鉴别特征。
+            sourceIds:
+              - sanbi_13236_0
+            locator: "SANBI/WFO archive Diagnostic row 78146; source identifier 13236.0; cited publication: Reynolds, GW. 1974. Aloes of South Africa, 3rd ed. A.A. Balkema, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Stony hillsides.
+            textZh: 该 SANBI 区域物种条目记录的生境：Stony hillsides.
+            sourceIds:
+              - sanbi_14533_0
+            locator: "SANBI/WFO archive Habitat row 38801; source identifier 14533.0; cited publication: Klopper, RR; Smith, GF. 2013. Asphodelaceae: Aloe. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 45 - 48. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

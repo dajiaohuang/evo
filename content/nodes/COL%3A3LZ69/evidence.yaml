@@ -1,0 +1,278 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Hippeastrum elegans (Spreng.) H.E.Moore
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: COL26.8 accepted species ID 3LZ69 and exact name/authorship map through exactly one accepted WFO usage wfo-0000660140; the Brazilian Flora source record carries the same WFO ID.
+      scope: COL26.8 accepted species concept. Brazilian Flora fields remain regional dataset records; no global, current, complete-range or taxonomic-equivalence claim is made.
+      sourceIds:
+        - col26
+        - wfo2026
+        - brazilFlora2020
+      classificationPath:
+        - id: 3LZ69
+          scientificName: Hippeastrum elegans (Spreng.) H.E.Moore
+          rank: species
+          status: accepted
+        - id: 8VY96
+          scientificName: Hippeastrum Herb.
+          rank: genus
+          status: accepted
+        - id: "694"
+          scientificName: Amaryllidaceae
+          rank: family
+          status: accepted
+        - id: SP
+          scientificName: Asparagales Link
+          rank: order
+          status: accepted
+        - id: L2L
+          scientificName: Liliopsida
+          rank: class
+          status: accepted
+        - id: TP
+          scientificName: Tracheophyta
+          rank: phylum
+          status: accepted
+        - id: CMQ8S
+          scientificName: Pteridobiotina Britton & Brown
+          rank: subkingdom
+          status: accepted
+        - id: P
+          scientificName: Plantae
+          rank: kingdom
+          status: accepted
+        - id: CS5HF
+          scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+          rank: domain
+          status: accepted
+    lifeStatusScope:
+      wild: Wild status is not specified in these source fields.
+      domesticated: Cultivated or managed status is not specified; none is inferred.
+      fossil: Fossil applicability is not assessed from this extant-flora source.
+    sources:
+      - id: col26
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 24
+        usage:
+          licenseAppliesTo: Nomenclatural identity record only; no biological text reused
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/3LZ69
+          stableId: COL26.8:3LZ69
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-27
+          locator: Accepted species usage 3LZ69; source dataset 2232
+          attribution: Catalogue of Life COL26.8; underlying dataset 2232
+          licenseAssessment: identity-only
+          scope: Accepted name, authorship, rank, COL ID, parent chain and source dataset identity only.
+      - id: wfo2026
+        referenceId: ref-43499f65-2865-819f-a936-29a569ccf911
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: WFO nomenclatural data
+          title: World Flora Online Plant List 2026-06, pinned exact COL-to-WFO crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000660140-2026-06
+          stableId: wfo:wfo-0000660140-2026-06
+          version: WFO Plant List 2026-06, issued 2026-06-21; crosswalk sidecar pinned in this repository
+          publishedAt: 2026-06-21
+          accessedAt: 2026-09-27
+          locator: Accepted species record wfo-0000660140; exact accepted-name/authorship mapping to COL 3LZ69
+          attribution: World Flora Online Plant List 2026-06
+          licenseAssessment: identity-only
+          scope: Exact accepted-name and authorship species crosswalk; nomenclatural identity only.
+      - id: brazilFlora2020
+        referenceId: ref-352c188a-fa63-8d4e-a243-10428cf85b9c
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Brazilian Flora 2020 archived dataset fields; not inferred for linked publications, images or PDFs
+          stableId: doi:10.15468/1mtkaw; archive sha256 79455efc837678d0812c4f83247c9f024ab4d8dae43fe72f5c40b2302d50c923; WFO wfo-0000660140
+          accessedAt: 2026-09-06
+          locator: 'Brazilian Flora 2020 v393.147, morphology row 90362; WFO wfo-0000660140; source identifier ref-morph-BR-pt-0000660140; reference row 53541; source-reported citation: "Sassone, A.B.; Oliveira, R.S.; Giussani, L.M.; Meerow, A.W.; Semir, J. (in memoriam).; Streher, N.S.; Garcia, N. Amaryllidaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB33490. Accessed on: Jun. 30, 2021."; habitat row 38868'
+          attribution: "Group Brazil Flora, REFLORA Program (2014): Brazilian Flora 2020, v393.147, doi:10.15468/1mtkaw"
+          licenseAssessment: aggregate-declaration-only
+          scope: Regional source fields are retained verbatim with physical archive row locators. A morphology citation is the reference reported by the dataset; rights for the referenced publication are not independently verified. Habitat rows have dataset-level attribution only.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Caule: bulbo(s) subterrâneo(s); rizoma(s) ausente(s). Folha: forma lorifoliada(s); ápice(s) da folha(s) obtuso(s). Inflorescência: número de flor(es) 2 à 4. Flor: forma do perigônio infundibuliforme(s); cor do ápice(s) das tépala(s) branco/branco a(s) creme/branco esverdeado/tesselado(s) de vermelho/tesselado(s) de rosa escuro; cor da base das tépala(s) branca amarelada/verde claro a(s) amarelada/vinácea/difuso(s) pela(s) base; compr. do tubo do hipanto longo(s) 6.5 a(s) maior(es) que 12 cm compr.; tamanho das sépala(s) pouco mais larg. as pétala(s); forma das sépala(s) oboval(ais)/estreitamente oboval(ais)/largamente elíptica(s); sépala(s) lateral(ais) inferior(es) pouco diferente(s) da sépala(s) superior(es); forma das pétala(s) estreitamente elíptica(s)/estreitamente oboval(ais); pétala(s) inferior(es) pouco menor que as superior(es); corona ausente(s); filete(s) fasciculado(s)/menor que compr. das sépala(s) e pétala(s); cor das antera(s) amarela ou creme; estigma(s) capitado(s) com lobo(s) triangular(es)/trilobado(s). Fruto: cor das cápsula(s) castanha internamente. Semente: número e forma numerosa(s) discoide(s) achatada(s)."
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: 'Brazilian Flora 2020 v393.147, morphology description row 90362; WFO wfo-0000660140; source identifier ref-morph-BR-pt-0000660140; reference row 53541; dataset-reported citation: "Sassone, A.B.; Oliveira, R.S.; Giussani, L.M.; Meerow, A.W.; Semir, J. (in memoriam).; Streher, N.S.; Garcia, N. Amaryllidaceae in Flora do Brasil 2020. Jardim Botânico do Rio de Janeiro. Available at: http://floradobrasil.jbrj.gov.br/reflora/floradobrasil/FB33490. Accessed on: Jun. 30, 2021."'
+            placeTimeScope: Verbatim morphology field in the Brazilian Flora 2020 regional dataset. The field does not establish a global description, sampling coverage, population variation, sex or life stage unless stated in its text.
+            lifeStatus: The field does not state whether observations concern wild, cultivated, managed or fossil material; none is inferred.
+        gaps:
+          - Only one source-labelled morphology field is included; its completeness, variation and diagnostic scope have not been assessed.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - The source habit field is not treated as life-history evidence; life cycle and reproduction were not assessed.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Terrícola
+            originalLanguage: pt
+            sourceIds:
+              - brazilFlora2020
+            locator: Brazilian Flora 2020 v393.147, habitat field row 38868; dataset DOI 10.15468/1mtkaw; WFO wfo-0000660140
+            placeTimeScope: Habitat or substrate category exactly as recorded in this Brazilian Flora dataset row; no collection locality, survey date, global range or sampling completeness is supplied by the field.
+            lifeStatus: Wild, cultivated, managed and fossil applicability are not specified by this field.
+        gaps:
+          - Only source-labelled habitat field(s) are included; interactions, variation, locality and sampling coverage have not been assessed.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative evidence was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - No locality or range evidence was assessed; the regional flora dataset does not establish a complete distribution.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No fossil search or species-level fossil evidence was assessed.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No qualifying conservation assessment was reviewed.
+    readerSections:
+      - id: page-2008d7263d
+        title:
+          en:
+            page: en
+            section: s-9e97f1dc35
+            part: title
+          zh:
+            page: zh
+            section: s-a83c7f5a0e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9e97f1dc35
+            part: body
+          zh:
+            page: zh
+            section: s-a83c7f5a0e
+            part: body
+        sourceIds:
+          - col26
+          - wfo2026
+          - brazilFlora2020
+      - id: page-f89187f1e1
+        title:
+          en:
+            page: en
+            section: s-aa9c3a4b8e
+            part: title
+          zh:
+            page: zh
+            section: s-347914cea1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aa9c3a4b8e
+            part: body
+          zh:
+            page: zh
+            section: s-347914cea1
+            part: body
+        sourceIds:
+          - brazilFlora2020
+      - id: page-7d9299243a
+        title:
+          en:
+            page: en
+            section: s-ae2de3faba
+            part: title
+          zh:
+            page: zh
+            section: s-c9d1c1b1e3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ae2de3faba
+            part: body
+          zh:
+            page: zh
+            section: s-c9d1c1b1e3
+            part: body
+        sourceIds:
+          - brazilFlora2020
+      - id: page-46333dc796
+        title:
+          en:
+            page: en
+            section: s-612b192075
+            part: title
+          zh:
+            page: zh
+            section: s-68f28e6099
+            part: title
+        text:
+          en:
+            page: en
+            section: s-612b192075
+            part: body
+          zh:
+            page: zh
+            section: s-68f28e6099
+            part: body
+        sourceIds: []

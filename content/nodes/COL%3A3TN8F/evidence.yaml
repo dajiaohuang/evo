@@ -1,0 +1,540 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptodactylus ventrimaculatus Boulenger, 1902
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptodactylus ventrimaculatus
+      zh: Leptodactylus ventrimaculatus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-626c45feb3
+            part: title
+          zh:
+            page: zh
+            section: s-a6e36f1c28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-626c45feb3
+            part: body
+          zh:
+            page: zh
+            section: s-a6e36f1c28
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1c7afb7321
+            part: title
+          zh:
+            page: zh
+            section: s-bc71fa5d0f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1c7afb7321
+            part: body
+          zh:
+            page: zh
+            section: s-bc71fa5d0f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-2f0337bf18
+            part: title
+          zh:
+            page: zh
+            section: s-4b7a2bf3f6
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-2f0337bf18
+            part: body
+          zh:
+            page: zh
+            section: s-4b7a2bf3f6
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-85ea9cb043
+            part: title
+          zh:
+            page: zh
+            section: s-ca9e3b5d5e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-85ea9cb043
+            part: body
+          zh:
+            page: zh
+            section: s-ca9e3b5d5e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-f48f57c137
+            part: title
+          zh:
+            page: zh
+            section: s-1fe28844fb
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-f48f57c137
+            part: body
+          zh:
+            page: zh
+            section: s-1fe28844fb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-365e3380d5
+            part: title
+          zh:
+            page: zh
+            section: s-06a6db4f68
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-365e3380d5
+            part: body
+          zh:
+            page: zh
+            section: s-06a6db4f68
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9befaeb124
+            part: title
+          zh:
+            page: zh
+            section: s-789ec4c094
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-9befaeb124
+            part: body
+          zh:
+            page: zh
+            section: s-789ec4c094
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-52c72f46dd26261f1ac8a5a78294a2ae
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-cd37f0a296fc1eed6ed0de90
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ad0fa2a468
+            part: title
+          zh:
+            page: zh
+            section: s-7a1a05f4e5
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "1980"
+        text:
+          en:
+            page: en
+            section: s-ad0fa2a468
+            part: body
+          zh:
+            page: zh
+            section: s-7a1a05f4e5
+            part: body
+        sourceRowNumber: 1787
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-7087f57fbe
+            part: title
+          zh:
+            page: zh
+            section: s-adb859672f
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "2002"
+        text:
+          en:
+            page: en
+            section: s-7087f57fbe
+            part: body
+          zh:
+            page: zh
+            section: s-adb859672f
+            part: body
+        sourceRowNumber: 1808
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-a673226796
+            part: title
+          zh:
+            page: zh
+            section: s-69df6131cb
+            part: title
+        sourceIds:
+          - primary-pmc13149743-3tn8f
+        text:
+          en:
+            page: en
+            section: s-a673226796
+            part: body
+          zh:
+            page: zh
+            section: s-69df6131cb
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-a3a0934539
+            part: title
+          zh:
+            page: zh
+            section: s-42add01193
+            part: title
+        sourceIds:
+          - primary-pmc13149743-3tn8f
+        text:
+          en:
+            page: en
+            section: s-a3a0934539
+            part: body
+          zh:
+            page: zh
+            section: s-42add01193
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-f13baf9b28
+            part: title
+          zh:
+            page: zh
+            section: s-161a36bca3
+            part: title
+        sourceIds:
+          - primary-pmc13149743-3tn8f
+        text:
+          en:
+            page: en
+            section: s-f13baf9b28
+            part: body
+          zh:
+            page: zh
+            section: s-161a36bca3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptodactylus ventrimaculatus
+          url: https://www.checklistbank.org/dataset/316115/taxon/3TN8F
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf3443; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf3444 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 1787, 1808, 3663, 3680; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc13149743-3tn8f
+        referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptodactylus ventrimaculatus: XML Materials/Methods2.1–2.3, Results, Table3 amphibian rows/caption/footnote, Discussion4.1–4.4 and supplementary captions read; publisherS1request403/PMCbinary404 recorded. AppendicesS1/S2/S3/S4, originalvouchers, individualrecords, speciesphotos, GISlayers andcurrentassessments notindependentlyreconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c503174a22
+        part: body
+      zh:
+        page: zh
+        section: s-07f5cef09d
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-52c72f46dd26261f1ac8a5a78294a2ae
+      sourceRowId: Anf3443
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf3443
+        bibliographyRowId: Anf3444
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Leptodactylus vastus
+        candidateBibliographyRowIds:
+          - Anf3444
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-cd37f0a296fc1eed6ed0de90
+        scientificName: Leptodactylus ventrimaculatus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.1002/ece3.73504
+        referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+        sourceKey: primary-pmc13149743-3tn8f
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13149743/article.xml
+        sourceConcept: 2026 source-labelled Leptodactylus ventrimaculatus combined2008–2025urban/periurban inventory; exact-name candidate not certified vouchers/contemporary concepts
+        evidenceRead: "Leptodactylus ventrimaculatus: XML Materials/Methods2.1–2.3, Results, Table3 amphibian rows/caption/footnote, Discussion4.1–4.4 and supplementary captions read; publisherS1request403/PMCbinary404 recorded. AppendicesS1/S2/S3/S4, originalvouchers, individualrecords, speciesphotos, GISlayers andcurrentassessments notindependentlyreconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A mixed-source urban and periurban checklist record
+              zh: 混合来源城市及城郊名册记录
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-3tn8f
+            locator: PMC13149743 XML Table3 bodyrow22 Leptodactylus ventrimaculatus; Methods2.1–2.3; Table2 notes
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-791503f1ec
+                part: body
+              zh:
+                page: zh
+                section: s-ca1d287115
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Global and Ecuadorian risk categories preserve different scales
+              zh: 全球及厄瓜多尔风险类别保留不同尺度
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-3tn8f
+            locator: PMC13149743 XML Table3 row22 IUCN/ERL; Methods2.3; Results conservation totals
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-f288ca19a9
+                part: body
+              zh:
+                page: zh
+                section: s-0bc3999c1b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Presence and land-cover estimates do not demonstrate urban adaptation
+              zh: 出现及土地覆盖估计不证明城市适应
+            referenceId: ref-ed11327d-91e7-4c9f-a63a-e7a09a73b41f
+            sourceKey: primary-pmc13149743-3tn8f
+            locator: PMC13149743 XML Methods2.1–2.3; Figures1–2 captions; Results; Discussion4.2–4.4; supplementary captions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2b1a83907d
+                part: body
+              zh:
+                page: zh
+                section: s-55252ddc02
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amazophrynella manaos
+  displayName: Amazophrynella manaos
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CKM6
+  sourceIndexes:
+    - name:
+        en: Amazophrynella manaos
+        zh: Amazophrynella manaos
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CKM6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/219
+            queryName: Amazophrynella manaos
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-50a8a8cd30
+      - s-dc1d9fc2cc
+      - s-13cd0f1b24
+      - s-ecc2c3e3f9
+      - s-144a85c6b2
+      - s-a3b22c4047
+      - s-00bfd25713
+      - s-836e76f93a
+    zh:
+      - s-84c8171503
+      - s-ea781ea78d
+      - s-c53ab5a1a5
+      - s-e33292d3d0
+      - s-cbeb6876d9
+      - s-2755dca066
+      - s-6821a3cac6
+      - s-e5668c54f8

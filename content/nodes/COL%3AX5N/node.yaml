@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ansonia
+  displayName: Ansonia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/X5N
+  sourceIndexes:
+    - name:
+        en: Ansonia
+        zh: Ansonia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: X5N
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/168
+            queryName: Ansonia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 229
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c40a1d418f
+      - s-1f6099cf71
+      - s-215dd6453a
+      - s-aa7ae15330
+      - s-62defee80d
+      - s-9565b0acf2
+      - s-8c2309f64a
+      - s-97dfd21f2f
+      - s-029a91d71a
+      - s-ace8a0f486
+      - s-78e0533bea
+    zh:
+      - s-a1687980b9
+      - s-23d0af12ed
+      - s-ded9f822b0
+      - s-9a7432c6f6
+      - s-a268e25c5e
+      - s-6ed7b1e32a
+      - s-15cc390652
+      - s-087350fcce
+      - s-615e03c165
+      - s-87a2a50484
+      - s-a4143f867e

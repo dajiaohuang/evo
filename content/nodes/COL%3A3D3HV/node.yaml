@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea troglodytes
+  displayName: Eurycea troglodytes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HV
+  sourceIndexes:
+    - name:
+        en: Eurycea troglodytes
+        zh: Eurycea troglodytes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/437
+            queryName: Eurycea troglodytes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b6b13dc0fb
+      - s-690af5b7cd
+      - s-7b9b7f2ef3
+      - s-30d7c34eb1
+      - s-3fdb9a3d09
+      - s-1b13595436
+      - s-2e1799ec03
+      - s-b559a866f2
+      - s-69431205f5
+      - s-5694e02817
+    zh:
+      - s-59c867c013
+      - s-6aa6e6d307
+      - s-ecefb453b8
+      - s-9d408823a7
+      - s-3632fdb3a7
+      - s-f50c4478e2
+      - s-786cb17b50
+      - s-a0acc15293
+      - s-5a7f271f17
+      - s-111b549172

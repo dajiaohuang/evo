@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia perdita
+  displayName: Caecilia perdita
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7T9
+  sourceIndexes:
+    - name:
+        en: Caecilia perdita
+        zh: Caecilia perdita
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7T9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/82
+            queryName: Caecilia perdita
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-045701f536
+      - s-bef931c95a
+      - s-724c57874e
+      - s-b25866774f
+      - s-994e286d8f
+      - s-a10f26d8fc
+      - s-c700bd295b
+      - s-e9f5b70ec8
+      - s-7e9315ae37
+      - s-853e9e5e27
+      - s-84f23bd788
+      - s-54b0117903
+    zh:
+      - s-b23be5e09a
+      - s-99b7edb76c
+      - s-b1734ea7fb
+      - s-c121418763
+      - s-d53ea99819
+      - s-8f0691ed19
+      - s-1fe0fc40fe
+      - s-3240696558
+      - s-e8595d4231
+      - s-6835401903
+      - s-7cbef4fb39
+      - s-87521c80cb

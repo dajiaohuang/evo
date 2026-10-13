@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella tenrec
+  displayName: Rhinella tenrec
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7Q4
+  sourceIndexes:
+    - name:
+        en: Rhinella tenrec
+        zh: Rhinella tenrec
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7Q4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/376
+            queryName: Rhinella tenrec
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/453
+            queryName: Rhamphophryne tenrec
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3faaf7ffa9
+      - s-c25c991214
+      - s-6a5c4605b1
+      - s-cbdfcc2e2e
+      - s-bb9293eba2
+      - s-766d9f7ee8
+      - s-ad9ea10821
+      - s-3f9191d799
+      - s-440fe72d10
+    zh:
+      - s-8d59811363
+      - s-68bb267003
+      - s-1f6c43fd0c
+      - s-f72ebd8d22
+      - s-6cae165961
+      - s-0323b758f0
+      - s-a0223da63a
+      - s-9f1f5e8089
+      - s-c4e23d0190

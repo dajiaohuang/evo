@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax similis
+  displayName: Scinax similis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJZ4
+  sourceIndexes:
+    - name:
+        en: Scinax similis
+        zh: Scinax similis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJZ4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/75
+            queryName: Scinax similis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/1
+            queryName: Hyla similis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/2
+            queryName: Ololygon similis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/412
+            queryName: Hyla x-signata similis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4e91934b42
+      - s-8b0f298fd8
+      - s-5a3f9642eb
+      - s-d7f4fe30c1
+      - s-0f58b44545
+      - s-951d35c641
+      - s-ec304f3717
+      - s-0dd02076d7
+      - s-bce4091564
+      - s-73849742d1
+      - s-18d7f0502e
+      - s-ae68a7d1bd
+      - s-b5e7e39a91
+      - s-14c03f5066
+      - s-6215d7e4cc
+      - s-78e63ff92d
+      - s-642bc85ed0
+      - s-53f01624cb
+      - s-2427aad9e3
+      - s-a96980c4be
+      - s-59b129d80e
+      - s-e8a340b93a
+      - s-7accf8a4b5
+      - s-5e7d125490
+      - s-b28f6343f9
+      - s-4476cb5c2c
+    zh:
+      - s-1155f03b07
+      - s-daab81c17e
+      - s-8b0c038633
+      - s-45f46d0d24
+      - s-14836c257f
+      - s-71949eba4b
+      - s-6039ebf643
+      - s-0b8ce4c64a
+      - s-df2942cfec
+      - s-9c46c7dc68
+      - s-f2f740cb5b
+      - s-4f9a983456
+      - s-e32d9d80f4
+      - s-1c2c36f6ea
+      - s-d2645d9be6
+      - s-aa21e33132
+      - s-add1345cba
+      - s-3077cd0660
+      - s-534725af94
+      - s-2c3dca9311
+      - s-e4ad2ad45a
+      - s-7187af52d5
+      - s-c90d3a978c
+      - s-e464450d76
+      - s-f8a4cad9ff
+      - s-afb65fc210

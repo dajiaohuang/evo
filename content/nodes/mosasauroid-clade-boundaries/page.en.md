@@ -1,0 +1,3 @@
+## Mosasauroidea and Mosasauridae mark different boundaries {#s-9de4463b49}
+The names encode different phylogenetic boundaries. Mosasauroidea is defined around a broader branch, while Mosasauridae is a node-defined family; they should not be used interchangeably. Dallasaurus provides a separate anatomical example: skeletons preserve plesiopedal, less paddle-specialized limbs even though the original analysis places the taxon within Mosasauridae. That placement and the deeper branching pattern remain sensitive to analytical choices, so the navigation grouping is not a claim that one taxonomy is immutable.
+

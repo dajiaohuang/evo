@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Raorchestes vellikkannan Garg, Suyesh, Das, Bee & Biju, 2021
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Raorchestes vellikkannan
+      zh: Raorchestes vellikkannan
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-09f367ea10
+            part: title
+          zh:
+            page: zh
+            section: s-8fda5513af
+            part: title
+        text:
+          en:
+            page: en
+            section: s-09f367ea10
+            part: body
+          zh:
+            page: zh
+            section: s-8fda5513af
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d3fd14fd43
+            part: title
+          zh:
+            page: zh
+            section: s-267a7ef5f8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d3fd14fd43
+            part: body
+          zh:
+            page: zh
+            section: s-267a7ef5f8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-ff8bf0cdbc
+            part: title
+          zh:
+            page: zh
+            section: s-e741691241
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxgc
+        text:
+          en:
+            page: en
+            section: s-ff8bf0cdbc
+            part: body
+          zh:
+            page: zh
+            section: s-e741691241
+            part: body
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-0713d1487e
+            part: title
+          zh:
+            page: zh
+            section: s-f96a1ae7c0
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxgc
+        text:
+          en:
+            page: en
+            section: s-0713d1487e
+            part: body
+          zh:
+            page: zh
+            section: s-f96a1ae7c0
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-b7a7d0f17b
+            part: title
+          zh:
+            page: zh
+            section: s-670be3f589
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxgc
+        text:
+          en:
+            page: en
+            section: s-b7a7d0f17b
+            part: body
+          zh:
+            page: zh
+            section: s-670be3f589
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-f694cf2b37
+            part: title
+          zh:
+            page: zh
+            section: s-3b184d7363
+            part: title
+        sourceIds:
+          - primary-pmc7936570-slxgc
+        text:
+          en:
+            page: en
+            section: s-f694cf2b37
+            part: body
+          zh:
+            page: zh
+            section: s-3b184d7363
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Raorchestes vellikkannan
+          url: https://www.checklistbank.org/dataset/316115/taxon/SLXGC
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc7936570-slxgc
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Raorchestes vellikkannan: Male diagnostic range and live versus preserved holotype appearance, primary-forest perches, missing acoustic analysis and sister relationship; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a84486a538
+        part: body
+      zh:
+        page: zh
+        section: s-bfef632424
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10791
+        referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+        sourceKey: primary-pmc7936570-slxgc
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7936570/article.xml
+        sourceConcept: Raorchestes vellikkannan
+        evidenceRead: "Raorchestes vellikkannan: Male diagnostic range and live versus preserved holotype appearance, primary-forest perches, missing acoustic analysis and sister relationship; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: appearance
+            heading:
+              en: A silver-grey iris and yellowish-brown dorsal pattern
+              zh: 银灰虹膜与黄褐色背纹
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxgc
+            locator: PMC7936570 XML sec11 paragraphs 68, 73
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-27d0929e91
+                part: body
+              zh:
+                page: zh
+                section: s-8e1b4341a5
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: distribution
+            heading:
+              en: Primary-forest records in the Siruvani and Silent Valley region
+              zh: Siruvani 与 Silent Valley 地区的原生林记录
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxgc
+            locator: PMC7936570 XML sec11 paragraph 74
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-91c469e6b6
+                part: body
+              zh:
+                page: zh
+                section: s-25b4669bd2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: The acoustic repertoire remained undescribed
+              zh: 鸣声类型仍缺少描述
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxgc
+            locator: PMC7936570 XML sec11 paragraph 74
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-569c670797
+                part: body
+              zh:
+                page: zh
+                section: s-4669bce461
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: A multilocus context for its sister relationship
+              zh: 多标记分析中的姐妹关系
+            referenceId: ref-bd45c2a5-d269-4b88-a591-fada042bc09f
+            sourceKey: primary-pmc7936570-slxgc
+            locator: PMC7936570 XML sec11 paragraph 67; sec4 paragraphs 0–2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d80f6a308e
+                part: body
+              zh:
+                page: zh
+                section: s-b7f713c7a3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

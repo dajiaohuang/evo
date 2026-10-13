@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Paratelmatobius gaigeae
+  displayName: Paratelmatobius gaigeae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/763WT
+  sourceIndexes:
+    - name:
+        en: Paratelmatobius gaigeae
+        zh: Paratelmatobius gaigeae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 763WT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/425
+            queryName: Paratelmatobius gaigeae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/242
+            queryName: Leptodactylus gaigeae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/348
+            queryName: Paratelmatobius pictiventris
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bb237376de
+      - s-f67dcd3217
+      - s-bc8f4a25d1
+      - s-6d8ab0f21c
+      - s-aee3b353aa
+      - s-ec55fd4c58
+      - s-87265fce7e
+      - s-b991b93936
+      - s-f47906cc32
+      - s-9033ac1626
+      - s-a403f2f50d
+      - s-5b0c6a4c93
+      - s-b27681343e
+      - s-d37f12a661
+      - s-34e7916167
+      - s-5acca81b6b
+      - s-c862cdd386
+      - s-dedc79418c
+    zh:
+      - s-87bbc15bae
+      - s-fa69f6012c
+      - s-0a21520ec8
+      - s-675b523114
+      - s-dd5fb4628f
+      - s-124b5480d9
+      - s-d4700a9cdd
+      - s-ae1815bbe1
+      - s-9cdf7ed3b6
+      - s-f18ae0588d
+      - s-918d1d8a15
+      - s-e02abc2ad3
+      - s-b6450d07d8
+      - s-9d7c6353ae
+      - s-ac7e2e95bd
+      - s-27bb9dfe87
+      - s-2ec1c0a813
+      - s-df15ae4e32

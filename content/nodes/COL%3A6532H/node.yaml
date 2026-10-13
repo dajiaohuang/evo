@@ -1,0 +1,108 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Adenomera andreae
+  displayName: Adenomera andreae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6532H
+  sourceIndexes:
+    - name:
+        en: Adenomera andreae
+        zh: Adenomera andreae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6532H
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/25
+            queryName: Adenomera andreae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 15
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/323
+            queryName: Leptodactylus andreae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d58916f21
+      - s-3b36952f92
+      - s-70728d6cb5
+      - s-cc45da369f
+      - s-21df9653f1
+      - s-4dcc4d4059
+      - s-cdf0b808b9
+      - s-8559c4fd4a
+      - s-6995f7f979
+      - s-359d5b7123
+      - s-8295db9f83
+      - s-1f5375f812
+      - s-525398bf25
+      - s-dfa8c735cd
+      - s-fa5e639f83
+      - s-748c4ddd8c
+      - s-17f86195bb
+      - s-06c2c40606
+      - s-d5c8655024
+      - s-fd0c931ab5
+      - s-bda3819e4d
+      - s-7e6ef59351
+      - s-6e48b8ec74
+      - s-6392180dfb
+      - s-c47fd9ed03
+      - s-c5172d9e4c
+      - s-12448d92dd
+      - s-220dfeffe0
+      - s-bf6f517ea6
+      - s-572ec02b16
+      - s-b649184f25
+    zh:
+      - s-8d406ed9a2
+      - s-aadec21fb1
+      - s-6755ac0b72
+      - s-fc3b5ac22e
+      - s-85812ab056
+      - s-ba6327c9f6
+      - s-c1f29eb651
+      - s-4165088b98
+      - s-21161578c5
+      - s-ad033568e6
+      - s-a1b937f439
+      - s-ac573beaf3
+      - s-e00557d898
+      - s-8cfa84e211
+      - s-3c151aeadc
+      - s-885d5006a9
+      - s-2741b8c3a9
+      - s-9bcdd0bce5
+      - s-e471b6f0be
+      - s-0db3996f3f
+      - s-b9545560b6
+      - s-cdcfd9e3d4
+      - s-1401b32014
+      - s-c74ff40899
+      - s-3cf8f9d57f
+      - s-78bb13012d
+      - s-f4cfce0a4b
+      - s-375f08ea20
+      - s-ee2a2ff83e
+      - s-a6fb5e870e
+      - s-75f2a38d07

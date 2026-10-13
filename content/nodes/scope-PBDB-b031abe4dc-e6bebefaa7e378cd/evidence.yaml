@@ -1,0 +1,261 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:324165
+    scientificName: Eocyathispongia qiania
+    commonName: Doushantuo three-tube fossil
+    commonNameZh: 陡山沱三管状化石
+    rank: genus
+    parentName: Porifera evidence route
+    extinct: true
+    geography:
+      - Weng’an biota
+      - Doushantuo Formation
+      - Guizhou, China
+    overview:
+      page: en
+      section: s-e42dd9b4c1
+      part: body
+    overviewZh:
+      page: zh
+      section: s-089593a6fb
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-103a9def8b
+        part: body
+      habitat:
+        page: en
+        section: s-6353a39e42
+        part: body
+      locomotion:
+        page: en
+        section: s-c8be930cf5
+        part: body
+      bodySize:
+        page: en
+        section: s-c4508007b5
+        part: body
+      guild:
+        page: en
+        section: s-846e0827f7
+        part: body
+      dietZh:
+        page: zh
+        section: zh-5532596e788c13
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-6ccd70aaa863d9
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-24950e5634cfd1
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-3d91072903449a
+        part: body
+    traits:
+      - page: en
+        section: s-1c6387e6f7
+        part: body
+      - page: en
+        section: s-f22cc1226a
+        part: body
+      - page: en
+        section: s-f83a99928a
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-4486266159
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-b4d0ce9725
+      part: body
+    confidence: medium
+    referenceIds:
+      - yin-2015-eocyathispongia
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-e42dd9b4c1
+            part: title
+          zh:
+            page: zh
+            section: s-089593a6fb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e42dd9b4c1
+            part: body
+          zh:
+            page: zh
+            section: s-089593a6fb
+            part: body
+        sourceIds:
+          - yin-2015-eocyathispongia
+      - id: three-tubes
+        title:
+          en:
+            page: en
+            section: s-9d76104828
+            part: title
+          zh:
+            page: zh
+            section: s-2fe88fef54
+            part: title
+        text:
+          en:
+            page: en
+            section: s-9d76104828
+            part: body
+          zh:
+            page: zh
+            section: s-2fe88fef54
+            part: body
+        sourceIds:
+          - yin-2015-eocyathispongia
+      - id: sponge-affinity
+        title:
+          en:
+            page: en
+            section: s-4dc7cb19f5
+            part: title
+          zh:
+            page: zh
+            section: s-92f43db212
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4dc7cb19f5
+            part: body
+          zh:
+            page: zh
+            section: s-92f43db212
+            part: body
+        sourceIds:
+          - yin-2015-eocyathispongia
+    readerSources:
+      - id: yin-2015-eocyathispongia
+        referenceId: yin-2015-eocyathispongia
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+        usage:
+          scope:
+            en: "Yin et al. (2015), pp. E1453?E1460, Figures 1?4 and Supplementary Movies: the single phosphatized holotype, tubes and openings, SEM/tomography and the bounded sponge-grade interpretation."
+            zh: Yin ??2015??? E1453?E1460 ??? 1?4 ?????????????????????????????????????????
+    readerLimitations:
+      en:
+        page: en
+        section: s-6b26438493
+        part: body
+      zh:
+        page: zh
+        section: s-04896e1939
+        part: body
+    traitsZh:
+      - page: zh
+        section: zh-088170d1e46b65
+        part: body
+      - page: zh
+        section: zh-3fe82af11d789b
+        part: body
+      - page: zh
+        section: zh-311a63858775ca
+        part: body
+  claims:
+    - subjectId: taxon:eocyathispongia
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Eocyathispongia qiania is represented by one phosphatized specimen interpreted as sponge-grade; the profile does not convert that interpretation into crown-Porifera membership or direct ancestry.
+      confidence: medium
+      confidenceRationale: The taxonomy field is bounded to Eocyathispongia qiania, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: yin-2015-eocyathispongia
+          relation: supports
+          pages: E1453–E1460; Figures 1–4; Supplementary Movies
+    - subjectId: taxon:eocyathispongia
+      claimKind: scientific
+      claimType: biogeography
+      statement: The profiled occurrence is restricted to the Weng’an biota of the Doushantuo Formation in Guizhou and does not establish a global range.
+      confidence: medium
+      confidenceRationale: The biogeography field is bounded to Eocyathispongia qiania, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: yin-2015-eocyathispongia
+          relation: supports
+          pages: E1453–E1460; Figures 1–4; Supplementary Movies
+    - subjectId: taxon:eocyathispongia
+      claimKind: scientific
+      claimType: ecology
+      statement: A sessile suspension-feeding mode is inferred from the proposed sponge-grade body plan; diet, pumping and habitat preference were not observed.
+      confidence: medium
+      confidenceRationale: The ecology field is bounded to Eocyathispongia qiania, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: yin-2015-eocyathispongia
+          relation: supports
+          pages: E1453–E1460; Figures 1–4; Supplementary Movies
+    - subjectId: taxon:eocyathispongia
+      claimKind: scientific
+      claimType: morphology
+      statement: The holotype preserves a millimetre-scale multicellular body with three tubes, funnel-like openings and an osculum-like opening imaged by SEM and tomography.
+      confidence: medium
+      confidenceRationale: The morphology field is bounded to Eocyathispongia qiania, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: yin-2015-eocyathispongia
+          relation: supports
+          pages: E1453–E1460; Figures 1–4; Supplementary Movies
+    - subjectId: taxon:eocyathispongia
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The 609–600 Ma atlas envelope is a formation-level context for one specimen, not a global Eocyathispongia or Porifera FAD, LAD or lineage duration.
+      confidence: medium
+      confidenceRationale: The fossil-range field is bounded to Eocyathispongia qiania, the named sample or scoped clade analysis and the cited primary-study locator; interpretation is not generalized to direct ancestry or unsampled species.
+      referenceLinks:
+        - referenceId: yin-2015-eocyathispongia
+          relation: supports
+          pages: E1453–E1460; Figures 1–4; Supplementary Movies
+  claim-rationales.zh:
+    - 陡山沱三管状化石的分类字段只陈述所引研究与导航范围；不会把矩阵位置、数据库映射或样本相似性改写为直系祖先。
+    - 陡山沱三管状化石的地理字段限于具名样本或明确模型范围，不外推为全球分布、起源中心或完整扩散路径。
+    - 陡山沱三管状化石的生态字段区分保存事实与功能推断；未被直接记录的饮食、行为、栖息地偏好和性能均保留不确定性。
+    - 陡山沱三管状化石的形态字段限于主研究列明的标本、样本或分析，并连接到精确页码、图版或补充材料。
+    - 陡山沱三管状化石的年代范围是有界的标本、地层或模型投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - Eocyathispongia qiania 以一件磷酸盐化标本为代表，被解释为具有海绵级组织；本档案不将该解释等同于冠群多孔动物归属或直系祖先关系。
+    - 本档案的化石记录限于贵州陡山沱组的瓮安生物群，不能据此确立全球分布。
+    - 固着悬浮摄食方式是根据所提出的海绵级体制推断的；食物、泵水活动及生境偏好并未被直接观察。
+    - 正模标本保存了毫米级多细胞身体，具有三根管、漏斗状开口及类似出水孔的开口；这些结构通过扫描电子显微镜和断层成像呈现。
+    - 图集中的 609–600 Ma 包络是一件标本的组级地层背景，并非 Eocyathispongia 或多孔动物的全球首现、末现或谱系延续时长。
+  ranges:
+    - entityId: eocyathispongia
+      rangeKind: global-composite
+      taxonomicConcept: Eocyathispongia single-specimen anatomy evidence boundary
+      geographicScope: Weng’an, Guizhou, China
+      olderMa: 609
+      youngerMa: 600
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 609–600 Ma atlas envelope is a formation-level context for one specimen, not a global Eocyathispongia or Porifera FAD, LAD or lineage duration.
+      evidenceBasis: Named specimen, explicitly bounded geochemical or genomic dataset, or stated model interval in the cited primary studies.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:eocyathispongia-single-specimen
+        - claim:taxon:eocyathispongia:fossil-range
+      referenceLocators:
+        - referenceId: yin-2015-eocyathispongia
+          locator: E1453–E1460; Figures 1–4; Supplementary Movies; Holotype microtomography, cellular organization and explicit single-specimen caveat

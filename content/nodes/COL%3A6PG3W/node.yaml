@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella purpuraventra
+  displayName: Leptobrachella purpuraventra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PG3W
+  sourceIndexes:
+    - name:
+        en: Leptobrachella purpuraventra
+        zh: Leptobrachella purpuraventra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PG3W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/283
+            queryName: Leptobrachella purpuraventra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a509fe4d17
+      - s-9d30b8a9d7
+      - s-c5b4318565
+      - s-000bc0355f
+      - s-43f3acb5c9
+      - s-d08769bfa0
+      - s-58c3a44635
+      - s-0b2f37dea2
+      - s-7b4a554e08
+      - s-14f59ff78d
+      - s-1e02d209b2
+    zh:
+      - s-d6fe6eb032
+      - s-776dc747e8
+      - s-8eef629171
+      - s-b5ffc02ec8
+      - s-0cf6be5b07
+      - s-41de2c1aae
+      - s-a12835f8af
+      - s-da7441ae35
+      - s-64828d28be
+      - s-b52c6fd83c
+      - s-335bb5a028

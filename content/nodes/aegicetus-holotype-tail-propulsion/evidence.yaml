@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-3b7cb98c90
+      part: title
+    titleZh:
+      page: zh
+      section: s-eb5af0868e
+      part: title
+    category: transition
+    startAge: 37.71
+    endAge: 37.71
+    regions:
+      - Lower Gehannam Formation, WH-203, Wadi Al Hitan, Fayum, Egypt
+    clades:
+      - Aegicetus gehennae
+      - Protocetidae
+      - Cetacea
+    summary:
+      page: en
+      section: s-3b7cb98c90
+      part: body
+    summaryZh:
+      page: zh
+      section: s-eb5af0868e
+      part: body
+    claimIds:
+      - claim:event:aegicetus-holotype-tail-propulsion
+    evidenceItems:
+      - statement: CGM 60584 preserves a partial skull and much associated postcranium with a 7:15:4:4:9+ vertebral formula, unfused sacrals, no defined iliac auricular surface and shortened limbs; CGM 60583 adds an associated femur and tibia.
+        relation: supports
+        claimIds:
+          - claim:event:aegicetus-holotype-tail-propulsion
+        referenceLinks:
+          - referenceId: gingerich-2019-aegicetus
+            relation: supports
+            pages: e0225391
+            figure: Figures 2–18 and 22; Tables 1–6
+            quoteLocator: Geological setting and age; Holotype and referred specimen; Description; Locomotion
+    uncertaintyItems:
+      - statement: The paper reports conflicting micropalaeontological and sequence-stratigraphic placement around the Bartonian–Priabonian boundary; mid-body-and-tail undulation is inferred and a tail fluke is considered doubtful, not preserved.
+        relation: contextualizes
+        claimIds:
+          - claim:event:aegicetus-holotype-tail-propulsion
+        referenceLinks:
+          - referenceId: gingerich-2019-aegicetus
+            relation: supports
+            pages: e0225391
+            figure: Figures 4, 22–26
+            quoteLocator: Geological setting and age; Swimming-mode discussion
+          - referenceId: plos-2020-aegicetus-correction
+            relation: contextualizes
+            pages: e0230596
+            figure: Correction notice
+            quoteLocator: Corrected table and figure material
+  claims:
+    - subjectId: event:aegicetus-holotype-tail-propulsion
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: Aegicetus holotype CGM 60584 records loss of a weight-bearing sacroiliac joint, posterior vertebral elongation and limb reduction; a shift toward mid-body-and-tail propulsion is inferred, not directly observed, and a fluke is not preserved.
+      confidence: medium
+      confidenceRationale: The associated skeleton provides unusually extensive anatomy, but swimming mode is reconstructed and the paper discloses conflicting evidence for placement immediately around the Bartonian–Priabonian boundary.
+      referenceLinks:
+        - referenceId: gingerich-2019-aegicetus
+          relation: supports
+          pages: e0225391
+          figure: Figures 2–18 and 22–26
+          quoteLocator: Holotype; Geological age; Vertebral column; Swimming mode
+        - referenceId: plos-2020-aegicetus-correction
+          relation: contextualizes
+          pages: e0230596
+          figure: Correction notice
+          quoteLocator: Corrected table and figure material
+  claim-rationales.zh:
+    - 关联骨架提供异常丰富的形态信息，但游泳方式是复原结果，且论文公开了巴尔顿期—普里阿邦期界线附近相互冲突的年代证据。
+  claim-statements.zh:
+    - 盾鲸正模 CGM 60584 记录了承重骶髂关节消失、后段椎骨加长和四肢缩小；向躯干中段与尾部推进转变属于推断，并非直接观察，且未保存尾鳍。

@@ -1,0 +1,6 @@
+## Seven main veins and a hairy ovary {#s-92398fa7a1}
+The Brazilian Flora 2020 v393.147 field gives several alternatives for Miconia mendoncaei. Young stems may lack hairs or bear star-shaped ones. Elliptic leaves have acute or gradually tapering tips; the base may narrow, round, run down along the stalk, or be wedge-shaped. The edge is fringed with hairs or minutely toothed. The field lists seven main veins, or five main veins with two faint veins just inside the margin. The lower surface is hairless or sparsely covered by star-shaped hairs attached directly to it. Flowers form dense clusters. The bell-shaped flower cup bears a persistent calyx with distinct lobes; each flower has five petals. The tissue joining the anther's pollen sacs is not prolonged; its appendage is described as two lower-side lobes or one back-facing tooth. White anthers have one small pore, and the ovary is hairless. These alternatives are recorded without a quantified account of their distribution.
+
+## A terrestrial habitat category {#s-0b8c5c08fe}
+The habitat field labels the setting “terrícola,” meaning terrestrial. It gives no collection locality, survey date or range coverage and does not state whether the material is wild, cultivated, managed or fossil. This one category does not describe the species' full ecology.
+

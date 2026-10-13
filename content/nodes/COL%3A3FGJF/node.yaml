@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gegeneophis carnosus
+  displayName: Gegeneophis carnosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FGJF
+  sourceIndexes:
+    - name:
+        en: Gegeneophis carnosus
+        zh: Gegeneophis carnosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FGJF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/87
+            queryName: Gegeneophis carnosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/69
+            queryName: Epicrium carnosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/70
+            queryName: Gegenes carnosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/71
+            queryName: Gegenophis carnosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-decf47cfb0
+      - s-b32ac4d34b
+      - s-dfcf13ad04
+      - s-e6b65f8687
+      - s-53fa244cfc
+      - s-c8cf6948ac
+      - s-c41deb3f85
+      - s-d0c947d1f3
+      - s-3fb8033115
+      - s-c76419b9a6
+      - s-82602f517b
+    zh:
+      - s-4105d11eb4
+      - s-7a9f148bf3
+      - s-97bb730bfa
+      - s-08f5ec2dfc
+      - s-a71e9c4049
+      - s-ca7ee7bdcc
+      - s-078949a731
+      - s-ebe1fd0a49
+      - s-05798d55d4
+      - s-315d690102
+      - s-b77e7ad4c9

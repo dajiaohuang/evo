@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Mesembryanthemum decurvatum (L.Bolus) Klak
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 3ZYHJ, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 3ZYHJ; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/3ZYHJ
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 3ZYHJ
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000507607-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 3ZYHJ / WFO wfo-0000507607
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_11616_0
+        referenceId: ref-29e5dc18-17ec-88e6-ae9a-7d4d9f28d6c7
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Mesembryanthemum decurvatum (L.Bolus) Klak account; archive rows 96508 (Morphology), source identifier 11616.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+      - id: sanbi_14687_0
+        referenceId: ref-b2e74258-9a2a-8651-aa65-7ffd5f701c8f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Mesembryanthemum decurvatum (L.Bolus) Klak account; archive rows 105031 (Habitat), source identifier 14687.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    reader:
+      en:
+        overview:
+          page: en
+          section: s-24435440d1
+          part: body
+      zh:
+        overview:
+          page: zh
+          section: s-46802bb9b5
+          part: body
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: "Sat rigida lignosaque, minute papillosa, intricate ramosa, ramis mox decurvatis, ad 5 mm diam.; folia opposita, primaria late patentia, mox decurvata, fere teretia, e basi attenuata acuta, indurata persistentia; flores laxe semel vel bis 2-ternati, diurni, 2-2.5 cm diam., pedunculis 1-2 cm longis; receptaculum elavatum, tubo 3 mm longo; sepala 4 inaequilonga, 6-10 mm longa; petala roseo-salmonea, ad 1 mm lata; stamina conico-collecta, staminodiis radiantibus numerosis; ovarium leviter superum: stigmata 4, anguste subulata, acuminata, ad 3 mm longa."
+            sourceIds:
+              - sanbi_11616_0
+            locator: "SANBI/WFO archive Morphology row 96508; source 11616.0; publication: Bolus, HML. 1928. Notes on Mesembrianthemum and some allied genera. Specialty Press, Cape Town. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Lower rocky hillsides.
+            sourceIds:
+              - sanbi_14687_0
+            locator: "SANBI/WFO archive Habitat row 105031; source 14687.0; publication: Klak, C. 2013. Aizoaceae: Mesembryanthemum. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 208 - 217. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

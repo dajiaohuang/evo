@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    sections:
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-66cfcba818
+            part: title
+          zh:
+            page: zh
+            section: s-d83a2ebb24
+            part: title
+        text:
+          en:
+            page: en
+            section: s-66cfcba818
+            part: body
+          zh:
+            page: zh
+            section: s-d83a2ebb24
+            part: body
+        claimIds:
+          - claim:taxon:plantae:root-range-rc39
+    scientificName: Plantae
+    name:
+      en: Plantae
+      zh: Plantae
+    rank: kingdom
+  atlas-node:
+    name: Plantae
+    commonName: Plants
+    commonNameZh: 植物
+    rank: kingdom
+    taxonId: txn:54311
+    firstAppearance: 470
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:plantae
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The Plantae root display uses the approximately 473–471 Ma Zanjón cryptospore assemblage as a sampled embryophyte-on-land anchor and extends to living representatives; it is not a first appearance for all Plantae or a crown-bryophyte record.
+      confidence: high
+      confidenceRationale: The dated cryptospore assemblage is directly described and illustrated, but the root entity is broader than the sampled embryophytes. The range is therefore an explicitly scoped navigation envelope rather than a total-clade origination date.
+      referenceLinks:
+        - referenceId: rubinstein-2010-dapingian-cryptospores
+          relation: supports
+          pages: 365–369
+          figure: Figures 1–2; Supporting Figures S1, S3 and S4
+          quoteLocator: "Summary; Results: Zanjón Formation palynological assemblage; Discussion of embryophyte affinity"
+  claim-rationales.zh:
+    - 有明确年代和图示的隐孢子组合直接支持有胚植物采样记录，但根实体范围更广，因此该范围只是明确限定的导航包络，不是全类群起源时间。
+  claim-statements.zh:
+    - 植物界根节点以约 4.73–4.71 亿年前的 Zanjón 隐孢子组合为有胚植物登陆的采样锚点，并延伸到现生代表；它不是全部植物界的首现，也不是冠群苔藓植物记录。
+  ranges:
+    - entityId: plantae
+      rangeKind: global-composite
+      taxonomicConcept: Embryophyte evidence within the atlas Plantae root
+      geographicScope: Zanjón Formation cryptospore anchor to living representatives
+      olderMa: 473
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 2
+        youngerMa: 0
+        note: The older endpoint rounds the source's approximately 473–471 Ma assemblage; it is not a first appearance for all Plantae.
+      evidenceBasis: Dated cryptospore monads and tetrads provide a direct sampled embryophyte-on-land anchor; living representatives supply the present endpoint.
+      confidence: high
+      claimIds:
+        - claim:taxon:plantae:root-range-rc39
+      referenceLocators:
+        - referenceId: rubinstein-2010-dapingian-cryptospores
+          locator: pp. 365–369; Figures 1–2 and Supporting Figures S1, S3–S4
+      evidenceLevel: literature-synthesized

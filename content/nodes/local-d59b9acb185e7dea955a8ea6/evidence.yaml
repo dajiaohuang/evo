@@ -1,0 +1,385 @@
+schemaVersion: 1
+records:
+  caecilian-traits-reader:
+    scientificName: Microcaecilia savagei
+    name:
+      en: Microcaecilia savagei
+      zh: Microcaecilia savagei
+    sourceClassification:
+      family: Siphonopidae
+      genus: Microcaecilia
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited caecilian record
+          zh: 存档中的蚓螈记录
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-24df0bd2b3
+            part: body
+          zh:
+            page: zh
+            section: s-2a7051e7c0
+            part: body
+      - topic: morphology
+        title:
+          en: Measurement material
+          zh: 测量材料
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-ddac15cbf2
+            part: body
+          zh:
+            page: zh
+            section: s-e65de5c54a
+            part: body
+      - topic: ecology
+        title:
+          en: Compiled habitat categories
+          zh: 汇编的栖地类别
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-c8a80d6869
+            part: body
+          zh:
+            page: zh
+            section: s-9614f01879
+            part: body
+      - topic: morphology
+        title:
+          en: Compiled anatomical counts
+          zh: 汇编的解剖计数
+        sourceIds:
+          - caeciliantraits
+        text:
+          en:
+            page: en
+            section: s-7322c55922
+            part: body
+          zh:
+            page: zh
+            section: s-26bac939ea
+            part: body
+    sources:
+      - id: caeciliantraits
+        referenceId: ref-17b8da76-8a56-4930-9b21-125661453de0
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: CaecilianTraits.xlsx, Species level data row 199; Individual level data rows 244; Supplementary Table 1 for variable meanings
+          scope:
+            en: The deposited source concept and its categorical fields and measurement-row provenance. Original publication text and current species-concept equivalence have not been established here.
+            zh: 存档来源概念及其类别字段、测量行出处；此处未核定原出版物正文和当前物种概念的等同性。
+    originalSpeciesRow:
+      rowNumber: 199
+      values:
+        - Siphonopidae
+        - Microcaecilia
+        - Microcaecilia savagei
+        - Tropical & Subtropical Moist Broadleaf Forests
+        - null
+        - Fossorial
+        - The holotype was collected in a 8*8 m leaf-litter plot during sampling at Cowfly Camp
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - "Donnelly, M. A., and M. H. Wake. 2013. A new Microcaecilia (Amphibia: Gymnophiona) from Guyana with comments on Epicrionops niger. Copeia 2013:223-231."
+        - 153
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 4.2
+        - 4.2
+        - null
+        - null
+        - 7.7
+        - null
+        - null
+        - null
+        - 3.3
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 0.2
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 6
+        - null
+        - null
+        - null
+        - null
+        - null
+        - null
+        - 107
+        - 86
+        - null
+        - 15
+        - 26
+        - 12
+        - 0
+        - null
+    originalMeasurementRows:
+      - rowNumber: 244
+        values:
+          - "Donnelly, M. A., and M. H. Wake. 2013. A new Microcaecilia (Amphibia: Gymnophiona) from Guyana with comments on Epicrionops niger. Copeia 2013:223-231."
+          - Siphonopidae
+          - Microcaecilia
+          - Microcaecilia savagei
+          - I
+          - UG/CSBD H147 (MAD 496)
+          - M
+          - "153"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "4.2"
+          - "4.2"
+          - null
+          - null
+          - "7.7"
+          - null
+          - null
+          - null
+          - "3.3"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "0.2"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "6"
+          - null
+          - null
+          - null
+          - null
+          - null
+          - null
+          - "107"
+          - "86"
+          - null
+          - 8-1-6
+          - 12-14
+          - 7-5
+          - "0"
+          - null
+    originalColumns:
+      species:
+        - Family
+        - Genus
+        - Species
+        - biome
+        - Habitats
+        - Microhabitat
+        - Metadata_microhabitat
+        - Reproduction
+        - Metadata_reproduction
+        - Aquatic larvae
+        - Max clutch size
+        - Min clutch size
+        - Mean clutch size
+        - Reference
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - ADD
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+      measurement:
+        - Reference
+        - Family
+        - Genus
+        - Species
+        - Type
+        - ID
+        - Sex
+        - TOL
+        - FTL
+        - SVL
+        - TRL
+        - TL
+        - BW1
+        - BW2
+        - BW3
+        - BW4
+        - BH
+        - HL
+        - HW1
+        - HW2
+        - HH1
+        - HH2
+        - STFG
+        - STSG
+        - STTG
+        - IOD
+        - IND
+        - ITD
+        - TE
+        - TN
+        - TS
+        - TJ
+        - TLP
+        - SJ
+        - SE
+        - NS
+        - ED
+        - EN
+        - EJ
+        - ND
+        - NLP
+        - NFNG
+        - NJ
+        - LN
+        - LJL
+        - JNG
+        - TLJFNG
+        - TAW
+        - VA
+        - "ADD "
+        - C1
+        - C2
+        - CM
+        - TA1
+        - TA2
+        - PA
+        - SA
+        - PVA
+        - PMT
+        - PPT
+        - DT
+        - ST
+        - VN
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 42S5P
+    quantitativeLengthUnits: not-confirmed-from-deposited-column-definitions; dimensions omitted from reader claims
+    limitations:
+      en: Compilation-level reader with source concepts kept separate. Missing cells remain unknown. Underlying primary works, dimensions and units, contemporary species identity, remaining scientific facets remain to be resolved.
+      zh: 本页为汇编层面的读本，来源概念单独保留；缺失单元格仍记为未知。原始文献、尺寸和单位、当前物种身份、其余科学主题仍待核对。
+    variableDefinitionCitation:
+      doi: 10.1038/s41597-025-04728-z
+      sourceFile: data/sources/snapshots/caeciliantraits-2025-2026-10-02/article.xml
+      locator: Methods, species-level ecological and life-history data; Data Records

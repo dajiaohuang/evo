@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Oedipina villamizariorum
+    name:
+      en: Oedipina villamizariorum
+      zh: Oedipina villamizariorum
+    sourceClassification:
+      order: Caudata
+      family: Plethodontidae
+      genus: Oedipina
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Oedipina villamizariorum in the morphology deposit
+          zh: 形态数据中的 Oedipina villamizariorum 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-67da9a9bd0
+            part: body
+          zh:
+            page: zh
+            section: s-4b98f77b08
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 240: measurement fields and sex codes"
+          zh: 第 240 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-facc9c1160
+            part: body
+          zh:
+            page: zh
+            section: s-7809c14481
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 240; Reference.csv rows 4259
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - SVL
+      - TRL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - IND
+      - SL
+      - TL
+      - TW
+      - TH
+      - TAH
+      - MTAW
+      - FLL
+      - HLL
+      - F2L
+      - F3L
+      - T3L
+      - T5L
+      - SF
+      - VL
+      - ELL
+      - SG
+    originalMeasurementRows:
+      - rowNumber: 240
+        values:
+          - Plethodontidae
+          - Oedipina
+          - Oedipina villamizariorum
+          - F
+          - NA
+          - "42.1"
+          - NA
+          - "27.8"
+          - "7.5"
+          - "4.2"
+          - "2.2"
+          - "1.6"
+          - "1.4"
+          - "0.8"
+          - NA
+          - "1.8"
+          - "26.3"
+          - "3.2"
+          - NA
+          - "3.9"
+          - NA
+          - "6.6"
+          - "7.3"
+          - NA
+          - NA
+          - "0.4"
+          - NA
+          - "10.2"
+          - NA
+          - "1.7"
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4259
+        values:
+          - Caudata
+          - Oedipina_villamizariorum
+          - Reyes-Puig, C., Wake, D., Kotharambath, R., Streicher, J., Koch, C., Cisneros-Heredia, D., . . . Ron, S. (2020). Two extremely rare new species of fossorial salamanders of the genus Oedipina (Plethodontidae) from northwestern Ecuador. PeerJ, 8(2), e9934. https://doi.org/10.7717/peerj.9934
+    availableTraitCodes:
+      - SVL
+      - AGS
+      - HL
+      - HW
+      - IOD
+      - ED
+      - EN
+      - UEW
+      - SL
+      - TL
+      - TW
+      - TAH
+      - FLL
+      - HLL
+      - T3L
+      - SF
+      - ELL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - R4PWZ
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

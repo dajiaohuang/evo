@@ -1,0 +1,247 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Gastrotheca argenteovirens
+    name:
+      en: Gastrotheca argenteovirens
+      zh: Gastrotheca argenteovirens
+    sourceClassification:
+      order: Anura
+      family: Hemiphractidae
+      genus: Gastrotheca
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Gastrotheca argenteovirens in the version 3 classification
+          zh: Gastrotheca argenteovirens 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bc5ac83d96
+            part: body
+          zh:
+            page: zh
+            section: s-2cbe7c06d6
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 15 populated trait fields
+          zh: 2 条测量行与 15 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-335f834f02
+            part: body
+          zh:
+            page: zh
+            section: s-af850852a1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1880, 1881; Reference.csv rows 3669
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1880
+        values:
+          - Hemiphractidae
+          - Gastrotheca
+          - Gastrotheca argenteovirens
+          - F
+          - "55.1"
+          - "17.8"
+          - "19.8"
+          - "5.2"
+          - "3.1"
+          - NA
+          - "6.8"
+          - "3.4"
+          - "3.4"
+          - "5.3"
+          - NA
+          - "3.8"
+          - NA
+          - NA
+          - NA
+          - "26.4"
+          - NA
+          - "28.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.9"
+          - NA
+          - "19.2"
+          - NA
+          - NA
+          - NA
+          - "3.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1881
+        values:
+          - Hemiphractidae
+          - Gastrotheca
+          - Gastrotheca argenteovirens
+          - M
+          - "47.9"
+          - "15.8"
+          - "17.2"
+          - "4.8"
+          - "2.7"
+          - NA
+          - "5.8"
+          - "3"
+          - "3.5"
+          - "4.6"
+          - NA
+          - "3.3"
+          - NA
+          - NA
+          - NA
+          - "22.3"
+          - NA
+          - "23.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "8.5"
+          - NA
+          - "16.5"
+          - NA
+          - NA
+          - NA
+          - "2.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3669
+        values:
+          - Anura
+          - Gastrotheca_argenteovirens
+          - Duellman, W. E. (1987). The Taxonomic Status of Populations of Hylid Marsupial Frogs Referred to Gastrotheca argenteovirens (Boettger). Journal of Herpetology, 21, 38-47. doi:10.2307/1564375
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - FL
+      - TL
+      - Fin1L
+      - Fin3L
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6JY6V
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

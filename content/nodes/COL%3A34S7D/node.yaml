@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus studerae
+  displayName: Dendropsophus studerae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S7D
+  sourceIndexes:
+    - name:
+        en: Dendropsophus studerae
+        zh: Dendropsophus studerae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S7D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/426
+            queryName: Dendropsophus studerae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/477
+            queryName: Hyla studerae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-161d28beac
+      - s-b0029fc21e
+      - s-33aec9336f
+      - s-bab3d0d4ba
+      - s-19f5978617
+      - s-d0cb86b5c0
+      - s-61ae7dbe0a
+      - s-26707acf89
+      - s-8e7e81f20b
+      - s-b36b110ecf
+      - s-e5ebb8676e
+      - s-2cb000b354
+    zh:
+      - s-0ec83f0671
+      - s-84f70f12f8
+      - s-601109b8c6
+      - s-5a3a18ce7a
+      - s-2ea279db1c
+      - s-9642e8073b
+      - s-c55cfce45f
+      - s-64af98eb56
+      - s-c17531e8e4
+      - s-125495057c
+      - s-dcfbe8c909
+      - s-867e761ae8

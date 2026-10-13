@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Probreviceps uluguruensis
+  displayName: Probreviceps uluguruensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMBR
+  sourceIndexes:
+    - name:
+        en: Probreviceps uluguruensis
+        zh: Probreviceps uluguruensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMBR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/203
+            queryName: Probreviceps uluguruensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/337
+            queryName: Breviceps uluguruensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5384cbd2c8
+      - s-87ba90c3a6
+      - s-6c21bfc58e
+      - s-66541ba26e
+      - s-af558b17d2
+      - s-e23eea5df0
+      - s-d7a47080a1
+      - s-2d306ab33f
+      - s-03ab201c1e
+      - s-401eaca790
+    zh:
+      - s-fc716247bb
+      - s-cc92b152ef
+      - s-eee53d0f81
+      - s-a06f301854
+      - s-8190ea569f
+      - s-3644a24175
+      - s-c2ba5dd9ad
+      - s-7d955ee3e7
+      - s-ac4b8c448e
+      - s-b195fb66fb

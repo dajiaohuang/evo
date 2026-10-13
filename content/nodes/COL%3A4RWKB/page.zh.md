@@ -1,0 +1,5 @@
+## Rhabdoweisia fugax：一项陆生生境标签 {#s-b2f30d6c8b}
+Brazilian Flora 2020 的生境字段将 *Rhabdoweisia fugax* 记为“Terrícola”（陆生）。
+
+该区域数据集行只给出生境类别，没有采集地点、调查日期或完整分布范围信息。
+

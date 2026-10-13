@@ -1,0 +1,3 @@
+## Genome structure tests a deep teleost split {#s-b830d4ece4}
+The study compared seven newly sequenced elopomorph genomes with 18 public genomes. It analysed 955 single-copy gene trees alongside 3,041 chromosome-adjacency markers; the sequence and chromosome-structure approaches supported Elopomorpha plus Osteoglossomorpha as a sister branch to Clupeocephala. This is a topology for sampled living lineages, not a complete species tree. The proposed ancestral chromosome fusion is reconstructed from modern genomes, and the study found no single unambiguous morphological character diagnosing the group.
+

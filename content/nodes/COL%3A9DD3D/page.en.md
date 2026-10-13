@@ -1,0 +1,3 @@
+## ## Silky hairs and prominent bracts {#s-99029c7a6b}
+The Brazilian Flora 2020 entry records silky stem hairs that curve inward and unbranched, thread-like setae; branched setae, glandular hairs, prickles and short shoots are absent. The stipules are shed, extrafloral nectaries are absent, and a projection occurs between pinna pairs. The inflorescences are globose, with floral bracts longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx with absent or triangular lobes. Corolla lobes are tomentose and have one to three veins; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial,” without a locality or finer habitat description.
+

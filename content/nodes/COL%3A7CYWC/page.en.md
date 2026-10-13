@@ -1,0 +1,3 @@
+## What leaf, flower and seed traits are recorded for Turnera collotricha? {#s-6cfbc3c02d}
+The branches have simple hairs and stalked glandular hairs with rounded heads. Stipules may be reduced to glands; petioles may be present or absent, and extrafloral nectaries are absent. Blades are obovate, elliptic or rhombic, entire near the base and toothed farther along; their upper surface may be nearly hairless or silky-woolly, and the lower is silky-woolly. The inflorescence has one flower, a peduncle and bracteoles, but no pedicel. The yellow corolla lacks a corona; the filaments join the floral tube at the base. Styles are heterostylous. The fruit exocarp is granular; seeds are net-veined, with a smooth coat and blunt chalaza.
+

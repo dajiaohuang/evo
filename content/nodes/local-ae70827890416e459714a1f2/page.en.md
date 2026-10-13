@@ -1,0 +1,6 @@
+## TadpoleTraits classification for Rhacophorus translineatus {#s-224cbec481}
+TadpoleTraits version 4 places Rhacophorus translineatus in Rhacophorus (Rhacophoridae) under Amphibian Species of the World 6.2 (2024) as recorded by the dataset authors. Its literature rows retain the source names Rhacophorus translineatus. The match to a current COL26.8 species concept remains unresolved; this page reports the compilation label, not a confirmed current catalogue identity.
+
+## 3 literature rows and 0 image rows {#s-688a2ae750}
+TadpoleTraits version 4 links 3 literature rows and 0 image rows to Rhacophorus translineatus. Source row numbers — literature: 5082, 5083, 5084; image: none recorded. Populated measurement fields — literature: TL, BL, TaL; image: none recorded. Literature row 5082: Stage 43; Literature row 5083: Stage 43; Literature row 5084: Stage NA. Image rows have no Stage value. Stage is the source developmental-stage label. Row counts are compilation entries, not unique-tadpole counts, and the source’s Sample size field is retained and values from different studies are not added. Absolute-measurement units and primary-work details remain unconfirmed; this scope does not establish adult morphology or a range-wide diagnosis.
+

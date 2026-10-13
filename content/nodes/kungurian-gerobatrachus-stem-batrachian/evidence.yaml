@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-ef29da8267
+      part: title
+    titleZh:
+      page: zh
+      section: s-d58dece87b
+      part: title
+    category: origin
+    startAge: 283.3
+    endAge: 274.4
+    regions:
+      - Clear Fork Group, Baylor County, Texas, USA
+    clades:
+      - Gerobatrachus hottoni
+      - stem Batrachia
+    summary:
+      page: en
+      section: s-ef29da8267
+      part: body
+    summaryZh:
+      page: zh
+      section: s-d58dece87b
+      part: body
+    claimIds:
+      - claim:event:kungurian-gerobatrachus-stem-batrachian
+    evidenceItems:
+      - statement: USNM 489135 is the sole holotype from USNM locality 40971, Don’s Dump Fish Quarry.
+        relation: supports
+        claimIds:
+          - claim:event:kungurian-gerobatrachus-stem-batrachian
+        referenceLinks:
+          - relation: supports
+            referenceId: anderson-2008-gerobatrachus
+            pages: 515–518
+            figure: Figures 1–4
+            quoteLocator: Systematic palaeontology; locality; phylogenetic analysis
+    uncertaintyItems:
+      - statement: The Kungurian display interval uses the current chart; the source reports Early Permian Leonardian, not a direct radiometric specimen age.
+        relation: contextualizes
+        claimIds:
+          - claim:event:kungurian-gerobatrachus-stem-batrachian
+        referenceLinks:
+          - relation: supports
+            referenceId: anderson-2008-gerobatrachus
+            pages: 515–518
+            figure: Figures 1–4
+            quoteLocator: Systematic palaeontology; locality; phylogenetic analysis
+  claims:
+    - subjectId: event:kungurian-gerobatrachus-stem-batrachian
+      claimKind: scientific
+      claimType: topology
+      statement: The sole Gerobatrachus hottoni holotype USNM 489135 combines frog-like and salamander-like characters and was recovered as a stem batrachian in the original analysis; it is neither crown Batrachia nor a demonstrated direct ancestor or global first appearance.
+      confidence: medium
+      confidenceRationale: A nearly complete articulated holotype and published character matrix support the morphology and proposed placement; medium confidence keeps the topology analysis-sensitive.
+      referenceLinks:
+        - relation: supports
+          referenceId: anderson-2008-gerobatrachus
+          pages: 515–518
+          figure: Figures 1–4
+          quoteLocator: Systematic palaeontology; phylogenetic analysis
+  claim-rationales.zh:
+    - 该主张绑定具名标本或明确数据集及一手来源定位；置信度仅适用于所述样本、方法与边界，不外推为全球首次出现、直接祖先或完整类群覆盖。
+  claim-statements.zh:
+    - 唯一的 Gerobatrachus hottoni 正模 USNM 489135 兼具似蛙与似蝾螈性状，并在原始分析中落在蛙螈类干群；它既非冠群蛙螈类，也不是已证实的直接祖先或全球首次出现。

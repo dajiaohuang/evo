@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ecnomiohyla thysanota
+  displayName: Ecnomiohyla thysanota
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38NHG
+  sourceIndexes:
+    - name:
+        en: Ecnomiohyla thysanota
+        zh: Ecnomiohyla thysanota
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38NHG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/113
+            queryName: Ecnomiohyla thysanota
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/481
+            queryName: Hyla thysanota
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a3c53d1064
+      - s-8116c1ddd2
+      - s-2e51bdeea0
+      - s-5039be7c66
+      - s-81cceffc34
+      - s-78369a4d35
+      - s-74d1e8a303
+      - s-b9becef16b
+    zh:
+      - s-ca43e63eb8
+      - s-704fba5ac7
+      - s-0af1ee75f7
+      - s-68645969f7
+      - s-94e883092f
+      - s-fb6efb8c96
+      - s-54ff85dddb
+      - s-647cb7418f

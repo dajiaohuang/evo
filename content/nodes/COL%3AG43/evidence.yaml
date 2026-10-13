@@ -1,0 +1,330 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Scincidae
+    rank: family
+    sourceDatasetId: null
+    name:
+      zh: Scincidae
+      en: Scincidae
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-4741e31a7c
+            part: body
+          en:
+            page: en
+            section: s-f432ab5dfb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-52e14ffbd0
+            part: body
+          en:
+            page: en
+            section: s-b1df2921be
+            part: body
+        sourceIds:
+          - vertebralLaminae2016
+      - topic: morphology
+        text:
+          zh:
+            page: zh
+            section: s-3dabeb2c1d
+            part: body
+          en:
+            page: en
+            section: s-5d8b679421
+            part: body
+        sourceIds:
+          - vertebralLaminae2016
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-b5efb9932d
+            part: body
+          en:
+            page: en
+            section: s-f4b2015f40
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-5e4f1cdd0a
+            part: body
+          en:
+            page: en
+            section: s-f79fe16964
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-f328a182b9
+            part: body
+          en:
+            page: en
+            section: s-6d1bb25a93
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-a3713121a9
+            part: body
+          en:
+            page: en
+            section: s-f337d2303c
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-b09ee62a7e
+            part: body
+          en:
+            page: en
+            section: s-d3b2917b0b
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-5d333aefb9
+            part: body
+          en:
+            page: en
+            section: s-c0a448ab0d
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-0c81584d83
+            part: body
+          en:
+            page: en
+            section: s-89d62a610d
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsLimitedV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-c7ef4bae4f
+            part: body
+          en:
+            page: en
+            section: s-de4031e99f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Scincidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/G43
+          locator: Accepted name, rank and parent in dataset 316115; no living-status inference.
+      - id: vertebralLaminae2016
+        referenceId: ref-21f9fcaf-7549-4654-a320-79673b011217
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Material & Methods; Terminology; Ontogenetic Changes and Taxonomic Utility
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            en: The named sampled species routes and anatomical terminology; not complete descendant coverage.
+            zh: 仅支持列出的样本物种阅读路径与解剖术语，不代表完整后代覆盖。
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 1218 authored records grouped under Scincidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 4
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 52 authored same-name records placed under Scincidae by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: reptTraitsLimitedV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - fieldCountDistribution
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 431 authored records grouped under Scincidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          readingTargets:
+            - colId: 8L4Y
+              name: Ablepharus darvazi
+              canonicalPath: content/nodes/COL%3A8L4Y
+            - colId: C67JS
+              name: Ablepharus eremchenkoi
+              canonicalPath: content/nodes/COL%3AC67JS
+            - colId: C67K5
+              name: Ablepharus mahabharatus
+              canonicalPath: content/nodes/COL%3AC67K5
+            - colId: C67KC
+              name: Ablepharus tragbulensis
+              canonicalPath: content/nodes/COL%3AC67KC
+            - colId: 9H63
+              name: Acontias bicolor
+              canonicalPath: content/nodes/COL%3A9H63
+          fieldCountDistribution:
+            "1": 95
+            "2": 136
+            "3": 200
+    limitations:
+      zh:
+        page: zh
+        section: s-1e2d7481b2
+        part: body
+      en:
+        page: en
+        section: s-d41e332819
+        part: body

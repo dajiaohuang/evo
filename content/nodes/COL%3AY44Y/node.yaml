@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus phaeobalius
+  displayName: Cophixalus phaeobalius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44Y
+  sourceIndexes:
+    - name:
+        en: Cophixalus phaeobalius
+        zh: Cophixalus phaeobalius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/474
+            queryName: Cophixalus phaeobalius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b868de9a77
+      - s-fb628ea96c
+      - s-8e859cd689
+      - s-54e8d474be
+      - s-66892293d5
+      - s-54aaba3ca0
+    zh:
+      - s-6f6622f1a0
+      - s-baf6d445c4
+      - s-92cffd0831
+      - s-bab3a3b718
+      - s-0069a51825
+      - s-0c2b875213

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis obmutescens
+  displayName: Pristimantis obmutescens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJW
+  sourceIndexes:
+    - name:
+        en: Pristimantis obmutescens
+        zh: Pristimantis obmutescens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/447
+            queryName: Pristimantis obmutescens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/458
+            queryName: Eleutherodactylus obmutescens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-237297ad5b
+      - s-253eff2501
+      - s-a997f86eb7
+      - s-ffc1782f4d
+      - s-6a57135c8e
+      - s-899521499b
+      - s-d9ac36d244
+    zh:
+      - s-fc9e77da65
+      - s-65f136aa20
+      - s-b62dce4bff
+      - s-6cfe81c718
+      - s-523b506bbf
+      - s-38ca720630
+      - s-9cd3e93ba8

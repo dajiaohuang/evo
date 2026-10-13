@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus pictus
+  displayName: Neobatrachus pictus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46B2M
+  sourceIndexes:
+    - name:
+        en: Neobatrachus pictus
+        zh: Neobatrachus pictus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46B2M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/238
+            queryName: Neobatrachus pictus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/222
+            queryName: Neobatrachus fictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/223
+            queryName: Heleioporus pictus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6ac538af30
+      - s-aa4f3ee19a
+      - s-ef9669ff69
+      - s-e6b365b7d1
+      - s-47f2fa1fa0
+      - s-453ed59d1c
+      - s-3be2b690ad
+      - s-582b79b4cf
+      - s-a45f616e94
+      - s-8660bad779
+      - s-1e9260fa4d
+      - s-b13b77bfa7
+    zh:
+      - s-ba6bca39f6
+      - s-9a79dcb6ef
+      - s-30cfd5f78c
+      - s-5cbc6022c1
+      - s-d078be0b07
+      - s-be2046a764
+      - s-aefa472769
+      - s-86e1096c27
+      - s-c3bba6b0d6
+      - s-b2af7c1f30
+      - s-4afc99874e
+      - s-77b720d22e

@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Philautus acutus
+  displayName: Philautus acutus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76YHC
+  sourceIndexes:
+    - name:
+        en: Philautus acutus
+        zh: Philautus acutus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76YHC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/34
+            queryName: Philautus acutus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fa5b94150f
+      - s-c0f4f60c14
+      - s-20f64e6de1
+      - s-b43da97172
+      - s-04f9d0f74c
+      - s-3c74c9a32a
+      - s-4f0c56fe33
+      - s-21cc8caeab
+    zh:
+      - s-293ebbc49b
+      - s-6140ddb740
+      - s-7076a24649
+      - s-a510788ec8
+      - s-2c0762fd74
+      - s-9a3b9f6af4
+      - s-007835ecb2
+      - s-9b1cef4faa

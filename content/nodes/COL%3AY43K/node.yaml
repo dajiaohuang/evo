@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus balbus
+  displayName: Cophixalus balbus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43K
+  sourceIndexes:
+    - name:
+        en: Cophixalus balbus
+        zh: Cophixalus balbus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/430
+            queryName: Cophixalus balbus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51206577e4
+      - s-20f0bc69e8
+      - s-49ecabaf87
+      - s-250b33de28
+      - s-a210a3f036
+      - s-0ea40e4ace
+      - s-8867a1c50e
+      - s-ff4709f410
+      - s-48c94df6d4
+      - s-e84baf5118
+    zh:
+      - s-b15da17bc2
+      - s-d61932e908
+      - s-512e8e1e74
+      - s-1f68e4fc1c
+      - s-cc8a42b128
+      - s-1c54c7a268
+      - s-7be42a4cbd
+      - s-6ef00a452d
+      - s-d0eb85b9a7
+      - s-18bc99f38b

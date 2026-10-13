@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Haworthiopsis granulata (Marloth) G.D.Rowley
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6LFBL, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 6LFBL; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6LFBL
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6LFBL
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001338837-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6LFBL / WFO wfo-0001338837
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11888_0
+        referenceId: ref-3f9aab3d-9cb0-8429-a98f-912631781334
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Haworthiopsis granulata (Marloth) G.D.Rowley account; SANBI/WFO archive rows 67853 (Morphology), 67131 (Habitat), 66133 (Diagnostic), source identifier 11888.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants acaulescent, sometimes caulescent, about 30 to 40 mm diam., up to 9 cm high. Leaves about 15, 20 to 30 mm long, 10 to 15 mm broad, the young erect, the old ascending, somewhat spreading, ovate-lanceolate, short tapering, grey-green or reddish-brown; upper surface concave, smooth, not pellucid, with a few indistinct parallel lines; lower surface convex, with grey-green tubercles arranged in transverse rows; margins acute below, rounded near the apex of the leaf, tubercled. Inflorescence about 28 cm tall; peduncle simple, terete, about 2 mm diam., 21 cm long, bracteate; sterile bracts membranous, ovate, abruptly long acuminate, about 20 mm long, erect, keeled; raceme about 7 cm long, lax, with 7 or 8 spirally arranged flowers and buds, 2 open simultaneously; floral bracts membranous, 4 mm long, deltoid, acute, keeled with dark brown veins, clasping the pedicels, (equal in length to the pedicels); pedicels 4 mm long, 2.5 mm diam., light green, erect; perianth pinkish-white with brown keels to the segments, 13 mm long, compressed at base, funnel-shaped, tube more or less 3.5 mm across, constricted to 2.5 mm above, straight; segments not free to the base, limb 2 lipped; posterior segments little recurved, white, not spreading, with broad brown veins; exterior part recurved, spreading, white with brown veins; stamens 6 of two lengths, 5 and 6 mm long, inserted within the perianth tube; ovary 2.5 mm long, 1.25 mm diam., green; style 2.5 mm long, straight, light green, capitate.
+            textZh: Haworthiopsis granulata (Marloth) G.D.Rowley 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_11888_0
+            locator: "SANBI/WFO archive Morphology row 67853; source identifier 11888.0; cited publication: Scott, CL. 1985. The genus Haworthia (Liliaceae): a taxonomic revision. Aloe Books, Johannesburg. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Its nearest relative seems to be H. nigra which is characterized by its brown-black colour.
+            textZh: SANBI 条目提供了 Haworthiopsis granulata (Marloth) G.D.Rowley 的鉴别特征。
+            sourceIds:
+              - sanbi_11888_0
+            locator: "SANBI/WFO archive Diagnostic row 66133; source identifier 11888.0; cited publication: Scott, CL. 1985. The genus Haworthia (Liliaceae): a taxonomic revision. Aloe Books, Johannesburg. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: It grows with other succulent plants on rugged slopes at altitudes of 600 to 800 m, usually in humus rich pockets amongst stones under low Karoo scrub as solitary plants, but it has also been found to form small clusters. In its distribution area the annual summer rainfall does not exceed 120 mm. H. granulata grows in a firm hard soil with pH 6.
+            textZh: 该 SANBI 区域物种条目记录的生境：It grows with other succulent plants on rugged slopes at altitudes of 600 to 800 m, usually in humus rich pockets amongst stones under low Karoo scrub as solitary plants, but it has also been found to form small clusters. In its distribution area the annual summer rainfall does not exceed 120 mm. H. granulata grows in a firm hard soil with pH 6.
+            sourceIds:
+              - sanbi_11888_0
+            locator: "SANBI/WFO archive Habitat row 67131; source identifier 11888.0; cited publication: Scott, CL. 1985. The genus Haworthia (Liliaceae): a taxonomic revision. Aloe Books, Johannesburg. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

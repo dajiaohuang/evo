@@ -1,0 +1,15 @@
+## Read this historical record through food and foraging position {#s-460293faf5}
+Pinned COL26.8 places *Campethera maculosa* in the woodpecker family, Picidae. EltonTraits 1.0 contains an older record with the same name and family; this page follows that match. Its taxonomy comes from an earlier bird or MSW3 mammal framework, so the name alone cannot settle later species splits or synonymies.
+
+## Relative weights of food categories {#s-802f2eea9e}
+In EltonTraits, the only nonzero food weight recorded here is invertebrates: 100%. The accompanying A code marks high compiler confidence in the source and diet information. These percentages are standardized readings of written descriptions, not measured portions of a diet; a zero value does not show that a food is never eaten. Labels such as Nect, Seed and PlantO also cover more than their everyday names suggest, so they do not mean an animal eats only nectar, seeds or plants.
+
+## Foraging strata differ from whole-day activity {#s-946b1dcc05}
+The archive marks these feeding-position estimates as species-level: trees or tall bushes from 2 m up to, but below, the canopy 40%; ground 20%; understory, edges or shrubs below 2 m 20%; and within or just above the canopy 20%. The percentages describe relative use while feeding. They do not describe nest sites, all habitat or time spent over a whole day. The source defines surface-water, understory, mid/high, canopy and aerial positions differently; none is an elevation band, flight height or measure of habitat area.
+
+## Trace each field group to its source labels {#s-d93bd1c75f}
+Both selected field groups carry the label Ref_7. Diet, feeding position and activity may draw on different material, and Ref_7 in a bird reference table is not automatically the same work as Ref_7 in a mammal table. The archived record preserves each full source string with its file, row, field group and reference table. The underlying books and papers have not been read individually, so these labels are not additional independent observations.
+
+## Life-history evidence limits {#s-4561cda0a8}
+This page guides readers through a historical, same-name and same-family foraging record in EltonTraits 1.0; it is not a full species account. A matching name and family do not show that the older species concept is equivalent to the one in COL26.8. Food and bird foraging-position percentages are coarse relative weights standardized from written literature, not direct measurements of stomach contents, intake, energy use or observation time. Bird diet codes A and B retain uncertainty about sources and proportions. In the mammal tables, ABC diet or activity codes may also draw on a congener the compilers judged ecologically similar; the page does not claim direct observation of this species for every field. Genus- or family-level typical values, bird positions not marked species-level, and split records awaiting individual review were not used as definite species conclusions. The underlying books and papers have not been individually reread. Other sources are needed for individual, seasonal and local variation, current range, population and conservation.
+

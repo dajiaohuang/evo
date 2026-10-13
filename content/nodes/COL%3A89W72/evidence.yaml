@@ -1,0 +1,124 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aedes (Stegomyia) aegypti (Linnaeus, 1762)
+    rank: species
+    sourceDatasetId: "1101"
+    readerText:
+      en:
+        hostOdorAssay:
+          page: en
+          section: s-2ce4331beb
+          part: body
+      zh:
+        hostOdorAssay:
+          page: zh
+          section: s-71d72d8b43
+          part: body
+    identity:
+      method: Exact COL26.8 usage ID, accepted status, name, authorship, rank, and sourceDatasetId checked against the pinned ChecklistBank dataset 316115 search record.
+      scope: The accepted species concept represented by COL26.8 usage 89W72. No synonym or population concept is substituted.
+      sourceIds:
+        - col
+    lifeStatusScope:
+      wild: Biological claim concerns three laboratory control colonies; claim remains scoped to laboratory host-odor choice.
+      domesticated: Not assessed; no domesticated form claim is made.
+      fossil: Not assessed; no fossil claim is made.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 29
+        usage:
+          licenseAppliesTo: Pinned checklist taxon record and metadata only.
+          title: Catalogue of Life COL26.8, ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/89W72
+          stableId: ChecklistBank dataset 316115 taxon usage 89W72
+          version: COL26.8 snapshot released 2026-08-20
+          publishedAt: 2026-08-20
+          accessedAt: 2026-09-24
+          locator: Taxon usage 89W72; pinned registry search record reports accepted species, Aedes (Stegomyia) aegypti (Linnaeus, 1762), sourceDatasetId 1101.
+          attribution: Catalogue of Life, COL26.8 (2026-08-20), ChecklistBank dataset 316115, taxon usage 89W72.
+          licenseAssessment: identity-only
+          scope: Confirms this batch's pinned accepted-name identity and source-dataset relation; supplies no biological evidence.
+      - id: hostchoice
+        referenceId: ref-c0712759-8135-85c6-adb6-f8e64ea79880
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - accessedAt
+          - locator
+          - license
+          - licenseVersion
+          - licenseUrl
+          - rightsHolder
+          - licenseAppliesTo
+          - attribution
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          licenseAppliesTo: Article text used for paraphrased claims; third-party figures and materials are excluded from this batch.
+          stableId: doi:10.1038/s41598-022-26591-3
+          accessedAt: 2026-09-24
+          locator: Abstract; Methods, mosquito colonies and host-choice assay; Results, paragraph beginning ‘Using a dual-port olfactometer’.
+          attribution: Fikrig K, Rose N, Burkett-Cadena N, et al. (2023), Scientific Reports 13:130, https://doi.org/10.1038/s41598-022-26591-3, CC BY 4.0.
+          licenseAssessment: item-level-verified
+          scope: "Three Aedes aegypti laboratory colonies used as host-choice controls: one zoophilic and two anthropophilic colonies; dual-port assay compared human and guinea-pig odor. Results are control-colony evidence, not a representative species-wide ecology sample."
+    facets:
+      morphology:
+        status: not-assessed
+        gaps:
+          - No species-specific morphology or identification treatment was reviewed in this batch.
+      lifeHistory:
+        status: not-assessed
+        gaps:
+          - No species-specific life-cycle or reproductive evidence was reviewed in this batch.
+      ecology:
+        status: partially-supported
+        claims:
+          - text: The study included one zoophilic and two anthropophilic Aedes aegypti control colonies in laboratory dual-port host-odor choice assays comparing human and guinea-pig odor. This documents the tested control-colony design only; it does not establish species-wide host preference or field feeding ecology.
+            originalLanguage: en
+            sourceIds:
+              - hostchoice
+            locator: Abstract; Methods, mosquito colonies and host-choice assay; Results, opening paragraph.
+            placeTimeScope: Laboratory control colonies in two experimental rounds; published 2023. Colony collection provenance and assay conditions are those specified by the study.
+            lifeStatus: Laboratory colonies; adult host-choice assay.
+        gaps:
+          - Colony-level controls cannot establish the species' geographic variation, natural host use, or wider ecological interactions; these were not assessed here.
+      evolution:
+        status: not-assessed
+        gaps:
+          - No species-level phylogenetic or comparative-evolution study was assessed.
+      distribution:
+        status: not-assessed
+        gaps:
+          - The study's control colonies do not provide a distribution inventory; range boundaries, native versus introduced status, and unsampled areas were not assessed.
+      fossil:
+        status: not-assessed
+        gaps:
+          - No bounded fossil-record search was conducted.
+      conservation:
+        status: not-assessed
+        gaps:
+          - No dated conservation assessment was reviewed; no risk category is inferred.

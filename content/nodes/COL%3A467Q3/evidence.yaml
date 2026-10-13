@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Nemesia calcarata E.Mey. ex Benth.
+    rank: species
+    sourceDatasetId: "1141"
+    identity:
+      method: Exact COL26.8 accepted species usage 467Q3, name, authorship, rank, status and source dataset verified against pinned registry; WFO 2026-06 maps the same COL ID by exact accepted name/authorship, and SANBI archive records the matching WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 467Q3; retain the cited source's regional and publication scope and do not assume full concept equivalence from name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain source scope; native, naturalised, and cultivated occurrences are distinguished only where stated.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant records are not used to infer fossils.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/467Q3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 467Q3
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001137395-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 467Q3 / WFO wfo-0001137395
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14771_0
+        referenceId: ref-9f0ff3b1-97f7-83b9-acf2-d6d04ae0abdb
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Nemesia calcarata E.Mey. ex Benth. account; archive rows 35541 (Morphology), 40912 (Habitat), source identifier 14771.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Annual, up to 300 mm tall. Leaves elliptic-lanceolate, slightly toothed. Flowers in lax racemes, calyx lobes ovate, glandular pubescent, corolla up to 26 mm long, upper lip white or pale yellow, lower lip yellow to orange-yellow, palate with 2 orange glabrous bosses, spur ± 12 mm long, projecting downwards or deflected forward, ± straight, acute, exceeding lower lip, glandular pubescent. Capsule broadly ovate, ± 9 x 8 mm, glandular pubescent.
+            sourceIds:
+              - sanbi_14771_0
+            locator: "SANBI/WFO archive Morphology row 35541; source 14771.0; publication: Steiner, KE. 2013. Scrophulariaceae: Nemesia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 467 - 470. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Only regional morphology and diagnostic descriptions have been assessed; developmental and population-level variation remains unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Sandy slopes and flats.
+            sourceIds:
+              - sanbi_14771_0
+            locator: "SANBI/WFO archive Habitat row 40912; source 14771.0; publication: Steiner, KE. 2013. Scrophulariaceae: Nemesia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 467 - 470. South African National Biodiversity Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year appears in the cited reference. The excerpt gives no dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; wild, naturalised, cultivated, and domesticated status are not inferred beyond explicit source statements.
+        gaps:
+          - Habitat excerpt does not establish seasonality, observation localities, interactions, or ecology across the full range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+  catalogue-profile:
+    scientificName: Nemesia calcarata E.Mey. ex Benth.
+    rank: species
+    sourceDatasetId: "1141"
+    name:
+      en: Nemesia calcarata
+      zh: Nemesia calcarata
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 1141
+          url: https://www.checklistbank.org/dataset/316115/taxon/467Q3
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 467Q3
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+          licenseAssessment: identity-only
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0001137395-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 467Q3 / WFO wfo-0001137395
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+          licenseAssessment: identity-only
+      - id: sanbi_14771_0
+        referenceId: ref-9f0ff3b1-97f7-83b9-acf2-d6d04ae0abdb
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+          - licenseAssessment
+        metadataVariant: 0
+        usage:
+          locator: Nemesia calcarata E.Mey. ex Benth. account; archive rows 35541 (Morphology), 40912 (Habitat), source identifier 14771.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+          licenseAssessment: aggregate-declaration-only
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3fbff3ae20
+            part: title
+          zh:
+            page: zh
+            section: s-e7285148bd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3fbff3ae20
+            part: body
+          zh:
+            page: zh
+            section: s-e7285148bd
+            part: body
+        sourceIds:
+          - sanbi_14771_0
+        locator: "SANBI/WFO archive Morphology row 35541; source 14771.0; publication: Steiner, KE. 2013. Scrophulariaceae: Nemesia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 467 - 470. South African National Biodiversity Institute, Pretoria. [CC BY]"
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5fa22f3c08
+            part: title
+          zh:
+            page: zh
+            section: s-3b7728c531
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5fa22f3c08
+            part: body
+          zh:
+            page: zh
+            section: s-3b7728c531
+            part: body
+        sourceIds:
+          - sanbi_14771_0
+        locator: "SANBI/WFO archive Habitat row 40912; source 14771.0; publication: Steiner, KE. 2013. Scrophulariaceae: Nemesia. In: DA Snijman (ed.), Plants of the Greater Cape Floristic Region 2: The Extra Cape flora, Strelitzia 30: 467 - 470. South African National Biodiversity Institute, Pretoria. [CC BY]"

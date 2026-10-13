@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Odontophrynus cordobae
+    name:
+      en: Odontophrynus cordobae
+      zh: Odontophrynus cordobae
+    sourceClassification:
+      order: Anura
+      family: Odontophrynidae
+      genus: Odontophrynus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Odontophrynus cordobae in the version 3 classification
+          zh: Odontophrynus cordobae 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8c2c5d3a2b
+            part: body
+          zh:
+            page: zh
+            section: s-ae82751bf1
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 12 populated trait fields
+          zh: 2 条测量行与 12 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-4e77771966
+            part: body
+          zh:
+            page: zh
+            section: s-a3194f2ff1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3720, 3721; Reference.csv rows 960
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3720
+        values:
+          - Odontophrynidae
+          - Odontophrynus
+          - Odontophrynus cordobae
+          - F
+          - "53.08"
+          - "17.05"
+          - "21.95"
+          - "5.1"
+          - NA
+          - NA
+          - "9.03"
+          - "3.15"
+          - "7.43"
+          - "4.05"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "23.93"
+          - NA
+          - NA
+          - "16.93"
+          - "18.65"
+          - NA
+          - NA
+          - "5.33"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3721
+        values:
+          - Odontophrynidae
+          - Odontophrynus
+          - Odontophrynus cordobae
+          - M
+          - "45.88"
+          - "16.47"
+          - "20.52"
+          - "5.29"
+          - NA
+          - NA
+          - "8.06"
+          - "2.78"
+          - "6.74"
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "21.96"
+          - NA
+          - NA
+          - "15.49"
+          - "18.14"
+          - NA
+          - NA
+          - "4.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 960
+        values:
+          - Anura
+          - Odontophrynus_cordobae
+          - Martino, A. L., & Sinsch, U. (2006). Speciation by polyploidy in Odontophrynus americanus. Journal of Zoology, 257(1), 67-81. https://doi.org/10.1017/s0952836902000663
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - LAL
+      - TL
+      - THL
+      - IMT
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 48R2Z
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

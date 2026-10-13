@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nyctibatrachus vasanthi
+  displayName: Nyctibatrachus vasanthi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/485GX
+  sourceIndexes:
+    - name:
+        en: Nyctibatrachus vasanthi
+        zh: Nyctibatrachus vasanthi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 485GX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/367
+            queryName: Nyctibatrachus vasanthi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/117
+            queryName: Nyctibatrachus pillaii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8fc75bf573
+      - s-e59c246929
+      - s-e87b506470
+      - s-a54617f66e
+      - s-cf16fc40fb
+      - s-8b47aac84c
+      - s-5a6e7e99f3
+      - s-aa9973500f
+      - s-23fa927270
+    zh:
+      - s-9ecb5f0b8b
+      - s-59d0e65837
+      - s-b89fb3894e
+      - s-04e213b989
+      - s-d1495693f1
+      - s-7a35441be2
+      - s-e0e9304d26
+      - s-eb11350afb
+      - s-2f344554e2

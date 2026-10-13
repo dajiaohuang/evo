@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dryophytes andersonii
+  displayName: Dryophytes andersonii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/37VN8
+  sourceIndexes:
+    - name:
+        en: Dryophytes andersonii
+        zh: Dryophytes andersonii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 37VN8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/34
+            queryName: Dryophytes andersonii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/258
+            queryName: Hyla andersonii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c8184b4439
+      - s-08357f019e
+      - s-03de79bcc5
+      - s-ff8093d93d
+      - s-6dd38b3c6b
+      - s-f31b68860d
+      - s-ce3aca8672
+      - s-aa29c10f03
+      - s-3ad1533679
+    zh:
+      - s-d2de9601cd
+      - s-f8b7b86426
+      - s-84057e5e9d
+      - s-c78875fc9c
+      - s-4a7446ad1d
+      - s-1841010e58
+      - s-a3bf1593eb
+      - s-16ce864bb4
+      - s-0145e5cc49

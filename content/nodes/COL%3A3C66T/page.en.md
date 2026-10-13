@@ -1,0 +1,3 @@
+## Rounded or heart-shaped leaf bases and solitary flowers {#s-bfad686afe}
+A Brazilian Flora 2020 v393.147 field describes elliptic or oval, leathery leaves with rounded or heart-shaped bases and rounded or notched tips. Their margins roll under and lack a hard, cartilage-like edge. The upper midrib, or main leaf vein, is described as grooved or flat, with one vein near the edge. Flowers are solitary. Bract status is unknown; the smaller, inconspicuous bracteoles beside flowers persist. The flower cup is smooth and hairless; its calyx is open in bud, with four sepals and four petals. Fruit shape and surface, fruit bracteole status, seed number and embryo are marked unknown.
+

@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hydrolaetare
+  displayName: Hydrolaetare
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZT7
+  sourceIndexes:
+    - name:
+        en: Hydrolaetare
+        zh: Hydrolaetare
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZT7
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/436
+            queryName: Hydrolaetare
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac01dace56
+      - s-586aa5740e
+      - s-2218a4858b
+      - s-97425fd801
+      - s-b32dfaccfb
+      - s-04a0775516
+    zh:
+      - s-cf9558fb5c
+      - s-4cce6c3d2f
+      - s-d36fb5eba6
+      - s-87118a672e
+      - s-af9d48c84c
+      - s-7340ee6e71

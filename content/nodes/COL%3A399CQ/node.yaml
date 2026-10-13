@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus interorbitalis
+  displayName: Eleutherodactylus interorbitalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399CQ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus interorbitalis
+        zh: Eleutherodactylus interorbitalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399CQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/236
+            queryName: Eleutherodactylus interorbitalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/273
+            queryName: Syrrhophus interorbitalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/465
+            queryName: Syrrhopus interorbitalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/466
+            queryName: Syrrhophis interorbitalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4982c70a77
+      - s-1a999777f1
+      - s-35054b21e8
+      - s-5c115a75fb
+      - s-b56973d6da
+      - s-e97cf35592
+      - s-e3a62f470c
+      - s-fa7c95f867
+      - s-c20fcfe9c4
+      - s-00022fdd93
+      - s-143ba881d5
+      - s-9cecef6d69
+      - s-b771a598a7
+      - s-3f263e9d2b
+      - s-3ca938e489
+      - s-3839b7160f
+    zh:
+      - s-5f4329532a
+      - s-87d0089993
+      - s-4e7c20015d
+      - s-2988b00943
+      - s-1e12dc7c35
+      - s-021baf07b2
+      - s-ad4378c512
+      - s-232ba994f9
+      - s-e72820ca91
+      - s-09f115fae9
+      - s-c7bdd6133a
+      - s-d32695945c
+      - s-6169e565bf
+      - s-2ab8fc6ec0
+      - s-5d7ec319f8
+      - s-a4469df141

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus manengoubensis
+  displayName: Phrynobatrachus manengoubensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW9Z
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus manengoubensis
+        zh: Phrynobatrachus manengoubensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW9Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/148
+            queryName: Phrynobatrachus manengoubensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/200
+            queryName: Arthroleptis manengoubensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ec44a74a92
+      - s-5b3804f0b0
+      - s-0f60463ca6
+      - s-5bf66bb09e
+      - s-da68d09ba8
+      - s-e7d506d51e
+      - s-c259b43efb
+      - s-56575a1eaa
+    zh:
+      - s-16c2d38d26
+      - s-39dccc68d9
+      - s-ec39437f42
+      - s-67f4a70d84
+      - s-f64aaa669f
+      - s-7cf83e8d48
+      - s-c656ca0ac3
+      - s-540c16143c

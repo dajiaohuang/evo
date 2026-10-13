@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys fengshunensis Wang, Zeng, Lyu & Wang, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys fengshunensis
+      zh: Boulenophrys fengshunensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-006335a37e
+            part: title
+          zh:
+            page: zh
+            section: s-3109af4d5d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-006335a37e
+            part: body
+          zh:
+            page: zh
+            section: s-3109af4d5d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-21715c4aa9
+            part: title
+          zh:
+            page: zh
+            section: s-78a5cd2efb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-21715c4aa9
+            part: body
+          zh:
+            page: zh
+            section: s-78a5cd2efb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-a42b7afc15
+            part: title
+          zh:
+            page: zh
+            section: s-9bdb47b1d9
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9jf
+        text:
+          en:
+            page: en
+            section: s-a42b7afc15
+            part: body
+          zh:
+            page: zh
+            section: s-9bdb47b1d9
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e371a59936
+            part: title
+          zh:
+            page: zh
+            section: s-76cdbd8d9d
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9jf
+        text:
+          en:
+            page: en
+            section: s-e371a59936
+            part: body
+          zh:
+            page: zh
+            section: s-76cdbd8d9d
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-ba52b89533
+            part: title
+          zh:
+            page: zh
+            section: s-0d7b8668c1
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9jf
+        text:
+          en:
+            page: en
+            section: s-ba52b89533
+            part: body
+          zh:
+            page: zh
+            section: s-0d7b8668c1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys fengshunensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/LX9JF
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10083232-lx9jf
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys fengshunensis: Species type material, diagnosis, distribution and relevant remarks paragraphs; no illustrations or supplementary maps reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-lx9jf
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys fengshunensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a76cc0ea47
+        part: body
+      zh:
+        page: zh
+        section: s-552c2e011a
+        part: body
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-lx9jf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys fengshunensis
+        evidenceRead: "Boulenophrys fengshunensis: Species type material, diagnosis, distribution and relevant remarks paragraphs; no illustrations or supplementary maps reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Tongguzhang type-locality knowledge in 2023
+              zh: 2023 年的铜鼓嶂模式地点知识
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9jf
+            locator: RESULTS > Boulenophrys fengshunensis; Holotype and Distribution; reading-sections index 51
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3289dc9be2
+                part: body
+              zh:
+                page: zh
+                section: s-8b74ff3d75
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Male and female measurements in the type material
+              zh: 模式材料的雌雄测量
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9jf
+            locator: RESULTS > Boulenophrys fengshunensis; Specimens examined and Diagnosis characters 1–5 and 9; reading-sections index 51
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3cce2218c8
+                part: body
+              zh:
+                page: zh
+                section: s-98715d5921
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-lx9jf
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys fengshunensis
+        evidenceRead: "Boulenophrys fengshunensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9jf
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,36
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eb00be7f20
+                part: body
+              zh:
+                page: zh
+                section: s-2ff467b21a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

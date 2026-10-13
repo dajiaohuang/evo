@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius inornatus
+  displayName: Hyperolius inornatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MQ9K
+  sourceIndexes:
+    - name:
+        en: Hyperolius inornatus
+        zh: Hyperolius inornatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MQ9K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/265
+            queryName: Hyperolius inornatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0ef51d9528
+      - s-58e32a8148
+      - s-9a3f775997
+      - s-b967a7880e
+      - s-688ae6380e
+      - s-92441be139
+      - s-824b7c1d1d
+    zh:
+      - s-a529f2d855
+      - s-4c6ddde72f
+      - s-27c4d84941
+      - s-ce8771539c
+      - s-5fa7d19627
+      - s-f7747ef0f6
+      - s-9555a00bd5

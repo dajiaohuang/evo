@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca psychrophila
+  displayName: Gastrotheca psychrophila
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXW5
+  sourceIndexes:
+    - name:
+        en: Gastrotheca psychrophila
+        zh: Gastrotheca psychrophila
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXW5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/69
+            queryName: Gastrotheca psychrophila
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4dddb33bed
+      - s-499bb5f6ae
+      - s-446064b79d
+      - s-883779e789
+      - s-e1a999dcb5
+      - s-5c44ebf890
+      - s-244a4aea10
+      - s-078b08d2cc
+      - s-7b1ae77256
+      - s-8a55c67dac
+      - s-02278c3c39
+      - s-1647ab7b72
+      - s-9dac4b629f
+      - s-cabd3515fa
+      - s-6febb919c0
+      - s-64767f376c
+      - s-f618b2b62d
+      - s-2a3d1ae78f
+    zh:
+      - s-5954522d6b
+      - s-a816e43155
+      - s-e00ff3afcf
+      - s-6c0720c8a9
+      - s-c4947150bb
+      - s-c1207a3068
+      - s-5a69025fa9
+      - s-883c39dfc6
+      - s-a6fba61615
+      - s-f24c4e4ea7
+      - s-7c09592510
+      - s-7788fa9405
+      - s-2aa6662193
+      - s-778f035848
+      - s-10183a492d
+      - s-f8441b6aeb
+      - s-9beac2b65f
+      - s-fd9a3ae806

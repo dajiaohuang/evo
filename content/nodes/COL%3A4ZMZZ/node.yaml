@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania oculosa
+  displayName: Stefania oculosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZMZZ
+  sourceIndexes:
+    - name:
+        en: Stefania oculosa
+        zh: Stefania oculosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZMZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/305
+            queryName: Stefania oculosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3bc2b6b2a7
+      - s-41941c7655
+      - s-0157f252d0
+      - s-1c3d2cb3c1
+      - s-4aa31d5b3d
+      - s-a6f1c2dba6
+      - s-c9f67cf85a
+    zh:
+      - s-5a5ac95642
+      - s-09d23ca19d
+      - s-efd8b4d9bd
+      - s-2e14b6e3f6
+      - s-f7ac22cd0a
+      - s-ac909cc740
+      - s-35996eef4f

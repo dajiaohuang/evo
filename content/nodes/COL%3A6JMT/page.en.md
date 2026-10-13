@@ -1,0 +1,6 @@
+## A route to one historical species entry {#s-d2b1791c43}
+Catalogue of Life COL26.8 records Paulamys as an accepted genus. The EltonTraits 1.0 route in this batch contains one historical entry grouped under that pinned classification: Paulamys naso. It has one food field group and one foraging-stratum field group, but no mammalian activity-period field group. These are counts in this compilation, not a survey of every Paulamys record or evidence that the animals lack an activity pattern. The methods record describes semiquantitative translation and interpolation, so the fields should be read as historical compiled entries rather than direct measurements of the genus.
+
+## What this route does not establish {#s-03dc5c4804}
+The single named entry, Paulamys naso, does not show that its food or foraging fields describe every member of Paulamys, and the absence of an activity-period field here does not establish that such records do not exist elsewhere. EltonTraits groups this historical entry by ancestry in pinned COL26.8. The attached methods metadata describes semiquantitative translation and interpolation; the underlying studies are not included in this record, so this page makes no claim about their individual findings.
+

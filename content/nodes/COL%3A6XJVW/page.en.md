@@ -1,0 +1,18 @@
+## The name and this data account {#s-0759918860}
+Sapayoa aenigma is accepted in COL26.8 within Sapayoidae. This account summarizes AVONET v7 data under its HBW–BirdLife 2020 name. The source records 4 measured individuals, 4 with a complete morphological set; usable sample sizes may differ among traits.
+
+## Measured beak dimensions {#s-3e098687a9}
+Recorded mean beak measurements are 10.3 mm from the anterior nostril edge to the tip, 7.7 mm in width and 5 mm in depth at that edge. These describe separate dimensions at standardized landmarks, not field-identification cutoffs.
+
+## Wing, tarsus and mass {#s-80767d956c}
+Mean unflattened wing length from the carpal joint to the longest primary is 80.2 mm; mean tarsus length is 14.5 mm. Compiled mean mass is 20.8 g, with source category Dunning. Mass comes from separate species-average information; this does not mean every morphological specimen was weighed.
+
+## Habitat, feeding and lifestyle {#s-1c0c6c17ee}
+The dataset assigns habitat Forest, trophic niche Omnivore and lifestyle Insessorial. These are dominant categories for cross-species comparisons; they do not imply exclusive use of one habitat or food type.
+
+## Movement and geographical summary {#s-d99bc0d75c}
+The migration field classifies this record as sedentary. Historical breeding and resident maps span latitude endpoints 0.23° to 9.64°. This excludes a complete account of non-breeding movements and is not a current-position or global occupancy estimate. Geography and morphological measurements come from different compilation steps.
+
+## Evidence limits {#s-f9d2a99c36}
+This is a guide to historical AVONET v7 data. Morphological values are species averages from the listed samples, not identification diagnoses or ranges of individual variation. Mass uses separately cited literature or weighing sources; morphological sample counts must not be assigned to mass. Habitat, diet and migration are coarse categories; geography concerns historical breeding and resident ranges only. One-to-one historical crosswalks and a matching catalogue name provide the association here, not proof of equivalent species concepts after later splits or lumps. Reproduction, current populations and conservation status require other sources.
+

@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates kingsburyi
+  displayName: Allobates kingsburyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TWYS
+  sourceIndexes:
+    - name:
+        en: Allobates kingsburyi
+        zh: Allobates kingsburyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TWYS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/150
+            queryName: Allobates kingsburyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/104
+            queryName: Colostethus kingsburyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/81
+            queryName: Phyllobates kingsburyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/82
+            queryName: Phyllobates intermedius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/83
+            queryName: Colostethus intermedius
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-85f3b1cb1e
+      - s-0badfddb4c
+      - s-fcc6dd6054
+      - s-b57cc5a394
+      - s-7c03cb5edc
+      - s-1ffb87075c
+      - s-be2b51af1e
+      - s-cfb7bce83d
+      - s-5e621a574f
+      - s-a76433533f
+      - s-0b708c5658
+      - s-6da9191a57
+      - s-8fda5158a4
+      - s-5991c4784f
+      - s-fdae23ca2e
+      - s-bdf76b1dce
+      - s-1efad680b1
+      - s-46367273dd
+      - s-507185cdcc
+      - s-e98b555115
+      - s-f5b9562ca5
+      - s-593dafec90
+      - s-a10e86281e
+    zh:
+      - s-820cabd5f4
+      - s-43f9b99f3b
+      - s-02c50ff614
+      - s-1f5e5f2ab8
+      - s-7de0753ecd
+      - s-ce0af27c6e
+      - s-39a934656d
+      - s-c08d274bb3
+      - s-373f9ebef0
+      - s-d0b6229ad5
+      - s-6a0c449770
+      - s-a54af805d6
+      - s-8886cc77e9
+      - s-dc05665bb9
+      - s-163435b527
+      - s-6f674ebfad
+      - s-d730b6ac33
+      - s-be93e8c2fc
+      - s-3fcd399d88
+      - s-9fcb88ab26
+      - s-b7075f980e
+      - s-addf80655e
+      - s-4d799f8f45

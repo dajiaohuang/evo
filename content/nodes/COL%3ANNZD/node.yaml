@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bufo bankorensis
+  displayName: Bufo bankorensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/NNZD
+  sourceIndexes:
+    - name:
+        en: Bufo bankorensis
+        zh: Bufo bankorensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: NNZD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/497
+            queryName: Bufo bankorensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/467
+            queryName: Bufo bufo bankorensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/468
+            queryName: Bufo japonicus bankorensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8060035048
+      - s-6c7214d3f4
+      - s-f1c18f5d78
+      - s-e5554790f2
+      - s-78169ca93c
+      - s-976f8dcd83
+      - s-4f5f3691a1
+      - s-5ad73e6992
+      - s-955bbc250a
+      - s-8c392324a9
+      - s-9672ea1a2d
+      - s-3dd0f60d27
+      - s-dcd9d65f70
+      - s-3195b2fff3
+      - s-4d29cf848c
+    zh:
+      - s-ea28d61f64
+      - s-8d6954a8ec
+      - s-1c43740971
+      - s-7c21bdada7
+      - s-2b55e149b4
+      - s-e46aac85a0
+      - s-5af98f9e4d
+      - s-1a038f3245
+      - s-01c613c0cc
+      - s-764cde1c02
+      - s-977a69ceb9
+      - s-88c533048c
+      - s-d2b24e9a5a
+      - s-81fee0781e
+      - s-534f0d2cff

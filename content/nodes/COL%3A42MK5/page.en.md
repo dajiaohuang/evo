@@ -1,0 +1,6 @@
+## Leaf veins and an urn-shaped floral cup {#s-e8c80e318e}
+A Brazilian Flora 2020 v393.147 entry records tree-like hairs on young stems. Leaves are listed as elliptic, ovate or oblong, with an acuminate tip, a heart-shaped or rounded base, and fringed or finely toothed margins. Five main longitudinal veins are recorded, sometimes with two faint veins near the leaf edge; the lower surface has sparse simple hairs. Flowers occur in compact clusters or in a dichasial cyme, a cluster with paired branches. The hypanthium is urn-shaped, the calyx remains attached and has flat-ended lobes, and each flower has five petals. The anther connective is not prolonged; its appendages are described as two lower lobes, one dorsal tooth or a continuous form. The anthers are white with one small pore, and the ovary is hairless. These alternatives belong to one regional field and do not quantify variation or provide a complete diagnosis.
+
+## A terrestrial habitat entry {#s-222ff3410b}
+The habitat row labels the setting “terrícola,” or terrestrial. It gives no collection locality, survey date or range coverage, and does not specify whether the record concerns wild, cultivated, managed or fossil material. This category does not describe the species’ full ecology.
+

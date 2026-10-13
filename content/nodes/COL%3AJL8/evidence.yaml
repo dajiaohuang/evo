@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gastrophryninae Fitzinger, 1843
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Gastrophryninae
+      zh: Gastrophryninae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-4ca917f6d7
+            part: title
+          zh:
+            page: zh
+            section: s-a8554c9b5d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4ca917f6d7
+            part: body
+          zh:
+            page: zh
+            section: s-a8554c9b5d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1fd1e88746
+            part: title
+          zh:
+            page: zh
+            section: s-8ad52cf0fe
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1fd1e88746
+            part: body
+          zh:
+            page: zh
+            section: s-8ad52cf0fe
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-9b4fa7d350
+            part: title
+          zh:
+            page: zh
+            section: s-0a84921c2f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 62CSR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A62CSR
+            label:
+              en: Arcovomer
+              zh: Arcovomer
+          - kind: catalogue
+            colId: 3MVX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3MVX
+            label:
+              en: Chiasmocleis
+              zh: Chiasmocleis
+          - kind: catalogue
+            colId: 3X32
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3X32
+            label:
+              en: Ctenophryne
+              zh: Ctenophryne
+          - kind: catalogue
+            colId: "4245"
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4245
+            label:
+              en: Dasypops
+              zh: Dasypops
+          - kind: catalogue
+            colId: 43FD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A43FD
+            label:
+              en: Dermatonotus
+              zh: Dermatonotus
+          - kind: catalogue
+            colId: 632QW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A632QW
+            label:
+              en: Elachistocleis
+              zh: Elachistocleis
+          - kind: catalogue
+            colId: 634TQ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A634TQ
+            label:
+              en: Gastrophryne
+              zh: Gastrophryne
+          - kind: catalogue
+            colId: 4T74
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4T74
+            label:
+              en: Hamptophryne
+              zh: Hamptophryne
+          - kind: catalogue
+            colId: 638F5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A638F5
+            label:
+              en: Hypopachus
+              zh: Hypopachus
+          - kind: catalogue
+            colId: 5W8X
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5W8X
+            label:
+              en: Myersiella
+              zh: Myersiella
+          - kind: catalogue
+            colId: 7N6L
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A7N6L
+            label:
+              en: Stereocyclops
+              zh: Stereocyclops
+        text:
+          en:
+            page: en
+            section: s-9b4fa7d350
+            part: body
+          zh:
+            page: zh
+            section: s-0a84921c2f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Gastrophryninae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JL8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6404d038a0
+        part: body
+      zh:
+        page: zh
+        section: s-718d93e650
+        part: body

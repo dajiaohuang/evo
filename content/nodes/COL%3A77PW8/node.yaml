@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon larselli
+  displayName: Plethodon larselli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77PW8
+  sourceIndexes:
+    - name:
+        en: Plethodon larselli
+        zh: Plethodon larselli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77PW8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/475
+            queryName: Plethodon larselli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 52
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/449
+            queryName: Plethodon vandykei larselli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-78b0ce6ab1
+      - s-1d0430247e
+      - s-bf780f17ab
+      - s-e50d2ae73b
+      - s-84056629b3
+      - s-2bfea35867
+      - s-a6bc46e7f7
+      - s-fcb4a63860
+      - s-4b6eae4208
+    zh:
+      - s-7465372ed5
+      - s-94ab95cb5d
+      - s-934800ee10
+      - s-5728f38b10
+      - s-7ce5db9211
+      - s-c346fc6ab7
+      - s-2bed5a2ee3
+      - s-3ddddc526d
+      - s-2321e9a370

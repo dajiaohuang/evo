@@ -1,0 +1,639 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Prodesmodon copei
+    rank: species
+    sourceTaxonId: txn:67754
+    name:
+      en: Prodesmodon copei
+      zh: Prodesmodon copei
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-5d8bacd9a9
+            part: body
+          zh:
+            page: zh
+            section: s-526f066ce3
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 32 PBDB occurrence rows and collection fields
+          zh: 32 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-ea1bef78d7
+            part: body
+          zh:
+            page: zh
+            section: s-2faa3a11f7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Prodesmodon copei
+          zh: Prodesmodon copei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-568566112b
+            part: body
+          zh:
+            page: zh
+            section: s-a3627a9b23
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:67754; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+    occurrenceEvidence:
+      - occurrenceId: occ:149314
+        collectionId: col:13142
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:4381
+        bibliography: R. Estes, P. Berberian, and C. A. M. Meszoely. 1969. Lower vertebrates from the Late Cretaceous Hell Creek Formation, McCone County, Montana. Breviora 337:1-33
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: McCone County
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:149340
+        collectionId: col:13142
+        acceptedTaxonId: txn:67754
+        identifiedTaxonId: txn:63645
+        identifiedName: Cuttysarkus mcnallyi
+        taxonomicDifference: null
+        referenceId: ref:4381
+        bibliography: R. Estes, P. Berberian, and C. A. M. Meszoely. 1969. Lower vertebrates from the Late Cretaceous Hell Creek Formation, McCone County, Montana. Breviora 337:1-33
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: McCone County
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:382974
+        collectionId: col:36449
+        acceptedTaxonId: txn:67754
+        identifiedName: Prodesmodon ? copei
+        taxonomicDifference: null
+        referenceId: ref:9765
+        bibliography: J. G. Armstrong-Ziegler. 1978. An aniliid snake and associated vertebrates from the Campanian of New Mexico. Journal of Paleontology 52(2):480-483
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: San Juan
+        stratigraphy:
+          group: null
+          formation: Fruitland
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:383939
+        collectionId: col:36543
+        acceptedTaxonId: txn:67754
+        identifiedName: Prodesmodon ? copei
+        taxonomicDifference: null
+        referenceId: ref:9765
+        bibliography: J. G. Armstrong-Ziegler. 1978. An aniliid snake and associated vertebrates from the Campanian of New Mexico. Journal of Paleontology 52(2):480-483
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: San Juan
+        stratigraphy:
+          group: null
+          formation: Fruitland
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:383941
+        collectionId: col:36543
+        acceptedTaxonId: txn:67754
+        identifiedTaxonId: txn:63645
+        identifiedName: Cuttysarkus mcnallyi
+        taxonomicDifference: null
+        referenceId: ref:9765
+        bibliography: J. G. Armstrong-Ziegler. 1978. An aniliid snake and associated vertebrates from the Campanian of New Mexico. Journal of Paleontology 52(2):480-483
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: San Juan
+        stratigraphy:
+          group: null
+          formation: Fruitland
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:464131
+        collectionId: col:14585
+        acceptedTaxonId: txn:67754
+        identifiedName: Prodesmodon copei n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:464158
+        collectionId: col:14585
+        acceptedTaxonId: txn:67754
+        identifiedTaxonId: txn:63645
+        identifiedName: Cuttysarkus mcnallyi n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:464356
+        collectionId: col:14514
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:1129
+        bibliography: B. H. Breithaupt. 1982. Paleontology and paleoecology of the Lance Formation (Maastrichtian), east flank of Rock Springs Uplift, Sweetwater County, Wyoming. Contributions to Geology, University of Wyoming 21(2):123-151
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Sweetwater
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:468934
+        collectionId: col:14446
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:3008
+        bibliography: A. Sahni. 1972. The vertebrate fauna of the Judith River Formation, Montana. Bulletin of the American Museum of Natural History 147(6):321-412
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Chouteau
+        stratigraphy:
+          group: Montana
+          formation: Judith River
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:480366
+        collectionId: col:14458
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:13103
+        bibliography: M. T. Carrano. 2005. Fossil Vertebrate Collections, University of California Museum of Paleontology. Berkeley.
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Natrona
+        stratigraphy:
+          group: null
+          formation: Mesaverde
+          member: null
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:483641
+        collectionId: col:14505
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:13103
+        bibliography: M. T. Carrano. 2005. Fossil Vertebrate Collections, University of California Museum of Paleontology. Berkeley.
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:487845
+        collectionId: col:14519
+        acceptedTaxonId: txn:67754
+        identifiedTaxonId: txn:63645
+        identifiedName: Cuttysarkus mcnallyi
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:487850
+        collectionId: col:14519
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:487856
+        collectionId: col:14524
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488013
+        collectionId: col:14538
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488176
+        collectionId: col:14566
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488195
+        collectionId: col:14566
+        acceptedTaxonId: txn:67754
+        identifiedTaxonId: txn:63645
+        identifiedName: Cuttysarkus mcnallyi
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488261
+        collectionId: col:14577
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:13103
+        bibliography: M. T. Carrano. 2005. Fossil Vertebrate Collections, University of California Museum of Paleontology. Berkeley.
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488906
+        collectionId: col:14598
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:13103
+        bibliography: M. T. Carrano. 2005. Fossil Vertebrate Collections, University of California Museum of Paleontology. Berkeley.
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488977
+        collectionId: col:14596
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:488981
+        collectionId: col:14596
+        acceptedTaxonId: txn:67754
+        identifiedTaxonId: txn:63645
+        identifiedName: Cuttysarkus mcnallyi
+        taxonomicDifference: null
+        referenceId: ref:803
+        bibliography: R. Estes. 1964. Fossil vertebrates from the Late Cretaceous Lance Formation, eastern Wyoming. University of California Publications in Geological Sciences 49:1-187
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Niobrara
+        stratigraphy:
+          group: null
+          formation: Lance
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:521326
+        collectionId: col:14766
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:3489
+        bibliography: L. M. Van Valen and R. E. Sloan. 1965. The earliest primates. Science 150(3697):743-745
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: McCone
+        stratigraphy:
+          group: null
+          formation: Tullock
+          member: Collins Ranch
+        olderAgeMa: 66
+        youngerAgeMa: 63.4
+      - occurrenceId: occ:790038
+        collectionId: col:85498
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:28887
+        bibliography: L. E. Wilson. 2008. Comparative taphonomy and paleoecological reconstruction of two microvertebrate accumulations from the Late Cretaceous Hell Creek Formation (Maastrichtian), eastern Montana. Palaios 23:289-297
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:790063
+        collectionId: col:85499
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:28887
+        bibliography: L. E. Wilson. 2008. Comparative taphonomy and paleoecological reconstruction of two microvertebrate accumulations from the Late Cretaceous Hell Creek Formation (Maastrichtian), eastern Montana. Palaios 23:289-297
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1147405
+        collectionId: col:14655
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:1535
+        bibliography: R. C. Fox. 1989. The Wounded Knee local fauna and mammalian evolution near the Cretaceous-Tertiary boundary, Saskatchewan, Canada. Palaeontographica Abteilung A 208(1-3):11-59
+        locality:
+          countryCode: CA
+          stateProvince: Saskatchewan
+          county: null
+        stratigraphy:
+          group: null
+          formation: Frenchman
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395726
+        collectionId: col:14666
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Fort Union
+          member: Tullock
+        olderAgeMa: 66
+        youngerAgeMa: 63.4
+      - occurrenceId: occ:1395738
+        collectionId: col:14792
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Colorado
+          county: Elbert
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 66
+        youngerAgeMa: 63.4
+      - occurrenceId: occ:1395763
+        collectionId: col:144499
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395802
+        collectionId: col:45144
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: North Dakota
+          county: Slope
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+      - occurrenceId: occ:1395860
+        collectionId: col:14498
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: San Juan
+        stratigraphy:
+          group: null
+          formation: Kirtland
+          member: Hunter Wash
+        olderAgeMa: 83.6
+        youngerAgeMa: 72.2
+      - occurrenceId: occ:1548607
+        collectionId: col:218649
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:65027
+        bibliography: "J. D. Gardner and D. G. DeMar. 2013. Mesozoic and Palaeocene lissamphibian assemblages of North America: a comprehensive review. Palaeobiodiversity and Palaeoenvironments 93:459-515"
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Fort Union
+          member: Tullock
+        olderAgeMa: 66
+        youngerAgeMa: 63.4
+      - occurrenceId: occ:1709211
+        collectionId: col:227221
+        acceptedTaxonId: txn:67754
+        taxonomicDifference: null
+        referenceId: ref:820
+        bibliography: L. J. Bryant. 1989. Non-dinosaurian lower vertebrates across the Cretaceous-Tertiary boundary in northeastern Montana. University of California Publications in Geological Sciences 134:1-107
+        locality:
+          countryCode: US
+          stateProvince: Montana
+          county: Garfield
+        stratigraphy:
+          group: null
+          formation: Hell Creek
+          member: null
+        olderAgeMa: 72.2
+        youngerAgeMa: 66
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Prodesmodon copei
+          zh: Prodesmodon copei 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-568566112b
+            part: body
+          zh:
+            page: zh
+            section: s-a3627a9b23
+            part: body
+        sourceIds: []

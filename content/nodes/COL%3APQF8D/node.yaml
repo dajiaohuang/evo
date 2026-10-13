@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kurixalus raoi
+  displayName: Kurixalus raoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PQF8D
+  sourceIndexes:
+    - name:
+        en: Kurixalus raoi
+        zh: Kurixalus raoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PQF8D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/176
+            queryName: Kurixalus raoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ed46a53630
+      - s-87c2ee7a74
+      - s-983add7897
+      - s-46a4d8df67
+      - s-b57ae9149e
+      - s-c39cd27cc0
+      - s-5bdf0d6e0d
+      - s-83bd7a211e
+      - s-5187b6fe04
+    zh:
+      - s-1e81d4c22b
+      - s-2fea54cac9
+      - s-8fa74192dc
+      - s-c732cc3852
+      - s-b20d7e3aac
+      - s-392a13b4c0
+      - s-5a2a00a624
+      - s-149da629c0
+      - s-0e44992c4b

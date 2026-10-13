@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-13939a3e41
+      part: title
+    titleZh:
+      page: zh
+      section: s-02ffee06dc
+      part: title
+    category: function
+    startAge: 509
+    endAge: 443
+    regions:
+      - Burgess Shale and Beecher’s Trilobite Bed specimen samples
+    clades:
+      - Olenoides serratus
+      - Triarthrus eatoni
+      - Trilobita
+    summary:
+      page: en
+      section: s-13939a3e41
+      part: body
+    summaryZh:
+      page: zh
+      section: s-02ffee06dc
+      part: body
+    claimIds:
+      - claim:event:trilobite-upper-limb-gill
+    evidenceItems:
+      - statement: Triarthrus filaments have a narrow central region and inflated margins, while Olenoides preserves a partial body-wall attachment comparable to lamellate respiratory branches.
+        relation: supports
+        claimIds:
+          - claim:event:trilobite-upper-limb-gill
+        referenceLinks:
+          - referenceId: hou-2021-trilobite-gill
+            relation: supports
+            pages: eabe7377
+            figure: Figures 1–5; Supplementary materials
+            quoteLocator: Triarthrus imaging; Olenoides articulation; Functional comparison
+    uncertaintyItems:
+      - statement: Gill function, haemolymph flow and limb-branch homology are functional interpretations from morphology across two taxa and times, not measured gas exchange.
+        relation: contextualizes
+        claimIds:
+          - claim:event:trilobite-upper-limb-gill
+        referenceLinks:
+          - referenceId: hou-2021-trilobite-gill
+            relation: supports
+            pages: eabe7377
+            figure: Figures 1–5; Supplementary materials
+            quoteLocator: Triarthrus imaging; Olenoides articulation; Functional comparison
+  claims:
+    - subjectId: event:trilobite-upper-limb-gill
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: ESEM and micro-CT observations of Triarthrus eatoni and Olenoides serratus document filament geometry and body-wall attachment consistent with a respiratory upper branch; gas exchange, flow and evolutionary homology remain functional hypotheses rather than direct physiological measurements.
+      confidence: medium
+      confidenceRationale: Preserved filaments and articulation are direct, whereas respiratory performance and homology rely on comparison with living arthropods.
+      referenceLinks:
+        - referenceId: hou-2021-trilobite-gill
+          relation: supports
+          pages: eabe7377
+          figure: Figures 1–5; Supplementary materials
+          quoteLocator: Triarthrus imaging; Olenoides articulation; Functional comparison
+  claim-rationales.zh:
+    - 保存的鳃丝与连接方式属于直接证据，而呼吸表现和同源关系依赖与现生节肢动物比较。
+  claim-statements.zh:
+    - 对 Triarthrus eatoni 与 Olenoides serratus 的 ESEM 和显微 CT 观察记录了符合呼吸上肢支的鳃丝几何与体壁连接；气体交换、流动和演化同源关系仍是功能假说，而非直接生理测量。

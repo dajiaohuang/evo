@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus lentus
+  displayName: Eleutherodactylus lentus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6F4CL
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus lentus
+        zh: Eleutherodactylus lentus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6F4CL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/251
+            queryName: Eleutherodactylus lentus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/92
+            queryName: Hylodes lentus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/93
+            queryName: Hylodes riisei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/94
+            queryName: Euhyas lenta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-657071fac7
+      - s-4068b8aaae
+      - s-4d1b345857
+      - s-50110341c5
+      - s-37b2611a97
+      - s-cb9309cc60
+      - s-41cf3fb7e2
+      - s-608829b840
+      - s-5b9b9e7bb8
+      - s-dde7c55bb7
+      - s-34dded0336
+    zh:
+      - s-c2231cf7d2
+      - s-8b5283468d
+      - s-e7f336ace5
+      - s-6e776b4d9d
+      - s-5ea79296b0
+      - s-ac2f6cf11b
+      - s-75fbfdf85e
+      - s-abf41113c9
+      - s-76b239e0dc
+      - s-804b8070b4
+      - s-affbbbdc53

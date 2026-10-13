@@ -1,0 +1,71 @@
+schemaVersion: 1
+identity:
+  kind: supplementary-taxon
+  scientificName: Triadobatrachus massinoti
+  displayName: Triadobatrachus massinoti
+  rank: species
+  classification:
+    authority: Paleobiology Database snapshot
+    sourcePath: data/sources/pbdb-taxon-resolution.json
+    sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=156396
+    placement: PBDB-recorded-classification-supplement-with-unrepresented-ranks-omitted
+  subjectPath: content/nodes/PBDB%3A156396
+  scopeRecord: atlas-profile
+  packagePath: data/packages/vertebrata/amphibia
+  classificationSources:
+    - authority: Paleobiology Database snapshot
+      sourcePath: data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-classification-details.json
+      sourceUrl: https://paleobiodb.org/data1.2/taxa/single.json?id=156396
+      placement: PBDB-recorded-parent-chain-beneath-Amphibia-storage-anchor
+  sourceIndexes:
+    - name:
+        en: Triadobatrachus massinoti
+        zh: Triadobatrachus massinoti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: PBDB snapshot2026-10-02
+          id: txn:156396
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00018.json.gz
+            field: /records/377
+            queryName: Triadobatrachus massinoti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d253ae22f
+      - s-a44f4a80d1
+      - s-60125b689a
+      - s-19878873e3
+      - s-d3ea327774
+      - s-885c4c75c4
+      - s-973fe44117
+      - s-a0ccb2ceb4
+      - s-8759f2c193
+      - s-b049267f6f
+      - s-89900e47b0
+      - s-55c87dee41
+      - s-2d275a5927
+    zh:
+      - s-1c60799151
+      - s-f6a024ad71
+      - s-aa960e28b0
+      - s-f37d264038
+      - s-de157f3cf4
+      - zh-d1afd37fa9ffee
+      - zh-86688ac4e55211
+      - zh-b365a1dd2dcf73
+      - zh-5af2705ab0101c
+      - zh-2c3d74b097c522
+      - zh-d22ed587039115
+      - zh-27f5605aa2b49a

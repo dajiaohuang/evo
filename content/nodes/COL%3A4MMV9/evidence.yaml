@@ -1,0 +1,417 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Proceratophrys pombali Mângia, Santana, Cruz & Feio, 2014
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Proceratophrys pombali
+      zh: Proceratophrys pombali
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-783de25de3
+            part: title
+          zh:
+            page: zh
+            section: s-f6ecb563fd
+            part: title
+        text:
+          en:
+            page: en
+            section: s-783de25de3
+            part: body
+          zh:
+            page: zh
+            section: s-f6ecb563fd
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bb234d53dc
+            part: title
+          zh:
+            page: zh
+            section: s-5544b47894
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bb234d53dc
+            part: body
+          zh:
+            page: zh
+            section: s-5544b47894
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-88b09c2258
+            part: title
+          zh:
+            page: zh
+            section: s-94e0446579
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-88b09c2258
+            part: body
+          zh:
+            page: zh
+            section: s-94e0446579
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-6f0d3c8c8b938ca6e64f82f5
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7a339c19b7
+            part: title
+          zh:
+            page: zh
+            section: s-bb611acc1d
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7a339c19b7
+            part: body
+          zh:
+            page: zh
+            section: s-bb611acc1d
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-e4c31f9f29
+            part: title
+          zh:
+            page: zh
+            section: s-ff480e81ea
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv9
+        text:
+          en:
+            page: en
+            section: s-e4c31f9f29
+            part: body
+          zh:
+            page: zh
+            section: s-ff480e81ea
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-6cfa14a771
+            part: title
+          zh:
+            page: zh
+            section: s-c58d6cb2d4
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv9
+        text:
+          en:
+            page: en
+            section: s-6cfa14a771
+            part: body
+          zh:
+            page: zh
+            section: s-c58d6cb2d4
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-6222282e08
+            part: title
+          zh:
+            page: zh
+            section: s-8dc4485bde
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv9
+        text:
+          en:
+            page: en
+            section: s-6222282e08
+            part: body
+          zh:
+            page: zh
+            section: s-8dc4485bde
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-98532c3f01
+            part: title
+          zh:
+            page: zh
+            section: s-ba9f88edbc
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv9
+        text:
+          en:
+            page: en
+            section: s-98532c3f01
+            part: body
+          zh:
+            page: zh
+            section: s-ba9f88edbc
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-132ef65cd3
+            part: title
+          zh:
+            page: zh
+            section: s-e7bbc2b85b
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv9
+        text:
+          en:
+            page: en
+            section: s-132ef65cd3
+            part: body
+          zh:
+            page: zh
+            section: s-e7bbc2b85b
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Proceratophrys pombali
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MMV9
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4912, 4913; Reference.csv rows 1164
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc8436961-4mmv9
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Proceratophrys pombali: Proceratophrys pombali: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced; S1 all77donor rows and S2 all40labels/39selected focal cells read; remaining matrix values, original sequence and voucher identities unreviewed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-56fcd0a22f
+        part: body
+      zh:
+        page: zh
+        section: s-7afb599f9d
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-6f0d3c8c8b938ca6e64f82f5
+        scientificName: Proceratophrys pombali
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.12012
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        sourceKey: primary-pmc8436961-4mmv9
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8436961/article.xml
+        sourceConcept: Exact named comparator, Appendix row, outgroup or sympatric record in the2021korekore study; not new complete species description
+        evidenceRead: "Proceratophrys pombali: Proceratophrys pombali: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced; S1 all77donor rows and S2 all40labels/39selected focal cells read; remaining matrix values, original sequence and voucher identities unreviewed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A named character in the2021 comparison
+              zh: 2021年比较中的具名性状
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv9
+            locator: PMC8436961 article.xml sec8p7;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-511435b3c0
+                part: body
+              zh:
+                page: zh
+                section: s-3e6b2b16e2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A named character in the2021 comparison
+              zh: 2021年比较中的具名性状
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv9
+            locator: PMC8436961 article.xml sec8p7;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4cfb3bd12c
+                part: body
+              zh:
+                page: zh
+                section: s-14879cae76
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: Published mean16Sdistance fromkorekore
+              zh: 与korekore的已发表16S均距
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv9
+            locator: PMC8436961 article.xml table-3row8columns3–4;sec6p1–2;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eb56093a1f
+                part: body
+              zh:
+                page: zh
+                section: s-1426ebbd0c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Identifiers in the deposited sequence list
+              zh: 存放序列清单中的标识
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv9
+            locator: PMC8436961 peerj-09-12012-s001.docx table1 data rows 60,61 all3columns;sha256 00302990c080c18f315fd72f2f8bdab2b18e7fa99ce687315bc1e25db1ebd5af
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-16b3b4006e
+                part: body
+              zh:
+                page: zh
+                section: s-97618df81d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: A stored distance cell against the korekore label
+              zh: 与korekore标签比较的存储距离单元格
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv9
+            locator: PMC8436961 peerj-09-12012-s002.xlsx Plan1 M27, focal labelB27;sha256 28003821f2b8f75438e005fa8e39385716101e09e048fd012e9cbd8a4e063270;korekore-selected-distance-reading.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c7971e6955
+                part: body
+              zh:
+                page: zh
+                section: s-929f76223d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

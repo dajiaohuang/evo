@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Homo floresiensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Homo floresiensis
+      en: Homo floresiensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e3b1673d31
+            part: body
+          en:
+            page: en
+            section: s-02901ad6f3
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9790bc51e6
+            part: body
+          en:
+            page: en
+            section: s-5ce12857a9
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-481facb9a3
+            part: body
+          en:
+            page: en
+            section: s-d22be85dc1
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-02dd191e27
+            part: body
+          en:
+            page: en
+            section: s-1fa611bdb6
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3ff3918c9f
+            part: body
+          en:
+            page: en
+            section: s-15f9ecba28
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Homo floresiensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=91487&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:91487; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:91487
+          selectedOccurrenceIds:
+            - occ:632375
+            - occ:632376
+            - occ:632443
+            - occ:632444
+            - occ:632445
+            - occ:632446
+            - occ:632447
+          selectedCollectionIds:
+            - col:68055
+            - col:68056
+            - col:68063
+            - col:68064
+            - col:68066
+            - col:68067
+            - col:68068
+          sourceReferenceIds:
+            - ref:19516
+            - ref:19537
+          originalIdentificationMappings:
+            - occurrenceId: occ:632375
+              originalIdentifiedName: Homo floresiensis n. gen. n. sp.
+              acceptedName: Homo floresiensis
+              difference: null
+            - occurrenceId: occ:632443
+              originalIdentifiedName: Homo floresiensis n. gen. n. sp.
+              acceptedName: Homo floresiensis
+              difference: null
+            - occurrenceId: occ:632444
+              originalIdentifiedName: Homo floresiensis n. gen. n. sp.
+              acceptedName: Homo floresiensis
+              difference: null
+            - occurrenceId: occ:632445
+              originalIdentifiedName: Homo floresiensis n. gen. n. sp.
+              acceptedName: Homo floresiensis
+              difference: null
+            - occurrenceId: occ:632446
+              originalIdentifiedName: Homo floresiensis n. gen. n. sp.
+              acceptedName: Homo floresiensis
+              difference: null
+            - occurrenceId: occ:632447
+              originalIdentifiedName: Homo floresiensis n. gen. n. sp.
+              acceptedName: Homo floresiensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ead8c40814
+        part: body
+      en:
+        page: en
+        section: s-e7505815f7
+        part: body

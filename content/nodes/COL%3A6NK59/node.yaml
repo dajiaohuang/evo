@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus nubicola
+  displayName: Kalophrynus nubicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NK59
+  sourceIndexes:
+    - name:
+        en: Kalophrynus nubicola
+        zh: Kalophrynus nubicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NK59
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/109
+            queryName: Kalophrynus nubicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-03ab685203
+      - s-d232f4a06b
+      - s-9dc087f645
+      - s-01f1d9b2ab
+      - s-4c8d4ae36c
+      - s-9770021589
+      - s-ab61bcd065
+      - s-94c62de5dc
+      - s-e0a71c51d8
+      - s-33d9b56494
+    zh:
+      - s-ba333b9ef7
+      - s-8a1071fed8
+      - s-1e8026318f
+      - s-2cabd147b2
+      - s-fba0a836fe
+      - s-143cd454ab
+      - s-e6916e8b5d
+      - s-5e9a542e39
+      - s-775d653b04
+      - s-957a34047d

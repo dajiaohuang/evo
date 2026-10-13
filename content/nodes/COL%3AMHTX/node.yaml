@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boophis mandraka
+  displayName: Boophis mandraka
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/MHTX
+  sourceIndexes:
+    - name:
+        en: Boophis mandraka
+        zh: Boophis mandraka
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: MHTX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/269
+            queryName: Boophis mandraka
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-88cf8ad3ef
+      - s-e14d6e56f2
+      - s-0ed1b91242
+      - s-6712562a0e
+      - s-bdc12ae96a
+      - s-1a4aeac10c
+      - s-934d2c30c6
+      - s-38121a030d
+      - s-c141d2e25a
+    zh:
+      - s-41763ae61e
+      - s-d9cd7da41e
+      - s-4c9a393944
+      - s-15a81d5c09
+      - s-89cf0cbd72
+      - s-cafdcb522f
+      - s-4859195125
+      - s-eeaab2dfa4
+      - s-43370d1c3c

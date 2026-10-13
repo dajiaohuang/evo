@@ -1,0 +1,146 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Viridihyla Richards, Mahony & Donnellan in Donnellan et al., 2025
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Viridihyla
+      zh: Viridihyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-11e8fd789d
+            part: title
+          zh:
+            page: zh
+            section: s-bad87f0fd4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-11e8fd789d
+            part: body
+          zh:
+            page: zh
+            section: s-bad87f0fd4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2c0d5b8592
+            part: title
+          zh:
+            page: zh
+            section: s-b46e6be52d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2c0d5b8592
+            part: body
+          zh:
+            page: zh
+            section: s-b46e6be52d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-bef88a82c7
+            part: title
+          zh:
+            page: zh
+            section: s-f3d503a3f8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5GN7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5GN7
+            label:
+              en: Viridihyla christianbergmanni
+              zh: Viridihyla christianbergmanni
+          - kind: catalogue
+            colId: V5CQ9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5CQ9
+            label:
+              en: Viridihyla gasconi
+              zh: Viridihyla gasconi
+          - kind: catalogue
+            colId: V59LM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV59LM
+            label:
+              en: Viridihyla multiplica
+              zh: Viridihyla multiplica
+          - kind: catalogue
+            colId: V594C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV594C
+            label:
+              en: Viridihyla spectabilis
+              zh: Viridihyla spectabilis
+          - kind: catalogue
+            colId: V5PKJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5PKJ
+            label:
+              en: Viridihyla wapogaensis
+              zh: Viridihyla wapogaensis
+        text:
+          en:
+            page: en
+            section: s-bef88a82c7
+            part: body
+          zh:
+            page: zh
+            section: s-f3d503a3f8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Viridihyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5GCZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-5cfc0591ce
+        part: body
+      zh:
+        page: zh
+        section: s-e88acff7a7
+        part: body

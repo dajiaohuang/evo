@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phasmahyla jandaia
+  displayName: Phasmahyla jandaia
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4FWXF
+  sourceIndexes:
+    - name:
+        en: Phasmahyla jandaia
+        zh: Phasmahyla jandaia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4FWXF
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/28
+            queryName: Phasmahyla jandaia
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00036.json.gz
+            field: /records/111
+            queryName: Phyllomedusa jandaia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cf9a5b1aca
+      - s-96ec2a265c
+      - s-ddef889081
+      - s-b64e70318f
+      - s-c34e4feb43
+      - s-1043b17f6c
+      - s-05b57ce0b9
+      - s-2cd40a1d84
+      - s-044df496dc
+      - s-bcbad699d5
+      - s-42183bfdc4
+      - s-61455246b8
+      - s-0488246b45
+      - s-7e58003c43
+      - s-8fad4110e7
+      - s-c3882980e4
+      - s-b54f5758ee
+      - s-ba5c6377b1
+      - s-0685c4d7e1
+      - s-fbb01c82d2
+    zh:
+      - s-450613ecb3
+      - s-98fff957ff
+      - s-6b96c6e444
+      - s-26009f0dda
+      - s-2605b2784a
+      - s-d5b34c373f
+      - s-e5c6eabb5c
+      - s-45075e6f3d
+      - s-ee7a8f8197
+      - s-2d7db6119b
+      - s-eb211cedeb
+      - s-4a128be734
+      - s-bdcb630339
+      - s-69421080d7
+      - s-1318559b76
+      - s-afd7c41aa5
+      - s-fff4f96eb1
+      - s-733b2f2fa9
+      - s-e5e88475d4
+      - s-5d1422927e

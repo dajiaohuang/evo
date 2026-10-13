@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rentapia hosii
+  displayName: Rentapia hosii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RSDM
+  sourceIndexes:
+    - name:
+        en: Rentapia hosii
+        zh: Rentapia hosii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RSDM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/215
+            queryName: Rentapia hosii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/442
+            queryName: Pedostibes hosii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/66
+            queryName: Nectophryne hosii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/67
+            queryName: Pedostibes hosei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-628679bcda
+      - s-e1cec81457
+      - s-d93d15b3c2
+      - s-a05a13c290
+      - s-6b43971640
+      - s-bacd54672a
+      - s-5c7c15652c
+      - s-0108e08272
+      - s-82fb61b3ad
+      - s-458ba612bc
+      - s-3dd7854c4f
+      - s-83e1e119bb
+      - s-0210efe190
+      - s-365a6533e3
+      - s-31b73cc07c
+    zh:
+      - s-5e246c725b
+      - s-7d4de6f060
+      - s-ad231ab276
+      - s-a7a3130784
+      - s-24a2b52aea
+      - s-9865aef324
+      - s-6bcb3e984d
+      - s-461eca035e
+      - s-ce73553296
+      - s-0f2a86fed1
+      - s-fac88686c1
+      - s-73d1f35880
+      - s-a92c9e4872
+      - s-202840c7cc
+      - s-0f540e9380

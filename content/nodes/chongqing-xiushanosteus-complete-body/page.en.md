@@ -1,0 +1,3 @@
+## Xiushanosteus: an articulated fish with a mosaic skull roof {#s-ae7ad69faf}
+The Huixingshao Formation yielded holotype IVPP V300001 and 20 referred specimens preserving an articulated fish about 30 mm long, dated to roughly 436 Ma in the middle-to-late Telychian. Its skull roof brings together features otherwise found across placoderm grades, including paired bones arranged in a pattern approaching osteichthyans. The study treats placoderms as an evolutionary grade, and early jawed-vertebrate relationships remain unsettled; this fossil does not identify a direct ancestor or set a global first appearance.
+

@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Mammaliamorpha
+    commonName: Mammaliamorphs
+    commonNameZh: 哺乳形态类
+    rank: clade
+    taxonId: ""
+    firstAppearance: 225
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:mammaliamorpha
+      claimKind: scientific
+      claimType: topology
+      statement: A broad Mesozoic-mammal character analysis uses Mammaliamorpha for the sampled branch that includes tritylodontids and mammaliaforms, while alternative definitions and matrices alter several basal placements; the label is not a dated crown or direct-ancestor category.
+      confidence: medium
+      confidenceRationale: The source explicitly discusses higher-taxon definitions and alternative trees. The claim is limited to its sampled topology and concept boundary.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-2002-mesozoic-mammal-phylogeny
+          pages: 1–78
+          quoteLocator: Higher-taxon definitions; character analysis; discussion of basal mammaliamorph relationships
+    - subjectId: taxon:mammaliamorpha
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Mammaliamorpha is displayed at 225–0 Ma only as the review's definition-dependent sample envelope, not an exact clade origin or direct ancestor sequence. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: medium
+      confidenceRationale: Mammaliamorpha uses Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L. (2002) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is medium and applies only to Mesozoic mammaliamorph sample and living continuation represented in Luo et al.; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-2002-mesozoic-mammal-phylogeny
+          pages: 1–78
+          quoteLocator: Higher-taxon definitions; character analysis; discussion of basal mammaliamorph relationships
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 来源明确讨论高阶类群定义与替代树；该主张仅限于其取样拓扑和概念边界。
+    - Mammaliamorpha 采用 Luo, Z.-X.; Kielan-Jaworowska, Z.; Cifelli, R.L.（2002）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。中等置信度仅适用于 Mesozoic mammaliamorph sample and living continuation represented in Luo et al.；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 一项广泛的中生代哺乳类性状分析以 Mammaliamorpha 指包含三列齿兽类和哺乳形类的取样分支，而不同定义与矩阵会改变若干基干部位；该标签不是有日期的冠群或直接祖先类别。
+    - Mammaliamorpha 仅以 225–0 Ma 展示为综述中依赖定义的采样包络，而非精确类群起源或直接祖先序列。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: mammaliamorpha
+      rangeKind: global-composite
+      taxonomicConcept: Mammaliamorpha — source-bounded sample window
+      geographicScope: Mesozoic mammaliamorph sample and living continuation represented in Luo et al.
+      olderMa: 225
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: 0
+        note: This display is limited to the review's definition-dependent sample envelope, not an exact clade origin or direct ancestor sequence; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: In quest for a phylogeny of Mesozoic mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:taxon:mammaliamorpha:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: luo-2002-mesozoic-mammal-phylogeny
+          locator: 1–78; Higher-taxon definitions; character analysis; discussion of basal mammaliamorph relationships
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries

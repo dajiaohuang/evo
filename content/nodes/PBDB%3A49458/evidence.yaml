@@ -1,0 +1,219 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Oryzomys palustris
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Oryzomys palustris
+      en: Oryzomys palustris
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0cda9d549e
+            part: body
+          en:
+            page: en
+            section: s-b8794e08d8
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0fef5a2e3e
+            part: body
+          en:
+            page: en
+            section: s-b8fdff364b
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d9afec7b57
+            part: body
+          en:
+            page: en
+            section: s-abc2b1b8df
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6ea7988471
+            part: body
+          en:
+            page: en
+            section: s-a452a67a6c
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-06442d12d1
+            part: body
+          en:
+            page: en
+            section: s-7f325dc5f8
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Oryzomys palustris
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=49458&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:49458; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:49458
+          selectedOccurrenceIds:
+            - occ:197245
+            - occ:197981
+            - occ:198162
+            - occ:198184
+            - occ:198286
+            - occ:198596
+            - occ:199243
+            - occ:199298
+            - occ:199447
+            - occ:199470
+            - occ:199530
+            - occ:199559
+            - occ:199582
+            - occ:199859
+            - occ:199992
+            - occ:200012
+            - occ:398230
+            - occ:661502
+            - occ:691155
+            - occ:740956
+            - occ:1196156
+            - occ:1196386
+            - occ:1196531
+            - occ:1196927
+            - occ:1515315
+            - occ:1534464
+            - occ:2039280
+          selectedCollectionIds:
+            - col:20318
+            - col:20398
+            - col:20422
+            - col:20423
+            - col:20440
+            - col:20491
+            - col:20571
+            - col:20573
+            - col:20595
+            - col:20598
+            - col:20604
+            - col:20605
+            - col:20608
+            - col:20638
+            - col:20650
+            - col:20653
+            - col:13066
+            - col:71264
+            - col:74470
+            - col:20634
+            - col:154722
+            - col:154771
+            - col:74292
+            - col:154805
+            - col:195112
+            - col:215359
+            - col:75066
+          sourceReferenceIds:
+            - ref:6294
+            - ref:2611
+            - ref:2050
+            - ref:3580
+            - ref:3567
+            - ref:1962
+            - ref:10274
+            - ref:24062
+            - ref:24979
+            - ref:26766
+            - ref:50316
+            - ref:50335
+            - ref:50339
+            - ref:2451
+            - ref:73089
+            - ref:74300
+            - ref:93215
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f87a563b18
+        part: body
+      en:
+        page: en
+        section: s-3ba2829751
+        part: body

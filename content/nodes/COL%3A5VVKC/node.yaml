@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus zeteki
+  displayName: Atelopus zeteki
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5VVKC
+  sourceIndexes:
+    - name:
+        en: Atelopus zeteki
+        zh: Atelopus zeteki
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5VVKC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/329
+            queryName: Atelopus zeteki
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 129
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/306
+            queryName: Atelopus varius zeteki
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c492252dbe
+      - s-3014c2221a
+      - s-899fd53270
+      - s-ce75e85734
+      - s-a454c6e4fb
+      - s-041ecb61d9
+      - s-97183ea354
+      - s-b626107845
+      - s-433c256e2d
+      - s-f1332633fa
+      - s-c9c45bb98f
+      - s-815a8eeb2e
+      - s-c9a309d2fe
+      - s-f4f79261b1
+    zh:
+      - s-74bcfbfa4c
+      - s-a7fab63f09
+      - s-950a3eb255
+      - s-218a53725c
+      - s-261ef33fad
+      - s-09d0a23d50
+      - s-bc3417d272
+      - s-a2154c7bf9
+      - s-f24b055fe4
+      - s-47a8e31574
+      - s-c562a1702c
+      - s-5aa862b25f
+      - s-bdad3739ae
+      - s-9a60bd68b8

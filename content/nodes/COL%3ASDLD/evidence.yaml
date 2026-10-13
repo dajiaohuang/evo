@@ -1,0 +1,105 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cephalopachus bancanus (Horsfield, 1821)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Western Tarsier
+      zh: 西方眼镜猴
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-18d5736866
+            part: body
+          zh:
+            page: zh
+            section: s-6ef6eb192d
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd
+      - topic: habitatUse
+        text:
+          en:
+            page: en
+            section: s-3f82797b5c
+            part: body
+          zh:
+            page: zh
+            section: s-e2e99d47d4
+            part: body
+        sourceIds:
+          - belitung2021
+      - topic: physiology
+        text:
+          en:
+            page: en
+            section: s-17789a59b5
+            part: body
+          zh:
+            page: zh
+            section: s-3f75fa0015
+            part: body
+        sourceIds:
+          - welman2017
+    sources:
+      - id: taxonomy
+        referenceId: ref-85d77e1c-faf4-8e44-a5af-b04a4b67c4d8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted species name, authorship, rank, and genus parent under COL26.8 ID SDLD.
+            zh: 固定 COL26.8 下接受种名、作者、等级及属级父链（ID SDLD）。
+      - id: mdd
+        referenceId: ref-a9bf540e-273e-8b84-a96a-2c9717bc6682
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the English common name, coarse island distribution, and the versioned note about the Cephalopachus combination.
+            zh: 支持英文普通名、粗略岛屿分布及该版本关于 Cephalopachus 组合名的备注。
+      - id: belitung2021
+        referenceId: ref-e9d6105c-3f1c-86bd-a3ac-6aa5b1583cd7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Undergraduate thesis on C. b. saltator at one Belitung site; local habitat and count results are not range-wide estimates.
+            zh: 关于 Belitung 一个地点 C. b. saltator 的本科毕业论文；局地栖息地和计数结果不是全分布区估计。
+      - id: welman2017
+        referenceId: ref-3b4e27f5-7e2a-85b0-add8-89a10b6847f1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Thermoregulatory measurements on 13 captured adults at Sama Jaya; free-ranging core-temperature data were recovered from one male and one female.
+            zh: Sama Jaya 捕获 13 只成年个体的体温调节研究；成功取得的野外核心体温数据来自一雄一雌。
+    limitations:
+      en:
+        page: en
+        section: s-0514baf13b
+        part: body
+      zh:
+        page: zh
+        section: s-e41cce2258
+        part: body

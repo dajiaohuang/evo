@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus cristinae
+  displayName: Nymphargus cristinae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486JH
+  sourceIndexes:
+    - name:
+        en: Nymphargus cristinae
+        zh: Nymphargus cristinae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486JH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/425
+            queryName: Nymphargus cristinae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/496
+            queryName: Cochranella cristinae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c8d09ea94e
+      - s-a51b332c59
+      - s-4f58ef3cbb
+      - s-a8443415b2
+      - s-f6f017ed86
+      - s-a2e0463312
+      - s-65e7d3f619
+      - s-b1bc5bae3a
+      - s-fc32aa7a23
+      - s-c0f66fbdcb
+      - s-b940a85810
+      - s-1eab9905a1
+      - s-f85cbba339
+    zh:
+      - s-e17a9b6f9a
+      - s-043bb1bf66
+      - s-cf37b66f5d
+      - s-ad6a9210aa
+      - s-5c4f493578
+      - s-80122f0640
+      - s-0dd6394275
+      - s-26f6c3820d
+      - s-9d3ae9cf2b
+      - s-dd591beef9
+      - s-fa33217f7f
+      - s-b9203c618d
+      - s-44b7ed08fe

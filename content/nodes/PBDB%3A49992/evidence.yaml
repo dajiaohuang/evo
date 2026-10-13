@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pareumys grangeri
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Pareumys grangeri
+      en: Pareumys grangeri
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2da64bade8
+            part: body
+          en:
+            page: en
+            section: s-9aa932e362
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-676ba1667d
+            part: body
+          en:
+            page: en
+            section: s-08bc5845bc
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6f6c4f2534
+            part: body
+          en:
+            page: en
+            section: s-752419fa9d
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dac7c01c45
+            part: body
+          en:
+            page: en
+            section: s-638c9b34ac
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ce843eaaaf
+            part: body
+          en:
+            page: en
+            section: s-c3c170ba27
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Pareumys grangeri
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=49992&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:49992; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:49992
+          selectedOccurrenceIds:
+            - occ:176427
+            - occ:176463
+            - occ:176512
+            - occ:176529
+            - occ:176548
+            - occ:176568
+            - occ:176581
+            - occ:176621
+            - occ:176663
+            - occ:176713
+            - occ:176751
+            - occ:176763
+            - occ:176784
+            - occ:176797
+            - occ:176846
+            - occ:176908
+            - occ:176960
+            - occ:176975
+            - occ:176993
+            - occ:177021
+            - occ:177044
+            - occ:1707028
+            - occ:1707084
+          selectedCollectionIds:
+            - col:16649
+            - col:16654
+            - col:16665
+            - col:16666
+            - col:16669
+            - col:16673
+            - col:16676
+            - col:16682
+            - col:16695
+            - col:16705
+            - col:16709
+            - col:16710
+            - col:16713
+            - col:16714
+            - col:16719
+            - col:16738
+            - col:16746
+            - col:16747
+            - col:16748
+            - col:16751
+            - col:16752
+            - col:16572
+            - col:242019
+          sourceReferenceIds:
+            - ref:2495
+            - ref:2802
+            - ref:1681
+            - ref:3538
+            - ref:92850
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-384a734f53
+        part: body
+      en:
+        page: en
+        section: s-8788eef5d8
+        part: body

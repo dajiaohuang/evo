@@ -1,0 +1,128 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-dfb5e3d9f1
+      part: title
+    titleZh:
+      page: zh
+      section: s-bef53e3d4f
+      part: title
+    category: dispersal
+    startAge: 42.6
+    endAge: 42.6
+    regions:
+      - Lowest Yumaque Member, Paracas Formation, Playa Media Luna, Pisco Basin, Peru
+    clades:
+      - Peregocetus pacificus
+      - Protocetidae
+      - Cetacea
+    summary:
+      page: en
+      section: s-dfb5e3d9f1
+      part: body
+    summaryZh:
+      page: zh
+      section: s-bef53e3d4f
+      part: body
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-1b52feb459
+            part: title
+          zh:
+            page: zh
+            section: s-92342a1017
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1b52feb459
+            part: body
+          zh:
+            page: zh
+            section: s-92342a1017
+            part: body
+        id: observed-material
+        sourceIds:
+          - lambert-2019-peregocetus
+      - title:
+          en:
+            page: en
+            section: s-6f9c87d8a9
+            part: title
+          zh:
+            page: zh
+            section: s-d10cfa220a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6f9c87d8a9
+            part: body
+          zh:
+            page: zh
+            section: s-d10cfa220a
+            part: body
+        id: interpretation-limits
+        sourceIds:
+          - lambert-2019-peregocetus
+    claimIds:
+      - claim:event:peregocetus-holotype-amphibious-dispersal
+    evidenceItems:
+      - statement: MUSM 3580 preserves mandibles and most major postcranial regions; two fused sacrals, a defined femoral head and hoof-like distal phalanges support weight-bearing capability alongside aquatic adaptations.
+        relation: supports
+        claimIds:
+          - claim:event:peregocetus-holotype-amphibious-dispersal
+        referenceLinks:
+          - referenceId: lambert-2019-peregocetus
+            relation: supports
+            pages: 1352–1357; e1–e3
+            figure: Figures 1–4; Figures S1–S4; Data S1–S2
+            quoteLocator: Locality and horizon; Diagnosis; Postcranial description; STAR Methods
+    uncertaintyItems:
+      - statement: The paper calls Protocetidae paraphyletic; walking, swimming and the favoured westward South Atlantic route are reconstructions, while an eastward route and the presence of a tail fluke remain unresolved.
+        relation: contextualizes
+        claimIds:
+          - claim:event:peregocetus-holotype-amphibious-dispersal
+        referenceLinks:
+          - referenceId: lambert-2019-peregocetus
+            relation: supports
+            pages: 1354–1358; e2–e3
+            figure: Figures 2–4; Figure S4
+            quoteLocator: Phylogenetic analysis; Paleobiogeography; Reconstruction limits
+    readerSources:
+      - id: lambert-2019-peregocetus
+        referenceId: lambert-2019-peregocetus
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The observations and interpretive limits recorded in this event.
+            zh: 本事件中记录的观察与解释范围。
+          locator: "pages: 1352–1357; e1–e3; figure: Figures 1–4; Figures S1–S4; Data S1–S2; Locality and horizon; Diagnosis; Postcranial description; STAR Methods; pages: 1354–1358; e2–e3; figure: Figures 2–4; Figure S4; Phylogenetic analysis; Paleobiogeography; Reconstruction limits"
+  claims:
+    - subjectId: event:peregocetus-holotype-amphibious-dispersal
+      claimKind: scientific
+      claimType: biogeography
+      statement: Peregocetus holotype MUSM 3580 anchors a 42.6 Ma Peruvian protocetid occurrence and preserves weight-bearing and aquatic features; locomotor capability and a westward South Atlantic dispersal route remain phylogenetic and functional interpretations.
+      confidence: medium
+      confidenceRationale: The specimen, horizon and biostratigraphic placement are explicit. Locomotion is inferred from anatomy, and route reconstruction depends on the character matrix, palaeogeography and sampled occurrences.
+      referenceLinks:
+        - referenceId: lambert-2019-peregocetus
+          relation: supports
+          pages: 1352–1359.e3
+          figure: Figures 1–4; Figures S1–S4
+          quoteLocator: Locality and horizon; Anatomy; Phylogeny; Paleobiogeography
+  claim-rationales.zh:
+    - 标本、层位与生物地层位置明确。运动方式由形态推断，路线复原依赖性状矩阵、古地理和取样出现记录。
+  claim-statements.zh:
+    - 游走鲸正模 MUSM 3580 锚定约 4,260 万年前的秘鲁原鲸科出现记录并保存承重与水生特征；运动能力和向西跨越南大西洋的扩散路线仍是系统发育与功能解释。

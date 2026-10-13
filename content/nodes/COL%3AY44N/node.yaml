@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus neglectus
+  displayName: Cophixalus neglectus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44N
+  sourceIndexes:
+    - name:
+        en: Cophixalus neglectus
+        zh: Cophixalus neglectus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44N
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/466
+            queryName: Cophixalus neglectus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b3a43ef3d
+      - s-9986581226
+      - s-ff1d08aaa1
+      - s-fa59472c00
+      - s-21f1a77c7c
+      - s-bbb8afae77
+      - s-4d9147a401
+      - s-e12329cd24
+      - s-e50d02d9fc
+      - s-24a69100e6
+      - s-01fdf848a4
+      - s-8a547d171b
+      - s-63d97f0c67
+      - s-7e99db5bb6
+    zh:
+      - s-07c5ab08cf
+      - s-9e9e9be266
+      - s-65b5c5dd1e
+      - s-b8f47077c4
+      - s-d21131315e
+      - s-d0479d2bce
+      - s-fe52813f5f
+      - s-2558a4a6e6
+      - s-aa6dc2c6db
+      - s-b5857a08bc
+      - s-754d029727
+      - s-08465203ba
+      - s-eb36d81807
+      - s-434e97be7c

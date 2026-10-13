@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platymantis negrosensis
+  displayName: Platymantis negrosensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JSR3
+  sourceIndexes:
+    - name:
+        en: Platymantis negrosensis
+        zh: Platymantis negrosensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JSR3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/391
+            queryName: Platymantis negrosensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2494bf8c46
+      - s-99e7191b0b
+      - s-a1d4699318
+      - s-b344535caa
+      - s-2d8cb29bae
+      - s-d341ac6960
+      - s-90e1fa2397
+      - s-57e4e16e1d
+      - s-92cf96fc1c
+    zh:
+      - s-c19ff26b2e
+      - s-e345b4c7d9
+      - s-4011161f60
+      - s-17f2e82d74
+      - s-c318310e38
+      - s-8d7efa52c6
+      - s-4ee36399af
+      - s-79a5756d2c
+      - s-5dc74cabf2

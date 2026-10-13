@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leiopelma hochstetteri
+  displayName: Leiopelma hochstetteri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3SYZZ
+  sourceIndexes:
+    - name:
+        en: Leiopelma hochstetteri
+        zh: Leiopelma hochstetteri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3SYZZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/191
+            queryName: Leiopelma hochstetteri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 70
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b9e71bdfe9
+      - s-eb3d0d656e
+      - s-86ebcaada6
+      - s-0ff14f599c
+      - s-723aa92179
+      - s-f9ea6f6508
+      - s-720cdda496
+      - s-58ea9521ff
+      - s-af4d7ed56f
+      - s-68f7b47666
+      - s-e40df36757
+    zh:
+      - s-59475051f2
+      - s-8e7992acd9
+      - s-d3ba0d334e
+      - s-3b2066f3c8
+      - s-84fba4f3a5
+      - s-4c3f275d40
+      - s-321f74693b
+      - s-9619ce1e04
+      - s-f64e70ff6a
+      - s-5edc9a4ebf
+      - s-2462e7e91b

@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon glutinosus
+  displayName: Plethodon glutinosus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W27T
+  sourceIndexes:
+    - name:
+        en: Plethodon glutinosus
+        zh: Plethodon glutinosus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W27T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/465
+            queryName: Plethodon glutinosus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 67
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/286
+            queryName: Plethodon glutinosus glutinosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/338
+            queryName: Salamandra glutinosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/339
+            queryName: Cylindrosoma glutinosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/340
+            queryName: Cylindrosoma albopunctata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/341
+            queryName: Plethodon variolosum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/342
+            queryName: Salamandra elongata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/343
+            queryName: Salamandra melanoleuca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/344
+            queryName: Amblystoma melanoleuca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d6ef8a3b44
+      - s-69e6cf09b1
+      - s-a2b12baad2
+      - s-21f3b6fedc
+      - s-c29bc19dd2
+      - s-61763e5e37
+      - s-0a8a889281
+      - s-81fa8c47b1
+      - s-d8e9b89f0b
+      - s-aebad0ce31
+      - s-9273f60887
+      - s-e53acf8005
+      - s-ce9d4b0c6a
+      - s-2c498c386c
+      - s-e429e8a4ce
+      - s-7ba490adee
+      - s-deb6a4ef52
+      - s-71edc516cf
+    zh:
+      - s-4bbb6c04e6
+      - s-d512eaec51
+      - s-caa52dd110
+      - s-8aef696c3d
+      - s-0c21121e65
+      - s-9d58713b3c
+      - s-f9f7d8fd5e
+      - s-ad14615a81
+      - s-4ef0562c8d
+      - s-728e9c9d1a
+      - s-b62b062de7
+      - s-b64e3f4bd5
+      - s-231d20884f
+      - s-c4b72d9c22
+      - s-de6f73d4ea
+      - s-fb4cb229a9
+      - s-966a415add
+      - s-6c1436e1b9

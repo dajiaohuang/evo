@@ -1,0 +1,3 @@
+## ## Hairy leaflets and a smooth nutlet {#s-09a5f8f986}
+The Brazilian Flora 2020 entry describes unarmed, cylindrical branches and leaves with leaf-like stipules. The elliptic, ovate or lance-shaped leaflets have acute or tapered tips and rounded or blunt bases. Their upper faces may be becoming hairless, while the lower faces bear hairs; the recorded venation is brochidodromous. Panicles occur in leaf axils or at shoot tips and carry leaf-like bracts. The flowers have a bell-shaped calyx, purple petals and a hairy standard; the stamens are united in one bundle. The source classifies the fruit as a smooth nutlet. This regional description does not measure species-wide variation.
+

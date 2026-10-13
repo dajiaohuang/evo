@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-fd2042bd6a
+      part: title
+    titleZh:
+      page: zh
+      section: s-8b4cba2173
+      part: title
+    category: morphology
+    startAge: 515
+    endAge: 514
+    regions:
+      - Tatelt Formation, High Atlas, Morocco
+    clades:
+      - Protolenus
+      - Gigoutella
+      - Trilobita
+    summary:
+      page: en
+      section: s-fd2042bd6a
+      part: body
+    summaryZh:
+      page: zh
+      section: s-8b4cba2173
+      part: body
+    claimIds:
+      - claim:event:tatelt-trilobite-3d-anatomy
+    evidenceItems:
+      - statement: X-ray microtomography resolves antennae, four post-antennal head-limb pairs, a labrum, a slit-like mouth and digestive tissues in articulated specimens.
+        relation: supports
+        claimIds:
+          - claim:event:tatelt-trilobite-3d-anatomy
+        referenceLinks:
+          - referenceId: el-albani-2024-trilobite-3d
+            relation: supports
+            pages: 1429–1435
+            figure: Figures 1–4; Extended Data
+            quoteLocator: Specimens; Microtomographic reconstruction; Ventral anatomy
+    uncertaintyItems:
+      - statement: The inferred feeding apparatus and homologies compare a rare local preservational window; they do not establish behaviour, ancestry or anatomy for every trilobite.
+        relation: contextualizes
+        claimIds:
+          - claim:event:tatelt-trilobite-3d-anatomy
+        referenceLinks:
+          - referenceId: el-albani-2024-trilobite-3d
+            relation: supports
+            pages: 1429–1435
+            figure: Figures 1–4; Extended Data
+            quoteLocator: Specimens; Microtomographic reconstruction; Ventral anatomy
+  claims:
+    - subjectId: event:tatelt-trilobite-3d-anatomy
+      claimKind: scientific
+      claimType: morphology
+      statement: Microtomographic reconstructions of ash-entombed Tatelt Formation Protolenus and Gigoutella specimens directly preserve four post-antennal cephalic limb pairs, a labrum, mouth and digestive tissues; feeding mechanics and group-wide homologies remain comparative interpretations.
+      confidence: high
+      confidenceRationale: Three-dimensional articulated anatomy is directly imaged in multiple specimens, but functional and group-wide extrapolations remain inferential.
+      referenceLinks:
+        - referenceId: el-albani-2024-trilobite-3d
+          relation: supports
+          pages: 1429–1435
+          figure: Figures 1–4; Extended Data
+          quoteLocator: Specimens; Microtomographic reconstruction; Ventral anatomy
+  claim-rationales.zh:
+    - 多个标本的三维关节解剖得到直接成像，但功能解释和向全类群外推仍属推断。
+  claim-statements.zh:
+    - 对 Tatelt 组火山灰埋藏的 Protolenus 与 Gigoutella 标本进行显微断层复原，直接保存四对触角后头部附肢、上唇、口和消化组织；取食力学与全类群同源关系仍属比较解释。

@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhacophorus orlovi
+  displayName: Rhacophorus orlovi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RXJ5
+  sourceIndexes:
+    - name:
+        en: Rhacophorus orlovi
+        zh: Rhacophorus orlovi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RXJ5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/247
+            queryName: Rhacophorus orlovi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-96d823ea7b
+      - s-8cfb2713e6
+      - s-2a8721b4d9
+      - s-e213efe162
+      - s-7c9b039cb3
+      - s-8cb1aab139
+      - s-b2c50ee51b
+    zh:
+      - s-3884841655
+      - s-f62fd3c9d8
+      - s-cdbf93657a
+      - s-a731ef5f95
+      - s-b14226db5f
+      - s-0bbd3b85e2
+      - s-7c189a529e

@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca peruana
+  displayName: Gastrotheca peruana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6K9VZ
+  sourceIndexes:
+    - name:
+        en: Gastrotheca peruana
+        zh: Gastrotheca peruana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6K9VZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/63
+            queryName: Gastrotheca peruana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/281
+            queryName: Nototrema peruanum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/404
+            queryName: Gastrotheca peruana peruana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/406
+            queryName: Gastrotheca peruana junensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fbbcafeacf
+      - s-b6c6bab50d
+      - s-1b2bdf1a06
+      - s-643d06f97b
+      - s-361cd2fb44
+      - s-a204fa26fb
+      - s-d2d03ee136
+      - s-70a9315965
+      - s-cdd060745b
+      - s-66c50131a6
+      - s-06c427cb61
+      - s-170607b354
+      - s-6a09171167
+      - s-40346b27d4
+    zh:
+      - s-63156e399a
+      - s-4ad0428d12
+      - s-5d6bdec7e1
+      - s-6bc1424b98
+      - s-42b3c89cb1
+      - s-6d6c531ae9
+      - s-d37c1624b4
+      - s-0cedbb4384
+      - s-e4df76df7b
+      - s-333ad873c2
+      - s-dac59108f4
+      - s-977e319c51
+      - s-5f68d2f1d1
+      - s-ed21e80d19

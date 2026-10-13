@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis caryophyllaceus
+  displayName: Pristimantis caryophyllaceus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJBK
+  sourceIndexes:
+    - name:
+        en: Pristimantis caryophyllaceus
+        zh: Pristimantis caryophyllaceus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJBK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/186
+            queryName: Pristimantis caryophyllaceus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/57
+            queryName: Eleutherodactylus caryophyllaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/363
+            queryName: Syrrhopus caryophyllaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-73d85db414
+      - s-ea6c920209
+      - s-a54551557e
+      - s-6ded86bdd0
+      - s-02324c0889
+      - s-fc439a6df5
+      - s-3f441d8ed5
+      - s-1cda809619
+      - s-1cd927bef0
+    zh:
+      - s-0a29b9377e
+      - s-5393aebca4
+      - s-e300ed33a5
+      - s-81a88cda4b
+      - s-0079b171cd
+      - s-7570eadcc3
+      - s-f29f38b03b
+      - s-1f2e28a4e4
+      - s-48ef3e1917

@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Raorchestes honnametti
+  displayName: Raorchestes honnametti
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6WT3P
+  sourceIndexes:
+    - name:
+        en: Raorchestes honnametti
+        zh: Raorchestes honnametti
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6WT3P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/153
+            queryName: Raorchestes honnametti
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fdb18e6a74
+      - s-aaa9ca45a9
+      - s-fc0daa1ad1
+      - s-d8bce0bd45
+      - s-5ae060d3a2
+      - s-38e18ea1b3
+      - s-0e312716a3
+      - s-a3826f054a
+      - s-60a9cf6ef6
+    zh:
+      - s-dc98c2273e
+      - s-b1dd21a6ab
+      - s-88735a5514
+      - s-2cc6f02e2d
+      - s-f876cfb710
+      - s-c02858d2b0
+      - s-55cdf53092
+      - s-7e65afc437
+      - s-ee01965ce7

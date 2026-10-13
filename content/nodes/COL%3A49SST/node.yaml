@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oophaga sylvatica
+  displayName: Oophaga sylvatica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49SST
+  sourceIndexes:
+    - name:
+        en: Oophaga sylvatica
+        zh: Oophaga sylvatica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49SST
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/176
+            queryName: Oophaga sylvatica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 56
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/6
+            queryName: Dendrobates sylvaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/478
+            queryName: Dendrobates histrionicus sylvaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-734fe39399
+      - s-a6e23ff529
+      - s-9ae2052246
+      - s-6c7dd0c6eb
+      - s-44188a07ed
+      - s-72612eecc6
+      - s-ecaedf2a8c
+      - s-a6e6f8c5bc
+      - s-052cbe74d9
+      - s-30fecfb5b8
+      - s-2642c20b87
+      - s-279b19f92c
+      - s-43499e7872
+      - s-1db09d8325
+      - s-a775d07836
+      - s-869e90ba46
+      - s-739c3f1bec
+      - s-f07c76223f
+      - s-6c10329469
+      - s-ace7ca5933
+      - s-7b8329ec45
+      - s-408e1a03fa
+      - s-ab40f3a3e7
+      - s-67eb263b06
+      - s-1694cac773
+      - s-73d3e5b785
+      - s-ac7132104b
+      - s-e8de75ba9b
+      - s-4d7d0b4c98
+    zh:
+      - s-a40dd91ce1
+      - s-fffbbf8a53
+      - s-dbb1d18fe5
+      - s-2b05275109
+      - s-ef629e4eec
+      - s-c50529f78e
+      - s-21ad3d1c2b
+      - s-420df4551d
+      - s-92d306c230
+      - s-14e14544a4
+      - s-b71f11f5b9
+      - s-dc98aa240a
+      - s-35291b5a11
+      - s-6f2c2e4aa3
+      - s-7350b76b15
+      - s-4f3dd42056
+      - s-1128d747f6
+      - s-0606256475
+      - s-d4f256a8d0
+      - s-7f58ba0665
+      - s-12dd31bf2f
+      - s-1b17a3b560
+      - s-ae6e483ca3
+      - s-6f7acabf30
+      - s-96dcf1123f
+      - s-59f0e88596
+      - s-b96cc3c290
+      - s-a9baa5cdfd
+      - s-7143a70392

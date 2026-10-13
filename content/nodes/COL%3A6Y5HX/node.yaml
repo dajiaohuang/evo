@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiophryne madagascariensis
+  displayName: Scaphiophryne madagascariensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Y5HX
+  sourceIndexes:
+    - name:
+        en: Scaphiophryne madagascariensis
+        zh: Scaphiophryne madagascariensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Y5HX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/494
+            queryName: Scaphiophryne madagascariensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 28
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/118
+            queryName: Calophrynus madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/119
+            queryName: Pseudohemisus madagascariensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/120
+            queryName: Pseudohemisus pustulosus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/121
+            queryName: Scaphiophryne pustulosa
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51542ba693
+      - s-3d1a4041cd
+      - s-1e71b1e14e
+      - s-338324253e
+      - s-ea5766017f
+      - s-0d16065170
+      - s-18a28172c8
+      - s-08c695f5c1
+      - s-7c1322e806
+      - s-3de49b4fda
+      - s-028d7d133d
+      - s-9983913f5c
+      - s-c75e1a8967
+    zh:
+      - s-8e038e2bf8
+      - s-82dc91e75a
+      - s-6062146f20
+      - s-a5a08b4758
+      - s-df06d25102
+      - s-b78135b68b
+      - s-6e4767bad6
+      - s-a311415863
+      - s-7910b6f05a
+      - s-b046919cbe
+      - s-6e75c421ec
+      - s-8bc9388298
+      - s-fe0d0b9b9b

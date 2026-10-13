@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epicrionops columbianus
+  displayName: Epicrionops columbianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6FQSY
+  sourceIndexes:
+    - name:
+        en: Epicrionops columbianus
+        zh: Epicrionops columbianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6FQSY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/365
+            queryName: Epicrionops columbianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/54
+            queryName: Rhinatrema columbianum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1c2900e4da
+      - s-fa39aa1f3e
+      - s-253e945d03
+      - s-23b81baf3e
+      - s-73c20823ba
+      - s-6d557a9a73
+      - s-73ae1eb2c1
+      - s-b55df37b58
+      - s-c194b2892d
+      - s-14456cec43
+      - s-17bf98f6a4
+      - s-1ec9a427be
+    zh:
+      - s-daed0f77f7
+      - s-487d7f3790
+      - s-eb191e1524
+      - s-6fc3c97b11
+      - s-48a4877b48
+      - s-3c9ac29c3b
+      - s-8f4d968d4f
+      - s-e300b95805
+      - s-89e442ef93
+      - s-5086c6e77a
+      - s-4793b46542
+      - s-52e64dcffb

@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Nanorana quadranus
+    name:
+      en: Nanorana quadranus
+      zh: Nanorana quadranus
+    sourceClassification:
+      order: Anura
+      family: Dicroglossidae
+      genus: Nanorana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Nanorana quadranus in the version 3 classification
+          zh: Nanorana quadranus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0a9a6fe68a
+            part: body
+          zh:
+            page: zh
+            section: s-14a08bf362
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9552a4a95c
+            part: body
+          zh:
+            page: zh
+            section: s-0f753a61c7
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3449, 3450; Reference.csv rows 3305
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3449
+        values:
+          - Dicroglossidae
+          - Nanorana
+          - Nanorana quadranus
+          - M
+          - "82"
+          - "28.7"
+          - "30.1"
+          - "8.5"
+          - NA
+          - NA
+          - "5.1"
+          - "7.5"
+          - "7.5"
+          - NA
+          - "10.8"
+          - NA
+          - "21.4"
+          - NA
+          - "39"
+          - "45.8"
+          - NA
+          - "47"
+          - NA
+          - NA
+          - "146.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3450
+        values:
+          - Dicroglossidae
+          - Nanorana
+          - Nanorana quadranus
+          - F
+          - "89.5"
+          - "30.5"
+          - "31.4"
+          - "8.4"
+          - NA
+          - NA
+          - "5.6"
+          - "8"
+          - "7.7"
+          - NA
+          - "11.6"
+          - NA
+          - "22.3"
+          - NA
+          - "40.4"
+          - "47"
+          - NA
+          - "48"
+          - NA
+          - NA
+          - "151.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3305
+        values:
+          - Anura
+          - Nanorana_quadranus
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 45N7L
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

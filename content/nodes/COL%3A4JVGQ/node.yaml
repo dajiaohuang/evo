@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Platypelis tsaratananaensis
+  displayName: Platypelis tsaratananaensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4JVGQ
+  sourceIndexes:
+    - name:
+        en: Platypelis tsaratananaensis
+        zh: Platypelis tsaratananaensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4JVGQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/418
+            queryName: Platypelis tsaratananaensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/163
+            queryName: Cophyla tsaratananaensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00042.json.gz
+            field: /records/164
+            queryName: Platypelis tasartananaensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-39f9b2404a
+      - s-a718bf3969
+      - s-cc8bbee208
+      - s-0cbb4c1997
+      - s-59f735a207
+      - s-5a9091fd7a
+      - s-945fbb9a55
+      - s-31dde73a80
+      - s-4bd1d1dade
+      - s-19bcec87c3
+    zh:
+      - s-17d1d00621
+      - s-255e1b77a0
+      - s-f60c87c368
+      - s-dc19ce3e2b
+      - s-a5faca2623
+      - s-7dabdae6b9
+      - s-3f0e782730
+      - s-51d6117b6b
+      - s-7f030cd133
+      - s-67fd31e771

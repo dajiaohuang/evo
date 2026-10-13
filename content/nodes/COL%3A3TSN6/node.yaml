@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis natalensis
+  displayName: Leptopelis natalensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSN6
+  sourceIndexes:
+    - name:
+        en: Leptopelis natalensis
+        zh: Leptopelis natalensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSN6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/495
+            queryName: Leptopelis natalensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/119
+            queryName: Polypedates natalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/120
+            queryName: Eucnemis bucephalus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/121
+            queryName: Hylambates natalensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b4175b835
+      - s-d05f37974a
+      - s-3be456ab4d
+      - s-30e8506e9b
+      - s-468cd0530a
+      - s-976269ff4c
+      - s-32cbff8393
+      - s-5f547e3c96
+      - s-7096a63e9c
+      - s-e6da47f5b8
+      - s-74262c997b
+      - s-878e848d53
+      - s-58ac9e2f12
+    zh:
+      - s-bfe0010ec1
+      - s-c7c14781b0
+      - s-9724d0ae23
+      - s-4e0ebf7a69
+      - s-6557a926a7
+      - s-456c94cbff
+      - s-80681d5e63
+      - s-b23a3d2851
+      - s-9db1129da6
+      - s-cb5dac9149
+      - s-5a1cb19dfb
+      - s-8adc991abb
+      - s-96a94d5a66

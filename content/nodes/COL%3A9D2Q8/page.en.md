@@ -1,0 +1,3 @@
+## ## Lilac to wine-colored flowers and winged fruit {#s-a45162e6a7}
+Brazilian Flora 2020 records an 8–12 m tree with glabrous branches and leaves of three or five oval to elliptic leaflets. The stipules fall away; the leaflets are opaque and dotted, with looping side veins. Loose inflorescences have glabrous axes and more than three flowers on the secondary axes. The bell-shaped calyx has no dots, the corolla ranges from lilac to wine-colored, and the standard petal is curved. The samaroid legume bears a wing along its upper margin and has indumentum; the seed is flat. The source is a regional character list.
+

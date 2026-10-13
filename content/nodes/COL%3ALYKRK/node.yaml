@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus tabuleiro
+  displayName: Brachycephalus tabuleiro
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LYKRK
+  sourceIndexes:
+    - name:
+        en: Brachycephalus tabuleiro
+        zh: Brachycephalus tabuleiro
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LYKRK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/435
+            queryName: Brachycephalus tabuleiro
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eb3e729b1a
+      - s-8dcb6c16df
+      - s-cda6c546fd
+      - s-b752248353
+      - s-c87d89c334
+      - s-186c03c187
+      - s-d1fc3b912f
+      - s-e66bf1428e
+      - s-8b61ab1236
+      - s-cd300166d8
+      - s-ccb4503a1f
+    zh:
+      - s-374a2c5c03
+      - s-72ab94422e
+      - s-193ad99cde
+      - s-609686fdfe
+      - s-724ea9111e
+      - s-3ea321dd16
+      - s-24d49548b4
+      - s-c8aea42ae2
+      - s-2bde18f7d1
+      - s-05711ceda9
+      - s-6ac1bfc439

@@ -1,0 +1,441 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Boulenophrys nanlingensis (Lyu, J. Wang, Liu & Y. Y. Wang in J. Wang et al., 2019)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Boulenophrys nanlingensis
+      zh: Boulenophrys nanlingensis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1da091554e
+            part: title
+          zh:
+            page: zh
+            section: s-0f7bda58a2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1da091554e
+            part: body
+          zh:
+            page: zh
+            section: s-0f7bda58a2
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-2289d8fde2
+            part: title
+          zh:
+            page: zh
+            section: s-d85b0ba40e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2289d8fde2
+            part: body
+          zh:
+            page: zh
+            section: s-d85b0ba40e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1b2d13c5e5
+            part: title
+          zh:
+            page: zh
+            section: s-44d817f411
+            part: title
+        sourceIds:
+          - tadpoletraits
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1b2d13c5e5
+            part: body
+          zh:
+            page: zh
+            section: s-44d817f411
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-9e111b395d96354a62759237
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-533b2efc356a2773ee49cbbc
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0a559e4125
+            part: title
+          zh:
+            page: zh
+            section: s-bda437f0d9
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-0a559e4125
+            part: body
+          zh:
+            page: zh
+            section: s-bda437f0d9
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-1867aadb46
+            part: title
+          zh:
+            page: zh
+            section: s-deddbf0168
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9ly
+        text:
+          en:
+            page: en
+            section: s-1867aadb46
+            part: body
+          zh:
+            page: zh
+            section: s-deddbf0168
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cd19249c3b
+            part: title
+          zh:
+            page: zh
+            section: s-c2cd285a69
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9ly
+        text:
+          en:
+            page: en
+            section: s-cd19249c3b
+            part: body
+          zh:
+            page: zh
+            section: s-c2cd285a69
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-070eb911f7
+            part: title
+          zh:
+            page: zh
+            section: s-615b1c9702
+            part: title
+        sourceIds:
+          - primary-pmc10083232-lx9ly
+        text:
+          en:
+            page: en
+            section: s-070eb911f7
+            part: body
+          zh:
+            page: zh
+            section: s-615b1c9702
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9663dcd3ea
+            part: title
+          zh:
+            page: zh
+            section: s-3327c17c6d
+            part: title
+        sourceIds:
+          - primary-pmc12466624-lx9ly
+        text:
+          en:
+            page: en
+            section: s-9663dcd3ea
+            part: body
+          zh:
+            page: zh
+            section: s-3327c17c6d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Boulenophrys nanlingensis
+          url: https://www.checklistbank.org/dataset/316115/taxon/LX9LY
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 3494, 3495, 3496, 3497, 3498, 3499, 3500, 3501, 3502, 3503, 3504, 3505, 3506, 3507; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4019; Reference.csv rows 1052
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc10083232-lx9ly
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys nanlingensis: Named species type material, examined specimens, distribution, diagnosis and remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12466624-lx9ly
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Boulenophrys nanlingensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7e4ba3e22e
+        part: body
+      zh:
+        page: zh
+        section: s-26a2c02bb1
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-9e111b395d96354a62759237
+        scientificName: Boulenophrys nanlingensis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.24272/j.issn.2095-8137.2022.372
+        referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+        sourceKey: primary-pmc10083232-lx9ly
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10083232/article.xml
+        sourceConcept: Boulenophrys nanlingensis
+        evidenceRead: "Boulenophrys nanlingensis: Named species type material, examined specimens, distribution, diagnosis and remarks; no source figures or supplements reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Three mountain localities in the 2023 treatment
+              zh: 2023 年处理中的三个山地地点
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9ly
+            locator: RESULTS > Boulenophrys nanlingensis; Holotype and Distribution; reading-sections index 64, section s03.80
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b90b0fee30
+                part: body
+              zh:
+                page: zh
+                section: s-a2779bded2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Ten male types and diagnostic skin characters
+              zh: 十只雄性模式标本与皮肤鉴别特征
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9ly
+            locator: RESULTS > Boulenophrys nanlingensis; Specimens examined and Diagnosis characters 1, 5, 9 and 11; reading-sections index 64, section s03.80
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8507c8ce69
+                part: body
+              zh:
+                page: zh
+                section: s-f8f97a4901
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: Conflicting delimitation evidence kept visible
+              zh: 保留存在分歧的物种界定证据
+            referenceId: ref-5f247c02-8a0e-4bca-adf0-4308ca2eb8ef
+            sourceKey: primary-pmc10083232-lx9ly
+            locator: RESULTS > Boulenophrys nanlingensis; Remarks; reading-sections index 64, section s03.80
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-39eb766178
+                part: body
+              zh:
+                page: zh
+                section: s-51f4786ce0
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3390/ani15182745
+        referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+        sourceKey: primary-pmc12466624-lx9ly
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12466624/article.xml
+        sourceConcept: Boulenophrys nanlingensis
+        evidenceRead: "Boulenophrys nanlingensis: XML Sampling; phylogenetic/morphological results; taxonomic account paragraphs 4–7,13–16,22–24,31,33–38,40; all Discussion paragraphs read; type versus historical sequence concepts distinguished; supplementary measurements and original sequences not independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A character cited in the gutu comparison
+              zh: gutu 比较中引用的性状
+            referenceId: ref-d6bd121b-3bab-4a8f-aa33-33726f416c45
+            sourceKey: primary-pmc12466624-lx9ly
+            locator: PMC12466624 XML sec3dot3 paragraphs 24,36
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3d96895755
+                part: body
+              zh:
+                page: zh
+                section: s-e328bcd610
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

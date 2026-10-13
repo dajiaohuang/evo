@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudoeurycea
+  displayName: Pseudoeurycea
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6ZZL
+  sourceIndexes:
+    - name:
+        en: Pseudoeurycea
+        zh: Pseudoeurycea
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6ZZL
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/200
+            queryName: Pseudoeurycea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 265
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c9288584bb
+      - s-3b5d1aebb8
+      - s-d726ce7db4
+      - s-3ef2114128
+      - s-2f324d3918
+      - s-d1ccfa4329
+      - s-d3746beff7
+      - s-84ea22bf65
+      - s-1041d8b751
+      - s-69c8adc00c
+      - s-02e0283454
+      - s-fdf7848981
+      - s-10bb0645d4
+    zh:
+      - s-560f7e7ed9
+      - s-27e60a1729
+      - s-fdd5234cfd
+      - s-c34fbb53e7
+      - s-5f60e6335d
+      - s-516d39cce7
+      - s-0738004ba7
+      - s-719987ed0c
+      - s-db3a8cfaf5
+      - s-9ded600a6c
+      - s-13f45036e2
+      - s-6a09ccb7d3
+      - s-17d4badd69

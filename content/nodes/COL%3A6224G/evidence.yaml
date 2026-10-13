@@ -1,0 +1,643 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Mammalia
+    commonName: Mammals
+    commonNameZh: 哺乳动物
+    rank: class
+    taxonId: txn:36651
+    firstAppearance: 225
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:mammalia
+      claimKind: scientific
+      claimType: taxonomy
+      statement: Broad Mesozoic matrices distinguish crown-based Mammalia from more inclusive mammaliaform usage, and Jurassic euharamiyidan analyses can move key fossils across that boundary; the atlas Mammalia route therefore does not turn its 225 Ma display ceiling into a crown origin date.
+      confidence: medium
+      confidenceRationale: Two primary morphological analyses support the concept disagreement and sampled placements. Neither source directly dates the crown’s origin.
+      referenceLinks:
+        - relation: supports
+          referenceId: luo-2002-mesozoic-mammal-phylogeny
+          pages: 1–78
+          quoteLocator: Definitions of Mammalia and Mammaliaformes; phylogenetic analyses
+        - relation: supports
+          referenceId: bi-2014-euharamiyidans
+          pages: 579–584
+          figure: Figure 4
+          quoteLocator: Mammalia phylogeny and alternative placement discussion
+    - subjectId: taxon:mammalia
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Mammalia is displayed at 164.7–0 Ma only as a contested matrix-dependent navigation envelope; it is not a crown-Mammalia origin date. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.
+      confidence: contested
+      confidenceRationale: Mammalia uses Bi, S.; Wang, Y.; Guan, J.; Sheng, X.; Meng, J. (2014) because the cited pages and locator expose the sampled taxon, specimen or living sequence set. Confidence is contested and applies only to Jurassic euharamiyidan sample under the Mammalia placement tested by Bi et al., continued by living Mammalia; broader endpoints remain unclaimed.
+      referenceLinks:
+        - relation: supports
+          referenceId: bi-2014-euharamiyidans
+          pages: 579–584
+          figure: Figure 4
+          quoteLocator: Mammalia phylogeny and alternative placement discussion
+        - relation: contextualizes
+          referenceId: ics-2026-06
+          pages: International Chronostratigraphic Chart v2026/06
+          figure: Global chronostratigraphic scale
+          quoteLocator: Numerical boundaries for named geological stages used to bound the source sample
+  claim-rationales.zh:
+    - 两项一手形态分析支持概念分歧与取样位置；二者都未直接测定冠群起源。
+    - Mammalia 采用 Bi, S.; Wang, Y.; Guan, J.; Sheng, X.; Meng, J.（2014）的论文，因为所引页码与定位符直接标示了研究采样的类群、标本或现生序列集合。争议置信度仅适用于 Jurassic euharamiyidan sample under the Mammalia placement tested by Bi et al., continued by living Mammalia；更宽泛端点保持未声明。
+  claim-statements.zh:
+    - 广泛的中生代矩阵将冠群式哺乳纲与更包容的哺乳形类用法区分开，而侏罗纪真哈拉米亚类分析可使关键化石跨越这一边界移动；因此图谱的 Mammalia 路线不会把 2.25 亿年前的显示上限转化为冠群起源日期。
+    - Mammalia 仅以 164.7–0 Ma 展示为依赖矩阵且存在争议的导航包络；并非冠群哺乳类起源日期。该区间是来源限定的样本窗口，不是全球首现、末现、分化日期、连续占据或直接祖先断言。
+  ranges:
+    - entityId: mammalia
+      rangeKind: global-composite
+      taxonomicConcept: Mammalia — source-bounded sample window
+      geographicScope: Jurassic euharamiyidan sample under the Mammalia placement tested by Bi et al., continued by living Mammalia
+      olderMa: 164.7
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: 0
+        note: This display is limited to a contested matrix-dependent navigation envelope; it is not a crown-Mammalia origin date; numerical stage conversions follow ICS v2026/06 where applicable.
+      evidenceBasis: Three new Jurassic euharamiyidan species reinforce early divergence of mammals directly anchors the sampled window; the display does not extrapolate it into a global taxon duration.
+      confidence: contested
+      claimIds:
+        - claim:taxon:mammalia:source-bounded-range-rc49
+      referenceLocators:
+        - referenceId: bi-2014-euharamiyidans
+          locator: 579–584; Mammalia phylogeny and alternative placement discussion
+        - referenceId: ics-2026-06
+          locator: International Chronostratigraphic Chart v2026/06; numerical stage boundaries
+      evidenceLevel: literature-synthesized
+  classification-support:
+    - support: moderate
+      groupingBasis: Major mammal groups are simplified to keep the atlas navigable.
+      conflicts: Stem/crown definitions and divergence estimates vary among morphological and molecular analyses.
+      references:
+        - open-tree
+        - pbdb-api-2016
+  catalogue-profile:
+    scientificName: Mammalia
+    rank: class
+    sourceDatasetId: "2144"
+    name:
+      zh: Mammalia
+      en: Mammalia
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-5c3db86a7d
+            part: body
+          en:
+            page: en
+            section: s-e9e9ed961b
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-3242469408
+            part: body
+          en:
+            page: en
+            section: s-a968ad55e7
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-cb0af75552
+            part: body
+          en:
+            page: en
+            section: s-19a2079840
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-e8698383e3
+            part: body
+          en:
+            page: en
+            section: s-1b8b3425b4
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-992d0aa8ee
+            part: body
+          en:
+            page: en
+            section: s-4486fa66ca
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f279c62179
+            part: body
+          en:
+            page: en
+            section: s-26ae8e1722
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-d951345cdf
+            part: body
+          en:
+            page: en
+            section: s-3cff86c458
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-3ab11ecf01
+            part: body
+          en:
+            page: en
+            section: s-2c5f770470
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-4c41711ba4
+            part: body
+          en:
+            page: en
+            section: s-a81c72a73c
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-324569c7bc
+            part: body
+          en:
+            page: en
+            section: s-f8726baf99
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-a1678a6923
+            part: body
+          en:
+            page: en
+            section: s-8f2105993a
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-a0603dc3b0
+            part: body
+          en:
+            page: en
+            section: s-98b3836d69
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-faef1fbccc
+            part: body
+          en:
+            page: en
+            section: s-2b081b523e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mammalia
+          url: https://www.checklistbank.org/dataset/316115/taxon/6224G
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1213 authored entries grouped under Mammalia by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 2110 authored same-name records placed under Mammalia by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3755 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 3229
+            foraging: 3611
+            activity: 3527
+          readingTargets:
+            - name: Tachyglossus aculeatus
+              colId: 54CMZ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A54CMZ
+            - name: Zaglossus attenboroughi
+              colId: 7GBTK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7GBTK
+            - name: Zaglossus bartoni
+              colId: 7GC5K
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7GC5K
+            - name: Zaglossus bruijni
+              colId: 7GBTL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A7GBTL
+            - name: Ornithorhynchus anatinus
+              colId: 74WBV
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A74WBV
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Mammalia
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36651
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36651
+          readingTargets:
+            - name: Wirunodon chanku
+              pbdbTaxonId: txn:276032
+              canonicalPath: content/nodes/PBDB%3A276032
+            - name: Pilkipildra taylori
+              pbdbTaxonId: txn:247824
+              canonicalPath: content/nodes/PBDB%3A247824
+            - name: Djilgaringa gillespiei
+              pbdbTaxonId: txn:247820
+              canonicalPath: content/nodes/PBDB%3A247820
+            - name: Wanotherium xuanchengensis
+              pbdbTaxonId: txn:246068
+              canonicalPath: content/nodes/PBDB%3A246068
+            - name: Kryoryctes cadburyi
+              pbdbTaxonId: txn:164354
+              canonicalPath: content/nodes/PBDB%3A164354
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 278 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 2
+            foraging: 250
+            activity: 26
+          readingTargets:
+            - name: Hyladelphys kalinowskii
+              colId: 3NDG4
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3NDG4
+            - name: Sminthopsis bindi
+              colId: 4XWZ3
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4XWZ3
+            - name: Ailurops melanotis
+              colId: 5TV3V
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A5TV3V
+            - name: Phalanger mimicus
+              colId: 4FR5X
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4FR5X
+            - name: Phalanger intercastellanus
+              colId: 4FR5T
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4FR5T
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+          - withheldComparisonFields
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 935 authored entries grouped under Mammalia by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: QQ4Y
+              name: Caperea marginata
+              canonicalPath: content/nodes/COL%3AQQ4Y
+            - colId: J8NQ
+              name: Atelerix sclateri
+              canonicalPath: content/nodes/COL%3AJ8NQ
+            - colId: J8NW
+              name: Ateles chamek
+              canonicalPath: content/nodes/COL%3AJ8NW
+            - colId: PW5Y
+              name: Callosciurus melanogaster
+              canonicalPath: content/nodes/COL%3APW5Y
+            - colId: PYKY
+              name: Calomys boliviae
+              canonicalPath: content/nodes/COL%3APYKY
+          withheldComparisonFields:
+            - colId: QQ4Y
+              field: 5-1_AdultBodyMass_g
+              reason: pending-source-review
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 616 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 5VLCR
+              name: Antilocapra americana
+              canonicalPath: content/nodes/COL%3A5VLCR
+            - colId: 652YZ
+              name: Addax nasomaculatus
+              canonicalPath: content/nodes/COL%3A652YZ
+            - colId: 64ZMM
+              name: Aepyceros melampus
+              canonicalPath: content/nodes/COL%3A64ZMM
+            - colId: 66BLJ
+              name: Ammodorcas clarkei
+              canonicalPath: content/nodes/COL%3A66BLJ
+            - colId: CVNG
+              name: Ammotragus lervia
+              canonicalPath: content/nodes/COL%3ACVNG
+          fieldAccountCounts:
+            gestation(mo): 448
+            newborn(g): 354
+            weaning(mo): 357
+            wean mass(g): 155
+            AFR(mo): 362
+            max. life(mo): 297
+            litter size: 588
+            litters/year: 313
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-dfc9a3f105
+        part: body
+      en:
+        page: en
+        section: s-f7b050c0a4
+        part: body

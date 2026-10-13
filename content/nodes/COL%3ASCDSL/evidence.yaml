@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis glendae Ortega, Brito-M. & Ron, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis glendae
+      zh: Pristimantis glendae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3a88313a1f
+            part: title
+          zh:
+            page: zh
+            section: s-b854ab9bf4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3a88313a1f
+            part: body
+          zh:
+            page: zh
+            section: s-b854ab9bf4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-36e9b40a01
+            part: title
+          zh:
+            page: zh
+            section: s-682ec416a9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-36e9b40a01
+            part: body
+          zh:
+            page: zh
+            section: s-682ec416a9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-a1f67fcdb7
+            part: title
+          zh:
+            page: zh
+            section: s-2267c2b6c9
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scdsl
+        text:
+          en:
+            page: en
+            section: s-a1f67fcdb7
+            part: body
+          zh:
+            page: zh
+            section: s-2267c2b6c9
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-914ebadba7
+            part: title
+          zh:
+            page: zh
+            section: s-3c29ba123e
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scdsl
+        text:
+          en:
+            page: en
+            section: s-914ebadba7
+            part: body
+          zh:
+            page: zh
+            section: s-3c29ba123e
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-161486d73a
+            part: title
+          zh:
+            page: zh
+            section: s-dfc4e7d4cd
+            part: title
+        sourceIds:
+          - primary-pmc9583859-scdsl
+        text:
+          en:
+            page: en
+            section: s-161486d73a
+            part: body
+          zh:
+            page: zh
+            section: s-dfc4e7d4cd
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis glendae
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCDSL
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc9583859-scdsl
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis glendae: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-37d1bd0d4a
+        part: body
+      zh:
+        page: zh
+        section: s-93b39a26ae
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.13761
+        referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+        sourceKey: primary-pmc9583859-scdsl
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9583859/article.xml
+        sourceConcept: Pristimantis glendae
+        evidenceRead: "Pristimantis glendae: Named diagnoses and locality/conservation paragraphs; ecosystem and group summaries not assigned as individual species limits; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A visible tympanum and male-only size range
+              zh: 可见鼓膜及仅雄体长范围
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scdsl
+            locator: PMC9583859 reading-sections section 1, paragraph 38
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e6ea82eb58
+                part: body
+              zh:
+                page: zh
+                section: s-b82eaa93cb
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Cloud-forest perches and recorded sympatry
+              zh: 云雾林栖位及所记同域
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scdsl
+            locator: PMC9583859 reading-sections section 1, paragraph 46
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0e18236138
+                part: body
+              zh:
+                page: zh
+                section: s-0858df4a6e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: conservation
+            heading:
+              en: A limited-information category proposed in the description
+              zh: 描述中提出的有限信息类别
+            referenceId: ref-4bab57da-391a-41b6-aa03-b04bd25b6f38
+            sourceKey: primary-pmc9583859-scdsl
+            locator: PMC9583859 reading-sections section 1, paragraph 46
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-16450d0f55
+                part: body
+              zh:
+                page: zh
+                section: s-a7e4bbd7cf
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,525 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allobates masniger (Morales, 2002)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Allobates masniger
+      zh: Allobates masniger
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-dc7254ef14
+            part: title
+          zh:
+            page: zh
+            section: s-21bbb640ce
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dc7254ef14
+            part: body
+          zh:
+            page: zh
+            section: s-21bbb640ce
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-73a99dba77
+            part: title
+          zh:
+            page: zh
+            section: s-e0ef61b603
+            part: title
+        text:
+          en:
+            page: en
+            section: s-73a99dba77
+            part: body
+          zh:
+            page: zh
+            section: s-e0ef61b603
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-cb37521a57
+            part: title
+          zh:
+            page: zh
+            section: s-4050d67ec2
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-cb37521a57
+            part: body
+          zh:
+            page: zh
+            section: s-4050d67ec2
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-aa31409840
+            part: title
+          zh:
+            page: zh
+            section: s-0e9670cb6e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-aa31409840
+            part: body
+          zh:
+            page: zh
+            section: s-0e9670cb6e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c7402edf1b
+            part: title
+          zh:
+            page: zh
+            section: s-8ebee4abac
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-c7402edf1b
+            part: body
+          zh:
+            page: zh
+            section: s-8ebee4abac
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-5d592d0a1016e43438a9126bc12528bb
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-ea7642f6b6
+            part: title
+          zh:
+            page: zh
+            section: s-bc2bb36b00
+            part: title
+        sourceIds:
+          - primary-pmc7648453-bv24
+        text:
+          en:
+            page: en
+            section: s-ea7642f6b6
+            part: body
+          zh:
+            page: zh
+            section: s-bc2bb36b00
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2c47ec6ad9
+            part: title
+          zh:
+            page: zh
+            section: s-1e8b979d9c
+            part: title
+        sourceIds:
+          - primary-pmc7648453-bv24
+        text:
+          en:
+            page: en
+            section: s-2c47ec6ad9
+            part: body
+          zh:
+            page: zh
+            section: s-1e8b979d9c
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5d7986fe37
+            part: title
+          zh:
+            page: zh
+            section: s-8d99db7411
+            part: title
+        sourceIds:
+          - primary-pmc7648453-bv24
+        text:
+          en:
+            page: en
+            section: s-5d7986fe37
+            part: body
+          zh:
+            page: zh
+            section: s-8d99db7411
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-2c02981460
+            part: title
+          zh:
+            page: zh
+            section: s-33916258c0
+            part: title
+        sourceIds:
+          - primary-pmc7648453-bv24
+        text:
+          en:
+            page: en
+            section: s-2c02981460
+            part: body
+          zh:
+            page: zh
+            section: s-33916258c0
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-940342f9ce
+            part: title
+          zh:
+            page: zh
+            section: s-fe75e3e62d
+            part: title
+        sourceIds:
+          - primary-pmc7648453-bv24
+        text:
+          en:
+            page: en
+            section: s-940342f9ce
+            part: body
+          zh:
+            page: zh
+            section: s-fe75e3e62d
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-d78680bf0e
+            part: title
+          zh:
+            page: zh
+            section: s-48439d1912
+            part: title
+        sourceIds:
+          - primary-pmc7648453-bv24
+        text:
+          en:
+            page: en
+            section: s-d78680bf0e
+            part: body
+          zh:
+            page: zh
+            section: s-48439d1912
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Allobates masniger
+          url: https://www.checklistbank.org/dataset/316115/taxon/BV24
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0038; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0038 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7648453-bv24
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Allobates masniger: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bdb50cd13f
+        part: body
+      zh:
+        page: zh
+        section: s-ab59b14d43
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-5d592d0a1016e43438a9126bc12528bb
+      sourceRowId: Anf0038
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0038
+        bibliographyRowId: Anf0038
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Allobates masniger
+        candidateBibliographyRowIds:
+          - Anf0038
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.9979
+        referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+        sourceKey: primary-pmc7648453-bv24
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7648453/article.xml
+        sourceConcept: Exact frozen accepted-name label in2020 comparison/table/Appendix; primary observations and reviewed comparisons explicitly distinguished; original specimens/sequence concepts not authenticated
+        evidenceRead: "Allobates masniger: Recorded main sections/allfive main tables/captions andAppendixI read;all78 donor-sheet rows and13 type-series measurement rows read preserving celltypes/addresses;allfive depositedFASTAstrings inventoried, noalignment/orientation/distance recomputation;originalGenBank/audio/vouchers/figurepixels unreviewed;no fullarticle certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A reported distance to velocicantus
+              zh: 所报与 velocicantus 的距离
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-bv24
+            locator: PMC7648453 article.xml Table2 row1 rightname/p/K2P cells andfootnote;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0a783dace0
+                part: body
+              zh:
+                page: zh
+                section: s-0c9e822541
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Male throat colour in a diagnostic comparison
+              zh: 鉴别比较中的雄性喉色
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-bv24
+            locator: PMC7648453 article.xml Taxonomy paragraph18;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e616c44462
+                part: body
+              zh:
+                page: zh
+                section: s-7c4c236576
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: A single-note arrangement in the reviewed comparison
+              zh: 综述比较中的单音节排列
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-bv24
+            locator: PMC7648453 article.xml Taxonomy paragraph21;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-a3c8d1df7e
+                part: body
+              zh:
+                page: zh
+                section: s-1f1953fc33
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: occurrence
+            heading:
+              en: Examined vouchers retain their source localities
+              zh: 检查凭证保留来源地点
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-bv24
+            locator: PMC7648453 article.xml AppendixI paragraph12;paragraphs numbered within reading-sections.json named section
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-912d99f14b
+                part: body
+              zh:
+                page: zh
+                section: s-a3c0c74a3d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: evolution
+            heading:
+              en: Reported donor codes and available loci
+              zh: 所报供体编号及可得位点
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-bv24
+            locator: PMC7648453 peerj-08-9979-s001.xls sheet Table 1 rows36 columnsA:B/D:N;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6294da55ea
+                part: body
+              zh:
+                page: zh
+                section: s-249403ca4e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 5
+            topic: occurrence
+            heading:
+              en: Source locality strings remain donor-specific
+              zh: 来源地点字符串保持供体特定
+            referenceId: ref-780a2c59-1b06-4333-ac86-b3caec8ba058
+            sourceKey: primary-pmc7648453-bv24
+            locator: PMC7648453 peerj-08-9979-s001.xls same rows columnsA:C;sha256:00c7e0125ff16560c661220cde9f0090003457040cbfa184e0a7c66d391c94d1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e96cf9b9eb
+                part: body
+              zh:
+                page: zh
+                section: s-59d60eced7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

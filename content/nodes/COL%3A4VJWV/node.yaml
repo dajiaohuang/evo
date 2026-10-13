@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax granulatus
+  displayName: Scinax granulatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJWV
+  sourceIndexes:
+    - name:
+        en: Scinax granulatus
+        zh: Scinax granulatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJWV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/41
+            queryName: Scinax granulatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/45
+            queryName: Hyla granulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/46
+            queryName: Hyla eringiophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/47
+            queryName: Ololygon eringiophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/335
+            queryName: Hyla strigilata eringiophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/336
+            queryName: Hyla x-signata eringiophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/337
+            queryName: Ololygon x-signata eringiophila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9e540d3e9b
+      - s-4067a43d50
+      - s-3e3659cc73
+      - s-c29b2ffa06
+      - s-302220ea1d
+      - s-ec8512daae
+      - s-573f7f9d80
+      - s-89e8d60abe
+      - s-903228b06b
+      - s-cb13bfdb74
+      - s-7222ef1cc8
+      - s-ab6a0da659
+      - s-9868cdf39c
+      - s-2709d2d931
+      - s-0e2391cf07
+      - s-e45fe6b7db
+      - s-a70e28f823
+      - s-1755fc56bc
+    zh:
+      - s-8b0b638b88
+      - s-623924bba9
+      - s-ddb96158a7
+      - s-66fc5ebc62
+      - s-9df37d0cb2
+      - s-3a69fccba5
+      - s-843d9e75e2
+      - s-f088d10c43
+      - s-203ce44c47
+      - s-100435d64c
+      - s-28da04ff12
+      - s-674ef2b7d4
+      - s-42928caf9d
+      - s-f0571ddd4b
+      - s-e51cb614ce
+      - s-41c0c0d34f
+      - s-51205cb57e
+      - s-ab56470637

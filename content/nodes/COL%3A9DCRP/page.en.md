@@ -1,0 +1,3 @@
+## ## Velvety stems and pink filaments {#s-205f45f2bf}
+The Brazilian Flora 2020 entry records tomentose to velvety stems with spreading simple hairs and capitate glandular hairs; setae, prickles and short shoots are absent. The stipules persist, extrafloral nectaries are absent, and projections occur between pinna pairs. The inflorescences are cylindrical, with floral bracts shorter than the flowers before opening. The flowers have four perianth parts and a membranous calyx with triangular lobes. Corolla lobes are hairy and have one to three veins; the androecium is diplostemonous, with pink filaments. The habitat field says “terrestrial” but gives no locality or more specific habitat description. These regional character fields do not quantify species-wide variation.
+

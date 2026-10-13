@@ -1,0 +1,143 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Amnihyla spartacus (Richards & Oliver, 2006)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Amnihyla spartacus
+      zh: Amnihyla spartacus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-97ebcc2efe
+            part: title
+          zh:
+            page: zh
+            section: s-6220c368c8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-97ebcc2efe
+            part: body
+          zh:
+            page: zh
+            section: s-6220c368c8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-c592fcb6da
+            part: title
+          zh:
+            page: zh
+            section: s-b193aaaf53
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c592fcb6da
+            part: body
+          zh:
+            page: zh
+            section: s-b193aaaf53
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-baa7d6c209
+            part: title
+          zh:
+            page: zh
+            section: s-58f4cd3a21
+            part: title
+        sourceIds:
+          - amphibio
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-baa7d6c209
+            part: body
+          zh:
+            page: zh
+            section: s-58f4cd3a21
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-d36dfaf41b8cdd4d961480722e1f2f1c
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Amnihyla spartacus
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5R7C
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2927; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2927 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f2f7f52417
+        part: body
+      zh:
+        page: zh
+        section: s-4c9fff2c24
+        part: body

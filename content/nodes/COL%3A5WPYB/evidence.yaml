@@ -1,0 +1,292 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus izecksohni Ribeiro, Alves, Haddad & Reis, 2005
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus izecksohni
+      zh: Brachycephalus izecksohni
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-986542b1e1
+            part: title
+          zh:
+            page: zh
+            section: s-1c8cfb5cd9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-986542b1e1
+            part: body
+          zh:
+            page: zh
+            section: s-1c8cfb5cd9
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-28c9b64fd1
+            part: title
+          zh:
+            page: zh
+            section: s-136844c113
+            part: title
+        text:
+          en:
+            page: en
+            section: s-28c9b64fd1
+            part: body
+          zh:
+            page: zh
+            section: s-136844c113
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-5c75a3b89d
+            part: title
+          zh:
+            page: zh
+            section: s-ae98bfead6
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyb
+        text:
+          en:
+            page: en
+            section: s-5c75a3b89d
+            part: body
+          zh:
+            page: zh
+            section: s-ae98bfead6
+            part: body
+      - topic: appearance
+        title:
+          en:
+            page: en
+            section: s-328eba9fba
+            part: title
+          zh:
+            page: zh
+            section: s-8e1d41c30f
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyb
+        text:
+          en:
+            page: en
+            section: s-328eba9fba
+            part: body
+          zh:
+            page: zh
+            section: s-8e1d41c30f
+            part: body
+      - topic: behavior
+        title:
+          en:
+            page: en
+            section: s-5c47295067
+            part: title
+          zh:
+            page: zh
+            section: s-1bd3590439
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyb
+        text:
+          en:
+            page: en
+            section: s-5c47295067
+            part: body
+          zh:
+            page: zh
+            section: s-1bd3590439
+            part: body
+      - topic: conservation
+        title:
+          en:
+            page: en
+            section: s-16c2c79b85
+            part: title
+          zh:
+            page: zh
+            section: s-c9442417e2
+            part: title
+        sourceIds:
+          - primary-pmc12694819-5wpyb
+        text:
+          en:
+            page: en
+            section: s-16c2c79b85
+            part: body
+          zh:
+            page: zh
+            section: s-c9442417e2
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus izecksohni
+          url: https://www.checklistbank.org/dataset/316115/taxon/5WPYB
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12694819-5wpyb
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus izecksohni: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-2ec584285d
+        part: body
+      zh:
+        page: zh
+        section: s-e307d513c1
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0334746
+        referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+        sourceKey: primary-pmc12694819-5wpyb
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12694819/article.xml
+        sourceConcept: Brachycephalus izecksohni
+        evidenceRead: "Brachycephalus izecksohni: Raw study/collection, acoustic and molecular methods, comparative Table 2 with caption, conservation methods/Table 7, new-species diagnosis/natural-history and taxonomy/conservation discussion read; selected accepted comparison species only, original recordings/specimens and supplementary GIS not independently reanalysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY (version not explicit in XML)
+          licenseUrl: https://creativecommons.org/licenses/by/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: Sex-specific measurements retain variable-specific sample counts
+              zh: 分性别测量保留各变量样本数
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyb
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus izecksohni measurement row and caption; sec004 paragraphs 0–1; sec036 paragraphs 4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7108a2a930
+                part: body
+              zh:
+                page: zh
+                section: s-eb863023fc
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: appearance
+            heading:
+              en: Live and preserved colours are separate evidence
+              zh: 活体与保存颜色是不同证据
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyb
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus izecksohni live/preserved colour columns and caption; sec036 paragraphs 2,4–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-09ec71d465
+                part: body
+              zh:
+                page: zh
+                section: s-5c2289dd3d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: behavior
+            heading:
+              en: Advertisement-call comparisons use distinct acoustic units
+              zh: 求偶鸣声比较区分声学单位
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyb
+            locator: PMC12694819 XML pone.0334746.t002 Brachycephalus izecksohni acoustic row and caption; sec007 paragraphs 0–1; sec036 paragraphs 0–1,4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2378f4ab95
+                part: body
+              zh:
+                page: zh
+                section: s-c440649b58
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: conservation
+            heading:
+              en: The 2025 assessment separates records, mapped habitat and risk
+              zh: 2025 年评估区分记录、映射生境与风险
+            referenceId: ref-99091b22-4527-473c-a92e-4b5d7a80e1af
+            sourceKey: primary-pmc12694819-5wpyb
+            locator: PMC12694819 XML pone.0334746.t007 Brachycephalus izecksohni row; sec009 paragraphs 0–4; sec038 paragraphs 2–6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-17d6112aea
+                part: body
+              zh:
+                page: zh
+                section: s-31f0f7c358
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

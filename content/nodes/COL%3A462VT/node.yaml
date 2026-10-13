@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nectophryne afra
+  displayName: Nectophryne afra
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/462VT
+  sourceIndexes:
+    - name:
+        en: Nectophryne afra
+        zh: Nectophryne afra
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 462VT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/210
+            queryName: Nectophryne afra
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-60fa56a9a5
+      - s-d63ac74adf
+      - s-a976903af6
+      - s-45fd30d293
+      - s-524780fd9c
+      - s-b1246695a3
+      - s-833b79d510
+      - s-2cf1ca7cb5
+      - s-408a6d4d33
+      - s-1c4b9e7880
+      - s-c3d2e14273
+      - s-f9a9b74a93
+      - s-53db080b67
+      - s-a892dca452
+      - s-b34e2b2862
+      - s-8fe401e0f1
+      - s-28baaf1cb4
+      - s-0fd8034f70
+      - s-787a17417e
+      - s-d9a44ece90
+      - s-61e8c7a6ed
+      - s-4d51aa7677
+      - s-3000301f82
+      - s-036a993d3e
+    zh:
+      - s-6a6a57d0f0
+      - s-bed5dd5dc7
+      - s-f2a639faaa
+      - s-aac36a6d0f
+      - s-170efd1a9d
+      - s-acff352f9f
+      - s-ed3e5dcd81
+      - s-6ecb04eac3
+      - s-cb79de4f84
+      - s-0226bd3f5e
+      - s-c590caa78a
+      - s-7a5b3c3bd3
+      - s-437fe4e754
+      - s-a163d9ac7c
+      - s-bb66ca97c2
+      - s-0bac55e23b
+      - s-3b09ae95b9
+      - s-59a0458fbb
+      - s-68ca145d94
+      - s-8e1afc4869
+      - s-f6ac9668ef
+      - s-bdb3af7bcb
+      - s-8f4b297d7c
+      - s-0f424c612a

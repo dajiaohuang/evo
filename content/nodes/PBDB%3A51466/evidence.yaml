@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sciuravus powayensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Sciuravus powayensis
+      en: Sciuravus powayensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2e8f2c94d1
+            part: body
+          en:
+            page: en
+            section: s-9909e09262
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-45fe30deb2
+            part: body
+          en:
+            page: en
+            section: s-39a9154a16
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-960c2b54f5
+            part: body
+          en:
+            page: en
+            section: s-cd0e309cc2
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-c1d08ac71e
+            part: body
+          en:
+            page: en
+            section: s-0c11c4659b
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b6c6cf602c
+            part: body
+          en:
+            page: en
+            section: s-ef55cc3a4d
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Sciuravus powayensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=51466&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:51466; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:51466
+          selectedOccurrenceIds:
+            - occ:175859
+            - occ:176003
+            - occ:176132
+            - occ:176134
+            - occ:176137
+            - occ:176139
+            - occ:176142
+            - occ:176511
+            - occ:176528
+            - occ:176538
+            - occ:176547
+            - occ:176567
+            - occ:176576
+            - occ:176580
+            - occ:176601
+            - occ:176605
+            - occ:176609
+            - occ:176620
+            - occ:176636
+            - occ:176639
+            - occ:176682
+            - occ:176687
+            - occ:176696
+            - occ:176712
+            - occ:176730
+            - occ:176739
+            - occ:176743
+            - occ:176750
+            - occ:176762
+            - occ:176782
+            - occ:176795
+            - occ:176815
+            - occ:176826
+            - occ:176844
+            - occ:176885
+            - occ:176896
+            - occ:176906
+            - occ:176914
+            - occ:176938
+            - occ:176958
+            - occ:176973
+            - occ:176991
+            - occ:177019
+            - occ:177042
+            - occ:177072
+          selectedCollectionIds:
+            - col:16585
+            - col:16601
+            - col:16616
+            - col:16617
+            - col:16618
+            - col:16619
+            - col:16620
+            - col:16665
+            - col:16666
+            - col:16667
+            - col:16669
+            - col:16673
+            - col:16675
+            - col:16676
+            - col:16677
+            - col:16678
+            - col:16680
+            - col:16682
+            - col:16684
+            - col:16685
+            - col:16697
+            - col:16701
+            - col:16702
+            - col:16705
+            - col:16706
+            - col:16707
+            - col:16708
+            - col:16709
+            - col:16710
+            - col:16713
+            - col:16714
+            - col:16716
+            - col:16718
+            - col:16719
+            - col:16736
+            - col:16737
+            - col:16738
+            - col:16739
+            - col:16745
+            - col:16746
+            - col:16747
+            - col:16748
+            - col:16751
+            - col:16752
+            - col:16762
+          sourceReferenceIds:
+            - ref:3540
+            - ref:3538
+            - ref:1681
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-f6e7a583ab
+        part: body
+      en:
+        page: en
+        section: s-08140693d5
+        part: body

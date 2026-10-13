@@ -1,0 +1,89 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-e357b37c17
+          part: title
+        zh:
+          page: zh
+          section: s-1c74d08b4a
+          part: title
+      text:
+        en:
+          page: en
+          section: s-e357b37c17
+          part: body
+        zh:
+          page: zh
+          section: s-1c74d08b4a
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-55b8f3b548
+          part: title
+        zh:
+          page: zh
+          section: s-bb4e77f9fc
+          part: title
+      text:
+        en:
+          page: en
+          section: s-55b8f3b548
+          part: body
+        zh:
+          page: zh
+          section: s-bb4e77f9fc
+          part: body
+  atlas-node:
+    name: Hexactinellida
+    commonName: Glass Sponges
+    commonNameZh: 六放海绵（玻璃海绵）
+    rank: class
+    taxonId: txn:3841
+    firstAppearance: 551
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+    parentRelationshipKind: navigation-parent
+  claims:
+    - subjectId: taxon:hexactinellida
+      claimKind: scientific
+      claimType: fossil-range
+      statement: "Hexactinellida is displayed at 536–0 Ma only as a basal-Cambrian-spicule-to-living navigation anthology: the Soltanieh material is a cautious fossil anchor, not an exact crown-Hexactinellida FAD or continuous occupancy record."
+      confidence: medium
+      confidenceRationale: Antcliffe et al. (2014) reassess early sponge candidates and identify the basal-Cambrian siliceous spicules as the oldest reliable material in their review. Medium confidence keeps the class-level placement and living continuation explicit rather than treating 536 Ma as a crown date.
+      referenceLinks:
+        - relation: supports
+          referenceId: antcliffe-2014-sponge-record
+          pages: 89:972–1004
+          figure: Figures 1–13; Tables 1–2
+          quoteLocator: Diagnostic criteria, Soltanieh spicules and candidate reassessment
+  claim-rationales.zh:
+    - Antcliffe 等（2014）重新评估早期海绵候选，并把寒武纪初期硅质骨针视为该综述中最早的可靠材料。中等置信度明确保留纲级归属与现生延续的限制，不把 536 Ma 当作冠群日期。
+  claim-statements.zh:
+    - Hexactinellida 的 536–0 Ma 仅作为“寒武纪初期骨针—现生类群”导航汇编：索尔塔尼耶材料是谨慎的化石锚点，不是冠群六放海绵的精确首现或连续占据记录。
+  ranges:
+    - entityId: hexactinellida
+      rangeKind: global-composite
+      taxonomicConcept: Hexactinellida basal-Cambrian-spicule-to-living navigation anthology
+      geographicScope: Soltanieh Formation siliceous spicules plus living glass sponges
+      olderMa: 536
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The basal-Cambrian material is the oldest reliable sponge evidence in the review and is used as a cautious hexactinellid navigation anchor, not an exact crown FAD.
+      evidenceBasis: Antcliffe et al. reassess early sponge candidates and retain basal-Cambrian siliceous spicules as reliable; 0 Ma denotes living hexactinellids.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:soltanieh-basal-cambrian-spicules
+        - claim:taxon:hexactinellida
+      referenceLocators:
+        - referenceId: antcliffe-2014-sponge-record
+          locator: 972–1004; Figures 1–13; Tables 1–2; diagnostic criteria, Soltanieh spicules and candidate reassessment

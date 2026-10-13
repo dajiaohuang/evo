@@ -1,0 +1,202 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptomantis Peters, 1867
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Leptomantis
+      zh: Leptomantis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b7990f7401
+            part: title
+          zh:
+            page: zh
+            section: s-5e9743a050
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b7990f7401
+            part: body
+          zh:
+            page: zh
+            section: s-5e9743a050
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f2b6aee059
+            part: title
+          zh:
+            page: zh
+            section: s-b0bff8202f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f2b6aee059
+            part: body
+          zh:
+            page: zh
+            section: s-b0bff8202f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-76a21cab51
+            part: title
+          zh:
+            page: zh
+            section: s-a60782f369
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3TQYD
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYD
+            label:
+              en: Leptomantis angulirostris
+              zh: Leptomantis angulirostris
+          - kind: catalogue
+            colId: 3TQYF
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYF
+            label:
+              en: Leptomantis belalongensis
+              zh: Leptomantis belalongensis
+          - kind: catalogue
+            colId: 3TQYH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYH
+            label:
+              en: Leptomantis bimaculatus
+              zh: Leptomantis bimaculatus
+          - kind: catalogue
+            colId: 3TQYJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYJ
+            label:
+              en: Leptomantis cyanopunctatus
+              zh: Leptomantis cyanopunctatus
+          - kind: catalogue
+            colId: 3TQYK
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYK
+            label:
+              en: Leptomantis fasciatus
+              zh: Leptomantis fasciatus
+          - kind: catalogue
+            colId: 3TQYL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYL
+            label:
+              en: Leptomantis gadingensis
+              zh: Leptomantis gadingensis
+          - kind: catalogue
+            colId: 3TQYM
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYM
+            label:
+              en: Leptomantis gauni
+              zh: Leptomantis gauni
+          - kind: catalogue
+            colId: 3TQYN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYN
+            label:
+              en: Leptomantis harrissoni
+              zh: Leptomantis harrissoni
+          - kind: catalogue
+            colId: 3TQYR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYR
+            label:
+              en: Leptomantis malkmusi
+              zh: Leptomantis malkmusi
+          - kind: catalogue
+            colId: 3TQYS
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYS
+            label:
+              en: Leptomantis penanorum
+              zh: Leptomantis penanorum
+          - kind: catalogue
+            colId: 3TQYT
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYT
+            label:
+              en: Leptomantis pseudacutirostris
+              zh: Leptomantis pseudacutirostris
+          - kind: catalogue
+            colId: 6PGDL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6PGDL
+            label:
+              en: Leptomantis robinsonii
+              zh: Leptomantis robinsonii
+          - kind: catalogue
+            colId: 3TQYV
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3TQYV
+            label:
+              en: Leptomantis rufipes
+              zh: Leptomantis rufipes
+        text:
+          en:
+            page: en
+            section: s-76a21cab51
+            part: body
+          zh:
+            page: zh
+            section: s-a60782f369
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptomantis
+          url: https://www.checklistbank.org/dataset/316115/taxon/5D5K
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-74c2360e1d
+        part: body
+      zh:
+        page: zh
+        section: s-ce4d2cb0c4
+        part: body

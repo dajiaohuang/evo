@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amolops bellulus
+  displayName: Amolops bellulus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CW9P
+  sourceIndexes:
+    - name:
+        en: Amolops bellulus
+        zh: Amolops bellulus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CW9P
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/347
+            queryName: Amolops bellulus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eed0853324
+      - s-fc0ed91dc9
+      - s-a2c598d4be
+      - s-dd672be588
+      - s-35622e861d
+      - s-3bf6b39538
+      - s-5bb5d39e61
+      - s-ac2fbf0b0f
+      - s-2bf88d30d6
+      - s-135be0b3ad
+      - s-0dcec7f9a1
+      - s-ad28aff20b
+      - s-695630c98f
+      - s-f054089191
+      - s-d640a4de0f
+    zh:
+      - s-5dd7d36fca
+      - s-ee0f426a01
+      - s-52a1e84cc3
+      - s-3f39cd7478
+      - s-f4e719abc7
+      - s-e8ba8ce6c3
+      - s-3cccddd740
+      - s-3302107afa
+      - s-ba3ed50d4d
+      - s-cb0f626fad
+      - s-e50c4ce918
+      - s-163556caca
+      - s-3aaa0d0f7b
+      - s-cad974248a
+      - s-167ecd734d

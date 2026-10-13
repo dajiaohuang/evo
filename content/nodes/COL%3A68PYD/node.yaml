@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus nodoterga
+  displayName: Brachycephalus nodoterga
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/68PYD
+  sourceIndexes:
+    - name:
+        en: Brachycephalus nodoterga
+        zh: Brachycephalus nodoterga
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 68PYD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/425
+            queryName: Brachycephalus nodoterga
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/345
+            queryName: Brachycephalus ephippium nodoterga
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8464db3de0
+      - s-2e6f53c087
+      - s-721778b04d
+      - s-c807bdf4be
+      - s-639aea8ba3
+      - s-9e2650794b
+      - s-7761b7d1a6
+      - s-fdd3173370
+      - s-85151f5bad
+      - s-7354ce58cc
+      - s-cf627bbadd
+      - s-ecf0d150d9
+      - s-57b9a28e6e
+      - s-5fbd0dff2c
+      - s-f5edb308fb
+    zh:
+      - s-87606cfe4d
+      - s-94ae83de25
+      - s-4b74fdd6da
+      - s-3613824550
+      - s-69a6c18f78
+      - s-fe21fae4b8
+      - s-c38a753662
+      - s-586be6fe1b
+      - s-bdc7d41532
+      - s-76737c41d1
+      - s-5a6555823d
+      - s-2b04ad0882
+      - s-2d27cbab4e
+      - s-511aa976bb
+      - s-d9edaefe1e

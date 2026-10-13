@@ -1,0 +1,388 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cardioglossa cyaneospila Laurent, 1950
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Cardioglossa cyaneospila
+      zh: Cardioglossa cyaneospila
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f483dc04d6
+            part: title
+          zh:
+            page: zh
+            section: s-71c12e06af
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f483dc04d6
+            part: body
+          zh:
+            page: zh
+            section: s-71c12e06af
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b99f9a2067
+            part: title
+          zh:
+            page: zh
+            section: s-affd909ae0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b99f9a2067
+            part: body
+          zh:
+            page: zh
+            section: s-affd909ae0
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cd08fc2346
+            part: title
+          zh:
+            page: zh
+            section: s-2bbc460bef
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-cd08fc2346
+            part: body
+          zh:
+            page: zh
+            section: s-2bbc460bef
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-b8af75fab0e54e64bd58445d8ca43014
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-63e8732ec9
+            part: title
+          zh:
+            page: zh
+            section: s-f3682d6451
+            part: title
+        sourceIds:
+          - primary-pmc13072372-r5g8
+        text:
+          en:
+            page: en
+            section: s-63e8732ec9
+            part: body
+          zh:
+            page: zh
+            section: s-f3682d6451
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-eba11243c2
+            part: title
+          zh:
+            page: zh
+            section: s-c451aa396f
+            part: title
+        sourceIds:
+          - primary-pmc13072372-r5g8
+        text:
+          en:
+            page: en
+            section: s-eba11243c2
+            part: body
+          zh:
+            page: zh
+            section: s-c451aa396f
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-57ea0acacc
+            part: title
+          zh:
+            page: zh
+            section: s-132e42daf5
+            part: title
+        sourceIds:
+          - primary-pmc13072372-r5g8
+        text:
+          en:
+            page: en
+            section: s-57ea0acacc
+            part: body
+          zh:
+            page: zh
+            section: s-132e42daf5
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-9b61a66d64
+            part: title
+          zh:
+            page: zh
+            section: s-200fc07f1f
+            part: title
+        sourceIds:
+          - primary-pmc13072372-r5g8
+        text:
+          en:
+            page: en
+            section: s-9b61a66d64
+            part: body
+          zh:
+            page: zh
+            section: s-200fc07f1f
+            part: body
+      - topic: limitations
+        title:
+          en:
+            page: en
+            section: s-a124af330e
+            part: title
+          zh:
+            page: zh
+            section: s-382b35c6e4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a124af330e
+            part: body
+          zh:
+            page: zh
+            section: s-382b35c6e4
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cardioglossa cyaneospila
+          url: https://www.checklistbank.org/dataset/316115/taxon/R5G8
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0174; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0174 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc13072372-r5g8
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Cardioglossa cyaneospila: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8d97c79dd7
+        part: body
+      zh:
+        page: zh
+        section: s-d6e89f56f3
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani16071104
+        referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+        sourceKey: primary-pmc13072372-r5g8
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC13072372/article.xml
+        sourceConcept: Source Cardioglossa cyaneospila compiled2010–2023Rwanda detections andindexcategories; exactwrittenname only, no originalvoucher/currentconceptcertification
+        evidenceRead: "Cardioglossa cyaneospila: Complete XMLMethods sec2dot1–5, Results sec3dot1–4, Discussion sec4dot1–3 andConclusions sec5 inspected; Tables1–3 scoring definitions/examples andTablesA1–A4 completecells inspected. MainTables4–7 inspectedforreportedconflicts. Nofigurepixels/rawfielddata/originaloccurrencestudies/vouchers/Ranalysis independentlyreviewed; nofullarticle/currentoccupancy/conceptcertification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: Occurrence counts in the assembled Rwanda sample
+              zh: 卢旺达汇总样本中的出现计数
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-r5g8
+            locator: PMC13072372 XML TablesA2/A3 namedrow Cardioglossa cyaneospila;sec2dot3;sec3dot1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d1989a26b8
+                part: body
+              zh:
+                page: zh
+                section: s-c02d961bc2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: A species score for a specified conservation framework
+              zh: 特定保护框架中的物种评分
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-r5g8
+            locator: PMC13072372 XML TableA4 row4;Table1;sec2dot4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-984817a3de
+                part: body
+              zh:
+                page: zh
+                section: s-8f483d23a7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Species Index and site index have different meanings
+              zh: 物种指数与站点指数含义不同
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-r5g8
+            locator: PMC13072372 XML sec2dot4;sec3dot3;sec4dot2;TableA4 row4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1807484693
+                part: body
+              zh:
+                page: zh
+                section: s-584e7495fa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: methods
+            heading:
+              en: Sampling and transfer limits
+              zh: 采样与迁移应用限制
+            referenceId: ref-e7dfb2bb-6b15-4a28-a3f7-5fb8a245bf25
+            sourceKey: primary-pmc13072372-r5g8
+            locator: PMC13072372 XML sec2dot3/5;sec3dot1/4;sec4dot1–3;TablesA1/4/7
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b07ce29538
+                part: body
+              zh:
+                page: zh
+                section: s-f813203d91
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

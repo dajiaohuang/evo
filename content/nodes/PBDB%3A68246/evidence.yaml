@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microraptor gui
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Microraptor gui
+      en: Microraptor gui
+    sections:
+      - topic: morphology
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-afb70abe7f
+            part: body
+          en:
+            page: en
+            section: s-3a17267807
+            part: body
+      - topic: methods
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-d7a1b4a61c
+            part: body
+          en:
+            page: en
+            section: s-f2ba79bbcc
+            part: body
+      - topic: methods
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-1b297cecfd
+            part: body
+          en:
+            page: en
+            section: s-d932f3ac00
+            part: body
+      - topic: palaeobiology
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-6d00f110f2
+            part: body
+          en:
+            page: en
+            section: s-7405680e80
+            part: body
+      - topic: palaeobiology
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-cfc2f9b0dd
+            part: body
+          en:
+            page: en
+            section: s-fd2ae9e9d5
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-5f252d5554
+            part: body
+          en:
+            page: en
+            section: s-067f54cc63
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-7ed05e6108
+            part: body
+          en:
+            page: en
+            section: s-abe89f4979
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-fb5fdecb06
+            part: body
+          en:
+            page: en
+            section: s-21ead6f460
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b84b9addfc
+            part: body
+          en:
+            page: en
+            section: s-af00236e43
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-478e49848b
+            part: body
+          en:
+            page: en
+            section: s-08bda1a177
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - dyke2013MicroraptorWindTunnel
+        text:
+          zh:
+            page: zh
+            section: s-d81837871b
+            part: body
+          en:
+            page: en
+            section: s-6ea28f27f5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Microraptor gui
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=68246&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:68246; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:68246
+          selectedOccurrenceIds:
+            - occ:536667
+          selectedCollectionIds:
+            - col:55536
+          sourceReferenceIds:
+            - ref:14924
+          originalIdentificationMappings:
+            - occurrenceId: occ:536667
+              originalIdentifiedName: Microraptor gui n. sp.
+              acceptedName: Microraptor gui
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: dyke2013MicroraptorWindTunnel
+        referenceId: dyke-2013-microraptor-wind-tunnel
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Aerodynamic performance of the feathered dinosaur Microraptor and the evolution of feathered flight
+          url: https://doi.org/10.1038/ncomms3489
+          locator: "Complete nine-page primary article: Results, Discussion, Methods, Figures 1–8 captions; Figure 2 visually inspected; specimen/model distinction in Model making and Figure 5 caption."
+          accessedAt: 2026-10-03
+          scope:
+            zh: 基于化石复原模型的 2013 年风洞实验与轨迹计算；模型混合具名物种正模和属级标本，不是活体行为或全部种的共同性能。
+            en: 2013 wind-tunnel experiments and trajectory calculations on fossil-based reconstructions combining a named-species holotype and a genus-level specimen; not observed behavior or common performance of all species.
+    limitations:
+      zh:
+        page: zh
+        section: s-cfee6438c1
+        part: body
+      en:
+        page: en
+        section: s-aea8ffa331
+        part: body

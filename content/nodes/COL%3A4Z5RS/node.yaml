@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spinomantis aglavei
+  displayName: Spinomantis aglavei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Z5RS
+  sourceIndexes:
+    - name:
+        en: Spinomantis aglavei
+        zh: Spinomantis aglavei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Z5RS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/273
+            queryName: Spinomantis aglavei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/158
+            queryName: Mantidactylus aglavei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/290
+            queryName: Rhacophorus aglavei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/291
+            queryName: Rhacophorus sikorae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/292
+            queryName: Boophis aglavei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/293
+            queryName: Boophis sikorae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-70ee34626b
+      - s-7b48dc6117
+      - s-a069732070
+      - s-14faa853a3
+      - s-6316b4c8df
+      - s-77d8d9e443
+      - s-865a34e429
+      - s-015e842443
+      - s-a531f21fed
+      - s-571ce31bae
+      - s-401d0c9541
+    zh:
+      - s-fad970e543
+      - s-929281f743
+      - s-31aebdf9ec
+      - s-a767a5ed76
+      - s-43dd6fa861
+      - s-d0f454f83f
+      - s-aeab280732
+      - s-cb898caab3
+      - s-3875d3ee64
+      - s-99a463d3ac
+      - s-9e86bb0b7b

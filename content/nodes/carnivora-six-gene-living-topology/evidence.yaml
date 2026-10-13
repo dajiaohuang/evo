@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f9dc20867e
+      part: title
+    titleZh:
+      page: zh
+      section: s-38a60d981f
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Living Carnivora tissue and sequence sample
+    clades:
+      - Carnivora
+      - Feliformia
+      - Caniformia
+    summary:
+      page: en
+      section: s-f9dc20867e
+      part: body
+    summaryZh:
+      page: zh
+      section: s-38a60d981f
+      part: body
+    claimIds:
+      - claim:event:carnivora-six-gene-living-topology
+    evidenceItems:
+      - statement: The concatenated matrix contains 6,243 base pairs from TR-i-I, TBG, IRBP, ND2, CYTB and 12S rRNA for 76 sampled species.
+        relation: supports
+        claimIds:
+          - claim:event:carnivora-six-gene-living-topology
+        referenceLinks:
+          - referenceId: flynn-2005-carnivora-molecular
+            relation: supports
+            pages: 317–337
+            figure: Figures 1–4; Tables 1–4
+            quoteLocator: Taxonomic and gene sampling; Combined analyses; Nodal support
+    uncertaintyItems:
+      - statement: This is a 2005 sequence topology for sampled living taxa; it neither observes fossil anatomy nor fixes fossil first appearances, divergence dates or COL26.8 accepted names.
+        relation: contextualizes
+        claimIds:
+          - claim:event:carnivora-six-gene-living-topology
+        referenceLinks:
+          - referenceId: flynn-2005-carnivora-molecular
+            relation: supports
+            pages: 317–337
+            figure: Figures 1–4; Tables 1–4
+            quoteLocator: Taxonomic and gene sampling; Combined analyses; Nodal support
+  claims:
+    - subjectId: event:carnivora-six-gene-living-topology
+      claimKind: scientific
+      claimType: topology
+      statement: A 6,243-bp concatenation from six loci in 76 living carnivoran species strongly separates sampled Feliformia and Caniformia, while internal resolution and taxon representation remain properties of that sequence dataset and its models.
+      confidence: high
+      confidenceRationale: Carnivora six-gene living topology uses directly documented named specimens or sequence observations; its wording separately bounds topology, behaviour, chronology and ancestry.
+      referenceLinks:
+        - referenceId: flynn-2005-carnivora-molecular
+          relation: supports
+          pages: 317–337
+          figure: Figures 1–4; Tables 1–4
+          quoteLocator: Taxonomic and gene sampling; Combined analyses; Nodal support
+  claim-rationales.zh:
+    - “食肉目六基因现生拓扑”由具名标本或已公开序列直接记录；措辞把拓扑、行为、年代与祖先关系分别限定。
+  claim-statements.zh:
+    - 来自 76 个现生食肉目物种、总长 6,243 碱基对的六位点串联数据，强力区分所取样的猫型亚目与犬型亚目；内部解析度和分类单元代表性仍是该序列数据集及其模型的属性。

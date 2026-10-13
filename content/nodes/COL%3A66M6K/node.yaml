@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus williamsi
+  displayName: Anaxyrus williamsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66M6K
+  sourceIndexes:
+    - name:
+        en: Anaxyrus williamsi
+        zh: Anaxyrus williamsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66M6K
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/451
+            queryName: Anaxyrus williamsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/256
+            queryName: Bufo williamsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c24800548a
+      - s-1c38738667
+      - s-4ab1428447
+      - s-adff7b0d83
+      - s-39ac828ffa
+      - s-7121926472
+      - s-587fc44669
+    zh:
+      - s-5f397bcf5f
+      - s-ffa178aa77
+      - s-68d7e5ca92
+      - s-2443e0a677
+      - s-67be0e9d7f
+      - s-f5e4c8a9fd
+      - s-dfbd284141

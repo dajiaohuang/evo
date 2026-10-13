@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eurycea neotenes
+  displayName: Eurycea neotenes
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3D3HD
+  sourceIndexes:
+    - name:
+        en: Eurycea neotenes
+        zh: Eurycea neotenes
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3D3HD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/425
+            queryName: Eurycea neotenes
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 25
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/17
+            queryName: Eurycea neotenes neotenes
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-06009b6861
+      - s-d3d7b436c1
+      - s-dcdf110205
+      - s-d9f61bcf71
+      - s-3d4282e580
+      - s-071c286b6d
+      - s-9358a68661
+      - s-f155e9d274
+      - s-3b5414d981
+    zh:
+      - s-21b2da8fbe
+      - s-a5ed6b9d69
+      - s-253afe1471
+      - s-ce1756d2ff
+      - s-1825b3aafa
+      - s-5f7f5db17b
+      - s-7e5b77996c
+      - s-367b52c17d
+      - s-5d52c7cc5d

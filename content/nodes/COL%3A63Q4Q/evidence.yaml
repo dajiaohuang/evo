@@ -1,0 +1,373 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Procolobus Rochebrune, 1877
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Olive colobus genus
+      zh: 橄榄叶猴属
+    sections:
+      - topic: readingPath
+        text:
+          en:
+            page: en
+            section: s-2d6757fc6e
+            part: body
+          zh:
+            page: zh
+            section: s-24b13c7155
+            part: body
+        sourceIds:
+          - taxonomy
+          - speciesTaxonomy
+          - oates1988
+          - benin2019
+          - oatesWhitesides1990
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-0cd2ecb4cb
+            part: body
+          en:
+            page: en
+            section: s-118b3a7106
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-cace70033b
+            part: body
+          en:
+            page: en
+            section: s-d92d3f60cf
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-26ab320b01
+            part: body
+          en:
+            page: en
+            section: s-b9842d9e48
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-c55c5c2048
+            part: body
+          en:
+            page: en
+            section: s-b9048c9285
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-22db03a491
+            part: body
+          en:
+            page: en
+            section: s-a97c953585
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-bb623818d3
+            part: body
+          en:
+            page: en
+            section: s-2807758062
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-4df560e027
+            part: body
+          en:
+            page: en
+            section: s-f4fd90b8c6
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-e5b9316855
+            part: body
+          en:
+            page: en
+            section: s-985250fe0e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-3f61e824-4671-88e1-a362-4ecd3af78eaa
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins the accepted genus name, authorship, and rank under COL26.8 ID 63Q4Q.
+            zh: 固定 COL26.8 下接受属名、作者和等级（ID 63Q4Q）。
+      - id: speciesTaxonomy
+        referenceId: ref-9ab11d5a-2077-8ad3-a18e-424b863bd70f
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Connects the accepted species page 4MNYC under genus ID 63Q4Q.
+            zh: 将接受种页面 4MNYC 接入属级 ID 63Q4Q。
+      - id: oates1988
+        referenceId: ref-cff5fc29-54af-84f8-a40d-44a646e0f4e8
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Tiwai Island feeding study linked from P. verus; its group and forest setting are local.
+            zh: 连接自 P. verus 页的 Tiwai 岛取食研究；证据限于当地群体和森林环境。
+      - id: benin2019
+        referenceId: ref-79e1825a-6543-8269-ac75-9263bfc16d18
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Southern Benin feeding comparison linked from P. verus; counts and differences are site- and method-specific.
+            zh: 连接自 P. verus 页的贝宁南部取食比较；数量及差异限于研究地点和方法。
+      - id: oatesWhitesides1990
+        referenceId: ref-caf9b2a3-37f2-84e6-a6b6-4bec5e405f6c
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Tiwai Island monkey-association observations linked from P. verus; no causal inference is made.
+            zh: 连接自 P. verus 页的 Tiwai 岛猴类伴行观察；不作因果推断。
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 1 authored entries grouped under Procolobus by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 1 authored same-name records placed under Procolobus by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 1 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 1
+            foraging: 1
+            activity: 1
+          readingTargets:
+            - name: Procolobus verus
+              colId: 4MNYC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A4MNYC
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 1 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 4MNYC
+              name: Procolobus verus
+              canonicalPath: content/nodes/COL%3A4MNYC
+          fieldAccountCounts:
+            gestation(mo): 0
+            newborn(g): 0
+            weaning(mo): 0
+            wean mass(g): 0
+            AFR(mo): 0
+            max. life(mo): 0
+            litter size: 1
+            litters/year: 0
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      en:
+        page: en
+        section: s-20932d79bc
+        part: body
+      zh:
+        page: zh
+        section: s-e1410cf54b
+        part: body

@@ -1,0 +1,61 @@
+## 接受名称与分类位置 {#s-7d8b3ad69b}
+COL26.8 接受 Leptodactylus latinasus Jiménez de la Espada, 1875 为种级记录，所记分类路径为 Anura（目） → Leptodactylidae（科） → Leptodactylus（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
+
+## 阅读路线 {#s-d3b24d5903}
+先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+
+## 汇编的成体尺寸（AmphiBIO v1） {#s-53fd38e01c}
+AmphiBIO v1 沿用 Frost（2011）分类下的历史来源概念“Leptodactylus latinasus”；其与当前物种概念的等同性仍未核定。AmphiBIO 记载 最大成体体长：40 mm。体长在无尾目指吻肛长，在有尾目和蚓螈目指全长。这些是汇编的最大成体值，不是每一个体的测量值。
+
+## 发育阶段材料（TadpoleTraits v4） {#s-f818714b89}
+存档来源概念：TadpoleTraits 中的 Leptodactylus latinasus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为该来源概念保留 1 条文献数据行和 0 条图像数据行，提供的阶段条目为 31-36。阶段值及其相伴不确定性按来源标签保留；由图像推断的阶段不视为直接记录的发育观察。数据行数不等于去重的动物数量，各研究的样本量字段也不跨研究相加。
+
+## 汇编的生活史（AmphiBIO v1） {#s-ffa6eb185d}
+AmphiBIO v1 沿用 Frost（2011）分类下的历史来源概念“Leptodactylus latinasus”；其与当前物种概念的等同性仍未核定。AmphiBIO 记载 每窝后代或卵的最小数量：3696 个/枚；每窝后代或卵的最大数量：3696 个/枚；每年最多繁殖次数：1 次/年。数据集从文献汇编极值和计数；本行没有逐值区分性别、种群、测量日期或野生与圈养条件。后代尺寸字段可能指后代或卵。
+
+## 发育方式（AmphiBIO v1） {#s-938f3cb13c}
+AmphiBIO v1 沿用 Frost（2011）分类下的历史来源概念“Leptodactylus latinasus”；其与当前物种概念的等同性仍未核定。存档记录标记 具有幼体阶段。这些来源类别本身不足以说明亲代照料、繁殖地点或季节时序。
+
+## AmphiBIO v1 记录的觅食类别 {#s-cfc39ec4ef}
+AmphiBIO v1 沿用 Frost（2011）分类下的历史来源概念“Leptodactylus latinasus”；其与当前物种概念的等同性仍未核定。汇编记录了以下类别：陆栖；水栖。这些是概括性的觅食类别；汇编没有详细区分季节变化或发育阶段变化。后续 TetrapodTraits 修订报告纠正了从早期汇编传播的部分两栖动物体重与微栖地记录。此处尚未取得受影响行的逐项比对；这些存档历史值或类别在再利用前需要核对。没有推断替代值，本说明也不把每条原记录判为错误。
+
+## AmphiBIO v1 记录的成体食物类别 {#s-ea89d32257}
+AmphiBIO v1 沿用 Frost（2011）分类下的历史来源概念“Leptodactylus latinasus”；其与当前物种概念的等同性仍未核定。汇编记录了以下类别：节肢动物。数据集从文献中的专家判断、观察或胃内容物记录汇总成体食物类别。某类别被记录，不表示完整食谱或实测食物比例。
+
+## AmphiBIO v1 记录的活动时段 {#s-0bcbcc1428}
+AmphiBIO v1 沿用 Frost（2011）分类下的历史来源概念“Leptodactylus latinasus”；其与当前物种概念的等同性仍未核定。汇编记录了以下类别：白天。这些是总体活动类别，不是连续的行为时间序列。
+
+## AmphiBIO v1 记录的季节活动类别 {#s-7abbc64a60}
+AmphiBIO v1 沿用 Frost（2011）分类下的历史来源概念“Leptodactylus latinasus”；其与当前物种概念的等同性仍未核定。汇编记录了以下类别：湿暖。季节类别将活动时的环境与当地全年气候比较，不对应全球固定的历月。
+
+## 选列的临界高温限估计（AmphiTherm） {#s-969444638b}
+存档来源概念：AmphiTherm 中的 Leptodactylus latinasus。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。来源第 1305 行（ID 1463，Duarte_et_al_2012）为幼体记载 42.5 °C，指标 CTmax，痉挛开始。所记温度适应条件为 20 °C。所记升温或降温速率为 1 °C/分钟。来源 n_trait 字段为 15；重复批次的样本量不能直接相加。这是一个选列的汇编估计，不是全物种耐受边界、环境温度范围或饲养建议；底层研究尚未独立重新分析。所记测试温度介质为 water，性别类别 unknown，动物来源 wild。处理字段：化学物质 NA，激素 NA，感染 NA，病原体 NA。NA 表示未报告，不证明没有处理；原实验与性状备注附于来源记录，仍需研究层级核对。存档不确定性字段为 0.2 °C（标准误）；两种量不能互换。
+
+## 汇编长度保留推断及测量限制 {#s-77731a926b}
+该行没有头宽或胫长推断标记，但无标记不等于独立审核并确立每个原值如何测得。体长、头宽及胫长数值保存在行级证据快照。方法有均值则用均值，否则用最大值；工作簿长度表头未明确单位，也未逐行一致标明性别或阶段。因此不把单元格作为新诊断毫米测量、性别专属范围或测得全物种变异。上游参考条目已保留，但原测量未独立检查。
+
+## 来源编码的发育方式与产卵环境 {#s-e7f339c0f5}
+大西洋森林性状汇编将 Leptodactylus latinasus 编为有幼体阶段发育，产卵环境为水生。幼体阶段发育码未规定幼体时长、全部幼体生境或对静水的依赖程度，须另有证据。这是文献汇编类别，不是本种新观察产卵或发育实验。来源分类与当前接受概念的准确对应仍未认证。
+
+## 幼体生境及卵位点类别有明确范围 {#s-93e6e8c2f8}
+同一行将幼体生境编为水生，七个产卵位点类别中标记泡沫巢。阳性类别概括广义性状，未确立特定巢结构、基质物种或产卵高度。幼体生境码不能自动作为成体生境偏好。汇编记录未新确立窝卵数、卵大小、亲代看护、产卵季节或后代存活。
+
+## 相关来源记录与数据集 {#s-06a3b8db41}
+以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+
+- [AmphiBIO v1: Leptodactylus latinasus](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Leptodactylidae/Leptodactylus/Leptodactylus_latinasus/page.zh.md)
+- [TadpoleTraits v4: Leptodactylus latinasus](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Leptodactylidae/Leptodactylus/Leptodactylus_latinasus/page.zh.md)
+- [AmphiTherm curated snapshot: Leptodactylus latinasus](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Leptodactylidae/Leptodactylus/Leptodactylus_latinasus/page.zh.md)
+
+## catalogue-profile / limitations {#s-ff970710c1}
+本页整理的是上述来源范围内的记录，并非完整的物种生物学档案。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-72968aab6d}
+大西洋森林性状汇编将 Leptodactylus latinasus 编为有幼体阶段发育，产卵环境为水生。幼体阶段发育码未规定幼体时长、全部幼体生境或对静水的依赖程度，须另有证据。这是文献汇编类别，不是本种新观察产卵或发育实验。来源分类与当前接受概念的准确对应仍未认证。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-020c3b9c94}
+同一行将幼体生境编为水生，七个产卵位点类别中标记泡沫巢。阳性类别概括广义性状，未确立特定巢结构、基质物种或产卵高度。幼体生境码不能自动作为成体生境偏好。汇编记录未新确立窝卵数、卵大小、亲代看护、产卵季节或后代存活。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-7ceb86ef70}
+该行没有头宽或胫长推断标记，但无标记不等于独立审核并确立每个原值如何测得。体长、头宽及胫长数值保存在行级证据快照。方法有均值则用均值，否则用最大值；工作簿长度表头未明确单位，也未逐行一致标明性别或阶段。因此不把单元格作为新诊断毫米测量、性别专属范围或测得全物种变异。上游参考条目已保留，但原测量未独立检查。
+

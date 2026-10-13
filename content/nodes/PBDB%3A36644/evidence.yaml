@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Larus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Larus
+      en: Larus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-536a1c2bcc
+            part: body
+          en:
+            page: en
+            section: s-7a0685da7a
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6bdbe31053
+            part: body
+          en:
+            page: en
+            section: s-abf930fea9
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Larus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36644
+          locator: Recorded PBDB parent closure beneath the already documented Dinosauria COL-compatible storage anchor.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36644
+          readingTargets:
+            - name: Larus lacus
+              pbdbTaxonId: txn:289988
+              canonicalPath: content/nodes/PBDB%3A289988
+            - name: Larus perpetuus
+              pbdbTaxonId: txn:289987
+              canonicalPath: content/nodes/PBDB%3A289987
+            - name: Larus elmorei
+              pbdbTaxonId: txn:210451
+              canonicalPath: content/nodes/PBDB%3A210451
+            - name: Larus utunui
+              pbdbTaxonId: txn:372822
+              canonicalPath: content/nodes/PBDB%3A372822
+            - name: Larus oregonus
+              pbdbTaxonId: txn:335544
+              canonicalPath: content/nodes/PBDB%3A335544
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-3b633cb1cb
+        part: body
+      en:
+        page: en
+        section: s-7fea984408
+        part: body

@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Sparaxis pillansii L.Bolus
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 6YVML, name, authorship, rank, accepted status and source dataset 2232 checked in the pinned registry; WFO 2026-06 crosswalk maps the same COL ID by exact accepted name and authorship to wfo-0000785515.
+      scope: Sparaxis as represented by COL26.8 usage 6YVML. The cited regional flora treatment is retained as its own taxonomic and geographic scope; name agreement alone does not demonstrate complete circumscription equivalence.
+    lifeStatusScope:
+      wild: The regional flora account describes plants in the treatment region; native, naturalised, and cultivated occurrence are not inferred beyond statements in the cited record.
+      domesticated: No domestication history or cultivar evidence is assessed in this batch.
+      fossil: Fossil evidence is not assessed; no fossil occurrence or age is inferred from extant flora accounts.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/6YVML
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 6YVML
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000785515-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 6YVML / WFO wfo-0000785515
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi
+        referenceId: ref-31531593-1b31-8338-a574-91a55f7ea915
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Strelitzia 30 (2013); species-linked SANBI/WFO archive rows 33388 (Morphology) and 39241 (Habitat), source identifier 14562.0
+          scope: Regional Cape flora treatment. Geographic and ecological statements retain the treatment scope; the source does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Cormous geophyte, up to 400 mm tall. Leaves sword-shaped. Flowers actinomorphic, stamens and style central, pink with yellow centre edged with dark pink, stamens and style central, symmetrically arranged.
+            textZh: Sparaxis pillansii L.Bolus 的 SANBI 区域植物志条目记录了其球茎、叶片及花部形态特征。
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 30 (2013); SANBI/WFO archive Morphology record row 33388, source identifier 14562.0
+            placeTimeScope: Strelitzia 30 (2013) species account; regional treatment published 2013. The archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for every observation.
+        gaps:
+          - Only the cited regional flora account excerpt has been assessed; developmental, population-level and independent diagnostic variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Streams and pools in clay around dolerite boulders.
+            textZh: SANBI 区域植物志将该种的生境记为：Streams and pools in clay around dolerite boulders.
+            sourceIds:
+              - sanbi
+            locator: Strelitzia 30 (2013); SANBI/WFO archive Habitat record row 39241, source identifier 14562.0
+            placeTimeScope: Strelitzia 30 (2013) species account; regional treatment published 2013. The archive excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora treatment; the cited excerpt does not independently resolve wild, cultivated, or naturalised status for every observation.
+        gaps:
+          - Locality-level observations, seasonality, interactions, and variation across the full species range have not been assessed.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

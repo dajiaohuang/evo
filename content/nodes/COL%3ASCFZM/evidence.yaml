@@ -1,0 +1,506 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Pristimantis nelsongalloi Valencia, Valladares-Suntasig, Tipantiza-Tuguminago & Dueñas, 2019
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Pristimantis nelsongalloi
+      zh: Pristimantis nelsongalloi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1a51935969
+            part: title
+          zh:
+            page: zh
+            section: s-7154db14f3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1a51935969
+            part: body
+          zh:
+            page: zh
+            section: s-7154db14f3
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-43ab5304bb
+            part: title
+          zh:
+            page: zh
+            section: s-1f7c05fd0c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-43ab5304bb
+            part: body
+          zh:
+            page: zh
+            section: s-1f7c05fd0c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8bb6df69aa
+            part: title
+          zh:
+            page: zh
+            section: s-94401cf5a5
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-8bb6df69aa
+            part: body
+          zh:
+            page: zh
+            section: s-94401cf5a5
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-30bce702f6dcda8fbcc318e8
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-56ac2f6106
+            part: title
+          zh:
+            page: zh
+            section: s-4e20ab25b9
+            part: title
+        sourceIds:
+          - primary-pmc12717849-scfzm
+        text:
+          en:
+            page: en
+            section: s-56ac2f6106
+            part: body
+          zh:
+            page: zh
+            section: s-4e20ab25b9
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-30b09c4dfb
+            part: title
+          zh:
+            page: zh
+            section: s-fbcff80bf3
+            part: title
+        sourceIds:
+          - primary-pmc12717849-scfzm
+        text:
+          en:
+            page: en
+            section: s-30b09c4dfb
+            part: body
+          zh:
+            page: zh
+            section: s-fbcff80bf3
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-a11e6ab1f5
+            part: title
+          zh:
+            page: zh
+            section: s-87f84dbc49
+            part: title
+        sourceIds:
+          - primary-pmc9985417-scfzm
+        text:
+          en:
+            page: en
+            section: s-a11e6ab1f5
+            part: body
+          zh:
+            page: zh
+            section: s-87f84dbc49
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-c2d20bf585
+            part: title
+          zh:
+            page: zh
+            section: s-938c675121
+            part: title
+        sourceIds:
+          - primary-pmc9985417-scfzm
+        text:
+          en:
+            page: en
+            section: s-c2d20bf585
+            part: body
+          zh:
+            page: zh
+            section: s-938c675121
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-201dd54512
+            part: title
+          zh:
+            page: zh
+            section: s-0135008a00
+            part: title
+        sourceIds:
+          - primary-pmc9985417-scfzm
+        text:
+          en:
+            page: en
+            section: s-201dd54512
+            part: body
+          zh:
+            page: zh
+            section: s-0135008a00
+            part: body
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: s-bf6203424c
+            part: title
+          zh:
+            page: zh
+            section: s-f5bdbde5c8
+            part: title
+        sourceIds:
+          - primary-pmc9985417-scfzm
+        text:
+          en:
+            page: en
+            section: s-bf6203424c
+            part: body
+          zh:
+            page: zh
+            section: s-f5bdbde5c8
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-43f169f1f6
+            part: title
+          zh:
+            page: zh
+            section: s-a66f8b3a74
+            part: title
+        sourceIds:
+          - primary-pmc9985417-scfzm
+        text:
+          en:
+            page: en
+            section: s-43f169f1f6
+            part: body
+          zh:
+            page: zh
+            section: s-a66f8b3a74
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Pristimantis nelsongalloi
+          url: https://www.checklistbank.org/dataset/316115/taxon/SCFZM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 4685, 4686; Reference.csv rows 1714
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12717849-scfzm
+        referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis nelsongalloi: XML taxon sampling; molecular assay paragraphs 1–5; candidate-species definition; phylogenetic relationships; systematic account; both species-group accounts; all 21 New species paragraphs; Cryptomantis discussion and cryptic-diversity discussion; no supplementary, original sequences or specimens independently analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc9985417-scfzm
+        referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Pristimantis nelsongalloi: Main recorded XML scope and all231 Appendix DOCX donor-row cells read; allnine distance-table terminal labels and67 selected uncorrected16S percent cells read with exact row/column receipts; other matrix cells/rawalignments/GenBankrecords/museumvouchers/figurepixels unreviewed; no fullarticle or whole-species concept certification; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b2b1bacfd2
+        part: body
+      zh:
+        page: zh
+        section: s-d37d131776
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.20512
+        referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+        sourceKey: primary-pmc12717849-scfzm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12717849/article.xml
+        sourceConcept: Pristimantis nelsongalloi
+        evidenceRead: "Pristimantis nelsongalloi: XML taxon sampling; molecular assay paragraphs 1–5; candidate-species definition; phylogenetic relationships; systematic account; both species-group accounts; all 21 New species paragraphs; Cryptomantis discussion and cryptic-diversity discussion; no supplementary, original sequences or specimens independently analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Placement in the proposed Cryptomantis framework
+              zh: 拟议 Cryptomantis 框架中的位置
+            referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+            sourceKey: primary-pmc12717849-scfzm
+            locator: PMC12717849 XML Phylogenetic relationships paragraph 1; Systematic account paragraphs 4–8; Pristimantis (Cryptomantis) bicantus species group new taxon paragraphs 1–4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5f5a6933e8
+                part: body
+              zh:
+                page: zh
+                section: s-5d27327a9b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: Characters in the paganus comparison
+              zh: paganus 比较中的性状
+            referenceId: ref-2bf5d5a7-2c32-4ca4-a716-c45dfee403f8
+            sourceKey: primary-pmc12717849-scfzm
+            locator: PMC12717849 XML New species paragraphs 9–11; Systematic account paragraph 4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-98bf5157e8
+                part: body
+              zh:
+                page: zh
+                section: s-dbd4eed66a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.7717/peerj.14715
+        referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+        sourceKey: primary-pmc9985417-scfzm
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC9985417/article.xml
+        sourceConcept: Source Pristimantis nelsongalloi excludedbranch/comparison role; no supplementalvoucher or currentconceptauthentication
+        evidenceRead: "Pristimantis nelsongalloi: Main recorded XML scope and all231 Appendix DOCX donor-row cells read; allnine distance-table terminal labels and67 selected uncorrected16S percent cells read with exact row/column receipts; other matrix cells/rawalignments/GenBankrecords/museumvouchers/figurepixels unreviewed; no fullarticle or whole-species concept certification; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: evolution
+            heading:
+              en: A named comparison outside the restricted myersi group
+              zh: 较窄myersi群组之外的具名比较
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-scfzm
+            locator: PMC9985417 XMLsec14/16namedcomparisons
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dc4a7dbbd3
+                part: body
+              zh:
+                page: zh
+                section: s-b7792e713e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Keep the single-marker and material limits
+              zh: 保留单标记与材料限制
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-scfzm
+            locator: PMC9985417 XMLsec8–11; supplemental1/4/5/6 captions;retrievalreceipts
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-9f36d2de2a
+                part: body
+              zh:
+                page: zh
+                section: s-f1a112c92d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: evolution
+            heading:
+              en: The reported relationship keeps its comparison scope
+              zh: 报告关系保留比较范围
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-scfzm
+            locator: PMC9985417 XMLsec14/16 namedparagraphs;Table1 record-specificrelabels
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c097a515f4
+                part: body
+              zh:
+                page: zh
+                section: s-a871bfa448
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: evolution
+            heading:
+              en: Reported donor codes and sequence sources
+              zh: 报告供体编号与序列来源
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-scfzm
+            locator: PMC9985417 peerj-11-14715-s001.docx table1rows205,206 GenBank/Voucher/Group/Referencescolumns;sha256:b1fccc6f0390ed2960027610346c0f58a0b1078db7ecbe81735ef7919b9e2711
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-820d16c8b6
+                part: body
+              zh:
+                page: zh
+                section: s-aff5e4ed6a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 4
+            topic: occurrence
+            heading:
+              en: Locality and coordinate strings stay attached to rows
+              zh: 地点与坐标字符串保持逐行相连
+            referenceId: ref-fbfff43b-8998-4a3f-a77b-98cb62f6283f
+            sourceKey: primary-pmc9985417-scfzm
+            locator: PMC9985417 peerj-11-14715-s001.docx same rows Locality/Latitude/Longitude/Elevationcolumns;sha256:b1fccc6f0390ed2960027610346c0f58a0b1078db7ecbe81735ef7919b9e2711
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d770559dc6
+                part: body
+              zh:
+                page: zh
+                section: s-2b6e1471ba
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

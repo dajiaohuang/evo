@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus monticola
+  displayName: Cophixalus monticola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44M
+  sourceIndexes:
+    - name:
+        en: Cophixalus monticola
+        zh: Cophixalus monticola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/465
+            queryName: Cophixalus monticola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-55d712db3e
+      - s-248455101c
+      - s-3b434772e4
+      - s-f40cbb4535
+      - s-dffb8eac29
+      - s-f687a85794
+      - s-422d1eeb3e
+      - s-84a0936ad3
+      - s-634cff09e1
+      - s-b1c440e25a
+      - s-6edd862d00
+      - s-aa3e378312
+      - s-b7d7495515
+    zh:
+      - s-4bb711d554
+      - s-2336f8dfc1
+      - s-ba63e2be69
+      - s-b4bf9bd214
+      - s-5efd78ecde
+      - s-50e1792761
+      - s-0c96155337
+      - s-fa3cc58c32
+      - s-1613ac2fb3
+      - s-87c22a2cc7
+      - s-51f130c1f5
+      - s-f5095a8143
+      - s-ecf96a8218

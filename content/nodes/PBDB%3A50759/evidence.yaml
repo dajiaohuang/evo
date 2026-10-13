@@ -1,0 +1,182 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Prodipodomys idahoensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Prodipodomys idahoensis
+      en: Prodipodomys idahoensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-faae29986b
+            part: body
+          en:
+            page: en
+            section: s-4f3e97db82
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-96488c98c9
+            part: body
+          en:
+            page: en
+            section: s-5821000b22
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b30a9f6228
+            part: body
+          en:
+            page: en
+            section: s-7c32d50365
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ec172f7217
+            part: body
+          en:
+            page: en
+            section: s-51e5e7c3a3
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e354fe4640
+            part: body
+          en:
+            page: en
+            section: s-671eff3a7e
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Prodipodomys idahoensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50759&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50759; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50759
+          selectedOccurrenceIds:
+            - occ:188918
+            - occ:192956
+            - occ:192966
+            - occ:193143
+            - occ:193175
+            - occ:193602
+            - occ:194008
+            - occ:194085
+            - occ:194098
+            - occ:194107
+            - occ:197880
+          selectedCollectionIds:
+            - col:18755
+            - col:19620
+            - col:19621
+            - col:19646
+            - col:19650
+            - col:19736
+            - col:19852
+            - col:19903
+            - col:19905
+            - col:19906
+            - col:20389
+          sourceReferenceIds:
+            - ref:2245
+            - ref:1293
+            - ref:2040
+            - ref:1797
+            - ref:938
+            - ref:3787
+            - ref:1885
+            - ref:2441
+          originalIdentificationMappings:
+            - occurrenceId: occ:194098
+              originalIdentifiedName: Prodipodomys idahoensis n. sp.
+              acceptedName: Prodipodomys idahoensis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-250782553e
+        part: body
+      en:
+        page: en
+        section: s-dbfd43275e
+        part: body

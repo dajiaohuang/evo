@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Alsodes vanzolinii
+  displayName: Alsodes vanzolinii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/65YH9
+  sourceIndexes:
+    - name:
+        en: Alsodes vanzolinii
+        zh: Alsodes vanzolinii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 65YH9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/203
+            queryName: Alsodes vanzolinii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/263
+            queryName: Eupsophus vanzolinii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-71d166b4e4
+      - s-720cbe3f1e
+      - s-bfdb767559
+      - s-e23a519062
+      - s-cfd13ed7ad
+      - s-c5af9d32aa
+      - s-49b7872512
+      - s-adeb0f4749
+      - s-e6a8486b60
+      - s-e7e1a73792
+      - s-60023ba414
+      - s-2c49b0fab0
+      - s-c32ebfa312
+      - s-520294e35c
+      - s-eb964471a1
+      - s-c0553242c3
+      - s-5423dd27b8
+      - s-a5800aa61c
+      - s-1ed923b728
+    zh:
+      - s-a8798359a3
+      - s-7b45ce1ad2
+      - s-5842ec0892
+      - s-f77c215218
+      - s-787f5f3b9a
+      - s-0cf1846aae
+      - s-95e51962ea
+      - s-1517c7a859
+      - s-e1fd70c2b7
+      - s-308198a561
+      - s-e414ec9c55
+      - s-51c1b3e8dc
+      - s-0102c52c44
+      - s-589b737438
+      - s-e00637a35f
+      - s-d171e453a2
+      - s-27b34a801c
+      - s-6223472868
+      - s-19fb3c36e6

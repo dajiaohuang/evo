@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus auritus
+  displayName: Phrynobatrachus auritus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4GW7Z
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus auritus
+        zh: Phrynobatrachus auritus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4GW7Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/104
+            queryName: Phrynobatrachus auritus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/188
+            queryName: Phrynobatrachus discodactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/494
+            queryName: Phrynobatrachus plicatus auritus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a9f15e7224
+      - s-eeaf63b795
+      - s-f20e7b0188
+      - s-1ccbf4b67d
+      - s-2ae2546d37
+      - s-b27ebaf84d
+      - s-ca7d06924b
+      - s-2fd86ee99c
+      - s-227d7d8b7d
+      - s-afb30b4c7f
+      - s-7edb29485a
+      - s-3496c4e527
+      - s-a365d0df0a
+      - s-47d311f3f5
+      - s-e0ec36c0f0
+      - s-583edcac78
+      - s-304134654e
+    zh:
+      - s-79554f10c3
+      - s-df3a00ae25
+      - s-aedd63ba9c
+      - s-e5821765ea
+      - s-23e3120b58
+      - s-04f6721fe7
+      - s-755bcbe9d7
+      - s-e2bd877b2d
+      - s-2236769dd5
+      - s-ffc2eb439c
+      - s-5c9a264a66
+      - s-69e206a7df
+      - s-3f5f2c9da6
+      - s-494af8f0aa
+      - s-f8a38e8f47
+      - s-e8e4c167f8
+      - s-ca0a147909

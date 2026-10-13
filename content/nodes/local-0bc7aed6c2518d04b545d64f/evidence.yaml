@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Meristogenys whiteheadi
+    name:
+      en: Meristogenys whiteheadi
+      zh: Meristogenys whiteheadi
+    sourceClassification:
+      order: Anura
+      family: Ranidae
+      genus: Meristogenys
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Meristogenys whiteheadi in the version 3 classification
+          zh: Meristogenys whiteheadi 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-a0e77e384a
+            part: body
+          zh:
+            page: zh
+            section: s-8ec1d2bdc7
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 18 populated trait fields
+          zh: 2 条测量行与 18 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-f4940067c8
+            part: body
+          zh:
+            page: zh
+            section: s-05b780dcec
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3213, 3214; Reference.csv rows 3879
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3213
+        values:
+          - Ranidae
+          - Meristogenys
+          - Meristogenys whiteheadi
+          - M
+          - "43.6"
+          - "18.1812"
+          - "15.6524"
+          - "7.3248"
+          - "4.0112"
+          - "1.1772"
+          - "3.7932"
+          - "4.9268"
+          - "4.7524"
+          - "3.6624"
+          - "7.5864"
+          - "3.0956"
+          - "12.9928"
+          - "29.8224"
+          - NA
+          - "25.07"
+          - NA
+          - "30.4328"
+          - "27.25"
+          - NA
+          - "90.9932"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3214
+        values:
+          - Ranidae
+          - Meristogenys
+          - Meristogenys whiteheadi
+          - F
+          - "74.9"
+          - "30.5592"
+          - "26.8891"
+          - "10.9354"
+          - "4.494"
+          - "2.7713"
+          - "6.4414"
+          - "7.7147"
+          - "6.741"
+          - "6.0669"
+          - "12.2087"
+          - "4.7936"
+          - "21.3465"
+          - "48.0109"
+          - NA
+          - "42.9177"
+          - NA
+          - "51.4563"
+          - "46.3631"
+          - NA
+          - "154.9681"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3879
+        values:
+          - Anura
+          - Meristogenys_whiteheadi
+          - "Shimada, T., Matsui, M., Yambun, P., & Sudin, A. (2011b). A taxonomic study of Whitehead's torrent frog, Meristogenys whiteheadi, with descriptions of two new species (Amphibia: Ranidae). Zoological Journal of the Linnean Society, 161, 157-183. https://doi.org/10.1111/j.1096-3642.2010.00641.x"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - THL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 73BD6
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

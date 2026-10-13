@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnodynastes convexiusculus
+  displayName: Limnodynastes convexiusculus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDFJ
+  sourceIndexes:
+    - name:
+        en: Limnodynastes convexiusculus
+        zh: Limnodynastes convexiusculus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDFJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/33
+            queryName: Limnodynastes convexiusculus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/185
+            queryName: Ranaster convexiusculus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 23
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/186
+            queryName: Limnodynastes olivaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/187
+            queryName: Phanerotis novaeguineae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/188
+            queryName: Ranaster olivaceus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-26faf01579
+      - s-9da5bb32b3
+      - s-03be460cec
+      - s-fd72caa727
+      - s-3cdacf892f
+      - s-607adcc4c6
+      - s-b198e4ad23
+      - s-7639ec7b21
+      - s-144df1d652
+      - s-4f7685f80b
+      - s-e2da552f56
+      - s-6ef36ae585
+      - s-5132c952b0
+    zh:
+      - s-72277936bc
+      - s-6b1f259bbb
+      - s-f379116381
+      - s-5ddcc4150c
+      - s-87595141f4
+      - s-1f7a141cf5
+      - s-e31f0be7a9
+      - s-8d232bae73
+      - s-c62f9e3678
+      - s-13d8e5f445
+      - s-1628699d47
+      - s-e60216f168
+      - s-71b217c222

@@ -1,0 +1,447 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anancus arvernensis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Anancus arvernensis
+      en: Anancus arvernensis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1de09994b3
+            part: body
+          en:
+            page: en
+            section: s-7fcc16f117
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b4cceb9cba
+            part: body
+          en:
+            page: en
+            section: s-8bd9dd7d9f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-854b11cb6b
+            part: body
+          en:
+            page: en
+            section: s-2a66080efa
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-dd6ccc18eb
+            part: body
+          en:
+            page: en
+            section: s-385beff521
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-380d51b48d
+            part: body
+          en:
+            page: en
+            section: s-c1684d302f
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Anancus arvernensis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=161971&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:161971; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:161971
+          selectedOccurrenceIds:
+            - occ:365307
+            - occ:365308
+            - occ:372382
+            - occ:372406
+            - occ:374277
+            - occ:374356
+            - occ:374385
+            - occ:374390
+            - occ:388987
+            - occ:405256
+            - occ:408502
+            - occ:410376
+            - occ:410880
+            - occ:410885
+            - occ:412038
+            - occ:414541
+            - occ:414562
+            - occ:414604
+            - occ:414632
+            - occ:416599
+            - occ:416617
+            - occ:416618
+            - occ:416631
+            - occ:417609
+            - occ:419640
+            - occ:419923
+            - occ:422043
+            - occ:422076
+            - occ:422113
+            - occ:429178
+            - occ:429184
+            - occ:474698
+            - occ:474713
+            - occ:475092
+            - occ:475102
+            - occ:475124
+            - occ:475199
+            - occ:475267
+            - occ:478741
+            - occ:489836
+            - occ:489843
+            - occ:489942
+            - occ:489947
+            - occ:489950
+            - occ:489963
+            - occ:492278
+            - occ:494601
+            - occ:501630
+            - occ:501764
+            - occ:501768
+            - occ:501776
+            - occ:501812
+            - occ:501840
+            - occ:614664
+            - occ:643949
+            - occ:659002
+            - occ:713017
+            - occ:713042
+            - occ:713083
+            - occ:713102
+            - occ:713668
+            - occ:713690
+            - occ:713703
+            - occ:713704
+            - occ:713711
+            - occ:713714
+            - occ:713757
+            - occ:713825
+            - occ:872699
+            - occ:872701
+            - occ:872728
+            - occ:872730
+            - occ:872741
+            - occ:872743
+            - occ:872745
+            - occ:872746
+            - occ:872747
+            - occ:872748
+            - occ:1348346
+            - occ:1351761
+            - occ:1357543
+            - occ:1364112
+            - occ:1369065
+            - occ:1374664
+            - occ:1383230
+            - occ:1383280
+            - occ:1384785
+            - occ:1413767
+            - occ:1413786
+            - occ:1427565
+            - occ:1451142
+            - occ:1451395
+            - occ:1451396
+            - occ:1451397
+            - occ:1451398
+            - occ:1451399
+            - occ:1468017
+            - occ:1488705
+            - occ:1495987
+            - occ:1533755
+            - occ:1536090
+            - occ:2056502
+            - occ:2056508
+          selectedCollectionIds:
+            - col:34614
+            - col:35252
+            - col:35256
+            - col:35372
+            - col:35374
+            - col:35380
+            - col:35381
+            - col:37201
+            - col:38892
+            - col:39321
+            - col:39627
+            - col:39681
+            - col:39682
+            - col:39842
+            - col:40113
+            - col:40114
+            - col:40123
+            - col:40130
+            - col:40392
+            - col:40393
+            - col:40394
+            - col:40395
+            - col:40503
+            - col:40758
+            - col:40797
+            - col:41025
+            - col:41026
+            - col:41027
+            - col:41919
+            - col:39685
+            - col:47099
+            - col:47100
+            - col:47129
+            - col:47131
+            - col:47133
+            - col:47150
+            - col:47188
+            - col:47624
+            - col:49362
+            - col:49363
+            - col:49406
+            - col:49407
+            - col:49408
+            - col:49414
+            - col:32105
+            - col:49989
+            - col:50920
+            - col:50935
+            - col:50936
+            - col:50937
+            - col:50940
+            - col:50943
+            - col:65174
+            - col:69541
+            - col:71061
+            - col:76502
+            - col:76505
+            - col:76506
+            - col:76507
+            - col:76526
+            - col:76530
+            - col:76532
+            - col:76533
+            - col:76534
+            - col:76535
+            - col:76537
+            - col:76559
+            - col:71202
+            - col:96720
+            - col:96725
+            - col:45480
+            - col:96728
+            - col:96729
+            - col:96730
+            - col:96731
+            - col:96732
+            - col:96733
+            - col:182685
+            - col:183343
+            - col:184410
+            - col:185681
+            - col:186699
+            - col:185859
+            - col:189574
+            - col:189573
+            - col:189976
+            - col:195290
+            - col:195295
+            - col:198590
+            - col:184242
+            - col:202529
+            - col:202530
+            - col:202531
+            - col:202532
+            - col:202533
+            - col:205043
+            - col:207130
+            - col:208030
+            - col:215240
+            - col:215636
+            - col:277751
+            - col:277750
+          sourceReferenceIds:
+            - ref:9135
+            - ref:69396
+            - ref:9441
+            - ref:9534
+            - ref:9971
+            - ref:10948
+            - ref:10617
+            - ref:10720
+            - ref:10873
+            - ref:11201
+            - ref:10898
+            - ref:13592
+            - ref:10917
+            - ref:10999
+            - ref:11017
+            - ref:11054
+            - ref:12548
+            - ref:11001
+            - ref:12578
+            - ref:13151
+            - ref:13340
+            - ref:13425
+            - ref:15045
+            - ref:23350
+            - ref:23813
+            - ref:24838
+            - ref:32997
+            - ref:60888
+            - ref:61190
+            - ref:61770
+            - ref:62269
+            - ref:62618
+            - ref:62998
+            - ref:63715
+            - ref:63872
+            - ref:66506
+            - ref:67604
+            - ref:69391
+            - ref:69395
+            - ref:69397
+            - ref:70370
+            - ref:61193
+            - ref:71883
+            - ref:31396
+            - ref:74393
+            - ref:94167
+          originalIdentificationMappings:
+            - occurrenceId: occ:713017
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713042
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713083
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713102
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713668
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713690
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713703
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713704
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713711
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713714
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+            - occurrenceId: occ:713757
+              originalIdentifiedName: Mastodon arvenensis longirostris
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as, subspecies not entered
+            - occurrenceId: occ:713825
+              originalIdentifiedName: Mastodon arvenensis
+              acceptedName: Anancus arvernensis
+              difference: misspelling of, recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-cefde066de
+        part: body
+      en:
+        page: en
+        section: s-e4f9146fd0
+        part: body

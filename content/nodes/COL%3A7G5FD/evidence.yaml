@@ -1,0 +1,462 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Vitreorana parvula (Boulenger, 1895)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Vitreorana parvula
+      zh: Vitreorana parvula
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e6106d2d24
+            part: title
+          zh:
+            page: zh
+            section: s-b53dbd5009
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e6106d2d24
+            part: body
+          zh:
+            page: zh
+            section: s-b53dbd5009
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-42db7a9fc3
+            part: title
+          zh:
+            page: zh
+            section: s-eb7b0cc378
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42db7a9fc3
+            part: body
+          zh:
+            page: zh
+            section: s-eb7b0cc378
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8cd7f3e8e4
+            part: title
+          zh:
+            page: zh
+            section: s-e402f02bd0
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-8cd7f3e8e4
+            part: body
+          zh:
+            page: zh
+            section: s-e402f02bd0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-057fd56aa8
+            part: title
+          zh:
+            page: zh
+            section: s-9a9f26c331
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-057fd56aa8
+            part: body
+          zh:
+            page: zh
+            section: s-9a9f26c331
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b573798de0
+            part: title
+          zh:
+            page: zh
+            section: s-310b5ccda1
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-b573798de0
+            part: body
+          zh:
+            page: zh
+            section: s-310b5ccda1
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-f256bbf07fa54407579304ce2f83c085
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6d6f30e486
+            part: title
+          zh:
+            page: zh
+            section: s-7ee81896d9
+            part: title
+        sourceIds:
+          - primary-pmc10688756-7g5fd
+        text:
+          en:
+            page: en
+            section: s-6d6f30e486
+            part: body
+          zh:
+            page: zh
+            section: s-7ee81896d9
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-38965bbae7
+            part: title
+          zh:
+            page: zh
+            section: s-f5fa0ebbfd
+            part: title
+        sourceIds:
+          - primary-pmc10688756-7g5fd
+        text:
+          en:
+            page: en
+            section: s-38965bbae7
+            part: body
+          zh:
+            page: zh
+            section: s-f5fa0ebbfd
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-d61479ae34
+            part: title
+          zh:
+            page: zh
+            section: s-13a904d779
+            part: title
+        sourceIds:
+          - primary-pmc10688756-7g5fd
+        text:
+          en:
+            page: en
+            section: s-d61479ae34
+            part: body
+          zh:
+            page: zh
+            section: s-13a904d779
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0a0b507243
+            part: title
+          zh:
+            page: zh
+            section: s-8e70aa415e
+            part: title
+        sourceIds:
+          - primary-pmc10688756-7g5fd
+          - primary-pmc10688756-7g5fd-catalogue-alias
+        text:
+          en:
+            page: en
+            section: s-0a0b507243
+            part: body
+          zh:
+            page: zh
+            section: s-8e70aa415e
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Vitreorana parvula
+          url: https://www.checklistbank.org/dataset/316115/taxon/7G5FD
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1024; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1024 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc10688756-7g5fd
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Vitreorana parvula: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-7g5fd-catalogue-alias
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - referenceId
+          - sourceKey
+          - metadataVariant
+          - locator
+          - scope
+          - id
+          - title
+          - url
+        metadataVariant: 0
+        usage:
+          locator: "COL26.8 dataset316115; Vitreorana uranoscopa: usage5BMF2 accepted7G5FD; archived data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json"
+          scope:
+            en: Explicit nomenclatural accepted-links only; biological-concept equivalence and original specimen identity uncertified.
+            zh: 仅明确命名接受名链接；生物学概念等同性及原标本身份未认证。
+          title: Catalogue of Life, version 2026-08-20 (COL26.8), ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115
+          sourceKey: primary-pmc10688756-7g5fd-catalogue-alias
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c889f848fb
+        part: body
+      zh:
+        page: zh
+        section: s-b04f491faa
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-96a6d7da9e114ec8fcd575fa00c9838e
+      sourceRowId: Anf1024
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf1024
+        bibliographyRowId: Anf1024
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Vitreorana parvula
+        candidateBibliographyRowIds:
+          - Anf1024
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-7g5fd
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 source workbook names Vitreorana uranoscopa linked through explicit frozen COL26.8 nomenclatural records; original row concepts retained, not certified specimen identity
+        evidenceRead: "Vitreorana parvula: XML Methods, Results and Discussion subsections; S3 workbook row traits and upstream bibliography; exact returned COL26.8 name usage/accepted links read. Original upstream measurements, vouchers, biological-concept equivalence and community analyses not independently verified; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: "Workbook record Vitreorana uranoscopa: development and oviposition coding"
+              zh: 工作簿记录 Vitreorana uranoscopa：发育及产卵编码
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-7g5fd
+            locator: PMC10688756 S3 Traits row463 Vitreorana_uranoscopa; XML Functional diversity; upstream reference numbers 1, 2, 3; original upstream sources not independently read
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dcd80187a3
+                part: body
+              zh:
+                page: zh
+                section: s-1b181deb81
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: "Workbook record Vitreorana uranoscopa: juvenile habitat and egg sites"
+              zh: 工作簿记录 Vitreorana uranoscopa：幼体生境及卵位点
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-7g5fd
+            locator: PMC10688756 S3 Traits row463 Vitreorana_uranoscopa; XML Functional diversity; upstream reference numbers 1, 2, 3; original upstream sources not independently read habitat/S1–S7 columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-eea189469d
+                part: body
+              zh:
+                page: zh
+                section: s-fb7685b825
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: "Workbook record Vitreorana uranoscopa: inference and length limits"
+              zh: 工作簿记录 Vitreorana uranoscopa：推断及长度限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-7g5fd
+            locator: PMC10688756 S3 Traits row463 Vitreorana_uranoscopa; XML Functional diversity; upstream reference numbers 1, 2, 3; original upstream sources not independently read length/Observation columns
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-10e8c278a9
+                part: body
+              zh:
+                page: zh
+                section: s-add6306eae
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: "Workbook record Vitreorana uranoscopa: an explicit frozen catalogue accepted-link"
+              zh: 工作簿记录 Vitreorana uranoscopa：明确冻结目录接受名链接
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-7g5fd
+            locator: PMC10688756 S3 Traits row463 Vitreorana_uranoscopa; XML Functional diversity; upstream reference numbers 1, 2, 3; original upstream sources not independently read; COL26.8 usage5BMF2 accepted7G5FD; data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json Vitreorana uranoscopa
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b70d893b2a
+                part: body
+              zh:
+                page: zh
+                section: s-ef49316e6b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

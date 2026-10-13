@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aglyptodactylus laticeps
+  displayName: Aglyptodactylus laticeps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5TRB8
+  sourceIndexes:
+    - name:
+        en: Aglyptodactylus laticeps
+        zh: Aglyptodactylus laticeps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5TRB8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/111
+            queryName: Aglyptodactylus laticeps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d4adf1681f
+      - s-f285d81e77
+      - s-de28039c60
+      - s-b75c130b5d
+      - s-ad23bab579
+      - s-eef2696388
+      - s-5e7544c2e7
+      - s-2561ffbc1e
+      - s-9faef13c91
+      - s-da41f7e7ca
+    zh:
+      - s-04df3d69fe
+      - s-0e6c0ed872
+      - s-d997887ecf
+      - s-ed9dc9ab87
+      - s-fe7e735613
+      - s-dd51ebc924
+      - s-0b56cfd4e1
+      - s-bbce04663c
+      - s-d8e90f502c
+      - s-9cb76cddb9

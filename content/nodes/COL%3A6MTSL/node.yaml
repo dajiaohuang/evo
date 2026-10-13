@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ichthyophis cardamomensis
+  displayName: Ichthyophis cardamomensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MTSL
+  sourceIndexes:
+    - name:
+        en: Ichthyophis cardamomensis
+        zh: Ichthyophis cardamomensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MTSL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/392
+            queryName: Ichthyophis cardamomensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-16e5982637
+      - s-26e1fd2496
+      - s-572b0b0af3
+      - s-66cb8fbf35
+      - s-495db5278e
+      - s-d0d8de1357
+      - s-83e14cda3f
+      - s-778fbd7234
+      - s-8e65e3f734
+      - s-a9e8fa029c
+      - s-543823129b
+    zh:
+      - s-511b22f7c1
+      - s-bf37305205
+      - s-ed1520c4df
+      - s-14612f1390
+      - s-b7ee544615
+      - s-88bf745340
+      - s-7c71f506ed
+      - s-ca83cb376e
+      - s-d39963ad03
+      - s-5671ebfe93
+      - s-74e0e27a35

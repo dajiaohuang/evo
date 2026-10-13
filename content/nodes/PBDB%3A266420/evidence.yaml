@@ -1,0 +1,162 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Broomistega putterilli
+    rank: species
+    sourceTaxonId: txn:266420
+    name:
+      en: Broomistega putterilli
+      zh: Broomistega putterilli
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-04931a410b
+            part: body
+          zh:
+            page: zh
+            section: s-a5dcf6f392
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-9bf807cfea
+            part: body
+          zh:
+            page: zh
+            section: s-24d70721b3
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-a58d2552cf
+            part: body
+          zh:
+            page: zh
+            section: s-7adf2ba1b3
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:266420; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: R. Broom. 1930. Notes on some labyrinthodonts in the Transvaal Museum. Annals of the Transvaal Museum 14:1-10
+    occurrenceEvidence:
+      - occurrenceId: occ:1130489
+        collectionId: col:88282
+        acceptedTaxonId: txn:266420
+        identifiedTaxonId: var:266420
+        identifiedName: Lydekkerina putterilli n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:46530
+        bibliography: R. Broom. 1930. Notes on some labyrinthodonts in the Transvaal Museum. Annals of the Transvaal Museum 14:1-10
+        locality:
+          countryCode: ZA
+          stateProvince: Free State
+          county: Maluti-A-Phofung
+        stratigraphy:
+          group: Beaufort
+          formation: Normandien
+          member: Harrismith
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+      - occurrenceId: occ:1130492
+        collectionId: col:34815
+        acceptedTaxonId: txn:266420
+        taxonomicDifference: null
+        referenceId: ref:46531
+        bibliography: "M. A. Shishkin and B. S. Rubidge. 2000. A relict rhinesuchid (Amphibia: Temnospondyli) from the Lower Triassic of South Africa. Palaeontology 43(4):653-670"
+        locality:
+          countryCode: ZA
+          stateProvince: KwaZulu-Natal
+          county: Bergville
+        stratigraphy:
+          group: Beaufort
+          formation: Normandien
+          member: Harrismith
+        olderAgeMa: 251.902
+        youngerAgeMa: 247
+      - occurrenceId: occ:1130495
+        collectionId: col:143714
+        acceptedTaxonId: txn:266420
+        taxonomicDifference: null
+        referenceId: ref:46531
+        bibliography: "M. A. Shishkin and B. S. Rubidge. 2000. A relict rhinesuchid (Amphibia: Temnospondyli) from the Lower Triassic of South Africa. Palaeontology 43(4):653-670"
+        locality:
+          countryCode: ZA
+          stateProvince: KwaZulu-Natal
+          county: null
+        stratigraphy:
+          group: Beaufort
+          formation: null
+          member: null
+        olderAgeMa: 251.902
+        youngerAgeMa: 250.8
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-a58d2552cf
+            part: body
+          zh:
+            page: zh
+            section: s-7adf2ba1b3
+            part: body
+        sourceIds: []

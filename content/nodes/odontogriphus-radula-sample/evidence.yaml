@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-4d0063b73b
+      part: title
+    titleZh:
+      page: zh
+      section: s-e4bda9df0c
+      part: title
+    category: innovation
+    startAge: 508
+    endAge: 505
+    regions:
+      - Burgess Shale, British Columbia, Canada
+    clades:
+      - Molluscan origin dossier route
+      - Odontogriphus omalus
+    summary:
+      page: en
+      section: s-4d0063b73b
+      part: body
+    summaryZh:
+      page: zh
+      section: s-e4bda9df0c
+      part: body
+    claimIds:
+      - claim:event:odontogriphus-radula-sample
+    evidenceItems:
+      - statement: Paired transverse teeth lie on a membrane and are replaced from behind, providing a reproducible anatomical basis for comparison with a molluscan radula.
+        relation: supports
+        claimIds:
+          - claim:event:odontogriphus-radula-sample
+        referenceLinks:
+          - referenceId: caron-et-al-2006-odontogriphus
+            relation: supports
+            pages: 159–163
+            figure: Figures 1–4; Supplementary Information
+            quoteLocator: Feeding apparatus; body reconstruction
+    uncertaintyItems:
+      - statement: Tooth-row geometry is observed; radular homology, ctenidia identity and stem-mollusc position are comparative interpretations rather than direct ancestry.
+        relation: contextualizes
+        claimIds:
+          - claim:event:odontogriphus-radula-sample
+        referenceLinks:
+          - referenceId: caron-et-al-2006-odontogriphus
+            relation: supports
+            pages: 159–163
+            figure: Figures 2–4
+            quoteLocator: Interpretation and phylogenetic discussion
+  claims:
+    - subjectId: event:odontogriphus-radula-sample
+      claimKind: scientific
+      claimType: morphology
+      statement: The 189-specimen Odontogriphus sample repeatedly preserves paired transverse tooth rows on a membrane with posterior replacement, together with a broad foot and mantle-groove structures; calling this apparatus a molluscan radula is strongly argued but remains a homology interpretation.
+      confidence: medium
+      confidenceRationale: Repeated structures and replacement geometry are specimen observations; radular homology and stem-mollusc placement depend on comparative anatomical interpretation.
+      referenceLinks:
+        - referenceId: caron-et-al-2006-odontogriphus
+          relation: supports
+          pages: 159–163
+          figure: Figures 1–4; Supplementary Information
+          quoteLocator: Specimen sample; feeding apparatus; reconstruction; phylogenetic interpretation
+  claim-rationales.zh:
+    - 连续齿列和替换几何来自标本观察；齿舌同源性及软体动物干群位置依赖比较解剖解释。
+  claim-statements.zh:
+    - 189 件 Odontogriphus 标本反复保存了位于膜上的成对横向齿列及后方替换结构，同时还有宽足和外套沟构造；将该器官认作软体动物齿舌虽有力论证，仍属于同源性解释。

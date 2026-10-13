@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis kichwarum
+  displayName: Pristimantis kichwarum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJG2
+  sourceIndexes:
+    - name:
+        en: Pristimantis kichwarum
+        zh: Pristimantis kichwarum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJG2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/340
+            queryName: Pristimantis kichwarum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5cf3ac87f0
+      - s-6be48ab230
+      - s-b102b8d3a4
+      - s-fe9b37b5b5
+      - s-770fdfacd2
+      - s-1eb138661c
+      - s-63ae4d2fb2
+      - s-8040072987
+      - s-4348560880
+      - s-28a9a7078f
+      - s-26e4fbbc60
+      - s-7566be14ef
+      - s-8907b0790b
+    zh:
+      - s-446da0d5fc
+      - s-921cbe1425
+      - s-fbcc4aca82
+      - s-a3c3b28b45
+      - s-20e0707e64
+      - s-47b0137abc
+      - s-61ecba0c3e
+      - s-e538242757
+      - s-6fcc43da3e
+      - s-521542c6c2
+      - s-da4bf32b37
+      - s-1fe53d53b8
+      - s-23ccafc0b4

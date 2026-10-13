@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Caecilia tenuissima
+  displayName: Caecilia tenuissima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/P7TK
+  sourceIndexes:
+    - name:
+        en: Caecilia tenuissima
+        zh: Caecilia tenuissima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: P7TK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/88
+            queryName: Caecilia tenuissima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9d71ea40ca
+      - s-650aeb815d
+      - s-83156ac515
+      - s-79fb7519db
+      - s-34c0e247b0
+      - s-682043e071
+      - s-39707e9dbb
+      - s-7c42d020bc
+      - s-4347a1fb82
+      - s-0368413b33
+      - s-d55df72a5f
+      - s-86c4900886
+      - s-a12ec7fe95
+      - s-320d907fa8
+      - s-44a2b91d66
+      - s-0977095652
+      - s-02913c3512
+      - s-ed21a949db
+      - s-65b17438ae
+      - s-45447fc4a0
+      - s-67f7e3ffb4
+      - s-e1391e3a37
+      - s-048529df78
+    zh:
+      - s-725e7080bb
+      - s-7d3ce76523
+      - s-0d3829f69c
+      - s-31d5d68512
+      - s-7f1a696597
+      - s-5d35bf0ad7
+      - s-acce17ca51
+      - s-c70d213ca0
+      - s-ede53378b1
+      - s-605325e9f1
+      - s-8a93854666
+      - s-c018560268
+      - s-267575119f
+      - s-131696f2ec
+      - s-7f8aa7dc49
+      - s-21033b8162
+      - s-2ec61ea8c1
+      - s-0225bb193a
+      - s-7643cf895e
+      - s-285c311b13
+      - s-bc50d54dd8
+      - s-0a3afcbd43
+      - s-78d3f174d5

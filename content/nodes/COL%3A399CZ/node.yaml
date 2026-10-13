@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Eleutherodactylus jaumei
+  displayName: Eleutherodactylus jaumei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/399CZ
+  sourceIndexes:
+    - name:
+        en: Eleutherodactylus jaumei
+        zh: Eleutherodactylus jaumei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 399CZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/242
+            queryName: Eleutherodactylus jaumei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/65
+            queryName: Euhyas jaumei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a4d60856ed
+      - s-d0bd07d8f6
+      - s-50e04c6bbc
+      - s-168b505906
+      - s-39c74e3eaf
+      - s-e07803a763
+      - s-a7fed871e9
+      - s-615487bcec
+    zh:
+      - s-b06db2cebb
+      - s-22fb843045
+      - s-cc4f701bdc
+      - s-77ebd4801b
+      - s-2bb5736704
+      - s-5b6bc45c19
+      - s-79c4cc562f
+      - s-c74cac8374

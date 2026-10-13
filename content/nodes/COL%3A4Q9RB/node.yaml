@@ -1,0 +1,130 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ptychadena porosissima
+  displayName: Ptychadena porosissima
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4Q9RB
+  sourceIndexes:
+    - name:
+        en: Ptychadena porosissima
+        zh: Ptychadena porosissima
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4Q9RB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/491
+            queryName: Ptychadena porosissima
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/38
+            queryName: Rana porosissima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/39
+            queryName: Ptychadena loveridgei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/40
+            queryName: Rana loveridgei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/41
+            queryName: Ptychadena poyntoni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c875729850
+      - s-721d5bb493
+      - s-81ee45c32f
+      - s-c97be6e605
+      - s-18e29d362d
+      - s-d516de1ae8
+      - s-8cc20b2247
+      - s-854b377ccf
+      - s-1bf29ec0ee
+      - s-b2316c1d38
+      - s-d1138350c9
+      - s-0cc89df023
+      - s-8933ff4b9e
+      - s-ba966916a8
+      - s-43e7e48a61
+      - s-d82f88c82f
+      - s-fc2e30179c
+      - s-356fd95803
+      - s-8de77945c8
+      - s-62a6ec9daa
+      - s-4e5133569d
+      - s-523e871246
+      - s-51e7ab103b
+      - s-1c28b00bb5
+      - s-14a33f2839
+      - s-5426cfb57a
+      - s-5fe562679d
+      - s-6bcad31bad
+      - s-ac533518bd
+      - s-84fc32eec9
+      - s-a192e6b876
+      - s-e9e1badec0
+      - s-d8355bd88c
+    zh:
+      - s-e52a070f9e
+      - s-c24a7ca295
+      - s-91a9363a97
+      - s-1dfee63c57
+      - s-87ddc512c5
+      - s-4371f51b73
+      - s-cd1ac29898
+      - s-236328faf5
+      - s-a3b44ded10
+      - s-41fad7c674
+      - s-cefb290518
+      - s-c5660735ea
+      - s-60c60063dd
+      - s-5c2ffd3d4d
+      - s-911f7744b7
+      - s-d7988cb16c
+      - s-e3af0aafaf
+      - s-51bd6f35c9
+      - s-1ad5566bfd
+      - s-587e39c227
+      - s-5934a5da85
+      - s-97fbdd7c67
+      - s-e48c4b54ef
+      - s-d919fc87e5
+      - s-f9a43a9c19
+      - s-64c767dcb4
+      - s-db474f31c4
+      - s-db7a9e28a4
+      - s-5780a38bbe
+      - s-dd8b56f038
+      - s-d469b50ff3
+      - s-522ef30b27
+      - s-38a211a033

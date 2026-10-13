@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boulenophrys hengshanensis
+  displayName: Boulenophrys hengshanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LX9JQ
+  sourceIndexes:
+    - name:
+        en: Boulenophrys hengshanensis
+        zh: Boulenophrys hengshanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LX9JQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/349
+            queryName: Boulenophrys hengshanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eaa83ec2bf
+      - s-64ad1b58ee
+      - s-cf3d8b0b41
+      - s-032f1037a3
+      - s-f3da6cce8f
+      - s-840063d464
+      - s-2ef599e25a
+      - s-c1287fb65c
+      - s-13e6a69a25
+      - s-464161a4a2
+      - s-540e4fe2db
+      - s-f44e7f0bd1
+    zh:
+      - s-c8ff40385a
+      - s-218ce7b15f
+      - s-dcc9587b7e
+      - s-88ab937993
+      - s-73eeedfa32
+      - s-9d016973a3
+      - s-fd402e79a3
+      - s-b8acc6abf6
+      - s-607eacbdeb
+      - s-1eec076f71
+      - s-e17c8ca82e
+      - s-ec0d4a6881

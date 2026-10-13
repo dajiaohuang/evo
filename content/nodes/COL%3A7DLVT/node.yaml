@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Uperoleia borealis
+  displayName: Uperoleia borealis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7DLVT
+  sourceIndexes:
+    - name:
+        en: Uperoleia borealis
+        zh: Uperoleia borealis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7DLVT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/188
+            queryName: Uperoleia borealis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-def16790e5
+      - s-46421c7d1a
+      - s-8bf776e608
+      - s-cbab951cee
+      - s-3c4ef6f4f7
+      - s-9f9f7315b7
+      - s-df44121d4b
+      - s-2874721d5d
+      - s-c5d9b84dac
+      - s-c13dbe3a90
+    zh:
+      - s-a1a54934f5
+      - s-bc75090b4a
+      - s-dd732403c1
+      - s-b2e85ea378
+      - s-7c9ea388b1
+      - s-ef9f7edecb
+      - s-b0311b9463
+      - s-f3db29d026
+      - s-ddfb7051c9
+      - s-9881a7ea40

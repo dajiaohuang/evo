@@ -1,0 +1,189 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tylocephalonyx skinneri
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Tylocephalonyx skinneri
+      en: Tylocephalonyx skinneri
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4765684c17
+            part: body
+          en:
+            page: en
+            section: s-59f760056b
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d6e943d02c
+            part: body
+          en:
+            page: en
+            section: s-b749417f47
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-92307a2e4b
+            part: body
+          en:
+            page: en
+            section: s-916afcd820
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0c78739584
+            part: body
+          en:
+            page: en
+            section: s-e065cdac17
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3b6ab344e5
+            part: body
+          en:
+            page: en
+            section: s-6e56243e7b
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Tylocephalonyx skinneri
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=52543&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:52543; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:52543
+          selectedOccurrenceIds:
+            - occ:183230
+            - occ:183306
+            - occ:183380
+            - occ:183383
+            - occ:183560
+            - occ:183575
+            - occ:183665
+            - occ:183717
+            - occ:183838
+            - occ:183843
+            - occ:183865
+            - occ:183915
+            - occ:190529
+            - occ:190565
+            - occ:190644
+            - occ:190663
+            - occ:1263783
+          selectedCollectionIds:
+            - col:17871
+            - col:17883
+            - col:17900
+            - col:17902
+            - col:17917
+            - col:17920
+            - col:17952
+            - col:17961
+            - col:17979
+            - col:17980
+            - col:17988
+            - col:18001
+            - col:19073
+            - col:19074
+            - col:19078
+            - col:19080
+            - col:167861
+          sourceReferenceIds:
+            - ref:1275
+            - ref:2634
+            - ref:54870
+          originalIdentificationMappings:
+            - occurrenceId: occ:183575
+              originalIdentifiedName: Tylocephalonyx skinneri n. sp.
+              acceptedName: Tylocephalonyx skinneri
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-ddc54614f9
+        part: body
+      en:
+        page: en
+        section: s-e06d6b9b5e
+        part: body

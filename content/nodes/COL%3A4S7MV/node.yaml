@@ -1,0 +1,174 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rhinella crucifer
+  displayName: Rhinella crucifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4S7MV
+  sourceIndexes:
+    - name:
+        en: Rhinella crucifer
+        zh: Rhinella crucifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4S7MV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/314
+            queryName: Rhinella crucifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 37
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/377
+            queryName: Bufo crucifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/21
+            queryName: Rhinella pombali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/28
+            queryName: Bufo cinctus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/29
+            queryName: Bufo stellatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/30
+            queryName: Bufo semilineatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/31
+            queryName: Bufo melanotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/32
+            queryName: Otolophus cinctus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/33
+            queryName: Chaunus crucifer
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/72
+            queryName: Bufo crucifer stellata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/73
+            queryName: Bufo crucifer melanotis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/157
+            queryName: Bufo pombali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-31a51e4004
+      - s-41a2b0233e
+      - s-3d2baeccba
+      - s-4da50bfbe4
+      - s-b9ff6cfcab
+      - s-9e9bb0957e
+      - s-d8fd896928
+      - s-1c18698950
+      - s-f34b74f18c
+      - s-a3bc790ff8
+      - s-d11008eb97
+      - s-7efeab568f
+      - s-8d76283946
+      - s-2201bbed6b
+      - s-68573cac8d
+      - s-f555cf9735
+      - s-d8393c852a
+      - s-3135bb7ca0
+      - s-332cc0a012
+      - s-2d5a006b97
+      - s-4e45fde1b1
+      - s-2ceab1e6d6
+      - s-e83e8079c9
+      - s-cf7e54e88a
+      - s-728f849888
+      - s-7abe727247
+      - s-fb260bb14d
+      - s-4f3785c65b
+      - s-005a4427c6
+      - s-7c36cdefcb
+      - s-7cf2407477
+      - s-9a33f482e6
+      - s-410f494ebc
+      - s-553b2fb198
+    zh:
+      - s-65ef418bea
+      - s-2e5f4a6544
+      - s-5b6e372f85
+      - s-f9a013aea8
+      - s-167a8b047f
+      - s-865179b721
+      - s-c6477c6166
+      - s-b76fba0aa3
+      - s-228d275925
+      - s-fb7371c1e2
+      - s-ea49b337e9
+      - s-6fea4b449b
+      - s-036e988efe
+      - s-252f8630be
+      - s-2f2b8765cc
+      - s-c253a8c44d
+      - s-a90c70e9c9
+      - s-c78037a2c9
+      - s-b530709a2d
+      - s-033acf0528
+      - s-18d957575e
+      - s-ee134fe907
+      - s-adddbfeab3
+      - s-08f0a6007e
+      - s-f212bfc027
+      - s-673594c89f
+      - s-0a943ca031
+      - s-91328a3a67
+      - s-718204579c
+      - s-5e1cd93a01
+      - s-6bb4a4e969
+      - s-4ddfefdb3d
+      - s-1f3a6c43ce
+      - s-37689133b9

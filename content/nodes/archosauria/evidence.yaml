@@ -1,0 +1,78 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    sections:
+      - topic: fossil-range
+        title:
+          en:
+            page: en
+            section: s-164e166e18
+            part: title
+          zh:
+            page: zh
+            section: s-8698a346a4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-164e166e18
+            part: body
+          zh:
+            page: zh
+            section: s-8698a346a4
+            part: body
+        claimIds:
+          - claim:taxon:archosauria:root-range
+    scientificName: Archosauria
+    name:
+      en: Archosauria
+      zh: Archosauria
+    rank: infraclass
+  atlas-node:
+    name: Archosauria
+    commonName: Archosaurs
+    commonNameZh: 主龙类
+    rank: infraclass
+    taxonId: ""
+    firstAppearance: 247.2
+    lastAppearance: 0
+    extinct: false
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:archosauria
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Ctenosauriscus GZG.V.4191 from latest Olenekian strata near 247.2 Ma anchors the 247.2–0 Ma Archosauria route; its pseudosuchian placement and stratigraphic age provide a sampled crown minimum, not a global origin or complete early-archosaur record.
+      confidence: medium
+      confidenceRationale: The holotype, stratigraphic correlation and revised character matrix are explicit. The paper also documents sparse and geographically biased Early Triassic sampling, so the route cannot be interpreted as a global FAD.
+      referenceLinks:
+        - referenceId: butler-2011-ctenosauriscus
+          relation: supports
+          pages: e25693
+          figure: Figures 1–16; Text S1; Materials S1
+          quoteLocator: Holotype redescription; stratigraphic review; phylogenetic analysis; early-archosaur record discussion
+  claim-rationales.zh:
+    - 正模、地层对比与修订性状矩阵均有明确记录；论文同时说明早三叠世采样稀疏且有地域偏差，因此该路线不能解释为全球首现。
+  claim-statements.zh:
+    - 最新 Olenekian 期、约 247.2 Ma 的 Ctenosauriscus 正模 GZG.V.4191 锚定 247.2–0 Ma 的主龙类路线；其伪鳄类位置与地层年代只提供取样冠群最低记录，不是全球起源或完整早期主龙记录。
+  ranges:
+    - entityId: archosauria
+      rangeKind: global-composite
+      taxonomicConcept: Crown Archosauria fossil minimum and living navigation span
+      geographicScope: Upper Middle Buntsandstein, Bremketal near Göttingen, Germany; living global continuation
+      olderMa: 247.2
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: 247.2 Ma follows the study’s Olenekian–Anisian boundary calibration and rounded specimen context; it is not an exact origin date or complete global record.
+      evidenceBasis: Ctenosauriscus GZG.V.4191, stratigraphic review and a revised character matrix anchor a latest Olenekian pseudosuchian occurrence.
+      confidence: medium
+      claimIds:
+        - claim:taxon:archosauria:root-range
+      referenceLocators:
+        - referenceId: butler-2011-ctenosauriscus
+          locator: Article e25693; Figures 1–16; Text S1; Materials S1
+      evidenceLevel: literature-synthesized

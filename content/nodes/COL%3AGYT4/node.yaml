@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Arthroleptis wahlbergii
+  displayName: Arthroleptis wahlbergii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/GYT4
+  sourceIndexes:
+    - name:
+        en: Arthroleptis wahlbergii
+        zh: Arthroleptis wahlbergii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: GYT4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/190
+            queryName: Arthroleptis wahlbergii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/349
+            queryName: Arthroleptis dalenei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/41
+            queryName: Arthroleptis wahlbergii wahlbergii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/42
+            queryName: Arthroleptis wahlbergii dalenei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-89faa62b6d
+      - s-5c5601b8c0
+      - s-12de3f4fc4
+      - s-66176e1258
+      - s-ff99959968
+      - s-11e625445e
+      - s-496df30ed6
+      - s-b11705e28a
+      - s-afe34ba6fd
+      - s-d545393772
+      - s-b350f0e3ac
+    zh:
+      - s-4a98c3542d
+      - s-897b7c1d01
+      - s-3f9b704ea0
+      - s-16b7b37423
+      - s-0552d9b826
+      - s-8f89af4461
+      - s-8e47d2c083
+      - s-4042594645
+      - s-55e84b935b
+      - s-f46392f9e2
+      - s-1b57611da2

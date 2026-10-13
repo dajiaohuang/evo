@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyzelaphryne
+  displayName: Phyzelaphryne
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Q5N
+  sourceIndexes:
+    - name:
+        en: Phyzelaphryne
+        zh: Phyzelaphryne
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Q5N
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/173
+            queryName: Phyzelaphryne
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 10
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d9ec413aca
+      - s-82ad732a06
+      - s-9e8483224c
+      - s-07aea95476
+      - s-f92665811f
+      - s-e6329cd62c
+      - s-97a2bd87a6
+    zh:
+      - s-b33658f6e3
+      - s-a30d4fff1f
+      - s-c4e3b69329
+      - s-1fc35cfef6
+      - s-7ad4b71528
+      - s-696d8260a3
+      - s-41f9c61989

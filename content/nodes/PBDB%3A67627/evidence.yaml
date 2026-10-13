@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Eorhinophrynus septentrionalis
+    rank: species
+    sourceTaxonId: txn:67627
+    name:
+      en: Eorhinophrynus septentrionalis
+      zh: Eorhinophrynus septentrionalis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB placement of this fossil concept
+          zh: PBDB 对该化石分类单元的记录
+        text:
+          en:
+            page: en
+            section: s-ea3129a045
+            part: body
+          zh:
+            page: zh
+            section: s-d1cf23f575
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Occurrences returned for this fossil concept
+          zh: 此概念检索到的化石记录
+        text:
+          en:
+            page: en
+            section: s-67bef7cbbd
+            part: body
+          zh:
+            page: zh
+            section: s-731a9a71ce
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Scope of the available biological evidence
+          zh: 现有资料能说明什么
+        text:
+          en:
+            page: en
+            section: s-0c1801360a
+            part: body
+          zh:
+            page: zh
+            section: s-459f2e59b5
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:67627; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "M. K. Hecht. 1959. Amphibians and Reptiles (in: The Geology and Paleontology of the Elk Mountain and Tabernacle Butte area, Wyoming). Bulletin of the American Museum of Natural History 117(3):130-176"
+    occurrenceEvidence:
+      - occurrenceId: occ:521289
+        collectionId: col:16244
+        acceptedTaxonId: txn:67627
+        identifiedName: Eorhinophrynus septentrionalis n. sp.
+        taxonomicDifference: null
+        referenceId: ref:59968
+        bibliography: "M. K. Hecht. 1959. Amphibians and Reptiles (in: The Geology and Paleontology of the Elk Mountain and Tabernacle Butte area, Wyoming).  In P. O. McGrew (ed.), Bulletin of the American Museum of Natural History 117(3):130-176"
+        locality:
+          countryCode: US
+          stateProvince: Wyoming
+          county: Sublette
+        stratigraphy:
+          group: null
+          formation: Bridger
+          member: null
+        olderAgeMa: 51.1
+        youngerAgeMa: 45.9
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-0c1801360a
+            part: body
+          zh:
+            page: zh
+            section: s-459f2e59b5
+            part: body
+        sourceIds: []

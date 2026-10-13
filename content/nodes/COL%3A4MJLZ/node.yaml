@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pteridophilus
+  displayName: Pristimantis pteridophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJLZ
+  sourceIndexes:
+    - name:
+        en: Pristimantis pteridophilus
+        zh: Pristimantis pteridophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJLZ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/19
+            queryName: Pristimantis pteridophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/8
+            queryName: Eleutherodactylus pteridophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0f98e9cfba
+      - s-86eaf42ed8
+      - s-006cbef989
+      - s-0c26e76c71
+      - s-cf6b3a4391
+      - s-b971a088a1
+      - s-ebf7cc6edc
+      - s-7a46b361de
+      - s-6cf4c670aa
+      - s-b432dbbdca
+      - s-29795e7a82
+      - s-038dc24e85
+      - s-f74b041109
+    zh:
+      - s-1e50130adb
+      - s-44fdf263c4
+      - s-8d4fdb14e5
+      - s-cf318751cb
+      - s-a06789bd32
+      - s-591cf06931
+      - s-5a665fad86
+      - s-17d96b925b
+      - s-9df2f37964
+      - s-9ab31b9d9d
+      - s-b4c0c5c7eb
+      - s-c1bc6120a4
+      - s-862c930211

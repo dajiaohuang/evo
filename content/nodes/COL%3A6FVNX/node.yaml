@@ -1,0 +1,124 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epipedobates boulengeri
+  displayName: Epipedobates boulengeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6FVNX
+  sourceIndexes:
+    - name:
+        en: Epipedobates boulengeri
+        zh: Epipedobates boulengeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6FVNX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/373
+            queryName: Epipedobates boulengeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/238
+            queryName: Prostherapis boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/239
+            queryName: Phyllobates boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/240
+            queryName: Colostethus boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/241
+            queryName: Dendrobates boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/242
+            queryName: Ameerega boulengeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c223df83bd
+      - s-078679bbd9
+      - s-607efdb3b6
+      - s-a261c23124
+      - s-3e226bc8e4
+      - s-4ea1416690
+      - s-64b034077c
+      - s-c893eab6bd
+      - s-5ddfd19096
+      - s-84c31466f3
+      - s-18a6796272
+      - s-0e6d00f32a
+      - s-511f49a60f
+      - s-6ddc16ccf7
+      - s-eda7bae3ec
+      - s-ea6354e534
+      - s-3efa7877dd
+      - s-c7ad333463
+      - s-17fbfe1221
+      - s-2bfc7e79c0
+      - s-097eeb80a3
+      - s-7adca6a506
+      - s-56e79d7fba
+      - s-9c95c9e99f
+      - s-f0a4d05731
+      - s-96ad137fbc
+      - s-c00017d5ef
+    zh:
+      - s-f770109f8b
+      - s-d26750ace1
+      - s-13fd5ed54c
+      - s-4b0442ec88
+      - s-6b4e26f260
+      - s-f1008ef0e3
+      - s-fa59b71de4
+      - s-8da198e65f
+      - s-ce68e163dd
+      - s-fc43699e72
+      - s-fbc0d89927
+      - s-de9e3a7b5a
+      - s-df042383d8
+      - s-2e28f2d189
+      - s-8c0980b6cf
+      - s-f05d6f92a5
+      - s-2aa939f328
+      - s-cad825f1ec
+      - s-ac94b65802
+      - s-c51893c131
+      - s-057d4a9d8f
+      - s-86eaea5074
+      - s-76b26449a1
+      - s-9053a1b052
+      - s-f5ff88c3c8
+      - s-dca2e356f5
+      - s-e0391acc7f

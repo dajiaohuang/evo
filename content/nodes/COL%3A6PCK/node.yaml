@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynoidis
+  displayName: Phrynoidis
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PCK
+  sourceIndexes:
+    - name:
+        en: Phrynoidis
+        zh: Phrynoidis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PCK
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/162
+            queryName: Phrynoidis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 113
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e378fd3824
+      - s-987c3a5d9a
+      - s-e17ad0984a
+      - s-a16bd69b8f
+      - s-4ab2b37c88
+      - s-383340c79a
+      - s-86127e475b
+      - s-b7364c05c7
+      - s-28202ce672
+      - s-5588af8d02
+      - s-246f4518e2
+      - s-13161202da
+      - s-a8b06c5318
+      - s-3e6adcd0cd
+      - s-0ca5297183
+    zh:
+      - s-b8e5b0447e
+      - s-5adcac9883
+      - s-84f7784797
+      - s-5783545a1b
+      - s-255b2bbc90
+      - s-6398cfbf9e
+      - s-e989ad5ac7
+      - s-e31b59ce4f
+      - s-1819997eb4
+      - s-c04af6cbd4
+      - s-3542bf80ab
+      - s-69fb27b095
+      - s-2352b91302
+      - s-da63a35ccc
+      - s-6c9acc9c52

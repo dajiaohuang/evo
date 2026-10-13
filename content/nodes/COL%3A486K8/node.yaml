@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nymphargus siren
+  displayName: Nymphargus siren
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/486K8
+  sourceIndexes:
+    - name:
+        en: Nymphargus siren
+        zh: Nymphargus siren
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 486K8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/451
+            queryName: Nymphargus siren
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/24
+            queryName: Cochranella siren
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/21
+            queryName: Centrolenella siren
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-404c6b8c6e
+      - s-ca9e56badc
+      - s-6e266872bc
+      - s-99cba4c24a
+      - s-c68bcb9b96
+      - s-83a8fdc5e4
+      - s-a03ff3100f
+      - s-03b070ccaf
+      - s-3a16fac060
+      - s-8e544f6baf
+      - s-e58dfca3ab
+      - s-ceff5e6276
+      - s-dc79b8623c
+      - s-e672452317
+      - s-d12d4d6e9f
+      - s-cc76578ae7
+      - s-a1e7cf4723
+      - s-d24ed6eea0
+      - s-ce73b635c8
+      - s-a21700475b
+      - s-5d3ae69035
+      - s-033211921d
+      - s-e1131186ff
+    zh:
+      - s-49db7cf65b
+      - s-c17ae6b1f4
+      - s-3f16fa6688
+      - s-badb286165
+      - s-6aa8e7a83b
+      - s-7bc43f0b7b
+      - s-e355f4329a
+      - s-be9192bed0
+      - s-6fd9d20ab4
+      - s-7e4840a0ff
+      - s-c2cfb61ef4
+      - s-62bacbf6df
+      - s-c96102ca66
+      - s-0b663ec3b2
+      - s-1ceeefeac9
+      - s-760485b22f
+      - s-fdcd924ecd
+      - s-b55d93c677
+      - s-a68d77d30d
+      - s-10ca12b568
+      - s-5be5c30ad3
+      - s-cb2546d563
+      - s-4fd341dd0e

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lepidobatrachus llanensis
+  displayName: Lepidobatrachus llanensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6PB4Y
+  sourceIndexes:
+    - name:
+        en: Lepidobatrachus llanensis
+        zh: Lepidobatrachus llanensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6PB4Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/194
+            queryName: Lepidobatrachus llanensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b01e260cc
+      - s-6159ecfd97
+      - s-0eb0648c6d
+      - s-f2e9ad272d
+      - s-14bda088b9
+      - s-1de89f7ea7
+      - s-eb21dc288b
+      - s-8a636766c2
+      - s-a8111acb3e
+    zh:
+      - s-38461b52db
+      - s-729fec1370
+      - s-f913d39c08
+      - s-2bbad47dfc
+      - s-2f2c1d5c15
+      - s-543d2c04c3
+      - s-75b87f27a9
+      - s-8ac88f9af8
+      - s-2b2bfb6cb2

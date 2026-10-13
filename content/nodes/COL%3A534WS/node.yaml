@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Strongylopus merumontanus
+  displayName: Strongylopus merumontanus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/534WS
+  sourceIndexes:
+    - name:
+        en: Strongylopus merumontanus
+        zh: Strongylopus merumontanus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 534WS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/341
+            queryName: Strongylopus merumontanus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/222
+            queryName: Strongylopus kitumbeine
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/369
+            queryName: Strongylopus fuelleborni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 28
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/370
+            queryName: Strongylopus kilimanjaro
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/497
+            queryName: Rana merumontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/105
+            queryName: Rana fuelleborni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/236
+            queryName: Rana fasciata merumontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/267
+            queryName: Rana fasciata fuelleborni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/268
+            queryName: Strongylopus fasciatus fuelleborni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6e864098c
+      - s-fd44acd24d
+      - s-ea2a575a66
+      - s-f49cb832f4
+      - s-4a1d0ea38a
+      - s-0bf6c446e9
+      - s-cb4ac03d36
+      - s-fa10d55787
+      - s-d6c6c5f111
+      - s-23d141bdfe
+      - s-52a36df04a
+      - s-dea9c000ee
+    zh:
+      - s-c7915f216d
+      - s-ea7523e4bf
+      - s-3f38e6e1b3
+      - s-bc7fec7b92
+      - s-0f016cbbeb
+      - s-686f020bc3
+      - s-1fabd3404f
+      - s-c724377823
+      - s-37ab58c091
+      - s-3d7635f27a
+      - s-f6cd3c9fe0
+      - s-12fa3d3b19

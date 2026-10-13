@@ -1,0 +1,98 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus ebraccatus
+  displayName: Dendropsophus ebraccatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S56
+  sourceIndexes:
+    - name:
+        en: Dendropsophus ebraccatus
+        zh: Dendropsophus ebraccatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S56
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/360
+            queryName: Dendropsophus ebraccatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 86
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/178
+            queryName: Hyla ebraccata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 85
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/240
+            queryName: Hyla weyerae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-60181d44f6
+      - s-cfb02f748a
+      - s-dfcc7eecad
+      - s-faa61e4bf6
+      - s-573b3bcb43
+      - s-e8f501e699
+      - s-78d37be3d0
+      - s-472b1a104d
+      - s-f95e111c42
+      - s-8e71d3f64a
+      - s-214164d83e
+      - s-15abea7e48
+      - s-aaa81e76ae
+      - s-d99aec0251
+      - s-b01f98d5af
+      - s-543eb2e93f
+      - s-d11d73cd19
+      - s-78875491e1
+      - s-f537e7f9c9
+      - s-0aa71a252e
+      - s-2126032f91
+      - s-dcec03a961
+      - s-0bf9bb2abf
+    zh:
+      - s-f776b39080
+      - s-d1839277b5
+      - s-7fe3bcd1b7
+      - s-6aa384604a
+      - s-f04b754c8a
+      - s-638d34d773
+      - s-631eed9707
+      - s-983dcb517d
+      - s-90e628dfb9
+      - s-3c643b5ad6
+      - s-995a14eb20
+      - s-880d177460
+      - s-c81c4deb6c
+      - s-3340e4363d
+      - s-941ab8e99a
+      - s-040ee065e1
+      - s-5c4332658c
+      - s-27a6c5cad3
+      - s-897ea2f2ee
+      - s-516317d945
+      - s-9d83251ff1
+      - s-6805978089
+      - s-35be820ef6

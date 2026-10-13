@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis pycnodermis
+  displayName: Pristimantis pycnodermis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJM9
+  sourceIndexes:
+    - name:
+        en: Pristimantis pycnodermis
+        zh: Pristimantis pycnodermis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJM9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/27
+            queryName: Pristimantis pycnodermis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/11
+            queryName: Eleutherodactylus pycnodermis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ca7a188143
+      - s-93a4537f03
+      - s-7861fdc10a
+      - s-08a66fdff2
+      - s-0c3c1eb876
+      - s-9571136c9c
+      - s-2da59b9728
+      - s-8700785b52
+      - s-b91ace10bc
+      - s-713c84849c
+    zh:
+      - s-0799912683
+      - s-964d605117
+      - s-7617ab7822
+      - s-d127a2189b
+      - s-510a209728
+      - s-8503d3d0fd
+      - s-72a1edd0da
+      - s-7a6b5dfb6c
+      - s-3dde1701c5
+      - s-4fe6e1c469

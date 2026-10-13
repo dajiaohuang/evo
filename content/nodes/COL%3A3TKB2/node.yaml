@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella tamdil
+  displayName: Leptobrachella tamdil
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKB2
+  sourceIndexes:
+    - name:
+        en: Leptobrachella tamdil
+        zh: Leptobrachella tamdil
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKB2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/298
+            queryName: Leptobrachella tamdil
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/452
+            queryName: Leptolalax tamdil
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/453
+            queryName: Leptolalax tamdili
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1bc5327cd3
+      - s-3380b694a9
+      - s-0ba689eb77
+      - s-396308ece8
+      - s-4c7355f8d9
+      - s-72c2a925cd
+      - s-f023e384c0
+      - s-96ad863f75
+    zh:
+      - s-cde5c9bf9f
+      - s-1956d44071
+      - s-1357ff5bbf
+      - s-a1d33cf054
+      - s-535a08085f
+      - s-85db160b86
+      - s-8a6209d0fc
+      - s-738aac7e94

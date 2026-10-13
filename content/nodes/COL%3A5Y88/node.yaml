@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Necturus
+  displayName: Necturus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5Y88
+  sourceIndexes:
+    - name:
+        en: Necturus
+        zh: Necturus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5Y88
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/81
+            queryName: Necturus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1913
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-217bca0154
+      - s-d8f9f0981c
+      - s-e14acf8af4
+      - s-a8c99b54fe
+      - s-d0598abb72
+      - s-fd2e44e7b5
+      - s-ac8ef619de
+      - s-caa8c61fb7
+      - s-fe7bd24602
+      - s-9aedb7869a
+      - s-9e12277162
+      - s-c9bf4cedba
+    zh:
+      - s-1a0e5539e2
+      - s-98df243d40
+      - s-d70a7c122c
+      - s-c5ff6c8a05
+      - s-42b2b4ca5c
+      - s-cfe31b649d
+      - s-9c4ffe7558
+      - s-92d67887a5
+      - s-6d158b61b8
+      - s-85850a7809
+      - s-ce06c7ccc1
+      - s-76ccc1a640

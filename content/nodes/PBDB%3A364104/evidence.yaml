@@ -1,0 +1,321 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Halszkaraptor escuilliei
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Halszkaraptor escuilliei
+      en: Halszkaraptor escuilliei
+    sections:
+      - topic: overview
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+        text:
+          zh:
+            page: zh
+            section: s-e1ef929450
+            part: body
+          en:
+            page: en
+            section: s-490f467096
+            part: body
+      - topic: morphology
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+        text:
+          zh:
+            page: zh
+            section: s-ad487a81ea
+            part: body
+          en:
+            page: en
+            section: s-66e2c10fb9
+            part: body
+      - topic: morphology
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+        text:
+          zh:
+            page: zh
+            section: s-50ad07b521
+            part: body
+          en:
+            page: en
+            section: s-04fe1c5509
+            part: body
+      - topic: morphology
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+        text:
+          zh:
+            page: zh
+            section: s-00d0b3b2d5
+            part: body
+          en:
+            page: en
+            section: s-040e370dd6
+            part: body
+      - topic: palaeobiology
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+        text:
+          zh:
+            page: zh
+            section: s-c471d00269
+            part: body
+          en:
+            page: en
+            section: s-5aade112cf
+            part: body
+      - topic: phylogeny
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+          - brownstein2020HalszkaraptorCorrection
+        text:
+          zh:
+            page: zh
+            section: s-f132e0f182
+            part: body
+          en:
+            page: en
+            section: s-976237d4c5
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-3995442ffb
+            part: body
+          en:
+            page: en
+            section: s-e1ad9ca0a7
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-113154f190
+            part: body
+          en:
+            page: en
+            section: s-48ff9525c0
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-34c5adfe58
+            part: body
+          en:
+            page: en
+            section: s-e17462a32d
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9140ff670c
+            part: body
+          en:
+            page: en
+            section: s-ac80f740ad
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-6fa662b2df
+            part: body
+          en:
+            page: en
+            section: s-3815e9ad8d
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+          - brownstein2019Halszkaraptor
+          - cau2020Halszkaraptor
+          - brownstein2020HalszkaraptorCorrection
+          - lee2022Natovenator
+        text:
+          zh:
+            page: zh
+            section: s-d6a89501f7
+            part: body
+          en:
+            page: en
+            section: s-6318a1dc01
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Halszkaraptor escuilliei
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=364104&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:364104; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:364104
+          selectedOccurrenceIds:
+            - occ:1386650
+          selectedCollectionIds:
+            - col:190544
+          sourceReferenceIds:
+            - ref:64073
+          originalIdentificationMappings:
+            - occurrenceId: occ:1386650
+              originalIdentifiedName: Halszkaraptor escuilliei n. gen. n. sp.
+              acceptedName: Halszkaraptor escuilliei
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: brownstein2019Halszkaraptor
+        referenceId: ref-ec15c01b-6bf0-4cc4-a7f7-82f983ada2f1
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Halszkaraptor escuilliei and the evolution of the paravian bauplan
+          url: https://doi.org/10.1038/s41598-019-52867-2
+          locator: Introduction, Results, Discussion, Conclusions, Materials and Methods; associated figure captions.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 具名作者的形态与系统重评及生态解释；不作直接行为资料或后续共识。
+            en: Named author’s comparative and phylogenetic reassessment with ecological interpretations; not direct behavioral evidence or later consensus.
+      - id: cau2020Halszkaraptor
+        referenceId: ref-200f7bd8-dad9-4757-b24d-2bf880253cab
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: The body plan of Halszkaraptor escuilliei (Dinosauria, Theropoda) is not a transitional form along the evolution of dromaeosaurid hypercarnivory
+          url: https://doi.org/10.7717/peerj.8672
+          locator: Introduction, Results, Discussion, Conclusions, Materials and Methods; associated figure captions.
+          accessedAt: 2026-10-03
+          scope:
+            zh: 具名作者的形态与系统重评及生态解释；不作直接行为资料或后续共识。
+            en: Named author’s comparative and phylogenetic reassessment with ecological interpretations; not direct behavioral evidence or later consensus.
+      - id: brownstein2020HalszkaraptorCorrection
+        referenceId: ref-ddefecec-a28e-4471-9701-13b6438391af
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          title: "Author Correction: Halszkaraptor escuilliei and the evolution of the paravian bauplan"
+          url: https://doi.org/10.1038/s41598-020-60007-4
+          locator: "Entire correction: Figures 2 and 6 legends."
+          accessedAt: 2026-10-03
+          scope:
+            zh: 图注缩写与面板编号勘误，不作生态结论撤回。
+            en: Caption abbreviation and panel-label correction, not withdrawal of an ecological conclusion.
+      - id: lee2022Natovenator
+        referenceId: ref-61b73848-c367-4856-8e89-8862c823759c
+        fields:
+          - id
+          - title
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Discussion: comparisons with Halszkaraptor; Description and Tables 1–2 for Natovenator rib evidence."
+          accessedAt: 2026-10-03
+          scope:
+            zh: Natovenator 是独立比较标本，不替代 Halszkaraptor 的标本或行为记录。
+            en: Natovenator is an independent comparison specimen, not a substitute Halszkaraptor specimen or behavioral record.
+    limitations:
+      zh:
+        page: zh
+        section: s-7cda9afe8e
+        part: body
+      en:
+        page: en
+        section: s-f469be5388
+        part: body

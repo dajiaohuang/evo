@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scaphiophryne spinosa
+  displayName: Scaphiophryne spinosa
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Y5HV
+  sourceIndexes:
+    - name:
+        en: Scaphiophryne spinosa
+        zh: Scaphiophryne spinosa
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Y5HV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/499
+            queryName: Scaphiophryne spinosa
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7eee388dd1
+      - s-be822b8292
+      - s-62483da305
+      - s-04395e4410
+      - s-8972e5a425
+      - s-c6cbe4b710
+      - s-0cd283d7bb
+      - s-0fb2ef2b34
+      - s-fcd8596f9c
+      - s-d11ad4bbe4
+      - s-91962ccc2c
+      - s-9b1d6e7198
+      - s-12554fde30
+      - s-0819cfc48c
+    zh:
+      - s-41daaf4dea
+      - s-2d153fff23
+      - s-b76474dd33
+      - s-0ffb384d3b
+      - s-f6508c77be
+      - s-e5446b73f2
+      - s-331d728e85
+      - s-234cff87a6
+      - s-38652552dc
+      - s-996007633b
+      - s-8c4e9c8361
+      - s-340bdadbad
+      - s-e0ebac6aad
+      - s-7eb03688a5

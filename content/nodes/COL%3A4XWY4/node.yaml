@@ -1,0 +1,120 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Smilisca fodiens
+  displayName: Smilisca fodiens
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4XWY4
+  sourceIndexes:
+    - name:
+        en: Smilisca fodiens
+        zh: Smilisca fodiens
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4XWY4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/207
+            queryName: Smilisca fodiens
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 21
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/270
+            queryName: Pternohyla fodiens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/293
+            queryName: Hyla rudis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/294
+            queryName: Hyla fodiens
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b964a2635c
+      - s-2e4274a0b0
+      - s-cb821979c5
+      - s-643e9dedeb
+      - s-cfd26519a0
+      - s-8bd744a779
+      - s-a48083f1db
+      - s-c5b5c3842d
+      - s-1c6626b3a2
+      - s-8cae20d567
+      - s-af3c2899d5
+      - s-de5a7e0896
+      - s-ad6ad9faa8
+      - s-7ce343db93
+      - s-94c711da05
+      - s-8151f1e73c
+      - s-8d34db3ba0
+      - s-1f72c19752
+      - s-bf61a7b1f1
+      - s-09d98581ff
+      - s-5d36a9d616
+      - s-5fb4029353
+      - s-67a20237a0
+      - s-5b02bb4b49
+      - s-921aef2231
+      - s-d53690f729
+      - s-7acd78e84b
+      - s-d28c336536
+    zh:
+      - s-294b4400ca
+      - s-55c71daaa7
+      - s-bf4ca74db0
+      - s-e1e535ee1a
+      - s-f838e80f7a
+      - s-898c1924b6
+      - s-68dd690936
+      - s-1ba5e94e4e
+      - s-1b855a2fb6
+      - s-8b552428b0
+      - s-c0d36168be
+      - s-b1ce7ccc46
+      - s-6644ed3022
+      - s-0de351af3a
+      - s-7ee67a8b2c
+      - s-aeeb12523e
+      - s-15899074d4
+      - s-927783746c
+      - s-9cc36ec398
+      - s-0f46dd1206
+      - s-d8c552b295
+      - s-315f685dc4
+      - s-e66560ed6b
+      - s-e6b62a2ec5
+      - s-d796f8c950
+      - s-d8bd333020
+      - s-081fab9b94
+      - s-ea67f05871

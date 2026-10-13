@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus ogoensis
+  displayName: Phrynobatrachus ogoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77DNM
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus ogoensis
+        zh: Phrynobatrachus ogoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77DNM
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/155
+            queryName: Phrynobatrachus ogoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/189
+            queryName: Arthroleptis ogoensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-6095c16204
+      - s-7ec67bffdc
+      - s-3843813a2e
+      - s-38cd012796
+      - s-7d2d3dfcd2
+      - s-f9543dbbc5
+      - s-6a183ae15c
+    zh:
+      - s-36fcd6ba45
+      - s-a73f32b608
+      - s-9b84c478ef
+      - s-b5120d3a82
+      - s-983830db38
+      - s-6ad3240bf7
+      - s-4b563ef3cd

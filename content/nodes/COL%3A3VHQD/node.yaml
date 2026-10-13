@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates megapoda
+  displayName: Lithobates megapoda
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQD
+  sourceIndexes:
+    - name:
+        en: Lithobates megapoda
+        zh: Lithobates megapoda
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/181
+            queryName: Lithobates megapoda
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/230
+            queryName: Rana trilobata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/239
+            queryName: Rana megapoda
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/384
+            queryName: Rana megapodia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/294
+            queryName: Rana pipiens trilobata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-59cbd0ad1d
+      - s-d56662e918
+      - s-7399fd7d57
+      - s-b8357e4a2b
+      - s-8cda7753f7
+      - s-327609295f
+      - s-320a9b6f62
+      - s-f02e9141cf
+      - s-50f82d1ff4
+      - s-b3c31a0cce
+      - s-e10d849008
+      - s-7f4f95f342
+      - s-c58fd00e12
+      - s-17ceefe5b4
+      - s-0e1b84b1d9
+      - s-ce287e2517
+    zh:
+      - s-fec3956ede
+      - s-0d75376dbf
+      - s-1d06143b02
+      - s-714793ff0f
+      - s-496b6fae4e
+      - s-e86f8866ed
+      - s-2e0c09e2ef
+      - s-ae0e53a06e
+      - s-3a692c6421
+      - s-e4eaacbb43
+      - s-f1d194518f
+      - s-92f7e10a53
+      - s-c99dfb52df
+      - s-7369768c8f
+      - s-0e3c5999a0
+      - s-906bca8720

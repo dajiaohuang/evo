@@ -1,0 +1,577 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Smilisca cyanosticta (Smith, 1953)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Smilisca cyanosticta
+      zh: Smilisca cyanosticta
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-3857af745d
+            part: title
+          zh:
+            page: zh
+            section: s-20d6acb1f5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3857af745d
+            part: body
+          zh:
+            page: zh
+            section: s-20d6acb1f5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-0827302c94
+            part: title
+          zh:
+            page: zh
+            section: s-cb73d305b7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0827302c94
+            part: body
+          zh:
+            page: zh
+            section: s-cb73d305b7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-32306cbefe
+            part: title
+          zh:
+            page: zh
+            section: s-0d6b1c619f
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-32306cbefe
+            part: body
+          zh:
+            page: zh
+            section: s-0d6b1c619f
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e7ef984f5e
+            part: title
+          zh:
+            page: zh
+            section: s-3764c77dd8
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+          - Arb
+        text:
+          en:
+            page: en
+            section: s-e7ef984f5e
+            part: body
+          zh:
+            page: zh
+            section: s-3764c77dd8
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-622689c8ab
+            part: title
+          zh:
+            page: zh
+            section: s-a1781051cb
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-622689c8ab
+            part: body
+          zh:
+            page: zh
+            section: s-a1781051cb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-4ee3c9acc1
+            part: title
+          zh:
+            page: zh
+            section: s-81db0a6339
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-4ee3c9acc1
+            part: body
+          zh:
+            page: zh
+            section: s-81db0a6339
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bd11a3964b
+            part: title
+          zh:
+            page: zh
+            section: s-18e42aa038
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-bd11a3964b
+            part: body
+          zh:
+            page: zh
+            section: s-18e42aa038
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-e658e0c8fb
+            part: title
+          zh:
+            page: zh
+            section: s-383d199faa
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+          - Offspring_size_min_mm
+          - Offspring_size_max_mm
+        text:
+          en:
+            page: en
+            section: s-e658e0c8fb
+            part: body
+          zh:
+            page: zh
+            section: s-383d199faa
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-57b775c266
+            part: title
+          zh:
+            page: zh
+            section: s-3d9733eefe
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-57b775c266
+            part: body
+          zh:
+            page: zh
+            section: s-3d9733eefe
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-9b81ef927e
+            part: title
+          zh:
+            page: zh
+            section: s-29ecc6b98f
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-9b81ef927e
+            part: body
+          zh:
+            page: zh
+            section: s-29ecc6b98f
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-5e3dbaff699ab8e83eb85cf4d3eacfbc
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-834ca8cf7c
+            part: title
+          zh:
+            page: zh
+            section: s-96dc2b0589
+            part: title
+        sourceIds:
+          - primary-pmc8050035-4xwy2
+        text:
+          en:
+            page: en
+            section: s-834ca8cf7c
+            part: body
+          zh:
+            page: zh
+            section: s-96dc2b0589
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-27c68aae04
+            part: title
+          zh:
+            page: zh
+            section: s-45df981070
+            part: title
+        sourceIds:
+          - primary-pmc8050035-4xwy2
+        text:
+          en:
+            page: en
+            section: s-27c68aae04
+            part: body
+          zh:
+            page: zh
+            section: s-45df981070
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c5c9974408
+            part: title
+          zh:
+            page: zh
+            section: s-298de25ee3
+            part: title
+        sourceIds:
+          - primary-pmc8050035-4xwy2
+        text:
+          en:
+            page: en
+            section: s-c5c9974408
+            part: body
+          zh:
+            page: zh
+            section: s-298de25ee3
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Smilisca cyanosticta
+          url: https://www.checklistbank.org/dataset/316115/taxon/4XWY2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 586337, row 357842; Distribution.tsv rows 96851; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf2710; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf2710 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc8050035-4xwy2
+        referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Smilisca cyanosticta: Study-area, fieldwork, laboratory, results and amphibian treatment paragraphs; Discussion paragraphs and all main Table1 cells and four figure captions read. Figure pixels, deposited photographs, linked ODbL dataset and original historic collection records not independently reviewed; article license CC BY4.0 verified separately from supplement ODbL.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-304adcda29
+        part: body
+      zh:
+        page: zh
+        section: s-71461319b7
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "586337"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=586337
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 357842
+        key: "586337"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "586337"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 96851
+            key: 586337|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-5e3dbaff699ab8e83eb85cf4d3eacfbc
+      sourceRowId: Anf2710
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf2710
+        bibliographyRowId: Anf2710
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Smilisca cyanosticta
+        candidateBibliographyRowIds:
+          - Anf2710
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.3897/zookeys.1029.62205
+        referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+        sourceKey: primary-pmc8050035-4xwy2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8050035/article.xml
+        sourceConcept: Exact named row in the 2021 Santa Cruz Tepetotutla checklist; historical categories and photographic records, not whole-species concept authentication
+        evidenceRead: "Smilisca cyanosticta: Study-area, fieldwork, laboratory, results and amphibian treatment paragraphs; Discussion paragraphs and all main Table1 cells and four figure captions read. Figure pixels, deposited photographs, linked ODbL dataset and original historic collection records not independently reviewed; article license CC BY4.0 verified separately from supplement ODbL.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: range
+            heading:
+              en: A local cloud-forest occurrence and its elevation
+              zh: 当地云雾林出现及海拔
+            referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+            sourceKey: primary-pmc8050035-4xwy2
+            locator: PMC8050035 article.xml T1 row21 columns1,5,6,8;SECID0ETGACp1;SECID0ESKACp1–3;SECID0E3KACp3;oaxaca-community-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-bc5e821f44
+                part: body
+              zh:
+                page: zh
+                section: s-4e5d8d8a3a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Interpret the record within the survey design
+              zh: 按调查设计解读记录
+            referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+            sourceKey: primary-pmc8050035-4xwy2
+            locator: PMC8050035 article.xml SECID0ESKACp1–3;SECID0EYMACp1;SECID0E3KACp2–3;F2caption;oaxaca-community-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-2f087f43b7
+                part: body
+              zh:
+                page: zh
+                section: s-4a0f9b8d42
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Dated conservation labels in the checklist
+              zh: 清单中有年代的保护标签
+            referenceId: ref-66353015-3d07-4559-aa7c-f3f701aaa2f7
+            sourceKey: primary-pmc8050035-4xwy2
+            locator: PMC8050035 article.xml T1 row21 columns2–4,7;SECID0EYMACp1–3;SECID0E22BGp1,6–7;oaxaca-community-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-51f6fa0b21
+                part: body
+              zh:
+                page: zh
+                section: s-aeb81591af
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

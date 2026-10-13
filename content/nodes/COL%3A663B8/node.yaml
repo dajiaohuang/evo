@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Aglyptodactylus securifer
+  displayName: Aglyptodactylus securifer
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/663B8
+  sourceIndexes:
+    - name:
+        en: Aglyptodactylus securifer
+        zh: Aglyptodactylus securifer
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 663B8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/113
+            queryName: Aglyptodactylus securifer
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7d4ccebb4d
+      - s-63963d4607
+      - s-b58d0fc3ce
+      - s-4efaa93131
+      - s-9a1efa59ca
+      - s-8ff97d23e5
+      - s-c725ed6ccf
+      - s-128ead641e
+      - s-2638953db9
+      - s-b3751b57fe
+      - s-2565a1134a
+    zh:
+      - s-870ec043cd
+      - s-716f4b3ca6
+      - s-0aeeeee1a2
+      - s-ab64518d4b
+      - s-f368290aa4
+      - s-b03f5e8a6a
+      - s-8ec5069a0a
+      - s-9309d919be
+      - s-7da8ab8cc8
+      - s-ad11cdc217
+      - s-04c97906c8

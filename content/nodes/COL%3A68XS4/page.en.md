@@ -1,0 +1,3 @@
+## ## A climbing vine with a long, ridged pod {#s-accaa04b34}
+The Flora of Panama describes *Canavalia glabra* as a trailing or climbing vine, with three leaflets usually 10–14 cm long and 4–7 cm wide. Its flowers are white or rose-colored, and the inflorescence may reach 20 cm. The pods can reach about 20 cm long and 3 cm wide; they are flattened, beaked and marked by prominent lengthwise ridges. The historical flora note gives a range from southern Mexico to Peru, with greater frequency in northern Central America, but no sampling frame or observation date; it is not a current range inventory.
+

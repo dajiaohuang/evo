@@ -1,0 +1,70 @@
+## Name and classification in COL26.8 {#s-7035ed97f3}
+COL26.8 (Catalogue of Life dataset 316115, released 20 August 2026) records *Hyperolius viridiflavus* as an accepted species. Its recorded hierarchy is Anura (order) → Hyperoliidae (family) → Hyperolius (genus). This is the classification in that release; the name and placement alone do not describe the organism’s biology.
+
+## What this record establishes {#s-e67ce41400}
+Alongside the catalogue placement, this record summarizes observations from the named studies and datasets below. Each result belongs to the source taxon concept, sample, place, date, and method stated with it; a shared name alone does not establish that the source concept matches the current classification. These records do not cover every member or every part of the taxon’s biology.
+
+## Where adults were reported foraging {#s-667fa4b60f}
+The AmphiBIO compilation uses the historical name Hyperolius viridiflavus under a Frost 2011 classification. That source concept has not been shown to match the current COL26.8 species concept exactly. The compilation records terrestrial; arboreal as present categories. These are broad foraging categories; the compilation does not describe seasonal or developmental changes in detail. A later TetrapodTraits revision reports corrections to some body-mass and microhabitat entries copied from earlier compilations. The affected row is not identified in this record, so no replacement value can be assigned. This caveat does not show that every earlier entry is wrong.
+
+## When activity was reported {#s-2deb349fa8}
+The AmphiBIO compilation uses the historical name Hyperolius viridiflavus under a Frost 2011 classification. That source concept has not been shown to match the current COL26.8 species concept exactly. The compilation records daytime; night as present categories. These are overall activity categories rather than a continuous behavioural time series.
+
+## Seasonal activity in the records {#s-ca4fd83468}
+The AmphiBIO compilation uses the historical name Hyperolius viridiflavus under a Frost 2011 classification. That source concept has not been shown to match the current COL26.8 species concept exactly. The compilation records wet and warm; dry and warm as present categories. Seasonal categories compare conditions during activity with the local annual climate; they are not fixed calendar months worldwide.
+
+## Reported adult size values {#s-595f41a4f9}
+The AmphiBIO compilation uses the historical name Hyperolius viridiflavus under a Frost 2011 classification. That source concept has not been shown to match the current COL26.8 species concept exactly. AmphiBIO reports maximum adult body length: 34 mm. Body length means snout–vent length for Anura and total length for Caudata and Gymnophiona. These are compiled maximum adult values, not measurements of every individual.
+
+## Life-history values in the compilation {#s-bc71db6067}
+The AmphiBIO compilation uses the historical name Hyperolius viridiflavus under a Frost 2011 classification. That source concept has not been shown to match the current COL26.8 species concept exactly. AmphiBIO reports minimum number of offspring or eggs per clutch: 12 individuals/eggs; maximum number of offspring or eggs per clutch: 650 individuals/eggs; maximum reproductive events per year: 1 events/year; minimum offspring or egg size: 1.3 mm; maximum offspring or egg size: 1.5 mm. The dataset compiles extrema and counts from literature; the row does not separately specify sex, population, measurement date or wild versus captive conditions for each value. Offspring-size values may refer to offspring or eggs.
+
+## Developmental stage in the source record {#s-4ae2b3960b}
+The AmphiBIO compilation uses the historical name Hyperolius viridiflavus under a Frost 2011 classification. That source concept has not been shown to match the current COL26.8 species concept exactly. The deposited record flags a larval stage. These source categories do not by themselves describe parental care, breeding location or seasonal timing.
+
+## Related study records {#s-af56c6cc3c}
+These linked records follow accepted-name or archived synonym paths. They show what each source reports; the naming link alone does not establish identical taxon concepts or transfer traits to this record.
+
+- [AmphiBIO v1: Hyperolius viridiflavus](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Hyperoliidae/Hyperolius/Hyperolius_viridiflavus/page.en.md)
+- [TadpoleTraits v4: Hyperolius viridiflavus](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Hyperoliidae/Hyperolius/Hyperolius_viridiflavus/page.en.md)
+- [AmphiTherm curated snapshot: Hyperolius viridiflavus](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Hyperoliidae/Hyperolius/Hyperolius_viridiflavus/page.en.md)
+
+## Tadpole development records {#s-bac86c0f86}
+The TadpoleTraits record uses the source name Hyperolius viridiflavus. The name points to a dataset entry; it does not prove that its taxon concept is identical to the current COL26.8 classification. The compilation contains 11 literature-derived row and 1 image-derived row for this source concept. Supplied stage entries are 36; 30; 33; 34; 35; 37; 38; 39; 36 (Judging based on the picture). Stage values and any accompanying uncertainty are retained as source labels; stages inferred from pictures are not treated as directly documented developmental observations. Row counts are not unique animal counts, and sample-size fields are not summed across studies.
+
+## Proportions estimated from an image {#s-cad09a0447}
+The TadpoleTraits record uses the source name Hyperolius viridiflavus. The name points to a dataset entry; it does not prove that its taxon concept is identical to the current COL26.8 classification. The image-data source reports body length / total length = 0.304362 (source row 582, stage 36 (Judging based on the picture)); tail length / total length = 0.707051 (source row 582, stage 36 (Judging based on the picture)); maximum body height / total length = 0.167037 (source row 582, stage 36 (Judging based on the picture)); maximum tail height / total length = 0.196836 (source row 582, stage 36 (Judging based on the picture)); tail muscle height / total length = 0.121294 (source row 582, stage 36 (Judging based on the picture)). Values shown here are rounded for readability and are dimensionless source proportions. Images may be drawings or photographs; these values are not direct measurements of a representative wild population. Fields inconsistent with their same-row numerator and total length are excluded.
+
+## Selected critical upper thermal limit estimate — AmphiTherm source {#s-f3409bc1eb}
+The AmphiTherm record uses the source name Hyperolius viridiflavus. The name points to a dataset entry; it does not prove that its taxon concept is identical to the current COL26.8 classification. Source row 1688 (ID 1871, Geise_and_Linsenmair_1988) reports 42.3 °C for adults, metric CTmax, other reported endpoint. Recorded acclimation temperature: 27 °C. The source n_trait field is 9; sample sizes must not be summed across repeated cohorts. This is one selected compiled estimate, not a species-wide tolerance boundary, environmental temperature range or husbandry recommendation. The underlying study has not been independently reanalysed. The recorded test-temperature medium is ambient; sex category unknown; animal origin lab. Treatment fields: chemical NA, hormone NA, infection NA, pathogen NA. NA denotes unreported information, not proof of untreated conditions. Original assay and trait notes remain attached to the source record and require study-level review. The deposited uncertainty field is 0.46 °C (standard deviation); these measures are not interchangeable.
+
+## Records in the assembled Rwanda sample {#s-59f5a58322}
+TableA2 lists Hyperolius viridiflavus at 19 of the study's51 sites; TableA3 marks EZ1, EZ2, EZ3, EZ4, EZ5, with a printed total of 5 ecozones. The occurrence compilation draws on earlier studies and a taxonomic revision, using sites repeatedly sampled between2010 and2023. These are detection counts in that assembled sample, not individual abundance, occupancy probability, current site persistence or the complete native distribution. A blank ecozone cell is not demonstrated biological absence.
+
+## A species score for a specified conservation framework {#s-914e20d2af}
+TableA4 reports DBS1, TBS0, SBS0 and total SI1 for Hyperolius viridiflavus. DBS weights the number of represented Rwanda ecozones and national endemism; TBS uses national red-list proposals reported by earlier research, rather than a fresh global IUCN assessment. Its score0 corresponds to LC in Table1. SBS0 corresponds to the broadest tolerance category, including multiple microhabitats in disturbed areas. These are categorical inputs to this Rwanda index, not experimentally measured physiological tolerances, demonstrated responses to every land use or a newly assigned current threat status. A combined VU/DD score does not distinguish those two categories by itself.
+
+## Species Index and site index have different meanings {#s-53eee6ea8c}
+SI is the sum DBS+TBS+SBS for one species. Site RABI sums the SI of every recorded species, without dividing by species richness. Consequently, SI1 for Hyperolius viridiflavus is not the RABI of a site containing it, nor a probability of extinction or an effect size. Successive input categories use doubled weights: DBS1/2/4/8, TBS0/1/2/4/8 and SBS0/1/2/4. Those weights express the authors' prioritization design; they are not evidence that extinction risk or ecological sensitivity actually doubles between categories. The positive correlations reported among sub-indices also mean that their inputs are not empirically independent in this sample.
+
+## Sampling limits and where results apply {#s-1ed486bdd5}
+The51 sites are unevenly distributed among ecozones: EZ1 six, EZ2 twenty-one, EZ3 eight, EZ4 two andEZ5 fourteen. The accumulation curve did not saturate; regional detections are incomplete and missing taxa may affect scores. The index is based on assembled occurrences and literature-informed categories, not a controlled habitat experiment or an independently reanalyzed time series. Applying it elsewhere requires locally defined ecozones, inventories and national threat information, with appropriate category changes. Source-wide differences remain unresolved: Results use54 taxa while Table4 total says55; EZ3 maximum RABI is38 in Results/TableA1 but33 in Table7. No field-data reanalysis, figure-pixel review or current legal protection-status verification is claimed here.
+
+## catalogue-profile / limitations {#s-d2a9ee0c15}
+The described source records are selective and bounded; they do not establish every trait, population, or locality of this taxon.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-1761695682}
+TableA2 lists Hyperolius viridiflavus at 19 of the study's51 sites; TableA3 marks EZ1, EZ2, EZ3, EZ4, EZ5, with a printed total of 5 ecozones. The occurrence compilation draws on earlier studies and a taxonomic revision, using sites repeatedly sampled between2010 and2023. These are detection counts in that assembled sample, not individual abundance, occupancy probability, current site persistence or the complete native distribution. A blank ecozone cell is not demonstrated biological absence.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-305719a6ad}
+TableA4 reports DBS1, TBS0, SBS0 and total SI1 for Hyperolius viridiflavus. DBS weights the number of represented Rwanda ecozones and national endemism; TBS uses national red-list proposals reported by earlier research, rather than a fresh global IUCN assessment. Its score0 corresponds to LC in Table1. SBS0 corresponds to the broadest tolerance category, including multiple microhabitats in disturbed areas. These are categorical inputs to this Rwanda index, not experimentally measured physiological tolerances, demonstrated responses to every land use or a newly assigned current threat status. A combined VU/DD score does not distinguish those two categories by itself.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-9c54d0b787}
+SI is the sum DBS+TBS+SBS for one species. Site RABI sums the SI of every recorded species, without dividing by species richness. Consequently, SI1 for Hyperolius viridiflavus is not the RABI of a site containing it, nor a probability of extinction or an effect size. Successive input categories use doubled weights: DBS1/2/4/8, TBS0/1/2/4/8 and SBS0/1/2/4. Those weights express the authors' prioritization design; they are not evidence that extinction risk or ecological sensitivity actually doubles between categories. The positive correlations reported among sub-indices also mean that their inputs are not empirically independent in this sample.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-531dbf5c77}
+The51 sites are unevenly distributed among ecozones: EZ1 six, EZ2 twenty-one, EZ3 eight, EZ4 two andEZ5 fourteen. The accumulation curve did not saturate; regional detections are incomplete and missing taxa may affect scores. The index is based on assembled occurrences and literature-informed categories, not a controlled habitat experiment or an independently reanalyzed time series. Applying it elsewhere requires locally defined ecozones, inventories and national threat information, with appropriate category changes. Source-wide differences remain unresolved: Results use54 taxa while Table4 total says55; EZ3 maximum RABI is38 in Results/TableA1 but33 in Table7. No field-data reanalysis, figure-pixel review or current legal protection-status verification is claimed here.
+
+## Scope of these records {#s-62adee2aa0}
+The sections above report bounded observations from named sources. Their samples and categories do not establish complete species-wide variation, a full range, or every aspect of this taxon’s biology; an unreported trait or locality is not evidence of absence.
+

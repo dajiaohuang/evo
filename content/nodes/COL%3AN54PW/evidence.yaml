@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Craugastor rubinus Jameson, Streicher, Manuelli, Head & Smith, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Craugastor rubinus
+      zh: Craugastor rubinus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-eabfcfa986
+            part: title
+          zh:
+            page: zh
+            section: s-7e414fc053
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eabfcfa986
+            part: body
+          zh:
+            page: zh
+            section: s-7e414fc053
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-fbdd25543c
+            part: title
+          zh:
+            page: zh
+            section: s-ac26b8b9cf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fbdd25543c
+            part: body
+          zh:
+            page: zh
+            section: s-ac26b8b9cf
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-2d5b0df8ec
+            part: title
+          zh:
+            page: zh
+            section: s-9e1fde4785
+            part: title
+        sourceIds:
+          - primary-pmc12070909-n54pw
+        text:
+          en:
+            page: en
+            section: s-2d5b0df8ec
+            part: body
+          zh:
+            page: zh
+            section: s-9e1fde4785
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-21fb7321bc
+            part: title
+          zh:
+            page: zh
+            section: s-749c939b28
+            part: title
+        sourceIds:
+          - primary-pmc12070909-n54pw
+        text:
+          en:
+            page: en
+            section: s-21fb7321bc
+            part: body
+          zh:
+            page: zh
+            section: s-749c939b28
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e684f6bdaa
+            part: title
+          zh:
+            page: zh
+            section: s-c5ce5f8ca5
+            part: title
+        sourceIds:
+          - primary-pmc12070909-n54pw
+        text:
+          en:
+            page: en
+            section: s-e684f6bdaa
+            part: body
+          zh:
+            page: zh
+            section: s-c5ce5f8ca5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Craugastor rubinus
+          url: https://www.checklistbank.org/dataset/316115/taxon/N54PW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12070909-n54pw
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Craugastor rubinus: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-bd1c257884
+        part: body
+      zh:
+        page: zh
+        section: s-633e8e872e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-n54pw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Craugastor rubinus Jameson, Streicher, Manuelli, Head, & Smith, 2022; exact accepted-name candidate, not independently certified biological equivalence
+        evidenceRead: "Craugastor rubinus: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-n54pw
+            locator: PMC12070909 XML Table1 body row 21 Craugastor rubinus Jameson, Streicher, Manuelli, Head, & Smith, 2022; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-57e9704ab5
+                part: body
+              zh:
+                page: zh
+                section: s-1506ffa299
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-n54pw
+            locator: PMC12070909 XML Table1 row 21 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-459c09449c
+                part: body
+              zh:
+                page: zh
+                section: s-82d4fa6cc4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-n54pw
+            locator: PMC12070909 XML Table1 row 21 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6f3e2a3f97
+                part: body
+              zh:
+                page: zh
+                section: s-de5f140f2c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

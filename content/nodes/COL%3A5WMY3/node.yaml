@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bokermannohyla diamantina
+  displayName: Bokermannohyla diamantina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WMY3
+  sourceIndexes:
+    - name:
+        en: Bokermannohyla diamantina
+        zh: Bokermannohyla diamantina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WMY3
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/52
+            queryName: Bokermannohyla diamantina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4ab74f3b75
+      - s-680903c395
+      - s-b5cb664c49
+      - s-075d5a5072
+      - s-657ce3cf01
+      - s-bcfa4a02f4
+      - s-51b378dd14
+      - s-5f6f303234
+      - s-b67b247668
+      - s-bf413405be
+    zh:
+      - s-d84ebe2c2b
+      - s-8a66a23627
+      - s-3d76bc1fee
+      - s-98d381c0aa
+      - s-b70df44e88
+      - s-1e9620eda9
+      - s-fbd117b26e
+      - s-364228db84
+      - s-acb4582943
+      - s-dd716a5659

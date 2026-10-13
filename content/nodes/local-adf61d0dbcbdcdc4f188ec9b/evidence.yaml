@@ -1,0 +1,241 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Oreobates sanderi
+    name:
+      en: Oreobates sanderi
+      zh: Oreobates sanderi
+    sourceClassification:
+      order: Anura
+      family: Brachycephaloidea
+      genus: Oreobates
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b0228edac0
+            part: body
+          zh:
+            page: zh
+            section: s-2e5240e0d9
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e1df160194
+            part: body
+          zh:
+            page: zh
+            section: s-16f1486612
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3841, 3842; Reference.csv rows 1985
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3841
+        values:
+          - Brachycephaloidea
+          - Oreobates
+          - Oreobates sanderi
+          - F
+          - "36.5"
+          - "13.95"
+          - "14.225"
+          - "4.525"
+          - "2.55"
+          - NA
+          - "3.1"
+          - NA
+          - "3.075"
+          - "4.175"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "18.85"
+          - NA
+          - "20.35"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3842
+        values:
+          - Brachycephaloidea
+          - Oreobates
+          - Oreobates sanderi
+          - M
+          - "28.8"
+          - "10.55"
+          - "10.56666667"
+          - "3.666666667"
+          - "2.283333333"
+          - NA
+          - "2.833333333"
+          - NA
+          - "2.56"
+          - "3.183333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "14.98"
+          - NA
+          - "15.78333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1985
+        values:
+          - Anura
+          - Oreobates_sanderi
+          - "Padial, J. M., Reichle, S., & De la Riva, I. (2005). New species of Ischnocnema (Anura: Leptodactylidae) from the Andes of Bolivia. Journal of Herpetology, 39(2), 186-191. https://doi.org/10.1670/109-04a"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - UEW
+      - EN
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

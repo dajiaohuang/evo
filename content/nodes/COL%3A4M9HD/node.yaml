@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Praslinia cooperi
+  displayName: Praslinia cooperi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4M9HD
+  sourceIndexes:
+    - name:
+        en: Praslinia cooperi
+        zh: Praslinia cooperi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4M9HD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/75
+            queryName: Praslinia cooperi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00037.json.gz
+            field: /records/52
+            queryName: Hypogeophis cooperi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36fde04f47
+      - s-8295e23b2b
+      - s-d5363ea799
+      - s-e96df42d41
+      - s-a30f4abd43
+      - s-d63d2fecb5
+      - s-6042e950e7
+      - s-e5473db267
+      - s-e8355c7be7
+    zh:
+      - s-3e10f78721
+      - s-1fe7e20b17
+      - s-91cbb1c32d
+      - s-f61b500e76
+      - s-184d321d32
+      - s-1551359a2f
+      - s-a0091fb8c6
+      - s-ac1def993a
+      - s-beea02be7d

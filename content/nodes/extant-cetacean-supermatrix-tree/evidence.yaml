@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-1532a67257
+      part: title
+    titleZh:
+      page: zh
+      section: s-9657ebcb47
+      part: title
+    category: phylogenetic
+    startAge: 0
+    endAge: 0
+    regions:
+      - 87 living cetacean species sampled in the 2009 analysis
+    clades:
+      - Neoceti
+      - Mysticeti
+      - Odontoceti
+    summary:
+      page: en
+      section: s-1532a67257
+      part: body
+    summaryZh:
+      page: zh
+      section: s-9657ebcb47
+      part: body
+    claimIds:
+      - claim:event:extant-cetacean-supermatrix-tree
+    evidenceItems:
+      - statement: The authors merged 37 new RAG1 and PRM1 sequences with 45 nuclear loci, mitochondrial genomes and transposons to sample 87 of 89 cetacean species recognized in their 2009 framework.
+        relation: supports
+        claimIds:
+          - claim:event:extant-cetacean-supermatrix-tree
+        referenceLinks:
+          - referenceId: mcgowen-2009-cetacean-supermatrix
+            relation: supports
+            pages: 891–906
+            figure: Table 1; Figures 1–4; Supplementary Figures S1–S3
+            quoteLocator: Data assembly; Phylogenetic analyses; Divergence estimation
+    uncertaintyItems:
+      - statement: The topology and ages are outputs of a 2009 sample, partition scheme, calibration set and relaxed-clock models; they do not sequence every species accepted by COL26.8 or convert model nodes into fossil observations.
+        relation: contextualizes
+        claimIds:
+          - claim:event:extant-cetacean-supermatrix-tree
+        referenceLinks:
+          - referenceId: mcgowen-2009-cetacean-supermatrix
+            relation: supports
+            pages: 893–904
+            figure: Figures 2–4; Supplementary Methods and trees
+            quoteLocator: Taxon sampling; Model selection; Calibration and divergence discussion
+  claims:
+    - subjectId: event:extant-cetacean-supermatrix-tree
+      claimKind: scientific
+      claimType: topology
+      statement: A 42,335-character supermatrix sampled 87 of 89 cetacean species recognized in 2009 and produced a model-based living-cetacean tree and relaxed-clock estimates; it is neither current COL26.8 coverage nor direct fossil time.
+      confidence: medium
+      confidenceRationale: The assembled loci, sampled taxa and model procedures are explicit and broad for their time, while topology and dates remain sensitive to historical taxonomy, missing species, partitions, calibrations and clock models.
+      referenceLinks:
+        - referenceId: mcgowen-2009-cetacean-supermatrix
+          relation: supports
+          pages: 891–906
+          figure: Table 1; Figures 1–4; Supplementary Figures S1–S3
+          quoteLocator: Supermatrix assembly; Phylogeny; Divergence estimation
+  claim-rationales.zh:
+    - 组合位点、取样类群与模型过程均有明确记录，且在当时覆盖广泛；但拓扑与年代仍受历史分类、缺失物种、分区、校准和时钟模型影响。
+  claim-statements.zh:
+    - 一套 42,335 字符的超级矩阵取样了 2009 年框架认可的 89 个鲸类物种中的 87 个，并产生基于模型的现生鲸类树与松弛时钟估计；它既不是当前 COL26.8 覆盖，也不是直接化石时间。

@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis palmeri
+  displayName: Pristimantis palmeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKH
+  sourceIndexes:
+    - name:
+        en: Pristimantis palmeri
+        zh: Pristimantis palmeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/468
+            queryName: Pristimantis palmeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/153
+            queryName: Eleutherodactylus palmeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/231
+            queryName: Hylodes palmeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3b62c4bfdb
+      - s-2e2522e8f4
+      - s-68dcf069a0
+      - s-9f31a1f9f3
+      - s-994294b89e
+      - s-3172fe52cc
+      - s-eadeb82fbf
+      - s-c7653e8faa
+    zh:
+      - s-0948cc40ba
+      - s-0dfd8306e6
+      - s-6fa1e781f0
+      - s-d4cde419be
+      - s-c79c9d5d45
+      - s-3654211a20
+      - s-32ea4b20e3
+      - s-86854a5242

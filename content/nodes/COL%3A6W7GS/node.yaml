@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Poyntonia paludicola
+  displayName: Poyntonia paludicola
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6W7GS
+  sourceIndexes:
+    - name:
+        en: Poyntonia paludicola
+        zh: Poyntonia paludicola
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6W7GS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/60
+            queryName: Poyntonia paludicola
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-441761eb9f
+      - s-e6e03a0803
+      - s-ff9fbb0b1e
+      - s-f340db957b
+      - s-161b035cc7
+      - s-070078ec85
+      - s-1733d29aef
+      - s-44325259b3
+      - s-2610a628f1
+      - s-671f7e2a7a
+      - s-824e5366cf
+    zh:
+      - s-25ecb39b51
+      - s-3a7e7c405d
+      - s-55d1bc6e8e
+      - s-fa72382e18
+      - s-3d927c8cac
+      - s-299936b479
+      - s-803db8a3a3
+      - s-29eeee256d
+      - s-5908705110
+      - s-acbdad9a11
+      - s-7bb52706ca

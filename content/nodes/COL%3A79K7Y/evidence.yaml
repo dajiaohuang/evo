@@ -1,0 +1,84 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sapajus libidinosus (Spix, 1823)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      zh: 胡须卷尾猴
+      en: Bearded Capuchin
+    sections:
+      - topic: feeding
+        sourceIds:
+          - teixeira2024libidinosus
+        text:
+          zh:
+            page: zh
+            section: s-5cb48bf8ed
+            part: body
+          en:
+            page: en
+            section: s-636c7aa4bb
+            part: body
+      - topic: ecology
+        sourceIds:
+          - teixeira2024libidinosus
+        text:
+          zh:
+            page: zh
+            section: s-20ddea0b38
+            part: body
+          en:
+            page: en
+            section: s-6c6d7b72eb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Sapajus libidinosus (Spix, 1823)
+            zh: 生命名录 COL26.8 — Sapajus libidinosus（Spix，1823）
+          url: https://www.checklistbank.org/dataset/316115/taxon/79K7Y
+          scope:
+            en: Pinned accepted name, rank and genus link; not biological evidence.
+            zh: 固定接受名、等级和属级父链；不作为生物学证据。
+      - id: mdd_name
+        referenceId: ref-10eaf6e8-f895-88f3-a796-819d8d5209aa
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supports the selected English common-name crosswalk only; not occurrence, ecology or a complete range.
+            zh: 仅支持所选英文普通名交叉表；不提供出现记录、生态或完整分布证据。
+      - id: teixeira2024libidinosus
+        referenceId: ref-225f86dd-3b3f-8170-ae82-47be0aff85d0
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Seven-month feeding and fecal sampling with seed-germination comparisons in one Cerrado protected area.
+            zh: 一处塞拉多保护地为期七个月的取食、粪便采样及种子萌发比较。
+    limitations:
+      en:
+        page: en
+        section: s-303b218663
+        part: body
+      zh:
+        page: zh
+        section: s-78e1fb8628
+        part: body

@@ -1,0 +1,169 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Necropsittacus rodricanus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Necropsittacus rodricanus
+      en: Necropsittacus rodricanus
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-86c47afd09
+            part: body
+          en:
+            page: en
+            section: s-cbd481cb71
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-83917526bb
+            part: body
+          en:
+            page: en
+            section: s-9b35a7b98d
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d70952a0f7
+            part: body
+          en:
+            page: en
+            section: s-59bf2be65a
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-241548b1c2
+            part: body
+          en:
+            page: en
+            section: s-0d7329e726
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbDinosaurOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-34d793112c
+            part: body
+          en:
+            page: en
+            section: s-c98e8ec4fb
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Necropsittacus rodricanus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=370884&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbDinosaurOccurrences20261002
+        referenceId: ref-903cb226-2fd6-4771-8ea6-30c1f4d5f36d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:370884; original response record indices retained in data/sources/dinosaur-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: d36fbe1b0734e7ed05ad008740911640805537ad350b56759672ff67197fe533
+          pbdbTaxonId: txn:370884
+          selectedOccurrenceIds:
+            - occ:1405244
+            - occ:1405249
+            - occ:1406030
+          selectedCollectionIds:
+            - col:194074
+            - col:194075
+            - col:194171
+          sourceReferenceIds:
+            - ref:65907
+            - ref:65909
+            - ref:65977
+          originalIdentificationMappings:
+            - occurrenceId: occ:1405244
+              originalIdentifiedName: Necropsittacus rodericanus
+              acceptedName: Necropsittacus rodricanus
+              difference: recombined as
+            - occurrenceId: occ:1405249
+              originalIdentifiedName: Psittacus rodricanus n. sp.
+              acceptedName: Necropsittacus rodricanus
+              difference: recombined as
+            - occurrenceId: occ:1406030
+              originalIdentifiedName: Necropsittacus rodericanus
+              acceptedName: Necropsittacus rodricanus
+              difference: recombined as
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1b16d2ba57
+        part: body
+      en:
+        page: en
+        section: s-ff41e94eac
+        part: body

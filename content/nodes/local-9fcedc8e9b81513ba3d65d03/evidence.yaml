@@ -1,0 +1,195 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Cochranella erminea
+    name:
+      en: Cochranella erminea
+      zh: Cochranella erminea
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Cochranella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Cochranella erminea in the version 3 classification
+          zh: Cochranella erminea 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b5484be6bc
+            part: body
+          zh:
+            page: zh
+            section: s-8436e7cbcc
+            part: body
+      - topic: morphology
+        title:
+          en: 1 measurement row and 11 populated trait fields
+          zh: 1 条测量行与 11 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-8d8c8401a7
+            part: body
+          zh:
+            page: zh
+            section: s-f9f3ad5674
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1179; Reference.csv rows 277
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1179
+        values:
+          - Centrolenidae
+          - Cochranella
+          - Cochranella erminea
+          - F
+          - "23.4"
+          - "9.8"
+          - "7.6"
+          - "3.1"
+          - "1.2"
+          - NA
+          - "2.4"
+          - "2.2"
+          - NA
+          - "2.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.6"
+          - NA
+          - "13.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 277
+        values:
+          - Anura
+          - Cochranella_erminea
+          - "Torres-Gastello, C. P., Suárez-Segovia, J., & Cisneros-Heredia, D. F. (2007). Cochranella erminea, a new species of Centrolenidae (Amphibia: Anura: Athesphatanura) from Amazonian Peru. Journal of the National Museum (Prague), Natural History Series, 176(1), 1-12."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - FL
+      - TL
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - WNRL
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,433 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: null
+    scientificName: Macaca silenus
+    commonName: Lion-tailed Macaque
+    commonNameZh: 狮尾猕猴
+    rank: species
+    parentName: Macaca
+    extinct: false
+    geography:
+      - Western Ghats, Karnataka, Kerala and Tamil Nadu, India (15 named sampling sites, 2010–2012; wild fecal samples)
+      - Puthuthottam forest fragment, Valparai plateau, Tamil Nadu, India (one troop; February–May 2016 study site)
+    overview:
+      page: en
+      section: s-a9fcc9060e
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-72c4c3b9f1
+        part: body
+      habitat:
+        page: en
+        section: s-6ab4494894
+        part: body
+      locomotion:
+        page: en
+        section: s-c2a0db8dff
+        part: body
+      bodySize:
+        page: en
+        section: s-c3a40d6398
+        part: body
+      guild:
+        page: en
+        section: s-cc3e54891e
+        part: body
+      dietZh:
+        page: zh
+        section: zh-c0172eb888df3b
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-c4aef1bf142090
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-eab9151a86df18
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-9b5960fb1e1feb
+        part: body
+      guildZh:
+        page: zh
+        section: zh-934a0aebd7eab0
+        part: body
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-53660e8b50
+      part: body
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-9a39688794
+            part: title
+          zh:
+            page: zh
+            section: s-6adc7a8ad0
+            part: title
+        text:
+          zh:
+            page: zh
+            section: s-6adc7a8ad0
+            part: body
+          en:
+            page: en
+            section: s-9a39688794
+            part: body
+        sourceIds:
+          - dhawale2020
+          - ram2015
+      - id: western-ghats-samples
+        title:
+          en:
+            page: en
+            section: s-c0db3bd0c1
+            part: title
+          zh:
+            page: zh
+            section: s-89b854f755
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c0db3bd0c1
+            part: body
+          zh:
+            page: zh
+            section: s-89b854f755
+            part: body
+        sourceIds:
+          - col
+          - ram2015
+      - id: modified-habitats
+        title:
+          en:
+            page: en
+            section: s-74592b3bef
+            part: title
+          zh:
+            page: zh
+            section: s-f9b9490611
+            part: title
+        text:
+          en:
+            page: en
+            section: s-74592b3bef
+            part: body
+          zh:
+            page: zh
+            section: s-f9b9490611
+            part: body
+        sourceIds:
+          - dhawale2020
+      - id: diet-across-sites
+        title:
+          en:
+            page: en
+            section: s-99d08ed3db
+            part: title
+          zh:
+            page: zh
+            section: s-970e622dc5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-99d08ed3db
+            part: body
+          zh:
+            page: zh
+            section: s-970e622dc5
+            part: body
+        sourceIds:
+          - dhawale2020
+      - id: seed-dispersal-preprint
+        title:
+          en:
+            page: en
+            section: s-ebe027c0a3
+            part: title
+          zh:
+            page: zh
+            section: s-ce661300ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ebe027c0a3
+            part: body
+          zh:
+            page: zh
+            section: s-ce661300ba
+            part: body
+        sourceIds:
+          - bindu2024preprint
+      - id: mitochondrial-structure
+        title:
+          en:
+            page: en
+            section: s-e1a4cf3b6d
+            part: title
+          zh:
+            page: zh
+            section: s-4dce862b58
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e1a4cf3b6d
+            part: body
+          zh:
+            page: zh
+            section: s-4dce862b58
+            part: body
+        sourceIds:
+          - ram2015
+      - id: forest-fragments
+        title:
+          en:
+            page: en
+            section: s-a6193aa7e0
+            part: title
+          zh:
+            page: zh
+            section: s-012d3444d3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a6193aa7e0
+            part: body
+          zh:
+            page: zh
+            section: s-012d3444d3
+            part: body
+        sourceIds:
+          - ram2015
+      - id: remaining-questions
+        title:
+          en:
+            page: en
+            section: s-1f2d77fc61
+            part: title
+          zh:
+            page: zh
+            section: s-3180a84047
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1f2d77fc61
+            part: body
+          zh:
+            page: zh
+            section: s-3180a84047
+            part: body
+        sourceIds:
+          - ram2015
+          - dhawale2020
+          - bindu2024preprint
+    readerSources:
+      - id: col
+        referenceId: ref-ab4fe3e2-5f4e-8db8-a130-e3c2a8c5023a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 3
+        usage:
+          scope:
+            en: Pinned accepted-name record only; not evidence for a complete range or conservation status.
+            zh: 仅为固定版本接受名记录，不作为完整分布或保育状态的证据。
+      - id: ram2015
+        referenceId: ref-a4be9f9d-6cac-8508-a8b5-5e93e2cfa5fc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Wild fecal samples from 15 named sites during 2010–2012 plus separately identified captive samples; mitochondrial analyses are marker-bounded.
+            zh: 2010–2012 年 15 个具名地点的野生粪便样本，另含单独标注的圈养样本；线粒体分析受标记范围限制。
+      - id: dhawale2020
+        referenceId: ref-8067db51-5842-803d-a101-57a2c0638a15
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: One habituated troop followed February–May 2016 across a local habitat matrix; not an annual or species-wide study.
+            zh: 2016 年 2–5 月跟踪一个习惯化群体，调查当地栖地组合；不是全年或全物种研究。
+      - id: bindu2024preprint
+        referenceId: ref-ad558866-079e-8ce5-a0e0-3ab9683476b7
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            en: Four groups in one 92-ha fragment; sampling year unreported; version one has not been peer reviewed.
+            zh: 一处 92 公顷森林碎片内的四个群体；未报告采样年份；第一版尚未经同行评审。
+    readerRelatedPages:
+      - targetId: macaca_mulatta
+        label:
+          en: Rhesus macaque
+          zh: 恒河猴
+        context:
+          en: Compare another Macaca species page.
+          zh: 对照另一篇猕猴属物种页。
+      - targetId: macaca_radiata
+        label:
+          en: Bonnet macaque
+          zh: 冠猕猴
+        context:
+          en: Compare another Macaca species page.
+          zh: 对照另一篇猕猴属物种页。
+    readerLimitations:
+      en:
+        page: en
+        section: s-f10544d7a4
+        part: body
+      zh:
+        page: zh
+        section: s-e940204a92
+        part: body
+    confidence: medium
+    referenceIds:
+      - col-2026-checklistbank-316115
+      - ram-2015-lion-tailed-macaque-western-ghats
+      - dhawale-2020-lion-tailed-macaque-habitat-behaviour
+    evidenceSummaryZh:
+      page: zh
+      section: zh-1d995a95fa68df
+      part: body
+  claims:
+    - subjectId: taxon:macaca_silenus
+      claimType: taxonomy
+      claimKind: scientific
+      statement: COL26.8 dataset 316115 records accepted species usage 3WWP6 as Macaca silenus (Linnaeus, 1758), with Macaca usage 5HYC as its immediate parent. This records checklist identity and classification only.
+      confidence: medium
+      confidenceRationale: COL26.8 explicitly records accepted usage 3WWP6 and immediate parent usage 5HYC. The claim reports this checklist placement alone and makes no biological or phylogenetic inference.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          pages: Accepted species usage 3WWP6; immediate parent usage 5HYC Macaca; accepted classification through Primates usage 3W7
+    - subjectId: taxon:macaca_silenus
+      claimType: biogeography
+      claimKind: scientific
+      statement: The selected studies sampled wild lion-tailed macaques at 15 named Western Ghats sites across Karnataka, Kerala and Tamil Nadu during 2010–2012, and observed one troop at Puthuthottam, Tamil Nadu, in 2016. These are study locations, not a complete current range inventory.
+      confidence: high
+      confidenceRationale: Both primary studies identify their sampled locations directly. The statement retains study-site scope and makes no full-range inference.
+      referenceLinks:
+        - referenceId: ram-2015-lion-tailed-macaque-western-ghats
+          relation: supports
+          pages: Methods, Study area and Sample collection; Figure 1
+        - referenceId: dhawale-2020-lion-tailed-macaque-habitat-behaviour
+          relation: supports
+          pages: Methods, Study area and Study troop and individuals; Figure 1
+    - subjectId: taxon:macaca_silenus
+      claimType: ecology
+      claimKind: scientific
+      statement: From February to May 2016, researchers followed one habituated, free-ranging troop at Puthuthottam for over 480 hours across forest interior, forest edge, an open forest patch and human settlement. In this troop, active foraging was higher in the open patch and forest edge, and lower in the settlement than the forest interior; the activity budget differed between the interior and settlement. This single-troop dry-season study does not establish species-wide ecology or a causal effect of habitat modification.
+      confidence: medium
+      confidenceRationale: The article reports the study troop, dates, follow-hours, habitat classes and modelled behaviour comparisons directly. The observations concern one troop in one dry-season study and do not establish species-wide ecology or causal effects.
+      referenceLinks:
+        - referenceId: dhawale-2020-lion-tailed-macaque-habitat-behaviour
+          relation: supports
+          pages: Methods—Study area, Study troop and individuals, Field methods; Results—Ecological and behavioural responses; Figure 3
+    - subjectId: taxon:macaca_silenus
+      claimType: divergence-time
+      claimKind: scientific
+      statement: Ram et al. recovered north- and south-of-Palghat-gap mitochondrial clades among sampled lion-tailed macaques. A fossil-calibrated analysis of 893 mitochondrial bases estimated a mean time to their most recent common ancestor of 2.11 Ma; this is a regional marker-based model estimate, not a genome-wide species split date.
+      confidence: medium
+      confidenceRationale: The sampled clades and model estimate are reported directly, but the date comes from a fossil-calibrated analysis of 893 mitochondrial bases and is not a genome-wide species split estimate.
+      referenceLinks:
+        - referenceId: ram-2015-lion-tailed-macaque-western-ghats
+          relation: supports
+          pages: Results, Genetic structure and diversity; Figure 4; Table 2
+    - subjectId: taxon:macaca_silenus
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The selected COL26.8 identity record and the cited living-population studies do not establish a numerical temporal fossil range or complete current geographic range for Macaca silenus; numerical range endpoints remain withheld.
+      confidence: low
+      confidenceRationale: The checklist establishes accepted identity and the selected sources study living populations or regional genetic history; none provides a reviewed temporal fossil-range endpoint or complete distribution inventory.
+      referenceLinks:
+        - referenceId: col-2026-checklistbank-316115
+          relation: supports
+          pages: Accepted usage 3WWP6; identity and classification only
+        - referenceId: ram-2015-lion-tailed-macaque-western-ghats
+          relation: supports
+          quoteLocator: Regional mitochondrial study; no species fossil-range inventory
+        - referenceId: dhawale-2020-lion-tailed-macaque-habitat-behaviour
+          relation: supports
+          quoteLocator: Living-troop field study; no temporal fossil-range estimate
+  claim-rationales.zh:
+    - 固定版 COL26.8 明确记录了接受用名与直接父级。本主张仅限于清单身份，不推断生物学特征或系统发育关系。
+    - 两篇一手研究都直接列出了各自的取样地点；陈述保留研究地点范围，不扩展为完整分布区。
+    - 论文直接报告猴群、时间、跟踪时长、栖息地分类和行为模型比较。观察仅来自一个猴群和一次旱季研究，不能确立全物种生态规律或因果效应。
+    - 受采样的分支及模型估值由论文直接报告，但年代来自 893 个线粒体碱基的化石校准分析，并非全基因组物种分化日期。
+    - 清单支持接受身份；所选来源研究现生种群或区域遗传史，均未提供经审查的化石年代端点或完整分布名录。
+  claim-statements.zh:
+    - COL26.8 数据集 316115 将 3WWP6 记录为接受的 Macaca silenus（Linnaeus, 1758）种级用名，直接父级为 Macaca 用名 5HYC。此陈述仅记录清单身份与分类位置。
+    - 所选研究于 2010—2012 年在卡纳塔克邦、喀拉拉邦和泰米尔纳德邦的西高止山脉 15 个具名地点采集野生狮尾猕猴样本，并于 2016 年在泰米尔纳德邦普图托坦观察一个猴群。这些是研究地点，不是完整的当前分布区名录。
+    - 2016 年 2 月至 5 月，研究者在普图托坦跟踪一群已习惯观察者、自由活动的狮尾猕猴，累计超过 480 小时，覆盖林内、林缘、开阔林地斑块和人类居住地。在该猴群中，开阔斑块和林缘的主动觅食高于林内，人类居住地低于林内；林内与居住地的活动时间预算也有差异。这项单群体旱季研究不能确立全物种生态规律或栖息地改变的因果效应。
+    - Ram 等人在受采样的狮尾猕猴中识别出帕尔加特山口以北和以南的线粒体分支。基于 893 个线粒体碱基的化石校准分析，将其最近共同祖先的平均时间估为 2.11 Ma；这是区域性、基于标记的模型估计，不是全基因组物种分化日期。
+    - 所选 COL26.8 身份记录和现生种群研究未确立 Macaca silenus 的数值化年代范围或完整当前地理分布；年代范围端点继续保留未定。
+  ranges:
+    - entityId: macaca_silenus
+      rangeKind: global-composite
+      taxonomicConcept: Macaca silenus accepted COL26.8 usage 3WWP6; numerical temporal and geographic range withheld
+      geographicScope: No numerical geographic-temporal range exposed; sampled Western Ghats locations are not a complete current range inventory
+      olderMa: 0
+      youngerMa: 0
+      status: withheld-pending-provenance
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Zero values are non-display placeholders; the selected mitochondrial and single-troop studies do not establish temporal fossil endpoints or a complete wild-distribution inventory.
+      evidenceBasis: COL26.8 supports accepted identity and classification; Ram et al. report regional mitochondrial sampling and Dhawale et al. report one living troop, neither a complete fossil-range or current distribution study.
+      evidenceLevel: withheld-no-range-evidence
+      confidence: low
+      claimIds: []
+      referenceLocators:
+        - referenceId: col-2026-checklistbank-316115
+          locator: COL26.8 dataset 316115; accepted usage 3WWP6 and parent classification (identity only)
+  field-claim-overrides:
+    - firstAppearance:
+        status: not-assessed
+      lastAppearance:
+        status: not-assessed
+      geography:
+        claimId: claim:taxon:macaca_silenus:biogeography-study-sites
+      overview:
+        claimId: claim:taxon:macaca_silenus:taxonomy
+      evidenceSummary:
+        claimId: claim:taxon:macaca_silenus:ecology
+      confidence:
+        claimId: claim:taxon:macaca_silenus:ecology
+      ecology.diet:
+        claimId: claim:taxon:macaca_silenus:ecology
+      ecology.habitat:
+        claimId: claim:taxon:macaca_silenus:ecology
+      ecology.locomotion:
+        status: not-assessed
+      ecology.bodySize:
+        status: not-assessed
+      ecology.guild:
+        status: not-assessed

@@ -1,0 +1,75 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-f2e1213ecd
+      part: title
+    titleZh:
+      page: zh
+      section: s-a692cee370
+      part: title
+    category: transition
+    startAge: 375
+    endAge: 375
+    regions:
+      - Fram Formation, southern Ellesmere Island, Nunavut, Canada
+    clades:
+      - Tiktaalik roseae
+      - Elpistostegalia
+    summary:
+      page: en
+      section: s-f2e1213ecd
+      part: body
+    summaryZh:
+      page: zh
+      section: s-a692cee370
+      part: body
+    claimIds:
+      - claim:event:tiktaalik-body-plan-mosaic
+    evidenceItems:
+      - statement: NUFV 108 and referred material preserve a shortened skull roof, mobile neck, modified ear region, robust overlapping ribs and fin-bearing paired appendages
+        relation: supports
+        claimIds:
+          - claim:event:tiktaalik-body-plan-mosaic
+        referenceLinks:
+          - relation: supports
+            referenceId: daeschler-2006-tiktaalik-body-plan
+            pages: 757–763
+            figure: Figures 2–8
+    uncertaintyItems:
+      - statement: The anatomical mosaic and depositional setting support hypotheses about shallow marginal habitats but do not show that Tiktaalik routinely walked on land
+        relation: contextualizes
+        claimIds:
+          - claim:event:tiktaalik-body-plan-mosaic
+        referenceLinks:
+          - relation: supports
+            referenceId: daeschler-2006-tiktaalik-body-plan
+            pages: 757–763
+            quoteLocator: Abstract; discussion of palaeoenvironment and functional interpretation
+      - statement: A phylogenetically intermediate combination does not identify Tiktaalik as a direct ancestor of later tetrapods
+        relation: contextualizes
+        claimIds:
+          - claim:event:tiktaalik-body-plan-mosaic
+        referenceLinks:
+          - relation: supports
+            referenceId: daeschler-2006-tiktaalik-body-plan
+            figure: Figure 7
+            quoteLocator: Phylogenetic analysis
+  claims:
+    - subjectId: event:tiktaalik-body-plan-mosaic
+      claimKind: scientific
+      claimType: morphology
+      statement: Tiktaalik roseae material from the Fram Formation combines scales, fin rays and fish-like jaws with a shortened skull roof, mobile neck, modified ear region, robust ribs and a functional wrist joint; this mosaic does not demonstrate habitual terrestrial walking or direct ancestry.
+      confidence: high
+      confidenceRationale: The holotype and referred material directly preserve the stated anatomical character combination and the paper illustrates the specimens and phylogenetic analysis. Functional and habitat implications remain hypotheses, so the claim is limited to anatomy and explicitly excludes witnessed behaviour and ancestor status.
+      referenceLinks:
+        - relation: supports
+          referenceId: daeschler-2006-tiktaalik-body-plan
+          pages: 757–763
+          figure: Figures 2–8
+          quoteLocator: Abstract; diagnosis and description; phylogenetic and palaeoenvironmental discussion
+  claim-rationales.zh:
+    - 正模和引证材料直接保存了所述解剖性状组合，论文也图示了标本与系统发育分析。功能与生境含义仍是假说，因此高置信度仅限于解剖学，明确排除直接观察到的行为和祖先身份。
+  claim-statements.zh:
+    - Fram 组的 Tiktaalik roseae 材料同时保存鳞片、鳍条和鱼样下颌，以及缩短的头顶、可动颈部、改变的耳区、粗壮肋骨和具功能的腕关节；这种镶嵌不能证明习惯性陆地行走或直系祖先身份。

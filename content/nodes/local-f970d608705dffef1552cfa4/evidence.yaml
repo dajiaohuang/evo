@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Spinomantis peraccae
+    name:
+      en: Spinomantis peraccae
+      zh: Spinomantis peraccae
+    sourceClassification:
+      order: Anura
+      family: Mantellidae
+      genus: Spinomantis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Spinomantis peraccae in the morphology deposit
+          zh: 形态数据中的 Spinomantis peraccae 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-73fe566f3c
+            part: body
+          zh:
+            page: zh
+            section: s-a8cae6a6b5
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5760 and 5761: measurement fields and sex codes"
+          zh: 第 5760、5761 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-6c66682183
+            part: body
+          zh:
+            page: zh
+            section: s-862586d346
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5760, 5761; Reference.csv rows 1398
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5760
+        values:
+          - Mantellidae
+          - Spinomantis
+          - Spinomantis peraccae
+          - M
+          - "39.07083333"
+          - NA
+          - NA
+          - "4.216666667"
+          - "2.179166667"
+          - NA
+          - NA
+          - "4.370833333"
+          - NA
+          - "3.516666667"
+          - NA
+          - "2.608333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5761
+        values:
+          - Mantellidae
+          - Spinomantis
+          - Spinomantis peraccae
+          - F
+          - "42.4"
+          - NA
+          - NA
+          - "4.5"
+          - "2.1"
+          - NA
+          - NA
+          - "4.6"
+          - NA
+          - "3.9"
+          - NA
+          - "2.6"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 1398
+        values:
+          - Anura
+          - Spinomantis_peraccae
+          - "Andreone, F., Glaw, F., Vences, M., & Vallan, D. (1998). A new Mantidactylus from south-eastern Madagascar, with a review of Mantidactylus peraccae (Ranidae : Mantellinae). Herpetological Journal, 8(3), 149-159."
+    availableTraitCodes:
+      - SVL
+      - ED
+      - TD
+      - IND
+      - EN
+      - NS
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4Z5S5
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

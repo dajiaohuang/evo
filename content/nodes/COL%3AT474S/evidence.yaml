@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Stefania maccullochi Kok, 2023
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Stefania maccullochi
+      zh: Stefania maccullochi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-c80affc763
+            part: title
+          zh:
+            page: zh
+            section: s-60e8ceb441
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c80affc763
+            part: body
+          zh:
+            page: zh
+            section: s-60e8ceb441
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-8b3cefd6ea
+            part: title
+          zh:
+            page: zh
+            section: s-aa3b8acd9d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8b3cefd6ea
+            part: body
+          zh:
+            page: zh
+            section: s-aa3b8acd9d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-344ad5ac49
+            part: title
+          zh:
+            page: zh
+            section: s-801165523a
+            part: title
+        sourceIds:
+          - primary-pmc10210337-t474s
+        text:
+          en:
+            page: en
+            section: s-344ad5ac49
+            part: body
+          zh:
+            page: zh
+            section: s-801165523a
+            part: body
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-0915e9d282
+            part: title
+          zh:
+            page: zh
+            section: s-8b98b31e64
+            part: title
+        sourceIds:
+          - primary-pmc10210337-t474s
+        text:
+          en:
+            page: en
+            section: s-0915e9d282
+            part: body
+          zh:
+            page: zh
+            section: s-8b98b31e64
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-bf0a6bd7d1
+            part: title
+          zh:
+            page: zh
+            section: s-c245fe80f8
+            part: title
+        sourceIds:
+          - primary-pmc10210337-t474s
+        text:
+          en:
+            page: en
+            section: s-bf0a6bd7d1
+            part: body
+          zh:
+            page: zh
+            section: s-c245fe80f8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Stefania maccullochi
+          url: https://www.checklistbank.org/dataset/316115/taxon/T474S
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10210337-t474s
+        referenceId: ref-bbfd4b63-5f54-4b46-a6e7-085e02e5542d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Stefania maccullochi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8f16926123
+        part: body
+      zh:
+        page: zh
+        section: s-2e20b9e661
+        part: body
+    primaryStudyScopes:
+      - doi: 10.1186/s40851-023-00209-6
+        referenceId: ref-bbfd4b63-5f54-4b46-a6e7-085e02e5542d
+        sourceKey: primary-pmc10210337-t474s
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10210337/article.xml
+        sourceConcept: Stefania maccullochi
+        evidenceRead: "Stefania maccullochi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: Summit records at Wei-Assipu-tepui
+              zh: Wei-Assipu-tepui 顶部记录
+            referenceId: ref-bbfd4b63-5f54-4b46-a6e7-085e02e5542d
+            sourceKey: primary-pmc10210337-t474s
+            locator: "Stefania maccullochi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-d330ff9163
+                part: body
+              zh:
+                page: zh
+                section: s-f91bac7d93
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: reproduction
+            heading:
+              en: Females carrying eggs and juveniles
+              zh: 背负卵与幼蛙的雌性
+            referenceId: ref-bbfd4b63-5f54-4b46-a6e7-085e02e5542d
+            sourceKey: primary-pmc10210337-t474s
+            locator: "Stefania maccullochi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-80f69c7958
+                part: body
+              zh:
+                page: zh
+                section: s-4333fcad2d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Active night encounters and daytime refuges
+              zh: 夜间活动发现与日间庇护处
+            referenceId: ref-bbfd4b63-5f54-4b46-a6e7-085e02e5542d
+            sourceKey: primary-pmc10210337-t474s
+            locator: "Stefania maccullochi: Species distribution and natural-history account; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e34008905e
+                part: body
+              zh:
+                page: zh
+                section: s-ff6bddede4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

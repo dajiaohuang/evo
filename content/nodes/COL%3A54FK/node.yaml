@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ingerophrynus
+  displayName: Ingerophrynus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/54FK
+  sourceIndexes:
+    - name:
+        en: Ingerophrynus
+        zh: Ingerophrynus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 54FK
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/466
+            queryName: Ingerophrynus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 50
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ee29c70156
+      - s-576e27e819
+      - s-5cea8fbc1e
+      - s-b4278a08e3
+      - s-ef49fcc353
+      - s-a1d3fd4c40
+      - s-eee72f6f77
+      - s-aef6ff2a9b
+      - s-0a21c300f6
+      - s-17d6db715b
+      - s-2b69a72f00
+    zh:
+      - s-7ddc9882c4
+      - s-ee6fb53b3f
+      - s-ce303aaadb
+      - s-da816273b7
+      - s-aa37b5d08c
+      - s-e66acd47ad
+      - s-2400bfa508
+      - s-a3f62cee2a
+      - s-bb6ace4db9
+      - s-e94fa118a5
+      - s-fd43d5b34b

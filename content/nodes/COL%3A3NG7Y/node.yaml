@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes lateristrigatus
+  displayName: Hylodes lateristrigatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NG7Y
+  sourceIndexes:
+    - name:
+        en: Hylodes lateristrigatus
+        zh: Hylodes lateristrigatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NG7Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/498
+            queryName: Hylodes lateristrigatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/325
+            queryName: Elosia lateristrigata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2341e1b246
+      - s-0d2b57f4f0
+      - s-e26a72bb06
+      - s-3793e299bd
+      - s-74b5f9c882
+      - s-a357833784
+      - s-80ad3d4941
+      - s-179b6e8ebc
+      - s-a1f6b91047
+      - s-4247eec280
+      - s-2b2c489387
+      - s-92145c8b95
+      - s-f18547d2f5
+      - s-bb9aae2caa
+      - s-7206280124
+      - s-594ef0a395
+    zh:
+      - s-9b816e9b7d
+      - s-f76d1a4b13
+      - s-88489554fc
+      - s-d8ab1e86e6
+      - s-564a57531c
+      - s-1c03247909
+      - s-1ebd12dee3
+      - s-d378ec95f2
+      - s-d075614720
+      - s-648f0b61c2
+      - s-7e335ec63d
+      - s-bdb5891a2b
+      - s-27e52b78b7
+      - s-22ab7a06a8
+      - s-496cb457a8
+      - s-7edafb4bd9

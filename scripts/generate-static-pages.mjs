@@ -334,24 +334,37 @@ function referenceRecords(ids) {
   return [...new Set(ids)].flatMap((id) => referenceById.has(id) ? [referenceById.get(id)] : [])
 }
 
-function renderReaderArticle(profile, language) {
+function readerText(value, language) {
+  return typeof value === 'string' ? value : value?.[language] ?? value?.en ?? value?.zh ?? ''
+}
+
+function renderReaderArticle(profile, language, { kind = 'taxon', sources: sourceRows = profile?.readerSources ?? [] } = {}) {
   const sections = orderReadingSections((profile?.readerSections ?? []).filter(section => section.id !== 'reading-introduction'))
   if (!sections.length) return ''
-  const sources = new Map((profile.readerSources ?? []).map((source) => [source.id, source]))
+  const sources = new Map(sourceRows.map((source) => [source.id, source]))
   const sectionHtml = sections.map((section) => {
     const citations = section.sourceIds.map((sourceId) => {
       const source = sources.get(sourceId)
-      return source ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + escapeHtml(source.title[language]) + ' ↗</a>' : ''
+      if (!source) return language === 'zh' ? '该段的来源信息暂不可用。' : 'Source details for this passage are unavailable.'
+      const title = escapeHtml(readerText(source.title, language))
+      return source.url ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + title + ' ↗</a>' : '<strong>' + title + '</strong>'
     }).filter(Boolean).join(' · ')
-    return '<article class="reader-section" id="reader-' + escapeHtml(section.id) + '"><h3>' + escapeHtml(section.title[language]) + '</h3><p>' + paragraphParts(section.text[language]).map(escapeHtml).join('</p><p>') + '</p>' + (citations ? '<details class="reader-citations"><summary>' + (language === 'zh' ? '本段的来源与材料' : 'Sources and material for this passage') + '</summary>' + citations + '</details>' : '') + '</article>'
+    const availableLanguage = section.text[language] ? language : section.text.en ? 'en' : 'zh'
+    const fallback = availableLanguage === language ? '' : '<p class="notice">' + (language === 'zh' ? '以下保留现有原语言内容。' : 'The available source-language account is retained below.') + '</p>'
+    return '<article class="reader-section" id="reader-' + escapeHtml(section.id) + '"><h2>' + escapeHtml(readerText(section.title, language)) + '</h2>' + fallback + '<div lang="' + availableLanguage + '"><p>' + paragraphParts(readerText(section.text, language)).map(escapeHtml).join('</p><p>') + '</p></div>' + (citations ? '<details class="reader-citations"><summary>' + (language === 'zh' ? '本段的来源与材料' : 'Sources and material for this passage') + '</summary>' + citations + '</details>' : '') + '</article>'
   }).join('')
   const limitations = profile.readerLimitations?.[language]
     ? '<p class="reader-limitations">' + escapeHtml(profile.readerLimitations[language]) + '</p>'
     : ''
   const relatedPages = (profile.readerRelatedPages ?? []).map((page) => '<a href="' + basePath + (language === 'zh' ? '/zh' : '') + '/taxa/' + escapeHtml(staticPathSegment(page.targetId)) + '/"><span>' + escapeHtml(page.context[language]) + '</span><strong>' + escapeHtml(page.label[language]) + ' →</strong></a>').join('')
   const relatedHtml = relatedPages ? '<nav class="reader-related" aria-label="' + (language === 'zh' ? '相关阅读' : 'Related reading') + '">' + relatedPages + '</nav>' : ''
-  const sourceHtml = (profile.readerSources ?? []).map((source) => '<li><a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + escapeHtml(source.title[language]) + '</a> — ' + escapeHtml(source.scope[language]) + '</li>').join('')
-  return '<section class="reader-article" id="species-introduction"><h2>' + (language === 'zh' ? '身体、生活与研究中的发现' : 'Body, life and findings from studies') + '</h2><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
+  const sourceHtml = sourceRows.map((source) => {
+    const title = escapeHtml(readerText(source.title, language))
+    const link = source.url ? '<a href="' + escapeHtml(source.url) + '" target="_blank" rel="noreferrer">' + title + '</a>' : '<strong>' + title + '</strong>'
+    const scope = readerText(source.scope, language)
+    return '<li>' + link + (scope ? ' — ' + escapeHtml(scope) : '') + '</li>'
+  }).join('')
+  return '<section class="reader-article" id="' + (kind === 'event' ? 'event-account' : 'species-introduction') + '"><div class="reader-sections">' + sectionHtml + '</div>' + relatedHtml + '<details class="reader-scope"><summary>' + (language === 'zh' ? '来源范围与尚未覆盖的问题' : 'Source scope and remaining questions') + '</summary>' + limitations + '<ul>' + sourceHtml + '</ul></details></section>'
 }
 
 function loadChineseTranslations() {
@@ -554,7 +567,7 @@ for (const entity of entities) {
 
 for (const event of events) {
   const subjectClaims = claimsBySubject.get(`event:${event.id}`) ?? []
-  const records = referenceRecords(subjectClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)))
+  const records = referenceRecords([...event.referenceIds, ...(event.readerSources ?? []).map(source => source.referenceId).filter(Boolean), ...subjectClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId))])
   const englishPath = `events/${event.id}/`
   const chinesePath = `zh/events/${event.id}/`
   const canonicalUrl = `${baseUrl}/${englishPath}`
@@ -564,8 +577,9 @@ for (const event of events) {
     const path = language === 'en' ? englishPath : chinesePath
     const alternatePath = language === 'en' ? chinesePath : englishPath
     const title = language === 'zh' ? event.titleZh : event.title
-    const summary = localize(language, event.summary)
-    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(localize(language, event.category))}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(summary)}</p><div class="facts"><div><small>${text.range}</small><strong>${event.startAge}–${event.endAge} Ma</strong></div><div><small>${language === 'zh' ? '地区' : 'Regions'}</small><strong>${escapeHtml(event.regions.map((region) => localize(language, region)).join(' · '))}</strong></div><div><small>${language === 'zh' ? '相关类群' : 'Clades'}</small><strong>${escapeHtml(event.clades.map((clade) => localize(language, clade)).join(' · '))}</strong></div></div><section><h2>${text.claims}</h2>${subjectClaims.map((claim) => `<article class="claim"><small>${escapeHtml(localize(language, claim.claimType))} · ${escapeHtml(localize(language, claim.confidence))}</small><p>${escapeHtml(localize(language, claim.statement))}</p><code>${escapeHtml(claim.id)}</code></article>`).join('')}</section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${basePath}/#/events?id=${encodeURIComponent(event.id)}">${text.open} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: `event:${event.id}`, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
+    const summary = language === 'zh' ? event.summaryZh ?? localize(language, event.summary) : event.summary
+    const reader = renderReaderArticle(event, language, { kind: 'event', sources: event.readerSources?.length ? event.readerSources : records })
+    const body = `<span class="eyebrow">${text.catalog} / ${escapeHtml(localize(language, event.category))}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(summary)}</p><div class="facts"><div><small>${text.range}</small><strong>${event.startAge}–${event.endAge} Ma</strong></div><div><small>${language === 'zh' ? '地区' : 'Regions'}</small><strong>${escapeHtml(event.regions.map((region) => localize(language, region)).join(' · '))}</strong></div><div><small>${language === 'zh' ? '相关类群' : 'Clades'}</small><strong>${escapeHtml(event.clades.map((clade) => localize(language, clade)).join(' · '))}</strong></div></div>${reader}${reader ? `<details class="reader-scope"><summary>${language === 'zh' ? '研究论点与依据' : 'Study claims and evidence'}</summary>` : ''}<section><h2>${text.claims}</h2>${subjectClaims.map((claim) => `<article class="claim"><small>${escapeHtml(localize(language, claim.claimType))} · ${escapeHtml(localize(language, claim.confidence))}</small><p>${escapeHtml(localize(language, claim.statement))}</p><code>${escapeHtml(claim.id)}</code></article>`).join('')}</section>${reader ? '</details>' : ''}<section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${basePath}/#/events?id=${encodeURIComponent(event.id)}">${text.open} ↗</a><a class="button secondary" href="${escapeHtml(issueUrl({ entityId: `event:${event.id}`, pageUrl: canonicalUrl }))}">${text.report} ↗</a></div>`
     write(`${path}index.html`, pageHtml({ language, title, description: summary, path, alternatePath, jsonLd: { about: event.clades, temporalCoverage: `${event.startAge}–${event.endAge} Ma`, citation: records.map((reference) => ({ '@type': 'CreativeWork', name: reference.title, url: reference.url })) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.catalog, url: `${basePath}/#/events` }, { label: title, url: `${baseUrl}/${path}` }], body }))
     eventPageCount += 1
   }
@@ -582,8 +596,8 @@ for (const story of stories) {
     const path = language === 'en' ? englishPath : chinesePath
     const alternatePath = language === 'en' ? chinesePath : englishPath
     const title = language === 'zh' ? story.titleZh : story.title
-    const description = localize(language, story.dek)
-    const steps = story.steps.map((step, index) => `<article class="claim"><small>${String(index + 1).padStart(2, '0')} · ${step.age} Ma · ${escapeHtml(localize(language, step.view))}</small><h2>${escapeHtml(localize(language, step.title))}</h2><p>${escapeHtml(localize(language, step.text))}</p>${step.annotation ? `<p class="notice">${escapeHtml(localize(language, step.annotation))}</p>` : ''}<code>${escapeHtml(step.claimLinks.map((link) => link.claimId).join(' · '))}</code></article>`).join('')
+    const description = language === 'zh' ? story.dekZh ?? localize(language, story.dek) : story.dek
+    const steps = story.steps.map((step, index) => `<article class="claim"><small>${String(index + 1).padStart(2, '0')} · ${step.age} Ma · ${escapeHtml(localize(language, step.view))}</small><h2>${escapeHtml(language === 'zh' ? step.titleZh ?? localize(language, step.title) : step.title)}</h2><p>${escapeHtml(language === 'zh' ? step.textZh ?? localize(language, step.text) : step.text)}</p>${step.annotation ? `<p class="notice">${escapeHtml(localize(language, step.annotation))}</p>` : ''}<code>${escapeHtml(step.claimLinks.map((link) => link.claimId).join(' · '))}</code></article>`).join('')
     const body = `<span class="eyebrow">${text.stories} / ${story.durationMinutes} ${language === 'zh' ? '分钟' : 'min'}</span><h1>${escapeHtml(title)}</h1><p class="dek">${escapeHtml(description)}</p><p class="notice">${staticPages ? (language === 'zh' ? '每一步标明所依据的主张，引用列于下方。交互探索状态可在完整应用中打开；故事本身仍是编辑综合。' : 'Each step names its evidence claims, with references below. Interactive Explorer states are available in the full application; the narrative remains an editorial synthesis.') : (language === 'zh' ? '每一步都链接到主张与可复现的探索器状态，但故事本身仍是编辑综合。' : 'Every step links to claims and a reproducible Explorer state, while the narrative remains an editorial synthesis.')}</p><section><h2>${language === 'zh' ? '故事步骤' : 'Story sequence'}</h2>${steps}</section><section><h2>${text.references}</h2>${renderReferences(records, language)}</section><div class="actions"><a class="button" href="${basePath}/#/stories?id=${encodeURIComponent(story.id)}">${text.open} ↗</a></div>`
     write(`${path}index.html`, pageHtml({ language, title, description, path, alternatePath, jsonLd: { '@type': 'Article', articleSection: language === 'zh' ? '演化故事' : 'Evolution story', citation: records.map((reference) => ({ '@type': 'CreativeWork', name: reference.title, url: reference.url })) }, breadcrumbs: [{ label: text.home, url: `${basePath}/` }, { label: text.stories, url: `${basePath}/#/stories` }, { label: title, url: `${baseUrl}/${path}` }], body }))
     storyPageCount += 1
@@ -801,7 +815,7 @@ if (staticPages) {
     const description = zh
       ? '从一种动物、一个分支和一项发现出发，认识身体结构怎样变化、不同谱系怎样分化，以及研究者怎样拼出这些历史。'
       : 'Start with an animal, a branch and a discovery. Follow changes in bodies, the diversification of lineages and the research that reconstructs their histories.'
-    const body = readingHome({ language, basePath, title, description, collections, stories: stories.map(story => ({ ...story, dek: localize(language, story.dek) })), periods: periodUnits, mapFrame, guideCards: readingGuideCards(readingGuides, language, basePath) })
+    const body = readingHome({ language, basePath, title, description, collections, stories: stories.map(story => ({ ...story, dek: language === 'zh' ? story.dekZh ?? localize(language, story.dek) : story.dek })), periods: periodUnits, mapFrame, guideCards: readingGuideCards(readingGuides, language, basePath) })
     write(`${prefix}index.html`, pageHtml({ language, title, description, path: prefix, alternatePath: zh ? '' : 'zh/', type: 'CollectionPage', body }))
     const appsTitle = zh ? '完整应用与原生版本' : 'Full and native applications'
     const appsDescription = zh

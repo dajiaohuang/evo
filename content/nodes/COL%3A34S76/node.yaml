@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus sarayacuensis
+  displayName: Dendropsophus sarayacuensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S76
+  sourceIndexes:
+    - name:
+        en: Dendropsophus sarayacuensis
+        zh: Dendropsophus sarayacuensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S76
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/419
+            queryName: Dendropsophus sarayacuensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/462
+            queryName: Hyla sarayacuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/367
+            queryName: Hyla leucophyllata sarayacuensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-09d4ae84ee
+      - s-b1df9aa6a3
+      - s-e60c33e1c8
+      - s-cb0f9e40fb
+      - s-f7646db77a
+      - s-892843559e
+      - s-f505c67df5
+      - s-72e65d514a
+      - s-ee8b7c06d0
+      - s-3f191c1492
+      - s-bd049d3115
+      - s-ee97c94ed1
+      - s-42044da3df
+      - s-946fb5e080
+      - s-150fe336e4
+      - s-39df1afa6c
+      - s-e9c612cca5
+      - s-a3562d7f18
+      - s-2f0e90fba3
+      - s-f324dd56ca
+      - s-1aaa2c9a86
+      - s-a98e023892
+    zh:
+      - s-ffacdb1ae8
+      - s-c2364f445f
+      - s-ab97904f71
+      - s-3752fde9a2
+      - s-3ce5abe586
+      - s-839c7d110d
+      - s-68d8f7e4ff
+      - s-9c8f73baf5
+      - s-3b193371b2
+      - s-e92d410b52
+      - s-1976be531d
+      - s-55e4e1118e
+      - s-daad918d59
+      - s-b1df683193
+      - s-d49ae16584
+      - s-85234a6728
+      - s-4a543cd34b
+      - s-a9ea28f7b5
+      - s-2a14ade081
+      - s-51c4d55722
+      - s-fe65296f75
+      - s-924d40d301

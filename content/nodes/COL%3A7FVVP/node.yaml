@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina eiponis
+  displayName: Xenorhina eiponis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FVVP
+  sourceIndexes:
+    - name:
+        en: Xenorhina eiponis
+        zh: Xenorhina eiponis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FVVP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/339
+            queryName: Xenorhina eiponis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5e8c99bc08
+      - s-987b1a878c
+      - s-f0fafc131b
+      - s-2abe039c3a
+      - s-338932d4fe
+      - s-64d4ab11a5
+      - s-8bed5ba5c5
+      - s-c64bd6d2b3
+    zh:
+      - s-5e57033246
+      - s-7cc7934e77
+      - s-1d06c3fd50
+      - s-41f5ac0d00
+      - s-26562ac0d6
+      - s-965b1c4797
+      - s-5236174874
+      - s-ae5dea9fb7

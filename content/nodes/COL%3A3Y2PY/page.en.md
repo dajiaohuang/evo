@@ -1,0 +1,3 @@
+## What leaves and terminal flowers does the regional field describe? {#s-4cc4f9cb87}
+The Flora do Brasil 2020 field describes erect branches and oval-lance-shaped leaves with three veins. Simple, non-glandular hairs may occur on either leaf surface; margins are flat rather than rolled under, and the short petiole is nearly sessile. Flowers are solitary and terminal. The inner tip of the floral cup is hairless. Petals are pink, anthers are straight, and small toothed appendages occur between the sepals. The capsule is longer than the floral cup, with many seeds in each chamber. These are regional database traits, not a global survey.
+

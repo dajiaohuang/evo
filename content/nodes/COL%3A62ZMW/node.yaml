@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mantidactylus
+  displayName: Mantidactylus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62ZMW
+  sourceIndexes:
+    - name:
+        en: Mantidactylus
+        zh: Mantidactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62ZMW
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/30
+            queryName: Mantidactylus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 236
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a873fe86cb
+      - s-286d1eef77
+      - s-23d0af493e
+      - s-a5b420d98a
+      - s-73cdf2e784
+      - s-be6c6ec4eb
+      - s-6b4f3ce99c
+      - s-e74ce65385
+      - s-277457f78c
+      - s-00051352dd
+      - s-55d8db6fd2
+      - s-4158318b6c
+      - s-5dbf460778
+    zh:
+      - s-6f44bd9258
+      - s-17a0ed25de
+      - s-fd043b1d12
+      - s-d8fc4e4e2b
+      - s-d3ff562208
+      - s-fafcf562ae
+      - s-681534a79a
+      - s-08c5af3d38
+      - s-28acbcf751
+      - s-47f18d1b90
+      - s-bd6ec040d5
+      - s-3f91374fb4
+      - s-e78f14065f

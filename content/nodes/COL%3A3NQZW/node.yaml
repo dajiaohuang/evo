@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius thoracotuberculatus
+  displayName: Hyperolius thoracotuberculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQZW
+  sourceIndexes:
+    - name:
+        en: Hyperolius thoracotuberculatus
+        zh: Hyperolius thoracotuberculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQZW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/345
+            queryName: Hyperolius thoracotuberculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cb44a9079a
+      - s-6f5500e8ec
+      - s-3d2bf19e0a
+      - s-c087bbc67f
+      - s-38e7babae3
+      - s-13c524100e
+    zh:
+      - s-47d76fab9d
+      - s-d517d8a59e
+      - s-2b6f428afb
+      - s-6e8d30b9c3
+      - s-626e1d2c98
+      - s-a43c82824c

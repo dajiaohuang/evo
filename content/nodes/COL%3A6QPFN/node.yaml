@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lyciasalamandra luschani
+  displayName: Lyciasalamandra luschani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QPFN
+  sourceIndexes:
+    - name:
+        en: Lyciasalamandra luschani
+        zh: Lyciasalamandra luschani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QPFN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/246
+            queryName: Lyciasalamandra luschani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/381
+            queryName: Salamandra luschani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 30
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/197
+            queryName: Molge luschani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/470
+            queryName: Mertensiella luschani luschani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/472
+            queryName: Mertensiella luschani basoglui
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/8
+            queryName: Mertensiella luschani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2f8bd2331d
+      - s-ab3876e323
+      - s-7ae14d8e5e
+      - s-b2630e4192
+      - s-2f1df8bc9f
+      - s-c804a2b345
+      - s-dec19a9432
+      - s-17dd619ccb
+      - s-9cbfa2fde7
+      - s-7554014891
+      - s-3f5ac6358e
+      - s-3290221333
+    zh:
+      - s-663c2e108d
+      - s-53e34a2ef8
+      - s-a34968146e
+      - s-af6d4b55cd
+      - s-f1399e7d74
+      - s-105fcb1109
+      - s-b6ba6cceb0
+      - s-03db71e462
+      - s-cdc68553be
+      - s-1ca2769b9e
+      - s-2d12331d64
+      - s-c36dccc99d

@@ -1,0 +1,693 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Brachycephalus hermogenesi (Giaretta & Sawaya, 1998)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Brachycephalus hermogenesi
+      zh: Brachycephalus hermogenesi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-58eed725e0
+            part: title
+          zh:
+            page: zh
+            section: s-90adae511f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-58eed725e0
+            part: body
+          zh:
+            page: zh
+            section: s-90adae511f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-725d0e02b5
+            part: title
+          zh:
+            page: zh
+            section: s-e5b12d312c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-725d0e02b5
+            part: body
+          zh:
+            page: zh
+            section: s-e5b12d312c
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-5b86f317a5
+            part: title
+          zh:
+            page: zh
+            section: s-8d6f0b5e2a
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-5b86f317a5
+            part: body
+          zh:
+            page: zh
+            section: s-8d6f0b5e2a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-c0bed10614
+            part: title
+          zh:
+            page: zh
+            section: s-e05956977c
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-c0bed10614
+            part: body
+          zh:
+            page: zh
+            section: s-e05956977c
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-acbe231daa
+            part: title
+          zh:
+            page: zh
+            section: s-0853ad34bf
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-acbe231daa
+            part: body
+          zh:
+            page: zh
+            section: s-0853ad34bf
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-1198015c0e
+            part: title
+          zh:
+            page: zh
+            section: s-6f8074ca63
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-1198015c0e
+            part: body
+          zh:
+            page: zh
+            section: s-6f8074ca63
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-c5072f1bac
+            part: title
+          zh:
+            page: zh
+            section: s-b599dbc320
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-c5072f1bac
+            part: body
+          zh:
+            page: zh
+            section: s-b599dbc320
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-050a1b7432
+            part: title
+          zh:
+            page: zh
+            section: s-31baa03530
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-050a1b7432
+            part: body
+          zh:
+            page: zh
+            section: s-31baa03530
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-081c455ebd196074854b21e6fceda2d8
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-5986c08d8e24f8aed2c87aac
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: reproduction
+        title:
+          en:
+            page: en
+            section: s-b3759b003b
+            part: title
+          zh:
+            page: zh
+            section: s-392c0616a7
+            part: title
+        sourceIds:
+          - primary-pmc7937348-6929z
+        text:
+          en:
+            page: en
+            section: s-b3759b003b
+            part: body
+          zh:
+            page: zh
+            section: s-392c0616a7
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-fcbd00781b
+            part: title
+          zh:
+            page: zh
+            section: s-022c3c1af2
+            part: title
+        sourceIds:
+          - primary-pmc7937348-6929z
+        text:
+          en:
+            page: en
+            section: s-fcbd00781b
+            part: body
+          zh:
+            page: zh
+            section: s-022c3c1af2
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-dae3567295
+            part: title
+          zh:
+            page: zh
+            section: s-c8fa760ab1
+            part: title
+        sourceIds:
+          - primary-pmc7937348-6929z
+        text:
+          en:
+            page: en
+            section: s-dae3567295
+            part: body
+          zh:
+            page: zh
+            section: s-c8fa760ab1
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-8619144ffd
+            part: title
+          zh:
+            page: zh
+            section: s-d9ec7d3488
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6929z
+        text:
+          en:
+            page: en
+            section: s-8619144ffd
+            part: body
+          zh:
+            page: zh
+            section: s-d9ec7d3488
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-952837223d
+            part: title
+          zh:
+            page: zh
+            section: s-7472e5d3b2
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6929z
+        text:
+          en:
+            page: en
+            section: s-952837223d
+            part: body
+          zh:
+            page: zh
+            section: s-7472e5d3b2
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-17810976d0
+            part: title
+          zh:
+            page: zh
+            section: s-856ab3e359
+            part: title
+        sourceIds:
+          - primary-pmc10688756-6929z
+        text:
+          en:
+            page: en
+            section: s-17810976d0
+            part: body
+          zh:
+            page: zh
+            section: s-856ab3e359
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-b373d0b579
+            part: body
+          zh:
+            page: zh
+            section: s-2c777b23b1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Brachycephalus hermogenesi
+          url: https://www.checklistbank.org/dataset/316115/taxon/6929Z
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0274; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0274 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 846, 847; Reference.csv rows 2018
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc7937348-6929z
+        referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus hermogenesi: Methods, diagnosis, geographical occurrence records and Conclusions; original-description claims distinguished from reviewed evidence; no tables, figures or audio reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10688756-6929z
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Brachycephalus hermogenesi: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9df0036f83
+        part: body
+      zh:
+        page: zh
+        section: s-862f6d6354
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-081c455ebd196074854b21e6fceda2d8
+      sourceRowId: Anf0274
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0274
+        bibliographyRowId: Anf0274
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Brachycephalus hermogenesi
+        candidateBibliographyRowIds:
+          - Anf0274
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.10983
+        referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+        sourceKey: primary-pmc7937348-6929z
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC7937348/article.xml
+        sourceConcept: Brachycephalus hermogenesi
+        evidenceRead: "Brachycephalus hermogenesi: Methods, diagnosis, geographical occurrence records and Conclusions; original-description claims distinguished from reviewed evidence; no tables, figures or audio reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: reproduction
+            heading:
+              en: Isolated notes and note groups in the reviewed calls
+              zh: 复核鸣声中的独立音符与音符组
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-6929z
+            locator: Results > Diagnosis; reading-sections index 1, paragraphs 3–5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-7b03545f7c
+                part: body
+              zh:
+                page: zh
+                section: s-66aae21165
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: A possible second species in part of the type series
+              zh: 部分模式系列中可能存在第二个物种
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-6929z
+            locator: Results > Geographical occurrence records; reading-sections index 2, paragraph 4; Conclusions, index 4, paragraph 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-140b1dfa3b
+                part: body
+              zh:
+                page: zh
+                section: s-a6e72c5d7c
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Historical names require locality-specific reassessment
+              zh: 历史名称需要逐地点复核
+            referenceId: ref-4b93fb5e-02be-45e1-a8ea-1bb86e7d85fb
+            sourceKey: primary-pmc7937348-6929z
+            locator: Results > Geographical occurrence records; reading-sections index 2, paragraphs 1–2; Conclusions, index 4, paragraphs 1 and 3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5b003a6021
+                part: body
+              zh:
+                page: zh
+                section: s-216ae9a09b
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-pmc10688756-6929z
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: 2023 workbook Brachycephalus_hermogenesi, source taxonomy and compiled biological traits; exact-name candidate, not cross-revision concept certification
+        evidenceRead: "Brachycephalus hermogenesi: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: A source-coded development mode and oviposition environment
+              zh: 来源编码的发育方式与产卵环境
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6929z
+            locator: PMC10688756 S3 File Traits row 87 Brachycephalus_hermogenesi; XML Functional diversity; upstream reference numbers 1, 2, 3, 43
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1be8ae8e56
+                part: body
+              zh:
+                page: zh
+                section: s-bd9ecd9a3d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Juvenile habitat and egg-site categories have defined scope
+              zh: 幼体生境及卵位点类别有明确范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6929z
+            locator: PMC10688756 S3 File Traits row 87 Brachycephalus_hermogenesi habitat/site columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b1d8bb486f
+                part: body
+              zh:
+                page: zh
+                section: s-5d66ba20ba
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: morphology
+            heading:
+              en: Compiled lengths retain inference and measurement limits
+              zh: 汇编长度保留推断及测量限制
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-pmc10688756-6929z
+            locator: PMC10688756 S3 File Traits row 87 Brachycephalus_hermogenesi length/Observation columns; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0253a15c25
+                part: body
+              zh:
+                page: zh
+                section: s-459833ffce
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Discoglossus montalentii
+  displayName: Discoglossus montalentii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/36TMH
+  sourceIndexes:
+    - name:
+        en: Discoglossus montalentii
+        zh: Discoglossus montalentii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 36TMH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/19
+            queryName: Discoglossus montalentii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/234
+            queryName: Discoglossus montalenti
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-15fc9ae098
+      - s-f7e31930d0
+      - s-449f712cb9
+      - s-f141b65ba2
+      - s-2e293e570b
+      - s-681bae57d0
+      - s-7113e2104e
+      - s-c35d551774
+      - s-8c60b16066
+      - s-2f5043676d
+      - s-d56023ef90
+      - s-aa92e5cd93
+      - s-5568cf8877
+      - s-5d8a26d3ad
+    zh:
+      - s-b7f0272e72
+      - s-d641918bc3
+      - s-b5ac8baa10
+      - s-efcef0c296
+      - s-5c5e6e3f64
+      - s-6f7ca96d5f
+      - s-e842f9de03
+      - s-2808429363
+      - s-a86aa4213c
+      - s-07a6d7c42c
+      - s-8dc36b9ecb
+      - s-a50692d590
+      - s-27bb5b944e
+      - s-971fd9f26e

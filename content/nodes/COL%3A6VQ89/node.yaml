@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon serratus
+  displayName: Plethodon serratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VQ89
+  sourceIndexes:
+    - name:
+        en: Plethodon serratus
+        zh: Plethodon serratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VQ89
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/490
+            queryName: Plethodon serratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/286
+            queryName: Plethodon cinereus serratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00046.json.gz
+            field: /records/287
+            queryName: Plethodon cinereus polycentratus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bdbc88ed6c
+      - s-ba26575190
+      - s-645a56ca99
+      - s-0782be6d69
+      - s-16d2ed3f91
+      - s-70b188c2ca
+      - s-a739a0e428
+      - s-87fe4f3f2e
+      - s-b1f4e0f808
+      - s-c5f705253d
+      - s-c7d8532e38
+      - s-33ce75275f
+      - s-a0e648fa1c
+      - s-0edf1abe96
+      - s-ca06bda324
+      - s-ccea1af625
+      - s-cd8e6d5a35
+    zh:
+      - s-5d93b39114
+      - s-f9a961399b
+      - s-05a68882d7
+      - s-fd05b1f64a
+      - s-102cbf2b0a
+      - s-c2f382b27c
+      - s-18fbe27984
+      - s-cd182052ad
+      - s-2cf5fb72f6
+      - s-7e1774d456
+      - s-5c9663fca2
+      - s-6dde4033e0
+      - s-01c7f7f83e
+      - s-677bd6d014
+      - s-15f6ab2373
+      - s-35052f7a92
+      - s-2f141d3058

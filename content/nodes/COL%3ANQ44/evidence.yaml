@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Bulbine truncata G.Will.
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage NQ44, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage NQ44; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/NQ44
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage NQ44
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000762436-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL NQ44 / WFO wfo-0000762436
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_8392_0
+        referenceId: ref-1700fd82-3dac-8fde-a170-07b2699b1ea6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Bulbine truncata G.Will. account; SANBI/WFO archive rows 85340 (Morphology), 85083 (Habitat), 84575 (Diagnostic), source identifier 8392.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants deciduous herbs, acaulescent, 3-3.5 cm high, arising from solitary, dome-shaped tubers ca. 1.1 cm wide, with up to 6 downward-spreading roots; tubers brown, with membranous sheaths, becoming white when actively growing. Leaves usually 2 but occasionally with a central third, very fleshy, light dull green, with a microscopic, whitish, rough, sandpaper-like texture and 3 longitudinal veins, the outer 2 slightly falcate outwards, with a flat adaxial channel, distinctly truncate, up to 3 cm long and 4 mm broad, the central leaf, when present, terete, acute, up to 3 cm long and 1.5 mm broad; all leaves subtended by a tight sheath ca. 4 mm long. Inflorescence erect, solitary; peduncle purplish, slender, averaging ca. 5 cm long and 1 mm thick, raceme ca. 2.5 cm long. Flowers 6-8, spreading at right angles from the rachis, 1-3 opening at once well before sunrise; bracts narrowly triangular, membranous, 1.5 mm long, pedicels ca. 7 mm long; tepals brownish-orange, with a distinct broad, dark orange, central vein; outer whorl tightly reflexed against pedicel, elliptic, acuminate, obtuse, 7 x 1.8 mm, inner whorl not as tightly reflexed, obovate, with an undulate apical margin, obtuse, 7 x 4 mm. Filaments trimorphic, slender, bearded, ca. 6.5 mm long, with lower 3 decurved, the upper with a double cushion of hairs; hairs variously arranged, curving and matted together, clavate with spherical apex, 1.8 to 2 mm long; anthers spherical to oblong, ca. 1.2 mm long. Ovary green, elliptical, 2 mm long; style very slender, 5 mm long. Seed ca. 3 per capsule, black, deltoid, ruminate, 2 mm long.
+            textZh: Bulbine truncata G.Will. 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_8392_0
+            locator: "SANBI/WFO archive Morphology row 85340; source identifier 8392.0; cited publication: Williamson, G. 1996. New Bulbine species (Asphodelaceae) from the northwestern Cape. Haseltonia 4: 13 - 23. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Bulbine truncata has some affinity with B. diphylla but differs in that the short leaves are distinctly truncate and subtended by a short, tight sheath.
+            textZh: SANBI 条目提供了 Bulbine truncata G.Will. 的鉴别特征。
+            sourceIds:
+              - sanbi_8392_0
+            locator: "SANBI/WFO archive Diagnostic row 84575; source identifier 8392.0; cited publication: Williamson, G. 1996. New Bulbine species (Asphodelaceae) from the northwestern Cape. Haseltonia 4: 13 - 23. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Amongst white quartzitic-pegmatitic, pebbly pavements.
+            textZh: 该 SANBI 区域物种条目记录的生境：Amongst white quartzitic-pegmatitic, pebbly pavements.
+            sourceIds:
+              - sanbi_8392_0
+            locator: "SANBI/WFO archive Habitat row 85083; source identifier 8392.0; cited publication: Williamson, G. 1996. New Bulbine species (Asphodelaceae) from the northwestern Cape. Haseltonia 4: 13 - 23. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

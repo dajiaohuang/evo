@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ameerega planipaleae
+  displayName: Ameerega planipaleae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ79
+  sourceIndexes:
+    - name:
+        en: Ameerega planipaleae
+        zh: Ameerega planipaleae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ79
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/274
+            queryName: Ameerega planipaleae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/218
+            queryName: Epipedobates planipaleae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2e5b9954eb
+      - s-536abcf7d9
+      - s-7bb0983130
+      - s-f29f4ca197
+      - s-12cd3f34d4
+      - s-f193ad60f0
+      - s-c805e021c3
+      - s-64b7134a8b
+      - s-8858fd432d
+    zh:
+      - s-bc29980a1b
+      - s-6ae55d4784
+      - s-7795117894
+      - s-5db57f34ee
+      - s-8576fbb815
+      - s-f8283d2250
+      - s-83c033afa8
+      - s-5b3d35268d
+      - s-85a0745105

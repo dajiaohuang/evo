@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis phalaroinguinis
+  displayName: Pristimantis phalaroinguinis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJL9
+  sourceIndexes:
+    - name:
+        en: Pristimantis phalaroinguinis
+        zh: Pristimantis phalaroinguinis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJL9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/493
+            queryName: Pristimantis phalaroinguinis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/179
+            queryName: Eleutherodactylus phalaroinguinis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-151954e186
+      - s-00d63e9289
+      - s-48d1df551f
+      - s-f2fc2002a3
+      - s-6825f7550a
+      - s-d9e777ad4d
+      - s-ca232948c3
+    zh:
+      - s-8aad14f28e
+      - s-2e4697a3d7
+      - s-4eef317960
+      - s-37fcd5ca02
+      - s-49b6b952f5
+      - s-a51f322149
+      - s-90586985fe

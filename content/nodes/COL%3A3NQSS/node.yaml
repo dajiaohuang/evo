@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hyperolius dintelmanni
+  displayName: Hyperolius dintelmanni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NQSS
+  sourceIndexes:
+    - name:
+        en: Hyperolius dintelmanni
+        zh: Hyperolius dintelmanni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NQSS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/244
+            queryName: Hyperolius dintelmanni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/388
+            queryName: Hyperolius tuberculatus dintelmanni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-49b550d694
+      - s-ef465bcfcc
+      - s-1f71966e36
+      - s-16fd988b0a
+      - s-e36b1912dd
+      - s-99c8007176
+      - s-c5e49e2ed7
+      - s-cf85520d0c
+      - s-7436906b33
+    zh:
+      - s-3bdf24b877
+      - s-792daa4db0
+      - s-db99156515
+      - s-507ea54d1c
+      - s-f6b7ddbbc9
+      - s-2d82cbb1ce
+      - s-78b26dd80f
+      - s-d51306b201
+      - s-eed82f04ef

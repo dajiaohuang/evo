@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates vibicarius
+  displayName: Lithobates vibicarius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHR6
+  sourceIndexes:
+    - name:
+        en: Lithobates vibicarius
+        zh: Lithobates vibicarius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHR6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/201
+            queryName: Lithobates vibicarius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/213
+            queryName: Rana vibicaria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/469
+            queryName: Levirana vibicaria
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/470
+            queryName: Rana godmani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-15f55226c9
+      - s-91ad19c5fa
+      - s-259e85da6c
+      - s-d597be4776
+      - s-5cf5b71843
+      - s-4916e24b17
+      - s-1ffa5e7410
+      - s-d64212efff
+      - s-b694414d1d
+      - s-bc2bf00e06
+    zh:
+      - s-73142980f6
+      - s-76666e854c
+      - s-51eb54568a
+      - s-3b17528ac9
+      - s-a875f4cbbe
+      - s-69dba45a8f
+      - s-a5efeb220e
+      - s-f0b231807c
+      - s-f0f7b50141
+      - s-deed89d281

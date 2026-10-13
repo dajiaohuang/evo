@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax duartei
+  displayName: Scinax duartei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJW8
+  sourceIndexes:
+    - name:
+        en: Scinax duartei
+        zh: Scinax duartei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJW8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/33
+            queryName: Scinax duartei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/424
+            queryName: Hyla duartei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/425
+            queryName: Ololygon duartei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/312
+            queryName: Hyla rubra duartei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b5c5fdcf4
+      - s-5515811c6a
+      - s-af2fd00d77
+      - s-0b504851e0
+      - s-0dec6127cc
+      - s-f6d0e6c4e1
+      - s-28b06eb926
+      - s-8b150b9b5a
+      - s-0a365003e5
+      - s-2bfe296a01
+      - s-e4d6fb25d2
+      - s-56f5af3bf3
+      - s-2788e1caa6
+      - s-cc32ffa5a8
+      - s-fab9d77adf
+      - s-a40baf4bea
+    zh:
+      - s-2e8f139263
+      - s-93c1ffbae5
+      - s-32df349ec2
+      - s-d6446d7b33
+      - s-9cac08e939
+      - s-4af4b9d4d8
+      - s-12360b26ed
+      - s-089b90616a
+      - s-98bc1fa762
+      - s-3f7b38eb7c
+      - s-41b80b5900
+      - s-01c6a3b00a
+      - s-aaa8198fb4
+      - s-b00291b857
+      - s-1ec4eb349d
+      - s-f3613faa84

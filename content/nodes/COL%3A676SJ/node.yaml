@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus baeobatrachus
+  displayName: Anomaloglossus baeobatrachus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/676SJ
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus baeobatrachus
+        zh: Anomaloglossus baeobatrachus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 676SJ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/3
+            queryName: Anomaloglossus baeobatrachus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/217
+            queryName: Colostethus baeobatrachus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fb86c18672
+      - s-83e40334a7
+      - s-6cb5c84bf4
+      - s-40074a032b
+      - s-cdab705deb
+      - s-4a499287a2
+      - s-11059d84d4
+      - s-eae3e105fd
+      - s-fdd60ca73f
+    zh:
+      - s-815618ceeb
+      - s-944c75f147
+      - s-2efd871b0a
+      - s-698cbf9f59
+      - s-4de71215c5
+      - s-803aabdbed
+      - s-6b157fa1a1
+      - s-315995fc12
+      - s-a5b7b2db91

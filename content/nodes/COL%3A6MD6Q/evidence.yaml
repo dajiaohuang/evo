@@ -1,0 +1,118 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hoolock hoolock (Harlan, 1834)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Western hoolock gibbon
+      zh: 西部白眉长臂猿
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-df1a547138
+            part: body
+          zh:
+            page: zh
+            section: s-2bba169949
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_name
+      - topic: hollongaparFeedingStudy
+        text:
+          en:
+            page: en
+            section: s-4e788e9524
+            part: body
+          zh:
+            page: zh
+            section: s-25faf662b3
+            part: body
+        sourceIds:
+          - borah2018
+      - topic: lawacharaSeasonality
+        text:
+          en:
+            page: en
+            section: s-7a94a03aec
+            part: body
+          zh:
+            page: zh
+            section: s-9743e9b871
+            part: body
+        sourceIds:
+          - naher2024
+      - topic: evidenceBoundary
+        text:
+          en:
+            page: en
+            section: s-da2c96267e
+            part: body
+          zh:
+            page: zh
+            section: s-c13574ee72
+            part: body
+        sourceIds:
+          - borah2018
+          - naher2024
+    sources:
+      - id: taxonomy
+        referenceId: ref-9e84c654-722c-80dd-a562-c3066774dc89
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Pins accepted species ID 6MD6Q, authorship, rank and parent genus ID 4YHR.
+            zh: 固定接受种 ID 6MD6Q、作者、等级与父属 ID 4YHR。
+      - id: mdd_name
+        referenceId: ref-eb6785fa-3834-8115-a824-9c35f9366afb
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supplies the preferred English display name for the exact accepted name; COL26.8 remains the page identity.
+            zh: 为该接受名提供优先英文显示名；页面身份仍以 COL26.8 为准。
+      - id: borah2018
+        referenceId: ref-4b79d471-14b4-8d7e-a521-e11b338b3522
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: One year of focal-animal sampling of two groups in the 21 km² Hollongapar Gibbon Wildlife Sanctuary forest patch; dietary results are local to those groups and study period.
+            zh: 在 Hollongapar 长臂猿野生动物保护区 21 平方公里森林斑块，对两群猴开展一年的焦点动物取样；食性结果仅适用于这些群体与研究期。
+      - id: naher2024
+        referenceId: ref-e1ab9ae4-83ba-85c4-adaf-426556b89dc1
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: One five-member group at Lawachara National Park, Bangladesh, followed from April 2019 to March 2020; home-range and daily-path values are method-specific estimates for that group.
+            zh: 在孟加拉国 Lawachara 国家公园，于 2019 年 4 月至 2020 年 3 月跟踪一个五只个体的群体；家域与日行程数值是该群体的特定方法估计。
+    limitations:
+      en:
+        page: en
+        section: s-d267a3ac60
+        part: body
+      zh:
+        page: zh
+        section: s-511d52a10a
+        part: body

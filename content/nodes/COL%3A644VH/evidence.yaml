@@ -1,0 +1,419 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Scotobleps Boulenger, 1900
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Scotobleps
+      zh: Scotobleps
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-f9c04e7ef6
+            part: title
+          zh:
+            page: zh
+            section: s-490a661545
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f9c04e7ef6
+            part: body
+          zh:
+            page: zh
+            section: s-490a661545
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-10aafec933
+            part: title
+          zh:
+            page: zh
+            section: s-28d0517ea5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-10aafec933
+            part: body
+          zh:
+            page: zh
+            section: s-28d0517ea5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-42bd03cd20
+            part: title
+          zh:
+            page: zh
+            section: s-acdcbe1878
+            part: title
+        text:
+          en:
+            page: en
+            section: s-42bd03cd20
+            part: body
+          zh:
+            page: zh
+            section: s-acdcbe1878
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-a35dd04792
+            part: title
+          zh:
+            page: zh
+            section: s-4e884ba8c6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a35dd04792
+            part: body
+          zh:
+            page: zh
+            section: s-4e884ba8c6
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4851f4d233
+            part: title
+          zh:
+            page: zh
+            section: s-8bb4def571
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4VXQR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4VXQR
+            label:
+              en: Scotobleps gabonicus
+              zh: Scotobleps gabonicus
+        text:
+          en:
+            page: en
+            section: s-4851f4d233
+            part: body
+          zh:
+            page: zh
+            section: s-8bb4def571
+            part: body
+      - topic: taxonomy
+        sourceIds:
+          - primary-direct-group-pmc5683629-644vh
+        title:
+          en:
+            page: en
+            section: s-bad8f48d62
+            part: title
+          zh:
+            page: zh
+            section: s-bd44caef8d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bad8f48d62
+            part: body
+          zh:
+            page: zh
+            section: s-bd44caef8d
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc5683629-644vh
+        title:
+          en:
+            page: en
+            section: s-6de28b5feb
+            part: title
+          zh:
+            page: zh
+            section: s-75c4c0b8ad
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6de28b5feb
+            part: body
+          zh:
+            page: zh
+            section: s-75c4c0b8ad
+            part: body
+      - topic: range
+        sourceIds:
+          - primary-direct-group-pmc5683629-644vh
+        title:
+          en:
+            page: en
+            section: s-db544ce186
+            part: title
+          zh:
+            page: zh
+            section: s-464e71f8bf
+            part: title
+        text:
+          en:
+            page: en
+            section: s-db544ce186
+            part: body
+          zh:
+            page: zh
+            section: s-464e71f8bf
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc5683629-644vh
+        title:
+          en:
+            page: en
+            section: s-65724e1969
+            part: title
+          zh:
+            page: zh
+            section: s-de6f0535cd
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 4VXQR
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4VXQR
+            label:
+              en: Scotobleps gabonicus
+              zh: Scotobleps gabonicus
+        text:
+          en:
+            page: en
+            section: s-65724e1969
+            part: body
+          zh:
+            page: zh
+            section: s-de6f0535cd
+            part: body
+      - topic: limitations
+        title:
+          en:
+            page: en
+            section: s-785342efca
+            part: title
+          zh:
+            page: zh
+            section: s-6ae64ff821
+            part: title
+        text:
+          en:
+            page: en
+            section: s-785342efca
+            part: body
+          zh:
+            page: zh
+            section: s-6ae64ff821
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Scotobleps
+          url: https://www.checklistbank.org/dataset/316115/taxon/644VH
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Scotobleps; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc5683629-644vh
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Scotobleps gabonicus: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedScotobleps gabonicus account sec023. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+          scope:
+            en: Selected named accounts Scotobleps gabonicus with unresolvedsource labels retained
+            zh: 选定命名记录 Scotobleps gabonicus，保留未解决来源标签
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-a6c0fd53ce
+        part: body
+      zh:
+        page: zh
+        section: s-68b823df69
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Scotobleps
+      sourceRowIds:
+        - Anf0205
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0187283
+        referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+        sourceKey: primary-direct-group-pmc5683629-644vh
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC5683629/article.xml
+        sourceConcept: SelectedScotobleps namedbarcode/voucher accounts only; notfullarticle/genusconcept certification
+        evidenceRead: "Scotobleps gabonicus: XML sec003–004/006–013 sampling,reference,analysis andtaxonomic criteria; sec015 molecularcounts/Table1; namedScotobleps gabonicus account sec023. First-results accounts sec017/019–023/025–026/028/030/032 inspected. Table2 seen as printed narrative only, not independently reconstructed. Figures onlycaptions, notimages; rawsequence/trace/vouchers/supplementarytrees notindependently reviewed. Otherresults/discussion notcertifiedread.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC0 1.0
+          licenseUrl: https://creativecommons.org/publicdomain/zero/1.0/
+          attribution: Original bilingual factual synthesis of explicitly inspected barcode/voucher accounts, with historical working identifications and unresolved concepts retained; no figures or raw sequence data reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: Working barcode identifications retain unresolved labels
+              zh: 条形码工作鉴定保留未解决标签
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-644vh
+            locator: PMC5683629 XML sec023 namedScotobleps gabonicus markeridentification paragraphs; sec009–012 assignmentcriteria
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-27fc68ce94
+                part: body
+              zh:
+                page: zh
+                section: s-7a02458391
+                part: body
+            scope:
+              en: Selected named accounts Scotobleps gabonicus with unresolvedsource labels retained
+              zh: 选定命名记录 Scotobleps gabonicus，保留未解决来源标签
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Reference-library evidence is not independent nuclear confirmation
+              zh: 参考库证据不是独立核确认
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-644vh
+            locator: PMC5683629 XML sec006–012 identification/reference criteria andselectedScotobleps account
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3ab65ea1fd
+                part: body
+              zh:
+                page: zh
+                section: s-018cc1081b
+                part: body
+            scope:
+              en: Selected named accounts Scotobleps gabonicus with unresolvedsource labels retained
+              zh: 选定命名记录 Scotobleps gabonicus，保留未解决来源标签
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Read selected accounts with their locality boundaries
+              zh: 按地点边界阅读选定记录
+            referenceId: ref-91c8be6f-aa78-4e3f-a220-4aecfe72c55b
+            sourceKey: primary-direct-group-pmc5683629-644vh
+            locator: PMC5683629 XML sec003/004/007 sampling; sec015/Table1 counts; selectedScotobleps accounts
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5bef6a14c3
+                part: body
+              zh:
+                page: zh
+                section: s-701205c637
+                part: body
+            scope:
+              en: Selected named accounts Scotobleps gabonicus with unresolvedsource labels retained
+              zh: 选定命名记录 Scotobleps gabonicus，保留未解决来源标签
+    primaryResearchGroupSynthesisComplete: false

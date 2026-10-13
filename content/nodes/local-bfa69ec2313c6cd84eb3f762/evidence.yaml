@@ -1,0 +1,243 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Arenophryne xiphorhyncha
+    name:
+      en: Arenophryne xiphorhyncha
+      zh: Arenophryne xiphorhyncha
+    sourceClassification:
+      order: Anura
+      family: Myobatrachoidea
+      genus: Arenophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7f893f1b7d
+            part: body
+          zh:
+            page: zh
+            section: s-6440af0c11
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9d823ccc03
+            part: body
+          zh:
+            page: zh
+            section: s-96442a1ca9
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 444, 445; Reference.csv rows 3331
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 444
+        values:
+          - Myobatrachoidea
+          - Arenophryne
+          - Arenophryne xiphorhyncha
+          - F
+          - "30.2"
+          - "8"
+          - "9.6"
+          - "2.9"
+          - NA
+          - NA
+          - "4.2"
+          - "2"
+          - NA
+          - "1.6"
+          - NA
+          - NA
+          - "5.9"
+          - "3.1"
+          - NA
+          - "7.2"
+          - NA
+          - "5.6"
+          - NA
+          - "3.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 445
+        values:
+          - Myobatrachoidea
+          - Arenophryne
+          - Arenophryne xiphorhyncha
+          - M
+          - "28.9"
+          - "7.9"
+          - "9.6"
+          - "2.9"
+          - NA
+          - NA
+          - "4.2"
+          - "2"
+          - NA
+          - "1.6"
+          - NA
+          - NA
+          - "5.9"
+          - "2.5"
+          - NA
+          - "7.2"
+          - NA
+          - "5.6"
+          - NA
+          - "3.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3331
+        values:
+          - Anura
+          - Arenophryne_xiphorhyncha
+          - Doughty, P., & Edwards, D. (2008). A new species of Arenophryne (Anura Myobatrachidae) from the central coast of Western Australia. Records of the Western Australian Museum, 24, 121-131. https://doi.org/10.18195/issn.0312-3162.24(2).2008.121-131
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - HAL
+      - FLL
+      - FL
+      - TL
+      - TSL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds: []
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

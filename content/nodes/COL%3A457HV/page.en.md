@@ -1,0 +1,6 @@
+## Woolly leaf surfaces and whorled flower clusters {#s-8f41042856}
+The Brazilian Flora 2020 v393.147 field records monopodial growth and simple stem hairs. Leaves are elliptic or lanceolate, with a channelled upper-surface midrib; the underside is described as tomentose, pilose, or lanose, terms indicating a hairy to woolly covering. Bracts or small scale-like cataphylls below leaf nodes are absent. Rounded inflorescence branchlets have no bracteoles beneath the flowers. Two to four inflorescences are listed per axillary shoot, terminal or subterminal and whorled; their form is described as either spike-like or alternate pyramidal. These are alternatives in one regional dataset field, with no frequencies reported.
+
+## A woolly flower cup and a globose fruit {#s-0aebe09589}
+The anther's two pollen sacs are equal; the field leaves hairs on the floral disc unspecified. The flower cup (hypanthium) is top-shaped (turbinate), with its surface covering described as tomentose, pubescent, or lanose. Sepals are partly fused, the ovary has two chambers, and the calyx is recorded as opening partly by tearing. The calyx lobes enlarge on the globose fruit. The field preserves these alternatives but gives no frequencies.
+

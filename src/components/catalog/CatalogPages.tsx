@@ -158,7 +158,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
     contextLanguage: language,
   }))
   const proseSections = profile.readerSections ?? fallbackSections
-  const proseSources = profile.readerSections?.length ? readerSources : getReferences(claims.flatMap(claim => claim.referenceLinks.map(link => link.referenceId)))
+  const proseSources = profile.readerSections?.length ? [...references, ...readerSources] : getReferences(claims.flatMap(claim => claim.referenceLinks.map(link => link.referenceId)))
   const introduction = profile.readerSections?.find(section => section.id === 'reading-introduction')
   const publication = getEntityPublication(profile.treeNodeId ?? profile.id)
   const readingGuide = readingGuides.find(guide => guide.taxonId === profile.id)
@@ -284,7 +284,7 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
         </div>
         <h1>{language === 'zh' ? event.titleZh : event.title}</h1>
         <div className="event-range"><strong>{formatAge(event.startAge, t('Present'))}</strong><span>→</span><strong>{formatAge(event.endAge, t('Present'))}</strong></div>
-        <p className="catalog-dek">{t(event.summary)}</p>
+        <p className="catalog-dek">{language === 'zh' ? event.summaryZh ?? t(event.summary) : event.summary}</p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
             age: midpoint.toFixed(2),
@@ -308,10 +308,10 @@ export function EventPage({ id, onNavigate }: CatalogPageProps) {
           <section className="catalog-section">
             <span className="section-label">{t('01 / Observations')}</span>
             <h2>{language === 'zh' ? '记录中保存了什么' : 'What the record preserves'}</h2>
-            <div className="statement-grid">
+            {!event.readerSections?.length && <div className="statement-grid">
               {event.evidenceItems.map((item, index) => <article key={item.statement}><span>{index + 1}</span><p>{t(item.statement)}</p></article>)}
-            </div>
-            <NodeReadingSections sections={claims.filter(claim => claim.claimKind === 'scientific').map(claim => ({id: claim.id, topic: claim.claimType, text: {en: claim.statement, zh: generatedClaimStatementsZh[claim.statement] ?? t(claim.statement)}, sourceIds: claim.referenceLinks.map(link => link.referenceId), context: [language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale].filter(Boolean), contextLanguage: language}))} sources={getReferences(claims.flatMap(claim => claim.referenceLinks.map(link => link.referenceId)))} language={language} />
+            </div>}
+            <NodeReadingSections sections={event.readerSections?.length ? event.readerSections : claims.filter(claim => claim.claimKind === 'scientific').map(claim => ({id: claim.id, topic: claim.claimType, text: {en: claim.statement, zh: generatedClaimStatementsZh[claim.statement] ?? t(claim.statement)}, sourceIds: claim.referenceLinks.map(link => link.referenceId), context: [language === 'zh' ? claim.confidenceRationaleZh : claim.confidenceRationale].filter(Boolean), contextLanguage: language}))} sources={event.readerSources?.length ? event.readerSources : getReferences([...event.referenceIds, ...claims.flatMap(claim => claim.referenceLinks.map(link => link.referenceId))])} language={language} />
           </section>
           <section className="catalog-section">
             <span className="section-label">{t('02 / Uncertainty')}</span>
@@ -344,7 +344,7 @@ function EventDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
         {evolutionEvents.map((event, index) => (
           <button key={event.id} onClick={() => onNavigate('events', { id: event.id })}>
             <span className="event-directory__index">{String(index + 1).padStart(2, '0')}</span>
-            <div><small>{t(event.category)}</small><h2>{language === 'zh' ? event.titleZh : event.title}</h2><p>{t(event.summary)}</p></div>
+            <div><small>{t(event.category)}</small><h2>{language === 'zh' ? event.titleZh : event.title}</h2><p>{language === 'zh' ? event.summaryZh ?? t(event.summary) : event.summary}</p></div>
             <strong>{formatAge(event.startAge, t('Present'))}</strong>
             <i>→</i>
           </button>
@@ -378,7 +378,7 @@ export function StoriesPage({ id, params, onNavigate }: CatalogPageProps) {
         <button className="story-back" onClick={() => onNavigate('stories')}>← {t('All stories')}</button>
         <span className="section-label">{t('Field story / {minutes} min', { minutes: story.durationMinutes })}</span>
         <h1>{language === 'zh' ? story.titleZh : story.title}</h1>
-        <p>{t(story.dek)}</p>
+        <p>{language === 'zh' ? story.dekZh ?? t(story.dek) : story.dek}</p>
       </header>
 
       <div className="story-sequence">
@@ -390,8 +390,8 @@ export function StoriesPage({ id, params, onNavigate }: CatalogPageProps) {
             </div>
             <div className="story-step__content">
               <small>{formatAge(step.age, t('Present'))} · {t(step.view)}</small>
-              <h2>{t(step.title)}</h2>
-              <p>{t(step.text)}</p>
+              <h2>{language === 'zh' ? step.titleZh ?? t(step.title) : step.title}</h2>
+              <p>{language === 'zh' ? step.textZh ?? t(step.text) : step.text}</p>
               {step.annotation && <blockquote>{t(step.annotation)}</blockquote>}
               {step.taxonIds.map(taxonId => <LocalTreePanel key={taxonId} nodeId={taxonId} />)}
               <button onClick={() => onNavigate('explore', {
@@ -468,7 +468,7 @@ function StoryDirectory({ onNavigate }: { onNavigate: CatalogPageProps['onNaviga
         {filteredStories.map((story, index) => (
           <button key={story.id} className={`story-directory__card story-directory__card--${story.theme}`} onClick={() => onNavigate('stories', { id: story.id })}>
             <div className="story-directory__top"><span>{String(index + 1).padStart(2, '0')}</span><small>{story.durationMinutes} {language === 'zh' ? '分钟' : 'min'}</small></div>
-            <div><h2>{language === 'zh' ? story.titleZh : story.title}</h2><p>{t(story.dek)}</p></div>
+            <div><h2>{language === 'zh' ? story.titleZh : story.title}</h2><p>{language === 'zh' ? story.dekZh ?? t(story.dek) : story.dek}</p></div>
             <footer><span>{t('{count} explorer states', { count: story.steps.length })}</span><i>→</i></footer>
           </button>
         ))}

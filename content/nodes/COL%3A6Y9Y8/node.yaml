@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax boesemani
+  displayName: Scinax boesemani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Y9Y8
+  sourceIndexes:
+    - name:
+        en: Scinax boesemani
+        zh: Scinax boesemani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Y9Y8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/17
+            queryName: Scinax boesemani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/404
+            queryName: Hyla boesemani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/405
+            queryName: Ololygon boesemani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-823aee947d
+      - s-40f2b21b8e
+      - s-6b105991a3
+      - s-8599dccf8d
+      - s-c1b99aee4c
+      - s-e13dcf04e9
+      - s-3773edce40
+      - s-ff0e6f76f6
+      - s-8699bf483b
+      - s-80eb8c13de
+      - s-208320ed25
+      - s-0584ee76ab
+      - s-28db4d8875
+      - s-96bfe0c4de
+      - s-7faeccb51e
+      - s-237f8fc71f
+      - s-19cd00a85c
+      - s-f730819593
+    zh:
+      - s-e3aaa8f520
+      - s-ab32bd369a
+      - s-99e0fdd0df
+      - s-69f078e763
+      - s-63a35b802e
+      - s-f473ce91ab
+      - s-865c1d196d
+      - s-ab9aa3b66b
+      - s-daa1687ff2
+      - s-429476b55d
+      - s-ce49c63261
+      - s-26678578e2
+      - s-1a4dc51986
+      - s-81d747f5e3
+      - s-8b7511a152
+      - s-fecedb38f5
+      - s-838b8c6871
+      - s-6b0070edec

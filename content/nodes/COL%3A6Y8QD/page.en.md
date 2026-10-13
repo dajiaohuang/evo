@@ -1,0 +1,3 @@
+## Bilobed leaves and floral structures in the entry {#s-8a48cc5ace}
+The Brazilian Flora 2020 entry records persistent stipules and bilobed leaf blades on flowering or fruiting branches. Young floral buds have an unwinged calyx tube; their shape is listed as ellipsoid to ovoid or oblong to ovoid. At anthesis, the calyx is campanulate or sub-bilabiate, with filiform lobes. The upper petal is oblanceolate to oblong, and its outer surface is described as woolly or felted. Anthers are ovate and the ovary is sessile. The fruit is dehiscent. No habitat field is included, so the entry does not establish habitat or range.
+

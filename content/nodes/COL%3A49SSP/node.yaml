@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oophaga occultator
+  displayName: Oophaga occultator
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/49SSP
+  sourceIndexes:
+    - name:
+        en: Oophaga occultator
+        zh: Oophaga occultator
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 49SSP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/172
+            queryName: Oophaga occultator
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/189
+            queryName: Dendrobates occultator
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-aee79542c5
+      - s-b3d60bc8b7
+      - s-5fe24dddcc
+      - s-a1e3944eb1
+      - s-2871163c66
+      - s-a962a498b5
+      - s-859c060fc8
+    zh:
+      - s-403ec17a61
+      - s-18f3af8c3d
+      - s-e954a19294
+      - s-b1daa85259
+      - s-6688438c45
+      - s-a22e360bc9
+      - s-9641bc41ac

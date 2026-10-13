@@ -1,0 +1,186 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Phenacolemur praecox
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Phenacolemur praecox
+      en: Phenacolemur praecox
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-10e0673308
+            part: body
+          en:
+            page: en
+            section: s-b7fbfcb8e4
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e5fe207ed1
+            part: body
+          en:
+            page: en
+            section: s-c4ed9a0b22
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-3770471896
+            part: body
+          en:
+            page: en
+            section: s-48973c942c
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-b618fff567
+            part: body
+          en:
+            page: en
+            section: s-6e49e30187
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-49ef0d3abe
+            part: body
+          en:
+            page: en
+            section: s-d136a75daf
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Phenacolemur praecox
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50331&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50331; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50331
+          selectedOccurrenceIds:
+            - occ:166875
+            - occ:166948
+            - occ:167091
+            - occ:167110
+            - occ:167125
+            - occ:167133
+            - occ:167265
+            - occ:167453
+            - occ:167508
+            - occ:167643
+            - occ:172543
+            - occ:462560
+            - occ:469224
+            - occ:752582
+            - occ:752598
+            - occ:1193860
+          selectedCollectionIds:
+            - col:15084
+            - col:15089
+            - col:15104
+            - col:15107
+            - col:15109
+            - col:15110
+            - col:15132
+            - col:15161
+            - col:15171
+            - col:15193
+            - col:15912
+            - col:15586
+            - col:46652
+            - col:80579
+            - col:80580
+            - col:154274
+          sourceReferenceIds:
+            - ref:2953
+            - ref:2159
+            - ref:1358
+            - ref:11717
+            - ref:27112
+            - ref:49988
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d4afc031c7
+        part: body
+      en:
+        page: en
+        section: s-fecfba032a
+        part: body

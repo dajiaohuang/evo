@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Batrachyla
+  displayName: Batrachyla
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/62F2G
+  sourceIndexes:
+    - name:
+        en: Batrachyla
+        zh: Batrachyla
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 62F2G
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/226
+            queryName: Batrachyla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 48
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-13330b3d4b
+      - s-960ac029a5
+      - s-7073497c4a
+      - s-38a315c861
+      - s-88060371cd
+      - s-15b7eca468
+      - s-56c731dcf0
+      - s-00d31eee95
+      - s-b1a325cb3e
+      - s-99f6048d39
+      - s-d079189ef0
+      - s-7b3e86b1bb
+      - s-6211151682
+      - s-bb214d1a9e
+      - s-6273566ae3
+      - s-ad624e0a25
+      - s-cb28176828
+      - s-e2faedf2d9
+    zh:
+      - s-bbac8df4f1
+      - s-d5dd559321
+      - s-ec6e4f8c49
+      - s-74d0b54354
+      - s-35a7ffeb95
+      - s-75abf3a82a
+      - s-8dcc2efd3f
+      - s-55a266448e
+      - s-a21d7ee7fb
+      - s-953c19ce27
+      - s-bb835fa71f
+      - s-564ac969a5
+      - s-5f70a61779
+      - s-be2b886f76
+      - s-beb6185514
+      - s-cd4305f91a
+      - s-b540f7082c
+      - s-1fe9c0c6e6

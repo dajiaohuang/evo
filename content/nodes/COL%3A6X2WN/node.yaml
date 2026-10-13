@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana pyrenaica
+  displayName: Rana pyrenaica
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6X2WN
+  sourceIndexes:
+    - name:
+        en: Rana pyrenaica
+        zh: Rana pyrenaica
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6X2WN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/79
+            queryName: Rana pyrenaica
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 14
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac29ba4da0
+      - s-40276cd5df
+      - s-f7170a1482
+      - s-46672accd3
+      - s-75c806cebe
+      - s-e5ae314945
+      - s-4aa88fdf6b
+      - s-cac484a4c1
+      - s-08076b8745
+      - s-f40959f00f
+    zh:
+      - s-5ef70f12e1
+      - s-1e72aecaf0
+      - s-c246d5afd5
+      - s-06e4b7a350
+      - s-76cb739158
+      - s-bda35fb8ed
+      - s-976b89c5bf
+      - s-f008b5dea1
+      - s-61f0d4af4e
+      - s-2fa2db14f0

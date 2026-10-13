@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Bufo cryptotympanicus
+    name:
+      en: Bufo cryptotympanicus
+      zh: Bufo cryptotympanicus
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Bufo
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Bufo cryptotympanicus in the version 3 classification
+          zh: Bufo cryptotympanicus 在第 3 版存档中的分类
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cb86f79d69
+            part: body
+          zh:
+            page: zh
+            section: s-7b0fae72c3
+            part: body
+      - topic: morphology
+        title:
+          en: 2 measurement rows and 13 populated trait fields
+          zh: 2 条测量行与 13 个有值性状字段
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3e46294609
+            part: body
+          zh:
+            page: zh
+            section: s-d773223fb1
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 925, 926; Reference.csv rows 2595
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 925
+        values:
+          - Bufonidae
+          - Bufo
+          - Bufo cryptotympanicus
+          - F
+          - "68.4"
+          - "21.8"
+          - "25.6"
+          - "9"
+          - NA
+          - NA
+          - "4.7"
+          - "5"
+          - "6.4"
+          - NA
+          - "6.3"
+          - NA
+          - "17.4"
+          - NA
+          - "35"
+          - "29"
+          - NA
+          - "27"
+          - NA
+          - NA
+          - "91"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 926
+        values:
+          - Bufonidae
+          - Bufo
+          - Bufo cryptotympanicus
+          - M
+          - "67.9"
+          - "21.8"
+          - "24.4"
+          - "7"
+          - NA
+          - NA
+          - "6.3"
+          - "4.7"
+          - "5.8"
+          - NA
+          - "8.3"
+          - NA
+          - "17"
+          - NA
+          - "32.8"
+          - "30.4"
+          - NA
+          - "27"
+          - NA
+          - NA
+          - "92"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2595
+        values:
+          - Anura
+          - Bufo_cryptotympanicus
+          - Fei, L., Hu, S,,Q., Ye, C, Y., et al. (2006) Fauna of China, Class Amphibia (Middle Volume) Anura. Science Press, Beijing.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - SL
+      - HAL
+      - LAL
+      - FL
+      - TL
+      - HLL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - NP4B
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

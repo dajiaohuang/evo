@@ -1,0 +1,245 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Canis etruscus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Canis etruscus
+      en: Canis etruscus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-297b077bf3
+            part: body
+          en:
+            page: en
+            section: s-9f4a32b911
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d08aca8209
+            part: body
+          en:
+            page: en
+            section: s-a6e11774ad
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d84b003160
+            part: body
+          en:
+            page: en
+            section: s-71648196b5
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f84678fc91
+            part: body
+          en:
+            page: en
+            section: s-6d4eeb7549
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-805991d07b
+            part: body
+          en:
+            page: en
+            section: s-2d4bdaafc4
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Canis etruscus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=376900&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:376900; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:376900
+          selectedOccurrenceIds:
+            - occ:363600
+            - occ:365332
+            - occ:367688
+            - occ:368996
+            - occ:369045
+            - occ:369252
+            - occ:369699
+            - occ:370531
+            - occ:387459
+            - occ:387487
+            - occ:412079
+            - occ:412082
+            - occ:417579
+            - occ:439046
+            - occ:448605
+            - occ:448612
+            - occ:479850
+            - occ:479879
+            - occ:487322
+            - occ:487335
+            - occ:487387
+            - occ:487400
+            - occ:487408
+            - occ:487415
+            - occ:488560
+            - occ:489315
+            - occ:489370
+            - occ:497772
+            - occ:498800
+            - occ:724191
+            - occ:872761
+            - occ:1350252
+            - occ:1381614
+            - occ:1425148
+            - occ:1703388
+          selectedCollectionIds:
+            - col:34446
+            - col:34617
+            - col:34782
+            - col:34898
+            - col:34911
+            - col:34929
+            - col:34985
+            - col:35078
+            - col:37024
+            - col:37026
+            - col:39847
+            - col:39848
+            - col:40500
+            - col:42241
+            - col:44145
+            - col:44146
+            - col:47829
+            - col:47831
+            - col:48889
+            - col:48890
+            - col:48893
+            - col:48908
+            - col:48910
+            - col:48911
+            - col:49093
+            - col:49240
+            - col:49254
+            - col:50274
+            - col:50466
+            - col:77773
+            - col:96741
+            - col:183092
+            - col:189026
+            - col:197940
+            - col:197052
+          sourceReferenceIds:
+            - ref:9043
+            - ref:9135
+            - ref:9343
+            - ref:9372
+            - ref:9381
+            - ref:9390
+            - ref:9469
+            - ref:9913
+            - ref:10805
+            - ref:10917
+            - ref:11379
+            - ref:11584
+            - ref:11585
+            - ref:12802
+            - ref:13065
+            - ref:13053
+            - ref:13054
+            - ref:13150
+            - ref:13155
+            - ref:8651
+            - ref:13532
+            - ref:26265
+            - ref:32997
+            - ref:61081
+            - ref:63501
+            - ref:67461
+            - ref:67102
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-227a76cabb
+        part: body
+      en:
+        page: en
+        section: s-83fc22fe29
+        part: body

@@ -1,0 +1,188 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Blarinoides mariae
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Blarinoides mariae
+      en: Blarinoides mariae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-649e919cf3
+            part: body
+          en:
+            page: en
+            section: s-4416d1fdaa
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e0e1b77200
+            part: body
+          en:
+            page: en
+            section: s-1bd28a759a
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-65ed638629
+            part: body
+          en:
+            page: en
+            section: s-057cee5bc8
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-0349376203
+            part: body
+          en:
+            page: en
+            section: s-a5ec97f637
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f0bdb11632
+            part: body
+          en:
+            page: en
+            section: s-8561917840
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Blarinoides mariae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=94099&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:94099; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:94099
+          selectedOccurrenceIds:
+            - occ:356889
+            - occ:360926
+            - occ:360931
+            - occ:360934
+            - occ:360939
+            - occ:360942
+            - occ:360944
+            - occ:373445
+            - occ:373527
+            - occ:414595
+            - occ:422051
+            - occ:489808
+            - occ:1468650
+            - occ:1468689
+          selectedCollectionIds:
+            - col:32240
+            - col:33872
+            - col:33396
+            - col:33638
+            - col:33473
+            - col:32485
+            - col:33480
+            - col:35354
+            - col:35358
+            - col:40121
+            - col:41026
+            - col:49360
+            - col:205172
+            - col:199747
+          sourceReferenceIds:
+            - ref:8998
+            - ref:19902
+            - ref:9534
+            - ref:10873
+            - ref:11054
+            - ref:13151
+            - ref:70401
+            - ref:70399
+          originalIdentificationMappings:
+            - occurrenceId: occ:360931
+              originalIdentifiedName: Blarinoides mariae n. gen. n. sp.
+              acceptedName: Blarinoides mariae
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-62fa87115d
+        part: body
+      en:
+        page: en
+        section: s-50cc045f09
+        part: body

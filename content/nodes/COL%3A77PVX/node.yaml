@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plethodon vandykei
+  displayName: Plethodon vandykei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77PVX
+  sourceIndexes:
+    - name:
+        en: Plethodon vandykei
+        zh: Plethodon vandykei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77PVX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/496
+            queryName: Plethodon vandykei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/490
+            queryName: Plethodon vandykei vandykei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-78b1c876a7
+      - s-4140e2cdfc
+      - s-34a49b5916
+      - s-7687c58b50
+      - s-dcb5ba5785
+      - s-0580825d8d
+      - s-2144a20283
+      - s-0384fda8c9
+      - s-49a4da47c6
+    zh:
+      - s-0208532c6b
+      - s-110639d730
+      - s-389935f393
+      - s-341217a928
+      - s-ddac3f21dc
+      - s-ccd21a0c67
+      - s-10ffc97c0c
+      - s-41b1a605c0
+      - s-88365b7fee

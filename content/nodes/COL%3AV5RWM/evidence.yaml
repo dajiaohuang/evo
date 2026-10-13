@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Kallistobatrachus Richards, Mahony & Donnellan in Donnellan et al., 2025
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Kallistobatrachus
+      zh: Kallistobatrachus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6562aec9b4
+            part: title
+          zh:
+            page: zh
+            section: s-10be06a762
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6562aec9b4
+            part: body
+          zh:
+            page: zh
+            section: s-10be06a762
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b0637dd77f
+            part: title
+          zh:
+            page: zh
+            section: s-bd2dd564cb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b0637dd77f
+            part: body
+          zh:
+            page: zh
+            section: s-bd2dd564cb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-af5c1a1f9e
+            part: title
+          zh:
+            page: zh
+            section: s-54a7a3fc33
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: V5P99
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5P99
+            label:
+              en: Kallistobatrachus aplini
+              zh: Kallistobatrachus aplini
+          - kind: catalogue
+            colId: V5QCY
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5QCY
+            label:
+              en: Kallistobatrachus beryllinus
+              zh: Kallistobatrachus beryllinus
+          - kind: catalogue
+            colId: V5JM3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5JM3
+            label:
+              en: Kallistobatrachus chloronotus
+              zh: Kallistobatrachus chloronotus
+          - kind: catalogue
+            colId: V57HN
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV57HN
+            label:
+              en: Kallistobatrachus haematogaster
+              zh: Kallistobatrachus haematogaster
+          - kind: catalogue
+            colId: V5DJ3
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5DJ3
+            label:
+              en: Kallistobatrachus iris
+              zh: Kallistobatrachus iris
+          - kind: catalogue
+            colId: V5PSZ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5PSZ
+            label:
+              en: Kallistobatrachus lisae
+              zh: Kallistobatrachus lisae
+          - kind: catalogue
+            colId: V5JC9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5JC9
+            label:
+              en: Kallistobatrachus majikthise
+              zh: Kallistobatrachus majikthise
+          - kind: catalogue
+            colId: V5GTX
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AV5GTX
+            label:
+              en: Kallistobatrachus ollauro
+              zh: Kallistobatrachus ollauro
+        text:
+          en:
+            page: en
+            section: s-af5c1a1f9e
+            part: body
+          zh:
+            page: zh
+            section: s-54a7a3fc33
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Kallistobatrachus
+          url: https://www.checklistbank.org/dataset/316115/taxon/V5RWM
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-3f0debd53d
+        part: body
+      zh:
+        page: zh
+        section: s-e6ab5941e7
+        part: body

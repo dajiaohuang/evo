@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Melanophryniscus milanoi
+  displayName: Melanophryniscus milanoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/72XKK
+  sourceIndexes:
+    - name:
+        en: Melanophryniscus milanoi
+        zh: Melanophryniscus milanoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 72XKK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/396
+            queryName: Melanophryniscus milanoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-da0b5beb22
+      - s-fbd0abed47
+      - s-fd7e3ceb72
+      - s-7cd913cd33
+      - s-ed42943c67
+      - s-ff58a24726
+    zh:
+      - s-2feb65dc7f
+      - s-aa3d4db49a
+      - s-d6b867bb44
+      - s-78db33b992
+      - s-ad96772ab1
+      - s-be168d30ea

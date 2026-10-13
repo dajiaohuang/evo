@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hoplophryne rogersi
+  displayName: Hoplophryne rogersi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3MM9G
+  sourceIndexes:
+    - name:
+        en: Hoplophryne rogersi
+        zh: Hoplophryne rogersi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3MM9G
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/306
+            queryName: Hoplophryne rogersi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1a4c31bac9
+      - s-ae9f3f16d0
+      - s-436b21ae46
+      - s-2e51b1f652
+      - s-263676e2bc
+      - s-c9e484723a
+      - s-ffa880ebef
+      - s-b67d8ba8d3
+      - s-1b3fd5c545
+      - s-449f45414d
+      - s-7ceae04f5c
+      - s-b1c8c4258d
+    zh:
+      - s-fd45aa9065
+      - s-51165ac0c5
+      - s-aa5163ec4e
+      - s-453c14e649
+      - s-2bd2e8f419
+      - s-a85f80a18d
+      - s-937284f8b7
+      - s-26520268ed
+      - s-b8e892a7d3
+      - s-94e2ef05db
+      - s-7dfc0de910
+      - s-59e4f5d6c2

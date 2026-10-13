@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllodytes praeceptor
+  displayName: Phyllodytes praeceptor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4H7DT
+  sourceIndexes:
+    - name:
+        en: Phyllodytes praeceptor
+        zh: Phyllodytes praeceptor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4H7DT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/263
+            queryName: Phyllodytes praeceptor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e742011277
+      - s-8836c924f3
+      - s-cbd1a927e9
+      - s-6222131b3f
+      - s-f62c8fa88a
+      - s-83129d0dd3
+    zh:
+      - s-cc05d96a6b
+      - s-8a85f563f6
+      - s-599614dedf
+      - s-ab87b73aa5
+      - s-b1e22c48cc
+      - s-0453dcdcea

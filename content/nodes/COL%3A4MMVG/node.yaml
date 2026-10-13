@@ -1,0 +1,116 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Proceratophrys schirchi
+  displayName: Proceratophrys schirchi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MMVG
+  sourceIndexes:
+    - name:
+        en: Proceratophrys schirchi
+        zh: Proceratophrys schirchi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MMVG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/241
+            queryName: Proceratophrys schirchi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/314
+            queryName: Ceratophrys schirchi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/388
+            queryName: Stombus schirchi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/389
+            queryName: Stombus precrenulatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/390
+            queryName: Proceratophrys precrenulata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bb36e5f5d7
+      - s-b48147d6c7
+      - s-503d416169
+      - s-3c5c35e619
+      - s-dca63ef7bd
+      - s-176c7219c4
+      - s-65c212fb34
+      - s-4785f74f8f
+      - s-59ecda85ae
+      - s-4a8d6b7b0c
+      - s-68a9a63abb
+      - s-46ac984a31
+      - s-f3668b361c
+      - s-c1f5eb6997
+      - s-12d8340529
+      - s-7b784771da
+      - s-ef4bd3366b
+      - s-5effb1d213
+      - s-dc77f667ae
+      - s-2842f45ca3
+      - s-c667dd9d85
+      - s-0c43c2acbd
+      - s-1e5e03bc3e
+    zh:
+      - s-eeb1ffef4a
+      - s-c111253c14
+      - s-31e365390b
+      - s-304b77bd05
+      - s-8ab9afdc39
+      - s-998dc7cbe5
+      - s-e00bbf0dc4
+      - s-53dbe88bc1
+      - s-aabac6a2ae
+      - s-0f0260f223
+      - s-b13d69d535
+      - s-290b14bb34
+      - s-43f4e59441
+      - s-05d0b71e4c
+      - s-3d8d3b73db
+      - s-ada9cc3943
+      - s-54c271cbb0
+      - s-5962b3c81e
+      - s-7e55080105
+      - s-09bced3714
+      - s-2681dd75dc
+      - s-fdf08b10c4
+      - s-1774460b30

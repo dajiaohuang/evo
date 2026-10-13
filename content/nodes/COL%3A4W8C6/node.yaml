@@ -1,0 +1,78 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Sechellophryne gardineri
+  displayName: Sechellophryne gardineri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4W8C6
+  sourceIndexes:
+    - name:
+        en: Sechellophryne gardineri
+        zh: Sechellophryne gardineri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4W8C6
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/171
+            queryName: Sechellophryne gardineri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/345
+            queryName: Sooglossus gardineri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/51
+            queryName: Nectophryne gardineri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/52
+            queryName: Leptosooglossus gardineri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cbb89be617
+      - s-972b31a6ee
+      - s-364780c04b
+      - s-28e9783091
+      - s-f99e613b42
+      - s-ea2a853ce8
+      - s-b0126c7906
+      - s-b70092e5df
+      - s-a15450f7c4
+      - s-56e4acb40e
+    zh:
+      - s-819db6cdfa
+      - s-ab92b6ce3c
+      - s-1d39b18704
+      - s-6cb2b64854
+      - s-ccd46c7de0
+      - s-5b5a4501ac
+      - s-102e0de3c7
+      - s-9e78296e4b
+      - s-984b47a110
+      - s-2910b71dbf

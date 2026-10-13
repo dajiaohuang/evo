@@ -1,0 +1,250 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachium aryatium Purkayastha, Dutta, Gogoi & Sengupta, 2025
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachium aryatium
+      zh: Leptobrachium aryatium
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-aa0b4ade1c
+            part: title
+          zh:
+            page: zh
+            section: s-1f5652bee5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-aa0b4ade1c
+            part: body
+          zh:
+            page: zh
+            section: s-1f5652bee5
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-17191f735a
+            part: title
+          zh:
+            page: zh
+            section: s-8f56dfad4f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-17191f735a
+            part: body
+          zh:
+            page: zh
+            section: s-8f56dfad4f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3cd287f6e1
+            part: title
+          zh:
+            page: zh
+            section: s-f8cde299ac
+            part: title
+        sourceIds:
+          - primary-pmc12794644-v37rs
+        text:
+          en:
+            page: en
+            section: s-3cd287f6e1
+            part: body
+          zh:
+            page: zh
+            section: s-f8cde299ac
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-209855836e
+            part: title
+          zh:
+            page: zh
+            section: s-c80611f482
+            part: title
+        sourceIds:
+          - primary-pmc12794644-v37rs
+        text:
+          en:
+            page: en
+            section: s-209855836e
+            part: body
+          zh:
+            page: zh
+            section: s-c80611f482
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ae11a04412
+            part: title
+          zh:
+            page: zh
+            section: s-692748a5e1
+            part: title
+        sourceIds:
+          - primary-pmc12794644-v37rs
+        text:
+          en:
+            page: en
+            section: s-ae11a04412
+            part: body
+          zh:
+            page: zh
+            section: s-692748a5e1
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachium aryatium
+          url: https://www.checklistbank.org/dataset/316115/taxon/V37RS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc12794644-v37rs
+        referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachium aryatium: Selected individual species accounts and molecular methods in the Indian genus revision; original factual summaries only, no images or supplementary datasets reproduced; two newly described taxa absent from pinned catalogue kept in a separate pending ledger; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ae183c916c
+        part: body
+      zh:
+        page: zh
+        section: s-852999680e
+        part: body
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.20397
+        referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+        sourceKey: primary-pmc12794644-v37rs
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12794644/article.xml
+        sourceConcept: Leptobrachium aryatium
+        evidenceRead: "Leptobrachium aryatium: Selected individual species accounts and molecular methods in the Indian genus revision; original factual summaries only, no images or supplementary datasets reproduced; two newly described taxa absent from pinned catalogue kept in a separate pending ledger; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: The male diagnosis retains a malformed head comparison
+              zh: 雄性鉴别保留异常头部比较措辞
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-v37rs
+            locator: PMC12794644 reading-sections section 5 paragraphs 2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5e6cea883a
+                part: body
+              zh:
+                page: zh
+                section: s-841ef9dfaa
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: taxonomy
+            heading:
+              en: The sylheticum sister relationship is mitochondrial evidence
+              zh: 与 sylheticum 的姐妹关系属于线粒体证据
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-v37rs
+            locator: PMC12794644 reading-sections section 5 paragraphs 3; section 1 paragraphs 0–1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c71781b67b
+                part: body
+              zh:
+                page: zh
+                section: s-5ec7f558c8
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Monsoon encounters extend earlier Assam and Meghalaya records
+              zh: 季风期遇见补充 Assam 和 Meghalaya 旧记录
+            referenceId: ref-6ef0ea39-b7d5-4cf2-abad-52ae91de7ae8
+            sourceKey: primary-pmc12794644-v37rs
+            locator: PMC12794644 reading-sections section 5 paragraphs 10
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b4b75a1201
+                part: body
+              zh:
+                page: zh
+                section: s-b6b658e556
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

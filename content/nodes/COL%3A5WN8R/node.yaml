@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Bolitoglossa robinsoni
+  displayName: Bolitoglossa robinsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5WN8R
+  sourceIndexes:
+    - name:
+        en: Bolitoglossa robinsoni
+        zh: Bolitoglossa robinsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5WN8R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/185
+            queryName: Bolitoglossa robinsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-979622e85b
+      - s-9ff3ea878e
+      - s-9e3a876238
+      - s-73cfa20cbb
+      - s-23cc61c36f
+      - s-59b7740759
+    zh:
+      - s-1737f00e26
+      - s-364f0556a9
+      - s-c751600b8a
+      - s-28934e067c
+      - s-e8a9a79243
+      - s-0451846f0b

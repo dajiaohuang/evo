@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Rhadinosteus parvus
+    rank: species
+    sourceTaxonId: txn:81823
+    name:
+      en: Rhadinosteus parvus
+      zh: Rhadinosteus parvus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-a97b407d7f
+            part: body
+          zh:
+            page: zh
+            section: s-a5e103b58f
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-0ad81e4ae1
+            part: body
+          zh:
+            page: zh
+            section: s-ef22193bd7
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-4b72464372
+            part: body
+          zh:
+            page: zh
+            section: s-34612f5da8
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:81823; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: A. C. Henrici. 1998. A new pipoid anuran from the Late Jurassic Morrison Formation at Dinosaur National Monument, Utah. Journal of Vertebrate Paleontology 18(2):321-332
+    occurrenceEvidence:
+      - occurrenceId: occ:574036
+        collectionId: col:57913
+        acceptedTaxonId: txn:81823
+        identifiedName: Rhadinosteus parvus n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:17758
+        bibliography: A. C. Henrici. 1998. A new pipoid anuran from the Late Jurassic Morrison Formation at Dinosaur National Monument, Utah. Journal of Vertebrate Paleontology 18(2):321-332
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: Uintah
+        stratigraphy:
+          group: null
+          formation: Morrison
+          member: Brushy Basin
+        olderAgeMa: 149.2
+        youngerAgeMa: 143.1
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-4b72464372
+            part: body
+          zh:
+            page: zh
+            section: s-34612f5da8
+            part: body
+        sourceIds: []

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microcaecilia rabei
+  displayName: Microcaecilia rabei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42S5M
+  sourceIndexes:
+    - name:
+        en: Microcaecilia rabei
+        zh: Microcaecilia rabei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42S5M
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/483
+            queryName: Microcaecilia rabei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/49
+            queryName: Gymnopis rabei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ed4a9a129
+      - s-fa16f8c31b
+      - s-9483dc7510
+      - s-d8c5803949
+      - s-89f630a2ce
+      - s-7fc0872583
+      - s-bd6c7e3354
+    zh:
+      - s-bdc0ef53c8
+      - s-ed8a6ce9fd
+      - s-1faf179f6d
+      - s-3c03fbcba8
+      - s-d81d18e304
+      - s-55f35fff07
+      - s-bef9ae9b9e

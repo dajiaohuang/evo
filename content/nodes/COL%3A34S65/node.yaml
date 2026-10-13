@@ -1,0 +1,88 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus meridianus
+  displayName: Dendropsophus meridianus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S65
+  sourceIndexes:
+    - name:
+        en: Dendropsophus meridianus
+        zh: Dendropsophus meridianus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S65
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/386
+            queryName: Dendropsophus meridianus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/394
+            queryName: Hyla meridiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/365
+            queryName: Hyla misera meridiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/366
+            queryName: Hyla microcephala meridiana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d615558aeb
+      - s-14a7fc0ccc
+      - s-83bdb2db2a
+      - s-b7c5a15bcf
+      - s-fddc84107a
+      - s-9647cff786
+      - s-7b3178d3eb
+      - s-5ddb105070
+      - s-6ff73cd0fd
+      - s-13b716c87e
+      - s-b5a858dc82
+      - s-5d85536144
+      - s-f7cc8c5ce7
+      - s-becf418c3b
+      - s-1d64d6aa17
+    zh:
+      - s-11de1e70b2
+      - s-59dcbad1d9
+      - s-1bd9b85ed8
+      - s-3b4d733359
+      - s-ac43ef3d55
+      - s-4c40613295
+      - s-cdbb26be84
+      - s-e6c21c73ba
+      - s-242f989cd0
+      - s-d5b96a86be
+      - s-c14fa34722
+      - s-e151aaa711
+      - s-ef9f759223
+      - s-4c25eadfc6
+      - s-233525e2d8

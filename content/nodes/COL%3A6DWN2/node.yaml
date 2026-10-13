@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ecnomiohyla salvaje
+  displayName: Ecnomiohyla salvaje
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DWN2
+  sourceIndexes:
+    - name:
+        en: Ecnomiohyla salvaje
+        zh: Ecnomiohyla salvaje
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DWN2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/111
+            queryName: Ecnomiohyla salvaje
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/459
+            queryName: Hyla salvaje
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-310e1e4aa3
+      - s-20ddf9c1ae
+      - s-9d84eb5100
+      - s-6625fd4877
+      - s-b555221f01
+      - s-805f22dcd8
+      - s-bb7f9b7d2d
+      - s-ba54422866
+      - s-b770181d19
+      - s-56e67a810f
+    zh:
+      - s-92641eb152
+      - s-d07967455c
+      - s-4a6fb261c4
+      - s-3b6b0a2cd2
+      - s-691b55560a
+      - s-e433f443cc
+      - s-03fb51fd05
+      - s-d81d42e314
+      - s-296732f6c3
+      - s-308beb4257

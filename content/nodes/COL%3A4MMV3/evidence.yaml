@@ -1,0 +1,386 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Proceratophrys moehringi Weygoldt & Peixoto, 1985
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Proceratophrys moehringi
+      zh: Proceratophrys moehringi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b9a2e7bd8f
+            part: title
+          zh:
+            page: zh
+            section: s-4f7f9e977d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b9a2e7bd8f
+            part: body
+          zh:
+            page: zh
+            section: s-4f7f9e977d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-489c2946be
+            part: title
+          zh:
+            page: zh
+            section: s-6c8941805f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-489c2946be
+            part: body
+          zh:
+            page: zh
+            section: s-6c8941805f
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f3d2115643
+            part: title
+          zh:
+            page: zh
+            section: s-5d4eaadf7e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - tadpoletraits
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-f3d2115643
+            part: body
+          zh:
+            page: zh
+            section: s-5d4eaadf7e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-9ffc540d76576b590964dccd5e7ef77b
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.28069802.v4
+            targetPath: content/nodes/local-31dc276d5a75cbd343ee302d
+            label:
+              en: TadpoleTraits v4 — original dataset
+              zh: TadpoleTraits v4 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-664cefd080
+            part: title
+          zh:
+            page: zh
+            section: s-b32be91264
+            part: title
+        sourceIds:
+          - tadpoletraits
+        text:
+          en:
+            page: en
+            section: s-664cefd080
+            part: body
+          zh:
+            page: zh
+            section: s-b32be91264
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-8261f25ecf
+            part: title
+          zh:
+            page: zh
+            section: s-9ce5696706
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv3
+        text:
+          en:
+            page: en
+            section: s-8261f25ecf
+            part: body
+          zh:
+            page: zh
+            section: s-9ce5696706
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-cad8466db7
+            part: title
+          zh:
+            page: zh
+            section: s-5ac7633d9d
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv3
+        text:
+          en:
+            page: en
+            section: s-cad8466db7
+            part: body
+          zh:
+            page: zh
+            section: s-5ac7633d9d
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-25bacf1a22
+            part: title
+          zh:
+            page: zh
+            section: s-5d486fe77f
+            part: title
+        sourceIds:
+          - primary-pmc8436961-4mmv3
+        text:
+          en:
+            page: en
+            section: s-25bacf1a22
+            part: body
+          zh:
+            page: zh
+            section: s-5d486fe77f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Proceratophrys moehringi
+          url: https://www.checklistbank.org/dataset/316115/taxon/4MMV3
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: tadpoletraits
+        referenceId: ref-e5d27423-2f5f-44dd-a167-538d5a5e4e0d
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Tadpole data 2025.4.21.xlsx; Data obtained from literature rows 4239, 4240, 4241; Picture measurement data rows none; Readme rows 6–50
+          scope:
+            en: The deposited ASTW-2024 source concept, literature/image evidence distinction, supplied developmental labels and non-conflicting source proportions. No adult morphology or range-wide diagnosis is inferred.
+            zh: 存档的 ASTW-2024 来源概念、文献与图像证据的区别、所给发育标签及无已发现冲突的来源比例；不推断成体形态或全分布区鉴别特征。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf1400; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf1400 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc8436961-4mmv3
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Proceratophrys moehringi: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-b69cb24327
+        part: body
+      zh:
+        page: zh
+        section: s-b2450aabb6
+        part: body
+    additionalTraitSources:
+      - kind: tadpole-traits-reader
+        path: content/nodes/local-31dc276d5a75cbd343ee302d
+        scientificName: Proceratophrys moehringi
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.7717/peerj.12012
+        referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+        sourceKey: primary-pmc8436961-4mmv3
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC8436961/article.xml
+        sourceConcept: Exact named comparator, Appendix row, outgroup or sympatric record in the2021korekore study; not new complete species description
+        evidenceRead: "Proceratophrys moehringi: Proceratophrys korekore: Introduction,Fieldwork,Morphology,Bioacoustics,Phylogenetic inference,Nomenclatural acts,Results,Discussion and31Appendix specimen paragraphs read;allthree main tables andeightfigure captions read. ArticleCCBY4link verified. Figurepixels,rawsounds,originalGenBank/alignment,DocumentS1/S2,museumobjects not independently read/authenticated.; no figures or deposited datasets reproduced; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC-BY-4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A named character in the2021 comparison
+              zh: 2021年比较中的具名性状
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv3
+            locator: PMC8436961 article.xml sec8p7;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-b54c8af41d
+                part: body
+              zh:
+                page: zh
+                section: s-4e1a04e54d
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: morphology
+            heading:
+              en: A named character in the2021 comparison
+              zh: 2021年比较中的具名性状
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv3
+            locator: PMC8436961 article.xml sec8p7;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-93f0f9b512
+                part: body
+              zh:
+                page: zh
+                section: s-95b8fd0b67
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: range
+            heading:
+              en: Specimens in the examined-material Appendix
+              zh: 检查材料附录标本
+            referenceId: ref-8c17b3e6-b853-4b57-aeed-262a2fba42a7
+            sourceKey: primary-pmc8436961-4mmv3
+            locator: PMC8436961 article.xml sec11p21;proceratophrys-korekore-sections-and-tables.json
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-1ea292192d
+                part: body
+              zh:
+                page: zh
+                section: s-caf69c4866
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

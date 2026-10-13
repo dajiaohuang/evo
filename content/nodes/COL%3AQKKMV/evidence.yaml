@@ -1,0 +1,208 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Microhyla hmongorum Hoang, Nguyen, Phan, Pham, Ninh, Wang, Jiang, Ziegler & Nguyen, 2022
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Microhyla hmongorum
+      zh: Microhyla hmongorum
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-83a4048dfb
+            part: title
+          zh:
+            page: zh
+            section: s-1fb86ec296
+            part: title
+        text:
+          en:
+            page: en
+            section: s-83a4048dfb
+            part: body
+          zh:
+            page: zh
+            section: s-1fb86ec296
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-df491d9b72
+            part: title
+          zh:
+            page: zh
+            section: s-25cee84b51
+            part: title
+        text:
+          en:
+            page: en
+            section: s-df491d9b72
+            part: body
+          zh:
+            page: zh
+            section: s-25cee84b51
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-93054b1519
+            part: title
+          zh:
+            page: zh
+            section: s-d4f62f2486
+            part: title
+        sourceIds:
+          - primary-pmc10848633-qkkmv
+        text:
+          en:
+            page: en
+            section: s-93054b1519
+            part: body
+          zh:
+            page: zh
+            section: s-d4f62f2486
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-004316d110
+            part: title
+          zh:
+            page: zh
+            section: s-94612ea372
+            part: title
+        sourceIds:
+          - primary-pmc10848633-qkkmv
+        text:
+          en:
+            page: en
+            section: s-004316d110
+            part: body
+          zh:
+            page: zh
+            section: s-94612ea372
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Microhyla hmongorum
+          url: https://www.checklistbank.org/dataset/316115/taxon/QKKMV
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc10848633-qkkmv
+        referenceId: ref-23612dc1-7b92-441d-a2ff-772fdb5a8e75
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Microhyla hmongorum: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-181eef2849
+        part: body
+      zh:
+        page: zh
+        section: s-924e3d8704
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.11.e103580
+        referenceId: ref-23612dc1-7b92-441d-a2ff-772fdb5a8e75
+        sourceKey: primary-pmc10848633-qkkmv
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10848633/article.xml
+        sourceConcept: Microhyla hmongorum
+        evidenceRead: "Microhyla hmongorum: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The first reported Chinese records
+              zh: 首次报告的中国记录
+            referenceId: ref-23612dc1-7b92-441d-a2ff-772fdb5a8e75
+            sourceKey: primary-pmc10848633-qkkmv
+            locator: "Microhyla hmongorum: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6fd977d29e
+                part: body
+              zh:
+                page: zh
+                section: s-c74ebae034
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Standing water in disturbed areas
+              zh: 受扰动地区的静水
+            referenceId: ref-23612dc1-7b92-441d-a2ff-772fdb5a8e75
+            sourceKey: primary-pmc10848633-qkkmv
+            locator: "Microhyla hmongorum: Species distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-073f810608
+                part: body
+              zh:
+                page: zh
+                section: s-a19df793c1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

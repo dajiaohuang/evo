@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Notaden
+  displayName: Notaden
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/64YG
+  sourceIndexes:
+    - name:
+        en: Notaden
+        zh: Notaden
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 64YG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/90
+            queryName: Notaden
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 45
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-be92c33bca
+      - s-64edcdd907
+      - s-08a8b31e13
+      - s-1d21b521f9
+      - s-5670f494d9
+      - s-923cc98ba4
+    zh:
+      - s-b368eedf68
+      - s-9efffec562
+      - s-f82c8b60f1
+      - s-788a3baac3
+      - s-4a471ae609
+      - s-e91fe7418c

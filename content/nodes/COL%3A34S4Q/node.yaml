@@ -1,0 +1,106 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus branneri
+  displayName: Dendropsophus branneri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S4Q
+  sourceIndexes:
+    - name:
+        en: Dendropsophus branneri
+        zh: Dendropsophus branneri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S4Q
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/346
+            queryName: Dendropsophus branneri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/282
+            queryName: Hyla branneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00028.json.gz
+            field: /records/362
+            queryName: Hyla bipunctata branneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/303
+            queryName: Hyla scrobiculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00044.json.gz
+            field: /records/414
+            queryName: Hyla decipiens branneri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3a9f91265b
+      - s-99f1a646a2
+      - s-c3d9455241
+      - s-74a29b7ae2
+      - s-3620531fca
+      - s-94617b2060
+      - s-6d843e998d
+      - s-8d6021b2a3
+      - s-9d7ce2d0a4
+      - s-b6328c0087
+      - s-ed5a535783
+      - s-dae2a13c0f
+      - s-32357180f2
+      - s-feebb82a57
+      - s-03d9841597
+      - s-f8e702d750
+      - s-d5cc7b954e
+      - s-899c1d9e40
+      - s-04f8224361
+      - s-89192344be
+      - s-c499bb07e3
+    zh:
+      - s-2ff0405a6f
+      - s-434bcc5fe2
+      - s-76c00cc3f3
+      - s-24f1b11a66
+      - s-cfe155dc30
+      - s-5cbd7f1eee
+      - s-9dd5ce24f0
+      - s-a5efffb11a
+      - s-2db25dfe35
+      - s-927f764503
+      - s-73ce7e9021
+      - s-32a58024fc
+      - s-744f681e20
+      - s-0c1d9faa43
+      - s-097a290196
+      - s-3356d2f140
+      - s-0383b72699
+      - s-70c9c33e88
+      - s-66777be4f4
+      - s-788924a53d
+      - s-0524629415

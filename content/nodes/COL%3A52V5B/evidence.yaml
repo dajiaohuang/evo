@@ -1,0 +1,341 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Strabomantis anomalus (Boulenger, 1898)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Strabomantis anomalus
+      zh: Strabomantis anomalus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-dad0002e99
+            part: title
+          zh:
+            page: zh
+            section: s-69ddcff22b
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dad0002e99
+            part: body
+          zh:
+            page: zh
+            section: s-69ddcff22b
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-cbe246445f
+            part: title
+          zh:
+            page: zh
+            section: s-a8cfa5582d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-cbe246445f
+            part: body
+          zh:
+            page: zh
+            section: s-a8cfa5582d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-ce72469bcd
+            part: title
+          zh:
+            page: zh
+            section: s-6cbd9cf309
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-ce72469bcd
+            part: body
+          zh:
+            page: zh
+            section: s-6cbd9cf309
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-f3d2879312
+            part: title
+          zh:
+            page: zh
+            section: s-34a8a14ac0
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-f3d2879312
+            part: body
+          zh:
+            page: zh
+            section: s-34a8a14ac0
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-d5d87fb7aa
+            part: title
+          zh:
+            page: zh
+            section: s-d60918d2e1
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_cold
+        text:
+          en:
+            page: en
+            section: s-d5d87fb7aa
+            part: body
+          zh:
+            page: zh
+            section: s-d60918d2e1
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-f915bc49b0
+            part: title
+          zh:
+            page: zh
+            section: s-410aa0223e
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-f915bc49b0
+            part: body
+          zh:
+            page: zh
+            section: s-410aa0223e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-4973eac5c5
+            part: title
+          zh:
+            page: zh
+            section: s-3aca5886e9
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-4973eac5c5
+            part: body
+          zh:
+            page: zh
+            section: s-3aca5886e9
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-913e1dc1d9
+            part: title
+          zh:
+            page: zh
+            section: s-28e20b4e3a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-913e1dc1d9
+            part: body
+          zh:
+            page: zh
+            section: s-28e20b4e3a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-75b0d28167
+            part: title
+          zh:
+            page: zh
+            section: s-7f52d8e6a0
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-75b0d28167
+            part: body
+          zh:
+            page: zh
+            section: s-7f52d8e6a0
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-81152e1019ee8a591a1d9312ee82c68c
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Strabomantis anomalus
+          url: https://www.checklistbank.org/dataset/316115/taxon/52V5B
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf5943; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf5946 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-fcc4c55d14
+        part: body
+      zh:
+        page: zh
+        section: s-2c2861294f
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-81152e1019ee8a591a1d9312ee82c68c
+      sourceRowId: Anf5943
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf5943
+        bibliographyRowId: Anf5946
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Pristimantis zoilae
+        candidateBibliographyRowIds:
+          - Anf5946
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.

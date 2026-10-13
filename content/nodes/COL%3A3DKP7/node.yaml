@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Exerodonta smaragdina
+  displayName: Exerodonta smaragdina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DKP7
+  sourceIndexes:
+    - name:
+        en: Exerodonta smaragdina
+        zh: Exerodonta smaragdina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DKP7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/451
+            queryName: Exerodonta smaragdina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/204
+            queryName: Hyla smaragdina
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/311
+            queryName: Hylella azteca
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-84ff440b47
+      - s-279f245f95
+      - s-93409e1a3a
+      - s-b00003e4c2
+      - s-857d2e3c55
+      - s-ad8704da80
+      - s-c908bfcb7c
+      - s-df611799d9
+      - s-64bf2ff207
+      - s-fcf588bd50
+      - s-4a53b565b4
+      - s-adc4e57206
+      - s-a7950ca7eb
+      - s-c24460ae0b
+      - s-2637cfcdad
+    zh:
+      - s-ecfc3ca025
+      - s-4839f70511
+      - s-06de1b51db
+      - s-b69f106a57
+      - s-e7efb1573b
+      - s-41ac1d982a
+      - s-b612e853fb
+      - s-739ec2db41
+      - s-038558828f
+      - s-9fc1b1f65c
+      - s-833dec9332
+      - s-c71850a820
+      - s-23d17901a7
+      - s-b6a2147b83
+      - s-7c71c6b5a5

@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mannophryne larandina
+  displayName: Mannophryne larandina
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3XVQ2
+  sourceIndexes:
+    - name:
+        en: Mannophryne larandina
+        zh: Mannophryne larandina
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3XVQ2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/268
+            queryName: Mannophryne larandina
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00041.json.gz
+            field: /records/251
+            queryName: Colostethus larandinus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ce0276ecdb
+      - s-5284a9e050
+      - s-740022e704
+      - s-ff7b85db3e
+      - s-6ffc5e129d
+      - s-eccc26fbbf
+      - s-06201cdedc
+    zh:
+      - s-afa470953a
+      - s-95c5b222e6
+      - s-fdfed1eb6e
+      - s-a92d3922aa
+      - s-99017adbb4
+      - s-d4da423dfe
+      - s-34a9c83d15

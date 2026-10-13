@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates wayuu
+  displayName: Allobates wayuu
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/BV2T
+  sourceIndexes:
+    - name:
+        en: Allobates wayuu
+        zh: Allobates wayuu
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: BV2T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/182
+            queryName: Allobates wayuu
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/163
+            queryName: Colostethus wayuu
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e89d06d94b
+      - s-1489dee4ea
+      - s-8a510578d5
+      - s-c3e202855e
+      - s-ceb35820ee
+      - s-dbe873cbd4
+      - s-a93ac041dd
+      - s-3d0bb438af
+      - s-57523ae02c
+      - s-60eb810333
+    zh:
+      - s-4f46aa61d0
+      - s-a19912afb2
+      - s-afd1b4d7e3
+      - s-a3be22879d
+      - s-becf847e4d
+      - s-4c500ebfa5
+      - s-797482bf12
+      - s-671161b977
+      - s-181603a8f6
+      - s-770e731a19

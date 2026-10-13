@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Centrolene savagei
+  displayName: Centrolene savagei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/69HTG
+  sourceIndexes:
+    - name:
+        en: Centrolene savagei
+        zh: Centrolene savagei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 69HTG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/203
+            queryName: Centrolene savagei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/22
+            queryName: Cochranella savagei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4b500213ac
+      - s-92bc097c7d
+      - s-0ca2c75d4e
+      - s-1759a6c46e
+      - s-aac05f8fb3
+      - s-d658792209
+      - s-be8cdbac85
+      - s-9eb239559b
+      - s-20042ca534
+      - s-7148c64bd5
+      - s-d8d3d94724
+      - s-d699742448
+    zh:
+      - s-4a206cfe54
+      - s-49d3437e9a
+      - s-37351a4bb1
+      - s-aa2155b974
+      - s-2cf8c354fd
+      - s-f621a397f0
+      - s-a7341ec564
+      - s-a8a7e08018
+      - s-fde64048de
+      - s-3a1591650e
+      - s-7f1805a53f
+      - s-eef667d254

@@ -1,0 +1,177 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Batrachosauroides dissimulans
+    rank: species
+    sourceTaxonId: txn:110787
+    name:
+      en: Batrachosauroides dissimulans
+      zh: Batrachosauroides dissimulans
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-5fc5af7773
+            part: body
+          zh:
+            page: zh
+            section: s-089587ce8d
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: Fossil occurrence evidence
+          zh: 化石出现记录
+        text:
+          en:
+            page: en
+            section: s-7215e3acce
+            part: body
+          zh:
+            page: zh
+            section: s-70c9db4502
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-42215126ee
+            part: body
+          zh:
+            page: zh
+            section: s-af682bcf8f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:110787; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: B. Hinderstein and J. Boyce. 1977. The Miocene salamander Batrachosauroides dissimulans (Amphibia, Urodela) from East Texas. Journal of Herpetology 11(3):369-372
+    occurrenceEvidence:
+      - occurrenceId: occ:289341
+        collectionId: col:18646
+        acceptedTaxonId: txn:110787
+        taxonomicDifference: null
+        referenceId: ref:713
+        bibliography: J. A. Holman. 1977. Amphibians and reptiles from the Gulf Coast Miocene of Texas. Herpetologica 33(4):391-403
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: Polk
+        stratigraphy:
+          group: null
+          formation: Fleming
+          member: null
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:289578
+        collectionId: col:18538
+        acceptedTaxonId: txn:110787
+        taxonomicDifference: null
+        referenceId: ref:1145
+        bibliography: J. D. Bryant. 1991. New early Barstovian (middle Miocene) vertebrates from the upper Torreya Formation, eastern Florida panhandle. Journal of Vertebrate Paleontology 11(4):472-489
+        locality:
+          countryCode: US
+          stateProvince: Florida
+          county: Gadsen
+        stratigraphy:
+          group: null
+          formation: Torreya
+          member: Dogtown
+        olderAgeMa: 16.3
+        youngerAgeMa: 12.5
+      - occurrenceId: occ:708367
+        collectionId: col:75945
+        acceptedTaxonId: txn:110787
+        taxonomicDifference: null
+        referenceId: ref:6239
+        bibliography: B. Hinderstein and J. Boyce. 1977. The Miocene salamander Batrachosauroides dissimulans (Amphibia, Urodela) from East Texas. Journal of Herpetology 11(3):369-372
+        locality:
+          countryCode: US
+          stateProvince: Texas
+          county: San Jacinto
+        stratigraphy:
+          group: null
+          formation: Oakville
+          member: null
+        olderAgeMa: 18.5
+        youngerAgeMa: 16.3
+      - occurrenceId: occ:1393411
+        collectionId: col:18579
+        acceptedTaxonId: txn:110787
+        identifiedName: Batrachosauroides aff. dissimulans
+        taxonomicDifference: null
+        referenceId: ref:64777
+        bibliography: R. E. Weems and R. A. George. 2013. Amphibians and nonmarine turtles from the Miocene Calvert Formation of Delaware, Maryland, and Virginia (USA). Journal of Paleontology 87(4):53-66
+        locality:
+          countryCode: US
+          stateProvince: Delaware
+          county: Kent
+        stratigraphy:
+          group: Chesapeake
+          formation: Calvert
+          member: Fairhaven
+        olderAgeMa: 20.45
+        youngerAgeMa: 15.98
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-42215126ee
+            part: body
+          zh:
+            page: zh
+            section: s-af682bcf8f
+            part: body
+        sourceIds: []

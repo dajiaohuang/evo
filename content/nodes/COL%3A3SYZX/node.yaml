@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leiopelma archeyi
+  displayName: Leiopelma archeyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3SYZX
+  sourceIndexes:
+    - name:
+        en: Leiopelma archeyi
+        zh: Leiopelma archeyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3SYZX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/189
+            queryName: Leiopelma archeyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 79
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00035.json.gz
+            field: /records/245
+            queryName: Leioaspetos archeyi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-eeb15c88dc
+      - s-19dc1758f7
+      - s-fd3eb86d25
+      - s-122c2456ac
+      - s-3dfc6978c6
+      - s-da39d80cd2
+      - s-47707eaea9
+      - s-f7ea5a87b5
+      - s-08239ed8f0
+      - s-5a80ae9044
+      - s-88faa5c43d
+    zh:
+      - s-58350a07f5
+      - s-ef018737b6
+      - s-8c9b92aac5
+      - s-ea6178ad5b
+      - s-f6089601e7
+      - s-cd50dd3790
+      - s-639da88fb8
+      - s-1460e8ac26
+      - s-d587be254c
+      - s-0bb0807708
+      - s-2d2d3b8ed4

@@ -1,0 +1,33 @@
+## Accepted name and placement {#s-43d34138dc}
+COL26.8 accepts Raorchestes sanjappai Garg, Suyesh, Das, Bee & Biju, 2021 as a species. Its recorded classification places it along Anura (order) → Rhacophoridae (family) → Raorchestes (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
+
+## Reading route {#s-da8ad1166c}
+Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+
+## Green dorsal colour with fine spinules and a midline ridge {#s-639ef3dd77}
+The diagnosis gives males at 22–24 mm snout–vent length, with uniform green dorsal colour, finely roughened to sparsely granular skin bearing horny spinules, and a horny ridge extending from the snout to the vent. The tongue bears papillae, and flanks and groin are light brown to yellowish. Morphometric data were provided for three specimens including the holotype. These observations describe the sampled diagnostic combination, rather than certifying that colour never changes or that the range applies to females. A green dorsum occurs in other congeners, so identification requires the additional characters and comparative diagnosis.
+
+## Secondary-forest perches during the breeding season {#s-94374cea86}
+At publication, sanjappai was known only from Periya in Wayanad district, Kerala, north of the Palghat gap, at about 750 m elevation. It was observed in secondary forest, on vegetation up to three metres high during the breeding season. The season qualifier concerns when the observations were made; it does not demonstrate that the perch was a nest or that reproduction was observed on every plant. The study did not quantify dependence on secondary forest, disturbance tolerance, density or the complete annual activity cycle. A single known locality is a limit of recorded knowledge, not a measured extinction risk or confirmation of absence elsewhere.
+
+## Longer calls with widely spaced pulses {#s-17aa9dc3a9}
+Males were described as producing one pulsatile call type, delivered singly and with widely spaced pulses. The typical-call summary gives duration 411.2 ms, two pulses, pulse rate 2.7 per second and overall dominant frequency 2.4 kHz; the envelope has a relatively long rise and shorter fall. Pulse rate is the source’s acoustic measure and is not replaced here by dividing two pulses by total duration. These summary values do not incorporate all temperature, social-context or individual effects noted in the methods. Call differences can support identification but do not alone demonstrate mate-choice isolation or exclude additional context-dependent vocalisations.
+
+## Sequence affinity with vellikkannan {#s-3abc43f2f7}
+The study placed sanjappai in the chromasynchysi group and recovered it as sister to vellikkannan. Their reported mitochondrial 16S divergence was 3.1–3.3%; distances to other examined group members differed. The wider phylogenetic analysis used mitochondrial and nuclear markers. This relationship does not make the two species’ colours, webbing, habitats or call observations interchangeable. Pairwise sequence distance supplies neither a universal delimitation cutoff nor evidence that hybridization is absent. The integrative description also relied on species-specific morphology and, for sanjappai, recorded calls.
+
+## catalogue-profile / limitations {#s-d2276163ad}
+Partial study-scoped biological reader. Remaining biological facets require further evidence..
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-d93039509c}
+The diagnosis gives males at 22–24 mm snout–vent length, with uniform green dorsal colour, finely roughened to sparsely granular skin bearing horny spinules, and a horny ridge extending from the snout to the vent. The tongue bears papillae, and flanks and groin are light brown to yellowish. Morphometric data were provided for three specimens including the holotype. These observations describe the sampled diagnostic combination, rather than certifying that colour never changes or that the range applies to females. A green dorsum occurs in other congeners, so identification requires the additional characters and comparative diagnosis.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-dfe3b0469e}
+At publication, sanjappai was known only from Periya in Wayanad district, Kerala, north of the Palghat gap, at about 750 m elevation. It was observed in secondary forest, on vegetation up to three metres high during the breeding season. The season qualifier concerns when the observations were made; it does not demonstrate that the perch was a nest or that reproduction was observed on every plant. The study did not quantify dependence on secondary forest, disturbance tolerance, density or the complete annual activity cycle. A single known locality is a limit of recorded knowledge, not a measured extinction risk or confirmation of absence elsewhere.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-ef898632c7}
+Males were described as producing one pulsatile call type, delivered singly and with widely spaced pulses. The typical-call summary gives duration 411.2 ms, two pulses, pulse rate 2.7 per second and overall dominant frequency 2.4 kHz; the envelope has a relatively long rise and shorter fall. Pulse rate is the source’s acoustic measure and is not replaced here by dividing two pulses by total duration. These summary values do not incorporate all temperature, social-context or individual effects noted in the methods. Call differences can support identification but do not alone demonstrate mate-choice isolation or exclude additional context-dependent vocalisations.
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-c56c68fb31}
+The study placed sanjappai in the chromasynchysi group and recovered it as sister to vellikkannan. Their reported mitochondrial 16S divergence was 3.1–3.3%; distances to other examined group members differed. The wider phylogenetic analysis used mitochondrial and nuclear markers. This relationship does not make the two species’ colours, webbing, habitats or call observations interchangeable. Pairwise sequence distance supplies neither a universal delimitation cutoff nor evidence that hybridization is absent. The integrative description also relied on species-specific morphology and, for sanjappai, recorded calls.
+

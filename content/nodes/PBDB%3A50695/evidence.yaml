@@ -1,0 +1,221 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Procamelus grandis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Procamelus grandis
+      en: Procamelus grandis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-cd7f691334
+            part: body
+          en:
+            page: en
+            section: s-cb0c222078
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e686279c65
+            part: body
+          en:
+            page: en
+            section: s-6f64bbaf5c
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f42497702c
+            part: body
+          en:
+            page: en
+            section: s-266c450f34
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-e9fbe16e7f
+            part: body
+          en:
+            page: en
+            section: s-ecbcb908b8
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-eef960c1b6
+            part: body
+          en:
+            page: en
+            section: s-0a444401b9
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Procamelus grandis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=50695&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:50695; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:50695
+          selectedOccurrenceIds:
+            - occ:184278
+            - occ:184309
+            - occ:184320
+            - occ:184363
+            - occ:184469
+            - occ:184477
+            - occ:184510
+            - occ:184625
+            - occ:184744
+            - occ:184755
+            - occ:184772
+            - occ:184784
+            - occ:185079
+            - occ:185112
+            - occ:185138
+            - occ:185284
+            - occ:185728
+            - occ:185851
+            - occ:185856
+            - occ:185942
+            - occ:186160
+            - occ:186360
+            - occ:186621
+            - occ:187403
+            - occ:187495
+            - occ:187496
+            - occ:187505
+            - occ:187900
+            - occ:188296
+            - occ:188382
+            - occ:1379503
+          selectedCollectionIds:
+            - col:18060
+            - col:18063
+            - col:18064
+            - col:18066
+            - col:18077
+            - col:18078
+            - col:18082
+            - col:18092
+            - col:18103
+            - col:18104
+            - col:18106
+            - col:18108
+            - col:18146
+            - col:18157
+            - col:18159
+            - col:18176
+            - col:18221
+            - col:18233
+            - col:18234
+            - col:18243
+            - col:18268
+            - col:18294
+            - col:18324
+            - col:18456
+            - col:18476
+            - col:18477
+            - col:18480
+            - col:18554
+            - col:18611
+            - col:18623
+            - col:188779
+          sourceReferenceIds:
+            - ref:3564
+            - ref:1720
+            - ref:3510
+            - ref:3715
+            - ref:1185
+            - ref:1710
+            - ref:6294
+            - ref:1706
+            - ref:2375
+            - ref:2737
+            - ref:63362
+          originalIdentificationMappings: []
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-95d91522ac
+        part: body
+      en:
+        page: en
+        section: s-e4cd28e9fe
+        part: body

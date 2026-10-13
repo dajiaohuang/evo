@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phrynobatrachus mayokoensis
+  displayName: Phrynobatrachus mayokoensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6VDZS
+  sourceIndexes:
+    - name:
+        en: Phrynobatrachus mayokoensis
+        zh: Phrynobatrachus mayokoensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6VDZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/149
+            queryName: Phrynobatrachus mayokoensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1e06dd1a09
+      - s-441013aca7
+      - s-1478b30b34
+      - s-7fc894c1e3
+      - s-5ee7e0e463
+      - s-25f57c2741
+    zh:
+      - s-af6f66a473
+      - s-5f3b75d03d
+      - s-1cd9c2d3ab
+      - s-640def55cf
+      - s-960441fb08
+      - s-58dc330e21

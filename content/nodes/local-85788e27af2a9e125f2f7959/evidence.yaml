@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Leptobrachella rowleyae
+    name:
+      en: Leptobrachella rowleyae
+      zh: Leptobrachella rowleyae
+    sourceClassification:
+      order: Anura
+      family: Megophryidae
+      genus: Leptobrachella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Name and sample in the source table
+          zh: 来源表中的名称与样本
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-26dafb4cc5
+            part: body
+          zh:
+            page: zh
+            section: s-c1ca2b7fb6
+            part: body
+      - topic: morphology
+        title:
+          en: What the measurement rows contain
+          zh: 测量行中有哪些内容
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-00ba109f37
+            part: body
+          zh:
+            page: zh
+            section: s-29e4072acd
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2623, 2624; Reference.csv rows 650
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2623
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella rowleyae
+          - F
+          - "27.4"
+          - "9.8"
+          - "9"
+          - "2.7"
+          - "1.5"
+          - "1.1"
+          - "3.4"
+          - NA
+          - NA
+          - NA
+          - "3.9"
+          - NA
+          - "6.6"
+          - NA
+          - NA
+          - "11.5"
+          - NA
+          - "12.2"
+          - "1.2"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 2624
+        values:
+          - Megophryidae
+          - Leptobrachella
+          - Leptobrachella rowleyae
+          - M
+          - "24.4"
+          - "9.7"
+          - "8.8"
+          - "2.3"
+          - "1.6"
+          - "0.8"
+          - "3.1"
+          - NA
+          - NA
+          - NA
+          - "3.6"
+          - NA
+          - "4.9"
+          - NA
+          - NA
+          - "10.3"
+          - NA
+          - "12.1"
+          - "1.1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 650
+        values:
+          - Anura
+          - Leptobrachella_rowleyae
+          - "Nguyen, L. T., Poyarkov, N. A., Le, D. T., Vo, B. D., Phan, H. T., Duong, T. V., . . . Nguyen, S. N. (2018). A new species of Leptolalax (Anura: Megophryidae) from Son Tra Peninsula, central Vietnam. Zootaxa, 4388(1), 1-21. https://doi.org/10.11646/zootaxa.4388.1.1"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - SL
+      - HAL
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6PFRT
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

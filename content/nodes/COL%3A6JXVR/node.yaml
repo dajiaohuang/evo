@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gastrotheca trachyceps
+  displayName: Gastrotheca trachyceps
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6JXVR
+  sourceIndexes:
+    - name:
+        en: Gastrotheca trachyceps
+        zh: Gastrotheca trachyceps
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6JXVR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/79
+            queryName: Gastrotheca trachyceps
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-1ac3de1c1b
+      - s-ee4e446b76
+      - s-aeedde66e8
+      - s-41970997ef
+      - s-12ea0f0f13
+      - s-b16860606c
+      - s-fac9cc58f9
+      - s-208af8e790
+      - s-8e6e685070
+    zh:
+      - s-26db42a173
+      - s-dffc1e22ed
+      - s-0779661040
+      - s-bbed386644
+      - s-2a9219f881
+      - s-74d060c754
+      - s-50dc239ed3
+      - s-3ab35975b5
+      - s-41395dc5ec

@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Physalaemus atlanticus
+  displayName: Physalaemus atlanticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4HF8T
+  sourceIndexes:
+    - name:
+        en: Physalaemus atlanticus
+        zh: Physalaemus atlanticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4HF8T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/305
+            queryName: Physalaemus atlanticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2d3e11293c
+      - s-3450ce35b7
+      - s-a1ff91ce5c
+      - s-77e0e10f77
+      - s-e9811fb5a8
+      - s-779ec311d2
+      - s-4a9abe61d6
+      - s-adf12a3d3b
+      - s-49b0d93d92
+      - s-98c828b1de
+      - s-6ff22de1a7
+      - s-8eb656fc82
+    zh:
+      - s-155076882c
+      - s-d8e269fe45
+      - s-0edb59558d
+      - s-4823fa83cf
+      - s-a759b78933
+      - s-661cbf36df
+      - s-87dac572a7
+      - s-0443787116
+      - s-b3d7827489
+      - s-42e7c7efa2
+      - s-b95dd26ed8
+      - s-cf1d67fefb

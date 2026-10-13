@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hynobius unisacculus
+  displayName: Hynobius unisacculus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3NLV2
+  sourceIndexes:
+    - name:
+        en: Hynobius unisacculus
+        zh: Hynobius unisacculus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3NLV2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/208
+            queryName: Hynobius unisacculus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c35d2874b6
+      - s-e35d8602f0
+      - s-1d4773081e
+      - s-c1cce39efd
+      - s-f53bb53dcb
+      - s-2c67bc7027
+      - s-71b6cf1bab
+    zh:
+      - s-51281acaaf
+      - s-9086ae73be
+      - s-0e0408d1d9
+      - s-c2c3aa4d84
+      - s-06265c8c4e
+      - s-d2564a95a8
+      - s-0228b9db03

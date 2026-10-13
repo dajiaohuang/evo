@@ -1,0 +1,74 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema concolor
+  displayName: Ischnocnema concolor
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4RH
+  sourceIndexes:
+    - name:
+        en: Ischnocnema concolor
+        zh: Ischnocnema concolor
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4RH
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/11
+            queryName: Ischnocnema concolor
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f262b6027d
+      - s-0b12ef3486
+      - s-ccb2d5fadd
+      - s-61845a5e6e
+      - s-99f68e1f56
+      - s-3e70994735
+      - s-d03cf143d1
+      - s-7dcd1a4012
+      - s-2781f9099a
+      - s-ad604e13b1
+      - s-1a775fe0b5
+      - s-8b86785404
+      - s-a3d32bc86a
+      - s-6f9a7c7468
+      - s-88d3df0381
+      - s-6778170179
+      - s-c3fbd2f9cc
+    zh:
+      - s-551ad9c9c3
+      - s-33c49e3a1b
+      - s-3bf4ffd1a3
+      - s-eb15850ae5
+      - s-dbae0fb906
+      - s-084761b42a
+      - s-f806343298
+      - s-fe01a1cd78
+      - s-d5e2ae7b44
+      - s-1c453db9fa
+      - s-b93ba57590
+      - s-6f59c585fa
+      - s-3429d6e444
+      - s-0e409d5e57
+      - s-a37314ffb9
+      - s-0dfa602628
+      - s-4a429c6d35

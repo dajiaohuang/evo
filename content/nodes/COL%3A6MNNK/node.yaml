@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Hylodes uai
+  displayName: Hylodes uai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6MNNK
+  sourceIndexes:
+    - name:
+        en: Hylodes uai
+        zh: Hylodes uai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6MNNK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00007.json.gz
+            field: /records/11
+            queryName: Hylodes uai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a36e44a48b
+      - s-ae9413ef80
+      - s-80370ba7c3
+      - s-b758599b98
+      - s-eb17e9d566
+      - s-32edf59787
+      - s-8b56e6f0ba
+      - s-07205cb5ae
+      - s-e9258d251f
+      - s-2707d09a72
+      - s-1ac6858694
+      - s-6f62702540
+      - s-5a350ac194
+      - s-41e9969ada
+      - s-087fe566e3
+      - s-c07d6f37fe
+      - s-b9f54cd46a
+      - s-41ba7b8d9e
+    zh:
+      - s-8acddfe318
+      - s-a622a59173
+      - s-69f2dd3881
+      - s-b5f6b06a10
+      - s-ea5b454c45
+      - s-e904c6d85d
+      - s-813f5a3e9a
+      - s-ac024f7545
+      - s-cd2696b208
+      - s-30a329bd66
+      - s-65205588b6
+      - s-b19592b618
+      - s-1f3c41641a
+      - s-afe5a1367d
+      - s-a43ba973ce
+      - s-dcb50114d9
+      - s-da15f36290
+      - s-e1145a79f0

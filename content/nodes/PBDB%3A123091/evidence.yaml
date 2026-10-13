@@ -1,0 +1,176 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Olsoniformes
+    rank: unranked clade
+    sourceTaxonId: txn:123091
+    name:
+      en: Olsoniformes
+      zh: Olsoniformes
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: Recorded fossil concept
+          zh: 来源记载的化石概念
+        text:
+          en:
+            page: en
+            section: s-094872faac
+            part: body
+          zh:
+            page: zh
+            section: s-e23dff2a62
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-descendant-material
+        title:
+          en: Material in the captured fossil roster
+          zh: 捕获化石名录中的材料
+        text:
+          en:
+            page: en
+            section: s-c69c2d9cbc
+            part: body
+          zh:
+            page: zh
+            section: s-c1d9a257a2
+            part: body
+      - topic: overview
+        sourceIds:
+          - pbdb
+        readerSectionKind: pbdb-child-route
+        title:
+          en: Read the recorded PBDB descendants
+          zh: 阅读所记 PBDB 后代
+        text:
+          en:
+            page: en
+            section: s-c2e2669ba9
+            part: body
+          zh:
+            page: zh
+            section: s-d8a9ecaefd
+            part: body
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Research text pending
+          zh: 研究正文待整理
+        text:
+          en:
+            page: en
+            section: s-373b3cb6ba
+            part: body
+          zh:
+            page: zh
+            section: s-9ef6960253
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:123091; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: J. S. Anderson, A. C. Henrici, and S. S. Sumida, T. Martens, D. S. Berman. 2008. Georgenthalia clavinasica, a new genus and species of dissorophoid temnospondyl from the Early Permian of Germany, and the relationships of the family Amphibamidae. Journal of Vertebrate Paleontology 28(1):61-75
+    occurrenceEvidence: []
+    limitations:
+      en: Supplementary fossil-source reader. Collection intervals, database ancestry and source concepts remain distinct from lineage origin, a resolved phylogeny and current species. This is.
+      zh: 本页是补充化石来源读本。采集区间、数据库分类路径及来源概念，与谱系起源、已解析系统发育和当前物种分别保留。
+    descendantMaterialSummary:
+      sourceConceptIds:
+        - txn:344750
+        - txn:136412
+        - txn:229320
+        - txn:344537
+        - txn:81713
+        - txn:500623
+        - txn:379301
+        - txn:152960
+        - txn:221859
+        - txn:230701
+        - txn:345161
+        - txn:345484
+        - txn:255227
+        - txn:344543
+        - txn:229313
+        - txn:255228
+        - txn:136990
+        - txn:136989
+        - txn:194932
+        - txn:345459
+        - txn:136991
+        - txn:345458
+        - txn:345487
+        - txn:349952
+        - txn:345263
+        - txn:362806
+        - txn:175857
+        - txn:362803
+        - txn:56737
+        - txn:330108
+        - txn:330110
+        - txn:349951
+        - txn:345270
+        - txn:345163
+        - txn:137779
+        - txn:335336
+        - txn:194929
+        - txn:433343
+        - txn:125108
+      exactOccurrenceCount: 73
+      datedOccurrenceCount: 73
+      collectionIntervalBoundsMa:
+        older: 318.7
+        younger: 264.28
+      conceptEquivalenceCertified: false
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-373b3cb6ba
+            part: body
+          zh:
+            page: zh
+            section: s-9ef6960253
+            part: body
+        sourceIds: []

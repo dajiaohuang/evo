@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Echinotriton maxiquadratus
+  displayName: Echinotriton maxiquadratus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/38LDD
+  sourceIndexes:
+    - name:
+        en: Echinotriton maxiquadratus
+        zh: Echinotriton maxiquadratus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 38LDD
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/102
+            queryName: Echinotriton maxiquadratus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8b13d1d732
+      - s-059a19786b
+      - s-097d53c4ad
+      - s-8fbd42bf29
+      - s-44ba206a40
+      - s-6f8b5e7267
+      - s-db135a1395
+      - s-ece9d0113a
+      - s-9ebeb58ca9
+    zh:
+      - s-89659a8d26
+      - s-147e75018e
+      - s-a7084a89dc
+      - s-b5821454c5
+      - s-654135b231
+      - s-26b1626f89
+      - s-54dc05eecf
+      - s-5fb5a1997e
+      - s-0c5e83bfcb

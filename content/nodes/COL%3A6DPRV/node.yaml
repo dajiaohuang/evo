@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Duttaphrynus parietalis
+  displayName: Duttaphrynus parietalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DPRV
+  sourceIndexes:
+    - name:
+        en: Duttaphrynus parietalis
+        zh: Duttaphrynus parietalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DPRV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/89
+            queryName: Duttaphrynus parietalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/385
+            queryName: Bufo parietalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b91146dd22
+      - s-5b19c6b75e
+      - s-1a93d70777
+      - s-b805c1c781
+      - s-378639f73f
+      - s-105f8dfbd8
+      - s-24b0ed912c
+      - s-40b134d818
+      - s-add3b44929
+    zh:
+      - s-2a003bc913
+      - s-aa419026c1
+      - s-642b828929
+      - s-6ec274e747
+      - s-fb76eca2d0
+      - s-58bddb46ce
+      - s-43bcb64ee5
+      - s-3bcb343c04
+      - s-73c96d34d9

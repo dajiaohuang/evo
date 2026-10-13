@@ -1,0 +1,9 @@
+## The source tadpole concept {#s-6332386b5d}
+In TadpoleTraits version 4, these records are assigned to Leptopelis spiritusnoctis. The source classification lists Leptopelis as the genus and Arthroleptidae as the family, following Amphibian Species of the World version 6.2 (2024). Names printed in the underlying works are retained separately as Leptopelis spiritusnoctis. This assignment has not been established as equivalent to a current COL26.8 species concept.
+
+## Developmental material {#s-1f42ad3c45}
+This source concept has 20 literature-derived rows and 1 image-derived row in the compilation. The supplied stage labels are 25; 27; 26; 30; 29; 36; NA; 40; 34; 31; 29 (Judging based on the picture); their uncertainty remains attached to the source labels. A stage inferred from a picture is not a directly documented developmental observation. Row counts are not counts of distinct animals, and sample-size fields are not added across studies.
+
+## Selected image-derived proportions {#s-8aa5de44ea}
+The selected image-derived records report body length / total length = 0.309082 (source row 686, stage 29 (Judging based on the picture)); tail length / total length = 0.692485 (source row 686, stage 29 (Judging based on the picture)); maximum body height / total length = 0.139162 (source row 686, stage 29 (Judging based on the picture)); maximum tail height / total length = 0.148646 (source row 686, stage 29 (Judging based on the picture)); tail muscle height / total length = 0.0688136 (source row 686, stage 29 (Judging based on the picture)). These are dimensionless source proportions, rounded for readability. The images may be drawings or photographs, so the values are not direct measurements of a representative wild population. Ratio fields inconsistent with their same-row numerator and total length are excluded.
+

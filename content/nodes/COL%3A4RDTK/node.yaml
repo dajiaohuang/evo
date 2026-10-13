@@ -1,0 +1,86 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rana johnsi
+  displayName: Rana johnsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4RDTK
+  sourceIndexes:
+    - name:
+        en: Rana johnsi
+        zh: Rana johnsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4RDTK
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00015.json.gz
+            field: /records/61
+            queryName: Rana johnsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/454
+            queryName: Pseudorana johnsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/187
+            queryName: Rana sauteri johnsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/188
+            queryName: Hylarana sauteri johnsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/189
+            queryName: Pseudorana sauteri johnsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-33a641d422
+      - s-684bcf0fff
+      - s-d5f5d172a6
+      - s-53627d842e
+      - s-daa4972bb6
+      - s-269dd5bf9e
+      - s-befaaee3cc
+      - s-e50312a9ea
+      - s-5e5211b4d2
+      - s-8cda7b0b88
+      - s-e9ab7c3228
+    zh:
+      - s-2e85a5b493
+      - s-e1bf1bead2
+      - s-e8e3842d6c
+      - s-7383022f19
+      - s-3f286311f6
+      - s-b05473a86d
+      - s-7412fabcef
+      - s-db48164235
+      - s-b3b7e0a44b
+      - s-aebfc2ac6f
+      - s-ca45322afb

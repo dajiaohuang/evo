@@ -1,0 +1,375 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Fejervarya kawamurai Tjong, Matsui, Kuramoto, Nishioka & Sumida, 2011
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Fejervarya kawamurai
+      zh: Fejervarya kawamurai
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-045c920617
+            part: title
+          zh:
+            page: zh
+            section: s-94a6f5dacb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-045c920617
+            part: body
+          zh:
+            page: zh
+            section: s-94a6f5dacb
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-6e9f9d2e19
+            part: title
+          zh:
+            page: zh
+            section: s-63dc797991
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6e9f9d2e19
+            part: body
+          zh:
+            page: zh
+            section: s-63dc797991
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bfa623c116
+            part: title
+          zh:
+            page: zh
+            section: s-79bf38c7d1
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-bfa623c116
+            part: body
+          zh:
+            page: zh
+            section: s-79bf38c7d1
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-4fd75808ef9e8a1f0a49eff0
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-0e0d3e10ee
+            part: title
+          zh:
+            page: zh
+            section: s-e6a6e2c321
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-0e0d3e10ee
+            part: body
+          zh:
+            page: zh
+            section: s-e6a6e2c321
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-2caf5cd9d4
+            part: title
+          zh:
+            page: zh
+            section: s-19f61e881e
+            part: title
+        sourceIds:
+          - primary-pmc12189923-6hr2z
+        text:
+          en:
+            page: en
+            section: s-2caf5cd9d4
+            part: body
+          zh:
+            page: zh
+            section: s-19f61e881e
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-6713fb12a5
+            part: title
+          zh:
+            page: zh
+            section: s-80a1c09b46
+            part: title
+        sourceIds:
+          - primary-pmc12189923-6hr2z
+        text:
+          en:
+            page: en
+            section: s-6713fb12a5
+            part: body
+          zh:
+            page: zh
+            section: s-80a1c09b46
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-ad5926df8c
+            part: title
+          zh:
+            page: zh
+            section: s-ec7f72d077
+            part: title
+        sourceIds:
+          - primary-pmc12189923-6hr2z
+        text:
+          en:
+            page: en
+            section: s-ad5926df8c
+            part: body
+          zh:
+            page: zh
+            section: s-ec7f72d077
+            part: body
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-ab09c3c4c3
+            part: title
+          zh:
+            page: zh
+            section: s-c4f7744c8d
+            part: title
+        sourceIds:
+          - primary-pmc12189923-6hr2z
+        text:
+          en:
+            page: en
+            section: s-ab09c3c4c3
+            part: body
+          zh:
+            page: zh
+            section: s-c4f7744c8d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Fejervarya kawamurai
+          url: https://www.checklistbank.org/dataset/316115/taxon/6HR2Z
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1860; Reference.csv rows 3218
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: primary-pmc12189923-6hr2z
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Fejervarya kawamurai: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-d2cddc5e3a
+        part: body
+      zh:
+        page: zh
+        section: s-ad8644ac25
+        part: body
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-4fd75808ef9e8a1f0a49eff0
+        scientificName: Fejervarya kawamurai
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/biology14060614
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        sourceKey: primary-pmc12189923-6hr2z
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12189923/article.xml
+        sourceConcept: 2025 Tangjiahe source-labelled Fejervarya kawamurai, mixed contemporary and historical inventory; not certified specimen/lineage equivalence
+        evidenceRead: "Fejervarya kawamurai: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A mixed field-and-literature inventory in northern Sichuan
+              zh: 四川北部混合野外与文献名册
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-6hr2z
+            locator: PMC12189923 XML Table1 row4 Fejervarya kawamurai; Results3.1; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5eb8713997
+                part: body
+              zh:
+                page: zh
+                section: s-4e660467a1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Local habitat assignments are broader than a breeding diagnosis
+              zh: 地方生境分配宽于繁殖诊断
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-6hr2z
+            locator: PMC12189923 XML Table1 row4 habitat columns/caption; Results3.3; Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-fc2b25faa0
+                part: body
+              zh:
+                page: zh
+                section: s-a500230f22
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Regional gradients and survey gains do not certify recovery
+              zh: 区域梯度及名册增加不认证恢复
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-6hr2z
+            locator: PMC12189923 XML Methods2.1/2.2/2.5; Results3.1/3.4/3.5; Discussion4.1/4.4/4.5; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e369b62ebe
+                part: body
+              zh:
+                page: zh
+                section: s-0ae5415a9e
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: occurrence
+            heading:
+              en: A new reserve record is distinct from a newly evolved species
+              zh: 保护区新记录区别于新进化物种
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-6hr2z
+            locator: PMC12189923 XML Results3.1; Discussion4.1
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-971688db98
+                part: body
+              zh:
+                page: zh
+                section: s-473e811873
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

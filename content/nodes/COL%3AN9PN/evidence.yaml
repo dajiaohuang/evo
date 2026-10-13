@@ -1,0 +1,574 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Breviceps sopranus Minter, 2003
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Breviceps sopranus
+      zh: Breviceps sopranus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-dbe563a852
+            part: title
+          zh:
+            page: zh
+            section: s-a5d4a9f8ac
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dbe563a852
+            part: body
+          zh:
+            page: zh
+            section: s-a5d4a9f8ac
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-f80feb5334
+            part: title
+          zh:
+            page: zh
+            section: s-52aa3a4945
+            part: title
+        text:
+          en:
+            page: en
+            section: s-f80feb5334
+            part: body
+          zh:
+            page: zh
+            section: s-52aa3a4945
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-18bc977b83
+            part: title
+          zh:
+            page: zh
+            section: s-1214cbe57e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-18bc977b83
+            part: body
+          zh:
+            page: zh
+            section: s-1214cbe57e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-dbe441f6f4
+            part: title
+          zh:
+            page: zh
+            section: s-27b6f55ddd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Arthro
+        text:
+          en:
+            page: en
+            section: s-dbe441f6f4
+            part: body
+          zh:
+            page: zh
+            section: s-27b6f55ddd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-576f417421
+            part: title
+          zh:
+            page: zh
+            section: s-ad4db736dd
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+          - Noc
+        text:
+          en:
+            page: en
+            section: s-576f417421
+            part: body
+          zh:
+            page: zh
+            section: s-ad4db736dd
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b73b27fee3
+            part: title
+          zh:
+            page: zh
+            section: s-f196dd76b3
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Wet_warm
+        text:
+          en:
+            page: en
+            section: s-b73b27fee3
+            part: body
+          zh:
+            page: zh
+            section: s-f196dd76b3
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-64ddfcdcb6
+            part: title
+          zh:
+            page: zh
+            section: s-6924101bcb
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Body_mass_g
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-64ddfcdcb6
+            part: body
+          zh:
+            page: zh
+            section: s-6924101bcb
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-77b9f9830b
+            part: title
+          zh:
+            page: zh
+            section: s-d2c9d79139
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Dir
+        text:
+          en:
+            page: en
+            section: s-77b9f9830b
+            part: body
+          zh:
+            page: zh
+            section: s-d2c9d79139
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1e40df268c
+            part: title
+          zh:
+            page: zh
+            section: s-9e9f57234e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1e40df268c
+            part: body
+          zh:
+            page: zh
+            section: s-9e9f57234e
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-fbbfdf032821502c8e4f20c4ba6666f0
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-16f6cf0133679f7c1162f4b1
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-98df3490c6
+            part: title
+          zh:
+            page: zh
+            section: s-e06c171660
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-98df3490c6
+            part: body
+          zh:
+            page: zh
+            section: s-e06c171660
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6b98a7a3e0
+            part: title
+          zh:
+            page: zh
+            section: s-05fc5af490
+            part: title
+        sourceIds:
+          - primary-pmc6434812-n9pn
+        text:
+          en:
+            page: en
+            section: s-6b98a7a3e0
+            part: body
+          zh:
+            page: zh
+            section: s-05fc5af490
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-9aa183a10a
+            part: title
+          zh:
+            page: zh
+            section: s-1a25f927aa
+            part: title
+        sourceIds:
+          - primary-pmc6434812-n9pn
+        text:
+          en:
+            page: en
+            section: s-9aa183a10a
+            part: body
+          zh:
+            page: zh
+            section: s-1a25f927aa
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1ce898160a
+            part: title
+          zh:
+            page: zh
+            section: s-fe76d6bb1d
+            part: title
+        sourceIds:
+          - primary-pmc6434812-n9pn
+        text:
+          en:
+            page: en
+            section: s-1ce898160a
+            part: body
+          zh:
+            page: zh
+            section: s-fe76d6bb1d
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Breviceps sopranus
+          url: https://www.checklistbank.org/dataset/316115/taxon/N9PN
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0330; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0330 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 885; Reference.csv rows 159
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc6434812-n9pn
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Breviceps sopranus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-dada9c58e4
+        part: body
+      zh:
+        page: zh
+        section: s-17e7fc6c9a
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-fbbfdf032821502c8e4f20c4ba6666f0
+      sourceRowId: Anf0330
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0330
+        bibliographyRowId: Anf0330
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Breviceps sopranus
+        candidateBibliographyRowIds:
+          - Anf0330
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-16f6cf0133679f7c1162f4b1
+        scientificName: Breviceps sopranus
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.1186/s13002-019-0294-3
+        referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+        sourceKey: primary-pmc6434812-n9pn
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC6434812/article.xml
+        sourceConcept: SourceTab1 Breviceps sopranus nomenclatural/ethnotaxonomic label; no new biologicaltrait or specimenidentity assignment
+        evidenceRead: "Breviceps sopranus: Complete XML Sec2Methods, Sec3–8Results, Tab1 all58 names andfootnotes, Sec9Discussion andSec10Conclusions inspected; Sec1Background read forstudycontext. Fig1captiononly; nofigurepixels/questionnaire/participant-levelresponses/originalTarrant2016orPhaka2017publication independentreview. Not fullarticle or currentcommunityusage/specimenidentity certification.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: taxonomy
+            heading:
+              en: A published isiZulu name and its provenance
+              zh: 已发表的 isiZulu 名称及其来源
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-n9pn
+            locator: PMC6434812 XML Tab1 tbody row11; tablefootnotes; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-4c4e4fb69e
+                part: body
+              zh:
+                page: zh
+                section: s-12b4b75702
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Workshop vocabulary and later species naming
+              zh: 工作坊词汇与后续物种命名
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-n9pn
+            locator: PMC6434812 XML Sec2 completeMethods; Sec4; Sec6
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e26ce5c200
+                part: body
+              zh:
+                page: zh
+                section: s-49b462b9fe
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: taxonomy
+            heading:
+              en: What a local naming category can establish
+              zh: 地方命名类别能说明什么
+            referenceId: ref-5dac223e-9d3a-41e1-ac93-0abff71f27c4
+            sourceKey: primary-pmc6434812-n9pn
+            locator: PMC6434812 XML Sec4–7; Sec9Discussion; Sec10Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-6e05075a74
+                part: body
+              zh:
+                page: zh
+                section: s-b0bafd39e3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

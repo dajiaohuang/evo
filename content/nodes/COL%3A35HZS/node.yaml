@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dicamptodon aterrimus
+  displayName: Dicamptodon aterrimus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/35HZS
+  sourceIndexes:
+    - name:
+        en: Dicamptodon aterrimus
+        zh: Dicamptodon aterrimus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 35HZS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/11
+            queryName: Dicamptodon aterrimus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 19
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/91
+            queryName: Ambystoma aterrimum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/155
+            queryName: Amblystoma aterrimum
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/156
+            queryName: Chondrotus aterrimus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5b9e6b37d9
+      - s-ce30f5c5c6
+      - s-c56e361876
+      - s-2f1a4d315b
+      - s-77188e27f4
+      - s-392b672ab1
+      - s-4d320d686e
+      - s-96a77449c1
+      - s-6e16cd66f6
+    zh:
+      - s-2f34ce49be
+      - s-2ee95b8abe
+      - s-d205072ec0
+      - s-4c93c4fd5a
+      - s-f06b7b3084
+      - s-7ec62075ca
+      - s-a01a3852ed
+      - s-dd10efa44c
+      - s-f5e5e4c440

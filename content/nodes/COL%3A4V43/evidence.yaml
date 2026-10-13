@@ -1,0 +1,265 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hemidactylium Tschudi, 1838
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Hemidactylium
+      zh: Hemidactylium
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-1e197661f5
+            part: title
+          zh:
+            page: zh
+            section: s-d2f4868b69
+            part: title
+        text:
+          en:
+            page: en
+            section: s-1e197661f5
+            part: body
+          zh:
+            page: zh
+            section: s-d2f4868b69
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-a531aad6e5
+            part: title
+          zh:
+            page: zh
+            section: s-70d39be851
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a531aad6e5
+            part: body
+          zh:
+            page: zh
+            section: s-70d39be851
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-e95c31fc55
+            part: title
+          zh:
+            page: zh
+            section: s-dbfea04a66
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e95c31fc55
+            part: body
+          zh:
+            page: zh
+            section: s-dbfea04a66
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-5ff7aa8499
+            part: title
+          zh:
+            page: zh
+            section: s-ba462f550c
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5ff7aa8499
+            part: body
+          zh:
+            page: zh
+            section: s-ba462f550c
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-f175b0af7b
+            part: title
+          zh:
+            page: zh
+            section: s-fd9fe04065
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3KN7D
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3KN7D
+            label:
+              en: Hemidactylium scutatum
+              zh: Hemidactylium scutatum
+        text:
+          en:
+            page: en
+            section: s-f175b0af7b
+            part: body
+          zh:
+            page: zh
+            section: s-fd9fe04065
+            part: body
+      - topic: ecology
+        sourceReaderKind: amphitherm-group-scope
+        title:
+          en:
+            page: en
+            section: s-ff30da1844
+            part: title
+          zh:
+            page: zh
+            section: s-2e56e8ec70
+            part: title
+        sourceIds:
+          - amphitherm
+        text:
+          en:
+            page: en
+            section: s-ff30da1844
+            part: body
+          zh:
+            page: zh
+            section: s-2e56e8ec70
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Hemidactylium
+          url: https://www.checklistbank.org/dataset/316115/taxon/4V43
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Hemidactylium; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Pinned curated file, source-classification subset Hemidactylium; deposited species concepts and estimate-row counts
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-6c39943061
+        part: body
+      zh:
+        page: zh
+        section: s-95c9357cdb
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Hemidactylium
+      sourceRowIds:
+        - Anf6353
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    thermalGroupEvidence:
+      sourceConcepts:
+        - scientificName: Hemidactylium scutatum
+          path: content/nodes/local-e0ef51b33918155095477a09
+      metrics:
+        - metric: CTmax
+          rows: 1
+          sourceConcepts: 1
+      sourceConceptEquivalenceCertified: false
+      notPopulationPrevalence: true

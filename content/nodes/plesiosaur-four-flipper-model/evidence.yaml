@@ -1,0 +1,66 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-eaf2b58ef8
+      part: title
+    titleZh:
+      page: zh
+      section: s-4b9032e680
+      part: title
+    category: ecological
+    startAge: 201.4
+    endAge: 66
+    regions:
+      - Recirculating-water-channel model experiment
+    clades:
+      - Plesiosauria
+    summary:
+      page: en
+      section: s-eaf2b58ef8
+      part: body
+    summaryZh:
+      page: zh
+      section: s-4b9032e680
+      part: body
+    claimIds:
+      - claim:event:plesiosaur-four-flipper-model
+    evidenceItems:
+      - statement: Water-channel trials of paired fore- and hind-flipper models found that certain phase offsets increased hind-flipper thrust and whole-system efficiency through vortex interaction.
+        relation: supports
+        claimIds:
+          - claim:event:plesiosaur-four-flipper-model
+        referenceLinks:
+          - referenceId: muscutt-2017-plesiosaur-four-flipper
+            relation: supports
+            pages: "20170951"
+            figure: Figures 1–5; electronic supplementary material
+            quoteLocator: "Methods; Results: effect of phase on thrust and efficiency"
+    uncertaintyItems:
+      - statement: The apparatus used reconstructed rigid flippers and prescribed kinematics; its measured performance does not prove one universal stroke for every plesiosaur taxon, speed or manoeuvre.
+        relation: contextualizes
+        claimIds:
+          - claim:event:plesiosaur-four-flipper-model
+        referenceLinks:
+          - referenceId: muscutt-2017-plesiosaur-four-flipper
+            relation: supports
+            pages: "20170951"
+            quoteLocator: Experimental design; Discussion
+  claims:
+    - subjectId: event:plesiosaur-four-flipper-model
+      claimKind: scientific
+      claimType: event-mechanism
+      statement: A water-channel flipper model found performance benefits at selected fore- and hind-flipper phase offsets through vortex interaction; this experimental feasibility result does not directly observe extinct plesiosaur strokes or establish one universal gait.
+      confidence: medium
+      confidenceRationale: Forces, torque and efficiency were measured in repeatable physical experiments, but rigid reconstructed flippers and prescribed motions simplify biological variation across plesiosaur taxa and swimming conditions.
+      referenceLinks:
+        - referenceId: muscutt-2017-plesiosaur-four-flipper
+          relation: supports
+          pages: "20170951"
+          figure: Figures 1–5
+          quoteLocator: Methods; Results; Discussion
+  claim-rationales.zh:
+    - 力、力矩与效率来自可重复物理实验，但刚性复原鳍肢及预设运动简化了不同蛇颈龙类群和游泳条件下的生物变化。
+  claim-statements.zh:
+    - 水槽鳍肢模型发现特定前后鳍相位差可借涡流相互作用提高性能；这一实验可行性结果并未直接观察灭绝蛇颈龙的划水，也不能确立通用泳姿。

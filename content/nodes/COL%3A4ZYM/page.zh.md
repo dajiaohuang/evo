@@ -1,0 +1,84 @@
+## 接受名称与分类位置 {#s-666a0d4a43}
+COL26.8 将 Hyla 接受为 Hylidae 下的属级记录。完整接受种查询在这条分类路径下收录 19 种。这是有版本日期的目录计数，各名称和分类概念保留在来源记载的层级中。
+
+## 阅读路线 {#s-5fb4ac70c6}
+从本属进入下级类群和物种，先在同一版本内比较接受名称，再查阅物种研究。分类层级提供目录阅读路线，但不能据此确定全部后代的共有性状或生物学历史。
+
+## 历史汇编中的觅食层位 {#s-6f9f7b3a63}
+AmphiBIO 在 Frost 2011 来源分类的 Hyla 下保留 39 条记录。觅食类别的正值计数为穴居 1 条、陆栖 32 条、水栖 22 条、树栖 31 条；同一记录可以同时属于多个类别，未报告值仍为未知。这些计数描述汇编中有代表的历史概念，不表示当前类群所有物种的性状比例。
+
+## 所记发育类别 {#s-4e20bd679c}
+在同一历史来源子集中，正值代码记载幼体发育 35 条。代码记录不是独立种群样本；缺失类别不能推断为不存在。种级读本保留原值和汇编范围。
+
+## 沿所记分类树继续阅读 {#s-9def6dfb40}
+以下已编写子页面遵循固定分类。限定来源的生物学记录保留各自身份和审阅边界。
+
+- [Hyla annectans](Hyla_annectans/page.zh.md)
+- [Hyla arborea](Hyla_arborea/page.zh.md)
+- [Hyla carthaginiensis](Hyla_carthaginiensis/page.zh.md)
+- [Hyla chinensis](Hyla_chinensis/page.zh.md)
+- [Hyla dabieshanensis](Hyla_dabieshanensis/page.zh.md)
+- [Hyla felixarabica](Hyla_felixarabica/page.zh.md)
+- [Hyla hallowellii](Hyla_hallowellii/page.zh.md)
+- [Hyla imitator](Hyla_imitator/page.zh.md)
+- [Hyla intermedia](Hyla_intermedia/page.zh.md)
+- [Hyla meridionalis](Hyla_meridionalis/page.zh.md)
+- [Hyla molleri](Hyla_molleri/page.zh.md)
+- [Hyla nicefori](Hyla_nicefori/page.zh.md)
+- [Hyla orientalis](Hyla_orientalis/page.zh.md)
+- [Hyla sanchiangensis](Hyla_sanchiangensis/page.zh.md)
+- [Hyla sarda](Hyla_sarda/page.zh.md)
+- [Hyla savignyi](Hyla_savignyi/page.zh.md)
+- [Hyla simplex](Hyla_simplex/page.zh.md)
+- [Hyla tsinlingensis](Hyla_tsinlingensis/page.zh.md)
+- [Hyla zhaopingensis](Hyla_zhaopingensis/page.zh.md)
+
+## 已取得的热生理证据 {#s-1da0b06e63}
+在固定清理版本的 AmphiTherm 来源分类中，名称 Hyla 匹配 10 个存档物种概念与 82 条估计行。所记指标：CTmin，32 行、涉及 9 个来源概念；LT50_cold，1 行、涉及 1 个来源概念；CTmax，40 行、涉及 8 个来源概念；Tpref，9 行、涉及 1 个来源概念。CTmax、CTmin 涉及临界温度限，LT50_hot、LT50_cold 为致死限实验，Tpref 为温度偏好。各指标来自不同实验，不能合并为一个耐受范围；指标间概念重叠，计数不能直接相加为独立物种数或动物数。来源发育阶段代码为 juveniles、adults、larvae、metamorphs。这些有年代限定的材料说明研究覆盖，不代表每个当前成员的生理特征；来源的 2018 年分类与当代类群范围分别保留。
+
+## 部分新组装与重用参考范围不同 {#s-748bcaffe7}
+研究加入两条 sanchiangensis 线粒体组装，均缺部分控制区，并重用其他参考。报告 annectans–tsinlingensis 姐妹位置，但 sanchiangensis 地点标签较深次序在结果与讨论间不同，距离段序列号／地点标签也颠倒。链接页保持这些冲突可见。历史 Hyla japonica 保留于固定 Dryophytes japonicus 页，不插入为新的 Hyla 子节点。
+
+## 冷适应解释需要独立证据 {#s-3a788e3662}
+分支位点分析在所选 Hyla／Dryophytes 前景，为四个线粒体蛋白编码基因报告模型依赖候选位点；其他模型未检出同样信号。作者明确将历史冷适应提为假说，没有温度耐受或蛋白功能实验。所选线粒体框架不是完整核历史、通用物种阈值或全属生理学。
+
+## 阅读所采物种 {#s-df519fccc8}
+这些页面保留本研究所采物种与证据限制。此选择覆盖研究样本，不是全属所有有效成员，也不覆盖全部生物学主题。
+
+- [Hyla sanchiangensis](Hyla_sanchiangensis/page.zh.md)
+- [Hyla annectans](Hyla_annectans/page.zh.md)
+- [Hyla tsinlingensis](Hyla_tsinlingensis/page.zh.md)
+- [Hyla chinensis](Hyla_chinensis/page.zh.md)
+
+## 选定参考组装及其范围 {#s-2823aca0eb}
+无尾目比较基因组研究为所选 Hyla 页面列出：Hyla sarda: GCA_033576535.1, 4.14 Gbp, contigN50 3,809.3 Kbp。这些值受具体组装及研究在2024年10月29日的 NCBI 快照范围限制，不是细胞 DNA 含量的直接测量或全属不变的基因组大小。页面选择依据当前精确名称与明确冻结命名链接；这里没有独立认证原标本及基因组身份。
+
+## 重复数据编号需要澄清 {#s-5aac6a0bb0}
+主文表1与补充S1的61行没有“精确物种名＋编号”同时一致的对应：59个精确匹配名称均携不同编号，另两名使用不同拼写或组合。链接的物种页逐一保留具体冲突。因此，这里不把补充 TE 数量、比例及按编号列出的窝卵、幼体记录分配为已核实属成员性状。已核读主表没有给五百分比 BUSCO 向量标分量名称；contigN50 是连续性统计，不是完整性认证。这里没有重跑序列处理流程、原组装和重复库。
+
+## 比较模型及提出的机制 {#s-cf8a1de2bb}
+作者用系统模型、contigN50 协变量及多重检验校正比较61个组装。RepeatMasker 命中、占据长度和比例是不同指标；与重复共识的分歧是年龄或活跃程度代理，不是当前转座观察。暂定全长 Ty3 的 ORF 相似性不能证明蛋白质正在表达。发育限制和 TE 扩增是对跨物种关联的解释，不是每个选定属成员的操纵实验依据。来源中的 TE 比例、ORF 总数及 GC 关联陈述冲突保持未解决。
+
+## 阅读选定基因组研究条目 {#s-446b136c7a}
+逐页区分所列组装统计、有冲突的重复数据、名称对应及比较假说。选定参考组装不构成完整全属生物学。
+
+- [Hyla sarda](Hyla_sarda/page.zh.md)
+
+## catalogue-profile / limitations {#s-da0354909c}
+本页为分类与限定来源范围的类群介绍；不将历史来源子集视为整个当前类群的等同物。尚未代表的生物学证据仍需核对。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-6347500abb}
+研究加入两条 sanchiangensis 线粒体组装，均缺部分控制区，并重用其他参考。报告 annectans–tsinlingensis 姐妹位置，但 sanchiangensis 地点标签较深次序在结果与讨论间不同，距离段序列号／地点标签也颠倒。链接页保持这些冲突可见。历史 Hyla japonica 保留于固定 Dryophytes japonicus 页，不插入为新的 Hyla 子节点。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-6c40f31b1f}
+分支位点分析在所选 Hyla／Dryophytes 前景，为四个线粒体蛋白编码基因报告模型依赖候选位点；其他模型未检出同样信号。作者明确将历史冷适应提为假说，没有温度耐受或蛋白功能实验。所选线粒体框架不是完整核历史、通用物种阈值或全属生理学。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-c6bb7e56e0}
+无尾目比较基因组研究为所选 Hyla 页面列出：Hyla sarda: GCA_033576535.1, 4.14 Gbp, contigN50 3,809.3 Kbp。这些值受具体组装及研究在2024年10月29日的 NCBI 快照范围限制，不是细胞 DNA 含量的直接测量或全属不变的基因组大小。页面选择依据当前精确名称与明确冻结命名链接；这里没有独立认证原标本及基因组身份。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-e89d8ff572}
+主文表1与补充S1的61行没有“精确物种名＋编号”同时一致的对应：59个精确匹配名称均携不同编号，另两名使用不同拼写或组合。链接的物种页逐一保留具体冲突。因此，这里不把补充 TE 数量、比例及按编号列出的窝卵、幼体记录分配为已核实属成员性状。已核读主表没有给五百分比 BUSCO 向量标分量名称；contigN50 是连续性统计，不是完整性认证。这里没有重跑序列处理流程、原组装和重复库。
+
+## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-c1fae97930}
+作者用系统模型、contigN50 协变量及多重检验校正比较61个组装。RepeatMasker 命中、占据长度和比例是不同指标；与重复共识的分歧是年龄或活跃程度代理，不是当前转座观察。暂定全长 Ty3 的 ORF 相似性不能证明蛋白质正在表达。发育限制和 TE 扩增是对跨物种关联的解释，不是每个选定属成员的操纵实验依据。来源中的 TE 比例、ORF 总数及 GC 关联陈述冲突保持未解决。
+

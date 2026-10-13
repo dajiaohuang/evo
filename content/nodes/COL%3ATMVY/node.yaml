@@ -1,0 +1,84 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Charadrahyla nephila
+  displayName: Charadrahyla nephila
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/TMVY
+  sourceIndexes:
+    - name:
+        en: Charadrahyla nephila
+        zh: Charadrahyla nephila
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: TMVY
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/226
+            queryName: Charadrahyla nephila
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/408
+            queryName: Hyla nephila
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-394c345687
+      - s-fc8e8ae729
+      - s-fd6a0ec793
+      - s-233c147946
+      - s-5f7dfb333c
+      - s-7b3635bb25
+      - s-ca0104e4e0
+      - s-4379dd7139
+      - s-13e320651b
+      - s-1891583166
+      - s-6ac021dd66
+      - s-3e5106c6b4
+      - s-6524ddaf51
+      - s-0d8d3485e6
+      - s-ed8f8e1ea4
+      - s-8c0ae45226
+      - s-265c4c6fc5
+      - s-d2cb52b7db
+      - s-14d1d8167a
+    zh:
+      - s-a3ffd0af2c
+      - s-9ab46f1c74
+      - s-eb77e544f5
+      - s-1cab462187
+      - s-5c6f98abdc
+      - s-3f36594020
+      - s-c351f0c580
+      - s-6ec5bd27ff
+      - s-362c4780b9
+      - s-20d78d3fd7
+      - s-1e846aa6fb
+      - s-2cca10c064
+      - s-a604af30b6
+      - s-56de169113
+      - s-b49a8e24bb
+      - s-75d300c6dc
+      - s-405c2360bc
+      - s-711be92bec
+      - s-16548015ad

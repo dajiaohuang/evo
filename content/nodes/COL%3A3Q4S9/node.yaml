@@ -1,0 +1,100 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ischnocnema parva
+  displayName: Ischnocnema parva
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3Q4S9
+  sourceIndexes:
+    - name:
+        en: Ischnocnema parva
+        zh: Ischnocnema parva
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3Q4S9
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/36
+            queryName: Ischnocnema parva
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 39
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/155
+            queryName: Eleutherodactylus parvus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/258
+            queryName: Leptodactylus pumilio
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/349
+            queryName: Phrynanodus nanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/105
+            queryName: Hylodes parvus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ac2f6fa645
+      - s-34154c969d
+      - s-1d318eb165
+      - s-43237e1f77
+      - s-a2834e301c
+      - s-26949a88f3
+      - s-af5cef297c
+      - s-1e7304dd15
+      - s-eea5f19fc5
+      - s-f45ccf65b0
+      - s-5450f9fef8
+      - s-78f990aa17
+      - s-c8a5030ac0
+      - s-ff20b5404d
+      - s-d309e5678a
+      - s-d1d263716e
+      - s-adeff10fa7
+      - s-474a5a387f
+    zh:
+      - s-1c5db8c641
+      - s-14626b72bc
+      - s-d6351527d4
+      - s-48ee1c0371
+      - s-324ee8912a
+      - s-9a78cf632d
+      - s-d79f6df3e4
+      - s-49780e7733
+      - s-bd8c17b623
+      - s-8c5c30f744
+      - s-4f1ed75df0
+      - s-cb527431da
+      - s-1d3f59518b
+      - s-9e99173212
+      - s-813f3cb5e0
+      - s-de844bb7df
+      - s-91a3fc3188
+      - s-480a918fe2

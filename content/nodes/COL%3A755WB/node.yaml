@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreophryne kampeni
+  displayName: Oreophryne kampeni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/755WB
+  sourceIndexes:
+    - name:
+        en: Oreophryne kampeni
+        zh: Oreophryne kampeni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 755WB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/274
+            queryName: Oreophryne kampeni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-32b83dc5c0
+      - s-4a7077544f
+      - s-8ee7b02e84
+      - s-bc80806c57
+      - s-926befbf39
+      - s-787f440e6c
+      - s-8aa1e666b7
+    zh:
+      - s-870c670efb
+      - s-101682aeed
+      - s-7add036744
+      - s-bf62484330
+      - s-f33c9cbbdc
+      - s-b05eea1bac
+      - s-43318281a0

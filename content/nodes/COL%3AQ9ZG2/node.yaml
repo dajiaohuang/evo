@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachella namdongensis
+  displayName: Leptobrachella namdongensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Q9ZG2
+  sourceIndexes:
+    - name:
+        en: Leptobrachella namdongensis
+        zh: Leptobrachella namdongensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Q9ZG2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/264
+            queryName: Leptobrachella namdongensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-cef6318970
+      - s-4a10b3269a
+      - s-1b1e0839d2
+      - s-b8bcc336b5
+      - s-79fe4e8172
+      - s-83a3a392f9
+      - s-b976a770de
+    zh:
+      - s-8271855b80
+      - s-982d8fdf75
+      - s-951c68e43c
+      - s-669f7f7489
+      - s-80ac36c6a0
+      - s-c52c82c287
+      - s-ee8797045c

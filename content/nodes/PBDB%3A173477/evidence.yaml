@@ -1,0 +1,178 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Palaeonictis gigantea
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Palaeonictis gigantea
+      en: Palaeonictis gigantea
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-babdaa5c0e
+            part: body
+          en:
+            page: en
+            section: s-db357ffdc7
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2d3b1a4aa0
+            part: body
+          en:
+            page: en
+            section: s-c9be66f02f
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f35ff9b7c6
+            part: body
+          en:
+            page: en
+            section: s-746c66b21e
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-10e1ae322b
+            part: body
+          en:
+            page: en
+            section: s-d2420aa1b2
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-48cbf3fcbf
+            part: body
+          en:
+            page: en
+            section: s-7d7d66092c
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Palaeonictis gigantea
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=173477&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:173477; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:173477
+          selectedOccurrenceIds:
+            - occ:633351
+            - occ:1304621
+            - occ:1304622
+            - occ:1304623
+            - occ:1348031
+            - occ:1348032
+            - occ:1348033
+            - occ:1348160
+            - occ:1397821
+          selectedCollectionIds:
+            - col:68174
+            - col:35531
+            - col:174627
+            - col:68437
+            - col:35537
+            - col:144104
+            - col:38868
+            - col:174239
+          sourceReferenceIds:
+            - ref:60841
+            - ref:57023
+            - ref:60842
+            - ref:60859
+            - ref:65391
+          originalIdentificationMappings:
+            - occurrenceId: occ:1304622
+              originalIdentifiedName: Dormaalodon woutersi n. gen. n. sp.
+              acceptedName: Palaeonictis gigantea
+              difference: null
+            - occurrenceId: occ:1348033
+              originalIdentifiedName: Palaeonictis gigantea n. sp.
+              acceptedName: Palaeonictis gigantea
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0a0c072f55
+        part: body
+      en:
+        page: en
+        section: s-ef5c7d13d8
+        part: body

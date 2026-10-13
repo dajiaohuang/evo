@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Nidirana guibeiensis
+  displayName: Nidirana guibeiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/QT3C7
+  sourceIndexes:
+    - name:
+        en: Nidirana guibeiensis
+        zh: Nidirana guibeiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: QT3C7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/271
+            queryName: Nidirana guibeiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-dcaa1ebe76
+      - s-a74dcb18e3
+      - s-bc105a9367
+      - s-d1d6cfd478
+      - s-b891735530
+      - s-a5f05aafab
+      - s-affd5feb2e
+    zh:
+      - s-16cfbefbb7
+      - s-3108405d12
+      - s-b573c2a96d
+      - s-d005dbb69d
+      - s-ad76461d43
+      - s-beecc1e904
+      - s-9d66eeb855

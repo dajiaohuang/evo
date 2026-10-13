@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptobrachium kantonishikawai
+  displayName: Leptobrachium kantonishikawai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TKC7
+  sourceIndexes:
+    - name:
+        en: Leptobrachium kantonishikawai
+        zh: Leptobrachium kantonishikawai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TKC7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/329
+            queryName: Leptobrachium kantonishikawai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-36d56993b4
+      - s-d481b36941
+      - s-16340e154d
+      - s-afe2d75cb6
+      - s-ef8a81d63f
+      - s-ca9c293c5e
+    zh:
+      - s-8b557d6dc9
+      - s-e97a201d34
+      - s-0fb8d68340
+      - s-3be98ef850
+      - s-3bce55daa8
+      - s-66e896bb8e

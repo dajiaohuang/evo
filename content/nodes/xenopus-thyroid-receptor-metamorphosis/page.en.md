@@ -1,0 +1,3 @@
+## Thyroid-receptor knockouts separate tail and hindlimb effects {#s-2e92904f82}
+In Xenopus tropicalis, knockout experiments separated the effects of two thyroid-hormone receptor subtypes. Loss of TRβ delayed tail regression and extracellular-matrix degradation; loss of TRα advanced hindlimb development while the tail followed a largely normal trajectory. Histology and expression assays linked these outcomes to different organs and processes. They are results from this experimental species and design, not a rule for every amphibian or tissue and not an explanation of metamorphosis’s evolutionary origin.
+

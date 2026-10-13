@@ -1,0 +1,853 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Anaxyrus compactilis (Wiegmann, 1833)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Anaxyrus compactilis
+      zh: Anaxyrus compactilis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-059fdb6165
+            part: title
+          zh:
+            page: zh
+            section: s-a2a0b22cf8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-059fdb6165
+            part: body
+          zh:
+            page: zh
+            section: s-a2a0b22cf8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-dff3954e74
+            part: title
+          zh:
+            page: zh
+            section: s-0309caa32d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-dff3954e74
+            part: body
+          zh:
+            page: zh
+            section: s-0309caa32d
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-71ec3bb77d
+            part: title
+          zh:
+            page: zh
+            section: s-ba9d29a6b9
+            part: title
+        sourceIds:
+          - itis-distribution
+        text:
+          en:
+            page: en
+            section: s-71ec3bb77d
+            part: body
+          zh:
+            page: zh
+            section: s-ba9d29a6b9
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-49d5d550ac
+            part: title
+          zh:
+            page: zh
+            section: s-a30201056e
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Ter
+        text:
+          en:
+            page: en
+            section: s-49d5d550ac
+            part: body
+          zh:
+            page: zh
+            section: s-a30201056e
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-b8de719898
+            part: title
+          zh:
+            page: zh
+            section: s-1a7bf2918b
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Diu
+        text:
+          en:
+            page: en
+            section: s-b8de719898
+            part: body
+          zh:
+            page: zh
+            section: s-1a7bf2918b
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-7b745bc535
+            part: title
+          zh:
+            page: zh
+            section: s-105755af69
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-7b745bc535
+            part: body
+          zh:
+            page: zh
+            section: s-105755af69
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-ba080f3e0e
+            part: title
+          zh:
+            page: zh
+            section: s-5b3657acb8
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Litter_size_min_n
+          - Litter_size_max_n
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-ba080f3e0e
+            part: body
+          zh:
+            page: zh
+            section: s-5b3657acb8
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-8e6d6fe945
+            part: title
+          zh:
+            page: zh
+            section: s-35d02310c4
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-8e6d6fe945
+            part: body
+          zh:
+            page: zh
+            section: s-35d02310c4
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-1064ef2751
+            part: title
+          zh:
+            page: zh
+            section: s-faa3a68e56
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphitherm
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-1064ef2751
+            part: body
+          zh:
+            page: zh
+            section: s-faa3a68e56
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-8f55a9e9e504ef99e38ba55883ce1ab3
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://github.com/p-pottier/AmphiTherm
+            targetPath: content/nodes/local-381f4ffd802f538dfd9b98f4
+            label:
+              en: AmphiTherm curated snapshot — original dataset
+              zh: AmphiTherm curated snapshot — 原始数据集
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-25fc77385d
+            part: title
+          zh:
+            page: zh
+            section: s-176bac9772
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "372"
+        text:
+          en:
+            page: en
+            section: s-25fc77385d
+            part: body
+          zh:
+            page: zh
+            section: s-176bac9772
+            part: body
+        sourceRowNumber: 296
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-196e3a061b
+            part: title
+          zh:
+            page: zh
+            section: s-4d6bb5711e
+            part: title
+        sourceIds:
+          - amphitherm
+        sourceReaderKind: additional-deposited-traits
+        sourceRowId: "457"
+        text:
+          en:
+            page: en
+            section: s-196e3a061b
+            part: body
+          zh:
+            page: zh
+            section: s-4d6bb5711e
+            part: body
+        sourceRowNumber: 381
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-b55f7fcaba
+            part: title
+          zh:
+            page: zh
+            section: s-65087a9ec8
+            part: title
+        sourceIds:
+          - primary-pmc12070909-66m65
+        text:
+          en:
+            page: en
+            section: s-b55f7fcaba
+            part: body
+          zh:
+            page: zh
+            section: s-65087a9ec8
+            part: body
+      - topic: biogeography
+        title:
+          en:
+            page: en
+            section: s-0df1434168
+            part: title
+          zh:
+            page: zh
+            section: s-9fb640de42
+            part: title
+        sourceIds:
+          - primary-pmc12070909-66m65
+        text:
+          en:
+            page: en
+            section: s-0df1434168
+            part: body
+          zh:
+            page: zh
+            section: s-9fb640de42
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e211e249e7
+            part: title
+          zh:
+            page: zh
+            section: s-bb373bf359
+            part: title
+        sourceIds:
+          - primary-pmc12070909-66m65
+        text:
+          en:
+            page: en
+            section: s-e211e249e7
+            part: body
+          zh:
+            page: zh
+            section: s-bb373bf359
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-e2fda5f637
+            part: title
+          zh:
+            page: zh
+            section: s-06475f88a7
+            part: title
+        sourceIds:
+          - primary-pmc10658874-66m65
+        text:
+          en:
+            page: en
+            section: s-e2fda5f637
+            part: body
+          zh:
+            page: zh
+            section: s-06475f88a7
+            part: body
+      - topic: range
+        title:
+          en:
+            page: en
+            section: s-c8877407f8
+            part: title
+          zh:
+            page: zh
+            section: s-ca0a7f6f8c
+            part: title
+        sourceIds:
+          - primary-pmc10658874-66m65
+        text:
+          en:
+            page: en
+            section: s-c8877407f8
+            part: body
+          zh:
+            page: zh
+            section: s-ca0a7f6f8c
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-d26d35eed4
+            part: title
+          zh:
+            page: zh
+            section: s-c79895bd01
+            part: title
+        sourceIds:
+          - primary-pmc10658874-66m65
+        text:
+          en:
+            page: en
+            section: s-d26d35eed4
+            part: body
+          zh:
+            page: zh
+            section: s-c79895bd01
+            part: body
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-b1cc94c8ff
+            part: title
+          zh:
+            page: zh
+            section: s-886036c9f5
+            part: title
+        sourceIds:
+          - primary-pmc10658874-66m65
+        text:
+          en:
+            page: en
+            section: s-b1cc94c8ff
+            part: body
+          zh:
+            page: zh
+            section: s-886036c9f5
+            part: body
+      - topic: limitations
+        title:
+          en: Research text pending
+          zh: 材料与适用范围
+        text:
+          en:
+            page: en
+            section: s-ed014bcdce
+            part: body
+          zh:
+            page: zh
+            section: s-21c48d558f
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Anaxyrus compactilis
+          url: https://www.checklistbank.org/dataset/316115/taxon/66M65
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: itis-distribution
+        referenceId: ref-49e06cbd-4c4a-4a7e-9b4c-07e576ee72c8
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - doi
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Name.tsv ID 773517, row 522284; Distribution.tsv rows 196424; pinned archive SHA-256 d844f03071ea8ddf144d11098543b4066cb5f80d23263beb8f088d144a99b906
+          scope:
+            en: Textual geographic labels in the exact source TSN record. No inferred origin status, complete geographic range, contemporary population or species-concept equivalence beyond the recorded source linkage.
+            zh: 确切来源 TSN 记录中的文字地理标签；不推断原生状态、完整分布、当代种群，也不将所记来源链接推广为额外的物种概念等同声明。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf0400; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf0400 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: amphitherm
+        referenceId: ref-7cc27c69-2a38-44d1-b4dc-7b8e927b710d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - datasetUrl
+          - version
+          - associatedArchivedReleaseDoi
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cleaned_and_curated_data_Amphitherm.csv, rows 296, 297, 381; Metadata_AmphiTherm.xlsx
+          scope:
+            en: Pinned curated thermal-estimate rows with method and life-stage scope; source concepts are independent of current catalogue concepts.
+            zh: 固定清理版本的热生理估计行，保留方法和发育阶段范围；来源概念与当前目录概念分别处理。
+      - id: primary-pmc12070909-66m65
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Anaxyrus compactilis: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc10658874-66m65
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Anaxyrus compactilis: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-71a3063952
+        part: body
+      zh:
+        page: zh
+        section: s-6e8a2a3e89
+        part: body
+    distributionSourceEvidence:
+      sourceDatasetId: 2144
+      sourceTsn: "773517"
+      recordedColSourceLink: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=773517
+      identityMethod: COL-supplied direct source TSN plus exact archived scientificName, authorship and species rank
+      nameLocator:
+        datasetKey: 2144
+        archive: checklistbank-2144-itis-2026-08-26.zip
+        member: Name.tsv
+        row: 522284
+        key: "773517"
+      rows:
+        - sourceMember: Distribution.tsv
+          fields:
+            taxonID: "773517"
+            area: Middle America
+            gazetteer: text
+            status: "NULL"
+            referenceID: "NULL"
+          locator:
+            datasetKey: 2144
+            archive: checklistbank-2144-itis-2026-08-26.zip
+            member: Distribution.tsv
+            row: 196424
+            key: 773517|Middle America|text|NULL|NULL
+    historicalTraitSource:
+      path: content/nodes/context-8f55a9e9e504ef99e38ba55883ce1ab3
+      sourceRowId: Anf0400
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf0400
+        bibliographyRowId: Anf0400
+        sameIdNameMismatch: false
+        originalSameIdScientificName: Anaxyrus compactilis
+        candidateBibliographyRowIds:
+          - Anf0400
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphitherm-source-reader
+        path: content/nodes/local-381f4ffd802f538dfd9b98f4
+        scientificName: Anaxyrus compactilis
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 2
+    primaryStudyScopes:
+      - doi: 10.3390/ani15091278
+        referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+        sourceKey: primary-pmc12070909-66m65
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12070909/article.xml
+        sourceConcept: 2025 source-labelled Anaxyrus compactilis (Wiegmann, 1833); exact accepted-name candidate, not independently certified biological equivalence
+        evidenceRead: "Anaxyrus compactilis: XML Physiographic characteristics, Methodology, Results/Discussion3.1–3.4, Tables1–3 and Conclusions read; amphibian Table1 rows and exact COL26.8 accepted-link receipts retained; individual museum/GBIF/VertNet records, source state checklists, maps, cluster code and current conservation assessments not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A source-listed native regional occurrence
+              zh: 来源名册列出的区域原生出现
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-66m65
+            locator: PMC12070909 XML Table1 body row 5 Anaxyrus compactilis (Wiegmann, 1833); Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e4a758a7bb
+                part: body
+              zh:
+                page: zh
+                section: s-a16331f6d3
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: biogeography
+            heading:
+              en: Distribution categories are dated checklist assignments
+              zh: 分布类别是有日期的名册分配
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-66m65
+            locator: PMC12070909 XML Table1 row 5 Global/Total columns and caption; Methods2.1; Results3.2; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-c606d1a1d2
+                part: body
+              zh:
+                page: zh
+                section: s-10d7a5a8d7
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: ecology
+            heading:
+              en: Three conservation systems retain distinct dates and meanings
+              zh: 三套保育体系保留不同日期与含义
+            referenceId: ref-d7753e0d-473c-49d7-a833-dd0b0de1a268
+            sourceKey: primary-pmc12070909-66m65
+            locator: PMC12070909 XML Table1 row 5 IUCN/EVS/Mx columns and caption; Methods2.2; Results3.4
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5a6930d6f9
+                part: body
+              zh:
+                page: zh
+                section: s-bfaf748256
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.1645/23-6
+        referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+        sourceKey: primary-pmc10658874-66m65
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10658874/article.xml
+        sourceConcept: Historical compiled hostlabel Anaxyrus compactilis; exact pinned-name link only, not originalvoucher/currentconcept authentication
+        evidenceRead: "Anaxyrus compactilis: XML s2 methods; s3a checklist scope and amphibian Bothriocephalus/Schyzocotyle entries; s3c–s3i numbered parasite headings and named amphibian host/locality paragraphs; s3j Amphibia entries through Siren lacertina before Reptilia; s4 correction/larval-scope discussion and s5 conclusions inspected. Own factual summaries only; no source prose/table/key/illustrations reproduced or translated; no original cited studies/vouchers/sequences independently read or reidentified. Identification key and figures not independently reviewed.; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY-NC-ND 4.0
+          licenseUrl: https://creativecommons.org/licenses/by-nc-nd/4.0/
+          attribution: Original bilingual factual summaries of a compiled literature checklist; no source prose, tables, identification key or illustrations reproduced, adapted or translated.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Adult tapeworm associations in a historical North American checklist
+              zh: 北美历史清单中的成体绦虫关联
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-66m65
+            locator: PMC10658874 XML s3j direct-child rows13,14; s3d direct-child row4 namedAnaxyrus compactilis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-152af8cde2
+                part: body
+              zh:
+                page: zh
+                section: s-4d56398700
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: range
+            heading:
+              en: Reported parasite localities retain their historical scope
+              zh: 寄生记录地点保留历史范围
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-66m65
+            locator: PMC10658874 XML s3j direct-child rows13,14; s3d direct-child row4 namedAnaxyrus compactilis
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-dffc63e56f
+                part: body
+              zh:
+                page: zh
+                section: s-a613c54709
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: How to interpret the compiled parasite evidence
+              zh: 如何理解汇编的寄生证据
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-66m65
+            locator: PMC10658874 XML s2 methods; s3a introduction; s3j introduction/Amphibia hostlabels; s5 source totals
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-8d99eb31bf
+                part: body
+              zh:
+                page: zh
+                section: s-e196fa4738
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: taxonomy
+            heading:
+              en: A corrected historical parasite attribution
+              zh: 更正的历史寄生虫归属
+            referenceId: ref-7c723eb2-2d25-4035-a0fe-348e7d84eea6
+            sourceKey: primary-pmc10658874-66m65
+            locator: PMC10658874 XML s4 discussion firstparagraph; s3d Distoichometra bufonis namedAnaxyrus compactilis entry
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-32771f5f3a
+                part: body
+              zh:
+                page: zh
+                section: s-e3aacb7215
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

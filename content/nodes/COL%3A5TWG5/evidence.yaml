@@ -1,0 +1,104 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Aloe pruinosa Reynolds
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 5TWG5, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 5TWG5; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/5TWG5
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 5TWG5
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000758701-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 5TWG5 / WFO wfo-0000758701
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_5961_0
+        referenceId: ref-ba3368a6-e3f2-87ea-a40d-9e706b7d6fc6
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Aloe pruinosa Reynolds account; SANBI/WFO archive rows 49086 (Morphology), 55058 (Habitat), 51318 (Diagnostic), source identifier 5961.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Plants solitary, 250-600 mm tall excluding inflorescence, with a 300-500 mm long, often prostrate stem. Leaves 16-24, erect to spreading, 500-750 x 60-100 mm, channelled, upper surface with many whitish spots, irregularly arranged or in transverse bands, lower surface with more numerous spots in more distinct bands. Inflorescence with 11-20 ultimate branches, 1.4-2.0 m tall; racemes conical, sub-lax; bracts deltoid-acuminate, 5-12 x 2-3 mm, 5-7-nerved. Flowers brownish red to darkish pink with greyish powdery bloom, 24-33 mm long, subclavate above basal constriction; outer segments free for 5-7 mm, inner segments adnate to outer; pedicels 8-12 mm long. Anthers exserted up to 2 mm. Ovary 6.0-8.0 x 1.5-3.0 mm, green; style exserted 1-4 mm. Fruit not seen.
+            textZh: Aloe pruinosa Reynolds 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Morphology row 49086; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: This plant is smaller than A. dyeri but larger than other members of the section. A. pruinosa is more readily short-stemmed than that species, and there are differences in leaf markings and in the size and colour of the flowers. A. pruinosa differs from all other southern African Aloe species in having a copious dull grey bloom on the flowers, pedicels and peduncle. Although similar in many respects to A. greenii, it is distinguishable from that species in the field in all seasons; the differences are given under A. greenii.
+            textZh: SANBI 条目提供了 Aloe pruinosa Reynolds 的鉴别特征。
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Diagnostic row 51318; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: It occurs on heavy loam in areas of fairly high summer rainfall.
+            textZh: 该 SANBI 区域物种条目记录的生境：It occurs on heavy loam in areas of fairly high summer rainfall.
+            sourceIds:
+              - sanbi_5961_0
+            locator: "SANBI/WFO archive Habitat row 55058; source identifier 5961.0; cited publication: Glen, HF; Hardy, DS. 2000. Aloe. In: G Germishuizen & E du Plessis (eds), Aloaceae (first part), Fl. S. Africa 5(1,1): 1 - 167. National Botanical Institute, Pretoria. [http://www.biodiversitylibrary.org/item/209564#page/3/mode/1up]. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed

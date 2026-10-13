@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Wolterstorffina parvipalmata
+  displayName: Wolterstorffina parvipalmata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5C33S
+  sourceIndexes:
+    - name:
+        en: Wolterstorffina parvipalmata
+        zh: Wolterstorffina parvipalmata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5C33S
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/267
+            queryName: Wolterstorffina parvipalmata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/283
+            queryName: Nectophryne parvipalmata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-5a35e10b9c
+      - s-59740922d6
+      - s-8fa4537529
+      - s-4ac5f38baf
+      - s-cbaefe8dc5
+      - s-fafc1245dd
+      - s-1558fa63b0
+      - s-c42894e1e1
+      - s-91a327f01d
+      - s-986170ca87
+    zh:
+      - s-9c4e424ee3
+      - s-1b8102ebbe
+      - s-9efa4a4b41
+      - s-cf0ee56b6e
+      - s-d9ca396391
+      - s-708377df28
+      - s-08b8ae7edc
+      - s-051d633707
+      - s-611bdc412d
+      - s-682af25515

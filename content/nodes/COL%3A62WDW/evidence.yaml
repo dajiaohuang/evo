@@ -1,0 +1,356 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Itapotihyla Faivovich, Haddad, Garcia, Frost, Campbell & Wheeler, 2005
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Itapotihyla
+      zh: Itapotihyla
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-0e1569ca1c
+            part: title
+          zh:
+            page: zh
+            section: s-f5c047bc83
+            part: title
+        text:
+          en:
+            page: en
+            section: s-0e1569ca1c
+            part: body
+          zh:
+            page: zh
+            section: s-f5c047bc83
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-b79f457dc6
+            part: title
+          zh:
+            page: zh
+            section: s-1753461131
+            part: title
+        text:
+          en:
+            page: en
+            section: s-b79f457dc6
+            part: body
+          zh:
+            page: zh
+            section: s-1753461131
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-a1d788a88a
+            part: title
+          zh:
+            page: zh
+            section: s-bde048bec5
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a1d788a88a
+            part: body
+          zh:
+            page: zh
+            section: s-bde048bec5
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-a927f3a9b5
+            part: title
+          zh:
+            page: zh
+            section: s-0f527eb0a3
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a927f3a9b5
+            part: body
+          zh:
+            page: zh
+            section: s-0f527eb0a3
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-548ecdd7d9
+            part: title
+          zh:
+            page: zh
+            section: s-b996eafe60
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3QDRW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QDRW
+            label:
+              en: Itapotihyla langsdorffii
+              zh: Itapotihyla langsdorffii
+        text:
+          en:
+            page: en
+            section: s-548ecdd7d9
+            part: body
+          zh:
+            page: zh
+            section: s-b996eafe60
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10688756-62wdw
+        title:
+          en:
+            page: en
+            section: s-93f53fa5d3
+            part: title
+          zh:
+            page: zh
+            section: s-9aacb8ae63
+            part: title
+        text:
+          en:
+            page: en
+            section: s-93f53fa5d3
+            part: body
+          zh:
+            page: zh
+            section: s-9aacb8ae63
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10688756-62wdw
+        title:
+          en:
+            page: en
+            section: s-5cd11b3ec1
+            part: title
+          zh:
+            page: zh
+            section: s-4e1d7f9820
+            part: title
+        text:
+          en:
+            page: en
+            section: s-5cd11b3ec1
+            part: body
+          zh:
+            page: zh
+            section: s-4e1d7f9820
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10688756-62wdw
+        title:
+          en:
+            page: en
+            section: s-e08f9e3d30
+            part: title
+          zh:
+            page: zh
+            section: s-0faa940c6f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 3QDRW
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3QDRW
+            label:
+              en: Itapotihyla langsdorffii
+              zh: Itapotihyla langsdorffii
+        text:
+          en:
+            page: en
+            section: s-e08f9e3d30
+            part: body
+          zh:
+            page: zh
+            section: s-0faa940c6f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Itapotihyla
+          url: https://www.checklistbank.org/dataset/316115/taxon/62WDW
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Itapotihyla; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10688756-62wdw
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+            zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-ba4f519f82
+        part: body
+      zh:
+        page: zh
+        section: s-115a3eab7c
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Itapotihyla
+      sourceRowIds:
+        - Anf2466
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-direct-group-pmc10688756-62wdw
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: Source-labelled Atlantic Forest workbook rows grouped through fixed exact names or explicit catalogue accepted-links; duplicate destinations retained, not biological identity certification
+        evidenceRead: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reproduction and juvenile habitats retain source-row denominators
+              zh: 繁殖及幼体生境保留来源行分母
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-62wdw
+            locator: PMC10688756 S3 Traits rows 216; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-84b10a5194
+                part: body
+              zh:
+                page: zh
+                section: s-aa3055b337
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Inference flags and community associations have limited scope
+              zh: 推断标记及群落关联具有有限范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-62wdw
+            locator: PMC10688756 S3 Traits rows 216; XML Functional diversity length/Observation columns; Results/Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-40141714b9
+                part: body
+              zh:
+                page: zh
+                section: s-4fab2645f0
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+    primaryResearchGroupSynthesisComplete: false

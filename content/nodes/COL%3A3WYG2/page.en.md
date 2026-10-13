@@ -1,0 +1,3 @@
+## ## Purple flowers and striate samaras {#s-0858a00236}
+The Brazilian Flora 2020 entry describes unarmed, cylindrical branches and leaves with leaf-like stipules. The leaflets have brochidodromous venation and are listed as elliptic, ovate, lance-shaped or oblong-lanceolate, with acute tips and rounded or wedge-shaped bases. Their upper faces are hairless and the lower faces hairy. Racemes, panicles or fascicles may occur in the leaf axils or at shoot tips, with leaf-like bracts. The flowers have a bell-shaped calyx and purple petals; the standard is hairy and the stamens form two bundles. The fruit is a samara with a striate seed-bearing region. A habitat field says “terrestrial” but provides no locality or more specific habitat description.
+

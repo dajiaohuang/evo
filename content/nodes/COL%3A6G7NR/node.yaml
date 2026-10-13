@@ -1,0 +1,104 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Epipedobates espinosai
+  displayName: Epipedobates espinosai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6G7NR
+  sourceIndexes:
+    - name:
+        en: Epipedobates espinosai
+        zh: Epipedobates espinosai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6G7NR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/375
+            queryName: Epipedobates espinosai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/237
+            queryName: Epipedobates darwinwallacei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/251
+            queryName: Phyllobates espinosai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/252
+            queryName: Dendrobates espinosai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00031.json.gz
+            field: /records/253
+            queryName: Ameerega espinosai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/190
+            queryName: Epipedobates robnatali
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-99ffb4ea46
+      - s-002f4e727e
+      - s-6228aa206f
+      - s-b00e3750c4
+      - s-482e47308d
+      - s-00aa9738fe
+      - s-abbd429867
+      - s-c1ea61383e
+      - s-e59a340445
+      - s-bdc76cb94d
+      - s-af3f398b05
+      - s-6f6a9054e6
+      - s-2b9032e95e
+      - s-ea1aed0840
+      - s-b9c484a60f
+      - s-e90dde053d
+      - s-02df256688
+    zh:
+      - s-d61c7bdb55
+      - s-b3e3b75f1f
+      - s-1ecb79ee9e
+      - s-66b400fcd0
+      - s-e7606ef9a7
+      - s-bb9e2d154b
+      - s-f5e327636c
+      - s-fe1e07fbf8
+      - s-5cf8229506
+      - s-e183bbd622
+      - s-dcfec29ef0
+      - s-cdcaa3b9af
+      - s-afd7346732
+      - s-26325e103a
+      - s-908d6a9171
+      - s-5e92f00398
+      - s-2ef61fdcc9

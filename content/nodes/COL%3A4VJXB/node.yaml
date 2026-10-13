@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Scinax karenanneae
+  displayName: Scinax karenanneae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4VJXB
+  sourceIndexes:
+    - name:
+        en: Scinax karenanneae
+        zh: Scinax karenanneae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4VJXB
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/50
+            queryName: Scinax karenanneae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/364
+            queryName: Hyla karenanneae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d1f612c394
+      - s-97cc25af81
+      - s-17fde685ab
+      - s-b2292ac7cd
+      - s-9004d01768
+      - s-932ea60bab
+      - s-e3eaa7d87c
+      - s-d55aa92acc
+    zh:
+      - s-4081a6d96e
+      - s-ffe3e60948
+      - s-07d5440034
+      - s-19df1fb3a0
+      - s-b3219053be
+      - s-a68195710a
+      - s-bee025b4f6
+      - s-6e8bdcf47e

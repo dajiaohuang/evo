@@ -1,0 +1,88 @@
+schemaVersion: 1
+records:
+  readerSections:
+    - title:
+        en:
+          page: en
+          section: s-4a239a0181
+          part: title
+        zh:
+          page: zh
+          section: s-5c88038087
+          part: title
+      text:
+        en:
+          page: en
+          section: s-4a239a0181
+          part: body
+        zh:
+          page: zh
+          section: s-5c88038087
+          part: body
+    - title:
+        en:
+          page: en
+          section: s-dcb728779e
+          part: title
+        zh:
+          page: zh
+          section: s-d502b57399
+          part: title
+      text:
+        en:
+          page: en
+          section: s-dcb728779e
+          part: body
+        zh:
+          page: zh
+          section: s-d502b57399
+          part: body
+  atlas-node:
+    name: Thyreophora
+    commonName: Armoured dinosaurs
+    commonNameZh: 装甲类
+    rank: clade
+    taxonId: txn:52777
+    firstAppearance: 193
+    lastAppearance: 66
+    extinct: true
+    parentRelationshipKind: navigation-parent
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:thyreophora
+      claimKind: scientific
+      claimType: topology
+      statement: The Thyreophora route uses the revised Scelidosaurus lectotype and morphology analysis as one sampled armoured-dinosaur anchor; its placement is not a direct ancestor, complete clade range or fixed historical grade.
+      confidence: medium
+      confidenceRationale: The lectotype anatomy is extensive, but its position relative to ankylosaurs and stegosaurs is a matrix result. Medium confidence preserves that distinction.
+      referenceLinks:
+        - referenceId: norman-2021-scelidosaurus
+          relation: supports
+          pages: 1–86
+          figure: Figures 1–34; phylogenetic figures and appendices
+          quoteLocator: Lectotype; dermal skeleton; phylogenetic relationships
+  claim-rationales.zh:
+    - 正模解剖材料丰富，但它相对甲龙与剑龙的位置属于矩阵结果；中等置信度保留该区分。
+  claim-statements.zh:
+    - 覆盾甲龙类路线以修订后的林龙正模和形态分析作为一个取样装甲恐龙锚点；其位置不是直接祖先、完整支系范围或固定历史等级。
+  ranges:
+    - entityId: thyreophora
+      rangeKind: global-composite
+      taxonomicConcept: Thyreophora dossier navigation envelope
+      geographicScope: Study-locality composite
+      olderMa: 193
+      youngerMa: 66
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: Study-level occurrence or navigation envelope; not a direct date on ancestry and not a demonstrated global first or last appearance.
+      evidenceBasis: Primary-study specimen, formation or explicitly bounded dossier evidence.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:scelidosaurus-r1111-dermal-skeleton
+      referenceLocators:
+        - referenceId: norman-2021-scelidosaurus
+          locator: Cited specimen, figures and methods in the linked claim dossier

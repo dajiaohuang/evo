@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis paululus
+  displayName: Pristimantis paululus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJKV
+  sourceIndexes:
+    - name:
+        en: Pristimantis paululus
+        zh: Pristimantis paululus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJKV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/481
+            queryName: Pristimantis paululus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/478
+            queryName: Eleutherodactylus paululus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-3e4859a8f0
+      - s-0930cec8ec
+      - s-f1582623eb
+      - s-e2c284fcfa
+      - s-8fe75a7ef1
+      - s-c671efd8dd
+      - s-fe9f3ccb06
+      - s-da72c7ab0c
+      - s-aa93220f59
+      - s-6e8c8cfc83
+      - s-2cd9253aee
+    zh:
+      - s-e08e9353a0
+      - s-b0faf73e82
+      - s-46d5f07602
+      - s-f129a3706f
+      - s-9366d3ac86
+      - s-e7bc2eec66
+      - s-67778bd78c
+      - s-814f046000
+      - s-14703f7895
+      - s-59e65cf587
+      - s-9932de9ee0

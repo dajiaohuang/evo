@@ -1,0 +1,225 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:169687
+    scientificName: Saadanius hijazensis
+    commonName: Stem-catarrhine sample
+    commonNameZh: 狭鼻猴干群萨达猴标本
+    rank: genus
+    parentName: Catarrhini
+    extinct: true
+    geography:
+      - Middle Shumaysi Formation
+      - Western Saudi Arabia
+    overview:
+      page: en
+      section: s-d8d50d3a20
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-4592c40f0f
+        part: body
+      habitat:
+        page: en
+        section: s-57c2eb5821
+        part: body
+      locomotion:
+        page: en
+        section: s-13af82e3c7
+        part: body
+      bodySize:
+        page: en
+        section: s-a67cba9146
+        part: body
+      guild:
+        page: en
+        section: s-79407ee37b
+        part: body
+    traits:
+      - page: en
+        section: s-7b543223b3
+        part: body
+      - page: en
+        section: s-d3eb9f8b99
+        part: body
+      - page: en
+        section: s-2f962d7ab0
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-fbd8cb85bc
+      part: body
+    confidence: medium
+    referenceIds:
+      - zalmout-2010-saadanius
+    readerSections:
+      - id: shumaysi-skull
+        title:
+          en:
+            page: en
+            section: s-43782c0b36
+            part: title
+          zh:
+            page: zh
+            section: s-c72657b54f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-43782c0b36
+            part: body
+          zh:
+            page: zh
+            section: s-c72657b54f
+            part: body
+        sourceIds:
+          - zalmout-2010-saadanius
+      - id: character-combination
+        title:
+          en:
+            page: en
+            section: s-6b68890916
+            part: title
+          zh:
+            page: zh
+            section: s-657d0a0751
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6b68890916
+            part: body
+          zh:
+            page: zh
+            section: s-657d0a0751
+            part: body
+        sourceIds:
+          - zalmout-2010-saadanius
+      - id: age-and-ancestor-limit
+        title:
+          en:
+            page: en
+            section: s-3710f6136e
+            part: title
+          zh:
+            page: zh
+            section: s-f069af75c9
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3710f6136e
+            part: body
+          zh:
+            page: zh
+            section: s-f069af75c9
+            part: body
+        sourceIds:
+          - zalmout-2010-saadanius
+    readerSources:
+      - id: zalmout-2010-saadanius
+        referenceId: zalmout-2010-saadanius
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Partial Shumaysi Formation cranium, the paper’s character matrix and biochronological placement.
+            zh: Shumaysi 组部分头骨、论文中的特征矩阵及生物年代学定位。
+    readerLimitations:
+      en:
+        page: en
+        section: s-59a06a908d
+        part: body
+      zh:
+        page: zh
+        section: s-cee9dff0ae
+        part: body
+  claims:
+    - subjectId: taxon:saadanius
+      claimType: taxonomy
+      claimKind: scientific
+      statement: SGS-UM 2009-002 was recovered as a stem catarrhine in a 36-character, 19-taxon analysis; this is a sampled topology, not a direct ancestor claim.
+      confidence: medium
+      confidenceRationale: The taxonomy field for saadanius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: zalmout-2010-saadanius
+          relation: supports
+          pages: 360–365; Figures 1–4; Methods
+    - subjectId: taxon:saadanius
+      claimType: biogeography
+      claimKind: scientific
+      statement: The profile is limited to the Middle Shumaysi Formation in western Saudi Arabia and does not establish a global catarrhine origin centre.
+      confidence: medium
+      confidenceRationale: The biogeography field for saadanius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: zalmout-2010-saadanius
+          relation: supports
+          pages: 360–365; Figures 1–4; Methods
+    - subjectId: taxon:saadanius
+      claimType: ecology
+      claimKind: scientific
+      statement: Dentition permits a bounded dietary inference, while the partial cranium does not preserve locomotion, habitual habitat or feeding behaviour.
+      confidence: medium
+      confidenceRationale: The ecology field for saadanius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: zalmout-2010-saadanius
+          relation: supports
+          pages: 360–365; Figures 1–4; Methods
+    - subjectId: taxon:saadanius
+      claimType: morphology
+      claimKind: scientific
+      statement: The holotype preserves much of the face, palate and dentition together with a tubular ectotympanic documented by photographs and micro-CT.
+      confidence: medium
+      confidenceRationale: The morphology field for saadanius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: zalmout-2010-saadanius
+          relation: supports
+          pages: 360–365; Figures 1–4; Methods
+    - subjectId: taxon:saadanius
+      claimType: fossil-range
+      claimKind: scientific
+      statement: The 29–28 Ma envelope follows the study’s biochronological context and is not a direct specimen date, crown-catarrhine FAD or divergence time.
+      confidence: medium
+      confidenceRationale: The fossil-range field for saadanius is bounded to the named material and cited primary-study locator; that evidence type is not generalized to ancestry or a whole clade.
+      referenceLinks:
+        - referenceId: zalmout-2010-saadanius
+          relation: supports
+          pages: 360–365; Figures 1–4; Methods
+  claim-rationales.zh:
+    - 狭鼻猴干群萨达猴标本的分类表述只覆盖具名标本及所引主研究的分析范围；导航归属不表示直系祖先或普适系统树。
+    - 狭鼻猴干群萨达猴标本的地理字段只投影主研究记录的具体产地，不外推为全球分布、起源中心或完整扩散路径。
+    - 狭鼻猴干群萨达猴标本的生态字段区分保存事实与功能推断；未被标本直接记录的饮食、行为、栖息地或性能均明确保留不确定性。
+    - 狭鼻猴干群萨达猴标本的形态字段限定于主研究列明的具名标本和精确页码、图版或补充材料，不外推到整个支系。
+    - 狭鼻猴干群萨达猴标本的年代范围是主研究标本或地层背景的有界投影，不作为全球首现、末现、分化时间或连续谱系时长。
+  claim-statements.zh:
+    - SGS-UM 2009-002 在一项含 36 个性状、19 个分类单元的分析中被恢复为狭鼻类干群；这是取样拓扑，不是直接祖先主张。
+    - 本资料仅限于沙特阿拉伯西部 Shumaysi 组中段，不能确立全球狭鼻类起源中心。
+    - 牙齿允许作出有边界的食性推断，但局部颅骨没有保存运动方式、惯常栖息地或摄食行为。
+    - 正模保存了面部、腭和牙列的大部分，以及由照片和微型 CT 记录的管状外耳道。
+    - 2,900 万至 2,800 万年前的区间遵循研究的生物年代背景，并非标本直接测年、狭鼻类冠群首次出现或分化时间。
+  ranges:
+    - entityId: saadanius
+      rangeKind: global-composite
+      taxonomicConcept: Saadanius holotype stem-catarrhine test occurrence
+      geographicScope: Middle Shumaysi Formation, Harrat Al Ujayfa, western Saudi Arabia
+      olderMa: 29
+      youngerMa: 28
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The 29–28 Ma age is biochronological and the stem-catarrhine position follows a 36-character, 19-taxon matrix; it does not directly date the catarrhine crown split or identify an ancestor.
+      evidenceBasis: Named specimen or explicitly bounded dataset and its stratigraphic, radiometric or model context in the cited primary study.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:saadanius-holotype-stem-catarrhine
+        - claim:taxon:saadanius:fossil-range
+      referenceLocators:
+        - referenceId: zalmout-2010-saadanius
+          locator: 360–365; Figures 1–4; Methods

@@ -1,0 +1,136 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor fitzingeri
+  displayName: Craugastor fitzingeri
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BCDW
+  sourceIndexes:
+    - name:
+        en: Craugastor fitzingeri
+        zh: Craugastor fitzingeri
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BCDW
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/118
+            queryName: Craugastor fitzingeri
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 42
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/85
+            queryName: Eleutherodactylus fitzingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/99
+            queryName: Eleutherodactylus griseus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/143
+            queryName: Eleutherodactylus nubilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/246
+            queryName: Hyla grisea
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/247
+            queryName: Hylodes nubilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/245
+            queryName: Hylodes fitzingeri
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 34
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/246
+            queryName: Craugastor pulchrigulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/247
+            queryName: Hylodes pulchrigulus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/248
+            queryName: Hylodes griseus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/249
+            queryName: Lithodytes griseus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-acf37f2369
+      - s-e9493cdb5b
+      - s-80c00685f6
+      - s-4372a493e5
+      - s-f25c2e36c7
+      - s-178e398afa
+      - s-9f993e065f
+      - s-20963466fa
+      - s-0811955111
+      - s-0fd9b73bfd
+      - s-e080090c5b
+      - s-eaf59ff97a
+      - s-1a98073ec4
+      - s-562733715e
+      - s-7dfd654af2
+      - s-ae12d51ea4
+      - s-4164bb1bfc
+      - s-0fd445208a
+    zh:
+      - s-37cd186aec
+      - s-81f31c7f6d
+      - s-e9677b9ffb
+      - s-f249bfd4f2
+      - s-11b8a27fbe
+      - s-604dff15af
+      - s-1a98b31c37
+      - s-0033d83374
+      - s-b5610b35e4
+      - s-fe5b34ad31
+      - s-6a5bcfe991
+      - s-58a66723ac
+      - s-3f87df5512
+      - s-f02fa01651
+      - s-174d24ba90
+      - s-e13914f060
+      - s-77792de69e
+      - s-d24fdea475

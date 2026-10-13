@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Odorrana monjerai
+  displayName: Odorrana monjerai
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74GXS
+  sourceIndexes:
+    - name:
+        en: Odorrana monjerai
+        zh: Odorrana monjerai
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74GXS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/36
+            queryName: Odorrana monjerai
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/332
+            queryName: Rana monjerai
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-33bc0263ac
+      - s-3acf120966
+      - s-3ccf123bfe
+      - s-4f70735e9c
+      - s-195070c0f9
+      - s-2dcbccc947
+      - s-845e56cf77
+      - s-420ad28ef7
+    zh:
+      - s-1aa0c57390
+      - s-805adb0ace
+      - s-59baf90bee
+      - s-5bdf0b12d8
+      - s-76c47d2322
+      - s-3cec3e568b
+      - s-070c7a65b1
+      - s-420aaa4973

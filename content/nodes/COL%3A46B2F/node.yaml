@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Neobatrachus aquilonius
+  displayName: Neobatrachus aquilonius
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/46B2F
+  sourceIndexes:
+    - name:
+        en: Neobatrachus aquilonius
+        zh: Neobatrachus aquilonius
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 46B2F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/234
+            queryName: Neobatrachus aquilonius
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 11
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e868ed2412
+      - s-1970ac7b7d
+      - s-6a4f9db93a
+      - s-13fb17508a
+      - s-1ef49a0e60
+      - s-8be16b2e6b
+      - s-2c2e2ea6dd
+      - s-e9da883994
+    zh:
+      - s-01852a994c
+      - s-5062437ec2
+      - s-f00003eea0
+      - s-c482a61aaf
+      - s-94025aa1fb
+      - s-7b15351609
+      - s-8f1ba2088c
+      - s-d976df7c02

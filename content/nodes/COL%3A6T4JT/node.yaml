@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax pingii
+  displayName: Oreolalax pingii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6T4JT
+  sourceIndexes:
+    - name:
+        en: Oreolalax pingii
+        zh: Oreolalax pingii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6T4JT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/223
+            queryName: Oreolalax pingii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/250
+            queryName: Scutiger pingii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-77f16d40d2
+      - s-28ea28f724
+      - s-e375168624
+      - s-016a1ed66a
+      - s-e951cf4aef
+      - s-dae6beac4e
+      - s-a26cf6f995
+      - s-118f157a1e
+      - s-470dfe7531
+      - s-fbcd5eb21f
+    zh:
+      - s-be6f514d76
+      - s-5f0e1760b8
+      - s-79e76d4474
+      - s-04f1bc56bd
+      - s-e63ce668b0
+      - s-cb6a2d7334
+      - s-e0b29ca2bd
+      - s-04878c2c2c
+      - s-d72a193865
+      - s-560ca8ec15

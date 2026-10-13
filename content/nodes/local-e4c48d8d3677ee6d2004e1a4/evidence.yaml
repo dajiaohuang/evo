@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Ichthyophis laosensis
+    name:
+      en: Ichthyophis laosensis
+      zh: Ichthyophis laosensis
+    sourceClassification:
+      order: Gymnophiona
+      family: Ichthyophiidae
+      genus: Ichthyophis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-b1182d3343
+            part: body
+          zh:
+            page: zh
+            section: s-186d9a8a68
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5fa6414d78
+            part: body
+          zh:
+            page: zh
+            section: s-d7bc45645b
+            part: body
+      - topic: morphology
+        sourceReaderKind: deposited-annulus-counts
+        title:
+          en: Deposited annulus counts
+          zh: 存档的环褶计数
+        sourceIds:
+          - amphibian-morphology
+          - huang-2023-methods
+        text:
+          en:
+            page: en
+            section: s-33bb8c154c
+            part: body
+          zh:
+            page: zh
+            section: s-66f2cd1cfd
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Gymnophiona.csv, rows 87; Reference.csv rows 4384
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: huang-2023-methods
+        referenceId: ref-d4c49f33-d905-46a0-8a88-cff8d472232d
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Table 3, page 638: TA1, TA2, PVA and VA definitions"
+          scope:
+            en: Anatomical count meanings only; absolute length units remain unconfirmed.
+            zh: 仅核对解剖计数含义；绝对长度单位仍未确认。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - TOL
+      - TL
+      - TAW
+      - SL
+      - STFG
+      - STSG
+      - STTG
+      - TA1
+      - TA2
+      - PVA
+      - TRL
+      - SVL
+      - HL
+      - HW1
+      - HW2
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - NS
+      - ITD
+      - TE
+      - TN
+      - TLP
+      - TS
+      - TJ
+      - EJ
+      - NJ
+      - SJ
+      - LJL
+      - C1
+      - C2
+      - VL
+      - VA
+    originalMeasurementRows:
+      - rowNumber: 87
+        values:
+          - Ichthyophiidae
+          - Ichthyophis
+          - Ichthyophis laosensis
+          - M
+          - "318"
+          - "3.7"
+          - NA
+          - "6.3"
+          - "10.9"
+          - NA
+          - NA
+          - "345"
+          - "346"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.7"
+          - NA
+          - "11.4"
+          - "16.1"
+          - "6.3"
+          - "3.2"
+          - "1"
+          - "5"
+          - "7.3"
+          - NA
+          - "7.5"
+          - "1.6"
+          - "4.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "10.8"
+          - "10.3"
+          - NA
+          - NA
+          - NA
+          - "3"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 4384
+        values:
+          - Gymnophiona
+          - Ichthyophis_laosensis
+          - "Geissler, P., Poyarkov, N. A., Grismer, L., Nguyen, T. Q., An, H. T., Neang, T., . . . Müller, H. (2014). New Ichthyophis species from Indochina (Gymnophiona, Ichthyophiidae): 1. The unstriped forms with descriptions of three new species and the redescriptions of I. acuminatus Taylor, 1960, I. youngorum Taylor, 1960 and I. laosensis Taylor, 1969. Organisms Diversity & Evolution, 15(1), 143-174. https://doi.org/10.1007/s13127-014-0190-6"
+    availableTraitCodes:
+      - TOL
+      - TL
+      - SL
+      - STFG
+      - TA1
+      - TA2
+      - HW1
+      - BW1
+      - BW2
+      - BW3
+      - IND
+      - ED
+      - EN
+      - IOD
+      - ITD
+      - TE
+      - TN
+      - SJ
+      - LJL
+      - VA
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6N64D
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。
+    verifiedCountDefinitions:
+      doi: 10.1111/geb.13656
+      locator: Table 3, printed page 638
+      fields:
+        - code: TA1
+          meaning: annuli counted dorsally
+        - code: TA2
+          meaning: annuli counted ventrally
+        - code: PVA
+          meaning: annuli behind the vent
+        - code: VA
+          meaning: annuli interrupted by the vent
+      absoluteLengthUnitsVerified: false

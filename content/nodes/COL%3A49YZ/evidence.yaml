@@ -1,0 +1,160 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Ectopoglossus Grant, Rada, Anganoy-Criollo, Batista, Dias, Jeckel, Machado & Rueda-Almonacid, 2017
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Ectopoglossus
+      zh: Ectopoglossus
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-bc6114a21f
+            part: title
+          zh:
+            page: zh
+            section: s-5cab676af7
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bc6114a21f
+            part: body
+          zh:
+            page: zh
+            section: s-5cab676af7
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-78d8819db4
+            part: title
+          zh:
+            page: zh
+            section: s-db6e5b9043
+            part: title
+        text:
+          en:
+            page: en
+            section: s-78d8819db4
+            part: body
+          zh:
+            page: zh
+            section: s-db6e5b9043
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-4fdafb7386
+            part: title
+          zh:
+            page: zh
+            section: s-e52970e5b8
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 38QY5
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A38QY5
+            label:
+              en: Ectopoglossus absconditus
+              zh: Ectopoglossus absconditus
+          - kind: catalogue
+            colId: 38QY6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A38QY6
+            label:
+              en: Ectopoglossus astralogaster
+              zh: Ectopoglossus astralogaster
+          - kind: catalogue
+            colId: 38QY7
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A38QY7
+            label:
+              en: Ectopoglossus atopoglossus
+              zh: Ectopoglossus atopoglossus
+          - kind: catalogue
+            colId: 38QY8
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A38QY8
+            label:
+              en: Ectopoglossus confusus
+              zh: Ectopoglossus confusus
+          - kind: catalogue
+            colId: 38QY9
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A38QY9
+            label:
+              en: Ectopoglossus isthminus
+              zh: Ectopoglossus isthminus
+          - kind: catalogue
+            colId: 6DXRH
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6DXRH
+            label:
+              en: Ectopoglossus lacrimosus
+              zh: Ectopoglossus lacrimosus
+          - kind: catalogue
+            colId: 38QYB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A38QYB
+            label:
+              en: Ectopoglossus saxatilis
+              zh: Ectopoglossus saxatilis
+        text:
+          en:
+            page: en
+            section: s-4fdafb7386
+            part: body
+          zh:
+            page: zh
+            section: s-e52970e5b8
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Ectopoglossus
+          url: https://www.checklistbank.org/dataset/316115/taxon/49YZ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-f1a86841a1
+        part: body
+      zh:
+        page: zh
+        section: s-2a48b51653
+        part: body

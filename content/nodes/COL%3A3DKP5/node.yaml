@@ -1,0 +1,64 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Exerodonta perkinsi
+  displayName: Exerodonta perkinsi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DKP5
+  sourceIndexes:
+    - name:
+        en: Exerodonta perkinsi
+        zh: Exerodonta perkinsi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DKP5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/450
+            queryName: Exerodonta perkinsi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/422
+            queryName: Hyla perkinsi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b70b1b76d6
+      - s-e13b130503
+      - s-984e088e1d
+      - s-3f203d8f8e
+      - s-c2e148fddc
+      - s-ea87448880
+      - s-f034dbade6
+      - s-271b93c5bd
+      - s-2bcfb16d9d
+    zh:
+      - s-ffccc12684
+      - s-65c9c80b9c
+      - s-d7b348c4de
+      - s-1ad4950e1c
+      - s-34e52684e7
+      - s-fe328e471d
+      - s-c912a27af1
+      - s-9e0cf55ca5
+      - s-ea3b9acc3c

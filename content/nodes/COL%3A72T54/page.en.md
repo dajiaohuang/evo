@@ -1,0 +1,3 @@
+## Leaf, flower, and fruit characters {#s-f00ed0440d}
+The Brazilian Flora 2020 field lists petioles as 0.2–0.5 cm or 0.6–0.9 cm long and leaf blades as 8–16 cm long. The dorsal leaf surface is glabrous; 7–11 pairs of secondary veins are recorded, with ventral veins impressed or grooved and dorsal veins prominent. Stipule tips are acute or acuminate, and their dorsal surface is glabrous or becoming glabrous. Inflorescences are spike-like. The calyx is truncate or nearly truncate and glabrous; the corolla is glabrous outside, and the style is glabrous or becoming glabrous. The fruit is oblong. These are the alternatives listed in one regional field.
+

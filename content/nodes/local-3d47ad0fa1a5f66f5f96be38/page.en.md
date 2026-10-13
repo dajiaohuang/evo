@@ -1,0 +1,6 @@
+## How does the deposit classify this entry? {#s-95aacb3a09}
+The version 3 Amphibian database lists Gastrotheca pachachacae in a source measurement table. Its classification fields read order = Anura, family = Hemiphractidae, genus = Gastrotheca; the linked citation is in Reference.csv row 3692. The source record marks its mapping to current COL26.8 as unresolved, so this table entry is not a complete species account.
+
+## Which coded measurements are present? {#s-68b4ddca0f}
+Anura.csv rows 1915, 1916 contain 2 measurement entries; the Sex field records F (female category), M (male category). The source lists 2 table rows; it does not identify unique specimens, so the row count is not an animal count. The populated source codes include SVL: row 1915 (F) = 35.3, row 1916 (M) = 28.95; HL: row 1915 (F) = 11.5, row 1916 (M) = 10.1; HW: row 1915 (F) = 12, row 1916 (M) = 10.65; other populated codes are ED, TD, IOD, IND, UEW, EN, NS, FL, TL, Fin1L, Fin3L, Fin3DW. These source codes and values are reproduced as deposited; the table does not expand every code. Units are not confirmed, so they do not establish comparable body sizes or a sex-based diagnosis. NA cells are unreported entries, not evidence that a structure is absent.
+

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ansonia longidigita
+  displayName: Ansonia longidigita
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/66XWL
+  sourceIndexes:
+    - name:
+        en: Ansonia longidigita
+        zh: Ansonia longidigita
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 66XWL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/53
+            queryName: Ansonia longidigita
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/332
+            queryName: Ansonia longidigitata longidigitata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b0ad21a40a
+      - s-fd83169260
+      - s-ec5c9ffd82
+      - s-3a01dda1c5
+      - s-ee0f7c62ab
+      - s-6f06a171f1
+      - s-26e2b46f70
+      - s-66175b5549
+      - s-175eb60e5d
+      - s-1ab64b4705
+      - s-66b47bb3b0
+      - s-b41db3abc0
+      - s-c7e79fc00f
+      - s-640a15f6e3
+      - s-07e953a830
+      - s-2b5c752ad9
+      - s-8a31fa6168
+    zh:
+      - s-a1d7c40444
+      - s-f0a5d4ad13
+      - s-18c7d38f42
+      - s-e8b5d0f670
+      - s-20250ba277
+      - s-1dbe57f1df
+      - s-9a342d0a5f
+      - s-d649506f11
+      - s-c2acfdd8fd
+      - s-ef328b9dc0
+      - s-be43aa9681
+      - s-21b559c282
+      - s-68aab8568b
+      - s-34af7a5023
+      - s-297b373c1d
+      - s-c79b8cd85a
+      - s-c3048c5d79

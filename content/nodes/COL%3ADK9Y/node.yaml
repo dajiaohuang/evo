@@ -1,0 +1,94 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anaxyrus canorus
+  displayName: Anaxyrus canorus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/DK9Y
+  sourceIndexes:
+    - name:
+        en: Anaxyrus canorus
+        zh: Anaxyrus canorus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: DK9Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/432
+            queryName: Anaxyrus canorus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 22
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/236
+            queryName: Bufo canorus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/424
+            queryName: Scientific and Standard English Names of Amphibians and Reptiles of North America North of Mexico, With Comments Regarding Confidence in Our Understanding, Sixth Ed.
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7359aeb15c
+      - s-0b586cd1db
+      - s-bf88704524
+      - s-30a5a3b698
+      - s-d7d3dd2908
+      - s-1943f25b2e
+      - s-bdc9f729d4
+      - s-116943fff7
+      - s-8e5d634813
+      - s-0d162bc643
+      - s-5d7f7305da
+      - s-b9e0c55b4e
+      - s-85d745ce78
+      - s-913eaed4b5
+      - s-b1282d84fc
+      - s-46fd23df1e
+      - s-64b49568c6
+      - s-01fe10dff5
+      - s-f1aa7d0809
+      - s-5b67fc9690
+      - s-a7174a5dc6
+    zh:
+      - s-49a15a8951
+      - s-f1e14a8ab6
+      - s-a486081d9a
+      - s-554e05d5f0
+      - s-3b91cf8d05
+      - s-a3a529a38b
+      - s-d6e66bb953
+      - s-1138eebe77
+      - s-c68a1264fa
+      - s-a37553cc9a
+      - s-c1dcdb006d
+      - s-be42639642
+      - s-7b9810aa61
+      - s-5abd211902
+      - s-a914bf3c68
+      - s-0332f87059
+      - s-11b1b55178
+      - s-41f1ecb359
+      - s-68a105f55d
+      - s-fde6e81569
+      - s-c69c8b5a57

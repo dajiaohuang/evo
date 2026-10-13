@@ -1,0 +1,148 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophylax nigromaculatus
+  displayName: Pelophylax nigromaculatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CHL
+  sourceIndexes:
+    - name:
+        en: Pelophylax nigromaculatus
+        zh: Pelophylax nigromaculatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CHL
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/478
+            queryName: Pelophylax nigromaculatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 331
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/218
+            queryName: Rana nigromaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 393
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/222
+            queryName: Hoplobatrachus reinhardtii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/223
+            queryName: Hoplobatrachus davidi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/224
+            queryName: Rana reinhardtii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/225
+            queryName: Pelophylax nigromaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 52
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/226
+            queryName: Hylarana nigromaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/135
+            queryName: Rana esculenta japonica
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/136
+            queryName: Rana esculenta nigromaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/137
+            queryName: Rana nigromaculata schybanovi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/138
+            queryName: Rana nigromaculata nigromaculata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 7
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/140
+            queryName: Rana nigromaculata reinhardtii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00049.json.gz
+            field: /records/465
+            queryName: Rana marmorata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-660f5dc225
+      - s-28a54686a3
+      - s-f9de21360f
+      - s-f1f5255ef1
+      - s-f58f4b1723
+      - s-d325ca4399
+      - s-8330113270
+      - s-6aac1128bf
+      - s-6c0ca0f11a
+      - s-d6d2eec10a
+      - s-3f5775f8b2
+      - s-c4c0d7395e
+      - s-bbdbdba0d3
+      - s-82c195d6b2
+      - s-23424dbcf8
+      - s-a7c38e8bfc
+      - s-7cfd1c61e2
+      - s-3872a9b17c
+    zh:
+      - s-8362c47875
+      - s-d64aa1faaf
+      - s-928e73c2ac
+      - s-b1843cdf6e
+      - s-f08b290dab
+      - s-96fc8f1133
+      - s-50f4a753e5
+      - s-f82ebe117c
+      - s-30ddaaf635
+      - s-7a54833dc0
+      - s-261d5852e2
+      - s-dcdbf760f4
+      - s-bf9f50588e
+      - s-a51fa96610
+      - s-c8b6d60298
+      - s-0a7eda2db8
+      - s-2a3950c8b7
+      - s-fac6438caa

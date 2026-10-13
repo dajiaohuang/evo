@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Amazophrynella javierbustamantei
+  displayName: Amazophrynella javierbustamantei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CKM5
+  sourceIndexes:
+    - name:
+        en: Amazophrynella javierbustamantei
+        zh: Amazophrynella javierbustamantei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CKM5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/218
+            queryName: Amazophrynella javierbustamantei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d5057306e9
+      - s-e0a95c598c
+      - s-e26b7f629f
+      - s-c528811480
+      - s-9a6c7d27ab
+      - s-537fa1d0f0
+      - s-29acc3dc71
+      - s-1e7b42e2b7
+    zh:
+      - s-814523267a
+      - s-c084d7ad9c
+      - s-5712a61453
+      - s-a3bddedfa9
+      - s-228395007f
+      - s-5d611a54ed
+      - s-9a7024f4ce
+      - s-e0470b59c0

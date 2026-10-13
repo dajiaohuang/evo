@@ -1,0 +1,238 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Mantophryne Boulenger, 1897
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Mantophryne
+      zh: Mantophryne
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-00e68a5656
+            part: title
+          zh:
+            page: zh
+            section: s-ffd9e002ba
+            part: title
+        text:
+          en:
+            page: en
+            section: s-00e68a5656
+            part: body
+          zh:
+            page: zh
+            section: s-ffd9e002ba
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-ceb55d0d5b
+            part: title
+          zh:
+            page: zh
+            section: s-31f6871cb4
+            part: title
+        text:
+          en:
+            page: en
+            section: s-ceb55d0d5b
+            part: body
+          zh:
+            page: zh
+            section: s-31f6871cb4
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-8ddaef5e0b
+            part: title
+          zh:
+            page: zh
+            section: s-1cdbe7e247
+            part: title
+        text:
+          en:
+            page: en
+            section: s-8ddaef5e0b
+            part: body
+          zh:
+            page: zh
+            section: s-1cdbe7e247
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-18fe634387
+            part: title
+          zh:
+            page: zh
+            section: s-e199b9ed2a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-18fe634387
+            part: body
+          zh:
+            page: zh
+            section: s-e199b9ed2a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-8d995d9025
+            part: title
+          zh:
+            page: zh
+            section: s-9ec74c001a
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: 6R6C6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A6R6C6
+            label:
+              en: Mantophryne axanthogaster
+              zh: Mantophryne axanthogaster
+          - kind: catalogue
+            colId: 3XX3C
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3XX3C
+            label:
+              en: Mantophryne insignis
+              zh: Mantophryne insignis
+          - kind: catalogue
+            colId: 3XX3D
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3XX3D
+            label:
+              en: Mantophryne lateralis
+              zh: Mantophryne lateralis
+          - kind: catalogue
+            colId: 736C6
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A736C6
+            label:
+              en: Mantophryne louisiadensis
+              zh: Mantophryne louisiadensis
+          - kind: catalogue
+            colId: 3XX3F
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A3XX3F
+            label:
+              en: Mantophryne menziesi
+              zh: Mantophryne menziesi
+        text:
+          en:
+            page: en
+            section: s-8d995d9025
+            part: body
+          zh:
+            page: zh
+            section: s-9ec74c001a
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Mantophryne
+          url: https://www.checklistbank.org/dataset/316115/taxon/5KZX
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Mantophryne; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-7a35d5b2e1
+        part: body
+      zh:
+        page: zh
+        section: s-5a8625ac2a
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Mantophryne
+      sourceRowIds:
+        - Anf4029
+        - Anf4030
+        - Anf4031
+        - Anf4032
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 4
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 4
+      developmentCounts:
+        - key: Dir
+          en: direct development
+          zh: 直接发育
+          count: 3
+      currentConceptEquivalenceCertified: false

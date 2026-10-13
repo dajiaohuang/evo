@@ -1,0 +1,68 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-3367510d45
+      part: title
+    titleZh:
+      page: zh
+      section: s-b8ecd8aa1e
+      part: title
+    category: radiation
+    startAge: 0
+    endAge: 0
+    regions:
+      - Global living-bird genome sample
+    clades:
+      - Neoaves
+      - Neornithes
+    summary:
+      page: en
+      section: s-3367510d45
+      part: body
+    summaryZh:
+      page: zh
+      section: s-b8ecd8aa1e
+      part: body
+    claimIds:
+      - claim:event:neoavian-genome-topology
+    evidenceItems:
+      - statement: The study compares whole-genome and reduced datasets for 48 species and reports major clades including Passerea and Columbea across multiple analyses.
+        relation: supports
+        claimIds:
+          - claim:event:neoavian-genome-topology
+        referenceLinks:
+          - referenceId: jarvis-2014-avian-phylogenomics
+            relation: supports
+            pages: 1320–1331
+            figure: Figures 1–4; Supplementary phylogenies
+            quoteLocator: Genome-scale datasets; Species-tree analyses; Incomplete lineage sorting
+    uncertaintyItems:
+      - statement: Some deep branches vary with data type and method because incomplete lineage sorting and convergence complicate inference; 48 representatives do not constitute a complete living-species tree.
+        relation: contextualizes
+        claimIds:
+          - claim:event:neoavian-genome-topology
+        referenceLinks:
+          - referenceId: jarvis-2014-avian-phylogenomics
+            relation: supports
+            pages: 1320–1331
+            figure: Figures 1–4; Supplementary phylogenies
+            quoteLocator: Genome-scale datasets; Species-tree analyses; Incomplete lineage sorting
+  claims:
+    - subjectId: event:neoavian-genome-topology
+      claimKind: scientific
+      claimType: topology
+      statement: Whole-genome analyses of 48 bird species representing all neoavian orders then recognized recover major early neoavian groupings while exposing difficult branches associated with incomplete lineage sorting and method choice; the tree is sampled extant topology, not fossil chronology or complete species coverage.
+      confidence: medium
+      confidenceRationale: Genome-scale matrices and multiple inference methods provide strong reproducible evidence. Rapid early branching, limited species-per-order sampling and gene-tree conflict keep individual deep nodes uncertain.
+      referenceLinks:
+        - referenceId: jarvis-2014-avian-phylogenomics
+          relation: supports
+          pages: 1320–1331
+          figure: Figures 1–4; Supplementary phylogenies
+          quoteLocator: Genome-scale datasets; Species-tree analyses; Incomplete lineage sorting
+  claim-rationales.zh:
+    - 基因组级矩阵和多种推断方法提供强可复现证据；快速早期分支、每目有限物种取样和基因树冲突使个别深层节点仍不确定。
+  claim-statements.zh:
+    - 对代表当时全部今颚鸟类目的 48 种鸟进行全基因组分析，恢复若干早期大支并揭示与不完全谱系分选和方法选择有关的困难节点；该树是取样现生拓扑，而非化石年表或完整物种覆盖。

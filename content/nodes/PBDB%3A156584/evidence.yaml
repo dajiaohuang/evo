@@ -1,0 +1,147 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Liaobatrachus grabaui
+    rank: species
+    sourceTaxonId: txn:156584
+    name:
+      en: Liaobatrachus grabaui
+      zh: Liaobatrachus grabaui
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-6104f42973
+            part: body
+          zh:
+            page: zh
+            section: s-4c107cc9e4
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 2 PBDB occurrence rows and collection fields
+          zh: 2 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-311a7e73d0
+            part: body
+          zh:
+            page: zh
+            section: s-587c912c16
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Liaobatrachus grabaui
+          zh: Liaobatrachus grabaui 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-c6a310944a
+            part: body
+          zh:
+            page: zh
+            section: s-58b0538ea3
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:156584; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: "S. Ji and Q. Ji. 1998. The first Mesozoic frog from China (Amphibia: Anura), Liaobatrachus grabaui gen. et sp. nov. Chinese Geology 250:39-42"
+    occurrenceEvidence:
+      - occurrenceId: occ:984395
+        collectionId: col:52888
+        acceptedTaxonId: txn:156584
+        identifiedTaxonId: txn:81737
+        identifiedName: Callobatrachus sanyanensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:17714
+        bibliography: Y. Wang and K.Q. Gao. 1999. Earliest Asian discoglossid frog from western Liaoning. Chinese Science Bulletin 44(7):636-642
+        locality:
+          countryCode: CN
+          stateProvince: Liaoning
+          county: Beipiao
+        stratigraphy:
+          group: Jehol
+          formation: Yixian
+          member: Jianshangou
+        olderAgeMa: 125.77
+        youngerAgeMa: 119.57
+      - occurrenceId: occ:984397
+        collectionId: col:52888
+        acceptedTaxonId: txn:156584
+        identifiedName: Liaobatrachus grabaui n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:31027
+        bibliography: "S. Ji and Q. Ji. 1998. The first Mesozoic frog from China (Amphibia: Anura), Liaobatrachus grabaui gen. et sp. nov. Chinese Geology 250:39-42"
+        locality:
+          countryCode: CN
+          stateProvince: Liaoning
+          county: Beipiao
+        stratigraphy:
+          group: Jehol
+          formation: Yixian
+          member: Jianshangou
+        olderAgeMa: 125.77
+        youngerAgeMa: 119.57
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Liaobatrachus grabaui
+          zh: Liaobatrachus grabaui 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-c6a310944a
+            part: body
+          zh:
+            page: zh
+            section: s-58b0538ea3
+            part: body
+        sourceIds: []

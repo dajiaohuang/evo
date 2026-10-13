@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Mixophyes schevilli
+  displayName: Mixophyes schevilli
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/43S2L
+  sourceIndexes:
+    - name:
+        en: Mixophyes schevilli
+        zh: Mixophyes schevilli
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 43S2L
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00010.json.gz
+            field: /records/130
+            queryName: Mixophyes schevilli
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00045.json.gz
+            field: /records/210
+            queryName: Mixophyes fasciolatus schevilli
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d7ce079bba
+      - s-4823181cec
+      - s-4bcf80304b
+      - s-e25aa82066
+      - s-08f4055f47
+      - s-b3bb3f15be
+      - s-54789834cb
+      - s-3cb0f3d35b
+      - s-b3704dcdb9
+      - s-3b5b842e12
+      - s-4e9e5fa392
+    zh:
+      - s-a5c39c5262
+      - s-0d2c8769c6
+      - s-c7ee6833fa
+      - s-4c7be6fc40
+      - s-faae56d05b
+      - s-f9bdfca356
+      - s-6e3d36e7d9
+      - s-d2782d661a
+      - s-81783dacf7
+      - s-98f6e16e1c
+      - s-f60345b411

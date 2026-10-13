@@ -1,0 +1,3 @@
+## ## A one-seeded pod in the Panama flora {#s-221decc34a}
+The historical *Flora of Panama* account describes *Lonchocarpus chiricanus* as a small tree with leaves bearing seven to nine leaflets. The leaflets are ovate to obovate, 6–11 cm long and 4.5–6 cm wide, with rounded bases and tips that narrow abruptly to a short, blunt point. Their upper surfaces are dark green and hairless; the paler undersides have very fine hairs and translucent punctures. Flowers were unknown to the account. It describes the legumes as flattened and broadly oblong, 10 × 4 cm, long-stalked, somewhat woody, hairless and one-seeded. This regional historical description does not establish the species’ full variation or global range.
+

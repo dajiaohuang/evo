@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Colostethus
+  displayName: Colostethus
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3SK6
+  sourceIndexes:
+    - name:
+        en: Colostethus
+        zh: Colostethus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3SK6
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00050.json.gz
+            field: /records/312
+            queryName: Colostethus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 162
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9c14400c8b
+      - s-1e86822fc7
+      - s-76b3a68d04
+      - s-3b04c119f7
+      - s-037bbca77b
+      - s-1b685c6fd7
+      - s-7b40b417d7
+      - s-3ed98d37b7
+      - s-db4d01e66d
+      - s-7223387cc6
+      - s-edbb868354
+      - s-956fbba9f9
+      - s-71dbb79eaa
+      - s-c2c9e1b9cf
+    zh:
+      - s-ae4f6c2d7e
+      - s-51257aa280
+      - s-5ea2e912c5
+      - s-f2433b2233
+      - s-b32b9f8845
+      - s-cd89d15a77
+      - s-cf18088f1e
+      - s-a47e5c47ca
+      - s-42f9161b09
+      - s-9b1810d32b
+      - s-f661bcd05e
+      - s-6235313d74
+      - s-8677b07632
+      - s-87b7bdd3f8

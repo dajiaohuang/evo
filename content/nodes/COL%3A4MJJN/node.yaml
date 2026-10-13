@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis nephophilus
+  displayName: Pristimantis nephophilus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJJN
+  sourceIndexes:
+    - name:
+        en: Pristimantis nephophilus
+        zh: Pristimantis nephophilus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJJN
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/436
+            queryName: Pristimantis nephophilus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/452
+            queryName: Eleutherodactylus nephophilus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e8c1801cb2
+      - s-26397495f3
+      - s-7ff323f0da
+      - s-9234413a27
+      - s-abfe381d89
+      - s-f0f1fbfa3b
+      - s-8525f24427
+      - s-ee9631ebdc
+      - s-8565a50ca5
+      - s-08e2156ca6
+    zh:
+      - s-d629f292b0
+      - s-4c41ca4e42
+      - s-2452d2586e
+      - s-e5bab57ded
+      - s-1a78e2decd
+      - s-af4bceb1cc
+      - s-a2ef407155
+      - s-346b881f50
+      - s-e7c45c0b7f
+      - s-b8f1b27f72

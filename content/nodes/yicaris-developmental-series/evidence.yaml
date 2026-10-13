@@ -1,0 +1,69 @@
+schemaVersion: 1
+records:
+  event:
+    title:
+      page: en
+      section: s-daf592f5eb
+      part: title
+    titleZh:
+      page: zh
+      section: s-60d6c9d2d6
+      part: title
+    category: innovation
+    startAge: 521
+    endAge: 514
+    regions:
+      - Yu'anshan Member, Chiungchussu Formation, Yunnan, China
+    clades:
+      - Pancrustacea
+      - Eucrustacea
+      - Yicaris dianensis
+    summary:
+      page: en
+      section: s-daf592f5eb
+      part: body
+    summaryZh:
+      page: zh
+      section: s-60d6c9d2d6
+      part: body
+    claimIds:
+      - claim:event:yicaris-developmental-series
+    evidenceItems:
+      - statement: The topotype series preserves multiple developmental stages, including an eight-thoracomere stage reconstructed from phosphatized soft-part anatomy.
+        relation: supports
+        claimIds:
+          - claim:event:yicaris-developmental-series
+        referenceLinks:
+          - referenceId: zhang-2007-yicaris
+            relation: supports
+            pages: 595–598
+            figure: Figures 1–2
+            quoteLocator: Topotype specimens and reconstruction
+    uncertaintyItems:
+      - statement: Eucrustacean crown placement and epipodite homology depend on character interpretation and must not be converted into an exact crown-origin date.
+        relation: contextualizes
+        claimIds:
+          - claim:event:yicaris-developmental-series
+        referenceLinks:
+          - referenceId: zhang-2007-yicaris
+            relation: supports
+            pages: 595–598
+            figure: Figure 3
+            quoteLocator: Phylogenetic position and epipodite discussion
+  claims:
+    - subjectId: event:yicaris-developmental-series
+      claimKind: scientific
+      claimType: morphology
+      statement: Phosphatized Yicaris dianensis individuals from several growth stages preserve leaf-shaped exites and eucrustacean-like limb organization; crown-eucrustacean placement and epipodite homology are character interpretations rather than an observed crown origin date.
+      confidence: medium
+      confidenceRationale: Three-dimensional developmental anatomy is directly documented, but limb homology and crown placement remain sensitive to character interpretation.
+      referenceLinks:
+        - referenceId: zhang-2007-yicaris
+          relation: supports
+          pages: 595–598
+          figure: Figures 1–3
+          quoteLocator: Topotype specimens; Reconstruction; Phylogenetic position
+  claim-rationales.zh:
+    - 三维磷酸盐化发育阶段直接记录附肢形态，但外肢同源与冠群位置依赖性状解释。
+  claim-statements.zh:
+    - 来自多个生长阶段的磷酸盐化 Yicaris dianensis 个体保存叶状外肢及类似真甲壳类的附肢组织；其真甲壳类冠群位置和上肢同源性属于性状解释，并非观察到的冠群起源日期。

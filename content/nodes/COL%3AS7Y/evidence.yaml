@@ -1,0 +1,139 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Allochrocebus Elliot, 1913
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      zh: Allochrocebus 属
+      en: Allochrocebus Monkeys
+    sections:
+      - topic: overview
+        text:
+          zh:
+            page: zh
+            section: s-8a809357b5
+            part: body
+          en:
+            page: en
+            section: s-c8e78e6bdf
+            part: body
+        sourceIds:
+          - taxonomy
+          - tosi2008
+      - topic: readingPath
+        text:
+          zh:
+            page: zh
+            section: s-df12e09d8a
+            part: body
+          en:
+            page: en
+            section: s-41037fd648
+            part: body
+        sourceIds:
+          - tosi2008
+          - tashiro2006
+          - nkengbeza2024
+          - gautier1992
+          - coad2010
+      - topic: interpretation
+        text:
+          zh:
+            page: zh
+            section: s-1f77015c60
+            part: body
+          en:
+            page: en
+            section: s-fbc2d6a15c
+            part: body
+        sourceIds:
+          - tosi2008
+          - tashiro2006
+          - nkengbeza2024
+          - gautier1992
+          - coad2010
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Allochrocebus
+          url: https://www.checklistbank.org/dataset/316115/taxon/S7Y
+          scope:
+            zh: 支持固定属名、作者、等级和接受种父链；不支持属级生态概括。
+            en: Supports the pinned genus name, authorship, rank and accepted-species parent links; not genus-wide ecological claims.
+      - id: tosi2008
+        referenceId: ref-9761c059-80e8-8cfe-a691-8b4298201c58
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持三种代表样本的有限性染色体标记比较；不决定接受名或全基因组关系。
+            en: Supports a limited sex-chromosome marker comparison of representatives of the three taxa; it does not determine accepted names or genome-wide relationships.
+      - id: tashiro2006
+        referenceId: ref-811dc18a-327c-840c-ad75-5947d826e857
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 支持鲁氏猴在 Kalinzu 的局地取食案例；不支持全属食性。
+            en: Supports the local Kalinzu feeding case for lhoesti; not a genus-wide diet.
+      - id: nkengbeza2024
+        referenceId: ref-31f1565e-2d3c-84fd-ac15-1b2c34bec666
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持普鲁斯猴 Ebo 周边访谈案例与受访者报告；不支持全属普查或趋势。
+            en: Supports the preussi interview case around Ebo and respondent reports; not a genus-wide census or trend.
+      - id: gautier1992
+        referenceId: ref-f241b519-ddd7-8198-adfd-cbc355767a86
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持日尾猴历史分布调查；不支持全属分布。
+            en: Supports the historical solatus distribution survey; not a genus-wide distribution.
+      - id: coad2010
+        referenceId: ref-06f9208c-b5f3-83e0-af83-c06b3246bbac
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持日尾猴已知观察汇编和当时的范围扩展；不作当前评估。
+            en: Supports the solatus observation compilation and range extensions known at the time; not a current assessment.
+    limitations:
+      zh:
+        page: zh
+        section: s-7c7556cae1
+        part: body
+      en:
+        page: en
+        section: s-d890b99003
+        part: body

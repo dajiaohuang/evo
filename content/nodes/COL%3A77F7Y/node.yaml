@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Phyllobates vittatus
+  displayName: Phyllobates vittatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77F7Y
+  sourceIndexes:
+    - name:
+        en: Phyllobates vittatus
+        zh: Phyllobates vittatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77F7Y
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/250
+            queryName: Phyllobates vittatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 13
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00048.json.gz
+            field: /records/487
+            queryName: Dendrobates tinctorius vittatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-a6cac70eb1
+      - s-af6e65c55c
+      - s-104d9dccde
+      - s-ac6d50868a
+      - s-fcab19429e
+      - s-c623cd7434
+      - s-afbc18b6c5
+      - s-a64be79bd0
+      - s-32b530228a
+      - s-5311713406
+      - s-d84633adeb
+      - s-892e153bfe
+      - s-6fa24cecbc
+      - s-6360ff38dd
+      - s-fdb791bccb
+      - s-612646f12c
+      - s-db3ca7bb64
+      - s-3f14604b8d
+      - s-6faa9d5635
+      - s-953db5fb9c
+      - s-91ad4d5d05
+      - s-3df78ad5c3
+    zh:
+      - s-8aa4aa99c0
+      - s-97ff4bbe34
+      - s-63297c1172
+      - s-674f530995
+      - s-f278848e77
+      - s-e791e89675
+      - s-064c764e48
+      - s-85873a8fc4
+      - s-cbaa43eac9
+      - s-71f8d1998b
+      - s-d4ff131cb4
+      - s-e7943dcfbd
+      - s-27b573700c
+      - s-89730a4a70
+      - s-334ff879f2
+      - s-77b26748e5
+      - s-a6c563965b
+      - s-f91720abb2
+      - s-6ffc9e7eb0
+      - s-82813b0909
+      - s-ac31f6ed1f
+      - s-70a75a4eec

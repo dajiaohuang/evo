@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Feihyla inexpectata
+  displayName: Feihyla inexpectata
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3DXCR
+  sourceIndexes:
+    - name:
+        en: Feihyla inexpectata
+        zh: Feihyla inexpectata
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3DXCR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/461
+            queryName: Feihyla inexpectata
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00038.json.gz
+            field: /records/164
+            queryName: Chiromantis inexpectatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b21d057c16
+      - s-1e0a731b1f
+      - s-4a7ae0f5eb
+      - s-16edf5c9a7
+      - s-d8f95d875a
+      - s-b528d3f7c9
+      - s-8d1617abde
+    zh:
+      - s-69d9b26da0
+      - s-1b1f639f56
+      - s-7564e6e2c0
+      - s-f18920ebe1
+      - s-61199521f6
+      - s-f209589277
+      - s-0e37fa1a73

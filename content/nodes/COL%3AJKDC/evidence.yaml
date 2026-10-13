@@ -1,0 +1,83 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Atrax montanus (Rainbow, 1914)
+    rank: species
+    sourceDatasetId: "56185"
+    name:
+      zh: 南悉尼漏斗网蛛
+      en: Southern Sydney funnel-web spider
+    sections:
+      - topic: A name restored within the Sydney funnel-web complex
+        text:
+          zh:
+            page: zh
+            section: s-af984bf84b
+            part: body
+          en:
+            page: en
+            section: s-fa4bcfe30f
+            part: body
+        sourceIds:
+          - account
+          - study
+      - topic: Records in New South Wales
+        text:
+          zh:
+            page: zh
+            section: s-2af94d74fc
+            part: body
+          en:
+            page: en
+            section: s-1e86e472c8
+            part: body
+        sourceIds:
+          - account
+    sources:
+      - id: account
+        referenceId: ref-d41fb1df-d53b-8e4f-ad14-8396191cd3dc
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            zh: 支持历史命名、与 A. robustus 的可见相似性、重叠分布和新南威尔士州栖境范围；该页提及的危险性不在本概述范围内。
+            en: Supports nomenclatural history, visible similarity to A. robustus, range overlap and New South Wales habitat range; danger statements on the page are outside this account’s scope.
+      - id: study
+        referenceId: ref-63da2930-14cc-8a7d-abdd-ed407dad92c5
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 1
+        usage:
+          scope:
+            zh: 支撑对原有复合群的重新界定；本条不从研究外推其他区域种群。
+            en: Supports the reassessment of the former complex; this account does not extrapolate the study to other regional populations.
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 56185
+          url: https://www.checklistbank.org/dataset/316115/taxon/JKDC
+          scope:
+            zh: 固定版本中的接受名、作者、等级及父链；不替代研究中的物种界定证据。
+            en: Pinned accepted name, authorship, rank and parent chain; not a substitute for the study’s species-delimitation evidence.
+    limitations:
+      zh:
+        page: zh
+        section: s-6b731a3cf1
+        part: body
+      en:
+        page: en
+        section: s-3b0ffbe0ad
+        part: body

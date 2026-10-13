@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Scinax constrictus
+    name:
+      en: Scinax constrictus
+      zh: Scinax constrictus
+    sourceClassification:
+      order: Anura
+      family: Hylidae
+      genus: Scinax
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: Scinax constrictus in the morphology deposit
+          zh: 形态数据中的 Scinax constrictus 记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5580cc057c
+            part: body
+          zh:
+            page: zh
+            section: s-91f1134576
+            part: body
+      - topic: morphology
+        title:
+          en: "Rows 5566 and 5567: measurement fields and sex codes"
+          zh: 第 5566、5567 行：测量字段与性别代码
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-770d43dfcf
+            part: body
+          zh:
+            page: zh
+            section: s-eebd24e374
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 5566, 5567; Reference.csv rows 3143
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 5566
+        values:
+          - Hylidae
+          - Scinax
+          - Scinax constrictus
+          - M
+          - "26.09"
+          - "8.97"
+          - "7.97"
+          - "3.56"
+          - "1.31"
+          - NA
+          - "3.03"
+          - "2.41"
+          - NA
+          - "3.13"
+          - NA
+          - "1.78"
+          - NA
+          - NA
+          - NA
+          - "11.33"
+          - NA
+          - "14.14"
+          - "12.56"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 5567
+        values:
+          - Hylidae
+          - Scinax
+          - Scinax constrictus
+          - F
+          - "31.93"
+          - "12.09"
+          - "10.67"
+          - "4.1"
+          - "1.9"
+          - NA
+          - "3.67"
+          - "2.67"
+          - NA
+          - "3.65"
+          - NA
+          - "2.39"
+          - NA
+          - NA
+          - NA
+          - "14.71"
+          - NA
+          - "17.64"
+          - "18.96"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 3143
+        values:
+          - Anura
+          - Scinax_constrictus
+          - Lima, L. P., Bastos, R. P., & Giaretta, A. A. (2004). A new Scinax Wagler, 1830 of the S. rostratus group from central Brazil (Amphibia, Anura, Hylidae). Arquivos Do Museu Nacional, 62(4), 505-512.
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - EN
+      - NS
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 4VJVS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

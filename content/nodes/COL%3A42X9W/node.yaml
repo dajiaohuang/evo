@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Microhyla chakrapanii
+  displayName: Microhyla chakrapanii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/42X9W
+  sourceIndexes:
+    - name:
+        en: Microhyla chakrapanii
+        zh: Microhyla chakrapanii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 42X9W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/496
+            queryName: Microhyla chakrapanii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 5
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-e6b2f7f12b
+      - s-3f9b6ac393
+      - s-512e551f02
+      - s-920605ab05
+      - s-9ba28fb4d4
+      - s-107e9ca135
+      - s-1dbf0ea323
+      - s-43125e49dc
+      - s-fd1ec4a087
+      - s-8547219b44
+    zh:
+      - s-57f2d7bc2e
+      - s-08956ed4a0
+      - s-8ff7a1ae60
+      - s-2b474e936b
+      - s-bfd2238798
+      - s-2b84caba6c
+      - s-3c62ae3c32
+      - s-2a97fa0f9c
+      - s-4728d0878c
+      - s-2594eee527

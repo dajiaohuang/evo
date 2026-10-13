@@ -1,0 +1,554 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Batrachuperus pinchonii (David, 1872)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Batrachuperus pinchonii
+      zh: Batrachuperus pinchonii
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-6aecf43b92
+            part: title
+          zh:
+            page: zh
+            section: s-ae9e79b3da
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6aecf43b92
+            part: body
+          zh:
+            page: zh
+            section: s-ae9e79b3da
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-bacc823cfe
+            part: title
+          zh:
+            page: zh
+            section: s-be9394ef3e
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bacc823cfe
+            part: body
+          zh:
+            page: zh
+            section: s-be9394ef3e
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-59119ec62e
+            part: title
+          zh:
+            page: zh
+            section: s-96d8050929
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+        sourceFields:
+          - Fos
+          - Ter
+          - Aqu
+        text:
+          en:
+            page: en
+            section: s-59119ec62e
+            part: body
+          zh:
+            page: zh
+            section: s-96d8050929
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+        sourceRevision:
+          sourceUrl: https://zenodo.org/records/21815609
+          sourceVersion: 3.0.0, 5 August 2026; revision history dated 9 March 2026
+          affectedFieldScope:
+            - Body_mass_g
+            - Fos
+            - Ter
+            - Aqu
+            - Arb
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-9da2f4891f
+            part: title
+          zh:
+            page: zh
+            section: s-63fb8b4f9d
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Body_size_mm
+        text:
+          en:
+            page: en
+            section: s-9da2f4891f
+            part: body
+          zh:
+            page: zh
+            section: s-63fb8b4f9d
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-a094216995
+            part: title
+          zh:
+            page: zh
+            section: s-5c4b0d8d9a
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Reproductive_output_y
+        text:
+          en:
+            page: en
+            section: s-a094216995
+            part: body
+          zh:
+            page: zh
+            section: s-5c4b0d8d9a
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-906fa2d5d1
+            part: title
+          zh:
+            page: zh
+            section: s-e1e537af38
+            part: title
+        sourceIds:
+          - amphibio
+        sourceFields:
+          - Lar
+        text:
+          en:
+            page: en
+            section: s-906fa2d5d1
+            part: body
+          zh:
+            page: zh
+            section: s-e1e537af38
+            part: body
+        sourceReaderKind: historical-amphibio-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-3df94d02c9
+            part: title
+          zh:
+            page: zh
+            section: s-f512a96802
+            part: title
+        sourceIds:
+          - amphibio
+          - tetrapodtraits-revisions
+          - amphibian-morphology
+        readingRouteKind: source-reading-route
+        text:
+          en:
+            page: en
+            section: s-3df94d02c9
+            part: body
+          zh:
+            page: zh
+            section: s-f512a96802
+            part: body
+        readingLinks:
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.4644424.v5
+            targetPath: content/nodes/context-a394592d37314caa59f828b9984fa052
+            label:
+              en: AmphiBIO v1 — original dataset
+              zh: AmphiBIO v1 — 原始数据集
+          - kind: source
+            url: https://doi.org/10.6084/m9.figshare.21159229.v3
+            targetPath: content/nodes/local-21d430bbe9d7b993205a6af9
+            label:
+              en: Amphibian morphology v3 — original dataset
+              zh: Amphibian morphology v3 — 原始数据集
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-3807defe77
+            part: title
+          zh:
+            page: zh
+            section: s-fda794e481
+            part: title
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-3807defe77
+            part: body
+          zh:
+            page: zh
+            section: s-fda794e481
+            part: body
+        sourceReaderKind: additional-deposited-traits
+        sourceConceptStatus: unresolved-current-equivalence
+      - topic: occurrence
+        title:
+          en:
+            page: en
+            section: s-ac7c799a13
+            part: title
+          zh:
+            page: zh
+            section: s-47c38afaaf
+            part: title
+        sourceIds:
+          - primary-pmc12189923-kzsq
+        text:
+          en:
+            page: en
+            section: s-ac7c799a13
+            part: body
+          zh:
+            page: zh
+            section: s-47c38afaaf
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-bc7cb7a9d5
+            part: title
+          zh:
+            page: zh
+            section: s-25421832f1
+            part: title
+        sourceIds:
+          - primary-pmc12189923-kzsq
+        text:
+          en:
+            page: en
+            section: s-bc7cb7a9d5
+            part: body
+          zh:
+            page: zh
+            section: s-25421832f1
+            part: body
+      - topic: methods
+        title:
+          en:
+            page: en
+            section: s-b328403712
+            part: title
+          zh:
+            page: zh
+            section: s-c067b76edc
+            part: title
+        sourceIds:
+          - primary-pmc12189923-kzsq
+        text:
+          en:
+            page: en
+            section: s-b328403712
+            part: body
+          zh:
+            page: zh
+            section: s-c067b76edc
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-144bb407fa
+            part: title
+          zh:
+            page: zh
+            section: s-c7093e85b0
+            part: title
+        sourceIds:
+          - primary-pmc12189923-kzsq
+        text:
+          en:
+            page: en
+            section: s-144bb407fa
+            part: body
+          zh:
+            page: zh
+            section: s-c7093e85b0
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Batrachuperus pinchonii
+          url: https://www.checklistbank.org/dataset/316115/taxon/KZSQ
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO_v1.csv row id Anf6017; column names retained in sourceFields; Metadata.pdf Table 1; bibliography AmphiBIO_v1_references.csv row id Anf6012 (exact within-source classification/name tuple)
+          scope:
+            en: The Frost 2011 source concept, compilation-wide variable definitions and deposited values. Current species-concept equivalence unresolved.
+            zh: Frost 2011 来源概念、汇编的变量定义及存档值；与当前物种概念的等同性未确定。
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Caudata.csv, rows 27, 28; Reference.csv rows 4120
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+      - id: tetrapodtraits-revisions
+        referenceId: ref-b166b4d8-6e5a-4441-9e79-0b1afb15e5ba
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - accessedAt
+          - licenseAssessment
+          - licenseAppliesTo
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Version 2.0.1 (9 March 2026), body mass and microhabitat revision notice
+          scope:
+            en: Dataset-wide revision notice; affected original rows remain unverified.
+            zh: 数据集层级修订说明；受影响原始行尚未核定。
+      - id: primary-pmc12189923-kzsq
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Batrachuperus pinchonii: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-11a2075454
+        part: body
+      zh:
+        page: zh
+        section: s-c072b9b483
+        part: body
+    historicalTraitSource:
+      path: content/nodes/context-a394592d37314caa59f828b9984fa052
+      sourceRowId: Anf6017
+      identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+      bibliographyAlignment:
+        status: unique-within-source-tuple
+        method: Exact Order, Family, Genus and Species fields within the same deposited dataset; original row IDs retained separately.
+        dataRowId: Anf6017
+        bibliographyRowId: Anf6012
+        sameIdNameMismatch: true
+        originalSameIdScientificName: Hynobius amjiensis
+        candidateBibliographyRowIds:
+          - Anf6012
+      readerScope: The paragraphs explicitly describe the historical deposited source concept. They are not generalized to every member of the current species.
+    additionalTraitSources:
+      - kind: amphibian-morphology-reader
+        path: content/nodes/local-21d430bbe9d7b993205a6af9
+        scientificName: Batrachuperus pinchonii
+        identityStatus: same-recorded-name-family-and-order-candidate; current-concept-equivalence-unresolved
+        biologicalSections: 1
+    primaryStudyScopes:
+      - doi: 10.3390/biology14060614
+        referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+        sourceKey: primary-pmc12189923-kzsq
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12189923/article.xml
+        sourceConcept: 2025 Tangjiahe source-labelled Batrachuperus pinchonii, mixed contemporary and historical inventory; not certified specimen/lineage equivalence
+        evidenceRead: "Batrachuperus pinchonii: XML Introduction, Methods2.1–2.5, Results3.1–3.5, Table1 habitat rows, Table2 indices, Discussion4.1–4.5 and Conclusions read; exact frozen catalogue links for two historical names retained. SupplementS1/S2/S3, figure elevations, raw individual records, historical surveys, current assessments and causal conservation mechanisms not independently reconstructed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: occurrence
+            heading:
+              en: A mixed field-and-literature inventory in northern Sichuan
+              zh: 四川北部混合野外与文献名册
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-kzsq
+            locator: PMC12189923 XML Table1 row23 Batrachuperus pinchonii; Results3.1; Methods2.1–2.2
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-016cae6b86
+                part: body
+              zh:
+                page: zh
+                section: s-5f4dc6614a
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Local habitat assignments are broader than a breeding diagnosis
+              zh: 地方生境分配宽于繁殖诊断
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-kzsq
+            locator: PMC12189923 XML Table1 row23 habitat columns/caption; Results3.3; Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-0acddc10e0
+                part: body
+              zh:
+                page: zh
+                section: s-edc3e7a4e1
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 2
+            topic: methods
+            heading:
+              en: Regional gradients and survey gains do not certify recovery
+              zh: 区域梯度及名册增加不认证恢复
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-kzsq
+            locator: PMC12189923 XML Methods2.1/2.2/2.5; Results3.1/3.4/3.5; Discussion4.1/4.4/4.5; Conclusions
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e90eeeee5f
+                part: body
+              zh:
+                page: zh
+                section: s-ac9eb14f34
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 3
+            topic: ecology
+            heading:
+              en: Running-water restriction is reported within the study
+              zh: 流水限制报告属于研究范围
+            referenceId: ref-90c6ace0-ecde-46a5-aca3-1c1d5996f3ff
+            sourceKey: primary-pmc12189923-kzsq
+            locator: PMC12189923 XML Results3.3; Table1 row23; Discussion4.3
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-58c165514f
+                part: body
+              zh:
+                page: zh
+                section: s-286e960801
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

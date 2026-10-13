@@ -1,0 +1,242 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Melanophryniscus xanthostomus
+    name:
+      en: Melanophryniscus xanthostomus
+      zh: Melanophryniscus xanthostomus
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Melanophryniscus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-00a0b9adc2
+            part: body
+          zh:
+            page: zh
+            section: s-3639428baf
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-bc8d17754f
+            part: body
+          zh:
+            page: zh
+            section: s-7ae4434818
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3192, 3193; Reference.csv rows 2668
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3192
+        values:
+          - Bufonidae
+          - Melanophryniscus
+          - Melanophryniscus xanthostomus
+          - M
+          - "20.36"
+          - "6.1"
+          - "6.49"
+          - "1.99"
+          - NA
+          - NA
+          - "4.1"
+          - "1.55"
+          - NA
+          - "1.68"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "11.29"
+          - NA
+          - "7.25"
+          - "7.81"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3193
+        values:
+          - Bufonidae
+          - Melanophryniscus
+          - Melanophryniscus xanthostomus
+          - F
+          - "21.11"
+          - "6.33"
+          - "7.03"
+          - "2.05"
+          - NA
+          - NA
+          - "4.28"
+          - "1.56"
+          - NA
+          - "1.78"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "12.54"
+          - NA
+          - "7.88"
+          - "8.54"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2668
+        values:
+          - Anura
+          - Melanophryniscus_xanthostomus
+          - "Bornschein, M., Firkowski, C., Baldo, D., Ribeiro, L., Belmonte-Lopes, R., Leandro, C., . . . Pie, M. (2015). Three new species of phytotelm-breeding melanophryniscus from the atlantic rainforest of southern Brazil (Anura: Bufonidae). PLoS One, 10, e0142791. https://doi.org/10.1371/journal.pone.0142791"
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - EN
+      - FL
+      - TL
+      - THL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3Z9MB
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

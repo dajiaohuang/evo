@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus cryptotympanum
+  displayName: Cophixalus cryptotympanum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y43W
+  sourceIndexes:
+    - name:
+        en: Cophixalus cryptotympanum
+        zh: Cophixalus cryptotympanum
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y43W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/441
+            queryName: Cophixalus cryptotympanum
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-04593f57f2
+      - s-38d9734a7d
+      - s-a3b05904b9
+      - s-0308c35e6d
+      - s-677c7cdf4e
+      - s-983d1e0b12
+      - s-8348e87b81
+      - s-921e176926
+      - s-62340344a4
+      - s-e85080ecf9
+    zh:
+      - s-31fb9717e7
+      - s-b53eaed4c0
+      - s-2445f640d8
+      - s-b5370f6c30
+      - s-a964a1cfed
+      - s-0d3d7a41f7
+      - s-23eb64186b
+      - s-f4fa2a736d
+      - s-5956f7cd17
+      - s-aabd307a45

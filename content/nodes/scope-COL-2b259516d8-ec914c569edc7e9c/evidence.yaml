@@ -1,0 +1,174 @@
+schemaVersion: 1
+records:
+  atlas-profile:
+    pbdbTaxonId: txn:31590
+    scientificName: Crinoidea
+    commonName: Sea lilies and feather stars
+    commonNameZh: 海百合与海羊齿
+    rank: class
+    parentName: Echinodermata
+    extinct: false
+    geography:
+      - Source-bounded early crinoid study localities
+    overview:
+      page: en
+      section: s-36579125bf
+      part: body
+    overviewZh:
+      page: zh
+      section: s-bd76189071
+      part: body
+    ecology:
+      diet:
+        page: en
+        section: s-b130ba322e
+        part: body
+      habitat:
+        page: en
+        section: s-b125f655df
+        part: body
+      locomotion:
+        page: en
+        section: s-3748be0f84
+        part: body
+      bodySize:
+        page: en
+        section: s-051302a12f
+        part: body
+      guild:
+        page: en
+        section: s-a1657687fc
+        part: body
+      dietZh:
+        page: zh
+        section: zh-8863e5d3a8b0fd
+        part: body
+      habitatZh:
+        page: zh
+        section: zh-70ec103e9613bb
+        part: body
+      locomotionZh:
+        page: zh
+        section: zh-15268ab6291b8a
+        part: body
+      bodySizeZh:
+        page: zh
+        section: zh-6ebaa5b2f3b6e2
+        part: body
+      guildZh:
+        page: zh
+        section: zh-e7fee1f57f0981
+        part: body
+    traits:
+      - page: en
+        section: s-93a9ee26d3
+        part: body
+      - page: en
+        section: s-bb337f67d7
+        part: body
+    evidenceSummary:
+      page: en
+      section: s-abbcbdd122
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-cb8274636f
+      part: body
+    confidence: high
+    referenceIds:
+      - guensburg-2020-crinoid-origin
+    traitsZh:
+      - page: zh
+        section: zh-0740523b598877
+        part: body
+      - page: zh
+        section: zh-3a25ee2bde4893
+        part: body
+  claims:
+    - subjectId: taxon:crinoidea
+      claimKind: scientific
+      claimType: fossil-range
+      statement: The unproblematic crinoid fossil record begins in the middle Tremadocian; the Middle Cambrian Echmatocrinus is problematic and is not used here as the Crinoidea first appearance.
+      confidence: high
+      confidenceRationale: The cited systematic study explicitly states that the known crinoid record begins in the middle Tremadocian and separately identifies Echmatocrinus as problematic. A representative numeric endpoint therefore carries stage-level uncertainty.
+      referenceLinks:
+        - relation: supports
+          referenceId: guensburg-2020-crinoid-origin
+          pages: 311–312
+          quoteLocator: Introduction, paragraph beginning 'The known crinoid record begins during the middle Tremadocian'
+    - subjectId: taxon:crinoidea
+      claimKind: scientific
+      claimType: taxonomy
+      statement: The cited systematic study treats named early crinoid taxa and explicitly keeps problematic Middle Cambrian Echmatocrinus outside the unproblematic Crinoidea record used by this profile.
+      confidence: high
+      confidenceRationale: The source makes the record boundary explicit in a systematic treatment; the profile does not turn that bounded treatment into a universal crinoid topology or direct-ancestry claim.
+      referenceLinks:
+        - referenceId: guensburg-2020-crinoid-origin
+          relation: supports
+          pages: 311–312
+          quoteLocator: Introduction, discussion of the middle Tremadocian record and problematic Echmatocrinus
+    - subjectId: taxon:crinoidea
+      claimKind: scientific
+      claimType: biogeography
+      statement: The cited early-crinoid systematic material supplies source-bounded fossil locality context, not a global distribution, endemicity or dispersal reconstruction for Crinoidea.
+      confidence: medium
+      confidenceRationale: The primary study documents its sampled fossil context, but a systematic sample cannot establish class-wide geographic presence, absence or origin centre.
+      referenceLinks:
+        - referenceId: guensburg-2020-crinoid-origin
+          relation: supports
+          pages: 311–333
+          quoteLocator: Abstract, locality and systematic-palaeontology sections
+    - subjectId: taxon:crinoidea
+      claimKind: scientific
+      claimType: ecology
+      statement: The cited systematic study does not establish class-wide diet, habitat preference, locomotor performance, body-size distribution or guild for Crinoidea; these fields remain explicitly unresolved beyond marine fossil context.
+      confidence: high
+      confidenceRationale: "This is an evidence-boundary claim: the source is a systematic account of early fossils, not a whole-class ecological reconstruction."
+      referenceLinks:
+        - referenceId: guensburg-2020-crinoid-origin
+          relation: supports
+          pages: 311–333
+          quoteLocator: Scope of systematic descriptions and early crinoid origin discussion
+    - subjectId: taxon:crinoidea
+      claimKind: scientific
+      claimType: morphology
+      statement: The source documents anatomical characters in named early crinoid taxa, while the profile keeps those observations source-bounded and does not present them as an invariant class-wide character list.
+      confidence: high
+      confidenceRationale: The study directly describes morphology in named specimens; the limitation avoids extrapolating a restricted fossil sample to every crinoid lineage.
+      referenceLinks:
+        - referenceId: guensburg-2020-crinoid-origin
+          relation: supports
+          pages: 311–333
+          quoteLocator: Systematic palaeontology and arm-evolution discussion
+  claim-rationales.zh:
+    - 系统分类研究明确指出无争议的海百合记录始于特马豆克期中期，并将中寒武世 Echmatocrinus 单列为有问题的化石；数值端点因此保留阶级尺度的不确定性。
+    - 系统分类研究明确划分无争议的海百合记录与有问题的中寒武世 Echmatocrinus；该档案不会把这一有限处理改写为普遍拓扑或直系祖先结论。
+    - 一手系统研究提供的是取样化石地点背景，不是海百合纲完整分布、特有性或扩散路径；置信度因此只限于来源边界。
+    - 所引材料是早期化石的系统分类研究，并非全纲生态重建；饮食、栖息地偏好、运动性能、体型分布与营养类群都明确保留未解。
+    - 来源直接描述具名早期海百合类群的解剖性状，但保存和取样范围不能代表所有海百合谱系，因此不外推为全纲不变性状表。
+  claim-statements.zh:
+    - 所引分类研究讨论具名的早期海百合类群，并明确将存在归属问题的中寒武世 Echmatocrinus 排除在本档案采用的无争议海百合纲记录之外。
+    - 所引早期海百合分类材料提供了来源限定的化石产地背景，并非海百合纲的全球分布、特有性或扩散重建。
+    - 所引分类研究不能确定整个海百合纲的食性、生境偏好、运动性能、体型分布或生态功能群；除海生化石背景外，这些字段明确保持未定。
+    - 来源记录了具名早期海百合类群的解剖性状；本档案将这些观察限定在来源范围内，不将其呈现为整个纲不变的性状清单。
+    - 无争议的海百合化石记录始于特马豆克期中期；中寒武世 Echmatocrinus 存在问题，本图谱不以其作为海百合纲首次出现。
+  ranges:
+    - entityId: crinoidea
+      rangeKind: global-composite
+      taxonomicConcept: Crinoidea
+      geographicScope: Global or represented navigation composite
+      olderMa: 482
+      youngerMa: 0
+      status: available
+      uncertainty:
+        olderMa: 4.85
+        youngerMa: null
+        note: The numeric endpoint is a rounded representative of the middle Tremadocian; the current canonical Tremadocian spans 486.85–477.1 Ma, and the source does not provide a point-dated global FAD.
+      evidenceBasis: A systematic study states that the unproblematic crinoid record begins in the middle Tremadocian and excludes the problematic Middle Cambrian Echmatocrinus from that first appearance.
+      confidence: high
+      claimIds:
+        - claim:taxon:crinoidea:tremadocian-record
+      referenceLocators:
+        - referenceId: guensburg-2020-crinoid-origin
+          locator: pp. 311–312, Introduction
+      evidenceLevel: literature-synthesized

@@ -1,0 +1,72 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Limnonectes arathooni
+  displayName: Limnonectes arathooni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6QDJC
+  sourceIndexes:
+    - name:
+        en: Limnonectes arathooni
+        zh: Limnonectes arathooni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6QDJC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/49
+            queryName: Limnonectes arathooni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/488
+            queryName: Rana arathooni
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-2b32ff275c
+      - s-28c00fcfe0
+      - s-6d7c1e9a23
+      - s-37df77bf51
+      - s-7e8d94c58a
+      - s-500c6ab39d
+      - s-74679f5cf8
+      - s-b83f0b69e1
+      - s-01a18775e7
+      - s-9fe0eec155
+      - s-ecad51cfa0
+      - s-d596a04eb9
+      - s-60bb21bcbe
+    zh:
+      - s-21ace1fc37
+      - s-bc761e401c
+      - s-d749351172
+      - s-360ff43a6f
+      - s-6fb164f3dc
+      - s-0bb11d05b9
+      - s-11fe30175e
+      - s-45463888df
+      - s-0f4d56e0ad
+      - s-baaab6929b
+      - s-7eb8b470de
+      - s-d4cbe8dca5
+      - s-24d07b923b

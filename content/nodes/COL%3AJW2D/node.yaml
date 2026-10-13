@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Austrochaperina septentrionalis
+  displayName: Austrochaperina septentrionalis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/JW2D
+  sourceIndexes:
+    - name:
+        en: Austrochaperina septentrionalis
+        zh: Austrochaperina septentrionalis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: JW2D
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/368
+            queryName: Austrochaperina septentrionalis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7409a4a478
+      - s-3dae975a9d
+      - s-12662185df
+      - s-ef19bb0f08
+      - s-8facea0037
+      - s-21e7625a5c
+      - s-8479d55239
+      - s-58c6db9788
+      - s-8cf7485130
+    zh:
+      - s-064fd1b9b8
+      - s-2ec0fb266a
+      - s-fef0e97fd1
+      - s-cd078bab64
+      - s-8c907a8c5f
+      - s-1eabead85c
+      - s-2818c29132
+      - s-58ff2e5c13
+      - s-9b928feb17

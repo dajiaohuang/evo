@@ -1,0 +1,3 @@
+## What stem, leaf and flower traits are recorded? {#s-967b6eed09}
+The record lists no buttress roots and gives the trunk as 1–6 m tall. Leaves have 0.5–0.9 cm petioles with clustered hairs; the blades are membranous, lance-shaped and lack domatia. Flowers are solitary, opposite leaves and borne on short shoots from branches or the trunk. They stand upright on stalks about 0.6 cm long. The smooth calyx is 0.6–1 cm long and about 0.4 cm wide; petals are 1.1–1.4 by 0.3–0.4 cm. The staminal tube is 1.4–1.9 cm long, with star-shaped, spreading hairs and toothed lobes. Sessile anthers cluster on the teeth and tube tip. The ovary has similar hairs; the style is undivided. The fruit is obovoid to ellipsoid and contains one or two seeds, sometimes three.
+

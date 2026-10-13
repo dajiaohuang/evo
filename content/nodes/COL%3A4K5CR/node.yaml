@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Plectrohyla psiloderma
+  displayName: Plectrohyla psiloderma
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4K5CR
+  sourceIndexes:
+    - name:
+        en: Plectrohyla psiloderma
+        zh: Plectrohyla psiloderma
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4K5CR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00012.json.gz
+            field: /records/441
+            queryName: Plectrohyla psiloderma
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/368
+            queryName: Hyla psiloderma
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-9b745a7e08
+      - s-675c359540
+      - s-2100889bce
+      - s-7db2f681ae
+      - s-46bce37dab
+      - s-c0ac6710d7
+      - s-ac306462e1
+      - s-31281b2856
+    zh:
+      - s-d03e269dc3
+      - s-3598e50ff6
+      - s-1974dbbe2b
+      - s-fde2e21117
+      - s-1be5fc8f82
+      - s-2849ec664a
+      - s-bfb1c9869f
+      - s-659adac41a

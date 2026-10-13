@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Allobates pacaas
+  displayName: Allobates pacaas
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/LCNZP
+  sourceIndexes:
+    - name:
+        en: Allobates pacaas
+        zh: Allobates pacaas
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: LCNZP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/163
+            queryName: Allobates pacaas
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b2d4014099
+      - s-237eb9819f
+      - s-cf680accd8
+      - s-72dad82f68
+      - s-6688decdd7
+      - s-909a8288ea
+      - s-3beaa84a4e
+      - s-0d4a95f171
+      - s-20ba4e5f81
+      - s-c5db9f2a4d
+      - s-968b95a6ef
+    zh:
+      - s-0668447f40
+      - s-cd6face7b9
+      - s-b7913c2525
+      - s-3d74adbd66
+      - s-8a4e15c28e
+      - s-1c2ef3d730
+      - s-0d2d3370d6
+      - s-2a334865b7
+      - s-edd7d34d2e
+      - s-a4e91c4214
+      - s-ecb6488751

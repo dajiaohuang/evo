@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ambystoma mabeei
+  displayName: Ambystoma mabeei
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/CQ4F
+  sourceIndexes:
+    - name:
+        en: Ambystoma mabeei
+        zh: Ambystoma mabeei
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: CQ4F
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00000.json.gz
+            field: /records/241
+            queryName: Ambystoma mabeei
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00040.json.gz
+            field: /records/499
+            queryName: Linguaelapsus mabeei
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-f9badaf5be
+      - s-8e4d6ba037
+      - s-6af15bdc34
+      - s-5ccb0c0017
+      - s-f0a43581df
+      - s-b9f952a3c3
+      - s-056d8d7d2d
+      - s-69c18a8b02
+      - s-45b8b4167a
+      - s-5d3f9ff578
+      - s-57a8d6c04c
+    zh:
+      - s-a8c0492d57
+      - s-f307e91dac
+      - s-4e14182e08
+      - s-f27163e067
+      - s-34f317f10e
+      - s-9ec74ec7ed
+      - s-d20bc3c028
+      - s-ed58bbbe6b
+      - s-a690bde296
+      - s-ef949e8ce8
+      - s-c7c6dad68f

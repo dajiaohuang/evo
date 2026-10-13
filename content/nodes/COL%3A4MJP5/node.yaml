@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis simonbolivari
+  displayName: Pristimantis simonbolivari
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJP5
+  sourceIndexes:
+    - name:
+        en: Pristimantis simonbolivari
+        zh: Pristimantis simonbolivari
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJP5
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/93
+            queryName: Pristimantis simonbolivari
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/57
+            queryName: Eleutherodactylus simonbolivari
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8ce4974569
+      - s-4aefbe6884
+      - s-07ba177911
+      - s-90163c769f
+      - s-6d292ca887
+      - s-5566e006bd
+      - s-a245bb63ea
+      - s-3f5f2d2f84
+      - s-43b28cbe81
+      - s-8b380fca28
+      - s-4a7ba4104a
+      - s-6a7081b883
+      - s-2a6fde6e34
+      - s-fea2713189
+      - s-57413e5faf
+      - s-5471e90983
+      - s-7b669a2def
+    zh:
+      - s-8a532d1f30
+      - s-52f462caf1
+      - s-1c9f95069d
+      - s-f07a2fa387
+      - s-9ecca191ed
+      - s-c0eecc0ca3
+      - s-cbb1341503
+      - s-598dea47e5
+      - s-58e799fce9
+      - s-6d61162362
+      - s-5adc469c80
+      - s-b340f2fe56
+      - s-86226b6574
+      - s-a7a4c6a54e
+      - s-2eeb0cbd05
+      - s-ea93ed1078
+      - s-0d9166ebb3

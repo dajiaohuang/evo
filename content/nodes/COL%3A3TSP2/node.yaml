@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Leptopelis xenodactylus
+  displayName: Leptopelis xenodactylus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3TSP2
+  sourceIndexes:
+    - name:
+        en: Leptopelis xenodactylus
+        zh: Leptopelis xenodactylus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3TSP2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/16
+            queryName: Leptopelis xenodactylus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-14dfbe8b25
+      - s-880167c664
+      - s-05b425e0a0
+      - s-5417e4b955
+      - s-7d0508037a
+      - s-f0ba27806b
+      - s-51f28b6d76
+    zh:
+      - s-b62fd90aa1
+      - s-f12e01b6ba
+      - s-4c95756d0e
+      - s-9667dd3ded
+      - s-eaec42bf20
+      - s-a39a89ab8c
+      - s-8f8e957347

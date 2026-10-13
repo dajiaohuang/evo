@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Cophixalus misimae
+  displayName: Cophixalus misimae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/Y44J
+  sourceIndexes:
+    - name:
+        en: Cophixalus misimae
+        zh: Cophixalus misimae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: Y44J
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00003.json.gz
+            field: /records/462
+            queryName: Cophixalus misimae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4c52d28bbd
+      - s-43c689a88c
+      - s-c8c591c772
+      - s-b8572bf23f
+      - s-2f8f11b2e3
+      - s-63b22a0a46
+      - s-ddcbb99ef4
+      - s-0d9c266929
+      - s-1c406e6797
+      - s-eb504805f8
+      - s-c77effdddf
+    zh:
+      - s-61454fb14d
+      - s-5f21822675
+      - s-78c01e1a93
+      - s-0645843bc6
+      - s-a999e3f2d9
+      - s-648af01a20
+      - s-2d741597aa
+      - s-3167f2c57a
+      - s-ff71b79c27
+      - s-4dceb9d42d
+      - s-7f568557fb

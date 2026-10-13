@@ -1,0 +1,221 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Coelodonta antiquitatis
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Coelodonta antiquitatis
+      en: Coelodonta antiquitatis
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5dc4880931
+            part: body
+          en:
+            page: en
+            section: s-09c524bb6f
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-ec9554565d
+            part: body
+          en:
+            page: en
+            section: s-fa8d7067a6
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-f544d0b381
+            part: body
+          en:
+            page: en
+            section: s-a935b15233
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-4dec8075f1
+            part: body
+          en:
+            page: en
+            section: s-a588b93b20
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d7305a7c9e
+            part: body
+          en:
+            page: en
+            section: s-57a2d40a87
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Coelodonta antiquitatis
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=54846&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:54846; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:54846
+          selectedOccurrenceIds:
+            - occ:379917
+            - occ:379963
+            - occ:417547
+            - occ:440183
+            - occ:440187
+            - occ:457463
+            - occ:457492
+            - occ:457500
+            - occ:457511
+            - occ:485301
+            - occ:497477
+            - occ:497588
+            - occ:507090
+            - occ:740006
+            - occ:935488
+            - occ:938105
+            - occ:1020804
+            - occ:1242525
+            - occ:1242526
+            - occ:1242527
+            - occ:1242529
+            - occ:1383251
+            - occ:1383295
+            - occ:1422098
+            - occ:1464169
+          selectedCollectionIds:
+            - col:35928
+            - col:35965
+            - col:40497
+            - col:43015
+            - col:43017
+            - col:45063
+            - col:45069
+            - col:45068
+            - col:45072
+            - col:48587
+            - col:50247
+            - col:50257
+            - col:51471
+            - col:79548
+            - col:82530
+            - col:102954
+            - col:124957
+            - col:163747
+            - col:163748
+            - col:163749
+            - col:163750
+            - col:189574
+            - col:189573
+            - col:197461
+            - col:204391
+          sourceReferenceIds:
+            - ref:9658
+            - ref:10916
+            - ref:11398
+            - ref:11725
+            - ref:12964
+            - ref:9643
+            - ref:13687
+            - ref:66209
+            - ref:35842
+            - ref:35949
+            - ref:40497
+            - ref:53395
+            - ref:63715
+            - ref:9534
+            - ref:70062
+          originalIdentificationMappings:
+            - occurrenceId: occ:740006
+              originalIdentifiedName: Rhinoceros tichorhinus
+              acceptedName: Coelodonta antiquitatis
+              difference: null
+            - occurrenceId: occ:938105
+              originalIdentifiedName: Rhinoceros tichorhinus
+              acceptedName: Coelodonta antiquitatis
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-5f9e5fe1e1
+        part: body
+      en:
+        page: en
+        section: s-dbba26ef53
+        part: body

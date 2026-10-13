@@ -1,0 +1,293 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Platyhystrix rugosus
+    rank: species
+    sourceTaxonId: txn:194929
+    name:
+      en: Platyhystrix rugosus
+      zh: Platyhystrix rugosus
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-6a49d7e00c
+            part: body
+          zh:
+            page: zh
+            section: s-3cc8347dee
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 11 PBDB occurrence rows and collection fields
+          zh: 11 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-a40824e878
+            part: body
+          zh:
+            page: zh
+            section: s-0fd80a19f1
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Platyhystrix rugosus
+          zh: Platyhystrix rugosus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-d7911c9c27
+            part: body
+          zh:
+            page: zh
+            section: s-c9348200e1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:194929; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: E. C. Case. 1910. New or little known reptiles and amphibians from the Permian (?) of Texas. Bulletin of the American Museum of Natural History 28:163-181
+    occurrenceEvidence:
+      - occurrenceId: occ:149741
+        collectionId: col:13257
+        acceptedTaxonId: txn:194929
+        identifiedName: cf. Platyhystrix rugosus
+        taxonomicDifference: null
+        referenceId: ref:4394
+        bibliography: P. P. Vaughn. 1962. Vertebrates from the Halgaito Tongue of the Cutler Formation, Permian of San Juan County, Utah. Journal of Paleontology 36(3):529-539
+        locality:
+          countryCode: US
+          stateProvince: Utah
+          county: San Juan
+        stratigraphy:
+          group: null
+          formation: Cutler
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 290.1
+      - occurrenceId: occ:789986
+        collectionId: col:85479
+        acceptedTaxonId: txn:194929
+        taxonomicDifference: null
+        referenceId: ref:28872
+        bibliography: G. E. Lewis and P. P. Vaughn. 1965. Early Permian Vertebrates from the Cutler Formation of the Placerville Area, Colorado. United States Geological Survey Professional Papers 503-C:C1-C46
+        locality:
+          countryCode: US
+          stateProvince: Colorado
+          county: San Miguel
+        stratigraphy:
+          group: null
+          formation: Cutler
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1335613
+        collectionId: col:180106
+        acceptedTaxonId: txn:194929
+        taxonomicDifference: null
+        referenceId: ref:59746
+        bibliography: S. G. Lucas, S. K. Harris, and J. A. Spielmann, D. S. Berman, A. C. Henrici, A. B. Heckert, K. E. Zeigler, L. F. Rinehart. 2005. Early Permian Vertebrate Assemblage and its Biostratigraphic Significance, Arroyo del Agua, Rio Arriba County, New Mexico. New Mexico Geological Society, 56th Field Conference Guidebook, Geology of the Chama Basin
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: Cutler
+          formation: El Cobre Canyon
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1335679
+        collectionId: col:80833
+        acceptedTaxonId: txn:194929
+        taxonomicDifference: null
+        referenceId: ref:59746
+        bibliography: S. G. Lucas, S. K. Harris, and J. A. Spielmann, D. S. Berman, A. C. Henrici, A. B. Heckert, K. E. Zeigler, L. F. Rinehart. 2005. Early Permian Vertebrate Assemblage and its Biostratigraphic Significance, Arroyo del Agua, Rio Arriba County, New Mexico. New Mexico Geological Society, 56th Field Conference Guidebook, Geology of the Chama Basin
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: null
+          formation: Abo/Cutler
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1337203
+        collectionId: col:180383
+        acceptedTaxonId: txn:194929
+        taxonomicDifference: null
+        referenceId: ref:59746
+        bibliography: S. G. Lucas, S. K. Harris, and J. A. Spielmann, D. S. Berman, A. C. Henrici, A. B. Heckert, K. E. Zeigler, L. F. Rinehart. 2005. Early Permian Vertebrate Assemblage and its Biostratigraphic Significance, Arroyo del Agua, Rio Arriba County, New Mexico. New Mexico Geological Society, 56th Field Conference Guidebook, Geology of the Chama Basin
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: Cutler
+          formation: El Cobre Canyon
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1337212
+        collectionId: col:180384
+        acceptedTaxonId: txn:194929
+        taxonomicDifference: null
+        referenceId: ref:59746
+        bibliography: S. G. Lucas, S. K. Harris, and J. A. Spielmann, D. S. Berman, A. C. Henrici, A. B. Heckert, K. E. Zeigler, L. F. Rinehart. 2005. Early Permian Vertebrate Assemblage and its Biostratigraphic Significance, Arroyo del Agua, Rio Arriba County, New Mexico. New Mexico Geological Society, 56th Field Conference Guidebook, Geology of the Chama Basin
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: Cutler
+          formation: El Cobre Canyon
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1339757
+        collectionId: col:180940
+        acceptedTaxonId: txn:194929
+        taxonomicDifference: null
+        referenceId: ref:60077
+        bibliography: "R. Kissel. 2010. Morphology, Phylogeny, and Evolution of Diadectidae (Cotylosauria: Diadectomorpha). University of Toronto"
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: null
+          formation: Cutler
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1339765
+        collectionId: col:180944
+        acceptedTaxonId: txn:194929
+        identifiedTaxonId: var:194929
+        identifiedName: Ctenosaurus rugosus n. sp.
+        taxonomicDifference: recombined as
+        referenceId: ref:28729
+        bibliography: E. C. Case. 1910. New or little known reptiles and amphibians from the Permian (?) of Texas. Bulletin of the American Museum of Natural History 28:163-181
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: null
+          formation: Cutler
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+      - occurrenceId: occ:1339893
+        collectionId: col:34761
+        acceptedTaxonId: txn:194929
+        taxonomicDifference: null
+        referenceId: ref:60077
+        bibliography: "R. Kissel. 2010. Morphology, Phylogeny, and Evolution of Diadectidae (Cotylosauria: Diadectomorpha). University of Toronto"
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Rio Arriba
+        stratigraphy:
+          group: null
+          formation: Cutler
+          member: null
+        olderAgeMa: 303.7
+        youngerAgeMa: 298.9
+      - occurrenceId: occ:1340539
+        collectionId: col:180989
+        acceptedTaxonId: txn:194929
+        identifiedName: cf. Platyhystrix rugosus
+        taxonomicDifference: null
+        referenceId: ref:60092
+        bibliography: D. S. Berman. 1993. Lower Permian vertebrate localities of New Mexico and their assemblages.  In S. G. Lucas, J. Zidek (eds.), Vertebrate Paleontology of New Mexico. New Mexico Museum of Natural History and Science Bulletin 2
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: San Miguel
+        stratigraphy:
+          group: null
+          formation: Sangre de Cristo
+          member: null
+        olderAgeMa: 303.7
+        youngerAgeMa: 290.1
+      - occurrenceId: occ:1340547
+        collectionId: col:181077
+        acceptedTaxonId: txn:194929
+        identifiedName: Platyhystrix cf. rugosus
+        taxonomicDifference: null
+        referenceId: ref:60092
+        bibliography: D. S. Berman. 1993. Lower Permian vertebrate localities of New Mexico and their assemblages.  In S. G. Lucas, J. Zidek (eds.), Vertebrate Paleontology of New Mexico. New Mexico Museum of Natural History and Science Bulletin 2
+        locality:
+          countryCode: US
+          stateProvince: New Mexico
+          county: Otero
+        stratigraphy:
+          group: null
+          formation: Laborcita
+          member: null
+        olderAgeMa: 298.9
+        youngerAgeMa: 286
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Platyhystrix rugosus
+          zh: Platyhystrix rugosus 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-d7911c9c27
+            part: body
+          zh:
+            page: zh
+            section: s-c9348200e1
+            part: body
+        sourceIds: []

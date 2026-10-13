@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Anomaloglossus guanayensis
+  displayName: Anomaloglossus guanayensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5V6TQ
+  sourceIndexes:
+    - name:
+        en: Anomaloglossus guanayensis
+        zh: Anomaloglossus guanayensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5V6TQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/9
+            queryName: Anomaloglossus guanayensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/97
+            queryName: Colostethus guanayensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01723d4454
+      - s-179d6528dc
+      - s-e7d27af288
+      - s-b3b8b50ca7
+      - s-1e6392183c
+      - s-b5dbb65626
+      - s-dcfdd8e277
+      - s-c7162d7e34
+    zh:
+      - s-b78f49dcce
+      - s-4f42bd7f84
+      - s-1336d59cb3
+      - s-1659c028bc
+      - s-bacf1be638
+      - s-931bf69ab3
+      - s-89e4f10198
+      - s-dca3f82ce4

@@ -1,0 +1,80 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Oreolalax chuanbeiensis
+  displayName: Oreolalax chuanbeiensis
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/74SK7
+  sourceIndexes:
+    - name:
+        en: Oreolalax chuanbeiensis
+        zh: Oreolalax chuanbeiensis
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 74SK7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/213
+            queryName: Oreolalax chuanbeiensis
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00032.json.gz
+            field: /records/80
+            queryName: Scutiger chuanbeiensis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ced5336476
+      - s-28ebebd500
+      - s-5f521e59ea
+      - s-fec7e50d0d
+      - s-0aa07c717a
+      - s-29205f3b7c
+      - s-1d7b48ce55
+      - s-39848c06bb
+      - s-101205e2e7
+      - s-757db219dc
+      - s-96a7c3dc15
+      - s-2750505349
+      - s-0d0a49c3ec
+      - s-eb2025669f
+      - s-ad723d06c3
+      - s-c7eb6b2f22
+      - s-fc5e65b080
+    zh:
+      - s-10b3cef4c1
+      - s-754ffb5585
+      - s-249d41d94b
+      - s-f3d0765cf8
+      - s-e881ba108e
+      - s-6187e85e3a
+      - s-3d52eb0eff
+      - s-4d05d3f7e1
+      - s-208d0181e4
+      - s-ea25c63781
+      - s-7d3a4897d8
+      - s-2217e0c473
+      - s-c3083b6e0b
+      - s-359397344e
+      - s-a789a4b5f5
+      - s-2e5aca8237
+      - s-a252be35e3

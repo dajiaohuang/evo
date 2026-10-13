@@ -1,0 +1,82 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Ixalotriton niger
+  displayName: Ixalotriton niger
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3QFB4
+  sourceIndexes:
+    - name:
+        en: Ixalotriton niger
+        zh: Ixalotriton niger
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3QFB4
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/72
+            queryName: Ixalotriton niger
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/91
+            queryName: Pseudoeurycea nigra
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/421
+            queryName: "Herpetofauna Mexicana: Lista anotada de las especies de anfibios y reptiles de México, cambios taxonómicos recientes, y nuevas especies"
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-808e9e0073
+      - s-0bef8cd228
+      - s-908a220ce0
+      - s-52d82d4e3b
+      - s-012163a6fc
+      - s-02379afb9d
+      - s-c15dc8c376
+      - s-fb79644909
+      - s-1d53c1c200
+      - s-daa3e59ae6
+      - s-699f58820e
+      - s-ad33878bf8
+      - s-8a20967db4
+      - s-7aa4f400f7
+      - s-1982cab0db
+    zh:
+      - s-481e0929d8
+      - s-f6a4691c73
+      - s-f16bc42444
+      - s-958fc5ac9e
+      - s-7d038d6e59
+      - s-f4e21bb55a
+      - s-6fadbc0c94
+      - s-c4992c7dfc
+      - s-2c2d677593
+      - s-fc33f78f73
+      - s-5fbc9f93fb
+      - s-d05d09128c
+      - s-8695bae999
+      - s-b77c524d35
+      - s-e4a1bb948a

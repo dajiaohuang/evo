@@ -1,0 +1,184 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Teilhardimys musculus
+    rank: species
+    sourceDatasetId: null
+    name:
+      zh: Teilhardimys musculus
+      en: Teilhardimys musculus
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-5bd8106523
+            part: body
+          en:
+            page: en
+            section: s-5bf22088ea
+            part: body
+      - topic: occurrences
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-1545176162
+            part: body
+          en:
+            page: en
+            section: s-a39d9d0755
+            part: body
+      - topic: timeline
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-681acbc0a7
+            part: body
+          en:
+            page: en
+            section: s-b3c79ab9b3
+            part: body
+      - topic: evidence
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-9164e12f9b
+            part: body
+          en:
+            page: en
+            section: s-1b405af286
+            part: body
+      - topic: sources
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-d20f539ad5
+            part: body
+          en:
+            page: en
+            section: s-6f76836a2a
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB accepted record — Teilhardimys musculus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=252428&show=parent,app,attr
+          locator: Fixed dated accepted species OID and current same-name accepted hierarchy; PBDB ancestry remains separate from COL.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - responseSha256
+          - pbdbTaxonId
+          - selectedOccurrenceIds
+          - selectedCollectionIds
+          - sourceReferenceIds
+          - originalIdentificationMappings
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 occurrence response accepted_no txn:252428; original response record indices retained in data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz.
+          accessedAt: 2026-10-02
+          responseSha256: 368dafda8e7422b86d7992dc15a10defe699a9db146057d35e01a82c1c54bfa2
+          pbdbTaxonId: txn:252428
+          selectedOccurrenceIds:
+            - occ:1072307
+            - occ:1091137
+            - occ:1091138
+            - occ:1091140
+            - occ:1303105
+            - occ:1304895
+            - occ:1356731
+            - occ:1356741
+            - occ:1356746
+          selectedCollectionIds:
+            - col:35531
+            - col:87950
+            - col:133368
+            - col:68434
+            - col:166598
+            - col:184229
+          sourceReferenceIds:
+            - ref:42854
+            - ref:43830
+            - ref:56866
+            - ref:57053
+            - ref:61573
+          originalIdentificationMappings:
+            - occurrenceId: occ:1072307
+              originalIdentifiedName: Microhyus musculus n. gen. n. sp.
+              acceptedName: Teilhardimys musculus
+              difference: null
+            - occurrenceId: occ:1356731
+              originalIdentifiedName: Microhyus musculus
+              acceptedName: Teilhardimys musculus
+              difference: null
+            - occurrenceId: occ:1356741
+              originalIdentifiedName: Microhyus musculus
+              acceptedName: Teilhardimys musculus
+              difference: null
+            - occurrenceId: occ:1356746
+              originalIdentifiedName: Microhyus musculus
+              acceptedName: Teilhardimys musculus
+              difference: null
+          scope:
+            zh: 所选有引文、年代和地点的无疑问限定种级记录；不是全种生态或形态综合。
+            en: Selected cited species-level records without uncertain qualifiers, with ages and locality context; not whole-species ecology or morphology.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-1f69e47f83
+        part: body
+      en:
+        page: en
+        section: s-eeff2574ea
+        part: body

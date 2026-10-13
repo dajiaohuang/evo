@@ -1,0 +1,262 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Indirana beddomii
+    name:
+      en: Indirana beddomii
+      zh: Indirana beddomii
+    sourceClassification:
+      order: Anura
+      family: Ranixalidae
+      genus: Indirana
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5254c1271a
+            part: body
+          zh:
+            page: zh
+            section: s-1c90515409
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-07dddb55dc
+            part: body
+          zh:
+            page: zh
+            section: s-e80cf1c2db
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 2356, 2357; Reference.csv rows 539
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 2356
+        values:
+          - Ranixalidae
+          - Indirana
+          - Indirana beddomii
+          - M
+          - NA
+          - "10.83333333"
+          - "9.533333333"
+          - "3.733333333"
+          - "2.333333333"
+          - NA
+          - "2.6"
+          - "2.966666667"
+          - "2.033333333"
+          - "2.666666667"
+          - "4.433333333"
+          - "1.766666667"
+          - "7"
+          - "6.1"
+          - NA
+          - "15"
+          - "22.13333333"
+          - "16.63333333"
+          - "14.26666667"
+          - "7.333333333"
+          - NA
+          - NA
+          - "2.033333333"
+          - "2.933333333"
+          - "5.2"
+          - "8.733333333"
+          - "5.066666667"
+          - "2.133333333"
+          - "2.233333333"
+          - "3.7"
+          - "2.9"
+          - NA
+          - NA
+          - "0.833333333"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.966666667"
+          - NA
+          - "5.8"
+          - "26.16666667"
+      - rowNumber: 2357
+        values:
+          - Ranixalidae
+          - Indirana
+          - Indirana beddomii
+          - F
+          - NA
+          - "13.95"
+          - "12.14166667"
+          - "4"
+          - "2.708333333"
+          - NA
+          - "3.533333333"
+          - "3.333333333"
+          - "2.525"
+          - "3.358333333"
+          - "5.783333333"
+          - "1.975"
+          - "8.741666667"
+          - "7.708333333"
+          - NA
+          - "18.56666667"
+          - "26.625"
+          - "21.20833333"
+          - "18.56666667"
+          - "9.491666667"
+          - NA
+          - NA
+          - "2.758333333"
+          - "3.65"
+          - "5.875"
+          - "10.35"
+          - "6.2"
+          - "2.858333333"
+          - "2.875"
+          - "4.691666667"
+          - "3.616666667"
+          - NA
+          - NA
+          - "1.091666667"
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1.158333333"
+          - NA
+          - "6.525"
+          - "34.30833333"
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 539
+        values:
+          - Anura
+          - Indirana_beddomii
+          - "Molur, S., Padhye, A., Krutha, K., Modak, N., DAHANUKAR, N., & Nameer, P. (2016). Leaping frogs (Anura: Ranixalidae) of the Western Ghats of India: An integrated taxonomic review. Journal of Threatened Taxa, 8(10):9221-9288. https://doi.org/10.11609/jott.2532.8.10.9221-9288"
+    availableTraitCodes:
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin3DW
+      - Toe4DW
+      - UAL
+      - SUL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 3PMW4
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Brachycephalus hermogenesi
+  displayName: Brachycephalus hermogenesi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6929Z
+  sourceIndexes:
+    - name:
+        en: Brachycephalus hermogenesi
+        zh: Brachycephalus hermogenesi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6929Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/417
+            queryName: Brachycephalus hermogenesi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 10
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00043.json.gz
+            field: /records/170
+            queryName: Psyllophryne hermogenesi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 8
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-58eed725e0
+      - s-725d0e02b5
+      - s-5b86f317a5
+      - s-c0bed10614
+      - s-acbe231daa
+      - s-1198015c0e
+      - s-c5072f1bac
+      - s-050a1b7432
+      - s-b3759b003b
+      - s-fcbd00781b
+      - s-dae3567295
+      - s-8619144ffd
+      - s-952837223d
+      - s-17810976d0
+      - s-9df0036f83
+      - s-7b03545f7c
+      - s-140b1dfa3b
+      - s-5b003a6021
+      - s-1be8ae8e56
+      - s-b1d8bb486f
+      - s-0253a15c25
+      - s-b373d0b579
+    zh:
+      - s-90adae511f
+      - s-e5b12d312c
+      - s-8d6f0b5e2a
+      - s-e05956977c
+      - s-0853ad34bf
+      - s-6f8074ca63
+      - s-b599dbc320
+      - s-31baa03530
+      - s-392c0616a7
+      - s-022c3c1af2
+      - s-c8fa760ab1
+      - s-d9ec7d3488
+      - s-7472e5d3b2
+      - s-856ab3e359
+      - s-862f6d6354
+      - s-66aae21165
+      - s-a6e72c5d7c
+      - s-216ae9a09b
+      - s-bd9ecd9a3d
+      - s-5d66ba20ba
+      - s-459833ffce
+      - s-2c777b23b1

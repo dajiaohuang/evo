@@ -1,0 +1,253 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sphenodon
+    rank: genus
+    sourceDatasetId: "1008"
+    name:
+      zh: 楔齿蜥属
+      en: Sphenodon
+    sections:
+      - topic: genus identity and species route
+        sourceIds:
+          - taxonomy
+        text:
+          en:
+            page: en
+            section: s-96fb32271c
+            part: body
+          zh:
+            page: zh
+            section: s-9f9a38e736
+            part: body
+        topicZh: genus identity and species route
+      - topic: different evidence scales
+        sourceIds:
+          - docNaturalHistory
+          - gemmell2020
+        text:
+          en:
+            page: en
+            section: s-71f0f26665
+            part: body
+          zh:
+            page: zh
+            section: s-00c9aecb22
+            part: body
+        topicZh: different evidence scales
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-16a1d521f4
+            part: body
+          en:
+            page: en
+            section: s-a923015c9c
+            part: body
+      - topic: morphology
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-83695017d9
+            part: body
+          en:
+            page: en
+            section: s-8ce2e859f2
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-b1ac806e0d
+            part: body
+          en:
+            page: en
+            section: s-6eb4ee8bc9
+            part: body
+      - topic: overview
+        sourceIds:
+          - reptTraitsV12
+          - reptTraitsProtocol2024
+        text:
+          zh:
+            page: zh
+            section: s-3f2bd43957
+            part: body
+          en:
+            page: en
+            section: s-a409010c6d
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-4bd1d9acf7
+            part: body
+          en:
+            page: en
+            section: s-eab5816bf5
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Catalogue of Life COL26.8 — Sphenodon
+            zh: Catalogue of Life COL26.8 — Sphenodon
+          url: https://www.checklistbank.org/dataset/316115/taxon/63SJ6
+          scope:
+            en: Pinned name, rank, source dataset and parent links only; accepted status does not establish living status, ecology or phylogeny.
+            zh: 固定接受名、等级、来源数据集和父子关系；名录接受状态不证明现生，也不是生态或系统发育证据。
+      - id: docNaturalHistory
+        referenceId: doc-tuatara-natural-history-accessed-2026-10-02
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Tuatara — Department of Conservation Te Papa Atawhai
+            zh: Tuatara — Department of Conservation Te Papa Atawhai
+          url: https://www.doc.govt.nz/nature/native-animals/reptiles-and-frogs/tuatara/
+          scope:
+            en: Official account for island habitat, prey types and rodent threats; publication date unstated. Its island, longevity and population totals are not adopted as current estimates.
+            zh: 官方自然史页所述岛屿环境、猎物类型和鼠类威胁；网页没有明确发表日期，不采用其岛屿数、寿命或种群数为当期估计。
+      - id: gemmell2020
+        referenceId: gemmell-2020-tuatara-genome
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title:
+            en: Gemmell et al. (2020) — The tuatara genome reveals ancient features of amniote evolution
+            zh: Gemmell et al. (2020) — The tuatara genome reveals ancient features of amniote evolution
+          url: https://doi.org/10.1038/s41586-020-2561-9
+          scope:
+            en: Assembly section and Figure 3d three-island comparison; neither a uniform genome for every individual nor a species split or present abundance estimate.
+            zh: 正文的组装章节及图3d三岛取样比较；组装不是全种一致基因组，结构不是另立种或当前种群数量证据。
+      - id: reptTraitsV12
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - descendantCitationScopeCautionCount
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2; 1 authored records grouped under Sphenodon by COL26.8 ancestry; per-species source rows preserved in source archive.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-data-summary
+          scope:
+            zh: 仅概括本批已写入的性状资料，不代表完整后代覆盖。
+            en: Only this batch’s authored trait records; no complete descendant coverage.
+          descendantCitationScopeCautionCount: 1
+      - id: reptTraitsProtocol2024
+        referenceId: ref-d075eefb-2767-428c-ae91-9d089b535c8d
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC-BY-4.0-attributed-paraphrase
+          scope:
+            zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 1 authored same-name records placed under Sphenodon by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+    limitations:
+      en:
+        page: en
+        section: s-d4652891e3
+        part: body
+      zh:
+        page: zh
+        section: s-f817af49b2
+        part: body

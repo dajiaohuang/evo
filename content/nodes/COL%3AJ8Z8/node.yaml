@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Atelopus lozanoi
+  displayName: Atelopus lozanoi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/J8Z8
+  sourceIndexes:
+    - name:
+        en: Atelopus lozanoi
+        zh: Atelopus lozanoi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: J8Z8
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00001.json.gz
+            field: /records/276
+            queryName: Atelopus lozanoi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-97e6a452a2
+      - s-4b78af3b90
+      - s-b663239a38
+      - s-da86c1f4a6
+      - s-98f10a2ea9
+      - s-7a0adb935e
+      - s-7c7f0ef3ff
+      - s-4edf2dd56f
+      - s-be169c1dc7
+    zh:
+      - s-8381a9d167
+      - s-29a19b37bb
+      - s-4ecf04e42c
+      - s-051931c72e
+      - s-d5857eca61
+      - s-6af8c4bd8f
+      - s-5d3d219bc2
+      - s-5f54bbdb89
+      - s-e10e5af2ce

@@ -1,0 +1,176 @@
+schemaVersion: 1
+records:
+  atlas-node:
+    name: Polycotylus
+    commonName: Polycotylid Plesiosaur
+    commonNameZh: 多椎龙
+    rank: genus
+    taxonId: txn:36506
+    firstAppearance: 83.6
+    lastAppearance: 72.1
+    extinct: true
+    entityKind: taxon
+    contentLevel: dossier
+  claims:
+    - subjectId: taxon:polycotylus
+      claimKind: scientific
+      claimType: fossil-range
+      statement: Polycotylus is represented by gravid specimen LACM 129639 from the Late Cretaceous Pierre Shale at approximately 78 Ma; it is a local specimen boundary, not a genus-wide first or last appearance.
+      confidence: high
+      confidenceRationale: The specimen, formation and approximate age are directly stated. High confidence does not extend from that record to complete genus chronology.
+      referenceLinks:
+        - referenceId: okeefe-2011-polycotylus-viviparity
+          relation: supports
+          pages: 870–873
+          figure: Figure 1; Supporting Online Material Figure S1
+          quoteLocator: Specimen provenance; geological age; description of LACM 129639
+  claim-rationales.zh:
+    - 标本、地层与近似年代均有直接陈述。高置信度不从该记录扩展到完整属级年代。
+  claim-statements.zh:
+    - 双臼椎龙由约 7800 万年前晚白垩世皮埃尔页岩的怀孕标本 LACM 129639 表示；这是局部标本边界，不是属级首现或末现。
+  ranges:
+    - entityId: polycotylus
+      rangeKind: global-composite
+      taxonomicConcept: Polycotylus latipinnus adult and fetus LACM 129639 occurrence
+      geographicScope: Pierre Shale, Kansas, United States
+      olderMa: 83.6
+      youngerMa: 72.1
+      status: available
+      uncertainty:
+        olderMa: null
+        youngerMa: null
+        note: The Campanian navigation envelope is broader than the paper's approximate 78 Ma age for the specimen.
+      evidenceBasis: The primary description records LACM 129639 from the Late Cretaceous Pierre Shale and gives an approximate age near 78 Ma.
+      evidenceLevel: literature-synthesized
+      confidence: medium
+      claimIds:
+        - claim:event:polycotylus-gravid-specimen
+      referenceLocators:
+        - referenceId: okeefe-2011-polycotylus-viviparity
+          locator: pp. 870–873; Figure 1; Supporting Online Material
+  catalogue-profile:
+    scientificName: Polycotylus
+    rank: genus
+    sourceDatasetId: null
+    name:
+      zh: Polycotylus
+      en: Polycotylus
+    sections:
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-24bc13bf7f
+            part: title
+          zh:
+            page: zh
+            section: s-94ab06c645
+            part: title
+        sourceIds:
+          - pbdbSauropterygiaTaxonomy20261002
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-94ab06c645
+            part: body
+          en:
+            page: en
+            section: s-24bc13bf7f
+            part: body
+      - topic: readingPath
+        title:
+          en:
+            page: en
+            section: s-0403df4c5f
+            part: title
+          zh:
+            page: zh
+            section: s-2be4383415
+            part: title
+        sourceIds:
+          - pbdbSauropterygiaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-2be4383415
+            part: body
+          en:
+            page: en
+            section: s-0403df4c5f
+            part: body
+    sources:
+      - id: pbdbSauropterygiaTaxonomy20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Polycotylus
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=36506
+          locator: Recorded PBDB parent closure beneath the already documented Sauropterygia COL-compatible storage anchor.
+      - id: pbdbSauropterygiaOccurrences20261002
+        referenceId: ref-f8477a8a-0e70-4404-a0cd-029651abdad2
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:36506
+          readingTargets:
+            - name: Polycotylus latipinnis
+              pbdbTaxonId: txn:70302
+              canonicalPath: content/nodes/PBDB%3A70302
+            - name: Polycotylus sopozkoi
+              pbdbTaxonId: txn:447806
+              canonicalPath: content/nodes/PBDB%3A447806
+            - name: Polycotylus suprajurensis
+              pbdbTaxonId: txn:89218
+              canonicalPath: content/nodes/PBDB%3A89218
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-0d33c91e8f
+        part: body
+      en:
+        page: en
+        section: s-9e692d4377
+        part: body

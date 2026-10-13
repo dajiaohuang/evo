@@ -1,0 +1,54 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Kalophrynus meizon
+  displayName: Kalophrynus meizon
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6NJSX
+  sourceIndexes:
+    - name:
+        en: Kalophrynus meizon
+        zh: Kalophrynus meizon
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6NJSX
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00008.json.gz
+            field: /records/105
+            queryName: Kalophrynus meizon
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7bff4ce148
+      - s-ba828f4fe1
+      - s-0e2d9f5005
+      - s-ca980d4097
+      - s-f42b2176dc
+      - s-f554799b7e
+      - s-270a05c5e2
+    zh:
+      - s-334d2d305e
+      - s-e1fff94c80
+      - s-06c4760eb7
+      - s-0a2b7931fc
+      - s-c6ad77b480
+      - s-e86a9c27f3
+      - s-a71dad5a48

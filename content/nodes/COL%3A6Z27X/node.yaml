@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Silverstoneia dalyi
+  displayName: Silverstoneia dalyi
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z27X
+  sourceIndexes:
+    - name:
+        en: Silverstoneia dalyi
+        zh: Silverstoneia dalyi
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z27X
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/187
+            queryName: Silverstoneia dalyi
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-bc581f1ccf
+      - s-d74c29ffcf
+      - s-3b7c4b3b17
+      - s-174fe5f8bb
+      - s-2e79577972
+      - s-8df54f0524
+    zh:
+      - s-929e152d10
+      - s-b9c11c08d9
+      - s-942cf02b1a
+      - s-1f2e734f71
+      - s-fb9dd2e466
+      - s-5cc10a9f26

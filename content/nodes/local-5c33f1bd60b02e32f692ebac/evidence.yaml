@@ -1,0 +1,244 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Osornophryne occidentalis
+    name:
+      en: Osornophryne occidentalis
+      zh: Osornophryne occidentalis
+    sourceClassification:
+      order: Anura
+      family: Bufonidae
+      genus: Osornophryne
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-cfcbfbd153
+            part: body
+          zh:
+            page: zh
+            section: s-0b53787308
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-7fa8b6f60f
+            part: body
+          zh:
+            page: zh
+            section: s-47e54d1c03
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 3948, 3949; Reference.csv rows 2689
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 3948
+        values:
+          - Bufonidae
+          - Osornophryne
+          - Osornophryne occidentalis
+          - M
+          - "22.3"
+          - "7.5"
+          - "8.1"
+          - "1.8"
+          - NA
+          - NA
+          - "2.9"
+          - "2.4"
+          - "2"
+          - "1.4"
+          - NA
+          - "1.4"
+          - NA
+          - NA
+          - NA
+          - "7"
+          - NA
+          - "6.8"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 3949
+        values:
+          - Bufonidae
+          - Osornophryne
+          - Osornophryne occidentalis
+          - F
+          - "36"
+          - "10"
+          - "11.9"
+          - "2.7"
+          - NA
+          - NA
+          - "3.8"
+          - "2.9"
+          - "2.9"
+          - "1.9"
+          - NA
+          - "1.8"
+          - "8.5"
+          - NA
+          - NA
+          - "11"
+          - NA
+          - "10.3"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2689
+        values:
+          - Anura
+          - Osornophryne_occidentalis
+          - "Cisneros-Heredia, D., & Gluesenkamp, A. (2010). A new Andean Toad of the genus Osornophryne (Amphibia: Anura: Bufonidae) from northwestern Ecuador, with taxonomic remarks on the genus. Avances en Ciencias e Ingenierías, 2, B64-B73."
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - NS
+      - HAL
+      - FL
+      - TL
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 6TC5J
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

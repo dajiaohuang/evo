@@ -1,0 +1,116 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Cercamoniinae
+    rank: subfamily
+    sourceDatasetId: null
+    name:
+      zh: Cercamoniinae
+      en: Cercamoniinae
+    sections:
+      - topic: overview
+        sourceIds:
+          - pbdbMammaliaTaxonomy20261002
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-756bc5b359
+            part: body
+          en:
+            page: en
+            section: s-c54cb1ce6a
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - pbdbMammaliaOccurrences20261002
+          - pbdbOccurrenceFields20261002
+        text:
+          zh:
+            page: zh
+            section: s-46caaf3b49
+            part: body
+          en:
+            page: en
+            section: s-f5eb096be5
+            part: body
+    sources:
+      - id: pbdbMammaliaTaxonomy20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+        metadataVariant: 0
+        usage:
+          title: PBDB classification — Cercamoniinae
+          url: https://paleobiodb.org/data1.2/taxa/single.json?id=91592
+          locator: Recorded PBDB parent closure beneath the already documented Mammalia COL-compatible storage anchor.
+      - id: pbdbMammaliaOccurrences20261002
+        referenceId: ref-d9daed02-7dc5-41b7-9cb9-616d52f8b19a
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - pbdbTaxonId
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
+          accessedAt: 2026-10-02
+          pbdbTaxonId: txn:91592
+          readingTargets:
+            - name: Europolemur koenigswaldi
+              pbdbTaxonId: txn:70447
+              canonicalPath: content/nodes/PBDB%3A70447
+            - name: Europolemur midiensis
+              pbdbTaxonId: txn:374605
+              canonicalPath: content/nodes/PBDB%3A374605
+            - name: Europolemur klatti
+              pbdbTaxonId: txn:135231
+              canonicalPath: content/nodes/PBDB%3A135231
+            - name: Nievesia sossisensis
+              pbdbTaxonId: txn:264449
+              canonicalPath: content/nodes/PBDB%3A264449
+            - name: Mazateronodon endemicus
+              pbdbTaxonId: txn:264445
+              canonicalPath: content/nodes/PBDB%3A264445
+          scope:
+            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
+      - id: pbdbOccurrenceFields20261002
+        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    limitations:
+      zh:
+        page: zh
+        section: s-d67ae6f6c2
+        part: body
+      en:
+        page: en
+        section: s-1d2f971cf2
+        part: body

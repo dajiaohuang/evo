@@ -1,0 +1,246 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Chimerella corleone
+    name:
+      en: Chimerella corleone
+      zh: Chimerella corleone
+    sourceClassification:
+      order: Anura
+      family: Centrolenidae
+      genus: Chimerella
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: How does the deposit classify this entry?
+          zh: 存档如何归类这条记录？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-5f3078f738
+            part: body
+          zh:
+            page: zh
+            section: s-33bb2326f5
+            part: body
+      - topic: morphology
+        title:
+          en: Which coded measurements are present?
+          zh: 记录了哪些测量代码？
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-e40724b343
+            part: body
+          zh:
+            page: zh
+            section: s-a2e35a9e18
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 1129, 1130; Reference.csv rows 239
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 1129
+        values:
+          - Centrolenidae
+          - Chimerella
+          - Chimerella corleone
+          - M
+          - "19.175"
+          - "5.825"
+          - "7.2"
+          - "2.25"
+          - "0.55"
+          - NA
+          - "3.225"
+          - "1.675"
+          - "3.025"
+          - "1.725"
+          - NA
+          - NA
+          - "5.95"
+          - NA
+          - NA
+          - "8.5"
+          - NA
+          - "10.35"
+          - "9.95"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "1"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+      - rowNumber: 1130
+        values:
+          - Centrolenidae
+          - Chimerella
+          - Chimerella corleone
+          - F
+          - "21"
+          - "6"
+          - "7.9"
+          - "2.4"
+          - "0.7"
+          - NA
+          - "3.4"
+          - "1.8"
+          - "3.2"
+          - "1.8"
+          - NA
+          - NA
+          - "5.5"
+          - NA
+          - NA
+          - "8.5"
+          - NA
+          - "11.5"
+          - "10.7"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "0.9"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 239
+        values:
+          - Anura
+          - Chimerella_corleone
+          - Twomey, E., Delia, J., & Castroviejo-Fisher, S. (2014). A review of Northern Peruvian glassfrogs (Centrolenidae), with the description of four new remarkable species. Zootaxa, 3851, 1-87. https://doi.org/10.11646/zootaxa.3851.1.1
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - HAL
+      - FL
+      - TL
+      - THL
+      - Fin3DW
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 69S32
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

@@ -1,0 +1,3 @@
+## Crowded leaves and a smooth fruit {#s-8e8ac14ae7}
+In the Brazilian Flora 2020 regional description, the branches are cylindrical and their bark is not thickened. Leaves are alternate and crowded, with white latex recorded in the leaf entry. The inflorescences are corymb-like cymes, placed terminally or just below the stem tip in the source field. The description gives corolla lobes shorter than the tube and a hairless ovary; it lists the sepals as unequal or nearly equal without choosing between those states. The smooth fruit has distinct ribs, a stalk, and conspicuous lenticels. This single dataset description does not establish how much these features vary across the species.
+

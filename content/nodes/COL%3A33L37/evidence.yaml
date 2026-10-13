@@ -1,0 +1,201 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Cyrtanthus huttonii Baker
+    rank: species
+    sourceDatasetId: "2232"
+    identity:
+      method: Exact COL26.8 accepted species usage 33L37, scientific name, authorship, rank, status and source dataset checked against both the pinned registry and the 2026-06 WFO crosswalk; SANBI archive has the same COL ID and WFO ID.
+      scope: Nominal species as represented by COL26.8 usage 33L37; the cited South African regional source concept is retained and not presumed globally coextensive based on name alone.
+    lifeStatusScope:
+      wild: Regional account statements retain their source scope; wild, naturalised, and cultivated occurrences are separated only when stated in the cited text.
+      domesticated: Domestication and cultivar history have not been assessed.
+      fossil: Fossil occurrence and geological age have not been assessed; extant floras are not used to infer fossil records.
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 22
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115; source checklist dataset 2232
+          url: https://www.checklistbank.org/dataset/316115/taxon/33L37
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          locator: Accepted species usage 33L37
+          scope: Accepted name, authorship, rank, status, and source dataset identity only.
+      - id: wfo
+        referenceId: ref-7508b1f1-d459-8c35-a5cc-032ae23afbe8
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          title: World Flora Online Plant List, version 2026-06, exact COL crosswalk
+          url: https://list.worldfloraonline.org/wfo-0000764926-2026-06
+          version: WFO 2026-06, issued 2026-06-21; version DOI 10.5281/zenodo.20782718
+          locator: Crosswalk row COL 33L37 / WFO wfo-0000764926
+          scope: Exact accepted name and authorship identity link only, not biological evidence.
+      - id: sanbi_11118_0
+        referenceId: ref-96d3eb47-dcce-84af-a79c-a5594dee32d3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 1
+        usage:
+          locator: Cyrtanthus huttonii Baker account; SANBI/WFO archive rows 1603 (Morphology), 12578 (Habitat), source identifier 11118.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+      - id: sanbi_11504_0
+        referenceId: ref-2236a417-021e-8cef-aedd-e13f00c513ec
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - license
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Cyrtanthus huttonii Baker account; SANBI/WFO archive rows 71416 (Diagnostic), source identifier 11504.0
+          scope: Regional South African flora treatment; it does not establish global representativeness or population frequencies.
+    facets:
+      morphology:
+        status: partially-supported
+        claims:
+          - text: Bulbous herb, up to 450 mm tall. Leaves 2 or 3, contemporary with the flowers, 25-40 mm broad, 500-600 mm long. Perianth 35-45 mm long, lobes 10-15 mm long. Flowers orange-red to dark red.
+            textZh: Cyrtanthus huttonii Baker 的 SANBI 物种条目记录了形态特征。
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Morphology row 1603; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+          - text: Although obviously belonging to the C. macowanii group, the exact relationship between these two taxa is at present uncertain. Although only the northern population was sampled, Ising (1970) places this species in a separate group from that of C. obrienii, C. rotundilobus and C. epiphyticus on the basis of chromosome morphology.
+            textZh: SANBI 条目提供了 Cyrtanthus huttonii Baker 的鉴别特征。
+            sourceIds:
+              - sanbi_11504_0
+            locator: "SANBI/WFO archive Diagnostic row 71416; source identifier 11504.0; cited publication: Reid, C; Dyer, RA. 1984. A review of the southern African species of Cyrtanthus. American Plant Life Society, La Jolla Stanford. [All rights reserved]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - Only the cited regional morphology and available diagnostic descriptions have been assessed; developmental and population variation remain unreviewed.
+      lifeHistory:
+        status: not-assessed
+      ecology:
+        status: partially-supported
+        claims:
+          - text: Mountainsides, rock ledges in leaf mould, streambanks.
+            textZh: 该 SANBI 区域物种条目记录的生境：Mountainsides, rock ledges in leaf mould, streambanks.
+            sourceIds:
+              - sanbi_11118_0
+            locator: "SANBI/WFO archive Habitat row 12578; source identifier 11118.0; cited publication: Herman, PPJ; Retief, E. 1997. Plants of the northern provinces of South Africa: Keys and diagnostic characters. Strelitzia 6: 1 - 681. National Botanical Institute, Pretoria. [CC BY]"
+            placeTimeScope: Regional species account; publication year is preserved in the cited reference and archive locator. The excerpt does not give a dated sampling frame or population frequency.
+            lifeStatus: Regional flora account; native, naturalised, cultivated, or domesticated status is not inferred beyond explicit statements in the cited source.
+        gaps:
+          - The cited habitat excerpt does not establish seasonality, localities, interaction networks, or ecology across the full species range.
+      evolution:
+        status: not-assessed
+      distribution:
+        status: not-assessed
+      fossil:
+        status: not-assessed
+      conservation:
+        status: not-assessed
+    readerSections:
+      - id: page-a281d70de4
+        title:
+          en:
+            page: en
+            section: s-70100a7f8b
+            part: title
+          zh:
+            page: zh
+            section: s-2b119d4ce6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-70100a7f8b
+            part: body
+          zh:
+            page: zh
+            section: s-2b119d4ce6
+            part: body
+        sourceIds: []
+      - id: page-90e35c7469
+        title:
+          en:
+            page: en
+            section: s-4946aac0e4
+            part: title
+          zh:
+            page: zh
+            section: s-038dd0ccfb
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4946aac0e4
+            part: body
+          zh:
+            page: zh
+            section: s-038dd0ccfb
+            part: body
+        sourceIds:
+          - sanbi_11118_0
+      - id: page-fd3ff6dcf5
+        title:
+          en:
+            page: en
+            section: s-381465756b
+            part: title
+          zh:
+            page: zh
+            section: s-83e4f74e69
+            part: title
+        text:
+          en:
+            page: en
+            section: s-381465756b
+            part: body
+          zh:
+            page: zh
+            section: s-83e4f74e69
+            part: body
+        sourceIds:
+          - sanbi_11118_0
+      - id: page-d4beb9260a
+        title:
+          en:
+            page: en
+            section: s-4fbcd04efa
+            part: title
+          zh:
+            page: zh
+            section: s-06b0dd6145
+            part: title
+        text:
+          en:
+            page: en
+            section: s-4fbcd04efa
+            part: body
+          zh:
+            page: zh
+            section: s-06b0dd6145
+            part: body
+        sourceIds: []

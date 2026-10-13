@@ -1,0 +1,112 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spea hammondii
+  displayName: Spea hammondii
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z8T7
+  sourceIndexes:
+    - name:
+        en: Spea hammondii
+        zh: Spea hammondii
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z8T7
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/216
+            queryName: Spea hammondii
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 51
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/196
+            queryName: Scaphiopus hammondii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/333
+            queryName: Spea hammondii hammondii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/334
+            queryName: Scaphiopus hammondii hammondii
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-4dbc350e6e
+      - s-a96d8aadcd
+      - s-9a07aa705f
+      - s-1d1c071ed6
+      - s-7b9ad36ed6
+      - s-e739be7990
+      - s-1a537fe99c
+      - s-c75db0da34
+      - s-d7b1f40f13
+      - s-a488dd99c5
+      - s-3fb7b5afad
+      - s-15024c33a2
+      - s-b3a84763d2
+      - s-00cc735a54
+      - s-93b8632118
+      - s-d0919ec5d5
+      - s-ccbe9c9d97
+      - s-57f0aefa83
+      - s-0144db79a0
+      - s-b5a913a4c7
+      - s-f92869e31c
+      - s-31a966e943
+      - s-8cb98cedaa
+      - s-deed2a170f
+      - s-4fe86fe860
+      - s-b531fb35b3
+      - s-9ca38f179d
+    zh:
+      - s-a073acc577
+      - s-1e16544b1c
+      - s-33c6f8efd1
+      - s-456ca463e9
+      - s-70d5fb53a9
+      - s-3f5ad5114a
+      - s-8ecc316fbe
+      - s-a7dd4fdc09
+      - s-c314d8af18
+      - s-04d908b4a3
+      - s-608bb0d0da
+      - s-a1a7bb6bdb
+      - s-76760246b7
+      - s-b5aebb83d3
+      - s-ae9de135f7
+      - s-c45155f287
+      - s-68ccfbaa77
+      - s-06380941db
+      - s-b229cdeb27
+      - s-e3c6dab1c6
+      - s-7d0c75a68d
+      - s-7e8f8c21b9
+      - s-3f9edbcde1
+      - s-fa9654ed9a
+      - s-6c196838f5
+      - s-0efe98f655
+      - s-48f24e0bef

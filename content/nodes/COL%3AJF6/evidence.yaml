@@ -1,0 +1,167 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Dendrobatinae Cope, 1865
+    rank: subfamily
+    sourceDatasetId: "2144"
+    name:
+      en: Dendrobatinae
+      zh: Dendrobatinae
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-edd0f3dd07
+            part: title
+          zh:
+            page: zh
+            section: s-3fb7fcf5b8
+            part: title
+        text:
+          en:
+            page: en
+            section: s-edd0f3dd07
+            part: body
+          zh:
+            page: zh
+            section: s-3fb7fcf5b8
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-81e8695235
+            part: title
+          zh:
+            page: zh
+            section: s-7e361f5e28
+            part: title
+        text:
+          en:
+            page: en
+            section: s-81e8695235
+            part: body
+          zh:
+            page: zh
+            section: s-7e361f5e28
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-7079bc58c6
+            part: title
+          zh:
+            page: zh
+            section: s-0255a38aaa
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: P4M
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AP4M
+            label:
+              en: Adelphobates
+              zh: Adelphobates
+          - kind: catalogue
+            colId: VR2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AVR2
+            label:
+              en: Andinobates
+              zh: Andinobates
+          - kind: catalogue
+            colId: 42XP
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A42XP
+            label:
+              en: Dendrobates
+              zh: Dendrobates
+          - kind: catalogue
+            colId: 4HSB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A4HSB
+            label:
+              en: Excidobates
+              zh: Excidobates
+          - kind: catalogue
+            colId: 5TG2
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A5TG2
+            label:
+              en: Minyobates
+              zh: Minyobates
+          - kind: catalogue
+            colId: 68KL
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A68KL
+            label:
+              en: Oophaga
+              zh: Oophaga
+          - kind: catalogue
+            colId: 63MLJ
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A63MLJ
+            label:
+              en: Phyllobates
+              zh: Phyllobates
+          - kind: catalogue
+            colId: 773Y
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3A773Y
+            label:
+              en: Ranitomeya
+              zh: Ranitomeya
+        text:
+          en:
+            page: en
+            section: s-7079bc58c6
+            part: body
+          zh:
+            page: zh
+            section: s-0255a38aaa
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Dendrobatinae
+          url: https://www.checklistbank.org/dataset/316115/taxon/JF6
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-c6c7a86d59
+        part: body
+      zh:
+        page: zh
+        section: s-565e0a9359
+        part: body

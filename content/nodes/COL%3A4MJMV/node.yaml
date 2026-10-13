@@ -1,0 +1,66 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis rhodostichus
+  displayName: Pristimantis rhodostichus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJMV
+  sourceIndexes:
+    - name:
+        en: Pristimantis rhodostichus
+        zh: Pristimantis rhodostichus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJMV
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/49
+            queryName: Pristimantis rhodostichus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/26
+            queryName: Eleutherodactylus rhodostichus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-371e949eab
+      - s-2c119a617d
+      - s-17804b9a3b
+      - s-cef8ea40d6
+      - s-2cd928dc3e
+      - s-1da06832dd
+      - s-9cad0d451e
+      - s-419c5daa95
+      - s-015006a5fa
+      - s-8f7cfd0800
+    zh:
+      - s-c4fd6e776d
+      - s-370eb9d9c3
+      - s-76d8d1bed7
+      - s-8d639d4bf9
+      - s-f73de8fea4
+      - s-6646417c9e
+      - s-bb301f08ee
+      - s-c75d1d3523
+      - s-836b0f676a
+      - s-9593c29e2e

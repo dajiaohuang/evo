@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Lithobates montezumae
+  displayName: Lithobates montezumae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3VHQG
+  sourceIndexes:
+    - name:
+        en: Lithobates montezumae
+        zh: Lithobates montezumae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3VHQG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00009.json.gz
+            field: /records/183
+            queryName: Lithobates montezumae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00021.json.gz
+            field: /records/222
+            queryName: Rana montezumae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 41
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00039.json.gz
+            field: /records/410
+            queryName: Rana adrita
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/299
+            queryName: Rana montezumae montezumae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/300
+            queryName: Rana montezumae concolor
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0d6b6147a8
+      - s-014f7919f7
+      - s-03a983449a
+      - s-a1128acaee
+      - s-b05b17adce
+      - s-8c7bc29db0
+      - s-9b0bfc1537
+      - s-7ce2942e4f
+      - s-376f36c01a
+      - s-26a5316172
+      - s-324e9ef973
+      - s-4b6492e9e0
+      - s-8562628876
+      - s-7b7e85f9be
+      - s-558b11c3dc
+      - s-e67f9c05db
+    zh:
+      - s-053bb82c43
+      - s-0bbf1092da
+      - s-825804541a
+      - s-204310563c
+      - s-13331c6285
+      - s-5c0317e85b
+      - s-7e4fd09e76
+      - s-13d74d027e
+      - s-875ecc4de4
+      - s-a786eadcb7
+      - s-7df12fdb70
+      - s-6b03b2a33d
+      - s-ef8338847f
+      - s-d45fdb6eb9
+      - s-5ca2766066
+      - s-44c4e2bf52

@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Xenorhina macrodisca
+  displayName: Xenorhina macrodisca
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/7FVVQ
+  sourceIndexes:
+    - name:
+        en: Xenorhina macrodisca
+        zh: Xenorhina macrodisca
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 7FVVQ
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/345
+            queryName: Xenorhina macrodisca
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-01c6d20752
+      - s-6a596d7947
+      - s-6644bd6ef3
+      - s-755faab6a8
+      - s-d5387b53dc
+      - s-899013ff45
+      - s-96bc2ede47
+      - s-0837301691
+      - s-d6915f4f89
+      - s-17f7a5ae91
+      - s-65543c10f7
+    zh:
+      - s-53b4ad66f9
+      - s-3a38b47dd2
+      - s-685b39a92a
+      - s-5584f3bdf6
+      - s-6c099291e2
+      - s-9413d5176d
+      - s-46bb2aa48d
+      - s-7ba7734d7e
+      - s-e987a7ce0d
+      - s-e1e61872ad
+      - s-b6a88f798e

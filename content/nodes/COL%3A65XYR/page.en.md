@@ -1,0 +1,3 @@
+## A climbing or decumbent plant with branched flower clusters {#s-e04f4d06a9}
+The Portuguese morphology record lists secondary roots and climbing or decumbent stems. Its petiolate elliptic to ovate leaves have acute tips, may be entire or mucronate, and are recorded as hairy. Flower clusters are stalked and may branch twice or three times. The sessile flowers have five three-veined, papery tepals, reddish or greenish; the record also lists five stamens, long pseudostaminodes, a papillose or villous stigma and a long style. The fruit apex is ornamented or textured, the seed lacks a lateral projection, and the habitat entry says terrestrial.
+

@@ -1,0 +1,97 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sciurocheirus alleni (Waterhouse, 1838)
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Bioko Squirrel Galago
+      zh: 比奥科松鼠婴猴
+    sections:
+      - topic: overview
+        text:
+          en:
+            page: en
+            section: s-1daaba8674
+            part: body
+          zh:
+            page: zh
+            section: s-37b95f7106
+            part: body
+        sourceIds:
+          - taxonomy
+          - mdd_label
+          - ambrose2003
+      - topic: bioacoustics
+        text:
+          en:
+            page: en
+            section: s-365fddc986
+            part: body
+          zh:
+            page: zh
+            section: s-ec9375f9f5
+            part: body
+        sourceIds:
+          - ambrose2003
+      - topic: interpretation
+        text:
+          en:
+            page: en
+            section: s-1668fee6dc
+            part: body
+          zh:
+            page: zh
+            section: s-688a86ef1c
+            part: body
+        sourceIds:
+          - ambrose2003
+          - mdd_label
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 · source 2144 — Sciurocheirus alleni
+          url: https://www.checklistbank.org/dataset/316115/taxon/4VNCG
+          scope:
+            en: Pins the accepted COL26.8 identity and source authorship.
+            zh: 固定 COL26.8 接受身份与来源作者信息。
+      - id: mdd_label
+        referenceId: ref-d1390a50-4358-878c-a049-3af3fbbe84cd
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Supplies the English display name and notes historical inclusion of cameronensis.
+            zh: 提供英文显示名，并注明 cameronensis 的历史归属。
+      - id: ambrose2003
+        referenceId: ref-21bfa785-e10e-8c7d-adca-61a25368924a
+        fields:
+          - id
+          - title
+          - url
+          - scope
+        metadataVariant: 0
+        usage:
+          scope:
+            en: Primary comparison of morphology and loud-call profiles at ten locations; the paper predicts three species-level forms.
+            zh: 十地点的形态与响亮叫声型原始比较；论文提出三种物种级声学型的解释。
+    limitations:
+      en:
+        page: en
+        section: s-ad966e5582
+        part: body
+      zh:
+        page: zh
+        section: s-959bfa3f65
+        part: body

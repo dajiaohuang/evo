@@ -1,0 +1,284 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Leptobrachella huynhi Hoang, Luong, Nguyen, Nguyen, Ninh, Le, Ziegler & Pham, 2024
+    rank: species
+    sourceDatasetId: "2144"
+    name:
+      en: Leptobrachella huynhi
+      zh: Leptobrachella huynhi
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-016a8ca813
+            part: title
+          zh:
+            page: zh
+            section: s-7da63c3fad
+            part: title
+        text:
+          en:
+            page: en
+            section: s-016a8ca813
+            part: body
+          zh:
+            page: zh
+            section: s-7da63c3fad
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-237e03b673
+            part: title
+          zh:
+            page: zh
+            section: s-4303c85826
+            part: title
+        text:
+          en:
+            page: en
+            section: s-237e03b673
+            part: body
+          zh:
+            page: zh
+            section: s-4303c85826
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-892ab9bc34
+            part: title
+          zh:
+            page: zh
+            section: s-561b63256a
+            part: title
+        sourceIds:
+          - primary-pmc11555430-tzvm2
+        text:
+          en:
+            page: en
+            section: s-892ab9bc34
+            part: body
+          zh:
+            page: zh
+            section: s-561b63256a
+            part: body
+      - topic: ecology
+        title:
+          en:
+            page: en
+            section: s-404c0240ef
+            part: title
+          zh:
+            page: zh
+            section: s-3158b17e89
+            part: title
+        sourceIds:
+          - primary-pmc11555430-tzvm2
+        text:
+          en:
+            page: en
+            section: s-404c0240ef
+            part: body
+          zh:
+            page: zh
+            section: s-3158b17e89
+            part: body
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-620733df9f
+            part: title
+          zh:
+            page: zh
+            section: s-2ce43dbee4
+            part: title
+        sourceIds:
+          - primary-pmc12627998-tzvm2
+        text:
+          en:
+            page: en
+            section: s-620733df9f
+            part: body
+          zh:
+            page: zh
+            section: s-2ce43dbee4
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Leptobrachella huynhi
+          url: https://www.checklistbank.org/dataset/316115/taxon/TZVM2
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: primary-pmc11555430-tzvm2
+        referenceId: ref-7e66188c-2ea9-4168-af71-4c8d554768ba
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella huynhi: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: primary-pmc12627998-tzvm2
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Leptobrachella huynhi: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+          scope:
+            en: Limited study sample; population-wide biology and contemporary concept equivalence are not independently certified.
+            zh: 有限研究样本；种群整体生物学与当代概念等同性未经独立认证。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-8f2e176998
+        part: body
+      zh:
+        page: zh
+        section: s-a1a91d27af
+        part: body
+    primaryStudyScopes:
+      - doi: 10.3897/BDJ.12.e136491
+        referenceId: ref-7e66188c-2ea9-4168-af71-4c8d554768ba
+        sourceKey: primary-pmc11555430-tzvm2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC11555430/article.xml
+        sourceConcept: Leptobrachella huynhi
+        evidenceRead: "Leptobrachella huynhi: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: distribution
+            heading:
+              en: The Sin Ho records
+              zh: Sin Ho 的记录
+            referenceId: ref-7e66188c-2ea9-4168-af71-4c8d554768ba
+            sourceKey: primary-pmc11555430-tzvm2
+            locator: "Leptobrachella huynhi: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-00dc1cca0e
+                part: body
+              zh:
+                page: zh
+                section: s-5cb71852b2
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+          - sectionOrdinal: 1
+            topic: ecology
+            heading:
+              en: Small forest streams around 1630 m
+              zh: 约 1630 米的林中小溪
+            referenceId: ref-7e66188c-2ea9-4168-af71-4c8d554768ba
+            sourceKey: primary-pmc11555430-tzvm2
+            locator: "Leptobrachella huynhi: Distribution and ecology accounts; no figures or deposited datasets reproduced"
+            locatorPrecision: recorded-study-reading-scope; not a certified paragraph-by-paragraph locator
+            evidenceSummary:
+              en:
+                page: en
+                section: s-12eca142b1
+                part: body
+              zh:
+                page: zh
+                section: s-6da4fa3fb4
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。
+      - doi: 10.3897/zookeys.1259.164646
+        referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+        sourceKey: primary-pmc12627998-tzvm2
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC12627998/article.xml
+        sourceConcept: Leptobrachella huynhi
+        evidenceRead: "Leptobrachella huynhi: XML phylogenetic methods/results, type material, diagnosis, variation, distribution/ecology/conservation, all five comparison paragraphs and all three Discussion paragraphs; independent sequences, supplement and original comparator vouchers not analysed; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: morphology
+            heading:
+              en: A selected trait in the kungfu comparison
+              zh: kungfu 比较中的所选性状
+            referenceId: ref-d084c077-9789-4c3d-ab23-a2727a8ba109
+            sourceKey: primary-pmc12627998-tzvm2
+            locator: PMC12627998 XML sec17 paragraph 5
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-3bb3f6a550
+                part: body
+              zh:
+                page: zh
+                section: s-064d472b57
+                part: body
+            scope:
+              en: This authored section is supported only within the recorded source scope. Its explicit unknowns and conflicts remain unresolved.
+              zh: 本节作者内容仅在记录的来源范围内有支持；正文明确的未知项与冲突仍未解决。

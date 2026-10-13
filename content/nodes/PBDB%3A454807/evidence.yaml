@@ -1,0 +1,129 @@
+schemaVersion: 1
+records:
+  pbdb-fossil-reader:
+    scientificName: Balveherpeton hoennetalensis
+    rank: species
+    sourceTaxonId: txn:454807
+    name:
+      en: Balveherpeton hoennetalensis
+      zh: Balveherpeton hoennetalensis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: taxonomy
+        title:
+          en: PBDB's recorded taxonomic concept
+          zh: PBDB 所记分类概念
+        text:
+          en:
+            page: en
+            section: s-e4c0d2c282
+            part: body
+          zh:
+            page: zh
+            section: s-5431bb36ff
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: fossil
+        title:
+          en: 1 PBDB occurrence rows and collection fields
+          zh: 1 条 PBDB 出现记录与采集地字段
+        text:
+          en:
+            page: en
+            section: s-fe5ab5e2bb
+            part: body
+          zh:
+            page: zh
+            section: s-b9a381b970
+            part: body
+        sourceIds:
+          - pbdb
+      - topic: overview
+        readerSectionKind: amphibia-collection-placeholder
+        title:
+          en: Reference-index lookup for Balveherpeton hoennetalensis
+          zh: Balveherpeton hoennetalensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-ca91c61b08
+            part: body
+          zh:
+            page: zh
+            section: s-14bfe6a5d1
+            part: body
+        sourceIds:
+          - amphibia-collection-status
+    sources:
+      - id: pbdb
+        referenceId: ref-f1e3d50c-c9eb-48f1-8ba8-098589af8953
+        fields:
+          - id
+          - title
+          - authors
+          - version
+          - url
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Taxon txn:454807; exact tid occurrence rows in data/sources/snapshots/amphibia-content-scope-2026-10-02/pbdb-fossil-occurrences.json
+          scope:
+            en: PBDB-recorded taxon concept, parent chain and database occurrence summaries. Not a synthesis of the original publications.
+            zh: PBDB 记载的分类概念、父链及数据库出现记录概括；未综合原出版物的研究内容。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    originalBibliography: P. P. Skutschas, V. V. Kolchanov, and A. H. Schwermann. 2020. First salamander from the Lower Cretaceous of Germany. 116:104606
+    occurrenceEvidence:
+      - occurrenceId: occ:1591732
+        collectionId: col:152548
+        acceptedTaxonId: txn:454807
+        identifiedName: Balveherpeton hoennetalensis n. gen. n. sp.
+        taxonomicDifference: null
+        referenceId: ref:81405
+        bibliography: P. P. Skutschas, V. V. Kolchanov, and A. H. Schwermann. 2020. First salamander from the Lower Cretaceous of Germany. 116:104606
+        locality:
+          countryCode: DE
+          stateProvince: North Rhine-Westphalia
+          county: Märkischer Kreis
+        stratigraphy:
+          group: null
+          formation: null
+          member: null
+        olderAgeMa: 125.77
+        youngerAgeMa: 119.57
+    limitations:
+      en: A source-bounded fossil database reader. Morphology, life history, ecology and phylogenetic claims from original publications remain to be reviewed;
+      zh: 本页是限定来源范围的化石数据库读本。原出版物中的形态、生活史、生态及系统发育主张仍待核对。
+  catalogue-profile:
+    sections:
+      - topic: limitations
+        title:
+          en: Reference-index lookup for Balveherpeton hoennetalensis
+          zh: Balveherpeton hoennetalensis 的文献索引查询
+        text:
+          en:
+            page: en
+            section: s-ca91c61b08
+            part: body
+          zh:
+            page: zh
+            section: s-14bfe6a5d1
+            part: body
+        sourceIds: []

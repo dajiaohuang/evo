@@ -1,0 +1,58 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gephyromantis mitsinjo
+  displayName: Gephyromantis mitsinjo
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/PD22W
+  sourceIndexes:
+    - name:
+        en: Gephyromantis mitsinjo
+        zh: Gephyromantis mitsinjo
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: PD22W
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/142
+            queryName: Gephyromantis mitsinjo
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-c02b7e334c
+      - s-b1d76742b6
+      - s-30850cddc3
+      - s-3cafe40b04
+      - s-ee166fc428
+      - s-46a5bbe7b6
+      - s-35ea8db01b
+      - s-9ca14c8c80
+      - s-5debd10e06
+    zh:
+      - s-add3608082
+      - s-a72aa44166
+      - s-049c98d94d
+      - s-0cafbafc6b
+      - s-124994f04b
+      - s-fa19080251
+      - s-622e014e1d
+      - s-3dc56fd9a7
+      - s-3bee2e7381

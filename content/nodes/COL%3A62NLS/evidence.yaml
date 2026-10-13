@@ -1,0 +1,367 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Corythomantis Boulenger, 1896
+    rank: genus
+    sourceDatasetId: "2144"
+    name:
+      en: Corythomantis
+      zh: Corythomantis
+    sections:
+      - topic: taxonomy
+        title:
+          en:
+            page: en
+            section: s-e61cbce484
+            part: title
+          zh:
+            page: zh
+            section: s-514265c204
+            part: title
+        text:
+          en:
+            page: en
+            section: s-e61cbce484
+            part: body
+          zh:
+            page: zh
+            section: s-514265c204
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: s-d3054e7440
+            part: title
+          zh:
+            page: zh
+            section: s-627e4e5567
+            part: title
+        text:
+          en:
+            page: en
+            section: s-d3054e7440
+            part: body
+          zh:
+            page: zh
+            section: s-627e4e5567
+            part: body
+        sourceIds:
+          - taxonomy
+      - topic: ecology
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-a3cb1db5f2
+            part: title
+          zh:
+            page: zh
+            section: s-18f1cce297
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a3cb1db5f2
+            part: body
+          zh:
+            page: zh
+            section: s-18f1cce297
+            part: body
+      - topic: lifeHistory
+        sourceIds:
+          - amphibio-group
+        title:
+          en:
+            page: en
+            section: s-c1b0e5d6c6
+            part: title
+          zh:
+            page: zh
+            section: s-de190e4d5a
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c1b0e5d6c6
+            part: body
+          zh:
+            page: zh
+            section: s-de190e4d5a
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+        title:
+          en:
+            page: en
+            section: s-320a3ce811
+            part: title
+          zh:
+            page: zh
+            section: s-245ea9357d
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: MTTKB
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AMTTKB
+            label:
+              en: Corythomantis botoque
+              zh: Corythomantis botoque
+          - kind: catalogue
+            colId: YT3Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AYT3Z
+            label:
+              en: Corythomantis greeningi
+              zh: Corythomantis greeningi
+        text:
+          en:
+            page: en
+            section: s-320a3ce811
+            part: body
+          zh:
+            page: zh
+            section: s-245ea9357d
+            part: body
+      - topic: ecology
+        sourceIds:
+          - primary-direct-group-pmc10688756-62nls
+        title:
+          en:
+            page: en
+            section: s-3d5a76d230
+            part: title
+          zh:
+            page: zh
+            section: s-40acecd5a0
+            part: title
+        text:
+          en:
+            page: en
+            section: s-3d5a76d230
+            part: body
+          zh:
+            page: zh
+            section: s-40acecd5a0
+            part: body
+      - topic: methods
+        sourceIds:
+          - primary-direct-group-pmc10688756-62nls
+        title:
+          en:
+            page: en
+            section: s-120b0828b9
+            part: title
+          zh:
+            page: zh
+            section: s-5e12124ce6
+            part: title
+        text:
+          en:
+            page: en
+            section: s-120b0828b9
+            part: body
+          zh:
+            page: zh
+            section: s-5e12124ce6
+            part: body
+      - topic: overview
+        sourceIds:
+          - primary-direct-group-pmc10688756-62nls
+        title:
+          en:
+            page: en
+            section: s-3bcd0af22e
+            part: title
+          zh:
+            page: zh
+            section: s-0be1a7c56f
+            part: title
+        readingLinks:
+          - kind: catalogue
+            colId: YT3Z
+            releaseAlias: COL26.8
+            targetPath: content/nodes/COL%3AYT3Z
+            label:
+              en: Corythomantis greeningi
+              zh: Corythomantis greeningi
+        text:
+          en:
+            page: en
+            section: s-3bcd0af22e
+            part: body
+          zh:
+            page: zh
+            section: s-0be1a7c56f
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Corythomantis
+          url: https://www.checklistbank.org/dataset/316115/taxon/62NLS
+          locator: Complete paginated accepted-species search under Amphibia PH; recorded classification chain.
+          scope:
+            en: Accepted name, rank, recorded classification and descendant roster in the pinned catalogue. No biological species synthesis or equivalence with PBDB.
+            zh: 固定目录中的接受名称、等级、所记分类和后代名录；没有进行生物学物种综合，也不声明与 PBDB 记录等同。
+      - id: amphibio-group
+        referenceId: ref-6db7bceb-2df2-46ef-90e7-a43ed817725b
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseAssessment
+          - rightsEvidenceUrl
+          - licenseUrl
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: AmphiBIO v1 deposited rows grouped by Genus = Corythomantis; original row IDs retained in historicalTraitGroupEvidence
+          scope:
+            en: Aggregate positive-code counts for historical source concepts only; no universal group traits or current concept equivalence.
+            zh: 仅汇总历史来源概念的正值代码计数；不确定类群普遍性状或当前概念等同性。
+      - id: primary-direct-group-pmc10688756-62nls
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        fields:
+          - id
+          - title
+          - authors
+          - year
+          - doi
+          - url
+          - accessedAt
+          - license
+          - licenseUrl
+          - licenseAssessment
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+          scope:
+            en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+            zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+      - id: amphibia-collection-status
+        referenceId: ref-amphibia-collection-index-2026-10-03
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: docs/amphibia-content/reference-index.md
+    limitations:
+      en:
+        page: en
+        section: s-9219fe8251
+        part: body
+      zh:
+        page: zh
+        section: s-b413fb10ec
+        part: body
+    historicalTraitGroupEvidence:
+      sourcePath: data/sources/snapshots/amphibio-v1-2026-10-02/decoded-source-rows.json
+      classificationBasis: Frost 2011
+      sourceField: Genus
+      sourceName: Corythomantis
+      sourceRowIds:
+        - Anf2177
+      foragingCounts:
+        - key: Ter
+          en: terrestrial
+          zh: 陆栖
+          count: 1
+        - key: Aqu
+          en: aquatic
+          zh: 水栖
+          count: 1
+        - key: Arb
+          en: arboreal
+          zh: 树栖
+          count: 1
+      developmentCounts:
+        - key: Lar
+          en: larval development
+          zh: 幼体发育
+          count: 1
+      currentConceptEquivalenceCertified: false
+    primaryStudyScopes:
+      - doi: 10.1371/journal.pone.0291644
+        referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+        sourceKey: primary-direct-group-pmc10688756-62nls
+        sourceFile: data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/article.xml
+        sourceConcept: Source-labelled Atlantic Forest workbook rows grouped through fixed exact names or explicit catalogue accepted-links; duplicate destinations retained, not biological identity certification
+        evidenceRead: "Adelophryne baturitensis: XML Methods, Results and Discussion subsections read; S3 workbook Traits464rows and References140entries extracted with row/inference flags; original upstream trait studies, voucher identity, site records, fitted chains and causal mechanisms not independently examined; no figures or deposited datasets reproduced"
+        contemporaryConceptEquivalence: not-independently-certified
+        rightsBoundary:
+          license: CC BY 4.0
+          licenseUrl: https://creativecommons.org/licenses/by/4.0/
+          attribution: Own factual synthesis and Chinese translation of the original study; no figures reproduced.
+        sectionEvidence:
+          - sectionOrdinal: 0
+            topic: ecology
+            heading:
+              en: Reproduction and juvenile habitats retain source-row denominators
+              zh: 繁殖及幼体生境保留来源行分母
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-62nls
+            locator: PMC10688756 S3 Traits rows 99; XML Functional diversity
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-5e406b4212
+                part: body
+              zh:
+                page: zh
+                section: s-1b56822ed4
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+          - sectionOrdinal: 1
+            topic: methods
+            heading:
+              en: Inference flags and community associations have limited scope
+              zh: 推断标记及群落关联具有有限范围
+            referenceId: ref-4fd739aa-35c7-48aa-ac52-21765270fb85
+            sourceKey: primary-direct-group-pmc10688756-62nls
+            locator: PMC10688756 S3 Traits rows 99; XML Functional diversity length/Observation columns; Results/Discussion
+            locatorPrecision: manually-recorded-section-and-paragraph-label
+            evidenceSummary:
+              en:
+                page: en
+                section: s-e0e70c35c0
+                part: body
+              zh:
+                page: zh
+                section: s-8997b9b35e
+                part: body
+            scope:
+              en: 1 source workbook rows linked to 1 distinct accepted species pages; row traits and limits, not complete genus biology.
+              zh: 1 个来源工作簿行链接 1 个不同接受种页面；行性状及限制，不是全属生物学。
+    primaryResearchGroupSynthesisComplete: false

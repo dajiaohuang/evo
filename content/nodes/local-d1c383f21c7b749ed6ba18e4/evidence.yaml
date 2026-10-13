@@ -1,0 +1,199 @@
+schemaVersion: 1
+records:
+  amphibian-morphology-reader:
+    scientificName: Arthroleptis carquejai
+    name:
+      en: Arthroleptis carquejai
+      zh: Arthroleptis carquejai
+    sourceClassification:
+      order: Anura
+      family: Arthroleptidae
+      genus: Arthroleptis
+    checkedAt: 2026-10-02
+    sections:
+      - topic: overview
+        title:
+          en: The deposited morphology record
+          zh: 存档的形态记录
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-9a91e87448
+            part: body
+          zh:
+            page: zh
+            section: s-8eb259f981
+            part: body
+      - topic: morphology
+        title:
+          en: Sex-specific measurement material
+          zh: 按性别保留的测量材料
+        sourceIds:
+          - amphibian-morphology
+        text:
+          en:
+            page: en
+            section: s-d4c8ae0f4f
+            part: body
+          zh:
+            page: zh
+            section: s-7bf4826c0b
+            part: body
+    sources:
+      - id: amphibian-morphology
+        referenceId: ref-fd9084a2-752b-4a3e-b904-e62d665705df
+        fields:
+          - id
+          - title
+          - authors
+          - doi
+          - url
+          - version
+          - publishedAt
+          - accessedAt
+          - license
+          - licenseUrl
+          - rightsEvidenceUrl
+          - licenseAssessment
+          - licenseAppliesTo
+          - attribution
+          - locator
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Anura.csv, rows 470; Reference.csv rows 2479
+          scope:
+            en: Deposited source concept, available measurement material and original bibliography. Absolute units and current concept equivalence remain unresolved.
+            zh: 存档来源概念、可用测量材料及原书目；绝对单位与当前概念等同性仍未解决。
+    originalColumns:
+      - Family
+      - Genus
+      - Species
+      - Sex
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IOD
+      - IND
+      - UEW
+      - EN
+      - SL
+      - NS
+      - HAL
+      - FLL
+      - LAL
+      - FL
+      - TFL
+      - TL
+      - THL
+      - TSL
+      - HLL
+      - IMT
+      - Toe1L
+      - Toe2L
+      - Toe3L
+      - Toe4L
+      - Toe5L
+      - Fin1L
+      - Fin2L
+      - Fin3L
+      - Fin4L
+      - Fin1DW
+      - Fin2DW
+      - Fin3DW
+      - Fin4DW
+      - Toe1DW
+      - Toe2DW
+      - Toe3DW
+      - Toe4DW
+      - Toe5DW
+      - UAL
+      - SUL
+    originalMeasurementRows:
+      - rowNumber: 470
+        values:
+          - Arthroleptidae
+          - Arthroleptis
+          - Arthroleptis carquejai
+          - F
+          - "27.77"
+          - "9.45"
+          - "9.68"
+          - "3.38"
+          - "1.29"
+          - "0.99"
+          - NA
+          - "2.09"
+          - NA
+          - "2.26"
+          - NA
+          - "1.37"
+          - "8.64"
+          - "5.85"
+          - NA
+          - "14.2"
+          - NA
+          - NA
+          - "13.22"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - "9.81"
+          - NA
+          - NA
+          - NA
+          - "6.99"
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+          - NA
+    originalReferenceColumns:
+      - Order
+      - Species
+      - Reference
+    originalReferenceRows:
+      - rowNumber: 2479
+        values:
+          - Anura
+          - Arthroleptis_carquejai
+          - "Ceríaco, L., Blackburn, D., Marques, M., & Calado, F. (2014). Catalogue of the amphibian and reptile type specimens of the Museu de História Natural da Universidade do Porto in Portugal, with some comments on problematic taxa. Alytes, 31, 13-36. "
+    availableTraitCodes:
+      - SVL
+      - HL
+      - HW
+      - ED
+      - TD
+      - ETD
+      - IND
+      - EN
+      - NS
+      - HAL
+      - FLL
+      - FL
+      - THL
+      - Toe4L
+      - Fin3L
+    sourceConceptMapping:
+      status: unresolved
+      candidateColIds:
+        - 684BS
+    quantitativeLengthUnits: not-confirmed; absolute dimensions omitted from reader claims
+    limitations:
+      en: The reader describes deposited material. It does not certify complete biological coverage, current identity, absolute measurement units.
+      zh: 读本描述存档材料；不认证完整生物学覆盖、当前身份、绝对测量单位。

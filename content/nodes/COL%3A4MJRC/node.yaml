@@ -1,0 +1,110 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis vidua
+  displayName: Pristimantis vidua
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4MJRC
+  sourceIndexes:
+    - name:
+        en: Pristimantis vidua
+        zh: Pristimantis vidua
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4MJRC
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/168
+            queryName: Pristimantis vidua
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 4
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00024.json.gz
+            field: /records/95
+            queryName: Eleutherodactylus vidua
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b25899eec8
+      - s-b69bac4bf6
+      - s-d8a9c29789
+      - s-9905bf359d
+      - s-8f48caad77
+      - s-98509f3a3f
+      - s-d2c7a4ad95
+      - s-8781e36700
+      - s-3c38e01ac0
+      - s-a0a94f4052
+      - s-260afb6eda
+      - s-a7dcf8b9f2
+      - s-732c286c5a
+      - s-32a8ad69e1
+      - s-89d4aaf61a
+      - s-8653afd2d5
+      - s-39c837e166
+      - s-56e31fef93
+      - s-fa607fce21
+      - s-cf2a1a3de0
+      - s-66463b0126
+      - s-1359dc5618
+      - s-7f64529507
+      - s-bb5200de08
+      - s-79f375f66a
+      - s-d3862eb841
+      - s-c803af63fe
+      - s-743af2501e
+      - s-ebe3dc49d0
+      - s-a13a130f5e
+      - s-8778b96c94
+      - s-73b97fe990
+    zh:
+      - s-b114896f76
+      - s-d3492f99e9
+      - s-7742801080
+      - s-012ed687cd
+      - s-e6a7c59f1a
+      - s-5f1c17ae90
+      - s-2bb5fc069d
+      - s-5a3c1b2222
+      - s-606333e045
+      - s-9b8fd807d3
+      - s-90a4881ed5
+      - s-176ce18338
+      - s-73e52980cb
+      - s-7c8200c921
+      - s-75d3792255
+      - s-8716a4fb27
+      - s-5db8e0c726
+      - s-bab01969ee
+      - s-fc510ac8db
+      - s-c1d007ec06
+      - s-4557e86c02
+      - s-dc6389abfd
+      - s-3cff58aebe
+      - s-d875286e65
+      - s-5b3291cba3
+      - s-a0771f8a34
+      - s-81c9d07a5c
+      - s-eaca21de7c
+      - s-0ed7e31aee
+      - s-3106a9bd41
+      - s-93f61e63aa
+      - s-8117b83bd8

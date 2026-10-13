@@ -1,0 +1,68 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pelophryne api
+  displayName: Pelophryne api
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/76CFR
+  sourceIndexes:
+    - name:
+        en: Pelophryne api
+        zh: Pelophryne api
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 76CFR
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/460
+            queryName: Pelophryne api
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 7
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8c29887029
+      - s-f6677246bf
+      - s-c59dc2bc0e
+      - s-04e8c8f137
+      - s-b29e0f609b
+      - s-ea7b3ad8f0
+      - s-c2d8be4b03
+      - s-3b33fa788c
+      - s-e8f8792492
+      - s-19c1b3f5b7
+      - s-2a8ee96786
+      - s-3329994ca7
+      - s-57a7aaba28
+      - s-0a194b8edb
+    zh:
+      - s-5a6e7d06d0
+      - s-06a4a7adc2
+      - s-4ead4053da
+      - s-5f120e7c7d
+      - s-01c62f0d2e
+      - s-fdb7ecbaec
+      - s-ae911befaa
+      - s-e932b82b39
+      - s-101660883e
+      - s-8c836542a4
+      - s-c8552ea18d
+      - s-e1067076c8
+      - s-fdd8b3e395
+      - s-a5016579ed

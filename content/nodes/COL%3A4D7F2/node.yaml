@@ -1,0 +1,76 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Parapelophryne scalpta
+  displayName: Parapelophryne scalpta
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4D7F2
+  sourceIndexes:
+    - name:
+        en: Parapelophryne scalpta
+        zh: Parapelophryne scalpta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4D7F2
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00011.json.gz
+            field: /records/423
+            queryName: Parapelophryne scalpta
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/428
+            queryName: Nectophryne scalptus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/429
+            queryName: Pelophryne scalpta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00030.json.gz
+            field: /records/430
+            queryName: Pelophryne scalptus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-51c6471058
+      - s-e201026194
+      - s-2d0fe16897
+      - s-99752501d6
+      - s-9da8980551
+      - s-f5c2a282f3
+      - s-10ad80b771
+      - s-731b07f92d
+      - s-92f8c9e812
+    zh:
+      - s-ff10084a0b
+      - s-c89439937e
+      - s-55cacc4021
+      - s-ac996804b0
+      - s-4a355230b2
+      - s-5c02d3045e
+      - s-e2a5601483
+      - s-6aaf15a86a
+      - s-f7163b01af

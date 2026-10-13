@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pristimantis donnelsoni
+  displayName: Pristimantis donnelsoni
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/SCDHG
+  sourceIndexes:
+    - name:
+        en: Pristimantis donnelsoni
+        zh: Pristimantis donnelsoni
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: SCDHG
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00013.json.gz
+            field: /records/244
+            queryName: Pristimantis donnelsoni
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-ec08a54ae8
+      - s-7f953e3a3f
+      - s-c2594d123f
+      - s-5e357895e9
+      - s-85b180f2ec
+      - s-2adb427c6c
+      - s-667536bb56
+      - s-d5c9dfc776
+    zh:
+      - s-3b4a16cdd2
+      - s-4798d5e30c
+      - s-46c877e4cd
+      - s-301569248b
+      - s-d145f2bb0f
+      - s-fe3a8b2740
+      - s-ed7bb55a7f
+      - s-986fd44476

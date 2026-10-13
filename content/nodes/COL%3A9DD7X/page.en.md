@@ -1,0 +1,3 @@
+## ## Multiple hair orientations and bract states {#s-dfc905b62a}
+The Brazilian Flora 2020 entry records pubescent stems with simple hairs described as spreading, incurved or recurved, and capitate glandular hairs; setae, prickles and short shoots are absent. The stipules persist; extrafloral nectaries are absent, and projections between pinna pairs may be present or absent. The inflorescences are globose, while floral bracts are listed as shorter or longer than the flowers before opening. The flowers have four perianth parts and a membranous calyx without lobes. Corolla lobes are hairless and have one to three veins; the androecium is diplostemonous, with pink filaments. The listed alternatives are not a quantified account of variation.
+

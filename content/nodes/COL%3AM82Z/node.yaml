@@ -1,0 +1,70 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Boana stellae
+  displayName: Boana stellae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/M82Z
+  sourceIndexes:
+    - name:
+        en: Boana stellae
+        zh: Boana stellae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: M82Z
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00002.json.gz
+            field: /records/37
+            queryName: Boana stellae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/200
+            queryName: Hypsiboas stellae
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-b13d786227
+      - s-faeefc603d
+      - s-9c8d918a55
+      - s-d3c3087748
+      - s-c087a6ee2f
+      - s-c344acfa45
+      - s-f366ecb71c
+      - s-20f4d9fa78
+      - s-f7dc5c200f
+      - s-fd8b05fc3e
+      - s-6fba12409d
+      - s-52a1b0cf96
+    zh:
+      - s-bda6f6b2ea
+      - s-51dde518b7
+      - s-0226efb44b
+      - s-5f70f08c5c
+      - s-f7c662b3ff
+      - s-6c1a090696
+      - s-e69a621b1a
+      - s-4162642123
+      - s-c626ab596d
+      - s-35b240cd44
+      - s-67c41114a5
+      - s-bdd61fec14

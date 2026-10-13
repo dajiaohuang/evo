@@ -1,0 +1,52 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Micryletta
+  displayName: Micryletta
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/5SNB
+  sourceIndexes:
+    - name:
+        en: Micryletta
+        zh: Micryletta
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 5SNB
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/54
+            queryName: Micryletta
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 45
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-7df7428788
+      - s-21c09d0daa
+      - s-f641d38f6e
+      - s-7a32b1f796
+      - s-88c88516a8
+      - s-59f176e804
+    zh:
+      - s-9d9a0ff063
+      - s-e3406858f9
+      - s-0c25b921a3
+      - s-9f79061452
+      - s-e42f163fb7
+      - s-4bfec234b4

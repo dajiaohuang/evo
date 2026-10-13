@@ -1,0 +1,168 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Dendropsophus leucophyllatus
+  displayName: Dendropsophus leucophyllatus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/34S5T
+  sourceIndexes:
+    - name:
+        en: Dendropsophus leucophyllatus
+        zh: Dendropsophus leucophyllatus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 34S5T
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/377
+            queryName: Dendropsophus leucophyllatus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 878
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00022.json.gz
+            field: /records/377
+            queryName: Hyla leucophyllata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 6
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/399
+            queryName: Hyla bufoides
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00027.json.gz
+            field: /records/400
+            queryName: Rana leucophyllata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/222
+            queryName: Hyla leucophylla
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/223
+            queryName: Calamita leucophyllata
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/224
+            queryName: Hyla frontalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/225
+            queryName: Calamita leucophyllatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/226
+            queryName: Hypsiboas leucophyllatus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/227
+            queryName: Dendropsophus frontalis
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-893c05af31
+      - s-d218b4ca47
+      - s-0e7281db7e
+      - s-7736050b9c
+      - s-34188c7947
+      - s-24bc6cec7a
+      - s-a2c86706cd
+      - s-1cbf5afaae
+      - s-c21a03141f
+      - s-81d1ee09d2
+      - s-bc9ca3c114
+      - s-eb6635b2ab
+      - s-135287e6e9
+      - s-6d4f283ac5
+      - s-4b2cb215ce
+      - s-6f767dcb65
+      - s-3600e6e639
+      - s-4e4b867940
+      - s-25baf1944c
+      - s-ed90362bd4
+      - s-b5830c625b
+      - s-4592feaa98
+      - s-acfba5f8f3
+      - s-dd93278458
+      - s-0fc190f83c
+      - s-144c0ae56d
+      - s-33fb672885
+      - s-325206b373
+      - s-a05c0a6b01
+      - s-94864d00f4
+      - s-c2f57c41b4
+      - s-ded9d7eccf
+      - s-994cc24113
+      - s-13b7efbdf6
+      - s-992300a755
+      - s-2a47037664
+      - s-e997cb5a41
+    zh:
+      - s-ea34fe54c6
+      - s-5ef7758931
+      - s-d26daf3427
+      - s-e66ff2d1c4
+      - s-346b3374ee
+      - s-5e96cfa39f
+      - s-4eab2cbdf6
+      - s-aae6338696
+      - s-c9a89d86ec
+      - s-22d4fb79f4
+      - s-f8a38d1cb8
+      - s-5d38068ff3
+      - s-811b16c140
+      - s-d5d3b72dc4
+      - s-c2e7d578f7
+      - s-9a0c43f02c
+      - s-07f70faa51
+      - s-0c47087050
+      - s-782f677e32
+      - s-f4248cf0ec
+      - s-d515cf1bd1
+      - s-d3e0019291
+      - s-584e260a9d
+      - s-6fbeb7b154
+      - s-af28384af2
+      - s-9323215946
+      - s-74a9478c62
+      - s-bd7c69fc27
+      - s-98f02567e2
+      - s-6696ad45ae
+      - s-0d148ac5b7
+      - s-449f233cc9
+      - s-fdfa25a859
+      - s-875347360d
+      - s-1e3928ec27
+      - s-8fbddae836
+      - s-c0293a8cd3

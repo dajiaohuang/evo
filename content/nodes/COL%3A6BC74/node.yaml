@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Craugastor myllomyllon
+  displayName: Craugastor myllomyllon
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6BC74
+  sourceIndexes:
+    - name:
+        en: Craugastor myllomyllon
+        zh: Craugastor myllomyllon
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6BC74
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00004.json.gz
+            field: /records/145
+            queryName: Craugastor myllomyllon
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00023.json.gz
+            field: /records/448
+            queryName: Eleutherodactylus myllomyllon
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-8b8083544c
+      - s-68c236a6c9
+      - s-e6e0774e10
+      - s-5225338593
+      - s-0b084238d7
+      - s-8cf4ceeaae
+      - s-1b14823862
+      - s-aa98103add
+    zh:
+      - s-68b4cc84e1
+      - s-cb00a87323
+      - s-c1f142c139
+      - s-85357d6565
+      - s-d0ef86f873
+      - s-6cd2091f6c
+      - s-1077c5007a
+      - s-12cc187003

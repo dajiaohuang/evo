@@ -1,0 +1,56 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Gegeneophis primus
+  displayName: Gegeneophis primus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/3FGJS
+  sourceIndexes:
+    - name:
+        en: Gegeneophis primus
+        zh: Gegeneophis primus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 3FGJS
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00006.json.gz
+            field: /records/95
+            queryName: Gegeneophis primus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-0b5909b89c
+      - s-6d15332f76
+      - s-e92b63321a
+      - s-3db7b68cf2
+      - s-d448f50a97
+      - s-d6d76eab73
+      - s-0994de0290
+      - s-4e90e3f6fc
+    zh:
+      - s-24c45789c5
+      - s-2f80ffe11f
+      - s-314bc6404d
+      - s-6461be351b
+      - s-87d00d68ff
+      - s-cd9d02c1fe
+      - s-86191935d1
+      - s-588d7f84a4

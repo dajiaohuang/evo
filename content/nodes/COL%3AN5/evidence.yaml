@@ -1,0 +1,454 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Afrosoricida
+    rank: order
+    sourceDatasetId: "2144"
+    name:
+      zh: Afrosoricida
+      en: Afrosoricida
+    sections:
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-7c49bbf140
+            part: body
+          en:
+            page: en
+            section: s-9762886eff
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-67fe50bdc5
+            part: body
+          en:
+            page: en
+            section: s-16b7ad1c43
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - amnioteLifeHistory2015
+          - amnioteLifeHistoryMethods2015
+        text:
+          zh:
+            page: zh
+            section: s-6e2c509d83
+            part: body
+          en:
+            page: en
+            section: s-34f664f148
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraits2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-f7af298654
+            part: body
+          en:
+            page: en
+            section: s-551b65c4e5
+            part: body
+      - topic: readingPath
+        sourceIds:
+          - taxonomy
+          - eltonTraitsSingleField2014
+          - eltonTraitsMethods2014
+        text:
+          zh:
+            page: zh
+            section: s-888d6dad8e
+            part: body
+          en:
+            page: en
+            section: s-4944604f10
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-abed52c710
+            part: body
+          en:
+            page: en
+            section: s-3d56493c78
+            part: body
+      - topic: morphology
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-24a4c459bd
+            part: body
+          en:
+            page: en
+            section: s-6fb15afb49
+            part: body
+      - topic: overview
+        sourceIds:
+          - pantheriaLimitedWR05
+          - pantheriaConsolidation2009
+        text:
+          zh:
+            page: zh
+            section: s-bc658a6d2d
+            part: body
+          en:
+            page: en
+            section: s-9f5085b92d
+            part: body
+      - topic: overview
+        sourceIds:
+          - taxonomy
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-9d6726667b
+            part: body
+          en:
+            page: en
+            section: s-857dda6ed6
+            part: body
+      - topic: interpretation
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-f3d67f6895
+            part: body
+          en:
+            page: en
+            section: s-7b2537bd09
+            part: body
+      - topic: overview
+        sourceIds:
+          - ernestLifeHistories2003
+        text:
+          zh:
+            page: zh
+            section: s-8ddca6baef
+            part: body
+          en:
+            page: en
+            section: s-25d5070e24
+            part: body
+    sources:
+      - id: taxonomy
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Afrosoricida
+          url: https://www.checklistbank.org/dataset/316115/taxon/N5
+          locator: Pinned name, rank and accepted ancestry.
+      - id: pantheriaWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 11 authored entries grouped under Afrosoricida by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+      - id: pantheriaConsolidation2009
+        referenceId: ref-c9ca5cd3-8f21-4b65-b2d1-9f76dd3b9a8b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E090-184-D1 metadata.htm; Class IV Table 1 (variable scope), Table 2 (consolidation), Class V B–C (source handling and derived fields).
+          accessedAt: 2026-10-02
+          licenseAssessment: paraphrase-only
+          scope:
+            zh: 仅解释历史汇总、中位数、部分 GLM 调整及字段边界；不证明 COL26.8 物种概念等同。
+            en: Historical consolidation, medians, partial GLM adjustment and variable scopes; not proof of equivalent COL26.8 species concepts.
+      - id: amnioteLifeHistory2015
+        referenceId: ref-5a668f4f-a1a7-441f-8149-4ddd1450d47b
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: August 2015 archive; 16 authored same-name records placed under Afrosoricida by pinned COL ancestry.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 仅本批已写入资料条目的阅读路线，不代表完整后代覆盖。
+            en: Route through this batch’s authored records only; no complete descendant coverage.
+      - id: amnioteLifeHistoryMethods2015
+        referenceId: ref-50d83663-5d53-4d60-83a3-2b2a8461aa64
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+          - sourceRetrievalUrl
+          - sourceVersion
+          - readerBoundaries
+        metadataVariant: 0
+        usage:
+          locator: "Ecological Archives E096-269-D1 metadata: Methods, Class IV definitions; Supplemental Table 9 field definitions."
+          accessedAt: 2026-10-02
+          scope:
+            zh: 中位数、最长寿命最大记录、历史种／亚种数据继承和字段定义。
+            en: Medians, maximum longevity, historical species/subspecies inheritance and field definitions.
+          sourceRetrievalUrl: https://www.esapubs.org/archive/ecol/E096/269/metadata.php
+          sourceVersion: August 2015 archive
+          readerBoundaries:
+            - No field values treated as independent individual measurements.
+            - No guarantee of present taxonomic concept equivalence.
+            - Original input papers not individually reviewed.
+      - id: eltonTraits2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 39 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 38
+            foraging: 39
+            activity: 29
+          readingTargets:
+            - name: Geogale aurita
+              colId: 3FPQS
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A3FPQS
+            - name: Microgale longicaudata
+              colId: 42WJC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJC
+            - name: Microgale thomasi
+              colId: 42WJN
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJN
+            - name: Microgale soricoides
+              colId: 42WJK
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJK
+            - name: Microgale pusilla
+              colId: 42WJJ
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJJ
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: eltonTraitsMethods2014
+        referenceId: ref-23d71769-a573-4f3c-8284-3271a2ef8b53
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Ecological Archives E095-178-D1 metadata.php; Class II B translation/interpolation/limitations; Class IV Tables 1–4.
+          accessedAt: 2026-10-02
+          scope:
+            zh: 文献描述的半定量转换、字段代码、插补与历史分类边界；未读底层文献。
+            en: Semiquantitative translation, field codes, interpolation and historical taxonomy; underlying literature not read.
+      - id: eltonTraitsSingleField2014
+        referenceId: ref-f9a7d6ec-b8bf-4c66-8345-1c7d45109599
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - authoredFieldGroupCounts
+          - readingTargets
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: EltonTraits 1.0; 3 authored historical entries grouped by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          authoredFieldGroupCounts:
+            diet: 0
+            foraging: 3
+            activity: 0
+          readingTargets:
+            - name: Microgale taiva
+              colId: 42WJL
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJL
+            - name: Microgale fotsifotsy
+              colId: 42WJ9
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A42WJ9
+            - name: Microgale nasoloi
+              colId: 6RGPC
+              release: COL26.8
+              canonicalPath: content/nodes/COL%3A6RGPC
+          scope:
+            zh: 本批资料阅读路线，不是整个类群的生态总结。
+            en: Route through this batch, not an ecological summary for the entire group.
+      - id: pantheriaLimitedWR05
+        referenceId: ref-2bbbd988-b0a6-4105-b535-f1d77d8eda57
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+          - readingTargets
+        metadataVariant: 0
+        usage:
+          locator: PanTHERIA WR05 August 2008; 11 authored entries grouped under Afrosoricida by pinned COL26.8 ancestry.
+          accessedAt: 2026-10-02
+          licenseAssessment: CC0-archive-attributed-summary
+          scope:
+            zh: 仅概括本批有内容的历史条目，不代表完整后代覆盖。
+            en: Only this batch’s authored historical entries; no complete descendant coverage.
+          readingTargets:
+            - colId: 7S9W7
+              name: Chrysochloris visagiei
+              canonicalPath: content/nodes/COL%3A7S9W7
+            - colId: ZWJ3
+              name: Cryptochloris wintoni
+              canonicalPath: content/nodes/COL%3AZWJ3
+            - colId: ZWJ4
+              name: Cryptochloris zyli
+              canonicalPath: content/nodes/COL%3AZWJ4
+            - colId: 42WJ4
+              name: Microgale brevicaudata
+              canonicalPath: content/nodes/COL%3A42WJ4
+            - colId: 42WJ8
+              name: Microgale dryas
+              canonicalPath: content/nodes/COL%3A42WJ8
+      - id: ernestLifeHistories2003
+        referenceId: ref-1948a24d-679d-4e46-ac0d-16ed62cf4201
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - readingTargets
+          - fieldAccountCounts
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: Mammal_lifehistories_v2.txt; 7 authored records grouped under pinned COL ancestry.
+          accessedAt: 2026-10-03
+          readingTargets:
+            - colId: 7S9W8
+              name: Chrysochloris stuhlmanni
+              canonicalPath: content/nodes/COL%3A7S9W8
+            - colId: 7S9W6
+              name: Chrysochloris asiatica
+              canonicalPath: content/nodes/COL%3A7S9W6
+            - colId: 6GFGR
+              name: Eremitalpa granti
+              canonicalPath: content/nodes/COL%3A6GFGR
+            - colId: 38K9H
+              name: Echinops telfairi
+              canonicalPath: content/nodes/COL%3A38K9H
+            - colId: 3FPQS
+              name: Geogale aurita
+              canonicalPath: content/nodes/COL%3A3FPQS
+          fieldAccountCounts:
+            gestation(mo): 4
+            newborn(g): 4
+            weaning(mo): 6
+            wean mass(g): 2
+            AFR(mo): 3
+            max. life(mo): 4
+            litter size: 6
+            litters/year: 4
+          scope:
+            zh: 只覆盖本批资料页；未声称全部后代内容已完成。
+            en: This batch’s accounts only; no complete descendant coverage.
+    limitations:
+      zh:
+        page: zh
+        section: s-5b10041f12
+        part: body
+      en:
+        page: en
+        section: s-f2a9dd8b76
+        part: body

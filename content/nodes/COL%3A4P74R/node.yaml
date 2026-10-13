@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Pseudophilautus silvaticus
+  displayName: Pseudophilautus silvaticus
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4P74R
+  sourceIndexes:
+    - name:
+        en: Pseudophilautus silvaticus
+        zh: Pseudophilautus silvaticus
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4P74R
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00014.json.gz
+            field: /records/415
+            queryName: Pseudophilautus silvaticus
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 8
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00026.json.gz
+            field: /records/486
+            queryName: Philautus silvaticus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-d026dfecb2
+      - s-8ae67bd411
+      - s-74fce2b13e
+      - s-9dcf91e959
+      - s-9e225617a1
+      - s-094aa722e8
+      - s-4fbd68b8a8
+    zh:
+      - s-9de8907416
+      - s-c97dbfdea6
+      - s-e2810498af
+      - s-482c21399c
+      - s-456c16b5b7
+      - s-c9074511fc
+      - s-43c868fe1d

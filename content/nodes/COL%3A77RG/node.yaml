@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Rentapia
+  displayName: Rentapia
+  rank: genus
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "316115"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/77RG
+  sourceIndexes:
+    - name:
+        en: Rentapia
+        zh: Rentapia
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 77RG
+          rank: genus
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz
+            field: /records/219
+            queryName: Rentapia
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 12
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-de5e624f8f
+      - s-e57b327a9d
+      - s-9bcd95b183
+      - s-bd9695b6e5
+      - s-0a981704d3
+      - s-30f9b58644
+      - s-5fa977bd72
+      - s-1d09be022f
+      - s-c6fc5356dd
+      - s-fad606fac1
+      - s-d2ca38cad7
+    zh:
+      - s-c444558317
+      - s-90a452428a
+      - s-c24a4ef216
+      - s-5f932fd071
+      - s-22b8d4cf56
+      - s-559a779f50
+      - s-8dc07aeade
+      - s-5220b66abc
+      - s-d0462a1cba
+      - s-f59d6da00f
+      - s-6c09b93062

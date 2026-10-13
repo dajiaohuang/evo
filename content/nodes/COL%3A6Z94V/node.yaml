@@ -1,0 +1,96 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Spea intermontana
+  displayName: Spea intermontana
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6Z94V
+  sourceIndexes:
+    - name:
+        en: Spea intermontana
+        zh: Spea intermontana
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6Z94V
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/217
+            queryName: Spea intermontana
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 17
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00019.json.gz
+            field: /records/197
+            queryName: Scaphiopus intermontanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 3
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00025.json.gz
+            field: /records/353
+            queryName: Scaphiopus hammondi intermontanus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00047.json.gz
+            field: /records/332
+            queryName: Spea hammondii intermontana
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-fcaeb98880
+      - s-9db8bedea3
+      - s-cb2849e9a7
+      - s-74bdd49958
+      - s-a5286168f1
+      - s-2ec93a9b76
+      - s-909671d52a
+      - s-3456eb1ff1
+      - s-0a91b30471
+      - s-0b4e8a9a89
+      - s-7b97b80bca
+      - s-f0dddf661b
+      - s-30027ac0cc
+      - s-4af622b1bd
+      - s-8823a32b85
+      - s-93a70256a5
+      - s-9264e61261
+      - s-e46c3a7910
+      - s-40fa1d41e5
+    zh:
+      - s-e36398ec2d
+      - s-8f7a052c20
+      - s-280e446f23
+      - s-289443b55a
+      - s-d71daa125c
+      - s-13df7f7636
+      - s-1376cfd84c
+      - s-d0d4723d62
+      - s-5c093740c9
+      - s-a789408784
+      - s-4d9d553831
+      - s-659b88b4fe
+      - s-729afba169
+      - s-5d9dd0d8c3
+      - s-a3cdb5f74a
+      - s-fa7d46a68c
+      - s-4ed5b6d5eb
+      - s-5a94fe6046
+      - s-4dde8bd170

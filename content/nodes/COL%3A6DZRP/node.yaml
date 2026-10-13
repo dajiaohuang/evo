@@ -1,0 +1,90 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Elachistocleis magna
+  displayName: Elachistocleis magna
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/6DZRP
+  sourceIndexes:
+    - name:
+        en: Elachistocleis magna
+        zh: Elachistocleis magna
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 6DZRP
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00005.json.gz
+            field: /records/132
+            queryName: Elachistocleis magna
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/242
+            queryName: Elachistocleis magnus
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/329
+            queryName: Elachistocleis bumbameuboi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 2
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00033.json.gz
+            field: /records/330
+            queryName: Elachistocleis carvalhoi
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 1
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-374e6e9011
+      - s-492d403e96
+      - s-f740c7656b
+      - s-2a11a8152f
+      - s-4f962d15f6
+      - s-689409330e
+      - s-0ca8b453fd
+      - s-ebeffd8918
+      - s-da40934fbc
+      - s-a0952f727f
+      - s-49bfbde78d
+      - s-ac415be65d
+      - s-5cdf55f442
+      - s-3d2bb6a51c
+      - s-5eeb8fdc53
+      - s-0407804e6b
+    zh:
+      - s-ce9d409566
+      - s-b7e2679af7
+      - s-d9b6fe0ff0
+      - s-c0a656fe32
+      - s-99f5ad2054
+      - s-ab0163e1f4
+      - s-02e9c1c3e9
+      - s-3e4a8fc34b
+      - s-35120b1099
+      - s-9cbf20f5ba
+      - s-2dd5a3869f
+      - s-b30f79dbf9
+      - s-dc908f7965
+      - s-82bae3c2ba
+      - s-ffbce5985c
+      - s-22e0c3e381

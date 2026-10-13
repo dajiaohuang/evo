@@ -1,0 +1,92 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Trachycephalus jordani
+  displayName: Trachycephalus jordani
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/57PVT
+  sourceIndexes:
+    - name:
+        en: Trachycephalus jordani
+        zh: Trachycephalus jordani
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 57PVT
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00017.json.gz
+            field: /records/101
+            queryName: Trachycephalus jordani
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 9
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00020.json.gz
+            field: /records/9
+            queryName: Tetraprion jordani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00034.json.gz
+            field: /records/160
+            queryName: Diaglena jordani
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00052.json.gz
+            field: /records/422
+            queryName: Amphibian Species of the World, A Taxonomic and Geographic Reference. Second edition
+            queryKind: archived-bibliography
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-16027e28a6
+      - s-921a919ecd
+      - s-15c5af9c76
+      - s-15667f92a8
+      - s-0648d6b626
+      - s-aff58c98ff
+      - s-3c7e83c4e3
+      - s-7e437768f3
+      - s-df3625151b
+      - s-d2054fd117
+      - s-4b50b6e8e6
+      - s-f18316f713
+      - s-2b6eee1326
+      - s-fa7c3ca05c
+      - s-3dceab236d
+      - s-0f103be1b2
+      - s-3b5f924622
+    zh:
+      - s-fae7bacef1
+      - s-28d73f48c0
+      - s-88a666946b
+      - s-bcb2cef240
+      - s-87e7b12649
+      - s-4a25f69b92
+      - s-44cd4374b0
+      - s-3cf616304d
+      - s-dc01780c04
+      - s-8bca7ec98b
+      - s-d5176ece03
+      - s-ed987f8aab
+      - s-94fa06fe42
+      - s-2b08318499
+      - s-b961c594e4
+      - s-314b36d024
+      - s-5e1aa0b7a7

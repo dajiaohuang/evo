@@ -1,0 +1,60 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Stefania roraimae
+  displayName: Stefania roraimae
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "2144"
+    sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/4ZN26
+  sourceIndexes:
+    - name:
+        en: Stefania roraimae
+        zh: Stefania roraimae
+      collectionLedgerPath: docs/amphibia-content/full-roster-literature-collection.json
+      concepts:
+        - authority: COL26.8
+          id: 4ZN26
+          rank: species
+      referenceDiscovery:
+        manifestPath: data/sources/snapshots/amphibia-reference-index-2026-10-03/manifest.json
+        manifestSha256: d5227da702ed5e82e19f4aa185861dfd63b3338019ae771f4a141d7811edb0ec
+        documentationPath: docs/amphibia-content/reference-index.md
+        queryBindings:
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00016.json.gz
+            field: /records/309
+            queryName: Stefania roraimae
+            queryKind: accepted-name
+            queryComplete: true
+            referenceCount: 1
+          - file: data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00029.json.gz
+            field: /records/241
+            queryName: Stefania roraima
+            queryKind: archived-synonym-or-higher-taxon
+            queryComplete: true
+            referenceCount: 0
+        additionalReferenceIndexes:
+          - data/sources/snapshots/amphibia-cited-reference-index-2026-10-03/manifest.json
+relationships: []
+structure:
+  sections:
+    en:
+      - s-465fefe247
+      - s-4c37d12c3d
+      - s-4157a02648
+      - s-28613cf38a
+      - s-470ab6ebfc
+      - s-49a7af88eb
+      - s-b19b6fdb35
+    zh:
+      - s-030c6c1d9a
+      - s-e09e482939
+      - s-24b86ece18
+      - s-f7f36c74db
+      - s-b9345ddaf7
+      - s-f5f46c2e24
+      - s-b72b5511d7
