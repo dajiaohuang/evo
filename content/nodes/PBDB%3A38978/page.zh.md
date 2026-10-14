@@ -1,9 +1,12 @@
-## Tapinocephalidae 的记录父级 {#s-fb3f80375f}
-PBDB 分类路径将 Tapinocephalidae 记为科，其记录的父级为 Tapinocephalia。此来源关系不表示直接演化祖先，也不与其他来源的同名概念合并。
+## 简要概述 {#summary}
+重新检查的头骨显示，变形和生长差异会改变对中二叠世 Tapinocephalidae 多样性的判断。
 
-## 从采集地、地层和年代对读 {#s-a432a96486}
-可以从 Riebeeckosaurus longirostris、Moschops koupensis、Moschops capensis、Moschops romeri、Criocephalosaurus vanderbyli 开始，对照各页具名采集记录和原引文。本路线所含的全部本批物种合计有 31 条所选出现记录、23 个采集记录，地层名示例为 Abrahamskraal。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
+## 头骨差异改变分类计数 {#structures}
+一项研究重新制备并描述了南非的 Avenantia kruisvleiensis 和 Riebeeckosaurus longirostris 头骨材料。作者发现，过去用于区分二者的差异——包括吻部长度、较低的颞间嵴和顶骨增厚——可能来自死后变形、风化，或个体及生长差异。因此，他们将 Avenantia 作为 Riebeeckosaurus 的异名处理。
 
-## 出现记录年代能说明什么 {#s-b22d6219bd}
-其他具名成员记录的地点、地层与年代区间有何不同？逐条比较各自的采集记录；上面的区间属于 Riebeeckosaurus longirostris 的采集记录，不是 Tapinocephalidae 的连续历史。
+## 制备与生长为何重要 {#study}
+这些化石较为零碎，部分头骨此前由拼合不佳的风化碎片重建而成。重新检查改变了作者对头骨顶部和颌骨位置的解读。这说明科级多样性估算取决于标本保存状况，也取决于能否把真实解剖差异与损伤、生长变化区分开。
+
+## 分类学结果的适用范围 {#limits}
+这一异名处理针对这两个具名分类单元及其研究标本，并非对所有 Tapinocephalidae 成员的修订。研究也指出，科内许多名称建立在零碎的模式材料上，因此表面上的物种数量需要结合新的解剖复核。
 

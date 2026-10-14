@@ -20,7 +20,37 @@ records:
         usage:
           title: Catalogue of Life COL26.8 — Dendrocitta cinerascens
           url: https://www.checklistbank.org/dataset/316115/taxon/34PMC
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+          locator: Pinned accepted name and rank for this release; name matching does not
+            establish concept equivalence.
+      - id: shakya2018meratus
+        referenceId: c740292c-f9cc-52fb-8161-8748bf1acad4
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - license
+          - licenseEvidenceUrl
+          - version
+          - note
+          - rights
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+        usage:
+          title: Preliminary assessment of community composition and phylogeographic
+            relationships of the birds of the Meratus Mountains, south-east
+            Borneo, Indonesia
+          url: https://boc-online.org/bulletins/downloads/BBOC1381-PDFa.pdf
+          scope:
+            en: Primary survey and preliminary mitochondrial ND2 sampling; supports only the
+              Meratus survey and named tissue-sample context, not a complete
+              range or species-wide genomic conclusion.
+            zh: 一手调查与初步线粒体 ND2 取样；仅支持 Meratus 调查和列明的组织样本背景，不代表完整分布或全基因组结论。
+          locator: pp. 45-66; May 2017 Mt. Besar survey; specimen/sample table entry for
+            Dendrocitta cinerascens (LSUMNS B-79092, MG546367; B-79129,
+            MG546368); study abstract and ND2 methods/results.
     sections:
       - topic: identity
         text:
@@ -34,3 +64,26 @@ records:
             part: body
         sourceIds:
           - taxonomy
+      - topic: field-study
+        text:
+          en:
+            page: en
+            section: meratus-study
+            part: body
+          zh:
+            page: zh
+            section: meratus-study
+            part: body
+        sourceIds:
+          - shakya2018meratus
+    summary:
+      en:
+        page: en
+        section: meratus-study-summary
+        part: body
+      zh:
+        page: zh
+        section: meratus-study-summary
+        part: body
+    summarySourceIds:
+      - shakya2018meratus

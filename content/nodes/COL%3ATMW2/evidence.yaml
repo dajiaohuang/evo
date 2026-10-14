@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-study
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +79,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-study
+        referenceId: doi-10-11646-zootaxa-4554-2-3
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Original description, pp. 371–385; diagnosis, morphometrics and comparison with congeners.
+          scope:
+            en: Supports only the species account observations summarized here; no unsampled range is inferred.
+            zh: 仅支持此处概述的物种记载观察；不推断未采样分布。
     limitations:
       en:
         page: en
@@ -87,3 +101,14 @@ records:
         page: zh
         section: s-f7d5a28c91
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-study

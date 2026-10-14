@@ -30,29 +30,9 @@ records:
         sourceIds:
           - taxonomy
       - topic: overview
-        title:
-          en:
-            page: en
-            section: s-21e24eb390
-            part: title
-          zh:
-            page: zh
-            section: s-0e4acbfd8a
-            part: title
-        text:
-          en:
-            page: en
-            section: s-21e24eb390
-            part: body
-          zh:
-            page: zh
-            section: s-0e4acbfd8a
-            part: body
         sourceIds:
           - taxonomy
-      - topic: overview
-        sourceIds:
-          - taxonomy
+          - grant2006
         title:
           en:
             page: en
@@ -62,6 +42,15 @@ records:
             page: zh
             section: s-ed0e9a5ab8
             part: title
+        text:
+          en:
+            page: en
+            section: s-d16b3bd27f
+            part: body
+          zh:
+            page: zh
+            section: s-ed0e9a5ab8
+            part: body
         readingLinks:
           - kind: catalogue
             colId: 6QV
@@ -77,30 +66,90 @@ records:
             label:
               en: Dendrobatidae
               zh: Dendrobatidae
-        text:
-          en:
-            page: en
-            section: s-d16b3bd27f
-            part: body
-          zh:
-            page: zh
-            section: s-ed0e9a5ab8
-            part: body
-      - topic: limitations
+      - topic: overview
         title:
-          en: Research text pending
-          zh: 材料与适用范围
+          en:
+            page: en
+            section: s-e1f13ef9dd
+            part: title
+          zh:
+            page: zh
+            section: s-e0180eb387
+            part: title
         text:
           en:
             page: en
-            section: s-d753f1a8f0
+            section: s-e1f13ef9dd
             part: body
           zh:
             page: zh
-            section: s-08f841b737
+            section: s-e0180eb387
             part: body
         sourceIds:
-          - amphibia-collection-status
+          - grant2006
+      - topic: relationships
+        title:
+          en:
+            page: en
+            section: s-c242df0308
+            part: title
+          zh:
+            page: zh
+            section: s-0387c3968d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-c242df0308
+            part: body
+          zh:
+            page: zh
+            section: s-0387c3968d
+            part: body
+        sourceIds:
+          - grant2006
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: s-bfc306ea42
+            part: title
+          zh:
+            page: zh
+            section: s-6c13e6b796
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bfc306ea42
+            part: body
+          zh:
+            page: zh
+            section: s-6c13e6b796
+            part: body
+        sourceIds:
+          - grant2006
+      - topic: distribution
+        title:
+          en:
+            page: en
+            section: s-eeb5b8bdb7
+            part: title
+          zh:
+            page: zh
+            section: s-fb9100b873
+            part: title
+        text:
+          en:
+            page: en
+            section: s-eeb5b8bdb7
+            part: body
+          zh:
+            page: zh
+            section: s-fb9100b873
+            part: body
+        sourceIds:
+          - grant2006
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -129,12 +178,32 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
-    limitations:
+      - id: grant2006
+        referenceId: grant-et-al-2006-dendrobatoidea-systematics
+        fields:
+          - id
+          - title
+          - authors
+          - publishedYear
+          - doi
+          - url
+          - publisher
+          - pages
+          - scope
+          - locator
+        usage:
+          locator: See paragraph-specific locators in source-map.json.
+          scope:
+            en: Primary-study claims bounded to the named article, its analyzed materials and stated interpretation; no cross-database taxon-concept equivalence.
+            zh: 主张限于所列原始研究、其分析材料及作者明示的解释；不据此推定跨数据库物种概念等同。
+    summary:
       en:
         page: en
-        section: s-3e727d6d5a
+        section: s-02f6835077
         part: body
       zh:
         page: zh
-        section: s-9503a0cba7
+        section: s-46aa775a18
         part: body
+    summarySourceIds:
+      - grant2006

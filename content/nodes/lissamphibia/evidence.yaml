@@ -108,3 +108,129 @@ records:
         - referenceId: kligman-2023-funcusvermis
           locator: 102–107; Figure 3; Extended Data Figures 5–7; Triassic stem caecilian and competing lissamphibian-origin implications
       evidenceLevel: literature-synthesized
+  atlas-profile:
+    scientificName: Lissamphibia
+    rank: subclass
+    commonName: Frogs, salamanders & caecilians
+    commonNameZh: 蛙、蝾螈与蚓螈
+    parentName: Amphibia
+    extinct: false
+    pbdbTaxonId: null
+    geography: []
+    overview:
+      page: en
+      section: reading-introduction
+      part: body
+    overviewZh:
+      page: zh
+      section: reading-introduction
+      part: body
+    ecology: {}
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: jaw-origin-test
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: jaw-origin-test
+      part: body
+    confidence: contested
+    referenceIds:
+      - kligman-2023-funcusvermis
+      - schoch-2019-dissorophoid-lissamphibia
+      - marjanovic-laurin-2019-lissamphibian-origin
+    readerSections:
+      - topic: caecilian-jaw
+        title:
+          en:
+            page: en
+            section: jaw-origin-test
+            part: title
+          zh:
+            page: zh
+            section: jaw-origin-test
+            part: title
+        sourceIds:
+          - kligman-2023-funcusvermis
+        text:
+          en:
+            page: en
+            section: jaw-origin-test
+            part: body
+          zh:
+            page: zh
+            section: jaw-origin-test
+            part: body
+        id: jaw-origin-test
+      - topic: origin-hypotheses
+        title:
+          en:
+            page: en
+            section: origin-trees
+            part: title
+          zh:
+            page: zh
+            section: origin-trees
+            part: title
+        sourceIds:
+          - schoch-2019-dissorophoid-lissamphibia
+          - marjanovic-laurin-2019-lissamphibian-origin
+          - kligman-2023-funcusvermis
+        text:
+          en:
+            page: en
+            section: origin-trees
+            part: body
+          zh:
+            page: zh
+            section: origin-trees
+            part: body
+        id: origin-trees
+    readerSources:
+      - id: kligman-2023-funcusvermis
+        referenceId: kligman-2023-funcusvermis
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: "Funcusvermis jaw material and its phylogenetic analysis: 29 scored characters for the fossil in a matrix of 355 characters and 63 terminal taxa; the sampled analysis recovered monophyletic Lissamphibia within amphibamiform dissorophoids, without resolving all competing origin hypotheses."
+            zh: Funcusvermis 的颌部材料及其系统发育分析：该化石评分 29 项性状，完整矩阵为 355 项性状和 63 个末端分类单元；取样分析得到位于 Amphibamiformes 异椎类中的单系现生两栖动物，不表示已解决所有起源假说。
+          locator: "pages: 102–107; figure: Figure 3; Extended Data Figures 5–7; quoteLocator: Phylogenetic analyses; lissamphibian-origin discussion"
+      - id: schoch-2019-dissorophoid-lissamphibia
+        referenceId: schoch-2019-dissorophoid-lissamphibia
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: A 33-taxon, 108-character dissorophoid analysis recovered sampled lissamphibians within Amphibamiformes near Gerobatrachus, supporting a monophyletic temnospondyl-origin hypothesis while retaining polytomies, homoplasy and unresolved support.
+            zh: 33 个分类单元、108 项性状的异椎类分析，将取样现生两栖动物置于 Amphibamiformes 内、靠近 Gerobatrachus，支持离片椎类起源假说；仍保留多分叉、同形性和支持度未厘清的限制。
+          locator: "pages: 137–156; figure: Figure 6; quoteLocator: Abstract; Phylogenetic analysis; Origin of lissamphibians"
+      - id: marjanovic-laurin-2019-lissamphibian-origin
+        referenceId: marjanovic-laurin-2019-lissamphibian-origin
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: After documenting 4,200 corrected matrix cells and adding 56 terminal taxa, one expanded morphology analysis recovered a lepospondyl-origin tree as 9–10 steps shorter than constrained temnospondyl alternatives, while reporting generally low bootstrap support.
+            zh: 记录 4,200 个矩阵单元修正并新增 56 个末端分类单元后，一项扩展形态分析得到壳椎类起源树，比受约束的离片椎类替代树少 9–10 步，同时报告总体偏低的自举支持。
+          locator: "pages: 1–164; quoteLocator: Abstract; constrained Analyses R2–R6; discussion of lissamphibian origin"

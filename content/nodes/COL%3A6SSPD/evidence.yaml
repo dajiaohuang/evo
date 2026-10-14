@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-description-oreobates-2012
       - topic: overview
         title:
           en:
@@ -132,6 +133,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-description-oreobates-2012
+        referenceId: doi:10.1206/3752.2
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: "Oreobates machiguenga account: holotype and diagnosis, printed pp. 39–41; distribution and ecology, printed pp. 41–42."
+          scope:
+            en: "Original species account: adult female holotype, diagnostic morphology, reported known locality, and one rainy-season nocturnal encounter."
+            zh: 原始物种描述：成年雌性正模、鉴别形态、论文所述已知地点，以及一次雨季夜间采集记录。
     limitations:
       en:
         page: en
@@ -141,3 +155,14 @@ records:
         page: zh
         section: s-1a0bf5a4f0
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-description-oreobates-2012

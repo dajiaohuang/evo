@@ -114,3 +114,10 @@
   .catalogue-child-list button { grid-template-columns: 1fr; }
   .catalogue-child-list button > span:last-child { justify-items: start; }
 }
+
+.catalogue-child-preview { min-width: 0; overflow-wrap: anywhere; }
+.catalogue-child-preview > details { padding: 0 14px 12px; }
+.catalogue-child-preview summary { min-height: 44px; display: flex; align-items: center; cursor: pointer; }
+.catalogue-child-preview summary:focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; }
+.catalogue-child-preview p { font-size: 14px; line-height: 1.65; max-width: 70ch; }
+.catalogue-child-preview a { overflow-wrap: anywhere; }

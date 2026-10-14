@@ -1,14 +1,17 @@
 ## 接受名称与分类位置 {#s-5b7ac62c89}
 COL26.8 接受 Microkayla teqta (De la Riva & Burrowes, 2014) 为种级记录，所记分类路径为 Anura（目） → Strabomantidae（科） → Microkayla（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
 
-## 阅读路线 {#s-15423801e3}
-先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+## 鸣声与已观察的雄性照护 {#s-15423801e3}
+现归入 Microkayla 的 Psychrophrynella teqta 描述自皇家山脉单一地点。论文报告其色斑多变、雄性鸣声呈脉冲，并观察到父系照护；作者提出卵数可能意味着一只雄性照护多个卵团，但这只是可能性。
 
 ## 相关来源记录与数据集 {#s-a9fc7b7e77}
 以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
 
-- [Amphibian morphology v3: Microkayla teqta](../../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Brachycephaloidea/Microkayla/Microkayla_teqta/page.zh.md)
+- Amphibian morphology v3: Microkayla teqta
 
 ## catalogue-profile / limitations {#s-e8f8975c6d}
-本页仅提供分类阅读入口。生物学研究覆盖尚待补齐，不计为完整物种档案；。 。
+上文所引的原始段落仅支持此处概述的观察与解释；它不能构成完整的生物学记载，也不能判定其他历史数据集记录的身份。
+
+## 脉冲鸣声与雄性照护 {#card}
+该蛙最初以 Psychrophrynella teqta 描述，现置于 Microkayla，论文记录的地点位于皇家山脉一处。研究报告脉冲状雄性鸣声与父系照护；作者仅提出一种可能：卵数或意味着一只雄性照护多个卵团。
 

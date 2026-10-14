@@ -11,7 +11,7 @@ beforeEach(() => { Object.values(mocks).forEach(mock => mock.mockReset().mockRes
 
 it('renders source-linked introductions after editorial source scopes are removed', async () => {
   const record: CatalogueKnowledgeRecord = {
-    colId: 'species', descriptionCollections: [],
+    colId: 'species', releaseAlias: 'COL26.8', descriptionCollections: [],
     profile: {
       colId: 'species', scientificName: 'Example species', rank: 'species', sourceDatasetId: null,
       name: { en: 'Example species', zh: '示例种' },
@@ -34,12 +34,38 @@ it('checks one index and skips all description collections when content is absen
   Object.entries(mocks).filter(([name]) => name !== 'loadCatalogueKnowledge').forEach(([, mock]) => expect(mock).not.toHaveBeenCalled())
 })
 
+it.each([true, false])('shows the account and preview bibliography without orphaned maintenance sources (zh=%s)', async zh => {
+  const record: CatalogueKnowledgeRecord = {
+    colId: 'species', releaseAlias: 'COL26.8', descriptionCollections: [],
+    profile: {
+      colId: 'species', scientificName: 'Example species', rank: 'species', sourceDatasetId: null,
+      name: { en: 'Example species', zh: '示例种' },
+      sections: [{ topic: 'morphology', text: { en: 'Observed structure.', zh: '观察到的结构。' }, sourceIds: ['body'] }],
+      summary: { en: 'A sourced preview.', zh: '有来源的摘要。' }, summarySourceIds: ['preview'],
+      sources: [
+        { id: 'body', title: 'Body study', url: 'https://example.org/body', scope: { en: 'Observed material only.', zh: '仅限已观察的材料。' } },
+        { id: 'preview', title: 'Preview study', url: 'https://example.org/preview', rights: 'Retained item rights.' },
+        { id: 'old-status', title: 'Collection placeholder status', url: 'https://example.org/status', scope: { en: 'Collection and placeholder status only.', zh: '仅说明收集与占位状态。' } },
+      ],
+    },
+  }
+  mocks.loadCatalogueKnowledge.mockResolvedValue(record)
+  render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={zh} />)
+  expect(await screen.findByText(zh ? '观察到的结构。' : 'Observed structure.')).toBeInTheDocument()
+  fireEvent.click(screen.getByText(zh ? '研究来源与适用范围' : 'Study sources and scope'))
+  expect(screen.getByRole('link', { name: 'Body study' })).toHaveAttribute('href', 'https://example.org/body')
+  expect(screen.getByRole('link', { name: 'Preview study' })).toHaveAttribute('href', 'https://example.org/preview')
+  expect(screen.getByText(/Retained item rights/)).toBeVisible()
+  expect(screen.queryByText('Collection placeholder status')).not.toBeInTheDocument()
+  expect(screen.queryByText(/Collection and placeholder status only|仅说明收集与占位状态/)).not.toBeInTheDocument()
+})
+
 it.each([true, false])('retains single-language bibliography in the opposite UI locale (zh=%s)', async zh => {
   const available = zh ? 'en' : 'zh'
   const title = zh ? 'Recorded source' : '所录来源'
   const scope = zh ? 'This sample only.' : '仅限这一样本。'
   const record: CatalogueKnowledgeRecord = {
-    colId: 'species', descriptionCollections: [],
+    colId: 'species', releaseAlias: 'COL26.8', descriptionCollections: [],
     profile: {
       colId: 'species', scientificName: 'Example species', rank: 'species', sourceDatasetId: null,
       name: { en: 'Example species', zh: '示例种' }, sections: [],
@@ -56,7 +82,7 @@ it.each([true, false])('retains single-language bibliography in the opposite UI 
 })
 
 it('loads only indexed Nicaragua text and preserves missing citation boundaries', async () => {
-  mocks.loadCatalogueKnowledge.mockResolvedValue({ colId: 'species', descriptionCollections: ['nicaraguaDescriptions'] })
+  mocks.loadCatalogueKnowledge.mockResolvedValue({ colId: 'species', releaseAlias: 'COL26.8', descriptionCollections: ['nicaraguaDescriptions'] })
   mocks.loadCatalogueNicaraguaDescriptions.mockResolvedValue({ colId: 'species', wfoId: 'wfo-example', descriptions: [{ rowNumber: 7, type: 'general', text: 'Hojas opuestas.', language: 'es', languageNote: 'Source language', citations: [], citationMissingInSource: true, citationScope: 'dataset', missingSourceIds: ['unresolved'], datasetCitation: 'Dataset citation', rightsHolder: 'MBG', rights: 'Retained rights', license: 'https://creativecommons.org/licenses/by/4.0/' }] })
   render(<CatalogueContent id="species" rank="species" manifest={manifest} zh={false} />)
   expect(await screen.findByText('Hojas opuestas.')).toHaveAttribute('lang', 'es')
@@ -75,7 +101,7 @@ it('does not turn a corrupt index into a claim that the taxon lacks content', as
 })
 
 it('does not turn branch coverage statistics into reader prose or fabricated child biology', async () => {
-  const record: CatalogueKnowledgeRecord = { colId: 'order', descriptionCollections: [], subtree: { acceptedSpecies: 100, describedSpecies: 9, profiledSpecies: 0 } }
+  const record: CatalogueKnowledgeRecord = { colId: 'order', releaseAlias: 'COL26.8', descriptionCollections: [], subtree: { acceptedSpecies: 100, describedSpecies: 9, profiledSpecies: 0 } }
   mocks.loadCatalogueKnowledge.mockResolvedValue(record)
   render(<CatalogueContent id="order" rank="order" manifest={manifest} zh={false} />)
   await waitFor(() => expect(screen.queryByRole('status')).not.toBeInTheDocument())
@@ -90,6 +116,6 @@ it('ignores late responses after leaving a taxon', async () => {
   mocks.loadCatalogueKnowledge.mockReturnValueOnce(new Promise(done => { resolve = done }))
   const { unmount } = render(<CatalogueContent id="old" rank="species" manifest={manifest} zh={false} />)
   unmount()
-  resolve({ colId: 'old', descriptionCollections: ['sanbiDescriptions'] })
+  resolve({ colId: 'old', releaseAlias: 'COL26.8', descriptionCollections: ['sanbiDescriptions'] })
   await waitFor(() => expect(mocks.loadCatalogueSanbiDescriptions).not.toHaveBeenCalled())
 })

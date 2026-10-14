@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sparisomatini Gill, 1893
+    rank: tribe
+    sourceDatasetId: "1010"
+    name:
+      en: Sparisomatini
+      zh: Sparisomatini
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: diagnostic-structures
+            part: title
+          zh:
+            page: zh
+            section: diagnostic-structures
+            part: title
+        text:
+          en:
+            page: en
+            section: diagnostic-structures
+            part: body
+          zh:
+            page: zh
+            section: diagnostic-structures
+            part: body
+        sourceIds:
+          - n25
+      - topic: relationships
+        title:
+          en:
+            page: en
+            section: clade-relationships
+            part: title
+          zh:
+            page: zh
+            section: clade-relationships
+            part: title
+        text:
+          en:
+            page: en
+            section: clade-relationships
+            part: body
+          zh:
+            page: zh
+            section: clade-relationships
+            part: body
+        sourceIds:
+          - n25
+    sources:
+      - id: n25
+        referenceId: r15-sparisomatini-phylogenetic-taxonomy-2025
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Sparisomatini clade definition, morphology-based diagnosis, phylogenetic relationships, UCE-based synthetic tree scope, and noted molecular-data gap.
+            zh: Sparisomatini 冠群定义、形态诊断、系统发育关系、基于 UCE 的综合树范围及已指出的分子数据缺口。
+          locator: Full-text PDF, Methods pp. 265–266; Sparisomatini account pp. 297–299
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - n25

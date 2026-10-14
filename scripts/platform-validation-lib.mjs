@@ -175,7 +175,7 @@ function packageFailures() {
       if (range.evidenceLevel === 'literature-synthesized') {
         const hasRangeSource = range.referenceLocators.some((locator) => {
           const reference = referencesById.get(locator.referenceId)
-          return scientificSourceRoles.has(reference?.sourceRole) && reference?.fitnessFor.includes('range') && locator.locator
+          return scientificSourceRoles.has(reference?.sourceRole) && reference?.fitnessFor?.includes('range') && locator.locator
         })
         if (!hasRangeSource || !range.claimIds.length) failures.push(`package ${entry.id} range ${range.id}: literature synthesis requires a range-fit primary study or systematic review source, locator and supports claim`)
       }

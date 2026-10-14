@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-biton-2013-latonia
       - topic: overview
         sourceIds:
           - taxonomy
@@ -81,7 +82,7 @@ records:
             part: body
       - topic: limitations
         title:
-          en: Research text pending
+          en: Material and scope
           zh: 材料与适用范围
         text:
           en:
@@ -122,6 +123,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-biton-2013-latonia
+        referenceId: doi-10-1038-ncomms2959
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: "Results: Molecular analysis; Morphological analysis; Fig. 3b caption; Discussion, Miocene colonization hypothesis."
+          scope:
+            en: The study's sequence dataset, four scanned individuals and collection years, 22 osteological characters, and explicitly hypothetical Miocene colonization; this single living-species case does not describe every fossil member of Latonia.
+            zh: 用于说明研究的序列数据集、四个扫描个体及其采集年份、22 项骨骼特征和明确作为假说提出的中新世迁入；这一现存物种案例不代表 Latonia 的所有化石成员。
     limitations:
       en:
         page: en
@@ -131,3 +145,14 @@ records:
         page: zh
         section: s-24a0d95f96
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-biton-2013-latonia

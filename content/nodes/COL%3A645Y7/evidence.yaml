@@ -10,30 +10,27 @@ records:
     sections:
       - topic: overview
         sourceIds:
-          - taxonomy
-          - reptTraitsLimitedV12
-          - reptTraitsProtocol2024
+          - studyStenolepis
         text:
-          zh:
-            page: zh
-            section: s-82158649be
-            part: body
           en:
             page: en
             section: s-d161ef5631
             part: body
-      - topic: readingPath
-        sourceIds:
-          - reptTraitsLimitedV12
-          - reptTraitsProtocol2024
-        text:
           zh:
             page: zh
-            section: s-6c694a5742
+            section: s-82158649be
             part: body
+      - topic: readingPath
+        sourceIds:
+          - studyStenolepis
+        text:
           en:
             page: en
             section: s-5e56ece6ba
+            part: body
+          zh:
+            page: zh
+            section: s-6c694a5742
             part: body
     sources:
       - id: taxonomy
@@ -65,7 +62,8 @@ records:
           - fieldCountDistribution
         metadataVariant: 0
         usage:
-          locator: ReptTraits v1-2; 1 authored records grouped under Stenolepis by COL26.8 ancestry; per-species source rows preserved in source archive.
+          locator: ReptTraits v1-2; 1 authored records grouped under Stenolepis by COL26.8
+            ancestry; per-species source rows preserved in source archive.
           accessedAt: 2026-10-02
           licenseAssessment: CC-BY-4.0-attributed-data-summary
           scope:
@@ -92,18 +90,37 @@ records:
           - scope
         metadataVariant: 0
         usage:
-          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass
+            estimates); Usage Notes; workbook Trait definitions and Changes
+            sheets.
           accessedAt: 2026-10-02
           licenseAssessment: CC-BY-4.0-attributed-paraphrase
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
-            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
-    limitations:
-      zh:
-        page: zh
-        section: s-a5b3c74ace
-        part: body
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence
+              between historical names and pinned COL26.8.
+      - id: studyStenolepis
+        referenceId: ref-slot06-vanzolini-1974
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+        usage:
+          scope:
+            en: Primary biological evidence limited to the described observations and
+              sample.
+            zh: 主要生物学证据仅限于所述观察和样本。
+          locator: Full Stenolepis ridleyi record
+    summary:
       en:
         page: en
-        section: s-49c25968f3
+        section: s-d161ef5631
         part: body
+      zh:
+        page: zh
+        section: s-82158649be
+        part: body
+    summarySourceIds:
+      - studyStenolepis

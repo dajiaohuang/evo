@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Sparisoma Swainson, 1839
+    rank: genus
+    sourceDatasetId: "1010"
+    name:
+      en: Sparisoma
+      zh: Sparisoma
+    sections:
+      - topic: life
+        title:
+          en:
+            page: en
+            section: feeding-bites
+            part: title
+          zh:
+            page: zh
+            section: feeding-bites
+            part: title
+        text:
+          en:
+            page: en
+            section: feeding-bites
+            part: body
+          zh:
+            page: zh
+            section: feeding-bites
+            part: body
+        sourceIds:
+          - a18
+    sources:
+      - id: a18
+        referenceId: r15-sparisoma-foraging-2018
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Field observations and individual-bite comparisons for four Sparisoma species among nine Caribbean parrotfishes in the Florida Keys in 2013–2014.
+            zh: 2013–2014 年佛罗里达群岛九种加勒比鹦嘴鱼中四种 Sparisoma 的野外观察及单次咬取比较。
+          locator: Full-text PDF, Methods pp. 208–210; Results pp. 212–213; Conclusions pp. 217–218
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - a18

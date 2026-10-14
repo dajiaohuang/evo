@@ -12,10 +12,11 @@ export function localizedProfileText(
     traits?: string[]
     traitsZh?: string[]
   },
-  text: string,
+  text: string | undefined,
   language: 'en' | 'zh',
   translate: (text: string) => string,
 ): string {
+  if (!text) return ''
   if (language === 'zh') {
     if (text === profile.overview && profile.overviewZh) return profile.overviewZh
     if (text === profile.evidenceSummary && profile.evidenceSummaryZh) return profile.evidenceSummaryZh

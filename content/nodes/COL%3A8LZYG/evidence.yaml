@@ -1,14 +1,5 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en:
-      page: en
-      section: col-name-record
-      part: body
-    zh:
-      page: zh
-      section: col-name-record
-      part: body
   catalogue-profile:
     scientificName: Nycticeinops macrocephalus (Hutterer & Peterhans, 2019)
     rank: species
@@ -29,16 +20,67 @@ records:
           title: Catalogue of Life COL26.8 — Nycticeinops macrocephalus
           url: https://www.checklistbank.org/dataset/316115/taxon/8LZYG
           locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+      - id: study
+        referenceId: hutterer-kerbis-peterhans-2019-parahypsugo
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Primary species description based on a female holotype from Kabogo Forest, DR Congo, and one male paratype from Nyungwe Forest, Rwanda; its taxonomic concept is described in the paper as Parahypsugo macrocephalus.
+            zh: 基于刚果民主共和国卡博戈森林雌性正模和卢旺达纽恩圭森林雄性副模的原始物种描述；论文中的分类概念为 Parahypsugo macrocephalus。
+          locator: pp. 51–58, abstract; Results and type material; pp. 54–56, Diagnosis and Description/Comparison; Figs. 1–3
+      - id: classification
+        referenceId: doi:10.1093/zoolinnean/zlaa087
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Systematic revision based on genetic and morphological sampling of more than 400 African pipistrelle-like bats; its p. 47 current-taxonomy table provisionally places Parahypsugo macrocephalus as (Nycticeinops macrocephalus), with genetic confirmation needed for the parenthesized generic placement.
+            zh: 基于 400 多只非洲伏翼类蝙蝠遗传和形态采样的系统分类修订；论文第 47 页的现行分类表将 Parahypsugo macrocephalus 暂列为（Nycticeinops macrocephalus），括号内的属级归属仍需遗传证据确认。
+          locator: Abstract; author manuscript p. 47, current-taxonomy table, Parahypsugo macrocephalus / Nycticeinops macrocephalus row; taxonomic conclusions
     sections:
-      - topic: identity
+      - topic: natural-history-study
+        title:
+          en:
+            page: en
+            section: field-study
+            part: title
+          zh:
+            page: zh
+            section: field-study
+            part: title
         text:
           en:
             page: en
-            section: col-name-record
+            section: field-study
             part: body
           zh:
             page: zh
-            section: col-name-record
+            section: field-study
             part: body
         sourceIds:
-          - taxonomy
+          - study
+          - classification
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+      - study
+      - classification

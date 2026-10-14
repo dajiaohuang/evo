@@ -22,4 +22,10 @@ describe('explicitly unresolved atlas geography', () => {
     expect(validate({ ...sourceWithoutRetiredStatus, geography: [''] })).toBe(false)
     expect(validate({ ...sourceWithoutRetiredStatus, readerLanguageStatus: { en: 'draft-ready', zh: 'not-started' } })).toBe(false)
   })
+  it('allows a sourced partial account without inventing whole-clade ecology', () => {
+    expect(validate({ ...sourceWithoutRetiredStatus, ecology: {} })).toBe(true)
+    expect(validate({ ...sourceWithoutRetiredStatus, ecology: { diet: '' } })).toBe(false)
+    expect(validate({ ...sourceWithoutRetiredStatus, ecology: { inventedField: 'unknown' } })).toBe(false)
+    expect(validate({ ...sourceWithoutRetiredStatus, referenceIds: [] })).toBe(false)
+  })
 })

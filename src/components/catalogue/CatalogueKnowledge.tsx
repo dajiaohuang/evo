@@ -26,18 +26,22 @@ export function CatalogueKnowledge({ record, status, zh, release, onNavigate }: 
   if (!sections.length && !profile?.sources.length && !dossier?.sources.length && !atlas?.readerSources?.length) return null
   const studySources = new Map([...(dossier?.sources ?? []), ...(dossier?.readerSources ?? [])]
     .map(source => [source.id, source]))
+  const readingSourceIds = new Set([
+    ...sections.flatMap(section => section.sourceIds ?? []),
+    ...(profile?.summarySourceIds ?? []).map(id => `account:${id}`),
+  ])
   const sources: NodeReadingSource[] = [
     ...(profile?.sources ?? []).map(source => ({ ...source, id: `account:${source.id}` })),
     ...[...studySources.values()].map(source => ({ ...source, id: `study:${source.id}` })),
     ...(atlas?.readerSources ?? []).map(source => ({ ...source, id: `atlas:${source.id}` })),
-  ]
+  ].filter(source => !sections.length || readingSourceIds.has(source.id))
   const sourceText = (value: NodeReadingSource['title'] | undefined) => typeof value === 'string' ? value : value?.[language] || value?.en || value?.zh || ''
   const sourceLanguageFallback = sources.some(source => [source.title, source.scope]
     .some(value => typeof value === 'object' && value !== null && !value[language] && !!(value.en || value.zh)))
   return <section className="catalogue-source-card catalogue-knowledge" aria-label={zh ? '生物与研究' : 'The organism and its studies'}>
     {profile && <h2>{profile.name[language]}</h2>}
     <NodeReadingSections sections={sections} sources={sources} language={language} />
-    {onNavigate && <SourceRelatedReading sources={profile?.sources ?? []} release={release} language={language} onNavigate={onNavigate} />}
+    {onNavigate && <SourceRelatedReading sources={(profile?.sources ?? []).filter(source => !sections.length || readingSourceIds.has(`account:${source.id}`))} release={release} language={language} onNavigate={onNavigate} />}
     {(profile?.limitations || atlas?.readerLimitations || sources.length > 0) && <details className="node-reading__methods">
       <summary>{zh ? '研究来源与适用范围' : 'Study sources and scope'}</summary>
       {profile?.limitations && <p>{profile.limitations[language]}</p>}

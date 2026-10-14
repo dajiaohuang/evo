@@ -10,30 +10,51 @@ records:
     sections:
       - topic: overview
         sourceIds:
-          - pbdbOtherSynapsidaTaxonomy20261002
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-ecteniniidae-2013
         text:
-          zh:
-            page: zh
-            section: s-0a8867ef47
-            part: body
           en:
             page: en
-            section: s-53f43a7554
+            section: summary
             part: body
-      - topic: readingPath
+          zh:
+            page: zh
+            section: summary
+            part: body
+      - topic: material
         sourceIds:
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-ecteniniidae-2013
         text:
-          zh:
-            page: zh
-            section: s-dd2a5661ed
-            part: body
           en:
             page: en
-            section: s-880cf5ff43
+            section: structures
+            part: body
+          zh:
+            page: zh
+            section: structures
+            part: body
+      - topic: study
+        sourceIds:
+          - study-ecteniniidae-2013
+        text:
+          en:
+            page: en
+            section: study
+            part: body
+          zh:
+            page: zh
+            section: study
+            part: body
+      - topic: scope
+        sourceIds:
+          - study-ecteniniidae-2013
+        text:
+          en:
+            page: en
+            section: limits
+            part: body
+          zh:
+            page: zh
+            section: limits
             part: body
     sources:
       - id: pbdbOtherSynapsidaTaxonomy20261002
@@ -93,12 +114,53 @@ records:
           scope:
             zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
             en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: study-ecteniniidae-2013
+        referenceId: ref-ecteniniidae-martinez-fernandez-alcober-2013
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports only the edited short preview; the specimen or anatomical description; the study interpretation or comparison in this account, within the source read extent and stated specimen scope.
+            zh: 仅在本账户中支持经编辑的简短摘要；标本或解剖描述；研究解释或比较，且受已查阅来源范围及所述标本范围限制。
+          locator: "Martinez, Fernandez and Alcober 2013: PVSJ 881 and Ecteniniidae hypothesis."
+      - id: study-ecteniniidae-2018
+        referenceId: ref-ecteniniidae-stefanello-et-al-2018
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports only the edited short preview; the study interpretation or comparison; the stated evidence limits in this account, within the source read extent and stated specimen scope.
+            zh: 仅在本账户中支持经编辑的简短摘要；研究解释或比较；所述证据范围限制，且受已查阅来源范围及所述标本范围限制。
+          locator: "Stefanello et al. 2018 abstract: Trucidocynodon specimen and reported trichotomy."
     limitations:
-      zh:
-        page: zh
-        section: s-448a82c7e0
-        part: body
       en:
         page: en
-        section: s-d135c5ae76
+        section: limits
         part: body
+      zh:
+        page: zh
+        section: limits
+        part: body
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - study-ecteniniidae-2013

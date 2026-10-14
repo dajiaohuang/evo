@@ -1,9 +1,12 @@
-## Recorded parent of Ophidostoma {#s-68a2cb34b5}
-Ophidostoma is listed at rank genus in the PBDB classification route, with Whaitsioidea as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
+## Short summary {#summary}
+One weathered skull from South Africa preserves a distinctive whaitsioid, while missing regions keep its functional interpretation bounded.
 
-## Compare collections, strata and age brackets {#s-7b7e4827da}
-Start with Ophidostoma tatarinovi and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection; example stratum names are Teekloof. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## A weathered skull from the Oukloof Member {#structures}
+The type specimen, SAM-PK-K8516, is a weathered skull with the mandible still articulated; parts of the palate and braincase are missing. It came from the upper Oukloof Member of South Africa's Teekloof Formation, in the upper Cistecephalus Assemblage Zone, reported by the authors at about 255 million years old. High-resolution X-ray CT supported the skull description.
 
-## What the occurrence ages can show {#s-316af3028f}
-How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Ophidostoma tatarinovi’s collection record, not a continuous history for Ophidostoma.
+## A position within Whaitsioidea {#study}
+The study analysed 56 therapsid taxa using 136 cranial, dental and postcranial characters. It placed Ophidostoma within Whaitsioidea, outside the Hofmeyriidae-plus-Whaitsiidae grouping. The authors interpreted its loose mandibular symphysis and mobile jaw joint as permitting a wide gape; that is a functional interpretation of the preserved skull, not direct evidence of feeding behaviour.
+
+## What one skull can establish {#limits}
+The phylogenetic placement rests on one incomplete, weathered skull. Missing palate and braincase regions leave relevant anatomy unobserved, so the paper's placement and gape interpretation should remain tied to this specimen and its character coding.
 

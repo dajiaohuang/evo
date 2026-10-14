@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-study
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +79,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-study
+        referenceId: doi-10-3897-evolsyst-9-148522
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Primary article abstract and species diagnosis; phylogenetic placement and pairwise genetic comparisons.
+          scope:
+            en: Supports the taxonomic conclusion and sampled evidence summarized here; no unsampled range is inferred.
+            zh: 支持此处概述的分类结论及采样证据；不推断未采样分布。
     limitations:
       en:
         page: en
@@ -87,3 +101,14 @@ records:
         page: zh
         section: s-0d0025cc99
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-study

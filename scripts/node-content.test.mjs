@@ -127,6 +127,24 @@ function makeResearchNode() {
   }
 }
 
+test('keeps independent source concepts and rejects nested obsolete authoring paths', () => {
+  const identity = {
+    kind: 'topic',
+    sourceIdentities: [
+      { identity: 'PBDB:txn:264013', taxonomy: { path: 'data/sources/snapshot.json', recordId: 'txn:264013' } },
+      { identity: 'PBDB:txn:264054', taxonomy: { path: 'data/sources/snapshot.json', recordId: 'txn:264054' } },
+    ],
+    sourceIndexes: [{ sourceIdentities: [], conceptsMerged: false }],
+  }
+  assert.deepEqual(canonicalToNodeContent({ identity }).node.identity, identity)
+  for (const list of [identity.sourceIdentities, identity.sourceIndexes[0].sourceIdentities]) {
+    const original = structuredClone(list)
+    list.push({ identity: 'PBDB:txn:264013', taxonomy: { path: 'data/sources/snapshot.json', recordId: 'txn:264013' }, existingCanonicalPath: 'content/taxa/retired' })
+    assert.throws(() => canonicalToNodeContent({ identity }), /Obsolete authoring path existingCanonicalPath/)
+    list.splice(0, list.length, ...original)
+  }
+})
+
 test('keeps source usage annotations and confines PBDB references to occurrence evidence', t => {
   const root = fixtureRoot(t)
   const fixture = makeResearchNode()

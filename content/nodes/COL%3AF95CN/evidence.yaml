@@ -50,21 +50,90 @@ records:
             part: body
         sourceIds:
           - taxonomy
-      - topic: limitations
+      - topic: morphology
         title:
-          en: Research text pending
-          zh: 材料与适用范围
+          en:
+            page: en
+            section: s-8a23b13918
+            part: title
+          zh:
+            page: zh
+            section: s-f414e95e4f
+            part: title
         text:
           en:
             page: en
-            section: s-cb3369037b
+            section: s-8a23b13918
             part: body
           zh:
             page: zh
-            section: s-23aa1d6754
+            section: s-f414e95e4f
             part: body
         sourceIds:
-          - amphibia-collection-status
+          - ibitinga2021
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: s-acce4d435a
+            part: title
+          zh:
+            page: zh
+            section: s-b3c29e1f9f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-acce4d435a
+            part: body
+          zh:
+            page: zh
+            section: s-b3c29e1f9f
+            part: body
+        sourceIds:
+          - ibitinga2021
+      - topic: habitat
+        title:
+          en:
+            page: en
+            section: s-16026095da
+            part: title
+          zh:
+            page: zh
+            section: s-39cd6ab532
+            part: title
+        text:
+          en:
+            page: en
+            section: s-16026095da
+            part: body
+          zh:
+            page: zh
+            section: s-39cd6ab532
+            part: body
+        sourceIds:
+          - ibitinga2021
+      - topic: communication
+        title:
+          en:
+            page: en
+            section: s-6914576868
+            part: title
+          zh:
+            page: zh
+            section: s-7d0884dee1
+            part: title
+        text:
+          en:
+            page: en
+            section: s-6914576868
+            part: body
+          zh:
+            page: zh
+            section: s-7d0884dee1
+            part: body
+        sourceIds:
+          - ibitinga2021
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -93,12 +162,32 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
-    limitations:
+      - id: ibitinga2021
+        referenceId: condez-et-al-2021-brachycephalus-ibitinga
+        fields:
+          - id
+          - title
+          - authors
+          - publishedYear
+          - url
+          - publisher
+          - pages
+          - scope
+          - locator
+          - doi
+        usage:
+          locator: See paragraph-specific locators in source-map.json.
+          scope:
+            en: Primary-study claims bounded to the named article, its analyzed materials and stated interpretation; no cross-database taxon-concept equivalence.
+            zh: 主张限于所列原始研究、其分析材料及作者明示的解释；不据此推定跨数据库物种概念等同。
+    summary:
       en:
         page: en
-        section: s-b0bbc0e205
+        section: s-8e79a9f982
         part: body
       zh:
         page: zh
-        section: s-a8ef8bb444
+        section: s-ce3f4f23dd
         part: body
+    summarySourceIds:
+      - ibitinga2021

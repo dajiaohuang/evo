@@ -127,3 +127,22 @@ test('validates recorded dates, explicit item-level rights claims, and source bi
   unresolvedClaim.facets.morphology = { status: 'supported', claims: [{ text: 'Evidence.', sourceIds: [], locator: 'Table 1', placeTimeScope: 'One site.', lifeStatus: 'wild' }] }
   expect(() => build(dossierTree, {}, empty, { ...empty, records: [unresolvedClaim] })).toThrow('Unresolved dossier source')
 })
+
+
+const previewProfile = () => ({ colId: 'a', scientificName: 'a', rank: 'species', summary: { en: 'Scoped preview', zh: '限定介绍' }, summarySourceIds: ['preview'], sources: [{ id: 'preview', url: 'https://example.org/preview' }], sections: [{ text: { en: 'Account', zh: '介绍' }, sourceIds: ['preview'] }] })
+const buildPreview = (value, releaseAlias = 'test') => buildCatalogueKnowledge({ releaseAlias: 'test', collections: {}, profiles: { releaseAlias, records: [value] }, nodes: [{ id: 'root', rank: 'genus', scientificName: 'root', status: 'accepted', parentId: null }, { id: 'a', rank: 'species', scientificName: 'a', status: 'accepted', parentId: 'root' }] })
+test('preserves authored bindings and pins both profile and rollup records to the release', () => {
+  const value = previewProfile()
+  const result = buildPreview(value)
+  expect(result.records.map(record => [record.colId, record.releaseAlias]).sort()).toEqual([['a', 'test'], ['root', 'test']])
+  expect(result.records.find(record => record.colId === 'a').profile).toEqual(value)
+  expect(() => buildPreview(value, 'other')).toThrow('release')
+})
+test.each(['missing-language', 'unresolved-source', 'duplicate-binding', 'ambiguous-source'])('rejects authored preview boundary: %s', boundary => {
+  const value = previewProfile()
+  if (boundary === 'missing-language') value.summary.zh = ''
+  if (boundary === 'unresolved-source') value.summarySourceIds = ['absent']
+  if (boundary === 'duplicate-binding') value.summarySourceIds.push('preview')
+  if (boundary === 'ambiguous-source') value.sources.push({ ...value.sources[0] })
+  expect(() => buildPreview(value)).toThrow(/preview/)
+})

@@ -1,14 +1,5 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en:
-      page: en
-      section: col-name-record
-      part: body
-    zh:
-      page: zh
-      section: col-name-record
-      part: body
   catalogue-profile:
     scientificName: Miniopterus fuliginosus (Hodgson, 1835)
     rank: species
@@ -29,16 +20,51 @@ records:
           title: Catalogue of Life COL26.8 — Miniopterus fuliginosus
           url: https://www.checklistbank.org/dataset/316115/taxon/8Q7NJ
           locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+      - id: study
+        referenceId: doi:10.1016/j.zool.2018.05.005
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Abstract only: peak-frequency comparison across eight bat colonies and the authors’ proposed interpretation of acoustic differences; full article body not accessed."
+            zh: 仅阅读摘要：比较八个蝙蝠群体的回声定位峰值频率及作者对声学差异的解释；未读取论文全文。
+          locator: PubMed record PMID 29803625, abstract; study question, results and conclusion
     sections:
-      - topic: identity
+      - topic: natural-history-study
+        title:
+          en:
+            page: en
+            section: field-study
+            part: title
+          zh:
+            page: zh
+            section: field-study
+            part: title
         text:
           en:
             page: en
-            section: col-name-record
+            section: field-study
             part: body
           zh:
             page: zh
-            section: col-name-record
+            section: field-study
             part: body
         sourceIds:
-          - taxonomy
+          - study
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+      - study

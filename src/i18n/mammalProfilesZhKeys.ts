@@ -111,9 +111,7 @@ export const mammalProfilesZhKeys = new Set<string>([
   "Complete tail and articulated limbs",
   "Hands and right foot preserved",
   "Soft-tissue outline and gut contents",
-  "PMO 214.214 and WDC-MG-210 are opposite slabs of one skeleton. Fabricated portions of plate B were disclosed, and no feature makes the specimen a demonstrated anthropoid ancestor.",
   "Stem-catarrhine sample",
-  "Holotype SGS-UM 2009-002 is a partial cranium combining crown-catarrhine features with no diagnostic ape or Old World monkey specialization in the published matrix.",
   "Middle Shumaysi Formation",
   "Western Saudi Arabia",
   "Diet inferred from preserved dentition; direct feeding evidence absent",
@@ -368,4 +366,7 @@ export const mammalProfilesZhKeys = new Set<string>([
   "Referred teeth and tarsal material",
   "Dental and tarsal characters scored in mimotonid comparisons",
   "Named dental and tarsal material directly records anatomy and the Erlian Basin occurrence; body mass, herbivory, locomotion and lagomorph affinity remain comparative inferences, not an ancestor sequence.",
+
+  "Franzen and colleagues describe the juvenile Messel holotype PMO 214.214 and counterpart WDC-MG-210 as part and counterpart of one skeleton. The gut material preserves dietary evidence but does not establish a complete diet. Preparation concentrated on counterplate B, which limits what is exposed. The specimen does not establish direct ancestry.",
+  "Holotype SGS-UM 2009-002 is a partial adult cranium. A published 36-character comparison across 19 taxa found a stem-catarrhine position; the specimen has catarrhine-associated features but lacks diagnostic ape or Old World monkey specializations.",
 ])

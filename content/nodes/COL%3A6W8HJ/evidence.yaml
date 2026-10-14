@@ -49,11 +49,38 @@ records:
             section: s-ec1bead131
             part: body
         sourceIds:
-          - taxonomy
-      - topic: limitations
+          - species-description-2013
+      - topic: morphology
         title:
-          en: Research text pending
-          zh: 材料与适用范围
+          en:
+            page: en
+            section: s-a6561e54cd
+            part: title
+          zh:
+            page: zh
+            section: s-9362319c69
+            part: title
+        text:
+          en:
+            page: en
+            section: s-a6561e54cd
+            part: body
+          zh:
+            page: zh
+            section: s-9362319c69
+            part: body
+        sourceIds:
+          - species-description-2013
+      - topic: relationships
+        title:
+          en:
+            page: en
+            section: s-de1b07ded4
+            part: title
+          zh:
+            page: zh
+            section: s-e664ca3a3b
+            part: title
         text:
           en:
             page: en
@@ -64,7 +91,7 @@ records:
             section: s-e664ca3a3b
             part: body
         sourceIds:
-          - amphibia-collection-status
+          - species-description-2013
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -93,12 +120,31 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
-    limitations:
+      - id: species-description-2013
+        referenceId: valencia-2013-pristimantis-carlosceroni
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - locator
+          - scope
+          - rights
+          - rightsEvidenceUrl
+          - rightsEvidenceLocator
+        usage:
+          locator: "Full-text author-uploaded copy: abstract and methods p. 25-26; holotype and referred specimen p. 26; diagnosis and measurements p. 26-27; comparison p. 27-28; species-group discussion p. 32-33."
+          scope:
+            en: "Original 2013 species description and its two reported specimens: adult male holotype FHGO 6676 and referred juvenile DHMECN 8754 from Nono, Quito Metropolitan District. The paper's tentative species-group placement and comparison are reported as the authors' inference; no broader range or confirmed close relationship is inferred."
+            zh: 2013 年原始物种描述及文中记录的两件标本：来自基多都会区 Nono 的成年雄性正模 FHGO 6676 和另列幼体 DHMECN 8754。种组位置和比较按作者的暂定推断转述；不据此推断更广分布或已确认的近缘关系。
+    summary:
       en:
         page: en
-        section: s-a6561e54cd
+        section: s-f3ef10675e
         part: body
       zh:
         page: zh
-        section: s-9362319c69
+        section: s-ec1bead131
         part: body
+    summarySourceIds:
+      - species-description-2013

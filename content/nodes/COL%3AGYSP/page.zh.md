@@ -7,7 +7,7 @@ COL26.8 将 Arthroleptis sylvaticus (Laurent, 1954) 记录为接受种名，分�
 ## 另存的 AmphiBIO 记录 {#s-9d637834e1}
 AmphiBIO v1 的 Anf0150 行记录了来源内部名称和分类组合 Arthroleptis sylvaticus。它与当前 COL26.8 概念的对应关系仍未确定，因此没有把该行存档值归入本种档案。
 
-- [AmphiBIO v1 — Anf0150 行](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Arthroleptina/Arthroleptis/Arthroleptis_sylvaticus/page.zh.md)
+- AmphiBIO v1 — Anf0150 行
 
 ## 样本与地点不能混为一谈 {#s-22e3cd8e54}
 保留的 sylvaticus 支包括两个 LMR 标本 USNM 558514–15，以及来自刚果共和国的十个标本。LMR 指加蓬 Nyanga 的 Loubomo–Mougagara 道路走廊；刚果共和国不同于刚果民主共和国。博物馆参考标本不能自动视为 LMR 观察。调查未检出受调查强度和季节限制，不能证明区域不存在，也不能界定完整分布。这里尚未独立检查原始凭证、当前出现记录或分类身份。
@@ -35,7 +35,4 @@ AmphiBIO v1 的 Anf0150 行记录了来源内部名称和分类组合 Arthrolept
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-98b532aebb}
 多物种参考库整体报告 540 个测序标本、524 条 COI 序列和 528 条 16S 序列，归为 94 个 BIN 和 85 个 ABGD 组。这些总数并非 Arthroleptis sylvaticus 单种数据。LMR 首季方法部分记载 80 个、次季 97 个标本，表 1 则列出 79 和 97 条测序或保留记录；方法部分还记载 275 个刚果参考标本，而表格地点行合计 274。采集与分析计数有差异，此处不推测排除原因。库级分组数不是现行接受种的普查；原始峰图、BOLD 归属和 GenBank 记录也未在此独立重分析。
-
-## 材料与适用范围 {#s-48fa803248}
-已收集的 reference 索引对接受名记录两条、对存档异名 Schoutedenella sylvatica 记录五条，但均未被指派为生物学主张。这些记录没有形成当前物种概念的生物学综合；原始序列与标本也未在此独立重分析。
 

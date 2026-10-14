@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-greenbaum-2022-afrixalus-lacustris
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +79,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-greenbaum-2022-afrixalus-lacustris
+        referenceId: doi-10-11646-zootaxa-5174-3-1
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Abstract; sequence lengths and sample composition, analyses, eleven mensural characters, and stated species evidence.
+          scope:
+            en: The abstract's sequence length, stated sample composition, analytical methods, eleven mensural characters, species-level conclusion, and omission of diagnostic measurements and localities.
+            zh: 用于说明摘要所列序列长度、样本组成、分析方法、11 项形态测量和物种结论，并保留其未给出诊断测量值和地点的限制。
     limitations:
       en:
         page: en
@@ -87,3 +101,14 @@ records:
         page: zh
         section: s-288e7d6235
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-greenbaum-2022-afrixalus-lacustris

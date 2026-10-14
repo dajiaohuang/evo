@@ -108,7 +108,6 @@ export const turtleLepidosaurZh: Record<string, string> = {
   'Megachirella PZO 628 contributes CT-resolved cranial, wrist and shoulder characters to a combined-evidence analysis': 'Megachirella PZO 628 为联合证据分析提供 CT 解析的头骨、腕部和肩部性状。',
   'Taytalura PVSJ 698 preserves a three-dimensionally exposed skull with CT-resolved early lepidosauromorph characters': 'Taytalura PVSJ 698 保存三维暴露的头骨及 CT 解析的早期鳞龙形类性状。',
   'Bellairsia NMS G.2022.1.1 was examined with synchrotron tomography and tested as a stem squamate': 'Bellairsia NMS G.2022.1.1 经同步辐射断层扫描检查，并作为有鳞类干群接受检验。',
-  'Simões et al., Martínez et al. and Tałanda et al. provide named specimens, imaging methods and explicit analytical placements across the lepidosaur route. The profile does not convert any stem specimen into a direct ancestor, crown FAD or global ecological history.': 'Simões、Martínez 和 Tałanda 等提供了鳞龙类路线中的具名标本、成像方法和明确分析位置。本档案不把任何干群标本转写为直系祖先、冠群首现或全球生态史。',
   'Mosasauroidea is retained as a broader branch-defined mosasauroid route, distinct from node-defined Mosasauridae. Dallasaurus preserves a plesiopedal limb condition in the middle Turonian sample, while the nomenclatural analysis separates clade definitions from any single basal topology.': 'Mosasauroidea 保留为较宽的枝定义沧龙类路线，与节点定义的 Mosasauridae 不同。Dallasaurus 在中土伦期样本中保存了原始步行型肢体状态，而命名学分析将支系定义与任何单一基部拓扑分开。',
   'Middle Turonian Arcadia Park Shale, north-central Texas (Dallasaurus sample)': '得克萨斯州中北部中土伦期 Arcadia Park 页岩（Dallasaurus 样本）',
   'Maastrichtian type area, the Netherlands (sampled Mosasaurus occurrence)': '荷兰马斯特里赫特阶层型区（取样的 Mosasaurus 出现记录）',
@@ -124,6 +123,7 @@ export const turtleLepidosaurZh: Record<string, string> = {
   "The profile's named mosasauroid samples include Dallasaurus turneri from the middle Turonian Arcadia Park Shale of north-central Texas and a latest Maastrichtian Mosasaurus occurrence from the Maastricht type area of the Netherlands; these records do not establish a global Mosasauroidea distribution.": '档案中的具名沧龙类样本包括得克萨斯州中北部中土伦期 Arcadia Park 页岩的 Dallasaurus turneri，以及荷兰马斯特里赫特阶层型区最新马斯特里赫特期的 Mosasaurus 出现记录；这些记录不确立全球 Mosasauroidea 分布。',
   'Dallasaurus preserves cranial, axial and plesiopedal limb anatomy in two incomplete skeletons, while the cited nomenclatural analysis distinguishes the broader Mosasauroidea branch from node-defined Mosasauridae; limb grade is not treated as the clade definition.': 'Dallasaurus 在两具不完整骨骼中保存头骨、轴骨和原始步行型肢体解剖；所引命名学分析区分较宽的 Mosasauroidea 枝与节点定义的 Mosasauridae，不把肢体等级视为支系定义。',
   'Schulp et al. report tooth-enamel carbon-isotope, body-size and resource-partitioning results for five named mosasaurs in one type-Maastrichtian fauna; the study-bounded marine sample does not establish a single diet, body-size distribution or guild for all Mosasauroidea.': 'Schulp 等报告了一个马斯特里赫特阶层型动物群中五个具名沧龙类的牙釉质碳同位素、体型和资源分割结果；受研究限制的海相样本不确立所有 Mosasauroidea 的统一食性、体型分布或生态功能群。',
+  "Named specimens and imaging studies support these matrix-dependent positions, not direct ancestors, crown first appearances or global ecological histories.": "具名标本和成像研究支持的是依赖分析矩阵的系统发育位置，而非直接祖先、冠群首现或全球生态史。",
 }
 
 export default turtleLepidosaurZh

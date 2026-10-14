@@ -19,46 +19,56 @@ records:
       - total-group Petromyzontida
     summary:
       page: en
-      section: s-2e4dc30693
+      section: reading-introduction
       part: body
     summaryZh:
       page: zh
-      section: s-07824c4f50
+      section: reading-introduction
       part: body
     claimIds:
       - claim:event:famennian-priscomyzon-oral-disc
     evidenceItems:
-      - statement: Holotype AM5750 preserves a large oral disc with fourteen circumoral teeth and a well-defined branchial basket in a 4.2 cm body
+      - statement: Holotype AM5750 is little over 4.2 cm long and preserves a large oral disc supported by annular cartilage, fourteen simple circumoral teeth with the posterior teeth appearing more elongated, and a branchial basket
         relation: supports
         claimIds:
           - claim:event:famennian-priscomyzon-oral-disc
         referenceLinks:
           - relation: supports
             referenceId: gess-2006-priscomyzon
-            pages: 981–983
-            figure: Figures 1–2
-            quoteLocator: Description and reconstruction of Priscomyzon
-      - statement: The specimen comes from the Famennian Witpoort Formation at Waterloo Farm, approximately 360 Ma on the source's numerical framing
-        relation: supports
-        claimIds:
-          - claim:event:famennian-priscomyzon-oral-disc
-        referenceLinks:
-          - relation: supports
-            referenceId: gess-2006-priscomyzon
-            pages: 981–984
+            pages: author-uploaded proof pages 1–2; published article Nature 443, 981–984
             figure: Figure 1
-            quoteLocator: Locality and horizon; Abstract
+            quoteLocator: "Systematic palaeontology: Holotype and Diagnosis; Description, oral-disc and circumoral-teeth paragraphs; Figure 1 caption. Proof pagination is distinct from the printed journal pagination."
+      - statement: The specimen is a little over 4.2 cm long and comes from the Famennian Witpoort Formation (Witteberg Group) at Waterloo Farm near Grahamstown, South Africa; the article's Figure 1 caption describes it as 360 million years old
+        relation: supports
+        claimIds:
+          - claim:event:famennian-priscomyzon-oral-disc
+        referenceLinks:
+          - relation: supports
+            referenceId: gess-2006-priscomyzon
+            pages: author-uploaded proof pages 1–2; published article Nature 443, 981–984
+            figure: Figure 1
+            quoteLocator: "Systematic palaeontology: Locality and horizon; Diagnosis and Description opening; Figure 1 caption. Proof pagination is distinct from the printed journal pagination."
+      - statement: A later study reports larval and juvenile Priscomyzon, including a hatchling-to-adult growth series; the sampled larvae lack the defining traits of modern ammocoetes and instead show prominent eyes, a cusped feeding apparatus and posteriorly united branchial baskets.
+        relation: contextualizes
+        claimIds:
+          - claim:event:famennian-priscomyzon-oral-disc
+        referenceLinks:
+          - relation: supports
+            referenceId: miyashita-2021-palaeozoic-stem-lamprey-larvae
+            pages: 408–412
+            figure: Figure 1; Extended Data Figures 1 and 3–5
+            quoteLocator: Abstract; Priscomyzon ontogenetic series and figure captions
     uncertaintyItems:
-      - statement: A single fossil does not preserve an ammocoete stage, metamorphosis, parasitism or migration and therefore cannot establish a modern lamprey lifecycle
+      - statement: The holotype does not preserve a feeding act or migration, and cannot by itself demonstrate a complete life cycle; the 2006 authors’ parasitic-feeding interpretation is an inference from oral anatomy.
         relation: contextualizes
         claimIds:
           - claim:event:famennian-priscomyzon-oral-disc
         referenceLinks:
           - relation: supports
             referenceId: gess-2006-priscomyzon
-            pages: 981–984
+            pages: author-uploaded proof page 3; published article Nature 443, 981–984
             figure: Figure 3
-            quoteLocator: Phylogenetic discussion
+            quoteLocator: Discussion of parasitic-feeding adaptation and the single-specimen inference boundary; proof pagination is distinct from final printed pagination.
       - statement: The occurrence is treated as total-group lamprey evidence, not a directly dated crown-Petromyzontida origin or global FAD
         relation: contextualizes
         claimIds:
@@ -68,20 +78,80 @@ records:
             referenceId: gess-2006-priscomyzon
             figure: Figure 3
             quoteLocator: Abstract and phylogenetic hypotheses
+    referenceIds:
+      - gess-2006-priscomyzon
+      - miyashita-2021-palaeozoic-stem-lamprey-larvae
+    readerSources:
+      - id: gess-2006-priscomyzon
+        referenceId: gess-2006-priscomyzon
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - readingUrl
+          - version
+        usage:
+          locator: "Author-uploaded full-text rendering of the 2006 article: proof page 1 (Systematic palaeontology, Holotype, Locality and horizon, Diagnosis, Description); proof page 2 (Figure 1 caption). Nature 443, pp. 981–984 is the final journal citation, not the proof-page locator. Proof page 3: discussion of parasitic-feeding interpretation."
+          scope:
+            en: The original numbered specimen description, locality and preservation-bound anatomy, with later interpretations kept separate.
+            zh: 原始具编号标本的描述、地点和受保存条件约束的解剖观察；后来的解释保持分开。
+          readingUrl: https://www.researchgate.net/publication/6730237_A_lamprey_from_the_Devonian_period_of_South_Africa
+          version: Author-uploaded proof-like full-text rendering; production markers Vol 000 | 00 Month 2006. Final publication citation remains Nature 443, 981–984 (2006).
+      - id: miyashita-2021-palaeozoic-stem-lamprey-larvae
+        referenceId: miyashita-2021-palaeozoic-stem-lamprey-larvae
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          locator: Nature 591, pp. 408–412; Figure 1; Extended Data Figures 1 and 3–5; abstract and specimen-series captions
+          scope:
+            en: The paper’s sampled Priscomyzon growth series and early life stages, distinct from the original holotype description.
+            zh: 论文取样的 Priscomyzon 生长系列与早期生活阶段，区别于原始正模描述。
+    readerSections:
+      - id: material-account
+        topic: morphology
+        title:
+          en:
+            page: en
+            section: s-2e4dc30693
+            part: title
+          zh:
+            page: zh
+            section: s-07824c4f50
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2e4dc30693
+            part: body
+          zh:
+            page: zh
+            section: s-07824c4f50
+            part: body
+        sourceIds:
+          - gess-2006-priscomyzon
+          - miyashita-2021-palaeozoic-stem-lamprey-larvae
   claims:
     - subjectId: event:famennian-priscomyzon-oral-disc
       claimKind: scientific
       claimType: morphology
-      statement: The 4.2 cm Priscomyzon riniensis holotype AM5750 from the Famennian Witpoort Formation at Waterloo Farm, approximately 360 Ma, preserves a large oral disc, fourteen circumoral teeth and a branchial basket; it is total-group lamprey evidence and does not directly establish a crown-Petromyzontida FAD, parasitic feeding, migration or an ammocoete lifecycle.
+      statement: The Priscomyzon riniensis holotype AM5750, described as a little over 4.2 cm long, from the Famennian Witpoort Formation (Witteberg Group) at Waterloo Farm near Grahamstown, South Africa, preserves a large oral disc supported by annular cartilage, fourteen simple circumoral teeth and a branchial basket; the article's Figure 1 caption gives an approximate age of 360 Ma. The fossil is total-group lamprey evidence and does not directly establish a crown-Petromyzontida FAD, a feeding act, migration or an ammocoete lifecycle.
       confidence: medium
-      confidenceRationale: The holotype anatomy, locality and Famennian assignment are described and illustrated in the primary study. Medium confidence preserves the single-specimen boundary, the source's approximate numerical age and the absence of preserved lifecycle or behavioural stages.
+      confidenceRationale: The holotype anatomy, locality and Famennian assignment are described in the author-uploaded full-text rendering of the primary 2006 article. Medium confidence preserves the single-specimen boundary, the article's approximate numerical age and the absence of preserved lifecycle stages or a feeding act. The author's online proof pagination is recorded separately from the final journal pages.
       referenceLinks:
         - relation: supports
           referenceId: gess-2006-priscomyzon
-          pages: 981–984
-          figure: Figures 1–3
-          quoteLocator: Abstract; holotype description and reconstruction; phylogenetic hypotheses
+          pages: author-uploaded proof pages 1–2; published article Nature 443, 981–984
+          figure: Figure 1; Figure 3
+          quoteLocator: Systematic palaeontology and Description for specimen/anatomy/locality; Figure 1 caption for 42 mm and annular cartilage; Abstract and phylogenetic discussion for interpretation. Proof pagination is distinct from the printed journal pagination.
   claim-rationales.zh:
-    - 一手研究描述并图示了正模解剖、地点和法门期归属。中等置信度保留单标本边界、来源采用的近似数值年代，以及缺少生命周期阶段和行为直接保存的事实。
+    - 2006 年一手论文的作者上传全文呈现版本描述了正模解剖、地点和法门期归属。中等置信度保留单标本边界、论文采用的近似数值年代，以及未保存完整生命周期阶段或实际摄食过程的限制。作者在线校样式页码与期刊最终印刷页码分别记录。
   claim-statements.zh:
-    - 约 360 Ma 法门期 Waterloo Farm Witpoort 组的 Priscomyzon riniensis 正模 AM5750 长 4.2 厘米，保存大型口盘、14 枚口周齿和鳃篮；它是七鳃鳗总群证据，不能直接确立七鳃鳗冠群首现、寄生摄食、洄游或沙隐幼体生命周期。
+    - 法门期南非 Waterloo Farm Witpoort 组（Witteberg 群）的 Priscomyzon riniensis 正模 AM5750 长略多于 4.2 厘米，保存由环状软骨支撑的大型口盘、14 枚简单口周齿和鳃篮；2006 年论文图 1 图注给出约 360 Ma。该化石属于七鳃鳗总群证据，不能直接确立冠群首现、摄食行为、洄游或沙隐幼体生命周期。

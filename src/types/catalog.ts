@@ -11,19 +11,34 @@ export interface ReferenceRecord {
   publishedYear?: number
   type: 'paper' | 'database' | 'dataset' | 'standard' | 'museum' | 'documentation' | 'publication' | 'web-resource' | 'bibliographic-record'
   sourceRole: 'primary-study' | 'systematic-review' | 'taxonomic-database' | 'occurrence-database' | 'museum-overview' | 'documentation' | 'standard' | 'unclassified'
-  fitnessFor: Array<'taxonomy' | 'evolution' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods'>
+  fitnessFor?: Array<'taxonomy' | 'evolution' | 'topology' | 'range' | 'morphology' | 'ecology' | 'biogeography' | 'event-mechanism' | 'occurrence' | 'paleogeography' | 'geochronology' | 'methods' | 'reproduction' | 'conservation'>
   url?: string
   doi?: string
   accessedAt?: string
   version?: string
   publisher?: string
   pages?: string
+  readingUrl?: string
+  readingLocator?: string
+  containerTitle?: string
+  license?: string
+  licenseUrl?: string
+  licenseVersion?: string
+  licenseAppliesTo?: string
+  licenseAssessment?: string
+  rights?: string
+  rightsHolder?: string
+  attribution?: string
+  rightsEvidenceUrl?: string
+  rightsEvidenceLocator?: string
   datasetSnapshot?: string
   note?: string
 }
 
 export interface TaxonProfileReaderSection {
   id: string
+  topic?: string
+  claimIds?: string[]
   title: { en: string; zh: string }
   text: { en: string; zh: string }
   sourceIds?: string[]
@@ -38,6 +53,7 @@ export interface TaxonProfileReaderSource {
   referenceId?: string
   doi?: string
   locator?: string
+  readingUrl?: string
   version?: string
   publishedAt?: string
   accessedAt?: string
@@ -87,15 +103,15 @@ export interface TaxonProfile {
   overview: string
   overviewZh?: string
   ecology: {
-    diet: string
+    diet?: string
     dietZh?: string
-    habitat: string
+    habitat?: string
     habitatZh?: string
-    locomotion: string
+    locomotion?: string
     locomotionZh?: string
-    bodySize: string
+    bodySize?: string
     bodySizeZh?: string
-    guild: string
+    guild?: string
     guildZh?: string
   }
   traits: string[]

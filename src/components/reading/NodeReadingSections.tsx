@@ -9,6 +9,8 @@ export interface NodeReadingSource {
   url?: string
   scope?: string | { en?: string; zh?: string }
   locator?: string
+  readingUrl?: string
+  readingLocator?: string
   version?: string
   publishedAt?: string
   accessedAt?: string
@@ -50,6 +52,8 @@ export function NodeReadingSections({ sections, sources, language }: {
           return <div key={id}>{source.url ? <a href={source.url} target="_blank" rel="noreferrer">{sourceText(source.title)} ↗</a> : <strong>{sourceText(source.title)}</strong>}
             {section.locator && <p><strong>{zh ? '段落定位：' : 'Passage locator: '}</strong>{section.locator}</p>}
             {source.locator && <p><strong>{zh ? '来源定位：' : 'Source locator: '}</strong>{source.locator}</p>}
+            {source.readingUrl && <p><a href={source.readingUrl} target="_blank" rel="noreferrer">{zh ? '所引文本 ↗' : 'Cited text ↗'}</a></p>}
+            {source.readingLocator && <p><strong>{zh ? '所引文本定位：' : 'Cited text locator: '}</strong>{source.readingLocator}</p>}
             {source.scope && <p><strong>{zh ? '范围：' : 'Scope: '}</strong>{sourceText(source.scope)}</p>}
             {source.version && <p><strong>{zh ? '版本：' : 'Version: '}</strong>{source.version}</p>}
             {source.publishedAt && <p><strong>{zh ? '发布日期：' : 'Published: '}</strong>{source.publishedAt}</p>}

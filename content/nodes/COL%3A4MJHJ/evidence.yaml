@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-venegas-2012-pmariaelenae
       - topic: overview
         title:
           en:
@@ -132,6 +133,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-venegas-2012-pmariaelenae
+        referenceId: doi-10-11646-zootaxa-3249-1-5
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Abstract; humid puna, elevation, locality, and tentative group placement.
+          scope:
+            en: The abstract's stated type-region habitat, elevation, locality, and explicitly tentative group assignment; no specimen details beyond that passage are added.
+            zh: 用于说明摘要所述的模式产地生境、海拔、地点和明确标注为暂定的类群归属；不补充该段落未提供的标本细节。
     limitations:
       en:
         page: en
@@ -141,3 +155,14 @@ records:
         page: zh
         section: s-35b7aeb345
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-venegas-2012-pmariaelenae

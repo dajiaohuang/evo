@@ -1,0 +1,79 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gasterosteidae Bonaparte, 1831
+    rank: family
+    sourceDatasetId: "1010"
+    name:
+      en: Gasterosteidae
+      zh: Gasterosteidae
+    sections:
+      - topic: life
+        title:
+          en:
+            page: en
+            section: habitats
+            part: title
+          zh:
+            page: zh
+            section: habitats
+            part: title
+        text:
+          en:
+            page: en
+            section: habitats
+            part: body
+          zh:
+            page: zh
+            section: habitats
+            part: body
+        sourceIds:
+          - k09
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: family-relationships
+            part: title
+          zh:
+            page: zh
+            section: family-relationships
+            part: title
+        text:
+          en:
+            page: en
+            section: family-relationships
+            part: body
+          zh:
+            page: zh
+            section: family-relationships
+            part: body
+        sourceIds:
+          - k09
+    sources:
+      - id: k09
+        referenceId: r15-gasterosteoidei-phylogeny-2009
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Named-species habitat annotations and phylogenetic analyses from nine gasterosteoids using mitochondrial and nuclear sequence datasets.
+            zh: 九种刺鱼亚目鱼类的具名物种栖地注释，以及基于线粒体和核序列数据的系统发育分析。
+          locator: Full text PDF, methods pp. 401–402; conclusion and Figure 1 legend, pp. 403–404
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - k09

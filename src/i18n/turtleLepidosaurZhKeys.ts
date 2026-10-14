@@ -9,6 +9,8 @@ const exactKeys = new Set([
   'Testudines',
   'Pleurodira',
   'Neodiapsida',
+
+  "Named specimens and imaging studies support these matrix-dependent positions, not direct ancestors, crown first appearances or global ecological histories.",
 ])
 
 const markers = [

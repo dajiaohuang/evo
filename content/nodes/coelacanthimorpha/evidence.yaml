@@ -1,7 +1,38 @@
 schemaVersion: 1
 records:
   atlas-profile:
-    sections:
+    scientificName: Coelacanthimorpha
+    rank: order
+    commonName: Coelacanths
+    commonNameZh: 腔棘鱼类
+    parentName: Sarcopterygii
+    extinct: false
+    pbdbTaxonId: null
+    geography: []
+    overview:
+      page: en
+      section: reading-introduction
+      part: body
+    overviewZh:
+      page: zh
+      section: reading-introduction
+      part: body
+    ecology: {}
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-1cf115f334
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-9499973ba3
+      part: body
+    confidence: medium
+    referenceIds:
+      - takezaki-nishihara-2016-coelacanth
+      - broughton-2013-bony-fish-tempo
+    readerSections:
       - topic: topology
         title:
           en:
@@ -23,6 +54,9 @@ records:
             part: body
         claimIds:
           - claim:taxon:coelacanthimorpha
+        sourceIds:
+          - takezaki-nishihara-2016-coelacanth
+        id: s-1cf115f334
       - topic: divergence-time
         title:
           en:
@@ -44,11 +78,40 @@ records:
             part: body
         claimIds:
           - claim:taxon:coelacanthimorpha:range-boundary
-    scientificName: Coelacanthimorpha
-    name:
-      en: Coelacanthimorpha
-      zh: Coelacanthimorpha
-    rank: order
+        sourceIds:
+          - broughton-2013-bony-fish-tempo
+        id: s-86542e4c32
+    readerSources:
+      - id: takezaki-nishihara-2016-coelacanth
+        referenceId: takezaki-nishihara-2016-coelacanth
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: Genome comparisons test the placement of the living coelacanth relative to lungfishes and tetrapods while explicitly examining outgroup bias. This extant relationship test does not delimit fossil Coelacanthimorpha, its origin, or a direct tetrapod ancestor.
+            zh: 基因组比较检验现生腔棘鱼相对肺鱼和四足动物的位置，并明确检验外群偏差；这项现生关系检验不界定化石腔棘鱼类、其起源或直接的四足动物祖先。
+          locator: "pages: 1208–1221; figure: Figures 1–5; supplementary alignments; quoteLocator: Abstract and Discussion: cartilaginous versus ray-finned fish outgroups, branch lengths and amino acid frequencies; topology tests"
+      - id: broughton-2013-bony-fish-tempo
+        referenceId: broughton-2013-bony-fish-tempo
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: A 24-calibration relaxed-clock analysis estimated the living coelacanth split from lungfishes plus tetrapods near 409 Ma, supporting a model-to-present route rather than a fossil Coelacanthimorpha FAD.
+            zh: 用 24 项化石校准的硬骨鱼松弛分子钟模型讨论腔棘鱼与肺鱼加四足动物的分化；约 409 Ma 的模型年代不是肺鱼或腔棘鱼的化石首现。
+          locator: "pages: Article 2ca8041495ffafd0c92756e75247483e; figure: Figures 1–3; time-calibrated phylogeny; quoteLocator: Timescale of bony-fish evolution; crown Sarcopterygii split"
   atlas-node:
     name: Coelacanthimorpha
     commonName: Coelacanths

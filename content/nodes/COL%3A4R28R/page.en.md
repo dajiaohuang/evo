@@ -22,10 +22,10 @@ AmphiBIO's Frost 2011 record for Quasipaa spinosa flags a larval stage. Whether 
 ## Related source records and datasets {#s-829d0dac42}
 These links lead to records under the same or a historically connected name in several amphibian trait datasets. They are useful for comparing what each source recorded, but do not establish that the sources use an identical species concept or that all of their traits apply to this catalogue entry.
 
-- [AmphiBIO v1: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.en.md)
-- [TadpoleTraits v4: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.en.md)
-- [Amphibian morphology v3: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.en.md)
-- [AmphiTherm curated snapshot: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.en.md)
+- AmphiBIO v1: Quasipaa spinosa
+- TadpoleTraits v4: Quasipaa spinosa
+- Amphibian morphology v3: Quasipaa spinosa
+- AmphiTherm curated snapshot: Quasipaa spinosa
 
 ## Developmental stage in TadpoleTraits {#s-d6dc98bb56}
 TadpoleTraits contains one literature-derived row and no image-derived rows under its recorded Quasipaa spinosa concept; equivalence to the species concept used here has not been established. The supplied developmental-stage range is 34–38. This is a source label, not a count of tadpoles or a species-wide developmental series.

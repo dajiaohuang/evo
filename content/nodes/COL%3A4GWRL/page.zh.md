@@ -1,17 +1,20 @@
 ## 接受名称与分类位置 {#s-0541e5b6f1}
 COL26.8 于 2026 年 8 月 20 日发布的版本接受 Phrynopus valquii Chávez, Santa Cruz, Rodríguez & Lehr, 2015 为种级记录，所记分类路径为 Anura（目） → Strabomantidae（科） → Phrynopus（属）。这条记录确定目录中的名称与位置，本身不提供该物种的生物学描述。
 
-## 目录记录所说明的内容 {#s-8079fb9b74}
-已绑定的目录来源只确定接受名称与分类位置；本页没有该物种解剖、栖地、生活史、分布、演化或保护方面的具体证据。
+## 高安第斯的二十件标本 {#s-8079fb9b74}
+Phrynopus valquii 描述自秘鲁拉利伯塔德的高安第斯地区，依据 20 件标本。诊断结合皮肤纹理和身体特征，包括缺少鼓膜、犁骨齿突、声裂及婚垫。论文的分布部分将已知记录置于东安第斯、靠近里奥阿维塞奥国家公园西南边界处。
 
 ## 可继续阅读的来源记录 {#s-0983e693f3}
 关联的第 3 版 Amphibian morphology 数据集将 Phrynopus valquii 记在 Phrynopus 属、Brachycephaloidea 科及 Anura 目下。该记录有两条测量行，原表十个测量字段含有数值，性别代码为 F 和 M。本记录未确认测量单位，因此不将这些数值表示为绝对身体尺寸。这个链接指向一条数据集记录；它不能证明该记录与 COL26.8 采用的物种概念等同。
 
-- [Amphibian morphology v3: Phrynopus valquii](../../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Brachycephaloidea/Phrynopus/Phrynopus_valquii/page.zh.md)
+- Amphibian morphology v3: Phrynopus valquii
 
-## 证据范围 {#s-a2fbd2c4c4}
-目录记录的是分类身份，不是物种生物学。
+## 标本与独立的数据集记录 {#s-a2fbd2c4c4}
+上文的解剖观察限于原文描述的模式材料。独立链接的形态数据集仍保留未确认的测量单位，以及它与当前 COL 概念之间未解决的关系；原始诊断不能解决这项数据集映射。本页也未建立完整生活史或更广的分布。
 
 ## 如何使用关联文献索引 {#s-983be3368c}
 关联的文献索引用于查找资料，并不提供生物学发现。有关该物种的证据须回到具体研究。
+
+## 依据二十件高安第斯标本的诊断 {#card}
+Phrynopus valquii 描述依据为秘鲁拉利伯塔德高安第斯地区采集的 20 件标本；诊断结合皮肤纹理与身体特征，包括所报告的无鼓膜、犁骨齿突、声裂和婚垫。论文将已知记录置于靠近里奥阿维塞奥国家公园的东安第斯。
 

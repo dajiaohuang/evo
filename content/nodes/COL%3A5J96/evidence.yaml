@@ -13,6 +13,7 @@ records:
           - taxonomy
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - vogel-david-1999-macrocalamus-revision
         text:
           zh:
             page: zh
@@ -26,6 +27,7 @@ records:
         sourceIds:
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - vogel-david-1999-macrocalamus-revision
         text:
           zh:
             page: zh
@@ -110,6 +112,19 @@ records:
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
             en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: vogel-david-1999-macrocalamus-revision
+        referenceId: vogel-david-1999-macrocalamus-revision
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: pp. 309–313, 318–321, 324, 328
+          scope:
+            en: Revision sample, examined M. lateralis color forms, and species-specific M. schulzi natural-history observations; not genus-wide extrapolation.
+            zh: 修订样本、所检视的 M. lateralis 体色型及物种级 M. schulzi 自然史观察；不外推为全属规律。
     limitations:
       zh:
         page: zh
@@ -119,3 +134,14 @@ records:
         page: en
         section: s-8fc1b1deae
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - vogel-david-1999-macrocalamus-revision

@@ -1,9 +1,12 @@
-## Recorded parent of Alierasaurus {#s-a73b657e5e}
-Alierasaurus is listed at rank genus in the PBDB classification route, with Caseidae as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
+## Short summary {#summary}
+The 2017 study documents additional partial postcranial remains of Alierasaurus ronchii. In its first caseid analysis, Alierasaurus is placed as sister to Cotylorhynchus; the authors describe the derived caseid clades as weakly supported, with Bremer support 1 for clade Q.
 
-## Compare collections, strata and age brackets {#s-02ede3bce6}
-Start with Alierasaurus ronchii and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection; example stratum names are Cala del Vino. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Alierasaurus ronchii: partial postcranial material {#structures}
+The 2017 study reports additional partial postcranial material from the Permian of Sardinia, including a broad bifid caudal neural spine and other vertebrae and ribs. The remains extend the known axial skeleton; they do not provide a skull.
 
-## What the occurrence ages can show {#s-1611ab4b5f}
-How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Alierasaurus ronchii’s collection record, not a continuous history for Alierasaurus.
+## Foot anatomy and the 2017 comparison {#study}
+The 2017 account discusses the previously described foot, including diagnostic metatarsal-IV anatomy and short, non-spatulate unguals. Its first caseid analysis places Alierasaurus as sister to Cotylorhynchus within clade Q. The authors describe the derived caseid clades as weakly supported and report Bremer support 1 for Q. These are anatomical and tree-based results, not direct measurements of diet or daily behaviour.
+
+## Limits of the preserved skeleton {#limits}
+The material discussed here is partial and postcranial. It documents parts of the feet and axial skeleton, but does not provide cranial anatomy or a measured account of behaviour.
 

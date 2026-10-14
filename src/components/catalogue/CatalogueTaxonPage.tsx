@@ -37,6 +37,7 @@ import { catalogueItisOtherAnimalsScopes } from './catalogueItisOtherAnimalsScop
 import { catalogueItisProtistsScopes } from './catalogueItisProtistsScopes'
 import { deriveCatalogueNodeIntroduction } from './catalogueNodeIntroduction'
 import { CatalogueContent } from './CatalogueContent'
+import { CatalogueChildPreview } from './CatalogueChildPreview'
 import './CatalogueTaxonPage.css'
 
 interface CatalogueTaxonPageProps {
@@ -346,12 +347,7 @@ function CatalogueTaxonRecord({ release, id, onNavigate }: CatalogueTaxonPagePro
             <>
               <div className="catalogue-children-summary">{zh ? `显示 ${number(visible.length)} / 匹配 ${number(filteredChildren.length)} / 全部 ${number(children.length)}` : `Showing ${number(visible.length)} of ${number(filteredChildren.length)} matches · ${number(children.length)} total`}</div>
               <ol className="catalogue-child-list">
-                {visible.map((child) => <li key={child.id}>
-                  <button onClick={() => onNavigate('registry', { release: manifest.releaseAlias, id: child.id })}>
-                    <span><i>{displayedName(child)}</i>{child.authorship ? <small>{child.authorship}</small> : null}</span>
-                    <span><small>{child.rank} · {child.status}</small><code>{child.id}</code></span>
-                  </button>
-                </li>)}
+                {visible.map((child) => <CatalogueChildPreview key={`${manifest.releaseAlias}:${child.id}`} release={manifest.releaseAlias} id={child.id} name={displayedName(child)} authorship={child.authorship} rank={child.rank} status={child.status} zh={zh} onRead={() => onNavigate('registry', { release: manifest.releaseAlias, id: child.id })} />)}
               </ol>
               {visible.length < filteredChildren.length && <button className="catalogue-show-more" onClick={() => setVisibleChildren((value) => value + 100)}>{zh ? '再显示 100 项' : 'Show 100 more'}</button>}
             </>

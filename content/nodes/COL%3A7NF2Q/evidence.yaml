@@ -1,0 +1,186 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    colId: 7NF2Q
+    scientificName: Cephalochordata
+    rank: subphylum
+    sourceDatasetId: "1154"
+    name:
+      en: Cephalochordata
+      zh: Cephalochordata
+    limitations:
+      en: These studies do not represent every cephalochordate species or establish clade-wide habitat, distribution, or life history. The 2007 expression study does not name its amphioxus species in the Methods passage read. The 17 linkage groups and vertebrate duplication history are comparative reconstructions, not direct ancestral samples.
+      zh: 这些研究不代表所有头索动物物种，也不能确定整个类群的栖地、分布或生活史。所读 2007 年基因表达研究方法部分未注明文昌鱼物种。17 个连锁群与脊椎动物复制历史是比较重建，并非直接取得的祖先样本。
+    sections:
+      - topic: identity
+        title:
+          en:
+            page: en
+            section: overview
+            part: title
+          zh:
+            page: zh
+            section: overview
+            part: title
+        text:
+          en:
+            page: en
+            section: overview
+            part: body
+          zh:
+            page: zh
+            section: overview
+            part: body
+        sourceIds:
+          - col-2026-checklistbank-316115
+          - meulemans-bronner-fraser-2007-amphioxus-cartilage
+          - putnam-2008-amphioxus-karyotype
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: pharyngeal-arch
+            part: title
+          zh:
+            page: zh
+            section: pharyngeal-arch
+            part: title
+        text:
+          en:
+            page: en
+            section: pharyngeal-arch
+            part: body
+          zh:
+            page: zh
+            section: pharyngeal-arch
+            part: body
+        sourceIds:
+          - meulemans-bronner-fraser-2007-amphioxus-cartilage
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: chordate-relationships
+            part: title
+          zh:
+            page: zh
+            section: chordate-relationships
+            part: title
+        text:
+          en:
+            page: en
+            section: chordate-relationships
+            part: body
+          zh:
+            page: zh
+            section: chordate-relationships
+            part: body
+        sourceIds:
+          - putnam-2008-amphioxus-karyotype
+      - topic: genome-history
+        title:
+          en:
+            page: en
+            section: chromosome-history
+            part: title
+          zh:
+            page: zh
+            section: chromosome-history
+            part: title
+        text:
+          en:
+            page: en
+            section: chromosome-history
+            part: body
+          zh:
+            page: zh
+            section: chromosome-history
+            part: body
+        sourceIds:
+          - putnam-2008-amphioxus-karyotype
+      - topic: research-material
+        title:
+          en:
+            page: en
+            section: genome-sample
+            part: title
+          zh:
+            page: zh
+            section: genome-sample
+            part: title
+        text:
+          en:
+            page: en
+            section: genome-sample
+            part: body
+          zh:
+            page: zh
+            section: genome-sample
+            part: body
+        sourceIds:
+          - putnam-2008-amphioxus-karyotype
+    sources:
+      - id: putnam-2008-amphioxus-karyotype
+        referenceId: putnam-2008-amphioxus-karyotype
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+          - version
+          - publishedAt
+          - license
+        usage:
+          scope:
+            en: "Branchiostoma floridae genome: DNA from gonads of one gravid male collected in Tampa Bay, Florida, in July 2003. Each phylogenetic or synteny inference is limited to its stated comparison set."
+            zh: Branchiostoma floridae 基因组：DNA 取自一只雄性个体的性腺；该个体于 2003 年 7 月采自美国佛罗里达州坦帕湾。系统发育或共线性推断均限于论文各自说明的比较样本。
+          locator: "Nature 453:1064–1071 (2008), published article: Genome sequence; Results sections “Intron evolution,” “Amphioxus–vertebrate synteny,” and “Timing of events on the vertebrate stem”; Methods Summary: deuterostome relationships and intron evolution."
+          version: Published version of record; selected Results and Methods passages read.
+      - id: meulemans-bronner-fraser-2007-amphioxus-cartilage
+        referenceId: meulemans-bronner-fraser-2007-amphioxus-cartilage
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+          - version
+          - publishedAt
+          - license
+        usage:
+          scope:
+            en: Amphioxus embryos and larvae from a 12-hour early neurula through a 2.5-day feeding larva with two to three gill slits; the species is not named in the Methods passage read.
+            zh: 文昌鱼胚胎与幼体，范围从 12 小时早期神经胚到 2.5 日龄、具有两到三个鳃裂的摄食幼体；所读方法部分未注明物种。
+          locator: "PLoS ONE 2(8):e787 (2007), published article: Results “Expression of amphioxus orthologs...” and “Expression of amphioxus fibrillar collagen...,” Figures 3–4; Discussion on co-option and limits of expression evidence; Methods, in situ hybridization and larval stage range."
+          version: Published PLoS ONE article; selected Results, Figures 3–4, Discussion, and Methods passages read.
+      - id: col-2026-checklistbank-316115
+        referenceId: col-2026-checklistbank-316115
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - version
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Accepted Cephalochordata usage 7NF2Q, subphylum, parent CH2, source dataset 1154; classification only, not study phylogeny.
+            zh: 仅支持接受的头索动物 usage 7NF2Q、亚门等级、父级 CH2 与来源数据集 1154；不支持研究系统发育关系。
+          locator: COL26.8 / 2026-08-20, ChecklistBank dataset 316115; registry/hierarchy/nodes/id-d4.jsonl.gz line 214; World List of Cephalochordata dataset 1154, version 2026-08-01, DOI 10.48580/d3dt.
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - meulemans-bronner-fraser-2007-amphioxus-cartilage

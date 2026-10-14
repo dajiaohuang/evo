@@ -10,30 +10,51 @@ records:
     sections:
       - topic: overview
         sourceIds:
-          - pbdbOtherSynapsidaTaxonomy20261002
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-fluctuodon-2017
         text:
-          zh:
-            page: zh
-            section: s-2146b98fec
-            part: body
           en:
             page: en
-            section: s-494fce4364
+            section: summary
             part: body
-      - topic: readingPath
+          zh:
+            page: zh
+            section: summary
+            part: body
+      - topic: material
         sourceIds:
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-fluctuodon-2017
         text:
-          zh:
-            page: zh
-            section: s-2d8d27d816
-            part: body
           en:
             page: en
-            section: s-94b276317f
+            section: structures
+            part: body
+          zh:
+            page: zh
+            section: structures
+            part: body
+      - topic: study
+        sourceIds:
+          - study-fluctuodon-2017
+        text:
+          en:
+            page: en
+            section: study
+            part: body
+          zh:
+            page: zh
+            section: study
+            part: body
+      - topic: scope
+        sourceIds:
+          - study-fluctuodon-2017
+        text:
+          en:
+            page: en
+            section: limits
+            part: body
+          zh:
+            page: zh
+            section: limits
             part: body
     sources:
       - id: pbdbOtherSynapsidaTaxonomy20261002
@@ -93,12 +114,38 @@ records:
           scope:
             zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
             en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: study-fluctuodon-2017
+        referenceId: ref-fluctuodon-debuysschere-2017
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports only the edited short preview; the specimen or anatomical description; the study interpretation or comparison; the stated evidence limits in this account, within the source read extent and stated specimen scope.
+            zh: 仅在本账户中支持经编辑的简短摘要；标本或解剖描述；研究解释或比较；所述证据范围限制，且受已查阅来源范围及所述标本范围限制。
+          locator: "Debuysschere 2017 abstract: molars, postcanine-row reconstructions and locality comparison."
     limitations:
-      zh:
-        page: zh
-        section: s-dcd802088a
-        part: body
       en:
         page: en
-        section: s-3a4973815a
+        section: limits
         part: body
+      zh:
+        page: zh
+        section: limits
+        part: body
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - study-fluctuodon-2017

@@ -13,6 +13,7 @@ records:
           - taxonomy
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - visoot-et-al-2021-malayemys-nesting
         text:
           zh:
             page: zh
@@ -26,6 +27,7 @@ records:
         sourceIds:
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - visoot-et-al-2021-malayemys-nesting
         text:
           zh:
             page: zh
@@ -106,6 +108,19 @@ records:
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
             en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: visoot-et-al-2021-malayemys-nesting
+        referenceId: visoot-et-al-2021-malayemys-nesting
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Abstract; pp. 355–356, 358, 362–363
+          scope:
+            en: One 16-hectare central Thailand site; 74 nests and 52/22 distance split; at-least-ten estimate conditional on haplotypes, same-night nests and one clutch per female per night.
+            zh: 泰国中部一处 16 公顷地点；74 个巢及 52/22 距离分组；至少十只雌龟估计取决于单倍型、同夜新巢及每雌每夜一窝的假设。
     limitations:
       zh:
         page: zh
@@ -115,3 +130,14 @@ records:
         page: en
         section: s-0b901d8d7f
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - visoot-et-al-2021-malayemys-nesting

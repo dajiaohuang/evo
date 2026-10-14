@@ -5,7 +5,7 @@ import { CatalogueKnowledge } from '../catalogue/CatalogueKnowledge'
 import type { CatalogueSpeciesDossier } from '../../data-client/types'
 
 it('opens the real source beside its finding and retains an explicit source-language account', () => {
-  const { container } = render(<NodeReadingSections language="zh" sources={[{ id: 'study:source', title: 'Original study', url: 'https://example.org/paper', scope: 'The sampled specimens only.', locator: 'Section 12, Figure 4', version: 'release 2', license: 'CC BY 4.0', rightsHolder: 'Museum archive', attribution: 'Museum archive, release 2' }]} sections={[
+  const { container } = render(<NodeReadingSections language="zh" sources={[{ id: 'study:source', title: 'Original study', url: 'https://example.org/paper', scope: 'The sampled specimens only.', locator: 'Section 12, Figure 4', readingUrl: 'https://example.org/author-proof', readingLocator: 'Proof page 2', version: 'release 2', license: 'CC BY 4.0', rightsHolder: 'Museum archive', attribution: 'Museum archive, release 2' }]} sections={[
     { id: 'specimen', topic: 'morphology', title: { en: 'Observed anatomy in the sample' }, text: { en: '*Yutyrannus huali* preserves eight fin spines in a sample labelled `lacustrine - large`; literal <img src=x onerror=alert(1)> remains source text.' }, sourceIds: ['study:source'], locator: 'Fig. 4', context: ['One collection; no behaviour was recorded.'] },
     { id: 'account', title: { en: 'The recorded account' }, text: { en: 'The account keeps its bibliography separately.' } },
   ]} />)
@@ -19,10 +19,12 @@ it('opens the real source beside its finding and retains an explicit source-lang
   expect(screen.getByText('One collection; no behaviour was recorded.')).toBeVisible()
   fireEvent.click(screen.getByText('本段的来源与材料'))
   expect(screen.getByRole('link', { name: 'Original study ↗' })).toHaveAttribute('href', 'https://example.org/paper')
+  expect(screen.getByRole('link', { name: '所引文本 ↗' })).toHaveAttribute('href', 'https://example.org/author-proof')
   const passageCitation = screen.getByText('本段的来源与材料').closest('details')!
   const citationParagraph = (text: string) => within(passageCitation).getByText((_, element) => element?.tagName === 'P' && Boolean(element.textContent?.includes(text)))
   expect(citationParagraph('段落定位：Fig. 4')).toBeVisible()
   expect(citationParagraph('来源定位：Section 12, Figure 4')).toBeVisible()
+  expect(citationParagraph('所引文本定位：Proof page 2')).toBeVisible()
   expect(citationParagraph('范围：The sampled specimens only.')).toBeVisible()
   expect(citationParagraph('版本：release 2')).toBeVisible()
   expect(citationParagraph('权利人：Museum archive')).toBeVisible()

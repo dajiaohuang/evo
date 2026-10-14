@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-anstis-2016-cyclorana
       - topic: overview
         title:
           en:
@@ -217,6 +218,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-anstis-2016-cyclorana
+        referenceId: doi-10-11646-zootaxa-4126-4-1
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Abstract; regional comparison and taxonomic conclusion.
+          scope:
+            en: The 2016 revision's comparison and conclusion for its sampled eastern, northern, and western Australian populations; it does not resolve unrelated catalogue or historical dataset records.
+            zh: 用于说明 2016 年修订对其取样的澳大利亚东部、北部和西部种群所作的比较与结论；不用于判定无关目录或历史数据集记录。
     limitations:
       en:
         page: en
@@ -226,3 +240,14 @@ records:
         page: zh
         section: s-06c1fa2673
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-anstis-2016-cyclorana

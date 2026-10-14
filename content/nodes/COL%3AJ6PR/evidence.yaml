@@ -1,0 +1,228 @@
+schemaVersion: 1
+records:
+  catalogue-dossier:
+    scientificName: Asymmetron inferum Nishikawa, 2004
+    authorship: Nishikawa, 2004
+    rank: species
+    sourceDatasetId: "1154"
+    classificationPath:
+      - id: J6PR
+        scientificName: Asymmetron inferum Nishikawa, 2004
+        authorship: Nishikawa, 2004
+        rank: species
+        status: accepted
+        sourceDatasetId: "1154"
+      - id: 7NPZG
+        scientificName: Asymmetron Andrews, 1893
+        authorship: Andrews, 1893
+        rank: genus
+        status: accepted
+        sourceDatasetId: "1154"
+      - id: 7NG6D
+        scientificName: Branchiostomatidae Bonaparte, 1846
+        authorship: Bonaparte, 1846
+        rank: family
+        status: accepted
+        sourceDatasetId: "1154"
+      - id: DR
+        scientificName: Leptocardii
+        authorship: null
+        rank: class
+        status: accepted
+        sourceDatasetId: "1154"
+      - id: 7NF2Q
+        scientificName: Cephalochordata
+        authorship: null
+        rank: subphylum
+        status: accepted
+        sourceDatasetId: "1154"
+      - id: CH2
+        scientificName: Chordata
+        authorship: null
+        rank: phylum
+        status: accepted
+        sourceDatasetId: null
+      - id: N
+        scientificName: Animalia
+        authorship: null
+        rank: kingdom
+        status: accepted
+        sourceDatasetId: null
+      - id: CS5HF
+        scientificName: Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978
+        authorship: (Chatton, 1925) Whittaker & Margulis, 1978
+        rank: domain
+        status: accepted
+        sourceDatasetId: null
+    identity:
+      method: Exact accepted COL26.8 usage verified against the release-pinned ChecklistBank 316115 hierarchy by stable COL ID and parent IDs; no name-based crosswalk is used.
+      scope: COL26.8 accepted usage J6PR and its recorded classification path only. This checklist evidence does not support anatomy, behavior, ecology, distribution, specimen, numerical, or evolutionary claims.
+      sourceIds:
+        - col
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - scope
+        metadataVariant: 1
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/J6PR
+          stableId: col:J6PR@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          locator: Accepted COL usage J6PR; exact name, authorship, rank, status, ChecklistBank dataset 1154, and every recorded parent node ID, name, authorship, rank, and status in the pinned hierarchy.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+  catalogue-profile:
+    scientificName: Asymmetron inferum Nishikawa, 2004
+    colId: J6PR
+    rank: species
+    sourceDatasetId: "1154"
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    sections:
+      - id: intro
+        title:
+          en:
+            page: en
+            section: intro
+            part: title
+          zh:
+            page: zh
+            section: intro
+            part: title
+        text:
+          en:
+            page: en
+            section: intro
+            part: body
+          zh:
+            page: zh
+            section: intro
+            part: body
+        sourceIds:
+          - doi:10.1186/1471-2148-7-127
+        group: introduction
+      - id: whale-sand
+        title:
+          en:
+            page: en
+            section: whale-sand
+            part: title
+          zh:
+            page: zh
+            section: whale-sand
+            part: title
+        text:
+          en:
+            page: en
+            section: whale-sand
+            part: body
+          zh:
+            page: zh
+            section: whale-sand
+            part: body
+        sourceIds:
+          - doi:10.1186/1471-2148-7-127
+        group: life
+      - id: mitochondrial-tree
+        title:
+          en:
+            page: en
+            section: mitochondrial-tree
+            part: title
+          zh:
+            page: zh
+            section: mitochondrial-tree
+            part: title
+        text:
+          en:
+            page: en
+            section: mitochondrial-tree
+            part: body
+          zh:
+            page: zh
+            section: mitochondrial-tree
+            part: body
+        sourceIds:
+          - doi:10.1186/1471-2148-7-127
+        group: relationships
+      - id: one-genome
+        title:
+          en:
+            page: en
+            section: one-genome
+            part: title
+          zh:
+            page: zh
+            section: one-genome
+            part: title
+        text:
+          en:
+            page: en
+            section: one-genome
+            part: body
+          zh:
+            page: zh
+            section: one-genome
+            part: body
+        sourceIds:
+          - doi:10.1186/1471-2148-7-127
+        group: research
+    sources:
+      - id: col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - stableId
+          - version
+          - publishedAt
+          - locator
+          - scope
+        metadataVariant: 1
+        usage:
+          title: Catalogue of Life COL26.8 / ChecklistBank dataset 316115
+          url: https://www.checklistbank.org/dataset/316115/taxon/J6PR
+          stableId: col:J6PR@COL26.8
+          version: COL26.8 released 2026-08-20; ChecklistBank dataset 316115
+          publishedAt: 2026-08-20
+          locator: Accepted COL usage J6PR; exact name, authorship, rank, status, ChecklistBank dataset 1154, and every recorded parent node ID, name, authorship, rank, and status in the pinned hierarchy.
+          scope: Pinned COL26.8 nomenclatural identity and accepted classification only.
+      - id: doi:10.1186/1471-2148-7-127
+        referenceId: doi:10.1186/1471-2148-7-127
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Primary study account explicitly naming Asymmetron inferum Nishikawa, 2004; specimen and experimental observations remain bounded to the stated samples.
+            zh: 原始研究明确涉及 Asymmetron inferum Nishikawa, 2004；标本和实验观察限于所述样本。
+          locator: "Background (July 2003, 26 specimens, 229 m); Methods: Specimens and DNA extraction (one whole specimen per species), Alignments (eight lancelets plus three outgroups); Results: Features of A. inferum mitogenome and Phylogenetic relationships; Discussion: Gene rearrangement of A. inferum, feeding mechanism remains open. Figures 2–3; Table 1; accession AP009352."
+    referenceIds:
+      - doi:10.1186/1471-2148-7-127
+    identityEvidencePointer: /records/catalogue-dossier
+    studyScope:
+      en: Study-bound biological account; omitted modules are not completed.
+      zh: 限于该研究的生物学叙述；省略模块不计为完成。
+    summarySourceIds:
+      - doi:10.1186/1471-2148-7-127

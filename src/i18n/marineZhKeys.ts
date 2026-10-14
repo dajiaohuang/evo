@@ -117,5 +117,6 @@ export const marineZhKeys = new Set<string>([
   "Partial articulated skeleton preserving occiput, lower jaw, vertebral column, girdles and left limbs",
   "Ventrally concave V-shaped neurocentral sutures in anterior and middle cervical vertebrae",
   "Foreshortened zeugopodials and highly vascularized humeral and femoral bone tissue",
-  "Wintrich et al. describe holotype LWL-MFN P 64047 from a defined bed in the Exter Formation at Bonenburg, 21 m below the Triassic–Jurassic boundary. Figures and supplementary sections document the skeleton and histology; basal pliosaurid placement, fast growth and physiological implications remain topology- and interpretation-dependent.",
+
+  "The Exter Formation holotype documents anatomy and histology; basal placement and physiological implications remain analysis-dependent.",
 ])

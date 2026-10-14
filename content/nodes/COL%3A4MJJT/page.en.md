@@ -1,17 +1,9 @@
 ## Accepted name and classification {#s-9559697c9a}
 In the 20 August 2026 COL26.8 release, Pristimantis nimbus Urgilés, Posse, Timbe, Astudillo & Sánchez-Nivicela, 2017 is an accepted species. Its recorded classification path is Anura (order) → Strabomantidae (family) → Pristimantis (genus).
 
-## What the catalogue record shows {#s-19e8fa4ef8}
-The bound catalogue source establishes the accepted name and classification only. It provides no species-specific evidence here for anatomy, habitat, life history, distribution, evolution, or conservation.
+## What the first study observed at the type locality {#bio-r16-1}
+The original description reports P. nimbus only from its type locality in the Tinajillas–Río Gualaceño conservation area, at 2,200–2,400 m. The abstract describes yellow oval or blotched flank, groin and arm-insertion flash marks bordered by dark pigment, slightly enlarged toe pads, finely shagreen dorsal skin, and males with nuptial pads but no vocal slits. At night, observed frogs perched 80–150 cm above ground on leaves and branches. Stomach analyses recorded 17 prey items spanning five orders, with prey species unidentified. These are observations from the original description's sampled locality and material; the abstract does not establish a complete diet, population distribution or seasonal pattern.
 
-## Linked source records {#s-f92c140961}
-These linked records follow accepted names or recorded synonyms within Anura. A name match offers a path to the source material, but does not transfer its biological claims to the species concept used here. Each study retains its own sample and scope.
-
-- [Amphibian morphology v3: Pristimantis nimbus](../../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Brachycephaloidea/Pristimantis/Pristimantis_nimbus/page.en.md)
-
-## Scope of the evidence {#s-6f011fdc3f}
-The catalogue records taxonomic identity, not species biology.
-
-## Using the linked literature index {#s-1c2d0d881a}
-The linked literature index is a discovery aid, not a source of biological findings. Follow individual studies for evidence about this species.
+## What the first study observed at the type locality {#brief-r16}
+The original abstract reports a type-locality-only record at 2,200–2,400 m, nocturnal perching, diagnostic traits and 17 unidentified prey items.
 

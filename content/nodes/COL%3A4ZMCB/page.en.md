@@ -1,9 +1,12 @@
 ## Accepted name and placement {#s-7606d2d3f1}
 COL26.8 accepts Staurois nubilus (Mocquard, 1890) as a species. Its recorded classification places it along Anura (order) → Ranidae (family) → Staurois (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
 
-## Reading route {#s-1c28f634fd}
-Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+## Six clades in the sampled phylogeny {#s-1c28f634fd}
+A 16S rRNA analysis of 92 Staurois specimens from Borneo and the Philippines recovered six major clades corresponding to the six recognized species, including S. nubilus. The authors also found substantial genetic variation within some sampled species and noted it could motivate future taxonomic work. This study supports the sampled phylogenetic placement; it is not a full ecology or conservation account for S. nubilus.
 
 ## catalogue-profile / limitations {#s-e77fed19a9}
-Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
+The primary passage cited above supports only the observations and interpretation summarized here. It does not establish a complete biological account or resolve the identity of separate historical dataset records.
+
+## Six clades in the sampled treefrog phylogeny {#card}
+A 16S rRNA analysis of 92 Staurois specimens from Borneo and the Philippines recovered six major clades corresponding to the six species recognized in that study, including Staurois nubilus. Some sampled species showed substantial genetic variation, which the authors said could motivate future taxonomic work.
 

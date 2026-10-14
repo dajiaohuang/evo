@@ -13,6 +13,7 @@ records:
           - taxonomy
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - rojas-runjaic-et-al-2021-kataphraktosaurus
         text:
           zh:
             page: zh
@@ -26,6 +27,7 @@ records:
         sourceIds:
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - rojas-runjaic-et-al-2021-kataphraktosaurus
         text:
           zh:
             page: zh
@@ -98,6 +100,19 @@ records:
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
             en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: rojas-runjaic-et-al-2021-kataphraktosaurus
+        referenceId: rojas-runjaic-et-al-2021-kataphraktosaurus
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Publisher abstract, diagnosis summary
+          scope:
+            en: "Only claims stated in publisher abstract: monotypic genus, abstract diagnosis, and one-specimen scope; detailed treatment claims omitted."
+            zh: 仅采用出版方摘要陈述：单型属、摘要所列诊断及单件标本范围；省略需要完整处理文本支持的细节。
     limitations:
       zh:
         page: zh
@@ -107,3 +122,14 @@ records:
         page: en
         section: s-f20c6cc294
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - rojas-runjaic-et-al-2021-kataphraktosaurus

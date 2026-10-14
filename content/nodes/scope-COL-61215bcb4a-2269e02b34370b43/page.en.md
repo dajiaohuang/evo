@@ -20,7 +20,7 @@ The selected studies do not assign an ecological guild.
 In one 2015 Cayo Santiago pedigree sample, most measured male morphometric traits were heritable under the study’s pooled models; this cohort result is not species-wide.
 
 ## Evidence across five study settings {#s-ee6ebcb970}
-The evidence includes 81 macaques at 17 Chinese sites, one 64-member Buxa troop, Cayo Santiago pedigree and mating-season cohorts, and 54 road deaths on an 11-km NH-7 segment in 2009?2010. The road count is local, not a population mortality estimate or current conservation assessment.
+The evidence includes 81 macaques at 17 Chinese sites, one 64-member Buxa troop, Cayo Santiago pedigree and mating-season cohorts, and 54 road deaths on an 11-km NH-7 segment in 2009–2010. The road count is local, not a population mortality estimate or current conservation assessment.
 
 ## Separate populations, measures and questions {#s-e66808fdcf}
 Morphometrics and pedigree records come from managed Cayo Santiago macaques; feeding and travel were observed in a wild Buxa troop; Chinese samples were used for population genomics. Keeping those settings separate is necessary to interpret each result.
@@ -38,7 +38,7 @@ Researchers followed one 64-member troop near Buxa from October 2013 to Septembe
 A 2015 study measured 125 adult males and 21 female relatives at Cayo Santiago. Under pooled pedigree models, several male traits, including body mass, crown?rump length and canine length, met the authors' heritability criterion; testicular volume did not and its estimate was imprecise. This managed cohort is not a morphology survey of the native range.
 
 ## Paternity sampled at one year {#s-c6f421a06c}
-During the 2013 mating season, researchers followed 21 high-ranking males aged 7?21 across nine provisioned, semi-free-ranging groups. Older males were associated with fewer offspring recorded by the study. Paternity was sampled at one year, so infants that died earlier were not assigned; this is not lifetime reproductive success.
+During the 2013 mating season, researchers followed 21 high-ranking males aged 7–21 across nine provisioned, semi-free-ranging groups. Older males were associated with fewer offspring recorded by the study. Paternity was sampled at one year, so infants that died earlier were not assigned; this is not lifetime reproductive success.
 
 ## Road deaths on one NH-7 segment {#s-b3f95a1bc6}
 From August 2009 to July 2010, observers recorded 54 rhesus macaques killed along an 11-km National Highway 7 segment near Pench: 27 in summer, 19 in winter and eight during the monsoon. These are local road observations, not a population mortality rate or current threat assessment.

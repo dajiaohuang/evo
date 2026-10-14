@@ -3414,8 +3414,8 @@
   },
   {
     "id": "famennian-priscomyzon-oral-disc",
-    "title": "A Devonian lamprey mouth preserved in Priscomyzon",
-    "titleZh": "Priscomyzon 保存的泥盆纪七鳃鳗口部",
+    "title": "The oral disc preserved in one holotype",
+    "titleZh": "一件正模保存的口盘",
     "category": "innovation",
     "startAge": 360,
     "endAge": 359,
@@ -3426,14 +3426,14 @@
       "Priscomyzon riniensis",
       "total-group Petromyzontida"
     ],
-    "summary": "The 4.2 cm holotype AM5750 of Priscomyzon riniensis, from Famennian strata dated to about 360 Ma, preserves a large oral disc, fourteen circumoral teeth and a branchial basket. It documents a Devonian member of the lamprey total group, but does not establish a crown-group first appearance, parasitic feeding, migration or an ammocoete lifecycle.",
-    "summaryZh": "Priscomyzon riniensis 正模 AM5750 长 4.2 厘米，出自约 360 Ma 的法门期地层，保存大型口盘、14 枚口周齿和鳃篮。它记录了泥盆纪七鳃鳗总群成员，但不能确立冠群七鳃鳗的首现时间，也未直接证明寄生摄食、洄游或沙隐幼体生命周期。",
+    "summary": "The Devonian Priscomyzon holotype preserves an oral disc and branchial structures. A later study examined a growth series from the same genus, adding evidence about early life stages. The original description and the later interpretation remain separate accounts, rather than a complete modern lamprey life cycle.",
+    "summaryZh": "泥盆纪 Priscomyzon 正模保存了口盘和鳃部结构。后来的研究观察同属材料的生长系列，为早期生活阶段增加了证据。原始描述与后来的解释需要分别阅读，不能把它们拼成一套完整的现代七鳃鳗生命周期。",
     "claimIds": [
       "claim:event:famennian-priscomyzon-oral-disc"
     ],
     "evidenceItems": [
       {
-        "statement": "Holotype AM5750 preserves a large oral disc with fourteen circumoral teeth and a well-defined branchial basket in a 4.2 cm body",
+        "statement": "Holotype AM5750 is little over 4.2 cm long and preserves a large oral disc supported by annular cartilage, fourteen simple circumoral teeth with the posterior teeth appearing more elongated, and a branchial basket",
         "relation": "supports",
         "claimIds": [
           "claim:event:famennian-priscomyzon-oral-disc"
@@ -3442,14 +3442,14 @@
           {
             "relation": "supports",
             "referenceId": "gess-2006-priscomyzon",
-            "pages": "981–983",
-            "figure": "Figures 1–2",
-            "quoteLocator": "Description and reconstruction of Priscomyzon"
+            "pages": "author-uploaded proof pages 1–2; published article Nature 443, 981–984",
+            "figure": "Figure 1",
+            "quoteLocator": "Systematic palaeontology: Holotype and Diagnosis; Description, oral-disc and circumoral-teeth paragraphs; Figure 1 caption. Proof pagination is distinct from the printed journal pagination."
           }
         ]
       },
       {
-        "statement": "The specimen comes from the Famennian Witpoort Formation at Waterloo Farm, approximately 360 Ma on the source's numerical framing",
+        "statement": "The specimen is a little over 4.2 cm long and comes from the Famennian Witpoort Formation (Witteberg Group) at Waterloo Farm near Grahamstown, South Africa; the article's Figure 1 caption describes it as 360 million years old",
         "relation": "supports",
         "claimIds": [
           "claim:event:famennian-priscomyzon-oral-disc"
@@ -3458,16 +3458,32 @@
           {
             "relation": "supports",
             "referenceId": "gess-2006-priscomyzon",
-            "pages": "981–984",
+            "pages": "author-uploaded proof pages 1–2; published article Nature 443, 981–984",
             "figure": "Figure 1",
-            "quoteLocator": "Locality and horizon; Abstract"
+            "quoteLocator": "Systematic palaeontology: Locality and horizon; Diagnosis and Description opening; Figure 1 caption. Proof pagination is distinct from the printed journal pagination."
+          }
+        ]
+      },
+      {
+        "statement": "A later study reports larval and juvenile Priscomyzon, including a hatchling-to-adult growth series; the sampled larvae lack the defining traits of modern ammocoetes and instead show prominent eyes, a cusped feeding apparatus and posteriorly united branchial baskets.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:famennian-priscomyzon-oral-disc"
+        ],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "miyashita-2021-palaeozoic-stem-lamprey-larvae",
+            "pages": "408–412",
+            "figure": "Figure 1; Extended Data Figures 1 and 3–5",
+            "quoteLocator": "Abstract; Priscomyzon ontogenetic series and figure captions"
           }
         ]
       }
     ],
     "uncertaintyItems": [
       {
-        "statement": "A single fossil does not preserve an ammocoete stage, metamorphosis, parasitism or migration and therefore cannot establish a modern lamprey lifecycle",
+        "statement": "The holotype does not preserve a feeding act or migration, and cannot by itself demonstrate a complete life cycle; the 2006 authors’ parasitic-feeding interpretation is an inference from oral anatomy.",
         "relation": "contextualizes",
         "claimIds": [
           "claim:event:famennian-priscomyzon-oral-disc"
@@ -3476,9 +3492,9 @@
           {
             "relation": "supports",
             "referenceId": "gess-2006-priscomyzon",
-            "pages": "981–984",
+            "pages": "author-uploaded proof page 3; published article Nature 443, 981–984",
             "figure": "Figure 3",
-            "quoteLocator": "Phylogenetic discussion"
+            "quoteLocator": "Discussion of parasitic-feeding adaptation and the single-specimen inference boundary; proof pagination is distinct from final printed pagination."
           }
         ]
       },
@@ -3497,12 +3513,66 @@
           }
         ]
       }
+    ],
+    "referenceIds": [
+      "gess-2006-priscomyzon",
+      "miyashita-2021-palaeozoic-stem-lamprey-larvae"
+    ],
+    "readerSources": [
+      {
+        "id": "gess-2006-priscomyzon",
+        "referenceId": "gess-2006-priscomyzon",
+        "title": {
+          "en": "A lamprey from the Devonian period of South Africa",
+          "zh": "A lamprey from the Devonian period of South Africa"
+        },
+        "url": "https://doi.org/10.1038/nature05150",
+        "scope": {
+          "en": "The original numbered specimen description, locality and preservation-bound anatomy, with later interpretations kept separate.",
+          "zh": "原始具编号标本的描述、地点和受保存条件约束的解剖观察；后来的解释保持分开。"
+        },
+        "locator": "Author-uploaded full-text rendering of the 2006 article: proof page 1 (Systematic palaeontology, Holotype, Locality and horizon, Diagnosis, Description); proof page 2 (Figure 1 caption). Nature 443, pp. 981–984 is the final journal citation, not the proof-page locator. Proof page 3: discussion of parasitic-feeding interpretation.",
+        "readingUrl": "https://www.researchgate.net/publication/6730237_A_lamprey_from_the_Devonian_period_of_South_Africa",
+        "version": "Author-uploaded proof-like full-text rendering; production markers Vol 000 | 00 Month 2006. Final publication citation remains Nature 443, 981–984 (2006)."
+      },
+      {
+        "id": "miyashita-2021-palaeozoic-stem-lamprey-larvae",
+        "referenceId": "miyashita-2021-palaeozoic-stem-lamprey-larvae",
+        "title": {
+          "en": "Non-ammocoete larvae of Palaeozoic stem lampreys",
+          "zh": "Non-ammocoete larvae of Palaeozoic stem lampreys"
+        },
+        "url": "https://doi.org/10.1038/s41586-021-03305-9",
+        "scope": {
+          "en": "The paper’s sampled Priscomyzon growth series and early life stages, distinct from the original holotype description.",
+          "zh": "论文取样的 Priscomyzon 生长系列与早期生活阶段，区别于原始正模描述。"
+        },
+        "locator": "Nature 591, pp. 408–412; Figure 1; Extended Data Figures 1 and 3–5; abstract and specimen-series captions"
+      }
+    ],
+    "readerSections": [
+      {
+        "id": "material-account",
+        "topic": "morphology",
+        "title": {
+          "en": "The oral disc preserved in one holotype",
+          "zh": "一件正模保存的口盘"
+        },
+        "text": {
+          "en": "The holotype AM5750 of *Priscomyzon riniensis* is a little over 4.2 cm long. Gess, Coates and Rubidge's 2006 description places it at Waterloo Farm near Grahamstown, South Africa, in the Famennian Witpoort Formation of the Witteberg Group. They describe a large oral disc with a soft outer lip, supported by annular cartilage, and a circular mouth. Around it are 14 simple circumoral teeth; the posterior teeth appear more elongated than the others. The paper also describes a preserved branchial basket. These are observations of one fossil, not a preserved feeding act.\n\nA later study placed the holotype beside larval and juvenile *Priscomyzon* specimens, including hatchling AM5813 and juvenile AM7538. In that sampled growth series, the larvae lack the defining traits of modern ammocoetes and instead show prominent eyes, a cusped feeding apparatus and posteriorly united branchial baskets. This is a genus-specific fossil series, not a life-history template for every lamprey.\n\nThe comparison sharpens a question about lamprey history: was the filter-feeding ammocoete an ancient vertebrate stage or a later lamprey specialization? From comparisons across four Palaeozoic stem-lamprey genera, the 2021 authors argue that the ammocoete stage arose later. Separately, the 2006 authors interpreted Priscomyzon's oral structures as evidence of a specialized parasitic-feeding adaptation. The holotype preserves anatomy, not a feeding act or evidence of migration.",
+          "zh": "*Priscomyzon riniensis* 正模 AM5750 长略多于 4.2 厘米。Gess、Coates 与 Rubidge 在 2006 年的描述将其产地记为南非 Grahamstown 附近的 Waterloo Farm，地层为法门期 Witpoort 组（Witteberg 群）。作者描述了大型口盘、柔软的外唇、支撑口盘的环状软骨和圆形口部。口部周围有 14 枚简单口周齿；后部齿似乎比其他牙齿更长。论文还描述了保存下来的鳃篮。这些是单件化石的解剖观察，不是摄食行为的直接记录。\n\n后来的研究把这件正模与同属的幼体、幼年个体并列，包括孵化个体 AM5813 和幼年个体 AM7538。在该生长序列所采到的幼体中，未见现代沙隐幼体的定义特征；相反，它们已有显著眼部、带尖突的摄食装置和后方相连的鳃篮。这是该属一组化石的发育记录，不能当作所有七鳃鳗的生活史模板。\n\n这组比较把一个演化问题说得更具体：滤食性沙隐幼体是古老脊椎动物阶段，还是七鳃鳗后来形成的特化？2021 年作者根据四个古生代七鳃鳗干群属的比较，提出沙隐幼体阶段是后来形成的。另一个问题来自 2006 年作者：他们把 *Priscomyzon* 的口部结构解释为特化寄生摄食的适应。正模保存的是解剖结构，没有直接保存摄食行为，也没有记录洄游。"
+        },
+        "sourceIds": [
+          "gess-2006-priscomyzon",
+          "miyashita-2021-palaeozoic-stem-lamprey-larvae"
+        ]
+      }
     ]
   },
   {
     "id": "mazon-creek-myxinikela-stem-hagfish",
-    "title": "A Carboniferous fossil at the hagfish stem",
-    "titleZh": "石炭纪化石提供盲鳗干群线索",
+    "title": "Myxinikela: two fossils and a disputed anatomy",
+    "titleZh": "Myxinikela：两件化石与有歧义的解剖",
     "category": "origin",
     "startAge": 310,
     "endAge": 307,
@@ -3514,8 +3584,8 @@
       "stem Myxinoidea",
       "Cyclostomata"
     ],
-    "summary": "Two Moscovian Francis Creek Shale fossils—holotype FMNH PF15373 (73.3 mm) and paratype FMNH PF8472 (62.5 mm)—preserve body outlines and soft-tissue traces combining cyclostome features with hagfish specializations. They support a stem or possible total-group hagfish interpretation, not crown Myxini. The material does not establish deep-water habitat, slime production or modern hagfish ecology, and some structures remain equivocal.",
-    "summaryZh": "莫斯科期 Francis Creek 页岩中的两件化石——正模 FMNH PF15373（73.3 毫米）和副模 FMNH PF8472（62.5 毫米）——保存身体轮廓与软组织痕迹，兼具圆口类特征和盲鳗特化。它们支持将 Myxinikela 置于盲鳗干群或可能的总群，而不是盲鳗冠群内部。材料不能证明深水栖息、黏液产生或现代盲鳗式生态，部分结构鉴定也仍有歧义。",
+    "summary": "Two Carboniferous Myxinikela fossils preserve body outlines and soft-tissue traces, but differ in the structures they retain. Comparing their anatomy and preservation leads to a cautious stem-hagfish interpretation. A separate phylogenetic study tests relationships; the fossils do not establish modern hagfish habitat or behaviour.",
+    "summaryZh": "两件石炭纪 Myxinikela 化石保存了身体轮廓和软组织痕迹，但保留下来的结构并不相同。解剖与保存条件的比较，支持谨慎的盲鳗干群解释；另一项系统发育研究则检验亲缘关系。这些材料不能确立现代盲鳗的栖地或行为。",
     "claimIds": [
       "claim:event:mazon-creek-myxinikela-stem-hagfish"
     ],
@@ -3532,7 +3602,7 @@
             "referenceId": "miyashita-2020-myxinikela",
             "pages": "852–860",
             "figure": "Figures 1–4 and 8; Table 1",
-            "quoteLocator": "Systematic palaeontology; anatomical description; reconstruction"
+            "quoteLocator": "Material, locality and horizon, printed p. 851; measurements and specimen anatomy, pp. 852–862; Figures 1–8 and Table 1."
           }
         ]
       },
@@ -3548,7 +3618,23 @@
             "referenceId": "miyashita-2020-myxinikela",
             "pages": "852–855",
             "figure": "Figures 1–4; Table 1",
-            "quoteLocator": "Material, locality and horizon; measurements"
+            "quoteLocator": "Material, locality and horizon, printed p. 851; measurements and specimen anatomy, pp. 852–862; Figures 1–8 and Table 1."
+          }
+        ]
+      },
+      {
+        "statement": "A separate morphology-based analysis places Myxinikela as a stem myxinoid and recovers cyclostome monophyly; it notes that the branchial apparatus is cranial in Myxinikela while slime-gland evidence is sensitive to preservation.",
+        "relation": "contextualizes",
+        "claimIds": [
+          "claim:event:mazon-creek-myxinikela-stem-hagfish"
+        ],
+        "referenceLinks": [
+          {
+            "relation": "supports",
+            "referenceId": "miyashita-2019-tethymyxine",
+            "pages": "2146–2151",
+            "figure": "Figure 3A",
+            "quoteLocator": "Results: Myxinikela stem position; Discussion: crown myxinoid characters and morphological support for cyclostome monophyly"
           }
         ]
       }
@@ -3584,6 +3670,58 @@
             "figure": "Figure 8",
             "quoteLocator": "Discussion: stem-hagfish character evolution"
           }
+        ]
+      }
+    ],
+    "referenceIds": [
+      "miyashita-2020-myxinikela",
+      "miyashita-2019-tethymyxine"
+    ],
+    "readerSources": [
+      {
+        "id": "miyashita-2020-myxinikela",
+        "referenceId": "miyashita-2020-myxinikela",
+        "title": {
+          "en": "A Paleozoic stem hagfish Myxinikela siroka—revised anatomy and implications for evolution of the living jawless vertebrate lineages",
+          "zh": "A Paleozoic stem hagfish Myxinikela siroka—revised anatomy and implications for evolution of the living jawless vertebrate lineages"
+        },
+        "url": "https://doi.org/10.1139/cjz-2020-0046",
+        "scope": {
+          "en": "The original numbered specimen description, locality and preservation-bound anatomy, with later interpretations kept separate.",
+          "zh": "原始具编号标本的描述、地点和受保存条件约束的解剖观察；后来的解释保持分开。"
+        },
+        "locator": "Material, locality and horizon, printed p. 851; measurements and specimen anatomy, pp. 852–862; Figures 1–8 and Table 1."
+      },
+      {
+        "id": "miyashita-2019-tethymyxine",
+        "referenceId": "miyashita-2019-tethymyxine",
+        "title": {
+          "en": "Hagfish from the Cretaceous Tethys Sea and a reconciliation of the morphological–molecular conflict in early vertebrate phylogeny",
+          "zh": "Hagfish from the Cretaceous Tethys Sea and a reconciliation of the morphological–molecular conflict in early vertebrate phylogeny"
+        },
+        "url": "https://doi.org/10.1073/pnas.1814794116",
+        "scope": {
+          "en": "The paper’s morphology-based placement of Myxinikela and comparison of cyclostome characters; not direct ancestry.",
+          "zh": "论文依据形态性状得到的 Myxinikela 位置及圆口类性状比较；不证明直接祖先关系。"
+        },
+        "locator": "PNAS 116, pp. 2146–2151; Figure 3A; Results on Myxinikela stem placement; Discussion on crown myxinoid characters and cyclostome monophyly"
+      }
+    ],
+    "readerSections": [
+      {
+        "id": "material-account",
+        "topic": "morphology",
+        "title": {
+          "en": "Myxinikela: two fossils and a disputed anatomy",
+          "zh": "Myxinikela：两件化石与有歧义的解剖"
+        },
+        "text": {
+          "en": "The holotype FMNH PF15373 (73.3 mm) and paratype FMNH PF8472 (62.5 mm) of *Myxinikela siroka* come from the Moscovian Francis Creek Shale at former Pit 11, Illinois; the recorded age interval is about 310–307 Ma. Their body outlines and soft-tissue traces combine general cyclostome features with traits interpreted as hagfish specializations. The revision compares two specimens, not a complete animal population.\n\nPreservation complicates the comparison: the specimens differ in what they retain, and the paratype does not show definitive cartilage. A 2020 revision therefore treats several structures as equivocal and places *Myxinikela* on the hagfish stem or, more cautiously, in the possible hagfish total group. This fossil is not a record of crown Myxini.\n\nA separate 2019 morphological analysis resolved *Myxinikela* as a stem myxinoid and recovered hagfishes and lampreys together as Cyclostomata. In that study, the branchial apparatus of *Myxinikela* lies within the cranial region, unlike the posteriorly placed branchial series reported for the Cretaceous crown hagfish *Tethymyxine*; the authors also treated slime-gland evidence in *Myxinikela* as preservation-sensitive. These are character-based placements, not proof that either fossil is a direct ancestor. The two Carboniferous specimens do not establish deep-water habitat, slime production or the timing of crown-hagfish origins.",
+          "zh": "*Myxinikela siroka* 正模 FMNH PF15373（73.3 毫米）和副模 FMNH PF8472（62.5 毫米）出自伊利诺伊州 Pit 11 旧采石点的莫斯科期 Francis Creek 页岩；记录采用的年代区间约为 310–307 Ma。两件标本的身体轮廓和软组织痕迹兼有圆口类的一般特征与被解释为盲鳗特化的特征。修订研究比较的是两件标本，而不是完整种群。\n\n保存状况使比较变得复杂：两件标本保留的内容不同，副模没有保存可确证的软骨。2020 年修订因此把若干结构判为有歧义，并将 *Myxinikela* 置于盲鳗干群；更谨慎地说，它可能属于盲鳗总群。它不是盲鳗冠群的记录。\n\n另一项 2019 年形态学分析把 *Myxinikela* 恢复为盲鳗干群成员，并恢复盲鳗与七鳃鳗共同组成圆口类（Cyclostomata）。该研究指出，*Myxinikela* 的鳃器官位于头部区域内；白垩纪冠群盲鳗 *Tethymyxine* 的鳃列则更靠后。作者还指出，*Myxinikela* 的黏液腺证据受保存状况影响。这些是依据性状作出的系统发育定位，不证明任一化石是直系祖先。这两件石炭纪标本也不能证明深水栖息、黏液产生或盲鳗冠群的起源时间。"
+        },
+        "sourceIds": [
+          "miyashita-2020-myxinikela",
+          "miyashita-2019-tethymyxine"
         ]
       }
     ]

@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-study
       - topic: overview
         title:
           en:
@@ -81,7 +82,7 @@ records:
               zh: Amphibian morphology v3 — 原始数据集
       - topic: limitations
         title:
-          en: Research text pending
+          en: Material and scope
           zh: 材料与适用范围
         text:
           en:
@@ -147,6 +148,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-study
+        referenceId: doi-10-11646-zootaxa-4363-3-2
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Primary abstract and diagnosis; distribution and relationship.
+          scope:
+            en: Supports the diagnosis and study observations summarized here; no unsampled range or broader causal claim is inferred.
+            zh: 仅支持此处概述的诊断和研究观察；不推断未采样分布或更广泛因果关系。
     limitations:
       en:
         page: en
@@ -156,3 +170,14 @@ records:
         page: zh
         section: s-eec5f53f17
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-study

@@ -133,6 +133,9 @@ record locators, source hashes, excerpts, and rights assessments are
 provenance. Preserve them. Review dates, freshness scores, migration receipts,
 and obsolete authoring-path mappings do not belong in canonical node content.
 Recorded archive and source-file locators remain scientific provenance.
+The codec rejects `existingCanonicalPath` anywhere in node identity, including
+copied source-index entries. Use recorded source IDs and snapshot locators;
+do not recreate retired directory aliases.
 
 ## Projections
 
@@ -165,3 +168,17 @@ The full-web publication generator reuses that runtime index for its links;
 it does not reopen all canonical nodes. Standalone PBDB HTML exports are derived
 from the same records and retain source contexts, passage bindings and rights.
 They are exports, while CI and Pages deployment follow the map workspace build.
+
+Atlas ecology fields are optional: omit unsupported fields instead of inserting
+empty strings or whole-clade generalizations. Keep the profile bibliography bound
+to registered references and passage citations. Reference `fitnessFor` tags are
+optional; missing tags do not justify inferred source assessments. Preserve a
+recorded cited-text URL and locator when it differs from the published item, along
+with the actual source version and item-level rights evidence.
+
+Catalogue authored previews use an optional bilingual `catalogue-profile.summary`
+(page section pointers in raw evidence) and `summarySourceIds: string[]`. When
+authored, both locales must be nonempty and the source list must be nonempty,
+unique, and reference the profile's current `sources` IDs. Select only sources
+supporting that edited preview; never copy the whole account bibliography.
+Absent previews retain the name reader. Invalid preview bindings fail closed.

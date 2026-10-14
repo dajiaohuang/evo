@@ -1638,6 +1638,8 @@ export interface CatalogueFdacDescriptionRecord {
 }
 
 export interface CatalogueKnowledgeProfile {
+  summary?: { en: string; zh: string }
+  summarySourceIds?: string[]
   readingIntroduction?: Omit<NodeReadingSection, 'id'>
   colId: string
   scientificName: string
@@ -1664,7 +1666,7 @@ export interface CatalogueKnowledgeProfile {
     attribution?: string
     readingTargets?: Array<{ name: string; colId?: string; release?: string; pbdbTaxonId?: string }>
   }>
-  limitations: { zh: string; en: string }
+  limitations?: { zh: string; en: string }
 }
 
 export interface CatalogueSpeciesDossier {
@@ -1681,6 +1683,7 @@ export interface CatalogueSpeciesDossier {
 }
 
 export interface CatalogueKnowledgeRecord {
+  releaseAlias: string
   colId: string
   descriptionCollections: string[]
   profile?: CatalogueKnowledgeProfile

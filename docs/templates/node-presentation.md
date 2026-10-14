@@ -61,3 +61,10 @@
 5. 正文写回实际源文件，投影与适用发布版本一致；只运行与这次改动相关的必要检查。
 
 这些是制作动作和交付条件，不作为读者可见的评审状态或维护评分。
+
+Catalogue authored previews use an optional bilingual `catalogue-profile.summary`
+(page section pointers in raw evidence) and `summarySourceIds: string[]`. When
+authored, both locales must be nonempty and the source list must be nonempty,
+unique, and reference the profile's current `sources` IDs. Select only sources
+supporting that edited preview; never copy the whole account bibliography.
+Absent previews retain the name reader. Invalid preview bindings fail closed.

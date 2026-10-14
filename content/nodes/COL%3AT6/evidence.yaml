@@ -1,0 +1,95 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Beloniformes
+    rank: order
+    sourceDatasetId: "1010"
+    name:
+      en: Beloniformes
+      zh: Beloniformes
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: jaw-structure
+            part: title
+          zh:
+            page: zh
+            section: jaw-structure
+            part: title
+        text:
+          en:
+            page: en
+            section: jaw-structure
+            part: body
+          zh:
+            page: zh
+            section: jaw-structure
+            part: body
+        sourceIds:
+          - s23
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: lineages-and-jaws
+            part: title
+          zh:
+            page: zh
+            section: lineages-and-jaws
+            part: title
+        text:
+          en:
+            page: en
+            section: lineages-and-jaws
+            part: body
+          zh:
+            page: zh
+            section: lineages-and-jaws
+            part: body
+        sourceIds:
+          - l04
+    sources:
+      - id: l04
+        referenceId: r15-beloniform-phylogeny-2004
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: 54-species beloniform phylogeny, sampled nuclear and mitochondrial genes, and mapped jaw evolution.
+            zh: 54 种银汉鱼目的系统树、所采核基因与线粒体基因，以及映射的颌部演化。
+          locator: Synopsis/abstract; methods and results summary
+      - id: s23
+        referenceId: r15-belonoid-jaws-2023
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Early jaw development of Dermogenys pusilla and Xenentodon cancila; morphometrics, transcriptomics and in situ hybridization.
+            zh: Dermogenys pusilla 与 Xenentodon cancila 的早期颌部发育；形态测量、转录组和原位杂交。
+          locator: Abstract; Results and Discussion, pp. 6–9
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - l04
+      - s23

@@ -73,7 +73,9 @@ const profiles = profileSources.map((source) => {
   if (!globalRange) throw new Error(`Profile ${profile.id} has no canonical global range`)
   profile.firstAppearance = globalRange.olderMa
   profile.lastAppearance = globalRange.youngerMa
-  profile.rangeEvidenceLevel = globalRange.evidenceLevel
+  profile.rangeEvidenceLevel = globalRange.status === 'withheld-pending-provenance'
+    ? 'withheld-no-range-evidence'
+    : globalRange.evidenceLevel
   profile.rangeProvisional = Boolean(globalRange.uncertainty) || globalRange.confidence !== 'high'
   profile.regionalRanges = (source.regionalRanges ?? []).map((regional) => {
     const canonical = ranges.find((range) => range.id === regional.canonicalRangeId)

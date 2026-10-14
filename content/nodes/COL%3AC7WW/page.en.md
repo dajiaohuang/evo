@@ -1,15 +1,15 @@
 ## Accepted name and placement {#s-162171a1f8}
 COL26.8 accepts Alsodes gargola Gallardo, 1970 as a species. Its recorded classification places it along Anura (order) → Alsodidae (family) → Alsodes (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
 
-## Name, placement and evidence scope {#s-c3a1538808}
+## Larvae and adults in separate studies {#s-c3a1538808}
 COL26.8 records the accepted name and taxonomic path. The summaries below draw on separate datasets and two studies; their species concepts, samples and methods remain distinct, so they do not form one complete current account.
 
 ## Linked datasets and studies {#s-3737f584d0}
 This page links to AmphiBIO v1, TadpoleTraits v4 and the AmphiTherm snapshot, and summarizes separate shape and conservation studies. Same-name records are leads for comparison, not proof that a source concept matches the current catalogue species. Each summary keeps its original sample and method limits.
 
-- [AmphiBIO v1: Alsodes gargola](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Cycloramphidae/Alsodes/Alsodes_gargola/page.en.md)
-- [TadpoleTraits v4: Alsodes gargola](../../../../../../../../../../../../../topics/research/TadpoleTraits/Alsodidae/Alsodes/Alsodes_gargola/page.en.md)
-- [AmphiTherm curated snapshot: Alsodes gargola](../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Alsodidae/Alsodes/Alsodes_gargola/page.en.md)
+- AmphiBIO v1: Alsodes gargola
+- TadpoleTraits v4: Alsodes gargola
+- AmphiTherm curated snapshot: Alsodes gargola
 
 ## Tadpole stages in TadpoleTraits v4 {#s-b3dd0f0325}
 For its Alsodes gargola source concept, TadpoleTraits v4 contains seven literature-derived rows and no image-derived rows. The supplied stage labels are NA, 33, 31, 35, 32, 34 and 36. These labels and their uncertainty follow the source; a stage inferred from a picture is not a direct observation. Seven rows are not seven unique animals, and sample sizes from separate studies are not added together. The source concept has not been matched to the current catalogue concept.
@@ -58,7 +58,4 @@ The row codes Alsodes gargola as larval LE (lentic) and adult SEMAQ (semi-aquati
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-ae11503491}
 Across the sampled species, larval–adult shape dissimilarities show a weak but significant Mantel association (r 0.16, p 0.003), while disparity correlations differ among families. The authors interpret the overall pattern as support for adaptive decoupling; it does not demonstrate zero correlation, genetic independence, an experimentally selected trait or this species’ developmental trajectory. Phylogenetic analyses use 74 of the 83 sampled species, and ancestral shape/time patterns are model reconstructions from extant data rather than newly measured fossil morphology. Adult K 0.44 with p 0.001 describes less close-relative similarity than the reference expectation; the paper’s “not phylogenetically structured” wording cannot mean that the test is nonsignificant. Supplement S3 repeats family N values summing to 112 for both stages, so adult individual denominators and imputed cells remain uncertified without raw matrices.
-
-## Research text pending {#s-e839a10f92}
-This page summarizes source-specific larval and adult records, a regional conservation score and a comparative shape study. It does not provide a current census, a full-range diagnosis or independent verification of the underlying source matrices and occurrence records.
 

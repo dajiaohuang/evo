@@ -10,30 +10,51 @@ records:
     sections:
       - topic: overview
         sourceIds:
-          - pbdbOtherSynapsidaTaxonomy20261002
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-alierasaurus-2017
         text:
-          zh:
-            page: zh
-            section: s-4ae330e036
-            part: body
           en:
             page: en
-            section: s-a73b657e5e
+            section: summary
             part: body
-      - topic: readingPath
+          zh:
+            page: zh
+            section: summary
+            part: body
+      - topic: material
         sourceIds:
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-alierasaurus-2017
         text:
-          zh:
-            page: zh
-            section: s-c30a4852cc
-            part: body
           en:
             page: en
-            section: s-02ede3bce6
+            section: structures
+            part: body
+          zh:
+            page: zh
+            section: structures
+            part: body
+      - topic: study
+        sourceIds:
+          - study-alierasaurus-2017
+        text:
+          en:
+            page: en
+            section: study
+            part: body
+          zh:
+            page: zh
+            section: study
+            part: body
+      - topic: scope
+        sourceIds:
+          - study-alierasaurus-2017
+        text:
+          en:
+            page: en
+            section: limits
+            part: body
+          zh:
+            page: zh
+            section: limits
             part: body
     sources:
       - id: pbdbOtherSynapsidaTaxonomy20261002
@@ -93,12 +114,53 @@ records:
           scope:
             zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
             en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: study-alierasaurus-2014
+        referenceId: ref-alierasaurus-romano-nicosia-2014
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports only the edited short preview; the specimen or anatomical description in this account, within the source read extent and stated specimen scope.
+            zh: 仅在本账户中支持经编辑的简短摘要；标本或解剖描述，且受已查阅来源范围及所述标本范围限制。
+          locator: "Romano and Nicosia 2014: abstract lines on Cala del Vino material, foot and ten-specimen scaling."
+      - id: study-alierasaurus-2017
+        referenceId: ref-alierasaurus-romano-et-al-2017
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports only the edited short preview; the specimen or anatomical description; the study interpretation or comparison; the stated evidence limits in this account, within the source read extent and stated specimen scope.
+            zh: 仅在本账户中支持经编辑的简短摘要；标本或解剖描述；研究解释或比较；所述证据范围限制，且受已查阅来源范围及所述标本范围限制。
+          locator: "Romano et al. 2017: additional material, holotype attribution, caseid features and topology."
     limitations:
-      zh:
-        page: zh
-        section: s-5710de4f69
-        part: body
       en:
         page: en
-        section: s-1611ab4b5f
+        section: limits
         part: body
+      zh:
+        page: zh
+        section: limits
+        part: body
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - study-alierasaurus-2017

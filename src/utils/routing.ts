@@ -9,6 +9,11 @@ const ROUTES = new Set<AppRoute>([
   'home', 'catalog', 'registry', 'pbdb', 'stories', 'explore', 'research', 'info', 'taxa', 'events', 'compare', 'lab',
 ])
 
+export function isKnownRouteHash(hash: string): boolean {
+  const [route] = hash.replace(/^#\/?/, '').split('?')
+  return ROUTES.has(route as AppRoute)
+}
+
 export function parseRouteHash(hash: string): RouteState {
   const normalized = hash.replace(/^#\/?/, '')
   const [rawRoute = 'home', query = ''] = normalized.split('?')

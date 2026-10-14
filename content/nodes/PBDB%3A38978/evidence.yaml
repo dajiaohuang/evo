@@ -10,30 +10,51 @@ records:
     sections:
       - topic: overview
         sourceIds:
-          - pbdbOtherSynapsidaTaxonomy20261002
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-tapinocephalidae-2013
         text:
-          zh:
-            page: zh
-            section: s-fb3f80375f
-            part: body
           en:
             page: en
-            section: s-f8b6782a65
+            section: summary
             part: body
-      - topic: readingPath
+          zh:
+            page: zh
+            section: summary
+            part: body
+      - topic: material
         sourceIds:
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-tapinocephalidae-2013
         text:
-          zh:
-            page: zh
-            section: s-a432a96486
-            part: body
           en:
             page: en
-            section: s-b76835f8df
+            section: structures
+            part: body
+          zh:
+            page: zh
+            section: structures
+            part: body
+      - topic: study
+        sourceIds:
+          - study-tapinocephalidae-2013
+        text:
+          en:
+            page: en
+            section: study
+            part: body
+          zh:
+            page: zh
+            section: study
+            part: body
+      - topic: scope
+        sourceIds:
+          - study-tapinocephalidae-2013
+        text:
+          en:
+            page: en
+            section: limits
+            part: body
+          zh:
+            page: zh
+            section: limits
             part: body
     sources:
       - id: pbdbOtherSynapsidaTaxonomy20261002
@@ -105,12 +126,37 @@ records:
           scope:
             zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
             en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: study-tapinocephalidae-2013
+        referenceId: ref-tapinocephalidae-guven-rubidge-abdala-2013
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports only the edited short preview; the specimen or anatomical description; the study interpretation or comparison; the stated evidence limits in this account, within the source read extent and stated specimen scope.
+            zh: 仅在本账户中支持经编辑的简短摘要；标本或解剖描述；研究解释或比较；所述证据范围限制，且受已查阅来源范围及所述标本范围限制。
+          locator: "Guven, Rubidge and Abdala 2013: SAM-PK-003400, SAM-PK-009166 and synonymy."
     limitations:
-      zh:
-        page: zh
-        section: s-b22d6219bd
-        part: body
       en:
         page: en
-        section: s-ba4f474813
+        section: limits
         part: body
+      zh:
+        page: zh
+        section: limits
+        part: body
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - study-tapinocephalidae-2013

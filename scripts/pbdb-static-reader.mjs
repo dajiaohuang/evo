@@ -164,6 +164,8 @@ function sourceMarkup(source, { language, references, basePath, staticEdition, s
     [language === 'zh' ? '来源 URL' : 'Source URL', source?.usage?.url ?? source?.url ?? reference?.url],
     [language === 'zh' ? '来源范围' : 'Source scope', usage.scope ?? source?.scope],
     [language === 'zh' ? '来源定位' : 'Source locator', usage.locator ?? source?.locator],
+    [language === 'zh' ? '所引文本' : 'Cited text', usage.readingUrl ?? source?.readingUrl ?? reference?.readingUrl],
+    [language === 'zh' ? '所引文本定位' : 'Cited text locator', usage.readingLocator ?? source?.readingLocator ?? reference?.readingLocator],
     [language === 'zh' ? '版本' : 'Version', usage.version ?? source?.version ?? source?.sourceVersion ?? reference?.version ?? reference?.sourceVersion],
     [language === 'zh' ? '发布日期' : 'Published', usage.publishedAt ?? source?.publishedAt ?? reference?.publishedAt],
     [language === 'zh' ? '访问日期' : 'Accessed', usage.accessedAt ?? source?.accessedAt ?? reference?.accessedAt],

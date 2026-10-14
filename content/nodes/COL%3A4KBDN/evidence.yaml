@@ -29,57 +29,48 @@ records:
             part: body
         sourceIds:
           - taxonomy
-      - topic: overview
+      - topic: biology
         title:
           en:
             page: en
-            section: s-6f2dd97cec
+            section: bio-r16-1
             part: title
           zh:
             page: zh
-            section: s-433a844c19
+            section: bio-r16-1
             part: title
         text:
           en:
             page: en
-            section: s-6f2dd97cec
+            section: bio-r16-1
             part: body
           zh:
             page: zh
-            section: s-433a844c19
+            section: bio-r16-1
             part: body
         sourceIds:
-          - taxonomy
-      - topic: overview
+          - study-r16
+      - topic: brief
         title:
           en:
             page: en
-            section: s-e37b1db532
+            section: brief-r16
             part: title
           zh:
             page: zh
-            section: s-7a8a841a96
+            section: brief-r16
             part: title
-        sourceIds:
-          - amphibio
-          - tetrapodtraits-revisions
-        readingRouteKind: source-reading-route
         text:
           en:
             page: en
-            section: s-e37b1db532
+            section: brief-r16
             part: body
           zh:
             page: zh
-            section: s-7a8a841a96
+            section: brief-r16
             part: body
-        readingLinks:
-          - kind: source
-            url: https://doi.org/10.6084/m9.figshare.4644424.v5
-            targetPath: content/nodes/context-f8e177988210d805999a7155f6b5d961
-            label:
-              en: AmphiBIO v1 — original dataset
-              zh: AmphiBIO v1 — 原始数据集
+        sourceIds:
+          - study-r16
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -153,12 +144,29 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
-    limitations:
+      - id: study-r16
+        referenceId: ref-a81a469b-157b-5803-bd93-0d09dfd5da7c
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Controlled mesocosm experiments on larval Pleurodema borellii exposed to methimazole or thyroxine during early or late development; supports only those treatment, stage and measured-response claims.
+            zh: 对 Pleurodema borellii 幼体进行甲巯咪唑或甲状腺素处理的中宇宙实验，比较早期与晚期暴露；仅支持这些处理、发育阶段和测量响应方面的主张。
+          locator: Abstract; Methods; Results, pp. 5-7, Figs. 2-4 and Table 3.
+    summary:
       en:
         page: en
-        section: s-cb9d322c7a
+        section: brief-r16
         part: body
       zh:
         page: zh
-        section: s-472e0139f7
+        section: brief-r16
         part: body
+    summarySourceIds:
+      - study-r16

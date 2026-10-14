@@ -1,15 +1,15 @@
 ## 接受名称与分类位置 {#s-0aa38cda0d}
 COL26.8 接受 Alsodes gargola Gallardo, 1970 为种级记录，所记分类路径为 Anura（目） → Alsodidae（科） → Alsodes（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
 
-## 阅读路线 {#s-9bde7f08f5}
-先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+## 不同研究中的幼体与成体 {#s-9bde7f08f5}
+COL26.8 记录接受名称和分类路径。下文的概述来自不同数据集及两项研究；各自的物种概念、样本与方法保持区分，因此不能拼成一套完整的当前物种档案。
 
 ## 相关来源记录与数据集 {#s-062be9e417}
 以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
 
-- [AmphiBIO v1: Alsodes gargola](../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Cycloramphidae/Alsodes/Alsodes_gargola/page.zh.md)
-- [TadpoleTraits v4: Alsodes gargola](../../../../../../../../../../../../../topics/research/TadpoleTraits/Alsodidae/Alsodes/Alsodes_gargola/page.zh.md)
-- [AmphiTherm curated snapshot: Alsodes gargola](../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Alsodidae/Alsodes/Alsodes_gargola/page.zh.md)
+- AmphiBIO v1: Alsodes gargola
+- TadpoleTraits v4: Alsodes gargola
+- AmphiTherm curated snapshot: Alsodes gargola
 
 ## 发育阶段材料——TadpoleTraits 来源 {#s-2a59245b1f}
 存档来源概念：TadpoleTraits 中的 Alsodes gargola。同名匹配提供阅读线索；与此当前物种概念的等同性仍未核定。汇编为该来源概念保留 7 条文献数据行和 0 条图像数据行，提供的阶段条目为 NA；33；31；35；32；34；36。阶段值及其相伴不确定性按来源标签保留；由图像推断的阶段不视为直接记录的发育观察。数据行数不等于去重的动物数量，各研究的样本量字段也不跨研究相加。
@@ -39,7 +39,7 @@ COL26.8 接受 Alsodes gargola Gallardo, 1970 为种级记录，所记分类路�
 所采物种间，幼体—成体形状不相似性有弱但显著 Mantel 关联（r 0.16、p 0.003），差异度关联随科而异。作者把总体模式解释为支持适应性解耦，不证明零相关、遗传独立、实验选择性状或本种发育轨迹。系统发育分析使用八十三取样种中七十四种，祖先形状/时间模式是从现存资料模型重建，不是新测化石形态。成体 K 0.44、p 0.001 描述近亲相似性低于参考期望；论文“无系统发育结构”措辞不能意味着检验不显著。补充 S3 在两个阶段重复合计一百一十二的逐科 N 值，未有原矩阵时成体个体分母及填补单元格仍未认证。
 
 ## catalogue-profile / limitations {#s-50e6526ee7}
-部分研究范围内的生物学读本。其余生物学主题仍需更多证据。。
+热学数值来自选取的汇编记录，保护与形态结果来自范围有限的研究。来源概念、样本覆盖，以及未解决的矩阵或表格细节，不能据此建立完整的当前物种档案。
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-e5f6a06aa9}
 2024 年智利评估在表 4 为 Alsodes gargola 赋予印刷保育优先指数 2.29，列入中类别。研究使用文献、公民科学记录及政府计划评估所选 58 种，不是对全部种群的新普查。指数结合分布、威胁、种群趋势、分类独特性及体型评分，并加入保护区项。数值是该模型下的管理排序，不是灭绝概率、当前 IUCN 评估或直接种群大小测量。“非优先”或“低”不表示生物学安全或无需保育。

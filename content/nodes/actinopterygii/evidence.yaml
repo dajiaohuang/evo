@@ -1,7 +1,111 @@
 schemaVersion: 1
 records:
   atlas-profile:
-    sections:
+    scientificName: Actinopterygii
+    rank: class
+    commonName: Ray-finned Fish
+    commonNameZh: 辐鳍鱼类
+    parentName: Osteichthyes
+    extinct: false
+    pbdbTaxonId: null
+    geography: []
+    overview:
+      page: en
+      section: reading-introduction
+      part: body
+    overviewZh:
+      page: zh
+      section: reading-introduction
+      part: body
+    ecology: {}
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: early-skeleton
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: early-skeleton
+      part: body
+    confidence: medium
+    referenceIds:
+      - giles-2015-cheirolepis-endoskeleton
+      - braasch-2016-spotted-gar-genome
+      - qi-2024-teleost-3r-dating
+    readerSections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: early-skeleton
+            part: title
+          zh:
+            page: zh
+            section: early-skeleton
+            part: title
+        text:
+          en:
+            page: en
+            section: early-skeleton
+            part: body
+          zh:
+            page: zh
+            section: early-skeleton
+            part: body
+        claimIds:
+          - claim:taxon:actinopterygii:morphology
+        id: early-skeleton
+        sourceIds:
+          - giles-2015-cheirolepis-endoskeleton
+      - topic: topology
+        title:
+          en:
+            page: en
+            section: living-branches
+            part: title
+          zh:
+            page: zh
+            section: living-branches
+            part: title
+        text:
+          en:
+            page: en
+            section: living-branches
+            part: body
+          zh:
+            page: zh
+            section: living-branches
+            part: body
+        claimIds:
+          - claim:taxon:actinopterygii:topology
+        id: living-branches
+        sourceIds:
+          - braasch-2016-spotted-gar-genome
+      - topic: divergence-time
+        title:
+          en:
+            page: en
+            section: genomic-timescale
+            part: title
+          zh:
+            page: zh
+            section: genomic-timescale
+            part: title
+        text:
+          en:
+            page: en
+            section: genomic-timescale
+            part: body
+          zh:
+            page: zh
+            section: genomic-timescale
+            part: body
+        claimIds:
+          - claim:taxon:actinopterygii:divergence-time
+        id: genomic-timescale
+        sourceIds:
+          - qi-2024-teleost-3r-dating
       - topic: fossil-range
         title:
           en:
@@ -23,11 +127,55 @@ records:
             part: body
         claimIds:
           - claim:taxon:actinopterygii:fossil-range
-    scientificName: Actinopterygii
-    name:
-      en: Actinopterygii
-      zh: Actinopterygii
-    rank: class
+        id: s-6323041294
+        sourceIds:
+          - giles-2015-cheirolepis-endoskeleton
+    readerSources:
+      - id: giles-2015-cheirolepis-endoskeleton
+        referenceId: giles-2015-cheirolepis-endoskeleton
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: The evidence-linked Actinopterygii navigation envelope starts at 390.4 Ma, the older edge of the late Eifelian interval represented by CT-scanned Cheirolepis trailli specimens, and extends to living ray-finned fishes at 0 Ma; it is not a global class FAD or a claim that Cheirolepis was a direct ancestor.
+            zh: 有证据绑定的辐鳍鱼导航年代从 390.4 Ma 延伸到现生成员的 0 Ma；390.4 Ma 是经 CT 扫描的 Cheirolepis trailli 标本所对应晚艾菲尔期区间的较老边界，不是全纲的全球首现年代，也不表示 Cheirolepis 是直接祖先。
+          locator: Sample locality, material and geology, printed p. 851; anatomical description and CT material, pp. 852–862; Figures 2–4 and 9–11.
+      - id: braasch-2016-spotted-gar-genome
+        referenceId: braasch-2016-spotted-gar-genome
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: A phylogeny from 243 one-to-one proteins in 25 jawed vertebrates, including a spotted-gar genome and bowfin transcriptome data, supports living Holostei (gars plus bowfin) as sister to Teleostei; this is a topology inferred from the sampled living genomes, not a fossil date or a complete sample of Actinopterygii.
+            zh: 25 种有颌脊椎动物的 243 个一对一直系同源蛋白分析，包括斑点雀鳝基因组和弓鳍鱼转录组，支持现生全骨鱼类为真骨鱼类的姐妹群；这是取样现生基因组的拓扑推断，不是化石年代或辐鳍鱼的完整取样。
+          locator: "pages: 427–437; figure: Figure 1b; Supplementary Figure 6; quoteLocator: Results: The gar lineage evolved slowly; Online Methods: spotted-gar genome sample"
+      - id: qi-2024-teleost-3r-dating
+        referenceId: qi-2024-teleost-3r-dating
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+          - doi
+        usage:
+          scope:
+            en: A molecular-clock analysis of 30 teleost ohnologue pairs estimated the 3R whole-genome duplication at 286.18–267.20 Ma and crown Teleostei at 254.36–234.16 Ma; these are modelled 95% highest-posterior-density intervals, not fossil occurrences or an instantaneous observation.
+            zh: 30 对真骨鱼复制同源基因的分子钟分析估计，3R 全基因组复制为 286.18–267.20 Ma，真骨鱼冠群为 254.36–234.16 Ma；这些是模型的 95% 最高后验密度区间，不是化石记录或瞬时事件的直接观察。
+          locator: "pages: 16(7):evae128; figure: Figures 1 and 3; quoteLocator: Results: The age of Ts3R; Discussion: Molecular Dating Suggests an Early–Middle Permian 3R"
   atlas-node:
     name: Actinopterygii
     commonName: Ray-finned Fish
@@ -52,10 +200,52 @@ records:
           pages: 849–870, especially 852–862
           figure: Figures 2–4 and 9–11
           quoteLocator: Material and methods; geological occurrence; neurocranium, hyomandibula and pectoral-fin descriptions
+    - subjectId: taxon:actinopterygii
+      claimKind: scientific
+      claimType: morphology
+      statement: CT scans of named late Eifelian Cheirolepis trailli specimens from the Achanarras Limestone document parts of the braincase, jaw suspension and pectoral-fin endoskeleton, including an imperforate propterygium and peg-and-socket scales; this sampled anatomy is not a complete Actinopterygii body plan or a global first-appearance datum.
+      confidence: medium
+      confidenceRationale: The primary study directly describes and figures the named museum material and scan-based observations. Confidence is limited to this fossil sample and its biostratigraphic context; it does not extend to the class-wide body plan, exact direct dating or ancestry.
+      referenceLinks:
+        - referenceId: giles-2015-cheirolepis-endoskeleton
+          relation: supports
+          pages: 852–862
+          figure: Figures 2–4 and 9–11
+          quoteLocator: "Material and methods: Cheirolepis; geological occurrence; neurocranium; hyomandibula; pectoral fin endoskeleton; body scales"
+    - subjectId: taxon:actinopterygii
+      claimKind: scientific
+      claimType: topology
+      statement: A phylogeny from 243 one-to-one proteins in 25 jawed vertebrates, including a spotted-gar genome and bowfin transcriptome data, supports living Holostei (gars plus bowfin) as sister to Teleostei; this is a topology inferred from the sampled living genomes, not a fossil date or a complete sample of Actinopterygii.
+      confidence: medium
+      confidenceRationale: The primary study reports the protein matrix, sampled taxa and supported topology. Confidence is limited to that comparative genomic sample; the spotted-gar assembly represents one wild-caught adult female and cannot stand for every ray-finned lineage.
+      referenceLinks:
+        - referenceId: braasch-2016-spotted-gar-genome
+          relation: supports
+          pages: 427–437
+          figure: Figure 1b; Supplementary Figure 6
+          quoteLocator: "Results: The gar lineage evolved slowly; Online Methods: spotted-gar genome sample"
+    - subjectId: taxon:actinopterygii
+      claimKind: scientific
+      claimType: divergence-time
+      statement: A molecular-clock analysis of 30 teleost ohnologue pairs estimated the 3R whole-genome duplication at 286.18–267.20 Ma and crown Teleostei at 254.36–234.16 Ma; these are modelled 95% highest-posterior-density intervals, not fossil occurrences or an instantaneous observation.
+      confidence: medium
+      confidenceRationale: The study reports the retained ohnologue-pair dataset, molecular-clock analyses and posterior intervals. Confidence is limited to this dataset and model; the temporal gap does not establish 3R as a deterministic cause of later teleost diversity.
+      referenceLinks:
+        - referenceId: qi-2024-teleost-3r-dating
+          relation: supports
+          pages: 16(7):evae128
+          figure: Figures 1 and 3
+          quoteLocator: "Results: The age of Ts3R; Discussion: Molecular Dating Suggests an Early–Middle Permian 3R"
   claim-rationales.zh:
     - 具名馆藏标本和存档断层数据直接记录了可靠的早期辐鳍鱼样本，但阶段尺度老端和不完整取样不能提升为精确全球首现；中等置信度只适用于导航范围。
+    - 一手研究直接描述并图示具名馆藏标本及 CT 观察。置信度限于这一化石样本和其生物地层背景，不外推为全纲身体蓝图、标本直接定年或祖先关系。
+    - 一手研究报告了蛋白质矩阵、取样类群和有支持度的拓扑。置信度限于该比较基因组样本；斑点雀鳝组装代表一只野外采集的成年雌鱼，不能代替所有辐鳍鱼谱系。
+    - 研究报告了保留的同源复制基因对、分子钟分析和后验区间。置信度限于该数据集与模型；时间差不能证明 3R 是后来真骨鱼多样性的决定性成因。
   claim-statements.zh:
     - 有证据连接的辐鳍鱼类导航范围从 3.904 亿年前开始，这是 CT 扫描的 Cheirolepis trailli 标本所代表晚艾菲尔期区间的老端，并延续到 0 Ma 的现生辐鳍鱼；它不是该纲的全球首现，也不表示 Cheirolepis 是直系祖先。
+    - CT 扫描晚艾菲尔期 Achanarras 石灰岩的具名 Cheirolepis trailli 标本，记录了脑颅、悬颌结构和胸鳍内骨骼的部分结构，包括无孔前鳍骨与榫槽式关节鳞片；这组已取样解剖不是辐鳍鱼类的完整身体蓝图，也不是全球首现依据。
+    - 一项对 25 种有颌脊椎动物中 243 个单拷贝直系同源蛋白的系统树，纳入斑点雀鳝基因组与弓鳍鱼转录组，支持现生全骨鱼类（雀鳝类与弓鳍鱼）为真骨鱼类的姐妹群；这是现生基因组取样的拓扑推断，不是化石年代或辐鳍鱼类的完整取样。
+    - 基于 30 对真骨鱼同源复制基因的分子钟分析，将 3R 全基因组复制估计为 286.18–267.20 Ma，将真骨鱼冠群估计为 254.36–234.16 Ma；这些是模型给出的 95% 最高后验密度区间，不是化石产出或瞬时观察。
   ranges:
     - entityId: actinopterygii
       rangeKind: global-composite

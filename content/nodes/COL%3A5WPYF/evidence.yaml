@@ -50,9 +50,10 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-pombal-2011-bmargaritatus
       - topic: limitations
         title:
-          en: Research text pending
+          en: Material and scope
           zh: 材料与适用范围
         text:
           en:
@@ -93,6 +94,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-pombal-2011-bmargaritatus
+        referenceId: doi-10-1590-s0031-10492011002800001
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Material e métodos; Holótipo/Parátipos; Diagnose; developed material, type material, and diagnosis.
+          scope:
+            en: The description's fully developed material, reported measurements, color descriptions, and diagnostic features; no range-wide variation is inferred.
+            zh: 用于说明描述中发育完全的研究材料、报告的测量值、颜色描述和诊断特征；不推断整个分布范围内的变异。
     limitations:
       en:
         page: en
@@ -102,3 +116,14 @@ records:
         page: zh
         section: s-54d0e8b601
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-pombal-2011-bmargaritatus

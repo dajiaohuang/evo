@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-brown-2013-cornufer-citrinospilus
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +79,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-brown-2013-cornufer-citrinospilus
+        referenceId: doi-10-11646-zootaxa-3710-1-2
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Abstract; original combination, four male specimens, type-site elevation, and reported distribution context.
+          scope:
+            en: The paper's original combination Platymantis citrinospilus and its abstract-level description of four males and Tompoi Camp; the account does not infer wider range or population-level variation.
+            zh: 用于说明论文原始组合 Platymantis citrinospilus 及摘要所述四只雄性和 Tompoi Camp 材料；不推断更广的分布或种群层面变异。
     limitations:
       en:
         page: en
@@ -87,3 +101,14 @@ records:
         page: zh
         section: s-59e818b4d2
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-brown-2013-cornufer-citrinospilus

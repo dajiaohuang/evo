@@ -1,9 +1,12 @@
-## Recorded parent of Tapinocephalidae {#s-f8b6782a65}
-Tapinocephalidae is listed at rank family in the PBDB classification route, with Tapinocephalia as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
+## Short summary {#summary}
+Re-examined skulls show how deformation and growth can alter the apparent diversity of Middle Permian tapinocephalids.
 
-## Compare collections, strata and age brackets {#s-b76835f8df}
-Start with Riebeeckosaurus longirostris, Moschops koupensis, Moschops capensis, Moschops romeri, Criocephalosaurus vanderbyli and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 31 selected occurrences from 23 collections; example stratum names are Abrahamskraal. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## Skull variation changes the taxonomic count {#structures}
+A study of the South African tapinocephalids Avenantia kruisvleiensis and Riebeeckosaurus longirostris re-prepared and redescribed their skull material. The authors found that differences once used to separate them—including snout length, a low intertemporal crest and parietal thickening—could reflect post-mortem distortion, weathering, or individual and growth-related variation. They therefore treated Avenantia as a synonym of Riebeeckosaurus.
 
-## What the occurrence ages can show {#s-ba4f474813}
-How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Riebeeckosaurus longirostris’s collection record, not a continuous history for Tapinocephalidae.
+## Why preparation and growth matter {#study}
+The fossils were fragmentary and some skull parts had previously been reconstructed from weathered pieces that fitted poorly. Re-examination changed how the authors read the skull roof and jaw position. This is a concrete example of why family-level diversity estimates depend on specimen condition and on separating genuine anatomical differences from damage and ontogeny.
+
+## The boundary of this taxonomic result {#limits}
+The synonymy is a result about these two named forms and their studied specimens; it is not a revision of every tapinocephalid. The study also emphasizes that many family names were founded on fragmentary type material, so apparent species counts require renewed anatomical review.
 

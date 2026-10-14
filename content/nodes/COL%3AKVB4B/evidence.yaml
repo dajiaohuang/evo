@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Gasterosteoidei
+    rank: suborder
+    sourceDatasetId: "1010"
+    name:
+      en: Gasterosteoidei
+      zh: Gasterosteoidei
+    sections:
+      - topic: relationships
+        title:
+          en:
+            page: en
+            section: suborder-sampling
+            part: title
+          zh:
+            page: zh
+            section: suborder-sampling
+            part: title
+        text:
+          en:
+            page: en
+            section: suborder-sampling
+            part: body
+          zh:
+            page: zh
+            section: suborder-sampling
+            part: body
+        sourceIds:
+          - k09
+    sources:
+      - id: k09
+        referenceId: r15-gasterosteoidei-phylogeny-2009
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Taxonomic sampling: nine species, at least one from each of eight genera assigned to Gasterosteoidei in the cited 2008 classification; sequence dataset summary."
+            zh: 分类取样：九个物种，覆盖所引 2008 年分类中 Gasterosteoidei 的八个属；序列数据集摘要。
+          locator: Full text PDF, Methods 2.1, p. 402; phylogenetic results pp. 402–404
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - k09

@@ -1,0 +1,142 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Epigonichthys maldivensis (Forster Cooper, 1903)
+    rank: species
+    sourceDatasetId: "1154"
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - cooper-1903-maldivense-original
+    sections:
+      - id: form
+        topic: morphology
+        title:
+          en:
+            page: en
+            section: form
+            part: title
+          zh:
+            page: zh
+            section: form
+            part: title
+        text:
+          en:
+            page: en
+            section: form
+            part: body
+          zh:
+            page: zh
+            section: form
+            part: body
+        sourceIds:
+          - cooper-1903-maldivense-original
+      - id: atoll-record
+        topic: habitat
+        title:
+          en:
+            page: en
+            section: atoll-record
+            part: title
+          zh:
+            page: zh
+            section: atoll-record
+            part: title
+        text:
+          en:
+            page: en
+            section: atoll-record
+            part: body
+          zh:
+            page: zh
+            section: atoll-record
+            part: body
+        sourceIds:
+          - cooper-1903-maldivense-original
+      - id: comparison
+        topic: relationships
+        title:
+          en:
+            page: en
+            section: comparison
+            part: title
+          zh:
+            page: zh
+            section: comparison
+            part: title
+        text:
+          en:
+            page: en
+            section: comparison
+            part: body
+          zh:
+            page: zh
+            section: comparison
+            part: body
+        sourceIds:
+          - cooper-1903-maldivense-original
+      - id: later-material
+        topic: research
+        title:
+          en:
+            page: en
+            section: later-material
+            part: title
+          zh:
+            page: zh
+            section: later-material
+            part: title
+        text:
+          en:
+            page: en
+            section: later-material
+            part: body
+          zh:
+            page: zh
+            section: later-material
+            part: body
+        sourceIds:
+          - cooper-1903-maldivense-original
+    sources:
+      - id: cooper-1903-maldivense-original
+        referenceId: cooper-1903-maldivense-original
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - version
+          - rights
+          - rightsEvidenceLocator
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Original species account under the name Heteropleuron maldivense; four Maldive specimens, with later Zanzibar material treated separately. The scanned volume title page prints “[All Rights reserved.]” at PDF p. 8; this historical notice is recorded and current legal status is unresolved.
+            zh: 原始物种记述使用名称 Heteropleuron maldivense；马尔代夫的四件标本，后述桑给巴尔材料另行说明。 扫描本标题页（PDF 第 8 页）印有“[All Rights reserved.]”；此处仅记录历史声明，当前法律状态未确定。
+          locator: pp. 349–352, species account; scan PDF pages 14–17
+          rightsEvidenceLocator: "Volume title page, PDF p. 8: printed “[All Rights reserved.]”; current legal status unresolved."
+        metadataVariant: 0
+      - id: worms-hmaldivense-accepted-as-epigonichthys
+        referenceId: worms-hmaldivense-accepted-as-epigonichthys
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - version
+          - accessedAt
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Taxonomic mapping only: WoRMS lists Heteropleuron maldivense Forster Cooper, 1903 as accepted under Epigonichthys maldivensis (Forster Cooper, 1903). This does not merge the separate WoRMS, ITIS or COL records. The live result was read on 2026-10-14; no fixed release or page version was available."
+            zh: 仅用于分类学名称映射：WoRMS 将 Heteropleuron maldivense Forster Cooper, 1903 列为 Epigonichthys maldivensis (Forster Cooper, 1903) 下的接受名称关系；这不合并 WoRMS、ITIS 与 COL 的独立记录。 此在线结果于 2026-10-14 查阅；页面未提供固定发布版或页面版本。
+          locator: WoRMS taxon list, Heteropleuron maldivense accepted-as row

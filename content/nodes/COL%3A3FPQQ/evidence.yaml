@@ -20,7 +20,31 @@ records:
         usage:
           title: Catalogue of Life COL26.8 — Geoffroyus simplex
           url: https://www.checklistbank.org/dataset/316115/taxon/3FPQQ
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+          locator: Pinned accepted name and rank for this release; name matching does not
+            establish concept equivalence.
+      - id: archbold1942summary
+        referenceId: 1f87de09-3481-5d71-a9e0-7b8f81221af0
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          title: Summary of the 1938-1939 New Guinea Expedition
+          url: https://www.papuaerfgoed.org/sites/default/files/collectie/files/2007-06/BK_1000_115.pdf
+          scope:
+            en: Historical expedition account. The complete 92-page PDF and extracted text
+              are available, but this proposal reads only the 1,800-meter Camp
+              bird-life passage and nearby context on printed p. 248. Supports
+              the camp occurrence listing only, not a forest layer, elevational
+              range, or behavior profile.
+            zh: 历史考察报告。现有完整 92 页 PDF 及文本提取，但本提案仅阅读印刷第 248 页 1,800
+              米营地鸟类段落及邻近语境。仅支持营地出现记录，不支持林层、海拔范围或行为概述。
+          locator: Printed p. 248, section 'The bird life at the 1,800-meter Camp'; the
+            list names Geoffroyus simplex and Micropsitta bruijnii, and 'the
+            last' refers to Micropsitta.
     sections:
       - topic: identity
         text:
@@ -34,3 +58,26 @@ records:
             part: body
         sourceIds:
           - taxonomy
+      - topic: field-study
+        text:
+          en:
+            page: en
+            section: archbold-camp-record
+            part: body
+          zh:
+            page: zh
+            section: archbold-camp-record
+            part: body
+        sourceIds:
+          - archbold1942summary
+    summary:
+      en:
+        page: en
+        section: archbold-camp-record-summary
+        part: body
+      zh:
+        page: zh
+        section: archbold-camp-record-summary
+        part: body
+    summarySourceIds:
+      - archbold1942summary

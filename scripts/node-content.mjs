@@ -79,14 +79,20 @@ function assertRealPathInside(root, path, label) {
 }
 
 function assertDirectoryNotSymlink(path, label) {
-  if (!pathExists(path)) return
-  const stat = lstatSync(path)
+  let stat
+  try { stat = lstatSync(path) } catch (error) {
+    if (error.code === 'ENOENT') return
+    throw error
+  }
   if (stat.isSymbolicLink() || !stat.isDirectory()) throw new Error(`${label} must be a real directory`)
 }
 
 function assertRegularFile(path, label) {
-  if (!pathExists(path)) return false
-  const stat = lstatSync(path)
+  let stat
+  try { stat = lstatSync(path) } catch (error) {
+    if (error.code === 'ENOENT') return false
+    throw error
+  }
   if (stat.isSymbolicLink() || !stat.isFile()) throw new Error(`${label} must be a regular file`)
   return true
 }
@@ -166,12 +172,21 @@ function atomicWrite(path, text) {
   return true
 }
 
+function rejectAuthoringPaths(value) {
+  if (!value || typeof value !== 'object') return
+  if (Object.hasOwn(value, 'existingCanonicalPath')) {
+    throw new Error('Obsolete authoring path existingCanonicalPath does not belong in node identity')
+  }
+  for (const child of Object.values(value)) rejectAuthoringPaths(child)
+}
+
 function validateIdentity(identity) {
   assertObject(identity, 'node identity')
   if (!Object.keys(identity).length) throw new Error('node identity must contain recorded identity fields')
   if (Object.hasOwn(identity, 'schemaVersion')) throw new Error('Schema version belongs to node.yaml, not identity')
   assertNoUnsupportedValue(identity, 'node identity')
   rejectPageRefs(identity, 'node identity')
+  rejectAuthoringPaths(identity)
 }
 
 function validateSectionKeys(sections, label) {

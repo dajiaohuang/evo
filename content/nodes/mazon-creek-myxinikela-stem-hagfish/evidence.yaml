@@ -20,11 +20,11 @@ records:
       - Cyclostomata
     summary:
       page: en
-      section: s-fb03201c56
+      section: reading-introduction
       part: body
     summaryZh:
       page: zh
-      section: s-6376fb4e68
+      section: reading-introduction
       part: body
     claimIds:
       - claim:event:mazon-creek-myxinikela-stem-hagfish
@@ -38,7 +38,7 @@ records:
             referenceId: miyashita-2020-myxinikela
             pages: 852–860
             figure: Figures 1–4 and 8; Table 1
-            quoteLocator: Systematic palaeontology; anatomical description; reconstruction
+            quoteLocator: Material, locality and horizon, printed p. 851; measurements and specimen anatomy, pp. 852–862; Figures 1–8 and Table 1.
       - statement: The specimens measure 73.3 and 62.5 mm and come from the Moscovian Francis Creek Shale at the former Pit 11 locality
         relation: supports
         claimIds:
@@ -48,7 +48,17 @@ records:
             referenceId: miyashita-2020-myxinikela
             pages: 852–855
             figure: Figures 1–4; Table 1
-            quoteLocator: Material, locality and horizon; measurements
+            quoteLocator: Material, locality and horizon, printed p. 851; measurements and specimen anatomy, pp. 852–862; Figures 1–8 and Table 1.
+      - statement: A separate morphology-based analysis places Myxinikela as a stem myxinoid and recovers cyclostome monophyly; it notes that the branchial apparatus is cranial in Myxinikela while slime-gland evidence is sensitive to preservation.
+        relation: contextualizes
+        claimIds:
+          - claim:event:mazon-creek-myxinikela-stem-hagfish
+        referenceLinks:
+          - relation: supports
+            referenceId: miyashita-2019-tethymyxine
+            pages: 2146–2151
+            figure: Figure 3A
+            quoteLocator: "Results: Myxinikela stem position; Discussion: crown myxinoid characters and morphological support for cyclostome monophyly"
     uncertaintyItems:
       - statement: The two specimens preserve differently and the paratype does not contain definitive cartilage, so several anatomical identifications remain equivocal
         relation: contextualizes
@@ -70,6 +80,62 @@ records:
             pages: 860–864
             figure: Figure 8
             quoteLocator: "Discussion: stem-hagfish character evolution"
+    referenceIds:
+      - miyashita-2020-myxinikela
+      - miyashita-2019-tethymyxine
+    readerSources:
+      - id: miyashita-2020-myxinikela
+        referenceId: miyashita-2020-myxinikela
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          locator: Material, locality and horizon, printed p. 851; measurements and specimen anatomy, pp. 852–862; Figures 1–8 and Table 1.
+          scope:
+            en: The original numbered specimen description, locality and preservation-bound anatomy, with later interpretations kept separate.
+            zh: 原始具编号标本的描述、地点和受保存条件约束的解剖观察；后来的解释保持分开。
+      - id: miyashita-2019-tethymyxine
+        referenceId: miyashita-2019-tethymyxine
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          locator: PNAS 116, pp. 2146–2151; Figure 3A; Results on Myxinikela stem placement; Discussion on crown myxinoid characters and cyclostome monophyly
+          scope:
+            en: The paper’s morphology-based placement of Myxinikela and comparison of cyclostome characters; not direct ancestry.
+            zh: 论文依据形态性状得到的 Myxinikela 位置及圆口类性状比较；不证明直接祖先关系。
+    readerSections:
+      - id: material-account
+        topic: morphology
+        title:
+          en:
+            page: en
+            section: s-fb03201c56
+            part: title
+          zh:
+            page: zh
+            section: s-6376fb4e68
+            part: title
+        text:
+          en:
+            page: en
+            section: s-fb03201c56
+            part: body
+          zh:
+            page: zh
+            section: s-6376fb4e68
+            part: body
+        sourceIds:
+          - miyashita-2020-myxinikela
+          - miyashita-2019-tethymyxine
   claims:
     - subjectId: event:mazon-creek-myxinikela-stem-hagfish
       claimKind: scientific

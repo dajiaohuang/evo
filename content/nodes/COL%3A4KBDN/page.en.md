@@ -1,14 +1,9 @@
 ## Accepted name and placement {#s-06e4eb6a05}
 COL26.8 accepts Pleurodema borellii (Peracca, 1895) as a species. Its recorded classification places it along Anura (order) → Leptodactylidae (family) → Pleurodema (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
 
-## Reading route {#s-6f2dd97cec}
-Begin with the accepted record and its parent genus, then use the family and order pages to locate related catalogue entries. This page supplies a taxonomic orientation. Species-specific morphology, ecology, life history, distribution, evolutionary evidence and conservation information still require reviewed biological sources.
+## When thyroid disruption changes a tadpole {#bio-r16-1}
+Fabrezi and Cruz raised P. borellii tadpoles in mesocosm experiments and compared methimazole, which inhibits thyroid hormone synthesis, with thyroxine (T4). In early-exposure animals examined at Gosner stage 40, methimazole was associated with enlarged thyroid lobes and irregular, enlarged follicles; T4-treated glands showed mild atrophy and more small follicles with little or no colloid. The paper also reports treatment-associated differences in larval size. These are experimental responses under the study's doses and timing, not descriptions of every wild tadpole or evidence about adult frogs.
 
-## Related source records and datasets {#s-e37b1db532}
-The following deposited records were selected through recorded accepted names or archived ITIS synonym links within the same amphibian order. They are candidates for comparison; this link does not assign their biological claims to the current species concept. Historical splits, merges, source authorship and concept scope remain to be checked. Read the source scope, sex or life stage and original bibliography before using a trait.
-
-- [AmphiBIO v1: Pleurodema borellii](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Leiuperidae/Pleurodema/Pleurodema_borellii/page.en.md)
-
-## catalogue-profile / limitations {#s-cb9d322c7a}
-Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
+## When thyroid disruption changes a tadpole {#brief-r16}
+In lab mesocosms, thyroid treatments altered P. borellii tadpole thyroid tissue and growth; the findings apply to the tested doses and larval stages.
 

@@ -1,14 +1,5 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en:
-      page: en
-      section: col-name-record
-      part: body
-    zh:
-      page: zh
-      section: col-name-record
-      part: body
   catalogue-profile:
     scientificName: Fukomys ochraceocinereus (Heuglin, 1864)
     rank: species
@@ -29,16 +20,50 @@ records:
           title: Catalogue of Life COL26.8 — Fukomys ochraceocinereus
           url: https://www.checklistbank.org/dataset/316115/taxon/C3DVC
           locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+      - id: study
+        referenceId: caspar-2022-fukomys-ochraceocinereus-review
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Full 14-page review read. It synthesizes historical description and voucher/locality records and reports selected museum observations; not a new population-level field study.
+            zh: 已阅读 14 页全文。该文综合历史描述及凭证标本/地点记录，并报告部分博物馆标本观察；它不是新的种群野外研究。
+          locator: pp. 79–84, abstract, taxonomic history, holotype, range and habitat; Table 1; review’s cited sources distinguished from its own synthesis
     sections:
-      - topic: identity
+      - topic: natural-history-study
+        title:
+          en:
+            page: en
+            section: field-study
+            part: title
+          zh:
+            page: zh
+            section: field-study
+            part: title
         text:
           en:
             page: en
-            section: col-name-record
+            section: field-study
             part: body
           zh:
             page: zh
-            section: col-name-record
+            section: field-study
             part: body
         sourceIds:
-          - taxonomy
+          - study
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+      - study

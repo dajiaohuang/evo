@@ -1,14 +1,5 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en:
-      page: en
-      section: col-name-record
-      part: body
-    zh:
-      page: zh
-      section: col-name-record
-      part: body
   catalogue-profile:
     scientificName: Acomys (Acomys) selousi De Winton, 1896
     rank: species
@@ -29,16 +20,51 @@ records:
           title: Catalogue of Life COL26.8 — Acomys (Acomys) selousi
           url: https://www.checklistbank.org/dataset/316115/taxon/9FZF
           locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+      - id: study
+        referenceId: doi:10.1016/j.mambio.2018.03.012
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Accessible abstract and publisher-indexed article text: multilocus study of the Acomys spinosissimus complex and the placement/distribution interpretation of A. selousi; full methods and tables not independently read. The source treats A. selousi within the Acomys spinosissimus complex, but its taxon concept has not been independently reconciled with the pinned COL26.8 concept; matching names do not establish equivalence."
+            zh: 可读取摘要及出版方索引的正文片段：针对 Acomys spinosissimus 复合群的多位点研究，以及作者对 A. selousi 位置与分布的解释；未独立读取完整方法和表格。 来源将 A. selousi 置于 Acomys spinosissimus 复合群中，但其分类概念尚未与固定的 COL26.8 概念独立核对；名称相同不能证明概念等同。
+          locator: Publisher abstract and indexed article text; introduction, distribution discussion, and conclusion
     sections:
-      - topic: identity
+      - topic: natural-history-study
+        title:
+          en:
+            page: en
+            section: field-study
+            part: title
+          zh:
+            page: zh
+            section: field-study
+            part: title
         text:
           en:
             page: en
-            section: col-name-record
+            section: field-study
             part: body
           zh:
             page: zh
-            section: col-name-record
+            section: field-study
             part: body
         sourceIds:
-          - taxonomy
+          - study
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+      - study

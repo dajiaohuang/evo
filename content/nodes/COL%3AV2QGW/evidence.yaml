@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-study
       - topic: overview
         title:
           en:
@@ -164,6 +165,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-study
+        referenceId: doi-10-11646-zootaxa-3646-4-6
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Primary abstract; headwater distribution, habitat and threats.
+          scope:
+            en: Supports the diagnosis and observations summarized here; no unsampled range or broader causal claim is inferred.
+            zh: 仅支持此处概述的诊断和观察；不推断未采样分布或更广泛因果关系。
     limitations:
       en:
         page: en
@@ -173,3 +187,14 @@ records:
         page: zh
         section: s-0b18f1dea1
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-study

@@ -1,10 +1,16 @@
 import { describe, expect, it } from 'vitest'
-import { buildRouteHash, explorationShareUrl, getFiniteRouteNumber, parseRouteHash } from './routing'
+import { buildRouteHash, explorationShareUrl, getFiniteRouteNumber, isKnownRouteHash, parseRouteHash } from './routing'
 
 describe('route hash helpers', () => {
   it('defaults unknown and empty routes to home', () => {
     expect(parseRouteHash('').route).toBe('home')
     expect(parseRouteHash('#/missing').route).toBe('home')
+  })
+
+  it('distinguishes a registered search destination from the home fallback', () => {
+    expect(isKnownRouteHash('#/home?lat=0&lng=0')).toBe(true)
+    expect(isKnownRouteHash('#/pbdb?id=txn%3A264013')).toBe(true)
+    for (const route of ['', '#/data', '#/missing?id=record']) expect(isKnownRouteHash(route)).toBe(false)
   })
 
   it('does not translate retired page routes or apply their query state to the map', () => {

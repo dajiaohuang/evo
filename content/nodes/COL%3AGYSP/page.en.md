@@ -7,7 +7,7 @@ The study reports sampled specimens, sequence clusters and library-wide counts. 
 ## A separate AmphiBIO record {#s-3e25ee1086}
 AmphiBIO v1 row Anf0150 has a source-internal name and classification tuple recorded as Arthroleptis sylvaticus. Its equivalence to the current COL26.8 concept remains unresolved, so its deposited values are not assigned to this species account.
 
-- [AmphiBIO v1 — row Anf0150](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Arthroleptina/Arthroleptis/Arthroleptis_sylvaticus/page.en.md)
+- AmphiBIO v1 — row Anf0150
 
 ## The sampled specimens and their localities {#s-9af3e5dfa8}
 The retained sylvaticus clade contains two LMR specimens, USNM 558514–15, and ten specimens from the Republic of Congo. LMR is the Loubomo–Mougagara Road corridor in Nyanga, Gabon; it is distinct from the Republic of Congo and from the Democratic Republic of Congo. Museum reference specimens are not automatically LMR observations. Any survey non-detection is limited by its effort and seasons, so it cannot establish regional absence or a complete species range. The original vouchers, present-day occurrence and taxonomic identity have not been independently checked here.

@@ -186035,6 +186035,12 @@ generatedInputs:
           inject:
             id: ruedersdorfia-berlinensis
             treeNodeId: ruedersdorfia-berlinensis
+      - contentRecord:
+          path: content/nodes/actinopterygii
+          key: atlas-profile
+          inject:
+            id: actinopterygii
+            treeNodeId: actinopterygii
   data/packages/vertebrata/amphibia/profiles.source.json:
     encoding: json
     template:
@@ -186068,6 +186074,12 @@ generatedInputs:
           inject:
             id: caudata
             treeNodeId: caudata
+      - contentRecord:
+          path: content/nodes/lissamphibia
+          key: atlas-profile
+          inject:
+            id: lissamphibia
+            treeNodeId: lissamphibia
   data/packages/vertebrata/chondrichthyes/profiles.source.json:
     encoding: json
     template:
@@ -186101,6 +186113,12 @@ generatedInputs:
           inject:
             id: cosmoselachus
             treeNodeId: cosmoselachus
+      - contentRecord:
+          path: content/nodes/COL%3A8X6G5
+          key: atlas-profile
+          inject:
+            id: chondrichthyes
+            treeNodeId: chondrichthyes
   data/packages/vertebrata/early-fishes/profiles.source.json:
     encoding: json
     template:
@@ -186161,6 +186179,18 @@ generatedInputs:
           inject:
             id: ichthyostega
             treeNodeId: ichthyostega
+      - contentRecord:
+          path: content/nodes/dipnoi
+          key: atlas-profile
+          inject:
+            id: dipnoi
+            treeNodeId: dipnoi
+      - contentRecord:
+          path: content/nodes/coelacanthimorpha
+          key: atlas-profile
+          inject:
+            id: coelacanthimorpha
+            treeNodeId: coelacanthimorpha
   data/navigation/atlas-ontology.json:
     encoding: json
     template:
@@ -201317,6 +201347,24 @@ generatedInputs:
           index: 6
           inject:
             id: claim:taxon:macaca_radiata:evolution-mtdna-population-structure-2018
+      - contentRecord:
+          path: content/nodes/actinopterygii
+          key: claims
+          index: 1
+          inject:
+            id: claim:taxon:actinopterygii:morphology
+      - contentRecord:
+          path: content/nodes/actinopterygii
+          key: claims
+          index: 2
+          inject:
+            id: claim:taxon:actinopterygii:topology
+      - contentRecord:
+          path: content/nodes/actinopterygii
+          key: claims
+          index: 3
+          inject:
+            id: claim:taxon:actinopterygii:divergence-time
   data/evidence/claim-rationales.zh.json:
     encoding: json
     template:
@@ -208225,6 +208273,21 @@ generatedInputs:
           path: content/nodes/scope-COL-fdf6fb6929-8d54e0f846b5d825
           key: claim-rationales.zh
           index: 6
+      claim:taxon:actinopterygii:morphology:
+        contentRecord:
+          path: content/nodes/actinopterygii
+          key: claim-rationales.zh
+          index: 1
+      claim:taxon:actinopterygii:topology:
+        contentRecord:
+          path: content/nodes/actinopterygii
+          key: claim-rationales.zh
+          index: 2
+      claim:taxon:actinopterygii:divergence-time:
+        contentRecord:
+          path: content/nodes/actinopterygii
+          key: claim-rationales.zh
+          index: 3
   data/evidence/claim-statements.zh.json:
     encoding: json
     template:
@@ -208946,11 +209009,6 @@ generatedInputs:
       CT and histology of the single dorsoventrally compressed Gladbachus adentatus specimen UMZC 2000.32 from the Upper Givetian Lower Plattenkalk at approximately 385 Ma reveal a stem chondrichthyan with a mosaic neurocranium, jaws, branchial skeleton, cartilage, scales and teeth; the specimen documents disparity, not a crown-shark ancestor or body-plan FAD.:
         contentRecord:
           path: content/nodes/givetian-gladbachus-mosaic-anatomy
-          key: claim-statements.zh
-          index: 0
-      The 4.2 cm Priscomyzon riniensis holotype AM5750 from the Famennian Witpoort Formation at Waterloo Farm, approximately 360 Ma, preserves a large oral disc, fourteen circumoral teeth and a branchial basket; it is total-group lamprey evidence and does not directly establish a crown-Petromyzontida FAD, parasitic feeding, migration or an ammocoete lifecycle.:
-        contentRecord:
-          path: content/nodes/famennian-priscomyzon-oral-disc
           key: claim-statements.zh
           index: 0
       Myxinikela siroka holotype FMNH PF15373 and paratype FMNH PF8472 from the Moscovian Francis Creek Shale, approximately 310–307 Ma, preserve a cyclostome–hagfish anatomical mosaic and support a stem or putative total-group hagfish interpretation; they do not set the crown-Myxini range or demonstrate modern hagfish habitat, slime production or ecology.:
@@ -210568,7 +210626,7 @@ generatedInputs:
           path: content/nodes/dinosauria
           key: claim-statements.zh
           index: 0
-      "The 150–0 Ma Aves route is an avialan-to-living-bird navigation anthology: referred Archaeopteryx material supplies a Late Jurassic fossil anchor, but Archaeopteryx is outside crown Neornithes and the endpoint is not crown-Aves origination.":
+      "This Aves route pairs a rounded 150 Ma fossil anchor from referred Archaeopteryx material in the Late Jurassic Bavarian lithographic limestones with living birds at the present. Archaeopteryx is outside crown Neornithes, so this is a browsing anthology, not a continuous ancestor chain or a date for the origin of crown birds.":
         contentRecord:
           path: content/nodes/COL%3AV2
           key: claim-statements.zh
@@ -210588,7 +210646,7 @@ generatedInputs:
           path: content/nodes/COL%3AVS
           key: claim-statements.zh
           index: 0
-      The 55–0 Ma Whippomorpha route uses a rounded early Eocene navigation ceiling and combines the approximately 48.6 Ma Indohyus raoellid sample with living whale–hippo retroposon topology; neither source dates the Whippomorpha crown, and the span is not a direct lineage duration.:
+      "The Whippomorpha route combines two different records: an approximately 48.6 Ma *Indohyus* sample from Sindkhatudi, with morphology and isotope evidence, and retroposon evidence for relationships among living whales and hippos. The rounded 55 Ma ceiling is a navigation bound; neither source dates the Whippomorpha crown or a continuous lineage duration.":
         contentRecord:
           path: content/nodes/scope-PBDB-9b3218ab36-ab01c0c8222dcae5
           key: claim-statements.zh
@@ -210603,17 +210661,17 @@ generatedInputs:
           path: content/nodes/PBDB%3A247806
           key: claim-statements.zh
           index: 0
-      The 58.3–0 Ma Xenarthra route retains the Riostegotherium entry from a combined phenomic–molecular chronology as a sampled/model bound; it is not a securely dated global FAD, crown origin or complete fossil range.:
+      The atlas displays a 58.3–0 Ma Xenarthra navigation route based on O’Leary et al.’s combined phenomic–molecular chronology. Its older edge follows the model’s Riostegotherium entry and ghost-lineage treatment; living xenarthrans extend the route to the present. This is a sampled, model-conditioned bound, not a securely dated global first fossil or crown origin.:
         contentRecord:
           path: content/nodes/scope-PBDB-a44daa922d-a09d672ac99e7601
           key: claim-statements.zh
           index: 0
-      The 66–0 Ma Glires route is a K–Pg-to-present navigation/model envelope contextualized by post-K–Pg placental analyses and a 47.8–41.2 Ma Mimolagus fossil sample; it does not date crown Glires or assert continuous fossil occupancy.:
+      The 66–0 Ma Glires route uses a rounded K–Pg model/display ceiling, contextualized by a post-K–Pg placental analysis, and a separate direct Mimolagus fossil sample dated to 47.8–41.2 Ma in China’s Erlian Basin. Living descendants carry the navigation route to the present. The model ceiling is not a fossil first appearance; the Mimolagus interval dates that sample, not crown Glires. Neither source shows continuous fossil occupancy.:
         contentRecord:
           path: content/nodes/scope-PBDB-b49e77900e-118f9a5d85236006
           key: claim-statements.zh
           index: 0
-      The 52.5–0 Ma Chiroptera route is anchored by the Green River Onychonycteris holotype and living bats; the specimen documents an early bat occurrence, not crown-bat origination, a direct ancestor or a global FAD.:
+      The Chiroptera route is anchored by the Green River holotype of *Onychonycteris* (ROM 55351A) together with living bats. The specimen documents an early bat occurrence; it does not date crown-bat origin, establish a direct ancestor or provide a global first-appearance datum.:
         contentRecord:
           path: content/nodes/COL%3AXC
           key: claim-statements.zh
@@ -212203,7 +212261,7 @@ generatedInputs:
           path: content/nodes/crocodylia
           key: claim-statements.zh
           index: 0
-      Phorusrhacidae is represented by the named Llallawavis specimen and its morphology-matrix placement within terror birds; sensory reconstructions and family relationships are study hypotheses, not a complete range or ancestor chain.:
+      The Playa Los Lobos specimen Llallawavis scagliai supplies a named fossil for this Phorusrhacidae account. Researchers coded its skull and other anatomy in a morphology matrix to test relationships within terror birds. The same study reconstructed sensory features; those capabilities and deeper family relationships are interpretations of sampled material, not direct observations or a complete ancestor chain.:
         contentRecord:
           path: content/nodes/PBDB%3A39461
           key: claim-statements.zh
@@ -212213,12 +212271,12 @@ generatedInputs:
           path: content/nodes/PBDB%3A413463
           key: claim-statements.zh
           index: 0
-      Vegavis is represented by skull AMNH FARB 30899 from the 69.2–68.4 Ma Sandwich Bluff Member interval; that dated individual does not establish a genus-wide or crown-bird first appearance, and crown-waterfowl placement remains model-dependent.:
+      The sampled *Vegavis* skull AMNH FARB 30899 comes from the 69.2–68.4 Ma interval reported for the Sandwich Bluff Member on Vega Island, Antarctica. This age belongs to the fossil-bearing unit, not a direct radiometric date on the skull or a genus-wide range. Its proposed placement near crown waterfowl depends on phylogenetic models; this specimen does not establish the first appearance of crown birds.:
         contentRecord:
           path: content/nodes/PBDB%3A81021
           key: claim-statements.zh
           index: 0
-      Neoaves is a living-bird navigation clade whose earliest branches remain a hard-polytomy hypothesis in the reviewed phylogenomic signal; the route must not be read as a resolved ancestor sequence or a fossil divergence date.:
+      "Neoaves is a navigation route through living birds. In the reviewed phylogenomic analysis, gene trees conflict around its earliest branches, and the root is treated as a hard-polytomy hypothesis: the available signal may not resolve the branching order. This is not a settled ancestor sequence or a fossil divergence date. The cited study samples living lineages but supplies no dated fossil start for a numerical range.":
         contentRecord:
           path: content/nodes/scope-PBDB-93d13e5587-87092fba38a58892
           key: claim-statements.zh
@@ -212303,7 +212361,7 @@ generatedInputs:
           path: content/nodes/diplodocidae
           key: claim-statements.zh
           index: 0
-      Titanosauria is represented by the Patagotitan specimen set and its sampled sauropod matrix placement; the result constrains that taxon and a body-mass analysis, not the complete clade range, origin or ancestor chain.:
+      The Titanosauria material here is the Patagotitan specimen set and its placement in a sampled sauropod matrix. The study uses that taxon in a body-mass analysis; the specimens and geochronology are direct, while broader body-mass evolution and placement depend on the comparative model and its sampling. This evidence concerns the sampled taxon, not a complete Titanosauria range, origin, or ancestor chain.:
         contentRecord:
           path: content/nodes/scope-PBDB-7e9585bf56-d07618fd95fe0f3b
           key: claim-statements.zh
@@ -212313,12 +212371,12 @@ generatedInputs:
           path: content/nodes/PBDB%3A347521
           key: claim-statements.zh
           index: 0
-      Mussaurus is represented by hatchling, yearling and adult specimens from the Patagonian sample used for its ontogenetic models; these individuals do not establish complete genus endpoints or an evolutionary ladder.:
+      The ontogenetic study uses hatchling, yearling and adult specimens from a Patagonian Mussaurus sample. These materials define the study’s sampled growth series, not the genus’s complete fossil range or three successive evolutionary forms. Its stance reconstruction is a model and should be read as an interpretation of this sample.:
         contentRecord:
           path: content/nodes/PBDB%3A38643
           key: claim-statements.zh
           index: 0
-      Ledumahadi is anchored by partial postcranial holotype BP/1/7120 from the earliest Jurassic Elliot Formation of South Africa; this occurrence does not define a global genus range or the origin of quadrupedal sauropodomorphs.:
+      The study anchors Ledumahadi to partial postcranial holotype BP/1/7120 from South Africa’s earliest Jurassic Elliot Formation. The fossil identifies a specimen and geological context. It does not define the genus’s global range, date the origin of quadrupedal sauropodomorphs, or by itself establish a body-mass or posture interpretation.:
         contentRecord:
           path: content/nodes/PBDB%3A377354
           key: claim-statements.zh
@@ -212328,17 +212386,17 @@ generatedInputs:
           path: content/nodes/theropoda
           key: claim-statements.zh
           index: 0
-      Tyrannosauridae is represented by a systematic synthesis of its sampled anatomy, growth and biomechanics; family-wide patterns are review-bounded and do not turn Tyrannosaurus into a proxy for every member or set exact range endpoints.:
+      Brusatte et al.’s 2010 review synthesizes sampled tyrannosaurid anatomy, growth and biomechanics. It cautions against treating Tyrannosaurus as a proxy for every member. Behavior and family-wide generalization remain inferences bounded by the reviewed sample; the synthesis does not set exact global range endpoints.:
         contentRecord:
           path: content/nodes/PBDB%3A38606
           key: claim-statements.zh
           index: 0
-      Spinosauridae is represented by Hone and Holtz’s revision of named and fragmentary material; subfamily assignments and ecological signals are evidence-weighted hypotheses, not a complete family range or uniform semiaquatic ecology.:
+      Hone and Holtz revise named and fragmentary spinosaurid material, distinguishing diagnostic fossils from weaker referrals. Their subfamily placements and ecological signals are evidence-weighted hypotheses. The review does not make every member uniformly semiaquatic or establish a complete family range.:
         contentRecord:
           path: content/nodes/PBDB%3A38595
           key: claim-statements.zh
           index: 0
-      Spinosaurus aegyptiacus specimen FSAC-KK 11888 preserves a deep, flexible tail tested with physical models for aquatic propulsion; the experiment supports a swimming-performance hypothesis, not directly observed behavior or a genus-wide ecology.:
+      Spinosaurus aegyptiacus specimen FSAC-KK 11888 preserves a deep, flexible tail. Researchers tested physical models of that tail for aquatic propulsion, and the experiment supports a hypothesis about swimming performance. The result concerns a fossil structure under model conditions; it is not an observation of a living Spinosaurus swimming. Soft tissue, full-body dynamics and behavior still require reconstruction, so the experiment does not establish one ecology for the genus.:
         contentRecord:
           path: content/nodes/PBDB%3A38598
           key: claim-statements.zh
@@ -212348,7 +212406,7 @@ generatedInputs:
           path: content/nodes/PBDB%3A38561
           key: claim-statements.zh
           index: 0
-      Velociraptor specimen IGM 100/981 preserves regularly spaced ulnar papillae interpreted as quill knobs; this supports attached secondary feathers on that forearm, not powered flight, exact plumage extent or every species in the genus.:
+      IGM 100/981 preserves regularly spaced bony papillae on its ulna, interpreted as quill knobs. They support secondary feathers attached to that forearm. They do not establish powered flight or full-body plumage, and one specimen cannot establish feathering across every species in the genus.:
         contentRecord:
           path: content/nodes/PBDB%3A38564
           key: claim-statements.zh
@@ -212358,7 +212416,7 @@ generatedInputs:
           path: content/nodes/scope-PBDB-ed7364a027-44122952debd2354
           key: claim-statements.zh
           index: 0
-      Oviraptorosauria is represented by nesting specimen IGM 100/979 from the Upper Cretaceous Djadokhta Formation; this local association does not establish the clade’s origin, complete range or a direct ancestor.:
+      IGM 100/979 is a nesting specimen described from the Upper Cretaceous Djadokhta Formation. This evidence concerns a named find and its local nest association; it does not establish the origin or full range of Oviraptorosauria, or identify the specimen as a direct ancestor.:
         contentRecord:
           path: content/nodes/oviraptorosauria
           key: claim-statements.zh
@@ -212368,17 +212426,17 @@ generatedInputs:
           path: content/nodes/PBDB%3A40748
           key: claim-statements.zh
           index: 0
-      A 16,397-base-pair placental matrix recovers Afrotheria in its sampled topology and estimates an approximately 103 Ma split under its models; the atlas’s 100 Ma navigation ceiling is rounded model context, not a fossil occurrence, exact crown origin or African ancestor location.:
+      A placental analysis of 16,397 base pairs recovered Afrotheria in its sampled topology and estimated a split at about 103 Ma under the study’s models. The atlas rounds this to a 100 Ma navigation ceiling and carries the route to the present through living descendants. The estimate is model context, not a fossil occurrence, an exact crown-group origin, or evidence that the ancestor lived in Africa.:
         contentRecord:
           path: content/nodes/afrotheria
           key: claim-statements.zh
           index: 0
-      Altiatlasius is directly represented by a small isolated-tooth hypodigm including holotype THR 141 from Adrar Mgorn 1 within a broad approximately 59.2–56 Ma Thanetian envelope; tooth loci and crown-primate placement remain disputed.:
+      "*Altiatlasius* is represented by a small isolated-tooth hypodigm that includes holotype THR 141 from Adrar Mgorn 1. The broad sample envelope is approximately 59.2–56 Ma, within the Thanetian; tooth positions and placement among crown primates remain disputed.":
         contentRecord:
           path: content/nodes/PBDB%3A92577
           key: claim-statements.zh
           index: 0
-      Ambolestes zhoui is bounded by near-complete holotype STM33-5 from the Lujiatun Unit of the Yixian Formation within an approximately 126–125 Ma interval; its eutherian placement is matrix-dependent and does not make it a direct placental ancestor.:
+      Bi et al. (2018) described near-complete holotype STM33-5 from the Lujiatun Unit of the Yixian Formation in Liaoning, China, within an approximately 126–125 Ma interval. Their phylogenetic analysis places Ambolestes among eutherians, but that higher placement depends on the character matrix. The specimen interval is not a secure global genus range, and the placement does not make it a direct placental ancestor.:
         contentRecord:
           path: content/nodes/PBDB%3A371741
           key: claim-statements.zh
@@ -212413,17 +212471,17 @@ generatedInputs:
           path: content/nodes/PBDB%3A42936
           key: claim-statements.zh
           index: 0
-      The atlas bounds Basilosaurus only with the sampled Basilosaurus isis material from the Birket Qarun Formation, including named hind-limb specimen UM 93231 within a broad approximately 37.7–35 Ma formation envelope; this is not a global genus range.:
+      The atlas bounds *Basilosaurus* with sampled *B. isis* material from the Birket Qarun Formation, including hind-limb specimen UM 93231. The broad formation envelope is approximately 37.7–35 Ma; it is a formation-level sample bound, not a global range for the genus or a direct date on that specimen.:
         contentRecord:
           path: content/nodes/PBDB%3A36681
           key: claim-statements.zh
           index: 0
-      Canidae is recovered as an extant family branch in the complete living-carnivoran supertree, whose canid subtree samples dog-like and fox-like lineages; extinct canid radiations and the family’s earliest fossil range are outside that tree’s direct coverage.:
+      In the cited living-carnivoran supertree, Canidae is recovered as a family branch and its subtree samples dog-like and fox-like lineages. The analysis does not include extinct canid radiations or determine the family’s earliest fossil range.:
         contentRecord:
           path: content/nodes/COL%3AC3K84
           key: claim-statements.zh
           index: 0
-      The extant-carnivoran supertree recovers Caniformia and its sampled living family branches, but its topology and divergence estimates combine source trees, newly inferred gene trees and fossil calibrations; they are not direct fossil observations.:
+      A carnivoran supertree recovers Caniformia and its sampled living family branches. Its topology and divergence estimates combine source trees, newly inferred gene trees and fossil calibrations, so they are analytical results built from several evidence layers rather than direct fossil observations.:
         contentRecord:
           path: content/nodes/COL%3A4CT
           key: claim-statements.zh
@@ -212443,12 +212501,12 @@ generatedInputs:
           path: content/nodes/ceratomorpha
           key: claim-statements.zh
           index: 0
-      A systematic synthesis recognizes Cetacea from a sequence of separately sampled Eocene fossils and living lineages, but explicitly combines paleontological, anatomical, stratigraphic and molecular evidence rather than documenting one continuous population or exact origination event.:
+      The 2010 review treats Cetacea through separately sampled Eocene fossils and living lineages, combining paleontological, anatomical, stratigraphic and molecular evidence. It does not document one continuous population or an exact origination event.:
         contentRecord:
           path: content/nodes/COL%3AWP
           key: claim-statements.zh
           index: 0
-      Cetaceamorpha is used here as a navigation route joining raoellid evidence to sampled Cetacea; Uhen’s synthesis reviews those relationships but does not present the route as one observed lineage, a direct ancestor chain or a dated crown group.:
+      Cetaceamorpha is used here as a navigation route linking raoellid evidence with sampled Cetacea. The cited synthesis reviews the relationships but does not present this route as one observed lineage, a direct ancestor chain or a dated crown group.:
         contentRecord:
           path: content/nodes/PBDB%3A159631
           key: claim-statements.zh
@@ -212508,7 +212566,7 @@ generatedInputs:
           path: content/nodes/COL%3A4DL
           key: claim-statements.zh
           index: 0
-      Gustafsonia cognita is bounded by CT-reconstructed holotype cranium TMM 40209-200 from the Chambers Tuff within an approximately 38–36.6 Ma sample envelope; the interval is not a global family first appearance or direct ancestry date.:
+      "*Gustafsonia cognita* is anchored by holotype cranium TMM 40209-200 from the Chambers Tuff. CT reconstruction and the study’s analysis place this material within an approximately 38–36.6 Ma sample envelope. That is not a global first appearance for the family or a date of direct ancestry.":
         contentRecord:
           path: content/nodes/PBDB%3A351932
           key: claim-statements.zh
@@ -212533,7 +212591,7 @@ generatedInputs:
           path: content/nodes/hippomorpha
           key: claim-statements.zh
           index: 0
-      A review and 37-character cladistic analysis of 15 living and fossil hippopotamid taxa revises several historical assignments while retaining Hippopotamidae as the study’s focal family; the resulting membership is a sampled taxonomic hypothesis, not a complete fossil duration.:
+      A systematic review and 37-character cladistic analysis sampled 15 living and fossil hippopotamid taxa and revised several historical assignments. Hippopotamidae is the study’s focal family, but the resulting membership is a sampled taxonomic hypothesis, not a complete fossil duration.:
         contentRecord:
           path: content/nodes/COL%3AB3L
           key: claim-statements.zh
@@ -212548,7 +212606,7 @@ generatedInputs:
           path: content/nodes/COL%3A58L
           key: claim-statements.zh
           index: 0
-      Homo neanderthalensis is anchored here by Vindija 33.19, which yielded a high-coverage genome and a greater-than-45.5 ka radiocarbon result within an approximately 55–45.5 ka sample envelope; modelled age and relationships do not define the species’ full range.:
+      A separate study reports a high-coverage Neanderthal genome from Vindija 33.19 in Croatia and a radiocarbon result greater than 45.5 ka. The candidate’s approximately 55–45.5 ka interval is a source-bounded specimen envelope (0.055–0.0455 Ma), not the full duration of Homo neanderthalensis. The approximately 52 ka age and demographic relationships are model outputs. This genome context is separate from the five PBDB occurrences above.:
         contentRecord:
           path: content/nodes/PBDB%3A83087
           key: claim-statements.zh
@@ -212558,12 +212616,12 @@ generatedInputs:
           path: content/nodes/scope-COL-55f5efb84c-8c5f796728a3024f
           key: claim-statements.zh
           index: 0
-      Homo is bounded here by the approximately 1.85–1.77 Ma Dmanisi sample, including associated adult skull D4500/D2600 from layer B1y; this documents one population sample and does not collapse all early Homo taxa into one lineage or define the genus’s global range.:
+      At Dmanisi, Georgia, adult skulls D4500 and D2600 are associated with layer B1y, dated to approximately 1.85–1.77 Ma in the cited study. This documents a named assemblage and interval. It is a source-bounded sample, not Homo’s global first appearance, origin, full temporal range, or living continuation.:
         contentRecord:
           path: content/nodes/COL%3A636X2
           key: claim-statements.zh
           index: 0
-      Juramaia sinensis is bounded conditionally by holotype BMNH PM1343B and its original approximately 161–159 Ma Tiaojishan attribution; uncertain collection provenance and a younger tip-dating signal prevent treating that interval as a secure global first appearance or calibration.:
+      Luo et al. (2011) attributed holotype BMNH PM1343B to the Tiaojishan Formation of Liaoning, China, at approximately 161–159 Ma. The collection provenance is uncertain, and a later tip-dating analysis reports a younger signal under its model. The interval is therefore a contested, source-bounded attribution, not a secure global first appearance or calibration point.:
         contentRecord:
           path: content/nodes/PBDB%3A196927
           key: claim-statements.zh
@@ -212578,7 +212636,7 @@ generatedInputs:
           path: content/nodes/scope-PBDB-f8cf7d359d-f096222c389f06e9
           key: claim-statements.zh
           index: 0
-      Magericyon anceps is bounded by Batallones-1 material including complete young-adult skull B-4071 within an approximately 9.7–8.7 Ma sample envelope; finite-element results do not extend that locality sample into a global genus range.:
+      The *Magericyon anceps* material from Batallones-1 includes the complete young-adult skull B-4071. The locality sample is dated to about 9.7–8.7 Ma. This interval anchors the studied specimen and place; it is not a global duration for the genus.:
         contentRecord:
           path: content/nodes/PBDB%3A374790
           key: claim-statements.zh
@@ -212598,7 +212656,7 @@ generatedInputs:
           path: content/nodes/mammaliamorpha
           key: claim-statements.zh
           index: 0
-      Genome-scale comparisons of sampled mammoths, living elephants and mastodon place Mammuthus within a reticulate elephantid history with introgression and incomplete lineage sorting; the sampled genomes do not establish the genus’s full fossil duration or one bifurcating ancestor tree.:
+      Palkopoulou et al. (2018) compared sampled mammoths with living elephants and mastodon. Their genome-scale analyses support a reticulate elephantid history involving introgression and incomplete lineage sorting. The sampled genomes describe those lineages and relationships; they do not set Mammuthus’ full fossil duration or establish one simple bifurcating ancestor tree.:
         contentRecord:
           path: content/nodes/PBDB%3A43266
           key: claim-statements.zh
@@ -212633,7 +212691,7 @@ generatedInputs:
           path: content/nodes/scope-PBDB-3ca92f53cc-61fc2ea6e8a17583
           key: claim-statements.zh
           index: 0
-      Odontoceti is treated as the toothed-whale branch of sampled Neoceti, but its early fossil membership and character sequence are reconstructed from separate taxa; the branch is not a single observed lineage or an exact 34 Ma origin event.:
+      Odontoceti is treated as the toothed-whale branch of sampled Neoceti. Its early fossil membership and character sequence are reconstructed from separate taxa; this is not one observed lineage or an exact 34 Ma origin event.:
         contentRecord:
           path: content/nodes/odontoceti
           key: claim-statements.zh
@@ -212663,7 +212721,7 @@ generatedInputs:
           path: content/nodes/scope-PBDB-34e657642d-295b0bb0fba57105
           key: claim-statements.zh
           index: 0
-      Pinnipedimorpha is used as the atlas route joining fossil pinniped-line evidence to the living seal, sea-lion and walrus branches represented in the carnivoran supertree; the extant tree does not itself resolve all stem pinnipeds or their first appearance.:
+      The atlas route joins fossil pinniped-line evidence to the living seal, sea-lion and walrus branches sampled in the carnivoran supertree. That extant tree does not resolve all stem pinnipeds or establish the group’s first appearance; its living topology should not be read as a complete fossil history.:
         contentRecord:
           path: content/nodes/scope-PBDB-df3fce6485-78ebc765e0c2d002
           key: claim-statements.zh
@@ -212673,7 +212731,7 @@ generatedInputs:
           path: content/nodes/plesiadapiformes
           key: claim-statements.zh
           index: 0
-      A 372-species relaxed-clock analysis estimates crown Primates at 79.2–70.0 Ma under its selected autocorrelated model and calibration strategy A, whereas another calibration strategy is younger; neither posterior interval is a fossil occurrence or exact crown-origin observation.:
+      A relaxed-clock analysis of 372 sampled species estimates crown Primates at 79.2–70.0 Ma under its selected autocorrelated model and calibration strategy A; another calibration strategy is younger. These are model-sensitive posterior estimates, not fossil occurrences or an exact observation of crown origin.:
         contentRecord:
           path: content/nodes/COL%3A3W7
           key: claim-statements.zh
@@ -212683,7 +212741,7 @@ generatedInputs:
           path: content/nodes/scope-PBDB-4305c62d50-eb8365582eb3a95d
           key: claim-statements.zh
           index: 0
-      Proboscidea is represented in the mammal-wide phylogenetic framework by sampled living elephant lineages and taxonomically completed species placements, while extinct proboscideans require separate fossil evidence; the tree does not date the order’s origin.:
+      "COL26.8 records accepted checklist placement; historical archive names and matching rules remain source-specific and do not define current species concepts. The assigned numerical range record is withheld: historical trait values and a mammal-wide tree of sampled living elephant lineages do not establish a fossil range for extinct proboscideans or date the order’s origin. These route entries also do not establish complete distribution, conservation status, or traits shared by every descendant.":
         contentRecord:
           path: content/nodes/COL%3A3WB
           key: claim-statements.zh
@@ -212693,7 +212751,7 @@ generatedInputs:
           path: content/nodes/PBDB%3A42934
           key: claim-statements.zh
           index: 0
-      The whale-origin synthesis treats sampled raoellids as close fossil relatives used to test the land-to-water transition, while their relationship to Cetacea remains a phylogenetic inference rather than evidence that a raoellid specimen was a direct whale ancestor.:
+      The whale-origin synthesis uses sampled raoellids as close fossil relatives for testing the land-to-water transition. Their relationship to Cetacea is a phylogenetic inference; the cited evidence does not identify a raoellid specimen as a direct whale ancestor.:
         contentRecord:
           path: content/nodes/raoellidae
           key: claim-statements.zh
@@ -212708,7 +212766,7 @@ generatedInputs:
           path: content/nodes/PBDB%3A43140
           key: claim-statements.zh
           index: 0
-      Rodentia forms a constrained higher branch in the mammal-wide 31-gene framework, but DNA-missing taxa in completed trees inherit explicit taxonomic placements; the analysis is not direct molecular evidence for every rodent or a fossil origin date.:
+      COL26.8 records Rodentia as an accepted order. In the mammal-wide 31-gene study, the higher branch is constrained and some DNA-missing taxa inherit explicit placements; this is not sequence evidence for every rodent or a fossil-origin date. The separate historical archives use their own names, fields, and selection rules. None of these partial routes establishes:
         contentRecord:
           path: content/nodes/COL%3A3Z5
           key: claim-statements.zh
@@ -212718,7 +212776,7 @@ generatedInputs:
           path: content/nodes/PBDB%3A41079
           key: claim-statements.zh
           index: 0
-      A 367-species molecular supermatrix strongly supports Strepsirrhini within the sampled living primates, but the tree omits extinct diversity and inherits the study’s 2012 species concepts; it does not date a fossil first appearance.:
+      A 367-species molecular supermatrix strongly supports Strepsirrhini within its sampled living primates. The tree omits extinct diversity and follows the study’s 2012 species concepts; it does not establish a fossil first appearance.:
         contentRecord:
           path: content/nodes/COL%3A4FM
           key: claim-statements.zh
@@ -212733,7 +212791,7 @@ generatedInputs:
           path: content/nodes/scope-PBDB-4fdb598705-cdc5f8aa1bf17702
           key: claim-statements.zh
           index: 0
-      Thalassocnus is bounded by five named species sampled from successive Pisco Formation horizons over an approximately 8–3 Ma envelope; the sequence supports comparative bone-density change but is not a global genus duration, continuous population or direct ancestor series.:
+      Amson et al. compared bone compactness across five named Thalassocnus species sampled from successive horizons in Peru’s Pisco Formation, spanning an approximately 8–3 Ma study window. The series supports comparison of bone-density change across those samples. Functional adaptation and continuity of one lineage are interpretations; the sample window is not a global genus duration or a direct-ancestor sequence.:
         contentRecord:
           path: content/nodes/PBDB%3A72041
           key: claim-statements.zh
@@ -212743,7 +212801,7 @@ generatedInputs:
           path: content/nodes/therapsida
           key: claim-statements.zh
           index: 0
-      Therian boundary evidence is an atlas navigation route spanning separately sampled Juramaia, Eomaia and Ambolestes records from approximately 161–124.1 Ma; it is not a taxonomic clade, continuous lineage or ancestor sequence, and its older endpoint inherits the disputed Juramaia provenance.:
+      This atlas route brings together separate studies of Juramaia, Eomaia, and Ambolestes to compare evidence relevant to early therians. Their selected records span about 161–124.1 Ma. That interval belongs to the navigation route, not a taxonomic clade, continuous lineage, or sequence of direct ancestors.:
         contentRecord:
           path: content/nodes/therian-boundary-evidence
           key: claim-statements.zh
@@ -212753,7 +212811,7 @@ generatedInputs:
           path: content/nodes/PBDB%3A40989
           key: claim-statements.zh
           index: 0
-      Ursidae is recovered as one living family branch in the extant-carnivoran supertree, but family crown dates and relationships are estimates assembled from gene trees and calibrations; extinct stem bears are not comprehensively sampled.:
+      The cited extant-carnivoran supertree recovers Ursidae as one living family branch. Its family-level relationships and crown dates are estimates assembled from gene trees and calibrations, and extinct stem bears are not comprehensively sampled.:
         contentRecord:
           path: content/nodes/COL%3AHQQ
           key: claim-statements.zh
@@ -213303,7 +213361,7 @@ generatedInputs:
           path: content/nodes/diplodocidae
           key: claim-statements.zh
           index: 1
-      Titanosauria is displayed at 101.8–101.4 Ma only as the directly dated Patagotitan quarry window, not the first or last appearance of Titanosauria. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The study window is 101.8–101.4 Ma at the directly dated Patagotitan quarry in the Cerro Barcino Formation of Patagonia. It marks this sampled site only; it is not Titanosauria’s first or last appearance, divergence date, continuous presence, or a direct-ancestor record.:
         contentRecord:
           path: content/nodes/scope-PBDB-7e9585bf56-d07618fd95fe0f3b
           key: claim-statements.zh
@@ -213313,17 +213371,17 @@ generatedInputs:
           path: content/nodes/theropoda
           key: claim-statements.zh
           index: 1
-      Tyrannosauridae is displayed at 84–66 Ma only as the review-bounded sampled family record, not exact global origination or extinction. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The 84–66 Ma interval is the sampled Tyrannosauridae record described in Brusatte et al.’s 2010 review. It is a source-bounded window, not a claim about exact global origination or extinction, a global FAD or LAD, continuous occupancy, divergence, or direct ancestry.:
         contentRecord:
           path: content/nodes/PBDB%3A38606
           key: claim-statements.zh
           index: 1
-      Spinosauridae is displayed at 145–93.9 Ma only as the review's taxonomically qualified fossil coverage, not exact family FAD/LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      Across the named and fragmentary material accepted in the revision, 145–93.9 Ma marks its taxonomically qualified fossil coverage. This is not a precise first or last appearance for Spinosauridae, a divergence date, continuous occupancy, or evidence of a direct ancestor.:
         contentRecord:
           path: content/nodes/PBDB%3A38595
           key: claim-statements.zh
           index: 1
-      Spinosaurus is displayed at 100.5–93.9 Ma only as the Cenomanian specimen-bearing interval for FSAC-KK 11888, not the complete genus range. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      FSAC-KK 11888 comes from the Cenomanian specimen-bearing interval 100.5–93.9 Ma in Morocco’s Kem Kem Group. This window locates the material used by the tail study; it is not the complete Spinosaurus range, a global first or last appearance, or a direct-ancestor date.:
         contentRecord:
           path: content/nodes/PBDB%3A38598
           key: claim-statements.zh
@@ -213333,12 +213391,12 @@ generatedInputs:
           path: content/nodes/PBDB%3A38561
           key: claim-statements.zh
           index: 1
-      Velociraptor is displayed at 75–71 Ma only as the Campanian specimen interval for IGM 100/981, not the full range of Velociraptor. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      IGM 100/981 is from the Djadokhta Formation in Mongolia and falls within the 75–71 Ma Campanian specimen interval. This window belongs to this fossil, not the full Velociraptor range, a divergence date, continuous occupancy, or a direct-ancestor claim.:
         contentRecord:
           path: content/nodes/PBDB%3A38564
           key: claim-statements.zh
           index: 1
-      Phorusrhacidae is displayed at 3.6–2.6 Ma only as the Pliocene Llallawavis specimen interval, not the family-wide FAD or LAD. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The source-bounded Pliocene interval 3.6–2.6 Ma belongs to the sampled Llallawavis specimen from Playa Los Lobos, Argentina. It is one dated fossil window, not Phorusrhacidae’s global first or last appearance, family origin or extinction, or continuous duration.:
         contentRecord:
           path: content/nodes/PBDB%3A39461
           key: claim-statements.zh
@@ -213408,7 +213466,7 @@ generatedInputs:
           path: content/nodes/eutriconodonta
           key: claim-statements.zh
           index: 1
-      Homo is displayed at 1.85–1.77 Ma only as the dated Dmanisi assemblage only, not the origin, complete range or living continuation of Homo. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The Dmanisi Skull 5 analysis documents variation within this assemblage. The paper’s interpretation of one evolving early-Homo lineage is a taxonomic hypothesis, not a settled ancestry claim. The observation does not collapse all early Homo taxa into one lineage or identify a direct ancestor.:
         contentRecord:
           path: content/nodes/COL%3A636X2
           key: claim-statements.zh
@@ -213448,7 +213506,7 @@ generatedInputs:
           path: content/nodes/amphicyonidae
           key: claim-statements.zh
           index: 1
-      Cetacea is displayed at 53–0 Ma only as a review-bounded fossil-to-living navigation envelope, not an exact cetacean origination date. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The displayed 53–0 Ma span is a review-bounded navigation envelope from sampled fossils through living Cetacea. It is not an exact origin date, global first or last appearance, divergence estimate, continuous-occupancy interval or direct-ancestor claim.:
         contentRecord:
           path: content/nodes/COL%3AWP
           key: claim-statements.zh
@@ -213458,12 +213516,12 @@ generatedInputs:
           path: content/nodes/PBDB%3A42936
           key: claim-statements.zh
           index: 1
-      cetaceamorpha is displayed at 53–0 Ma only as an editorial navigation envelope across separately sampled fossils and living whales, not one observed lineage or origin date. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The displayed 53–0 Ma span is an editorial navigation envelope across separately sampled fossils and living whales. It is not a global first or last appearance, a divergence date, continuous occupancy or an origin date for one lineage.:
         contentRecord:
           path: content/nodes/PBDB%3A159631
           key: claim-statements.zh
           index: 1
-      raoellidae is displayed at 48–47 Ma only as the sampled raoellid interval in the whale-origin review, not a direct whale ancestor or global family range. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The 48–47 Ma display marks the raoellid interval sampled in the whale-origin review. It is not a global first or last appearance, a direct-ancestor interval or a measure of the family’s complete duration.:
         contentRecord:
           path: content/nodes/raoellidae
           key: claim-statements.zh
@@ -213493,12 +213551,12 @@ generatedInputs:
           path: content/nodes/mysticeti
           key: claim-statements.zh
           index: 1
-      odontoceti is displayed at 34–0 Ma only as the review's sampled stem-to-living odontocete envelope, not an exact clade origin. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      The displayed 34–0 Ma interval summarizes the review’s sampled stem-to-living odontocete evidence. It is not an exact clade origin, global first or last appearance, divergence date, continuous range or direct-ancestor claim.:
         contentRecord:
           path: content/nodes/odontoceti
           key: claim-statements.zh
           index: 1
-      Mammuthus is displayed at 0.14–0.004 Ma only as the dated genomic specimen envelope, not the full fossil duration of Mammuthus. The interval is a source-bounded sample window, not a global FAD, LAD, divergence date, continuous occupancy claim or direct-ancestor assertion.:
+      Palkopoulou et al. (2018) supports a dated genomic-specimen envelope of 0.14–0.004 Ma in this record. It describes sampled material, not the full fossil duration of *Mammuthus*. This genome sample is separate from the PBDB occurrence records.:
         contentRecord:
           path: content/nodes/PBDB%3A43266
           key: claim-statements.zh
@@ -214668,7 +214726,7 @@ generatedInputs:
           path: content/nodes/scope-PBDB-cb82ade71e-628581607d32f050
           key: claim-statements.zh
           index: 4
-      In the COL26.8 accepted parent chain for Callithrix jacchus usage 697NS, Simiiformes (usage 4PM) is the infraorder immediately above Callitrichidae (usage 7KR); this records checklist placement, not a phylogenetic result.:
+      In the pinned COL26.8 parent chain for the *Callithrix jacchus* usage (697NS), Simiiformes infraorder (4PM) immediately precedes the Callitrichidae family usage (7KR). This records the checklist path only; it is not a phylogenetic result or a complete definition of Simiiformes.:
         contentRecord:
           path: content/nodes/COL%3A4PM
           key: claim-statements.zh
@@ -214738,12 +214796,12 @@ generatedInputs:
           path: content/nodes/scope-COL-ac2c461680-b04683219f3b788f
           key: claim-statements.zh
           index: 3
-      COL26.8 accepted usage 4C92G places Pan troglodytes beneath Homininae (parent usage JPH). This records the checklist classification only.:
+      COL26.8 records the accepted parent placement of Pan troglodytes under Homininae in this release; that checklist statement does not assert phylogeny or universal consensus. The historical datasets were grouped by name, family, and their own mapping rules. Their small, non-complete samples do not establish Homininae-wide traits, Missing fields and source-specific conditions remain visible.:
         contentRecord:
           path: content/nodes/COL%3AJPH
           key: claim-statements.zh
           index: 0
-      COL26.8 accepted usage 4C92G places Pan troglodytes in Pan (parent usage 6D2G). This records the checklist classification only.:
+      COL26.8 records the accepted parent placement of Pan troglodytes in Pan for this release; it establishes checklist classification, not a phylogeny or universal consensus. PanTHERIA, the Amniote life-history archive, EltonTraits, and the Ernest life-history table use distinct historical data and name-matching rules. Their selected entries do not establish current species concepts, a complete range, conservation status, or traits shared by every descendant.:
         contentRecord:
           path: content/nodes/COL%3A6D2G
           key: claim-statements.zh
@@ -214908,6 +214966,41 @@ generatedInputs:
           path: content/nodes/scope-COL-fdf6fb6929-8d54e0f846b5d825
           key: claim-statements.zh
           index: 6
+      CT scans of named late Eifelian Cheirolepis trailli specimens from the Achanarras Limestone document parts of the braincase, jaw suspension and pectoral-fin endoskeleton, including an imperforate propterygium and peg-and-socket scales; this sampled anatomy is not a complete Actinopterygii body plan or a global first-appearance datum.:
+        contentRecord:
+          path: content/nodes/actinopterygii
+          key: claim-statements.zh
+          index: 1
+      A phylogeny from 243 one-to-one proteins in 25 jawed vertebrates, including a spotted-gar genome and bowfin transcriptome data, supports living Holostei (gars plus bowfin) as sister to Teleostei; this is a topology inferred from the sampled living genomes, not a fossil date or a complete sample of Actinopterygii.:
+        contentRecord:
+          path: content/nodes/actinopterygii
+          key: claim-statements.zh
+          index: 2
+      A molecular-clock analysis of 30 teleost ohnologue pairs estimated the 3R whole-genome duplication at 286.18–267.20 Ma and crown Teleostei at 254.36–234.16 Ma; these are modelled 95% highest-posterior-density intervals, not fossil occurrences or an instantaneous observation.:
+        contentRecord:
+          path: content/nodes/actinopterygii
+          key: claim-statements.zh
+          index: 3
+      The Priscomyzon riniensis holotype AM5750, described as a little over 4.2 cm long, from the Famennian Witpoort Formation (Witteberg Group) at Waterloo Farm near Grahamstown, South Africa, preserves a large oral disc supported by annular cartilage, fourteen simple circumoral teeth and a branchial basket; the article's Figure 1 caption gives an approximate age of 360 Ma. The fossil is total-group lamprey evidence and does not directly establish a crown-Petromyzontida FAD, a feeding act, migration or an ammocoete lifecycle.:
+        contentRecord:
+          path: content/nodes/famennian-priscomyzon-oral-disc
+          key: claim-statements.zh
+          index: 0
+      Shen et al. test higher-level salamander relationships with 102 nuclear markers, while Gao et al. describe Beiyanerpeton as a salamandroid sample; the resulting Caudata classification is sampled evidence rather than a final tree or direct-ancestor sequence.:
+        contentRecord:
+          path: content/nodes/caudata
+          key: claim-statements.zh
+          index: 3
+      Gao et al. report Beiyanerpeton from the Tiaojishan Formation of western Liaoning, China, while Shen et al. sample living salamander lineages for markers; these records provide study localities and taxa, not a complete geographic distribution of Caudata.:
+        contentRecord:
+          path: content/nodes/caudata
+          key: claim-statements.zh
+          index: 4
+      The cited salamander marker study and Beiyanerpeton fossil description address relationships, anatomy and geological context rather than diet, habitat use, locomotion, body size or ecological guild; those fields remain unassigned for Caudata here.:
+        contentRecord:
+          path: content/nodes/caudata
+          key: claim-statements.zh
+          index: 5
   data/ranges/range-evidence.json:
     encoding: json
     template:
@@ -492404,6 +492497,86 @@ generatedInputs:
             key: catalogue-profile
             inject:
               colId: "ZK3J"
+        - contentRecord:
+            path: content/nodes/COL%3ACH2
+            key: catalogue-profile
+            inject:
+              colId: CH2
+        - contentRecord:
+            path: content/nodes/COL%3A7NF2Q
+            key: catalogue-profile
+            inject:
+              colId: 7NF2Q
+        - contentRecord:
+            path: content/nodes/COL%3A7NF2Z
+            key: catalogue-profile
+            inject:
+              colId: 7NF2Z
+        - contentRecord:
+            path: content/nodes/COL%3AN6RS
+            key: catalogue-profile
+            inject:
+              colId: N6RS
+        - contentRecord:
+            path: content/nodes/COL%3AJ6PR
+            key: catalogue-profile
+            inject:
+              colId: J6PR
+        - contentRecord:
+            path: content/nodes/COL%3AN6RZ
+            key: catalogue-profile
+            inject:
+              colId: N6RZ
+        - contentRecord:
+            path: content/nodes/COL%3AKVGD5
+            key: catalogue-profile
+            inject:
+              colId: KVGD5
+        - contentRecord:
+            path: content/nodes/COL%3AT6
+            key: catalogue-profile
+            inject:
+              colId: T6
+        - contentRecord:
+            path: content/nodes/COL%3AKV98H
+            key: catalogue-profile
+            inject:
+              colId: KV98H
+        - contentRecord:
+            path: content/nodes/COL%3AKVMPB
+            key: catalogue-profile
+            inject:
+              colId: KVMPB
+        - contentRecord:
+            path: content/nodes/COL%3AKVB4B
+            key: catalogue-profile
+            inject:
+              colId: KVB4B
+        - contentRecord:
+            path: content/nodes/COL%3A6236K
+            key: catalogue-profile
+            inject:
+              colId: 6236K
+        - contentRecord:
+            path: content/nodes/COL%3AKVNGB
+            key: catalogue-profile
+            inject:
+              colId: KVNGB
+        - contentRecord:
+            path: content/nodes/COL%3AV7K9S
+            key: catalogue-profile
+            inject:
+              colId: V7K9S
+        - contentRecord:
+            path: content/nodes/COL%3A6G5K2
+            key: catalogue-profile
+            inject:
+              colId: 6G5K2
+        - contentRecord:
+            path: content/nodes/COL%3AN6RN
+            key: catalogue-profile
+            inject:
+              colId: N6RN
   data/reading-guides.json:
     encoding: json
     template:

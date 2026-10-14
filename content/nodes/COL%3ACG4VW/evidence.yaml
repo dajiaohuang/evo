@@ -1,14 +1,5 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en:
-      page: en
-      section: col-name-record
-      part: body
-    zh:
-      page: zh
-      section: col-name-record
-      part: body
   catalogue-profile:
     scientificName: Mesechinus orientalis Shi, Yao, K. He, Bai, J. Zhou, J. Fan, W. Su, W. Nie, S. Yang, Onditi, X. Jian & Z. Chen, 2023
     rank: species
@@ -29,16 +20,51 @@ records:
           title: Catalogue of Life COL26.8 — Mesechinus orientalis
           url: https://www.checklistbank.org/dataset/316115/taxon/CG4VW
           locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+      - id: study
+        referenceId: doi:10.3897/zookeys.1185.111615
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Full primary species description read: seven specimens collected 2018–2023 in Anhui and Zhejiang; morphology, mitochondrial phylogeny, karyotype, habitat and divergence estimate."
+            zh: 已阅读原始物种描述全文：2018–2023 年在安徽和浙江采集的七件标本；涵盖形态、线粒体系统发育、核型、生境及分歧时间估计。
+          locator: Full article pp. 143–161; abstract; specimen collection and methods; Results, pp. 149–153; diagnosis and discussion, pp. 153–157; Figs. 2–9
     sections:
-      - topic: identity
+      - topic: natural-history-study
+        title:
+          en:
+            page: en
+            section: field-study
+            part: title
+          zh:
+            page: zh
+            section: field-study
+            part: title
         text:
           en:
             page: en
-            section: col-name-record
+            section: field-study
             part: body
           zh:
             page: zh
-            section: col-name-record
+            section: field-study
             part: body
         sourceIds:
-          - taxonomy
+          - study
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+      - study

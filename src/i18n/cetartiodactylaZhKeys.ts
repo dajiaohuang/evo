@@ -90,5 +90,8 @@ export const cetartiodactylaZhKeys = new Set<string>([
   'Partial articulated holotype MUSM 3580 preserving mandibles and most major postcranial regions',
   'Two fused sacrals, defined femoral head and hoof-like distal phalanges',
   'Functional hind limbs alongside aquatic cetacean adaptations',
-  'MUSM 3580 fixes an approximately 42.6 Ma Peruvian protocetid occurrence and preserves anatomy consistent with weight bearing and aquatic locomotion; walking, swimming and westward dispersal remain analytical interpretations, not direct ancestry.'
+  'MUSM 3580 fixes an approximately 42.6 Ma Peruvian protocetid occurrence and preserves anatomy consistent with weight bearing and aquatic locomotion; walking, swimming and westward dispersal remain analytical interpretations, not direct ancestry.',
+
+  "MUSM 3580 preserves hind-limb anatomy consistent with weight bearing alongside aquatic adaptations; its ~42.6 Ma age is locality context, not a direct specimen date.",
+  "MUSM 3580 anchors a Peruvian occurrence near 42.6 Ma; locomotion and westward dispersal are reconstructions, not observed activity.",
 ])

@@ -48,3 +48,174 @@ records:
         - referenceId: andreev-2022-qianodus
           locator: pp. 964–968, especially 965–967; Figures 1–2; Extended Data Figures 1–3; geological setting and phylogenetic analysis
       evidenceLevel: literature-synthesized
+  atlas-profile:
+    scientificName: Chondrichthyes
+    rank: class
+    commonName: Cartilaginous Fish
+    commonNameZh: 软骨鱼类
+    parentName: Gnathostomata
+    extinct: false
+    pbdbTaxonId: txn:34422
+    geography: []
+    overview:
+      page: en
+      section: reading-introduction
+      part: body
+    overviewZh:
+      page: zh
+      section: reading-introduction
+      part: body
+    ecology: {}
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-62b54f081e
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-2ba95d8c34
+      part: body
+    confidence: medium
+    referenceIds:
+      - andreev-2022-qianodus
+      - andreev-2022-fanjingshania
+      - coates-2018-gladbachus
+    readerSections:
+      - id: reading-introduction
+        title:
+          en:
+            page: en
+            section: s-62b54f081e
+            part: title
+          zh:
+            page: zh
+            section: s-2ba95d8c34
+            part: title
+        text:
+          en:
+            page: en
+            section: s-62b54f081e
+            part: body
+          zh:
+            page: zh
+            section: s-2ba95d8c34
+            part: body
+        sourceIds:
+          - fanjingshania-study
+          - gladbachus-study
+      - id: qianodus-whorls
+        title:
+          en:
+            page: en
+            section: s-2e58a76291
+            part: title
+          zh:
+            page: zh
+            section: s-09c134a97d
+            part: title
+        text:
+          en:
+            page: en
+            section: s-2e58a76291
+            part: body
+          zh:
+            page: zh
+            section: s-09c134a97d
+            part: body
+        sourceIds:
+          - qianodus-study
+      - id: fanjingshania-fins
+        title:
+          en:
+            page: en
+            section: s-85fd974913
+            part: title
+          zh:
+            page: zh
+            section: s-558b29d6f2
+            part: title
+        text:
+          en:
+            page: en
+            section: s-85fd974913
+            part: body
+          zh:
+            page: zh
+            section: s-558b29d6f2
+            part: body
+        sourceIds:
+          - fanjingshania-study
+      - id: gladbachus-mosaic
+        title:
+          en:
+            page: en
+            section: s-57f6c8ca3b
+            part: title
+          zh:
+            page: zh
+            section: s-21e88a7c04
+            part: title
+        text:
+          en:
+            page: en
+            section: s-57f6c8ca3b
+            part: body
+          zh:
+            page: zh
+            section: s-21e88a7c04
+            part: body
+        sourceIds:
+          - gladbachus-study
+    readerSources:
+      - id: qianodus-study
+        referenceId: andreev-2022-qianodus
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - referenceId
+          - publishedAt
+          - scope
+          - locator
+        usage:
+          publishedAt: 2022-09-28
+          scope:
+            en: Qianodus duplicis isolated tooth whorls from the Lower Silurian Rongxi Formation, Guizhou, China.
+            zh: 来自中国贵州下志留统 Rongxi 组的 Qianodus duplicis 孤立齿旋。
+          locator: Abstract; Figures 1–2; Extended Data Figures 1–4; specimen accessions IVPP V26641–V26663.
+      - id: fanjingshania-study
+        referenceId: andreev-2022-fanjingshania
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - referenceId
+          - publishedAt
+          - scope
+          - locator
+        usage:
+          publishedAt: 2022-09-28
+          scope:
+            en: Fanjingshania renovata dermal plates, scales and fin spines from the Lower Silurian of South China; separate specimens, not an articulated skeleton.
+            zh: 来自中国华南下志留统的 Fanjingshania renovata 皮骨板、鳞片和鳍棘；材料来自分离的标本，不是关节相连的骨架。
+          locator: Systematic palaeontology, Referred material and Locality and horizon; author manuscript lines 64–81 / printed pp. 3–4, including Leijiatun, Rongxi Formation, Ozarkodina guizhouensis Biozone, c. 439 Ma and late Aeronian; also Extended Data Figures 1–3 and 5–6 for specimen context and anatomy.
+      - id: gladbachus-study
+        referenceId: coates-2018-gladbachus
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - referenceId
+          - publishedAt
+          - scope
+          - locator
+        usage:
+          publishedAt: 2018-01-10
+          scope:
+            en: CT and histological redescription of the single Gladbachus adentatus specimen UMZC 2000.32 from the Givetian Lower Plattenkalk, Germany.
+            zh: 对德国吉维特期 Lower Plattenkalk 的单件 Gladbachus adentatus 标本 UMZC 2000.32 进行 CT 和组织学重新描述。
+          locator: Results section 3(a); Figure 1; discussion of feeding inference; Conclusions.

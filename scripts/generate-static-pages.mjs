@@ -384,6 +384,8 @@ function renderReaderArticle(profile, language, { kind = 'taxon', sources: sourc
       return '<div class="reader-citation-item">' + link
         + field(language === 'zh' ? '段落定位：' : 'Passage locator: ', section.locator)
         + field(language === 'zh' ? '来源定位：' : 'Source locator: ', source.locator)
+        + (source.readingUrl ? '<p><a href="' + escapeHtml(source.readingUrl) + '" target="_blank" rel="noreferrer">' + (language === 'zh' ? '所引文本 ↗' : 'Cited text ↗') + '</a></p>' : '')
+        + field(language === 'zh' ? '所引文本定位：' : 'Cited text locator: ', source.readingLocator)
         + field(language === 'zh' ? '范围：' : 'Scope: ', readerText(source.scope, language))
         + field(language === 'zh' ? '版本：' : 'Version: ', source.version)
         + field(language === 'zh' ? '权利人：' : 'Rights holder: ', source.rightsHolder)

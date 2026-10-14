@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-study
       - topic: overview
         title:
           en:
@@ -147,6 +148,28 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-study
+        referenceId: zoobank-pub-833e0dc3-afd3-4ba4-83ef-b738f386d415
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+          - publishedAt
+          - license
+          - rights
+          - rightsEvidenceUrl
+          - licenseEvidenceLocator
+          - licenseAppliesTo
+        usage:
+          locator: Title and printed citation, p. 15; Phrynopus valquii diagnosis and type material, pp. 15–18; Distribution and Ecology, p. 20; printed ZooBank publication LSID on final page.
+          scope:
+            en: Supports the diagnosis and 20-specimen type series summarized here, and the placement reported in the article’s Distribution and Ecology section. It does not resolve the abstract/body wording difference or extend the paper’s reported range.
+            zh: 支持此处概述的诊断、20 件模式系列及论文《分布与生态》部分所报告的位置；不消解摘要与正文措辞差异，也不扩展论文所报分布。
+          rightsEvidenceUrl: https://amphibian-reptile-conservation.org/pdfs/Volume/Vol_9_no_1/ARC_9_1_%5BSpecial_Section%5D_15-25_e105_low_res.pdf
+          licenseEvidenceLocator: Printed p. 15, copyright statement immediately below the citation.
+          licenseAppliesTo: The 2015 article named in its printed p. 15 statement.
     limitations:
       en:
         page: en
@@ -156,3 +179,14 @@ records:
         page: zh
         section: s-a2fbd2c4c4
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-study

@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Siluriformes
+    rank: order
+    sourceDatasetId: "1010"
+    name:
+      en: Siluriformes
+      zh: Siluriformes
+    sections:
+      - topic: evolution
+        title:
+          en:
+            page: en
+            section: early-branches
+            part: title
+          zh:
+            page: zh
+            section: early-branches
+            part: title
+        text:
+          en:
+            page: en
+            section: early-branches
+            part: body
+          zh:
+            page: zh
+            section: early-branches
+            part: body
+        sourceIds:
+          - s18
+    sources:
+      - id: s18
+        referenceId: r15-siluriform-root-2018
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Ten-gene comparison of Diplomystidae, Loricarioidei and Siluroidei; complete-data and LS3/LS4 subsampling outcomes.
+            zh: Diplomystidae、甲鲶亚目和鲶亚目的十基因比较；完整数据与 LS3/LS4 抽样结果。
+          locator: PubMed abstract only; full article not available in the read scope
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - s18

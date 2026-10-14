@@ -50,9 +50,10 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-silva-soares-2021-ischnocnema-crassa
       - topic: limitations
         title:
-          en: Research text pending
+          en: Material and scope
           zh: 材料与适用范围
         text:
           en:
@@ -93,6 +94,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-silva-soares-2021-ischnocnema-crassa
+        referenceId: doi-10-11646-zootaxa-5082-3-1
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Abstract; locality and habitat, breeding mode, hand webbing, series placement, and study components.
+          scope:
+            en: The abstract's locality and habitat, breeding mode, hand-webbing observation, parva-series placement, and study components; no specimen-level measurements or unreported behavioral results are added.
+            zh: 用于说明摘要所述地点与生境、繁殖方式、手部蹼膜观察、parva 系列归属及研究内容；不添加摘要未报告的标本测量或行为结果。
     limitations:
       en:
         page: en
@@ -102,3 +116,14 @@ records:
         page: zh
         section: s-8025d55769
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-silva-soares-2021-ischnocnema-crassa

@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-description-synapturanus-2023
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +79,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-description-synapturanus-2023
+        referenceId: doi:10.11646/zootaxa.5258.2.1
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: "Synapturanus sacratus: diagnosis and holotype, printed pp. 161–162; comparisons, p. 162; type-series variation and distribution, p. 163; Appendix 2, p. 188."
+          scope:
+            en: Primary species account and specimen-labelled Appendix 2 measurements; comparison prose on p. 162 conflicts with some Appendix 2 values. Full type/referred series is distinguished from four measured adults.
+            zh: 原始物种描述及附录 2 的标本编号测量值；第 162 页比较文字与附录 2 的部分数值冲突。完整模式／转入标本系列与附录中测量的四只成体分别说明。
     limitations:
       en:
         page: en
@@ -87,3 +101,14 @@ records:
         page: zh
         section: s-6b234a3f60
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-description-synapturanus-2023

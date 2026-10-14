@@ -251,5 +251,9 @@ export const primatesZhKeys = new Set<string>([
   "Archaeological sample sites south of the Limpopo River across central and southern South Africa; 28 sampled individuals date to 10,200–150 calibrated years before present.",
   "Tam Pà Ling cave, northern Laos; TPL 6 and TPL 7 are associated with sediment-age models, not direct fossil dates.",
   "Ilsenhöhle at Ranis, Germany; a cave diet study analyzed 10 human remains alongside 52 animal remains.",
-  "Selected ancient evidence includes two Tam Pà Ling fossils, a Ranis isotope sample, Ust’-Ishim 1 and a 28-person southern African genomic study. Their dates and sample designs differ; together they do not form a complete modern range, origin date or migration history.",
+
+  "PMO 214.214 and WDC-MG-210 are the part and counterpart of one juvenile *Darwinius masillae* skeleton from Messel. Together they preserve articulated limbs, hands, the right foot, a complete tail, a soft-tissue outline and gut contents. The individual was juvenile, and fabricated preparation material was disclosed on part of counterplate B; anatomical completeness does not establish a settled tree position or direct ancestry.",
+  "The holotype and a 36-character matrix support a stem-catarrhine test. The 29–28 Ma age is biochronological; it does not directly date the crown split or identify an ancestor.",
+  "The evidence includes 81 macaques at 17 Chinese sites, one 64-member Buxa troop, Cayo Santiago pedigree and mating-season cohorts, and 54 road deaths on an 11-km NH-7 segment in 2009–2010. The road count is local, not a population mortality estimate or current conservation assessment.",
+  "The examples include TPL 6 and TPL 7 at Tam Pà Ling, 10 human and 52 faunal remains from Ranis, 28 people from southern African archaeological sites and one Ust’-Ishim femur. Sediment estimates, calibrated context dates, genomic comparisons and a direct radiocarbon date answer different questions.",
 ])

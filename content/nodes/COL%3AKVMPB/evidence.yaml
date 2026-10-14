@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Parabembras Bleeker, 1874
+    rank: genus
+    sourceDatasetId: "1010"
+    name:
+      en: Parabembras
+      zh: Parabembras
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: spine-scale-differences
+            part: title
+          zh:
+            page: zh
+            section: spine-scale-differences
+            part: title
+        text:
+          en:
+            page: en
+            section: spine-scale-differences
+            part: body
+          zh:
+            page: zh
+            section: spine-scale-differences
+            part: body
+        sourceIds:
+          - p18
+    sources:
+      - id: p18
+        referenceId: ref-140f4e2f-e4b4-80bb-a40f-e13ea6208dc8
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Taxonomic diagnosis of the three recognized species and distinguishing meristic and positional characters.
+            zh: 三个承认种的分类诊断及其计数、位置区别特征。
+          locator: PubMed abstract; original article citation 2018, ZooKeys 740:59–76; full text link was not retrievable in this pass
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - p18

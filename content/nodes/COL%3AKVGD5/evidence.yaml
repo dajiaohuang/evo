@@ -1,0 +1,95 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hollandichthys Eigenmann, 1910
+    rank: genus
+    sourceDatasetId: "1010"
+    name:
+      en: Hollandichthys
+      zh: Hollandichthys
+    sections:
+      - topic: morphology
+        title:
+          en:
+            page: en
+            section: diagnosis
+            part: title
+          zh:
+            page: zh
+            section: diagnosis
+            part: title
+        text:
+          en:
+            page: en
+            section: diagnosis
+            part: body
+          zh:
+            page: zh
+            section: diagnosis
+            part: body
+        sourceIds:
+          - h13
+      - topic: lifeHistory
+        title:
+          en:
+            page: en
+            section: blackwater-life
+            part: title
+          zh:
+            page: zh
+            section: blackwater-life
+            part: title
+        text:
+          en:
+            page: en
+            section: blackwater-life
+            part: body
+          zh:
+            page: zh
+            section: blackwater-life
+            part: body
+        sourceIds:
+          - h22
+    sources:
+      - id: h13
+        referenceId: ref-bd6f1725-99b2-88bf-a9a3-487d47bf40da
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The paper’s genus diagnosis and comparison of H. taramandahy with H. multifasciatus.
+            zh: 论文中的属诊断，以及 H. taramandahy 与 H. multifasciatus 的比较。
+          locator: Abstract; species diagnosis, pp. 768–774
+      - id: h22
+        referenceId: r15-hollandichthys-lifehistory-2022
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Life-history traits of H. multifasciatus sampled across ten blackwater streams; measurements for 185 specimens in June–September.
+            zh: 十条黑水溪流所采 H. multifasciatus 的生活史性状；六月至九月测量的 185 个体。
+          locator: Abstract; study scope and principal results
+    summary:
+      en:
+        page: en
+        section: brief
+        part: body
+      zh:
+        page: zh
+        section: brief
+        part: body
+    summarySourceIds:
+      - h13
+      - h22

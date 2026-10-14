@@ -8,8 +8,7 @@
     "title",
     "authors",
     "type",
-    "sourceRole",
-    "fitnessFor"
+    "sourceRole"
   ],
   "properties": {
     "id": {
@@ -195,7 +194,9 @@
           "phylogenetic-analyses",
           "phylogeny",
           "specimen-preservation",
-          "stratigraphic-uncertainty"
+          "stratigraphic-uncertainty",
+          "reproduction",
+          "conservation"
         ]
       }
     },
@@ -378,6 +379,54 @@
         }
       },
       "additionalProperties": false
+    },
+    "readingUrl": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "rightsEvidenceUrl": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "readingLocator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rightsEvidenceLocator": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rights": {
+      "type": "string",
+      "minLength": 1
+    },
+    "containerTitle": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenseUrl": {
+      "type": "string",
+      "pattern": "^https://"
+    },
+    "licenseVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenseAppliesTo": {
+      "type": "string",
+      "minLength": 1
+    },
+    "licenseAssessment": {
+      "type": "string",
+      "minLength": 1
+    },
+    "rightsHolder": {
+      "type": "string",
+      "minLength": 1
+    },
+    "attribution": {
+      "type": "string",
+      "minLength": 1
     }
   }
 }

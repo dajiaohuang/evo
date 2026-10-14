@@ -121,5 +121,6 @@ export const cetartiodactylaZh: Record<string, string> = {
   'Partial articulated holotype MUSM 3580 preserving mandibles and most major postcranial regions': '保存下颌和大部分主要颅后区域的部分关节相连正模 MUSM 3580',
   'Two fused sacrals, defined femoral head and hoof-like distal phalanges': '两枚愈合骶椎、明确的股骨头和蹄状远端指趾骨',
   'Functional hind limbs alongside aquatic cetacean adaptations': '水生鲸类适应与具功能的后肢并存',
-  'MUSM 3580 fixes an approximately 42.6 Ma Peruvian protocetid occurrence and preserves anatomy consistent with weight bearing and aquatic locomotion; walking, swimming and westward dispersal remain analytical interpretations, not direct ancestry.': 'MUSM 3580 确定秘鲁约 42.6 Ma 的原鲸科出现记录，并保存与承重和水生运动一致的解剖结构；行走、游泳和向西扩散仍是分析解释，不是直接祖先关系。'
+  "MUSM 3580 preserves hind-limb anatomy consistent with weight bearing alongside aquatic adaptations; its ~42.6 Ma age is locality context, not a direct specimen date.": "MUSM 3580 的后肢解剖特征与承重相符，并与水生适应并存；约 42.6 Ma 是地点背景年代，并非对该标本的直接定年。",
+  "MUSM 3580 anchors a Peruvian occurrence near 42.6 Ma; locomotion and westward dispersal are reconstructions, not observed activity.": "MUSM 3580 为秘鲁约 42.6 Ma 的出现记录提供锚点；运动方式和向西扩散属于重建解释，并非直接观察到的活动。",
 }

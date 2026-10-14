@@ -29,71 +29,48 @@ records:
             part: body
         sourceIds:
           - taxonomy
-      - topic: overview
+      - topic: biology
         title:
           en:
             page: en
-            section: s-19e8fa4ef8
+            section: bio-r16-1
             part: title
           zh:
             page: zh
-            section: s-ddab8c0b5c
+            section: bio-r16-1
             part: title
         text:
           en:
             page: en
-            section: s-19e8fa4ef8
+            section: bio-r16-1
             part: body
           zh:
             page: zh
-            section: s-ddab8c0b5c
+            section: bio-r16-1
             part: body
         sourceIds:
-          - taxonomy
-      - topic: overview
+          - study-r16
+      - topic: brief
         title:
           en:
             page: en
-            section: s-f92c140961
+            section: brief-r16
             part: title
           zh:
             page: zh
-            section: s-6de5b4acc7
+            section: brief-r16
             part: title
-        sourceIds:
-          - amphibian-morphology
-        readingRouteKind: source-reading-route
         text:
           en:
             page: en
-            section: s-f92c140961
+            section: brief-r16
             part: body
           zh:
             page: zh
-            section: s-6de5b4acc7
-            part: body
-        readingLinks:
-          - kind: source
-            url: https://doi.org/10.6084/m9.figshare.21159229.v3
-            targetPath: content/nodes/local-c10873e6135b5f08ba835837
-            label:
-              en: Amphibian morphology v3 — original dataset
-              zh: Amphibian morphology v3 — 原始数据集
-      - topic: limitations
-        title:
-          en: Using the linked literature index
-          zh: 如何使用关联文献索引
-        text:
-          en:
-            page: en
-            section: s-1c2d0d881a
-            part: body
-          zh:
-            page: zh
-            section: s-cbb11a6a2c
+            section: brief-r16
             part: body
         sourceIds:
-          - amphibia-collection-status
+          - study-r16
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -147,12 +124,29 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
-    limitations:
+      - id: study-r16
+        referenceId: ref-c64ab798-063e-5227-b272-e1f0f5c00798
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Only the original article abstract was read for biological findings: diagnosis, known type-locality elevation, nocturnal perching observations and stomach-content sample summary. No broader range or life-history conclusion is claimed."
+            zh: 生物学发现仅依据已读的原始论文摘要：诊断特征、已知模式产地海拔、夜间停栖观察和胃内容物样本概况。不据此声称更广分布或完整生活史。
+          locator: Abstract, pp. 520-521; treatment metadata pp. 521-527.
+    summary:
       en:
         page: en
-        section: s-6f011fdc3f
+        section: brief-r16
         part: body
       zh:
         page: zh
-        section: s-3b71a02bbb
+        section: brief-r16
         part: body
+    summarySourceIds:
+      - study-r16

@@ -8,6 +8,122 @@ records:
       en: Allobates ignotus
       zh: Allobates ignotus
     sections:
+      - id: primary-intro
+        topic: overview
+        title:
+          en:
+            page: en
+            section: primary-intro
+            part: title
+          zh:
+            page: zh
+            section: primary-intro
+            part: title
+        text:
+          en:
+            page: en
+            section: primary-intro
+            part: body
+          zh:
+            page: zh
+            section: primary-intro
+            part: body
+        sourceIds:
+          - doi:10.11646/zootaxa.3308.1.2
+          - doi:10.13128/acta_herpetol-20693
+        group: introduction
+      - id: primary-body
+        topic: biology
+        title:
+          en:
+            page: en
+            section: primary-body
+            part: title
+          zh:
+            page: zh
+            section: primary-body
+            part: title
+        text:
+          en:
+            page: en
+            section: primary-body
+            part: body
+          zh:
+            page: zh
+            section: primary-body
+            part: body
+        sourceIds:
+          - doi:10.11646/zootaxa.3308.1.2
+        group: body
+      - id: primary-habitat
+        topic: biology
+        title:
+          en:
+            page: en
+            section: primary-habitat
+            part: title
+          zh:
+            page: zh
+            section: primary-habitat
+            part: title
+        text:
+          en:
+            page: en
+            section: primary-habitat
+            part: body
+          zh:
+            page: zh
+            section: primary-habitat
+            part: body
+        sourceIds:
+          - doi:10.13128/acta_herpetol-20693
+        group: life
+      - id: primary-comparison
+        topic: biology
+        title:
+          en:
+            page: en
+            section: primary-comparison
+            part: title
+          zh:
+            page: zh
+            section: primary-comparison
+            part: title
+        text:
+          en:
+            page: en
+            section: primary-comparison
+            part: body
+          zh:
+            page: zh
+            section: primary-comparison
+            part: body
+        sourceIds:
+          - doi:10.11646/zootaxa.3308.1.2
+        group: body
+      - id: primary-study
+        topic: biology
+        title:
+          en:
+            page: en
+            section: primary-study
+            part: title
+          zh:
+            page: zh
+            section: primary-study
+            part: title
+        text:
+          en:
+            page: en
+            section: primary-study
+            part: body
+          zh:
+            page: zh
+            section: primary-study
+            part: body
+        sourceIds:
+          - doi:10.13128/acta_herpetol-20693
+        group: research
       - topic: taxonomy
         title:
           en:
@@ -29,6 +145,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+        group: source-context
       - topic: overview
         title:
           en:
@@ -50,6 +167,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+        group: source-context
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +196,34 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: doi:10.11646/zootaxa.3308.1.2
+        referenceId: doi:10.11646/zootaxa.3308.1.2
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Primary treatment or study, limited to the explicitly stated specimen, life-stage, locality and methods; no inferred sister relationship or whole-species range.
+            zh: 原始处理或研究，限于明确陈述的标本、发育阶段、地点及方法；不推断姐妹关系或全物种范围。
+          locator: "2012: definition and diagnosis; 2018: Materials and methods, pp. 53–54; Definition and diagnosis; description of the type series, treatment pp. 50–60; Definition and diagnosis, A. wayuu comparison"
+      - id: doi:10.13128/acta_herpetol-20693
+        referenceId: doi:10.13128/acta_herpetol-20693
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Primary treatment or study, limited to the explicitly stated specimen, life-stage, locality and methods; no inferred sister relationship or whole-species range.
+            zh: 原始处理或研究，限于明确陈述的标本、发育阶段、地点及方法；不推断姐妹关系或全物种范围。
+          locator: "2012: definition and diagnosis; 2018: Materials and methods, pp. 53–54; Methods: Habitat use and abundance, p. 53; Results: Habitat uses and Table 1, p. 54; Free-swimming tadpoles methods, pp. 53–54; results, p. 55, Fig. 3; collection lot CBUMAG:ANF 936"
     limitations:
       en:
         page: en
@@ -87,3 +233,15 @@ records:
         page: zh
         section: s-701ffd9d38
         part: body
+    summary:
+      en:
+        page: en
+        section: short-65wxm
+        part: body
+      zh:
+        page: zh
+        section: short-65wxm
+        part: body
+    summarySourceIds:
+      - doi:10.11646/zootaxa.3308.1.2
+      - doi:10.13128/acta_herpetol-20693

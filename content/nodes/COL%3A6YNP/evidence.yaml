@@ -13,6 +13,7 @@ records:
           - taxonomy
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - zaher-et-al-2018-pseudalsophis-galapagos-radiation
         text:
           zh:
             page: zh
@@ -26,6 +27,7 @@ records:
         sourceIds:
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - zaher-et-al-2018-pseudalsophis-galapagos-radiation
         text:
           zh:
             page: zh
@@ -111,6 +113,19 @@ records:
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
             en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: zaher-et-al-2018-pseudalsophis-galapagos-radiation
+        referenceId: zaher-et-al-2018-pseudalsophis-galapagos-radiation
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: PDF pp. 2–3, 7, 10, 12, 24; final citation pp. 614–642
+          scope:
+            en: Morphology examined in 322 specimens; DNA dataset of 34 individuals; three broad morphotypes, morphometric overlap within clusters, and model-based colonization interval.
+            zh: 形态检视 322 件标本；DNA 数据集 34 个体；三种广义形态型、簇内形态测量重叠及模型估计定殖区间。
     limitations:
       zh:
         page: zh
@@ -120,3 +135,14 @@ records:
         page: en
         section: s-29de32fef5
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - zaher-et-al-2018-pseudalsophis-galapagos-radiation

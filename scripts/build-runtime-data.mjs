@@ -106,7 +106,6 @@ const catalogueProvenance = readJson('data/catalogue-of-life/releases/2026-08-20
 const catalogueSourceManifest = readJson('data/catalogue-of-life/releases/2026-08-20/registry/manifest.json')
 const catalogueSpeciesOwnership = readJson('data/registry/package-species-coverage.json')
 const catalogueResourcePacksSourceManifest = readJson('data/catalogue-of-life/releases/2026-08-20/resource-packs/manifest.json')
-const claimsById = new Map(claims.map((claim) => [claim.id, claim]))
 const packageById = new Map(registry.packages.map((entry) => [entry.id, entry]))
 const entityById = new Map(entities.map((entry) => [entry.id, entry]))
 const packageForPbdbTaxon = new Map(entities.flatMap((entry) => entry.externalIds.pbdb ? [[entry.externalIds.pbdb, entry.packageId]] : []))
@@ -999,12 +998,6 @@ for (const packageEntry of registry.packages) {
   const runtimePackageMedia = packageMedia.map((asset) => asset.asset
     ? { ...asset, asset: { ...asset.asset, ...assetFilesById.get(asset.id) } }
     : asset)
-  const packageReferenceIds = new Set([
-    ...packageEntities.flatMap((entity) => entity.referenceIds),
-    ...packageProfiles.flatMap((profile) => profile.referenceIds),
-    ...packageClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId)),
-    ...packageStories.flatMap((story) => story.steps.flatMap((step) => step.claimLinks.flatMap((link) => claimsById.get(link.claimId)?.referenceLinks.map((referenceLink) => referenceLink.referenceId) ?? []))),
-  ])
   const payloadFiles = {}
   payloadFiles.identity = writeGzipJson(`packages/${packageId}/identity.json.gz`, packageEntities)
   if (packageProfiles.length) payloadFiles.profiles = writeGzipJson(`packages/${packageId}/profiles.json.gz`, packageProfiles)
@@ -1013,7 +1006,6 @@ for (const packageEntry of registry.packages) {
   if (packageStories.length) payloadFiles.stories = writeGzipJson(`packages/${packageId}/stories.json.gz`, packageStories)
   if (runtimePackageMedia.length) payloadFiles.media = writeGzipJson(`packages/${packageId}/media.json.gz`, runtimePackageMedia)
   payloadFiles.researchExamples = writeGzipJson(`packages/${packageId}/research-examples.json.gz`, packageResearchExamples)
-  const packageReferences = references.filter((reference) => packageReferenceIds.has(reference.id))
   payloadFiles.ranges = writeGzipJson(`packages/${packageId}/ranges.json.gz`, canonicalRanges.filter((range) => packageEntities.some((entity) => entity.id === range.entityId)))
   payloadFiles.localeZh = writeGzipJson(`packages/${packageId}/locale-zh.json.gz`, {
     language: 'zh',
@@ -1030,8 +1022,6 @@ for (const packageEntry of registry.packages) {
   payloadFiles.search = writeGzipJson(`package-search-index/${packageId}.json.gz`, [
     ...packageEntities.map((entity) => ({ id: entity.id, kind: entity.entityKind, title: entity.names.scientific, titleEn: entity.names.en, titleZh: entity.names.zh, route: `#/explore?taxon=${encodeURIComponent(entity.id)}&view=tree`, terms: [entity.names.scientific, entity.names.en, entity.names.zh, ...entity.synonyms, entity.definition.en, entity.definition.zh] })),
     ...packageProfiles.map((profile) => ({ id: profile.id, kind: 'profile', packageId, title: profile.scientificName, titleEn: profile.commonName, titleZh: profile.commonNameZh, route: `#/taxa?id=${encodeURIComponent(profile.id)}`, terms: [profile.overview, profile.evidenceSummary, ...profile.traits] })),
-    ...packageClaims.map((claim) => ({ id: claim.id, kind: 'claim', title: claim.statement, route: '#/data', terms: [claim.statement, claim.confidenceRationale, claim.claimType] })),
-    ...packageReferences.map((reference) => ({ id: reference.id, kind: 'reference', title: reference.title, route: '#/data', terms: [reference.title, ...(Array.isArray(reference.authors) ? reference.authors : [reference.authors]), reference.doi, reference.url].filter(Boolean) })),
   ])
   if (packageId === 'perissodactyla') {
     payloadFiles.calibrations = writeGzipJson(`packages/${packageId}/calibrations.json.gz`, calibrations)

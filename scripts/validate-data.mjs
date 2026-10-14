@@ -200,14 +200,27 @@ for (const reference of references) {
 const validateReferences = (owner, ids) => {
   for (const id of ids ?? []) check(referenceIds.has(id), `${owner}: unknown reference ${id}`)
 }
+const validateReaderSources = (owner, record) => {
+  const sourceIds = new Set([...(record.readerSources ?? []).map(source => source.id), ...(record.referenceIds ?? [])])
+  check(unique((record.readerSources ?? []).map(source => source.id)), `${owner}: duplicate reader source IDs`)
+  for (const source of record.readerSources ?? []) if (source.referenceId) validateReferences(`${owner}/${source.id}`, [source.referenceId])
+  for (const section of record.readerSections ?? []) {
+    check((section.sourceIds ?? record.referenceIds ?? []).length > 0, `${owner}/${section.id}: reader passage requires recorded sources`)
+    for (const id of section.sourceIds ?? []) check(sourceIds.has(id), `${owner}/${section.id}: unknown reader source ${id}`)
+    for (const id of section.claimIds ?? []) check(claimsById.has(id), `${owner}/${section.id}: unknown reader claim ${id}`)
+  }
+}
 for (const profile of profiles) {
   validateReferences(`taxon ${profile.id}`, profile.referenceIds)
+  validateReaderSources(`taxon ${profile.id}`, profile)
   for (const range of profile.regionalRanges ?? []) {
     check(range.olderMa >= range.youngerMa, `taxon ${profile.id}/${range.label}: olderMa must be older than youngerMa`)
     validateReferences(`taxon ${profile.id}/${range.label}`, range.referenceIds)
   }
 }
 for (const event of events) {
+  validateReferences(`event ${event.id}`, event.referenceIds)
+  validateReaderSources(`event ${event.id}`, event)
   check(event.startAge >= event.endAge, `event ${event.id}: startAge must be older than endAge`)
 }
 for (const story of stories) {

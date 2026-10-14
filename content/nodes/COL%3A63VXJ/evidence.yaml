@@ -13,6 +13,7 @@ records:
           - taxonomy
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - jins-sampaio-gower-2018-uropeltis-bhupathyi
         text:
           zh:
             page: zh
@@ -26,6 +27,7 @@ records:
         sourceIds:
           - reptTraitsLimitedV12
           - reptTraitsProtocol2024
+          - jins-sampaio-gower-2018-uropeltis-bhupathyi
         text:
           zh:
             page: zh
@@ -112,6 +114,19 @@ records:
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
             en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+      - id: jins-sampaio-gower-2018-uropeltis-bhupathyi
+        referenceId: jins-sampaio-gower-2018-uropeltis-bhupathyi
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: pp. 403, 406, 410, 412
+          scope:
+            en: Six type specimens distinguished from three referred specimens; midbody row count, holotype reduction, field observations and sampled phylogenetic relationship.
+            zh: 六件模式标本与三件转入研究的标本分开；体中部鳞列数、正模鳞列变化、野外观察及已采样系统关系。
     limitations:
       zh:
         page: zh
@@ -121,3 +136,14 @@ records:
         page: en
         section: s-7c01a0783a
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - jins-sampaio-gower-2018-uropeltis-bhupathyi

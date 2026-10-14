@@ -13,7 +13,7 @@ The ReptTraits v1-2 row uses the Reptile Database 2023 name framework and field-
 ## Reproduction and developmental timing {#s-39dee95e61}
 The entry classifies the microhabitat as Aquatic, diet as Carnivorous, activity as Nocturnal and foraging as ACT (active). These broad labels do not identify particular prey, describe every habitat or set a fixed schedule. Population, seasonal and life-stage differences are not resolved by one row.
 
-## A longest record differs from usual lifespan {#s-cbbb1fd7a2}
+## Egg dimensions and reproductive records {#s-cbbb1fd7a2}
 ReptTraits records oviparity, a mean of 4 offspring or eggs per litter or clutch, and eggs 34 mm long by 22 mm wide. The count is a compiled summary, not a prediction for each clutch; oviparity alone does not establish embryo nutrition.
 
 ## Where and how it is active {#s-c53bbc43a5}
@@ -30,4 +30,7 @@ The cited CT study reconstructed one Hydromedusa tectifera skull, MNHN.ZA.AC 187
 
 ## How to trace these values to sources {#s-93e59b956d}
 The skull account is limited to one specimen. Its anatomy cannot establish variation among ages or populations, abundance, current range or conservation status; this page reproduces no figure or table. Archive values are medians or averages of the two middle values, except longevity, which uses the largest record found. They are not measurements of one animal, individual ranges, wild-life means or current surveys. Historical records may be shared across older species and subspecies. Matching names and families support association but do not establish equivalence to COL26.8 concepts or remove all inherited data. Wild or captive conditions are not consistently specified in the source records. Other traits and current conservation require additional sources.
+
+## What one turtle skull shows on a CT scan {#card}
+A CT-based comparison described skull MNHN.ZA.AC 1870-9 of Hydromedusa tectifera, including a nearly horizontal dorsal profile of the cranial cavity and a long, narrow olfactory nerve. These are reconstructions from one specimen; they do not establish variation among ages or populations.
 

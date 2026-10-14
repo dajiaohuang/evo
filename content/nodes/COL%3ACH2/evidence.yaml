@@ -1,0 +1,158 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Chordata
+    rank: phylum
+    sourceDatasetId: null
+    sections:
+      - id: living-lineages
+        title:
+          en:
+            page: en
+            section: living-lineages
+            part: title
+          zh:
+            page: zh
+            section: living-lineages
+            part: title
+        text:
+          en:
+            page: en
+            section: living-lineages
+            part: body
+          zh:
+            page: zh
+            section: living-lineages
+            part: body
+        sourceIds:
+          - putnam-2008-amphioxus-karyotype
+          - hotta-2020-ciona-ontology
+      - id: shared-structures
+        title:
+          en:
+            page: en
+            section: shared-structures
+            part: title
+          zh:
+            page: zh
+            section: shared-structures
+            part: title
+        text:
+          en:
+            page: en
+            section: shared-structures
+            part: body
+          zh:
+            page: zh
+            section: shared-structures
+            part: body
+        sourceIds:
+          - putnam-2008-amphioxus-karyotype
+      - id: ciona-life-stages
+        title:
+          en:
+            page: en
+            section: ciona-life-stages
+            part: title
+          zh:
+            page: zh
+            section: ciona-life-stages
+            part: title
+        text:
+          en:
+            page: en
+            section: ciona-life-stages
+            part: body
+          zh:
+            page: zh
+            section: ciona-life-stages
+            part: body
+        sourceIds:
+          - hotta-2020-ciona-ontology
+      - id: tree-in-the-study
+        title:
+          en:
+            page: en
+            section: tree-in-the-study
+            part: title
+          zh:
+            page: zh
+            section: tree-in-the-study
+            part: title
+        text:
+          en:
+            page: en
+            section: tree-in-the-study
+            part: body
+          zh:
+            page: zh
+            section: tree-in-the-study
+            part: body
+        sourceIds:
+          - putnam-2008-amphioxus-karyotype
+    sources:
+      - id: putnam-2008-amphioxus-karyotype
+        referenceId: putnam-2008-amphioxus-karyotype
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports the living lineage names, the compared chordate structures, and only the sampled phylogenetic result and its stated limitations.
+            zh: 支持现生支系名称、所比较的脊索动物结构，以及受样本范围约束的系统发育结果与其明确局限。
+          locator: "Nature 453:1064–1071; Main text, Introduction (shared structures and three living groups); Results and Discussion, “Deuterostome relationships” (146-locus contrast, 1,090-orthologue analysis and Figure 1); “Genome sequence” (Branchiostoma floridae genome sample: one gravid male, Tampa Bay, July 2003)."
+      - id: hotta-2020-ciona-ontology
+        referenceId: hotta-2020-ciona-ontology
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Supports a Ciona robusta (C. intestinalis type A) larva-to-juvenile example only: larval tail anatomy, tail absorption, and post-metamorphic pharyngeal fissures/endostyle. Imaging and histology material sources remain study-specific; no genus-wide or phylum-wide adult claim is inferred."
+            zh: 仅支持柄海鞘 Ciona robusta（C. intestinalis type A）从幼体到稚体的例子：幼体尾部结构、尾部吸收、变态后咽裂与内柱。成像和组织学材料来源保持为该研究特定信息，不推断属级或全门成体特征。
+          locator: "Scientific Reports 10:17916 (2020); Results, “The DO and AO from the post-hatching larva stage to the Juvenile stage,” “The embryonic development, pre-metamorphosis meta-period,” and “Metamorphosis meta-period,” including Figure 2 and the 27–30 hpf at 18 °C / 75–90 min at 18–20 °C tail-absorption passages; Methods, “Biological materials” and “Image acquisition”; Figures 2 and 6. Samples: C. intestinalis type A (C. robusta); time-lapse/CLSM material from Maizuru Bay and Tokyo Bay, Japan; histology material from the Venice Lagoon, Italy."
+    readingIntroduction:
+      topic: overview
+      title:
+        en:
+          page: en
+          section: reading-introduction
+          part: title
+        zh:
+          page: zh
+          section: reading-introduction
+          part: title
+      text:
+        en:
+          page: en
+          section: reading-introduction
+          part: body
+        zh:
+          page: zh
+          section: reading-introduction
+          part: body
+      sourceIds:
+        - putnam-2008-amphioxus-karyotype
+        - hotta-2020-ciona-ontology
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - putnam-2008-amphioxus-karyotype
+      - hotta-2020-ciona-ontology

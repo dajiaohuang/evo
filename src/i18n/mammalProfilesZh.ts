@@ -111,9 +111,7 @@ export const mammalProfilesZh: Record<string, string> = {
   "Complete tail and articulated limbs": "完整的尾巴和铰接四肢",
   "Hands and right foot preserved": "手和右脚保存完好",
   "Soft-tissue outline and gut contents": "软组织轮廓和肠道内容物",
-  "PMO 214.214 and WDC-MG-210 are opposite slabs of one skeleton. Fabricated portions of plate B were disclosed, and no feature makes the specimen a demonstrated anthropoid ancestor.": "PMO 214.214 和 WDC-MG-210 是一个骨架的相对板。 B 板的人造部分已被公开，但没有任何特征可以证明该标本是类人猿祖先。",
   "Stem-catarrhine sample": "狭鼻猴干群萨达猴标本",
-  "Holotype SGS-UM 2009-002 is a partial cranium combining crown-catarrhine features with no diagnostic ape or Old World monkey specialization in the published matrix.": "正模 SGS-UM 2009-002 是一件不完整颅骨；已发表矩阵显示它兼具狭鼻猴冠群特征，但没有可鉴定的类人猿或旧大陆猴特化。",
   "Middle Shumaysi Formation": "中舒迈西组",
   "Western Saudi Arabia": "沙特阿拉伯西部",
   "Diet inferred from preserved dentition; direct feeding evidence absent": "从保存的牙列推断饮食；缺乏直接喂养证据",
@@ -368,4 +366,6 @@ export const mammalProfilesZh: Record<string, string> = {
   "Referred teeth and tarsal material": "归入的牙齿与跗骨材料",
   "Dental and tarsal characters scored in mimotonid comparisons": "在拟兔科比较中编码的牙齿与跗骨性状",
   "Named dental and tarsal material directly records anatomy and the Erlian Basin occurrence; body mass, herbivory, locomotion and lagomorph affinity remain comparative inferences, not an ancestor sequence.": "具名牙齿与跗骨材料直接记录了解剖和二连盆地出现；体重、植食性、运动和兔形类亲缘仍是比较推断，而非祖先序列。",
+  "Franzen and colleagues describe the juvenile Messel holotype PMO 214.214 and counterpart WDC-MG-210 as part and counterpart of one skeleton. The gut material preserves dietary evidence but does not establish a complete diet. Preparation concentrated on counterplate B, which limits what is exposed. The specimen does not establish direct ancestry.": "Franzen 等将梅塞尔幼年正模 PMO 214.214 与对板 WDC-MG-210 描述为同一骨架的正反两板。肠道材料保存了饮食证据，但不足以确定完整食谱。制备工作集中在对板 B，限制了可见材料。该标本不能确立直接祖先关系。",
+  "Holotype SGS-UM 2009-002 is a partial adult cranium. A published 36-character comparison across 19 taxa found a stem-catarrhine position; the specimen has catarrhine-associated features but lacks diagnostic ape or Old World monkey specializations.": "正模 SGS-UM 2009-002 是一件成年个体的部分颅骨。已发表的 36 性状、19 个类群比较将其置于狭鼻类干群；标本具有狭鼻类相关特征，但缺乏可诊断类人猿或旧大陆猴的特化特征。",
 }

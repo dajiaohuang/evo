@@ -1,9 +1,12 @@
-## Recorded parent of Ecteniniidae {#s-53f43a7554}
-Ecteniniidae is listed at rank family in the PBDB classification route, with Eucynodontia as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
+## Short summary {#summary}
+The 2013 proposal of Ecteniniidae grouped three South American cynodont taxa, but its phylogenetic support was weak: 70% bootstrap, only two extra steps to force an alternative basal placement, and unresolved relationships among members.
 
-## Compare collections, strata and age brackets {#s-880cf5ff43}
-Start with Diegocanis elegans and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 1 selected occurrence from 1 collection; example stratum names are Ischigualasto. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
+## A partial skull defines Diegocanis {#structures}
+The 2013 description of Diegocanis elegans is based on the preserved anterior part of specimen PVSJ 881 from the middle Cancha de Bochas Member of Argentina's Ischigualasto Formation. The study describes its cranial anatomy and places Diegocanis near Ecteninion and Trucidocynodon in the analysed tree.
 
-## What the occurrence ages can show {#s-d135c5ae76}
-How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Diegocanis elegans’s collection record, not a continuous history for Ecteniniidae.
+## A weakly supported family hypothesis {#study}
+The authors proposed Ecteniniidae for Diegocanis, Ecteninion and Trucidocynodon. They report 70% bootstrap support and note that only two extra steps are needed to force a basal-to-Probainognathus placement. Relationships among the proposed family members remain unresolved; the grouping is a hypothesis with limited robustness.
+
+## Limits of the 2013 account {#limits}
+The founding specimen preserves only the anterior skull. The analysis does not resolve relationships among included members, and does not supply a complete account of ecology or directly observed locomotion.
 

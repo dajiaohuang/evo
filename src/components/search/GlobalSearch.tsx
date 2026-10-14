@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { searchCatalogue, searchStaticData } from '../../data-client/staticDataClient'
 import type { CatalogueRecord, CatalogueRuntimeManifest, CatalogueTargetRecord } from '../../data-client/types'
-import { buildRouteHash, parseRouteHash, type AppRoute } from '../../utils/routing'
+import { buildRouteHash, isKnownRouteHash, parseRouteHash, type AppRoute } from '../../utils/routing'
 import { isLocatedMapRoute, withSearchReturn } from '../../utils/searchMapNavigation'
 import { useAppStore } from '../../store'
 import manifest from '../../../data/manifest.json'
@@ -12,6 +12,13 @@ import { isBackendConfigured, loadBackendCapabilities, searchBackendNames, type 
 import './GlobalSearch.css'
 
 type SearchResultKind = SearchResult['kind']
+
+const searchKinds: Record<string, SearchResultKind> = {
+  profile: 'taxon', occurrence: 'occurrence', event: 'event', story: 'story',
+  interval: 'interval', place: 'place',
+  taxon: 'taxon', 'navigation-group': 'tree', 'historical-grade': 'tree',
+  'informal-group': 'tree', 'hypothesis-node': 'tree',
+}
 
 const kindLabels: Record<SearchResultKind, string> = {
   taxon: 'Taxon',
@@ -58,18 +65,12 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
       void searchStaticData(normalized, 16, controller.signal).then((entries) => {
         if (cancelled) return
         setStaticResults(entries.filter((entry) => {
-          if (!entry.route) return false
+          if (!Object.hasOwn(searchKinds, entry.kind) || !entry.route || !isKnownRouteHash(entry.route)) return false
           if (!isPagesPreview) return true
           const parsed = parseRouteHash(entry.route)
           return !isPreviewRouteLocked(parsed.route, parsed.params, isPagesPreview, canSearchCompleteRegistry)
         }).map((entry) => {
-          const kind: SearchResultKind = entry.kind === 'occurrence' ? 'occurrence'
-            : entry.kind === 'event' ? 'event'
-            : entry.kind === 'story' ? 'story'
-              : entry.kind === 'period' || entry.kind === 'interval' ? 'interval'
-                : entry.kind === 'place' ? 'place'
-                  : entry.kind === 'profile' ? 'taxon'
-                    : 'tree'
+          const kind = searchKinds[entry.kind]
           return {
             id: entry.id,
             kind,

@@ -140,7 +140,7 @@ export class ContentReferenceCatalogue {
       reference.metadataVariants.push(metadata)
       variants.set(variantKey, variant)
     }
-    if (!reference.publishedYear && !reference.publishedAt && !reference.accessedAt && !reference.version && reference.metadataStatus === 'imported-without-bibliographic-enrichment' && reference.sourceRole === 'unclassified' && reference.fitnessFor.length === 0 && ['publication', 'web-resource'].includes(reference.type)) reference.dateStatus = 'unresolved-in-source-metadata'
+    if (!reference.publishedYear && !reference.publishedAt && !reference.accessedAt && !reference.version && reference.metadataStatus === 'imported-without-bibliographic-enrichment' && reference.sourceRole === 'unclassified' && reference.fitnessFor?.length === 0 && ['publication', 'web-resource'].includes(reference.type)) reference.dateStatus = 'unresolved-in-source-metadata'
     return { referenceId: reference.id, metadataVariant: variant, sourceKey: source.id, usage, originalFields: Object.keys(source) }
   }
 

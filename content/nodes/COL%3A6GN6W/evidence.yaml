@@ -29,64 +29,48 @@ records:
             part: body
         sourceIds:
           - taxonomy
-      - topic: overview
+      - topic: biology
         title:
           en:
             page: en
-            section: s-7a07eb2737
+            section: bio-r16-1
             part: title
           zh:
             page: zh
-            section: s-a48ceabe35
+            section: bio-r16-1
             part: title
         text:
           en:
             page: en
-            section: s-7a07eb2737
+            section: bio-r16-1
             part: body
           zh:
             page: zh
-            section: s-a48ceabe35
+            section: bio-r16-1
             part: body
         sourceIds:
-          - taxonomy
-      - topic: overview
+          - study-r16
+      - topic: brief
         title:
           en:
             page: en
-            section: s-0cfa2df406
+            section: brief-r16
             part: title
           zh:
             page: zh
-            section: s-9b425e9184
+            section: brief-r16
             part: title
-        sourceIds:
-          - amphibio
-          - tetrapodtraits-revisions
-          - amphibian-morphology
-        readingRouteKind: source-reading-route
         text:
           en:
             page: en
-            section: s-0cfa2df406
+            section: brief-r16
             part: body
           zh:
             page: zh
-            section: s-9b425e9184
+            section: brief-r16
             part: body
-        readingLinks:
-          - kind: source
-            url: https://doi.org/10.6084/m9.figshare.4644424.v5
-            targetPath: content/nodes/context-6a1f9da244a1176f0a919a5ff3281507
-            label:
-              en: AmphiBIO v1 — original dataset
-              zh: AmphiBIO v1 — 原始数据集
-          - kind: source
-            url: https://doi.org/10.6084/m9.figshare.21159229.v3
-            targetPath: content/nodes/local-51e5ee331a5407167eb0c1c5
-            label:
-              en: Amphibian morphology v3 — original dataset
-              zh: Amphibian morphology v3 — 原始数据集
+        sourceIds:
+          - study-r16
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -185,12 +169,29 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
-    limitations:
+      - id: study-r16
+        referenceId: ref-a0b7b9a1-7b32-5b7d-966f-1139a3757c37
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The abstract reports fresh sampling of rare E. baleensis and DNA sequences from two mitochondrial and four nuclear genes; phylogenetic analyses support a close relationship with Petropedetes and reject two alternative relationship hypotheses. No new field ecology or morphology is inferred.
+            zh: 摘要报告对罕见 E. baleensis 进行新鲜采样，并获得两个线粒体基因和四个核基因的序列；系统发育分析支持其与 Petropedetes 关系较近，并排除两种备选关系假说。不据此推断新的野外生态或形态信息。
+          locator: Publisher abstract.
+    summary:
       en:
         page: en
-        section: s-08e401dc35
+        section: brief-r16
         part: body
       zh:
         page: zh
-        section: s-6614fe8e79
+        section: brief-r16
         part: body
+    summarySourceIds:
+      - study-r16

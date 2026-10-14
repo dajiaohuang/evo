@@ -83,8 +83,27 @@ describe('global discovery interaction', () => {
     fireEvent.keyDown(first, { key: 'ArrowUp' })
     expect(input).toHaveFocus()
     fireEvent.keyDown(input, { key: 'Enter' })
-    expect(navigate).toHaveBeenCalledWith('explore', { taxon: 'equus' })
+    expect(navigate).toHaveBeenCalledWith('home', { taxon: 'equus' })
     expect(screen.getByRole('button', { name: 'Search' })).toHaveFocus()
+  })
+
+  it('omits records without a supported destination and opens an exact source ID', async () => {
+    vi.mocked(searchStaticData).mockResolvedValue([
+      { id: 'claim:event:perissodactyl-radiation', kind: 'claim', title: 'Orphan claim', route: '#/data', terms: [] },
+      { id: 'pbdb-api-2016', kind: 'reference', title: 'Orphan reference', route: '#/data', terms: [] },
+      { id: 'unknown', kind: 'unknown', title: 'Unknown record kind', route: '#/home', terms: [] },
+      { ...horse, title: 'Retired profile route', route: '#/data' },
+      { id: 'txn:264013', kind: 'profile', title: 'Source taxon', route: '#/pbdb?id=txn%3A264013', terms: [] },
+    ])
+    const navigate = vi.fn()
+    render(<GlobalSearch onNavigate={navigate} />)
+    const input = await openSearch()
+    fireEvent.change(input, { target: { value: 'source' } })
+    await advance()
+    expect(screen.queryByRole('button', { name: /Orphan|Unknown record|Retired profile/ })).not.toBeInTheDocument()
+    expect(screen.getByRole('status')).toHaveTextContent('1 results')
+    fireEvent.click(screen.getByRole('button', { name: /Source taxon/ }))
+    expect(navigate).toHaveBeenCalledWith('pbdb', { id: 'txn:264013' })
   })
 
   it('retries an unavailable source while successful content remains navigable', async () => {

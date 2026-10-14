@@ -117,7 +117,7 @@ export const marineZh: Record<string, string> = {
   "Partial articulated skeleton preserving occiput, lower jaw, vertebral column, girdles and left limbs": "保存枕部、下颌、脊柱、带部和左侧肢骨的部分关节骨骼",
   "Ventrally concave V-shaped neurocentral sutures in anterior and middle cervical vertebrae": "前部和中部颈椎具有腹侧凹陷的 V 形神经棘缝",
   "Foreshortened zeugopodials and highly vascularized humeral and femoral bone tissue": "缩短的前臂和胫部骨段，以及高度血管化的肱骨和股骨组织",
-  "Wintrich et al. describe holotype LWL-MFN P 64047 from a defined bed in the Exter Formation at Bonenburg, 21 m below the Triassic–Jurassic boundary. Figures and supplementary sections document the skeleton and histology; basal pliosaurid placement, fast growth and physiological implications remain topology- and interpretation-dependent.": "Wintrich 等描述了来自 Bonenburg Exter 组明确层位、位于三叠纪—侏罗纪界线下 21 米的正模 LWL-MFN P 64047。图版和补充切片记录骨骼与组织学；基干上龙科位置、快速生长和生理含义仍依赖拓扑与解释。",
+  "The Exter Formation holotype documents anatomy and histology; basal placement and physiological implications remain analysis-dependent.": "Exter 组正模记录了解剖结构与组织学；其基干位置和生理含义仍取决于分析。",
 }
 
 export default marineZh

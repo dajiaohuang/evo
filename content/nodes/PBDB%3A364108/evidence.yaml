@@ -10,30 +10,51 @@ records:
     sections:
       - topic: overview
         sourceIds:
-          - pbdbOtherSynapsidaTaxonomy20261002
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-ophidostoma-2017
         text:
-          zh:
-            page: zh
-            section: s-7341063619
-            part: body
           en:
             page: en
-            section: s-68a2cb34b5
+            section: summary
             part: body
-      - topic: readingPath
+          zh:
+            page: zh
+            section: summary
+            part: body
+      - topic: material
         sourceIds:
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
+          - study-ophidostoma-2017
         text:
-          zh:
-            page: zh
-            section: s-3fa9c188d5
-            part: body
           en:
             page: en
-            section: s-7b7e4827da
+            section: structures
+            part: body
+          zh:
+            page: zh
+            section: structures
+            part: body
+      - topic: study
+        sourceIds:
+          - study-ophidostoma-2017
+        text:
+          en:
+            page: en
+            section: study
+            part: body
+          zh:
+            page: zh
+            section: study
+            part: body
+      - topic: scope
+        sourceIds:
+          - study-ophidostoma-2017
+        text:
+          en:
+            page: en
+            section: limits
+            part: body
+          zh:
+            page: zh
+            section: limits
             part: body
     sources:
       - id: pbdbOtherSynapsidaTaxonomy20261002
@@ -93,12 +114,38 @@ records:
           scope:
             zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
             en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+      - id: study-ophidostoma-2017
+        referenceId: ref-ophidostoma-huttenlocker-smith-2017
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Supports only the edited short preview; the specimen or anatomical description; the study interpretation or comparison; the stated evidence limits in this account, within the source read extent and stated specimen scope.
+            zh: 仅在本账户中支持经编辑的简短摘要；标本或解剖描述；研究解释或比较；所述证据范围限制，且受已查阅来源范围及所述标本范围限制。
+          locator: "Huttenlocker and Smith 2017: SAM-PK-K8516, Oukloof Member and whaitsioid placement."
     limitations:
-      zh:
-        page: zh
-        section: s-da393ee2a3
-        part: body
       en:
         page: en
-        section: s-316af3028f
+        section: limits
         part: body
+      zh:
+        page: zh
+        section: limits
+        part: body
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - study-ophidostoma-2017

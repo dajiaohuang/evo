@@ -1,5 +1,4 @@
 export const dinosaurZh: Record<string, string> = {
-  'Dinosauria is an atlas route from early fossil samples through living birds. Its displayed 233.2–0 Ma span is a navigation composite: the older end is anchored by a named Late Triassic assemblage, not a demonstrated global first appearance or continuous fossil record. The route keeps that specimen evidence, changing family-tree hypotheses and later fossil examples distinct.': 'Dinosauria 是一条从早期化石样本延伸至现生鸟类的图谱阅读路径。页面显示的 2.332 亿年前至今是导航用的综合跨度：较老一端由具名晚三叠世组合锚定，并非已证实的全球最早出现或连续化石记录。本页分别呈现标本证据、不断变化的系统树假说和较晚的化石案例。',
   'Diet varied across lineages; no single group-wide diet is inferred here.': '不同谱系的食性各异，本页不推断恐龙类群具有单一食性。',
   'The page links terrestrial fossil samples with the living-bird continuation; it does not define one habitat for Dinosauria.': '本页连接陆生化石样本与现生鸟类延续，但不为整个 Dinosauria 指定一种栖地。',
   'Locomotor anatomy and behaviour differ across included lineages; the examples below are not a group-wide performance model.': '不同谱系的运动解剖与行为各不相同，下列案例不能代表整个类群的运动能力。',
@@ -7,7 +6,6 @@ export const dinosaurZh: Record<string, string> = {
   'Diverse terrestrial and aerial lineages; no single ecological guild is assigned to the whole group.': '包含多样的陆生与空中谱系，不为整个类群指定单一生态功能群。',
   'The route includes the sampled Late Triassic holotype ULBRA-PVT280 and living birds.': '阅读路径连接晚三叠世具名正模 ULBRA-PVT280 与现生鸟类。',
   'Early dinosaur relationships remain sensitive to matrix coding and taxon sampling.': '早期恐龙亲缘关系会随矩阵编码与分类单元取样而变化。',
-  'ULBRA-PVT280 and its Candelária Sequence context are documented specimen evidence. Its age does not set a global dinosaur first appearance. Published morphology matrices recover competing early topologies, and the Yutyrannus integument example is limited to three named skeletons; neither should be generalized beyond its study scope.': 'ULBRA-PVT280 及其 Candelária Sequence 地层背景属于有记录的标本证据，但其年代不能确立全球恐龙首现。已发表的形态矩阵恢复了彼此竞争的早期拓扑；Yutyrannus 体表结构案例也仅限于三件具名骨架。两者均不应超出各自研究范围推广。',
   'Eocursor': '曙奔龙',
   'Armoured dinosaurs': '装甲类',
   'Scelidosaurus': '腿龙',
@@ -178,6 +176,8 @@ export const dinosaurZh: Record<string, string> = {
   'The described anatomy includes a three-fingered manus and a typical theropod pes': '所述解剖包括三指手部和典型兽脚类足部',
   'Long filamentous integumentary structures are preserved on the named specimen sample': '具名标本样本保存长丝状体被结构',
   'The named skeletons, Yixian Formation provenance and preserved filamentous integument are direct evidence. Their colour, complete body coverage, insulation or display function, behaviour and performance are not directly observed; phylogenetic position depends on the study\'s sampled analysis.': '具名骨骼、义县组出处和保存的丝状体被是直接证据。其颜色、全身体表覆盖、保温或展示功能、行为与性能均未被直接观察；系统位置依赖研究的取样分析。',
+  "Dinosauria’s 233.2–0 Ma display links fossils to living birds as a navigation composite, not a global first appearance or continuous fossil record.": "Dinosauria 展示的 233.2–0 Ma 是一段导航用的综合跨度，连接化石与现生鸟类；它并非全球最早出现时间，也不表示连续的化石记录。",
+  "ULBRA-PVT280 anchors a Late Triassic sample; competing matrices and the Yutyrannus example remain study-bounded, not global or universal claims.": "ULBRA-PVT280 为一个晚三叠世样本提供锚点；彼此竞争的矩阵结果和 Yutyrannus 案例均受各自研究范围限制，不能推广为全球或普遍结论。",
 }
 
 export default dinosaurZh

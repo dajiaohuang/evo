@@ -1,14 +1,5 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en:
-      page: en
-      section: col-name-record
-      part: body
-    zh:
-      page: zh
-      section: col-name-record
-      part: body
   catalogue-profile:
     scientificName: Tupaia everetti Thomas, 1892
     rank: species
@@ -29,16 +20,51 @@ records:
           title: Catalogue of Life COL26.8 — Tupaia everetti
           url: https://www.checklistbank.org/dataset/316115/taxon/CCGHH
           locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+      - id: study
+        referenceId: doi:10.56899/152.02.18
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Abstract only: first description of one active nest and its nest site on Dinagat Island; full five-page article was not accessible in this pass."
+            zh: 仅阅读摘要：首次描述迪纳加特岛的一处活动巢及其巢址；本次无法访问五页论文全文。
+          locator: Publisher abstract; study describes one active nest on Dinagat Island, Philippine Journal of Science 152(2):725–729
     sections:
-      - topic: identity
+      - topic: natural-history-study
+        title:
+          en:
+            page: en
+            section: field-study
+            part: title
+          zh:
+            page: zh
+            section: field-study
+            part: title
         text:
           en:
             page: en
-            section: col-name-record
+            section: field-study
             part: body
           zh:
             page: zh
-            section: col-name-record
+            section: field-study
             part: body
         sourceIds:
-          - taxonomy
+          - study
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+      - study

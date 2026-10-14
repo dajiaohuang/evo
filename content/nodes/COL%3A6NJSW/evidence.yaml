@@ -50,6 +50,7 @@ records:
             part: body
         sourceIds:
           - taxonomy
+          - primary-study
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +79,19 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-study
+        referenceId: dutta-2000-kalophrynus-orangensis
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          locator: Printed title and abstract, p. 67; Materials and Methods and diagnosis, pp. 68–70; Ecological Notes, p. 71; Table 1, pp. 69–70.
+          scope:
+            en: Supports the original diagnosis and the type-series collection statements summarized here; the locality is the type locality, not a complete range, and no broader life history is inferred.
+            zh: 支持此处概述的原始诊断与模式系列采集信息；该地点是模式产地，不代表完整分布，也不推断更广的生活史。
     limitations:
       en:
         page: en
@@ -87,3 +101,14 @@ records:
         page: zh
         section: s-ea14d612d3
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-study

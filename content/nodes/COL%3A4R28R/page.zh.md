@@ -22,10 +22,10 @@ AmphiBIO 的 Frost 2011 记录为 Quasipaa spinosa 标记了幼体阶段；该�
 ## 相关来源记录与数据集 {#s-dcc78e1479}
 这些链接通向数个两栖动物性状数据集中以相同或历史相关名称记录的条目，可用于比较各来源实际记录了什么；但不能据此认定来源采用相同物种概念，或其中所有性状都适用于此目录条目。
 
-- [AmphiBIO v1: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphiBIO/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
-- [TadpoleTraits v4: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/TadpoleTraits/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
-- [Amphibian morphology v3: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
-- [AmphiTherm curated snapshot: Quasipaa spinosa](../../../../../../../../../../../../../../topics/research/AmphiTherm/Anura/Dicroglossidae/Quasipaa/Quasipaa_spinosa/page.zh.md)
+- AmphiBIO v1: Quasipaa spinosa
+- TadpoleTraits v4: Quasipaa spinosa
+- Amphibian morphology v3: Quasipaa spinosa
+- AmphiTherm curated snapshot: Quasipaa spinosa
 
 ## TadpoleTraits 中的发育阶段 {#s-23c7b1d591}
 TadpoleTraits 在 Quasipaa spinosa 这一存档来源概念下有 1 条文献数据行、没有图像数据行；它是否对应本页采用的物种概念尚未确定。来源给出的发育阶段范围为 34–38。这是数据集标签，不是蝌蚪数量或覆盖整个物种的发育序列。
@@ -44,7 +44,4 @@ AmphiTherm 在来源第 4284 行（ID 4757，Zhang_and_Liu_2010）为成体记�
 
 ## primaryStudyScopes / sectionEvidence / evidenceSummary {#s-3b9d07ecde}
 研究报告 australis MA-BD2 与 Quasipaa spinosa 的一种 β-防御素序列一致性为 64.15%，在所比较候选中最高。序列相似不代表抗菌活性相等或表达相同；论文没有新测 spinosa 肽的活性。防御素基因树支持较弱，也限制了演化解释；这一比较本身不能确立物种级姐妹关系。
-
-## 材料与适用范围 {#s-a9ab76b8ee}
-现有来源报告了历史性状值、汇编测量、一项热耐受实验估计和一项序列比较，但不足以完整说明本种生态、种群范围的热耐受或保护状况。
 

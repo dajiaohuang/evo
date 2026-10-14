@@ -81,7 +81,7 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
   assert.equal(dossiers.releaseAlias, releaseAlias, 'Species dossiers must match the catalogue release')
   const records = new Map()
   const recordFor = colId => {
-    if (!records.has(colId)) records.set(colId, { colId, descriptionCollections: [], sourceFacetEvidence: [] })
+    if (!records.has(colId)) records.set(colId, { colId, releaseAlias, descriptionCollections: [], sourceFacetEvidence: [] })
     return records.get(colId)
   }
   for (const [key, rows] of Object.entries(collections)) {
@@ -104,6 +104,11 @@ export function buildCatalogueKnowledge({ releaseAlias, collections, profiles, d
     assert.ok(!record.profile, `Duplicate profile ${profile.colId}`)
     assert.ok(profile.sections.length > 0 && profile.sources.length > 0)
     const sourceIds = new Set(profile.sources.map(source => source.id))
+    if (profile.summary !== undefined || profile.summarySourceIds !== undefined) {
+      assert.ok(isNonEmptyText(profile.summary?.en) && isNonEmptyText(profile.summary?.zh), 'Authored preview requires bilingual summary')
+      assert.ok(Array.isArray(profile.summarySourceIds) && profile.summarySourceIds.length > 0 && profile.summarySourceIds.every(id => isNonEmptyText(id) && sourceIds.has(id) && profile.sources.filter(source => source.id === id).length === 1), 'Unresolved authored preview citation')
+      assert.equal(new Set(profile.summarySourceIds).size, profile.summarySourceIds.length, 'Duplicate authored preview citation')
+    }
     for (const source of profile.sources) assert.match(source.url, /^https:\/\//)
     for (const section of profile.sections) {
       assert.ok(section.text.zh && section.text.en && section.sourceIds.length)

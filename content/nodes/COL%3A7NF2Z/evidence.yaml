@@ -1,0 +1,171 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Tunicata
+    rank: subphylum
+    sourceDatasetId: null
+    name:
+      en: Tunicata
+      zh: Tunicata
+    readingIntroduction:
+      title:
+        en:
+          page: en
+          section: opening
+          part: title
+        zh:
+          page: zh
+          section: opening
+          part: title
+      text:
+        en:
+          page: en
+          section: opening
+          part: body
+        zh:
+          page: zh
+          section: opening
+          part: body
+      sourceIds:
+        - hotta-2020-ciona-ontology
+    sections:
+      - topic: body
+        sourceIds:
+          - hotta-2020-ciona-ontology
+        title:
+          en:
+            page: en
+            section: body
+            part: title
+          zh:
+            page: zh
+            section: body
+            part: title
+        text:
+          en:
+            page: en
+            section: body
+            part: body
+          zh:
+            page: zh
+            section: body
+            part: body
+      - topic: development
+        sourceIds:
+          - hotta-2020-ciona-ontology
+          - delsuc-2018-tunicate-phylogenomics
+        title:
+          en:
+            page: en
+            section: life
+            part: title
+          zh:
+            page: zh
+            section: life
+            part: title
+        text:
+          en:
+            page: en
+            section: life
+            part: body
+          zh:
+            page: zh
+            section: life
+            part: body
+      - topic: relationships
+        sourceIds:
+          - delsuc-2018-tunicate-phylogenomics
+        title:
+          en:
+            page: en
+            section: relationships
+            part: title
+          zh:
+            page: zh
+            section: relationships
+            part: title
+        text:
+          en:
+            page: en
+            section: relationships
+            part: body
+          zh:
+            page: zh
+            section: relationships
+            part: body
+      - topic: research
+        sourceIds:
+          - hotta-2020-ciona-ontology
+          - delsuc-2018-tunicate-phylogenomics
+        title:
+          en:
+            page: en
+            section: research
+            part: title
+          zh:
+            page: zh
+            section: research
+            part: title
+        text:
+          en:
+            page: en
+            section: research
+            part: body
+          zh:
+            page: zh
+            section: research
+            part: body
+    sources:
+      - id: col26.8-tunicata
+        referenceId: col-2026-checklistbank-316115
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - publishedYear
+        usage:
+          title: Catalogue of Life COL26.8 — Tunicata usage 7NF2Z
+          url: https://www.checklistbank.org/dataset/316115/taxon/7NF2Z
+          locator: COL26.8 archived accepted usage 7NF2Z; hierarchy/nodes/id-92.jsonl.gz, line 215; ancestor chain 7NF2Z > CH2 > N > CS5HF. Classification identity only.
+      - id: hotta-2020-ciona-ontology
+        referenceId: hotta-2020-ciona-ontology
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - publishedYear
+          - publisher
+        usage:
+          locator: "Results: Swimming Larva Period; Metamorphosis meta-period; tail absorption and body-axis rotation; Figs. 2–5; Methods: Biological materials."
+          scope:
+            en: Original Ciona robusta (Ciona intestinalis type A) staged anatomy and development, hatching larva through juvenile; specimen source and temperature scopes stay attached to each observation.
+            zh: Ciona robusta（Ciona intestinalis type A）的原始分期解剖与发育研究，从孵化幼体至幼年期；每项观察均保留标本来源与温度范围。
+          rights: Publisher labels the article Open Access; exact licence not verified in reviewed passage. No image reused; prose is original paraphrase.
+      - id: delsuc-2018-tunicate-phylogenomics
+        referenceId: delsuc-2018-tunicate-phylogenomics
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - publishedYear
+          - publisher
+        usage:
+          locator: "Abstract; Methods: Phylogenomic dataset assembly and Molecular dating; Results: reference phylogenetic framework and tentative timescale; Fig. 1; Table 1."
+          scope:
+            en: Original analysis of 258 nuclear orthologs and relaxed-clock estimate; 18 tunicate taxa among 63 deuterostome taxa, with one cephalochordate. Topology and dates retain the long-branch, sampling, and calibration caveats.
+            zh: 基于 258 个核直系同源基因的原始分析及松弛分子钟估计；63 个后口动物分类单元中包括 18 个被囊动物分类单元和 1 个头索动物分类单元。拓扑和年代保留长枝、取样与校准限制。
+          rights: Article states Creative Commons Attribution 4.0 International (CC BY 4.0); only paraphrased text is used.
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - hotta-2020-ciona-ontology

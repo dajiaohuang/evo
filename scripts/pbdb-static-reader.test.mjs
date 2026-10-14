@@ -27,7 +27,7 @@ function record(id, scientificName, parentSourceIdentifier = null, text = 'A *bo
           title: 'Recorded PBDB account',
           url: 'https://paleobiodb.org/data1.2/taxa/single.json?id=2',
           scope: { en: 'Only this recorded source account.', zh: '仅此已记录的来源账号。' },
-          locator: 'response record 2', version: 'snapshot 2026-10-02', license: 'CC0-1.0',
+          locator: 'response record 2', readingUrl: 'https://example.org/author-proof', readingLocator: 'Proof page 2', version: 'snapshot 2026-10-02', license: 'CC0-1.0',
           rightsHolder: 'Paleobiology Database',
         },
         readingTargets: [{ name: 'Related taxon', pbdbTaxonId: 'txn:2' }],
@@ -59,6 +59,8 @@ it('renders bilingual sections, shared inline markup, source citations, scope, l
   expect(english).toContain('<em>bounded</em>')
   expect(english).toContain('<code>txn:2</code>')
   expect(english).toContain('response record 2')
+  expect(english).toContain('href="https://example.org/author-proof"')
+  expect(english).toContain('Proof page 2')
   expect(english).toContain('snapshot 2026-10-02')
   expect(english).toContain('CC0-1.0')
   expect(english).toContain('Paleobiology Database')

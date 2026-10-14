@@ -1,12 +1,15 @@
 ## Accepted name and placement {#s-c656c53019}
 COL26.8 accepts Brachycephalus margaritatus Pombal & Izecksohn, 2011 as a species. Its recorded classification places it along Anura (order) → Brachycephalidae (family) → Brachycephalus (genus). The name and placement refer to the release issued on 20 August 2026; names in another checklist or fossil database require their own identity evidence.
 
-## What this catalogue record establishes {#s-81676f94b9}
-COL26.8 records Brachycephalus margaritatus as a species within Brachycephalus. This entry supplies its accepted name and placement; no species-specific biological source account is attached here.
+## Adult measurements and dorsal plates {#s-81676f94b9}
+The 2011 description reports fully developed Brachycephalus margaritatus with snout–vent lengths of 15.0–18.9 mm. It describes the frogs as orange in life and cream to grayish cream in preservative. The diagnosis emphasizes well-developed dorsal plates whose side edges curve downward, along with scattered bulges on the upper body. These observations describe the material in the species account.
 
 ## catalogue-profile / limitations {#s-09721e6176}
-Taxonomy-only orientation. Biological research coverage is pending and this page is not counted as a complete species account. This reader is.
+The primary passage cited above supports only the observations and interpretation summarized here. It does not establish a complete biological account or resolve the identity of separate historical dataset records.
 
-## Research text pending {#s-2c6c0cfa22}
-For Brachycephalus margaritatus, COL26.8 records the accepted name and its placement. This catalogue entry contains no taxon-specific biological observation.
+## Material and scope {#s-2c6c0cfa22}
+The separately linked catalogue queries and dataset records do not establish biological claims or current-concept equivalence. The primary observations summarized above have their own passage-specific source binding.
+
+## Dorsal plates on a tiny frog {#card}
+The 2011 description reports fully developed Brachycephalus margaritatus at 15.0–18.9 mm snout–vent length. It describes orange live coloration and well-developed dorsal plates whose side edges curve downward, with scattered bumps on the upper body. These measurements and traits describe material in the species account.
 

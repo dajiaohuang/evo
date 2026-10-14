@@ -43,6 +43,11 @@ const exactVertebrateDeepeningCopy = new Set<string>([
   'IVPP V26668, V27410 and V27411 preserve the key postcranial anatomy; their sample window does not establish global galeaspid duration, direct ancestry or a universal fin-evolution sequence.',
   'A Telychian jawed stem-gnathostome genus anchored here by the articulated Xiushanosteus mirabilis holotype and multiple referred bodies from the Chongqing Lagerstätte.',
   'Holotype IVPP V300001 and referred specimens IVPP V300002–V300021 provide articulated anatomical evidence, not a global jawed-vertebrate first appearance, direct ancestor or complete placoderm history.',
+
+  "The specimen is a little over 4.2 cm long and comes from the Famennian Witpoort Formation (Witteberg Group) at Waterloo Farm near Grahamstown, South Africa; the article's Figure 1 caption describes it as 360 million years old",
+  "A later study reports larval and juvenile Priscomyzon, including a hatchling-to-adult growth series; the sampled larvae lack the defining traits of modern ammocoetes and instead show prominent eyes, a cusped feeding apparatus and posteriorly united branchial baskets.",
+  "The holotype does not preserve a feeding act or migration, and cannot by itself demonstrate a complete life cycle; the 2006 authors’ parasitic-feeding interpretation is an inference from oral anatomy.",
+  "A separate morphology-based analysis places Myxinikela as a stem myxinoid and recovers cyclostome monophyly; it notes that the branchial apparatus is cranial in Myxinikela while slime-gland evidence is sensitive to preservation.",
 ])
 
 const vertebrateDeepeningMarkers = [

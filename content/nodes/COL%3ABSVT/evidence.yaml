@@ -1,14 +1,5 @@
 schemaVersion: 1
 records:
-  readerLimitations:
-    en:
-      page: en
-      section: col-name-record
-      part: body
-    zh:
-      page: zh
-      section: col-name-record
-      part: body
   catalogue-profile:
     scientificName: Allactaga (Paralactaga) euphratica Thomas, 1881
     rank: species
@@ -29,16 +20,50 @@ records:
           title: Catalogue of Life COL26.8 — Allactaga (Paralactaga) euphratica
           url: https://www.checklistbank.org/dataset/316115/taxon/BSVT
           locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+      - id: study
+        referenceId: colak-yigit-1998-allactaga-ecology
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Abstract only: Turkish study of reproduction, burrows, feeding, activity, and moulting in three Allactaga species; full text not accessed. The study reports A. euphratica in a three-species Turkish comparison, but its taxon concept has not been independently reconciled with the pinned COL26.8 concept; matching names do not establish equivalence."
+            zh: 仅阅读摘要：土耳其对三种 Allactaga 的繁殖、洞穴、取食、活动和换毛研究；未取得全文。 该研究在土耳其三种跳鼠比较中报告 A. euphratica，但其分类概念尚未与固定的 COL26.8 概念独立核对；名称相同不能证明概念等同。
+          locator: Publisher abstract; full article pages 105–118 were not retrieved
     sections:
-      - topic: identity
+      - topic: natural-history-study
+        title:
+          en:
+            page: en
+            section: field-study
+            part: title
+          zh:
+            page: zh
+            section: field-study
+            part: title
         text:
           en:
             page: en
-            section: col-name-record
+            section: field-study
             part: body
           zh:
             page: zh
-            section: col-name-record
+            section: field-study
             part: body
         sourceIds:
-          - taxonomy
+          - study
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+      - study

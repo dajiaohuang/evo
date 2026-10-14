@@ -1,42 +1,5 @@
 schemaVersion: 1
 records:
-  readerSections:
-    - title:
-        en:
-          page: en
-          section: s-7d4b120929
-          part: title
-        zh:
-          page: zh
-          section: s-a2ab937490
-          part: title
-      text:
-        en:
-          page: en
-          section: s-7d4b120929
-          part: body
-        zh:
-          page: zh
-          section: s-a2ab937490
-          part: body
-    - title:
-        en:
-          page: en
-          section: s-bb52059f67
-          part: title
-        zh:
-          page: zh
-          section: s-65bffb435f
-          part: title
-      text:
-        en:
-          page: en
-          section: s-bb52059f67
-          part: body
-        zh:
-          page: zh
-          section: s-65bffb435f
-          part: body
   atlas-node:
     name: Dipnoi
     commonName: Lungfish
@@ -99,3 +62,107 @@ records:
         - referenceId: broughton-2013-bony-fish-tempo
           locator: Article 2ca8041495ffafd0c92756e75247483e; Figures 1–3; time-calibrated phylogeny; Timescale of bony-fish evolution; crown Sarcopterygii split
       evidenceLevel: literature-synthesized
+  atlas-profile:
+    scientificName: Dipnoi
+    rank: subclass
+    commonName: Lungfish
+    commonNameZh: 肺鱼类
+    parentName: Sarcopterygii
+    extinct: false
+    pbdbTaxonId: null
+    geography: []
+    overview:
+      page: en
+      section: reading-introduction
+      part: body
+    overviewZh:
+      page: zh
+      section: reading-introduction
+      part: body
+    ecology: {}
+    traits: []
+    traitsAssessmentStatus: not-assessed
+    evidenceSummary:
+      page: en
+      section: s-7d4b120929
+      part: body
+    evidenceSummaryZh:
+      page: zh
+      section: s-a2ab937490
+      part: body
+    confidence: medium
+    referenceIds:
+      - hallstrom-janke-2009-lungfish-est
+      - broughton-2013-bony-fish-tempo
+    readerSections:
+      - title:
+          en:
+            page: en
+            section: s-7d4b120929
+            part: title
+          zh:
+            page: zh
+            section: s-a2ab937490
+            part: title
+        text:
+          en:
+            page: en
+            section: s-7d4b120929
+            part: body
+          zh:
+            page: zh
+            section: s-a2ab937490
+            part: body
+        sourceIds:
+          - hallstrom-janke-2009-lungfish-est
+        id: s-7d4b120929
+      - title:
+          en:
+            page: en
+            section: s-bb52059f67
+            part: title
+          zh:
+            page: zh
+            section: s-65bffb435f
+            part: title
+        text:
+          en:
+            page: en
+            section: s-bb52059f67
+            part: body
+          zh:
+            page: zh
+            section: s-65bffb435f
+            part: body
+        sourceIds:
+          - broughton-2013-bony-fish-tempo
+        id: s-bb52059f67
+    readerSources:
+      - id: hallstrom-janke-2009-lungfish-est
+        referenceId: hallstrom-janke-2009-lungfish-est
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          scope:
+            en: The sampled Protopterus aethiopicus liver EST library and filtered living-vertebrate protein-coding-gene phylogeny; not a fossil range or direct-ancestry result.
+            zh: 取样的 Protopterus aethiopicus 肝组织 EST 文库，以及经筛选的现生脊椎动物蛋白编码基因系统树；不提供化石延续区间或直接祖先结论。
+          locator: 463–471; RNA extraction and EST sequencing; retained sequence results; final phylogenomic analyses
+      - id: broughton-2013-bony-fish-tempo
+        referenceId: broughton-2013-bony-fish-tempo
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Twenty-four-fossil-calibration bony-fish relaxed-clock model; the coelacanth versus lungfish-plus-tetrapod split, not a Dipnoi fossil first appearance.
+            zh: 用 24 项化石校准的硬骨鱼松弛分子钟模型讨论腔棘鱼与肺鱼加四足动物的分化；约 409 Ma 的模型年代不是肺鱼或腔棘鱼的化石首现。
+          locator: Article 2ca8041495ffafd0c92756e75247483e; Figures 1–3; time-calibrated phylogeny; crown Sarcopterygii split

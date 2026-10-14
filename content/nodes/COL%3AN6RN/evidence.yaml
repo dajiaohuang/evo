@@ -1,0 +1,113 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Branchiostoma californiense Andrews, 1893
+    rank: species
+    sourceDatasetId: "1154"
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - galvan-villa-2017-californiense-mexico
+    sections:
+      - id: form
+        topic: morphology
+        title:
+          en:
+            page: en
+            section: form
+            part: title
+          zh:
+            page: zh
+            section: form
+            part: title
+        text:
+          en:
+            page: en
+            section: form
+            part: body
+          zh:
+            page: zh
+            section: form
+            part: body
+        sourceIds:
+          - galvan-villa-2017-californiense-mexico
+      - id: sample-habitat
+        topic: habitat
+        title:
+          en:
+            page: en
+            section: sample-habitat
+            part: title
+          zh:
+            page: zh
+            section: sample-habitat
+            part: title
+        text:
+          en:
+            page: en
+            section: sample-habitat
+            part: body
+          zh:
+            page: zh
+            section: sample-habitat
+            part: body
+        sourceIds:
+          - galvan-villa-2017-californiense-mexico
+      - id: regional-questions
+        topic: relationships
+        title:
+          en:
+            page: en
+            section: regional-questions
+            part: title
+          zh:
+            page: zh
+            section: regional-questions
+            part: title
+        text:
+          en:
+            page: en
+            section: regional-questions
+            part: body
+          zh:
+            page: zh
+            section: regional-questions
+            part: body
+        sourceIds:
+          - galvan-villa-2017-californiense-mexico
+    sources:
+      - id: galvan-villa-2017-californiense-mexico
+        referenceId: galvan-villa-2017-californiense-mexico
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - doi
+          - version
+          - license
+          - licenseUrl
+          - licenseVersion
+          - rights
+          - attribution
+          - licenseAssessment
+          - licenseAppliesTo
+          - rightsEvidenceLocator
+          - scope
+          - locator
+        usage:
+          scope:
+            en: "Five specimens identified as B. californiense: four from Bahía Chamela and one from Isla Melendres; paper reports collection dates, depths, morphology and regional comparisons."
+            zh: 五件鉴定为 B. californiense 的标本：四件来自 Bahía Chamela，一件来自 Isla Melendres；论文记录采集日期、水深、形态与区域比较。
+          locator: pp. 995–998; material examined and species account, PDF pp. 1–3
+          rightsEvidenceLocator: "First page, printed p. 995 / PDF p. 1: copyright line and open-access CC BY-NC-ND 4.0 notice with stated license URL."
+          licenseAssessment: item-level-verified
+          licenseAppliesTo: The article is identified on its first page as open access under CC BY-NC-ND 4.0.
+        metadataVariant: 0

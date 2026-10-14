@@ -1,9 +1,12 @@
-## Ecteniniidae 的记录父级 {#s-0a8867ef47}
-PBDB 分类路径将 Ecteniniidae 记为科，其记录的父级为 Eucynodontia。此来源关系不表示直接演化祖先，也不与其他来源的同名概念合并。
+## 简要概述 {#summary}
+2013 年提出的 Ecteniniidae 将南美三叠纪的三个犬齿兽类分类单元归为一组，但系统发育支持较弱：自展支持率为 70%，仅需增加两步即可强制另一种基部位置，成员间关系仍未解析。
 
-## 从采集地、地层和年代对读 {#s-dd2a5661ed}
-可以从 Diegocanis elegans 开始，对照各页具名采集记录和原引文。本路线所含的全部本批物种合计有 1 条所选出现记录、1 个采集记录，地层名示例为 Ischigualasto。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
+## 部分头骨界定 Diegocanis {#structures}
+2013 年对 Diegocanis elegans 的描述依据标本 PVSJ 881 保存的头骨前部，该标本出自阿根廷 Ischigualasto 组中部 Cancha de Bochas 段。研究描述了其颅骨解剖，并在所分析的树形中将 Diegocanis 置于 Ecteninion 和 Trucidocynodon 附近。
 
-## 出现记录年代能说明什么 {#s-448a82c7e0}
-其他具名成员记录的地点、地层与年代区间有何不同？逐条比较各自的采集记录；上面的区间属于 Diegocanis elegans 的采集记录，不是 Ecteniniidae 的连续历史。
+## 支持较弱的科级假说 {#study}
+作者根据 Diegocanis、Ecteninion 和 Trucidocynodon 提出 Ecteniniidae。论文报告自展支持率为 70%，并指出只需增加两步就能强制将其置于 Probainognathus 之前的基部位置。该科所含成员之间的关系仍未解析；因此，科级归组仍是稳健性有限的假说。
+
+## 2013 年论述的范围 {#limits}
+建立该分类单元的标本只保存了头骨前部。报告的分析没有解析所含成员间的关系，也没有提供该类群完整的生态说明或直接观察到的运动方式。
 

@@ -20,7 +20,29 @@ records:
         usage:
           title: Catalogue of Life COL26.8 — Lorius domicella
           url: https://www.checklistbank.org/dataset/316115/taxon/3W7GC
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+          locator: Pinned accepted name and rank for this release; name matching does not
+            establish concept equivalence.
+      - id: reeve2014buru-seram
+        referenceId: 062fe517-7a51-5276-b108-142357add9b4
+        fields:
+          - id
+          - referenceId
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          title: New ornithological records from Buru and Seram, south Maluku, Indonesia,
+            1995-2012
+          url: https://www.researchgate.net/publication/279045887_New_ornithological_records_from_Buru_and_Seram_south_Maluku_Indonesia_1995-2012
+          scope:
+            en: Primary field observations on Seram in February 2012; supports observed
+              abundance/group-size and the authors' stated altitudinal-range
+              extension at the reported site and dates.
+            zh: 2012 年 2 月在 Seram 的一手野外观察；支持所报告地点和日期的观察数量、群体大小及作者指出的海拔范围上限扩展。
+          locator: pp. 11-12, study sites and methods (Seram, 30 January-23 February
+            2012); pp. 16-17, species account Lorius domicella, 6-11 February
+            2012 near Kanikeh/Gn Binaiya.
     sections:
       - topic: identity
         text:
@@ -34,3 +56,26 @@ records:
             part: body
         sourceIds:
           - taxonomy
+      - topic: field-study
+        text:
+          en:
+            page: en
+            section: seram-field-records
+            part: body
+          zh:
+            page: zh
+            section: seram-field-records
+            part: body
+        sourceIds:
+          - reeve2014buru-seram
+    summary:
+      en:
+        page: en
+        section: seram-field-records-summary
+        part: body
+      zh:
+        page: zh
+        section: seram-field-records-summary
+        part: body
+    summarySourceIds:
+      - reeve2014buru-seram
