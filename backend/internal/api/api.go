@@ -416,7 +416,11 @@ func (h *Handler) catalogueRoute(w http.ResponseWriter, r *http.Request) {
 			errorJSON(w, 404, "catalogue_taxon_not_found", "catalogue parent not found")
 			return
 		}
-		limit, offset := pagination(r, 100, 500)
+		limit, offset, err := cataloguePagination(r, 100, 500)
+		if err != nil {
+			errorJSON(w, http.StatusBadRequest, "invalid_cursor", "cursor must be a non-negative offset-cursor token")
+			return
+		}
 		items, total, found, err := s.CatalogueChildrenPage(id, offset, limit)
 		if err != nil {
 			errorJSON(w, 500, "catalogue_read_failed", err.Error())
@@ -751,6 +755,31 @@ func errorJSON(w http.ResponseWriter, status int, code, message string) {
 }
 func decodeSegment(value string) (string, error) { return url.PathUnescape(value) }
 func decodePath(value string) (string, error)    { return url.PathUnescape(value) }
+
+// cataloguePagination keeps the established limit defaults/cap while rejecting
+// a supplied cursor that cannot be one of our emitted offset-cursor tokens.
+func cataloguePagination(r *http.Request, defaultLimit, maxLimit int) (int, int, error) {
+	limit := defaultLimit
+	if value, _ := strconv.Atoi(r.URL.Query().Get("limit")); value > 0 {
+		limit = value
+	}
+	if limit > maxLimit {
+		limit = maxLimit
+	}
+	offset := 0
+	if values, supplied := r.URL.Query()["cursor"]; supplied {
+		if len(values) == 0 || values[0] == "" {
+			return 0, 0, strconv.ErrSyntax
+		}
+		value, err := decodeCursor(values[0])
+		if err != nil || value < 0 || encodeCursor(value) != values[0] {
+			return 0, 0, strconv.ErrSyntax
+		}
+		offset = value
+	}
+	return limit, offset, nil
+}
+
 func pagination(r *http.Request, defaultLimit, maxLimit int) (int, int) {
 	limit := defaultLimit
 	if value, _ := strconv.Atoi(r.URL.Query().Get("limit")); value > 0 {

@@ -1201,6 +1201,9 @@ export async function loadCatalogueKnowledge(id: string): Promise<import('./type
   const urls = collection.routes[prefix]
   if (!urls?.length || urls.some(url => !collection.files.some(file => file.url === url))) throw new Error('Knowledge route is incomplete')
   const records = await loadCatalogueRoute<import('./types').CatalogueKnowledgeRecord>(collection.routes, collection.files, id)
+  if (records.some(record => record.releaseAlias !== undefined && record.releaseAlias !== collection.releaseAlias)) {
+    throw new Error('Knowledge catalogue record release mismatch')
+  }
   return records.find(record => record.colId === id) ?? null
 }
 
