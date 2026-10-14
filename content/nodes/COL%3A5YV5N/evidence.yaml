@@ -4,33 +4,82 @@ records:
   catalogue-profile:
     scientificName: Cinnyris usambaricus Grote, 1922
     rank: species
-    sourceDatasetId: "2144"
+    sourceDatasetId: '2144'
     name:
       en: Cinnyris usambaricus
       zh: Cinnyris usambaricus
     sources:
-      - id: taxonomy
-        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
-        fields:
-          - id
-          - title
-          - url
-          - locator
-        metadataVariant: 0
-        usage:
-          title: Catalogue of Life COL26.8 — Cinnyris usambaricus
-          url: https://www.checklistbank.org/dataset/316115/taxon/5YV5N
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: taxonomy
+      referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      metadataVariant: 0
+      usage:
+        title: Catalogue of Life COL26.8 — Cinnyris usambaricus
+        url: https://www.checklistbank.org/dataset/316115/taxon/5YV5N
+        locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: study
+      referenceId: ref-3ccc1b7a-2e8b-5f8c-8389-0cb7c8093ba6
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      - scope
+      metadataVariant: 0
+      usage:
+        title: Systematics and Biogeography of Double-Collared Sunbirds From the Eastern Arc Mountains, Tanzania
+        url: https://doi.org/10.1093/auk/121.3.660
+        locator: Abstract; sample labels; descriptions and phylogenetic results
+        scope:
+          en: The study uses Nectarinia mediocris usambarica, sampled at Mount Shengena, Mazumbai, Ambangulu and Magamba. Authors compared morphology, plumage and mtDNA and proposed species status for N. usambarica. These historical samples are not automatically reconciled to current COL26.8.
+          zh: 研究使用 Nectarinia mediocris usambarica，取样地点为 Mount Shengena、Mazumbai、Ambangulu 和 Magamba。作者比较形态、羽色与线粒体 DNA，并提议 N. usambarica 为独立种。历史样本未自动与当前 COL26.8 对齐。
+        accessedAt: '2026-10-14'
     sections:
-      - topic: identity
-        text:
-          en:
-            page: en
-            section: name-card
-            part: body
-          zh:
-            page: zh
-            section: name-card
-            part: body
-        sourceIds:
-          - taxonomy
+    - topic: identity
+      text:
+        en:
+          page: en
+          section: name-card
+          part: body
+        zh:
+          page: zh
+          section: name-card
+          part: body
+      sourceIds:
+      - taxonomy
+    - topic: research
+      title:
+        en:
+          page: en
+          section: study-account
+          part: title
+        zh:
+          page: zh
+          section: study-account
+          part: title
+      text:
+        en:
+          page: en
+          section: study-account
+          part: body
+        zh:
+          page: zh
+          section: study-account
+          part: body
+      sourceIds:
+      - study
+    summary:
+      en:
+        page: en
+        section: study-preview
+        part: body
+      zh:
+        page: zh
+        section: study-preview
+        part: body
+    summarySourceIds:
+    - study

@@ -49,7 +49,7 @@ records:
             section: s-166f969d93
             part: body
         sourceIds:
-          - taxonomy
+          - primary-pyron-beamer-2023-desmognathus-lycos
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -78,6 +78,20 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-pyron-beamer-2023-desmognathus-lycos
+        referenceId: doi-10-11646-zootaxa-5311-4-1
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: Publisher primary article page, Abstract; complete article not read; saved publisher text lines 151–186.
+          scope:
+            en: "Abstract-level claims only: candidate and recognized-species counts, D. lycos listed as sp. nov., evidence classes, and the stated diversity caveat. No locality, diagnosis, habitat, or behavior is inferred."
+            zh: 仅限摘要级结论：候选数和确认种数、列为 sp. nov. 的 D. lycos、证据类型及多样性限定。不推断地点、诊断、栖地或行为。
     limitations:
       en:
         page: en
@@ -87,3 +101,14 @@ records:
         page: zh
         section: s-a72d224787
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-pyron-beamer-2023-desmognathus-lycos

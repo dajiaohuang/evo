@@ -1,9 +1,9 @@
-## Eupelycosauria 的记录父级 {#s-0c36d11981}
-PBDB 分类路径将 Eupelycosauria 记为亚目，其记录的父级为 Synapsida。此来源关系不表示直接演化祖先，也不与其他来源的同名概念合并。
+## Eupelycosauria：A Re-Description of Mycterosaurus smithae and its Impact on the Phylogeny of Pelycosaurian-Grade Synapsids {#body}
+一项简约法分析将异齿龙类置于其余合弓类的姐妹位置，并将后者标为 Eupelycosauria。加入 Eocasea 和颅后材料后，早期矩阵结果发生改变。这是该分析结论，不是对所有成员完整身体或生活方式的描述。
 
-## 从采集地、地层和年代对读 {#s-9b6276157c}
-可以从 Homodontosaurus kitchingi、Shashajaia bermani、Secodontosaurus obtusidens、Dimetrodon booneorum、Dimetrodon giganhomogenes 开始，对照各页具名采集记录和原引文。本路线所含的全部本批物种合计有 210 条所选出现记录、122 个采集记录，地层名示例为 Balfour、Halgaito、Belle Plains、Waggoner Ranch。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
 
-## 出现记录年代能说明什么 {#s-e18a3788af}
-其他具名成员记录的地点、地层与年代区间有何不同？逐条比较各自的采集记录；上面的区间属于 Homodontosaurus kitchingi 的采集记录，不是 Eupelycosauria 的连续历史。
+## 简要预览 {#preview}
+修订分析改变了异齿龙类在早期合弓类中的位置，显示新的颅后材料如何重塑该类群的系统发育解释。
 
+## 证据范围 {#limits}
+Analysis-specific result; not a comprehensive biological description of the PBDB suborder.

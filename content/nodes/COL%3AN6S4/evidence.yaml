@@ -1,0 +1,120 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Branchiostoma longirostrum Boschung, 1983
+    rank: species
+    sourceDatasetId: "1154"
+    summary:
+      en:
+        page: en
+        section: summary
+        part: body
+      zh:
+        page: zh
+        section: summary
+        part: body
+    summarySourceIds:
+      - boschung-1983-longirostrum
+    sections:
+      - id: structure
+        topic: morphology
+        title:
+          en:
+            page: en
+            section: structure
+            part: title
+          zh:
+            page: zh
+            section: structure
+            part: title
+        text:
+          en:
+            page: en
+            section: structure
+            part: body
+          zh:
+            page: zh
+            section: structure
+            part: body
+        sourceIds:
+          - boschung-1983-longirostrum
+      - id: lifestyle
+        topic: habitat
+        title:
+          en:
+            page: en
+            section: lifestyle
+            part: title
+          zh:
+            page: zh
+            section: lifestyle
+            part: title
+        text:
+          en:
+            page: en
+            section: lifestyle
+            part: body
+          zh:
+            page: zh
+            section: lifestyle
+            part: body
+        sourceIds:
+          - boschung-1983-longirostrum
+      - id: relationships
+        topic: taxonomy
+        title:
+          en:
+            page: en
+            section: relationships
+            part: title
+          zh:
+            page: zh
+            section: relationships
+            part: title
+        text:
+          en:
+            page: en
+            section: relationships
+            part: body
+          zh:
+            page: zh
+            section: relationships
+            part: body
+        sourceIds:
+          - boschung-1983-longirostrum
+      - id: research
+        topic: study
+        title:
+          en:
+            page: en
+            section: research
+            part: title
+          zh:
+            page: zh
+            section: research
+            part: title
+        text:
+          en:
+            page: en
+            section: research
+            part: body
+          zh:
+            page: zh
+            section: research
+            part: body
+        sourceIds:
+          - boschung-1983-longirostrum
+    sources:
+      - id: boschung-1983-longirostrum
+        referenceId: boschung-1983-longirostrum
+        fields:
+          - id
+          - title
+          - url
+          - scope
+          - locator
+        usage:
+          scope:
+            en: Publisher abstract for the original species description. Supports only the described specimen region, the reported mean diagnostic character combination, and the author's comparative statement; it does not support a species-wide habitat or behavior account.
+            zh: 原始新种描述的出版者摘要。仅支持其报告的标本区域、诊断特征均值组合及作者的比较判断；不支持该种整体的栖地或行为介绍。
+          locator: Aquila article record, Abstract section; item cites Northeast Gulf Science 6(2), 1983. Article PDF link returned 403 during this bounded read.

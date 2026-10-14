@@ -4,33 +4,82 @@ records:
   catalogue-profile:
     scientificName: Arremon abeillei R. Lesson, 1844
     rank: species
-    sourceDatasetId: "2144"
+    sourceDatasetId: '2144'
     name:
       en: Arremon abeillei
       zh: Arremon abeillei
     sources:
-      - id: taxonomy
-        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
-        fields:
-          - id
-          - title
-          - url
-          - locator
-        metadataVariant: 0
-        usage:
-          title: Catalogue of Life COL26.8 — Arremon abeillei
-          url: https://www.checklistbank.org/dataset/316115/taxon/5W4W7
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: taxonomy
+      referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      metadataVariant: 0
+      usage:
+        title: Catalogue of Life COL26.8 — Arremon abeillei
+        url: https://www.checklistbank.org/dataset/316115/taxon/5W4W7
+        locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: study
+      referenceId: ref-ad5c2b69-8dfe-5afe-ba71-27990471e746
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      - scope
+      metadataVariant: 0
+      usage:
+        title: The nest and eggs of Black-capped Sparrow Arremon a. abeillei (Passerellidae) in southwestern Ecuador
+        url: https://doi.org/10.18272/reo.v0i3.1059
+        locator: Abstract; article pp.32-42
+        scope:
+          en: Greeney reports seven nests of Arremon a. abeillei at two sites in southwestern Ecuador, including one confirmed clutch of four and 13 observed eggs. These are nest observations for the named form, not a species-wide estimate.
+          zh: Greeney 报告厄瓜多尔西南部两处的 7 个 Arremon a. abeillei 巢，包括一个确认 4 枚卵的巢和观察到的 13 枚卵。这是该命名形式的巢观察，不是全物种估计。
+        accessedAt: '2026-10-14'
     sections:
-      - topic: identity
-        text:
-          en:
-            page: en
-            section: name-card
-            part: body
-          zh:
-            page: zh
-            section: name-card
-            part: body
-        sourceIds:
-          - taxonomy
+    - topic: identity
+      text:
+        en:
+          page: en
+          section: name-card
+          part: body
+        zh:
+          page: zh
+          section: name-card
+          part: body
+      sourceIds:
+      - taxonomy
+    - topic: research
+      title:
+        en:
+          page: en
+          section: study-account
+          part: title
+        zh:
+          page: zh
+          section: study-account
+          part: title
+      text:
+        en:
+          page: en
+          section: study-account
+          part: body
+        zh:
+          page: zh
+          section: study-account
+          part: body
+      sourceIds:
+      - study
+    summary:
+      en:
+        page: en
+        section: study-preview
+        part: body
+      zh:
+        page: zh
+        section: study-preview
+        part: body
+    summarySourceIds:
+    - study

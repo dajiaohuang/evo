@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    summary:
+      en:
+        page: en
+        section: study
+        part: body
+      zh:
+        page: zh
+        section: study
+        part: body
+    summarySourceIds:
+      - source-bathyraja-2020
+    sections:
+      - topic: research
+        title:
+          en:
+            page: en
+            section: study
+            part: title
+          zh:
+            page: zh
+            section: study
+            part: title
+        text:
+          en:
+            page: en
+            section: study
+            part: body
+          zh:
+            page: zh
+            section: study
+            part: body
+        sourceIds:
+          - source-bathyraja-2020
+    sources:
+      - id: source-bathyraja-2020
+        referenceId: mapress-zootaxa-4861-4-3
+        fields:
+          - id
+          - title
+          - authors
+          - publishedYear
+          - type
+          - url
+          - doi
+          - publisher
+          - pages
+          - sourceRole
+          - authorsComplete
+          - authorsStatus
+          - authorsVerbatim
+        usage:
+          scope:
+            en: "Publisher abstract only: five specimens collected off the east coast of Simushir Island, Kuril Islands, western North Pacific; morphological description and comparison. Not a range account."
+            zh: 仅依据出版方页面摘要：5件标本采自西北太平洋千岛群岛 Simushir Island 东岸外海；范围限于形态描述和比较，不构成分布记录。
+          locator: Publisher article abstract; opening sample statement and diagnostic-character sentences.

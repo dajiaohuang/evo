@@ -9,17 +9,21 @@ identity:
     release: COL26.8
     publishedAt: 2026-08-20
     status: accepted
-    sourceDatasetId: "2144"
+    sourceDatasetId: '2144'
     sourceUrl: https://www.checklistbank.org/dataset/316115/taxon/67T86
   sourceIndexes:
-    - scientificName: Arremon taciturnus
-      sourceIdentity: COL:67T86
-      ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
-      sourceLocators: []
+  - scientificName: Arremon taciturnus
+    sourceIdentity: COL:67T86
+    ledger: data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz
+    sourceLocators: []
 relationships: []
 structure:
   sections:
     en:
-      - name-card
+    - name-card
+    - study-account
+    - study-preview
     zh:
-      - name-card
+    - name-card
+    - study-account
+    - study-preview

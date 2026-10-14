@@ -4,33 +4,82 @@ records:
   catalogue-profile:
     scientificName: Arremon taciturnus (Hermann, 1783)
     rank: species
-    sourceDatasetId: "2144"
+    sourceDatasetId: '2144'
     name:
       en: Arremon taciturnus
       zh: Arremon taciturnus
     sources:
-      - id: taxonomy
-        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
-        fields:
-          - id
-          - title
-          - url
-          - locator
-        metadataVariant: 0
-        usage:
-          title: Catalogue of Life COL26.8 — Arremon taciturnus
-          url: https://www.checklistbank.org/dataset/316115/taxon/67T86
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: taxonomy
+      referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      metadataVariant: 0
+      usage:
+        title: Catalogue of Life COL26.8 — Arremon taciturnus
+        url: https://www.checklistbank.org/dataset/316115/taxon/67T86
+        locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: study
+      referenceId: ref-38b4a3cd-15e1-58d8-bc27-b8c692a1e9d5
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      - scope
+      metadataVariant: 0
+      usage:
+        title: Nesting of the Pectoral Sparrow (Arremon taciturnus) in Southeastern Peru
+        url: https://www.zoology.ubc.ca/~jankowsk/Valdez_%26_Londono2011.pdf
+        locator: Abstract; Methods; Results and Discussion pp.808-812
+        scope:
+          en: Valdez-Juarez and Londoño studied nests near the Tono River at Manu National Park foothills in August-December 2008 and 2009. They found 15 dome nests with two eggs each; observed females incubated and males supplied most nestling food. This is a site- and period-specific account.
+          zh: Valdez-Juarez 与 Londoño 于 2008、2009 年 8–12 月在 Manu 国家公园山麓 Tono 河附近观察巢。找到 15 个圆顶形巢，每巢两枚卵；所观察的巢中雌鸟孵卵，雄鸟提供大部分雏鸟食物。这是特定地点和时段的记载。
+        accessedAt: '2026-10-14'
     sections:
-      - topic: identity
-        text:
-          en:
-            page: en
-            section: name-card
-            part: body
-          zh:
-            page: zh
-            section: name-card
-            part: body
-        sourceIds:
-          - taxonomy
+    - topic: identity
+      text:
+        en:
+          page: en
+          section: name-card
+          part: body
+        zh:
+          page: zh
+          section: name-card
+          part: body
+      sourceIds:
+      - taxonomy
+    - topic: research
+      title:
+        en:
+          page: en
+          section: study-account
+          part: title
+        zh:
+          page: zh
+          section: study-account
+          part: title
+      text:
+        en:
+          page: en
+          section: study-account
+          part: body
+        zh:
+          page: zh
+          section: study-account
+          part: body
+      sourceIds:
+      - study
+    summary:
+      en:
+        page: en
+        section: study-preview
+        part: body
+      zh:
+        page: zh
+        section: study-preview
+        part: body
+    summarySourceIds:
+    - study

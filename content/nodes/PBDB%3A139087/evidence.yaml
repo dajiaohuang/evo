@@ -8,97 +8,128 @@ records:
       zh: Idelesaurus
       en: Idelesaurus
     sections:
-      - topic: overview
-        sourceIds:
-          - pbdbOtherSynapsidaTaxonomy20261002
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
-        text:
-          zh:
-            page: zh
-            section: s-098abfff80
-            part: body
-          en:
-            page: en
-            section: s-b2b8a7abe6
-            part: body
-      - topic: readingPath
-        sourceIds:
-          - pbdbOtherSynapsidaOccurrences20261002
-          - pbdbOccurrenceFields20261002
-        text:
-          zh:
-            page: zh
-            section: s-834bd3f41f
-            part: body
-          en:
-            page: en
-            section: s-9ab587cdd1
-            part: body
+    - topic: overview
+      sourceIds:
+      - study-idelesaurus-primary-r25
+      text:
+        en:
+          page: en
+          section: body
+          part: body
+        zh:
+          page: zh
+          section: body
+          part: body
+    - topic: limitations
+      sourceIds:
+      - study-idelesaurus-primary-r25
+      text:
+        en:
+          page: en
+          section: limits
+          part: body
+        zh:
+          page: zh
+          section: limits
+          part: body
     sources:
-      - id: pbdbOtherSynapsidaTaxonomy20261002
-        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
-        fields:
-          - id
-          - title
-          - url
-          - version
-          - license
-          - locator
-        metadataVariant: 0
-        usage:
-          title: PBDB classification — Idelesaurus
-          url: https://paleobiodb.org/data1.2/taxa/single.json?id=139087
-          locator: Recorded PBDB parent closure beneath the already documented Synapsida COL-compatible storage anchor.
-      - id: pbdbOtherSynapsidaOccurrences20261002
-        referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
-        fields:
-          - id
-          - title
-          - url
-          - version
-          - license
-          - locator
-          - accessedAt
-          - pbdbTaxonId
-          - readingTargets
-          - scope
-        metadataVariant: 0
-        usage:
-          locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence rows.
-          accessedAt: 2026-10-02
-          pbdbTaxonId: txn:139087
-          readingTargets:
-            - name: Idelesaurus tataricus
-              pbdbTaxonId: txn:139088
-              canonicalPath: content/nodes/PBDB%3A139088
-          scope:
-            zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
-            en: Reading path through this batch’s species occurrence records, not a whole-group ecological summary.
-      - id: pbdbOccurrenceFields20261002
-        referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
-        fields:
-          - id
-          - title
-          - url
-          - version
-          - license
-          - locator
-          - accessedAt
-          - scope
-        metadataVariant: 0
-        usage:
-          locator: "occs/list_doc.html: accepted_no/name; identified_name/modifiers; max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html: parent and app fields."
-          accessedAt: 2026-10-02
-          scope:
-            zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
-            en: Interpret database occurrence, collection, age and strata fields; not a substitute for original papers or specimen review.
+    - id: pbdbOtherSynapsidaTaxonomy20261002
+      referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+      fields:
+      - id
+      - title
+      - url
+      - version
+      - license
+      - locator
+      metadataVariant: 0
+      usage:
+        title: PBDB classification — Idelesaurus
+        url: https://paleobiodb.org/data1.2/taxa/single.json?id=139087
+        locator: Recorded PBDB parent closure beneath the already documented Synapsida
+          COL-compatible storage anchor.
+    - id: pbdbOtherSynapsidaOccurrences20261002
+      referenceId: ref-675a7fe7-4458-476e-a876-7fe5a3a30c4a
+      fields:
+      - id
+      - title
+      - url
+      - version
+      - license
+      - locator
+      - accessedAt
+      - pbdbTaxonId
+      - readingTargets
+      - scope
+      metadataVariant: 0
+      usage:
+        locator: 2026-10-02 recorded hierarchy and this batch’s selected member occurrence
+          rows.
+        accessedAt: 2026-10-02
+        pbdbTaxonId: txn:139087
+        readingTargets:
+        - name: Idelesaurus tataricus
+          pbdbTaxonId: txn:139088
+          canonicalPath: content/nodes/PBDB%3A139088
+        scope:
+          zh: 本批物种出现记录的阅读路径，不是整个类群的生态总结。
+          en: Reading path through this batch’s species occurrence records, not a
+            whole-group ecological summary.
+    - id: pbdbOccurrenceFields20261002
+      referenceId: ref-c4887d31-ff09-4384-b816-a87cb63d0c54
+      fields:
+      - id
+      - title
+      - url
+      - version
+      - license
+      - locator
+      - accessedAt
+      - scope
+      metadataVariant: 0
+      usage:
+        locator: 'occs/list_doc.html: accepted_no/name; identified_name/modifiers;
+          max_ma/min_ma; collection fields; env, strat and ctaph output blocks; taxa/list_doc.html:
+          parent and app fields.'
+        accessedAt: 2026-10-02
+        scope:
+          zh: 解释数据库出现、采集、年代与层位字段，不替代原论文或标本复核。
+          en: Interpret database occurrence, collection, age and strata fields; not
+            a substitute for original papers or specimen review.
+    - id: study-idelesaurus-primary-r25
+      referenceId: ref-study-idelesaurus-primary-r25
+      fields:
+      - id
+      - title
+      - url
+      - version
+      - locator
+      - scope
+      usage:
+        locator: Full English translation, abstract, holotype description and discussion;
+          PDF pages 0–3.
+        version: '2006'
+        scope:
+          en: Single holotype skull and referred material; no body-wide lifestyle
+            inference.
+          zh: 仅限 Kurkin 2006 描述的正模头骨及相关材料；不据此推断整体生活方式。
     limitations:
-      zh:
-        page: zh
-        section: s-d7f622da06
-        part: body
       en:
         page: en
-        section: s-40cd632be4
+        section: limits
         part: body
+      zh:
+        page: zh
+        section: limits
+        part: body
+    summary:
+      en:
+        page: en
+        section: preview
+        part: body
+      zh:
+        page: zh
+        section: preview
+        part: body
+    summarySourceIds:
+    - study-idelesaurus-primary-r25

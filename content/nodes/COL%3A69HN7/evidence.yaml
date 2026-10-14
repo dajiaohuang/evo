@@ -1,0 +1,58 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    summary:
+      en:
+        page: en
+        section: study
+        part: body
+      zh:
+        page: zh
+        section: study
+        part: body
+    summarySourceIds:
+      - source-centrophorus-2017
+    sections:
+      - topic: research
+        title:
+          en:
+            page: en
+            section: study
+            part: title
+          zh:
+            page: zh
+            section: study
+            part: title
+        text:
+          en:
+            page: en
+            section: study
+            part: body
+          zh:
+            page: zh
+            section: study
+            part: body
+        sourceIds:
+          - source-centrophorus-2017
+    sources:
+      - id: source-centrophorus-2017
+        referenceId: mapress-zootaxa-4344-1-3
+        fields:
+          - id
+          - title
+          - authors
+          - publishedYear
+          - type
+          - url
+          - doi
+          - publisher
+          - pages
+          - sourceRole
+          - authorsComplete
+          - authorsStatus
+          - authorsVerbatim
+        usage:
+          scope:
+            en: "Publisher abstract only: the 2017 paper reports that Centrophorus lusitanicus should be treated as a junior synonym of C. granulosus; it separately states that the London specimen then considered a syntype should not be considered a syntype and was likely not originally collected off Portugal. Correspondence between the paper's taxonomic concept and assigned COL26.8 accepted record remains unresolved."
+            zh: 仅依据出版方页面摘要：2017年论文报告将Centrophorus lusitanicus视为C. granulosus的次异名；摘要另称伦敦标本不应被视为该名称的共模标本，而且很可能并非最初采自葡萄牙海岸外。论文作者的分类概念与分配的COL26.8接受名记录之间的对应关系仍未解决。
+          locator: Publisher article abstract; opening and specimen-status sentences.

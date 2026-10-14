@@ -4,33 +4,82 @@ records:
   catalogue-profile:
     scientificName: Spizocorys starki (Shelley, 1902)
     rank: species
-    sourceDatasetId: "2144"
+    sourceDatasetId: '2144'
     name:
       en: Spizocorys starki
       zh: Spizocorys starki
     sources:
-      - id: taxonomy
-        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
-        fields:
-          - id
-          - title
-          - url
-          - locator
-        metadataVariant: 0
-        usage:
-          title: Catalogue of Life COL26.8 — Spizocorys starki
-          url: https://www.checklistbank.org/dataset/316115/taxon/4Z9B6
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: taxonomy
+      referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      metadataVariant: 0
+      usage:
+        title: Catalogue of Life COL26.8 — Spizocorys starki
+        url: https://www.checklistbank.org/dataset/316115/taxon/4Z9B6
+        locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: study
+      referenceId: ref-9c5da155-86af-5b7d-b89e-0b0528321c84
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      - scope
+      metadataVariant: 0
+      usage:
+        title: Regularly drinking desert birds have greater evaporative cooling capacity and higher heat tolerance limits than non-drinking species
+        url: https://doi.org/10.1111/1365-2435.13573
+        locator: Table 1; Methods §2.1 field sample
+        scope:
+          en: Ten Spizocorys starki identified by the paper were sampled at Black Mountain Mine, South Africa, from 2 Dec 2018 to 4 Feb 2019. The paper lists mean mass 17.9 ± 1.7 g, seed diet and regular drinking. These data describe one study sample.
+          zh: 研究于 2018-12-02 至 2019-02-04 在南非 Black Mountain Mine 采集文中鉴定为 Spizocorys starki 的 10 个体。文中列平均体重 17.9 ± 1.7 克、种子食性和常饮水类别。这些数据只描述该研究样本。
+        accessedAt: '2026-10-14'
     sections:
-      - topic: identity
-        text:
-          en:
-            page: en
-            section: name-card
-            part: body
-          zh:
-            page: zh
-            section: name-card
-            part: body
-        sourceIds:
-          - taxonomy
+    - topic: identity
+      text:
+        en:
+          page: en
+          section: name-card
+          part: body
+        zh:
+          page: zh
+          section: name-card
+          part: body
+      sourceIds:
+      - taxonomy
+    - topic: research
+      title:
+        en:
+          page: en
+          section: study-account
+          part: title
+        zh:
+          page: zh
+          section: study-account
+          part: title
+      text:
+        en:
+          page: en
+          section: study-account
+          part: body
+        zh:
+          page: zh
+          section: study-account
+          part: body
+      sourceIds:
+      - study
+    summary:
+      en:
+        page: en
+        section: study-preview
+        part: body
+      zh:
+        page: zh
+        section: study-preview
+        part: body
+    summarySourceIds:
+    - study

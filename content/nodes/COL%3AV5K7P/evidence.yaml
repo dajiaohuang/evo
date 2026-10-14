@@ -49,22 +49,28 @@ records:
             section: s-8e1ffec29d
             part: body
         sourceIds:
-          - taxonomy
+          - primary-rakotoarison-2024-platypelis
       - topic: limitations
         title:
-          en: Research text pending
-          zh: 材料与适用范围
+          en:
+            page: en
+            section: s-b88e00ac5b
+            part: title
+          zh:
+            page: zh
+            section: s-0d8a62e0e1
+            part: title
         text:
           en:
             page: en
-            section: s-b210c78255
+            section: s-b88e00ac5b
             part: body
           zh:
             page: zh
-            section: s-e999c36939
+            section: s-0d8a62e0e1
             part: body
         sourceIds:
-          - amphibia-collection-status
+          - primary-rakotoarison-2024-platypelis
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -93,6 +99,20 @@ records:
         metadataVariant: 0
         usage:
           locator: docs/amphibia-content/reference-index.md
+      - id: primary-rakotoarison-2024-platypelis
+        referenceId: doi-10-11646-zootaxa-5501-1-8
+        fields:
+          - id
+          - title
+          - url
+          - doi
+          - locator
+          - scope
+        usage:
+          locator: Publisher article page, Abstract; complete article not read; saved publisher text lines 161–173.
+          scope:
+            en: "Only the named sp. nov. and statements in the publisher abstract: combined two-locality elevation range, 16S comparison, and listed morphology. No external checklist equivalence is asserted."
+            zh: 仅限出版社摘要所述名称与结论：两处地点的合并海拔范围、16S 比较和所列形态。不声明与外部目录概念等同。
     limitations:
       en:
         page: en
@@ -102,3 +122,14 @@ records:
         page: zh
         section: s-0d8a62e0e1
         part: body
+    summary:
+      en:
+        page: en
+        section: card
+        part: body
+      zh:
+        page: zh
+        section: card
+        part: body
+    summarySourceIds:
+      - primary-rakotoarison-2024-platypelis

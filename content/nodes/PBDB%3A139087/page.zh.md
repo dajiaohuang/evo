@@ -1,9 +1,9 @@
-## Idelesaurus 的记录父级 {#s-098abfff80}
-PBDB 分类路径将 Idelesaurus 记为属，其记录的父级为 Geikiidae。此来源关系不表示直接演化祖先，也不与其他来源的同名概念合并。
+## Idelesaurus：A New Dicynodont from the Upper Permian of Tatarstan {#body}
+Kurkin 将正模描述为来自鞑靼斯坦 Semin Ovrag、没有下颌的头骨。头骨从背面看较宽、近三角形，吻部收窄，眼眶朝前。作者将其与 Australobarbarus 比较；这些是头骨观察和提出的关系，不是行为记录或已解决的系统关系。
 
-## 从采集地、地层和年代对读 {#s-834bd3f41f}
-可以从 Idelesaurus tataricus 开始，对照各页具名采集记录和原引文。本路线所含的全部本批物种合计有 1 条所选出现记录、1 个采集记录，地层名示例为 Ilyinskoe。先读每个采集地自己的年代区间和鉴定限定，再看不同地点之间是否可比；出现、采集和物种数量不能混用为古种群规模。
 
-## 出现记录年代能说明什么 {#s-d7f622da06}
-其他具名成员记录的地点、地层与年代区间有何不同？逐条比较各自的采集记录；上面的区间属于 Idelesaurus tataricus 的采集记录，不是 Idelesaurus 的连续历史。
+## 简要预览 {#preview}
+描述以宽阔、前端收窄的头骨为依据；与 Australobarbarus 的关系是作者提出的假说，不是行为证据。
 
+## 证据范围 {#limits}
+Single holotype skull and referred material; no body-wide lifestyle inference.

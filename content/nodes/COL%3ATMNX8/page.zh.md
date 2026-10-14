@@ -1,14 +1,23 @@
 ## 接受名称与分类位置 {#s-25fbc05145}
+
 COL26.8 接受 Xenophrys flavipunctata (Mahony, Kamei, Teeling & Biju, 2018) 为种级记录，所记分类路径为 Anura（目） → Megophryidae（科） → Xenophrys（属）。这里的名称和分类位置对应 2026 年 8 月 20 日发布的版本；其他目录或化石数据库的名称需要各自的身份依据。
 
-## 阅读路线 {#s-93deea4fb6}
-先查看接受记录和父级属，再通过科、目页面定位相关目录记录。本页提供分类阅读入口；种级形态、生态、生活史、分布、演化证据和保护信息仍需经过核对的生物学来源。
+## 同一來源名稱下的兩筆研究記錄 {#s-93deea4fb6}
 
-## 相关来源记录与数据集 {#s-8755b6b7a8}
-以下存档记录依据所记接受名称或存档 ITIS 异名链接，在相同两栖动物目内选出，可供进一步比较；此链接不将其生物学结论归入当前物种概念。历史拆分、合并、来源命名作者和概念范围仍待核对。使用性状前，请查看来源范围、性别或发育阶段及原书目。
+一篇 2024 年比較研究的樣本表列出兩筆標為 Xenophrys flavipunctata 的記錄：標本 SDBDU 2009.298，地點欄為 Meghalaya 的 East Khasi Hills district；以及標本 SDBDU 2007.134，地點欄為 Nagaland 的 Kohima district。表中分別列有 16S 序列號 MH647517 與 MH647518。這些是該研究所標示的記錄；它們是否等同於另一個 COL26.8 概念，仍未解決。
 
-- [Amphibian morphology v3: Megophrys flavipunctata](../../../../../../../../../../../../../../topics/research/AmphibianMorphology/Anura/Megophryidae/Megophrys/Megophrys_flavipunctata/page.zh.md)
+## 另一筆獨立資料集記錄 {#s-8755b6b7a8}
 
-## catalogue-profile / limitations {#s-231c95532a}
-本页仅提供分类阅读入口。生物学研究覆盖尚待补齐，不计为完整物种档案；。 。
+連結的測量資料集以 Megophrys flavipunctata 名稱存有一筆記錄。來源綁定指出，其測量單位及與此 COL 概念的對應尚未解決。此記錄僅保留供查閱來源；本頁不採用其中任何測量值或其他性狀。
 
+## 樣本表能支持什麼 {#research}
+
+兩列記錄了研究使用的名稱、憑證標本編號、地點欄位與序列登錄號。它們不能建立這筆 COL26.8 記錄的分布；2024 年論文對其他 Xenophrys 樣本或譜系的討論也不移用到本節點。
+
+## 簡短導讀 {#preview}
+
+2024 年論文以來源名稱 X. flavipunctata 列出兩件憑證標本及其地點欄位和 16S 序列號。這些來源記錄是否對應本 COL26.8 概念，尚未解決。
+
+## 來源名稱與概念的界線 {#s-231c95532a}
+
+2024 年樣本表是原始研究記錄，並非針對此 COL 分類記錄的直接分類處理。此處保留論文使用的來源名稱；概念等同性與更廣泛的生物學描述仍未解決。

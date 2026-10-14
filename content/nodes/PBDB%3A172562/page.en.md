@@ -1,9 +1,9 @@
-## Recorded parent of Aleodon {#s-583d41c8ea}
-Aleodon is listed at rank genus in the PBDB classification route, with Probainognathia as its recorded parent. This source relation does not assert direct evolutionary ancestry or equivalence with another authority.
+## Aleodon — The African cynodont Aleodon in the Triassic of southern Brazil {#body}
+The study refers UFRGS-PV-0146-T to A. cromptoni. Table 1 records an earlier identification by Oliveira et al. as Chiniquodon cf. C. theotonicus; that identification is distinct from this paper’s referral. The specimen description calls its skull slightly laterally compressed and notes cracks that obscure cranial sutures; Figs. 10–12 mark affected areas as breakages. These observations apply to UFRGS-PV-0146-T. The study reports no complete skulls in its Manda Beds A. brachyrhamphus comparison sample, limiting comparison.
 
-## Compare collections, strata and age brackets {#s-1248e9cfab}
-Start with Aleodon brachyrhamphus, Aleodon cromptoni and compare each page’s named collections and original reference links. Across all species included in this group’s guide, there are 5 selected occurrences from 5 collections; example stratum names are Manda Beds. Read each collection’s age bracket and identification qualifications before comparing sites. Occurrence, collection and species counts cannot be exchanged for ancient population size.
 
-## What the occurrence ages can show {#s-835b6f4d5f}
-How do other linked member records compare in locality, stratum and age? Compare each collection on its own terms; the interval above belongs to Aleodon brachyrhamphus’s collection record, not a continuous history for Aleodon.
+## In brief {#preview}
+The study refers UFRGS-PV-0146-T to A. cromptoni and describes slight lateral compression and cracks for that specimen; Oliveira et al.’s earlier Chiniquodon identification remains distinct.
 
+## Limits of this evidence {#limits}
+Named specimens and sampled species only; no genus-wide inference.

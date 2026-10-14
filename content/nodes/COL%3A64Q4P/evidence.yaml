@@ -4,33 +4,82 @@ records:
   catalogue-profile:
     scientificName: Actinodura waldeni Godwin-Austen, 1874
     rank: species
-    sourceDatasetId: "2144"
+    sourceDatasetId: '2144'
     name:
       en: Actinodura waldeni
       zh: Actinodura waldeni
     sources:
-      - id: taxonomy
-        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
-        fields:
-          - id
-          - title
-          - url
-          - locator
-        metadataVariant: 0
-        usage:
-          title: Catalogue of Life COL26.8 — Actinodura waldeni
-          url: https://www.checklistbank.org/dataset/316115/taxon/64Q4P
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: taxonomy
+      referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      metadataVariant: 0
+      usage:
+        title: Catalogue of Life COL26.8 — Actinodura waldeni
+        url: https://www.checklistbank.org/dataset/316115/taxon/64Q4P
+        locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: study
+      referenceId: ref-c03067d8-b97d-5928-98a6-df1b7a04fe1a
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      - scope
+      metadataVariant: 0
+      usage:
+        title: Actinodura waldeni, n. sp. (Plate XII)
+        url: https://pahar.in/pahar/Books%20and%20Articles/Indian%20Subcontinent/1974%20Descriptions%20of%20Ten%20New%20Birds%20from%20Naga%20Hills%20and%20Munipur%20Valley%20by%20Godwin-Austen%20s.pdf
+        locator: p.46, Actinodura waldeni n. sp.; description and collection note
+        scope:
+          en: Godwin-Austen describes one bird taken near Japvo peak at about 9,000 feet in the Naga Hills, gives plumage characters and measurements, and compares it with Actinodura egertoni. A single specimen cannot establish population-wide variation or behavior.
+          zh: Godwin-Austen 描述一只在 Naga Hills 的 Japvo 峰附近、约 9,000 英尺处采得的鸟，记录羽色和测量值，并与 Actinodura egertoni 比较。单件标本不能说明种群变异或行为。
+        accessedAt: '2026-10-14'
     sections:
-      - topic: identity
-        text:
-          en:
-            page: en
-            section: name-card
-            part: body
-          zh:
-            page: zh
-            section: name-card
-            part: body
-        sourceIds:
-          - taxonomy
+    - topic: identity
+      text:
+        en:
+          page: en
+          section: name-card
+          part: body
+        zh:
+          page: zh
+          section: name-card
+          part: body
+      sourceIds:
+      - taxonomy
+    - topic: research
+      title:
+        en:
+          page: en
+          section: study-account
+          part: title
+        zh:
+          page: zh
+          section: study-account
+          part: title
+      text:
+        en:
+          page: en
+          section: study-account
+          part: body
+        zh:
+          page: zh
+          section: study-account
+          part: body
+      sourceIds:
+      - study
+    summary:
+      en:
+        page: en
+        section: study-preview
+        part: body
+      zh:
+        page: zh
+        section: study-preview
+        part: body
+    summarySourceIds:
+    - study

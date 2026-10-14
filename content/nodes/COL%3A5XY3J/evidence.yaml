@@ -4,33 +4,82 @@ records:
   catalogue-profile:
     scientificName: Chloropipo flavicapilla (P. L. Sclater, 1852)
     rank: species
-    sourceDatasetId: "2144"
+    sourceDatasetId: '2144'
     name:
       en: Chloropipo flavicapilla
       zh: Chloropipo flavicapilla
     sources:
-      - id: taxonomy
-        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
-        fields:
-          - id
-          - title
-          - url
-          - locator
-        metadataVariant: 0
-        usage:
-          title: Catalogue of Life COL26.8 — Chloropipo flavicapilla
-          url: https://www.checklistbank.org/dataset/316115/taxon/5XY3J
-          locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: taxonomy
+      referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      metadataVariant: 0
+      usage:
+        title: Catalogue of Life COL26.8 — Chloropipo flavicapilla
+        url: https://www.checklistbank.org/dataset/316115/taxon/5XY3J
+        locator: Pinned accepted name and rank for this release; name matching does not establish concept equivalence.
+    - id: study
+      referenceId: ref-0253c65e-9af7-5cae-acd8-833438189213
+      fields:
+      - id
+      - title
+      - url
+      - locator
+      - scope
+      metadataVariant: 0
+      usage:
+        title: 'Molecular phylogeny of the manakins (Aves: Passeriformes: Pipridae), with a new classification and the description of a new genus'
+        url: https://doi.org/10.1016/j.ympev.2013.06.024
+        locator: Indexed sequence-sampling passage; abstract
+        scope:
+          en: The study used three nuclear introns and one mitochondrial gene. Its indexed passage names Chloropipo flavicapilla as represented by incomplete ND2 sequence. The abstract reports Chloropipo's polyphyly overall but not this sample's exact placement; no concept equivalence is asserted.
+          zh: 研究使用 3 个核内含子和 1 个线粒体基因。索引段落称 Chloropipo flavicapilla 的 ND2 序列不完整。摘要报告 Chloropipo 整体并非单系，但没有给出该样本的精确位置；这里不主张概念等同。
+        accessedAt: '2026-10-14'
     sections:
-      - topic: identity
-        text:
-          en:
-            page: en
-            section: name-card
-            part: body
-          zh:
-            page: zh
-            section: name-card
-            part: body
-        sourceIds:
-          - taxonomy
+    - topic: identity
+      text:
+        en:
+          page: en
+          section: name-card
+          part: body
+        zh:
+          page: zh
+          section: name-card
+          part: body
+      sourceIds:
+      - taxonomy
+    - topic: research
+      title:
+        en:
+          page: en
+          section: study-account
+          part: title
+        zh:
+          page: zh
+          section: study-account
+          part: title
+      text:
+        en:
+          page: en
+          section: study-account
+          part: body
+        zh:
+          page: zh
+          section: study-account
+          part: body
+      sourceIds:
+      - study
+    summary:
+      en:
+        page: en
+        section: study-preview
+        part: body
+      zh:
+        page: zh
+        section: study-preview
+        part: body
+    summarySourceIds:
+    - study

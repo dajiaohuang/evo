@@ -9,3 +9,9 @@ EltonTraits 的第二组包括 Lophozosterops squamiceps、L. superciliaris 与 
 ## 资料边界 {#s-8087643b31}
 两组记录均来自同名同科的历史资料：第一组每条有至少两类可用生态字段，第二组三条记录每条只有一类可用字段。两组都不是完整后代名录，也不能证明这些性状为全属共有。EltonTraits 说明了半定量转换、插补和历史分类的限制；ABC 字段可能借用同属资料，也会限制物种层级的解读。此处尚未核对底层原始文献。
 
+## 研究记录 {#study-account}
+G. F. Mees 在 1969 年综述第 171–204 页讨论 Lophozosterops。诊断以翼尾比例及喉部、腹面颜色与 Zosterops 比较。这些历史特征不是现列每个种的测量值，该记载也不能解决后来的属界。
+
+## 阅读提要 {#study-preview}
+Mees 的历史记载以翼、尾和喉部特征比较 Lophozosterops 与 Zosterops。
+

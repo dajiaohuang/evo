@@ -1,0 +1,3 @@
+## A description based on five specimens from Simushir Island {#study}
+Misawa and colleagues describe Bathyraja sexoculata from five specimens collected off the east coast of Simushir Island in the Kuril Islands (western North Pacific). Their abstract distinguishes it within Bathyraja subgenus Arctoraja using several measured and observed characters, including a tail 79–86% of disc width, more than 86 predorsal caudal vertebrae, and strong nuchal and scapular thorns. These are claims in the study abstract about its five-specimen description; this partial account does not establish broader distribution or summarize the full paper.
+
