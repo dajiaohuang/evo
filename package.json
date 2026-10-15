@@ -63,7 +63,8 @@
     "pages:budget": "node scripts/check-pages-budget.mjs",
     "pages:smoke": "node scripts/smoke-pages-data.mjs",
     "pages:smoke:preview": "node scripts/smoke-pages-preview.mjs",
-    "verify": "npm run lint && npm test && npm run data:registry:check && npm run data:validate && npm run build && npm run pages:budget && npm run pages:smoke && npm run mobile:build && npm run test:e2e"
+    "verify": "npm run lint && npm test && npm run data:registry:check && npm run data:validate && npm run build && npm run pages:budget && npm run pages:smoke && npm run mobile:build && npm run test:e2e",
+    "content:references:check": "node scripts/check-content-references.mjs"
   },
   "dependencies": {
     "@capacitor/android": "^8.5.0",
