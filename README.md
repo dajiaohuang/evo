@@ -78,6 +78,7 @@ Android/iOS 和交互式 Web 共享 `src/` 中的客户端与数据协议。GitH
 | --- | --- | --- | --- |
 | GitHub Pages | `npm run build` → `dist/` | 交互式地图工作区、双语知识页面、Service Worker 与按需数据 | `deploy.yml` 在同一提交 CI 成功后重新构建并上传 `dist/` |
 | Interactive Web / PWA | `npm run build` → `dist/` | 完整客户端、Service Worker 与按需数据缓存 | 可独立托管；也是当前 GitHub Pages 部署产物 |
+| Vercel | 已校验的生产产物 → `vercel deploy --prod` | 完整交互客户端、双语阅读页与按需数据 | [部署说明](docs/vercel-deployment.md)；云端校验并解包，避免重复生成科学数据 |
 | Android | `android/` + Capacitor 8 | API 24+，核心离线资料、系统返回键和深链 | 手动触发 CI 生成调试 APK；商店 AAB 签名与发布另行配置 |
 | iOS / iPadOS | `ios/` + Capacitor 8 / Swift Package Manager | iOS 15+，核心离线资料、安全区和深链 | 手动触发 macOS CI 测试模拟器应用并生成未签名设备 Archive；安装到真机需 Apple 签名 |
 

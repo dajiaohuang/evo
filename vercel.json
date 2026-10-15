@@ -1,0 +1,15 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "node --version",
+  "buildCommand": "node scripts/deploy-static-artifact.mjs",
+  "outputDirectory": "site",
+  "redirects": [
+    { "source": "/", "destination": "/evo/", "permanent": false }
+  ],
+  "headers": [
+    { "source": "/evo/data/current.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/evo/data/releases.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/evo/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+  ]
+}
