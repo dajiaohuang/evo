@@ -614,7 +614,7 @@ for (const entity of entities) {
 
 for (const event of events) {
   const subjectClaims = claimsBySubject.get(`event:${event.id}`) ?? []
-  const records = referenceRecords([...event.referenceIds, ...(event.readerSources ?? []).map(source => source.referenceId).filter(Boolean), ...subjectClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId))])
+  const records = referenceRecords([...(event.referenceIds ?? []), ...(event.readerSources ?? []).map(source => source.referenceId).filter(Boolean), ...subjectClaims.flatMap((claim) => claim.referenceLinks.map((link) => link.referenceId))])
   const englishPath = `events/${event.id}/`
   const chinesePath = `zh/events/${event.id}/`
   const canonicalUrl = `${baseUrl}/${englishPath}`
