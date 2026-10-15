@@ -3,7 +3,7 @@ import { useI18n } from '../../i18n'
 import { frontendContract } from '../../platform/frontendContract'
 import './TemporalPackageCards.css'
 import { hasPublishedRange, taxonProfiles } from '../../services/catalogProfiles'
-import { localizedProfileText } from '../../i18n/profileText'
+import { localizedIntroductionText, localizedProfileText } from '../../i18n/profileText'
 import { ReaderInlineText } from '../reading/ReaderInlineText'
 
 const INITIAL_CARD_LIMIT = 3
@@ -35,7 +35,7 @@ export function TemporalPackageCards({ ageMa }: TemporalPackageCardsProps) {
           <div className="map-temporal-card__meta"><span>{profile.scientificName}</span><code>{olderMa}–{youngerMa} Ma</code></div>
           {scope && <small>{t(scope.label)} · {t(scope.region)}{scope.provisional ? ` · ${t('Provisional')}` : ''}</small>}
           <h3>{zh ? profile.commonNameZh : profile.commonName}</h3>
-          <p><ReaderInlineText text={introduction?.text[language] ?? localizedProfileText(profile, profile.overview, language, t)} /></p>
+          <p><ReaderInlineText text={localizedIntroductionText(introduction?.text[language], localizedProfileText(profile, profile.overview, language, t))} /></p>
           <a href={`#/taxa?id=${encodeURIComponent(profile.id)}`}>{zh ? '继续阅读' : 'Continue reading'} →</a>
         </article>
       })}</div>

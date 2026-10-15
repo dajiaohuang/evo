@@ -21,7 +21,7 @@ import type { AppRoute } from '../../utils/routing'
 import type { ReferenceRecord } from '../../types'
 import type { MediaAsset } from '../../types/catalog'
 import { useI18n } from '../../i18n'
-import { localizedProfileText } from '../../i18n/profileText'
+import { localizedIntroductionText, localizedProfileText } from '../../i18n/profileText'
 import { StoryBuilder, StoryLearningPanel } from './StoryStudio'
 import readingGuides from '../../../data/reading-guides.json'
 import './CatalogPages.css'
@@ -180,7 +180,7 @@ export function TaxonPage({ id, onNavigate }: CatalogPageProps) {
             {rangeAvailable && <><span>{language === 'zh' ? '对应资料的时间范围' : 'Time range of the represented material'}</span><strong>{formatAge(profile.firstAppearance, t('Present'))}</strong><span>{t('to')}</span><strong>{formatAge(profile.lastAppearance, t('Present'))}</strong></>}
           </div>
         </div>
-        <p className="catalog-dek"><ReaderInlineText text={introduction?.text[locale] ?? localizedProfileText(profile, profile.overview, language, t)} /></p>
+        <p className="catalog-dek"><ReaderInlineText text={localizedIntroductionText(introduction?.text[locale], localizedProfileText(profile, profile.overview, language, t))} /></p>
         <div className="catalog-actions">
           <button className="button button--primary" onClick={() => onNavigate('explore', {
             ...(rangeAvailable ? { age: midpoint.toFixed(1) } : {}),

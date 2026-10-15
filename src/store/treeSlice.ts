@@ -10,6 +10,7 @@ export interface SubjectSelection {
 
 export interface TreeSlice {
   selectedNodeId: string | null
+  selectionIntentVersion: number
   expandedNodeIds: Set<string>
   visibleNodeIds: string[]
   treeMode: TreeDisplayMode
@@ -25,11 +26,15 @@ export const createTreeSlice = (
   get: () => AppState
 ): TreeSlice => ({
   selectedNodeId: null,
+  selectionIntentVersion: 0,
   expandedNodeIds: new Set<string>(),
   visibleNodeIds: [],
   treeMode: 'navigation',
 
-  selectNode: (nodeId) => set({ selectedNodeId: nodeId }),
+  selectNode: (nodeId) => set({
+    selectedNodeId: nodeId,
+    selectionIntentVersion: get().selectionIntentVersion + 1,
+  }),
 
   toggleExpand: (nodeId) => {
     const next = new Set(get().expandedNodeIds)
@@ -43,6 +48,7 @@ export const createTreeSlice = (
   selectSubject: async ({ nodeId, taxonId = null, scope = 'descendants', clearOccurrence = true }) => {
     set({
       selectedNodeId: nodeId,
+      selectionIntentVersion: get().selectionIntentVersion + 1,
       highlightedTaxonId: taxonId,
       highlightedOccurrenceIds: [],
       ...(clearOccurrence ? { selectedOccurrence: null, selectedOccurrenceId: null } : {}),

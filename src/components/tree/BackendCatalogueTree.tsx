@@ -92,6 +92,13 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
   const [scrollTop, setScrollTop] = useState(0)
   const [viewportHeight, setViewportHeight] = useState(520)
   const requestGeneration = useRef(new Map<string, number>())
+  const pathRequestGeneration = useRef(0)
+  const pathRequestTarget = useRef<string | null>(null)
+
+  useEffect(() => () => {
+    pathRequestGeneration.current += 1
+    pathRequestTarget.current = null
+  }, [])
 
   useEffect(() => {
     let cancelled = false
@@ -150,10 +157,16 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
 
   const toggleNode = useCallback((node: BackendTreeNodeSummary) => {
     if (!node.childCount) {
+      pathRequestGeneration.current += 1
+      pathRequestTarget.current = null
+      setPath([])
       setSelectedId(node.id)
       return
     }
     const isExpanded = expanded.has(node.id)
+    pathRequestGeneration.current += 1
+    pathRequestTarget.current = null
+    setPath([])
     setSelectedId(node.id)
     setExpanded((current) => {
       const next = new Set(current)
@@ -194,8 +207,15 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
 
   const revealSearchResult = useCallback((record: BackendNameSearchRecord) => {
     const targetId = record.acceptedId || record.id
+    const generation = ++pathRequestGeneration.current
+    pathRequestTarget.current = targetId
     setSelectedId(targetId)
-    void loadBackendCataloguePath(targetId).then(setPath).catch(() => setPath([]))
+    setPath([])
+    void loadBackendCataloguePath(targetId).then((nextPath) => {
+      if (pathRequestGeneration.current === generation && pathRequestTarget.current === targetId) setPath(nextPath)
+    }).catch(() => {
+      if (pathRequestGeneration.current === generation && pathRequestTarget.current === targetId) setPath([])
+    })
   }, [])
 
   const rows = useMemo(() => flattenRows(roots, expanded, children), [children, expanded, roots])
@@ -227,7 +247,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
 
         <label className="backend-tree__search">
           <span>{zh ? '搜索名称（至少 3 个字符）' : 'Search names (3+ characters)'}</span>
-          <input value={query} onChange={(event) => { setQuery(event.target.value); setSearchResults([]); setSearchStatus('idle') }} placeholder={zh ? '如 Perissodactyla' : 'e.g. Perissodactyla'} />
+          <input value={query} onChange={(event) => { pathRequestGeneration.current += 1; pathRequestTarget.current = null; setSelectedId(null); setPath([]); setQuery(event.target.value); setSearchResults([]); setSearchStatus('idle') }} placeholder={zh ? '如 Perissodactyla' : 'e.g. Perissodactyla'} />
         </label>
 
         <nav className="backend-tree__path" aria-label={zh ? '分类路径' : 'Taxon path'}>
@@ -258,7 +278,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
               <button type="button" className="backend-tree__toggle" onClick={() => toggleNode(row.node)} aria-label={row.node.childCount ? (isExpanded ? (zh ? '折叠' : 'Collapse') : (zh ? '展开' : 'Expand')) : (zh ? '选择' : 'Select')}>
                 {row.node.childCount ? (isExpanded ? '⌄' : '›') : '·'}
               </button>
-              <a className="backend-tree__name" href={`#/registry?release=${encodeURIComponent(capabilities.treeIndex.releaseAlias)}&id=${encodeURIComponent(row.node.id)}`} onClick={() => setSelectedId(row.node.id)}>
+              <a className="backend-tree__name" href={`#/registry?release=${encodeURIComponent(capabilities.treeIndex.releaseAlias)}&id=${encodeURIComponent(row.node.id)}`} onClick={() => { pathRequestGeneration.current += 1; pathRequestTarget.current = null; setPath([]); setSelectedId(row.node.id) }}>
                 <span><i>{displayedName(row.node)}</i>{row.node.authorship && <small>{row.node.authorship}</small>}</span>
                 <small>{row.node.rank} · {number(row.node.childCount)} {zh ? '子级' : 'children'}</small>
               </a>

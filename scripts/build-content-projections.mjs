@@ -85,6 +85,57 @@ function pathFromRoot(root, path) {
   return join(root, ...path.split('/'))
 }
 
+function filesystemIsCaseInsensitive(root) {
+  const probe = mkdtempSync(join(root, '.content-projection-case-check-'))
+  try {
+    const lower = join(probe, 'case-probe')
+    writeFileSync(lower, '')
+    return existsSync(join(probe, 'CASE-PROBE'))
+  } finally {
+    const target = resolvePath(probe)
+    const child = relative(resolvePath(root), target)
+    if (!child.startsWith('.content-projection-case-check-') || child.includes('/') || child.includes('\\')) {
+      throw new Error('Unsafe projection path-check temporary directory: ' + target)
+    }
+    rmSync(target, { recursive: true, force: true })
+  }
+}
+
+function assertNoOutputPathCollisions(root, map) {
+  const outputs = []
+  const add = (path, owner) => outputs.push({ path, owner })
+  for (const [path, descriptor] of Object.entries(map.generatedInputs)) {
+    add(path, 'generatedInputs.' + path)
+    if (descriptor.encoding === 'brotli-jsonl') {
+      const plain = path.slice(0, -3)
+      for (const companion of [plain, plain + '.manifest.json']) {
+        if (existsSync(pathFromRoot(root, companion))) add(companion, 'brotli companion for ' + path)
+      }
+    }
+  }
+  add(map.dossierShardIndex.path, 'dossierShardIndex')
+  add(REFERENCE_PROJECTION_PATH, 'reference projection')
+  add('data/registry/content-projection-files.json', 'projection registry')
+  add('data/registry/content-source-manifest.json', 'source manifest')
+  add('data/registry/content-build-summary.json', 'build summary')
+  const sourcePrefixes = new Set([...canonicalSourceFiles(root)].map(file => digest(file.path).slice(0, 2)))
+  for (const prefix of sourcePrefixes) add('data/registry/content-sources/' + prefix + '.json', 'source shard ' + prefix)
+
+  const caseInsensitive = filesystemIsCaseInsensitive(root)
+  const owners = new Map()
+  for (const output of outputs) {
+    const absolute = resolvePath(root, ...output.path.split('/'))
+    const normalized = relative(resolvePath(root), absolute).replaceAll('\\', '/')
+    const key = caseInsensitive ? normalized.toLowerCase() : normalized
+    const previous = owners.get(key)
+    if (previous) {
+      throw new Error('Projection output path collision: ' + previous.path + ' (' + previous.owner + ') conflicts with '
+        + output.path + ' (' + output.owner + ').')
+    }
+    owners.set(key, output)
+  }
+}
+
 function fileFingerprint(paths, root) {
   return digest(paths.map(path => {
     const absolute = pathFromRoot(root, path)
@@ -208,6 +259,7 @@ export function buildContentProjections({ root = process.cwd(), quiet = false, f
 
   const map = readYaml(mapPath)
   assertFlatProjectionMap(map)
+  assertNoOutputPathCollisions(root, map)
 
   // readReferences returns one cloned reference document; the codec then reuses its
   // validated per-root cache while readNodeContent hydrates each node's bindings.

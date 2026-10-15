@@ -67,6 +67,20 @@ export default function App() {
   }, [loadIntervals])
 
   useEffect(() => {
+    const id = routeState.params.get('id')
+    if (route !== 'taxa' || !id) return
+
+    const intentAtRequest = useAppStore.getState().selectionIntentVersion
+    let active = true
+    void import('./services/catalog').then(({ getTaxonProfile }) => {
+      if (!active || useAppStore.getState().selectionIntentVersion !== intentAtRequest) return
+      const treeNodeId = getTaxonProfile(id)?.treeNodeId
+      if (treeNodeId) useAppStore.getState().selectNode(treeNodeId)
+    })
+    return () => { active = false }
+  }, [route, routeState.params])
+
+  useEffect(() => {
     const handleHashChange = () => {
       const next = parseRouteHash(window.location.hash)
       if (next.route !== 'compare') setComparisonOrigin(null)

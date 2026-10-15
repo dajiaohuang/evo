@@ -15,6 +15,7 @@ export interface NodeReadingSource {
   publishedAt?: string
   accessedAt?: string
   license?: string
+  licenseAssessment?: string
   licenseVersion?: string
   licenseUrl?: string
   licenseAppliesTo?: string
@@ -44,6 +45,10 @@ export function NodeReadingSections({ sections, sources, language }: {
         {paragraphParts(text).map((paragraph, index) => <p key={index}><ReaderInlineText text={paragraph} /></p>)}
       </div>
       {!!section.context?.length && <aside className="node-reading__context" lang={section.contextLanguage ?? 'en'}>{section.context.map((context, index) => <p key={index}>{context}</p>)}</aside>}
+      {!!section.limitations?.length && <aside className="node-reading__limitations" role="note">
+        <strong>{zh ? '材料局限：' : 'Limitations: '}</strong>
+        <ul lang="en">{section.limitations.map((limit, index) => <li key={index}>{limit}</li>)}</ul>
+      </aside>}
       {!!section.sourceIds.length && <details className="node-reading__citation">
         <summary>{zh ? '本段的来源与材料' : 'Sources and material for this passage'}</summary>
         {section.sourceIds.map(id => {
@@ -58,13 +63,14 @@ export function NodeReadingSections({ sections, sources, language }: {
             {source.version && <p><strong>{zh ? '版本：' : 'Version: '}</strong>{source.version}</p>}
             {source.publishedAt && <p><strong>{zh ? '发布日期：' : 'Published: '}</strong>{source.publishedAt}</p>}
             {source.accessedAt && <p><strong>{zh ? '访问日期：' : 'Accessed: '}</strong>{source.accessedAt}</p>}
-            {(source.license || source.licenseVersion || source.licenseAppliesTo) && <p><strong>{zh ? '许可：' : 'License: '}</strong>{source.licenseUrl ? <a href={source.licenseUrl} target="_blank" rel="noreferrer">{source.license}</a> : source.license}{source.licenseVersion ? ` ${source.licenseVersion}` : ''}{source.licenseAppliesTo ? ` · ${source.licenseAppliesTo}` : ''}</p>}
+            {(source.license || source.licenseVersion || source.licenseAppliesTo) && <p><strong>{zh ? '记录的许可声明：' : 'Recorded license statement: '}</strong>{source.licenseUrl ? <a href={source.licenseUrl} target="_blank" rel="noreferrer">{source.license}</a> : source.license}{source.licenseVersion ? ` ${source.licenseVersion}` : ''}{source.licenseAppliesTo ? ` · ${source.licenseAppliesTo}` : ''}</p>}
+            {source.licenseAssessment === 'unknown' && <p role="note">{zh ? '权利状态未确认：记录的许可字符串不代表已核验该许可适用于此项材料。' : 'Rights status is unconfirmed: the recorded license string does not verify that the license applies to this item.'}</p>}
+            {source.licenseAssessment && source.licenseAssessment !== 'unknown' && <p><strong>{zh ? '许可评估：' : 'License assessment: '}</strong>{source.licenseAssessment}</p>}
             {source.rights && <p><strong>{zh ? '权利说明：' : 'Rights: '}</strong>{source.rights}</p>}
             {source.rightsHolder && <p><strong>{zh ? '权利人：' : 'Rights holder: '}</strong>{source.rightsHolder}</p>}
             {source.attribution && <p><strong>{zh ? '署名：' : 'Attribution: '}</strong>{source.attribution}</p>}
           </div>
         })}
-        {!!section.limitations?.length && <ul lang="en">{section.limitations.map((limit, index) => <li key={index}>{limit}</li>)}</ul>}
       </details>}
     </section>
   }

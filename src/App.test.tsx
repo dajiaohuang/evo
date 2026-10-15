@@ -5,7 +5,13 @@ import App from './App'
 import type { AppRoute } from './utils/routing'
 
 vi.mock('./i18n', () => ({ useI18n: () => ({ language: 'en', t: (text: string) => text }) }))
-vi.mock('./store', () => ({ useAppStore: (select: (state: { loadIntervals: () => void }) => unknown) => select({ loadIntervals: () => {} }) }))
+vi.mock('./store', () => {
+  const useAppStore = Object.assign(
+    (select: (state: { loadIntervals: () => void }) => unknown) => select({ loadIntervals: () => {} }),
+    { getState: () => ({ selectionIntentVersion: 0, selectNode: () => {} }) },
+  )
+  return { useAppStore }
+})
 vi.mock('./config/pagesPreview', () => ({ isNativeCore: false, isPagesPreview: false, isPreviewRouteLocked: () => false }))
 vi.mock('./data-client/backendClient', () => ({ isBackendConfigured: () => false }))
 vi.mock('./services/catalog', () => ({ getTaxonProfile: () => null, getEvolutionEvent: () => null, getEvolutionStory: () => null }))

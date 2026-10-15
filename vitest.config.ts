@@ -7,6 +7,7 @@ export const coreScriptTests = [
   'scripts/artifact-budget.test.mjs',
   'scripts/bundle-task-metrics.test.mjs',
   'scripts/build-content-projections.test.mjs',
+  'scripts/build-content-projections.determinism.test.mjs',
   'scripts/content-references.test.mjs',
   'scripts/data-checksum.test.mjs',
   'scripts/mobile-descriptor-pins.test.mjs',

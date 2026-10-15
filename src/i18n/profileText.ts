@@ -1,5 +1,9 @@
 import type { TaxonProfile, TaxonProfileReaderSection } from '../types/catalog'
 
+export function localizedIntroductionText(text: string | undefined, fallback: string): string {
+  return text?.trim() ? text : fallback
+}
+
 export function localizedProfileText(
   profile: {
     readerSections?: Array<Pick<TaxonProfileReaderSection, 'text'>>

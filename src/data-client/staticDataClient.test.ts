@@ -4,7 +4,7 @@ import type { CatalogueHierarchyChildRecord, CatalogueHierarchyNodeRecord, Catal
 
 it('loads one knowledge shard, reuses it and rejects an incomplete route', async () => {
   const { loadCatalogueKnowledge } = await import('./staticDataClient')
-  const record = { colId: '623DW', releaseAlias: 'COL26.8', descriptionCollections: [], subtree: { acceptedSpecies: 19, describedSpecies: 0, profiledSpecies: 19 } }
+  const record = { colId: '623DW', releaseAlias: 'TEST-COL', descriptionCollections: [], subtree: { acceptedSpecies: 19, describedSpecies: 0, profiledSpecies: 19 } }
   const { fetchMock } = await installCatalogueFixture({ knowledge: [record] })
   await expect(loadCatalogueKnowledge('623DW')).resolves.toMatchObject(record)
   await loadCatalogueKnowledge('623DW')
