@@ -139,9 +139,11 @@ test('keeps independent source concepts and rejects nested obsolete authoring pa
   assert.deepEqual(canonicalToNodeContent({ identity }).node.identity, identity)
   for (const list of [identity.sourceIdentities, identity.sourceIndexes[0].sourceIdentities]) {
     const original = structuredClone(list)
-    list.push({ identity: 'PBDB:txn:264013', taxonomy: { path: 'data/sources/snapshot.json', recordId: 'txn:264013' }, existingCanonicalPath: 'content/taxa/retired' })
-    assert.throws(() => canonicalToNodeContent({ identity }), /Obsolete authoring path existingCanonicalPath/)
-    list.splice(0, list.length, ...original)
+    for (const existingCanonicalPath of ['content/taxa/retired', null]) {
+      list.push({ identity: 'PBDB:txn:264013', taxonomy: { path: 'data/sources/snapshot.json', recordId: 'txn:264013' }, existingCanonicalPath })
+      assert.throws(() => canonicalToNodeContent({ identity }), /Obsolete authoring path existingCanonicalPath/)
+      list.splice(0, list.length, ...original)
+    }
   }
 })
 
