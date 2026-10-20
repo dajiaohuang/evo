@@ -371,7 +371,7 @@ function withoutRenderedSeparator(body) {
   return body.endsWith('\n\n') ? body.slice(0, -2) : body
 }
 
-function parsePageMarkdown(markdown, label) {
+export function parsePageMarkdown(markdown, label) {
   if (typeof markdown !== 'string' || !markdown.length) throw new Error(`${label} must contain at least one keyed section`)
   if (/<!--\s*evo:text\b|<!--\s*\/evo:text\s*-->/.test(markdown)) throw new Error(`Legacy evo:text marker is unsupported in ${label}`)
   const headings = []

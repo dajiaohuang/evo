@@ -1,6 +1,6 @@
 # Evo 数据平台
 
-PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务；私有 Blob 保存完整且不可变的正文、证据和来源。目标结构、创作流程、切换条件见 [数据与创作方案](../docs/evo-data-platform-v2.md)。本轮建立并核实数据底座，网页审核台及生产读取切换尚未实施。
+PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务；私有 Blob 保存完整且不可变的正文、证据和来源。目标结构、创作流程、切换条件见 [数据与创作方案](../docs/evo-data-platform-v2.md)。页面及完整依赖的新结构、发布约束和 worker 草稿事务见 [页面依赖模型](../docs/page-dependency-model.md)。网页审核台及生产读取切换尚未实施。
 
 ## 已连接资源
 
@@ -11,7 +11,7 @@ PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务
 
 ## 正常顺序
 
-要求 Node 22 与已链接的 Vercel 项目。先检查现有资源，不重复创建数据库。
+要求 Node 22、仓库根目录已安装的应用依赖与已链接的 Vercel 项目。页面索引工具复用仓库规范内容 codec，不能只复制 database 子目录运行。先检查现有资源，不重复创建数据库。
 
 ```powershell
 rtk proxy npm ci --prefix database --ignore-scripts --no-audit --no-fund
@@ -36,7 +36,20 @@ rtk proxy node --env-file=.env.local database/verify-native.mjs
 
 转写中断可用 `export.mjs --commit <SHA> --resume`：先核对已有压缩批次和解压后散列，跳过已完成节点，重建完整原始源归档。已经完成的导出不再次覆盖。数据库/对象上传中断先看收据；未知提交先查批次或对象，不盲目重发。
 
-`rebuild-unpublished-import.mjs` 是导入恢复工具。它要求所有待重建行均属于同一迁移、没有公开 channel 或 release item，并先逐字段核对所有数据库行及其已验证的云端恢复对象，才清空明确列出的暂存派生表。正常导入不调用它；不能用于已发布数据或清空用户创作。
+`rebuild-unpublished-import.mjs` 是旧版导入恢复工具，仅适用于页面依赖 schema 建立之前。新结构建立后立即拒绝运行；正常导入不调用它，也不能用于已发布数据或清空用户创作。新的完整性检查、恢复与续传沿版本和回执进行。
+
+## 页面及完整依赖
+
+`0009`–`0015` 为增量迁移，复用现有科学记录。`dependency_entity/version/edge/seal` 保存类型化依赖图；`release_page/page_release_seal` 固定发布快照；页面草稿和共享节点草稿分别比较版本，同一节点的双语事实不会各自分叉。新的修订与发布不再要求 Git SHA，历史 SHA 作为迁移出处保留。
+
+```powershell
+rtk proxy node --test database/page-dependencies.test.mjs
+rtk proxy node --env-file=.env.local database/verify-page-model.mjs
+rtk proxy node --env-file=.env.local database/verify-page-index.mjs
+rtk proxy node --env-file=.env.local database/trace-page-dependencies.mjs ffaa640d-c515-5a03-98c2-b91013b04672
+```
+
+`index-page-dependencies.mjs` 从已核对的节点修订读取私有对象，默认 dry-run 回滚，`--apply` 提交私有图索引。当前只自动适配 catalogue-profile 的阅读聚合；未知内容/资源保持覆盖不全，渲染构建未验证时页面不可发布。原生功能测试的合成记录全部回滚。`trace-page-dependencies.mjs --artifact <sha256> --reverse` 可以查看文件对应的上游页面和用途；未全量索引的旧来源不能据此删除。
 
 ## 容量与验收
 
@@ -47,3 +60,5 @@ rtk proxy node --env-file=.env.local database/verify-native.mjs
 数据库、Blob、规范文件和公开发布是不同层次。迁移通过不代表网页编辑已完成，也不触发生产切换。正式入口仍以现有文件为权威；新平台必须完成真实登录、创作、来源/差异预览、用户批准、发布、跨端版本和回滚验收后才切换。
 
 执行结果见 [迁移收据](../docs/evo-data-platform-v2.execution.json)。本机逐批收据保存在 `.git/platform-v2/`，其中的私有来源 URL 和密钥不进入公开说明。
+
+迁移 SQL 的版本收据绑定实际文件字节。`migrations/.gitattributes` 禁用换行自动转换，确保 Windows 和其他系统检出的迁移 hash 与已执行版本完全一致。

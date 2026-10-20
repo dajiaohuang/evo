@@ -8,7 +8,11 @@
   "scripts": {
     "migrate": "node --env-file=../.env.local migrate.mjs",
     "export": "node export.mjs",
-    "import": "node --env-file=../.env.local import.mjs"
+    "import": "node --env-file=../.env.local import.mjs",
+    "test": "node --test page-dependencies.test.mjs",
+    "test:native": "node --env-file=../.env.local verify-page-model.mjs",
+    "graph:index": "node --env-file=../.env.local index-page-dependencies.mjs",
+    "graph:verify": "node --env-file=../.env.local verify-page-index.mjs"
   },
   "dependencies": {
     "@vercel/blob": "2.8.2",

@@ -16,7 +16,9 @@ try{
   await client.query('BEGIN')
   await client.query('SELECT pg_advisory_xact_lock($1)',[2026102002])
   await client.query('LOCK TABLE evo_v2.content_node,evo_v2.node_revision,evo_v2.import_node_key,evo_v2.revision_dependency,evo_v2.import_batch,evo_v2.release_item IN ACCESS EXCLUSIVE MODE')
-  const guard=(await client.query(`SELECT (SELECT count(*)::integer FROM evo_v2.channel) channels,(SELECT count(*)::integer FROM evo_v2.release_item) published_items,(SELECT count(*)::integer FROM evo_v2.node_revision WHERE origin_commit<>$1 OR created_by<>('migration:'||$1)) foreign_rows`,[manifest.sourceCommit])).rows[0]
+  const graphExists=(await client.query("SELECT to_regclass('evo_v2.dependency_version') IS NOT NULL AS present")).rows[0].present
+  assert.equal(graphExists,false,'Legacy rebuild is disabled after page dependency schema migration; recover by versioned import receipts instead')
+  const guard=(await client.query(`SELECT (SELECT count(*)::integer FROM evo_v2.channel) channels,(SELECT count(*)::integer FROM evo_v2.release_item) published_items,(SELECT count(*)::integer FROM evo_v2.node_revision WHERE origin_commit IS DISTINCT FROM $1 OR created_by IS DISTINCT FROM ('migration:'||$1)) foreign_rows`,[manifest.sourceCommit])).rows[0]
   assert.deepEqual(guard,{channels:0,published_items:0,foreign_rows:0},'Only this unpublished migration copy may be rebuilt')
   let checked=0
   for(const file of manifest.batches){

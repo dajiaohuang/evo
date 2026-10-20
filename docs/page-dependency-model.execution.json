@@ -1,0 +1,621 @@
+{
+  "status": "implemented-and-native-verified",
+  "recordedAt": "2026-10-20T17:53:04.027899+00:00",
+  "implementationBaseCommit": "e58f9fd72ca762b9e2679634c6b4ebfd3ca02062",
+  "canonicalImportSourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+  "projectId": "dry-pine-48288359",
+  "schema": {
+    "name": "evo_v2",
+    "approach": "additive page dependency graph over existing native scientific records",
+    "newTables": [
+      "dependency_entity",
+      "dependency_version",
+      "dependency_edge",
+      "dependency_seal",
+      "release_page",
+      "page_release_seal",
+      "authoring_workspace",
+      "page_draft_head",
+      "node_draft_head",
+      "page_write_receipt"
+    ],
+    "appliedMigrations": [
+      {
+        "version": "0001_core",
+        "sha256": "a846c54679fe8bcc771b9d572e537f193bf1f70abdb27622b97ea8d83d1f2d4e"
+      },
+      {
+        "version": "0002_import_provenance",
+        "sha256": "f2f634788c2475d8955f247d3a171fd5336fe79cc0b9ca2c1483cfe9e4e19237"
+      },
+      {
+        "version": "0003_reference_import_keys",
+        "sha256": "272fa6cfe6f0e704b4e1c17b6000373ce2a1cd7c94b310fd479c4d6ab9b07eec"
+      },
+      {
+        "version": "0004_recorded_kind_optional",
+        "sha256": "d61d7a6e9e37f468fab4d2f7542d8448c0b60acc454a52de4239996e518d3454"
+      },
+      {
+        "version": "0005_external_revision_payloads",
+        "sha256": "631a3eb1b2f5e3dc66317c5ea275ab6be38f335786efd3646738e506c24f6a85"
+      },
+      {
+        "version": "0006_compact_tree_index",
+        "sha256": "aa4cd819656f8659260958f9835d632424bd51658ef3bc46572b12105fcdbd7a"
+      },
+      {
+        "version": "0007_compact_reference_edges",
+        "sha256": "b72f566f4cee7d374435501a97fe6b359e522dfaf22588f36114f772e5508066"
+      },
+      {
+        "version": "0008_revision_identity_and_payload_reuse",
+        "sha256": "7dfb07743acf5c9810b683f16f90f9679ad174d5b9664500f678109c98ab489a"
+      },
+      {
+        "version": "0009_page_dependency_model",
+        "sha256": "f8c6cdf594d17e231d4330e60f8be0a115af970255eaac70bbed1c12ca11df36"
+      },
+      {
+        "version": "0010_qualify_page_seal_variables",
+        "sha256": "972addbb11c6059aed8a3deaa82f390b554e1dfac974043bac6571cbedf20325"
+      },
+      {
+        "version": "0011_enforce_page_dependency_semantics",
+        "sha256": "428ecdb148e2ee5b07307a1d7fd20f4babe8ebcb65966f755839538e10bb7efd"
+      },
+      {
+        "version": "0012_preserve_unknown_taxon_bridges",
+        "sha256": "a4a0cb5317935affd45b66df2950e3f54ee33f403762dfed02191b7027dfae8a"
+      },
+      {
+        "version": "0013_share_node_drafts_across_page_locales",
+        "sha256": "648af35eded94b7b7a6f01cc5437696b8628d3282cbe8db8d6e5c6dc28681ecb"
+      },
+      {
+        "version": "0014_check_publication_native_identity",
+        "sha256": "c03a5126f887bb43632f306301865b6639880e07f0cec3245c366e1c709513ff"
+      },
+      {
+        "version": "0015_qualify_publication_release_row",
+        "sha256": "0d8748156da4f4b09f5529dcece219456bc0367dc4fdf484ee6b4c4e267120ba"
+      }
+    ],
+    "gitCommitRequiredForNewScientificRevision": false
+  },
+  "nativePageModel": {
+    "status": "passed",
+    "projectId": "dry-pine-48288359",
+    "recordedAt": "2026-10-20T17:48:02.002Z",
+    "layer": "Native PostgreSQL transactions, constraints and functions; all synthetic rows rolled back",
+    "checks": [
+      {
+        "check": "Unavailable optional material is recorded explicitly",
+        "passed": true
+      },
+      {
+        "check": "Missing page locale cannot pass NULL-valued CHECK",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "Missing resource storage cannot pass NULL-valued CHECK",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "Blob descriptor requires a registered artifact",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "External URL cannot replace retained runtime data",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "A citation can retain just its external locator",
+        "passed": true
+      },
+      {
+        "check": "Declared hash must be an actual SHA-256 identifier",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "A non-native dataset cannot omit its data dependencies",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Citation role requires a reference target",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Unsealed dependency prevents parent sealing",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Cyclic dependency cannot acquire a seal",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Node cannot omit a native bibliographic dependency",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Recorded COL identity cannot be dropped from dependency closure",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Content and reference revisions can originate outside Git",
+        "passed": true
+      },
+      {
+        "check": "Sealed graph version is immutable",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Dependency cannot be appended behind sealed hash",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Native citation set cannot change behind graph seal",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Frozen taxonomy cannot gain hidden native rows",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Frozen source checklists cannot gain hidden rows",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Unknown taxon concept bridge remains a dataset context, without a fabricated taxon ID",
+        "passed": true
+      },
+      {
+        "check": "Optional original file does not block citation-only publication",
+        "passed": true
+      },
+      {
+        "check": "Required missing media blocks the entire page",
+        "passed": true
+      },
+      {
+        "check": "Required-only closure and full provenance closure differ",
+        "passed": true
+      },
+      {
+        "check": "Approved incomplete page still cannot publish",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Exact candidate approval is mandatory",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Approval cannot replace validation",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Cannot append pages to an approved snapshot",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Direct channel writes reject unsealed publications",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Channel write has a stable idempotent receipt",
+        "passed": true
+      },
+      {
+        "check": "Stale channel generation is rejected",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "Same request cannot carry a different operation",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Rollback advances generation while restoring old exact release",
+        "passed": true
+      },
+      {
+        "check": "Draft submission survives receipt reconciliation",
+        "passed": true
+      },
+      {
+        "check": "Competing worker cannot overwrite a stale page base",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "Matching generation with wrong revision still conflicts",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "Different pages can advance independently",
+        "passed": true
+      },
+      {
+        "check": "A locale edit advances the shared scientific node head",
+        "passed": true
+      },
+      {
+        "check": "Another locale cannot overwrite shared facts using its old page base",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "One publication cannot mix two revisions of the shared node",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Different graph keys cannot bypass native node version consistency",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Shared source can be traced back to page, publication and workspace",
+        "passed": true
+      }
+    ],
+    "productionCutover": false,
+    "limits": "No worker authentication, hosted API, real multi-computer network concurrency, browser publication or production acceptance claim."
+  },
+  "originalNativeConstraints": {
+    "status": "passed",
+    "projectId": "dry-pine-48288359",
+    "layer": "native PostgreSQL constraints; all synthetic rows rolled back",
+    "checks": [
+      {
+        "check": "source release uniqueness",
+        "passed": true,
+        "sqlState": "23505"
+      },
+      {
+        "check": "unknown source checklist rejected",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "parent cannot cross source releases",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "revisions are immutable",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "missing aggregate keys rejected",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "unregistered bibliography dependency rejected",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "external payload requires a registered object",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "identical body supports a distinct revision for changed citation metadata",
+        "passed": true
+      }
+    ],
+    "productionCutover": false
+  },
+  "realPrivateIndexVerification": {
+    "status": "passed",
+    "projectId": "dry-pine-48288359",
+    "recordedAt": "2026-10-20T17:53:02.925Z",
+    "layer": "Native read-only graph verification plus exact private Blob body hash readback",
+    "checks": [
+      {
+        "physicalKey": "COL%3A3KTM2",
+        "locale": "en",
+        "pageVersionId": "6b087507-5049-5fb7-ab50-0f2e4e2da18d",
+        "nodeRevisionId": "66656801-195e-5630-8e77-aeafbb3afcb8",
+        "dependencies": 9,
+        "bibliographicDependencies": 1,
+        "optionalOriginalFiles": 2,
+        "classificationBinding": "exact-recorded-taxon",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3A3KTM2",
+        "locale": "zh",
+        "pageVersionId": "ffaa640d-c515-5a03-98c2-b91013b04672",
+        "nodeRevisionId": "66656801-195e-5630-8e77-aeafbb3afcb8",
+        "dependencies": 9,
+        "bibliographicDependencies": 1,
+        "optionalOriginalFiles": 2,
+        "classificationBinding": "exact-recorded-taxon",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3A6G5JP",
+        "locale": "en",
+        "pageVersionId": "66d780eb-25a6-5016-b5a8-7f688cd18d2f",
+        "nodeRevisionId": "b760ce3e-a886-5ee8-8b99-a745a843cb21",
+        "dependencies": 6,
+        "bibliographicDependencies": 1,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3A6G5JP",
+        "locale": "zh",
+        "pageVersionId": "b9ece586-7348-5f05-9983-829a38eba59c",
+        "nodeRevisionId": "b760ce3e-a886-5ee8-8b99-a745a843cb21",
+        "dependencies": 6,
+        "bibliographicDependencies": 1,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3A8GNQF",
+        "locale": "en",
+        "pageVersionId": "707d22cb-f8a0-5300-88c1-ad23d4b3b761",
+        "nodeRevisionId": "ea0c9b0c-908a-5dd0-a87d-9b69caed77c2",
+        "dependencies": 10,
+        "bibliographicDependencies": 5,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3A8GNQF",
+        "locale": "zh",
+        "pageVersionId": "8aed535f-20fd-5d9b-9cc1-cab0f57ccda6",
+        "nodeRevisionId": "ea0c9b0c-908a-5dd0-a87d-9b69caed77c2",
+        "dependencies": 10,
+        "bibliographicDependencies": 5,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3AHY5",
+        "locale": "en",
+        "pageVersionId": "208bebcf-5553-5e63-8927-a30d879fdfac",
+        "nodeRevisionId": "34d6c032-0080-5931-856a-b6cabb25f145",
+        "dependencies": 10,
+        "bibliographicDependencies": 5,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3AHY5",
+        "locale": "zh",
+        "pageVersionId": "f4bd851b-7c67-5e9a-9921-4ec85f580169",
+        "nodeRevisionId": "34d6c032-0080-5931-856a-b6cabb25f145",
+        "dependencies": 10,
+        "bibliographicDependencies": 5,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3AN6S2",
+        "locale": "en",
+        "pageVersionId": "38919114-5de7-5e0d-a03b-bbcc3e8d8ae5",
+        "nodeRevisionId": "e21dbc48-9412-5148-956d-633dbd33833d",
+        "dependencies": 7,
+        "bibliographicDependencies": 2,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      },
+      {
+        "physicalKey": "COL%3AN6S2",
+        "locale": "zh",
+        "pageVersionId": "71a89927-1e67-5b60-a811-973d0b4d1224",
+        "nodeRevisionId": "e21dbc48-9412-5148-956d-633dbd33833d",
+        "dependencies": 7,
+        "bibliographicDependencies": 2,
+        "optionalOriginalFiles": 0,
+        "classificationBinding": "recorded-source-context-only",
+        "allSelectorsVerified": true,
+        "fullPrivateBodyHashVerified": true,
+        "ready": false,
+        "blocker": "renderer-not-verified"
+      }
+    ],
+    "counts": {
+      "node_revisions": 139458,
+      "references_count": 5255,
+      "taxonomy_nodes": 2429092,
+      "artifacts": 1572,
+      "indexed_node_revisions": 5,
+      "page_versions": 10,
+      "dependency_entities": 36,
+      "dependency_versions": 36,
+      "dependency_edges": 47,
+      "public_channels": 0,
+      "release_pages": 0,
+      "sealed_page_releases": 0,
+      "draft_pages": 0,
+      "authoring_workspaces": 0,
+      "shared_node_drafts": 0,
+      "write_receipts": 0,
+      "synthetic_graph_rows": 0,
+      "synthetic_node_rows": 0,
+      "database_bytes": "838107136"
+    },
+    "migrations": [
+      {
+        "version": "0001_core",
+        "sha256": "a846c54679fe8bcc771b9d572e537f193bf1f70abdb27622b97ea8d83d1f2d4e"
+      },
+      {
+        "version": "0002_import_provenance",
+        "sha256": "f2f634788c2475d8955f247d3a171fd5336fe79cc0b9ca2c1483cfe9e4e19237"
+      },
+      {
+        "version": "0003_reference_import_keys",
+        "sha256": "272fa6cfe6f0e704b4e1c17b6000373ce2a1cd7c94b310fd479c4d6ab9b07eec"
+      },
+      {
+        "version": "0004_recorded_kind_optional",
+        "sha256": "d61d7a6e9e37f468fab4d2f7542d8448c0b60acc454a52de4239996e518d3454"
+      },
+      {
+        "version": "0005_external_revision_payloads",
+        "sha256": "631a3eb1b2f5e3dc66317c5ea275ab6be38f335786efd3646738e506c24f6a85"
+      },
+      {
+        "version": "0006_compact_tree_index",
+        "sha256": "aa4cd819656f8659260958f9835d632424bd51658ef3bc46572b12105fcdbd7a"
+      },
+      {
+        "version": "0007_compact_reference_edges",
+        "sha256": "b72f566f4cee7d374435501a97fe6b359e522dfaf22588f36114f772e5508066"
+      },
+      {
+        "version": "0008_revision_identity_and_payload_reuse",
+        "sha256": "7dfb07743acf5c9810b683f16f90f9679ad174d5b9664500f678109c98ab489a"
+      },
+      {
+        "version": "0009_page_dependency_model",
+        "sha256": "f8c6cdf594d17e231d4330e60f8be0a115af970255eaac70bbed1c12ca11df36"
+      },
+      {
+        "version": "0010_qualify_page_seal_variables",
+        "sha256": "972addbb11c6059aed8a3deaa82f390b554e1dfac974043bac6571cbedf20325"
+      },
+      {
+        "version": "0011_enforce_page_dependency_semantics",
+        "sha256": "428ecdb148e2ee5b07307a1d7fd20f4babe8ebcb65966f755839538e10bb7efd"
+      },
+      {
+        "version": "0012_preserve_unknown_taxon_bridges",
+        "sha256": "a4a0cb5317935affd45b66df2950e3f54ee33f403762dfed02191b7027dfae8a"
+      },
+      {
+        "version": "0013_share_node_drafts_across_page_locales",
+        "sha256": "648af35eded94b7b7a6f01cc5437696b8628d3282cbe8db8d6e5c6dc28681ecb"
+      },
+      {
+        "version": "0014_check_publication_native_identity",
+        "sha256": "c03a5126f887bb43632f306301865b6639880e07f0cec3245c366e1c709513ff"
+      },
+      {
+        "version": "0015_qualify_publication_release_row",
+        "sha256": "0d8748156da4f4b09f5529dcece219456bc0367dc4fdf484ee6b4c4e267120ba"
+      }
+    ],
+    "productionCutover": false,
+    "coverage": "Five node-reading aggregates / ten locale views only; full catalogue widgets and full-site dependencies are not imported; every root remains publication-blocked."
+  },
+  "localRegression": {
+    "extractor": {
+      "command": "Node 22 --test database/page-dependencies.test.mjs",
+      "passed": 6
+    },
+    "canonicalCodec": {
+      "command": "Node 22 vitest run --config vitest.config.ts scripts/node-content.test.mjs",
+      "passed": 11
+    },
+    "syntaxCheckedDatabaseModules": 18,
+    "notes": "No TSX behavior changed. Native checks, parser tests and private-body graph readback are separate verification layers."
+  },
+  "scope": {
+    "automaticAdapter": "catalogue-profile authored node reading aggregate only",
+    "indexedNodeRevisions": 5,
+    "localeReadingVersions": 10,
+    "dependencyVersions": 36,
+    "dependencyEdges": 47,
+    "completeFullSiteBackfill": false,
+    "fullCatalogueWidgetsBackfill": false,
+    "allRealRootsPublicationReady": false,
+    "knownRootBlocker": "renderer-not-verified; full renderer and widget/resource adapters must still be declared",
+    "scientificSourceFilesChanged": false,
+    "sourceObjectsUploadedOrDeleted": false,
+    "graphGarbageCollectionEnabled": false,
+    "workerHttpApiOrAuthImplemented": false,
+    "webReviewUIImplemented": false,
+    "productionCutover": false,
+    "nativeSyntheticRowsPersisted": false
+  },
+  "storage": {
+    "databaseBytes": 838107136,
+    "databaseBaselineBytes": 837009408,
+    "databaseWatermarkBytes": 891289600,
+    "planUpgraded": false,
+    "newBlobObjects": 0
+  },
+  "authority": "Current application still uses existing canonical-file/static delivery authority until verified application cutover. The graph is private indexed metadata, not a new production release.",
+  "scriptSha256": {
+    "database/page-dependencies.mjs": "c3240d114996718ed6f706371236739b8a733bc3ccd12521d6c70756f1031bf7",
+    "database/page-dependencies.test.mjs": "b0447b03e76ff451f2d58573d698eb18c4923b41cdb9ffd651f0f3816639d507",
+    "database/index-page-dependencies.mjs": "8cace01a167e7df779cfa30bfb3974e4e4f072e1295f1e6cd3ae96c54e5f2da0",
+    "database/verify-page-model.mjs": "87f13eb7d6b9af252d4a7a9b0f13504e4c0fab79825b83322bd99c568f61392c",
+    "database/verify-page-index.mjs": "f7661fca3fda4e5edeb1d4fd95e5b17b923b543b060a149e48e84949a16e16f0",
+    "database/trace-page-dependencies.mjs": "616e396dda6138e35fe78f718f9a2cc75e3dd6ab8d22020d62d5e50088d434ad",
+    "database/rebuild-unpublished-import.mjs": "41cb11526efd79c937445f97c8f748473b4dce8db764bab2e9743b9aaa69b252",
+    "scripts/node-content.mjs": "99cdcd8b76aaa4493cc53b214086a18b93566bf8c764f8caeaf1cf26ae02e7bf"
+  },
+  "receiptsSha256": {
+    ".git/platform-v2/page-model-native.json": "a3fb40530dd4f2b4d654ec11b46e7f2f39977bace40932b4ea6527143a07644c",
+    ".git/platform-v2/page-index-verified.json": "6a8d762dfdd3c08ed753cb1f759eeb86639bb3fe190e599f320a476f3889b0de",
+    ".git/platform-v2/schema-receipt.json": "138b210325d8ad0a7552692d9d49b2d49fdc8336ae045ffcb51ea5efe0447159"
+  }
+}

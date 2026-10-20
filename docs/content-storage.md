@@ -5,6 +5,12 @@ Before writing reader prose or its derived cards and bubbles, use the
 [drafting template](templates/node-presentation.md). They define scientific
 and product reading requirements; this document defines canonical storage.
 
+The [page dependency database model](page-dependency-model.md) defines the
+target database authority, immutable aggregates, source policies and release
+closure after cutover. New scientific content will then be written through
+the authoring service, while Git retains code and schema. Until that verified
+cutover, the current file authority and bindings below remain in effect.
+
 ## Canonical node files
 
 All authored node content lives in one physical directory:
