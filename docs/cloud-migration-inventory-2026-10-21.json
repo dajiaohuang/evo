@@ -1,0 +1,703 @@
+{
+  "recordedAt": "2026-10-20T16:35:18.936909+00:00",
+  "timezone": "Asia/Singapore",
+  "sourceCommit": "64fc1daaf4e5a466f1b3dd466a350895631cdd6c",
+  "mode": "read-only source and cloud inventory; no upload, deletion, deployment or authority cutover",
+  "target": "Multiple owner computers run workers editing different topics or taxa, submit shared database drafts, owner reviews and publishes in web UI.",
+  "local": {
+    "filesScanned": 535767,
+    "logicalBytesScanned": 6290053015,
+    "excludedDirectoryNames": [
+      ".agents",
+      ".codex",
+      ".git",
+      ".vercel",
+      "node_modules"
+    ],
+    "linksSkipped": [],
+    "scanErrors": [],
+    "selectedTopLevel": {
+      "content": {
+        "files": 476984,
+        "bytes": 1633246805
+      },
+      "data": {
+        "files": 52533,
+        "bytes": 3923555725
+      },
+      "docs": {
+        "files": 352,
+        "bytes": 193794021
+      },
+      "src": {
+        "files": 279,
+        "bytes": 2705609
+      },
+      "backend": {
+        "files": 22,
+        "bytes": 186332
+      },
+      "android": {
+        "files": 2295,
+        "bytes": 263217199
+      },
+      "ios": {
+        "files": 2242,
+        "bytes": 263213030
+      }
+    },
+    "dataGroups": {
+      "data/CHANGELOG.md": {
+        "files": 1,
+        "bytes": 193636
+      },
+      "data/catalogue-of-life": {
+        "files": 2725,
+        "bytes": 440614064
+      },
+      "data/events.json": {
+        "files": 1,
+        "bytes": 688242
+      },
+      "data/evidence": {
+        "files": 3,
+        "bytes": 2275617
+      },
+      "data/fossils": {
+        "files": 12,
+        "bytes": 10826183
+      },
+      "data/indexes": {
+        "files": 2,
+        "bytes": 1519752
+      },
+      "data/knowledge": {
+        "files": 311,
+        "bytes": 137922863
+      },
+      "data/manifest.json": {
+        "files": 1,
+        "bytes": 7373756
+      },
+      "data/media": {
+        "files": 9,
+        "bytes": 482804
+      },
+      "data/media.json": {
+        "files": 1,
+        "bytes": 32865
+      },
+      "data/navigation": {
+        "files": 1,
+        "bytes": 1033729
+      },
+      "data/packages": {
+        "files": 1127,
+        "bytes": 140166417
+      },
+      "data/pages-preview.json": {
+        "files": 1,
+        "bytes": 7824
+      },
+      "data/paleogeography": {
+        "files": 1912,
+        "bytes": 226983739
+      },
+      "data/paleotopography": {
+        "files": 219,
+        "bytes": 190672380
+      },
+      "data/period-map-metadata.json": {
+        "files": 1,
+        "bytes": 3515
+      },
+      "data/places.json": {
+        "files": 1,
+        "bytes": 1617
+      },
+      "data/ranges": {
+        "files": 1,
+        "bytes": 1103113
+      },
+      "data/reading-guides.json": {
+        "files": 1,
+        "bytes": 18014
+      },
+      "data/references.json": {
+        "files": 1,
+        "bytes": 5871248
+      },
+      "data/registry": {
+        "files": 264,
+        "bytes": 89548575
+      },
+      "data/research": {
+        "files": 8,
+        "bytes": 174850881
+      },
+      "data/schemas": {
+        "files": 16,
+        "bytes": 61251
+      },
+      "data/sources": {
+        "files": 45911,
+        "bytes": 2490898322
+      },
+      "data/stories.json": {
+        "files": 1,
+        "bytes": 324807
+      },
+      "data/time-scale.json": {
+        "files": 1,
+        "bytes": 78381
+      },
+      "data/tree": {
+        "files": 1,
+        "bytes": 2130
+      }
+    },
+    "note": "Working-tree bytes include current line-ending representation; source projection data and generated mobile copies are not independent scientific corpora."
+  },
+  "nativeNeon": {
+    "status": "passed",
+    "recordedAt": "2026-10-20T16:34:46.316Z",
+    "database": {
+      "bytes": "837009408"
+    },
+    "tables": [
+      {
+        "name": "taxon_usage",
+        "bytes": "522518528"
+      },
+      {
+        "name": "node_revision",
+        "bytes": "184541184"
+      },
+      {
+        "name": "revision_dependency",
+        "bytes": "57917440"
+      },
+      {
+        "name": "import_node_key",
+        "bytes": "36986880"
+      },
+      {
+        "name": "content_node",
+        "bytes": "14213120"
+      },
+      {
+        "name": "reference_revision",
+        "bytes": "7454720"
+      },
+      {
+        "name": "import_reference_key",
+        "bytes": "1744896"
+      },
+      {
+        "name": "source_snapshot",
+        "bytes": "712704"
+      },
+      {
+        "name": "artifact",
+        "bytes": "712704"
+      },
+      {
+        "name": "source_release",
+        "bytes": "352256"
+      },
+      {
+        "name": "import_batch",
+        "bytes": "278528"
+      },
+      {
+        "name": "source_checklist",
+        "bytes": "196608"
+      },
+      {
+        "name": "schema_migration",
+        "bytes": "32768"
+      },
+      {
+        "name": "change_set",
+        "bytes": "32768"
+      },
+      {
+        "name": "release",
+        "bytes": "24576"
+      },
+      {
+        "name": "outbox_job",
+        "bytes": "24576"
+      },
+      {
+        "name": "validation_run",
+        "bytes": "16384"
+      },
+      {
+        "name": "publication_approval",
+        "bytes": "16384"
+      },
+      {
+        "name": "channel",
+        "bytes": "16384"
+      },
+      {
+        "name": "release_reference",
+        "bytes": "16384"
+      },
+      {
+        "name": "release_item",
+        "bytes": "8192"
+      }
+    ]
+  },
+  "privateBlob": {
+    "recordedAt": "2026-10-20T16:30:18.179Z",
+    "status": "passed",
+    "objects": 1572,
+    "bytes": 744828756,
+    "verificationScope": "Live paginated object names/sizes; full object SHA-256 readback was completed in prior transfer and not repeated during this inventory."
+  },
+  "hosted": {
+    "recordedAt": "2026-10-20T16:31:12.314Z",
+    "status": "passed",
+    "datasetVersion": "2026.09-2026.10-static-v5-rc155",
+    "edition": "full-web",
+    "release": {
+      "datasetVersion": "2026.09-2026.10-static-v5-rc155",
+      "releaseBase": "releases/2026.09-2026.10-static-v5-rc155/",
+      "filesIndex": "releases/2026.09-2026.10-static-v5-rc155/release-files.json",
+      "generatedAt": "2026-10-11",
+      "bytes": 911651520
+    },
+    "files": 7476,
+    "fileBytes": 910291322,
+    "groups": {
+      "catalogue": {
+        "files": 4750,
+        "bytes": 593566385
+      },
+      "core": {
+        "files": 8,
+        "bytes": 899361
+      },
+      "maps": {
+        "files": 2019,
+        "bytes": 251851949
+      },
+      "occurrences": {
+        "files": 105,
+        "bytes": 635344
+      },
+      "package-search-index": {
+        "files": 24,
+        "bytes": 248326
+      },
+      "packages": {
+        "files": 312,
+        "bytes": 25513340
+      },
+      "pbdb": {
+        "files": 258,
+        "bytes": 37576617
+      }
+    },
+    "budgets": {
+      "pbdbReaderCompressedBytes": 37576617,
+      "coreCompressedBytes": 899361,
+      "coreLimitBytes": 5242880,
+      "shardLimitBytes": 8388608,
+      "catalogueCompressedBytes": 576750341,
+      "pagesLimitBytes": 681574400
+    }
+  },
+  "dataGap": {
+    "recordedAt": "2026-10-20T16:34:10.860191+00:00",
+    "scope": "Every file under data/, SHA-256 compared with completed private Blob upload receipt; compressed file bytes remain compressed.",
+    "files": 52533,
+    "groups": {
+      "data/CHANGELOG.md": {
+        "files": 1,
+        "bytes": 193636,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 193636
+      },
+      "data/catalogue-of-life": {
+        "files": 2725,
+        "bytes": 440614064,
+        "alreadyUploadedFiles": 988,
+        "alreadyUploadedBytes": 216929037,
+        "notUploadedFiles": 1737,
+        "notUploadedBytes": 223685027
+      },
+      "data/events.json": {
+        "files": 1,
+        "bytes": 688242,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 688242
+      },
+      "data/evidence": {
+        "files": 3,
+        "bytes": 2275617,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 3,
+        "notUploadedBytes": 2275617
+      },
+      "data/fossils": {
+        "files": 12,
+        "bytes": 10826183,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 12,
+        "notUploadedBytes": 10826183
+      },
+      "data/indexes": {
+        "files": 2,
+        "bytes": 1519752,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 2,
+        "notUploadedBytes": 1519752
+      },
+      "data/knowledge": {
+        "files": 311,
+        "bytes": 137922863,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 311,
+        "notUploadedBytes": 137922863
+      },
+      "data/manifest.json": {
+        "files": 1,
+        "bytes": 7373756,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 7373756
+      },
+      "data/media": {
+        "files": 9,
+        "bytes": 482804,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 9,
+        "notUploadedBytes": 482804
+      },
+      "data/media.json": {
+        "files": 1,
+        "bytes": 32865,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 32865
+      },
+      "data/navigation": {
+        "files": 1,
+        "bytes": 1033729,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 1033729
+      },
+      "data/packages": {
+        "files": 1127,
+        "bytes": 140166417,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1127,
+        "notUploadedBytes": 140166417
+      },
+      "data/pages-preview.json": {
+        "files": 1,
+        "bytes": 7824,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 7824
+      },
+      "data/paleogeography": {
+        "files": 1912,
+        "bytes": 226983739,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1912,
+        "notUploadedBytes": 226983739
+      },
+      "data/paleotopography": {
+        "files": 219,
+        "bytes": 190672380,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 219,
+        "notUploadedBytes": 190672380
+      },
+      "data/period-map-metadata.json": {
+        "files": 1,
+        "bytes": 3515,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 3515
+      },
+      "data/places.json": {
+        "files": 1,
+        "bytes": 1617,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 1617
+      },
+      "data/ranges": {
+        "files": 1,
+        "bytes": 1103113,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 1103113
+      },
+      "data/reading-guides.json": {
+        "files": 1,
+        "bytes": 18014,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 18014
+      },
+      "data/references.json": {
+        "files": 1,
+        "bytes": 5871248,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 5871248
+      },
+      "data/registry": {
+        "files": 264,
+        "bytes": 89548575,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 264,
+        "notUploadedBytes": 89548575
+      },
+      "data/research": {
+        "files": 8,
+        "bytes": 174850881,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 8,
+        "notUploadedBytes": 174850881
+      },
+      "data/schemas": {
+        "files": 16,
+        "bytes": 61251,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 16,
+        "notUploadedBytes": 61251
+      },
+      "data/sources": {
+        "files": 45911,
+        "bytes": 2490898322,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 45911,
+        "notUploadedBytes": 2490898322
+      },
+      "data/stories.json": {
+        "files": 1,
+        "bytes": 324807,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 324807
+      },
+      "data/time-scale.json": {
+        "files": 1,
+        "bytes": 78381,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 78381
+      },
+      "data/tree": {
+        "files": 1,
+        "bytes": 2130,
+        "alreadyUploadedFiles": 0,
+        "alreadyUploadedBytes": 0,
+        "notUploadedFiles": 1,
+        "notUploadedBytes": 2130
+      }
+    },
+    "uniqueFiles": 52378,
+    "uniqueBytes": 3919441158,
+    "missingUniqueFiles": 51390,
+    "missingUniqueBytes": 3702512121,
+    "duplicateBytes": 4114567,
+    "missingLargest": [
+      {
+        "bytes": 77430279,
+        "firstPath": "data/research/amphibia/amphibio.source.json",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 48535054,
+        "firstPath": "data/knowledge/catalogue-profiles.json.gz",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 38589126,
+        "firstPath": "data/sources/snapshots/amniota-residual-bird-literature-2026-10-03/source-03.pdf",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 37788923,
+        "firstPath": "data/sources/archives/checklistbank-2144-itis-2026-08-26.zip",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 33489620,
+        "firstPath": "data/research/amphibia/morphology.source.json",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 31879987,
+        "firstPath": "data/research/amphibia/tadpole-traits.source.json",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 26621744,
+        "firstPath": "data/sources/snapshots/amphibia-primary-corpus-2026-10-02/PMC10688756/col26.8-name-bridges.json",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 26312737,
+        "firstPath": "data/sources/snapshots/amphibia-reference-index-2026-10-03/query-bindings-00051.json.gz",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 25073660,
+        "firstPath": "data/sources/snapshots/amniota-remaining-occurrence-guides-2026-10-02-occurrences-31ac9f819956f8986cbf6f444ae951461fd801de4d65737e8337007dc854b31f.json.gz",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 22335590,
+        "firstPath": "data/sources/archives/checklistbank-1101-systema-dipterorum-attempt-47.zip",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 21524673,
+        "firstPath": "data/sources/archives/amniota-avonet-v7.xlsx",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 21061998,
+        "firstPath": "data/sources/snapshots/avonet-v7-workbook-eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e.xlsx.gz",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 18545434,
+        "firstPath": "data/sources/archives/amniota-repttraits-v1-2.xlsx",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 16020236,
+        "firstPath": "data/research/amphibia/amphitherm.source.json",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 15046679,
+        "firstPath": "data/sources/archives/mdd-official-2026-10-03.zip",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 14732958,
+        "firstPath": "data/sources/archives/amniota-lifehistory-references-2015.csv",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 14633229,
+        "firstPath": "data/sources/snapshots/amphibia-content-scope-2026-10-02/col26.8-accepted-species.json",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 14131046,
+        "firstPath": "data/sources/mammalia-occurrence-guides-2026-10-02-records.jsonl.gz",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 13440217,
+        "firstPath": "data/sources/amniota-collection-stage-2026-10-03-records.jsonl.gz",
+        "alreadyUploaded": false,
+        "copies": 1
+      },
+      {
+        "bytes": 12443432,
+        "firstPath": "data/sources/wfo-plant-crosswalk-col26.8.json.br",
+        "alreadyUploaded": false,
+        "copies": 1
+      }
+    ]
+  },
+  "capacityScenariosBytes": {
+    "currentBlob": 744828756,
+    "currentBlobPlusUniqueMissingData": 4447340877,
+    "plusAllDocsWithoutDeduplicationUpperBound": 4641134898,
+    "plusOneHostedPayloadCopyWithoutCrossDeduplicationUpperBound": 5551426220
+  },
+  "planningBudget": {
+    "blobBaselineGB": 6,
+    "blobHeadroomGB": 10,
+    "neonGB": [
+      2,
+      3
+    ],
+    "basis": "Engineering estimate, not measured future use, provider quota or price. Public delivery can remain in Vercel static deployments; do not duplicate it in Blob unnecessarily. Unknown future assets and provider history/branches are excluded."
+  },
+  "workerReadiness": {
+    "currentCanonicalAuthority": "content files until verified cutover",
+    "currentGoApi": "GET/HEAD/OPTIONS only; source-backed reader",
+    "databaseFoundation": "immutable revisions, references, changesets, validation, approval, outbox and release tables exist",
+    "workerIdentityAndScopedCredentials": "not implemented",
+    "taskClaimHeartbeatFencing": "not implemented",
+    "perNodeDraftHeadCompareAndSwap": "not implemented",
+    "candidateSubmissionAndReceiptApi": "not implemented",
+    "webReviewAndPublicationFlow": "not implemented",
+    "crossDeviceWorkspaceSync": "not implemented; workspace notes/history are browser IndexedDB",
+    "productionCutover": false
+  },
+  "evidence": {
+    "priorTransfer": "docs/evo-data-platform-v2.execution.json",
+    "priorTransferSha256": "46545673a1bed4688538737b78f87454c161c74fd62acc9aa02c3f4a55de45d7",
+    "staticDeploymentArtifact": "deployment-artifact.json",
+    "staticDeploymentArtifactSha256": "e0328d9f4bd8df58f483af1d01d2e472f003473ac9891379748d2beb3469bc3d",
+    "hashComparison": "SHA-256 of every file under data compared with prior completed Blob receipt; exact bytes, including existing compression; duplicates counted once",
+    "privateUploadReceiptSha256": "8f6c66e9cef732fd0397a914912da362419c11216193804c3bccb16ff554e784",
+    "hostedDataRoot": "https://evo-lovat.vercel.app/evo/data/",
+    "runtimeReleaseIndex": "releases/2026.09-2026.10-static-v5-rc155/release-files.json",
+    "databaseLayer": "Native read-only PostgreSQL transaction, pg_database_size and pg_total_relation_size; not provider billing usage",
+    "browserValidation": "Not performed in this inventory; hosted manifests and file index only"
+  }
+}
