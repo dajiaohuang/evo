@@ -1,0 +1,49 @@
+# Evo 数据平台
+
+PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务；私有 Blob 保存完整且不可变的正文、证据和来源。目标结构、创作流程、切换条件见 [数据与创作方案](../docs/evo-data-platform-v2.md)。本轮建立并核实数据底座，网页审核台及生产读取切换尚未实施。
+
+## 已连接资源
+
+- Vercel 项目：`evo` / `prj_RU1GF7YN46JN7w9Qg3qzfHZZ5MI1`。
+- Neon：`evo-authoring-v2` / `dry-pine-48288359`，新加坡，`free_v3`。
+- 私有 Blob：`evo-source-v2` / `store_xxrtIBwYQAds7u6s`，新加坡。
+- 当前只连接 development / preview。密钥来自忽略的 `.env.local`；程序拒绝未知 Neon 项目和池化迁移连接。
+
+## 正常顺序
+
+要求 Node 22 与已链接的 Vercel 项目。先检查现有资源，不重复创建数据库。
+
+```powershell
+rtk proxy npm ci --prefix database --ignore-scripts --no-audit --no-fund
+rtk proxy vercel project inspect --non-interactive
+rtk proxy vercel env pull .env.local --yes --environment=development --non-interactive
+rtk proxy node --env-file=.env.local database/migrate.mjs
+```
+
+只从确切的、已推送的 Git SHA 转写。输出位于 `.git/platform-v2/export/<SHA>/`，不写规范源文件；第一次运行要求目录不存在。
+
+```powershell
+rtk proxy node database/export.mjs --commit <SOURCE_SHA>
+rtk proxy node --env-file=.env.local database/upload.mjs --from .git/platform-v2/export/<SOURCE_SHA>
+rtk proxy node --env-file=.env.local database/import.mjs --from .git/platform-v2/export/<SOURCE_SHA> --pilot
+rtk proxy node --env-file=.env.local database/import.mjs --from .git/platform-v2/export/<SOURCE_SHA>
+rtk proxy node --env-file=.env.local database/import-taxonomy.mjs --commit <SOURCE_SHA>
+rtk proxy node --env-file=.env.local database/verify-import.mjs --from .git/platform-v2/export/<SOURCE_SHA>
+rtk proxy node --env-file=.env.local database/verify-native.mjs
+```
+
+上传先读回确定的内容地址，再决定是否写入；固定私有路径、禁止覆盖、最多 6 个并发，每个对象都完整下载核对 SHA-256。数据库逐批事务提交，原生回读比较身份、源文件散列、载荷引用、投影入口和书目依赖。`read-revision.mjs` 真实执行 PostgreSQL → 私有 Blob → 解压 → 唯一修订选择 → 内容散列与身份核验。
+
+转写中断可用 `export.mjs --commit <SHA> --resume`：先核对已有压缩批次和解压后散列，跳过已完成节点，重建完整原始源归档。已经完成的导出不再次覆盖。数据库/对象上传中断先看收据；未知提交先查批次或对象，不盲目重发。
+
+`rebuild-unpublished-import.mjs` 是导入恢复工具。它要求所有待重建行均属于同一迁移、没有公开 channel 或 release item，并先逐字段核对所有数据库行及其已验证的云端恢复对象，才清空明确列出的暂存派生表。正常导入不调用它；不能用于已发布数据或清空用户创作。
+
+## 容量与验收
+
+数据库导入水位为 850 MiB；对象上传计划上限为 900 MiB。达到水位就停，不升级套餐。完整分类 COPY 使用一个事务，失败回滚整棵树；成功后校验全树数量、父子关系、根、物种数和真实样本查询。名称搜索的全部冻结分片已上传，但没有把所有异名/名称记录重复展开成 SQL 行。
+
+本轮转写范围是规范节点、全局书目、COL26.8 分类树与名称分片，以及五个采用节点所需的原始研究材料。现有地图栅格、完整 occurrence 包及其他发布资源仍保留原发布方式，没有将全部大型研究仓库重复搬入新库。
+
+数据库、Blob、规范文件和公开发布是不同层次。迁移通过不代表网页编辑已完成，也不触发生产切换。正式入口仍以现有文件为权威；新平台必须完成真实登录、创作、来源/差异预览、用户批准、发布、跨端版本和回滚验收后才切换。
+
+执行结果见 [迁移收据](../docs/evo-data-platform-v2.execution.json)。本机逐批收据保存在 `.git/platform-v2/`，其中的私有来源 URL 和密钥不进入公开说明。

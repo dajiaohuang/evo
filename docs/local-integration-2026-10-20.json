@@ -2912,57 +2912,9 @@
     "decision": "User explicitly confirmed only needed verified updates belong in main; discard remaining old working copies, private drafts and intermediate artifacts after successful push."
   },
   "cleanup": {
-    "status": "planned-after-main-push",
-    "targets": {
-      "rootToKeep": "D:\\repo\\evo",
-      "worktreeTargets": [
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\2531\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\amphibia-reference-verification\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\aves-dossiers-batch\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\aves-model-conservation-batch\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\aves-second-dossiers\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\ca42\\ca42\\evo-fungi-small-batch-20260924",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\crocodylian-reader-guides\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\evo-dossier-more-priority-batches-20260924",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\evo-dossier-priority-batches-20260924",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\evo-macaca-mulatta",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\evo-saguinus-bicolor-dossier-batch28-20260925",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\plant-dossier-nonfabaceae",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\plant-dossiers",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\primate-leonina-guide\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\primates-mico-guides\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\primates-pongo-abelii-batch13\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\primates-priority-integration-20260924\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\primates-priority-promotion-20260924\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\primates-tarsiiformes-batch10\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\saimiri-sciureus-dossier\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\species-evidence-batch32-0925\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\species-evidence-batch37\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\species-evidence-batch40\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\species-evidence-batch41\\evo",
-        "C:\\Users\\dajiaohuang\\.codex\\worktrees\\tra-francoisi-dossier\\evo",
-        "D:\\repo\\evo-chordata-20261014\\integration\\takeover-luna-wave56-locale-fix"
-      ],
-      "externalTargets": [
-        "D:\\repo\\evo-chordata-20261014",
-        "D:\\repo\\evo-copy-20261011",
-        "D:\\repo\\evo-vercel-20261015"
-      ],
-      "localScratchTargets": [
-        "D:\\repo\\evo\\integration",
-        "D:\\repo\\evo\\reviews",
-        "D:\\repo\\evo\\_reptilia_authoring_tmp.mjs",
-        "D:\\repo\\evo\\n.pageAdds.length",
-        "D:\\repo\\evo\\dist",
-        "D:\\repo\\evo\\dist-mobile",
-        "D:\\repo\\evo\\dist-pages",
-        "D:\\repo\\evo\\review-output",
-        "D:\\repo\\evo\\test-results",
-        "D:\\repo\\evo\\private",
-        "D:\\repo\\evo\\public\\data",
-        "D:\\repo\\evo\\public\\release.json"
-      ],
-      "authorization": "User explicitly reconfirmed: retain only needed content in main, delete remaining copies."
-    }
+    "status": "passed",
+    "sourceMainPushedBeforeDeletion": "38336ece31d241af0a4fd42a25686641774c2373",
+    "remainingWorktrees": 1,
+    "receipt": "docs/local-integration-2026-10-20.cleanup.json"
   }
 }

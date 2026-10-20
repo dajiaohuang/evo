@@ -1,0 +1,289 @@
+{
+  "status": "verified-data-platform-and-transfer",
+  "recordedAt": "2026-10-20T14:51:12.413420+00:00",
+  "sourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+  "sourceAuthority": "Existing canonical files remain authoritative until application cutover; this verified private platform snapshot does not switch production.",
+  "resources": {
+    "resourceId": "store_yjugdTfzhH6MdKhi",
+    "name": "evo-authoring-v2",
+    "neonProjectId": "dry-pine-48288359",
+    "installationId": "icfg_n2nYv2TmoIudUVmJvdFWQoxe",
+    "vercelProjectId": "prj_RU1GF7YN46JN7w9Qg3qzfHZZ5MI1",
+    "scope": "team_mAc917TJgPaXqaswAnaMZP3l",
+    "plan": "free_v3",
+    "region": "sin1",
+    "auth": true,
+    "realtime": false,
+    "environments": [
+      "development",
+      "preview"
+    ],
+    "credentials": "pulled into ignored .env.local; values excluded",
+    "status": "provisioned-and-connected",
+    "productionCutover": false,
+    "privateBlob": {
+      "name": "evo-source-v2",
+      "id": "store_xxrtIBwYQAds7u6s",
+      "region": "sin1",
+      "access": "private"
+    }
+  },
+  "scope": [
+    "All canonical node documents, evidence and locale Markdown",
+    "Global bibliography with all original fields",
+    "Complete frozen COL26.8 accepted hierarchy and all 730 exported nomenclatural search shards",
+    "23 necessary original scientific source snapshots for adopted nodes"
+  ],
+  "sourceExport": {
+    "schemaVersion": 2,
+    "sourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+    "sourceFiles": 476984,
+    "sourceBytes": 1633246228,
+    "nodes": 139458,
+    "references": 5255,
+    "originalSourceArchive": {
+      "path": "canonical-content.tar.gz",
+      "bytes": 231943439,
+      "sha256": "0d4af577809e0409157e170e0c2e603eef444a92aaad82f8a79fe2a83ef74e04"
+    }
+  },
+  "sourceManifestSha256": "1898bf7600e03e2dcd0a7bfee2b97e1e8009a5cd8edc190542b41573274738b0",
+  "revisionIdentityRuleForFrozenBaseline": "content-v1",
+  "nodeBatches": 558,
+  "nodeBatchCompressedBytes": 254082563,
+  "objectUpload": {
+    "objects": 1572,
+    "bytes": 744828756,
+    "allObjectsFullyDownloadedAndSha256Verified": true,
+    "access": "private",
+    "receiptSha256": "8f6c66e9cef732fd0397a914912da362419c11216193804c3bccb16ff554e784"
+  },
+  "nativeImportVerification": {
+    "status": "passed",
+    "projectId": "dry-pine-48288359",
+    "sourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+    "checkedNodes": 139458,
+    "checkedReferenceEdges": 374950,
+    "checkedReferences": 5255,
+    "actualPrivateReads": [
+      {
+        "label": "3KTM2",
+        "revisionId": "66656801-195e-5630-8e77-aeafbb3afcb8",
+        "allCanonicalFieldsEqual": true,
+        "recordedKind": "taxon"
+      },
+      {
+        "label": "6G5JP",
+        "revisionId": "b760ce3e-a886-5ee8-8b99-a745a843cb21",
+        "allCanonicalFieldsEqual": true,
+        "recordedKind": "taxon"
+      },
+      {
+        "label": "8GNQF",
+        "revisionId": "ea0c9b0c-908a-5dd0-a87d-9b69caed77c2",
+        "allCanonicalFieldsEqual": true,
+        "recordedKind": "taxon"
+      },
+      {
+        "label": "HY5",
+        "revisionId": "34d6c032-0080-5931-856a-b6cabb25f145",
+        "allCanonicalFieldsEqual": true,
+        "recordedKind": "taxon"
+      },
+      {
+        "label": "N6S2",
+        "revisionId": "e21dbc48-9412-5148-956d-633dbd33833d",
+        "allCanonicalFieldsEqual": true,
+        "recordedKind": "taxon"
+      },
+      {
+        "label": "kind-absent-guide",
+        "revisionId": "1f7352f6-3f6c-5dc9-a1ee-1b23217ac566",
+        "allCanonicalFieldsEqual": true,
+        "recordedKind": null
+      }
+    ],
+    "productionCutover": false,
+    "databaseBytes": "857300992"
+  },
+  "postFinalSchemaPrivateReads": {
+    "status": "passed",
+    "sourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+    "layer": "native PostgreSQL -> private Blob -> exact original Git canonical fields after final schema",
+    "checks": [
+      {
+        "label": "3KTM2",
+        "gitSourceFieldsEqual": true
+      },
+      {
+        "label": "6G5JP",
+        "gitSourceFieldsEqual": true
+      },
+      {
+        "label": "8GNQF",
+        "gitSourceFieldsEqual": true
+      },
+      {
+        "label": "HY5",
+        "gitSourceFieldsEqual": true
+      },
+      {
+        "label": "N6S2",
+        "gitSourceFieldsEqual": true
+      },
+      {
+        "label": "kind-absent-guide",
+        "gitSourceFieldsEqual": true
+      }
+    ]
+  },
+  "nativeConstraints": {
+    "status": "passed",
+    "projectId": "dry-pine-48288359",
+    "layer": "native PostgreSQL constraints; all synthetic rows rolled back",
+    "checks": [
+      {
+        "check": "source release uniqueness",
+        "passed": true,
+        "sqlState": "23505"
+      },
+      {
+        "check": "unknown source checklist rejected",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "parent cannot cross source releases",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "revisions are immutable",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "missing aggregate keys rejected",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "unregistered bibliography dependency rejected",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "external payload requires a registered object",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "identical body supports a distinct revision for changed citation metadata",
+        "passed": true
+      }
+    ],
+    "productionCutover": false
+  },
+  "taxonomyVerification": {
+    "status": "passed",
+    "projectId": "dry-pine-48288359",
+    "sourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+    "sourceRelease": "COL26.8",
+    "manifestSha256": "8bee38bd7b937bb0040d5d2aeade08c02ab2b0044314ffe2641ba482a8a7a151",
+    "rowsStreamed": 2429092,
+    "shardsVerified": 256,
+    "productionCutover": false,
+    "databaseBytes": 846471168,
+    "counts": {
+      "nodes": 2429092,
+      "roots": 4,
+      "edges": 2429088,
+      "species": 2183133
+    },
+    "actualSampleQueries": 9
+  },
+  "nativeFinalState": {
+    "status": "passed",
+    "projectId": "dry-pine-48288359",
+    "counts": {
+      "nodes": 139458,
+      "revisions": 139458,
+      "references_count": 5255,
+      "reference_edges": 374950,
+      "taxonomy_nodes": 2429092,
+      "source_checklists": 160,
+      "artifacts": 1572,
+      "source_snapshots": 1011,
+      "public_channels": 0,
+      "public_release_items": 0,
+      "database_bytes": "837009408"
+    },
+    "migrations": [
+      {
+        "version": "0001_core",
+        "sha256": "a846c54679fe8bcc771b9d572e537f193bf1f70abdb27622b97ea8d83d1f2d4e"
+      },
+      {
+        "version": "0002_import_provenance",
+        "sha256": "f2f634788c2475d8955f247d3a171fd5336fe79cc0b9ca2c1483cfe9e4e19237"
+      },
+      {
+        "version": "0003_reference_import_keys",
+        "sha256": "272fa6cfe6f0e704b4e1c17b6000373ce2a1cd7c94b310fd479c4d6ab9b07eec"
+      },
+      {
+        "version": "0004_recorded_kind_optional",
+        "sha256": "d61d7a6e9e37f468fab4d2f7542d8448c0b60acc454a52de4239996e518d3454"
+      },
+      {
+        "version": "0005_external_revision_payloads",
+        "sha256": "631a3eb1b2f5e3dc66317c5ea275ab6be38f335786efd3646738e506c24f6a85"
+      },
+      {
+        "version": "0006_compact_tree_index",
+        "sha256": "aa4cd819656f8659260958f9835d632424bd51658ef3bc46572b12105fcdbd7a"
+      },
+      {
+        "version": "0007_compact_reference_edges",
+        "sha256": "b72f566f4cee7d374435501a97fe6b359e522dfaf22588f36114f772e5508066"
+      },
+      {
+        "version": "0008_revision_identity_and_payload_reuse",
+        "sha256": "7dfb07743acf5c9810b683f16f90f9679ad174d5b9664500f678109c98ab489a"
+      }
+    ],
+    "recordedAt": "2026-10-20T14:51:12.110Z",
+    "productionCutover": false
+  },
+  "capacity": {
+    "provisionedPlan": "free_v3",
+    "planUpgradedByAgent": false,
+    "databaseStopBytes": 891289600,
+    "objectPlanStopBytes": 943718400,
+    "databaseBytes": 837009408,
+    "futureSourceReleaseOrBranchGrowthRequiresNewCapacityCheck": true
+  },
+  "authoringMode": "Human and AI draft; human reviews sources/differences in the future web authoring UI and approves exact candidate hash before publication.",
+  "applicationStatus": {
+    "webReviewUI": "not-implemented",
+    "publicV2Api": "not-enabled",
+    "productionCutover": false,
+    "currentFrontendDataAuthority": "unchanged"
+  },
+  "validationLimits": "Native PostgreSQL, complete object byte readback, exact canonical field and dependency verification. No claim of browser authoring acceptance, native-app acceptance, or a new production deployment.",
+  "scriptSha256AtFinalization": {
+    "database/client.mjs": "597b4362fd83dc81e21f66885a4e862c3fcaf8115d8b3c67213f87219eefa517",
+    "database/export.mjs": "4bbfc1852c03baf599c7b312d12025afdcf1d0acc67fc9d2ace327dfd305cfa1",
+    "database/import-taxonomy.mjs": "91ed078baed4b5c783e20418d4cbde49c73dd6e99d983717017e59510e26cadb",
+    "database/import.mjs": "1c63907c1f15f40b8a2cac2e6efabb84a2368016970b1ca9bf64a97e299cd831",
+    "database/inspect.mjs": "7a828ff8086478b795ea79a7a24323a1c435812b14d4da1639498f204ba8e19b",
+    "database/migrate.mjs": "f3b0a80424ae02ea8d5c7ac007d55b277db5cf768c501d6e4b31a1541077c6c2",
+    "database/model.mjs": "db3b1bd0098e2511b09cc5b7bc57d85519f6fb194999ecb2e8d0cf9927ee2233",
+    "database/read-revision.mjs": "9fc98be6a00f555707d3df8a0a79331d8c3daf324b2e5a5f9c85dff92d93db31",
+    "database/rebuild-unpublished-import.mjs": "ac97abca60ca4f8e513b26b48624cd2cb61feb12b4e6f0d4664fdf86b49b3985",
+    "database/upload.mjs": "0c55fb961d7934dbc92c09c5f4daa16e10855e311ebf50f79207765604ac6652",
+    "database/verify-import.mjs": "41de6531aa21e85f84b6613af5ce86a6cbbed5f3f43335278b63cc123e1227e4",
+    "database/verify-native.mjs": "43649eb403b7dfb642c590cbc76d51d75e79d0dd5e91051f74a8eb70e7526a11"
+  },
+  "codeScope": "Versioned schema and operator export/import/upload/read/verification tools; application authoring UI is the next implementation phase."
+}
