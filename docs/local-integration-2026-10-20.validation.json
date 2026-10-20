@@ -1,0 +1,924 @@
+{
+  "unitTests": {
+    "passed": 583,
+    "skipped": 1,
+    "failed": 0
+  },
+  "typecheck": "passed",
+  "focusedEslint": "passed",
+  "node22Pipeline": {
+    "status": "passed",
+    "startedAt": "2026-10-20T12:54:07.879441+00:00",
+    "runnerPid": 49396,
+    "stages": [
+      {
+        "stage": "content",
+        "script": ".git/projection-diagnostic-20261020.mjs",
+        "status": "passed",
+        "startedAt": "2026-10-20T12:54:07.879550+00:00",
+        "pid": 33984,
+        "exitCode": 0,
+        "elapsedSeconds": 2945.9,
+        "finishedAt": "2026-10-20T13:43:13.782865+00:00"
+      },
+      {
+        "stage": "registry",
+        "script": "scripts/build-entity-registry.mjs",
+        "status": "passed",
+        "startedAt": "2026-10-20T13:43:13.785140+00:00",
+        "pid": 60100,
+        "exitCode": 0,
+        "elapsedSeconds": 88.58,
+        "finishedAt": "2026-10-20T13:44:42.361593+00:00"
+      },
+      {
+        "stage": "species-queue",
+        "script": "scripts/build-species-evidence-queue.mjs",
+        "status": "passed",
+        "startedAt": "2026-10-20T13:44:42.361844+00:00",
+        "pid": 62652,
+        "exitCode": 0,
+        "elapsedSeconds": 150.75,
+        "finishedAt": "2026-10-20T13:47:13.111642+00:00"
+      },
+      {
+        "stage": "manifest",
+        "script": "scripts/build-manifest.mjs",
+        "status": "passed",
+        "startedAt": "2026-10-20T13:47:13.114405+00:00",
+        "pid": 60848,
+        "exitCode": 0,
+        "elapsedSeconds": 269.09,
+        "finishedAt": "2026-10-20T13:51:42.200898+00:00"
+      },
+      {
+        "stage": "registry-check",
+        "script": "scripts/check-entity-registry.mjs",
+        "status": "passed",
+        "startedAt": "2026-10-20T13:51:42.201367+00:00",
+        "pid": 16116,
+        "exitCode": 0,
+        "elapsedSeconds": 80.75,
+        "finishedAt": "2026-10-20T13:53:02.955679+00:00"
+      },
+      {
+        "stage": "data-validate",
+        "script": "scripts/validate-data.mjs",
+        "status": "passed",
+        "startedAt": "2026-10-20T13:53:02.956038+00:00",
+        "pid": 59152,
+        "exitCode": 0,
+        "elapsedSeconds": 12.0,
+        "finishedAt": "2026-10-20T13:53:14.956502+00:00"
+      }
+    ],
+    "finishedAt": "2026-10-20T13:53:14.956798+00:00"
+  },
+  "actualCanonicalPostapply": {
+    "mode": "live",
+    "repository": "D:\\repo\\evo",
+    "packet": "D:\\repo\\evo-chordata-20261014\\integration\\takeover-luna-wave94-five-partials-final-ready",
+    "guardExpectedHead": "539c81c5292394ebb6cb19bb69d185e19dd0b516",
+    "actualHead": "bfbc436a9a18215c065ec788e694250251884ff3",
+    "files": [
+      {
+        "path": "content/nodes/COL%3AN6S2/node.yaml",
+        "actualSha256": "23f799ff677cf1a61a7aeba43bacd6225f951a14489b1c5b30f79324c7573a30",
+        "before": "ABSENT",
+        "expectedAfterSha256": "23f799ff677cf1a61a7aeba43bacd6225f951a14489b1c5b30f79324c7573a30"
+      },
+      {
+        "path": "content/nodes/COL%3AN6S2/evidence.yaml",
+        "actualSha256": "0fa006ca7abd0b176114faf1b419865d94a722e8791221cdf1b582ffda2698b7",
+        "before": "ABSENT",
+        "expectedAfterSha256": "0fa006ca7abd0b176114faf1b419865d94a722e8791221cdf1b582ffda2698b7"
+      },
+      {
+        "path": "content/nodes/COL%3AN6S2/page.en.md",
+        "actualSha256": "f82594723e79ee17bc5cf0fce40610d3ca71709db613c3740bd51efac02130b9",
+        "before": "ABSENT",
+        "expectedAfterSha256": "f82594723e79ee17bc5cf0fce40610d3ca71709db613c3740bd51efac02130b9"
+      },
+      {
+        "path": "content/nodes/COL%3AN6S2/page.zh.md",
+        "actualSha256": "192293b603cc0d27e2e54dc70d0ba5c4f8cd650cf90b9e2fc2d8cd6ae7f0cdb7",
+        "before": "ABSENT",
+        "expectedAfterSha256": "192293b603cc0d27e2e54dc70d0ba5c4f8cd650cf90b9e2fc2d8cd6ae7f0cdb7"
+      },
+      {
+        "path": "content/nodes/COL%3A8GNQF/node.yaml",
+        "actualSha256": "b5d0bc02989402beade4a2792cc2a565d9ed3b9ef06b75c1a6f9dd391310b3bb",
+        "before": "d7c17de321111867a20f67db8cb55342bfe1adbe71cd13cd52c88b4407b0ddcf",
+        "expectedAfterSha256": "b5d0bc02989402beade4a2792cc2a565d9ed3b9ef06b75c1a6f9dd391310b3bb"
+      },
+      {
+        "path": "content/nodes/COL%3A8GNQF/evidence.yaml",
+        "actualSha256": "dfd2a6f5d22ce252bc6a7200576b53801b6ec4df9eff4760d23d347ed822d377",
+        "before": "b8060884c9109b8dbe81918a7458359a2567e52c94ad526e2b39bbf14dde06d6",
+        "expectedAfterSha256": "dfd2a6f5d22ce252bc6a7200576b53801b6ec4df9eff4760d23d347ed822d377"
+      },
+      {
+        "path": "content/nodes/COL%3A8GNQF/page.en.md",
+        "actualSha256": "a1691dc2700736d8448de179c954a647cd5abf8921d9e231b04b6c22e9dba12e",
+        "before": "8adfc1949ede8a666b891ec9d1406308e82e0d88066693f735be6cd7ab7f60a2",
+        "expectedAfterSha256": "a1691dc2700736d8448de179c954a647cd5abf8921d9e231b04b6c22e9dba12e"
+      },
+      {
+        "path": "content/nodes/COL%3A8GNQF/page.zh.md",
+        "actualSha256": "464a8201a78d87da00a0553c903d09a33b420a3f307d6b479ca41842803f3b85",
+        "before": "21cefa82a9de6cc5bd897021c1f41a2b781f3a66668c8c0dab762c0b16346392",
+        "expectedAfterSha256": "464a8201a78d87da00a0553c903d09a33b420a3f307d6b479ca41842803f3b85"
+      },
+      {
+        "path": "content/nodes/COL%3AHY5/node.yaml",
+        "actualSha256": "1756b8ad734416194656cccd7e6ee719ebb6a26f528512b4436b06f83fb85a0d",
+        "before": "8b151384337885e1d71f30437e45d2e7332a065044bb2fcfee37d513fcf340e0",
+        "expectedAfterSha256": "1756b8ad734416194656cccd7e6ee719ebb6a26f528512b4436b06f83fb85a0d"
+      },
+      {
+        "path": "content/nodes/COL%3AHY5/evidence.yaml",
+        "actualSha256": "7357c5181af1827494a9f27cb6482d59ec8f8e0a4dd5d072e828bbeed41e5015",
+        "before": "b690e5c614edf3b0aa73bff553fb111c02f0df964585c1bee10e95228f02cbd5",
+        "expectedAfterSha256": "7357c5181af1827494a9f27cb6482d59ec8f8e0a4dd5d072e828bbeed41e5015"
+      },
+      {
+        "path": "content/nodes/COL%3AHY5/page.en.md",
+        "actualSha256": "3cb11020d66fa9cd3b23cf82c5b04700ba8ae77e0a85c5c9ab867d764504b23d",
+        "before": "6abe942d81072f4a12a2099a30b098105e6b3a52056e90ad813605bfc1a0aa28",
+        "expectedAfterSha256": "3cb11020d66fa9cd3b23cf82c5b04700ba8ae77e0a85c5c9ab867d764504b23d"
+      },
+      {
+        "path": "content/nodes/COL%3AHY5/page.zh.md",
+        "actualSha256": "91e0c745eaad041e4b768becd36e02f71574055b9deb9a3ee8213e01bec452f9",
+        "before": "cd287ee02cbe8f17e97c5e57b2e8b5899f37e267c6960f8f41e1db02470d06b2",
+        "expectedAfterSha256": "91e0c745eaad041e4b768becd36e02f71574055b9deb9a3ee8213e01bec452f9"
+      },
+      {
+        "path": "content/nodes/COL%3A3KTM2/node.yaml",
+        "actualSha256": "0ae0717a218bfc5388d642124be7f4e2d7c58c2cde1f3e897a1a688400e26dd1",
+        "before": "ABSENT",
+        "expectedAfterSha256": "0ae0717a218bfc5388d642124be7f4e2d7c58c2cde1f3e897a1a688400e26dd1"
+      },
+      {
+        "path": "content/nodes/COL%3A3KTM2/evidence.yaml",
+        "actualSha256": "3fa3a0059aa2a5ec039fa079e17df8b682b251b24d2f25a0087b603d6f49c7c4",
+        "before": "ABSENT",
+        "expectedAfterSha256": "3fa3a0059aa2a5ec039fa079e17df8b682b251b24d2f25a0087b603d6f49c7c4"
+      },
+      {
+        "path": "content/nodes/COL%3A3KTM2/page.en.md",
+        "actualSha256": "638f729ff9bc9563169486338ddc76e2971c9dd1b14609202542645796d866bf",
+        "before": "ABSENT",
+        "expectedAfterSha256": "638f729ff9bc9563169486338ddc76e2971c9dd1b14609202542645796d866bf"
+      },
+      {
+        "path": "content/nodes/COL%3A3KTM2/page.zh.md",
+        "actualSha256": "b1361daff7d23f7026e63fb1e91aef9b062e8580d129939c13cdb4c5b14e547a",
+        "before": "ABSENT",
+        "expectedAfterSha256": "b1361daff7d23f7026e63fb1e91aef9b062e8580d129939c13cdb4c5b14e547a"
+      },
+      {
+        "path": "content/nodes/COL%3A6G5JP/node.yaml",
+        "actualSha256": "cea0a5983c7849355625aee809f7feb43fcd1b21ca867d30d575d1b65981578d",
+        "before": "ABSENT",
+        "expectedAfterSha256": "cea0a5983c7849355625aee809f7feb43fcd1b21ca867d30d575d1b65981578d"
+      },
+      {
+        "path": "content/nodes/COL%3A6G5JP/evidence.yaml",
+        "actualSha256": "4458c69658890db19dfc720905b57a8ef237de226b0ac3f503e67a78c81285a2",
+        "before": "ABSENT",
+        "expectedAfterSha256": "4458c69658890db19dfc720905b57a8ef237de226b0ac3f503e67a78c81285a2"
+      },
+      {
+        "path": "content/nodes/COL%3A6G5JP/page.en.md",
+        "actualSha256": "90c9671e100427a9854f9d0295620a4d79621fdd38709737837f65f2738f299d",
+        "before": "ABSENT",
+        "expectedAfterSha256": "90c9671e100427a9854f9d0295620a4d79621fdd38709737837f65f2738f299d"
+      },
+      {
+        "path": "content/nodes/COL%3A6G5JP/page.zh.md",
+        "actualSha256": "1f9c6873f62bcd75b218977c7af43e2dd719f09661f793b0cc9401cfccad1178",
+        "before": "ABSENT",
+        "expectedAfterSha256": "1f9c6873f62bcd75b218977c7af43e2dd719f09661f793b0cc9401cfccad1178"
+      },
+      {
+        "path": "content/references.yaml",
+        "actualSha256": "c8f301d5fab6e17cd8ed120f4b71e8b11db54c48d41291d5f61a01f31f6bf4f3",
+        "before": "b184bbc64989fd749d60001d5a8a6ceb4208635ab28d2564bb8962e41b3278db",
+        "expectedAfterSha256": "c8f301d5fab6e17cd8ed120f4b71e8b11db54c48d41291d5f61a01f31f6bf4f3"
+      },
+      {
+        "path": "content/projection-map.yaml",
+        "actualSha256": "8045b6ddea423af49d516c6aba4f65827a231d67dcf13170fff55adde495f93a",
+        "before": "270e6f6e3c5aea5a253374a1d0fd0c4019e0b76c912206cf5c72dcceed442472",
+        "expectedAfterSha256": "8045b6ddea423af49d516c6aba4f65827a231d67dcf13170fff55adde495f93a"
+      }
+    ],
+    "findings": [
+      {
+        "check": "actual after-hashes for all 22 guarded paths",
+        "pass": true,
+        "detail": {
+          "count": 22
+        }
+      },
+      {
+        "check": "production reference schema unchanged",
+        "pass": true,
+        "detail": {
+          "sha256": "72b892a459cbba24de95b1be6541bbe3bc5deef7f845702699f49c1063dfc38d"
+        }
+      },
+      {
+        "check": "Ajv2020 strict validates all 5,255 reference rows",
+        "pass": true,
+        "detail": {
+          "rows": 5255,
+          "invalidCount": 0
+        }
+      },
+      {
+        "check": "all prior 5,247 reference values and order preserved",
+        "pass": true,
+        "detail": {
+          "baselineRows": 5247,
+          "actualRows": 5255
+        }
+      },
+      {
+        "check": "eight approved reference rows appended in exact order",
+        "pass": true,
+        "detail": [
+          "ref-ebd36ad3-5cfd-5adb-9383-d550317aa225",
+          "ref-e3c0463f-16c4-5367-8cc4-9a706693199f",
+          "wave9-reptile-db-cyclocoridae-query",
+          "wave9-weinell-brown-2018",
+          "wave9-wegener-2013-xenotyphlopidae",
+          "wave9-reptile-db-xenotyphlops-grandidieri",
+          "herre-1923-notes-on-philippine-sharks-i",
+          "peters-1876-epigonichthys-cultellus"
+        ]
+      },
+      {
+        "check": "historical 5,229 rows retain exact deep values/order (including ISO dates and colon pages)",
+        "pass": true,
+        "detail": {
+          "historicalRows": 5229,
+          "exactOrderedPrefix": true
+        }
+      },
+      {
+        "check": "projection map preserves 45,064 rows and appends exact 3",
+        "pass": true,
+        "detail": {
+          "baseline": 45064,
+          "actual": 45067,
+          "additions": [
+            {
+              "contentRecord": {
+                "path": "content/nodes/COL%3AN6S2",
+                "key": "catalogue-profile",
+                "inject": {
+                  "colId": "N6S2"
+                }
+              }
+            },
+            {
+              "contentRecord": {
+                "path": "content/nodes/COL%3A3KTM2",
+                "key": "catalogue-profile",
+                "inject": {
+                  "colId": "3KTM2"
+                }
+              }
+            },
+            {
+              "contentRecord": {
+                "path": "content/nodes/COL%3A6G5JP",
+                "key": "catalogue-profile",
+                "inject": {
+                  "colId": "6G5JP"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "check": "J6PS source/canonical/reference/descriptor not added; private held is not published",
+        "pass": true,
+        "detail": {
+          "canonicalSourcePresent": false,
+          "referenceIdPresent": false,
+          "descriptorAppendHasJ6PS": false,
+          "privateHeldNotCountedAsPublished": true
+        }
+      },
+      {
+        "check": "actual readReferences returns exact 5,255 rows",
+        "pass": true,
+        "detail": {
+          "rows": 5255
+        }
+      },
+      {
+        "check": "N6S2 actual readNodeContent and source-reference hydration",
+        "pass": true,
+        "detail": {
+          "identity": "Branchiostoma lanceolatum (Pallas, 1774)",
+          "records": [
+            "catalogue-profile"
+          ],
+          "bindings": [
+            {
+              "sourceId": "adriatic-study",
+              "referenceId": "ref-ebd36ad3-5cfd-5adb-9383-d550317aa225",
+              "hydrated": true
+            },
+            {
+              "sourceId": "population-genetics",
+              "referenceId": "ref-e3c0463f-16c4-5367-8cc4-9a706693199f",
+              "hydrated": true
+            }
+          ]
+        }
+      },
+      {
+        "check": "8GNQF actual readNodeContent and source-reference hydration",
+        "pass": true,
+        "detail": {
+          "identity": "Cyclocoridae",
+          "records": [
+            "catalogue-profile"
+          ],
+          "bindings": [
+            {
+              "sourceId": "taxonomy",
+              "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+              "hydrated": true
+            },
+            {
+              "sourceId": "reptTraitsLimitedV12",
+              "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+              "hydrated": true
+            },
+            {
+              "sourceId": "reptTraitsProtocol2024",
+              "referenceId": "ref-d075eefb-2767-428c-ae91-9d089b535c8d",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-row-data",
+              "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-pinned-col",
+              "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-membership-query",
+              "referenceId": "wave9-reptile-db-cyclocoridae-query",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-historical-classification",
+              "referenceId": "wave9-weinell-brown-2018",
+              "hydrated": true
+            }
+          ]
+        }
+      },
+      {
+        "check": "HY5 actual readNodeContent and source-reference hydration",
+        "pass": true,
+        "detail": {
+          "identity": "Xenotyphlopidae",
+          "records": [
+            "catalogue-profile"
+          ],
+          "bindings": [
+            {
+              "sourceId": "taxonomy",
+              "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+              "hydrated": true
+            },
+            {
+              "sourceId": "reptTraitsLimitedV12",
+              "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+              "hydrated": true
+            },
+            {
+              "sourceId": "reptTraitsProtocol2024",
+              "referenceId": "ref-d075eefb-2767-428c-ae91-9d089b535c8d",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-row-data",
+              "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-pinned-col",
+              "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-historical-treatment",
+              "referenceId": "wave9-wegener-2013-xenotyphlopidae",
+              "hydrated": true
+            },
+            {
+              "sourceId": "wave9-current-corroboration",
+              "referenceId": "wave9-reptile-db-xenotyphlops-grandidieri",
+              "hydrated": true
+            }
+          ]
+        }
+      },
+      {
+        "check": "3KTM2 actual readNodeContent and source-reference hydration",
+        "pass": true,
+        "detail": {
+          "identity": "Hemitriakis leucoperiptera Herre, 1923",
+          "records": [
+            "catalogue-profile"
+          ],
+          "bindings": [
+            {
+              "sourceId": "herre-original-description",
+              "referenceId": "herre-1923-notes-on-philippine-sharks-i",
+              "hydrated": true
+            }
+          ]
+        }
+      },
+      {
+        "check": "6G5JP actual readNodeContent and source-reference hydration",
+        "pass": true,
+        "detail": {
+          "identity": "Epigonichthys cultellus",
+          "records": [
+            "catalogue-profile"
+          ],
+          "bindings": [
+            {
+              "sourceId": "peters-original-description",
+              "referenceId": "peters-1876-epigonichthys-cultellus",
+              "hydrated": true
+            }
+          ]
+        }
+      },
+      {
+        "check": "partial=5/complete=0; stored unknowns remain explicit (not promoted)",
+        "pass": true,
+        "detail": {
+          "partial": 5,
+          "complete": 0,
+          "explicitUnknownValuesByTarget": {
+            "N6S2": 0,
+            "8GNQF": 0,
+            "HY5": 0,
+            "3KTM2": 1,
+            "6G5JP": 3
+          },
+          "policy": "verify stored unknowns; do not infer or promote completeness"
+        }
+      },
+      {
+        "check": "Main18 18 nodes / 72 hashes unchanged",
+        "pass": true,
+        "detail": {
+          "nodes": 18,
+          "hashes": 72,
+          "failures": []
+        }
+      },
+      {
+        "check": "HEAD observed after application, not pinned to expected pre-apply HEAD",
+        "pass": true,
+        "detail": {
+          "expectedBefore": "539c81c5292394ebb6cb19bb69d185e19dd0b516",
+          "actualHead": "bfbc436a9a18215c065ec788e694250251884ff3"
+        }
+      }
+    ],
+    "nodeResults": [
+      {
+        "id": "N6S2",
+        "physicalKey": "COL%3AN6S2",
+        "readNodeContent": "PASS",
+        "identity": "Branchiostoma lanceolatum (Pallas, 1774)",
+        "bindings": [
+          {
+            "sourceId": "adriatic-study",
+            "referenceId": "ref-ebd36ad3-5cfd-5adb-9383-d550317aa225",
+            "hydrated": true
+          },
+          {
+            "sourceId": "population-genetics",
+            "referenceId": "ref-e3c0463f-16c4-5367-8cc4-9a706693199f",
+            "hydrated": true
+          }
+        ]
+      },
+      {
+        "id": "8GNQF",
+        "physicalKey": "COL%3A8GNQF",
+        "readNodeContent": "PASS",
+        "identity": "Cyclocoridae",
+        "bindings": [
+          {
+            "sourceId": "taxonomy",
+            "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+            "hydrated": true
+          },
+          {
+            "sourceId": "reptTraitsLimitedV12",
+            "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+            "hydrated": true
+          },
+          {
+            "sourceId": "reptTraitsProtocol2024",
+            "referenceId": "ref-d075eefb-2767-428c-ae91-9d089b535c8d",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-row-data",
+            "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-pinned-col",
+            "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-membership-query",
+            "referenceId": "wave9-reptile-db-cyclocoridae-query",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-historical-classification",
+            "referenceId": "wave9-weinell-brown-2018",
+            "hydrated": true
+          }
+        ]
+      },
+      {
+        "id": "HY5",
+        "physicalKey": "COL%3AHY5",
+        "readNodeContent": "PASS",
+        "identity": "Xenotyphlopidae",
+        "bindings": [
+          {
+            "sourceId": "taxonomy",
+            "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+            "hydrated": true
+          },
+          {
+            "sourceId": "reptTraitsLimitedV12",
+            "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+            "hydrated": true
+          },
+          {
+            "sourceId": "reptTraitsProtocol2024",
+            "referenceId": "ref-d075eefb-2767-428c-ae91-9d089b535c8d",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-row-data",
+            "referenceId": "ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-pinned-col",
+            "referenceId": "ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-historical-treatment",
+            "referenceId": "wave9-wegener-2013-xenotyphlopidae",
+            "hydrated": true
+          },
+          {
+            "sourceId": "wave9-current-corroboration",
+            "referenceId": "wave9-reptile-db-xenotyphlops-grandidieri",
+            "hydrated": true
+          }
+        ]
+      },
+      {
+        "id": "3KTM2",
+        "physicalKey": "COL%3A3KTM2",
+        "readNodeContent": "PASS",
+        "identity": "Hemitriakis leucoperiptera Herre, 1923",
+        "bindings": [
+          {
+            "sourceId": "herre-original-description",
+            "referenceId": "herre-1923-notes-on-philippine-sharks-i",
+            "hydrated": true
+          }
+        ]
+      },
+      {
+        "id": "6G5JP",
+        "physicalKey": "COL%3A6G5JP",
+        "readNodeContent": "PASS",
+        "identity": "Epigonichthys cultellus",
+        "bindings": [
+          {
+            "sourceId": "peters-original-description",
+            "referenceId": "peters-1876-epigonichthys-cultellus",
+            "hydrated": true
+          }
+        ]
+      }
+    ],
+    "state": "PASS_POSTAPPLY",
+    "writeBoundary": "Live mode is read-only; fixture mode writes only to disposable OS temp. Only the requested receipt is retained. No apply, commit, generated output, producer, build, or installation."
+  },
+  "minimalSharedAppend": {
+    "content/references.yaml": {
+      "beforeSha256": "b184bbc64989fd749d60001d5a8a6ceb4208635ab28d2564bb8962e41b3278db",
+      "afterSha256": "e1afa6c8dc35ad12337a40d2913bdb5e758c97157919f5cd85fc534abda5397d",
+      "addedRows": 8,
+      "oldBytesPreservedAsPrefixAndSuffix": true,
+      "approvedSemanticsEqual": true
+    },
+    "content/projection-map.yaml": {
+      "beforeSha256": "270e6f6e3c5aea5a253374a1d0fd0c4019e0b76c912206cf5c72dcceed442472",
+      "afterSha256": "8045b6ddea423af49d516c6aba4f65827a231d67dcf13170fff55adde495f93a",
+      "addedRows": 3,
+      "oldBytesPreservedAsPrefixAndSuffix": true,
+      "approvedSemanticsEqual": true
+    }
+  },
+  "looseScienceReconciliation": {
+    "agathosma": [
+      {
+        "colId": "5TQVG",
+        "exactScientificClaims": 4,
+        "status": "already-in-canonical"
+      },
+      {
+        "colId": "5TQVN",
+        "exactScientificClaims": 4,
+        "status": "already-in-canonical"
+      },
+      {
+        "colId": "5TQVQ",
+        "exactScientificClaims": 4,
+        "status": "already-in-canonical"
+      },
+      {
+        "colId": "5TQVR",
+        "exactScientificClaims": 4,
+        "status": "already-in-canonical"
+      },
+      {
+        "colId": "5TQVS",
+        "exactScientificClaims": 4,
+        "status": "already-in-canonical"
+      }
+    ],
+    "birdDrafts": [
+      {
+        "colId": "54HRJ",
+        "name": "Taeniopygia guttata (Vieillot, 1817)",
+        "canonicalPresent": true,
+        "sourceIds": [
+          {
+            "id": "warren2010",
+            "inCanonical": true
+          },
+          {
+            "id": "taxonomy",
+            "inCanonical": true
+          }
+        ]
+      },
+      {
+        "colId": "3HSM2",
+        "name": "Gymnogyps californianus (Shaw, 1797)",
+        "canonicalPresent": true,
+        "sourceIds": [
+          {
+            "id": "usfws2025",
+            "inCanonical": true
+          },
+          {
+            "id": "taxonomy",
+            "inCanonical": true
+          }
+        ]
+      }
+    ]
+  },
+  "finalCommandReceipts": {
+    "status": "passed",
+    "runtime": "v22.23.3",
+    "checks": [
+      {
+        "check": "unit",
+        "command": [
+          "D:\\repo\\evo\\.git\\tools\\node-v22.23.3\\node.exe",
+          "--max-old-space-size=4096",
+          "node_modules/vitest/vitest.mjs",
+          "run",
+          "--config",
+          "vitest.config.ts",
+          "--reporter=json",
+          "--outputFile=.git/final-node22-tests-20261020.json"
+        ],
+        "exitCode": 0,
+        "startedAt": "2026-10-20T13:53:41.624774+00:00",
+        "finishedAt": "2026-10-20T13:54:56.225526+00:00"
+      },
+      {
+        "check": "typecheck",
+        "command": [
+          "D:\\repo\\evo\\.git\\tools\\node-v22.23.3\\node.exe",
+          "node_modules/typescript/bin/tsc",
+          "-b",
+          "--pretty",
+          "false"
+        ],
+        "exitCode": 0,
+        "startedAt": "2026-10-20T13:53:41.624912+00:00",
+        "finishedAt": "2026-10-20T13:54:05.644849+00:00"
+      },
+      {
+        "check": "eslint",
+        "command": [
+          "D:\\repo\\evo\\.git\\tools\\node-v22.23.3\\node.exe",
+          "node_modules/eslint/bin/eslint.js",
+          "src/components/reading/ReadingWindow.tsx",
+          "src/components/reading/ReadingWindow.keyboard.test.tsx",
+          "src/i18n/profileText.test.ts"
+        ],
+        "exitCode": 0,
+        "startedAt": "2026-10-20T13:53:41.625033+00:00",
+        "finishedAt": "2026-10-20T13:53:59.983126+00:00"
+      }
+    ]
+  },
+  "generatorRuntime": {
+    "version": "v22.23.3",
+    "binarySha256": "9c9245166b4a8e182e0b797da9c20136117ff24368eaff1fec8343a123c8db0e",
+    "productionGeneratorSha256": "b675c1093a413ef04ca0fa13b5d4a911287ff202e68df6877a6848e2aa114a6a",
+    "note": "Content generation used a private import-path-adjusted copy of the production generator with progress logging only; canonical node codec and all output logic are unchanged. Subsequent registry/data checks use the production scripts."
+  },
+  "generatedCorpusSummary": {
+    "schemaVersion": 1,
+    "contentDirectories": 139458,
+    "contentFiles": 476984,
+    "projectionFiles": 140
+  },
+  "frozenIdentityCorrection": {
+    "status": "PASS",
+    "authority": "Frozen COL26.8 / ChecklistBank dataset 316115",
+    "nodes": [
+      {
+        "colId": "N6S2",
+        "frozen": {
+          "parentId": "7NR65",
+          "id": "N6S2",
+          "scientificName": "Branchiostoma lanceolatum (Pallas, 1774)",
+          "authorship": "(Pallas, 1774)",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "1154",
+          "childCount": 0
+        },
+        "locator": {
+          "file": "hierarchy/nodes/id-a9.jsonl.gz",
+          "line": 3524,
+          "compressedSha256": "74e1b1664a3cae2c45c723c99842a79b4b1b4cccc83227ac4e476a03d593fc61"
+        },
+        "priorIdentitySourceDatasetId": "1154",
+        "priorProfileSourceDatasetId": "1154"
+      },
+      {
+        "colId": "8GNQF",
+        "frozen": {
+          "id": "8GNQF",
+          "parentId": "V7FVL",
+          "scientificName": "Cyclocoridae",
+          "authorship": null,
+          "rank": "family",
+          "status": "accepted",
+          "sourceDatasetId": "1008",
+          "childCount": 5
+        },
+        "locator": {
+          "file": "hierarchy/nodes/id-f4.jsonl.gz",
+          "line": 451,
+          "compressedSha256": "27c18b32553deab1efbef270fdc0d5625a5caf9ed64a0ccbea8dce420fa52207"
+        },
+        "priorIdentitySourceDatasetId": "1008",
+        "priorProfileSourceDatasetId": "1008"
+      },
+      {
+        "colId": "HY5",
+        "frozen": {
+          "id": "HY5",
+          "parentId": "V7DMF",
+          "scientificName": "Xenotyphlopidae",
+          "authorship": null,
+          "rank": "family",
+          "status": "accepted",
+          "sourceDatasetId": "1008",
+          "childCount": 1
+        },
+        "locator": {
+          "file": "hierarchy/nodes/id-0e.jsonl.gz",
+          "line": 877,
+          "compressedSha256": "44a6f474688c30722627d75cab3f9693f126ce5211002af653b03c874e1e923c"
+        },
+        "priorIdentitySourceDatasetId": "1008",
+        "priorProfileSourceDatasetId": "1008"
+      },
+      {
+        "colId": "3KTM2",
+        "frozen": {
+          "parentId": "KVDMP",
+          "id": "3KTM2",
+          "scientificName": "Hemitriakis leucoperiptera Herre, 1923",
+          "authorship": "Herre, 1923",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "1010",
+          "childCount": 0
+        },
+        "locator": {
+          "file": "hierarchy/nodes/id-0b.jsonl.gz",
+          "line": 9002,
+          "compressedSha256": "5739e6dedcc36cc17df82002bed7fae96a3acf3beca055d0e4f488b5f801c387"
+        },
+        "priorIdentitySourceDatasetId": "1010",
+        "priorProfileSourceDatasetId": "1010"
+      },
+      {
+        "colId": "6G5JP",
+        "frozen": {
+          "parentId": "7NYWT",
+          "id": "6G5JP",
+          "scientificName": "Epigonichthys cultellus Peters, 1877",
+          "authorship": "Peters, 1877",
+          "rank": "species",
+          "status": "accepted",
+          "sourceDatasetId": "1154",
+          "childCount": 0
+        },
+        "locator": {
+          "file": "hierarchy/nodes/id-55.jsonl.gz",
+          "line": 3599,
+          "compressedSha256": "3a0e42ee3f7b843bf1dd393cf07c8c184972396c5cfce82630426f771602a06f"
+        },
+        "priorIdentitySourceDatasetId": "2144",
+        "priorProfileSourceDatasetId": "2144"
+      }
+    ],
+    "files": [
+      {
+        "path": "content/nodes/COL%3A6G5JP/node.yaml",
+        "beforeSha256": "2abf2a1cd8fdccf53d21ff930b802a6b15d4446ea307ac9e2dc9789debaa8ee5",
+        "afterSha256": "cea0a5983c7849355625aee809f7feb43fcd1b21ca867d30d575d1b65981578d",
+        "before": "2144",
+        "after": "1154"
+      },
+      {
+        "path": "content/nodes/COL%3A6G5JP/evidence.yaml",
+        "beforeSha256": "8db5280e7c39f737649c43b037eb909cbac1623bd1ed31d5a3411fce1e427755",
+        "afterSha256": "4458c69658890db19dfc720905b57a8ef237de226b0ac3f503e67a78c81285a2",
+        "before": "2144",
+        "after": "1154"
+      }
+    ]
+  },
+  "referenceDateCorrection": {
+    "path": "content/references.yaml",
+    "referenceId": "peters-1876-epigonichthys-cultellus",
+    "beforeSha256": "e1afa6c8dc35ad12337a40d2913bdb5e758c97157919f5cd85fc534abda5397d",
+    "afterSha256": "c8f301d5fab6e17cd8ed120f4b71e8b11db54c48d41291d5f61a01f31f6bf4f3",
+    "changes": {
+      "removed": "dateStatus: unresolved-in-source-metadata (reserved for provenance-bearing imported leads)",
+      "added": {
+        "accessedAt": "2026-10-14",
+        "note": "Retain unresolved actual publication date; volume 1876 and COL authority 1877 remain distinct."
+      }
+    },
+    "evidence": ".git/accepted-source-evidence-20261020/peters/source-access.json",
+    "evidenceSha256": "4226dafedd32ad19a153fcb3071d34eb5e1585d7b7d8a62cf1d028afe82712ea"
+  },
+  "profileIdentityPreflight": {
+    "status": "PASS",
+    "matched": 45067,
+    "mismatches": [],
+    "unmatched": [],
+    "scope": "All generated profiles, with current canonical values for the five changed nodes; preflight only, not a substitute for the real species queue build."
+  }
+}

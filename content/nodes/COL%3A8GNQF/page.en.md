@@ -9,3 +9,11 @@ These descendant pages interpret only their own sourced fields. Inspect what eac
 ## Limits attached to these records {#s-7678c72add}
 This guide covers only this batch’s entries with one or more sourced focal traits, each interpreted within its own scope, and matching COL name and family. It is not an exhaustive descendant list. Maximum sizes are reported compiled records, not individual averages or identification thresholds. Turtle carapace length and snout–vent length in other groups are different measures. Consult sources and aggregation rules by field; historical one-row records do not resolve every taxonomic revision or population difference.
 
+
+
+## Five selected ReptTraits rows {#wave11-selected-rows}
+In ReptTraits v1-2 (archive v4), rows 3363, 3364, 5923, 5924 and 7901 are labelled Cyclocoridae and name *Cyclocorus lineatus*, *C. nuchalis*, *Hologerrhum dermali*, *H. philippinum* and *Myersophis alpestris*. The selected rows report Oriental region and oviparity; habitat entries are three `Forest`, one `Forest/Wetlands` and one `NA`. Their maximum-total-length (TL) entries are 650, 600, 420, 500 and 664 mm, respectively. These are compiled entries for these five selected taxa, not a family-wide summary or evidence of complete coverage.
+
+
+## What the row bridge does not establish {#wave11-bounded-context}
+The captured current Reptile Database Cyclocoridae query linked from pinned COL26.8 `8GNQF` lists these five species among eight. Weinell & Brown’s phylogeny-based classification (2018; online 2017) instead placed *Cyclocorus*, *Hologerrhum* and *Myersophis* in Lamprophiidae; the inspected evidence was the NLM abstract, not the full paper. This bounded membership bridge does not establish that historical and current family circumscriptions are identical. Do not generalize these rows to the family.

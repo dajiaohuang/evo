@@ -35,6 +35,31 @@ records:
             page: en
             section: s-f6528d3233
             part: body
+      - topic: selectedRows
+        sourceIds:
+          - wave9-row-data
+        text:
+          en:
+            page: en
+            section: wave11-selected-rows
+            part: body
+          zh:
+            page: zh
+            section: wave11-selected-rows
+            part: body
+      - topic: boundedTaxonomyContext
+        sourceIds:
+          - wave9-membership-query
+          - wave9-historical-classification
+        text:
+          en:
+            page: en
+            section: wave11-bounded-context
+            part: body
+          zh:
+            page: zh
+            section: wave11-bounded-context
+            part: body
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -65,7 +90,9 @@ records:
           - fieldCountDistribution
         metadataVariant: 0
         usage:
-          locator: ReptTraits v1-2; 7 authored records grouped under Cyclocoridae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          locator: ReptTraits v1-2; 7 authored records grouped under Cyclocoridae by
+            COL26.8 ancestry; per-species source rows preserved in source
+            archive.
           accessedAt: 2026-10-02
           licenseAssessment: CC-BY-4.0-attributed-data-summary
           scope:
@@ -105,12 +132,77 @@ records:
           - scope
         metadataVariant: 0
         usage:
-          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass
+            estimates); Usage Notes; workbook Trait definitions and Changes
+            sheets.
           accessedAt: 2026-10-02
           licenseAssessment: CC-BY-4.0-attributed-paraphrase
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
-            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence
+              between historical names and pinned COL26.8.
+      - id: wave9-row-data
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2.xlsx archive v4; Data and Sources of individual trait
+            val sheets; physical Excel rows 3363, 3364, 5923, 5924, 7901; exact
+            per-field source cells retained in r28 direct-workbook-proof.json.
+          accessedAt: 2026-10-14
+          licenseAssessment: CC BY 4.0 as recorded in archive v4; factual summary only
+          scope:
+            en: Only the named selected species rows and stated fields; not family-wide or
+              exhaustive.
+            zh: 仅涉及具名选定物种行及所述字段；不代表全科或完整覆盖。
+      - id: wave9-pinned-col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Cyclocoridae
+          url: https://www.checklistbank.org/dataset/316115/taxon/8GNQF
+          locator: Pinned accepted family identity only; this snapshot does not itself
+            define family membership.
+      - id: wave9-membership-query
+        referenceId: wave9-reptile-db-cyclocoridae-query
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - rights
+        usage:
+          locator: Captured complete higher-taxon result; all five named row taxa occur
+            among eight listed species.
+          rights: unknown; reuse licence not assessed
+      - id: wave9-historical-classification
+        referenceId: wave9-weinell-brown-2018
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - rights
+        usage:
+          locator: NLM abstract only; classification transfer statement. Full paper not
+            read.
+          rights: unknown; abstract reuse terms not assessed
     limitations:
       zh:
         page: zh

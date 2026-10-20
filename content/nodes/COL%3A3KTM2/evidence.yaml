@@ -1,0 +1,77 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Hemitriakis leucoperiptera Herre, 1923
+    rank: species
+    sourceDatasetId: "1010"
+    sections:
+      - topic: overview
+        title:
+          en:
+            page: en
+            section: type-material
+            part: title
+          zh:
+            page: zh
+            section: type-material
+            part: title
+        text:
+          en:
+            page: en
+            section: type-material
+            part: body
+          zh:
+            page: zh
+            section: type-material
+            part: body
+        sourceIds:
+          - herre-original-description
+    sources:
+      - id: herre-original-description
+        referenceId: herre-1923-notes-on-philippine-sharks-i
+        fields:
+          - id
+          - title
+          - authors
+          - url
+          - publishedAt
+          - pages
+          - locator
+          - scope
+          - version
+          - rightsAssessment
+          - sourceFileSha256
+          - ocrFileSha256
+        usage:
+          publishedAt: 1923-07
+          pages: 67–73
+          locator: "Printed pp. 71–73: binomen and sp. nov. heading p. 71;
+            type/sample/count/locality p. 72; description of young continues p.
+            73."
+          scope:
+            en: Herre’s original description of the nominal taxon and its stated specimens.
+              Reproductive statement applies to one described pregnant female
+              and its twelve contained young, not a population estimate.
+            zh: Herre 对该名义分类单元的原始描述及其所记标本。繁殖记载仅指一条所述孕雌鱼及其体内 12 尾幼鱼，不是种群估计。
+          version: Internet Archive digitized issue PDF; source bytes SHA-256
+            d3f8e056e6d71d166212b856353302a0109ae7cc5e113e1496a9412ac614fcca;
+            OCR transcript SHA-256
+            4f812839e209fdd42df8f13b9fe3adf774d2f5dda6cda6f11f21d05a8060e848.
+          rightsAssessment:
+            status: unknown
+            note: Item-level rights were not established. No licence is inferred from
+              publication age or archive availability; do not redistribute scan
+              or OCR.
+          sourceFileSha256: d3f8e056e6d71d166212b856353302a0109ae7cc5e113e1496a9412ac614fcca
+          ocrFileSha256: 4f812839e209fdd42df8f13b9fe3adf774d2f5dda6cda6f11f21d05a8060e848
+    summary:
+      en:
+        page: en
+        section: type-material
+        part: body
+      zh:
+        page: zh
+        section: type-material
+        part: body
+    summarySourceIds:
+      - herre-original-description

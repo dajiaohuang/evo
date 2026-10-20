@@ -1,0 +1,62 @@
+schemaVersion: 1
+identity:
+  kind: taxon
+  scientificName: Branchiostoma lanceolatum (Pallas, 1774)
+  displayName: Branchiostoma lanceolatum
+  rank: species
+  classification:
+    authority: Catalogue of Life
+    release: COL26.8
+    publishedAt: 2026-08-20
+    status: accepted
+    sourceDatasetId: "1154"
+    parentId: 7NR65
+    ancestorIds:
+      - N6S2
+      - 7NR65
+      - 7NG6D
+      - DR
+      - 7NF2Q
+      - CH2
+      - N
+      - CS5HF
+    sourceLocator:
+      file: data/catalogue-of-life/releases/2026-08-20/registry/hierarchy/nodes/id-a9.jsonl.gz
+      line: 3524
+    sourceRecords:
+      - descriptorId: itis-tunicata-cephalochordata-tsn-crosswalk
+        recordType: release-pinned-exact-nomenclatural-crosswalk
+        provider: Integrated Taxonomic Information System
+        source:
+          datasetId: itis-2026-08-26
+          exportDate: 2026-08-26
+          license: CC0-1.0
+          citationDoi: 10.5066/F7KH0KBK
+          canonicalDescriptorPath: data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-sidecar.json
+          canonicalDescriptorBytes: 7264
+          canonicalDescriptorSha256: 8a2b90173548e0ea9b6d8718f3628720e6e90c370d334962aa47c8710309323f
+        recordLocator:
+          file: data/catalogue-of-life/releases/2026-08-20/resource-packs/other-animals/itis-tunicata-cephalochordata-sidecar-0000.jsonl.gz
+          recordIndex: 2983
+        recordedFields:
+          - status
+          - colUsageId
+          - colScientificName
+          - colAuthorship
+          - exactMatchName
+          - currentName
+          - scopeRootUsageId
+          - scopeRootScientificName
+        recordedSourceIdentifiers:
+          scopeRootUsageId: 7NF2Q
+          status: accepted
+        availability: Name/source crosswalk; does not itself supply a biological narrative.
+relationships: []
+structure:
+  sections:
+    en:
+      - study-account
+      - study-preview
+    zh:
+      - study-account
+      - study-preview

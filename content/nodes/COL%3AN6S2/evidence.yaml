@@ -1,0 +1,74 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Branchiostoma lanceolatum
+    rank: species
+    sourceDatasetId: "1154"
+    name:
+      en: Branchiostoma lanceolatum
+      zh: Branchiostoma lanceolatum
+    sources:
+      - id: adriatic-study
+        referenceId: ref-ebd36ad3-5cfd-5adb-9383-d550317aa225
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - publishedAt
+          - license
+          - locator
+          - scope
+        usage:
+          locator: Abstract and main text section “Density of the amphioxus population and DNA barcoding” (32 North Adriatic sites, density); Discussion local seasonal-spawning observations; PMCID PMC11897935.
+          scope:
+            en: Density and seasonal observations in a North Adriatic population sampled at 32 sites.
+            zh: 北亚得里亚海 32 个采样地点的密度与季节观察。
+          version: PMCID PMC11897935 (publisher XML; exact 2024 article version)
+          publishedAt: 2024-06-17
+          license: CC BY-NC-ND 4.0
+      - id: population-genetics
+        referenceId: ref-e3c0463f-16c4-5367-8cc4-9a706693199f
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - publishedAt
+          - license
+          - locator
+          - scope
+        usage:
+          locator: "Results (sample collection) and Methods (sampling): 36 wild adults from Roscoff and Banyuls; 9 females and 10 males at Roscoff, 9 females and 8 males at Banyuls. Genome-wide heterozygosity result in Abstract/Results; published research article, PMCID version PMC13577491.1."
+          scope:
+            en: Whole-genome results from 36 adults at two French sites; estimates are sample-level.
+            zh: 法国两个地点 36 个成体的全基因组结果；估算属于样本层级。
+          version: PMCID version PMC13577491.1 (publisher XML)
+          publishedAt: 2026-09-08
+          license: CC BY 4.0
+    sections:
+      - topic: research
+        text:
+          en:
+            page: en
+            section: study-account
+            part: body
+          zh:
+            page: zh
+            section: study-account
+            part: body
+        sourceIds:
+          - adriatic-study
+          - population-genetics
+    summary:
+      en:
+        page: en
+        section: study-preview
+        part: body
+      zh:
+        page: zh
+        section: study-preview
+        part: body
+    summarySourceIds:
+      - adriatic-study
+      - population-genetics

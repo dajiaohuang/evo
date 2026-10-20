@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "authority": "Frozen COL26.8 / ChecklistBank dataset 316115",
+  "nodes": [
+    {
+      "colId": "N6S2",
+      "frozen": {
+        "parentId": "7NR65",
+        "id": "N6S2",
+        "scientificName": "Branchiostoma lanceolatum (Pallas, 1774)",
+        "authorship": "(Pallas, 1774)",
+        "rank": "species",
+        "status": "accepted",
+        "sourceDatasetId": "1154",
+        "childCount": 0
+      },
+      "locator": {
+        "file": "hierarchy/nodes/id-a9.jsonl.gz",
+        "line": 3524,
+        "compressedSha256": "74e1b1664a3cae2c45c723c99842a79b4b1b4cccc83227ac4e476a03d593fc61"
+      },
+      "priorIdentitySourceDatasetId": "1154",
+      "priorProfileSourceDatasetId": "1154"
+    },
+    {
+      "colId": "8GNQF",
+      "frozen": {
+        "id": "8GNQF",
+        "parentId": "V7FVL",
+        "scientificName": "Cyclocoridae",
+        "authorship": null,
+        "rank": "family",
+        "status": "accepted",
+        "sourceDatasetId": "1008",
+        "childCount": 5
+      },
+      "locator": {
+        "file": "hierarchy/nodes/id-f4.jsonl.gz",
+        "line": 451,
+        "compressedSha256": "27c18b32553deab1efbef270fdc0d5625a5caf9ed64a0ccbea8dce420fa52207"
+      },
+      "priorIdentitySourceDatasetId": "1008",
+      "priorProfileSourceDatasetId": "1008"
+    },
+    {
+      "colId": "HY5",
+      "frozen": {
+        "id": "HY5",
+        "parentId": "V7DMF",
+        "scientificName": "Xenotyphlopidae",
+        "authorship": null,
+        "rank": "family",
+        "status": "accepted",
+        "sourceDatasetId": "1008",
+        "childCount": 1
+      },
+      "locator": {
+        "file": "hierarchy/nodes/id-0e.jsonl.gz",
+        "line": 877,
+        "compressedSha256": "44a6f474688c30722627d75cab3f9693f126ce5211002af653b03c874e1e923c"
+      },
+      "priorIdentitySourceDatasetId": "1008",
+      "priorProfileSourceDatasetId": "1008"
+    },
+    {
+      "colId": "3KTM2",
+      "frozen": {
+        "parentId": "KVDMP",
+        "id": "3KTM2",
+        "scientificName": "Hemitriakis leucoperiptera Herre, 1923",
+        "authorship": "Herre, 1923",
+        "rank": "species",
+        "status": "accepted",
+        "sourceDatasetId": "1010",
+        "childCount": 0
+      },
+      "locator": {
+        "file": "hierarchy/nodes/id-0b.jsonl.gz",
+        "line": 9002,
+        "compressedSha256": "5739e6dedcc36cc17df82002bed7fae96a3acf3beca055d0e4f488b5f801c387"
+      },
+      "priorIdentitySourceDatasetId": "1010",
+      "priorProfileSourceDatasetId": "1010"
+    },
+    {
+      "colId": "6G5JP",
+      "frozen": {
+        "parentId": "7NYWT",
+        "id": "6G5JP",
+        "scientificName": "Epigonichthys cultellus Peters, 1877",
+        "authorship": "Peters, 1877",
+        "rank": "species",
+        "status": "accepted",
+        "sourceDatasetId": "1154",
+        "childCount": 0
+      },
+      "locator": {
+        "file": "hierarchy/nodes/id-55.jsonl.gz",
+        "line": 3599,
+        "compressedSha256": "3a0e42ee3f7b843bf1dd393cf07c8c184972396c5cfce82630426f771602a06f"
+      },
+      "priorIdentitySourceDatasetId": "2144",
+      "priorProfileSourceDatasetId": "2144"
+    }
+  ],
+  "files": [
+    {
+      "path": "content/nodes/COL%3A6G5JP/node.yaml",
+      "beforeSha256": "2abf2a1cd8fdccf53d21ff930b802a6b15d4446ea307ac9e2dc9789debaa8ee5",
+      "afterSha256": "cea0a5983c7849355625aee809f7feb43fcd1b21ca867d30d575d1b65981578d",
+      "before": "2144",
+      "after": "1154"
+    },
+    {
+      "path": "content/nodes/COL%3A6G5JP/evidence.yaml",
+      "beforeSha256": "8db5280e7c39f737649c43b037eb909cbac1623bd1ed31d5a3411fce1e427755",
+      "afterSha256": "4458c69658890db19dfc720905b57a8ef237de226b0ac3f503e67a78c81285a2",
+      "before": "2144",
+      "after": "1154"
+    }
+  ]
+}

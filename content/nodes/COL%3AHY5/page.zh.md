@@ -9,3 +9,11 @@ Xenotyphlopidae 的 ReptTraits 阅读路径包含 1 条同名同科、有逐性�
 ## 证据边界 {#s-6a6458f7c3}
 本导读只概括这条至少一个焦点性状有逐字段出处、仅按可用字段介绍且与 COL 同名同科的资料条目，不是该类群全部后代名录。最大尺寸是汇编中已报道的记录，不能作为个体平均或鉴定阈值；龟类背甲长与其他类群吻肛长不能直接混作同一种测量。不同字段的来源与汇总规则须分别查看，历史一行式资料不解决所有分类修订或种群差异。
 
+
+
+## ReptTraits 的一条选定记录 {#wave11-selected-row}
+ReptTraits v1-2（档案版本 4）第 12011 行列出 *Xenotyphlops grandidieri*，科名字段为 Xenotyphlopidae，并记录 Madagascan 区域、Fossorial 微生境、Forest/Shrubland 生境，以及 284 毫米的最大总长（TL）条目。这是一条汇编物种记录，不是全科描述。
+
+
+## 行级桥接不能确立什么 {#wave11-bounded-context}
+Wegener 等（2013）将 *X. mocquardi* 处理为 *X. grandidieri* 的次异名，并在该处理下称属和科为单型；论文也指出证据零散，不足以进行彻底修订。Reptile Database 当前物种页将 Xenotyphlopidae 列为上级分类，但同时列有 2024 年关于 *X. mocquardi* 的文献。固定的 COL26.8 `HY5` 记录没有成员名录或外部链接。这一行不能证明该科当前为单型、成员覆盖完整，或历史与当前概念相同。

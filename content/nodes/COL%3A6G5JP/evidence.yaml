@@ -1,0 +1,54 @@
+schemaVersion: 1
+records:
+  catalogue-profile:
+    scientificName: Epigonichthys cultellus Peters, 1877
+    rank: species
+    sourceDatasetId: "1154"
+    name:
+      en: Epigonichthys cultellus
+      zh: Epigonichthys cultellus
+    sections:
+      - topic: overview
+        sourceIds:
+          - peters-original-description
+        text:
+          en:
+            page: en
+            section: account
+            part: body
+          zh:
+            page: zh
+            section: account
+            part: body
+    sources:
+      - id: peters-original-description
+        referenceId: peters-1876-epigonichthys-cultellus
+        fields:
+          - id
+          - title
+          - url
+          - locator
+          - scope
+        usage:
+          title: Peters, Über Epigonichthys cultellus (volume labelled 1876; actual publication date unknown)
+          url: https://archive.org/details/monatsberichtede1876kn
+          locator: Printed pp. 322–327; original combination p. 325; account, specimens, locality and contradictory depth wording pp. 325–326; plate p. 327 is locator only. IA item monatsberichtede1876kn.
+          scope:
+            en: Source-labelled account of Peters’s original description and reported collection only. Name/author match does not establish equivalence with the current COL concept.
+            zh: 仅标注Peters原始描述及其所报材料；名称与作者相符不证明与当前COL概念等同。
+    summary:
+      en:
+        page: en
+        section: account
+        part: body
+      zh:
+        page: zh
+        section: account
+        part: body
+    summarySourceIds:
+      - peters-original-description
+    limitations:
+      sourceToCurrentCOLConcept: unknown
+      depth: "No normalized depth assertion; source wording is internally contradictory: 15 Kilometern (8 Faden)."
+      actualPublicationDate: unknown
+      rights: Original-work and scan reuse rights are not established.

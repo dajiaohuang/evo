@@ -35,6 +35,31 @@ records:
             page: en
             section: s-cbd7250f07
             part: body
+      - topic: selectedRows
+        sourceIds:
+          - wave9-row-data
+        text:
+          en:
+            page: en
+            section: wave11-selected-row
+            part: body
+          zh:
+            page: zh
+            section: wave11-selected-row
+            part: body
+      - topic: boundedTaxonomyContext
+        sourceIds:
+          - wave9-historical-treatment
+          - wave9-current-corroboration
+        text:
+          en:
+            page: en
+            section: wave11-bounded-context
+            part: body
+          zh:
+            page: zh
+            section: wave11-bounded-context
+            part: body
     sources:
       - id: taxonomy
         referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
@@ -65,7 +90,9 @@ records:
           - fieldCountDistribution
         metadataVariant: 0
         usage:
-          locator: ReptTraits v1-2; 1 authored records grouped under Xenotyphlopidae by COL26.8 ancestry; per-species source rows preserved in source archive.
+          locator: ReptTraits v1-2; 1 authored records grouped under Xenotyphlopidae by
+            COL26.8 ancestry; per-species source rows preserved in source
+            archive.
           accessedAt: 2026-10-02
           licenseAssessment: CC-BY-4.0-attributed-data-summary
           scope:
@@ -92,12 +119,77 @@ records:
           - scope
         metadataVariant: 0
         usage:
-          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass estimates); Usage Notes; workbook Trait definitions and Changes sheets.
+          locator: Methods; Data Records (maximum size, source aggregation, length-to-mass
+            estimates); Usage Notes; workbook Trait definitions and Changes
+            sheets.
           accessedAt: 2026-10-02
           licenseAssessment: CC-BY-4.0-attributed-paraphrase
           scope:
             zh: 性状定义、汇总方式与资料缺口；不证明历史名称与固定 COL26.8 概念完全等同。
-            en: Trait definitions, aggregation and gaps; not proof of concept equivalence between historical names and pinned COL26.8.
+            en: Trait definitions, aggregation and gaps; not proof of concept equivalence
+              between historical names and pinned COL26.8.
+      - id: wave9-row-data
+        referenceId: ref-dcd4aa7d-e2ca-478b-b714-1c8c28b388f3
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - license
+          - licenseEvidenceUrl
+          - locator
+          - accessedAt
+          - licenseAssessment
+          - scope
+        metadataVariant: 0
+        usage:
+          locator: ReptTraits v1-2.xlsx archive v4; Data and Sources of individual trait
+            val sheets; physical Excel rows 12011; exact per-field source cells
+            retained in r28 direct-workbook-proof.json.
+          accessedAt: 2026-10-14
+          licenseAssessment: CC BY 4.0 as recorded in archive v4; factual summary only
+          scope:
+            en: Only the named selected species rows and stated fields; not family-wide or
+              exhaustive.
+            zh: 仅涉及具名选定物种行及所述字段；不代表全科或完整覆盖。
+      - id: wave9-pinned-col
+        referenceId: ref-d9d915ca-9251-8cd0-a6d6-0b5d4b1aaf23
+        fields:
+          - id
+          - title
+          - url
+          - locator
+        metadataVariant: 0
+        usage:
+          title: Catalogue of Life COL26.8 — Xenotyphlopidae
+          url: https://www.checklistbank.org/dataset/316115/taxon/HY5
+          locator: Pinned accepted family identity only; this snapshot does not itself
+            define family membership.
+      - id: wave9-historical-treatment
+        referenceId: wave9-wegener-2013-xenotyphlopidae
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - locator
+          - rights
+        usage:
+          locator: Abstract p.269 (synonymy/monotypy); discussion pp.278–280 (fragmentary
+            evidence and revision limit).
+          rights: unknown; reuse licence not established
+      - id: wave9-current-corroboration
+        referenceId: wave9-reptile-db-xenotyphlops-grandidieri
+        fields:
+          - id
+          - title
+          - url
+          - version
+          - rights
+        usage:
+          locator: Captured species record; Higher Taxa entry and listed 2024 X. mocquardi
+            citation; corroboration only, not a URL from pinned HY5.
+          rights: unknown; reuse licence not assessed
     limitations:
       zh:
         page: zh
