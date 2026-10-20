@@ -2,8 +2,9 @@ import assert from 'node:assert/strict'
 import {isDeepStrictEqual} from 'node:util'
 import {internalId,sha256,stableJson} from './model.mjs'
 import {parsePageMarkdown,validateNodeReferenceBindings} from '../scripts/node-content.mjs'
+import {isPbdbOccurrencePath} from '../scripts/content-references.mjs'
 
-export const EXTRACTOR_VERSION='page-dependencies-v1'
+export const EXTRACTOR_VERSION='page-dependencies-v2'
 const pointerToken=value=>String(value).replaceAll('~','~0').replaceAll('/','~1')
 function pageSections(document,locale){
   const markdown=document.pages?.[locale]
@@ -20,14 +21,14 @@ export function extractNodeDependencies(document){
     assert.equal(typeof id,'string','Reference ID must be recorded')
     const values=references.get(id)??[];values.push(selector);references.set(id,values)
   }
-  function walk(value,pointer){
+  function walk(value,pointer,parts=[]){
     if(!value||typeof value!=='object')return
-    if(Array.isArray(value)){value.forEach((item,index)=>walk(item,pointer+'/'+index));return}
+    if(Array.isArray(value)){value.forEach((item,index)=>walk(item,pointer+'/'+index,[...parts,String(index)]));return}
     if(Object.hasOwn(value,'page')&&Object.hasOwn(value,'section')&&Object.hasOwn(value,'part')){
       assert.ok(['en','zh'].includes(value.page)&&['title','body'].includes(value.part),'Invalid page binding')
       assert.ok(pageSections(document,value.page).some(section=>section.key===value.section),'Page binding points to a missing section')
     }
-    if(typeof value.referenceId==='string')addReference(value.referenceId,{pointer,sourceKey:value.id??null})
+    if(typeof value.referenceId==='string'&&!isPbdbOccurrencePath(parts))addReference(value.referenceId,{pointer,sourceKey:value.id??null})
     if(Array.isArray(value.referenceIds))value.referenceIds.forEach((id,index)=>addReference(id,{pointer:pointer+'/referenceIds/'+index}))
     for(const [key,item] of Object.entries(value)){
       const next=pointer+'/'+pointerToken(key)
@@ -37,15 +38,17 @@ export function extractNodeDependencies(document){
       // These require an explicit media/map/data adapter. Never silently declare
       // complete coverage just because a bibliography extractor understood them.
       if(/^(asset|assets|media|image|images|map|maps|grid|frames|attachments)$/i.test(key))blockers.push('unmodelled-resource:'+next)
-      walk(item,next)
+      walk(item,next,[...parts,key])
     }
   }
-  walk(records,'/evidence/records')
+  walk(records,'/evidence/records',['records'])
+  walk(document.node.relationships??[],'/node/relationships',['relationships'])
   for(const [key,record] of Object.entries(records)){
     const local=new Set([...(record.sources??[]),...(record.readerSources??[])].map(source=>source.id))
+    const declared=new Set(record.referenceIds??[])
     function checkSources(value){
       if(!value||typeof value!=='object')return
-      if(Array.isArray(value.sourceIds))for(const id of value.sourceIds)assert.ok(local.has(id)||references.has(id),'Unknown passage source '+key+'/'+id)
+      if(Array.isArray(value.sourceIds))for(const id of value.sourceIds)assert.ok(local.has(id)||declared.has(id),'Unknown passage source '+key+'/'+id)
       for(const child of Object.values(value))checkSources(child)
     }
     checkSources(record)

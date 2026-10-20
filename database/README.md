@@ -2,6 +2,8 @@
 
 PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务；私有 Blob 保存完整且不可变的正文、证据和来源。目标结构、创作流程、切换条件见 [数据与创作方案](../docs/evo-data-platform-v2.md)。页面及完整依赖的新结构、发布约束和 worker 草稿事务见 [页面依赖模型](../docs/page-dependency-model.md)。网页审核台及生产读取切换尚未实施。
 
+本地数据库改造、完整节点基线与不依赖 Git 的日常草稿操作，使用 [本地数据库创作](../docs/local-database-authoring.md)。日常流程是 `checkout → 编辑 document → submit → receipt/read`；下面的 Git 导出和云上传属于一次性历史迁移工具。
+
 ## 已连接资源
 
 - Vercel 项目：`evo` / `prj_RU1GF7YN46JN7w9Qg3qzfHZZ5MI1`。
@@ -9,7 +11,7 @@ PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务
 - 私有 Blob：`evo-source-v2` / `store_xxrtIBwYQAds7u6s`，新加坡。
 - 当前只连接 development / preview。密钥来自忽略的 `.env.local`；程序拒绝未知 Neon 项目和池化迁移连接。
 
-## 正常顺序
+## 历史数据转写顺序
 
 要求 Node 22、仓库根目录已安装的应用依赖与已链接的 Vercel 项目。页面索引工具复用仓库规范内容 codec，不能只复制 database 子目录运行。先检查现有资源，不重复创建数据库。
 
@@ -40,7 +42,7 @@ rtk proxy node --env-file=.env.local database/verify-native.mjs
 
 ## 页面及完整依赖
 
-`0009`–`0015` 为增量迁移，复用现有科学记录。`dependency_entity/version/edge/seal` 保存类型化依赖图；`release_page/page_release_seal` 固定发布快照；页面草稿和共享节点草稿分别比较版本，同一节点的双语事实不会各自分叉。新的修订与发布不再要求 Git SHA，历史 SHA 作为迁移出处保留。
+`0009`–`0015` 为页面模型增量迁移，复用现有科学记录。`0016` 在现有回执表中加入节点草稿操作，本轮只应用到本地 PostgreSQL。`dependency_entity/version/edge/seal` 保存类型化依赖图；`release_page/page_release_seal` 固定发布快照；页面草稿和共享节点草稿分别比较版本，同一节点的双语事实不会各自分叉。新的修订与发布不再要求 Git SHA，历史 SHA 作为迁移出处保留。
 
 ```powershell
 rtk proxy node --test database/page-dependencies.test.mjs

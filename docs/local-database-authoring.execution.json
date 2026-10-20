@@ -1,0 +1,546 @@
+{
+  "status": "passed",
+  "localRuntime": {
+    "version": "PostgreSQL 17.11",
+    "loopbackOnly": true,
+    "startVerified": true,
+    "repeatedStartVerified": true,
+    "statusVerified": true,
+    "stopVerified": true,
+    "finalState": "stopped",
+    "dataPreserved": true
+  },
+  "recordedAt": "2026-10-20T19:07:13.412Z",
+  "implementationBaseCommit": "ab3611d6071a552391dd0e10a48be87edf3dd2c2",
+  "scope": "Local database refactor, full canonical-node/bibliography baseline, shared reader projection and authoring transactions",
+  "audit": {
+    "contract": "node-aggregate-v1",
+    "sourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+    "recordedAt": "2026-10-20T19:00:38.830Z",
+    "nodes": 139458,
+    "authoredNodes": 101754,
+    "pages": 203508,
+    "referenceBindings": 377322,
+    "legacyMissingEdges": 2372,
+    "legacyExtraEdges": 0,
+    "dependencyDifferenceExamples": [
+      {
+        "physicalKey": "COL%3A32F4N",
+        "missing": [
+          "ref-5bd4c04c-68ed-8685-a4cb-b4524f3e28dd"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A32F6S",
+        "missing": [
+          "ref-53bba304-01d2-83d2-a4e9-127aab722645"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A32FFJ",
+        "missing": [
+          "ref-915bf92c-0f77-88f4-a222-902a95616d1a"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A32G4F",
+        "missing": [
+          "ref-043213df-0211-839c-a755-db248002eee2"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A32M9H",
+        "missing": [
+          "ref-99392d84-e399-8214-aa56-6e80ca1f92ba"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A32SQ6",
+        "missing": [
+          "ref-18fb5fa5-24a2-8637-a508-ffcfdbe35460"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A32SRH",
+        "missing": [
+          "ref-1d663a59-ed74-8d49-abc8-11074040319f"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A336S6",
+        "missing": [
+          "ref-894b84d9-2b66-8eb2-a509-7803821f7626",
+          "ref-b7aeffe7-1898-81c4-aca5-42e4ac93f939"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A336YB",
+        "missing": [
+          "ref-90d3beaa-2b2c-831d-a405-4d93fdf3b3fd"
+        ],
+        "extra": []
+      },
+      {
+        "physicalKey": "COL%3A338M4",
+        "missing": [
+          "ref-99f3dd14-ae1a-8ffa-a95c-1f3a3aba8b87"
+        ],
+        "extra": []
+      }
+    ],
+    "bodyBytes": 1418211381,
+    "pageBytes": 567136835,
+    "evidenceBytes": 747626752,
+    "recordKinds": {
+      "catalogue-profile": 80498,
+      "readerLimitations": 10247,
+      "catalogue-dossier": 36357,
+      "atlas-node": 943,
+      "claim-rationales.zh": 634,
+      "claim-statements.zh": 634,
+      "claims": 634,
+      "ranges": 943,
+      "atlas-profile": 707,
+      "readerSections": 58,
+      "classification-support": 4,
+      "pbdb-fossil-reader": 1421,
+      "field-claim-overrides": 13,
+      "readerSources": 3,
+      "event": 208,
+      "story": 32,
+      "amphibio-source-reader": 6776,
+      "amphibian-morphology-reader": 4412,
+      "amphitherm-source-reader": 614,
+      "tadpole-traits-reader": 1993,
+      "caecilian-traits-reader": 222,
+      "Phylogeny_hypotheses": 2,
+      "calibrations": 1,
+      "Research_examples": 1,
+      "reading-guide": 5
+    },
+    "issues": 0,
+    "examples": [],
+    "cloudAccessed": false,
+    "filesRemoved": false,
+    "references": 5255,
+    "usedReferences": 5245,
+    "uniqueBodies": 139458,
+    "status": "passed"
+  },
+  "baseline": {
+    "status": "passed",
+    "sourceCommit": "38336ece31d241af0a4fd42a25686641774c2373",
+    "recordedAt": "2026-10-20T19:00:28.777Z",
+    "nodes": 139458,
+    "references": 5255,
+    "referenceEdges": 377322,
+    "correctedNodes": 2134,
+    "addedReferenceEdges": 2372,
+    "objects": 558,
+    "objectBytes": 215472052,
+    "cloudAccessed": false,
+    "scientificFilesChanged": false,
+    "productionCutover": false,
+    "scope": "All canonical node aggregates and adopted bibliography; taxonomy, maps and other runtime datasets retain their existing frozen files.",
+    "databaseBytes": 300095155,
+    "batchCount": 558
+  },
+  "storageReduction": {
+    "oldNodeBatchBytes": 254082563,
+    "newNodeObjectBytes": 215472052,
+    "reducedBytes": 38610511,
+    "explanation": "Raw document, source-file hashes and delivery bindings preserved; reconstructible dependency binding copies omitted from body objects. SQL bibliography edges remain complete."
+  },
+  "nativeAuthoring": {
+    "status": "passed",
+    "recordedAt": "2026-10-20T19:02:24.681Z",
+    "engine": "PostgreSQL 17.11 on x86_64-windows, compiled by msvc-19.44.35229, 64-bit",
+    "migrations": 16,
+    "checks": [
+      {
+        "check": "New bibliography versions append without a Git commit and replay by content hash",
+        "passed": true
+      },
+      {
+        "check": "A new source-bound bilingual draft saves and projects without Git or Blob",
+        "passed": true
+      },
+      {
+        "check": "A lost response is reconciled by the same request receipt without another revision",
+        "passed": true
+      },
+      {
+        "check": "The same request ID cannot be used with changed input",
+        "passed": true
+      },
+      {
+        "check": "Two independent PostgreSQL sessions racing on one base have exactly one winner",
+        "passed": true
+      },
+      {
+        "check": "Independent topics can save concurrently",
+        "passed": true
+      },
+      {
+        "check": "Dangling page pointers roll back without orphan revisions or receipts",
+        "passed": true
+      },
+      {
+        "check": "Unowned workspaces cannot be read or written",
+        "passed": true
+      },
+      {
+        "check": "Reference metadata revisions stay exact even when prose is identical",
+        "passed": true
+      },
+      {
+        "check": "Only adopted reference versions are accepted, not unused bibliography pools",
+        "passed": true
+      },
+      {
+        "check": "Nested records and typed relationships contribute bibliography dependencies",
+        "passed": true
+      },
+      {
+        "check": "An explicit same-node base is required before editing an existing node",
+        "passed": true
+      },
+      {
+        "check": "Five real node documents produce the same reader records through PostgreSQL",
+        "passed": true
+      }
+    ],
+    "databaseBytes": 9696947,
+    "cloudAccessed": false,
+    "multiComputerAcceptance": false,
+    "syntheticDatabaseRemoved": true
+  },
+  "nativeConstraints": {
+    "status": "passed",
+    "projectId": "local",
+    "layer": "native PostgreSQL constraints; all synthetic rows rolled back",
+    "checks": [
+      {
+        "check": "source release uniqueness",
+        "passed": true,
+        "sqlState": "23505"
+      },
+      {
+        "check": "unknown source checklist rejected",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "parent cannot cross source releases",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "revisions are immutable",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "missing aggregate keys rejected",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "unregistered bibliography dependency rejected",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "external payload requires a registered object",
+        "passed": true,
+        "sqlState": "23503"
+      },
+      {
+        "check": "identical body supports a distinct revision for changed citation metadata",
+        "passed": true
+      }
+    ],
+    "productionCutover": false
+  },
+  "pageModel": {
+    "status": "passed",
+    "projectId": "local",
+    "recordedAt": "2026-10-20T19:01:13.149Z",
+    "layer": "Native PostgreSQL transactions, constraints and functions; all synthetic rows rolled back",
+    "checks": [
+      {
+        "check": "Unavailable optional material is recorded explicitly",
+        "passed": true
+      },
+      {
+        "check": "Missing page locale cannot pass NULL-valued CHECK",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "Missing resource storage cannot pass NULL-valued CHECK",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "Blob descriptor requires a registered artifact",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "External URL cannot replace retained runtime data",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "A citation can retain just its external locator",
+        "passed": true
+      },
+      {
+        "check": "Declared hash must be an actual SHA-256 identifier",
+        "passed": true,
+        "sqlState": "23514"
+      },
+      {
+        "check": "A non-native dataset cannot omit its data dependencies",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Citation role requires a reference target",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Unsealed dependency prevents parent sealing",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Cyclic dependency cannot acquire a seal",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Node cannot omit a native bibliographic dependency",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Recorded COL identity cannot be dropped from dependency closure",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Content and reference revisions can originate outside Git",
+        "passed": true
+      },
+      {
+        "check": "Sealed graph version is immutable",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Dependency cannot be appended behind sealed hash",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Native citation set cannot change behind graph seal",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Frozen taxonomy cannot gain hidden native rows",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Frozen source checklists cannot gain hidden rows",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Unknown taxon concept bridge remains a dataset context, without a fabricated taxon ID",
+        "passed": true
+      },
+      {
+        "check": "Optional original file does not block citation-only publication",
+        "passed": true
+      },
+      {
+        "check": "Required missing media blocks the entire page",
+        "passed": true
+      },
+      {
+        "check": "Required-only closure and full provenance closure differ",
+        "passed": true
+      },
+      {
+        "check": "Approved incomplete page still cannot publish",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Exact candidate approval is mandatory",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Approval cannot replace validation",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Cannot append pages to an approved snapshot",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Direct channel writes reject unsealed publications",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Channel write has a stable idempotent receipt",
+        "passed": true
+      },
+      {
+        "check": "Stale channel generation is rejected",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "Same request cannot carry a different operation",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Rollback advances generation while restoring old exact release",
+        "passed": true
+      },
+      {
+        "check": "Draft submission survives receipt reconciliation",
+        "passed": true
+      },
+      {
+        "check": "Competing worker cannot overwrite a stale page base",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "Matching generation with wrong revision still conflicts",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "Different pages can advance independently",
+        "passed": true
+      },
+      {
+        "check": "A locale edit advances the shared scientific node head",
+        "passed": true
+      },
+      {
+        "check": "Another locale cannot overwrite shared facts using its old page base",
+        "passed": true,
+        "sqlState": "40001"
+      },
+      {
+        "check": "One publication cannot mix two revisions of the shared node",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Different graph keys cannot bypass native node version consistency",
+        "passed": true,
+        "sqlState": "P0001"
+      },
+      {
+        "check": "Shared source can be traced back to page, publication and workspace",
+        "passed": true
+      }
+    ],
+    "productionCutover": false,
+    "limits": "No worker authentication, hosted API, real multi-computer network concurrency, browser publication or production acceptance claim."
+  },
+  "cliSmoke": {
+    "status": "passed",
+    "nodeId": "6cfbb524-cb15-51c6-ab2a-f3d6e329a372",
+    "revisionId": "1b233906-1be3-5f6f-8aa2-02e56f2b4138",
+    "generation": 1,
+    "steps": [
+      "CLI checkout from full local baseline",
+      "CLI submit unchanged real content to private workspace",
+      "Exact same request replay returns original receipt",
+      "CLI read produces canonical reader projection",
+      "Next checkout captures current revision and generation"
+    ],
+    "sourceFilesChanged": false
+  },
+  "localRegression": {
+    "vitest": {
+      "passed": 583,
+      "skipped": 1,
+      "filesPassed": 95,
+      "filesSkipped": 1
+    },
+    "extractor": {
+      "passed": 9
+    },
+    "typescript": "passed",
+    "eslint": "passed"
+  },
+  "boundaries": {
+    "cloudDatabaseModified": false,
+    "cloudStorageModified": false,
+    "scientificFilesModified": false,
+    "publicAppCutover": false,
+    "taxonomyAndMapsRemainFrozenFiles": true,
+    "workerHttpAuthentication": false,
+    "webReviewUI": false,
+    "multiComputerNetworkAcceptance": false,
+    "newScientificContentInGit": false
+  },
+  "scriptSha256": {
+    "database/audit-local-content.mjs": "36986fb71e747b211088f03f3131eb0ff914e990864ea19d1d37f40fba7d5c7a",
+    "database/authoring.mjs": "8edb7c110c3b92abd35768f0c3cb395a276b066aad7ee47816cadcf69c1e2a1b",
+    "database/client.mjs": "597b4362fd83dc81e21f66885a4e862c3fcaf8115d8b3c67213f87219eefa517",
+    "database/content-document.mjs": "7118112b906a2350a193ee94c52e1e1593d3645d2961e044eb12aa08b772ffa7",
+    "database/export-batches.mjs": "4ddc44909d0e259b93c149c08af4ac78c17d408148c3624c6fdd621097566cb4",
+    "database/export.mjs": "cddbd82f6961d4cdf00dd31f2fa473d21eb8b349769f7d776d805639f85ef9fd",
+    "database/import-taxonomy.mjs": "91ed078baed4b5c783e20418d4cbde49c73dd6e99d983717017e59510e26cadb",
+    "database/import.mjs": "770ccb1f4aa3ca4685da991dccaa666eb9d519700372b1b352867f23bad4a64f",
+    "database/index-page-dependencies.mjs": "8cace01a167e7df779cfa30bfb3974e4e4f072e1295f1e6cd3ae96c54e5f2da0",
+    "database/inspect.mjs": "7a828ff8086478b795ea79a7a24323a1c435812b14d4da1639498f204ba8e19b",
+    "database/local-artifacts.mjs": "2369f70203cca816882823709d2e43669fa9807e7c77e47b98e7941c9fc8ae24",
+    "database/local-authoring.mjs": "f97f46fd95ddbbfb6e4952dc478ffaf495c5dbe1eec814d8c44d4cc510ada962",
+    "database/local-baseline.mjs": "7d2fea8c559f457db1eb61286258c9003e89d38354fe2af35c528fac7e8e3fc0",
+    "database/local-client.mjs": "d6295f38d90e6827e3bd95951a4cb674067a943ccb60ce5c4876759766eb668e",
+    "database/local-postgres.mjs": "7b8a04824086d94eae2fa34bef23657348a49864f7e2e347d0e7275bab22b34d",
+    "database/migrate.mjs": "a141c21c5d1464cb4528eb7a2a5bae337c2627b5c99859a086ce03227b0670d4",
+    "database/migrations.mjs": "7eb907fc150a5f943cd38fd83b323f395165c4e300df08896bca9baf13ccc4e1",
+    "database/model.mjs": "db3b1bd0098e2511b09cc5b7bc57d85519f6fb194999ecb2e8d0cf9927ee2233",
+    "database/page-dependencies.mjs": "3d1304e6abfdc0b75b9f12e1a8efac79a4166b03b0196b2428f82c6b27810554",
+    "database/page-dependencies.test.mjs": "35a2c7eb8dea4bdfe2ee733e995ed8f084eb0565cfdfe08435a74fe07421d50c",
+    "database/read-revision.mjs": "1c6f58015bc0fc01963d5636a433a605da89629b46b7d71272f734ebe9ad0b30",
+    "database/rebuild-unpublished-import.mjs": "41cb11526efd79c937445f97c8f748473b4dce8db764bab2e9743b9aaa69b252",
+    "database/trace-page-dependencies.mjs": "616e396dda6138e35fe78f718f9a2cc75e3dd6ab8d22020d62d5e50088d434ad",
+    "database/upload.mjs": "0c55fb961d7934dbc92c09c5f4daa16e10855e311ebf50f79207765604ac6652",
+    "database/verify-import.mjs": "41de6531aa21e85f84b6613af5ce86a6cbbed5f3f43335278b63cc123e1227e4",
+    "database/verify-local-authoring.mjs": "c008cf6409787be8985106e62b03bf561d6cad44e07347c6bc56bc92755d816a",
+    "database/verify-native.mjs": "30a8441ce6c111c94522a260f8ce3806bc37c325e4d55114e45cd1b517c1039e",
+    "database/verify-page-index.mjs": "f7661fca3fda4e5edeb1d4fd95e5b17b923b543b060a149e48e84949a16e16f0",
+    "database/verify-page-model.mjs": "74edaff9b1532dc999a513b5ade848fd3364598b7dc84f0ca47da16e9be65e4d",
+    "scripts/node-content.mjs": "248d7041a74f0cf334d4c3eabdd078a31170fccab6c12d7a51afa76f96d2a499",
+    "database/migrations/0016_node_authoring_receipts.sql": "95d99ebd3755ccfc3e64d34023e06350a35f72a8981b862090d72035e187c9ec"
+  }
+}

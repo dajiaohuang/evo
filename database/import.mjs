@@ -1,9 +1,9 @@
 import {readFile,writeFile,mkdir} from 'node:fs/promises'
-import {gunzipSync} from 'node:zlib'
 import {resolve,join} from 'node:path'
 import {isDeepStrictEqual} from 'node:util'
 import {connect,PROJECT_ID,safeError} from './client.mjs'
 import {sha256,stableJson} from './model.mjs'
+import {readExportBatch} from './export-batches.mjs'
 
 const arg=name=>{const i=process.argv.indexOf(name);return i<0?null:process.argv[i+1]}
 const folder=arg('--from');if(!folder)throw new Error('--from requires a completed export directory')
@@ -18,12 +18,7 @@ const receiptPath=join(out,pilot?'pilot.json':'full.json')
 const client=await connect()
 const uploadReceipt=JSON.parse(await readFile(new URL(`../.git/platform-v2/uploads/${manifest.sourceCommit}.json`,import.meta.url),'utf8'))
 const verifiedObjects=new Map(uploadReceipt.objects.filter(row=>row.verifiedReadback).map(row=>[row.sha256,row]))
-async function rows(file){
-  const bytes=await readFile(join(input,file.path));if(sha256(bytes)!==file.sha256)throw new Error('Export batch hash mismatch '+file.path)
-  const decoded=gunzipSync(bytes);if(file.decodedSha256&&sha256(decoded)!==file.decodedSha256)throw new Error('Decoded export hash mismatch')
-  const records=decoded.toString('utf8').trimEnd().split('\n').map(line=>JSON.parse(line));if(records.length!==file.records)throw new Error('Batch count mismatch')
-  return records
-}
+const rows=file=>readExportBatch(input,file)
 async function transact(id,file,work){
   const existing=(await client.query('SELECT source_commit,payload_sha256,record_count FROM evo_v2.import_batch WHERE id=$1',[id])).rows[0]
   if(existing){if(existing.source_commit!==manifest.sourceCommit||existing.payload_sha256!==file.sha256||existing.record_count!==file.records)throw new Error('Existing import receipt differs');receipt.batches.push({id,status:'reconciled',records:file.records});return}

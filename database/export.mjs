@@ -8,6 +8,7 @@ import {once} from 'node:events'
 import tar from 'tar-stream'
 import {parse} from 'yaml'
 import {sha256,stableJson,internalId} from './model.mjs'
+import {collectNodeReferenceBindings,validateNodeAggregate} from '../scripts/node-content.mjs'
 
 const arg=name=>{const i=process.argv.indexOf(name);return i<0?null:process.argv[i+1]}
 const commit=arg('--commit')
@@ -34,12 +35,14 @@ const referenceDocument=parse(execFileSync('git',['show',`${commit}:content/refe
 const references=referenceDocument.references
 const referenceHashes=new Map(references.map(row=>[row.id,sha256(stableJson(row))]))
 if(referenceHashes.size!==references.length)throw new Error('Duplicate canonical reference ID')
-const manifest={schemaVersion:2,revisionIdentity:'content-and-reference-versions-v2',sourceCommit:commit,sourceFiles:0,sourceBytes:0,nodes:0,references:references.length,batches:[],completed:false}
+const manifest={schemaVersion:3,revisionIdentity:'content-and-reference-versions-v3',sourceCommit:commit,sourceFiles:0,sourceBytes:0,nodes:0,references:references.length,batches:[],completed:false}
+const referenceMap=new Map(references.map(row=>[row.id,row]))
 const covered=new Set()
 if(resume){
   const previous=JSON.parse(await readFile(join(out,'progress.json'),'utf8'))
   if(previous.sourceCommit!==commit||previous.completed||previous.references!==references.length)throw new Error('Invalid export resume state')
   manifest.revisionIdentity=previous.revisionIdentity??'content-v1'
+  manifest.schemaVersion=previous.schemaVersion
   for(const file of previous.batches){
     if(!/^nodes-\d{4}\.ndjson\.gz$/.test(file.path))throw new Error('Unexpected resume artifact')
     const bytes=await readFile(join(out,file.path));if(sha256(bytes)!==file.sha256)throw new Error('Resume batch hash differs')
@@ -67,17 +70,23 @@ async function flushNode(){
   const node=parse(currentFiles['node.yaml']),evidence=currentFiles['evidence.yaml']?parse(currentFiles['evidence.yaml']):null
   const pages={};for(const locale of ['en','zh'])if(currentFiles[`page.${locale}.md`]!==undefined)pages[locale]=currentFiles[`page.${locale}.md`]
   const document={node,evidence,pages}
+  if(manifest.schemaVersion>=3)validateNodeAggregate(document)
   if(!node.identity||typeof node.identity!=='object')throw new Error('Missing recorded identity: '+currentKey)
   const dependencies=new Map()
   function addReference(id,binding){
     if(!referenceHashes.has(id))throw new Error('Unregistered source binding '+id+' in '+currentKey)
     const list=dependencies.get(id)??[];list.push(binding);dependencies.set(id,list)
   }
-  for(const [recordKey,record] of Object.entries(evidence?.records??{})){
-    for(const field of ['sources','readerSources'])for(const source of record[field]??[]){
-      if(source.referenceId)addReference(source.referenceId,{recordKey,field,...source})
+  if(manifest.schemaVersion>=3){
+    for(const [id,selectors] of collectNodeReferenceBindings(document,referenceMap))dependencies.set(id,selectors)
+  }else{
+    // Byte/identity-compatible resume of an existing v1/v2 export only.
+    for(const [recordKey,record] of Object.entries(evidence?.records??{})){
+      for(const field of ['sources','readerSources'])for(const source of record[field]??[]){
+        if(source.referenceId)addReference(source.referenceId,{recordKey,field,...source})
+      }
+      for(const id of record.referenceIds??[])addReference(id,{recordKey,field:'referenceIds'})
     }
-    for(const id of record.referenceIds??[])addReference(id,{recordKey,field:'referenceIds'})
   }
   const sourceFiles=Object.fromEntries(Object.entries(currentFiles).map(([name,text])=>[name,sha256(Buffer.from(text))]))
   const deliveryBindings=bindings.get('content/nodes/'+currentKey)??[]

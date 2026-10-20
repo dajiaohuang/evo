@@ -36,3 +36,17 @@ test('The canonical parser ignores a fake keyed heading inside a code fence',()=
   const value=document();value.pages.zh='## 材料 {#material}\n\n```md\n## 示例 {#not-a-section}\n```\n\n'
   assert.deepEqual(extractNodeDependencies(value).blockers,[])
 })
+test('A global bibliography ID does not bypass a passage source registration',()=>{
+  const value=document();value.evidence.records['catalogue-profile'].sections[0].sourceIds=['fixture-reference']
+  assert.throws(()=>extractNodeDependencies(value),/Unknown passage source/)
+})
+test('Recorded relationships contribute their exact bibliography dependencies',()=>{
+  const value=document();value.node.relationships=[{type:'fixture',referenceId:'relationship-reference'}]
+  assert.ok(extractNodeDependencies(value).references.has('relationship-reference'))
+})
+test('A native PBDB occurrence reference is not a global bibliography ID',()=>{
+  const value=document();value.evidence.records['pbdb-fossil-reader']={occurrenceEvidence:[{occurrenceId:'occ:123',referenceId:'ref:456',bibliography:'Synthetic fixture'}]}
+  const actual=extractNodeDependencies(value)
+  assert.equal(actual.references.has('ref:456'),false)
+  assert.ok(actual.blockers.includes('unsupported-record:pbdb-fossil-reader'))
+})

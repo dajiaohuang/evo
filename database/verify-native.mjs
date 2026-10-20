@@ -2,8 +2,10 @@ import assert from 'node:assert/strict'
 import {randomUUID} from 'node:crypto'
 import {mkdir,writeFile} from 'node:fs/promises'
 import {connect,PROJECT_ID,safeError} from './client.mjs'
+import {connectLocal} from './local-client.mjs'
 
-const client=await connect(),checks=[]
+const local=process.argv.includes('--local')
+const client=await (local?connectLocal():connect()),checks=[]
 async function rejects(label,code,work){
   await client.query('SAVEPOINT negative_case')
   let actual
@@ -32,9 +34,9 @@ try{
   await client.query("INSERT INTO evo_v2.node_revision(id,node_id,parent_revision_id,content_sha256,document,source_files,delivery_bindings,origin_commit,created_by) VALUES ($1,$2,$3,$4,$5,'{}','[]',$6,'native-test-only')",[nextRevision,node,revision,'a'.repeat(64),{node:{identity:{kind:'test-only'}},evidence:null,pages:{}},'a'.repeat(40)])
   checks.push({check:'identical body supports a distinct revision for changed citation metadata',passed:true})
   await client.query('ROLLBACK')
-  const receipt={status:'passed',projectId:PROJECT_ID,layer:'native PostgreSQL constraints; all synthetic rows rolled back',checks,productionCutover:false}
+  const receipt={status:'passed',projectId:local?'local':PROJECT_ID,layer:'native PostgreSQL constraints; all synthetic rows rolled back',checks,productionCutover:false}
   await mkdir(new URL('../.git/platform-v2/',import.meta.url),{recursive:true})
-  await writeFile(new URL('../.git/platform-v2/native-constraints.json',import.meta.url),JSON.stringify(receipt,null,2)+'\n')
+  await writeFile(new URL(local?'../.git/platform-v2/local/native-constraints.json':'../.git/platform-v2/native-constraints.json',import.meta.url),JSON.stringify(receipt,null,2)+'\n')
   console.log(JSON.stringify(receipt))
 }catch(error){await client.query('ROLLBACK').catch(()=>{});console.error(safeError(error));process.exitCode=1}
 finally{await client.end()}

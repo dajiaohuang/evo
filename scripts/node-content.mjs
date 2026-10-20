@@ -483,16 +483,78 @@ function loadStoredNode(directoryKey, root) {
   const evidencePath = join(directory, EVIDENCE_FILE)
   const evidence = pathExists(evidencePath) ? validateEvidenceDocument(parseYamlFile(evidencePath, EVIDENCE_FILE)) : null
   const pages = { en: [], zh: [] }
+  const markdown = {}
   for (const locale of LOCALES) {
     const pagePath = join(directory, `page.${locale}.md`)
-    if (pathExists(pagePath)) pages[locale] = parsePageMarkdown(readFileSync(pagePath, 'utf8'), `page.${locale}.md`)
+    if (pathExists(pagePath)) {
+      markdown[locale] = readFileSync(pagePath, 'utf8')
+      pages[locale] = parsePageMarkdown(markdown[locale], `page.${locale}.md`)
+    }
     const expected = node.structure.sections[locale]
     const actual = pages[locale].map(section => section.key)
     if (expected.length !== actual.length || expected.some((key, index) => key !== actual[index])) {
       throw new Error(`Unknown or out-of-order page section in ${directoryKey}/page.${locale}.md`)
     }
   }
-  return { directory, node, evidence, pages }
+  return { directory, node, evidence, pages, markdown }
+}
+
+/** Migration adapter only: return the complete stored aggregate without hydration. */
+export function readNodeDocument(directoryKey, root = process.cwd()) {
+  const stored = loadStoredNode(directoryKey, root)
+  return { node: stored.node, evidence: stored.evidence, pages: stored.markdown }
+}
+
+/** Validate a database aggregate without reading or writing the filesystem. */
+export function validateNodeAggregate(document) {
+  assertKeys(document, ['node', 'evidence', 'pages'], ['node', 'evidence', 'pages'], 'node aggregate')
+  assertNoUnsupportedValue(document, 'node aggregate')
+  validateNodeDocument(document.node)
+  if (document.evidence !== null) validateEvidenceDocument(document.evidence)
+  assertObject(document.pages, 'aggregate pages')
+  const pages = { en: [], zh: [] }
+  for (const [locale, markdown] of Object.entries(document.pages)) {
+    if (!LOCALES.includes(locale)) throw new Error(`Unsupported page locale: ${locale}`)
+    if (typeof markdown !== 'string') throw new Error(`pages.${locale} must be Markdown text`)
+    pages[locale] = parsePageMarkdown(markdown, `aggregate pages.${locale}`)
+  }
+  for (const locale of LOCALES) {
+    const expected = document.node.structure.sections[locale]
+    const actual = pages[locale].map(section => section.key)
+    if (expected.length !== actual.length || expected.some((key, index) => key !== actual[index])) {
+      throw new Error(`Unknown or out-of-order page section in aggregate pages.${locale}`)
+    }
+  }
+  validateFlatPageReferences({ pages, evidence: document.evidence })
+  return pages
+}
+
+/** Collect global bibliography bindings, including nested records and relationships.
+ * PBDB occurrence-native reference IDs remain in their original source namespace.
+ */
+export function collectNodeReferenceBindings(document, references) {
+  const refs = validateNodeReferenceBindings({ records: document.evidence?.records ?? {}, relationships: document.node.relationships }, references)
+  const bindings = new Map()
+  const token = value => String(value).replaceAll('~', '~0').replaceAll('/', '~1')
+  function add(id, pointer) {
+    if (typeof id !== 'string' || !refs.has(id)) throw new Error(`Unknown reference id: ${String(id)}`)
+    const list = bindings.get(id) ?? []
+    list.push({ pointer }); bindings.set(id, list)
+  }
+  function visit(value, pointer, parts = []) {
+    if (Array.isArray(value)) return value.forEach((item, index) => visit(item, pointer + '/' + index, [...parts, String(index)]))
+    if (!isObject(value)) return
+    if (Object.hasOwn(value, 'referenceId') && !isPbdbOccurrencePath(parts)) add(value.referenceId, pointer + '/referenceId')
+    if (Object.hasOwn(value, 'referenceIds')) {
+      if (!Array.isArray(value.referenceIds)) throw new Error('referenceIds must be an array')
+      value.referenceIds.forEach((id, index) => add(id, pointer + '/referenceIds/' + index))
+    }
+    for (const [key, child] of Object.entries(value)) visit(child, pointer + '/' + token(key), [...parts, key])
+  }
+  // Use the same path shape as validateNodeReferenceBindings for native PBDB IDs.
+  visit(document.evidence?.records ?? {}, '/evidence/records', ['records'])
+  visit(document.node.relationships, '/node/relationships', ['relationships'])
+  return bindings
 }
 
 function readReferenceDocument(root) {
@@ -701,10 +763,19 @@ function deriveReadingTitles(records, rawRecords, pages) {
 /** Read one new-format node and restore runtime business records. */
 export function readNodeContent(directoryKey, root = process.cwd()) {
   const stored = loadStoredNode(directoryKey, root)
+  return resolveValidatedNode(stored, readReferenceDocument(root))
+}
+
+/** The same reader projection for files, local Postgres and hosted Postgres. */
+export function resolveNodeDocument(document, references) {
+  const pages = validateNodeAggregate(document)
+  return resolveValidatedNode({ ...document, pages }, references)
+}
+
+function resolveValidatedNode(stored, references) {
   const records = stored.evidence?.records ?? {}
-  const references = readReferenceDocument(root)
   const refs = validateNodeReferenceBindings({ records, relationships: stored.node.relationships }, references)
-  const resolved = resolvePageReferences(records, stored.pages, directoryKey)
+  const resolved = resolvePageReferences(records, stored.pages, 'node aggregate')
   // Derive presentation fields on the resolved copy, avoiding another full
   // clone of potentially large evidence records while leaving stored data intact.
   deriveReadingTitles(resolved, records, stored.pages)

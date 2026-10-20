@@ -2,10 +2,12 @@ import assert from 'node:assert/strict'
 import {randomUUID} from 'node:crypto'
 import {mkdir,writeFile} from 'node:fs/promises'
 import {connect,PROJECT_ID,safeError} from './client.mjs'
+import {connectLocal} from './local-client.mjs'
 import {dependencySpec,putDependency} from './page-dependencies.mjs'
 import {sha256,stableJson} from './model.mjs'
 
-const client=await connect(),checks=[],suite='native-fixture/'+randomUUID()
+const local=process.argv.includes('--local')
+const client=await (local?connectLocal():connect()),checks=[],suite='native-fixture/'+randomUUID()
 async function pass(name,work){await work();checks.push({check:name,passed:true})}
 async function rejects(name,code,work){
   await client.query('SAVEPOINT negative_case');let actual
@@ -91,10 +93,12 @@ try{
   await rejects('Frozen taxonomy cannot gain hidden native rows','P0001',()=>client.query("INSERT INTO evo_v2.taxon_usage(release_id,usage_id,scientific_name,rank,status) VALUES($1,'new','Fixture','species','accepted')",[source]))
   await rejects('Frozen source checklists cannot gain hidden rows','P0001',()=>client.query("INSERT INTO evo_v2.source_checklist(release_id,source_dataset_id,metadata) VALUES($1,'new','{}')",[source]))
   await pass('Unknown taxon concept bridge remains a dataset context, without a fabricated taxon ID',async()=>{
-    const sourceRelease=(await client.query("SELECT id FROM evo_v2.source_release WHERE authority='Catalogue of Life' AND release_key='COL26.8'")).rows[0]
+    const releaseKey=local?'local-fixture-only':'COL26.8'
+    if(local)await client.query("INSERT INTO evo_v2.source_release(id,authority,release_key,metadata) VALUES($1,'Catalogue of Life',$2,'{\"fixtureOnly\":true}')",[randomUUID(),releaseKey])
+    const sourceRelease=(await client.query("SELECT id FROM evo_v2.source_release WHERE authority='Catalogue of Life' AND release_key=$1",[releaseKey])).rows[0]
     assert.ok(sourceRelease,'This native fixture requires the existing frozen COL baseline')
     const dataset=await put(spec('dataset','source-context-dataset',{},{source_release_id:sourceRelease.id}))
-    const scopedNode=randomUUID(),scopedRevision=randomUUID(),scoped={...document,node:{...document.node,identity:{kind:'fixture',classification:{authority:'Catalogue of Life',release:'COL26.8'},sourceIdentity:{conceptBridgeToCOL:'unknown'}}}}
+    const scopedNode=randomUUID(),scopedRevision=randomUUID(),scoped={...document,node:{...document.node,identity:{kind:'fixture',classification:{authority:'Catalogue of Life',release:releaseKey},sourceIdentity:{conceptBridgeToCOL:'unknown'}}}}
     await client.query("INSERT INTO evo_v2.content_node(id,kind) VALUES($1,'native-fixture')",[scopedNode])
     await client.query('INSERT INTO evo_v2.node_revision(id,node_id,content_sha256,document,created_by) VALUES($1,$2,$3,$4,$5)',[scopedRevision,scopedNode,sha256(stableJson({document:scoped,sourceFiles:{},deliveryBindings:[]})),scoped,actor])
     const context=await put(spec('node','source-context-node',{extractionCoverage:'complete'},{node_revision_id:scopedRevision},[{to:dataset.id,role:'classification'}]))
@@ -161,8 +165,8 @@ try{
     assert.ok(refs.some(row=>row.page_version_id===root.id&&row.release_id===pub.id&&row.workspace_id===workspace))
   })
   await client.query('ROLLBACK')
-  const report={status:'passed',projectId:PROJECT_ID,recordedAt:new Date().toISOString(),layer:'Native PostgreSQL transactions, constraints and functions; all synthetic rows rolled back',checks,productionCutover:false,limits:'No worker authentication, hosted API, real multi-computer network concurrency, browser publication or production acceptance claim.'}
+  const report={status:'passed',projectId:local?'local':PROJECT_ID,recordedAt:new Date().toISOString(),layer:'Native PostgreSQL transactions, constraints and functions; all synthetic rows rolled back',checks,productionCutover:false,limits:'No worker authentication, hosted API, real multi-computer network concurrency, browser publication or production acceptance claim.'}
   await mkdir(new URL('../.git/platform-v2/',import.meta.url),{recursive:true})
-  await writeFile(new URL('../.git/platform-v2/page-model-native.json',import.meta.url),JSON.stringify(report,null,2)+'\n')
+  await writeFile(new URL(local?'../.git/platform-v2/local/page-model-native.json':'../.git/platform-v2/page-model-native.json',import.meta.url),JSON.stringify(report,null,2)+'\n')
   console.log(JSON.stringify(report))
 }catch(error){await client.query('ROLLBACK').catch(()=>{});console.error(safeError(error));process.exitCode=1}finally{await client.end()}

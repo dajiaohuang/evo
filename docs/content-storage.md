@@ -11,6 +11,11 @@ closure after cutover. New scientific content will then be written through
 the authoring service, while Git retains code and schema. Until that verified
 cutover, the current file authority and bindings below remain in effect.
 
+The [local database authoring implementation](local-database-authoring.md)
+uses the same aggregate validator and reader projection as these files.
+New database drafts have no Git commit or generated delivery-path requirement;
+the historical file adapter remains available for migration.
+
 ## Canonical node files
 
 All authored node content lives in one physical directory:
