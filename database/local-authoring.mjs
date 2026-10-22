@@ -12,6 +12,9 @@ import {readLocalArtifact} from './local-artifacts.mjs'
 const arg=name=>{const i=process.argv.indexOf(name);return i<0?null:process.argv[i+1]}
 const command=process.argv[2],ownerId=arg('--owner'),actorId=arg('--actor')??ownerId
 assert.ok(ownerId,'--owner is required (local trusted operator; not an HTTP authentication mechanism)')
+let activeStore
+try{activeStore=JSON.parse(await readFile(new URL('active-store.json',LOCAL_DIRECTORY),'utf8'))}catch(error){if(error.code!=='ENOENT')throw error}
+assert.ok(activeStore?.engine!=='turso','Local authoring has moved to Turso; use database/turso-cli.mjs. PostgreSQL is retained read-only for recovery.')
 const client=await connectLocal()
 async function saveOutput(value){
   const output=arg('--out')

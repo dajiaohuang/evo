@@ -1,0 +1,951 @@
+[
+  {
+    "name": "artifact",
+    "columns": [
+      {
+        "name": "sha256",
+        "type": "text"
+      },
+      {
+        "name": "bytes",
+        "type": "bigint"
+      },
+      {
+        "name": "media_type",
+        "type": "text"
+      },
+      {
+        "name": "storage_locator",
+        "type": "text"
+      },
+      {
+        "name": "access",
+        "type": "text"
+      }
+    ],
+    "primaryKey": [
+      "sha256"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "authoring_workspace",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "owner_id",
+        "type": "text"
+      },
+      {
+        "name": "label",
+        "type": "text"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "change_set",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "candidate_sha256",
+        "type": "text"
+      },
+      {
+        "name": "base_release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "actor_id",
+        "type": "text"
+      },
+      {
+        "name": "actor_kind",
+        "type": "text"
+      },
+      {
+        "name": "idempotency_key",
+        "type": "text"
+      },
+      {
+        "name": "changes",
+        "type": "jsonb"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "channel",
+    "columns": [
+      {
+        "name": "name",
+        "type": "text"
+      },
+      {
+        "name": "release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "generation",
+        "type": "bigint"
+      },
+      {
+        "name": "updated_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "name"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "content_node",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "kind",
+        "type": "text"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "dependency_edge",
+    "columns": [
+      {
+        "name": "from_version_id",
+        "type": "uuid"
+      },
+      {
+        "name": "to_version_id",
+        "type": "uuid"
+      },
+      {
+        "name": "role",
+        "type": "text"
+      },
+      {
+        "name": "required",
+        "type": "boolean"
+      },
+      {
+        "name": "selectors",
+        "type": "jsonb"
+      }
+    ],
+    "primaryKey": [
+      "from_version_id",
+      "to_version_id",
+      "role"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "dependency_entity",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "kind",
+        "type": "text"
+      },
+      {
+        "name": "entity_key",
+        "type": "text"
+      },
+      {
+        "name": "identity",
+        "type": "jsonb"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "dependency_seal",
+    "columns": [
+      {
+        "name": "version_id",
+        "type": "uuid"
+      },
+      {
+        "name": "manifest_sha256",
+        "type": "text"
+      },
+      {
+        "name": "ready",
+        "type": "boolean"
+      },
+      {
+        "name": "blockers",
+        "type": "jsonb"
+      },
+      {
+        "name": "sealed_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "version_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "dependency_version",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "entity_id",
+        "type": "uuid"
+      },
+      {
+        "name": "kind",
+        "type": "text"
+      },
+      {
+        "name": "descriptor",
+        "type": "jsonb"
+      },
+      {
+        "name": "node_revision_id",
+        "type": "uuid"
+      },
+      {
+        "name": "reference_version_id",
+        "type": "bigint"
+      },
+      {
+        "name": "source_release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "taxon_usage_id",
+        "type": "text"
+      },
+      {
+        "name": "artifact_sha256",
+        "type": "text"
+      },
+      {
+        "name": "source_snapshot_sha256",
+        "type": "text"
+      },
+      {
+        "name": "created_by",
+        "type": "text"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "import_batch",
+    "columns": [
+      {
+        "name": "id",
+        "type": "text"
+      },
+      {
+        "name": "source_commit",
+        "type": "text"
+      },
+      {
+        "name": "payload_sha256",
+        "type": "text"
+      },
+      {
+        "name": "record_count",
+        "type": "integer"
+      },
+      {
+        "name": "committed_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "import_node_key",
+    "columns": [
+      {
+        "name": "source_commit",
+        "type": "text"
+      },
+      {
+        "name": "physical_key",
+        "type": "text"
+      },
+      {
+        "name": "node_id",
+        "type": "uuid"
+      },
+      {
+        "name": "revision_id",
+        "type": "uuid"
+      }
+    ],
+    "primaryKey": [
+      "source_commit",
+      "physical_key"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "import_reference_key",
+    "columns": [
+      {
+        "name": "source_commit",
+        "type": "text"
+      },
+      {
+        "name": "reference_id",
+        "type": "text"
+      },
+      {
+        "name": "reference_sha256",
+        "type": "text"
+      }
+    ],
+    "primaryKey": [
+      "source_commit",
+      "reference_id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "node_draft_head",
+    "columns": [
+      {
+        "name": "workspace_id",
+        "type": "uuid"
+      },
+      {
+        "name": "node_id",
+        "type": "uuid"
+      },
+      {
+        "name": "node_revision_id",
+        "type": "uuid"
+      },
+      {
+        "name": "generation",
+        "type": "bigint"
+      },
+      {
+        "name": "updated_by",
+        "type": "text"
+      },
+      {
+        "name": "updated_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "workspace_id",
+      "node_id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "node_revision",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "node_id",
+        "type": "uuid"
+      },
+      {
+        "name": "parent_revision_id",
+        "type": "uuid"
+      },
+      {
+        "name": "content_sha256",
+        "type": "text"
+      },
+      {
+        "name": "document",
+        "type": "jsonb"
+      },
+      {
+        "name": "source_files",
+        "type": "jsonb"
+      },
+      {
+        "name": "delivery_bindings",
+        "type": "jsonb"
+      },
+      {
+        "name": "origin_commit",
+        "type": "text"
+      },
+      {
+        "name": "created_by",
+        "type": "text"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      },
+      {
+        "name": "identity",
+        "type": "jsonb"
+      },
+      {
+        "name": "payload_artifact_sha256",
+        "type": "text"
+      },
+      {
+        "name": "payload_record_id",
+        "type": "uuid"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "outbox_job",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "idempotency_key",
+        "type": "text"
+      },
+      {
+        "name": "input_sha256",
+        "type": "text"
+      },
+      {
+        "name": "kind",
+        "type": "text"
+      },
+      {
+        "name": "payload",
+        "type": "jsonb"
+      },
+      {
+        "name": "state",
+        "type": "text"
+      },
+      {
+        "name": "lease_until",
+        "type": "timestamp with time zone"
+      },
+      {
+        "name": "receipt",
+        "type": "jsonb"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "page_draft_head",
+    "columns": [
+      {
+        "name": "workspace_id",
+        "type": "uuid"
+      },
+      {
+        "name": "page_entity_id",
+        "type": "uuid"
+      },
+      {
+        "name": "page_kind",
+        "type": "text"
+      },
+      {
+        "name": "page_version_id",
+        "type": "uuid"
+      },
+      {
+        "name": "generation",
+        "type": "bigint"
+      },
+      {
+        "name": "updated_by",
+        "type": "text"
+      },
+      {
+        "name": "updated_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "workspace_id",
+      "page_entity_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "page_release_seal",
+    "columns": [
+      {
+        "name": "release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "change_set_id",
+        "type": "uuid"
+      },
+      {
+        "name": "candidate_sha256",
+        "type": "text"
+      },
+      {
+        "name": "sealed_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "release_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "page_write_receipt",
+    "columns": [
+      {
+        "name": "request_id",
+        "type": "uuid"
+      },
+      {
+        "name": "operation",
+        "type": "text"
+      },
+      {
+        "name": "input_sha256",
+        "type": "text"
+      },
+      {
+        "name": "result",
+        "type": "jsonb"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "request_id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "publication_approval",
+    "columns": [
+      {
+        "name": "change_set_id",
+        "type": "uuid"
+      },
+      {
+        "name": "candidate_sha256",
+        "type": "text"
+      },
+      {
+        "name": "approved_by",
+        "type": "text"
+      },
+      {
+        "name": "approved_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "change_set_id",
+      "candidate_sha256"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "reference_revision",
+    "columns": [
+      {
+        "name": "reference_id",
+        "type": "text"
+      },
+      {
+        "name": "content_sha256",
+        "type": "text"
+      },
+      {
+        "name": "metadata",
+        "type": "jsonb"
+      },
+      {
+        "name": "origin_commit",
+        "type": "text"
+      },
+      {
+        "name": "version_id",
+        "type": "bigint"
+      }
+    ],
+    "primaryKey": [
+      "reference_id",
+      "content_sha256"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "release",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "manifest_sha256",
+        "type": "text"
+      },
+      {
+        "name": "origin_commit",
+        "type": "text"
+      },
+      {
+        "name": "manifest",
+        "type": "jsonb"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "release_item",
+    "columns": [
+      {
+        "name": "release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "node_id",
+        "type": "uuid"
+      },
+      {
+        "name": "revision_id",
+        "type": "uuid"
+      }
+    ],
+    "primaryKey": [
+      "release_id",
+      "node_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "release_page",
+    "columns": [
+      {
+        "name": "release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "page_entity_id",
+        "type": "uuid"
+      },
+      {
+        "name": "page_kind",
+        "type": "text"
+      },
+      {
+        "name": "page_version_id",
+        "type": "uuid"
+      }
+    ],
+    "primaryKey": [
+      "release_id",
+      "page_entity_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "release_reference",
+    "columns": [
+      {
+        "name": "release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "reference_id",
+        "type": "text"
+      },
+      {
+        "name": "reference_sha256",
+        "type": "text"
+      }
+    ],
+    "primaryKey": [
+      "release_id",
+      "reference_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "revision_dependency",
+    "columns": [
+      {
+        "name": "revision_id",
+        "type": "uuid"
+      },
+      {
+        "name": "reference_version_id",
+        "type": "bigint"
+      }
+    ],
+    "primaryKey": [
+      "revision_id",
+      "reference_version_id"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "schema_migration",
+    "columns": [
+      {
+        "name": "version",
+        "type": "text"
+      },
+      {
+        "name": "sha256",
+        "type": "text"
+      },
+      {
+        "name": "applied_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "version"
+    ],
+    "authoring": true
+  },
+  {
+    "name": "source_checklist",
+    "columns": [
+      {
+        "name": "release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "source_dataset_id",
+        "type": "text"
+      },
+      {
+        "name": "metadata",
+        "type": "jsonb"
+      }
+    ],
+    "primaryKey": [
+      "release_id",
+      "source_dataset_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "source_release",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "authority",
+        "type": "text"
+      },
+      {
+        "name": "release_key",
+        "type": "text"
+      },
+      {
+        "name": "metadata",
+        "type": "jsonb"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "source_snapshot",
+    "columns": [
+      {
+        "name": "sha256",
+        "type": "text"
+      },
+      {
+        "name": "bytes",
+        "type": "bigint"
+      },
+      {
+        "name": "media_type",
+        "type": "text"
+      },
+      {
+        "name": "storage_locator",
+        "type": "text"
+      },
+      {
+        "name": "access",
+        "type": "text"
+      },
+      {
+        "name": "provenance",
+        "type": "jsonb"
+      }
+    ],
+    "primaryKey": [
+      "sha256"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "taxon_usage",
+    "columns": [
+      {
+        "name": "release_id",
+        "type": "uuid"
+      },
+      {
+        "name": "usage_id",
+        "type": "text"
+      },
+      {
+        "name": "scientific_name",
+        "type": "text"
+      },
+      {
+        "name": "authorship",
+        "type": "text"
+      },
+      {
+        "name": "rank",
+        "type": "text"
+      },
+      {
+        "name": "status",
+        "type": "text"
+      },
+      {
+        "name": "parent_id",
+        "type": "text"
+      },
+      {
+        "name": "accepted_id",
+        "type": "text"
+      },
+      {
+        "name": "source_dataset_id",
+        "type": "text"
+      },
+      {
+        "name": "in_hierarchy",
+        "type": "boolean"
+      }
+    ],
+    "primaryKey": [
+      "release_id",
+      "usage_id"
+    ],
+    "authoring": false
+  },
+  {
+    "name": "validation_run",
+    "columns": [
+      {
+        "name": "id",
+        "type": "uuid"
+      },
+      {
+        "name": "change_set_id",
+        "type": "uuid"
+      },
+      {
+        "name": "candidate_sha256",
+        "type": "text"
+      },
+      {
+        "name": "validator_version",
+        "type": "text"
+      },
+      {
+        "name": "passed",
+        "type": "boolean"
+      },
+      {
+        "name": "receipt",
+        "type": "jsonb"
+      },
+      {
+        "name": "created_at",
+        "type": "timestamp with time zone"
+      }
+    ],
+    "primaryKey": [
+      "id"
+    ],
+    "authoring": false
+  }
+]

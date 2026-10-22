@@ -8,7 +8,7 @@ import {resolveNodeDocument,createContentReferenceCatalogue} from '../scripts/no
 const uuid=/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/
 const hash=/^[0-9a-f]{64}$/
 function conflict(message){const error=new Error(message);error.code='40001';throw error}
-function checkRequest(request){
+export function checkRequest(request){
   const keys=['requestId','workspaceId','nodeId','expectedGeneration','baseRevisionId','document','referenceVersions']
   assert.deepEqual(Object.keys(request).sort(),keys.sort(),'Draft request must contain only the content contract fields')
   for(const key of ['requestId','workspaceId','nodeId'])assert.match(request[key]??'',uuid,'Invalid '+key)

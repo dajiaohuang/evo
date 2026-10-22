@@ -1,5 +1,7 @@
 # Evo 数据平台
 
+本机当前使用[本地 Turso 服务与 CLI](../docs/local-turso-authoring.md)，原 PostgreSQL 基线保留用于恢复。以下原平台说明不代表本地发布/云服务已切换。
+
 PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务；私有 Blob 保存完整且不可变的正文、证据和来源。目标结构、创作流程、切换条件见 [数据与创作方案](../docs/evo-data-platform-v2.md)。页面及完整依赖的新结构、发布约束和 worker 草稿事务见 [页面依赖模型](../docs/page-dependency-model.md)。网页审核台及生产读取切换尚未实施。
 
 本地数据库改造、完整节点基线与不依赖 Git 的日常草稿操作，使用 [本地数据库创作](../docs/local-database-authoring.md)。日常流程是 `checkout → 编辑 document → submit → receipt/read`；下面的 Git 导出和云上传属于一次性历史迁移工具。

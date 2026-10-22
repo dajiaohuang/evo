@@ -15,6 +15,7 @@
     "graph:verify": "node --env-file=../.env.local verify-page-index.mjs"
   },
   "dependencies": {
+    "@tursodatabase/database": "0.8.3",
     "@vercel/blob": "2.8.2",
     "pg": "8.23.1",
     "pg-copy-streams": "7.0.0",

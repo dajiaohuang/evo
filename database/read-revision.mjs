@@ -7,6 +7,11 @@ import {sha256,stableJson} from './model.mjs'
 const cache=new Map()
 export async function readRevision(client,revisionId,{readArtifact}={}){
   const row=(await client.query(`SELECT r.*,a.storage_locator,a.bytes::text AS artifact_bytes,a.access FROM evo_v2.node_revision r LEFT JOIN evo_v2.artifact a ON a.sha256=r.payload_artifact_sha256 WHERE r.id=$1`,[revisionId])).rows[0]
+  return readRevisionRow(row,revisionId,{readArtifact})
+}
+
+/** Shared payload verification for PostgreSQL and the local Turso store. */
+export async function readRevisionRow(row,revisionId,{readArtifact}={}){
   assert.ok(row,'Unknown revision')
   if(row.document){
     assert.equal(sha256(stableJson({document:row.document,sourceFiles:row.source_files,deliveryBindings:row.delivery_bindings})),row.content_sha256)

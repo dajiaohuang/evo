@@ -1,5 +1,7 @@
 # 本地数据库创作
 
+**2026-10-22 本机入口已切换到[本地 Turso 创作](local-turso-authoring.md)。** 下文保留 PostgreSQL 基线和原接口的历史说明；当前 Worker 使用 `database/turso-cli.mjs`。原 PostgreSQL 已停止并保留，不能按旧命令重新双写。
+
 日常创作使用数据库修订和短事务。Git 只管理代码、schema 与说明；本轮的新正文、草稿、压缩对象和操作回执全部留在忽略的 `.git/platform-v2/local/`。现有公开应用继续使用规范文件／静态发布；本地验证完成不等于已经切换生产。
 
 ## 精简后的内容边界
