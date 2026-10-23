@@ -131,7 +131,10 @@ const staticPageFiles = files.filter((path) => {
 const staticPageSet = new Set(staticPageFiles)
 const staticPageBytes = size(staticPageFiles)
 if (staticPageBytes > 80 * 1024 * 1024) failures.push(`static knowledge publication is ${(staticPageBytes / 1024 / 1024).toFixed(2)} MiB; limit is 80 MiB`)
-const appFiles = files.filter((path) => !relativePath(path).startsWith('data/') && !staticPageSet.has(path))
+// On-demand reading payloads are content data, while the reader HTML/JS/CSS
+// still count toward the application shell budget.
+const readingDataFiles = new Set(files.filter((path) => /^nodes\/.*\.json(?:\.gz)?$/.test(relativePath(path))))
+const appFiles = files.filter((path) => !relativePath(path).startsWith('data/') && !readingDataFiles.has(path) && !staticPageSet.has(path))
 if (size(appFiles) > 20 * 1024 * 1024) failures.push(`application shell is ${(size(appFiles) / 1024 / 1024).toFixed(2)} MiB; target is 20 MiB`)
 
 if (failures.length) {
