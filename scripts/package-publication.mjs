@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict'
 import { createHash } from 'node:crypto'
-import { createReadStream, existsSync, lstatSync, readdirSync, readFileSync, statSync, writeFileSync } from 'node:fs'
+import { cpSync, createReadStream, existsSync, lstatSync, mkdtempSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
-import { join, resolve, relative, isAbsolute, sep } from 'node:path'
+import { dirname, join, resolve, relative, isAbsolute, sep } from 'node:path'
 
 const index = process.argv.indexOf('--out')
 assert.ok(index >= 0, '--out is required')
@@ -28,9 +28,13 @@ function walk(path) {
   }
 }
 walk('dist')
-// bsdtar on the native Windows build host; only the generated dist tree enters
-// the archive. The rename supplies the existing deployment wrapper's evo prefix.
-execFileSync('tar', ['-czf', archive, '--options', 'gzip:compression-level=6', '-s', ',^dist,evo,', 'dist'], { stdio: 'inherit' })
+// Windows bsdtar lacks -s path transformation. Stage only the verified regular
+// dist files under the deployment wrapper's evo prefix.
+const staging = mkdtempSync(join(dirname(archive), 'publication-stage-'))
+cpSync(resolve('dist'), join(staging, 'evo'), { recursive: true, errorOnExist: true })
+execFileSync('tar', ['-czf', archive, '--options', 'gzip:compression-level=6', '-C', staging, 'evo'], { stdio: 'inherit' })
+assert.equal(dirname(staging), dirname(archive))
+rmSync(staging, { recursive: true })
 const hash = createHash('sha256')
 for await (const chunk of createReadStream(archive)) hash.update(chunk)
 const tag = `vercel-20261023-${sha.slice(0, 12)}`
