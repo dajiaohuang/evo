@@ -29,6 +29,10 @@ and dataset version. Preserve the previous artifact; do not replace an
 existing release asset with different bytes. Deploy again after those fields
 match the new output.
 
+For the complete local database reading collection, also follow
+[full reading publication](full-reading-publication.md). A normal canonical
+file build alone does not publish current Turso drafts.
+
 The archive must contain generated public site files only. Local previews,
 candidate/review folders and credentials are not deployment inputs. Verify the
 production entry point, `/evo/release.json`, `/evo/data/current.json`, and actual

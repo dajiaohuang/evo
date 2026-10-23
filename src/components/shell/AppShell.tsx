@@ -86,6 +86,7 @@ export function AppShell({ route, onNavigate, children, immersive = false, focus
               {language === 'zh' ? item.labelZh : item.label}
             </button>
           ))}
+          {frontendContract.edition === 'full-web' && <a className="full-reading-link" href={`/evo/nodes/?lang=${language}`} target="_blank" rel="noreferrer">{language === 'zh' ? '全部页面' : 'All pages'} ↗</a>}
           {(
             <button className="focused-tools-trigger" aria-expanded={showMoreTools} onClick={() => setShowMoreTools((open) => !open)}>
               {language === 'zh' ? showMoreTools ? '收起更多页面' : '更多页面' : showMoreTools ? 'Close more pages' : 'Open more pages'}

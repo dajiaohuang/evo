@@ -109,7 +109,8 @@
   transition: color 160ms ease, background 160ms ease;
 }
 
-.topbar__nav button:hover,
+  .topbar__nav .full-reading-link { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; color: var(--color-accent); font-size: 12px; text-decoration: none; white-space: nowrap; flex: 0 0 auto; }
+  .topbar__nav button:hover,
 .topbar__nav button.is-active {
   color: var(--color-text);
   background: var(--color-surface-raised);

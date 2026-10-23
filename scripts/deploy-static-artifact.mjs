@@ -50,6 +50,16 @@ const release = JSON.parse(readFileSync(join(output, 'evo/release.json'), 'utf8'
 if (runtime.edition !== 'full-web' || runtime.datasetVersion !== artifact.datasetVersion || release.deploymentCommitSha !== artifact.sourceCommit) {
   throw new Error('The artifact edition, dataset or source commit does not match its descriptor')
 }
+if (artifact.fullReading) {
+  const bytes = readFileSync(join(output, 'evo/nodes/manifest.json'))
+  const reading = JSON.parse(bytes)
+  if (createHash('sha256').update(bytes).digest('hex') !== artifact.fullReading.manifestSha256
+    || !reading.complete || reading.nodes !== artifact.fullReading.nodes
+    || reading.languagePages !== artifact.fullReading.languagePages
+    || reading.snapshotAt !== artifact.fullReading.snapshotAt) {
+    throw new Error('The full reading publication differs from its verified snapshot')
+  }
+}
 
 // Static document metadata should identify the host that serves this artifact.
 // Scientific runtime payloads retain their original bytes and checksums.
