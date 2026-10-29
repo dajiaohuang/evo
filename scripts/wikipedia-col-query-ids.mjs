@@ -22,12 +22,14 @@ const limit = argument('--batches', 100), batchSize = argument('--batch-size', 2
 assert.ok(Number.isSafeInteger(limit) && limit > 0 && limit <= 1000)
 assert.ok(Number.isSafeInteger(batchSize) && batchSize > 0 && batchSize <= 5000)
 const next = db.prepare("SELECT l.id,n.name FROM col_id_lookups l JOIN nodes n ON n.id=l.id JOIN names s ON s.name=n.name WHERE l.status='pending' AND s.status='queried' LIMIT ?")
+const unresolvedNext = db.prepare("SELECT l.id,n.name FROM col_id_lookups l JOIN nodes n ON n.id=l.id JOIN names s ON s.name=n.name WHERE l.status='pending' AND s.status='queried' AND s.candidates_json='[]' LIMIT ?")
 const readName = db.prepare('SELECT candidates_json FROM names WHERE name=?')
 const updateName = db.prepare('UPDATE names SET candidates_json=?, abstract_queue_version=0 WHERE name=?')
 const mark = db.prepare("UPDATE col_id_lookups SET status='queried',checked_at=? WHERE id=? AND status='pending'")
 let batches = 0, checked = 0, lastStart = 0, requestSize = batchSize, successfulBatches = 0
 for (; batches < limit; batches++) {
-  const rows = next.all(requestSize)
+  let rows = unresolvedNext.all(requestSize)
+  if (!rows.length) rows = next.all(requestSize)
   if (!rows.length) break
   const query = `SELECT ?id ?item ?rank ?col ?parentName ?article WHERE { VALUES ?id { ${rows.map(row => JSON.stringify(row.id)).join(' ')} } ?item wdt:P10585 ?id. OPTIONAL { ?item wdt:P105 ?rank. } OPTIONAL { ?item wdt:P10585 ?col. } OPTIONAL { ?item wdt:P171 ?parent. ?parent wdt:P225 ?parentName. } OPTIONAL { ?article schema:about ?item; schema:isPartOf ?site. FILTER(REGEX(STR(?site), '^https://[a-z0-9-]+[.]wikipedia[.]org/$')) } }`
   const delay = Math.max(0, 1200 - (Date.now() - lastStart))
