@@ -80,7 +80,7 @@ if (artifact.overlay) {
     const localManifest = join(output, 'evo/wikipedia/col/manifest.json')
     const manifestBytes = existsSync(localManifest) ? readFileSync(localManifest) : Buffer.from(await (async () => {
       const source = new URL(overlay.catalogueOrigin + 'manifest.json')
-      if (source.href !== 'https://raw.githubusercontent.com/dajiaohuang/evo/evo-wikipedia-data/manifest.json') throw new Error('Invalid catalogue data origin')
+      if (!/^https:\/\/raw\.githubusercontent\.com\/dajiaohuang\/evo\/(?:evo-wikipedia-data|[a-f0-9]{40})\/manifest\.json$/.test(source.href)) throw new Error('Invalid catalogue data origin')
       const response = await fetch(source, { signal: AbortSignal.timeout(30000) })
       if (!response.ok) throw new Error(`Catalogue data origin HTTP ${response.status}`)
       return response.arrayBuffer()
