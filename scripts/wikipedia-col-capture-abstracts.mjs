@@ -6,7 +6,7 @@ db.exec('PRAGMA busy_timeout=10000')
 const index = process.argv.indexOf('--batches')
 const limit = index < 0 ? 50 : Number(process.argv[index + 1])
 assert.ok(Number.isSafeInteger(limit) && limit >= 1 && limit <= 1000)
-const nextLocale = db.prepare("SELECT locale FROM article_jobs WHERE status='pending' GROUP BY locale ORDER BY CASE locale WHEN 'zh' THEN 0 WHEN 'en' THEN 1 ELSE 2 END, locale LIMIT 1")
+const nextLocale = db.prepare("SELECT locale FROM article_jobs WHERE status='pending' GROUP BY locale ORDER BY CASE WHEN locale=? THEN 0 WHEN ?='other' AND locale NOT IN ('zh','en') THEN 0 ELSE 1 END, COUNT(*) DESC, locale LIMIT 1")
 const nextJobs = db.prepare("SELECT url,item_id FROM article_jobs WHERE status='pending' AND locale=? ORDER BY rowid LIMIT 20")
 const getLicense = db.prepare('SELECT label,url FROM wiki_licenses WHERE locale=?')
 const insertLicense = db.prepare('INSERT INTO wiki_licenses(locale,label,url) VALUES(?,?,?)')
@@ -25,7 +25,8 @@ async function request(locale, query) {
   return data
 }
 for (; batches < limit; batches++) {
-  const locale = nextLocale.get()?.locale
+  const preferredLocale = ['zh', 'en', 'other'][batches % 3]
+  const locale = nextLocale.get(preferredLocale, preferredLocale)?.locale
   if (!locale) break
   assert.match(locale, /^[a-z0-9-]+$/)
   let license = getLicense.get(locale)
