@@ -65,6 +65,7 @@ export function GlobalSearch({ onNavigate }: GlobalSearchProps) {
       void searchStaticData(normalized, 16, controller.signal).then((entries) => {
         if (cancelled) return
         setStaticResults(entries.filter((entry) => {
+          if (entry.kind === 'story' || (entry.route && parseRouteHash(entry.route).route === 'stories')) return false
           if (!Object.hasOwn(searchKinds, entry.kind) || !entry.route || !isKnownRouteHash(entry.route)) return false
           if (!isPagesPreview) return true
           const parsed = parseRouteHash(entry.route)

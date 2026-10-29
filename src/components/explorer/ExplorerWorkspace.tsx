@@ -95,8 +95,8 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
   const context = useMemo(() => ({
     profile: initialRoute.params.get('profile'),
     event: initialRoute.params.get('event'),
-    story: initialRoute.params.get('story'),
-    step: initialRoute.params.get('step'),
+    story: null,
+    step: null,
     older: getFiniteRouteNumber(initialRoute.params, 'older'),
     younger: getFiniteRouteNumber(initialRoute.params, 'younger'),
   }), [initialRoute])

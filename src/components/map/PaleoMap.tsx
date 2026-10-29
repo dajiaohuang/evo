@@ -7,7 +7,6 @@ import { observationsToGeoJson, visibleCaoObservations } from '../../utils/caoOb
 import { resolvePaleotopographyFrame, runtimeDataUrl } from '../../data-client/staticDataClient'
 import { ProjectedMap } from './ProjectedMap'
 import { vectorShapes, observationPoints, type MapShape, type MapPoint } from './mapScene'
-import { TemporalPackageCards } from './TemporalPackageCards'
 import { useI18n } from '../../i18n'
 import { CAO_OBSERVATION_DATASET_IDS, type CaoObservationDatasetId, type CaoObservationRecord, type FossilOccurrence, type PaleogeographyLayerId } from '../../types'
 import type { RuntimeMapObservationDataset } from '../../data-client/types'
@@ -256,7 +255,6 @@ export function PaleoMap() {
         {showPaleotopography && paleotopographyAvailable && paleotopographyFrame && <div style={{ marginTop: 2, color: '#d7c88b', fontSize: 9 }}>{t('PALEOMAP nearest archive frame {archive} Ma · internal description age {internal}', { archive: paleotopographyFrame.archiveNominalAgeMa, internal: paleotopographyFrame.internalDescriptionAgeMa === null ? t('not stated') : `${paleotopographyFrame.internalDescriptionAgeMa} Ma` })}</div>}
       </div>
 
-      <TemporalPackageCards ageMa={currentAge} />
 
       <div className="map-layer-control" aria-label={t('Map layer controls')}>
         <span>{t('Coordinates')}</span>

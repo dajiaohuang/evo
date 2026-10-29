@@ -16,7 +16,6 @@ interface AppShellProps {
 
 const navItems: Array<{ route: AppRoute; label: string; labelZh: string; activeRoutes: AppRoute[] }> = [
   { route: 'home', label: 'Paleomap', labelZh: '古地图', activeRoutes: ['home', 'explore'] },
-  { route: 'stories', label: 'Read', labelZh: '阅读', activeRoutes: ['stories'] },
   { route: 'catalog', label: 'Groups & species', labelZh: '类群与物种', activeRoutes: ['catalog', 'registry', 'taxa', 'events'] },
   { route: 'research', label: 'Tools', labelZh: '工具', activeRoutes: ['research', 'compare', 'lab'] },
 ]

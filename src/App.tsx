@@ -13,20 +13,14 @@ import './atlas-fullscreen.css'
 
 const ExplorerWorkspace = lazy(() => import('./components/explorer/ExplorerWorkspace')
   .then((module) => ({ default: module.ExplorerWorkspace })))
-const ReadingArticle = lazy(() => import('./components/reading/ReadingPages')
-  .then((module) => ({ default: module.ReadingArticle })))
 const InformationPage = lazy(() => import('./components/reading/InformationPage')
   .then((module) => ({ default: module.InformationPage })))
 const EventPage = lazy(() => import('./components/catalog/CatalogPages')
   .then((module) => ({ default: module.EventPage })))
-const StoriesPage = lazy(() => import('./components/catalog/CatalogPages')
-  .then((module) => ({ default: module.StoriesPage })))
 const ComparePage = lazy(() => import('./components/workbench/WorkbenchPages')
   .then((module) => ({ default: module.ComparePage })))
 const LabPage = lazy(() => import('./components/workbench/WorkbenchPages')
   .then((module) => ({ default: module.LabPage })))
-const CatalogHubPage = lazy(() => import('./components/pages/PortalPages')
-  .then((module) => ({ default: module.CatalogHubPage })))
 const ResearchHubPage = lazy(() => import('./components/pages/PortalPages')
   .then((module) => ({ default: module.ResearchHubPage })))
 
@@ -114,21 +108,16 @@ export default function App() {
     }
 
     const id = routeState.params.get('id')
-    if (route === 'stories' && routeState.params.has('reading')) {
+    if (route === 'stories') {
+      applyMetadata(language === 'zh' ? '专题暂时下线' : 'Topics are temporarily offline', fallbackDescription, '')
+    } else if (id && (route === 'taxa' || route === 'events')) {
       applyMetadata(null, fallbackDescription, '')
-      void import('../data/reading-guides.json').then(({ default: guides }) => {
-        const guide = guides.find(entry => entry.id === routeState.params.get('reading'))
-        if (guide) applyMetadata(guide.title[language], guide.dek[language], `read/${guide.id}/`)
-      })
-    } else if (id && (route === 'taxa' || route === 'events' || route === 'stories')) {
-      applyMetadata(null, fallbackDescription, '')
-      void import('./services/catalog').then(({ getEvolutionEvent, getEvolutionStory, getTaxonProfile }) => {
+      void import('./services/catalog').then(({ getEvolutionEvent, getTaxonProfile }) => {
         const profile = route === 'taxa' ? getTaxonProfile(id) : null
         const event = route === 'events' ? getEvolutionEvent(id) : null
-        const story = route === 'stories' ? getEvolutionStory(id) : null
-        const entityTitle = profile?.scientificName ?? (event ? (language === 'zh' ? event.titleZh : event.title) : story ? (language === 'zh' ? story.titleZh : story.title) : null)
-        const description = profile?.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? profile?.overview ?? event?.summary ?? story?.dek ?? fallbackDescription
-        const staticPath = profile ? `taxa/${staticPathSegment(profile.id)}/` : event ? `events/${encodeURIComponent(event.id)}/` : story ? `stories/${encodeURIComponent(story.id)}/` : ''
+        const entityTitle = profile?.scientificName ?? (event ? (language === 'zh' ? event.titleZh : event.title) : null)
+        const description = profile?.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? profile?.overview ?? event?.summary ?? fallbackDescription
+        const staticPath = profile ? `taxa/${staticPathSegment(profile.id)}/` : event ? `events/${encodeURIComponent(event.id)}/` : ''
         applyMetadata(entityTitle, description, staticPath)
       })
     } else {
@@ -156,7 +145,11 @@ export default function App() {
   let page
   if (previewLocked) page = <PagesPreviewGate />
   else if (exploring) page = null
-  else if (route === 'catalog') page = <CatalogHubPage onNavigate={navigate} />
+  else if (route === 'catalog') page = <section style={{ padding: 24 }}>
+    <h1>{language === 'zh' ? '类群与物种' : 'Groups and species'}</h1>
+    <p>{language === 'zh' ? '在物种树中选择名称，查看 Wikipedia 条目。' : 'Select a name in the species tree to open its Wikipedia article.'}</p>
+    <button type="button" onClick={() => navigate('home', { view: 'tree' })}>{language === 'zh' ? '打开物种树' : 'Open species tree'}</button>
+  </section>
   else if (route === 'registry' || route === 'taxa' || route === 'pbdb') page = <section style={{ padding: 24 }}>
     <h1>{language === 'zh' ? '节点页面暂时下线' : 'Node pages are temporarily offline'}</h1>
     <p>{language === 'zh' ? '请在物种树中点击名称，在浮窗阅读 Wikipedia 摘要或打开完整条目。' : 'Select a name in the species tree to preview Wikipedia or open the full article.'}</p>
@@ -165,8 +158,10 @@ export default function App() {
   else if (route === 'research') page = <ResearchHubPage onNavigate={navigate} />
   else if (route === 'info') page = <InformationPage params={routeState.params} onNavigate={navigate} />
   else if (route === 'events') page = <EventPage id={routeState.params.get('id')} onNavigate={navigate} />
-  else if (route === 'stories' && routeState.params.has('reading')) page = <ReadingArticle id={routeState.params.get('reading') ?? ''} onNavigate={navigate} />
-  else if (route === 'stories') page = <StoriesPage id={routeState.params.get('id')} params={routeState.params} onNavigate={navigate} />
+  else if (route === 'stories') page = <section style={{ padding: 24 }}>
+    <h1>{language === 'zh' ? '专题暂时下线' : 'Topics are temporarily offline'}</h1>
+    <button type="button" onClick={() => navigate('home')}>{language === 'zh' ? '返回古地图' : 'Return to the map'}</button>
+  </section>
   else if (route === 'compare') page = <ComparePage params={routeState.params} onNavigate={navigate} />
   else if (route === 'lab') page = <LabPage params={routeState.params} onNavigate={navigate} />
   else page = null
