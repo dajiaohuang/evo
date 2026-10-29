@@ -23,6 +23,7 @@ const queryName = db.prepare('SELECT status,candidates_json FROM names WHERE nam
 const parentName = db.prepare('SELECT name FROM nodes WHERE id=?')
 const article = db.prepare('SELECT item_id,status,snapshot_json FROM article_jobs WHERE url=?')
 const exactTitle = db.prepare('SELECT status,snapshot_json FROM exact_title_jobs WHERE name=?')
+const dumpedTitle = db.prepare('SELECT title FROM exact_english_titles WHERE name=?')
 db.exec('BEGIN')
 const stats = { totalNodes: manifest.hierarchy.counts.nodes, queriedNodes: 0, pendingNodes: 0, matchedWithAbstract: 0,
   matchedAwaitingAbstract: 0, matchedWithoutSitelink: 0, candidatesWithAbstract: 0, candidatesAwaitingAbstract: 0, ambiguous: 0, unresolved: 0 }
@@ -45,8 +46,12 @@ for (const source of manifest.hierarchy.nodes.files) {
     const identity = classify({ ...row, parentName: row.parentId ? parentName.get(row.parentId)?.name : undefined }, candidates)
     const fallback = exactTitle.get(name)
     const fallbackSnapshot = fallback?.status === 'available' && fallback.snapshot_json ? JSON.parse(fallback.snapshot_json) : null
+    const titleCandidate = !['ambiguous', 'unavailable'].includes(fallback?.status) ? dumpedTitle.get(name)?.title : undefined
+    const titleCandidateUrl = titleCandidate ? `https://en.wikipedia.org/wiki/${encodeURIComponent(titleCandidate)}` : undefined
     const fallbackOption = fallbackSnapshot ? { item: fallbackSnapshot.wikidataItem ? `https://www.wikidata.org/entity/${fallbackSnapshot.wikidataItem}` : `Wikipedia:${fallbackSnapshot.title}`,
-      parentNames: [], ranks: [], url: fallbackSnapshot.url, abstracts: [fallbackSnapshot] } : null
+      parentNames: [], ranks: [], url: fallbackSnapshot.url, abstracts: [fallbackSnapshot] }
+      : titleCandidateUrl && article.get(titleCandidateUrl)?.status !== 'identity-conflict' ? { item: `Wikipedia:${titleCandidate}`, parentNames: [], ranks: [],
+        url: titleCandidateUrl, abstracts: [] } : null
     if (identity.status === 'unresolved' && fallbackOption) {
       entries[row.id] = { status: 'candidate', options: [fallbackOption] }
       stats.candidatesWithAbstract++
