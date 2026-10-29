@@ -60,5 +60,5 @@ delete descriptor.fullReading
 delete descriptor.files
 delete descriptor.unpackedBytes
 writeFileSync('deployment-artifact.json', JSON.stringify(descriptor, null, 2) + '\n')
-writeFileSync(join(local, 'release-notes.md'), `Wikipedia tree update: ${map.uniqueNames} atlas names checked; catalogue coverage ${catalogue?.stats?.queriedNodes ?? 0} / ${catalogue?.stats?.totalNodes ?? 0} nodes. This is ${catalogue?.status ?? 'atlas-only'} coverage, with unmatched nodes remaining unassessed. Summaries are stored locally with their original Wikipedia attribution and revision. Reuses the existing immutable scientific-data artifact with a verified UI and link-table overlay.\n`)
+writeFileSync(join(local, 'release-notes.md'), `Wikipedia tree update: ${map.uniqueNames} atlas names checked; catalogue coverage ${catalogue?.stats?.queriedNodes ?? 0} / ${catalogue?.stats?.totalNodes ?? 0} nodes. This is ${catalogue?.status ?? 'atlas-only'} coverage, with unmatched nodes remaining unassessed. The window uses links without fetching abstracts. Reuses the existing immutable scientific-data artifact with a verified UI and link-table overlay.\n`)
 console.log(JSON.stringify({ tag, archive, sourceCommit: sha, overlay: descriptor.overlay }))

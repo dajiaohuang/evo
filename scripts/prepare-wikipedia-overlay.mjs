@@ -19,7 +19,8 @@ await build({ configFile: 'vite.config.ts', publicDir: false, build: { outDir: u
 const evo = join(overlay, 'evo')
 mkdirSync(evo, { recursive: true })
 cpSync(ui, evo, { recursive: true })
-cpSync('public/wikipedia', join(evo, 'wikipedia'), { recursive: true })
+cpSync('public/wikipedia', join(evo, 'wikipedia'), { recursive: true,
+  filter: source => !source.endsWith('abstracts.json') })
 const snapshotIndex = process.argv.indexOf('--catalogue-snapshot')
 if (snapshotIndex >= 0) {
   const snapshot = resolve(process.argv[snapshotIndex + 1])
