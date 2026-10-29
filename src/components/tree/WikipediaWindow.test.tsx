@@ -12,7 +12,7 @@ beforeEach(() => {
 afterEach(() => { cleanup(); vi.unstubAllGlobals() })
 
 it('resolves redirects to the canonical article and renders summary as text', async () => {
-  vi.mocked(wikipediaSummary).mockResolvedValue({ status: 'ready', title: 'Human', extract: 'Human summary', url: 'https://en.wikipedia.org/wiki/Human', locale: 'en' })
+  vi.mocked(wikipediaSummary).mockResolvedValue({ status: 'ready', title: 'Human', extract: 'Human summary', url: 'https://en.wikipedia.org/wiki/Human', locale: 'en', scope: undefined })
   const close = vi.fn()
   render(<WikipediaWindow name="Homo sapiens" onClose={close} />)
   expect(await screen.findByText('Human summary')).toBeTruthy()
