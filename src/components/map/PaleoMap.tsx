@@ -6,6 +6,11 @@ import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../
 import { observationsToGeoJson, visibleCaoObservations } from '../../utils/caoObservations'
 import { resolvePaleotopographyFrame, runtimeDataUrl } from '../../data-client/staticDataClient'
 import { ProjectedMap } from './ProjectedMap'
+import { NodeMapPanel } from './NodeMapPanel'
+import { nodeMapScene } from './nodeMapScene'
+import { useNodeMap } from '../../hooks/useNodeMap'
+import { useNodeMapStore } from '../../store/nodeMapStore'
+import type { NodeMapResult } from '../../types/nodeMap'
 import { vectorShapes, observationPoints, type MapShape, type MapPoint } from './mapScene'
 import { useI18n } from '../../i18n'
 import { CAO_OBSERVATION_DATASET_IDS, type CaoObservationDatasetId, type CaoObservationRecord, type FossilOccurrence, type PaleogeographyLayerId } from '../../types'
@@ -70,7 +75,10 @@ function formatObservationPositions(positions: CaoObservationRecord['sourcePosit
 }
 
 export function PaleoMap() {
-  const { number, t } = useI18n()
+  const { number, t, language } = useI18n()
+  const [nodeGridColumns, setNodeGridColumns] = useState(72)
+  const [pickedNodePoint, setPickedNodePoint] = useState<{ result: NodeMapResult; point: MapPoint['nodeMap'] } | null>(null)
+  const nodeMode = useNodeMapStore(state => state.mode)
   const [showTrajectory, setShowTrajectory] = useState(false)
   const [showMapPanels, setShowMapPanels] = useState(false)
   const [showPlatePolygons, setShowPlatePolygons] = useState(true)
@@ -167,6 +175,10 @@ export function PaleoMap() {
   const anyLayerLoading = landLayerLoading || requestedPaleogeographyLayers.some((layerId) => loadingLayers[layerId])
   const visibleLayerErrors = requestedPaleogeographyLayers.flatMap((layerId) => layerErrors[layerId] ? [[layerId, layerErrors[layerId]] as const] : [])
   const primaryMapSelection = mapSelections.coastlines ?? mapSelections.platePolygons ?? mapSelections.plateBoundaries
+  const coastlineSelection = mapSelections.coastlines
+  const nodeMap = useNodeMap(coastlineSelection?.frame.sha256 ? {
+    ageMa: coastlineSelection.selectedAgeMa, sha256: coastlineSelection.frame.sha256,
+  } : null, showContinents && coordinateMode === 'paleo' && !showPaleotopography && Boolean(layers.coastlines), nodeGridColumns)
   const paleotopographyCollection = mapManifest?.paleotopography
   const paleotopographyFrame = useMemo(
     () => paleotopographyCollection ? resolvePaleotopographyFrame(paleotopographyCollection, currentAge) : null,
@@ -210,19 +222,28 @@ export function PaleoMap() {
     return result
   }, [layers, requestedPaleogeographyLayers, showTrajectory, trajectory, t])
   const mapObservations = useMemo(() => observationPoints(visibleObservationRecords), [visibleObservationRecords])
+  const nodeScene = useMemo(() => nodeMapScene(nodeMap.result, nodeMap.dataset, nodeMode, language === 'zh'), [nodeMap.result, nodeMap.dataset, nodeMode, language])
+  const combinedShapes = useMemo(() => [...shapes, ...nodeScene.shapes], [shapes, nodeScene.shapes])
 
   return (
     <div className="paleo-map" style={{ height: '100%', width: '100%', position: 'relative' }}>
       <ProjectedMap
         projectionId={mapProjection} view={viewState} onViewChange={setViewState} onProjectionChange={setMapProjection}
         panelsVisible={showMapPanels} onTogglePanels={() => setShowMapPanels((visible) => !visible)}
-        shapes={shapes} fossils={NO_FOSSIL_MARKERS} observations={mapObservations} markerMode={markerMode}
+        shapes={combinedShapes} fossils={NO_FOSSIL_MARKERS} observations={mapObservations} nodePoints={nodeScene.points} markerMode={markerMode}
         onSelect={(point) => {
           if (point.observation) setSelectedObservation(point.observation)
+          if (point.nodeMap && nodeMap.result) {
+            setPickedNodePoint({ result: nodeMap.result, point: point.nodeMap })
+            useNodeMapStore.getState().setOpen(true)
+          }
         }}
         terrain={showPaleotopography && paleotopographyCollection && paleotopographyFrame ? { collection: paleotopographyCollection, frame: paleotopographyFrame } : undefined}
         onTerrainStatus={handlePaleotopographyStatus}
       />
+
+      <NodeMapPanel model={nodeMap} requestedAge={currentAge} gridColumns={nodeGridColumns} setGridColumns={setNodeGridColumns}
+        picked={pickedNodePoint?.result === nodeMap.result ? pickedNodePoint?.point ?? null : null} />
 
       <div hidden={!showMapPanels}>
       <div style={{

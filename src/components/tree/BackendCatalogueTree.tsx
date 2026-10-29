@@ -15,6 +15,7 @@ import './BackendCatalogueTree.css'
 import { WikipediaWindow } from './WikipediaWindow'
 import { loadStaticTreeRoots, loadStaticTreeChildren, loadStaticTreePath, searchStaticTree } from '../../data-client/catalogueTreeSource'
 import { loadCatalogueWikipediaManifest } from '../../services/wikipedia'
+import { useNodeMapStore } from '../../store/nodeMapStore'
 
 const ROW_HEIGHT = 44
 const OVERSCAN_ROWS = frontendContract.tree.overscanRows
@@ -300,6 +301,7 @@ export function BackendCatalogueTree({ onExit, source = 'backend' }: { onExit?: 
                 <span><i>{displayedName(row.node)}</i>{row.node.authorship && <small>{row.node.authorship}</small>}</span>
                 <small>{row.node.rank} · {number(row.node.childCount)} {zh ? '子级' : 'children'}</small>
               </a>
+              <button type="button" className="backend-tree__map" onClick={() => useNodeMapStore.getState().select(row.node.id, displayedName(row.node))} aria-label={`${zh ? '在古地图查看' : 'View on ancient map'} ${displayedName(row.node)}`}>{zh ? '地图' : 'Map'}</button>
             </div>
           })}
         </div>

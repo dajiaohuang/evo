@@ -1,0 +1,15 @@
+# Node-map local snapshot
+
+The active manifest is `public/node-map/manifest.json`; its frame URLs include an immutable revision directory. Load and SHA-verify its shared `members` file once, then merge its membership into each SHA-verified frame before querying. Each shard includes all identified occurrences whose age intersects its declared `datasetWindow` and all unknown-age occurrences. Query only within that window. Coastline SHA-256 and exact frame age must match. Fossil data is a non-random bounded PBDB prefix sample, not a complete fossil record or evidence of living-taxon absence.
+
+The 12 files under `data/fossils` are the frozen occurrence inventory. The PBDB reader index in the current runtime, `pbdb-exact-20261029-v2` responses and `pbdb-parent-closure-20261029` responses provide hash-verified recorded taxon identities and parent IDs. `pbdb-occurrence-audit-20261029` contains exact lookups for the 306 source occurrences lacking taxon IDs: all report taxon not entered. `tree-evidence-<tree hash>.json` associates each included parent assertion with its source; self-only nodes use occurrence evidence. There is no COL crosswalk. Missing identities and incomplete parent chains remain in `public/node-map/ledger.json`. A parent chain outside the combined frozen PBDB identity inventory is not extrapolated; a record with no parent ID is a recorded endpoint, not proof of a biological root. Coordinates are reconstructed from the pinned CAO2024 v2.4 static polygons and rotations using pyGPlates 1.0.0, anchor 0. Missing plate properties are not interpreted as plate 0, and a missing rotation circuit is marked failed rather than treated as identity or modern coordinates.
+
+On this machine the extracted model is in `.git/platform-v2/local/node-map/model`, and the private Python dependencies are in `.git/platform-v2/local/node-map/python`. Rebuild to a new SQLite path, because an existing snapshot is never overwritten:
+
+```powershell
+rtk proxy py -3.13 scripts/node-map-populate.py --model-root .git/platform-v2/local/node-map/model --pygplates-path .git/platform-v2/local/node-map/python --db .git/platform-v2/local/node-map/new-snapshot.sqlite
+```
+
+The source files must match the hashes in `scripts/reconstruct_cao2024_offline.py`; the official GPlates CAO2024 WebDAV `Rotations.zip` and `StaticPolygons.zip` contain the required files. The frozen batch manifests contain exact requested identifiers, response URLs, returned and rejected identifiers, and raw response hashes. The active SQLite readback is `.git/platform-v2/local/node-map/snapshot-v8.sqlite`. `scripts/node-map-verify.py` checks all shards against that database and the independent `repeat-v8` build. `scripts/node-map-test-reconstruction.py` tests missing circuits and plate IDs and compares coordinates with v7. The repeat build used the same generator arguments with separate `--db` and `--output` paths.
+
+The prior flat frame files and prior immutable revision were generated during development and are not referenced by the active manifest. They remain present pending cleanup review.

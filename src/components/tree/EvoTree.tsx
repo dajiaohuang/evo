@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useEffectEvent, useMemo, useRef, useState } from 'react'
 import * as d3 from 'd3'
 import { useAppStore } from '../../store'
+import { useNodeMapStore } from '../../store/nodeMapStore'
 import type { TreeNode } from '../../types'
 import treeData from '../../../data/navigation/atlas-ontology.json'
 import perissodactylHypothesisData from '../../../data/packages/mammalia/perissodactyla/phylogeny/hypothesis.json'
@@ -517,6 +518,9 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
           : 'Dimmed nodes remain for context; select a name to preview Wikipedia.'}
       </p>}
       <div className="tree-overlay-control" role="group" aria-label={t('Tree overlays and focus')}>
+        <button disabled={!selectedSourceNode} onClick={() => {
+          if (selectedSourceNode) useNodeMapStore.getState().select(selectedSourceNode.taxonId ?? selectedSourceNode.id, selectedSourceNode.name)
+        }}>{language === 'zh' ? '在古地图查看' : 'View on ancient map'}</button>
         {eventError && eventOverlay && <span role="alert">{language === 'zh' ? '事件图层暂不可用' : 'Event overlay unavailable'}</span>}
         <button disabled={!selectedSourceNode?.children?.length} onClick={toggleSelectedCollapse}>{t(selectedSourceNode && collapsedIds.has(selectedSourceNode.id) ? 'Expand selected clade' : 'Collapse selected clade')}</button>
         <button className={traceLineage ? 'is-active' : ''} aria-pressed={traceLineage} disabled={!selectedNodeId} onClick={() => setTraceLineage((current) => !current)}>{t('Lineage trace')}</button>

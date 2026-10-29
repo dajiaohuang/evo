@@ -20,6 +20,7 @@ interface Props {
   shapes: MapShape[]
   fossils: MapPoint[]
   observations: MapPoint[]
+  nodePoints?: MapPoint[]
   markerMode: FossilMarkerMode
   onSelect: (point: MapPoint) => void
   terrain?: { collection: RuntimePaleotopographyCollection; frame: RuntimePaleotopographyFrame }
@@ -31,7 +32,9 @@ interface ShapeHit { path: Path2D; shape: MapShape }
 const graticule = geoGraticule10()
 const projectionPath = () => Object.assign(new Path2D(), { beginPath() {} })
 
-export function ProjectedMap({ projectionId, view, onViewChange, onProjectionChange, panelsVisible, onTogglePanels, shapes, fossils, observations, markerMode, onSelect, terrain, onTerrainStatus }: Props) {
+const NO_NODE_POINTS: MapPoint[] = []
+
+export function ProjectedMap({ projectionId, view, onViewChange, onProjectionChange, panelsVisible, onTogglePanels, shapes, fossils, observations, nodePoints = NO_NODE_POINTS, markerMode, onSelect, terrain, onTerrainStatus }: Props) {
   const { t, number, language } = useI18n()
   const hostRef = useRef<HTMLDivElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -185,7 +188,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
         label: t('{count} sampled occurrences', { count: points.length }),
       }).concat(rawFossils.filter((point) => point.radius === 7))
     }
-    const points = [...project(observations), ...displayedFossils]
+    const points = [...project(observations), ...displayedFossils, ...project(nodePoints)]
     const pointsFinished = performance.now()
     for (const point of points) {
       context.beginPath()
@@ -197,6 +200,14 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
       context.globalAlpha = .9
       context.lineWidth = point.radius === 7 ? 2 : .7
       context.stroke()
+      if (point.nodeMap && point.nodeMap.count > 1) {
+        context.globalAlpha = 1
+        context.fillStyle = '#172628'
+        context.font = 'bold 11px system-ui'
+        context.textAlign = 'center'
+        context.textBaseline = 'middle'
+        context.fillText(String(point.nodeMap.count), point.x, point.y)
+      }
     }
     context.globalAlpha = 1
     hitsRef.current = { points, shapes: shapeHits }
@@ -205,10 +216,11 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     canvas.dataset.center = camera.center.join(',')
     canvas.dataset.zoom = String(camera.zoom)
     canvas.dataset.pointCount = String(points.length)
+    canvas.dataset.nodePointCount = String(nodePoints.length)
     canvas.dataset.renderMs = (performance.now() - started).toFixed(2)
     canvas.dataset.phases = [gridFinished - started, shapesFinished - gridFinished, pointsFinished - shapesFinished, performance.now() - pointsFinished].map((value) => value.toFixed(2)).join(',')
     canvas.dataset.inputLatencyMs = latestInputTime.current ? (performance.now() - latestInputTime.current).toFixed(2) : '0'
-  }, [camera, size, projection, projectionId, shapes, movingShapes, interacting, fossils, observations, markerMode, terrain, t])
+  }, [camera, size, projection, projectionId, shapes, movingShapes, interacting, fossils, observations, nodePoints, markerMode, terrain, t])
 
   function hitAt(x: number, y: number): { point?: MapPoint; label: string } | null {
     for (const point of [...hitsRef.current.points].reverse()) {
@@ -222,7 +234,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
       context.lineWidth = Math.max(shape.width, 6)
       if (context.isPointInStroke(path, x, y) || (shape.fill && context.isPointInPath(path, x, y))) {
         context.restore()
-        return { label: shape.label! }
+        return { label: shape.label!, point: shape.point }
       }
     }
     context.restore()

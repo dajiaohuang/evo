@@ -23,6 +23,7 @@ export function PbdbSourceTree({ id, index, zh, onOpen }: {
     && `${entry.identity.scientificName} ${entry.pbdbTaxonId}`.toLowerCase().includes(query.toLowerCase()))
   return <details className="node-reading__methods pbdb-source-tree">
     <summary>{zh ? 'PBDB 来源分类中的位置' : 'Position in the PBDB source classification'}</summary>
+    <a href={`#/home?mapNode=${encodeURIComponent(id)}`}>{zh ? '在古地图查看此类群' : 'View this taxon on the ancient map'}</a>
     <p>{zh ? '枝条表示来源记录的分类父级关系；它们不指定直接祖先或研究得到的系统发育关系。' : 'Branches show parent relationships in the source classification; they do not identify direct ancestors or a study-derived phylogeny.'}</p>
     <nav aria-label={zh ? '来源分类父链' : 'Source classification parent chain'}>{lineage.map(entry => <button key={entry.pbdbTaxonId} type="button" onClick={() => onOpen(entry)}>{entry.identity.scientificName} →</button>)}</nav>
     {parentId && !byId.has(parentId as `txn:${number}`) && <p>{zh ? '更上级的来源标识：' : 'Higher source identifier: '}{parentId}</p>}

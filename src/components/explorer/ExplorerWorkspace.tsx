@@ -2,6 +2,7 @@ import { Activity, lazy, Suspense, useEffect, useEffectEvent, useMemo, useRef, u
 import treeData from '../../../data/navigation/atlas-ontology.json'
 import manifest from '../../../data/manifest.json'
 import { useAppStore } from '../../store'
+import { useNodeMapStore } from '../../store/nodeMapStore'
 import type { TreeDisplayMode, TreeNode } from '../../types'
 import type { FossilMarkerMode } from '../../store/mapSlice'
 import type { CoordinateMode } from '../../utils/spatial'
@@ -101,6 +102,22 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
     younger: getFiniteRouteNumber(initialRoute.params, 'younger'),
   }), [initialRoute])
   const [view, setView] = useState<ExplorerView>(initialView)
+  const mapSelection = useNodeMapStore(state => state.selection)
+  const mapSelectionSequence = useNodeMapStore(state => state.selectionSequence)
+  const previousMapSelection = useRef(mapSelectionSequence)
+  const revealNodeMap = useEffectEvent(() => setView('map'))
+  useEffect(() => {
+    if (mapSelectionSequence !== previousMapSelection.current) {
+      previousMapSelection.current = mapSelectionSequence
+      revealNodeMap()
+    }
+  }, [mapSelectionSequence])
+  const requestedMapNode = params.get('mapNode')
+  useEffect(() => {
+    if (requestedMapNode && useNodeMapStore.getState().selection?.id !== requestedMapNode) {
+      useNodeMapStore.getState().select(requestedMapNode, requestedMapNode)
+    }
+  }, [requestedMapNode])
   const [treeFocus, setTreeFocus] = useState<TreeFocusRequest | null>(null)
   const focusSequence = useRef(0)
   const [visitedViews, setVisitedViews] = useState(() => new Set<ExplorerView>([initialView]))
@@ -252,6 +269,7 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
       age: currentAge.toFixed(1),
       view,
       taxon: selectedNodeId,
+      mapNode: mapSelection?.id,
       profile: context.profile,
       event: context.event,
       story: context.story,
@@ -276,7 +294,7 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
     historySelection.current = selection
     if (window.location.hash !== hash) window.history[method](window.history.state, '', `${window.location.pathname}${window.location.search}${hash}`)
     appliedHash.current = hash
-  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, mapProjection, mapContentMode, markerMode, returnToMap, returnToReading, selectedNodeId, selectedOccurrence?.oid, syncRoute, treeMode, view, viewState])
+  }, [context, coordinateMode, currentAge, dashboard, datasetAccepted, hydratedRoute, initialRoute, mapProjection, mapContentMode, markerMode, mapSelection, returnToMap, returnToReading, selectedNodeId, selectedOccurrence?.oid, syncRoute, treeMode, view, viewState])
 
   const chooseNode = (node: FlatNode) => {
     if (isPagesPreview && !isPreviewTaxonAllowed(node.id)) return

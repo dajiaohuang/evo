@@ -59,6 +59,7 @@
 .backend-tree__toggle { flex: 0 0 26px; width: 26px; height: 28px; margin-right: 3px; padding: 0; border: 0; background: transparent; color: var(--color-accent); font-size: 18px; line-height: 1; cursor: pointer; }
 .backend-tree__name { display: flex; align-items: center; justify-content: space-between; gap: 20px; min-width: 0; width: 100%; padding-right: 18px; color: var(--color-text-muted); text-decoration: none; }
 .backend-tree__name:hover, .backend-tree__name:focus-visible { color: var(--color-accent-soft); }
+.backend-tree__map { flex: 0 0 auto; min-height: 36px; margin-right: 8px; padding: 6px 10px; border: 1px solid var(--color-border); border-radius: 6px; color: var(--color-accent); background: var(--color-surface); cursor: pointer; }
 .backend-tree__name > span { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
 .backend-tree__name i { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font: 11px var(--font-serif); }
 .backend-tree__name span small { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--color-text-faint); font: 8px var(--font-serif); }

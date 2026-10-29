@@ -7,6 +7,7 @@ import { reconstructedObservationPosition } from '../../utils/caoObservations'
 import { sphericalMapCollection } from '../../utils/projectionGeometry'
 
 export interface MapShape {
+  point?: MapPoint
   geometry: GeoPermissibleObjects
   stroke: string
   width: number
@@ -18,6 +19,7 @@ export interface MapShape {
 }
 
 export interface MapPoint {
+  nodeMap?: { recordIds: string[]; nodeIds: string[]; count: number }
   position: [number, number]
   color: string
   radius: number
