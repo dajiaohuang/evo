@@ -10,9 +10,10 @@ import { useI18n } from '../../i18n'
 import { localizedProfileText } from '../../i18n/profileText'
 import { getTaxonProfile, taxonProfiles } from '../../services/catalogProfiles'
 import type { EvolutionEvent, TaxonProfile } from '../../types/catalog'
-import { isPagesPreview, isPreviewTaxonAllowed } from '../../config/pagesPreview'
+import { isPagesPreview } from '../../config/pagesPreview'
 import { isBackendConfigured } from '../../data-client/backendClient'
 import { BackendCatalogueTree } from './BackendCatalogueTree'
+import { WikipediaWindow } from './WikipediaWindow'
 import './EvoTree.css'
 import { canLocateTreeNode, treePath, treeScope } from './treeScope'
 
@@ -80,6 +81,8 @@ function downloadTree(node: TreeNode, format: 'newick' | 'nexus') {
 
 export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, onModeChange, focusRequest }: EvoTreeProps = {}) {
   const { language, t } = useI18n()
+  const [wikipediaName, setWikipediaName] = useState<string | null>(null)
+  const [clickedNodeId, setClickedNodeId] = useState<string | null>(null)
   const svgRef = useRef<SVGSVGElement>(null)
   const cameras = useRef(new Map<TreeMode, d3.ZoomTransform>())
   const scene = useRef<{ mode: TreeMode; rootId: string; zoom: d3.ZoomBehavior<SVGSVGElement, unknown>; points: Map<string, [number, number]>; width: number; height: number; fit: d3.ZoomTransform } | null>(null)
@@ -106,8 +109,7 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
   const setMode = onModeChange ?? setStoredMode
   const currentAge = useAppStore((state) => state.currentAge)
   const storedSelection = useAppStore((state) => state.selectedNodeId)
-  const selectedNodeId = selectionId === undefined ? storedSelection : selectionId
-  const selectSubject = useAppStore((state) => state.selectSubject)
+  const selectedNodeId = selectionId === undefined ? clickedNodeId ?? storedSelection : selectionId
   const alternativeNodes = useMemo(() => flattenNodes(sourceTree, []), [sourceTree])
   const traitOptions = useMemo(() => {
     const visibleNodeIds = new Set(alternativeNodes.map((node) => node.id))
@@ -145,11 +147,12 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
   const unavailableLabel = t('Unavailable')
 
   const handleNodeClick = (nodeId: string) => {
-    if (isPagesPreview && !isPreviewTaxonAllowed(nodeId)) return
-    if (onSelectNode) { onSelectNode(nodeId); return }
-    const node = findNode([treeData as TreeNode], nodeId)
+    const node = findNode([sourceTree], nodeId)
+      ?? findNode([treeData as TreeNode], nodeId)
       ?? findNode([perissodactylHypothesisData.root as TreeNode], nodeId)
-    void selectSubject({ nodeId, taxonId: node?.taxonId })
+    if (node) setWikipediaName(node.name)
+    setClickedNodeId(nodeId)
+    if (onSelectNode) onSelectNode(nodeId)
   }
 
   const focusNode = useCallback((nodeId: string) => {
@@ -229,10 +232,10 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
         .attr('transform', (_node, index) => `translate(0,${67 + index * rowHeight})`)
         .attr('role', 'treeitem')
         .attr('tabindex', 0)
-        .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
+        
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-        .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer')
-        .style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : inLineage(node) ? 1 : .05)
+        .style('cursor', 'pointer')
+        .style('opacity', (node) => inLineage(node) ? 1 : .05)
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -284,9 +287,9 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
           return `rotate(${point.x * 180 / Math.PI - 90}) translate(${point.y},0)`
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
-        .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
+        
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-        .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer').style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : nodeOpacity(node))
+        .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -337,9 +340,9 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
           return `translate(${xFor(point)},${yFor(point)})`
         })
         .attr('role', 'treeitem').attr('tabindex', 0)
-        .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
+        
         .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-        .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer').style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : nodeOpacity(node, .3))
+        .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .3))
         .on('click', (_event, node) => handleNodeClick(node.data.id))
         .on('keydown', (event: KeyboardEvent, node) => {
           if (event.key !== 'Enter' && event.key !== ' ') return
@@ -379,9 +382,9 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
     const nodes = g.selectAll<SVGGElement, d3.HierarchyNode<TreeNode>>('g.node').data(root.descendants()).join('g').attr('class', 'node')
       .attr('transform', (node) => `translate(${node.x},${node.y})`)
       .attr('role', 'treeitem').attr('tabindex', 0)
-      .attr('aria-disabled', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'true' : null)
+      
       .attr('aria-label', (node) => `${nodeLabel(node.data)}: ${rangeLabel(node.data, t('present'), t('Unavailable'))}`)
-      .style('cursor', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? 'not-allowed' : 'pointer').style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : nodeOpacity(node, .2))
+      .style('cursor', 'pointer').style('opacity', (node) => nodeOpacity(node, .2))
       .on('click', (_event, node) => handleNodeClick(node.data.id))
       .on('keydown', (event: KeyboardEvent, node) => {
         if (event.key !== 'Enter' && event.key !== ' ') return
@@ -416,7 +419,7 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
       .attr('aria-expanded', (node) => node.data.children?.length ? String(!collapsedIds.has(node.data.id)) : null)
       .attr('tabindex', function () { return this === tabTarget ? 0 : -1 })
       .classed('is-selected', (node) => node.data.id === selectedNodeId)
-      .style('opacity', (node) => isPagesPreview && !isPreviewTaxonAllowed(node.data.id) ? .42 : !inLineage(node) ? .05 : scopeNodeId || mode === 'fossil-range' || activeAt(node.data, currentAge) ? 1 : .22)
+      .style('opacity', (node) => !inLineage(node) ? .05 : scopeNodeId || mode === 'fossil-range' || activeAt(node.data, currentAge) ? 1 : .22)
       .on('keydown', (event: KeyboardEvent, node) => {
         const elements = nodes.nodes()
         const index = elements.indexOf(event.currentTarget as SVGGElement)
@@ -485,6 +488,7 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
 
   return (
     <div className={`evo-tree evo-tree--${mode}${scopeNodeId ? ' evo-tree--local' : ''}`}>
+      {wikipediaName && <WikipediaWindow key={wikipediaName} name={wikipediaName} onClose={() => setWikipediaName(null)} />}
       {!scopeNodeId && isBackendConfigured() && <button type="button" className="tree-backend-control" onClick={() => setBackendTreeView(true)}>{language === 'zh' ? '打开全量分类树' : 'Open full catalogue tree'}</button>}
       <div className="tree-mode-control" role="group" aria-label={t('Tree time model')}>
         <span>{t('Tree model')}</span>
@@ -507,8 +511,8 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
       </div>}
       {isPagesPreview && <p className="tree-preview-note" role="note">
         {language === 'zh'
-          ? '预览版中的灰显节点仅用于上下文，精选资源包之外的完整档案请使用完整版 Web。'
-          : 'Dimmed nodes remain for context; full dossiers outside the selected resource packages are available in the full Web edition.'}
+          ? '预览版中的灰显节点仅用于上下文，点击名称可在浮窗查看 Wikipedia。'
+          : 'Dimmed nodes remain for context; select a name to preview Wikipedia.'}
       </p>}
       <div className="tree-overlay-control" role="group" aria-label={t('Tree overlays and focus')}>
         {eventError && eventOverlay && <span role="alert">{language === 'zh' ? '事件图层暂不可用' : 'Event overlay unavailable'}</span>}
@@ -529,7 +533,7 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
           <table>
             <caption>{t('Tree nodes and represented fossil ranges')}</caption>
             <thead><tr><th>{t('Node')}</th><th>{t('Rank')}</th><th>{t('Range')}</th><th>{t('At current time')}</th></tr></thead>
-            <tbody>{alternativeNodes.map((node) => <tr key={node.id}><td>{nodeLabel(node)}</td><td>{t(node.rank ?? 'not applicable')}</td><td>{rangeLabel(node, t('present'), t('Unavailable'))}</td><td>{t(activeAt(node, currentAge) ? 'yes' : 'no')}</td></tr>)}</tbody>
+            <tbody>{alternativeNodes.map((node) => <tr key={node.id}><td><button type="button" onClick={() => handleNodeClick(node.id)}>{nodeLabel(node)} ↗ Wikipedia</button></td><td>{t(node.rank ?? 'not applicable')}</td><td>{rangeLabel(node, t('present'), t('Unavailable'))}</td><td>{t(activeAt(node, currentAge) ? 'yes' : 'no')}</td></tr>)}</tbody>
           </table>
         </div>
       </details>
@@ -559,6 +563,7 @@ function drawNodes(
   presentLabel: string,
   unavailableLabel: string,
 ) {
+  nodes.attr('data-node-id', (node) => node.data.id)
   nodes.append('circle').attr('r', (node) => node.data.id === selectedNodeId ? 6.5 : 4.5)
     .attr('fill', (node) => node.data.extinct ? '#8b949e' : '#58a6ff')
     .attr('stroke', (node) => node.data.id === selectedNodeId ? '#ffd700' : 'none')

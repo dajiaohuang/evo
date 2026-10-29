@@ -12,6 +12,11 @@ import {
 import { useI18n } from '../../i18n'
 import { frontendContract } from '../../platform/frontendContract'
 import './BackendCatalogueTree.css'
+import { WikipediaWindow } from './WikipediaWindow'
+
+function wikipediaUrl(name: string) {
+  return `https://en.wikipedia.org/wiki/${encodeURIComponent(name.replaceAll(' ', '_'))}`
+}
 
 const ROW_HEIGHT = 44
 const OVERSCAN_ROWS = frontendContract.tree.overscanRows
@@ -75,6 +80,7 @@ function flattenRows(
 }
 
 export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
+  const [wikipediaName, setWikipediaName] = useState<string | null>(null)
   const { language } = useI18n()
   const zh = language === 'zh'
   const scrollRef = useRef<HTMLDivElement>(null)
@@ -229,6 +235,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
 
   return (
     <section className="backend-tree" aria-label={zh ? '全量分类树' : 'Full catalogue tree'}>
+      {wikipediaName && <WikipediaWindow key={wikipediaName} name={wikipediaName} onClose={() => setWikipediaName(null)} />}
       <div className="backend-tree__top">
         <header className="backend-tree__header">
           <div>
@@ -251,7 +258,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
         </label>
 
         <nav className="backend-tree__path" aria-label={zh ? '分类路径' : 'Taxon path'}>
-          {path.map((node, index) => <span key={node.id}>{index > 0 && <i aria-hidden="true">/</i>}<a href={`#/registry?release=${encodeURIComponent(capabilities.treeIndex.releaseAlias)}&id=${encodeURIComponent(node.id)}`}>{displayedName(node)}</a></span>)}
+          {path.map((node, index) => <span key={node.id}>{index > 0 && <i aria-hidden="true">/</i>}<a href={wikipediaUrl(displayedName(node))} onClick={event => { event.preventDefault(); setWikipediaName(displayedName(node)) }}>{displayedName(node)}</a></span>)}
         </nav>
 
         {query.trim().length >= 3 && <div className="backend-tree__results" aria-live="polite">
@@ -278,7 +285,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
               <button type="button" className="backend-tree__toggle" onClick={() => toggleNode(row.node)} aria-label={row.node.childCount ? (isExpanded ? (zh ? '折叠' : 'Collapse') : (zh ? '展开' : 'Expand')) : (zh ? '选择' : 'Select')}>
                 {row.node.childCount ? (isExpanded ? '⌄' : '›') : '·'}
               </button>
-              <a className="backend-tree__name" href={`#/registry?release=${encodeURIComponent(capabilities.treeIndex.releaseAlias)}&id=${encodeURIComponent(row.node.id)}`} onClick={() => { pathRequestGeneration.current += 1; pathRequestTarget.current = null; setPath([]); setSelectedId(row.node.id) }}>
+              <a className="backend-tree__name" href={wikipediaUrl(displayedName(row.node))} onClick={(event) => { event.preventDefault(); setWikipediaName(displayedName(row.node)); pathRequestGeneration.current += 1; pathRequestTarget.current = null; setPath([]); setSelectedId(row.node.id) }}>
                 <span><i>{displayedName(row.node)}</i>{row.node.authorship && <small>{row.node.authorship}</small>}</span>
                 <small>{row.node.rank} · {number(row.node.childCount)} {zh ? '子级' : 'children'}</small>
               </a>

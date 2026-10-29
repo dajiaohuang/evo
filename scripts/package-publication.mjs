@@ -17,7 +17,7 @@ const reading = JSON.parse(readingBytes)
 const sha = execFileSync('git', ['rev-parse', 'HEAD'], { encoding: 'utf8' }).trim()
 assert.equal(release.deploymentCommitSha, sha)
 assert.equal(release.datasetVersion, current.datasetVersion)
-assert.equal(current.edition, 'full-web'); assert.equal(reading.complete, true)
+assert.equal(current.edition, 'full-web'); assert.equal(reading.status, 'paused')
 let files = 0, unpackedBytes = 0
 function walk(path) {
   for (const name of readdirSync(path)) {
@@ -37,13 +37,13 @@ assert.equal(dirname(staging), dirname(archive))
 rmSync(staging, { recursive: true })
 const hash = createHash('sha256')
 for await (const chunk of createReadStream(archive)) hash.update(chunk)
-const tag = `vercel-20261023-${sha.slice(0, 12)}`
+const tag = `vercel-${new Date().toISOString().slice(0, 10).replaceAll('-', '')}-${sha.slice(0, 12)}`
 const descriptor = {
   schemaVersion: 1, url: `https://github.com/dajiaohuang/evo/releases/download/${tag}/evo-site.tar.gz`,
   sha256: hash.digest('hex'), bytes: statSync(archive).size, sourceCommit: sha, releaseTargetCommit: sha,
   datasetVersion: current.datasetVersion, edition: current.edition, files, unpackedBytes,
   packagedAt: new Date().toISOString(),
-  fullReading: { manifestSha256: createHash('sha256').update(readingBytes).digest('hex'), nodes: reading.nodes, languagePages: reading.languagePages, snapshotAt: reading.snapshotAt },
+  nodePages: { status: 'paused', replacement: 'wikipedia', manifestSha256: createHash('sha256').update(readingBytes).digest('hex') },
 }
 writeFileSync('deployment-artifact.json', JSON.stringify(descriptor, null, 2) + '\n')
 console.log(JSON.stringify({ archive, tag, ...descriptor }))

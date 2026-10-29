@@ -1,0 +1,9 @@
+.wikipedia-window { width: min(680px, calc(100vw - 24px)); max-height: 85dvh; box-sizing: border-box; padding: 0; border: 1px solid #657383; border-radius: 16px; background: #151d28; color: #eef3f8; box-shadow: 0 24px 80px #0009; overflow: auto; }
+.wikipedia-window::backdrop { background: #0007; }
+.wikipedia-window header { display: flex; justify-content: space-between; gap: 16px; padding: 24px; border-bottom: 1px solid #657383; }
+.wikipedia-window h2 { margin: 6px 0; overflow-wrap: anywhere; }
+.wikipedia-window header button { min-width: 44px; height: 44px; font-size: 24px; }
+.wikipedia-window__body { padding: 12px 24px 24px; line-height: 1.8; white-space: pre-line; overflow-wrap: anywhere; }
+.wikipedia-window small { color: #b6c6d6; }
+.wikipedia-window footer { padding: 16px 24px; border-top: 1px solid #657383; }
+.wikipedia-window a { color: #8cc9ff; display: inline-flex; align-items: center; min-height: 44px; }

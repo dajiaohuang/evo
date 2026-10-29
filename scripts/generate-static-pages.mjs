@@ -334,6 +334,10 @@ function issueUrl({ entityId = null, claimId = null, pageUrl }) {
 }
 
 function pageHtml({ language, title, description, path, alternatePath, type = 'WebPage', robots = 'index,follow', jsonLd = {}, breadcrumbs = [], body, mapControls = false, directoryControls = false }) {
+  if (/^(?:zh\/)?(?:taxa|pbdb)\/[^/]+\/$/.test(path)) {
+    const name = title.split(' · ').at(-1)
+    return `<!doctype html><html lang="${language}"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>${escapeHtml(title)} — Wikipedia</title><link rel="stylesheet" href="${basePath}/static.css"></head><body><main class="page"><h1>${escapeHtml(name)}</h1><p>${language === 'zh' ? '原节点页面暂时下线。请在物种树中打开 Wikipedia 浮窗。' : 'The original node page is temporarily offline. Select a name in the tree to preview Wikipedia.'}</p><div class="actions"><a class="button" href="${basePath}/#/home?view=tree">${language === 'zh' ? '打开物种树' : 'Open species tree'}</a><a class="button secondary" href="https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(name)}" target="_blank" rel="noopener noreferrer">Wikipedia ↗</a></div></main></body></html>`
+  }
   const text = labels[language]
   const url = `${baseUrl}/${path}`.replace(/\/+$/, '/')
   const alternateUrl = `${baseUrl}/${alternatePath}`.replace(/\/+$/, '/')

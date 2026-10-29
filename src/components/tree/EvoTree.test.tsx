@@ -10,6 +10,7 @@ vi.mock('../../services/catalog', () => ({ evolutionEvents: [], taxonProfiles: [
 vi.mock('../../services/catalogProfiles', () => ({ taxonProfiles: [], getTaxonProfile: () => null }))
 vi.mock('../../data-client/backendClient', () => ({ isBackendConfigured: () => false }))
 vi.mock('./BackendCatalogueTree', () => ({ BackendCatalogueTree: () => null }))
+vi.mock('./WikipediaWindow', () => ({ WikipediaWindow: ({ name }: { name: string }) => <div role="dialog">{name}</div> }))
 
 describe('tree scene lifetime', () => {
   beforeEach(() => {

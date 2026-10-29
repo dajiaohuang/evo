@@ -14,8 +14,7 @@ import { getEntityPublication, getPackagePublication } from '../../services/publ
 import { loadEntityIndex } from '../../data-client/staticDataClient'
 import type { RuntimeEntity } from '../../data-client/types'
 import { LocalTreePanel, type OpenFullTree } from '../tree/LocalTreePanel'
-import { localizedIntroductionText, localizedProfileText } from '../../i18n/profileText'
-import { ReaderInlineText } from '../reading/ReaderInlineText'
+import { WikipediaWindow } from '../tree/WikipediaWindow'
 
 function findNode(nodes: TreeNode[], id: string): TreeNode | null {
   for (const node of nodes) {
@@ -42,6 +41,7 @@ export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTre
   const selectSubject = useAppStore((s) => s.selectSubject)
   const setTime = useAppStore((s) => s.setTime)
   const [entityById, setEntityById] = useState<Map<string, RuntimeEntity>>(() => new Map())
+  const [wikipediaName, setWikipediaName] = useState<string | null>(null)
 
   useEffect(() => {
     let active = true
@@ -180,10 +180,10 @@ export function SpeciesDetail({ onOpenFullTree }: { onOpenFullTree?: OpenFullTre
           <p style={{ fontSize: 12, color: 'var(--color-text-muted)', marginBottom: 12 }}>
             {node.name}{node.rank ? ` · ${t(node.rank)}` : ''}
           </p>
-          {profile && <div className="node-preview-reading">
-            <p><ReaderInlineText text={localizedIntroductionText(profile.readerSections?.find(section => section.id === 'reading-introduction')?.text[language], localizedProfileText(profile, profile.overview, language, t))} /></p>
-            <a href={`#/taxa?id=${encodeURIComponent(profile.id)}`}>{language === 'zh' ? '继续阅读' : 'Continue reading'} →</a>
-          </div>}
+          <div className="node-preview-reading">
+            <button type="button" onClick={() => setWikipediaName(node.name)}>{language === 'zh' ? '在浮窗查看 Wikipedia' : 'Preview Wikipedia'}</button>
+            {wikipediaName && <WikipediaWindow key={wikipediaName} name={wikipediaName} onClose={() => setWikipediaName(null)} />}
+          </div>
 
           <div style={{ display: 'flex', flexDirection: 'column', gap: 8, fontSize: 12 }}>
             {entity && (

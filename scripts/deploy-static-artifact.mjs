@@ -60,6 +60,11 @@ if (artifact.fullReading) {
     throw new Error('The full reading publication differs from its verified snapshot')
   }
 }
+if (artifact.nodePages) {
+  const bytes = readFileSync(join(output, 'evo/nodes/manifest.json'))
+  if (createHash('sha256').update(bytes).digest('hex') !== artifact.nodePages.manifestSha256
+    || JSON.parse(bytes).status !== 'paused') throw new Error('Node-page retirement receipt mismatch')
+}
 
 // Static document metadata should identify the host that serves this artifact.
 // Scientific runtime payloads retain their original bytes and checksums.

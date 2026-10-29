@@ -16,10 +16,12 @@ function run(args) {
 }
 
 run(['run', 'release:metadata'])
+run(['exec', '--', 'node', 'scripts/check-wikipedia-links.mjs'])
 run(['run', process.env.VITE_PAGES_PREVIEW === 'true' ? 'data:stage:pages' : 'data:stage'])
 run(['run', 'typecheck'])
 run(['exec', '--', 'vite', 'build'])
 run(['run', 'static:generate'])
+run(['exec', '--', 'node', 'scripts/retire-node-pages.mjs'])
 
 const elapsedMs = Date.now() - startedAt
 const metrics = {

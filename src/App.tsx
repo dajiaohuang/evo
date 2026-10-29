@@ -5,8 +5,8 @@ import { AppShell } from './components/shell/AppShell'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
 import { staticPathSegment } from './utils/staticPath.mjs'
 import { useI18n } from './i18n'
-import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
 import { isBackendConfigured } from './data-client/backendClient'
+import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
 import { PagesPreviewGate } from './components/common/PagesPreviewGate'
 import { ReadingWindow } from './components/reading/ReadingWindow'
 
@@ -16,14 +16,6 @@ const ReadingArticle = lazy(() => import('./components/reading/ReadingPages')
   .then((module) => ({ default: module.ReadingArticle })))
 const InformationPage = lazy(() => import('./components/reading/InformationPage')
   .then((module) => ({ default: module.InformationPage })))
-const CatalogueTaxonPage = lazy(() => import('./components/catalogue/CatalogueTaxonPage')
-  .then((module) => ({ default: module.CatalogueTaxonPage })))
-const BackendCatalogueTaxonPage = lazy(() => import('./components/catalogue/BackendCatalogueTaxonPage')
-  .then((module) => ({ default: module.BackendCatalogueTaxonPage })))
-const TaxonPage = lazy(() => import('./components/catalog/CatalogPages')
-  .then((module) => ({ default: module.TaxonPage })))
-const PbdbTaxonPage = lazy(() => import('./components/catalogue/PbdbTaxonPage')
-  .then((module) => ({ default: module.PbdbTaxonPage })))
 const EventPage = lazy(() => import('./components/catalog/CatalogPages')
   .then((module) => ({ default: module.EventPage })))
 const StoriesPage = lazy(() => import('./components/catalog/CatalogPages')
@@ -164,13 +156,13 @@ export default function App() {
   if (previewLocked) page = <PagesPreviewGate />
   else if (exploring) page = null
   else if (route === 'catalog') page = <CatalogHubPage onNavigate={navigate} />
-  else if (route === 'registry') page = isBackendConfigured()
-    ? <BackendCatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
-    : <CatalogueTaxonPage release={routeState.params.get('release')} id={routeState.params.get('id')} onNavigate={navigate} />
+  else if (route === 'registry' || route === 'taxa' || route === 'pbdb') page = <section style={{ padding: 24 }}>
+    <h1>{language === 'zh' ? '节点页面暂时下线' : 'Node pages are temporarily offline'}</h1>
+    <p>{language === 'zh' ? '请在物种树中点击名称，在浮窗阅读 Wikipedia 摘要或打开完整条目。' : 'Select a name in the species tree to preview Wikipedia or open the full article.'}</p>
+    <button type="button" onClick={() => navigate('home', { view: 'tree' })}>{language === 'zh' ? '打开物种树' : 'Open species tree'}</button>
+  </section>
   else if (route === 'research') page = <ResearchHubPage onNavigate={navigate} />
-  else if (route === 'pbdb') page = <PbdbTaxonPage id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'info') page = <InformationPage params={routeState.params} onNavigate={navigate} />
-  else if (route === 'taxa') page = <TaxonPage id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'events') page = <EventPage id={routeState.params.get('id')} onNavigate={navigate} />
   else if (route === 'stories' && routeState.params.has('reading')) page = <ReadingArticle id={routeState.params.get('reading') ?? ''} onNavigate={navigate} />
   else if (route === 'stories') page = <StoriesPage id={routeState.params.get('id')} params={routeState.params} onNavigate={navigate} />
