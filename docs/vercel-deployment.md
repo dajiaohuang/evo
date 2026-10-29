@@ -17,6 +17,11 @@ count and SHA-256, then extracts it. It checks the Web edition, dataset version
 and source commit before publishing. Runtime payloads retain their original
 bytes and integrity descriptors. Static document metadata uses the Vercel host.
 
+Git-triggered Vercel deployments are disabled in `vercel.json`. Source and
+documentation pushes must not accidentally republish an old artifact. Publish
+the verified descriptor explicitly with the scoped CLI; the scope helper is
+also included in the Vercel source allowlist.
+
 This avoids uploading the authoring corpus, private research directories,
 credentials or the full runtime as Vercel source files. It also avoids running
 the scientific generators a second time on Vercel. No server functions or
