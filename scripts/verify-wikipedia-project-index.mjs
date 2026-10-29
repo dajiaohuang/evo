@@ -20,6 +20,11 @@ for (const project of inventory.projects) {
   assert.equal(meta.get(locale === 'en' ? 'en_titles_sha256' : `alternate_titles_${locale}_sha256`)?.value, receipt.sha256)
   const usedScope = meta.get(`alternate_titles_${locale}_scope_sha256`)?.value
   if (usedScope) assert.equal(usedScope, scope)
+  if (process.argv.includes('--normalized')) {
+    assert.equal(meta.get(`normalized_titles_${locale}_complete`)?.value, 'true')
+    assert.equal(meta.get(`normalized_titles_${locale}_source`)?.value, receipt.sha256)
+    assert.equal(meta.get(`normalized_titles_${locale}_scope`)?.value, scope)
+  }
   const hash = createHash('sha256')
   let bytes = 0
   for await (const chunk of createReadStream(file)) { hash.update(chunk); bytes += chunk.length }
@@ -28,5 +33,5 @@ for (const project of inventory.projects) {
   if (++verified % 50 === 0) console.log(JSON.stringify({ verified, total: inventory.projects.length }))
 }
 assert.equal(unavailable, 0)
-console.log(JSON.stringify({ status: 'passed', projects: inventory.projects.length, verified, unavailable, inventorySha256: inventory.sourceSha256, scope }))
+console.log(JSON.stringify({ status: 'passed', projects: inventory.projects.length, verified, unavailable, normalized: process.argv.includes('--normalized'), inventorySha256: inventory.sourceSha256, scope }))
 db.close()
