@@ -20,6 +20,12 @@ assert.equal(createHash('sha256').update(mappingBytes).digest('hex'), artifact.o
 const mapping = JSON.parse(mappingBytes)
 assert.equal(mapping.checkedNames, mapping.uniqueNames)
 assert.deepEqual(mapping.counts, artifact.overlay.counts)
+if (artifact.overlay.catalogueManifestSha256) {
+  const catalogueBytes = Buffer.from(await (await read('wikipedia/col/manifest.json')).arrayBuffer())
+  assert.equal(createHash('sha256').update(catalogueBytes).digest('hex'), artifact.overlay.catalogueManifestSha256)
+  const catalogue = JSON.parse(catalogueBytes)
+  assert.deepEqual(catalogue.stats, artifact.overlay.catalogueStats)
+}
 const paused = await (await read('nodes/manifest.json')).json()
 assert.equal(paused.status, 'paused')
 await read('nodes/data/0000.json.gz', 404)
