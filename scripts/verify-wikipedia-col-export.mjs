@@ -7,6 +7,10 @@ const out = resolve(process.argv[2])
 const manifest = JSON.parse(readFileSync(join(out, 'manifest.json'), 'utf8'))
 assert.equal(manifest.schemaVersion, 1)
 assert.equal(manifest.releaseAlias, 'COL26.8')
+for (const [locale, sha] of Object.entries(manifest.titleIndexSources ?? {})) {
+  assert.match(locale, /^[a-z0-9-]+$/)
+  assert.match(sha, /^[a-f0-9]{64}$/)
+}
 assert.equal(Object.keys(manifest.shards).length, 256)
 let total = 0, abstracts = 0, pendingCandidates = 0
 const count = {}

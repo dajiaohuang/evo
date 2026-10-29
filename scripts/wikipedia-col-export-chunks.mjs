@@ -52,6 +52,7 @@ assert.equal(stats.totalNodes, JSON.parse(sourceManifest).hierarchy.counts.nodes
 assert.equal(stats.queriedNodes + stats.pendingNodes, stats.totalNodes)
 const registryManifestSha256 = createHash('sha256').update(sourceManifest).digest('hex')
 for (const result of results) assert.equal(result.registryManifestSha256, registryManifestSha256)
+for (const result of results) assert.deepEqual(result.titleIndexSources, results[0].titleIndexSources)
 writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(), registryManifestSha256,
-  status: stats.pendingNodes ? 'partial' : 'queried', stats, shards }, null, 2) + '\n')
+  titleIndexSources: results[0].titleIndexSources, status: stats.pendingNodes ? 'partial' : 'queried', stats, shards }, null, 2) + '\n')
 console.log(JSON.stringify({ status: 'exported', out, stats }))

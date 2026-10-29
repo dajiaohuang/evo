@@ -36,11 +36,14 @@ const dumpedTitle = db.prepare('SELECT title FROM exact_english_titles WHERE nam
 const synonymsReady = Boolean(db.prepare("SELECT value FROM meta WHERE key='synonym_titles_sha256'").get()?.value)
 const synonymTitles = synonymsReady ? db.prepare('SELECT DISTINCT t.title FROM synonym_names s JOIN synonym_title_matches t ON t.name=s.name WHERE s.node_id=? ORDER BY t.title') : null
 const alternateLocales = db.prepare("SELECT key FROM meta WHERE key LIKE 'alternate_titles_%'").all().map(row => row.key.match(/^alternate_titles_([a-z0-9-]+)_sha256$/)?.[1]).filter(Boolean).sort()
-const alternateNames = alternateLocales.length ? db.prepare(`SELECT locale,title FROM alternate_title_matches WHERE name=? AND locale IN (${alternateLocales.map(() => '?').join(',')})`) : null
-const alternateSynonyms = alternateLocales.length ? db.prepare(`SELECT DISTINCT t.locale,t.title FROM synonym_names s JOIN alternate_title_matches t ON t.name=s.name WHERE s.node_id=? AND t.locale IN (${alternateLocales.map(() => '?').join(',')})`) : null
+const titleIndexSources = Object.fromEntries(['en', ...alternateLocales].map(locale => [locale,
+  db.prepare('SELECT value FROM meta WHERE key=?').get(locale === 'en' ? 'en_titles_sha256' : `alternate_titles_${locale}_sha256`)?.value]).filter(([, value]) => value))
+const completedLocales = new Set(alternateLocales)
+const alternateNames = alternateLocales.length ? db.prepare('SELECT locale,title FROM alternate_title_matches INDEXED BY alternate_title_matches_name WHERE name=?') : null
+const alternateSynonyms = alternateLocales.length ? db.prepare('SELECT DISTINCT t.locale,t.title FROM synonym_names s JOIN alternate_title_matches t INDEXED BY alternate_title_matches_name ON t.name=s.name WHERE s.node_id=?') : null
 function alternateOptions(name, id) {
-  const own = (alternateNames?.all(name, ...alternateLocales) ?? []).map(row => ({ ...row, kind: '同名标题 / Same title' }))
-  const synonyms = (alternateSynonyms?.all(id, ...alternateLocales) ?? []).map(row => ({ ...row, kind: '异名 / Synonym' }))
+  const own = (alternateNames?.all(name) ?? []).filter(row => completedLocales.has(row.locale)).map(row => ({ ...row, kind: '同名标题 / Same title' }))
+  const synonyms = (alternateSynonyms?.all(id) ?? []).filter(row => completedLocales.has(row.locale)).map(row => ({ ...row, kind: '异名 / Synonym' }))
   return [...own, ...synonyms].map(({ locale, title, kind }) => ({ item: `Wikipedia:${locale}:${title}`, parentNames: [kind], ranks: [],
     url: `https://${locale}.wikipedia.org/wiki/${encodeURIComponent(title)}`, abstracts: [] }))
     .filter(option => !['identity-conflict', 'unavailable'].includes(article.get(option.url)?.status))
@@ -177,6 +180,6 @@ stats.candidatesAwaitingAbstract += stats.candidatesWithAbstract
 stats.candidatesWithAbstract = 0
 db.exec('COMMIT')
 db.close()
-writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(),
+writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(), titleIndexSources,
   registryManifestSha256: createHash('sha256').update(manifestBytes).digest('hex'), status: stats.pendingNodes ? 'partial' : 'queried', ...(part === null ? {} : { part, parts }), stats, shards }, null, 2) + '\n')
 console.log(JSON.stringify({ status: 'exported', out, stats }))
