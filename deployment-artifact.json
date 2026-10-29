@@ -3,17 +3,32 @@
   "url": "https://github.com/dajiaohuang/evo/releases/download/vercel-20261023-b368af3b3e65/evo-site.tar.gz",
   "sha256": "f13e257642e2e775381d37969ed71340b8dc7347dd06c3bf487691bf611bcce3",
   "bytes": 1384648077,
-  "sourceCommit": "b368af3b3e656d835c76199350b62b5792341ce9",
-  "releaseTargetCommit": "b368af3b3e656d835c76199350b62b5792341ce9",
+  "sourceCommit": "c01a83cf0ab96f0efb2c31e23fe253f78cfae1de",
+  "releaseTargetCommit": "ab3611d6071a552391dd0e10a48be87edf3dd2c2",
   "datasetVersion": "2026.09-2026.10-static-v5-rc156",
   "edition": "full-web",
-  "files": 26035,
-  "unpackedBytes": 1484675989,
-  "packagedAt": "2026-10-23T15:00:51.434Z",
-  "fullReading": {
-    "manifestSha256": "9033a3a62f9d87a8fc647dbfc644c7d9c4d79b4791f1c592eb79705133069d74",
-    "nodes": 139458,
-    "languagePages": 206718,
-    "snapshotAt": "2026-10-23T12:50:59.503Z"
+  "packagedAt": "2026-10-29T06:11:54.831Z",
+  "baseSourceCommit": "b368af3b3e656d835c76199350b62b5792341ce9",
+  "baseFiles": 26035,
+  "baseUnpackedBytes": 1484675989,
+  "overlay": {
+    "url": "https://github.com/dajiaohuang/evo/releases/download/vercel-wikipedia-20261029-c01a83cf0ab9/evo-wikipedia-overlay.tar.gz",
+    "sha256": "02b71114c137d49d84f72e9aaec90a680c716491e645cb24de2c4c8b3b44937a",
+    "bytes": 5845579,
+    "files": 1980,
+    "unpackedBytes": 16360758,
+    "mappingSha256": "e7036ce992eb5999ca57247da2f148319226533cadee9dadd908641262b45b85",
+    "names": 943,
+    "counts": {
+      "matched": 897,
+      "missing": 25,
+      "ambiguous": 0,
+      "not-applicable": 21
+    }
+  },
+  "nodePages": {
+    "status": "paused",
+    "replacement": "wikipedia",
+    "manifestSha256": "817d4e8cde8b82aed26f8c0d7a879cf38efac75e2deaf412d832f86652a10c06"
   }
 }

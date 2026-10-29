@@ -28,3 +28,12 @@ intact. Original node account shards are excluded from this new deployment.
 The archive descriptor pins the paused-node manifest instead of claiming to
 publish the earlier full-reading collection. Map and scientific data retain
 their existing release identities.
+
+For a link-table-only publication, prepare the table locally and use
+`scripts/prepare-wikipedia-overlay.mjs` once to compile only the UI. It reuses
+the prior verified scientific-data artifact. `scripts/package-wikipedia-overlay.mjs`
+packages the small overlay with separate hashes for the archive and link table.
+The deployment wrapper checks the base archive before applying that overlay,
+removes only the deployed old node-account projection, then checks the new
+release and paused-page manifest. No Turso snapshot or scientific-data rebuild
+is needed. Hosted HTTP and browser verification scripts write local receipts.
