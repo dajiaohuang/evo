@@ -22,6 +22,10 @@ db.exec(`PRAGMA busy_timeout=15000;
 const key = `alternate_titles_${locale}_sha256`
 const previous = db.prepare('SELECT value FROM meta WHERE key=?').get(key)?.value
 if (previous && previous !== receipt.sha256) throw new Error('Existing title index uses another snapshot')
+const sourceKey = `alternate_titles_${locale}_source_sha256`
+const existingSource = db.prepare('SELECT value FROM meta WHERE key=?').get(sourceKey)?.value
+if (existingSource && existingSource !== receipt.sha256) throw new Error('Partial title index uses another snapshot')
+db.prepare('INSERT OR IGNORE INTO meta(key,value) VALUES(?,?)').run(sourceKey, receipt.sha256)
 if (previous === receipt.sha256) {
   console.log(JSON.stringify({ status: 'already-complete', locale }))
   db.close()
