@@ -6,6 +6,10 @@
   "buildCommand": "node scripts/deploy-static-artifact.mjs",
   "outputDirectory": "site",
   "redirects": [
+    { "source": "/evo/stories/:path*/", "destination": "/evo/", "permanent": false },
+    { "source": "/evo/zh/stories/:path*/", "destination": "/evo/", "permanent": false },
+    { "source": "/evo/read/:path*/", "destination": "/evo/", "permanent": false },
+    { "source": "/evo/zh/read/:path*/", "destination": "/evo/", "permanent": false },
     { "source": "/evo/stories/:path*", "destination": "/evo/", "permanent": false },
     { "source": "/evo/zh/stories/:path*", "destination": "/evo/", "permanent": false },
     { "source": "/evo/read/:path*", "destination": "/evo/", "permanent": false },
