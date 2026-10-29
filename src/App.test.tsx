@@ -31,7 +31,7 @@ vi.mock('./components/workbench/WorkbenchPages', () => ({ ComparePage: ({ onNavi
 
 afterEach(() => { cleanup(); window.history.replaceState(null, '', '#/home') })
 
-it.each(['taxa', 'events'])('returns from comparison to the originating %s route', async route => {
+it.each(['events'])('returns from comparison to the originating %s route', async route => {
   const origin = `#/${route}?id=metamynodon&context=retained`
   window.history.replaceState(null, '', origin)
   render(<App />)
@@ -43,6 +43,16 @@ it.each(['taxa', 'events'])('returns from comparison to the originating %s route
   await waitFor(() => expect(window.location.hash).toBe(origin))
   expect(await screen.findByRole('heading', { name: 'Article metamynodon' })).toBeVisible()
   expect(screen.getByText('Persistent map')).toBeVisible()
+})
+
+it.each(['taxa', 'registry', 'pbdb'])('pauses the original %s reader while preserving the map', async route => {
+  window.history.replaceState(null, '', `#/${route}?id=metamynodon`)
+  render(<App />)
+  expect(await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible()
+  expect(screen.queryByRole('heading', { name: 'Article metamynodon' })).toBeNull()
+  expect(screen.getByText('Persistent map')).toBeVisible()
+  fireEvent.click(screen.getByRole('button', { name: 'Open species tree' }))
+  await waitFor(() => expect(window.location.hash).toBe('#/home?view=tree'))
 })
 
 it('closes a direct comparison link to the map', async () => {
