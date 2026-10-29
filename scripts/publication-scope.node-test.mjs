@@ -8,7 +8,10 @@ import { spawnSync } from 'node:child_process'
 test('publication removes retired output and stale frames while preserving current source bytes', () => {
   const workspace = mkdtempSync(join(tmpdir(), 'evo-publication-scope-'))
   const write = (path, value) => { mkdirSync(join(workspace, path, '..'), { recursive: true }); writeFileSync(join(workspace, path), value) }
-  write('dist/node-map/manifest.json', JSON.stringify({ members: { url: 'frames/current/members.json' }, frames: [{ url: 'frames/current/frame.json', parts: [{ url: 'frames/current/part.json' }] }] }))
+  write('dist/node-map/manifest.json', JSON.stringify({ members: { url: 'frames/current/members.json' }, frames: [
+    { url: 'frames/current/frame.json' },
+    { url: 'frames/current/logical-only.json', parts: [{ url: 'frames/current/part.json' }] },
+  ] }))
   for (const path of ['members', 'frame', 'part']) write(`dist/node-map/frames/current/${path}.json`, path)
   write('dist/node-map/frames/old/frame.json', 'old')
   write('dist/stories/article/index.html', 'retired')

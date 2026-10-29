@@ -26,11 +26,15 @@ export function enforcePublicationScope(directory) {
   const manifestPath = join(mapRoot, 'manifest.json')
   if (existsSync(manifestPath)) {
     const keep = new Set(['manifest.json', 'ledger.json'])
+    const required = new Set(['manifest.json'])
     function references(value) {
       if (!value || typeof value !== 'object') return
       if (typeof value.url === 'string') {
         assert.ok(!value.url.includes('\\') && !value.url.includes(':') && !value.url.startsWith('/') && !value.url.split('/').includes('..'), 'Unsafe map dependency')
         keep.add(value.url)
+        // Split frames/membership sets retain a logical aggregate URL/hash.
+        // Only their parts are stored and fetched by the current client.
+        if (!Array.isArray(value.parts) || !value.parts.length) required.add(value.url)
       }
       for (const child of Object.values(value)) references(child)
     }
@@ -46,7 +50,7 @@ export function enforcePublicationScope(directory) {
       }
     }
     prune(mapRoot)
-    for (const path of keep) if (path !== 'ledger.json') assert.ok(existsSync(join(mapRoot, path)), `Missing current map dependency: ${path}`)
+    for (const path of required) assert.ok(existsSync(join(mapRoot, path)), `Missing current map dependency: ${path}`)
   }
   return { removedFilesOrTrees: removed.length, removed }
 }
