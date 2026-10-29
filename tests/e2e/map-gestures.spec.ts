@@ -13,7 +13,7 @@ test('two-finger pinch redraws before release and resumes one-finger dragging', 
   await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeCloseTo(3, 1)
   await client.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: points(40) })
   await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeCloseTo(2, 1)
-  await client.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [points(40)[0]] })
+  await client.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [points(40)[1]] })
   const before = await canvas.getAttribute('data-center')
   await client.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ id: 1, x: 185, y: 415 }] })
   await expect(canvas).not.toHaveAttribute('data-center', before!)
