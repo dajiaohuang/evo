@@ -22,6 +22,10 @@ for (const [prefix, file] of Object.entries(manifest.shards)) {
   assert.equal(data.releaseAlias, 'COL26.8')
   assert.equal(Object.keys(data.entries).length, file.entries)
   for (const [id, entry] of Object.entries(data.entries)) {
+    if (manifest.contentMode === 'links-only') {
+      assert.ok(!entry.abstracts?.length && !Object.hasOwn(entry, 'extract'))
+      for (const option of entry.options ?? []) assert.ok(!option.abstracts?.length && !Object.hasOwn(option, 'extract'))
+    }
     assert.equal(createHash('sha256').update(id).digest('hex').slice(0, 2), prefix)
     assert.ok(['matched', 'abstract-pending', 'candidate', 'ambiguous', 'unresolved'].includes(entry.status))
     count[entry.status] = (count[entry.status] ?? 0) + 1

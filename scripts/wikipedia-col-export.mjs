@@ -97,6 +97,16 @@ for (const source of manifest.hierarchy.nodes.files) {
       stats.matchedWithAbstract++
     }
   }
+  // Publish links only. Previously captured extracts remain local and are not
+  // included in the generated data; the existing client supports link-only
+  // abstract-pending entries and candidate options without abstracts.
+  for (const entry of Object.values(entries)) {
+    if (entry.status === 'matched') {
+      entry.status = 'abstract-pending'
+      delete entry.abstracts
+    }
+    for (const option of entry.options ?? []) option.abstracts = []
+  }
   const raw = Buffer.from(JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', entries }))
   const output = gzipSync(raw, { level: 6, mtime: 0 })
   const outputHash = createHash('sha256').update(output).digest('hex')
@@ -107,8 +117,12 @@ for (const source of manifest.hierarchy.nodes.files) {
   console.log(`${path}: ${Object.keys(entries).length} checked`)
 }
 assert.equal(stats.queriedNodes + stats.pendingNodes, stats.totalNodes)
+stats.matchedAwaitingAbstract += stats.matchedWithAbstract
+stats.matchedWithAbstract = 0
+stats.candidatesAwaitingAbstract += stats.candidatesWithAbstract
+stats.candidatesWithAbstract = 0
 db.exec('COMMIT')
 db.close()
-writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', generatedAt: new Date().toISOString(),
+writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(),
   registryManifestSha256: createHash('sha256').update(manifestBytes).digest('hex'), status: stats.pendingNodes ? 'partial' : 'queried', stats, shards }, null, 2) + '\n')
 console.log(JSON.stringify({ status: 'exported', out, stats }))
