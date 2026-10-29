@@ -7,7 +7,7 @@ import { createGunzip } from 'node:zlib'
 import { DatabaseSync } from 'node:sqlite'
 
 const locale = process.argv[2]
-assert.ok(['zh', 'ceb', 'sv', 'nl'].includes(locale))
+assert.ok(['zh', 'ceb', 'sv', 'nl', 'fr', 'de', 'es', 'pt', 'ru'].includes(locale))
 const root = resolve('.git/evo-wikipedia-col26-8')
 const source = join(root, `sources/${locale}wiki-titles-ns0.gz`)
 const receipt = JSON.parse(readFileSync(source + '.receipt.json', 'utf8'))

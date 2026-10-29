@@ -35,7 +35,7 @@ const exactTitle = db.prepare('SELECT status,snapshot_json FROM exact_title_jobs
 const dumpedTitle = db.prepare('SELECT title FROM exact_english_titles WHERE name=?')
 const synonymsReady = Boolean(db.prepare("SELECT value FROM meta WHERE key='synonym_titles_sha256'").get()?.value)
 const synonymTitles = synonymsReady ? db.prepare('SELECT DISTINCT t.title FROM synonym_names s JOIN synonym_title_matches t ON t.name=s.name WHERE s.node_id=? ORDER BY t.title') : null
-const alternateLocales = ['zh', 'ceb', 'sv', 'nl'].filter(locale => db.prepare('SELECT value FROM meta WHERE key=?').get(`alternate_titles_${locale}_sha256`)?.value)
+const alternateLocales = ['zh', 'ceb', 'sv', 'nl', 'fr', 'de', 'es', 'pt', 'ru'].filter(locale => db.prepare('SELECT value FROM meta WHERE key=?').get(`alternate_titles_${locale}_sha256`)?.value)
 const alternateNames = alternateLocales.length ? db.prepare(`SELECT locale,title FROM alternate_title_matches WHERE name=? AND locale IN (${alternateLocales.map(() => '?').join(',')})`) : null
 const alternateSynonyms = alternateLocales.length ? db.prepare(`SELECT DISTINCT t.locale,t.title FROM synonym_names s JOIN alternate_title_matches t ON t.name=s.name WHERE s.node_id=? AND t.locale IN (${alternateLocales.map(() => '?').join(',')})`) : null
 function alternateOptions(name, id) {
