@@ -1,8 +1,8 @@
 import { test, expect } from '@playwright/test'
 
-test('tree opens a real Wikipedia preview and preserves the tree on close', async ({ page }) => {
+test('tree opens a Wikipedia link and preserves the tree on close', async ({ page }) => {
   const wikiRequests: string[] = []
-  page.on('request', request => { if (/^https:\/\/[^/]*wikipedia\.org\//.test(request.url())) wikiRequests.push(request.url()) })
+  page.on('request', request => { if (/^https:\/\/[^/]*wikipedia\.org\//.test(request.url()) || request.url().includes('/wikipedia/abstracts.json')) wikiRequests.push(request.url()) })
   await page.goto('./#/home?view=tree')
   const node = page.locator('svg [data-node-id="pan"]')
   await expect(node).toBeAttached()
@@ -11,7 +11,7 @@ test('tree opens a real Wikipedia preview and preserves the tree on close', asyn
   const dialog = page.getByRole('dialog')
   await expect(dialog).toBeVisible()
   await expect(dialog.locator('footer a')).toHaveAttribute('href', /wikipedia.org\/wiki\//, { timeout: 20000 })
-  await expect(dialog.locator('.wikipedia-window__body p[lang]')).not.toBeEmpty({ timeout: 20000 })
+  await expect(dialog.locator('.wikipedia-window__body')).toContainText(/已找到 Wikipedia 条目|Wikipedia article is available/, { timeout: 20000 })
   await page.keyboard.press('Escape')
   await expect(dialog).toHaveCount(0)
   await expect(node).toBeFocused()
@@ -21,7 +21,7 @@ test('tree opens a real Wikipedia preview and preserves the tree on close', asyn
 
 test('the full catalogue tree opens from the static data release', async ({ page }) => {
   const wikiRequests: string[] = []
-  page.on('request', request => { if (/^https:\/\/[^/]*wikipedia\.org\//.test(request.url())) wikiRequests.push(request.url()) })
+  page.on('request', request => { if (/^https:\/\/[^/]*wikipedia\.org\//.test(request.url()) || request.url().includes('/wikipedia/abstracts.json')) wikiRequests.push(request.url()) })
   await page.goto('./#/home?view=tree')
   await page.getByRole('button', { name: /打开全量分类树|Open full catalogue tree/ }).click()
   const tree = page.getByRole('tree', { name: /可展开分类树|Expandable catalogue tree/ })
@@ -34,7 +34,7 @@ test('the full catalogue tree opens from the static data release', async ({ page
   await expect(selected).toContainText('Acer crassum')
   await selected.click()
   const dialog = page.getByRole('dialog')
-  await expect(dialog.locator('.wikipedia-window__body p[lang]')).not.toBeEmpty()
+  await expect(dialog.locator('.wikipedia-window__body')).toContainText(/已找到 Wikipedia 条目|Wikipedia article is available/)
   await expect(dialog.locator('footer a')).toHaveAttribute('href', /wikipedia\.org\/wiki\//)
   expect(wikiRequests).toEqual([])
 })
