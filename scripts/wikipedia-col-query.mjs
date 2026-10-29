@@ -25,10 +25,20 @@ for (; requests < limit; requests++) {
   const delay = Math.max(0, 1200 - (Date.now() - lastStart))
   if (delay) await new Promise(resolve => setTimeout(resolve, delay))
   lastStart = Date.now()
-  const response = await fetch('https://query.wikidata.org/sparql', {
-    method: 'POST', body: new URLSearchParams({ format: 'json', query }),
-    signal: AbortSignal.timeout(65000), headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)' },
-  })
+  let response
+  for (let attempt = 0; attempt < 4; attempt++) {
+    response = await fetch('https://query.wikidata.org/sparql', {
+      method: 'POST', body: new URLSearchParams({ format: 'json', query }),
+      signal: AbortSignal.timeout(65000), headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)' },
+    })
+    if (response.ok || ![429, 500, 502, 503, 504].includes(response.status) || attempt === 3) break
+    const retryAfter = Number(response.headers.get('retry-after'))
+    if (retryAfter > 30) throw new Error(`Wikidata requested retry after ${retryAfter}s; batch remains pending`)
+    const waitMs = Math.min(30000, Math.max(5000 * 2 ** attempt, Number.isFinite(retryAfter) ? retryAfter * 1000 : 0))
+    console.warn(`Wikidata HTTP ${response.status}; retrying pending batch in ${waitMs / 1000}s`)
+    await response.body?.cancel()
+    await new Promise(resolve => setTimeout(resolve, waitMs))
+  }
   if (!response.ok) throw new Error(`Wikidata HTTP ${response.status}; batch remains pending`)
   let data
   try { data = await response.json() } catch (error) {
