@@ -28,6 +28,10 @@ SQLite 检查点；网络错误留下待查询记录。按 COL ID 匹配或名�
 中文、宿务语、瑞典语、荷兰语、法语、德语、西班牙语、葡萄牙语、俄语、
 瓦瑞语、越南语、波兰语、意大利语和日语标题清单同样用于发现同名及异名候选；
 标题命中不证明分类身份，也不读取条目正文。
+`scripts/wikipedia-project-index.mjs` 保存 Wikimedia 语言项目清单；
+`scripts/wikipedia-col-uncovered.mjs` 冻结仍无链接节点及其现名和异名，
+`scripts/wikipedia-scan-projects.mjs` 按批查询对应标题清单。清单不可用或
+下载失败保持未知，不作为不存在 Wikipedia 条目的证据。
 
 `scripts/wikipedia-col-export.mjs` 按节点 ID 的 SHA-256 首字节生成 256 个
 压缩分片和覆盖率 manifest；`scripts/verify-wikipedia-col-export.mjs` 校验
