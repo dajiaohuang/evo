@@ -2,10 +2,14 @@ import assert from 'node:assert/strict'
 import { build } from 'vite'
 import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs'
 import { execFileSync } from 'node:child_process'
-import { resolve, join, relative } from 'node:path'
+import { resolve, join, relative, isAbsolute, sep } from 'node:path'
 
 const root = process.cwd()
-const local = resolve('.git/platform-v2/local/wikipedia-20261029')
+const workspaceIndex = process.argv.indexOf('--workspace')
+const local = resolve(workspaceIndex < 0 ? '.git/platform-v2/local/wikipedia-20261029' : process.argv[workspaceIndex + 1])
+const localRoot = resolve('.git/platform-v2/local')
+const child = relative(localRoot, local)
+assert.ok(child && !isAbsolute(child) && child !== '..' && !child.startsWith('..' + sep), 'Workspace must be inside local publication material')
 const ui = join(local, 'ui')
 const overlay = join(local, 'overlay')
 assert.ok(!existsSync(overlay), 'Use a fresh overlay; never overwrite publication material')
@@ -16,6 +20,15 @@ const evo = join(overlay, 'evo')
 mkdirSync(evo, { recursive: true })
 cpSync(ui, evo, { recursive: true })
 cpSync('public/wikipedia', join(evo, 'wikipedia'), { recursive: true })
+const snapshotIndex = process.argv.indexOf('--catalogue-snapshot')
+if (snapshotIndex >= 0) {
+  const snapshot = resolve(process.argv[snapshotIndex + 1])
+  const source = relative(resolve('.git/evo-wikipedia-col26-8'), snapshot)
+  assert.ok(source && !isAbsolute(source) && source !== '..' && !source.startsWith('..' + sep), 'Catalogue snapshot must be in its local workspace')
+  const descriptor = JSON.parse(readFileSync(join(snapshot, 'manifest.json'), 'utf8'))
+  assert.equal(descriptor.releaseAlias, 'COL26.8')
+  cpSync(snapshot, join(evo, 'wikipedia/col'), { recursive: true })
+}
 cpSync('public/release.json', join(evo, 'release.json'))
 cpSync('public/favicon.svg', join(evo, 'favicon.svg'))
 const map = JSON.parse(readFileSync('public/wikipedia/mapping.json', 'utf8'))

@@ -14,6 +14,7 @@ import { isPagesPreview } from '../../config/pagesPreview'
 import { isBackendConfigured } from '../../data-client/backendClient'
 import { BackendCatalogueTree } from './BackendCatalogueTree'
 import { WikipediaWindow } from './WikipediaWindow'
+import { frontendContract } from '../../platform/frontendContract'
 import './EvoTree.css'
 import { canLocateTreeNode, treePath, treeScope } from './treeScope'
 
@@ -102,6 +103,7 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
     }, () => { if (active) setEventError(true) })
     return () => { active = false }
   }, [eventOverlay])
+  const fullCatalogueAvailable = frontendContract.edition === 'full-web' || isBackendConfigured()
   const [backendTreeView, setBackendTreeView] = useState(() => !scopeNodeId && !focusRequest && isBackendConfigured())
   const storedMode = useAppStore((state) => state.treeMode)
   const setStoredMode = useAppStore((state) => state.setTreeMode)
@@ -482,14 +484,14 @@ export function EvoTree({ scopeNodeId, selectionId, onSelectNode, displayMode, o
   }, [collapsedIds, mode, sourceTree, language, presentLabel, unavailableLabel, backendTreeView, focusNode])
   useEffect(() => { updateAppearance() }, [currentAge, selectedNodeId, traceLineage, traitOverlay, eventOverlay, evolutionEvents])
 
-  if (backendTreeView && isBackendConfigured()) {
-    return <div className="evo-tree evo-tree--backend"><BackendCatalogueTree onExit={() => setBackendTreeView(false)} /></div>
+  if (backendTreeView && fullCatalogueAvailable) {
+    return <div className="evo-tree evo-tree--backend"><BackendCatalogueTree source={isBackendConfigured() ? 'backend' : 'static'} onExit={() => setBackendTreeView(false)} /></div>
   }
 
   return (
     <div className={`evo-tree evo-tree--${mode}${scopeNodeId ? ' evo-tree--local' : ''}`}>
       {wikipediaName && <WikipediaWindow key={wikipediaName} name={wikipediaName} onClose={() => setWikipediaName(null)} />}
-      {!scopeNodeId && isBackendConfigured() && <button type="button" className="tree-backend-control" onClick={() => setBackendTreeView(true)}>{language === 'zh' ? '打开全量分类树' : 'Open full catalogue tree'}</button>}
+      {!scopeNodeId && fullCatalogueAvailable && <button type="button" className="tree-backend-control" onClick={() => setBackendTreeView(true)}>{language === 'zh' ? '打开全量分类树' : 'Open full catalogue tree'}</button>}
       <div className="tree-mode-control" role="group" aria-label={t('Tree time model')}>
         <span>{t('Tree model')}</span>
         {([

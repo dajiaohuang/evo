@@ -76,6 +76,10 @@ if (artifact.overlay) {
   if (updated.deploymentCommitSha !== artifact.sourceCommit || updated.datasetVersion !== artifact.datasetVersion) throw new Error('Wikipedia overlay release mismatch')
   const mappingBytes = readFileSync(join(output, 'evo/wikipedia/mapping.json'))
   if (createHash('sha256').update(mappingBytes).digest('hex') !== overlay.mappingSha256) throw new Error('Wikipedia link table mismatch')
+  if (overlay.catalogueManifestSha256) {
+    const manifestBytes = readFileSync(join(output, 'evo/wikipedia/col/manifest.json'))
+    if (createHash('sha256').update(manifestBytes).digest('hex') !== overlay.catalogueManifestSha256) throw new Error('Catalogue Wikipedia manifest mismatch')
+  }
 }
 if (artifact.fullReading) {
   const bytes = readFileSync(join(output, 'evo/nodes/manifest.json'))

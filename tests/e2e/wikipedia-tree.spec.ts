@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test'
 
 test('tree opens a real Wikipedia preview and preserves the tree on close', async ({ page }) => {
+  const wikiRequests: string[] = []
+  page.on('request', request => { if (/^https:\/\/[^/]*wikipedia\.org\//.test(request.url())) wikiRequests.push(request.url()) })
   await page.goto('./#/home?view=tree')
   const node = page.locator('svg [data-node-id="pan"]')
   await expect(node).toBeAttached()
@@ -13,7 +15,17 @@ test('tree opens a real Wikipedia preview and preserves the tree on close', asyn
   await page.keyboard.press('Escape')
   await expect(dialog).toHaveCount(0)
   await expect(node).toBeFocused()
+  expect(wikiRequests).toEqual([])
   expect(page.url()).not.toContain('#/taxa')
+})
+
+test('the full catalogue tree opens from the static data release', async ({ page }) => {
+  await page.goto('./#/home?view=tree')
+  await page.getByRole('button', { name: /打开全量分类树|Open full catalogue tree/ }).click()
+  const tree = page.getByRole('tree', { name: /可展开分类树|Expandable catalogue tree/ })
+  await expect(tree).toBeVisible({ timeout: 30000 })
+  await expect(tree.getByRole('treeitem')).toHaveCount(4)
+  await expect(page.getByRole('region', { name: /全量分类树|Full catalogue tree/ })).toContainText('2,429,092')
 })
 
 test('old interactive and static node readers are paused', async ({ page }) => {

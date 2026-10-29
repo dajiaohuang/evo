@@ -13,7 +13,8 @@ import { useI18n } from '../../i18n'
 import { frontendContract } from '../../platform/frontendContract'
 import './BackendCatalogueTree.css'
 import { WikipediaWindow } from './WikipediaWindow'
-import { loadWikipediaMapping, type WikipediaEntry } from '../../services/wikipedia'
+import { loadStaticTreeRoots, loadStaticTreeChildren, loadStaticTreePath, searchStaticTree } from '../../data-client/catalogueTreeSource'
+import { loadCatalogueWikipediaManifest } from '../../services/wikipedia'
 
 const ROW_HEIGHT = 44
 const OVERSCAN_ROWS = frontendContract.tree.overscanRows
@@ -27,6 +28,7 @@ interface ChildState {
   loading: boolean
   error: string | null
 }
+type TreeCapabilities = { treeIndex: Pick<BackendCapabilities['treeIndex'], 'nodeCount' | 'releaseAlias'> }
 
 type TreeRow =
   | { kind: 'node'; node: BackendTreeNodeSummary; depth: number }
@@ -76,21 +78,21 @@ function flattenRows(
   return output
 }
 
-export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
-  const [wikipediaName, setWikipediaName] = useState<string | null>(null)
-  const [wikipediaEntries, setWikipediaEntries] = useState<Record<string, WikipediaEntry>>({})
+export function BackendCatalogueTree({ onExit, source = 'backend' }: { onExit?: () => void; source?: 'backend' | 'static' }) {
+  const [wikipediaSelection, setWikipediaSelection] = useState<{ name: string; id: string } | null>(null)
+  const [coverage, setCoverage] = useState<{ totalNodes: number; queriedNodes: number; matchedWithAbstract: number; candidatesWithAbstract: number } | null>(null)
   useEffect(() => {
     let active = true
-    void loadWikipediaMapping().then(mapping => { if (active) setWikipediaEntries(mapping.entries) }).catch(() => undefined)
+    void loadCatalogueWikipediaManifest().then(manifest => { if (active) setCoverage(manifest.stats) }).catch(() => undefined)
     return () => { active = false }
   }, [])
-  const wikipediaUrl = (name: string) => wikipediaEntries[name]?.url ?? `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(name)}`
+  const wikipediaUrl = (name: string) => `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(name)}`
   const { language } = useI18n()
   const zh = language === 'zh'
   const scrollRef = useRef<HTMLDivElement>(null)
   const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading')
   const [errorMessage, setErrorMessage] = useState<string | null>(null)
-  const [capabilities, setCapabilities] = useState<BackendCapabilities | null>(null)
+  const [capabilities, setCapabilities] = useState<TreeCapabilities | null>(null)
   const [roots, setRoots] = useState<BackendTreeNodeSummary[]>([])
   const [expanded, setExpanded] = useState<Set<string>>(new Set())
   const [children, setChildren] = useState<Map<string, ChildState>>(new Map())
@@ -112,7 +114,8 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
 
   useEffect(() => {
     let cancelled = false
-    void loadBackendCatalogueRoots().then(({ capabilities: loadedCapabilities, roots: loadedRoots }) => {
+    const loading = source === 'static' ? loadStaticTreeRoots().then(result => ({ capabilities: { treeIndex: result.treeIndex }, roots: result.roots })) : loadBackendCatalogueRoots()
+    void loading.then(({ capabilities: loadedCapabilities, roots: loadedRoots }) => {
       if (cancelled) return
       setCapabilities(loadedCapabilities)
       setRoots(loadedRoots)
@@ -124,7 +127,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
       }
     })
     return () => { cancelled = true }
-  }, [])
+  }, [source])
 
   useEffect(() => {
     const element = scrollRef.current
@@ -145,7 +148,8 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
       next.set(parentId, { records: previous?.records ?? [], total: previous?.total ?? 0, nextCursor: previous?.nextCursor, loading: true, error: null })
       return next
     })
-    void loadBackendCatalogueChildren(parentId, { cursor, limit: CHILD_PAGE_LIMIT }).then((page) => {
+    const load = source === 'static' ? loadStaticTreeChildren : loadBackendCatalogueChildren
+    void load(parentId, { cursor, limit: CHILD_PAGE_LIMIT }).then((page) => {
       if (requestGeneration.current.get(parentId) !== generation) return
       setChildren((current) => {
         const next = new Map(current)
@@ -163,7 +167,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
         return next
       })
     })
-  }, [])
+  }, [source])
 
   const toggleNode = useCallback((node: BackendTreeNodeSummary) => {
     if (!node.childCount) {
@@ -202,7 +206,8 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
     const controller = new AbortController()
     const timer = window.setTimeout(() => {
       setSearchStatus('loading')
-      void searchBackendNames(normalized, { limit: 24, signal: controller.signal }).then((response) => {
+      const search = source === 'static' ? searchStaticTree : searchBackendNames
+      void search(normalized, { limit: 24, signal: controller.signal }).then((response) => {
         if (!controller.signal.aborted) {
           setSearchResults(response.records.filter((record) => record.kind === 'catalogue-name'))
           setSearchStatus('ready')
@@ -213,7 +218,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
       window.clearTimeout(timer)
       controller.abort()
     }
-  }, [query])
+  }, [query, source])
 
   const revealSearchResult = useCallback((record: BackendNameSearchRecord) => {
     const targetId = record.acceptedId || record.id
@@ -221,12 +226,13 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
     pathRequestTarget.current = targetId
     setSelectedId(targetId)
     setPath([])
-    void loadBackendCataloguePath(targetId).then((nextPath) => {
+    const load = source === 'static' ? loadStaticTreePath : loadBackendCataloguePath
+    void load(targetId).then((nextPath) => {
       if (pathRequestGeneration.current === generation && pathRequestTarget.current === targetId) setPath(nextPath)
     }).catch(() => {
       if (pathRequestGeneration.current === generation && pathRequestTarget.current === targetId) setPath([])
     })
-  }, [])
+  }, [source])
 
   const rows = useMemo(() => flattenRows(roots, expanded, children), [children, expanded, roots])
   const firstVisible = Math.max(0, Math.floor(scrollTop / ROW_HEIGHT) - OVERSCAN_ROWS)
@@ -235,15 +241,15 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
   const number = (value: number) => value.toLocaleString(zh ? 'zh-CN' : 'en-US')
 
   if (status === 'loading') return <section className="backend-tree" role="status"><p>{zh ? '正在连接全量树索引…' : 'Connecting to the full tree index…'}</p></section>
-  if (status === 'error' || !capabilities) return <section className="backend-tree" role="alert"><p>{zh ? '当前后端没有提供可用的大树索引。' : 'The current backend did not provide a usable large-tree index.'}</p>{errorMessage && <small className="backend-tree__error-detail">{errorMessage}</small>}{onExit && <button type="button" onClick={onExit}>{zh ? '使用本地图谱' : 'Use the local atlas tree'}</button>}</section>
+  if (status === 'error' || !capabilities) return <section className="backend-tree" role="alert"><p>{zh ? '全量分类树暂不可用。' : 'The full catalogue tree is unavailable.'}</p>{errorMessage && <small className="backend-tree__error-detail">{errorMessage}</small>}{onExit && <button type="button" onClick={onExit}>{zh ? '使用本地图谱' : 'Use the local atlas tree'}</button>}</section>
 
   return (
     <section className="backend-tree" aria-label={zh ? '全量分类树' : 'Full catalogue tree'}>
-      {wikipediaName && <WikipediaWindow key={wikipediaName} name={wikipediaName} onClose={() => setWikipediaName(null)} />}
+      {wikipediaSelection && <WikipediaWindow key={wikipediaSelection.id} name={wikipediaSelection.name} catalogueId={wikipediaSelection.id} onClose={() => setWikipediaSelection(null)} />}
       <div className="backend-tree__top">
         <header className="backend-tree__header">
           <div>
-            <span>{zh ? 'PACKED ADJACENCY / 当前协议' : 'PACKED ADJACENCY / CURRENT PROTOCOL'}</span>
+            <span>Catalogue of Life · {capabilities.treeIndex.releaseAlias}</span>
             <h2>{zh ? '全量 Catalogue of Life 树' : 'Full Catalogue of Life tree'}</h2>
             <p>{zh ? '展开分类，点击名称在浮窗阅读 Wikipedia。' : 'Expand a branch and select a name to preview Wikipedia.'}</p>
           </div>
@@ -252,6 +258,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
 
         <div className="backend-tree__status" role="status">
           <span>{number(capabilities.treeIndex.nodeCount)} {zh ? '节点索引' : 'indexed nodes'}</span>
+          {coverage && <span>{zh ? `百科已核对 ${number(coverage.queriedNodes)} / ${number(coverage.totalNodes)}；已有摘要 ${number(coverage.matchedWithAbstract + coverage.candidatesWithAbstract)}` : `Wikipedia checked ${number(coverage.queriedNodes)} / ${number(coverage.totalNodes)}; ${number(coverage.matchedWithAbstract + coverage.candidatesWithAbstract)} saved summaries`}</span>}
           <span>{zh ? `每页 ${number(BACKEND_TREE_PAGE_SIZE)}` : `${number(BACKEND_TREE_PAGE_SIZE)} per page`}</span>
           <span>{zh ? `${number(children.size)} 个展开分支` : `${number(children.size)} branch pages`}</span>
         </div>
@@ -262,7 +269,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
         </label>
 
         <nav className="backend-tree__path" aria-label={zh ? '分类路径' : 'Taxon path'}>
-          {path.map((node, index) => <span key={node.id}>{index > 0 && <i aria-hidden="true">/</i>}<a href={wikipediaUrl(displayedName(node))} onClick={event => { event.preventDefault(); setWikipediaName(displayedName(node)) }}>{displayedName(node)}</a></span>)}
+          {path.map((node, index) => <span key={node.id}>{index > 0 && <i aria-hidden="true">/</i>}<a href={wikipediaUrl(displayedName(node))} onClick={event => { event.preventDefault(); setWikipediaSelection({ name: displayedName(node), id: node.id }) }}>{displayedName(node)}</a></span>)}
         </nav>
 
         {query.trim().length >= 3 && <div className="backend-tree__results" aria-live="polite">
@@ -289,7 +296,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
               <button type="button" className="backend-tree__toggle" onClick={() => toggleNode(row.node)} aria-label={row.node.childCount ? (isExpanded ? (zh ? '折叠' : 'Collapse') : (zh ? '展开' : 'Expand')) : (zh ? '选择' : 'Select')}>
                 {row.node.childCount ? (isExpanded ? '⌄' : '›') : '·'}
               </button>
-              <a className="backend-tree__name" href={wikipediaUrl(displayedName(row.node))} onClick={(event) => { event.preventDefault(); setWikipediaName(displayedName(row.node)); pathRequestGeneration.current += 1; pathRequestTarget.current = null; setPath([]); setSelectedId(row.node.id) }}>
+              <a className="backend-tree__name" href={wikipediaUrl(displayedName(row.node))} onClick={(event) => { event.preventDefault(); setWikipediaSelection({ name: displayedName(row.node), id: row.node.id }); pathRequestGeneration.current += 1; pathRequestTarget.current = null; setPath([]); setSelectedId(row.node.id) }}>
                 <span><i>{displayedName(row.node)}</i>{row.node.authorship && <small>{row.node.authorship}</small>}</span>
                 <small>{row.node.rank} · {number(row.node.childCount)} {zh ? '子级' : 'children'}</small>
               </a>
