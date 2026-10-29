@@ -1,4 +1,5 @@
 import type { GeoPermissibleObjects } from 'd3'
+import { geoArea } from 'd3'
 import type { GeoJsonObject, FeatureCollection, Feature, Geometry, Position } from 'geojson'
 
 const cache = new WeakMap<GeoPermissibleObjects, Map<number, GeoPermissibleObjects>>()
@@ -26,7 +27,15 @@ function line(points: Position[], tolerance: number): Position[] {
   }
   const result = points.filter((_, i) => keep[i])
   const closed = points[0][0] === points.at(-1)![0] && points[0][1] === points.at(-1)![1]
-  return result.length < (closed ? 4 : 2) ? points : result
+  if (result.length < (closed ? 4 : 2)) return points
+  if (closed) {
+    // Planar simplification can flip a narrow spherical ring. D3 then fills
+    // the rest of the globe, covering every continent during the drag.
+    // Keep the source ring in that case, including the opposite winding of holes.
+    const small = (ring: Position[]) => geoArea({ type: 'Polygon', coordinates: [ring] }) <= 2 * Math.PI
+    if (small(points) !== small(result)) return points
+  }
+  return result
 }
 
 function geometry(source: Geometry, tolerance: number): Geometry {
