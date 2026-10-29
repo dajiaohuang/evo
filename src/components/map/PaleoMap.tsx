@@ -2,19 +2,16 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useAppStore } from '../../store'
 import { usePaleogeography } from '../../hooks/usePaleogeography'
 import { useCaoObservations } from '../../hooks/useCaoObservations'
-import type { FossilMarkerMode as MarkerMode } from '../../store/mapSlice'
 import { getSpatialPosition, hasSpatialPosition, type CoordinateMode } from '../../utils/spatial'
 import { observationsToGeoJson, visibleCaoObservations } from '../../utils/caoObservations'
 import { resolvePaleotopographyFrame, runtimeDataUrl } from '../../data-client/staticDataClient'
 import { ProjectedMap } from './ProjectedMap'
-import { vectorShapes, fossilPoints, observationPoints, type MapShape } from './mapScene'
+import { vectorShapes, observationPoints, type MapShape, type MapPoint } from './mapScene'
 import { TemporalPackageCards } from './TemporalPackageCards'
 import { useI18n } from '../../i18n'
 import { CAO_OBSERVATION_DATASET_IDS, type CaoObservationDatasetId, type CaoObservationRecord, type FossilOccurrence, type PaleogeographyLayerId } from '../../types'
 import type { RuntimeMapObservationDataset } from '../../data-client/types'
-import { taxonProfiles } from '../../services/catalogProfiles'
-
-const featuredTaxa = new Set(taxonProfiles.filter(profile => profile.readerSections?.length && profile.pbdbTaxonId).map(profile => profile.pbdbTaxonId))
+const NO_FOSSIL_MARKERS: MapPoint[] = []
 
 interface TrajectoryBin {
   ageMa: number
@@ -74,7 +71,7 @@ function formatObservationPositions(positions: CaoObservationRecord['sourcePosit
 }
 
 export function PaleoMap() {
-  const { language, number, t } = useI18n()
+  const { number, t } = useI18n()
   const [showTrajectory, setShowTrajectory] = useState(false)
   const [showMapPanels, setShowMapPanels] = useState(false)
   const [showPlatePolygons, setShowPlatePolygons] = useState(true)
@@ -88,11 +85,8 @@ export function PaleoMap() {
   const [enabledObservationDatasets, setEnabledObservationDatasets] = useState<Set<CaoObservationDatasetId>>(() => new Set())
   const [selectedObservation, setSelectedObservation] = useState<{ record: CaoObservationRecord; descriptor: RuntimeMapObservationDataset } | null>(null)
   const markerMode = useAppStore((s) => s.markerMode)
-  const mapContentMode = useAppStore((s) => s.mapContentMode)
-  const setMapContentMode = useAppStore((s) => s.setMapContentMode)
   const coordinateMode = useAppStore((s) => s.coordinateMode)
   const showContinents = useAppStore((s) => s.showContinents)
-  const setMarkerMode = useAppStore((s) => s.setMarkerMode)
   const setCoordinateMode = useAppStore((s) => s.setCoordinateMode)
   const setShowContinents = useAppStore((s) => s.setShowContinents)
   const viewState = useAppStore((s) => s.viewState)
@@ -107,8 +101,6 @@ export function PaleoMap() {
   const selectedNodeId = useAppStore((s) => s.selectedNodeId)
   const mapProjection = useAppStore((s) => s.mapProjection)
   const setMapProjection = useAppStore((s) => s.setMapProjection)
-  const highlightedOccurrenceIds = useAppStore((s) => s.highlightedOccurrenceIds)
-  const selectFossilOccurrence = useAppStore((s) => s.selectFossilOccurrence)
   const requestedPaleogeographyLayers = useMemo(() => [
     ...(showContinents ? ['coastlines'] as const : []),
     ...(showPlatePolygons ? ['platePolygons'] as const : []),
@@ -218,20 +210,6 @@ export function PaleoMap() {
     } satisfies MapShape)
     return result
   }, [layers, requestedPaleogeographyLayers, showTrajectory, trajectory, t])
-  const displayRecords = useMemo(() => {
-    if (mapContentMode === 'all') return records
-    const selected = new Set(highlightedOccurrenceIds)
-    const places = new Set<string>()
-    return records.filter(record => {
-      if (selected.has(record.oid)) return true
-      if (!record.tid || !featuredTaxa.has(record.tid) || !hasSpatialPosition(record, coordinateMode)) return false
-      const place = `${record.tid}:${record.cid ?? record.oid}`
-      if (places.has(place) || places.size >= 24) return false
-      places.add(place)
-      return true
-    })
-  }, [records, mapContentMode, highlightedOccurrenceIds, coordinateMode])
-  const mapFossils = useMemo(() => fossilPoints(displayRecords, coordinateMode, highlightedOccurrenceIds, t), [displayRecords, coordinateMode, highlightedOccurrenceIds, t])
   const mapObservations = useMemo(() => observationPoints(visibleObservationRecords), [visibleObservationRecords])
 
   return (
@@ -239,22 +217,14 @@ export function PaleoMap() {
       <ProjectedMap
         projectionId={mapProjection} view={viewState} onViewChange={setViewState} onProjectionChange={setMapProjection}
         panelsVisible={showMapPanels} onTogglePanels={() => setShowMapPanels((visible) => !visible)}
-        shapes={shapes} fossils={mapFossils} observations={mapObservations} markerMode={markerMode}
+        shapes={shapes} fossils={NO_FOSSIL_MARKERS} observations={mapObservations} markerMode={markerMode}
         onSelect={(point) => {
-          if (point.occurrence) selectFossilOccurrence(point.occurrence)
           if (point.observation) setSelectedObservation(point.observation)
         }}
         terrain={showPaleotopography && paleotopographyCollection && paleotopographyFrame ? { collection: paleotopographyCollection, frame: paleotopographyFrame } : undefined}
         onTerrainStatus={handlePaleotopographyStatus}
       />
 
-      {showMapPanels && <div className="map-content-switch" role="group" aria-label={language === 'zh' ? '地图内容' : 'Map content'}>
-        <button type="button" aria-pressed={mapContentMode === 'featured'} onClick={() => setMapContentMode('featured')}>{language === 'zh' ? '精选发现' : 'Featured discoveries'}</button>
-        <button type="button" aria-pressed={mapContentMode === 'all'} onClick={() => setMapContentMode('all')}>{language === 'zh' ? '全部化石记录' : 'All fossil records'}</button>
-        {mapContentMode === 'featured' && !mapFossils.length && recordsLoaded && <small>{language === 'zh' ? '此场景暂无带正文的精选发现，可切换全部记录。' : 'No featured discovery with an account in this scene. Switch to all records.'}</small>}
-      </div>
-
-      }
       <div hidden={!showMapPanels}>
       <div style={{
         position: 'absolute', top: 96, left: 12, zIndex: 1000,
@@ -289,12 +259,6 @@ export function PaleoMap() {
       <TemporalPackageCards ageMa={currentAge} />
 
       <div className="map-layer-control" aria-label={t('Map layer controls')}>
-        <span>{t('Evidence layer')}</span>
-        <div role="group" aria-label={t('Fossil marker style')}>
-          {(['clusters', 'density', 'points'] as MarkerMode[]).map((mode) => (
-            <button key={mode} className={markerMode === mode ? 'is-active' : ''} onClick={() => setMarkerMode(mode)}>{t(mode)}</button>
-          ))}
-        </div>
         <span>{t('Coordinates')}</span>
         <div role="group" aria-label={t('Coordinate model')}>
           {(['paleo', 'modern'] as CoordinateMode[]).map((mode) => (
