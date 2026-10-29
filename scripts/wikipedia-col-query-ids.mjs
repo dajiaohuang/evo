@@ -7,12 +7,16 @@ import { mergeCandidates } from './wikipedia-col-merge-candidates.mjs'
 const db = new DatabaseSync(resolve('.git/evo-wikipedia-col26-8/inventory.sqlite'))
 db.exec(`PRAGMA busy_timeout=15000;
   CREATE TABLE IF NOT EXISTS col_id_lookups (id TEXT PRIMARY KEY, status TEXT NOT NULL DEFAULT 'pending', checked_at TEXT);
-  CREATE INDEX IF NOT EXISTS col_id_lookups_status ON col_id_lookups(status);`)
+  CREATE INDEX IF NOT EXISTS col_id_lookups_status ON col_id_lookups(status);
+  CREATE TABLE IF NOT EXISTS col_id_priority (id TEXT PRIMARY KEY);`)
 const blockedUntil = db.prepare("SELECT value FROM meta WHERE key='wikidata_not_before'").get()?.value
 if (blockedUntil && Date.parse(blockedUntil) > Date.now()) throw new Error(`Wikidata rate limit active until ${blockedUntil}; batch remains pending`)
 const initialized = db.prepare("SELECT value FROM meta WHERE key='col_id_lookups_initialized'").get()?.value === 'true'
 if (!initialized) {
   db.exec("BEGIN IMMEDIATE; INSERT OR IGNORE INTO col_id_lookups(id) SELECT id FROM nodes; INSERT OR REPLACE INTO meta(key,value) VALUES('col_id_lookups_initialized','true'); COMMIT")
+}
+if (db.prepare("SELECT value FROM meta WHERE key='col_id_priority_initialized'").get()?.value !== 'true') {
+  db.exec("BEGIN IMMEDIATE; INSERT OR IGNORE INTO col_id_priority(id) SELECT l.id FROM col_id_lookups l JOIN nodes n ON n.id=l.id JOIN names s ON s.name=n.name WHERE l.status='pending' AND s.status='queried' AND s.candidates_json='[]'; INSERT OR REPLACE INTO meta(key,value) VALUES('col_id_priority_initialized','true'); COMMIT")
 }
 const argument = (flag, fallback) => {
   const index = process.argv.indexOf(flag)
@@ -22,10 +26,11 @@ const limit = argument('--batches', 100), batchSize = argument('--batch-size', 2
 assert.ok(Number.isSafeInteger(limit) && limit > 0 && limit <= 1000)
 assert.ok(Number.isSafeInteger(batchSize) && batchSize > 0 && batchSize <= 5000)
 const next = db.prepare("SELECT l.id,n.name FROM col_id_lookups l JOIN nodes n ON n.id=l.id JOIN names s ON s.name=n.name WHERE l.status='pending' AND s.status='queried' LIMIT ?")
-const unresolvedNext = db.prepare("SELECT l.id,n.name FROM col_id_lookups l JOIN nodes n ON n.id=l.id JOIN names s ON s.name=n.name WHERE l.status='pending' AND s.status='queried' AND s.candidates_json='[]' LIMIT ?")
+const unresolvedNext = db.prepare('SELECT p.id,n.name FROM col_id_priority p JOIN nodes n ON n.id=p.id LIMIT ?')
 const readName = db.prepare('SELECT candidates_json FROM names WHERE name=?')
 const updateName = db.prepare('UPDATE names SET candidates_json=?, abstract_queue_version=0 WHERE name=?')
 const mark = db.prepare("UPDATE col_id_lookups SET status='queried',checked_at=? WHERE id=? AND status='pending'")
+const removePriority = db.prepare('DELETE FROM col_id_priority WHERE id=?')
 let batches = 0, checked = 0, lastStart = 0, requestSize = batchSize, successfulBatches = 0
 for (; batches < limit; batches++) {
   let rows = unresolvedNext.all(requestSize)
@@ -94,6 +99,7 @@ for (; batches < limit; batches++) {
       if (!grouped.has(row.name)) grouped.set(row.name, [])
       grouped.get(row.name).push(...byId.get(row.id))
       assert.equal(mark.run(at, row.id).changes, 1)
+      removePriority.run(row.id)
     }
     for (const [name, incoming] of grouped) if (incoming.length) {
       const original = JSON.parse(readName.get(name).candidates_json)
