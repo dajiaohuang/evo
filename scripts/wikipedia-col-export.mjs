@@ -45,12 +45,13 @@ for (const source of manifest.hierarchy.nodes.files) {
     const candidates = JSON.parse(result.candidates_json)
     const identity = classify({ ...row, parentName: row.parentId ? parentName.get(row.parentId)?.name : undefined }, candidates)
     const fallback = exactTitle.get(name)
-    const fallbackSnapshot = fallback?.status === 'available' && fallback.snapshot_json ? JSON.parse(fallback.snapshot_json) : null
+    const savedFallback = fallback?.status === 'available' && fallback.snapshot_json ? JSON.parse(fallback.snapshot_json) : null
+    const fallbackSnapshot = savedFallback && !['identity-conflict', 'unavailable'].includes(article.get(savedFallback.url)?.status) ? savedFallback : null
     const titleCandidate = !['ambiguous', 'unavailable'].includes(fallback?.status) ? dumpedTitle.get(name)?.title : undefined
     const titleCandidateUrl = titleCandidate ? `https://en.wikipedia.org/wiki/${encodeURIComponent(titleCandidate)}` : undefined
     const fallbackOption = fallbackSnapshot ? { item: fallbackSnapshot.wikidataItem ? `https://www.wikidata.org/entity/${fallbackSnapshot.wikidataItem}` : `Wikipedia:${fallbackSnapshot.title}`,
       parentNames: [], ranks: [], url: fallbackSnapshot.url, abstracts: [fallbackSnapshot] }
-      : titleCandidateUrl && article.get(titleCandidateUrl)?.status !== 'identity-conflict' ? { item: `Wikipedia:${titleCandidate}`, parentNames: [], ranks: [],
+      : titleCandidateUrl && !['identity-conflict', 'unavailable'].includes(article.get(titleCandidateUrl)?.status) ? { item: `Wikipedia:${titleCandidate}`, parentNames: [], ranks: [],
         url: titleCandidateUrl, abstracts: [] } : null
     if (identity.status === 'unresolved' && fallbackOption) {
       entries[row.id] = { status: 'candidate', options: [fallbackOption] }
