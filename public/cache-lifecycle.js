@@ -46,8 +46,17 @@ self.addEventListener('activate', (event) => {
     }
     if (reload) {
       const windows = await self.clients.matchAll({ type: 'window' })
-      await Promise.all(windows.filter(client => client.url.startsWith(self.registration.scope))
-        .map(client => client.navigate(client.url).catch(() => undefined)))
+      await Promise.all(windows.filter(client => {
+        const url = new URL(client.url)
+        return url.origin === self.location.origin && /^\/evo\/(?:index\.html)?$/.test(url.pathname)
+      }).map(client => {
+        const target = new URL(client.url)
+        // The legacy worker falls back to its old index for /evo/. An explicit
+        // entry URL with a fresh query bypasses both that route and its precache.
+        target.pathname = '/evo/index.html'
+        target.searchParams.set('__evo_ui', 'map-fullscreen-v2')
+        return client.navigate(target.href).catch(() => undefined)
+      }))
     }
   })())
 })

@@ -11,6 +11,12 @@ document.documentElement.dataset.frontendTarget = frontendContract.target
 document.documentElement.dataset.frontendEdition = frontendContract.edition
 document.documentElement.dataset.contentScope = frontendContract.content.scope
 document.documentElement.dataset.shellVersion = 'map-fullscreen-v2'
+const shellEntry = new URL(window.location.href)
+if (shellEntry.searchParams.has('__evo_ui')) {
+  shellEntry.searchParams.delete('__evo_ui')
+  if (shellEntry.pathname === '/evo/index.html') shellEntry.pathname = '/evo/'
+  window.history.replaceState(window.history.state, '', shellEntry.pathname + shellEntry.search + shellEntry.hash)
+}
 
 if (import.meta.env.VITE_NATIVE_APP === 'true') {
   document.documentElement.dataset.offlineReady = 'true'

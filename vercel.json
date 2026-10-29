@@ -12,6 +12,9 @@
     { "source": "/evo/wikipedia/col/:path*", "destination": "https://raw.githubusercontent.com/dajiaohuang/evo/evo-wikipedia-data/:path*" }
   ],
   "headers": [
+    { "source": "/evo/", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/evo/index.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/evo/cache-lifecycle.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
     { "source": "/evo/nodes/manifest.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
     { "source": "/evo/data/current.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
     { "source": "/evo/data/releases.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
