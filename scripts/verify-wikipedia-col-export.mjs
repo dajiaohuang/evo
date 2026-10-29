@@ -7,7 +7,7 @@ const out = resolve(process.argv[2])
 const manifest = JSON.parse(readFileSync(join(out, 'manifest.json'), 'utf8'))
 assert.equal(manifest.schemaVersion, 1)
 assert.equal(manifest.releaseAlias, 'COL26.8')
-for (const [locale, sha] of Object.entries(manifest.titleIndexSources ?? {})) {
+for (const [locale, sha] of [...Object.entries(manifest.titleIndexSources ?? {}), ...Object.entries(manifest.normalizedTitleSources ?? {})]) {
   assert.match(locale, /^[a-z0-9-]+$/)
   assert.match(sha, /^[a-f0-9]{64}$/)
 }

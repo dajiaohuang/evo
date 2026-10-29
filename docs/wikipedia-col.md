@@ -33,6 +33,8 @@ SQLite 检查点；网络错误留下待查询记录。按 COL ID 匹配或名�
 `scripts/wikipedia-scan-projects.mjs` 按批查询对应标题清单。清单不可用或
 下载失败保持未知，不作为不存在 Wikipedia 条目的证据。导出 manifest 的
 `titleIndexSources` 记录已完成语种的标题清单 SHA-256。
+对仍未链接的名称及异名，标准化比对去除大小写、重音和标点差异；
+命中只作为候选，并在 `normalizedTitleSources` 记录所用清单校验值。
 
 `scripts/wikipedia-col-export.mjs` 按节点 ID 的 SHA-256 首字节生成 256 个
 压缩分片和覆盖率 manifest；`scripts/verify-wikipedia-col-export.mjs` 校验

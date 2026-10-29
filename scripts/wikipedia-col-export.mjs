@@ -38,6 +38,18 @@ const synonymTitles = synonymsReady ? db.prepare('SELECT DISTINCT t.title FROM s
 const alternateLocales = db.prepare("SELECT key FROM meta WHERE key LIKE 'alternate_titles_%'").all().map(row => row.key.match(/^alternate_titles_([a-z0-9-]+)_sha256$/)?.[1]).filter(Boolean).sort()
 const titleIndexSources = Object.fromEntries(['en', ...alternateLocales].map(locale => [locale,
   db.prepare('SELECT value FROM meta WHERE key=?').get(locale === 'en' ? 'en_titles_sha256' : `alternate_titles_${locale}_sha256`)?.value]).filter(([, value]) => value))
+const normalizedLocales = db.prepare("SELECT key FROM meta WHERE key LIKE 'normalized_titles_%' AND value='true'").all().map(row => row.key.match(/^normalized_titles_([a-z0-9-]+)_complete$/)?.[1]).filter(Boolean).sort()
+const normalizedTitleSources = Object.fromEntries(normalizedLocales.map(locale => [locale, db.prepare('SELECT value FROM meta WHERE key=?').get(`normalized_titles_${locale}_source`)?.value]))
+const normalizedLocaleSet = new Set(normalizedLocales)
+const normalizedNames = normalizedLocales.length ? db.prepare('SELECT locale,title FROM normalized_title_matches INDEXED BY normalized_title_matches_name WHERE name=?') : null
+const normalizedSynonyms = normalizedLocales.length ? db.prepare('SELECT DISTINCT t.locale,t.title FROM synonym_names s JOIN normalized_title_matches t INDEXED BY normalized_title_matches_name ON t.name=s.name WHERE s.node_id=?') : null
+function normalizedOptions(name, id) {
+  const own = (normalizedNames?.all(name) ?? []).filter(row => normalizedLocaleSet.has(row.locale)).map(row => ({ ...row, kind: '规范化名称 / Normalized name' }))
+  const synonyms = (normalizedSynonyms?.all(id) ?? []).filter(row => normalizedLocaleSet.has(row.locale)).map(row => ({ ...row, kind: '规范化异名 / Normalized synonym' }))
+  return [...own, ...synonyms].map(({ locale, title, kind }) => ({ item: `Wikipedia:${locale}:${title}`, parentNames: [kind], ranks: [],
+    url: `https://${locale}.wikipedia.org/wiki/${encodeURIComponent(title)}`, abstracts: [] }))
+    .filter(option => !['identity-conflict', 'unavailable'].includes(article.get(option.url)?.status))
+}
 const completedLocales = new Set(alternateLocales)
 const alternateNames = alternateLocales.length ? db.prepare('SELECT locale,title FROM alternate_title_matches INDEXED BY alternate_title_matches_name WHERE name=?') : null
 const alternateSynonyms = alternateLocales.length ? db.prepare('SELECT DISTINCT t.locale,t.title FROM synonym_names s JOIN alternate_title_matches t INDEXED BY alternate_title_matches_name ON t.name=s.name WHERE s.node_id=?') : null
@@ -81,7 +93,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
     const result = queryName.get(name)
     if (!result || result.status !== 'queried') {
       stats.pendingNodes++
-      const options = uniqueOptions([...synonymOptions(row.id), ...alternateOptions(name, row.id)])
+      const options = uniqueOptions([...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)])
       if (options.length) {
         entries[row.id] = { status: 'candidate', lookupPending: true, options }
         stats.pendingTitleCandidates++
@@ -102,7 +114,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
       : titleCandidateUrl && !['identity-conflict', 'unavailable'].includes(article.get(titleCandidateUrl)?.status) ? { item: `Wikipedia:${titleCandidate}`, parentNames: [], ranks: [],
         url: titleCandidateUrl, abstracts: [] } : null
     if (identity.status === 'unresolved') {
-      const options = uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id)])
+      const options = uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)])
       if (options.length) {
         entries[row.id] = { status: 'candidate', options }
         stats.candidatesWithAbstract++
@@ -120,7 +132,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
         }
         return { item: candidate.item, parentNames: candidate.parentNames, ranks: candidate.ranks, url: abstracts[0]?.url ?? usable[0], abstracts }
       }).filter(option => option.url)
-      const allOptions = uniqueOptions([...options, fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id)])
+      const allOptions = uniqueOptions([...options, fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)])
       if (allOptions.length) {
         entries[row.id] = { status: 'candidate', options: allOptions }
         if (allOptions.some(option => option.abstracts.length)) stats.candidatesWithAbstract++
@@ -134,8 +146,8 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
       if (fallbackOption && fallbackOption.item === identity.item) {
         entries[row.id] = { status: 'matched', item: identity.item, matchKind: identity.status, url: fallbackOption.url, abstracts: fallbackOption.abstracts }
         stats.matchedWithAbstract++
-      } else if (fallbackOption || synonymOptions(row.id).length || alternateOptions(name, row.id).length) {
-        entries[row.id] = { status: 'candidate', options: uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id)]) }
+      } else if (fallbackOption || synonymOptions(row.id).length || alternateOptions(name, row.id).length || normalizedOptions(name, row.id).length) {
+        entries[row.id] = { status: 'candidate', options: uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)]) }
         stats.candidatesWithAbstract++
       } else { entries[row.id] = { status: 'unresolved', item: identity.item, matchKind: identity.status }; stats.matchedWithoutSitelink++ }
       continue
@@ -180,6 +192,6 @@ stats.candidatesAwaitingAbstract += stats.candidatesWithAbstract
 stats.candidatesWithAbstract = 0
 db.exec('COMMIT')
 db.close()
-writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(), titleIndexSources,
+writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(), titleIndexSources, normalizedTitleSources,
   registryManifestSha256: createHash('sha256').update(manifestBytes).digest('hex'), status: stats.pendingNodes ? 'partial' : 'queried', ...(part === null ? {} : { part, parts }), stats, shards }, null, 2) + '\n')
 console.log(JSON.stringify({ status: 'exported', out, stats }))
