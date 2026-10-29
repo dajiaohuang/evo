@@ -3,6 +3,8 @@ import { createHash } from 'node:crypto'
 import { copyFileSync, existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { dirname, isAbsolute, join, relative, resolve, sep } from 'node:path'
 import { execFileSync } from 'node:child_process'
+import { gunzipSync } from 'node:zlib'
+import { DatabaseSync } from 'node:sqlite'
 
 const source = resolve(process.argv[2] ?? '')
 const root = resolve('.git/evo-wikipedia-col26-8')
@@ -30,6 +32,18 @@ if (remoteHead && remoteHead !== head) throw new Error('Remote data branch chang
 const bytes = readFileSync(join(source, 'manifest.json'))
 const manifest = JSON.parse(bytes)
 assert.equal(manifest.releaseAlias, 'COL26.8')
+// A capture may discover a redirect identity conflict after an export starts.
+// Refuse to publish any snapshot that still exposes a known conflicting URL.
+const inventory = new DatabaseSync(join(root, 'inventory.sqlite'), { readOnly: true })
+const conflicts = new Set(inventory.prepare("SELECT url FROM article_jobs WHERE status='identity-conflict'").all().map(row => row.url))
+inventory.close()
+for (const file of Object.values(manifest.shards)) {
+  const data = JSON.parse(gunzipSync(readFileSync(join(source, file.path))))
+  for (const [id, entry] of Object.entries(data.entries)) {
+    const urls = [entry.url, ...(entry.options ?? []).map(option => option.url)].filter(Boolean)
+    for (const url of urls) assert.ok(!conflicts.has(url), `Node ${id} still exposes an identity conflict; regenerate the snapshot`)
+  }
+}
 if (existsSync(join(repo, 'manifest.json'))) {
   const previous = JSON.parse(readFileSync(join(repo, 'manifest.json'), 'utf8'))
   assert.equal(previous.registryManifestSha256, manifest.registryManifestSha256)
