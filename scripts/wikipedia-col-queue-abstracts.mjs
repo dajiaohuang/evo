@@ -17,12 +17,12 @@ CREATE TABLE IF NOT EXISTS wiki_licenses(locale TEXT PRIMARY KEY, label TEXT NOT
 const limitIndex = process.argv.indexOf('--names')
 const limit = limitIndex < 0 ? 20000 : Number(process.argv[limitIndex + 1])
 assert.ok(Number.isSafeInteger(limit) && limit > 0 && limit <= 100000)
-const names = db.prepare("SELECT name,candidates_json FROM names WHERE status='queried' AND abstract_queue_version < 3 ORDER BY rowid LIMIT ?").all(limit)
+const names = db.prepare("SELECT name,candidates_json FROM names WHERE status='queried' AND abstract_queue_version < 4 ORDER BY rowid LIMIT ?").all(limit)
 const nodes = db.prepare('SELECT n.id,n.rank,p.name AS parentName FROM nodes n LEFT JOIN nodes p ON n.parent_id=p.id WHERE n.name=?')
 const insert = db.prepare('INSERT OR IGNORE INTO article_jobs(url,item_id,locale) VALUES(?,?,?)')
 const existing = db.prepare('SELECT item_id FROM article_jobs WHERE url=?')
 const markConflict = db.prepare("UPDATE article_jobs SET status='identity-conflict' WHERE url=?")
-const mark = db.prepare('UPDATE names SET abstract_queued_at=?,abstract_queue_version=3 WHERE name=? AND abstract_queue_version < 3')
+const mark = db.prepare('UPDATE names SET abstract_queued_at=?,abstract_queue_version=4 WHERE name=? AND abstract_queue_version < 4')
 const title = db.prepare('SELECT title FROM exact_english_titles WHERE name=?')
 const insertTitle = db.prepare('INSERT OR IGNORE INTO exact_title_jobs(name,title) VALUES(?,?)')
 let matchedNodes = 0, queuedArticleReferences = 0
@@ -30,10 +30,12 @@ db.exec('BEGIN IMMEDIATE')
 try {
   for (const row of names) {
     const candidates = JSON.parse(row.candidates_json)
-    if (!candidates.some(candidate => candidate.articles.length)) {
-      const fallback = title.get(row.name)
-      if (fallback) insertTitle.run(row.name, fallback.title)
-    }
+    const fallback = title.get(row.name)
+    const exactTitleAlreadyLinked = candidates.some(candidate => candidate.articles.some(article => {
+      const url = new URL(article)
+      return url.hostname === 'en.wikipedia.org' && decodeURIComponent(url.pathname.slice('/wiki/'.length)).replaceAll('_', ' ') === row.name
+    }))
+    if (fallback && !exactTitleAlreadyLinked) insertTitle.run(row.name, fallback.title)
     for (const node of nodes.all(row.name)) {
       const result = classify(node, candidates)
       const exact = ['matched-col-id', 'matched-name-parent-rank'].includes(result.status)
@@ -56,6 +58,6 @@ try {
   db.exec('COMMIT')
 } catch (error) { db.exec('ROLLBACK'); throw error }
 const jobCounts = db.prepare('SELECT status,COUNT(*) AS n FROM article_jobs GROUP BY status').all()
-const remaining = db.prepare("SELECT COUNT(*) AS n FROM names WHERE status='queried' AND abstract_queue_version < 3").get().n
+const remaining = db.prepare("SELECT COUNT(*) AS n FROM names WHERE status='queried' AND abstract_queue_version < 4").get().n
 db.close()
 console.log(JSON.stringify({ processedNames: names.length, remainingNames: remaining, matchedNodes, queuedArticleReferences, jobCounts }))
