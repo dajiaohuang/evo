@@ -56,12 +56,13 @@ for (const source of manifest.hierarchy.nodes.files) {
       const selected = identity.status === 'candidate-name' ? candidates.filter(candidate => candidate.item === identity.item) : candidates
       const options = selected.filter(candidate => candidate.articles.length).map(candidate => {
         const abstracts = []
-        for (const url of candidate.articles) {
+        const usable = candidate.articles.filter(url => !['identity-conflict', 'unavailable'].includes(article.get(url)?.status))
+        for (const url of usable) {
           const saved = article.get(url)
           if (saved?.item_id === candidate.item && saved.status === 'available' && saved.snapshot_json) abstracts.push(JSON.parse(saved.snapshot_json))
         }
-        return { item: candidate.item, parentNames: candidate.parentNames, ranks: candidate.ranks, url: abstracts[0]?.url ?? candidate.articles[0], abstracts }
-      })
+        return { item: candidate.item, parentNames: candidate.parentNames, ranks: candidate.ranks, url: abstracts[0]?.url ?? usable[0], abstracts }
+      }).filter(option => option.url)
       if (fallbackOption && !options.some(option => option.url === fallbackOption.url)) options.push(fallbackOption)
       if (options.length) {
         entries[row.id] = { status: 'candidate', options }
@@ -71,7 +72,8 @@ for (const source of manifest.hierarchy.nodes.files) {
       continue
     }
     if (!['matched-col-id', 'matched-name-parent-rank'].includes(identity.status)) { entries[row.id] = { status: 'unresolved' }; stats.unresolved++; continue }
-    if (!identity.articles.length) {
+    const usableArticles = identity.articles.filter(url => !['identity-conflict', 'unavailable'].includes(article.get(url)?.status))
+    if (!usableArticles.length) {
       if (fallbackOption && fallbackOption.item === identity.item) {
         entries[row.id] = { status: 'matched', item: identity.item, matchKind: identity.status, url: fallbackOption.url, abstracts: fallbackOption.abstracts }
         stats.matchedWithAbstract++
@@ -82,12 +84,12 @@ for (const source of manifest.hierarchy.nodes.files) {
       continue
     }
     const available = []
-    for (const url of identity.articles) {
+    for (const url of usableArticles) {
       const saved = article.get(url)
       if (saved?.item_id === identity.item && saved.status === 'available' && saved.snapshot_json) available.push(JSON.parse(saved.snapshot_json))
     }
     if (!available.length) {
-      entries[row.id] = { status: 'abstract-pending', item: identity.item, matchKind: identity.status, url: identity.articles[0] }
+      entries[row.id] = { status: 'abstract-pending', item: identity.item, matchKind: identity.status, url: usableArticles[0] }
       stats.matchedAwaitingAbstract++
     } else {
       entries[row.id] = { status: 'matched', item: identity.item, matchKind: identity.status, url: available[0].url, abstracts: available }
