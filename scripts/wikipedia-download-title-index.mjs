@@ -6,7 +6,7 @@ import { Readable } from 'node:stream'
 import { pipeline } from 'node:stream/promises'
 
 const locale = process.argv[2] ?? 'en'
-assert.ok(['en', 'zh'].includes(locale))
+assert.ok(['en', 'zh', 'ceb', 'sv', 'nl'].includes(locale))
 const folder = resolve('.git/evo-wikipedia-col26-8/sources')
 mkdirSync(folder, { recursive: true })
 const target = join(folder, `${locale}wiki-titles-ns0.gz`)

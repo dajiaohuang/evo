@@ -23,6 +23,8 @@ SQLite 检查点；网络错误留下待查询记录。按 COL ID 匹配或名�
 `scripts/wikipedia-col-synonym-titles.mjs` 校验目录的搜索分片与 Wikipedia
 标题快照，将异名对应的标题作为候选；未完成当前学名查询的节点也可以显示
 该候选，但仍计入待查询数。
+中文、宿务语、瑞典语和荷兰语标题清单同样用于发现同名及异名候选；
+标题命中不证明分类身份，也不读取条目正文。
 
 `scripts/wikipedia-col-export.mjs` 按节点 ID 的 SHA-256 首字节生成 256 个
 压缩分片和覆盖率 manifest；`scripts/verify-wikipedia-col-export.mjs` 校验

@@ -35,6 +35,16 @@ const exactTitle = db.prepare('SELECT status,snapshot_json FROM exact_title_jobs
 const dumpedTitle = db.prepare('SELECT title FROM exact_english_titles WHERE name=?')
 const synonymsReady = Boolean(db.prepare("SELECT value FROM meta WHERE key='synonym_titles_sha256'").get()?.value)
 const synonymTitles = synonymsReady ? db.prepare('SELECT DISTINCT t.title FROM synonym_names s JOIN synonym_title_matches t ON t.name=s.name WHERE s.node_id=? ORDER BY t.title') : null
+const alternateLocales = ['zh', 'ceb', 'sv', 'nl'].filter(locale => db.prepare('SELECT value FROM meta WHERE key=?').get(`alternate_titles_${locale}_sha256`)?.value)
+const alternateNames = alternateLocales.length ? db.prepare(`SELECT locale,title FROM alternate_title_matches WHERE name=? AND locale IN (${alternateLocales.map(() => '?').join(',')})`) : null
+const alternateSynonyms = alternateLocales.length ? db.prepare(`SELECT DISTINCT t.locale,t.title FROM synonym_names s JOIN alternate_title_matches t ON t.name=s.name WHERE s.node_id=? AND t.locale IN (${alternateLocales.map(() => '?').join(',')})`) : null
+function alternateOptions(name, id) {
+  const own = (alternateNames?.all(name, ...alternateLocales) ?? []).map(row => ({ ...row, kind: '同名标题 / Same title' }))
+  const synonyms = (alternateSynonyms?.all(id, ...alternateLocales) ?? []).map(row => ({ ...row, kind: '异名 / Synonym' }))
+  return [...own, ...synonyms].map(({ locale, title, kind }) => ({ item: `Wikipedia:${locale}:${title}`, parentNames: [kind], ranks: [],
+    url: `https://${locale}.wikipedia.org/wiki/${encodeURIComponent(title)}`, abstracts: [] }))
+    .filter(option => !['identity-conflict', 'unavailable'].includes(article.get(option.url)?.status))
+}
 function synonymOptions(id) {
   return (synonymTitles?.all(id) ?? []).map(({ title }) => ({ item: `Wikipedia:${title}`, parentNames: ['异名 / Synonym'], ranks: [],
     url: `https://en.wikipedia.org/wiki/${encodeURIComponent(title)}`, abstracts: [] }))
@@ -68,7 +78,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
     const result = queryName.get(name)
     if (!result || result.status !== 'queried') {
       stats.pendingNodes++
-      const options = uniqueOptions(synonymOptions(row.id))
+      const options = uniqueOptions([...synonymOptions(row.id), ...alternateOptions(name, row.id)])
       if (options.length) {
         entries[row.id] = { status: 'candidate', lookupPending: true, options }
         stats.pendingTitleCandidates++
@@ -89,7 +99,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
       : titleCandidateUrl && !['identity-conflict', 'unavailable'].includes(article.get(titleCandidateUrl)?.status) ? { item: `Wikipedia:${titleCandidate}`, parentNames: [], ranks: [],
         url: titleCandidateUrl, abstracts: [] } : null
     if (identity.status === 'unresolved') {
-      const options = uniqueOptions([fallbackOption, ...synonymOptions(row.id)])
+      const options = uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id)])
       if (options.length) {
         entries[row.id] = { status: 'candidate', options }
         stats.candidatesWithAbstract++
@@ -107,7 +117,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
         }
         return { item: candidate.item, parentNames: candidate.parentNames, ranks: candidate.ranks, url: abstracts[0]?.url ?? usable[0], abstracts }
       }).filter(option => option.url)
-      const allOptions = uniqueOptions([...options, fallbackOption, ...synonymOptions(row.id)])
+      const allOptions = uniqueOptions([...options, fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id)])
       if (allOptions.length) {
         entries[row.id] = { status: 'candidate', options: allOptions }
         if (allOptions.some(option => option.abstracts.length)) stats.candidatesWithAbstract++
@@ -121,8 +131,8 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
       if (fallbackOption && fallbackOption.item === identity.item) {
         entries[row.id] = { status: 'matched', item: identity.item, matchKind: identity.status, url: fallbackOption.url, abstracts: fallbackOption.abstracts }
         stats.matchedWithAbstract++
-      } else if (fallbackOption || synonymOptions(row.id).length) {
-        entries[row.id] = { status: 'candidate', options: uniqueOptions([fallbackOption, ...synonymOptions(row.id)]) }
+      } else if (fallbackOption || synonymOptions(row.id).length || alternateOptions(name, row.id).length) {
+        entries[row.id] = { status: 'candidate', options: uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id)]) }
         stats.candidatesWithAbstract++
       } else { entries[row.id] = { status: 'unresolved', item: identity.item, matchKind: identity.status }; stats.matchedWithoutSitelink++ }
       continue
