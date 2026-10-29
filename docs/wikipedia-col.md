@@ -28,6 +28,8 @@ SQLite 检查点；网络错误留下待查询记录。按 COL ID 匹配或名�
 压缩分片和覆盖率 manifest；`scripts/verify-wikipedia-col-export.mjs` 校验
 分片完整性、ID 路由、条目状态和摘要来源。manifest 必须公布已查询和待
 查询数量。未查询、没有证据和网络失败不能标为“没有 Wikipedia”。
+Windows 批量导出使用 `scripts/wikipedia-col-export-chunks.mjs`：先备份一致的
+SQLite 快照，再由短生命周期进程分段生成并合并，避免单进程原生访问冲突。
 
 网站浮窗读取站内已保存的对应关系。用户主动点击原文链接时才前往 Wikipedia。
 同名候选有明确提示；未完成的节点显示待核对。全量树优先读取现有固定

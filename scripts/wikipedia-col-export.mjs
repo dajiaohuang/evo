@@ -16,7 +16,16 @@ const out = resolve(process.argv[option + 1])
 const child = relative(local, out)
 assert.ok(child && !isAbsolute(child) && child !== '..' && !child.startsWith('..' + sep), 'Output must be inside the local matching workspace')
 assert.ok(!existsSync(out), 'Choose a new empty export path')
-const db = new DatabaseSync(join(local, 'inventory.sqlite'), { readOnly: true })
+const dbIndex = process.argv.indexOf('--db')
+const dbPath = dbIndex < 0 ? join(local, 'inventory.sqlite') : resolve(process.argv[dbIndex + 1])
+const dbChild = relative(local, dbPath)
+assert.ok(dbChild && !isAbsolute(dbChild) && dbChild !== '..' && !dbChild.startsWith('..' + sep), 'Database must be in the matching workspace')
+const partIndex = process.argv.indexOf('--part')
+const part = partIndex < 0 ? null : Number(process.argv[partIndex + 1])
+const partsIndex = process.argv.indexOf('--parts')
+const parts = partsIndex < 0 ? 1 : Number(process.argv[partsIndex + 1])
+assert.ok(Number.isSafeInteger(parts) && parts >= 1 && parts <= 256 && (part === null ? parts === 1 : Number.isSafeInteger(part) && part >= 0 && part < parts))
+const db = new DatabaseSync(dbPath, { readOnly: true })
 assert.equal(db.prepare("SELECT value FROM meta WHERE key='inventory_complete'").get()?.value, 'true')
 assert.equal(db.prepare("SELECT value FROM meta WHERE key='manifest_sha256'").get()?.value, createHash('sha256').update(manifestBytes).digest('hex'))
 const queryName = db.prepare('SELECT status,candidates_json FROM names WHERE name=?')
@@ -40,15 +49,17 @@ const preferredUrls = urls => [...urls].sort((a, b) => {
   return rank(a) - rank(b) || a.localeCompare(b)
 })
 db.exec('BEGIN')
-const stats = { totalNodes: manifest.hierarchy.counts.nodes, queriedNodes: 0, pendingNodes: 0, matchedWithAbstract: 0,
+const stats = { totalNodes: 0, queriedNodes: 0, pendingNodes: 0, matchedWithAbstract: 0,
   matchedAwaitingAbstract: 0, matchedWithoutSitelink: 0, candidatesWithAbstract: 0, candidatesAwaitingAbstract: 0, ambiguous: 0, unresolved: 0, pendingTitleCandidates: 0 }
 const shards = {}
 mkdirSync(out, { recursive: true })
-for (const source of manifest.hierarchy.nodes.files) {
+for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
+  if (part !== null && index % parts !== part) continue
   const bytes = readFileSync(join(root, source.path))
   assert.equal(createHash('sha256').update(bytes).digest('hex'), source.sha256, source.path)
   const rows = gunzipSync(bytes).toString('utf8').split('\n').filter(Boolean)
   assert.equal(rows.length, source.records)
+  stats.totalNodes += rows.length
   const entries = {}
   for (const line of rows) {
     const row = JSON.parse(line)
@@ -141,7 +152,7 @@ for (const source of manifest.hierarchy.nodes.files) {
     for (const option of entry.options ?? []) option.abstracts = []
   }
   const raw = Buffer.from(JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', entries }))
-  const output = gzipSync(raw, { level: 6, mtime: 0 })
+  const output = gzipSync(raw, { level: 1, mtime: 0 })
   const outputHash = createHash('sha256').update(output).digest('hex')
   const path = `id-${source.prefix}-${outputHash.slice(0, 16)}.json.gz`
   writeFileSync(join(out, path), output)
@@ -157,5 +168,5 @@ stats.candidatesWithAbstract = 0
 db.exec('COMMIT')
 db.close()
 writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(),
-  registryManifestSha256: createHash('sha256').update(manifestBytes).digest('hex'), status: stats.pendingNodes ? 'partial' : 'queried', stats, shards }, null, 2) + '\n')
+  registryManifestSha256: createHash('sha256').update(manifestBytes).digest('hex'), status: stats.pendingNodes ? 'partial' : 'queried', ...(part === null ? {} : { part, parts }), stats, shards }, null, 2) + '\n')
 console.log(JSON.stringify({ status: 'exported', out, stats }))
