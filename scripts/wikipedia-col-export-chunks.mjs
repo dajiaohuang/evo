@@ -21,17 +21,22 @@ console.log('Frozen local database snapshot created')
 const parts = 16
 const results = []
 for (let part = 0; part < parts; part++) {
-  const directory = join(out, `part-${part}`)
-  const result = await new Promise((resolveResult, reject) => {
-    const childProcess = spawn(process.execPath, ['scripts/wikipedia-col-export.mjs', '--out', directory, '--db', snapshot, '--part', String(part), '--parts', String(parts)], { stdio: ['ignore', 'pipe', 'pipe'] })
-    let log = ''
-    const collect = chunk => { log = (log + chunk.toString()).slice(-8000) }
-    childProcess.stdout.on('data', collect)
-    childProcess.stderr.on('data', collect)
-    childProcess.on('error', reject)
-    childProcess.on('close', (code, signal) => resolveResult({ code, signal, log }))
-  })
-  if (result.code !== 0) throw new Error(`Export part ${part} failed (${result.code}, ${result.signal}): ${result.log}`)
+  let directory, result
+  for (let attempt = 0; attempt < 3; attempt++) {
+    directory = join(out, `part-${part}-attempt-${attempt}`)
+    result = await new Promise((resolveResult, reject) => {
+      const childProcess = spawn(process.execPath, ['scripts/wikipedia-col-export.mjs', '--out', directory, '--db', snapshot, '--part', String(part), '--parts', String(parts)], { stdio: ['ignore', 'pipe', 'pipe'] })
+      let log = ''
+      const collect = chunk => { log = (log + chunk.toString()).slice(-8000) }
+      childProcess.stdout.on('data', collect)
+      childProcess.stderr.on('data', collect)
+      childProcess.on('error', reject)
+      childProcess.on('close', (code, signal) => resolveResult({ code, signal, log }))
+    })
+    if (result.code === 0) break
+    console.warn(`Export part ${part} attempt ${attempt + 1} failed (${result.code}); preserving it and retrying`)
+  }
+  if (result.code !== 0) throw new Error(`Export part ${part} failed after three attempts (${result.code}, ${result.signal}): ${result.log}`)
   const manifest = JSON.parse(readFileSync(join(directory, 'manifest.json')))
   assert.equal(manifest.part, part)
   assert.equal(manifest.parts, parts)
