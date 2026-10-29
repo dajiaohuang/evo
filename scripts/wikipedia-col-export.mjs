@@ -24,6 +24,10 @@ const parentName = db.prepare('SELECT name FROM nodes WHERE id=?')
 const article = db.prepare('SELECT item_id,status,snapshot_json FROM article_jobs WHERE url=?')
 const exactTitle = db.prepare('SELECT status,snapshot_json FROM exact_title_jobs WHERE name=?')
 const dumpedTitle = db.prepare('SELECT title FROM exact_english_titles WHERE name=?')
+const preferredUrls = urls => [...urls].sort((a, b) => {
+  const rank = url => new URL(url).hostname === 'zh.wikipedia.org' ? 0 : new URL(url).hostname === 'en.wikipedia.org' ? 1 : 2
+  return rank(a) - rank(b) || a.localeCompare(b)
+})
 db.exec('BEGIN')
 const stats = { totalNodes: manifest.hierarchy.counts.nodes, queriedNodes: 0, pendingNodes: 0, matchedWithAbstract: 0,
   matchedAwaitingAbstract: 0, matchedWithoutSitelink: 0, candidatesWithAbstract: 0, candidatesAwaitingAbstract: 0, ambiguous: 0, unresolved: 0 }
@@ -62,7 +66,7 @@ for (const source of manifest.hierarchy.nodes.files) {
       const selected = identity.status === 'candidate-name' ? candidates.filter(candidate => candidate.item === identity.item) : candidates
       const options = selected.filter(candidate => candidate.articles.length).map(candidate => {
         const abstracts = []
-        const usable = candidate.articles.filter(url => !['identity-conflict', 'unavailable'].includes(article.get(url)?.status))
+        const usable = preferredUrls(candidate.articles.filter(url => !['identity-conflict', 'unavailable'].includes(article.get(url)?.status)))
         for (const url of usable) {
           const saved = article.get(url)
           if (saved?.item_id === candidate.item && saved.status === 'available' && saved.snapshot_json) abstracts.push(JSON.parse(saved.snapshot_json))
@@ -78,7 +82,7 @@ for (const source of manifest.hierarchy.nodes.files) {
       continue
     }
     if (!['matched-col-id', 'matched-name-parent-rank'].includes(identity.status)) { entries[row.id] = { status: 'unresolved' }; stats.unresolved++; continue }
-    const usableArticles = identity.articles.filter(url => !['identity-conflict', 'unavailable'].includes(article.get(url)?.status))
+    const usableArticles = preferredUrls(identity.articles.filter(url => !['identity-conflict', 'unavailable'].includes(article.get(url)?.status)))
     if (!usableArticles.length) {
       if (fallbackOption && fallbackOption.item === identity.item) {
         entries[row.id] = { status: 'matched', item: identity.item, matchKind: identity.status, url: fallbackOption.url, abstracts: fallbackOption.abstracts }
