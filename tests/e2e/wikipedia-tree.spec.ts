@@ -20,12 +20,23 @@ test('tree opens a real Wikipedia preview and preserves the tree on close', asyn
 })
 
 test('the full catalogue tree opens from the static data release', async ({ page }) => {
+  const wikiRequests: string[] = []
+  page.on('request', request => { if (/^https:\/\/[^/]*wikipedia\.org\//.test(request.url())) wikiRequests.push(request.url()) })
   await page.goto('./#/home?view=tree')
   await page.getByRole('button', { name: /打开全量分类树|Open full catalogue tree/ }).click()
   const tree = page.getByRole('tree', { name: /可展开分类树|Expandable catalogue tree/ })
   await expect(tree).toBeVisible({ timeout: 30000 })
   await expect(tree.getByRole('treeitem')).toHaveCount(4)
   await expect(page.getByRole('region', { name: /全量分类树|Full catalogue tree/ })).toContainText('2,429,092')
+  await page.getByLabel(/搜索名称|Search names/).fill('Acer crassum')
+  await page.locator('.backend-tree__results button').filter({ hasText: '9487' }).click()
+  const selected = page.locator('.backend-tree__path a').last()
+  await expect(selected).toContainText('Acer crassum')
+  await selected.click()
+  const dialog = page.getByRole('dialog')
+  await expect(dialog.locator('.wikipedia-window__body p[lang]')).not.toBeEmpty()
+  await expect(dialog.locator('footer a')).toHaveAttribute('href', /wikipedia\.org\/wiki\//)
+  expect(wikiRequests).toEqual([])
 })
 
 test('old interactive and static node readers are paused', async ({ page }) => {

@@ -77,7 +77,14 @@ if (artifact.overlay) {
   const mappingBytes = readFileSync(join(output, 'evo/wikipedia/mapping.json'))
   if (createHash('sha256').update(mappingBytes).digest('hex') !== overlay.mappingSha256) throw new Error('Wikipedia link table mismatch')
   if (overlay.catalogueManifestSha256) {
-    const manifestBytes = readFileSync(join(output, 'evo/wikipedia/col/manifest.json'))
+    const localManifest = join(output, 'evo/wikipedia/col/manifest.json')
+    const manifestBytes = existsSync(localManifest) ? readFileSync(localManifest) : Buffer.from(await (async () => {
+      const source = new URL(overlay.catalogueOrigin + 'manifest.json')
+      if (source.href !== 'https://raw.githubusercontent.com/dajiaohuang/evo/evo-wikipedia-data/manifest.json') throw new Error('Invalid catalogue data origin')
+      const response = await fetch(source, { signal: AbortSignal.timeout(30000) })
+      if (!response.ok) throw new Error(`Catalogue data origin HTTP ${response.status}`)
+      return response.arrayBuffer()
+    })())
     if (createHash('sha256').update(manifestBytes).digest('hex') !== overlay.catalogueManifestSha256) throw new Error('Catalogue Wikipedia manifest mismatch')
   }
 }

@@ -94,11 +94,12 @@ for (const source of manifest.hierarchy.nodes.files) {
       stats.matchedWithAbstract++
     }
   }
-  const path = `id-${source.prefix}.json.gz`
   const raw = Buffer.from(JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', entries }))
   const output = gzipSync(raw, { level: 6, mtime: 0 })
+  const outputHash = createHash('sha256').update(output).digest('hex')
+  const path = `id-${source.prefix}-${outputHash.slice(0, 16)}.json.gz`
   writeFileSync(join(out, path), output)
-  shards[source.prefix] = { path, sha256: createHash('sha256').update(output).digest('hex'), bytes: output.length,
+  shards[source.prefix] = { path, sha256: outputHash, bytes: output.length,
     sourceSha256: createHash('sha256').update(raw).digest('hex'), sourceBytes: raw.length, entries: Object.keys(entries).length }
   console.log(`${path}: ${Object.keys(entries).length} checked`)
 }

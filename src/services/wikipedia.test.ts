@@ -39,7 +39,8 @@ it('verifies catalogue shard bytes and selects the saved abstract by stable ID',
   } } }))
   const packed = gzipSync(raw)
   const hex = async (bytes: Uint8Array) => Array.from(new Uint8Array(await webcrypto.subtle.digest('SHA-256', bytes)), b => b.toString(16).padStart(2, '0')).join('')
-  const descriptor = { path: `id-${prefix}.json.gz`, sha256: await hex(packed), bytes: packed.length, sourceSha256: await hex(raw), sourceBytes: raw.length }
+  const packedHash = await hex(packed)
+  const descriptor = { path: `id-${prefix}-${packedHash.slice(0, 16)}.json.gz`, sha256: packedHash, bytes: packed.length, sourceSha256: await hex(raw), sourceBytes: raw.length }
   vi.stubGlobal('fetch', vi.fn()
     .mockResolvedValueOnce({ ok: true, json: async () => ({ schemaVersion: 1, releaseAlias: 'COL26.8', shards: { [prefix]: descriptor } }) })
     .mockResolvedValueOnce({ ok: true, arrayBuffer: async () => packed.buffer.slice(packed.byteOffset, packed.byteOffset + packed.byteLength) }))

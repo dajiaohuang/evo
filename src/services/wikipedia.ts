@@ -63,7 +63,7 @@ export async function loadCatalogueWikipedia(id: string): Promise<CatalogueEntry
   const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(id))
   const prefix = new Uint8Array(digest)[0].toString(16).padStart(2, '0')
   const file = manifest.shards[prefix]
-  if (!file || file.path !== `id-${prefix}.json.gz`) return null
+  if (!file || file.path !== `id-${prefix}-${file.sha256.slice(0, 16)}.json.gz` || !/^[0-9a-f]{64}$/.test(file.sha256)) return null
   let pending = catalogueShards.get(prefix)
   if (!pending) {
     pending = fetch(base() + 'col/' + file.path).then(async response => {

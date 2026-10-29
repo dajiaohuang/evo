@@ -27,7 +27,9 @@ if (snapshotIndex >= 0) {
   assert.ok(source && !isAbsolute(source) && source !== '..' && !source.startsWith('..' + sep), 'Catalogue snapshot must be in its local workspace')
   const descriptor = JSON.parse(readFileSync(join(snapshot, 'manifest.json'), 'utf8'))
   assert.equal(descriptor.releaseAlias, 'COL26.8')
-  cpSync(snapshot, join(evo, 'wikipedia/col'), { recursive: true })
+  const destination = process.argv.includes('--external-catalogue') ? resolve('dist/wikipedia/col') : join(evo, 'wikipedia/col')
+  mkdirSync(destination, { recursive: true })
+  cpSync(snapshot, destination, { recursive: true })
 }
 cpSync('public/release.json', join(evo, 'release.json'))
 cpSync('public/favicon.svg', join(evo, 'favicon.svg'))

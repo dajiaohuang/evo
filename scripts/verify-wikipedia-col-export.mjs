@@ -11,7 +11,7 @@ assert.equal(Object.keys(manifest.shards).length, 256)
 let total = 0, abstracts = 0
 const count = {}
 for (const [prefix, file] of Object.entries(manifest.shards)) {
-  assert.equal(file.path, `id-${prefix}.json.gz`)
+  assert.equal(file.path, `id-${prefix}-${file.sha256.slice(0, 16)}.json.gz`)
   const bytes = readFileSync(join(out, file.path))
   assert.equal(bytes.length, file.bytes)
   assert.equal(createHash('sha256').update(bytes).digest('hex'), file.sha256)
