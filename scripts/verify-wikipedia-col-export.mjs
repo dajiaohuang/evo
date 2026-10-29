@@ -25,6 +25,12 @@ for (const [prefix, file] of Object.entries(manifest.shards)) {
     assert.equal(createHash('sha256').update(id).digest('hex').slice(0, 2), prefix)
     assert.ok(['matched', 'abstract-pending', 'candidate', 'ambiguous', 'unresolved'].includes(entry.status))
     count[entry.status] = (count[entry.status] ?? 0) + 1
+    for (const link of [entry.url, ...(entry.options ?? []).map(option => option.url)].filter(Boolean)) {
+      const url = new URL(link)
+      assert.equal(url.protocol, 'https:')
+      assert.match(url.hostname, /^[a-z0-9-]+\.wikipedia\.org$/)
+      assert.ok(url.pathname.startsWith('/wiki/'))
+    }
     for (const snapshot of [...(entry.abstracts ?? []), ...(entry.options ?? []).flatMap(option => option.abstracts ?? [])]) {
       const url = new URL(snapshot.url)
       assert.equal(url.protocol, 'https:')
