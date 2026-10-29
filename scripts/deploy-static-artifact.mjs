@@ -54,7 +54,7 @@ if (artifact.overlay) {
   const overlay = artifact.overlay
   const url = new URL(overlay.url)
   if (url.protocol !== 'https:' || url.hostname !== 'github.com' || !url.pathname.startsWith('/dajiaohuang/evo/releases/download/')
-    || !/^[a-f0-9]{64}$/.test(overlay.sha256) || !Number.isSafeInteger(overlay.bytes) || overlay.bytes <= 0 || overlay.bytes > 100 * 1024 * 1024) throw new Error('Invalid Wikipedia overlay descriptor')
+    || !/^[a-f0-9]{64}$/.test(overlay.sha256) || !Number.isSafeInteger(overlay.bytes) || overlay.bytes <= 0 || overlay.bytes > 1024 * 1024 * 1024) throw new Error('Invalid Wikipedia overlay descriptor')
   const response = await fetch(url, { signal: AbortSignal.timeout(180000) })
   if (!response.ok || !response.body) throw new Error('Wikipedia overlay download failed')
   const digest = createHash('sha256')
