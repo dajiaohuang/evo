@@ -20,6 +20,9 @@ SQLite 检查点；网络错误留下待查询记录。按 COL ID 匹配或名�
 原地址、日期、字节数与 SHA-256。标题相同的条目可以作为带提示的链接
 候选，但不自动确认物种身份。按用户
 最新要求，停止获取摘要，新数据分片只发布链接，不含此前保存的摘要正文。
+`scripts/wikipedia-col-synonym-titles.mjs` 校验目录的搜索分片与 Wikipedia
+标题快照，将异名对应的标题作为候选；未完成当前学名查询的节点也可以显示
+该候选，但仍计入待查询数。
 
 `scripts/wikipedia-col-export.mjs` 按节点 ID 的 SHA-256 首字节生成 256 个
 压缩分片和覆盖率 manifest；`scripts/verify-wikipedia-col-export.mjs` 校验

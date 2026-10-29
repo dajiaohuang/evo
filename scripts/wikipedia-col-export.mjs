@@ -24,13 +24,24 @@ const parentName = db.prepare('SELECT name FROM nodes WHERE id=?')
 const article = db.prepare('SELECT item_id,status,snapshot_json FROM article_jobs WHERE url=?')
 const exactTitle = db.prepare('SELECT status,snapshot_json FROM exact_title_jobs WHERE name=?')
 const dumpedTitle = db.prepare('SELECT title FROM exact_english_titles WHERE name=?')
+const synonymsReady = Boolean(db.prepare("SELECT value FROM meta WHERE key='synonym_titles_sha256'").get()?.value)
+const synonymTitles = synonymsReady ? db.prepare('SELECT DISTINCT t.title FROM synonym_names s JOIN synonym_title_matches t ON t.name=s.name WHERE s.node_id=? ORDER BY t.title') : null
+function synonymOptions(id) {
+  return (synonymTitles?.all(id) ?? []).map(({ title }) => ({ item: `Wikipedia:${title}`, parentNames: ['异名 / Synonym'], ranks: [],
+    url: `https://en.wikipedia.org/wiki/${encodeURIComponent(title)}`, abstracts: [] }))
+    .filter(option => !['identity-conflict', 'unavailable'].includes(article.get(option.url)?.status))
+}
+function uniqueOptions(options) {
+  const seen = new Set()
+  return options.filter(option => option?.url && !seen.has(option.url) && seen.add(option.url))
+}
 const preferredUrls = urls => [...urls].sort((a, b) => {
   const rank = url => new URL(url).hostname === 'zh.wikipedia.org' ? 0 : new URL(url).hostname === 'en.wikipedia.org' ? 1 : 2
   return rank(a) - rank(b) || a.localeCompare(b)
 })
 db.exec('BEGIN')
 const stats = { totalNodes: manifest.hierarchy.counts.nodes, queriedNodes: 0, pendingNodes: 0, matchedWithAbstract: 0,
-  matchedAwaitingAbstract: 0, matchedWithoutSitelink: 0, candidatesWithAbstract: 0, candidatesAwaitingAbstract: 0, ambiguous: 0, unresolved: 0 }
+  matchedAwaitingAbstract: 0, matchedWithoutSitelink: 0, candidatesWithAbstract: 0, candidatesAwaitingAbstract: 0, ambiguous: 0, unresolved: 0, pendingTitleCandidates: 0 }
 const shards = {}
 mkdirSync(out, { recursive: true })
 for (const source of manifest.hierarchy.nodes.files) {
@@ -44,7 +55,16 @@ for (const source of manifest.hierarchy.nodes.files) {
     const author = row.authorship?.trim()
     const name = author && row.scientificName.endsWith(author) ? row.scientificName.slice(0, -author.length).trim() : row.scientificName.trim()
     const result = queryName.get(name)
-    if (!result || result.status !== 'queried') { stats.pendingNodes++; continue }
+    if (!result || result.status !== 'queried') {
+      stats.pendingNodes++
+      const options = uniqueOptions(synonymOptions(row.id))
+      if (options.length) {
+        entries[row.id] = { status: 'candidate', lookupPending: true, options }
+        stats.pendingTitleCandidates++
+        stats.candidatesAwaitingAbstract++
+      }
+      continue
+    }
     stats.queriedNodes++
     const candidates = JSON.parse(result.candidates_json)
     const identity = classify({ ...row, parentName: row.parentId ? parentName.get(row.parentId)?.name : undefined }, candidates)
@@ -57,10 +77,13 @@ for (const source of manifest.hierarchy.nodes.files) {
       parentNames: [], ranks: [], url: fallbackSnapshot.url, abstracts: [fallbackSnapshot] }
       : titleCandidateUrl && !['identity-conflict', 'unavailable'].includes(article.get(titleCandidateUrl)?.status) ? { item: `Wikipedia:${titleCandidate}`, parentNames: [], ranks: [],
         url: titleCandidateUrl, abstracts: [] } : null
-    if (identity.status === 'unresolved' && fallbackOption) {
-      entries[row.id] = { status: 'candidate', options: [fallbackOption] }
-      stats.candidatesWithAbstract++
-      continue
+    if (identity.status === 'unresolved') {
+      const options = uniqueOptions([fallbackOption, ...synonymOptions(row.id)])
+      if (options.length) {
+        entries[row.id] = { status: 'candidate', options }
+        stats.candidatesWithAbstract++
+        continue
+      }
     }
     if (identity.status.startsWith('ambiguous') || identity.status === 'candidate-name') {
       const selected = identity.status === 'candidate-name' ? candidates.filter(candidate => candidate.item === identity.item) : candidates
@@ -73,10 +96,10 @@ for (const source of manifest.hierarchy.nodes.files) {
         }
         return { item: candidate.item, parentNames: candidate.parentNames, ranks: candidate.ranks, url: abstracts[0]?.url ?? usable[0], abstracts }
       }).filter(option => option.url)
-      if (fallbackOption && !options.some(option => option.url === fallbackOption.url)) options.push(fallbackOption)
-      if (options.length) {
-        entries[row.id] = { status: 'candidate', options }
-        if (options.some(option => option.abstracts.length)) stats.candidatesWithAbstract++
+      const allOptions = uniqueOptions([...options, fallbackOption, ...synonymOptions(row.id)])
+      if (allOptions.length) {
+        entries[row.id] = { status: 'candidate', options: allOptions }
+        if (allOptions.some(option => option.abstracts.length)) stats.candidatesWithAbstract++
         else stats.candidatesAwaitingAbstract++
       } else { entries[row.id] = { status: 'ambiguous' }; stats.ambiguous++ }
       continue
@@ -87,8 +110,8 @@ for (const source of manifest.hierarchy.nodes.files) {
       if (fallbackOption && fallbackOption.item === identity.item) {
         entries[row.id] = { status: 'matched', item: identity.item, matchKind: identity.status, url: fallbackOption.url, abstracts: fallbackOption.abstracts }
         stats.matchedWithAbstract++
-      } else if (fallbackOption) {
-        entries[row.id] = { status: 'candidate', options: [fallbackOption] }
+      } else if (fallbackOption || synonymOptions(row.id).length) {
+        entries[row.id] = { status: 'candidate', options: uniqueOptions([fallbackOption, ...synonymOptions(row.id)]) }
         stats.candidatesWithAbstract++
       } else { entries[row.id] = { status: 'unresolved', item: identity.item, matchKind: identity.status }; stats.matchedWithoutSitelink++ }
       continue

@@ -8,7 +8,7 @@ const manifest = JSON.parse(readFileSync(join(out, 'manifest.json'), 'utf8'))
 assert.equal(manifest.schemaVersion, 1)
 assert.equal(manifest.releaseAlias, 'COL26.8')
 assert.equal(Object.keys(manifest.shards).length, 256)
-let total = 0, abstracts = 0
+let total = 0, abstracts = 0, pendingCandidates = 0
 const count = {}
 for (const [prefix, file] of Object.entries(manifest.shards)) {
   assert.equal(file.path, `id-${prefix}-${file.sha256.slice(0, 16)}.json.gz`)
@@ -28,6 +28,7 @@ for (const [prefix, file] of Object.entries(manifest.shards)) {
     }
     assert.equal(createHash('sha256').update(id).digest('hex').slice(0, 2), prefix)
     assert.ok(['matched', 'abstract-pending', 'candidate', 'ambiguous', 'unresolved'].includes(entry.status))
+    if (entry.lookupPending) { assert.equal(entry.status, 'candidate'); pendingCandidates++ }
     count[entry.status] = (count[entry.status] ?? 0) + 1
     for (const link of [entry.url, ...(entry.options ?? []).map(option => option.url)].filter(Boolean)) {
       const url = new URL(link)
@@ -45,9 +46,10 @@ for (const [prefix, file] of Object.entries(manifest.shards)) {
     total++
   }
 }
-assert.equal(total, manifest.stats.queriedNodes)
-assert.equal(total + manifest.stats.pendingNodes, manifest.stats.totalNodes)
+assert.equal(pendingCandidates, manifest.stats.pendingTitleCandidates ?? 0)
+assert.equal(total, manifest.stats.queriedNodes + pendingCandidates)
+assert.equal(manifest.stats.queriedNodes + manifest.stats.pendingNodes, manifest.stats.totalNodes)
 assert.equal(count.matched ?? 0, manifest.stats.matchedWithAbstract)
 assert.equal(count['abstract-pending'] ?? 0, manifest.stats.matchedAwaitingAbstract)
 assert.equal(count.candidate ?? 0, manifest.stats.candidatesWithAbstract + manifest.stats.candidatesAwaitingAbstract)
-console.log(JSON.stringify({ status: 'passed', totalNodes: manifest.stats.totalNodes, queriedNodes: total, pendingNodes: manifest.stats.pendingNodes, counts: count, abstracts }))
+console.log(JSON.stringify({ status: 'passed', totalNodes: manifest.stats.totalNodes, queriedNodes: manifest.stats.queriedNodes, pendingNodes: manifest.stats.pendingNodes, pendingCandidates, counts: count, abstracts }))
