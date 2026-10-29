@@ -48,7 +48,10 @@ export interface NodeMapManifest {
   aliases?: Record<string, string>
   nodes: NodeMapNode[]
   members?: { url: string; sha256: string }
-  frames: Array<{ ageMa: number; url: string; sha256: string; coastlineSha256: string }>
+  /** SHA-256(node ID) prefix buckets; URLs are relative to node-map/. */
+  memberBuckets?: Record<string, Array<{ url: string; sha256: string }>>
+  frames: Array<{ ageMa: number; url: string; sha256: string; coastlineSha256: string;
+    parts?: Array<{ url: string; sha256: string; records: number }>; recordCount?: number; truncated?: boolean }>
   /** Frame shards include every inventory record overlapping this window. */
   frameWindowHalfWidthMa?: number
   stats: Record<string, unknown>

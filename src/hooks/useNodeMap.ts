@@ -24,14 +24,14 @@ export function useNodeMap(coastline: { ageMa: number; sha256: string } | null, 
     return () => { active = false }
   }, [enabled, attempt])
   const frame = manifest?.frames.find(item => item.ageMa === coastline?.ageMa && item.coastlineSha256 === coastline?.sha256)
-  const frameKey = frame && manifest ? `${manifest.revision}:${frame.url}:${frame.sha256}` : null
   const nodeId = selection && manifest ? manifest.aliases?.[selection.id] ?? selection.id : null
+  const frameKey = frame && manifest ? `${manifest.revision}:${frame.url}:${frame.sha256}:${nodeId}` : null
   const node = manifest?.nodes.find(item => item.id === nodeId)
   useEffect(() => {
     if (!frame || !manifest || !node || !visible) return
     let active = true
     const key = frameKey!
-    loadNodeMapFrame(manifest, frame).then(value => { if (active) setData({ key, value }) }, error => {
+    loadNodeMapFrame(manifest, frame, node.id).then(value => { if (active) setData({ key, value }) }, error => {
       if (active) setFailure({ key, message: String(error) })
     })
     return () => { active = false }

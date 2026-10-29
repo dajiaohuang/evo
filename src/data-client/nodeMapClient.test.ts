@@ -46,3 +46,77 @@ it('rejects a checksum-valid file with a stale revision', async () => {
   mockFetch.mockImplementationOnce(async () => new Response(old))
   await expect(client.loadNodeMapFrame(loaded, { ...loaded.frames[0], sha256: digest(old) })).rejects.toThrow('version mismatch')
 })
+
+function splitFixture() {
+  const buckets: Record<string, Array<{ url: string; sha256: string }>> = {}
+  const files = new Map<string, string>()
+  for (let i = 0; i < 256; i++) {
+    const bucket = i.toString(16).padStart(2, '0')
+    const members = Object.fromEntries(['txn:1', 'txn:2'].filter(id => digest(id).startsWith(bucket)).map(id => [id, [id]]))
+    const text = JSON.stringify({ revision: 'v1', treeRevision: 'tree', members })
+    const url = `members/${bucket}.json`
+    files.set(url, text)
+    buckets[bucket] = [{ url, sha256: digest(text) }]
+  }
+  const parts = ['txn:1', 'txn:2'].map((nodeId, i) => {
+    const text = JSON.stringify({ revision: 'v1', treeRevision: 'tree', coverage: 'bounded-sample', truncated: false,
+      records: [{ id: `occ:${i}`, nodeId, sourceId: 'source', kind: 'fossil-occurrence', age: null, reconstruction: null }] })
+    const url = `parts/${i}.json`
+    files.set(url, text)
+    return { url, sha256: digest(text), records: 1 }
+  })
+  const value = { ...manifest, memberBuckets: buckets, frames: [{ ...manifest.frames[0], parts, recordCount: 2, truncated: false }] }
+  mockFetch.mockImplementation(async (url: string) => {
+    if (url.endsWith('/manifest.json')) return new Response(JSON.stringify(value))
+    const key = url.split('node-map/')[1]
+    if (!files.has(key)) throw new Error(`Unexpected download: ${key}`)
+    return new Response(files.get(key))
+  })
+  return { value, files }
+}
+
+it('loads only the selected member bucket and reuses frame records when switching nodes', async () => {
+  splitFixture()
+  const client = await import('./nodeMapClient')
+  const loaded = await client.loadNodeMapManifest()
+  const first = await client.loadNodeMapFrame(loaded, loaded.frames[0], 'txn:1')
+  const second = await client.loadNodeMapFrame(loaded, loaded.frames[0], 'txn:2')
+  expect(first.members).toEqual({ 'txn:1': ['txn:1'] })
+  expect(second.members).toEqual({ 'txn:2': ['txn:2'] })
+  expect(first.records).toBe(second.records)
+  expect(first.records).toHaveLength(2)
+  expect(mockFetch.mock.calls.filter(([url]) => String(url).includes('/parts/'))).toHaveLength(2)
+  expect(mockFetch.mock.calls.filter(([url]) => String(url).includes('/members/'))).toHaveLength(2)
+})
+
+it('rejects corrupt split content and reloads it on retry', async () => {
+  const { files } = splitFixture()
+  const original = files.get('parts/1.json')!
+  files.set('parts/1.json', 'corrupt')
+  const client = await import('./nodeMapClient')
+  const loaded = await client.loadNodeMapManifest()
+  await expect(client.loadNodeMapFrame(loaded, loaded.frames[0], 'txn:1')).rejects.toThrow('checksum')
+  files.set('parts/1.json', original)
+  await expect(client.loadNodeMapFrame(loaded, loaded.frames[0], 'txn:1')).resolves.toMatchObject({ records: [{ id: 'occ:0' }, { id: 'occ:1' }] })
+})
+
+it('rejects a validly hashed part from a different tree', async () => {
+  const { value, files } = splitFixture()
+  const text = JSON.stringify({ ...JSON.parse(files.get('parts/1.json')!), treeRevision: 'wrong' })
+  files.set('parts/1.json', text)
+  value.frames[0].parts[1].sha256 = digest(text)
+  const client = await import('./nodeMapClient')
+  const loaded = await client.loadNodeMapManifest()
+  await expect(client.loadNodeMapFrame(loaded, loaded.frames[0], 'txn:1')).rejects.toThrow('part mismatch')
+})
+
+it('preserves bounded-sample truncation on an empty frame without downloading records', async () => {
+  const { value } = splitFixture()
+  value.frames[0].parts = []
+  value.frames[0].recordCount = 0
+  value.frames[0].truncated = true
+  const client = await import('./nodeMapClient')
+  const loaded = await client.loadNodeMapManifest()
+  await expect(client.loadNodeMapFrame(loaded, loaded.frames[0], 'txn:1')).resolves.toMatchObject({ records: [], truncated: true })
+  expect(mockFetch.mock.calls.some(([url]) => String(url).includes('/parts/'))).toBe(false)
+})

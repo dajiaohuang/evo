@@ -2,6 +2,7 @@ import { expect, test } from '@playwright/test'
 import { queryNodeMap } from '../../src/services/nodeMap'
 import { createMapProjection, visiblePointProjector } from '../../src/utils/mapProjection'
 import type { NodeMapDataset, NodeMapManifest } from '../../src/types/nodeMap'
+import { createHash } from 'node:crypto'
 
 const base = process.env.NODE_MAP_BASE_URL ?? 'http://127.0.0.1:4173/evo/'
 const url = `${base}?lang=en#/home?age=10&mapNode=txn%3A106418`
@@ -18,7 +19,22 @@ test('real node data: bubble, heatmap, evidence, export, and unknown identity', 
   await expect(canvas).toHaveAttribute('data-node-point-count', /^[1-9]\d*$/)
   const manifest = await (await page.request.get(`${base}node-map/manifest.json`)).json() as NodeMapManifest
   const frame = manifest.frames.find(item => item.ageMa === 10)!
-  const dataset = await (await page.request.get(`${base}node-map/${frame.url}`)).json() as NodeMapDataset
+  const readVerified = async (file: { url: string; sha256: string }) => {
+    const response = await page.request.get(`${base}node-map/${file.url}`)
+    expect(response.ok()).toBe(true)
+    const bytes = await response.body()
+    expect(createHash('sha256').update(bytes).digest('hex')).toBe(file.sha256)
+    return JSON.parse(bytes.toString())
+  }
+  const dataset = frame.parts ? { revision: manifest.revision, treeRevision: manifest.treeRevision,
+    coverage: manifest.coverage, truncated: frame.truncated!, members: {}, records: [] } as NodeMapDataset
+    : await readVerified(frame) as NodeMapDataset
+  for (const part of frame.parts ?? []) dataset.records.push(...(await readVerified(part)).records)
+  if (manifest.memberBuckets) {
+    const bucket = createHash('sha256').update('txn:106418').digest('hex').slice(0, 2)
+    dataset.members['txn:106418'] = []
+    for (const part of manifest.memberBuckets[bucket]) dataset.members['txn:106418'].push(...((await readVerified(part)).members['txn:106418'] ?? []))
+  }
   if (manifest.members) dataset.members = (await (await page.request.get(`${base}node-map/${manifest.members.url}`)).json()).members
   const result = queryNodeMap(dataset, { nodeId: 'txn:106418', treeRevision: manifest.treeRevision, scope: 'descendants',
     gridColumns: 72, time: { olderMa: 15, youngerMa: 5 }, frame: { modelRevision: manifest.modelRevision, referenceFrame: manifest.referenceFrame, anchorPlateId: 0, ageMa: 10 } })

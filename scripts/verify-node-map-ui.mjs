@@ -5,10 +5,11 @@ import { spawn } from 'node:child_process'
 
 const local = resolve('.git/platform-v2/local/node-map')
 mkdirSync(local, { recursive: true })
-const remote = process.argv[2]
+const remote = process.argv[2] === '--local' ? null : process.argv[2]
+const assetRoot = process.argv[2] === '--local' ? resolve(process.argv[3]) : null
 const server = remote ? null : createServer((req, res) => {
   const path = decodeURIComponent(new URL(req.url, 'http://localhost').pathname).replace(/^\/evo\/?/, '') || 'index.html'
-  const file = ['ui', resolve('public'), resolve('dist')].map(root => {
+  const file = [...(assetRoot ? [assetRoot] : []), 'ui', resolve('public'), resolve('dist')].map(root => {
     const directory = resolve(local, root)
     const candidate = resolve(directory, path)
     return candidate.startsWith(`${directory}${sep}`) && existsSync(candidate) && statSync(candidate).isFile() ? candidate : null
