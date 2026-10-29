@@ -88,6 +88,7 @@ for (const source of manifest.hierarchy.nodes.files) {
       const saved = article.get(url)
       if (saved?.item_id === identity.item && saved.status === 'available' && saved.snapshot_json) available.push(JSON.parse(saved.snapshot_json))
     }
+    if (fallbackOption?.item === identity.item && !available.some(snapshot => snapshot.url === fallbackOption.url)) available.push(...fallbackOption.abstracts)
     if (!available.length) {
       entries[row.id] = { status: 'abstract-pending', item: identity.item, matchKind: identity.status, url: usableArticles[0] }
       stats.matchedAwaitingAbstract++
