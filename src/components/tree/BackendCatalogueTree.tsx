@@ -13,10 +13,7 @@ import { useI18n } from '../../i18n'
 import { frontendContract } from '../../platform/frontendContract'
 import './BackendCatalogueTree.css'
 import { WikipediaWindow } from './WikipediaWindow'
-
-function wikipediaUrl(name: string) {
-  return `https://en.wikipedia.org/wiki/${encodeURIComponent(name.replaceAll(' ', '_'))}`
-}
+import { loadWikipediaMapping, type WikipediaEntry } from '../../services/wikipedia'
 
 const ROW_HEIGHT = 44
 const OVERSCAN_ROWS = frontendContract.tree.overscanRows
@@ -81,6 +78,13 @@ function flattenRows(
 
 export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
   const [wikipediaName, setWikipediaName] = useState<string | null>(null)
+  const [wikipediaEntries, setWikipediaEntries] = useState<Record<string, WikipediaEntry>>({})
+  useEffect(() => {
+    let active = true
+    void loadWikipediaMapping().then(mapping => { if (active) setWikipediaEntries(mapping.entries) }).catch(() => undefined)
+    return () => { active = false }
+  }, [])
+  const wikipediaUrl = (name: string) => wikipediaEntries[name]?.url ?? `https://en.wikipedia.org/w/index.php?search=${encodeURIComponent(name)}`
   const { language } = useI18n()
   const zh = language === 'zh'
   const scrollRef = useRef<HTMLDivElement>(null)
@@ -241,7 +245,7 @@ export function BackendCatalogueTree({ onExit }: { onExit?: () => void }) {
           <div>
             <span>{zh ? 'PACKED ADJACENCY / 当前协议' : 'PACKED ADJACENCY / CURRENT PROTOCOL'}</span>
             <h2>{zh ? '全量 Catalogue of Life 树' : 'Full Catalogue of Life tree'}</h2>
-            <p>{zh ? '只读取展开分支；行窗口之外不创建 DOM。' : 'Only expanded branches are fetched; rows outside the viewport never become DOM.'}</p>
+            <p>{zh ? '展开分类，点击名称在浮窗阅读 Wikipedia。' : 'Expand a branch and select a name to preview Wikipedia.'}</p>
           </div>
           {onExit && <button type="button" className="backend-tree__exit" onClick={onExit}>{zh ? '本地图谱' : 'Local atlas'}</button>}
         </header>
