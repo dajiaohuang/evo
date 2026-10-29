@@ -16,7 +16,7 @@ for (const locale of ['en', 'zh']) {
   const pending = [...titles.entries()].filter(([key, value]) => value.locale === locale && !Object.hasOwn(snapshots, key))
   for (let offset = 0; offset < pending.length; offset += 20) {
     const batch = pending.slice(offset, offset + 20)
-    const query = new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', redirects: '1',
+    const query = new URLSearchParams({ action: 'query', format: 'json', formatversion: '2', redirects: '1', maxlag: '5',
       titles: batch.map(([, value]) => value.title).join('|'), prop: 'extracts|info|revisions|pageprops', inprop: 'url',
       rvprop: 'ids|timestamp', exintro: '1', explaintext: '1', exlimit: '20' })
     const response = await fetch(`https://${locale}.wikipedia.org/w/api.php?${query}`, { signal: AbortSignal.timeout(30000),

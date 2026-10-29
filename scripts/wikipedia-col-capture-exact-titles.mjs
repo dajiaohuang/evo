@@ -13,6 +13,7 @@ const licenseQuery = db.prepare("SELECT label,url FROM wiki_licenses WHERE local
 let license = licenseQuery.get()
 let last = 0
 async function request(query) {
+  query.set('maxlag', '5')
   const delay = Math.max(0, 1200 - (Date.now() - last))
   if (delay) await new Promise(resolve => setTimeout(resolve, delay))
   last = Date.now()

@@ -13,6 +13,7 @@ const insertLicense = db.prepare('INSERT INTO wiki_licenses(locale,label,url) VA
 const update = db.prepare("UPDATE article_jobs SET status=?,snapshot_json=?,checked_at=? WHERE url=? AND status='pending'")
 let batches = 0, completed = 0, lastStart = 0
 async function request(locale, query) {
+  query.set('maxlag', '5')
   const delay = Math.max(0, 1200 - (Date.now() - lastStart))
   if (delay) await new Promise(resolve => setTimeout(resolve, delay))
   lastStart = Date.now()
