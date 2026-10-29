@@ -23,9 +23,9 @@ const next = db.prepare("SELECT l.id,n.name FROM col_id_lookups l JOIN nodes n O
 const readName = db.prepare('SELECT candidates_json FROM names WHERE name=?')
 const updateName = db.prepare('UPDATE names SET candidates_json=?, abstract_queue_version=0 WHERE name=?')
 const mark = db.prepare("UPDATE col_id_lookups SET status='queried',checked_at=? WHERE id=? AND status='pending'")
-let batches = 0, checked = 0, lastStart = 0
+let batches = 0, checked = 0, lastStart = 0, requestSize = batchSize, successfulBatches = 0
 for (; batches < limit; batches++) {
-  const rows = next.all(batchSize)
+  const rows = next.all(requestSize)
   if (!rows.length) break
   const query = `SELECT ?id ?item ?rank ?col ?parentName ?article WHERE { VALUES ?id { ${rows.map(row => JSON.stringify(row.id)).join(' ')} } ?item wdt:P10585 ?id. OPTIONAL { ?item wdt:P105 ?rank. } OPTIONAL { ?item wdt:P10585 ?col. } OPTIONAL { ?item wdt:P171 ?parent. ?parent wdt:P225 ?parentName. } OPTIONAL { ?article schema:about ?item; schema:isPartOf ?site. FILTER(REGEX(STR(?site), '^https://[a-z0-9-]+[.]wikipedia[.]org/$')) } }`
   const delay = Math.max(0, 1200 - (Date.now() - lastStart))
@@ -33,7 +33,14 @@ for (; batches < limit; batches++) {
   lastStart = Date.now()
   const response = await fetch('https://query.wikidata.org/sparql', { method: 'POST', body: new URLSearchParams({ format: 'json', query }), signal: AbortSignal.timeout(65000), headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)' } })
   if (!response.ok) throw new Error(`Wikidata HTTP ${response.status}; batch remains pending`)
-  const data = await response.json()
+  let data
+  try { data = await response.json() } catch (error) {
+    if (requestSize <= 250) throw error
+    requestSize = Math.max(250, Math.floor(requestSize / 2))
+    successfulBatches = 0
+    console.warn(`Incomplete Wikidata response; retrying pending IDs with batches of ${requestSize}`)
+    continue
+  }
   if (!Array.isArray(data.results?.bindings)) throw new Error('Invalid Wikidata response; batch remains pending')
   const byId = new Map(rows.map(row => [row.id, []]))
   for (const result of data.results.bindings) {
@@ -65,6 +72,10 @@ for (; batches < limit; batches++) {
     db.exec('COMMIT')
   } catch (error) { db.exec('ROLLBACK'); throw error }
   checked += rows.length
+  if (++successfulBatches >= 3 && requestSize < batchSize) {
+    requestSize = Math.min(batchSize, requestSize * 2)
+    successfulBatches = 0
+  }
   if ((batches + 1) % 10 === 0) console.log(JSON.stringify({ batches: batches + 1, checked }))
 }
 console.log(JSON.stringify({ status: 'checkpoint', batches, checked, counts: db.prepare('SELECT status,COUNT(*) AS n FROM col_id_lookups GROUP BY status').all() }))
