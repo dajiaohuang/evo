@@ -16,12 +16,18 @@ function run(args) {
 }
 
 run(['run', 'release:metadata'])
-run(['exec', '--', 'node', 'scripts/check-wikipedia-links.mjs'])
+{
+  const result = spawnSync(process.execPath, ['scripts/check-wikipedia-links.mjs'], { cwd: rootDir, stdio: 'inherit' })
+  if (result.status !== 0) process.exit(result.status ?? 1)
+}
 run(['run', process.env.VITE_PAGES_PREVIEW === 'true' ? 'data:stage:pages' : 'data:stage'])
 run(['run', 'typecheck'])
 run(['exec', '--', 'vite', 'build'])
 run(['run', 'static:generate'])
-run(['exec', '--', 'node', 'scripts/retire-node-pages.mjs'])
+{
+  const result = spawnSync(process.execPath, ['scripts/retire-node-pages.mjs'], { cwd: rootDir, stdio: 'inherit' })
+  if (result.status !== 0) process.exit(result.status ?? 1)
+}
 
 const elapsedMs = Date.now() - startedAt
 const metrics = {
