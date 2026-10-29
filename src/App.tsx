@@ -9,6 +9,7 @@ import { isBackendConfigured } from './data-client/backendClient'
 import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
 import { PagesPreviewGate } from './components/common/PagesPreviewGate'
 import { ReadingWindow } from './components/reading/ReadingWindow'
+import './atlas-fullscreen.css'
 
 const ExplorerWorkspace = lazy(() => import('./components/explorer/ExplorerWorkspace')
   .then((module) => ({ default: module.ExplorerWorkspace })))

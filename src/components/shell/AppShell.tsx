@@ -29,6 +29,7 @@ export function AppShell({ route, onNavigate, children, immersive = false, focus
   const [online, setOnline] = useState(() => navigator.onLine)
   const [offlineReady, setOfflineReady] = useState(() => document.documentElement.dataset.offlineReady === 'true')
   const [showMoreTools, setShowMoreTools] = useState(false)
+  const [navigationOpen, setNavigationOpen] = useState(false)
   const [updateAvailable, setUpdateAvailable] = useState(() => document.documentElement.dataset.updateAvailable === 'true')
 
   useEffect(() => {
@@ -62,7 +63,8 @@ export function AppShell({ route, onNavigate, children, immersive = false, focus
       data-content-scope={frontendContract.content.scope}
     >
       <button className="skip-link" type="button" onClick={skipToContent}>{language === 'zh' ? '跳到正文' : 'Skip to atlas content'}</button>
-      <header className="topbar">
+      <button type="button" className="atlas-menu-toggle" aria-expanded={navigationOpen} aria-controls="atlas-navigation" onClick={() => setNavigationOpen(open => !open)}>{navigationOpen ? (language === 'zh' ? '关闭菜单' : 'Close menu') : 'EVO ☰'}</button>
+      <header id="atlas-navigation" className={`topbar${navigationOpen ? ' is-open' : ''}`}>
         <button className="brand" onClick={() => onNavigate('home')} aria-label={language === 'zh' ? 'Evo 古地图看板' : 'Evo paleomap dashboard'}>
           <span className="brand__mark" aria-hidden="true">
             <span />

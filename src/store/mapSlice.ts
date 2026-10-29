@@ -32,7 +32,7 @@ export const createMapSlice = (
   get: () => AppState
 ): MapSlice => ({
   viewState: { center: DEFAULT_MAP_CENTER, zoom: DEFAULT_MAP_ZOOM },
-  mapProjection: 'mercator',
+  mapProjection: 'equal-earth',
   setMapProjection: (mapProjection) => set({ mapProjection, viewState: normalizeMapView(get().viewState, mapProjection) }),
   highlightedTaxonId: null,
   highlightedOccurrenceIds: [],

@@ -264,6 +264,8 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     />
     {tooltip && <div role="tooltip" className="projected-map__tooltip" style={{ left: Math.min(tooltip.x + 12, Math.max(8, size.width - 240)), top: Math.max(8, tooltip.y - 40) }}>{tooltip.label}</div>}
     </div>
+    <details className="map-controls-window">
+    <summary>{t('Map projection')} · + / −</summary>
     <div className="projected-map__controls">
       <label>{t('Projection')}<select aria-label={t('Map projection')} value={projectionId} onChange={(event) => onProjectionChange(event.target.value as MapProjectionId)}>
         <option value="mercator">{t('Mercator')}</option><option value="equal-earth">{t('Equal Earth (equal-area)')}</option>
@@ -277,5 +279,6 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
       <output data-testid="map-view-centre">{t('View centre')}: {number(Number(camera.center[0].toFixed(2)))}°, {number(Number(camera.center[1].toFixed(2)))}°</output>
       <small>{t('Drag the map to change its centre.')}</small>
     </div>
+    </details>
   </div>
 }

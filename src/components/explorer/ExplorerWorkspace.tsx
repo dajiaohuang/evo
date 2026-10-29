@@ -387,7 +387,7 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
           <span>{t('Taxon navigator')}</span>
           <div className="panel-heading-actions">
             <small>{t('{count} nodes', { count: number(manifest.records.treeNodes) })}</small>
-            <button className="mobile-panel-close" aria-label={t('Close taxon panel')} onClick={() => setMobilePanel(null)}>×</button>
+            <button className="mobile-panel-close" aria-label={t('Close taxon panel')} onClick={() => { setMobilePanel(null); setDetailsOpen(false) }}>×</button>
           </div>
         </div>
 
@@ -489,6 +489,8 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
             </div>
           </aside>
         )}
+        <details className="atlas-tools-window">
+        <summary>{language === 'zh' ? '视图与工具' : 'Views & tools'}</summary>
         <div className="stage-toolbar">
           <div>
             <span className="stage-eyebrow">{t('Primary view')}</span>
@@ -513,6 +515,7 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
           </div>
         </div>
 
+        </details>
         <div className="dashboard-stage-body">
           <div className="stage-canvas">
             {returnToReading && <a className="search-map-return" href={returnToReading}>{language === 'zh' ? '返回刚才的阅读位置' : 'Return to your reading position'} ↶</a>}
@@ -520,9 +523,9 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
               <span aria-hidden="true">↶</span> {language === 'zh' ? '返回搜索前地图' : 'Return to the previous map'}
             </a>}
             <Suspense fallback={<ModuleLoading />}>
-              {visitedViews.has('map') && <Activity mode={view === 'map' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary></Activity>}
-              {visitedViews.has('tree') && <Activity mode={view === 'tree' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree focusRequest={treeFocus} /></ErrorBoundary></Activity>}
-              {visitedViews.has('diversity') && <Activity mode={view === 'diversity' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Diversity view" />}><DiversityView /></ErrorBoundary></Activity>}
+              <ErrorBoundary fallback={<ViewFallback label="Map" />}><PaleoMap /></ErrorBoundary>
+              {visitedViews.has('tree') && <div className="atlas-view-window" hidden={view !== 'tree'}><button type="button" className="atlas-view-close" onClick={() => setView('map')}>{language === 'zh' ? '关闭物种树' : 'Close species tree'} ×</button><Activity mode={view === 'tree' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Tree" />}><EvoTree focusRequest={treeFocus} /></ErrorBoundary></Activity></div>}
+              {visitedViews.has('diversity') && <div className="atlas-view-window" hidden={view !== 'diversity'}><button type="button" className="atlas-view-close" onClick={() => setView('map')}>{language === 'zh' ? '关闭多样性' : 'Close diversity'} ×</button><Activity mode={view === 'diversity' ? 'visible' : 'hidden'}><ErrorBoundary fallback={<ViewFallback label="Diversity view" />}><DiversityView /></ErrorBoundary></Activity></div>}
             </Suspense>
             <div className="main-view-corner">
               <button type="button" className="main-view-corner__button" aria-label={mainViewLabel} aria-describedby="main-view-tooltip" onClick={toggleMainView}>
@@ -554,7 +557,7 @@ export function ExplorerWorkspace({ params, syncRoute = true }: ExplorerWorkspac
           <span>{t('Evidence inspector')}</span>
           <div className="panel-heading-actions">
             <small>{t('Selection')}</small>
-            <button className="mobile-panel-close" aria-label={t('Close evidence panel')} onClick={() => setMobilePanel(null)}>×</button>
+            <button className="mobile-panel-close" aria-label={t('Close evidence panel')} onClick={() => { setMobilePanel(null); setDetailsOpen(false) }}>×</button>
           </div>
         </div>
         <div className="inspector-scroll">

@@ -76,7 +76,7 @@ function formatObservationPositions(positions: CaoObservationRecord['sourcePosit
 export function PaleoMap() {
   const { language, number, t } = useI18n()
   const [showTrajectory, setShowTrajectory] = useState(false)
-  const [showMapPanels, setShowMapPanels] = useState(true)
+  const [showMapPanels, setShowMapPanels] = useState(false)
   const [showPlatePolygons, setShowPlatePolygons] = useState(true)
   const [showPlateBoundaries, setShowPlateBoundaries] = useState(true)
   const [showContinentalCrust, setShowContinentalCrust] = useState(false)
@@ -248,12 +248,13 @@ export function PaleoMap() {
         onTerrainStatus={handlePaleotopographyStatus}
       />
 
-      <div className="map-content-switch" role="group" aria-label={language === 'zh' ? '地图内容' : 'Map content'}>
+      {showMapPanels && <div className="map-content-switch" role="group" aria-label={language === 'zh' ? '地图内容' : 'Map content'}>
         <button type="button" aria-pressed={mapContentMode === 'featured'} onClick={() => setMapContentMode('featured')}>{language === 'zh' ? '精选发现' : 'Featured discoveries'}</button>
         <button type="button" aria-pressed={mapContentMode === 'all'} onClick={() => setMapContentMode('all')}>{language === 'zh' ? '全部化石记录' : 'All fossil records'}</button>
         {mapContentMode === 'featured' && !mapFossils.length && recordsLoaded && <small>{language === 'zh' ? '此场景暂无带正文的精选发现，可切换全部记录。' : 'No featured discovery with an account in this scene. Switch to all records.'}</small>}
       </div>
 
+      }
       <div hidden={!showMapPanels}>
       <div style={{
         position: 'absolute', top: 96, left: 12, zIndex: 1000,
