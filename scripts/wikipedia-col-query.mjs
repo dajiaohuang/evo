@@ -29,10 +29,18 @@ for (; requests < limit; requests++) {
   lastStart = Date.now()
   let response
   for (let attempt = 0; attempt < 4; attempt++) {
-    response = await fetch('https://query.wikidata.org/sparql', {
-      method: 'POST', body: new URLSearchParams({ format: 'json', query }),
-      signal: AbortSignal.timeout(65000), headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)' },
-    })
+    try {
+      response = await fetch('https://query.wikidata.org/sparql', {
+        method: 'POST', body: new URLSearchParams({ format: 'json', query }),
+        signal: AbortSignal.timeout(65000), headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)' },
+      })
+    } catch (error) {
+      if (attempt === 3) throw error
+      const waitMs = 5000 * 2 ** attempt
+      console.warn(`Wikidata request failed; retrying pending batch in ${waitMs / 1000}s`)
+      await new Promise(resolve => setTimeout(resolve, waitMs))
+      continue
+    }
     if (response.ok || ![429, 500, 502, 503, 504].includes(response.status) || attempt === 3) break
     const retryAfter = Number(response.headers.get('retry-after'))
     if (retryAfter > 30) {
