@@ -16,10 +16,10 @@ const next = db.prepare("SELECT name FROM names WHERE status='pending' ORDER BY 
 const titleIndexReady = db.prepare("SELECT value FROM meta WHERE key='en_titles_complete'").get()?.value === 'true'
 const preferred = titleIndexReady ? db.prepare("SELECT n.name FROM names n JOIN exact_english_titles t ON t.name=n.name WHERE n.status='pending' LIMIT ?") : null
 const update = db.prepare("UPDATE names SET status='queried', candidates_json=?, checked_at=? WHERE name=? AND status='pending'")
-let requests = 0, checked = 0, lastStart = 0
+let requests = 0, checked = 0, lastStart = 0, requestSize = batchSize, successfulBatches = 0
 for (; requests < limit; requests++) {
-  let names = preferred?.all(batchSize).map(row => row.name) ?? []
-  if (!names.length) names = next.all(batchSize).map(row => row.name)
+  let names = preferred?.all(requestSize).map(row => row.name) ?? []
+  if (!names.length) names = next.all(requestSize).map(row => row.name)
   if (!names.length) break
   const query = `SELECT ?name ?item ?rank ?col ?parentName ?article WHERE { VALUES ?name { ${names.map(name => JSON.stringify(name)).join(' ')} } ?item wdt:P225 ?name. OPTIONAL { ?item wdt:P105 ?rank. } OPTIONAL { ?item wdt:P10585 ?col. } OPTIONAL { ?item wdt:P171 ?parent. ?parent wdt:P225 ?parentName. } OPTIONAL { ?article schema:about ?item; schema:isPartOf ?site. FILTER(REGEX(STR(?site), '^https://[a-z0-9-]+[.]wikipedia[.]org/$')) } }`
   const delay = Math.max(0, 1200 - (Date.now() - lastStart))
@@ -30,7 +30,14 @@ for (; requests < limit; requests++) {
     signal: AbortSignal.timeout(65000), headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)' },
   })
   if (!response.ok) throw new Error(`Wikidata HTTP ${response.status}; batch remains pending`)
-  const data = await response.json()
+  let data
+  try { data = await response.json() } catch (error) {
+    if (requestSize <= 250) throw error
+    requestSize = Math.max(250, Math.floor(requestSize / 2))
+    successfulBatches = 0
+    console.warn(`Incomplete Wikidata response; retrying pending names with batches of ${requestSize}`)
+    continue
+  }
   if (!Array.isArray(data.results?.bindings)) throw new Error('Invalid Wikidata response; batch remains pending')
   const records = new Map(names.map(name => [name, new Map()]))
   for (const result of data.results.bindings) {
@@ -60,6 +67,10 @@ for (; requests < limit; requests++) {
     db.exec('COMMIT')
   } catch (error) { db.exec('ROLLBACK'); throw error }
   checked += names.length
+  if (++successfulBatches >= 3 && requestSize < batchSize) {
+    requestSize = Math.min(batchSize, requestSize * 2)
+    successfulBatches = 0
+  }
   if ((requests + 1) % 10 === 0) console.log(JSON.stringify({ batches: requests + 1, checked, remaining: db.prepare("SELECT COUNT(*) AS n FROM names WHERE status='pending'").get().n }))
 }
 const counts = db.prepare('SELECT status,COUNT(*) AS n FROM names GROUP BY status').all()

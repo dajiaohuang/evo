@@ -8,6 +8,7 @@
 Catalogue of Life ID 和各语言 Wikipedia sitelink 分批查询。每批成功后提交
 SQLite 检查点；网络错误留下待查询记录。按 COL ID 匹配或名称、级别和上级
 共同匹配的结果保留匹配依据。其他同名结果标为候选，缺少结果保持未确认。
+若 Wikidata 返回截断的 JSON，查询会缩小批次并保留原检查点。
 这些链接是跨库名称与分类位置的对应，不声称两套分类观点完全一致。
 
 `scripts/wikipedia-col-query-ids.mjs` 对已完成名称查询的节点再按 COL ID
