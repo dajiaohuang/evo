@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "git": { "deploymentEnabled": { "evo-wikipedia-data": false } },
   "framework": null,
   "installCommand": "node --version",
   "buildCommand": "node scripts/deploy-static-artifact.mjs",

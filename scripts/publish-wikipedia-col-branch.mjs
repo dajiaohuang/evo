@@ -59,6 +59,7 @@ for (const [prefix, file] of Object.entries(manifest.shards)) {
   else copyFileSync(join(source, file.path), dest)
 }
 writeFileSync(join(repo, 'README.md'), '# Evo Atlas Wikipedia snapshots\n\nGenerated public data for the COL26.8 tree. Article excerpts are attributed to their source Wikipedia pages and license in each record. Historical content-addressed shards are retained. The manifest reports coverage and pending nodes.\n')
+writeFileSync(join(repo, 'vercel.json'), JSON.stringify({ git: { deploymentEnabled: { 'evo-wikipedia-data': false } } }, null, 2) + '\n')
 writeFileSync(join(repo, 'manifest.json'), bytes)
 git('-C', repo, 'add', '--', '.')
 if (git('-C', repo, 'status', '--porcelain')) git('-C', repo, 'commit', '-m', `Update COL26.8 Wikipedia snapshots (${manifest.stats.queriedNodes} checked)`)
