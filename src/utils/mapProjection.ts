@@ -81,3 +81,18 @@ export function panMapView(camera: MapViewState, kind: MapProjectionId, viewport
   }
   return next
 }
+
+/** Keep the geographic point under a pinch/wheel anchor as the scale changes. */
+export function zoomMapView(camera: MapViewState, kind: MapProjectionId, viewport: MapViewport, zoom: number, anchor: [number, number]): MapViewState {
+  const point = invertMapPoint(createMapProjection(kind, camera, viewport), kind, anchor)
+  let next = normalizeMapView({ ...camera, zoom }, kind)
+  if (!point) return next
+  for (let step = 0; step < 6; step++) {
+    const pixel = createMapProjection(kind, next, viewport)(point)
+    if (!pixel) break
+    const dx = anchor[0] - pixel[0]; const dy = anchor[1] - pixel[1]
+    if (Math.hypot(dx, dy) < .1) break
+    next = panMapView(next, kind, viewport, dx, dy)
+  }
+  return next
+}

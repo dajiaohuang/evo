@@ -1,9 +1,28 @@
 import { describe, expect, it } from 'vitest'
 import { geoPath } from 'd3'
-import { createMapProjection, invertMapPoint, panMapView, projectVisiblePoint, wrapLongitude } from './mapProjection'
+import { createMapProjection, invertMapPoint, panMapView, projectVisiblePoint, wrapLongitude, zoomMapView } from './mapProjection'
 
 const viewport = { width: 1000, height: 600 }
 describe('live map projection', () => {
+  it.each(['mercator', 'equal-earth'] as const)('%s keeps a pinch anchor stable and limits zoom', (kind) => {
+    const camera = { center: [20, 179] as [number, number], zoom: 2 }
+    const anchor: [number, number] = [560, 340]
+    const point = invertMapPoint(createMapProjection(kind, camera, viewport), kind, anchor)!
+    const next = zoomMapView(camera, kind, viewport, 3, anchor)
+    expect(next.zoom).toBe(3)
+    const pixel = createMapProjection(kind, next, viewport)(point)!
+    expect(Math.hypot(pixel[0] - anchor[0], pixel[1] - anchor[1])).toBeLessThan(.2)
+    expect(zoomMapView(next, kind, viewport, 99, anchor).zoom).toBe(6)
+    expect(zoomMapView(next, kind, viewport, -99, anchor).zoom).toBe(1)
+    const reversed = zoomMapView(next, kind, viewport, 2, anchor)
+    const restored = createMapProjection(kind, reversed, viewport)(point)!
+    expect(Math.hypot(restored[0] - anchor[0], restored[1] - anchor[1])).toBeLessThan(.2)
+  })
+
+  it('zooms safely when a gesture starts outside the projected globe', () => {
+    const next = zoomMapView({ center: [0, 0], zoom: 1 }, 'equal-earth', viewport, 2, [0, 0])
+    expect(next).toEqual({ center: [0, 0], zoom: 2 })
+  })
   it.each(['mercator', 'equal-earth'] as const)('%s centres and inverts geographic coordinates', (kind) => {
     const projection = createMapProjection(kind, { center: [35, 160], zoom: 2 }, viewport)
     expect(projection([160, 35])![0]).toBeCloseTo(500, 6)

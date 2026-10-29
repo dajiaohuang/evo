@@ -1,0 +1,53 @@
+import { expect, test } from '@playwright/test'
+
+test.use({ viewport: { width: 390, height: 844 }, hasTouch: true, serviceWorkers: 'block' })
+
+test('two-finger pinch redraws before release and resumes one-finger dragging', async ({ page, context }) => {
+  await page.goto('./#/home?age=0&projection=equal-earth&zoom=2&lat=0&lng=0')
+  const canvas = page.locator('.projected-map__vectors')
+  await expect(canvas).toHaveAttribute('data-zoom', '2')
+  const client = await context.newCDPSession(page)
+  const points = (spread: number) => [{ id: 1, x: 195 - spread, y: 400 }, { id: 2, x: 195 + spread, y: 400 }]
+  await client.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: points(40) })
+  await client.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: points(80) })
+  await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeCloseTo(3, 1)
+  await client.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: points(40) })
+  await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeCloseTo(2, 1)
+  await client.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [points(40)[0]] })
+  const before = await canvas.getAttribute('data-center')
+  await client.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ id: 1, x: 185, y: 415 }] })
+  await expect(canvas).not.toHaveAttribute('data-center', before!)
+  await client.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] })
+  await expect(page).toHaveURL(/zoom=2\.00/)
+  await expect(page.locator('.wikipedia-window')).toHaveCount(0)
+  expect(await page.evaluate(() => window.visualViewport!.scale)).toBe(1)
+  // Cancellation must not leave an old finger attached to the next gesture.
+  await client.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: points(40) })
+  await client.send('Input.dispatchTouchEvent', { type: 'touchCancel', touchPoints: [] })
+  const reset = await canvas.getAttribute('data-center')
+  await client.send('Input.dispatchTouchEvent', { type: 'touchStart', touchPoints: [{ id: 3, x: 195, y: 400 }] })
+  await client.send('Input.dispatchTouchEvent', { type: 'touchMove', touchPoints: [{ id: 3, x: 220, y: 410 }] })
+  await expect(canvas).not.toHaveAttribute('data-center', reset!)
+  await client.send('Input.dispatchTouchEvent', { type: 'touchEnd', touchPoints: [] })
+})
+
+test('trackpad pinch zooms continuously without zooming the page', async ({ page }) => {
+  await page.goto('./#/home?age=0&projection=equal-earth&zoom=2')
+  const canvas = page.locator('.projected-map__vectors')
+  await expect(canvas).toHaveAttribute('data-zoom', '2')
+  await page.mouse.move(195, 400)
+  await page.keyboard.down('Control')
+  await page.mouse.wheel(0, -2)
+  await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeGreaterThan(2)
+  expect(Number(await canvas.getAttribute('data-zoom'))).toBeLessThan(2.1)
+  await page.mouse.wheel(0, -30)
+  await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeGreaterThan(2.2)
+  await page.mouse.wheel(0, 20)
+  await page.keyboard.up('Control')
+  await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeLessThan(2.2)
+  expect(await page.evaluate(() => window.visualViewport!.scale)).toBe(1)
+  // Ordinary wheel scrolling keeps its map zoom control as well.
+  const before = Number(await canvas.getAttribute('data-zoom'))
+  await page.mouse.wheel(0, 40)
+  await expect.poll(async () => Number(await canvas.getAttribute('data-zoom'))).toBeLessThan(before)
+})

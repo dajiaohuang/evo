@@ -3,7 +3,7 @@ import { geoGraticule10, geoPath } from 'd3'
 import type { MapViewState } from '../../types'
 import type { FossilMarkerMode } from '../../store/mapSlice'
 import type { RuntimePaleotopographyCollection, RuntimePaleotopographyFrame } from '../../data-client/types'
-import { createMapProjection, normalizeMapView, panMapView, visiblePointProjector, type MapProjectionId } from '../../utils/mapProjection'
+import { createMapProjection, normalizeMapView, panMapView, zoomMapView, visiblePointProjector, type MapProjectionId } from '../../utils/mapProjection'
 import { useI18n } from '../../i18n'
 import { PaleotopographyLayer } from './PaleotopographyLayer'
 import type { MapPoint, MapShape } from './mapScene'
@@ -32,7 +32,7 @@ const graticule = geoGraticule10()
 const projectionPath = () => Object.assign(new Path2D(), { beginPath() {} })
 
 export function ProjectedMap({ projectionId, view, onViewChange, onProjectionChange, panelsVisible, onTogglePanels, shapes, fossils, observations, markerMode, onSelect, terrain, onTerrainStatus }: Props) {
-  const { t, number } = useI18n()
+  const { t, number, language } = useI18n()
   const hostRef = useRef<HTMLDivElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [size, setSize] = useState({ width: 1, height: 1 })
@@ -42,6 +42,9 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
   const [tooltip, setTooltip] = useState<{ x: number; y: number; label: string } | null>(null)
   const frameRef = useRef<number | null>(null)
   const dragRef = useRef<{ id: number; x: number; y: number; distance: number } | null>(null)
+  const pointersRef = useRef(new Map<number, { x: number; y: number }>())
+  const pinchRef = useRef<{ x: number; y: number; distance: number } | null>(null)
+  const pinchedRef = useRef(false)
   const hitsRef = useRef<{ points: ScreenPoint[]; shapes: ShapeHit[] }>({ points: [], shapes: [] })
   const paintCount = useRef(0)
   const latestInputTime = useRef(0)
@@ -57,6 +60,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
   useEffect(() => {
     const host = hostRef.current
     if (!host) return
+    const pointers = pointersRef.current
     const observer = new ResizeObserver(([entry]) => {
       if (entry.contentRect.width > 0 && entry.contentRect.height > 0) {
         setSize({ width: entry.contentRect.width, height: entry.contentRect.height })
@@ -68,6 +72,8 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
       if (frameRef.current !== null) cancelAnimationFrame(frameRef.current)
       frameRef.current = null
       dragRef.current = null
+      pointers.clear()
+      pinchRef.current = null
     }
   }, [])
 
@@ -79,6 +85,27 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     })
     if (commit) onViewChange(cameraRef.current)
   }
+
+  const handleWheel = useEffectEvent((event: WheelEvent) => {
+    event.preventDefault()
+    const bounds = canvasRef.current!.getBoundingClientRect()
+    const unit = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? size.height : 1
+    const delta = Math.max(-240, Math.min(240, event.deltaY * unit))
+    latestInputTime.current = performance.now()
+    updateView(zoomMapView(cameraRef.current, projectionId, size,
+      cameraRef.current.zoom - delta * (event.ctrlKey ? .01 : .002),
+      [event.clientX - bounds.left, event.clientY - bounds.top]), true)
+    setTooltip(null)
+  })
+  useEffect(() => {
+    const canvas = canvasRef.current
+    if (!canvas) return
+    const wheel = (event: WheelEvent) => handleWheel(event)
+    // Trackpad pinch arrives as ctrl+wheel. React's passive wheel listener
+    // cannot prevent the browser from zooming the entire page.
+    canvas.addEventListener('wheel', wheel, { passive: false })
+    return () => canvas.removeEventListener('wheel', wheel)
+  }, [])
 
   // Each camera frame projects geographic coordinates again. No bitmap/CSS pan.
   useLayoutEffect(() => {
@@ -170,6 +197,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     canvas.dataset.renderCount = String(++paintCount.current)
     canvas.dataset.projection = projectionId
     canvas.dataset.center = camera.center.join(',')
+    canvas.dataset.zoom = String(camera.zoom)
     canvas.dataset.pointCount = String(points.length)
     canvas.dataset.renderMs = (performance.now() - started).toFixed(2)
     canvas.dataset.phases = [gridFinished - started, shapesFinished - gridFinished, pointsFinished - shapesFinished, performance.now() - pointsFinished].map((value) => value.toFixed(2)).join(',')
@@ -195,11 +223,20 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     return null
   }
 
-  function finishDrag() {
-    if (!dragRef.current) return
-    dragRef.current = null
-    setInteracting(false)
-    onViewChange(cameraRef.current)
+  function pinch() {
+    const [a, b] = [...pointersRef.current.values()]
+    return a && b ? { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2, distance: Math.hypot(a.x - b.x, a.y - b.y) } : null
+  }
+
+  function finishPointer(id: number) {
+    if (!pointersRef.current.delete(id)) return
+    pinchRef.current = pinch()
+    const remaining = [...pointersRef.current.entries()][0]
+    dragRef.current = remaining ? { id: remaining[0], ...remaining[1], distance: 4 } : null
+    if (!remaining) {
+      setInteracting(false)
+      onViewChange(cameraRef.current)
+    }
   }
 
   return <div className="projected-map">
@@ -212,15 +249,33 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
       ref={canvasRef} className="projected-map__vectors" tabIndex={0} role="application"
       aria-label={t('Interactive map: drag to change the view centre; arrow keys pan, plus/minus zoom, Home resets.')}
       onPointerDown={(event) => {
-        if (!event.isPrimary || event.button !== 0) return
+        if (event.button !== 0 || (event.pointerType !== 'touch' && !event.isPrimary)) return
         event.preventDefault()
         event.currentTarget.focus({ preventScroll: true })
         event.currentTarget.setPointerCapture(event.pointerId)
-        dragRef.current = { id: event.pointerId, x: event.clientX, y: event.clientY, distance: 0 }
+        if (!pointersRef.current.size) pinchedRef.current = false
+        pointersRef.current.set(event.pointerId, { x: event.clientX, y: event.clientY })
+        pinchRef.current = pinch()
+        if (pinchRef.current) { pinchedRef.current = true; dragRef.current = null }
+        else dragRef.current = { id: event.pointerId, x: event.clientX, y: event.clientY, distance: 0 }
         setInteracting(true)
         setTooltip(null)
       }}
       onPointerMove={(event) => {
+        if (pointersRef.current.has(event.pointerId)) {
+          pointersRef.current.set(event.pointerId, { x: event.clientX, y: event.clientY })
+          const previous = pinchRef.current
+          const current = pinch()
+          if (previous && current) {
+            latestInputTime.current = performance.now()
+            const bounds = event.currentTarget.getBoundingClientRect()
+            const zoom = cameraRef.current.zoom + Math.log2(Math.max(1, current.distance) / Math.max(1, previous.distance))
+            const scaled = zoomMapView(cameraRef.current, projectionId, size, zoom, [previous.x - bounds.left, previous.y - bounds.top])
+            updateView(panMapView(scaled, projectionId, size, current.x - previous.x, current.y - previous.y))
+            pinchRef.current = current
+            return
+          }
+        }
         const drag = dragRef.current
         if (drag && drag.id === event.pointerId) {
           latestInputTime.current = performance.now()
@@ -237,20 +292,16 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
         }
       }}
       onPointerUp={(event) => {
-        if (dragRef.current?.id !== event.pointerId) return
-        if (dragRef.current.distance < 4) {
+        if (!pointersRef.current.has(event.pointerId)) return
+        if (!pinchedRef.current && dragRef.current?.id === event.pointerId && dragRef.current.distance < 4) {
           const bounds = event.currentTarget.getBoundingClientRect()
           const point = hitAt(event.clientX - bounds.left, event.clientY - bounds.top)?.point
           if (point) onSelect(point)
         }
-        finishDrag()
+        finishPointer(event.pointerId)
       }}
-      onPointerCancel={finishDrag} onLostPointerCapture={finishDrag}
-      onPointerLeave={() => { if (!dragRef.current) setTooltip(null) }}
-      onWheel={(event) => {
-        updateView({ ...cameraRef.current, zoom: cameraRef.current.zoom - Math.sign(event.deltaY) * .25 }, true)
-        setTooltip(null)
-      }}
+      onPointerCancel={(event) => finishPointer(event.pointerId)} onLostPointerCapture={(event) => finishPointer(event.pointerId)}
+      onPointerLeave={() => { if (!pointersRef.current.size) setTooltip(null) }}
       onKeyDown={(event) => {
         const moves: Record<string, [number, number]> = { ArrowLeft: [40, 0], ArrowRight: [-40, 0], ArrowUp: [0, 40], ArrowDown: [0, -40] }
         if (moves[event.key]) updateView(panMapView(cameraRef.current, projectionId, size, ...moves[event.key]), true)
@@ -277,7 +328,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
         <button type="button" aria-pressed={panelsVisible} onClick={onTogglePanels}>{t(panelsVisible ? 'Hide map panels' : 'Show map panels')}</button>
       </div>
       <output data-testid="map-view-centre">{t('View centre')}: {number(Number(camera.center[0].toFixed(2)))}°, {number(Number(camera.center[1].toFixed(2)))}°</output>
-      <small>{t('Drag the map to change its centre.')}</small>
+      <small>{language === 'zh' ? '单指拖动 · 双指或触摸板捏合缩放' : 'Drag to pan · pinch with two fingers or a trackpad to zoom'}</small>
     </div>
     </details>
   </div>
