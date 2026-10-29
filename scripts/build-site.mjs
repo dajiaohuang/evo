@@ -28,6 +28,10 @@ run(['run', 'static:generate'])
   const result = spawnSync(process.execPath, ['scripts/retire-node-pages.mjs'], { cwd: rootDir, stdio: 'inherit' })
   if (result.status !== 0) process.exit(result.status ?? 1)
 }
+{
+  const result = spawnSync(process.execPath, ['scripts/apply-publication-scope.mjs'], { cwd: rootDir, stdio: 'inherit' })
+  if (result.status !== 0) process.exit(result.status ?? 1)
+}
 
 const elapsedMs = Date.now() - startedAt
 const metrics = {

@@ -1,12 +1,13 @@
 # Vercel deployment
 
 The Vercel project is `evo` in the `dajiaohuangdjh` scope. The public site
-uses `/evo/`; the domain root redirects there. It serves the full interactive
-Web edition and its static reading pages.
+uses `/evo/`; the domain root redirects there. The current application opens
+the paleomap and species tree. Original node, topic and guided-reading prose
+is paused. GitHub Pages is a separate introduction only.
 
 ```sh
-vercel link --project evo --scope dajiaohuangdjh
-vercel deploy --prod --scope dajiaohuangdjh
+rtk proxy vercel link --project evo --scope dajiaohuangdjh
+rtk proxy vercel deploy --prod --scope dajiaohuangdjh
 ```
 
 Vercel receives only the deployment configuration, `package.json`, the artifact
@@ -29,9 +30,14 @@ and dataset version. Preserve the previous artifact; do not replace an
 existing release asset with different bytes. Deploy again after those fields
 match the new output.
 
-For the complete local database reading collection, also follow
-[full reading publication](full-reading-publication.md). A normal canonical
-file build alone does not publish current Turso drafts.
+The former [full reading publication](../archive/docs/full-reading-publication.md)
+procedure is archived and does not authorize republishing the local corpus.
+Current Turso drafts remain local. See [project scope](project-scope.md).
+
+Both the pinned base archive and overlay are current dependencies. The descriptor
+must match the actual hosted `deployment.json`; an old local descriptor can roll
+back the map/UI even when a deployment succeeds. This reorganization retains old
+GitHub Releases and old Vercel deployments, as requested.
 
 The archive must contain generated public site files only. Local previews,
 candidate/review folders and credentials are not deployment inputs. Verify the

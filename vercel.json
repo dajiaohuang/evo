@@ -1,33 +1,173 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "git": { "deploymentEnabled": { "evo-wikipedia-data": false } },
+  "git": {
+    "deploymentEnabled": {
+      "evo-wikipedia-data": false
+    }
+  },
   "framework": null,
   "installCommand": "node --version",
   "buildCommand": "node scripts/deploy-static-artifact.mjs",
   "outputDirectory": "site",
   "redirects": [
-    { "source": "/evo/stories/:path*/", "destination": "/evo/", "permanent": false },
-    { "source": "/evo/zh/stories/:path*/", "destination": "/evo/", "permanent": false },
-    { "source": "/evo/read/:path*/", "destination": "/evo/", "permanent": false },
-    { "source": "/evo/zh/read/:path*/", "destination": "/evo/", "permanent": false },
-    { "source": "/evo/stories/:path*", "destination": "/evo/", "permanent": false },
-    { "source": "/evo/zh/stories/:path*", "destination": "/evo/", "permanent": false },
-    { "source": "/evo/read/:path*", "destination": "/evo/", "permanent": false },
-    { "source": "/evo/zh/read/:path*", "destination": "/evo/", "permanent": false },
-    { "source": "/", "destination": "/evo/", "permanent": false }
+    {
+      "source": "/evo/nodes/:path*",
+      "destination": "/evo/#/home?view=tree",
+      "permanent": false
+    },
+    {
+      "source": "/evo/taxa/:path*",
+      "destination": "/evo/#/home?view=tree",
+      "permanent": false
+    },
+    {
+      "source": "/evo/pbdb/:path*",
+      "destination": "/evo/#/home?view=tree",
+      "permanent": false
+    },
+    {
+      "source": "/evo/zh/taxa/:path*",
+      "destination": "/evo/#/home?view=tree",
+      "permanent": false
+    },
+    {
+      "source": "/evo/zh/pbdb/:path*",
+      "destination": "/evo/#/home?view=tree",
+      "permanent": false
+    },
+    {
+      "source": "/evo/stories/:path*/",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/evo/zh/stories/:path*/",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/evo/read/:path*/",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/evo/zh/read/:path*/",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/evo/stories/:path*",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/evo/zh/stories/:path*",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/evo/read/:path*",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/evo/zh/read/:path*",
+      "destination": "/evo/",
+      "permanent": false
+    },
+    {
+      "source": "/",
+      "destination": "/evo/",
+      "permanent": false
+    }
   ],
   "rewrites": [
-    { "source": "/evo/wikipedia/col/:path*", "destination": "https://raw.githubusercontent.com/dajiaohuang/evo/evo-wikipedia-data/:path*" }
+    {
+      "source": "/evo/wikipedia/col/:path*",
+      "destination": "https://raw.githubusercontent.com/dajiaohuang/evo/evo-wikipedia-data/:path*"
+    }
   ],
   "headers": [
-    { "source": "/evo/node-map/manifest.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/index.html", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/cache-lifecycle.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/nodes/manifest.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/data/current.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/data/releases.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
-    { "source": "/evo/wikipedia/col/manifest.json", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] }
+    {
+      "source": "/evo/node-map/manifest.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/index.html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/cache-lifecycle.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/nodes/manifest.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/data/current.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/data/releases.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    },
+    {
+      "source": "/evo/wikipedia/col/manifest.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache"
+        }
+      ]
+    }
   ]
 }

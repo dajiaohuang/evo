@@ -4,6 +4,7 @@ import { dirname, join, resolve, relative } from 'node:path'
 import { execFileSync } from 'node:child_process'
 import { Readable } from 'node:stream'
 import { pipeline } from 'node:stream/promises'
+import { enforcePublicationScope } from './publication-scope.mjs'
 
 const artifact = JSON.parse(readFileSync('deployment-artifact.json', 'utf8'))
 if (!/^[a-f0-9]{64}$/.test(artifact.sha256) || !Number.isSafeInteger(artifact.bytes) || artifact.bytes <= 0) {
@@ -69,6 +70,11 @@ if (artifact.overlay) {
   const nodes = resolve(output, 'evo/nodes')
   if (relative(resolve(output), nodes) !== join('evo', 'nodes')) throw new Error('Invalid node output path')
   rmSync(nodes, { recursive: true, force: true })
+  // UI overlays contain a complete Vite assets directory. Drop the previous
+  // hashed bundles so old entry points cannot keep obsolete code reachable.
+  const assets = resolve(output, 'evo/assets')
+  if (relative(resolve(output), assets) !== join('evo', 'assets')) throw new Error('Invalid asset output path')
+  rmSync(assets, { recursive: true, force: true })
   execFileSync('tar', ['-xf', path, '-C', output, '--no-same-owner'], { stdio: 'inherit' })
   unlinkSync(path)
   entries.push(...overlayEntries)
@@ -131,6 +137,8 @@ if (hostname) {
     if (updated !== original) writeFileSync(file, updated)
   }
 }
+const publicationScope = enforcePublicationScope(join(output, 'evo'))
+console.log(`Publication scope excluded ${publicationScope.removedFilesOrTrees} retired files or trees.`)
 const proofPath = join(output, 'evo/deployment.json')
 mkdirSync(dirname(proofPath), { recursive: true })
 writeFileSync(proofPath, JSON.stringify({ ...artifact, deployedAt: new Date().toISOString() }, null, 2) + '\n')

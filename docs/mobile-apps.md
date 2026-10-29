@@ -1,6 +1,6 @@
 # Android 与 iOS 应用
 
-Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。原生 App 永远只内置 `native-core`：应用壳、精选核心页面与资料、0.3° 预览地图；完整 COL 目录、全物种科学档案、权威来源行、全分辨率地图、完整下载包和 SQL 研究引擎均留在 App 安装包之外。App 不把线上站点作为远程首页加载，核心页面仍可离线打开；完整数据通过 Web 或受支持的在线服务访问，不自动同步或持久化到 App。GitHub Pages 静态预览与原生核心使用同一精选范围，页面形式不同，内容清单一致。
+Evo Atlas 的交互式 Web、Android 和 iOS 版本共享 React/TypeScript 客户端。原生 App 永远只内置 `native-core`：应用壳、精选核心页面与资料、0.3° 预览地图；完整 COL 目录、全物种科学档案、权威来源行、全分辨率地图、完整下载包和 SQL 研究引擎均留在 App 安装包之外。App 不把线上站点作为远程首页加载，核心页面仍可离线打开；完整数据通过 Web 或受支持的在线服务访问，不自动同步或持久化到 App。GitHub Pages 现仅提供项目介绍，不再与原生包共享阅读站发布。本文描述保留的原生工程与构建契约，不代表本轮交付新安装包。
 
 ## 工程结构
 
@@ -15,7 +15,7 @@ assets/logo.svg              # 原生图标和启动图源文件
 dist-mobile/                 # 临时生成的移动客户端壳，不提交
 ```
 
-移动构建关闭 Vite 的默认 `publicDir` 复制，用 `data/pages-preview.json` 固定的核心范围生成 `native-core` 发布版；GitHub Pages 预览与原生 App 共用这份核心清单，再按 `release-files.json` 逐文件复制并核对字节数与 SHA-256。finalizer 拒绝全量目录/权威侧车/下载包、错版数据以及超过 384 MiB 的 App 资源。移动版不加入离线 SQL 引擎，也不启动全量发布同步；不允许以提高包体上限来容纳全物种数据。
+移动构建关闭 Vite 的默认 `publicDir` 复制，用 `data/pages-preview.json` 固定的核心范围生成 `native-core` 发布版；原生 App 使用这份核心清单，再按 `release-files.json` 逐文件复制并核对字节数与 SHA-256。finalizer 拒绝全量目录/权威侧车/下载包、错版数据以及超过 384 MiB 的 App 资源。移动版不加入离线 SQL 引擎，也不启动全量发布同步；不允许以提高包体上限来容纳全物种数据。
 
 应用 ID 是 `io.github.dajiaohuang.evoatlas`。Android 最低 API 为 24，iOS 最低版本为 15。原生工程使用 Capacitor 8；iOS 插件通过 Swift Package Manager 引入。
 
@@ -23,13 +23,13 @@ dist-mobile/                 # 临时生成的移动客户端壳，不提交
 
 ## 数据与离线边界
 
-当前核心内容边界：`data/pages-preview.json` 是 App 与 GitHub Pages 静态预览共用的唯一精选清单，包含 Atlas 核心、灵长目重点包、奇蹄目、鲸偶蹄目和恐龙。灵长目排在核心优先故事和内容包前列。当前范围为 5 个内容包、115 个精选类群/导航节点、8 个故事和 44 个事件；七份灵长目包内策展档案与精选灵长类故事属于核心内容。全物种证据队列（16 个审计分片）、36,330 条逐种科学档案（79 个索引分片）、完整物种注册表和权威来源行继续留在 canonical/Web Full-Web 侧，不进入 Android/iOS 安装包或 Pages 静态预览。App 发布清单校验会拒绝任何完整名录、档案、来源或授权数据分片；Pages 预览校验同样拒绝 `catalogue/` 下除空范围 manifest 外的文件。App 资源硬上限为 384 MiB。
+当前核心内容边界：`data/pages-preview.json` 是 原生 App 保留的精选清单，包含 Atlas 核心、灵长目重点包、奇蹄目、鲸偶蹄目和恐龙。灵长目排在核心优先故事和内容包前列。当前范围为 5 个内容包、115 个精选类群/导航节点、8 个故事和 44 个事件；七份灵长目包内策展档案与精选灵长类故事属于核心内容。全物种证据队列（16 个审计分片）、36,330 条逐种科学档案（79 个索引分片）、完整物种注册表和权威来源行继续留在 canonical/Web Full-Web 侧，不进入 Android/iOS 安装包。App 发布清单校验会拒绝任何完整名录、档案、来源或授权数据分片；Pages 介绍页不交付任何名录分片。App 资源硬上限为 384 MiB。
 
 以下 `rc*` 条目记录的是历史版本交付事实；其中 `native-full` 描述旧版行为，不代表当前或未来 App 的打包策略。
 
 rc114 / app `0.20.65` / build `68` 重新生成 Haptophyta 来源记录，将失效的旧本机工作区路径替换为仓库相对输入及实际摘要。90 条 ITIS 来源独有记录及其压缩字节不变；Pages 仍仅提供摘要，Android/iOS 继续包含全部明细。本次是可复现来源追溯修复，不是新增物种或科学审查。
 
-同批新增 96 条 COL source-1033 Ichthyosporea 的 Trichomycetes 原始来源投影，保留名称、作者、历史分类与命名文献；66 个原始空标题不补写。完整数据配置包含全部 96 条，Pages 仅保留摘要。这不是新增物种、独立科学佐证或完整生物档案；新前端的展示入口由独立前端项目接续实现。见 [来源与重建方法](trichomycetes-archive.md)。
+同批新增 96 条 COL source-1033 Ichthyosporea 的 Trichomycetes 原始来源投影，保留名称、作者、历史分类与命名文献；66 个原始空标题不补写。完整数据配置包含全部 96 条，Pages 仅保留摘要。这不是新增物种、独立科学佐证或完整生物档案；新前端的展示入口由独立前端项目接续实现。见 [来源与重建方法](../archive/docs/trichomycetes-archive.md)。
 
 rc113 / app `0.20.64` / build `67` 补上两栖类、弹尾类／原尾类、28 个其他动物范围与 8 个具有 COL 记录的原生生物范围的默认收起 ITIS 详情。卵菌类严格限于既有四目投影的 1,494 条，不扩为整个门。
 
@@ -37,13 +37,13 @@ rc113 / app `0.20.64` / build `67` 补上两栖类、弹尾类／原尾类、28 
 
 rc111 / app `0.20.62` / build `65` 为软骨鱼类与螯肢类增加默认收起的 ITIS 来源入口；页面按真实谱系与资源归属限定范围，展开后原生端只读取一个命中分片，Web 仅提供摘要。卵菌 ITIS 读取器修正为既有四目范围的 1,494 条 COL 结果与 42 条来源独有记录，不改写数据。原计划新增的 Species Fungorum 卵菌来源层因冻结档案缺口及实时接口许可未明确而暂缓，不能把未获取的数据算作已覆盖；见[来源调查](sources/species-fungorum-live-api-oomycota-gap.md)。两端继续包含全部既有 `native-full` 内容。
 
-rc110 / app `0.20.61` / build `64` 修正 COL 唇足纲独立路径遗漏：现有 ITIS 多足动物对照增加 3,141 条明确结果，原有 14,210 条记录不变，来源独有分区重分配为 544 条。另加入放射虫 444 条 COL 对应与 54 条来源独有记录的冻结 WoRMS 投影；COL 的 Polycystina 同样源于 WoRMS，不能把它称为独立科学验证。两端装入全部分片，Pages 仅保留轻量摘要；来源查询保持折叠。见[节肢动物范围说明](itis-arthropods-authority.md)和[放射虫来源说明](worms-radiozoa-archive.md)。
+rc110 / app `0.20.61` / build `64` 修正 COL 唇足纲独立路径遗漏：现有 ITIS 多足动物对照增加 3,141 条明确结果，原有 14,210 条记录不变，来源独有分区重分配为 544 条。另加入放射虫 444 条 COL 对应与 54 条来源独有记录的冻结 WoRMS 投影；COL 的 Polycystina 同样源于 WoRMS，不能把它称为独立科学验证。两端装入全部分片，Pages 仅保留轻量摘要；来源查询保持折叠。见[节肢动物范围说明](../archive/docs/itis-arthropods-authority.md)和[放射虫来源说明](../archive/docs/worms-radiozoa-archive.md)。
 
-rc109 / app `0.20.60` / build `63` 增加线虫与甲壳类的独立 WoRMS 档案对应层：分别覆盖 19,604 与 80,890 条范围内 COL 接受种记录，并另行保留 2,104 与 8,675 条来源独有记录。两端包含全部 42 个新增分片，既有来源层不被替换；Pages 只保留摘要和完整文件清单，详细查询默认收起。来源独有记录仅相对本次 COL 比较范围，不能相加宣称全球新增物种。见[线虫来源说明](worms-nematoda-archive.md)和[甲壳类来源说明](worms-crustacea-archive.md)。
+rc109 / app `0.20.60` / build `63` 增加线虫与甲壳类的独立 WoRMS 档案对应层：分别覆盖 19,604 与 80,890 条范围内 COL 接受种记录，并另行保留 2,104 与 8,675 条来源独有记录。两端包含全部 42 个新增分片，既有来源层不被替换；Pages 只保留摘要和完整文件清单，详细查询默认收起。来源独有记录仅相对本次 COL 比较范围，不能相加宣称全球新增物种。见[线虫来源说明](../archive/docs/worms-nematoda-archive.md)和[甲壳类来源说明](../archive/docs/worms-crustacea-archive.md)。
 
-rc108 / app `0.20.59` / build `62` 修复基础资源包及独立来源重建时的内容保留问题。两端继续包含全部 62 个资源包权威扩展及其数据分片，Pages 保持轻量；本次不增加物种或改变科学结论。重建规则及历史来源输入的保留方式见[资源包重建说明](resource-pack-rebuilds.md)。
+rc108 / app `0.20.59` / build `62` 修复基础资源包及独立来源重建时的内容保留问题。两端继续包含全部 62 个资源包权威扩展及其数据分片，Pages 保持轻量；本次不增加物种或改变科学结论。重建规则及历史来源输入的保留方式见[资源包重建说明](../archive/docs/resource-pack-rebuilds.md)。
 
-rc107 / app `0.20.58` / build `61` 增加“其他动物”包中的独立 WoRMS 环节动物档案对应层。该范围内全部 18,982 条 COL 接受种记录都有明确结果，来源独有的接受种另行保留且不分配 COL ID；既有 ITIS 对应层不被替换。两端包含全部新增记录分片，详情按单个 COL-ID 区间读取，来源独有记录单独展开。Pages 仅保留摘要和完整文件清单；不同来源的行数不能相加声称为去重后的全球物种总数。见[范围及来源说明](worms-annelida-archive.md)。
+rc107 / app `0.20.58` / build `61` 增加“其他动物”包中的独立 WoRMS 环节动物档案对应层。该范围内全部 18,982 条 COL 接受种记录都有明确结果，来源独有的接受种另行保留且不分配 COL ID；既有 ITIS 对应层不被替换。两端包含全部新增记录分片，详情按单个 COL-ID 区间读取，来源独有记录单独展开。Pages 仅保留摘要和完整文件清单；不同来源的行数不能相加声称为去重后的全球物种总数。见[范围及来源说明](../archive/docs/worms-annelida-archive.md)。
 
 rc106 / app `0.20.57` / build `60` 修复 Android 实际打包时 `.gz` 被解压并去除后缀的问题。Gradle 使用 `SingleArtifact.ASSETS` 转换，在资源合并后恢复同步生成的 `public/` 原始字节；其他插件资产照常合并。两个平台补充实际 WebView 加载测试，并把已有内容断言同步到 rc105 的四组档案、312 个场景和 513 条场景—主张链接。科学内容与来源范围不变，新发布路径用于保持旧发布不可变。
 
@@ -105,23 +105,23 @@ rc78 将 Android 与 iOS 同步到 build `32` / app `0.20.29`。两端获得与 
 
 rc77 将 Android 与 iOS 同步到 build `31` / app `0.20.28`。两端继续从同一 `native-full` inventory 内置 COL26.8 全部 2,183,133 个接受种、全部权威命名分片和 109 帧 0.1° PaleoDEM，并新增 10 个双语、字段关联的完整档案：禾本科、豆科，海百合、海蕾、海星、蛇尾、海参，以及希望螈鱼、棘螈、鱼石螈；真双子叶植物另有字段关联证据档案，但因 PBDB 概念未解决而不伪造完整 profile 的外部 ID。43 条新增声明保留一手来源定位与推断边界。Pages 继续使用 `web-light`，不会因本版富内容提升而复制原生全量名录或权威逐种分片。
 
-rc76 将 Android 与 iOS 同步到 build `30` / app `0.20.27`。两端新增独立 ITIS Fungi collection 的 56 个 COL 范围分片和 1 个 upstream-only 分片，并新增 Collembola + Protura 的 2 个 COL 分片和 1 个 upstream-only 分片；合计 168,884 条记录、60 个非空 gzip 全部进入 `native-full`。Species Fungorum / Index Fungorum 与既有 Insecta、Crustacea、Myriapoda、Chelicerata、AviList、Cnidaria collections 均保持独立，Pages `web-light` 不发布任何新增逐种行。两个 App 继续包含全部 109 帧 0.1° PaleoDEM；受限的 0.05° HydroShare 模型不进入默认包。见 [`itis-fungi-authority.md`](itis-fungi-authority.md)、[`itis-collembola-protura-authority.md`](itis-collembola-protura-authority.md) 与 [`paleotopography-native-resolution-audit-rc76.md`](paleotopography-native-resolution-audit-rc76.md)。
+rc76 将 Android 与 iOS 同步到 build `30` / app `0.20.27`。两端新增独立 ITIS Fungi collection 的 56 个 COL 范围分片和 1 个 upstream-only 分片，并新增 Collembola + Protura 的 2 个 COL 分片和 1 个 upstream-only 分片；合计 168,884 条记录、60 个非空 gzip 全部进入 `native-full`。Species Fungorum / Index Fungorum 与既有 Insecta、Crustacea、Myriapoda、Chelicerata、AviList、Cnidaria collections 均保持独立，Pages `web-light` 不发布任何新增逐种行。两个 App 继续包含全部 109 帧 0.1° PaleoDEM；受限的 0.05° HydroShare 模型不进入默认包。见 [`itis-fungi-authority.md`](../archive/docs/itis-fungi-authority.md)、[`itis-collembola-protura-authority.md`](../archive/docs/itis-collembola-protura-authority.md) 与 [`paleotopography-native-resolution-audit-rc76.md`](../archive/docs/paleotopography-native-resolution-audit-rc76.md)。
 
-rc75 将 Android 与 iOS 同步到 build `29` / app `0.20.26`。两端完整加入 Graptolithina/Rhabdopleura、Dicyemida/Kantharella 与两个 Oomycota 目根的增量分片，并加入独立 ITIS Bacteria TSN `50` 集合的 4 个 COL 范围分片和 4 个 upstream-only 分片；4,827 条 COL 结果与 9,348 条 ITIS-only 行均逐字节进入 `native-full`。既有 LPSN 标识集合保持独立，Pages `web-light` 不发布新增逐种行。完整 Bacteria 契约见 [`itis-bacteria-sidecar.md`](itis-bacteria-sidecar.md)。
+rc75 将 Android 与 iOS 同步到 build `29` / app `0.20.26`。两端完整加入 Graptolithina/Rhabdopleura、Dicyemida/Kantharella 与两个 Oomycota 目根的增量分片，并加入独立 ITIS Bacteria TSN `50` 集合的 4 个 COL 范围分片和 4 个 upstream-only 分片；4,827 条 COL 结果与 9,348 条 ITIS-only 行均逐字节进入 `native-full`。既有 LPSN 标识集合保持独立，Pages `web-light` 不发布新增逐种行。完整 Bacteria 契约见 [`itis-bacteria-sidecar.md`](../archive/docs/itis-bacteria-sidecar.md)。
 
-rc74 将 Android 与 iOS 同步到 build `28` / app `0.20.25`，并为 Actinopterygii、Chondrichthyes、Agnatha/Myxini 与 Sarcopterygii 四个互不重复的现生鱼类边界加入固定 ITIS `2026-08-26` CC0 权威侧车。37,436 条 COL26.8 范围行与 3,932 条 ITIS-only 行合计形成 41,368 条原生端记录、29 个非空 JSONL gzip；Myxini 作为 Agnatha 内部后代只计算一次，Sarcopterygii 的八条包内记录也不被宣称为完整现生总数。`native-full` 在 Android/iOS 中逐字节包含全部描述符和行分片，Pages 的 `web-light` 只发布来源、范围、方法、计数、限制和 canonical 哈希。独立 FishBase 历史标识层不与 ITIS 混合。逐组统计、根边界与交付契约见 [`itis-fish-authority.md`](itis-fish-authority.md)。
+rc74 将 Android 与 iOS 同步到 build `28` / app `0.20.25`，并为 Actinopterygii、Chondrichthyes、Agnatha/Myxini 与 Sarcopterygii 四个互不重复的现生鱼类边界加入固定 ITIS `2026-08-26` CC0 权威侧车。37,436 条 COL26.8 范围行与 3,932 条 ITIS-only 行合计形成 41,368 条原生端记录、29 个非空 JSONL gzip；Myxini 作为 Agnatha 内部后代只计算一次，Sarcopterygii 的八条包内记录也不被宣称为完整现生总数。`native-full` 在 Android/iOS 中逐字节包含全部描述符和行分片，Pages 的 `web-light` 只发布来源、范围、方法、计数、限制和 canonical 哈希。独立 FishBase 历史标识层不与 ITIS 混合。逐组统计、根边界与交付契约见 [`itis-fish-authority.md`](../archive/docs/itis-fish-authority.md)。
 
-rc73 将 Android 与 iOS 同步到 build `27` / app `0.20.24`，并为五个 Mammalia 分区加入固定 ITIS `2026-08-26` CC0 权威侧车。6,461 条 COL26.8 范围行保留 6,460 个当前名结果与 1 个歧义；3 个 ITIS-only 当前种保持 null COL ownership，合计 6,464 条原生端记录。`native-full` 逐字节包含全部 9 个非空 JSONL gzip；`mammal-origins` 的零记录边界不交付 ITIS collection。Pages 的 `web-light` 只发布描述符、来源、范围、方法、计数、限制和 canonical 哈希，不发布逐种行。逐组统计、根边界与交付契约见 [`itis-mammal-authority.md`](itis-mammal-authority.md)。
+rc73 将 Android 与 iOS 同步到 build `27` / app `0.20.24`，并为五个 Mammalia 分区加入固定 ITIS `2026-08-26` CC0 权威侧车。6,461 条 COL26.8 范围行保留 6,460 个当前名结果与 1 个歧义；3 个 ITIS-only 当前种保持 null COL ownership，合计 6,464 条原生端记录。`native-full` 逐字节包含全部 9 个非空 JSONL gzip；`mammal-origins` 的零记录边界不交付 ITIS collection。Pages 的 `web-light` 只发布描述符、来源、范围、方法、计数、限制和 canonical 哈希，不发布逐种行。逐组统计、根边界与交付契约见 [`itis-mammal-authority.md`](../archive/docs/itis-mammal-authority.md)。
 
-rc72 将 Android 与 iOS 同步到 build `26` / app `0.20.23`，并为 Reptilia 加入固定 ITIS `2026-08-26` CC0 权威侧车。12,649 条声明范围内的 COL26.8 行保留 9,831 个精确当前接受名、71 个官方异名重定向、3 个歧义和 2,744 个未匹配结果；655 个 ITIS-only 当前种保持 null COL ownership，合计 13,304 条原生端记录。`turtles-lepidosaurs` 的非鳄类范围以 10 个文件发布 13,277 条记录；`crocodylomorphs-birds` 内 Crocodylia 以 1 个文件发布 27 条记录，Aves 明确排除，独立 AviList collection 保持 4 个文件。`native-full` 逐字节包含全部 11 个 Reptilia ITIS JSONL gzip；finalizer、Android instrumentation 与 iOS application tests 按 collection ID 核对行数、release inventory 字节数、SHA-256 与真实资产。Pages 的 `web-light` 只发布描述符、来源、范围、方法、计数、限制和 canonical 哈希，不发布逐种行。逐组统计、根边界与交付契约见 [`itis-reptilia-authority-sidecars.md`](itis-reptilia-authority-sidecars.md)。
+rc72 将 Android 与 iOS 同步到 build `26` / app `0.20.23`，并为 Reptilia 加入固定 ITIS `2026-08-26` CC0 权威侧车。12,649 条声明范围内的 COL26.8 行保留 9,831 个精确当前接受名、71 个官方异名重定向、3 个歧义和 2,744 个未匹配结果；655 个 ITIS-only 当前种保持 null COL ownership，合计 13,304 条原生端记录。`turtles-lepidosaurs` 的非鳄类范围以 10 个文件发布 13,277 条记录；`crocodylomorphs-birds` 内 Crocodylia 以 1 个文件发布 27 条记录，Aves 明确排除，独立 AviList collection 保持 4 个文件。`native-full` 逐字节包含全部 11 个 Reptilia ITIS JSONL gzip；finalizer、Android instrumentation 与 iOS application tests 按 collection ID 核对行数、release inventory 字节数、SHA-256 与真实资产。Pages 的 `web-light` 只发布描述符、来源、范围、方法、计数、限制和 canonical 哈希，不发布逐种行。逐组统计、根边界与交付契约见 [`itis-reptilia-authority-sidecars.md`](../archive/docs/itis-reptilia-authority-sidecars.md)。
 
-rc71 将 Android 与 iOS 同步到 build `25` / app `0.20.22`，并加入 Insecta、Crustacea、Chelicerata 与 Myriapoda 四组互不重叠的固定 ITIS `2026-08-26` CC0 权威侧车。两端 `native-full` 逐字节包含 161 个非空 JSONL gzip、1,135,834 条 COL26.8 显式结果与 42,507 条 ITIS-only 当前种，合计 1,178,341 条记录；混合资源包中的 Trilobita 与 Euthycarcinoidea 排除边界保持明确。Pages 只发布来源、精确根、统计、限制和 canonical 哈希。完整范围见 [`itis-arthropods-authority.md`](itis-arthropods-authority.md)。
+rc71 将 Android 与 iOS 同步到 build `25` / app `0.20.22`，并加入 Insecta、Crustacea、Chelicerata 与 Myriapoda 四组互不重叠的固定 ITIS `2026-08-26` CC0 权威侧车。两端 `native-full` 逐字节包含 161 个非空 JSONL gzip、1,135,834 条 COL26.8 显式结果与 42,507 条 ITIS-only 当前种，合计 1,178,341 条记录；混合资源包中的 Trilobita 与 Euthycarcinoidea 排除边界保持明确。Pages 只发布来源、精确根、统计、限制和 canonical 哈希。完整范围见 [`itis-arthropods-authority.md`](../archive/docs/itis-arthropods-authority.md)。
 
-rc70 将 Android 与 iOS 同步到 build `24` / app `0.20.21`，并把固定 ITIS `2026-08-26` CC0 权威层扩展到线虫、环节动物、软体动物与腕足动物、海绵与刺胞动物和棘皮动物。240,792 条声明范围内的 COL26.8 记录均保留显式结果：21,346 个精确当前接受名、515 个官方异名重定向、30 个歧义和 218,901 个未匹配结果；13,122 个 ITIS-only 当前种保持 null COL ownership，合计 253,914 条原生端权威记录。`native-full` 逐字节包含全部 77 个非空 JSONL gzip，finalizer、Android instrumentation 与 iOS application tests 均核对 collection ID、行数、release inventory 字节数、SHA-256 和真实资产。Pages 的 `web-light` 仅发布描述符、来源、范围、方法、计数、限制和 77 个 canonical 哈希，不发布逐种行。棘皮动物同时保留彼此独立的 WoRMS AphiaID 与 ITIS TSN collection；两者不合并或相互覆盖，WoRMS 也改为 Pages 摘要、原生完整。逐组统计、根边界和交付契约见 [`itis-major-invertebrates-authority.md`](itis-major-invertebrates-authority.md)。
+rc70 将 Android 与 iOS 同步到 build `24` / app `0.20.21`，并把固定 ITIS `2026-08-26` CC0 权威层扩展到线虫、环节动物、软体动物与腕足动物、海绵与刺胞动物和棘皮动物。240,792 条声明范围内的 COL26.8 记录均保留显式结果：21,346 个精确当前接受名、515 个官方异名重定向、30 个歧义和 218,901 个未匹配结果；13,122 个 ITIS-only 当前种保持 null COL ownership，合计 253,914 条原生端权威记录。`native-full` 逐字节包含全部 77 个非空 JSONL gzip，finalizer、Android instrumentation 与 iOS application tests 均核对 collection ID、行数、release inventory 字节数、SHA-256 和真实资产。Pages 的 `web-light` 仅发布描述符、来源、范围、方法、计数、限制和 77 个 canonical 哈希，不发布逐种行。棘皮动物同时保留彼此独立的 WoRMS AphiaID 与 ITIS TSN collection；两者不合并或相互覆盖，WoRMS 也改为 Pages 摘要、原生完整。逐组统计、根边界和交付契约见 [`itis-major-invertebrates-authority.md`](../archive/docs/itis-major-invertebrates-authority.md)。
 
-rc69 将 Android 与 iOS 同步到 build `23` / app `0.20.20`，并为 `protists-chromists` 加入 25 个 ITIS 权威边界。两端逐字节包含全部 19 个非空 ITIS 文件和 19,501 条记录，并继续包含有孔虫 WFD 的 5 个文件与 47,975 条记录。12 个没有精确现行根的范围保留为完整的零行边界，不把近邻类群写入应用，也不复制无信息的空 gzip。移动端最终化脚本、Android instrumentation source 与 iOS application tests 都按 manifest 顺序核对扩展 ID、CC0 来源、文件数、行数、release inventory 字节数、SHA-256 和真实资产存在性。Pages 仍只发布摘要与 24 个非空 authority 文件的 canonical 哈希；Web 轻量化不缩减 Android 或 iOS 的完整名录、全部权威行和 109 帧 0.1° PaleoDEM。逐组统计见 [`itis-protists-authority.md`](itis-protists-authority.md)。
+rc69 将 Android 与 iOS 同步到 build `23` / app `0.20.20`，并为 `protists-chromists` 加入 25 个 ITIS 权威边界。两端逐字节包含全部 19 个非空 ITIS 文件和 19,501 条记录，并继续包含有孔虫 WFD 的 5 个文件与 47,975 条记录。12 个没有精确现行根的范围保留为完整的零行边界，不把近邻类群写入应用，也不复制无信息的空 gzip。移动端最终化脚本、Android instrumentation source 与 iOS application tests 都按 manifest 顺序核对扩展 ID、CC0 来源、文件数、行数、release inventory 字节数、SHA-256 和真实资产存在性。Pages 仍只发布摘要与 24 个非空 authority 文件的 canonical 哈希；Web 轻量化不缩减 Android 或 iOS 的完整名录、全部权威行和 109 帧 0.1° PaleoDEM。逐组统计见 [`itis-protists-authority.md`](../archive/docs/itis-protists-authority.md)。
 
-rc68 将 Android 与 iOS 同步到 build `22` / app `0.20.19`，并把 `other-animals` 的 ITIS 权威层从五个扩为 26 个互不重叠的范围。两端逐字节包含相同的 62 个非空 canonical 文件：60,572 个 COL26.8 显式结果和 2,327 个 ITIS-only 当前种，共 62,899 行；七个零行 upstream 分区不复制相同的空 gzip。移动端测试按 manifest 顺序检查每个扩展的 ID、CC0 来源、文件数、行数、release inventory 字节数、SHA-256 与真实资产存在性，并要求扩展总数完全相等，不能静默漏掉新范围。Pages 的 `web-light` 不复制行级文件，只保留 26 组完整来源、根边界、方法、统计、限制与 canonical 哈希；这不会缩减 Android 或 iOS 的物种数据。逐组统计见 [`itis-other-animals-authority.md`](itis-other-animals-authority.md)。
+rc68 将 Android 与 iOS 同步到 build `22` / app `0.20.19`，并把 `other-animals` 的 ITIS 权威层从五个扩为 26 个互不重叠的范围。两端逐字节包含相同的 62 个非空 canonical 文件：60,572 个 COL26.8 显式结果和 2,327 个 ITIS-only 当前种，共 62,899 行；七个零行 upstream 分区不复制相同的空 gzip。移动端测试按 manifest 顺序检查每个扩展的 ID、CC0 来源、文件数、行数、release inventory 字节数、SHA-256 与真实资产存在性，并要求扩展总数完全相等，不能静默漏掉新范围。Pages 的 `web-light` 不复制行级文件，只保留 26 组完整来源、根边界、方法、统计、限制与 canonical 哈希；这不会缩减 Android 或 iOS 的物种数据。逐组统计见 [`itis-other-animals-authority.md`](../archive/docs/itis-other-animals-authority.md)。
 
 rc66 将 Android 与 iOS 同步到 build `20`，并把全部 47,975 个 COL26.8 有孔虫的 WFD `2026-08-01` 权威标识纳入 `native-full`。两端包含相同的 5 个互不重叠 COL-ID JSONL gzip 分片，共 4,046,631 字节；每条记录都来自官方 ChecklistBank dataset `1157` source-record 关系，单种查询最多读取一个分片。`finalize-mobile-build.mjs` 要求 5 个文件、47,975 条记录、完整 canonical inventory 和 `native-full` 标志，并逐文件复核 release inventory 的字节数与 SHA-256。Pages 的 `web-light` 不部署这些行级文件，仅公开来源、方法、计数、限制和 5 文件哈希清单。
 

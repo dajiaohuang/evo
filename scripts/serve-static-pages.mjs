@@ -5,7 +5,7 @@ import { rootDir } from './data-lib.mjs'
 
 const root = resolve(rootDir, 'dist-pages')
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.svg': 'image/svg+xml', '.webp': 'image/webp', '.json': 'application/json', '.xml': 'application/xml', '.js': 'text/javascript' }
-const port = Number(process.env.PAGES_PORT ?? 4180)
+const port = Number(process.env.PAGES_PORT ?? 14782)
 createServer((request, response) => {
   const url = new URL(request.url, 'http://localhost')
   if (url.pathname === '/evo') { response.writeHead(301, { Location: '/evo/' }); response.end(); return }

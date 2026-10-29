@@ -1,5 +1,10 @@
 # Reader content
 
+Current public delivery is the map/tree application with Wikipedia links only;
+original node prose, topics and guided reading are paused. The reading-window
+design below remains a design/reference standard for retained or future content,
+not a claim that those readers are currently online. See [project scope](project-scope.md).
+
 The [node production standard](node-presentation-standard.md) is the shared
 contract for every node's page, card, bubble and reading window. Its
 [drafting template](templates/node-presentation.md) turns the decisions below

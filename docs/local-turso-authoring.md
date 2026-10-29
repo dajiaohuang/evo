@@ -41,15 +41,15 @@ rtk proxy node database/turso-cli.mjs receipt --actor team-w1@stew-evo --request
 rtk proxy node database/turso-cli.mjs read --actor team-w1@stew-evo --node <NODE_UUID> --out <ABSOLUTE_IGNORED_READBACK_JSON>
 ```
 
-`read`返回已保存的草稿、实际书目和运行投影。`checkout`优先取当前草稿，否则取指定基线。新节点可使用完整请求中的新内部UUID、空base和generation0；科学身份必须来自实际来源，内部UUID不能充当科学分类ID。W只处理C分配的节点，不改源码/schema，不直接打开数据库文件。
+`read`返回已保存的草稿、实际书目和运行投影。`checkout`优先取当前草稿，否则取指定基线。新节点可使用完整请求中的新内部UUID、空base和generation0；科学身份必须来自实际来源，内部UUID不能充当科学分类ID。编辑者按本轮任务范围处理节点；通过受控接口保存，不直接打开服务持有的数据库文件。
 
-C通过现有OpenRig原生任务维护归属和覆盖；数据库不另建工作调度/claims系统。节点分页只提供准确输入，不把已有草稿自动判成科学完成：
+任务范围由当前操作者管理；数据库不另建工作调度/claims系统。节点分页只提供准确输入，不把已有草稿自动判成科学完成：
 
 ```powershell
 rtk proxy node database/turso-cli.mjs nodes --actor team-c@stew-evo --source <BASELINE_COMMIT> --after <LAST_PHYSICAL_KEY> --limit 48 --out <ABSOLUTE_IGNORED_BATCH_JSON>
 ```
 
-## S 的启动、恢复与验证
+## 服务启动、恢复与验证
 
 ```powershell
 rtk proxy node database/turso-control.mjs start --database <LOCAL_DB_PATH> --workspace <WORKSPACE_UUID> --owner local-owner

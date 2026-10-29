@@ -5,7 +5,7 @@ import { SplashScreen } from '@capacitor/splash-screen'
 import { StatusBar, Style } from '@capacitor/status-bar'
 import { idFromStaticPathSegment } from '../utils/staticPath.mjs'
 
-const WEB_APP_ORIGIN = 'https://dajiaohuang.github.io'
+const WEB_APP_ORIGINS = new Set(['https://evo-lovat.vercel.app', 'https://dajiaohuang.github.io'])
 const WEB_APP_PATH = '/evo/'
 
 const normalizeHash = (value: string): string | null => {
@@ -28,7 +28,7 @@ export function routeHashFromAppUrl(rawUrl: string): string | null {
     return route ? `#/${route}${url.search}` : '#/home'
   }
 
-  if (url.origin === WEB_APP_ORIGIN && url.pathname.startsWith(WEB_APP_PATH)) {
+  if (WEB_APP_ORIGINS.has(url.origin) && url.pathname.startsWith(WEB_APP_PATH)) {
     const hash = normalizeHash(url.hash)
     if (hash) return hash
     const path = url.pathname.slice(WEB_APP_PATH.length).replace(/^zh\//, '').replace(/\/+$/, '')

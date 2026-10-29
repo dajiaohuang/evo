@@ -2,9 +2,9 @@
 
 本机当前使用[本地 Turso 服务与 CLI](../docs/local-turso-authoring.md)，原 PostgreSQL 基线保留用于恢复。以下原平台说明不代表本地发布/云服务已切换。
 
-PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务；私有 Blob 保存完整且不可变的正文、证据和来源。目标结构、创作流程、切换条件见 [数据与创作方案](../docs/evo-data-platform-v2.md)。页面及完整依赖的新结构、发布约束和 worker 草稿事务见 [页面依赖模型](../docs/page-dependency-model.md)。网页审核台及生产读取切换尚未实施。
+PostgreSQL 保存身份、分类、修订、书目、依赖索引和发布事务；私有 Blob 保存完整且不可变的正文、证据和来源。目标结构、创作流程、切换条件见 [数据与创作方案](../archive/docs/evo-data-platform-v2.md)。页面及完整依赖的新结构、发布约束和 worker 草稿事务见 [页面依赖模型](../archive/docs/page-dependency-model.md)。网页审核台及生产读取切换尚未实施。
 
-本地数据库改造、完整节点基线与不依赖 Git 的日常草稿操作，使用 [本地数据库创作](../docs/local-database-authoring.md)。日常流程是 `checkout → 编辑 document → submit → receipt/read`；下面的 Git 导出和云上传属于一次性历史迁移工具。
+本地数据库改造、完整节点基线与不依赖 Git 的日常草稿操作，使用 [本地数据库创作](../archive/docs/local-database-authoring.md)。日常流程是 `checkout → 编辑 document → submit → receipt/read`；下面的 Git 导出和云上传属于一次性历史迁移工具。
 
 ## 已连接资源
 
@@ -63,6 +63,6 @@ rtk proxy node --env-file=.env.local database/trace-page-dependencies.mjs ffaa64
 
 数据库、Blob、规范文件和公开发布是不同层次。迁移通过不代表网页编辑已完成，也不触发生产切换。正式入口仍以现有文件为权威；新平台必须完成真实登录、创作、来源/差异预览、用户批准、发布、跨端版本和回滚验收后才切换。
 
-执行结果见 [迁移收据](../docs/evo-data-platform-v2.execution.json)。本机逐批收据保存在 `.git/platform-v2/`，其中的私有来源 URL 和密钥不进入公开说明。
+执行结果见 [迁移收据](../archive/docs/evo-data-platform-v2.execution.json)。本机逐批收据保存在 `.git/platform-v2/`，其中的私有来源 URL 和密钥不进入公开说明。
 
 迁移 SQL 的版本收据绑定实际文件字节。`migrations/.gitattributes` 禁用换行自动转换，确保 Windows 和其他系统检出的迁移 hash 与已执行版本完全一致。

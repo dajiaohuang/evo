@@ -1,6 +1,16 @@
-name: Deploy to GitHub Pages
+name: Deploy introduction to GitHub Pages
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'pages/**'
+      - 'config/site.json'
+      - 'scripts/build-pages.mjs'
+      - 'scripts/check-static-pages.mjs'
+      - 'scripts/retire-pages-worker.js'
+      - 'public/favicon.svg'
+      - '.github/workflows/deploy.yml'
   workflow_dispatch:
 
 concurrency:
@@ -11,43 +21,34 @@ jobs:
   deploy:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    env:
-      NODE_OPTIONS: --max-old-space-size=8192
     permissions:
       contents: read
-      actions: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: Require successful CI for this exact main revision
-        env:
-          GH_TOKEN: ${{ github.token }}
-          EXPECTED_SHA: ${{ github.sha }}
-        run: |
-          status="$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/ci.yml/runs?head_sha=$EXPECTED_SHA&event=push&per_page=1" --jq '.workflow_runs[0].conclusion')"
-          if [ "$status" != "success" ]; then
-            echo "Deployment requires successful CI for $EXPECTED_SHA; found $status."
-            exit 1
-          fi
       - uses: actions/checkout@v7
         with:
           ref: ${{ github.sha }}
+          sparse-checkout: |
+            pages
+            config
+            scripts/build-pages.mjs
+            scripts/check-static-pages.mjs
+            scripts/retire-pages-worker.js
+            public/favicon.svg
+          sparse-checkout-cone-mode: false
       - uses: actions/setup-node@v7
         with:
           node-version: 22
-          cache: npm
-      - run: npm ci
       - name: Build the verified deployment revision
-        run: npm run build
-        env:
-          DEPLOYMENT_COMMIT_SHA: ${{ github.sha }}
-      - run: npm run pages:budget
+        run: node scripts/build-pages.mjs
+      - run: node scripts/check-static-pages.mjs
       - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v5
         with:
-          path: dist
+          path: dist-pages
       - id: deployment
         uses: actions/deploy-pages@v5

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="{{language}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="{{description}}">
+  <meta name="theme-color" content="#0b1518">
+  <title>{{title}} · Evo Atlas</title>
+  <link rel="canonical" href="{{canonical}}">
+  <link rel="alternate" hreflang="en" href="{{introductionUrl}}">
+  <link rel="alternate" hreflang="zh-CN" href="{{introductionUrl}}zh/">
+  <link rel="icon" href="/evo/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/evo/introduction.css">
+  <meta property="og:title" content="{{title}} · Evo Atlas">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:url" content="{{canonical}}">
+</head>
+<body>
+  <a class="skip" href="#main" tabindex="0">{{skip}}</a>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="{{introductionUrl}}">EVO ATLAS</a>
+      <nav class="language" aria-label="Language"><a href="/evo/" lang="en">English</a><a href="/evo/zh/" lang="zh-CN">中文</a></nav>
+    </header>
+    <main id="main">
+      <section class="hero" aria-labelledby="title">
+        <p class="eyebrow">{{eyebrow}}</p>
+        <h1 id="title">{{heading}}</h1>
+        <p class="lead">{{description}}</p>
+        {{notice}}
+        <div class="actions"><a class="button" href="{{applicationUrl}}">{{open}} ↗</a><a class="button secondary" href="{{applicationUrl}}#/home?view=tree">{{tree}} ↗</a></div>
+        <p class="destination">{{destination}} <a href="{{applicationUrl}}">evo-lovat.vercel.app/evo/</a></p>
+      </section>
+      <section class="features" aria-label="{{featuresLabel}}">
+        <article><span class="number">01 / MAP</span><h2>{{mapTitle}}</h2><p>{{mapBody}}</p></article>
+        <article><span class="number">02 / TREE</span><h2>{{treeTitle}}</h2><p>{{treeBody}}</p></article>
+        <article><span class="number">03 / EVIDENCE</span><h2>{{evidenceTitle}}</h2><p>{{evidenceBody}}</p></article>
+      </section>
+      <section class="principle"><h2>{{principleTitle}}</h2><div><p>{{principleBody}}</p><p>{{siteRole}}</p></div></section>
+    </main>
+    <footer><span>Evo Atlas · {{footer}}</span><nav aria-label="{{linksLabel}}"><a href="{{repositoryUrl}}">GitHub ↗</a><a href="{{repositoryUrl}}/blob/main/PRIVACY.md">{{privacy}} ↗</a><a href="{{repositoryUrl}}/blob/main/DATA_LICENSES.md">{{sources}} ↗</a></nav></footer>
+  </div>
+  <script src="/evo/retire-legacy-app.js" defer></script>
+</body>
+</html>

@@ -24,7 +24,7 @@ const staticPages = process.env.EVO_STATIC_PAGES === 'true'
 const distRoot = join(rootDir, staticPages ? 'dist-pages' : 'dist')
 if (!staticPages && !existsSync(join(distRoot, 'index.html'))) throw new Error('dist/index.html is missing; run the Vite build before generating static pages.')
 
-const origin = 'https://dajiaohuang.github.io'
+const origin = new URL(readJson('config/site.json').applicationUrl).origin
 const basePath = '/evo'
 const baseUrl = `${origin}${basePath}`
 const repositoryUrl = 'https://github.com/dajiaohuang/evo'

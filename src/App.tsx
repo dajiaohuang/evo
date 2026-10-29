@@ -3,13 +3,13 @@ import { useAppStore } from './store'
 import { ErrorBoundary } from './components/common/ErrorBoundary'
 import { AppShell } from './components/shell/AppShell'
 import { buildRouteHash, parseRouteHash, type AppRoute } from './utils/routing'
-import { staticPathSegment } from './utils/staticPath.mjs'
 import { useI18n } from './i18n'
 import { isBackendConfigured } from './data-client/backendClient'
 import { isNativeCore, isPagesPreview, isPreviewRouteLocked } from './config/pagesPreview'
 import { PagesPreviewGate } from './components/common/PagesPreviewGate'
 import { ReadingWindow } from './components/reading/ReadingWindow'
 import './atlas-fullscreen.css'
+import site from '../config/site.json'
 
 const ExplorerWorkspace = lazy(() => import('./components/explorer/ExplorerWorkspace')
   .then((module) => ({ default: module.ExplorerWorkspace })))
@@ -79,7 +79,7 @@ export default function App() {
 
   useEffect(() => {
     const labels: Record<AppRoute, string> = {
-      home: language === 'zh' ? '古地图与生命故事 — Evo Atlas' : 'Paleomap and stories of life — Evo Atlas',
+      home: language === 'zh' ? '古地图与物种树 — Evo Atlas' : 'Paleomap and species tree — Evo Atlas',
       catalog: 'Catalog — Evo Atlas',
       registry: 'Catalogue taxon — Evo Atlas',
       pbdb: 'PBDB taxon — Evo Atlas',
@@ -94,10 +94,10 @@ export default function App() {
     }
     let cancelled = false
     const fallbackDescription = 'Explore deep-time evolution through linked fossil occurrences, reconstructed coordinates, geological intervals and evolutionary hypotheses.'
-    const applyMetadata = (entityTitle: string | null, descriptionSource: string, staticPath: string) => {
+    const applyMetadata = (entityTitle: string | null, descriptionSource: string) => {
       if (cancelled) return
       const description = t(descriptionSource)
-      const canonical = `https://dajiaohuang.github.io/evo/${language === 'zh' && staticPath ? 'zh/' : ''}${staticPath}`
+      const canonical = site.applicationUrl
       const title = entityTitle ? `${entityTitle} — Evo Atlas` : t(labels[route])
       document.title = title
       document.querySelector<HTMLMetaElement>('meta[name="description"]')?.setAttribute('content', description)
@@ -109,20 +109,18 @@ export default function App() {
 
     const id = routeState.params.get('id')
     if (route === 'stories') {
-      applyMetadata(language === 'zh' ? '专题暂时下线' : 'Topics are temporarily offline', fallbackDescription, '')
+      applyMetadata(language === 'zh' ? '专题暂时下线' : 'Topics are temporarily offline', fallbackDescription)
     } else if (id && (route === 'taxa' || route === 'events')) {
-      applyMetadata(null, fallbackDescription, '')
+      applyMetadata(null, fallbackDescription)
       void import('./services/catalog').then(({ getEvolutionEvent, getTaxonProfile }) => {
         const profile = route === 'taxa' ? getTaxonProfile(id) : null
         const event = route === 'events' ? getEvolutionEvent(id) : null
         const entityTitle = profile?.scientificName ?? (event ? (language === 'zh' ? event.titleZh : event.title) : null)
         const description = profile?.readerSections?.find(section => section.id === 'reading-introduction')?.text[language] ?? profile?.overview ?? event?.summary ?? fallbackDescription
-        const staticPath = profile ? `taxa/${staticPathSegment(profile.id)}/` : event ? `events/${encodeURIComponent(event.id)}/` : ''
-        applyMetadata(entityTitle, description, staticPath)
+        applyMetadata(entityTitle, description)
       })
     } else {
-      const staticPath = route === 'info' && routeState.params.get('tab') !== 'sources' ? 'methods/' : ''
-      applyMetadata(null, route === 'home' && !routeState.params.size ? language === 'zh' ? '大陆怎样移动，生命又怎样变化？在古地图上阅读化石发现、生物结构与演化故事。' : 'How did continents move and life change? Read fossil discoveries, biological structures and evolutionary stories on the paleomap.' : fallbackDescription, staticPath)
+      applyMetadata(null, route === 'home' && !routeState.params.size ? language === 'zh' ? '浏览古大陆、物种树与有来源的化石记录。' : 'Explore reconstructed continents, the species tree and source-linked fossil records.' : fallbackDescription)
     }
     return () => { cancelled = true }
   }, [language, route, routeState.params, t])
@@ -152,7 +150,7 @@ export default function App() {
   </section>
   else if (route === 'registry' || route === 'taxa' || route === 'pbdb') page = <section style={{ padding: 24 }}>
     <h1>{language === 'zh' ? '节点页面暂时下线' : 'Node pages are temporarily offline'}</h1>
-    <p>{language === 'zh' ? '请在物种树中点击名称，在浮窗阅读 Wikipedia 摘要或打开完整条目。' : 'Select a name in the species tree to preview Wikipedia or open the full article.'}</p>
+    <p>{language === 'zh' ? '请在物种树中点击名称，查看 Wikipedia 原文链接。' : 'Select a name in the species tree to open its original Wikipedia article link.'}</p>
     <button type="button" onClick={() => navigate('home', { view: 'tree' })}>{language === 'zh' ? '打开物种树' : 'Open species tree'}</button>
   </section>
   else if (route === 'research') page = <ResearchHubPage onNavigate={navigate} />

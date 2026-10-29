@@ -34,3 +34,9 @@ review-output
 *.sln
 *.sw?
 .env*
+
+# Generated local map snapshots; tracked release inputs remain tracked.
+public/node-map/frames/
+data/node-map/pbdb-exact-*/
+**/__pycache__/
+*.pyc

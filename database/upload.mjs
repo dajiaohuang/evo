@@ -13,7 +13,7 @@ const storeId='store_xxrtIBwYQAds7u6s',options={access:'private',storeId}
 for(const file of [...manifest.batches,manifest.referenceFile,manifest.originalSourceArchive])if(!/^(nodes-\d{4}\.ndjson\.gz|references\.ndjson\.gz|canonical-content\.tar\.gz)$/.test(file.path))throw new Error('Unexpected export artifact path')
 const targets=[...manifest.batches,manifest.referenceFile,manifest.originalSourceArchive].map(file=>({...file,localPath:join(input,file.path),mediaType:'application/gzip',provenance:{kind:'canonical-migration-artifact',sourceCommit:manifest.sourceCommit}}))
 targets.push({path:'manifest.json',localPath:join(input,'manifest.json'),sha256:sha256(manifestBytes),bytes:manifestBytes.length,mediaType:'application/json',provenance:{kind:'migration-manifest',sourceCommit:manifest.sourceCommit}})
-const sourceManifest=JSON.parse(await readFile(join(root,'docs/local-integration-2026-10-20.sources.json'),'utf8'))
+const sourceManifest=JSON.parse(await readFile(join(root,'archive/docs/local-integration-2026-10-20.sources.json'),'utf8'))
 if(sourceManifest.status!=='PASS')throw new Error('Scientific snapshot preservation is not verified')
 for(const file of sourceManifest.files){
   const path=resolve(root,file.retainedLocalPath)

@@ -14,7 +14,8 @@ The terrain worker retains one checksum-verified grid and inverse-projects viewp
 
 The source manifest retains its original EPSG:3857 visualization defaults and polar-limit note. These describe the default Mercator presentation, not a restriction on the new Equal Earth renderer. Both source and delivery grids still contain the polar rows. Runtime projection state belongs to the application and does not alter the immutable scientific manifest.
 
-GitHub Pages remains the separate static reading edition with discrete SVG maps. This feature changes the full interactive client, including its native builds.
+The interactive Web application is hosted on Vercel. GitHub Pages is only the
+project introduction. Native builds retain separate verification requirements.
 
 ## Validation
 

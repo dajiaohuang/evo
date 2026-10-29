@@ -8,6 +8,8 @@ describe('native deep-link routing', () => {
   })
 
   it('maps canonical web links without changing their hash state', () => {
+    expect(routeHashFromAppUrl('https://evo-lovat.vercel.app/evo/#/home?view=tree&age=375'))
+      .toBe('#/home?view=tree&age=375')
     expect(routeHashFromAppUrl('https://dajiaohuang.github.io/evo/#/explore?age=375&taxon=tiktaalik'))
       .toBe('#/explore?age=375&taxon=tiktaalik')
   })

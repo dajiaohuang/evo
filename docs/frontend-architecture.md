@@ -1,110 +1,25 @@
-# Frontend architecture
+# Current frontend architecture
 
-## Current release boundary
+The [project scope](project-scope.md) and `config/site.json` define current delivery.
 
-Evo Atlas currently ships one React/TypeScript application with three delivery
-targets:
+## Public application
 
-- Web uses the Vite client and static, checksum-addressed runtime data.
-- Android and iOS use Capacitor shells around the same React client. Their
-  platform-specific entry points are kept behind explicit adapter boundaries;
-  the shared React shell is an implementation detail, not a data contract.
-- GitHub Pages can opt into `VITE_PAGES_PREVIEW=true`. This produces the
-  `github-pages-preview` edition: dashboard, tutorial, time/map scenes, the
-  selected resource packages, selected events and selected stories. Full
-  directories, the Catalogue of Life nomenclatural registry and research tools
-  stay out of the artifact and are also blocked in the client.
+React, TypeScript and Vite produce a hash-routed application under `/evo/` on Vercel. The full-screen paleomap and species-tree views are its primary entry points. Time, map camera, projection and selected material remain distinct state. Node-map requests require reliable source classification and exact model/frame provenance; see [node-map query](node-map-query.md).
 
-The ordinary Web build remains `full-web` with the `web-light` delivery profile.
-Android and iOS always use `native-core`, generated from the selected core
-scope. Full catalogue rows, all-species dossiers, authority archives, full
-resolution map data and complete package downloads stay outside the App.
+Wikipedia windows show original-article links and matching status, not summaries or mirrored articles. Current node, story and guided-reading prose is paused publicly. Source and method information and applicable research tools remain within the dashboard rather than becoming duplicate sites. Older routes may show a retirement notice; they are not evidence that the former reader is available.
 
-These boundaries are represented by the shared frontend capability contract in
-`src/platform/frontendContract.ts`. It is the single runtime description of
-target, edition, data scope, current backend protocol, tree rendering policy
-and synchronization policy. The contract is new-format-only: it exposes only
-backend protocol `v1`, packed-adjacency/windowed tree access, and
-release-pinned on-demand sync. It deliberately has no realtime sync and no
-legacy compatibility branch. Timeline evidence cards are a map overlay driven
-by the current timeline age; they are not dashboard-recorded content.
+The application still has frozen scientific build inputs and release-pinned static runtime manifests. A closed screen is not proof that its data has no build or source dependency. Large scientific inputs do not belong in the Vite module graph or PWA precache. Hashes identify stored bytes; model results, observations and classification hypotheses retain separate meanings.
 
-The complete Web build may set `VITE_EVO_API_BASE_URL` to the Go service. When
-set, the full Catalogue tree and nomenclatural search use the current backend
-protocol directly; a failed or stale backend response is surfaced instead of
-silently falling back to an older protocol or raw hierarchy shard. Pages
-preview never uses this endpoint.
+## GitHub Pages
 
-## Target independent frontends
+`pages/` contains bilingual introduction copy, template, style and a narrowly scoped legacy-worker update helper. `scripts/build-pages.mjs` uses Node built-ins only and outputs `dist-pages/`. It never imports application code or scientific generators. The checker enforces an exact file allowlist and 256 KiB budget. The deployment workflow uploads only that directory. Unknown old reading URLs return the introduction's 404 with the Vercel entry.
 
-The target is three independently testable frontend applications that share
-contracts and scientific data semantics, not duplicated scientific facts:
+## Native and local authoring
 
-| Frontend | Primary delivery | Local data policy | Backend use |
-| --- | --- | --- | --- |
-| Web | Vite/PWA and static host | Full Web or explicit Pages preview edition | Optional online enrichment; static release remains usable |
-| Android | Native shell and native interaction layer | Selected core release only; no full-data sync or persistent scientific archive | Optional on-demand queries where the configured service supports them |
-| iOS | Native shell and native interaction layer | Selected core release only; no full-data sync or persistent scientific archive | Same protocol as Android |
+Android and iOS retain Capacitor projects and their explicit platform adapters. Their release status and offline-data scope require separate native verification. Web work does not automatically produce or certify native installations.
 
-The independent adapter seam in `src/platform/frontendAdapters.ts` exposes the
-same v1 operations to Web, Android and iOS: capabilities, name search, one
-direct-child page, node detail and timeline scene cards. Each target gets its
-own adapter factory and the pure `FrontendClientState` reducer retains only
-fetched pages, the selected node and the current scene cards. This makes the
-three clients independently testable without materialising the full tree or
-copying scientific facts into platform code. The Web client must not become the
-accidental specification for native navigation or storage.
+Current scientific drafts are saved through the local embedded Turso service; see [local authoring](local-turso-authoring.md). File-based source content and the earlier database platform remain preserved migration/build inputs. There is no automatic publication of local drafts, and historical database publication proposals must not be described as deployed services.
 
-## Protocol seam
+## Deployment
 
-The Go service is the online adapter for the native clients and optional Web
-enrichment. The first contract is intentionally read-oriented:
-
-- `GET /v1/capabilities` returns `schemaVersion`, `apiVersion`,
-  `datasetVersion`, `appVersion`, supported `profiles`, `features` and the
-  service `baseUrl`.
-- `GET /v1/releases/current` returns the immutable release manifest and the
-  selected delivery profiles.
-- `GET /v1/entities/{id}`, `/children`, and `/evidence` return
-  `datasetVersion`, `entityId`, `parentId` where applicable, paginated `items`
-  and `nextCursor`.
-- `GET /v1/search/names` returns `records`, `totalMatches` and `nextCursor`.
-  Nomenclatural registry results must remain visibly distinct from Atlas
-  evidence dossiers; the Pages preview intentionally omits the registry.
-- `GET /v1/capabilities` advertises `treeIndex.representation:
-  "packed-adjacency"`, its resident node count, `paging: "offset-cursor"`,
-  `children: "direct-children"`, `windowed: true`, `releaseAlias`, and the
-  current `treeRoots` summaries. The current contract also declares
-  `rootCount`, the record and children endpoints, the default and maximum page
-  sizes, and the ordered compact `recordFields` list. The frontend rejects a
-  response that does not match this contract; it does not negotiate an older
-  tree format. The frontend uses this as the only launch contract for the
-  complete Catalogue tree.
-- The complete tree keeps only fetched direct-child pages and the expanded
-  path in application memory. It renders a fixed-height viewport window with
-  overscan, so a 2.4-million-node index remains fully addressable without
-  creating 2.4 million DOM nodes. Collapsing a branch releases its descendant
-  pages from the UI state.
-- `GET /v1/resources/{path}` supports byte-range download and resume with
-  `Accept-Ranges`, `Content-Range`, `ETag` and `If-Range`.
-- `GET /v1/sync/files` returns `path`, `profile`, `bytes`, `sha256`,
-  `mediaType`, `releaseVersion` and optional `deltaFrom` entries.
-- Native startup does not call full-release sync endpoints. The App keeps only
-  its selected core release; complete-release sync remains a server/operator
-  transfer capability and is not an App download path. Online queries are
-  separate, on-demand requests and do not persist full datasets in App storage.
-
-Every client should treat a release manifest and its hashes as the authority
-for offline data. A server response must not silently mix dataset versions;
-the client surfaces a mismatch before accepting a shared state or evidence
-result.
-
-## Scientific display boundary
-
-The Pages edition keeps the web preview paleotopography series and its 109
-source frames, but advertises the web-preview 0.3-degree sampling boundary.
-The native-core profile retains the selected 0.3-degree core payload. Neither
-delivery profile implies that a coarse preview is co-registered with the native grid or
-that a modelled reconstruction is a direct observation. CAO occurrence
-coordinates and PaleoDEM/model layers remain separate evidence types in every
-frontend.
+Vercel source upload contains only its allowlisted deployment configuration and verified-artifact unpacker. The pinned base and overlay are both required until a verified replacement artifact exists. GitHub Pages and the Wikipedia data branch are independent publication channels. See [deployment](vercel-deployment.md) and [repository structure](repository-structure.md).

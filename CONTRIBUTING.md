@@ -1,37 +1,31 @@
 # Contributing to Evo Atlas
 
-Evo Atlas accepts code, data, scientific corrections, translation and documentation contributions. The project is static-first: a contribution must remain usable on GitHub Pages without a private API, database, account system or runtime secret.
+Follow the [current project scope](docs/project-scope.md). The interactive application is on Vercel. GitHub Pages is an introduction, not a second application or reading collection.
 
-## Choose the right path
+## Choose a contribution
 
-- **Evidence correction:** open the Scientific evidence correction issue form. Include the entity or claim ID, dataset version, page URL, proposed correction and a source that directly supports it.
-- **Source, license or rights concern:** use the Data source or rights issue form. Do not attach material you are not allowed to redistribute.
-- **Scientific package work:** follow `DATA_PACKAGE_AUTHORING.md` and use the data-package pull request template.
-- **Code or accessibility work:** open a focused pull request with a short reproduction, implementation note and relevant tests.
-- **Translation work:** preserve scientific names and identifiers; do not translate uncertainty away.
+- Application changes: preserve map/time/tree state, keyboard and touch access, explicit loading and unknown states.
+- Wikipedia links: retain exact identity evidence, candidates, source versions and manifest integrity. Do not request or publish summaries.
+- Fossil maps: retain recorded IDs, age intervals, classification source and exact reconstruction model/frame. Never substitute modern coordinates for missing reconstructed positions.
+- Scientific drafts: use [local Turso authoring](docs/local-turso-authoring.md), the [node standard](docs/node-presentation-standard.md) and [template](docs/templates/node-presentation.md). Draft acceptance does not publish prose.
+- Source or rights corrections: provide the affected identifier, source version, page or record, correction and supporting source. Do not attach material without redistribution rights.
 
-## Local checks
+## Checks
 
-Use Node.js 22 and install the three Playwright engines:
+Use Node.js 22, `rtk npm ci`, then the checks matching the change:
 
-```bash
-npm ci
-npx playwright install chromium firefox webkit
-npm run verify
-```
+~~~powershell
+rtk npm run typecheck
+rtk npm test
+rtk npm run verify:pages
+~~~
 
-`verify:web` checks the interactive client and scientific data. Routine CI runs one Linux job for backend tests, types, Web verification and the Chromium Pages reader flows. The Web suite retains short Firefox and Safari smoke tests. `verify:pages` remains available for a full three-browser reading-edition check. Android and iOS packaging checks run manually through their workflow dispatch controls when preparing a native release. Native tests cover the selected core bundle; full catalogue and offline SQL payloads are excluded from that edition. Passing browser checks alone does not certify native behavior. Generated registry projections must be produced by `npm run data:registry:build`; do not hand-edit files listed in `data/registry/generated-files.json`.
+`verify:pages` checks the independent introduction and its real browser flows. `verify:web` checks the full interactive client and existing frozen data; it does not publish Turso drafts. `test:authoring` retains importer replay checks. Native workflows are manual and need native validation; passing Web checks is not native acceptance.
 
-`npm test` covers runtime behavior and the core projection, integrity and build helpers used in releases. Run `npm run test:authoring` when changing source importers, crosswalk generators or their recorded datasets; it replays the separate scientific authoring checks. Full data validation remains in routine CI. Do not add tests for unavailable editions or duplicate an existing end-to-end flow for each browser or data partition.
+Historical reader tests and reports live in `archive/` and are excluded from routine checks and site output. Existing data and content files still used by generators remain dependencies; do not delete them based only on a retired navigation entry. Preserve original source bytes and hashes. Never overwrite another contributor's work.
 
-## Scientific integrity
+## Publication
 
-Node pages, cards, map bubbles and reading windows must follow the [node production standard](docs/node-presentation-standard.md). Use the [drafting template](docs/templates/node-presentation.md) for each node, then write the result into its existing canonical files according to [content storage](docs/content-storage.md). The standard defines shared content, type-specific reading sequences, source-backed map/tree actions and practical completion checks; it does not introduce a review-state system.
+Follow [upload boundaries](docs/project-scope.md) and [Vercel deployment](docs/vercel-deployment.md). Only `dist-pages/` enters Pages. Vercel source upload is constrained by `.vercelignore`; runtime archives must be verified and bound to the actual source revision. Do not publish local databases, credentials, logs, research workspaces or the repository archive.
 
-Keep scientific claims linked to their sources and retain sampling limits, competing interpretations and uncertainty. Validation checks content structure, identifiers, translations and links.
-
-Prefer a small, well-sourced vertical slice over broad generated coverage. Do not add AI-written scientific summaries unless every visible scientific statement maps to an appropriate claim and reference.
-
-## Pull requests
-
-Keep changes reviewable and explain any change to interpretation, provenance, licensing or public URLs. Update the dataset version when canonical scientific data changes and update the app version for a public application release. Never overwrite another contributor's unrelated work.
+This reorganization does not remove old GitHub Releases or Vercel deployments. Remote cleanup beyond current Git files and website delivery needs separate authorization.

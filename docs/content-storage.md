@@ -1,17 +1,23 @@
 # Content storage and authoring
 
+Current entry: [local Turso authoring](local-turso-authoring.md). The file
+contracts below describe retained import/build inputs and historical source
+bindings. New drafts use the controlled local service. Original node prose,
+topics and guided reading are paused publicly; a file projection is not a
+publication instruction. Current delivery is defined in [project scope](project-scope.md).
+
 Before writing reader prose or its derived cards and bubbles, use the
 [node production standard](node-presentation-standard.md) and its
 [drafting template](templates/node-presentation.md). They define scientific
 and product reading requirements; this document defines canonical storage.
 
-The [page dependency database model](page-dependency-model.md) defines the
+The [page dependency database model](../archive/docs/page-dependency-model.md) defines the
 target database authority, immutable aggregates, source policies and release
 closure after cutover. New scientific content will then be written through
 the authoring service, while Git retains code and schema. Until that verified
 cutover, the current file authority and bindings below remain in effect.
 
-The [local database authoring implementation](local-database-authoring.md)
+The [local database authoring implementation](../archive/docs/local-database-authoring.md)
 uses the same aggregate validator and reader projection as these files.
 New database drafts have no Git commit or generated delivery-path requirement;
 the historical file adapter remains available for migration.

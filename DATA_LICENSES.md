@@ -4,19 +4,19 @@ Flora of China descriptions retain Missouri Botanical Garden attribution and
 the retained WFO archive's CC BY 4.0 defaults. Original English text and exact
 source-reference citations are preserved as readable plain text, with parsed
 record locators. No images, PDFs, translations or replacement summaries are
-included. See [source boundaries and reproduction](docs/flora-china-descriptions.md)
+included. See [source boundaries and reproduction](archive/docs/flora-china-descriptions.md)
 and `data/sources/flora-china-descriptions-import-ledger.json`.
 
 Illustrated Flora of Turkey descriptions retain Resimli Türkiye Florası
 attribution under the archive's CC BY 4.0 declaration. Source Turkish text,
 names and authorship are retained; no missing paragraph citations, translations
-or image rights are inferred. See [source boundaries](docs/turkey-descriptions.md)
+or image rights are inferred. See [source boundaries](archive/docs/turkey-descriptions.md)
 and `data/sources/turkey-descriptions-import-ledger.json`.
 
 Brazilian Flora 2020 extracted descriptions retain Group Brazil Flora, REFLORA
 Program attribution under CC BY 4.0. Morphology uses exact source-reference
 links; source-less habit and habitat fields use dataset-level attribution only.
-See [the source boundaries](docs/brazil-flora-descriptions.md) and
+See [the source boundaries](archive/docs/brazil-flora-descriptions.md) and
 `data/sources/brazil-flora-descriptions-import-ledger.json`. Linked images and
 publications are not licensed by inference.
 
@@ -38,7 +38,7 @@ Flora of Pakistan descriptions retain Missouri Botanical Garden attribution and
 the source archive's CC BY 4.0 defaults for description and reference fields.
 All 2,657 selected records have matched citations and original row locators.
 HTML is converted to plain text; original source fields remain independently
-retained. See [Pakistan scope](docs/pakistan-descriptions.md).
+retained. See [Pakistan scope](archive/docs/pakistan-descriptions.md).
 
 Moss Flora of Central America excerpts retain Missouri Botanical Garden rights
 and the archive's explicit CC BY 4.0 defaults for descriptions and references.
@@ -51,20 +51,20 @@ CC BY 4.0 licenses for 8,021 morphology/habitat passages covering 4,156 uniquely
 linked accepted species. Text is preserved exactly; language is undeclared.
 Nineteen passages lack a bibliographic citation in the archive and explicitly
 retain that missing status alongside archive attribution and row locators.
-See [FDAC scope and provenance](docs/fdac-descriptions.md).
+See [FDAC scope and provenance](archive/docs/fdac-descriptions.md).
 
 Flora Mesoamericana excerpts retain Missouri Botanical Garden attribution and
 all linked publication citations under explicit CC BY 4.0 source-row licenses.
 Original Spanish/English text is converted from HTML to plain text. The archive
 contains truncated entries; no missing text is reconstructed. See
-[Mesoamericana scope and transformations](docs/meso-descriptions.md).
+[Mesoamericana scope and transformations](archive/docs/meso-descriptions.md).
 
 The Flora of Australia description extract retains 129 paragraphs for 46
 accepted COL26.8 species under each source row's explicit CC BY 4.0 license.
 Preserve Commonwealth of Australia rights-holder years, ABRS attribution,
 publication citations and row locators. Markup is removed for plain-text
 display; this regional historical extract is not a current global assessment.
-See [Flora of Australia source scope](docs/foa-descriptions.md).
+See [Flora of Australia source scope](archive/docs/foa-descriptions.md).
 
 The SANBI biological-description projection preserves source text from
 *e-Flora of South Africa* v1.36 (2022-06-06), whose embedded archive metadata
@@ -82,7 +82,7 @@ no license version is inferred. API version `7.2` and embedded version `Jun 2026
 are retained separately. The derived projection preserves names, authorship,
 raw status, references and table locators; unique matches are not source
 acceptance or species-concept equivalence. COL26.8 inputs remain CC BY 4.0.
-See [Systema Dipterorum provenance](docs/systema-dipterorum-archive.md).
+See [Systema Dipterorum provenance](archive/docs/systema-dipterorum-archive.md).
 
 RC144 retains the Mammal Diversity Database (ChecklistBank 9802, version 2.1)
 and IOC World Bird List (ChecklistBank 2036, version 15.2) pinned archives and
@@ -93,8 +93,8 @@ source identifiers, attribution and row locators, including unmatched and
 separate null-COL source-only outcomes. MDD DOI `10.48580/dfp2`, IOC
 ChecklistBank version DOI `10.48580/d4g8.v168`, and IOC archive DOI
 `https://doi.org/10.14344/IOC.ML.15.2` identify separate source metadata.
-See [MDD provenance](docs/mdd-9802-archive.md) and
-[IOC provenance](docs/ioc-2036-archive.md) for original bytes and limitations.
+See [MDD provenance](archive/docs/mdd-9802-archive.md) and
+[IOC provenance](archive/docs/ioc-2036-archive.md) for original bytes and limitations.
 
 RC143 retains the World Spider Catalog archive from ChecklistBank dataset
 56185, import attempt 80, attributed to Natural History Museum Bern (2026).
@@ -104,7 +104,7 @@ embedded DOI `10.24436/2`, whose version field is blank. Original bytes,
 references, distribution statements and locators remain attributed to WSC;
 COL26.8 fields retain CC BY 4.0 attribution. The derived exact-name crosswalk
 adds matching outcomes without claiming provider endorsement or species-concept
-equivalence. See [WSC archive scope and checksums](docs/wsc-56185-archive.md).
+equivalence. See [WSC archive scope and checksums](archive/docs/wsc-56185-archive.md).
 
 RC136 retains the exact successful ChecklistBank archives and API metadata for
 *World List of Chaetognatha* (1132, attempt 85, version DOI
@@ -127,7 +127,7 @@ normalized CC BY 4.0 identifier and URL while preserving the raw evidence.
 The committed archives, metadata, member hashes and source-row locators are
 redistributed with separate COL26.8 attribution. They are frozen
 nomenclatural crosswalks, not expert endorsement, species-concept identity or
-biological dossiers. See [scope, boundaries and reproduction](docs/original-sources-rc131.md).
+biological dossiers. See [scope, boundaries and reproduction](archive/docs/original-sources-rc131.md).
 
 RC122 retains the official ChecklistBank archives and metadata for *World List
 of Marine Oligochaeta* (1099, version DOI `10.48580/d3bx.v85`) and *World
@@ -138,7 +138,7 @@ committed metadata preserves the providers' actual
 citations, editors and contributors, and the archives preserve their original
 tables. Referenced publications, linked pages and remote media are not
 redistributed. Derived rows retain separate COL26.8 attribution. See
-[scope, boundaries and reproduction](docs/original-sources-rc122.md).
+[scope, boundaries and reproduction](archive/docs/original-sources-rc122.md).
 
 RC121 retains the official ChecklistBank archives and metadata for *World List
 of Thaliacea* (1185, version DOI `10.48580/d3fw.v87`) and *World List of
@@ -168,17 +168,17 @@ DOI `10.48580/d3bg.v89`) and World Gastrotricha Database (1122, DOI
 version. Source attribution
 and complete original citation metadata remain in the archives. Derived rows
 also retain COL26.8 attribution. Referenced articles and linked media are not
-redistributed. See [scope, source links and reproduction](docs/original-sources-rc119.md).
+redistributed. See [scope, source links and reproduction](archive/docs/original-sources-rc119.md).
 
 RC118 retains the original Ascidiacea (1186), Turbellaria (1193) and Rotifer
 World Catalogue (298081) archives and metadata. Turbellaria's API `cc by`/DOI
 fields and archive-embedded `CC-BY`/`doi: null` fields are retained separately
 without inferring a license version. Source-specific pinned
 hashes, dates, attribution and evidence boundaries are documented in
-[the source note](docs/original-sources-rc118.md). These are original-source
+[the source note](archive/docs/original-sources-rc118.md). These are original-source
 projections, not independent expert corroboration or globally new species.
 
-RC117 retains the original September 1, 2026 WoRMS ColDP archives for *World List of Bryozoa* (ChecklistBank 1081, DOI `10.48580/d3bb.v89`), *World List of Monogenea* (1126, DOI `10.48580/d3cv.v86`) and *World List of Trematoda* (1128, DOI `10.48580/d3cx.v86`), under CC BY 4.0. The source metadata and `metadata.yml` retain the original editors, contributors and attribution. Exact archive/member hashes and projected reference metadata are retained in `data/sources/`; referenced publications, linked web pages and remote media are not copied. Derived rows retain the separate COL26.8 attribution (DOI `10.48580/dgywk`, CC BY 4.0). Neither matching nor redistribution implies provider endorsement or independent scientific corroboration. See [scope and reproduction](docs/worms-original-sources-rc117.md).
+RC117 retains the original September 1, 2026 WoRMS ColDP archives for *World List of Bryozoa* (ChecklistBank 1081, DOI `10.48580/d3bb.v89`), *World List of Monogenea* (1126, DOI `10.48580/d3cv.v86`) and *World List of Trematoda* (1128, DOI `10.48580/d3cx.v86`), under CC BY 4.0. The source metadata and `metadata.yml` retain the original editors, contributors and attribution. Exact archive/member hashes and projected reference metadata are retained in `data/sources/`; referenced publications, linked web pages and remote media are not copied. Derived rows retain the separate COL26.8 attribution (DOI `10.48580/dgywk`, CC BY 4.0). Neither matching nor redistribution implies provider endorsement or independent scientific corroboration. See [scope and reproduction](archive/docs/worms-original-sources-rc117.md).
 
 RC116 also retains the small set of official ChecklistBank COL26.8 name records,
 contributor-source relations and source name responses needed for 40 corrected
@@ -191,17 +191,17 @@ existing CC0 ITIS projection; their supporting COL response bytes remain CC BY
 and `data/sources/cilcat-1113-source-relations*`. No linked web pages or cited
 publications are copied.
 
-The Reptile Database projections retain ChecklistBank dataset `1008`, version `2026-06`, issued `2026-06-24`, attributed to Peter Uetz and Jiří Hošek. Both metadata layers declare raw `cc by`, preserved without inferring a license version or URL. API DOI `10.48580/d37s` and the archive-only version DOI `10.48580/d37s.v31` are retained separately. The frozen archive/member hashes and minimal exact-name-plus-authorship projections are recorded in the two `reptiledb-*-1008-import-ledger.json` files under `data/sources/`. COL26.8 identifiers and names retain separate COL CC BY 4.0 attribution (DOI `10.48580/dgywk`). Reference identifiers and source-row locators do not redistribute the referenced publications, linked websites or media, and do not imply provider endorsement or independent corroboration. See [Reptile Database source scope](docs/reptiledb-original-source-rc134.md).
+The Reptile Database projections retain ChecklistBank dataset `1008`, version `2026-06`, issued `2026-06-24`, attributed to Peter Uetz and Jiří Hošek. Both metadata layers declare raw `cc by`, preserved without inferring a license version or URL. API DOI `10.48580/d37s` and the archive-only version DOI `10.48580/d37s.v31` are retained separately. The frozen archive/member hashes and minimal exact-name-plus-authorship projections are recorded in the two `reptiledb-*-1008-import-ledger.json` files under `data/sources/`. COL26.8 identifiers and names retain separate COL CC BY 4.0 attribution (DOI `10.48580/dgywk`). Reference identifiers and source-row locators do not redistribute the referenced publications, linked websites or media, and do not imply provider endorsement or independent corroboration. See [Reptile Database source scope](archive/docs/reptiledb-original-source-rc134.md).
 
 The MIT license in `LICENSE` applies to software only. It does not relicense third-party scientific data, publications, names, institutional pages or media.
 
-The RC115 original-source archives are separately attributed: Aescht, E. (2012), *The World Ciliate Catalog*, version 4.0, Jan 2012 ([10.48580/d3cf.v11](https://doi.org/10.48580/d3cf.v11)), and Lado, C. & Hernández-Crespo, J. C. (2024), *Nomenclatural Database of Eumycetozoa (Myxomycota)*, May 2024 ([10.48580/d39c.v28](https://doi.org/10.48580/d39c.v28)), under CC BY 4.0; Thessen, A. (2017), *The dinoflagellate genus Gymnodinium checklist*, version 0.1 ([10.48580/d3fm.v8](https://doi.org/10.48580/d3fm.v8)), is CC0. These three frozen archives are committed under `data/sources/archives/`; their source-specific import ledgers pin the actual bytes. The derived projections retain COL26.8 identifiers and attribution (CC BY 4.0, DOI `10.48580/dgywk`) separately from each source's licence. Original nomenclatural reference metadata is retained, not the referenced publications or linked website contents. None asserts provider endorsement, independent scientific corroboration or species-concept equivalence. See [CilCat](docs/cilcat-1113-archive.md), [Eumycetozoa](docs/eumycetozoa-archive.md) and [Gymnodinium](docs/gymnodinium-archive.md).
+The RC115 original-source archives are separately attributed: Aescht, E. (2012), *The World Ciliate Catalog*, version 4.0, Jan 2012 ([10.48580/d3cf.v11](https://doi.org/10.48580/d3cf.v11)), and Lado, C. & Hernández-Crespo, J. C. (2024), *Nomenclatural Database of Eumycetozoa (Myxomycota)*, May 2024 ([10.48580/d39c.v28](https://doi.org/10.48580/d39c.v28)), under CC BY 4.0; Thessen, A. (2017), *The dinoflagellate genus Gymnodinium checklist*, version 0.1 ([10.48580/d3fm.v8](https://doi.org/10.48580/d3fm.v8)), is CC0. These three frozen archives are committed under `data/sources/archives/`; their source-specific import ledgers pin the actual bytes. The derived projections retain COL26.8 identifiers and attribution (CC BY 4.0, DOI `10.48580/dgywk`) separately from each source's licence. Original nomenclatural reference metadata is retained, not the referenced publications or linked website contents. None asserts provider endorsement, independent scientific corroboration or species-concept equivalence. See [CilCat](archive/docs/cilcat-1113-archive.md), [Eumycetozoa](archive/docs/eumycetozoa-archive.md) and [Gymnodinium](archive/docs/gymnodinium-archive.md).
 
-The rc105 archive crosswalks derive from WoRMS Editorial Board's official ChecklistBank dataset 2011 archive (2026-09-01, attempt 148, DOI `10.48580/d4fd.v148`) and Species File Group's Orthoptera Species File dataset 1021 archive (Sep 2026, attempt 56, DOI `10.48580/d388.v56`), both CC BY 4.0, together with COL26.8 (DOI `10.48580/dgywk`, CC BY 4.0). RC107 adds an independent Annelida projection and RC109 adds independent Nematoda and Crustacea projections from the same pinned WoRMS archive. Preserve those attributions and the source/member hashes in the import ledgers under `data/sources/`. Only minimal nomenclatural projections are redistributed, not raw archives, images, sound, distribution or bibliography. Download URLs are mutable; recorded hashes identify the retrieved bytes. See [original scope and provenance](docs/authority-archives-rc105.md), [Annelida scope](docs/worms-annelida-archive.md), [Nematoda scope](docs/worms-nematoda-archive.md) and [Crustacea scope](docs/worms-crustacea-archive.md).
+The rc105 archive crosswalks derive from WoRMS Editorial Board's official ChecklistBank dataset 2011 archive (2026-09-01, attempt 148, DOI `10.48580/d4fd.v148`) and Species File Group's Orthoptera Species File dataset 1021 archive (Sep 2026, attempt 56, DOI `10.48580/d388.v56`), both CC BY 4.0, together with COL26.8 (DOI `10.48580/dgywk`, CC BY 4.0). RC107 adds an independent Annelida projection and RC109 adds independent Nematoda and Crustacea projections from the same pinned WoRMS archive. Preserve those attributions and the source/member hashes in the import ledgers under `data/sources/`. Only minimal nomenclatural projections are redistributed, not raw archives, images, sound, distribution or bibliography. Download URLs are mutable; recorded hashes identify the retrieved bytes. See [original scope and provenance](archive/docs/authority-archives-rc105.md), [Annelida scope](archive/docs/worms-annelida-archive.md), [Nematoda scope](archive/docs/worms-nematoda-archive.md) and [Crustacea scope](archive/docs/worms-crustacea-archive.md).
 
-The RC128 small original-source projections derive from WoRMS via ChecklistBank datasets `1125` (*World List of Gnathostomulida*) and `1124` (*World List of Priapulida*), both version `2026-09-01`, archive attempt `87`, and API version DOIs `10.48580/d3ct.v87` and `10.48580/d3cs.v87` (concept DOIs `10.48580/d3ct` and `10.48580/d3cs`). The exact attempt-specific archive URLs, archive/member hashes, API metadata snapshots and embedded `metadata.yml` distinction are documented in [RC128 small original sources](docs/worms-small-original-sources-rc128.md) and the two import ledgers. API metadata declares raw `cc by`; the embedded archive metadata declares `CC-BY` with a null DOI field. The derived minimal identifier/evidence projections are attributed as CC BY 4.0. The 100 Gnathostomulida and 23 Priapulida COL26.8 records retain separate COL CC BY 4.0 attribution. No raw referenced publications, linked web pages or media are redistributed.
+The RC128 small original-source projections derive from WoRMS via ChecklistBank datasets `1125` (*World List of Gnathostomulida*) and `1124` (*World List of Priapulida*), both version `2026-09-01`, archive attempt `87`, and API version DOIs `10.48580/d3ct.v87` and `10.48580/d3cs.v87` (concept DOIs `10.48580/d3ct` and `10.48580/d3cs`). The exact attempt-specific archive URLs, archive/member hashes, API metadata snapshots and embedded `metadata.yml` distinction are documented in [RC128 small original sources](archive/docs/worms-small-original-sources-rc128.md) and the two import ledgers. API metadata declares raw `cc by`; the embedded archive metadata declares `CC-BY` with a null DOI field. The derived minimal identifier/evidence projections are attributed as CC BY 4.0. The 100 Gnathostomulida and 23 Priapulida COL26.8 records retain separate COL CC BY 4.0 attribution. No raw referenced publications, linked web pages or media are redistributed.
 
-The Nemys Nematoda 2302 projection derives from the frozen ChecklistBank dataset `2302`, *Nemys: World Database of Nematodes*, version `2026-09-01`. API metadata records ChecklistBank DOI `10.48580/d4rf`, version DOI `10.48580/d4rf.v78` and raw license `cc by`; the archive's `metadata.yml` separately records Nemys source DOI `10.14284/366` and raw license `CC-BY`. Both metadata layers are retained without inferring a license version. The explicit `Taxon.phylum=Nematoda` scope retains 20,810 accepted source rows, including 1,163 rows outside the separately audited Aphia-799 parent closure; those rows are not claimed as Aphia-799 closure members. The 19,604 COL26.8 rows retain separate COL CC BY 4.0 attribution. Archive/member hashes, source locators and the scope ledger are pinned under `data/sources/worms-nematoda2302-archive-2302-import-ledger.json`; referenced publications, linked web pages and remote media are not redistributed. See [Nematoda 2302 scope and reproduction](docs/nematoda-2302-archive.md).
+The Nemys Nematoda 2302 projection derives from the frozen ChecklistBank dataset `2302`, *Nemys: World Database of Nematodes*, version `2026-09-01`. API metadata records ChecklistBank DOI `10.48580/d4rf`, version DOI `10.48580/d4rf.v78` and raw license `cc by`; the archive's `metadata.yml` separately records Nemys source DOI `10.14284/366` and raw license `CC-BY`. Both metadata layers are retained without inferring a license version. The explicit `Taxon.phylum=Nematoda` scope retains 20,810 accepted source rows, including 1,163 rows outside the separately audited Aphia-799 parent closure; those rows are not claimed as Aphia-799 closure members. The 19,604 COL26.8 rows retain separate COL CC BY 4.0 attribution. Archive/member hashes, source locators and the scope ledger are pinned under `data/sources/worms-nematoda2302-archive-2302-import-ledger.json`; referenced publications, linked web pages and remote media are not redistributed. See [Nematoda 2302 scope and reproduction](archive/docs/nematoda-2302-archive.md).
 
 The rc73 ITIS Mammalia TSN sidecars (`data/packages/mammalia/{perissodactyla,cetartiodactyla,primates,carnivora,other-mammals}/nomenclature/`) derive from the official CC0 `itisSqlite082626` export dated 2026-08-26 (DOI `10.5066/F7KH0KBK`) and the COL26.8 hierarchy (DOI `10.48580/dgywk`). They retain 6,461 exact COL outcomes plus three separate null-COL ITIS-only current species in nine non-empty native files. Preserve fixed inputs, source/output checksums and the `mammal-origins` zero-record boundary; Pages publishes descriptors and hashes without authority rows, while Android and iOS include every non-empty partition byte-for-byte. These are nomenclatural crosswalks, not complete checklists, biological dossiers, expert reviews, phylogenies or final classifications.
 
@@ -237,7 +237,7 @@ The Picozoa authority boundary sidecar (`data/catalogue-of-life/releases/2026-08
 | WFO Plant List exact plant-name crosswalk | `data/sources/wfo-plant-list-2026-06.json`, `data/sources/wfo-plant-crosswalk-col26.8.json.br`, `data/sources/wfo-plant-sidecar-import-ledger.json`, `data/packages/plantae/*/nomenclature/` and the `other-plants/wfo-*` resource-pack extension shards | World Flora Online Plant List `2026-06`, issued 2026-06-21, version DOI `10.5281/zenodo.20782718` (concept DOI `10.5281/zenodo.7460141`), retrieved 2026-08-31 | CC0 1.0. The official 132,643,291-byte ColDP archive is not committed; its official MD5, local SHA-256 and every expanded member checksum are pinned in the source ledger. The derived sidecar preserves only exact, case- and diacritic-sensitive species-name/authorship links, explicit synonym redirects and unresolved partitions. It never uses fuzzy matching and does not imply that COL and WFO species concepts are equivalent. The 60,751 WFO-only accepted species remain a separate null-COL-ownership partition in Web/offline/ZIP/Android/iOS delivery. |
 | Bryonames identifier crosswalk | Retained `retained-evo-data/bryonames-20260908/` archive/evidence plus `data/catalogue-of-life/releases/2026-08-20/resource-packs/other-plants/bryonames-000.jsonl.gz` | Bryophyte Nomenclator (Bryonames), ChecklistBank dataset `170394`, 30 Aug 2026, DOI `10.48580/d8zmp` / version DOI `10.48580/d8zmp.v93`; COL26.8 source relations retrieved 2026-09-08 | CC BY 4.0. Preserve Missouri Botanical Garden / Bryonames attribution, the archive and relation-evidence SHA-256 values, and the exact source URLs. This is a minimal source name-usage identifier/status projection for 698 COL26.8 other-plants records; it does not redistribute linked publications, images or other third-party material, and it is not a complete Bryonames archive or a species-concept equivalence claim. |
 | Species Fungorum / Index Fungorum identifier sidecar for the Fungi resource pack | `data/sources/fungi-species-fungorum-*.json*` and `data/catalogue-of-life/releases/2026-08-20/resource-packs/fungi/index-fungorum-*` | All 157,044 accepted COL26.8 Fungi species are linked to stable source IDs from ChecklistBank Species Fungorum Plus dataset `2073` (Apr 2024, DOI `10.48580/d4hj`) or Microsporidia dataset `1148` (Nov 2015, DOI `10.48580/d3dm`), retrieved 2026-08-31. The official DwCA/API bytes, request URLs and SHA-256 values are pinned in the import ledger. | CC BY 4.0 as explicitly declared by both pinned ChecklistBank source datasets. Preserve Royal Botanic Gardens, Kew / Species Fungorum attribution, both dataset versions and DOI citations. This is a minimal identifier crosswalk; it does not use the live Index Fungorum site as a bulk-redistribution licence or copy live pages, bibliography, hosts, substrates, localities, descriptions, classifications, media or the complete live database. The 201 upstream-only accepted source records remain audit-only and are not presented as COL26.8 members. |
-| FishBase identifier crosswalk | `data/sources/fishbase-authority-crosswalk-col26.8.json.gz` and `data/catalogue-of-life/releases/2026-08-20/resource-packs/fish/` | COL26.8 FishBase source dataset `1010`, version `2026-08-01`, DOI `10.48580/d37v`; the pinned Catalogue of Life source endpoint was retrieved 2026-08-31. | The FishBase COLDP archive declares CC BY-NC 4.0 and is not bundled. The standalone derivative retains only source identifiers, stable Aphia links, COL name-usage fields, response hashes and attribution from the CC BY Catalogue of Life endpoint; it does not copy FishBase descriptions, references, distributions, media or other fields. This is a release-scoped identifier crosswalk, not a complete FishBase checklist or species-concept equivalence claim. See [FishBase sidecar scope](docs/fishbase-authority-sidecar.md). |
+| FishBase identifier crosswalk | `data/sources/fishbase-authority-crosswalk-col26.8.json.gz` and `data/catalogue-of-life/releases/2026-08-20/resource-packs/fish/` | COL26.8 FishBase source dataset `1010`, version `2026-08-01`, DOI `10.48580/d37v`; the pinned Catalogue of Life source endpoint was retrieved 2026-08-31. | The FishBase COLDP archive declares CC BY-NC 4.0 and is not bundled. The standalone derivative retains only source identifiers, stable Aphia links, COL name-usage fields, response hashes and attribution from the CC BY Catalogue of Life endpoint; it does not copy FishBase descriptions, references, distributions, media or other fields. This is a release-scoped identifier crosswalk, not a complete FishBase checklist or species-concept equivalence claim. See [FishBase sidecar scope](archive/docs/fishbase-authority-sidecar.md). |
 | ITIS Fungi TSN nomenclatural sidecar | `data/catalogue-of-life/releases/2026-08-20/resource-packs/fungi/itis-fungi-*` and `data/sources/itis-fungi-sidecar-import-ledger.json` | Official ITIS `itisSqlite082626` SQLite export dated 2026-08-26, DOI `10.5066/F7KH0KBK`, exact Fungi kingdom root TSN `555705`, and COL26.8 Fungi accepted species. | CC0 1.0 / public domain for ITIS-derived fields. This independent exact-name crosswalk never replaces the separate Index Fungorum source linkage. Pages publishes only summary metadata and canonical hashes; Android and iOS retain 57 native shards byte-for-byte. |
 | AviList v2025b Avibase concept sidecar for the Birds scope | `data/sources/avilist-v2025b*.json*` and `data/packages/archosauria/crocodylomorphs-birds/nomenclature/avilist-*` | Official AviList v2025b extended XLSX, published 2026-06-11 and retrieved 2026-08-31; DOI `10.2173/avilist.v2025b`. The source URL, byte count, SHA-256, ETag, Last-Modified, workbook structure and exact import rules are pinned. | CC BY 4.0. Attribute the AviList Core Team and preserve the release DOI. The derived crosswalk retains only minimal official taxonomic/nomenclatural fields and source-row locators; BirdLife/IUCN/Cornell fields, decision prose, ranges and bibliography are excluded. AvibaseID is an AviList concept identifier, not proof of COL concept equivalence, phylogeny, complete history or expert review. The 11,071 package records are 11,044 Aves plus 27 explicitly non-applicable Crocodylia. |
 | World Foraminifera Database identifier sidecar | `data/sources/foraminifera-wfd-*.json*` and `data/catalogue-of-life/releases/2026-08-20/resource-packs/protists-chromists/foraminifera-wfd-*` | World Foraminifera Database version `2026-08-01`, ChecklistBank source dataset `1157`, DOI `10.48580/d3dx.v88`, retrieved 2026-08-31. The canonical ledger pins the complete 86,094-nameusage pagination and all 47,975 COL source-record responses by request and SHA-256. | CC BY 4.0 as declared by the pinned ChecklistBank WFD dataset. Preserve WFD attribution, version DOI and specific source-record links. The five native shards contain minimal identifiers and nomenclatural fields for all 47,975 accepted COL26.8 Foraminifera species; they exclude raw responses, distributions, ecology, media, bibliography, fossils, phylogeny and dossiers. The 179 observed WFD accepted records without a COL source relationship are not claimed as a complete upstream-only inventory. Pages publishes descriptor and hashes only; Android and iOS contain the full five-shard projection. |
@@ -260,4 +260,4 @@ manifest. COL26.9 metadata declares raw `cc by`; source-specific declarations
 are not replaced with an inferred license version. The comparison distributes
 minimal nomenclatural before/after records and attribution, not source archives,
 media, referenced publications or species dossiers. See
-[comparison provenance and reproduction](docs/catalogue-release-comparison.md).
+[comparison provenance and reproduction](archive/docs/catalogue-release-comparison.md).
