@@ -11,6 +11,7 @@ test('publication removes retired output and stale frames while preserving curre
   write('dist/node-map/manifest.json', JSON.stringify({ members: { url: 'frames/current/members.json' }, frames: [
     { url: 'frames/current/frame.json' },
     { url: 'frames/current/logical-only.json', parts: [{ url: 'frames/current/part.json' }] },
+    { url: 'frames/current/empty-window.json', parts: [], recordCount: 0 },
   ] }))
   for (const path of ['members', 'frame', 'part']) write(`dist/node-map/frames/current/${path}.json`, path)
   write('dist/node-map/frames/old/frame.json', 'old')

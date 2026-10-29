@@ -34,7 +34,7 @@ export function enforcePublicationScope(directory) {
         keep.add(value.url)
         // Split frames/membership sets retain a logical aggregate URL/hash.
         // Only their parts are stored and fetched by the current client.
-        if (!Array.isArray(value.parts) || !value.parts.length) required.add(value.url)
+        if (!Array.isArray(value.parts)) required.add(value.url)
       }
       for (const child of Object.values(value)) references(child)
     }
