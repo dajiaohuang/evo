@@ -1,6 +1,6 @@
 import { createHash } from 'node:crypto'
-import { createWriteStream, existsSync, mkdirSync, readdirSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
-import { dirname, join } from 'node:path'
+import { createWriteStream, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, unlinkSync, writeFileSync } from 'node:fs'
+import { dirname, join, resolve, relative } from 'node:path'
 import { execFileSync } from 'node:child_process'
 import { Readable } from 'node:stream'
 import { pipeline } from 'node:stream/promises'
@@ -47,8 +47,35 @@ unlinkSync(archive)
 if (!existsSync(join(output, 'evo/index.html'))) throw new Error('The artifact has no application entry point')
 const runtime = JSON.parse(readFileSync(join(output, 'evo/data/current.json'), 'utf8'))
 const release = JSON.parse(readFileSync(join(output, 'evo/release.json'), 'utf8'))
-if (runtime.edition !== 'full-web' || runtime.datasetVersion !== artifact.datasetVersion || release.deploymentCommitSha !== artifact.sourceCommit) {
+if (runtime.edition !== 'full-web' || runtime.datasetVersion !== artifact.datasetVersion || release.deploymentCommitSha !== (artifact.baseSourceCommit ?? artifact.sourceCommit)) {
   throw new Error('The artifact edition, dataset or source commit does not match its descriptor')
+}
+if (artifact.overlay) {
+  const overlay = artifact.overlay
+  const url = new URL(overlay.url)
+  if (url.protocol !== 'https:' || url.hostname !== 'github.com' || !url.pathname.startsWith('/dajiaohuang/evo/releases/download/')
+    || !/^[a-f0-9]{64}$/.test(overlay.sha256) || !Number.isSafeInteger(overlay.bytes) || overlay.bytes <= 0 || overlay.bytes > 100 * 1024 * 1024) throw new Error('Invalid Wikipedia overlay descriptor')
+  const response = await fetch(url, { signal: AbortSignal.timeout(180000) })
+  if (!response.ok || !response.body) throw new Error('Wikipedia overlay download failed')
+  const digest = createHash('sha256')
+  let size = 0
+  const stream = Readable.fromWeb(response.body)
+  stream.on('data', chunk => { size += chunk.length; digest.update(chunk); if (size > overlay.bytes) stream.destroy(new Error('Overlay too large')) })
+  const path = '.vercel-wikipedia-overlay.tar.gz'
+  await pipeline(stream, createWriteStream(path))
+  if (size !== overlay.bytes || digest.digest('hex') !== overlay.sha256) throw new Error('Wikipedia overlay integrity mismatch')
+  const overlayEntries = execFileSync('tar', ['-tf', path], { encoding: 'utf8' }).trim().split('\n')
+  for (const entry of overlayEntries) if (!entry.startsWith('evo/') || entry.includes('\\') || entry.split('/').some(part => part === '..' || part.includes(':'))) throw new Error('Invalid Wikipedia overlay path')
+  const nodes = resolve(output, 'evo/nodes')
+  if (relative(resolve(output), nodes) !== join('evo', 'nodes')) throw new Error('Invalid node output path')
+  rmSync(nodes, { recursive: true, force: true })
+  execFileSync('tar', ['-xf', path, '-C', output, '--no-same-owner'], { stdio: 'inherit' })
+  unlinkSync(path)
+  entries.push(...overlayEntries)
+  const updated = JSON.parse(readFileSync(join(output, 'evo/release.json'), 'utf8'))
+  if (updated.deploymentCommitSha !== artifact.sourceCommit || updated.datasetVersion !== artifact.datasetVersion) throw new Error('Wikipedia overlay release mismatch')
+  const mappingBytes = readFileSync(join(output, 'evo/wikipedia/mapping.json'))
+  if (createHash('sha256').update(mappingBytes).digest('hex') !== overlay.mappingSha256) throw new Error('Wikipedia link table mismatch')
 }
 if (artifact.fullReading) {
   const bytes = readFileSync(join(output, 'evo/nodes/manifest.json'))
@@ -72,7 +99,7 @@ const hostname = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL
 if (hostname) {
   const oldOrigin = 'https://dajiaohuang.github.io/evo'
   const newOrigin = `https://${hostname}/evo`
-  const documents = entries.filter(entry => /\.(?:html|xml|txt)$/.test(entry) && !entry.startsWith('evo/data/'))
+  const documents = [...new Set(entries)].filter(entry => /\.(?:html|xml|txt)$/.test(entry) && !entry.startsWith('evo/data/') && existsSync(join(output, entry)))
   for (const entry of documents) {
     const file = join(output, entry)
     const original = readFileSync(file, 'utf8')

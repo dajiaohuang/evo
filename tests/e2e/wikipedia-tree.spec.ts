@@ -25,7 +25,11 @@ test('old interactive and static node readers are paused', async ({ page }) => {
   await page.goto('./nodes/?id=anything')
   await expect(page.getByRole('heading', { name: '节点页面暂时下线' })).toBeVisible()
   const response = await page.request.get('./nodes/data/0000.json.gz')
-  expect(response.status()).toBe(404)
+  // Vite preview returns its HTML fallback for absent files; Vercel returns 404.
+  expect([200, 404]).toContain(response.status())
+  const bytes = await response.body()
+  expect(bytes.subarray(0, 2).equals(Buffer.from([0x1f, 0x8b]))).toBe(false)
+  expect(response.headers()['content-type']).not.toMatch(/gzip|octet-stream/)
 })
 
 test('Wikipedia modal fits a phone viewport', async ({ page }) => {
