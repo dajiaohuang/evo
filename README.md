@@ -1,3 +1,3 @@
-# Evo Atlas Wikipedia snapshots
+# Evo Atlas Wikipedia links
 
-Generated public data for the COL26.8 tree. Article excerpts are attributed to their source Wikipedia pages and license in each record. Historical content-addressed shards are retained. The manifest reports coverage and pending nodes.
+Generated public link data for the COL26.8 tree. Candidate links are marked as unconfirmed. Historical content-addressed shards are retained; the manifest reports coverage and pending nodes.
