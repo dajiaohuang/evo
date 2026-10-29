@@ -104,6 +104,19 @@ if (artifact.nodePages) {
     || JSON.parse(bytes).status !== 'paused') throw new Error('Node-page retirement receipt mismatch')
 }
 
+// Retired topic URLs must not expose the original article even if a host
+// normalizes a trailing slash before applying the redirect rules.
+const topicNotice = '<!doctype html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>专题暂时下线 — Evo Atlas</title></head><body><main><h1>专题暂时下线 / Topics are temporarily offline</h1><a href="/evo/">返回古地图 / Return to the map</a></main></body></html>'
+function withdrawTopicDocuments(directory) {
+  if (!existsSync(directory)) return
+  for (const entry of readdirSync(directory, { withFileTypes: true })) {
+    const file = join(directory, entry.name)
+    if (entry.isDirectory()) withdrawTopicDocuments(file)
+    else if (entry.isFile() && entry.name.endsWith('.html')) writeFileSync(file, topicNotice)
+  }
+}
+for (const path of ['stories', 'read', 'zh/stories', 'zh/read']) withdrawTopicDocuments(join(output, 'evo', path))
+
 // Static document metadata should identify the host that serves this artifact.
 // Scientific runtime payloads retain their original bytes and checksums.
 const hostname = process.env.VERCEL_PROJECT_PRODUCTION_URL || process.env.VERCEL_URL
