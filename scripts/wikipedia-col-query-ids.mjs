@@ -8,6 +8,8 @@ const db = new DatabaseSync(resolve('.git/evo-wikipedia-col26-8/inventory.sqlite
 db.exec(`PRAGMA busy_timeout=15000;
   CREATE TABLE IF NOT EXISTS col_id_lookups (id TEXT PRIMARY KEY, status TEXT NOT NULL DEFAULT 'pending', checked_at TEXT);
   CREATE INDEX IF NOT EXISTS col_id_lookups_status ON col_id_lookups(status);`)
+const blockedUntil = db.prepare("SELECT value FROM meta WHERE key='wikidata_not_before'").get()?.value
+if (blockedUntil && Date.parse(blockedUntil) > Date.now()) throw new Error(`Wikidata rate limit active until ${blockedUntil}; batch remains pending`)
 const initialized = db.prepare("SELECT value FROM meta WHERE key='col_id_lookups_initialized'").get()?.value === 'true'
 if (!initialized) {
   db.exec("BEGIN IMMEDIATE; INSERT OR IGNORE INTO col_id_lookups(id) SELECT id FROM nodes; INSERT OR REPLACE INTO meta(key,value) VALUES('col_id_lookups_initialized','true'); COMMIT")
@@ -32,7 +34,15 @@ for (; batches < limit; batches++) {
   if (delay) await new Promise(resolve => setTimeout(resolve, delay))
   lastStart = Date.now()
   const response = await fetch('https://query.wikidata.org/sparql', { method: 'POST', body: new URLSearchParams({ format: 'json', query }), signal: AbortSignal.timeout(65000), headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)' } })
-  if (!response.ok) throw new Error(`Wikidata HTTP ${response.status}; batch remains pending`)
+  if (!response.ok) {
+    const retryAfter = Number(response.headers.get('retry-after'))
+    if (retryAfter > 0) {
+      const until = new Date(Date.now() + retryAfter * 1000).toISOString()
+      db.prepare("INSERT OR REPLACE INTO meta(key,value) VALUES('wikidata_not_before',?)").run(until)
+      throw new Error(`Wikidata HTTP ${response.status}, retry after ${until}; batch remains pending`)
+    }
+    throw new Error(`Wikidata HTTP ${response.status}; batch remains pending`)
+  }
   let data
   try { data = await response.json() } catch (error) {
     if (requestSize <= 250) throw error

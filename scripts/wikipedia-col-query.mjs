@@ -4,6 +4,8 @@ import { resolve } from 'node:path'
 
 const db = new DatabaseSync(resolve('.git/evo-wikipedia-col26-8/inventory.sqlite'))
 db.exec('PRAGMA busy_timeout=15000')
+const blockedUntil = db.prepare("SELECT value FROM meta WHERE key='wikidata_not_before'").get()?.value
+if (blockedUntil && Date.parse(blockedUntil) > Date.now()) throw new Error(`Wikidata rate limit active until ${blockedUntil}; batch remains pending`)
 assert.equal(db.prepare("SELECT value FROM meta WHERE key='inventory_complete'").get()?.value, 'true', 'Complete the frozen inventory first')
 db.exec('CREATE INDEX IF NOT EXISTS names_status ON names(status)')
 const index = process.argv.indexOf('--batches')
@@ -33,7 +35,11 @@ for (; requests < limit; requests++) {
     })
     if (response.ok || ![429, 500, 502, 503, 504].includes(response.status) || attempt === 3) break
     const retryAfter = Number(response.headers.get('retry-after'))
-    if (retryAfter > 30) throw new Error(`Wikidata requested retry after ${retryAfter}s; batch remains pending`)
+    if (retryAfter > 30) {
+      const until = new Date(Date.now() + retryAfter * 1000).toISOString()
+      db.prepare("INSERT OR REPLACE INTO meta(key,value) VALUES('wikidata_not_before',?)").run(until)
+      throw new Error(`Wikidata requested retry after ${retryAfter}s, until ${until}; batch remains pending`)
+    }
     const waitMs = Math.min(30000, Math.max(5000 * 2 ** attempt, Number.isFinite(retryAfter) ? retryAfter * 1000 : 0))
     console.warn(`Wikidata HTTP ${response.status}; retrying pending batch in ${waitMs / 1000}s`)
     await response.body?.cancel()
