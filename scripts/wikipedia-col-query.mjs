@@ -14,10 +14,13 @@ assert.ok(Number.isInteger(limit) && limit >= 1 && limit <= 1000)
 const sizeIndex = process.argv.indexOf('--batch-size')
 const batchSize = sizeIndex >= 0 ? Number(process.argv[sizeIndex + 1]) : 200
 assert.ok(Number.isInteger(batchSize) && batchSize >= 1 && batchSize <= 5000)
-const next = db.prepare("SELECT name FROM names WHERE status='pending' ORDER BY rowid LIMIT ?")
+const synonymMode = process.argv.includes('--synonyms')
+const table = synonymMode ? 'synonym_wikidata_lookup' : 'names'
+if (synonymMode) assert.ok(db.prepare("SELECT value FROM meta WHERE key='synonym_wikidata_source_sha256'").get()?.value, 'Build synonym Wikidata inventory first')
+const next = db.prepare(`SELECT name FROM ${table} WHERE status='pending' ORDER BY rowid LIMIT ?`)
 const titleIndexReady = db.prepare("SELECT value FROM meta WHERE key='en_titles_complete'").get()?.value === 'true'
-const preferred = titleIndexReady ? db.prepare("SELECT n.name FROM names n JOIN exact_english_titles t ON t.name=n.name WHERE n.status='pending' LIMIT ?") : null
-const update = db.prepare("UPDATE names SET status='queried', candidates_json=?, checked_at=? WHERE name=? AND status='pending'")
+const preferred = !synonymMode && titleIndexReady ? db.prepare("SELECT n.name FROM names n JOIN exact_english_titles t ON t.name=n.name WHERE n.status='pending' LIMIT ?") : null
+const update = db.prepare(`UPDATE ${table} SET status='queried', candidates_json=?, checked_at=? WHERE name=? AND status='pending'`)
 let requests = 0, checked = 0, lastStart = 0, requestSize = batchSize, successfulBatches = 0
 for (; requests < limit; requests++) {
   let names = preferred?.all(requestSize).map(row => row.name) ?? []
@@ -95,8 +98,8 @@ for (; requests < limit; requests++) {
     requestSize = Math.min(batchSize, requestSize * 2)
     successfulBatches = 0
   }
-  if ((requests + 1) % 10 === 0) console.log(JSON.stringify({ batches: requests + 1, checked, remaining: db.prepare("SELECT COUNT(*) AS n FROM names WHERE status='pending'").get().n }))
+  if ((requests + 1) % 10 === 0) console.log(JSON.stringify({ mode: synonymMode ? 'synonyms' : 'names', batches: requests + 1, checked, remaining: db.prepare(`SELECT COUNT(*) AS n FROM ${table} WHERE status='pending'`).get().n }))
 }
-const counts = db.prepare('SELECT status,COUNT(*) AS n FROM names GROUP BY status').all()
+const counts = db.prepare(`SELECT status,COUNT(*) AS n FROM ${table} GROUP BY status`).all()
 db.close()
 console.log(JSON.stringify({ status: 'checkpoint', batches: requests, checked, counts }))

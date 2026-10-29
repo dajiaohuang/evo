@@ -11,6 +11,11 @@ for (const [locale, sha] of [...Object.entries(manifest.titleIndexSources ?? {})
   assert.match(locale, /^[a-z0-9-]+$/)
   assert.match(sha, /^[a-f0-9]{64}$/)
 }
+if (manifest.synonymWikidata) {
+  assert.match(manifest.synonymWikidata.sourceSha256, /^[a-f0-9]{64}$/)
+  assert.ok(Number.isSafeInteger(manifest.synonymWikidata.queriedNames) && manifest.synonymWikidata.queriedNames >= 0)
+  assert.ok(Number.isSafeInteger(manifest.synonymWikidata.pendingNames) && manifest.synonymWikidata.pendingNames >= 0)
+}
 assert.equal(Object.keys(manifest.shards).length, 256)
 let total = 0, abstracts = 0, pendingCandidates = 0
 const count = {}

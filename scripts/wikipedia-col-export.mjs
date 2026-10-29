@@ -5,6 +5,7 @@ import { join, resolve, relative, isAbsolute, sep } from 'node:path'
 import { DatabaseSync } from 'node:sqlite'
 import { gunzipSync, gzipSync } from 'node:zlib'
 import { classify } from './wikipedia-col-identity.mjs'
+import { preferredUrls, synonymWikidataOptions as buildSynonymWikidataOptions } from './wikipedia-col-synonym-options.mjs'
 
 const root = resolve('data/catalogue-of-life/releases/2026-08-20/registry')
 const manifestBytes = readFileSync(join(root, 'manifest.json'))
@@ -40,6 +41,12 @@ const titleIndexSources = Object.fromEntries(['en', ...alternateLocales].map(loc
   db.prepare('SELECT value FROM meta WHERE key=?').get(locale === 'en' ? 'en_titles_sha256' : `alternate_titles_${locale}_sha256`)?.value]).filter(([, value]) => value))
 const normalizedLocales = db.prepare("SELECT key FROM meta WHERE key LIKE 'normalized_titles_%' AND value='true'").all().map(row => row.key.match(/^normalized_titles_([a-z0-9-]+)_complete$/)?.[1]).filter(Boolean).sort()
 const normalizedTitleSources = Object.fromEntries(normalizedLocales.map(locale => [locale, db.prepare('SELECT value FROM meta WHERE key=?').get(`normalized_titles_${locale}_source`)?.value]))
+const synonymWikidataSource = db.prepare("SELECT value FROM meta WHERE key='synonym_wikidata_source_sha256'").get()?.value
+const synonymWikidataCounts = synonymWikidataSource ? db.prepare('SELECT status,COUNT(*) n FROM synonym_wikidata_lookup GROUP BY status').all() : []
+const synonymWikidata = synonymWikidataSource ? { sourceSha256: synonymWikidataSource,
+  queriedNames: synonymWikidataCounts.find(row => row.status === 'queried')?.n ?? 0,
+  pendingNames: synonymWikidataCounts.find(row => row.status === 'pending')?.n ?? 0 } : undefined
+const synonymWikidataRows = synonymWikidataSource ? db.prepare("SELECT s.name,l.candidates_json FROM synonym_wikidata_targets u JOIN synonym_names s ON s.node_id=u.id JOIN synonym_wikidata_lookup l ON l.name=s.name WHERE u.id=? AND l.status='queried'") : null
 const normalizedLocaleSet = new Set(normalizedLocales)
 const normalizedNames = normalizedLocales.length ? db.prepare('SELECT locale,title FROM normalized_title_matches INDEXED BY normalized_title_matches_name WHERE name=?') : null
 const normalizedSynonyms = normalizedLocales.length ? db.prepare('SELECT DISTINCT t.locale,t.title FROM synonym_names s JOIN normalized_title_matches t INDEXED BY normalized_title_matches_name ON t.name=s.name WHERE s.node_id=?') : null
@@ -69,10 +76,9 @@ function uniqueOptions(options) {
   const seen = new Set()
   return options.filter(option => option?.url && !seen.has(option.url) && seen.add(option.url))
 }
-const preferredUrls = urls => [...urls].sort((a, b) => {
-  const rank = url => new URL(url).hostname === 'zh.wikipedia.org' ? 0 : new URL(url).hostname === 'en.wikipedia.org' ? 1 : 2
-  return rank(a) - rank(b) || a.localeCompare(b)
-})
+function synonymWikidataOptions(id) {
+  return buildSynonymWikidataOptions(synonymWikidataRows?.all(id) ?? [], value => !['identity-conflict', 'unavailable'].includes(article.get(value)?.status))
+}
 db.exec('BEGIN')
 const stats = { totalNodes: 0, queriedNodes: 0, pendingNodes: 0, matchedWithAbstract: 0,
   matchedAwaitingAbstract: 0, matchedWithoutSitelink: 0, candidatesWithAbstract: 0, candidatesAwaitingAbstract: 0, ambiguous: 0, unresolved: 0, pendingTitleCandidates: 0 }
@@ -93,7 +99,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
     const result = queryName.get(name)
     if (!result || result.status !== 'queried') {
       stats.pendingNodes++
-      const options = uniqueOptions([...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)])
+      const options = uniqueOptions([...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id), ...synonymWikidataOptions(row.id)])
       if (options.length) {
         entries[row.id] = { status: 'candidate', lookupPending: true, options }
         stats.pendingTitleCandidates++
@@ -114,7 +120,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
       : titleCandidateUrl && !['identity-conflict', 'unavailable'].includes(article.get(titleCandidateUrl)?.status) ? { item: `Wikipedia:${titleCandidate}`, parentNames: [], ranks: [],
         url: titleCandidateUrl, abstracts: [] } : null
     if (identity.status === 'unresolved') {
-      const options = uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)])
+      const options = uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id), ...synonymWikidataOptions(row.id)])
       if (options.length) {
         entries[row.id] = { status: 'candidate', options }
         stats.candidatesWithAbstract++
@@ -132,7 +138,7 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
         }
         return { item: candidate.item, parentNames: candidate.parentNames, ranks: candidate.ranks, url: abstracts[0]?.url ?? usable[0], abstracts }
       }).filter(option => option.url)
-      const allOptions = uniqueOptions([...options, fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)])
+      const allOptions = uniqueOptions([...options, fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id), ...synonymWikidataOptions(row.id)])
       if (allOptions.length) {
         entries[row.id] = { status: 'candidate', options: allOptions }
         if (allOptions.some(option => option.abstracts.length)) stats.candidatesWithAbstract++
@@ -146,8 +152,8 @@ for (const [index, source] of manifest.hierarchy.nodes.files.entries()) {
       if (fallbackOption && fallbackOption.item === identity.item) {
         entries[row.id] = { status: 'matched', item: identity.item, matchKind: identity.status, url: fallbackOption.url, abstracts: fallbackOption.abstracts }
         stats.matchedWithAbstract++
-      } else if (fallbackOption || synonymOptions(row.id).length || alternateOptions(name, row.id).length || normalizedOptions(name, row.id).length) {
-        entries[row.id] = { status: 'candidate', options: uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id)]) }
+      } else if (fallbackOption || synonymOptions(row.id).length || alternateOptions(name, row.id).length || normalizedOptions(name, row.id).length || synonymWikidataOptions(row.id).length) {
+        entries[row.id] = { status: 'candidate', options: uniqueOptions([fallbackOption, ...synonymOptions(row.id), ...alternateOptions(name, row.id), ...normalizedOptions(name, row.id), ...synonymWikidataOptions(row.id)]) }
         stats.candidatesWithAbstract++
       } else { entries[row.id] = { status: 'unresolved', item: identity.item, matchKind: identity.status }; stats.matchedWithoutSitelink++ }
       continue
@@ -192,6 +198,6 @@ stats.candidatesAwaitingAbstract += stats.candidatesWithAbstract
 stats.candidatesWithAbstract = 0
 db.exec('COMMIT')
 db.close()
-writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(), titleIndexSources, normalizedTitleSources,
+writeFileSync(join(out, 'manifest.json'), JSON.stringify({ schemaVersion: 1, releaseAlias: 'COL26.8', contentMode: 'links-only', generatedAt: new Date().toISOString(), titleIndexSources, normalizedTitleSources, synonymWikidata,
   registryManifestSha256: createHash('sha256').update(manifestBytes).digest('hex'), status: stats.pendingNodes ? 'partial' : 'queried', ...(part === null ? {} : { part, parts }), stats, shards }, null, 2) + '\n')
 console.log(JSON.stringify({ status: 'exported', out, stats }))

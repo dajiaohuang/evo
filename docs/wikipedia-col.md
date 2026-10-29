@@ -35,6 +35,10 @@ SQLite 检查点；网络错误留下待查询记录。按 COL ID 匹配或名�
 `titleIndexSources` 记录已完成语种的标题清单 SHA-256。
 对仍未链接的名称及异名，标准化比对去除大小写、重音和标点差异；
 命中只作为候选，并在 `normalizedTitleSources` 记录所用清单校验值。
+仍无链接的节点另用 `scripts/wikipedia-col-synonym-wikidata-inventory.mjs`
+建立异名清单；`scripts/wikipedia-col-query.mjs --synonyms` 查询实体与
+Wikipedia 站点链接，不请求正文。结果只作为异名候选，manifest 的
+`synonymWikidata` 报告已查询和待查询的异名数量。
 
 `scripts/wikipedia-col-export.mjs` 按节点 ID 的 SHA-256 首字节生成 256 个
 压缩分片和覆盖率 manifest；`scripts/verify-wikipedia-col-export.mjs` 校验
