@@ -58,7 +58,7 @@ for (const [prefix, file] of Object.entries(manifest.shards)) {
   if (existsSync(dest)) assert.equal(createHash('sha256').update(readFileSync(dest)).digest('hex'), file.sha256)
   else copyFileSync(join(source, file.path), dest)
 }
-writeFileSync(join(repo, 'README.md'), '# Evo Atlas Wikipedia snapshots\n\nGenerated public data for the COL26.8 tree. Article excerpts are attributed to their source Wikipedia pages and license in each record. Historical content-addressed shards are retained. The manifest reports coverage and pending nodes.\n')
+writeFileSync(join(repo, 'README.md'), '# Evo Atlas Wikipedia links\n\nGenerated public link data for the COL26.8 tree. Candidate links are marked as unconfirmed. Historical content-addressed shards are retained; the manifest reports coverage and pending nodes.\n')
 writeFileSync(join(repo, 'vercel.json'), JSON.stringify({ git: { deploymentEnabled: { 'evo-wikipedia-data': false } } }, null, 2) + '\n')
 writeFileSync(join(repo, 'manifest.json'), bytes)
 git('-C', repo, 'add', '--', '.')
