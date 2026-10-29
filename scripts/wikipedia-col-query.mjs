@@ -66,8 +66,8 @@ for (; requests < limit; requests++) {
   const records = new Map(names.map(name => [name, new Map()]))
   for (const result of data.results.bindings) {
     const name = result.name?.value, item = result.item?.value
-    if (!records.has(name) || !/^http:\/\/www\.wikidata\.org\/entity\/(?:Q\d+|L\d+-S\d+)$/.test(item)) throw new Error(`Unexpected Wikidata identity: ${JSON.stringify({ name, item, known: records.has(name) })}`)
-    if (/\/L\d+-S\d+$/.test(item)) continue
+    if (!records.has(name) || !/^http:\/\/www\.wikidata\.org\/entity\/(?:Q\d+|L\d+(?:-[SF]\d+)?)$/.test(item)) throw new Error(`Unexpected Wikidata identity: ${JSON.stringify({ name, item, known: records.has(name) })}`)
+    if (/\/L\d+(?:-[SF]\d+)?$/.test(item)) continue
     const group = records.get(name)
     if (!group.has(item)) group.set(item, { item: item.replace('http://', 'https://'), ranks: [], colIds: [], parentNames: [], articles: [] })
     const candidate = group.get(item)
