@@ -50,7 +50,9 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
   const latestInputTime = useRef(0)
   const projection = useMemo(() => createMapProjection(projectionId, camera, size), [projectionId, camera, size])
   const displayZoom = Math.ceil(camera.zoom)
-  const movingShapes = useMemo(() => shapes.map((shape) => ({ ...shape, geometry: mapDisplayDetail(shape.geometry, displayZoom) })), [shapes, displayZoom])
+  const movingShapes = useMemo(() => shapes.map((shape) => shape.fill
+    ? shape
+    : { ...shape, geometry: mapDisplayDetail(shape.geometry, displayZoom) }), [shapes, displayZoom])
 
   const applyExternalView = useEffectEvent(() => {
     cameraRef.current = normalizeMapView(view, projectionId)
@@ -122,6 +124,10 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     const path = geoPath(projection)
     const outline = projectionPath()
     path.context(outline)({ type: 'Sphere' })
+    if (!terrain) {
+      context.fillStyle = '#0b293b'
+      context.fill(outline)
+    }
     context.strokeStyle = '#48636d'
     context.lineWidth = 1
     context.stroke(outline)
@@ -202,7 +208,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     canvas.dataset.renderMs = (performance.now() - started).toFixed(2)
     canvas.dataset.phases = [gridFinished - started, shapesFinished - gridFinished, pointsFinished - shapesFinished, performance.now() - pointsFinished].map((value) => value.toFixed(2)).join(',')
     canvas.dataset.inputLatencyMs = latestInputTime.current ? (performance.now() - latestInputTime.current).toFixed(2) : '0'
-  }, [camera, size, projection, projectionId, shapes, movingShapes, interacting, fossils, observations, markerMode, t])
+  }, [camera, size, projection, projectionId, shapes, movingShapes, interacting, fossils, observations, markerMode, terrain, t])
 
   function hitAt(x: number, y: number): { point?: MapPoint; label: string } | null {
     for (const point of [...hitsRef.current.points].reverse()) {

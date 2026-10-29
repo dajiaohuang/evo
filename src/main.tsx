@@ -10,6 +10,7 @@ import { frontendContract } from './platform/frontendContract'
 document.documentElement.dataset.frontendTarget = frontendContract.target
 document.documentElement.dataset.frontendEdition = frontendContract.edition
 document.documentElement.dataset.contentScope = frontendContract.content.scope
+document.documentElement.dataset.shellVersion = 'map-fullscreen-v2'
 
 if (import.meta.env.VITE_NATIVE_APP === 'true') {
   document.documentElement.dataset.offlineReady = 'true'
@@ -22,6 +23,15 @@ if (import.meta.env.VITE_NATIVE_APP === 'true') {
     onNeedRefresh() {
       document.documentElement.dataset.updateAvailable = 'true'
       window.dispatchEvent(new Event('evo:update-available'))
+      void updateSW(true)
+    },
+    onRegisteredSW(_url, registration) {
+      const check = () => {
+        if (document.visibilityState === 'visible') void registration?.update().catch(() => undefined)
+      }
+      check()
+      document.addEventListener('visibilitychange', check)
+      window.addEventListener('online', check)
     },
     onOfflineReady() {
       document.documentElement.dataset.offlineReady = 'true'

@@ -37,7 +37,7 @@ export function vectorShapes(layers: PaleogeographyLayers | null, enabled: reado
     const projectedSource = sphericalMapCollection(collection)
     // Source coastline polygons include internal reconstruction partitions;
     // filling their union avoids presenting partition seams as coastlines.
-    if (id === 'coastlines') return [{ geometry: projectedSource, stroke: '#5a957d', width: 0, fill: '#24463c', fillOpacity: .7 }]
+    if (id === 'coastlines') return [{ geometry: projectedSource, stroke: '#5a957d', width: 0, fill: '#3c815e', fillOpacity: .85 }]
     return collection.features.map((feature, index): MapShape => {
       const { pid = 0, name, type, polarity } = feature.properties
       const plate = pid ? t('Plate') + ` ${pid}` : null

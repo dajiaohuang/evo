@@ -27,7 +27,7 @@ for (const width of [1440, 390]) {
       const resting = await landPixels()
       // A flipped island used to cover the globe during the held drag and
       // disappear on release. Compare the same camera, not two map locations.
-      expect(Math.abs(held - resting) / resting).toBeLessThan(.15)
+      expect(Math.abs(held - resting) / resting).toBeLessThan(.01)
       expect(resting).toBeGreaterThan(5000)
     })
   }

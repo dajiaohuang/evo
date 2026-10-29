@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => {
       react(),
       VitePWA({
         disable: nativeBuild,
-        registerType: 'prompt',
+        registerType: 'autoUpdate',
         includeAssets: ['favicon.svg'],
         manifest: {
           id: '/evo/',
@@ -37,6 +37,8 @@ export default defineConfig(({ mode }) => {
           ],
         },
         workbox: {
+          skipWaiting: true,
+          clientsClaim: true,
           importScripts: ['cache-lifecycle.js'],
           globPatterns: ['**/*.{html,css,svg}', 'assets/index-*.js', 'assets/rolldown-runtime-*.js', 'assets/vendor~index-*.js', 'assets/vendor~index~*.js', 'assets/vendor~workbox-window*.js', `data/releases/${datasetVersion}/core/*.json.gz`],
           navigateFallback: '/evo/index.html',
