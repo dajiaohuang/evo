@@ -10,7 +10,7 @@ export interface WikipediaEntry {
 interface WikipediaMapping { entries: Record<string, WikipediaEntry> }
 interface CatalogueOption { item: string; parentNames?: string[]; url: string }
 interface CatalogueEntry { status: string; url?: string; scope?: string; options?: CatalogueOption[] }
-interface CatalogueManifest { schemaVersion: 1; releaseAlias: string; status: string; stats: { totalNodes: number; queriedNodes: number; pendingNodes: number; matchedWithAbstract: number; candidatesWithAbstract: number }; shards: Record<string, { path: string; sha256: string; bytes: number; sourceSha256: string; sourceBytes: number }> }
+interface CatalogueManifest { schemaVersion: 1; releaseAlias: string; status: string; stats: { totalNodes: number; queriedNodes: number; pendingNodes: number; matchedWithAbstract: number; matchedAwaitingAbstract: number; candidatesWithAbstract: number; candidatesAwaitingAbstract: number }; shards: Record<string, { path: string; sha256: string; bytes: number; sourceSha256: string; sourceBytes: number }> }
 interface CatalogueShard { schemaVersion: 1; releaseAlias: string; entries: Record<string, CatalogueEntry> }
 let mappingPromise: Promise<WikipediaMapping> | undefined
 let catalogueManifestPromise: Promise<CatalogueManifest> | undefined

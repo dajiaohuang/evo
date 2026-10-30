@@ -23,6 +23,10 @@ run(['run', 'release:metadata'])
 run(['run', process.env.VITE_PAGES_PREVIEW === 'true' ? 'data:stage:pages' : 'data:stage'])
 run(['run', 'typecheck'])
 run(['exec', '--', 'vite', 'build'])
+{
+  const result = spawnSync(process.execPath, ['scripts/build-col-higher-search.mjs', '--out', 'dist/higher-search'], { cwd: rootDir, stdio: 'inherit' })
+  if (result.status !== 0) process.exit(result.status ?? 1)
+}
 run(['run', 'static:generate'])
 {
   const result = spawnSync(process.execPath, ['scripts/retire-node-pages.mjs'], { cwd: rootDir, stdio: 'inherit' })

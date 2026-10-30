@@ -44,3 +44,20 @@ it('labels same-name candidates and links directly to them', async () => {
   expect(screen.getByRole('link', { name: /打开候选/ }).getAttribute('href')).toBe('https://en.wikipedia.org/wiki/Pan_(genus)')
   expect(loadWikipediaMapping).not.toHaveBeenCalled()
 })
+
+it('renders distinct candidate links for the same Wikidata item', async () => {
+  const item = 'https://www.wikidata.org/entity/Q1'
+  const urls = ['https://en.wikipedia.org/wiki/Example', 'https://fr.wikipedia.org/wiki/Exemple']
+  vi.mocked(loadCatalogueWikipedia).mockResolvedValue({ status: 'candidate', options: urls.map(url => ({ item, parentNames: [], url })) })
+  render(<WikipediaWindow name="Example" catalogueId="COL1" onClose={vi.fn()} />)
+  const links = await screen.findAllByRole('link', { name: /打开候选/ })
+  expect(links.map(link => link.getAttribute('href'))).toEqual(urls)
+})
+
+it('renders an unkeyed candidate without an empty identifier', async () => {
+  vi.mocked(loadCatalogueWikipedia).mockResolvedValue({ status: 'candidate', options: [{ item: '', parentNames: ['异名候选'], url: 'https://ceb.wikipedia.org/wiki/Example' }] })
+  render(<WikipediaWindow name="Example" catalogueId="COL1" onClose={vi.fn()} />)
+  const link = await screen.findByRole('link', { name: /打开候选/ })
+  expect(link.getAttribute('href')).toBe('https://ceb.wikipedia.org/wiki/Example')
+  expect(link.closest('li')?.textContent).not.toContain('·')
+})

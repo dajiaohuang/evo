@@ -81,7 +81,7 @@ function flattenRows(
 
 export function BackendCatalogueTree({ onExit, source = 'backend' }: { onExit?: () => void; source?: 'backend' | 'static' }) {
   const [wikipediaSelection, setWikipediaSelection] = useState<{ name: string; id: string } | null>(null)
-  const [coverage, setCoverage] = useState<{ totalNodes: number; queriedNodes: number; matchedWithAbstract: number; candidatesWithAbstract: number } | null>(null)
+  const [coverage, setCoverage] = useState<{ totalNodes: number; queriedNodes: number; matchedWithAbstract: number; matchedAwaitingAbstract: number; candidatesWithAbstract: number; candidatesAwaitingAbstract: number } | null>(null)
   useEffect(() => {
     let active = true
     void loadCatalogueWikipediaManifest().then(manifest => { if (active) setCoverage(manifest.stats) }).catch(() => undefined)
@@ -203,7 +203,7 @@ export function BackendCatalogueTree({ onExit, source = 'backend' }: { onExit?: 
 
   useEffect(() => {
     const normalized = query.trim()
-    if (normalized.length < 3) return
+    if (normalized.length < (source === 'static' ? 1 : 3)) return
     const controller = new AbortController()
     const timer = window.setTimeout(() => {
       setSearchStatus('loading')
@@ -252,20 +252,20 @@ export function BackendCatalogueTree({ onExit, source = 'backend' }: { onExit?: 
           <div>
             <span>Catalogue of Life · {capabilities.treeIndex.releaseAlias}</span>
             <h2>{zh ? '全量 Catalogue of Life 树' : 'Full Catalogue of Life tree'}</h2>
-            <p>{zh ? '展开分类，点击名称在浮窗阅读 Wikipedia。' : 'Expand a branch and select a name to preview Wikipedia.'}</p>
+            <p>{zh ? '展开分类，点击名称在浮窗查看 Wikipedia 链接。' : 'Expand a branch and select a name to see Wikipedia links in a window.'}</p>
           </div>
           {onExit && <button type="button" className="backend-tree__exit" onClick={onExit}>{zh ? '本地图谱' : 'Local atlas'}</button>}
         </header>
 
         <div className="backend-tree__status" role="status">
           <span>{number(capabilities.treeIndex.nodeCount)} {zh ? '节点索引' : 'indexed nodes'}</span>
-          {coverage && <span>{zh ? `百科已核对 ${number(coverage.queriedNodes)} / ${number(coverage.totalNodes)}；已有摘要 ${number(coverage.matchedWithAbstract + coverage.candidatesWithAbstract)}` : `Wikipedia checked ${number(coverage.queriedNodes)} / ${number(coverage.totalNodes)}; ${number(coverage.matchedWithAbstract + coverage.candidatesWithAbstract)} saved summaries`}</span>}
+          {coverage && <span>{zh ? `名称已查询 ${number(coverage.queriedNodes)} / ${number(coverage.totalNodes)}；已确认链接 ${number((coverage.matchedWithAbstract ?? 0) + (coverage.matchedAwaitingAbstract ?? 0))}；候选节点 ${number((coverage.candidatesWithAbstract ?? 0) + (coverage.candidatesAwaitingAbstract ?? 0))}` : `Names queried ${number(coverage.queriedNodes)} / ${number(coverage.totalNodes)}; confirmed links ${number((coverage.matchedWithAbstract ?? 0) + (coverage.matchedAwaitingAbstract ?? 0))}; candidate nodes ${number((coverage.candidatesWithAbstract ?? 0) + (coverage.candidatesAwaitingAbstract ?? 0))}`}</span>}
           <span>{zh ? `每页 ${number(BACKEND_TREE_PAGE_SIZE)}` : `${number(BACKEND_TREE_PAGE_SIZE)} per page`}</span>
           <span>{zh ? `${number(children.size)} 个展开分支` : `${number(children.size)} branch pages`}</span>
         </div>
 
         <label className="backend-tree__search">
-          <span>{zh ? '搜索名称（至少 3 个字符）' : 'Search names (3+ characters)'}</span>
+          <span>{source === 'static' ? (zh ? '搜索名称（少于 3 个字符时精确匹配）' : 'Search names (exact match under 3 characters)') : (zh ? '搜索名称（至少 3 个字符）' : 'Search names (3+ characters)')}</span>
           <input value={query} onChange={(event) => { pathRequestGeneration.current += 1; pathRequestTarget.current = null; setSelectedId(null); setPath([]); setQuery(event.target.value); setSearchResults([]); setSearchStatus('idle') }} placeholder={zh ? '如 Perissodactyla' : 'e.g. Perissodactyla'} />
         </label>
 
@@ -273,7 +273,7 @@ export function BackendCatalogueTree({ onExit, source = 'backend' }: { onExit?: 
           {path.map((node, index) => <span key={node.id}>{index > 0 && <i aria-hidden="true">/</i>}<a href={wikipediaUrl(displayedName(node))} onClick={event => { event.preventDefault(); setWikipediaSelection({ name: displayedName(node), id: node.id }) }}>{displayedName(node)}</a></span>)}
         </nav>
 
-        {query.trim().length >= 3 && <div className="backend-tree__results" aria-live="polite">
+        {query.trim().length >= (source === 'static' ? 1 : 3) && <div className="backend-tree__results" aria-live="polite">
           {searchStatus === 'loading' && <p>{zh ? '正在读取名称分片…' : 'Reading the routed name index…'}</p>}
           {searchStatus === 'error' && <p role="alert">{zh ? '名称搜索失败。' : 'Name search failed.'}</p>}
           {searchStatus === 'ready' && !searchResults.length && <p>{zh ? '没有匹配名称。' : 'No matching names.'}</p>}

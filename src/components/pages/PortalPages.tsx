@@ -58,9 +58,9 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
       <header className="portal-hero portal-hero--catalog">
         <span className="section-label">{language === 'zh' ? '类群与物种' : 'Groups and species'}</span>
         <h1>{language === 'zh' ? '沿着生命的分支继续阅读' : 'Read along the branches of life'}</h1>
-        <p>{language === 'zh' ? '从你熟悉的类群出发，了解它们的身体、生活方式和演化关系。物种详情保留具体研究；主线文章先把问题讲清楚。' : 'Start with a familiar group and explore bodies, ways of life and evolutionary relationships. Detail pages retain specific studies; the main chapters explain the questions first.'}</p>
+        <p>{language === 'zh' ? '从生命树出发，探索类群之间的关系，并在浮窗中查看 Wikipedia 链接。' : 'Explore relationships in the tree of life and open Wikipedia links from the reading window.'}</p>
         <div className="portal-actions">
-          <button className="button button--primary" onClick={() => onNavigate('taxa', isPagesPreview ? { id: 'perissodactyla' } : undefined)}>{t(isPagesPreview ? 'Open selected taxon dossier' : 'Browse taxon dossiers')}</button>
+          <button className="button button--primary" onClick={() => onNavigate('home', { view: 'tree' })}>{language === 'zh' ? '浏览物种树' : 'Browse the tree of life'}</button>
           <button className="button button--ghost" onClick={() => onNavigate('events')}>{t('Browse evolutionary events')}</button>
           <button className="button button--ghost" onClick={() => onNavigate('stories')}>{t('Follow a field story')}</button>
         </div>
@@ -81,7 +81,7 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
           <article><strong>{manifest.records.references}</strong><span>{t('linked references')}</span></article>
         </div>
         <p>{t('The flagship has complete paginated occurrence retrieval and claim-level source links.')}</p>
-        <button className="text-action" onClick={() => onNavigate('taxa', { id: 'perissodactyla' })}>{t('Open the flagship dossier')} →</button>
+        <button className="text-action" onClick={() => onNavigate('home', { view: 'tree' })}>{language === 'zh' ? '在物种树中浏览' : 'Browse the tree of life'} →</button>
       </details>
 
       <details className="portal-section">
@@ -89,12 +89,11 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
         <div className="portal-section__heading"><span>02</span><div><small>{t('Ways in')}</small><h2>{t('Choose the object you need')}</h2></div></div>
         <div className="portal-card-grid portal-card-grid--catalog">
           {isPagesPreview ? <>
-            <a href={isNativeCore ? '#/taxa?id=perissodactyla' : `${staticCatalogBase}taxa/perissodactyla/`}><small>{t('Taxa')}</small><h3>{flagshipProfileCount} {t('selected dossiers')}</h3><p>{t('Selected Perissodactyla evidence remains available in this core edition.')}</p><i>→</i></a>
-            <a href={isNativeCore ? '#/taxa?id=primates' : `${staticCatalogBase}taxa/primates/`}><small>{t('Taxa')}</small><h3>{t('Primates')}</h3><p>{t('A curated primate pathway covers key branches, bounded fossil samples and ancient genomes.')}</p><i>→</i></a>
+            <a href="#/home?view=tree"><small>{t('Taxa')}</small><h3>{language === 'zh' ? '物种树' : 'Tree of life'}</h3><p>{language === 'zh' ? '浏览类群并查看 Wikipedia 链接。' : 'Browse taxa and open Wikipedia links.'}</p><i>→</i></a>
             <a href={isNativeCore ? '#/events' : `${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('selected events')}</h3><p>{t('Selected event context remains available in this core edition.')}</p><i>→</i></a>
             {previewLockedCards.map(([label, title, description]) => <article className="portal-card portal-card--locked" key={label} aria-disabled="true"><small>{t(label)}</small><h3>{t(title)}</h3><p>{t(description)}</p><i aria-hidden="true">—</i></article>)}
           </> : <>
-          <a href={`${staticCatalogBase}taxa/`}><small>{t('Taxa')}</small><h3>{manifest.records.registryEntities} {t('stable entries')}</h3><p>{t('Definitions, ranges, package ownership and evidence boundaries.')}</p><i>→</i></a>
+          <a href="#/home?view=tree"><small>{t('Taxa')}</small><h3>{language === 'zh' ? '物种树' : 'Tree of life'}</h3><p>{language === 'zh' ? '浏览类群并查看 Wikipedia 链接。' : 'Browse taxa and open Wikipedia links.'}</p><i>→</i></a>
           <a href={`${staticCatalogBase}events/`}><small>{t('Events')}</small><h3>{evolutionEvents.length} {t('bounded events')}</h3><p>{t('Observations, interpretations and unresolved questions kept separate.')}</p><i>→</i></a>
           <a href={`${staticCatalogBase}intervals/`}><small>{t('Geological intervals')}</small><h3>{manifest.records.timeScaleUnits} {t('versioned units')}</h3><p>{t('ICS-bound ages, hierarchy, uncertainty and source locators.')}</p><i>→</i></a>
           <a href={`${staticCatalogBase}formations/`}><small>{t('Formations')}</small><h3>{manifest.records.formationNames} {t('stable entries')}</h3><p>{t('Filter occurrence records by named formation without implying absence.')}</p><i>→</i></a>
@@ -106,16 +105,6 @@ export function CatalogHubPage({ onNavigate }: PortalPageProps) {
           </>}
         </div>
       </details>
-
-      <section className="portal-section">
-        <div className="portal-section__heading"><span>03</span><div><small>{language === 'zh' ? '精选物种页' : 'Featured species pages'}</small><h2>{language === 'zh' ? '阅读灵长类' : 'Read the primates'}</h2></div></div>
-        <div className="portal-card-grid portal-card-grid--catalog">
-          <a href={isPagesPreview ? (isNativeCore ? '#/taxa?id=callithrix_jacchus' : staticCatalogBase + 'taxa/callithrix_jacchus/') : '#/taxa?id=callithrix_jacchus'}><small>{language === 'zh' ? '物种介绍' : 'Species introduction'}</small><h3>{language === 'zh' ? '普通狨' : 'Common marmoset'}</h3><p>{language === 'zh' ? '阅读形态、分布与研究案例，并查看各结论的来源范围。' : 'Read the morphology, range and research cases with their source scopes.'}</p><i>→</i></a>
-          <a href={isPagesPreview ? (isNativeCore ? '#/taxa?id=pan_troglodytes' : staticCatalogBase + 'taxa/pan_troglodytes/') : '#/taxa?id=pan_troglodytes'}><small>{language === 'zh' ? '物种介绍' : 'Species introduction'}</small><h3>{language === 'zh' ? '黑猩猩' : 'Chimpanzee'}</h3><p>{language === 'zh' ? '从栖地、工具使用、生活史和保育模型认识现有证据。' : 'Explore evidence on habitat, tool use, life history and conservation models.'}</p><i>→</i></a>
-        </div>
-      </section>
-
-
 
       <details className="portal-section" onToggle={event => { if (event.target === event.currentTarget) setResearchExpanded(event.currentTarget.open) }}>
         <summary>{language === 'zh' ? '进一步探索：研究中的地图与比较' : 'Explore further: maps and comparisons from studies'}</summary>
