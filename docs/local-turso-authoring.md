@@ -51,6 +51,16 @@ rtk proxy node database/turso-cli.mjs nodes --actor team-c@stew-evo --source <BA
 
 ## 服务启动、恢复与验证
 
+`evidence: null` 是没有结构化证据记录的合法聚合形式；不能用空的
+`evidence.records` 冒充证据。旧版本地表曾错误地要求 evidence 必须为对象。
+`database/turso-null-evidence-migration.mjs <数据库路径>` 在服务停止后取得同一
+独占服务锁，以单个事务复制并逐行比较修订表、恢复索引和不可变触发器、检查
+外键，再提交约束修正。它不修改正文、草稿头或请求回执；成功结果写入数据库
+旁的 `.null-evidence-migration.json`。服务未停或锁仍存在时拒绝执行。
+迁移前运行 `database/verify-turso-null-evidence.mjs`，使用独立合成库验证旧版
+失败、新版提交读回和保留历史行的迁移；维护完成后恢复原数据库服务，编辑者
+先核对原请求回执和当前版本再续作。
+
 ```powershell
 rtk proxy node database/turso-control.mjs start --database <LOCAL_DB_PATH> --workspace <WORKSPACE_UUID> --owner local-owner
 rtk proxy node database/turso-control.mjs status

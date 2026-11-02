@@ -21,6 +21,7 @@
     "static:generate": "node scripts/generate-static-pages.mjs",
     "test": "vitest run --config vitest.config.ts",
     "test:authoring": "vitest run --config vitest.authoring.config.ts",
+    "test:links": "node scripts/test-link-tools.mjs",
     "test:watch": "vitest --config vitest.config.ts",
     "test:e2e": "playwright test",
     "test:e2e:web": "playwright test --config playwright.web.config.ts",

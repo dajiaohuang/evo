@@ -7,6 +7,7 @@ const local = resolve('.git/platform-v2/local/node-map')
 mkdirSync(local, { recursive: true })
 const remote = process.argv[2] === '--local' ? null : process.argv[2]
 const assetRoot = process.argv[2] === '--local' ? resolve(process.argv[3]) : null
+const performanceOnly = process.argv.includes('--performance')
 const server = remote ? null : createServer((req, res) => {
   const path = decodeURIComponent(new URL(req.url, 'http://localhost').pathname).replace(/^\/evo\/?/, '') || 'index.html'
   const file = [...(assetRoot ? [assetRoot] : []), 'ui', resolve('public'), resolve('dist')].map(root => {
@@ -19,7 +20,7 @@ const server = remote ? null : createServer((req, res) => {
   res.end(readFileSync(file))
 })
 const config = resolve(local, 'node-map.playwright.config.mjs')
-writeFileSync(config, `import { defineConfig } from '@playwright/test'; export default defineConfig({testDir:${JSON.stringify(resolve('tests/e2e'))},testMatch:['node-map.spec.ts','map-gestures.spec.ts','map-no-fossils.spec.ts','topics-paused.spec.ts','map-drag-geometry.spec.ts'],timeout:60000,workers:1,use:{browserName:'chromium',baseURL:process.env.NODE_MAP_BASE_URL,serviceWorkers:'block',locale:'en-US'},outputDir:${JSON.stringify(resolve(local, 'test-results'))},reporter:'list'});\n`)
+writeFileSync(config, `import { defineConfig } from '@playwright/test'; export default defineConfig({testDir:${JSON.stringify(resolve('tests/e2e'))},testMatch:${JSON.stringify(performanceOnly ? ['map-performance.spec.ts'] : ['node-map.spec.ts','map-gestures.spec.ts','map-no-fossils.spec.ts','topics-paused.spec.ts','map-drag-geometry.spec.ts','timeline-interaction.spec.ts'])},timeout:${performanceOnly ? 180000 : 60000},workers:1,use:{browserName:'chromium',baseURL:process.env.NODE_MAP_BASE_URL,serviceWorkers:'block',locale:'en-US'},outputDir:${JSON.stringify(resolve(local, 'test-results'))},reporter:'list'});\n`)
 try {
   if (server) await new Promise(resolveReady => server.listen(0, '127.0.0.1', resolveReady))
   const base = remote ?? `http://127.0.0.1:${server.address().port}/evo/`

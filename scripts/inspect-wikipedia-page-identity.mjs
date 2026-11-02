@@ -1,0 +1,8 @@
+const [locale, title] = process.argv.slice(2)
+if (!/^[a-z0-9-]+$/.test(locale ?? '') || !title) throw new Error('Provide locale and title')
+const url = new URL(`https://${locale}.wikipedia.org/w/api.php`)
+for (const [key, value] of Object.entries({ action: 'query', format: 'json', formatversion: '2', prop: 'pageprops', redirects: '1', titles: title })) url.searchParams.set(key, value)
+const response = await fetch(url, { headers: { 'User-Agent': 'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy link verification)' }, signal: AbortSignal.timeout(30000) })
+if (!response.ok) throw new Error(`Wikipedia HTTP ${response.status}`)
+const data = await response.json()
+console.log(JSON.stringify({ redirects: data.query?.redirects ?? [], pages: (data.query?.pages ?? []).map(page => ({ title: page.title, missing: page.missing ?? false, wikibaseItem: page.pageprops?.wikibase_item ?? null, disambiguation: page.pageprops?.disambiguation !== undefined })) }))

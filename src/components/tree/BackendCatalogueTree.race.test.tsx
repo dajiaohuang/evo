@@ -14,12 +14,18 @@ const backend = vi.hoisted(() => ({
   loadBackendCatalogueChildren: vi.fn(),
   searchBackendNames: vi.fn(),
 }))
+const staticTree = vi.hoisted(() => ({
+  loadStaticTreeRoots: vi.fn(), loadStaticTreeChildren: vi.fn(), loadStaticTreePath: vi.fn(), searchStaticTree: vi.fn(),
+}))
+vi.mock('../../data-client/catalogueTreeSource', () => staticTree)
 vi.mock('../../data-client/backendClient', () => ({
   ...backend,
   BACKEND_TREE_PAGE_SIZE: 100,
 }))
 vi.mock('../../i18n', () => ({ useI18n: () => ({ language: 'en' }) }))
 vi.mock('../../platform/frontendContract', () => ({ frontendContract: { tree: { overscanRows: 0, pageSize: 100, maxMaterializedRows: 100 } } }))
+vi.mock('../../services/wikipedia', () => ({ loadCatalogueWikipediaManifest: vi.fn().mockResolvedValue({ stats: { totalNodes: 100, queriedNodes: 90, matchedWithAbstract: 0, matchedAwaitingAbstract: 60, candidatesWithAbstract: 0, candidatesAwaitingAbstract: 20 } }) }))
+vi.mock('./WikipediaWindow', () => ({ WikipediaWindow: ({ catalogueId, name }: { catalogueId: string; name: string }) => <div role="dialog">{catalogueId}: {name}</div> }))
 
 import { BackendCatalogueTree } from './BackendCatalogueTree'
 
@@ -54,6 +60,35 @@ beforeEach(() => {
 afterEach(() => { cleanup(); vi.clearAllMocks() })
 
 describe('production BackendCatalogueTree search-path request race', () => {
+  it('opens the selected search result path in the Wikipedia window with its original identity', async () => {
+    staticTree.loadStaticTreeRoots.mockResolvedValue({ treeIndex: { nodeCount: 1, releaseAlias: 'COL26.8' }, roots: [] })
+    staticTree.loadStaticTreePath.mockResolvedValue([{ id: '8LTCH', scientificName: 'Zabrina', authorship: '', rank: 'subgenus', childCount: 0 }])
+    staticTree.searchStaticTree.mockResolvedValue({ records: [{ id: '8LTCH', title: 'Zabrina', kind: 'catalogue-name' }] })
+    render(<BackendCatalogueTree source="static" />)
+    fireEvent.change(await screen.findByRole('textbox', { name: /search names/i }), { target: { value: 'Zabrina' } })
+    fireEvent.click(await screen.findByRole('button', { name: /Zabrina/i }))
+    const link = await screen.findByRole('link', { name: 'Zabrina' })
+    fireEvent.click(link)
+    expect(screen.getByRole('dialog').textContent).toBe('8LTCH: Zabrina')
+  })
+
+  it('allows a two-letter static genus name to be searched and opened', async () => {
+    staticTree.loadStaticTreeRoots.mockResolvedValue({ treeIndex: { nodeCount: 1, releaseAlias: 'COL26.8' }, roots: [] })
+    staticTree.loadStaticTreePath.mockResolvedValue([{ id: '8VT59', scientificName: 'Aa', authorship: '', rank: 'genus', childCount: 0 }])
+    staticTree.searchStaticTree.mockResolvedValue({ records: [{ id: '8VT59', title: 'Aa', kind: 'catalogue-name' }] })
+    render(<BackendCatalogueTree source="static" />)
+    fireEvent.change(await screen.findByRole('textbox', { name: /search names/i }), { target: { value: 'Aa' } })
+    fireEvent.click(await screen.findByRole('button', { name: /^Aa/i }))
+    fireEvent.click(await screen.findByRole('link', { name: 'Aa' }))
+    expect(screen.getByRole('dialog').textContent).toBe('8VT59: Aa')
+  })
+
+  it('reports link coverage without suggesting summaries are saved', async () => {
+    render(<BackendCatalogueTree />)
+    expect(await screen.findByText(/Names queried 90 \/ 100; confirmed links 60; candidate nodes 20/)).toBeTruthy()
+    expect(screen.queryByText(/saved summaries/i)).toBeNull()
+  })
+
   it('reproduces A-start → B-start → B-resolve → A-resolve without letting A replace B', async () => {
     const a = deferred<ReturnType<typeof path>>()
     const b = deferred<ReturnType<typeof path>>()

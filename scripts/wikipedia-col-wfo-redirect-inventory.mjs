@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict'
+import {createHash} from 'node:crypto'
+import {readFileSync} from 'node:fs'
+import {brotliDecompressSync,gunzipSync} from 'node:zlib'
+import {DatabaseSync} from 'node:sqlite'
+const root='.git/evo-wikipedia-col26-8/',dir=process.argv[2];assert.ok(dir)
+const mb=readFileSync(dir+'/manifest.json'),manifest=JSON.parse(mb);assert.equal(manifest.releaseAlias,'COL26.8');assert.equal(manifest.contentMode,'links-only')
+const targets=new Set();for(const f of Object.values(manifest.shards)){const b=readFileSync(dir+'/'+f.path);assert.equal(createHash('sha256').update(b).digest('hex'),f.sha256);for(const [id,e] of Object.entries(JSON.parse(gunzipSync(b)).entries))if(['unresolved','ambiguous'].includes(e.status))targets.add(id)}
+const bytes=readFileSync('data/sources/wfo-plant-crosswalk-col26.8.json.br'),data=JSON.parse(brotliDecompressSync(bytes));assert.equal(data.sources.col.registryManifestSha256,manifest.registryManifestSha256)
+const hash=createHash('sha256').update(JSON.stringify({snapshotSha256:createHash('sha256').update(mb).digest('hex'),crosswalkSha256:createHash('sha256').update(bytes).digest('hex')})).digest('hex'),db=new DatabaseSync(root+'inventory.sqlite')
+db.exec(`PRAGMA busy_timeout=15000; CREATE TABLE IF NOT EXISTS wfo_redirect_targets(node_id TEXT NOT NULL,wfo_id TEXT NOT NULL,accepted_name TEXT NOT NULL,PRIMARY KEY(node_id,wfo_id)); CREATE TABLE IF NOT EXISTS wfo_redirect_lookup(id TEXT PRIMARY KEY,status TEXT NOT NULL DEFAULT 'pending',candidates_json TEXT,checked_at TEXT); CREATE INDEX IF NOT EXISTS wfo_redirect_lookup_status ON wfo_redirect_lookup(status);`)
+const previous=db.prepare("SELECT value FROM meta WHERE key='wfo_redirect_source_sha256'").get()?.value;assert.ok(!previous||previous===hash)
+if(!previous){const add=db.prepare('INSERT OR IGNORE INTO wfo_redirect_targets VALUES(?,?,?)'),lookup=db.prepare('INSERT OR IGNORE INTO wfo_redirect_lookup(id) VALUES(?)'),node=db.prepare('SELECT name,rank,source_dataset_id FROM nodes WHERE id=?');let skipped=0
+ db.exec('BEGIN IMMEDIATE');try{for(const r of data.colRecords){if(r.status!=='redirect'||!targets.has(r.colId))continue;assert.equal(r.mappingBasis,'exact-wfo-synonym-name-and-authorship-to-explicit-accepted-target');assert.match(r.wfoId,/^wfo-\d{10}$/);assert.ok(r.wfoScientificName);const n=node.get(r.colId);assert.ok(n);assert.equal(n.rank,'species');assert.equal(n.source_dataset_id,String(r.colSourceDatasetId));const name=r.colAuthorship&&r.colScientificName.endsWith(r.colAuthorship)?r.colScientificName.slice(0,-r.colAuthorship.length).trim():r.colScientificName.trim();if(n.name!==name){skipped++;continue}add.run(r.colId,r.wfoId,r.wfoScientificName);lookup.run(r.wfoId)}db.prepare("INSERT INTO meta(key,value) VALUES('wfo_redirect_source_sha256',?)").run(hash);db.exec('COMMIT')}catch(e){db.exec('ROLLBACK');throw e}console.log(JSON.stringify({skippedNameMismatch:skipped}))}
+console.log(JSON.stringify({status:'complete',targets:db.prepare('SELECT COUNT(*) n FROM wfo_redirect_targets').get().n,ids:db.prepare('SELECT COUNT(*) n FROM wfo_redirect_lookup').get().n,sourceSha256:hash}));db.close()

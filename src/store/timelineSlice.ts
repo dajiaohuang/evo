@@ -6,6 +6,8 @@ import { containsAge, timeScaleUnits } from '../services/geology'
 export interface TimelineSlice {
   allIntervals: GeoInterval[]
   currentAge: number
+  timelineInteracting: boolean
+  setTimelineInteracting: (active: boolean) => void
   currentPeriod: string | null
   currentEpoch: string | null
   currentAgeUnit: string | null
@@ -39,6 +41,8 @@ export const createTimelineSlice = (
 ): TimelineSlice => ({
   allIntervals: [],
   currentAge: 66,
+  timelineInteracting: false,
+  setTimelineInteracting: (timelineInteracting) => set({ timelineInteracting }),
   currentPeriod: 'Cretaceous',
   currentEpoch: 'Upper Cretaceous',
   currentAgeUnit: 'Maastrichtian',

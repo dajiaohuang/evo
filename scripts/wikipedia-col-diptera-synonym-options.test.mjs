@@ -1,0 +1,4 @@
+import {test} from 'node:test'
+import assert from 'node:assert/strict'
+import {dipteraSynonymOptions} from './wikipedia-col-worms-sidecar-options.mjs'
+test('Diptera synonym candidates explain uncertain identity and other node',()=>{const row={node_id:'a',item:'https://www.wikidata.org/entity/Q1',source_name:'Aus bus',synonym_name:'Aus cus',target_cols:JSON.stringify(['b']),pages:JSON.stringify([{url:'https://en.wikipedia.org/wiki/Aus_cus'}])},[o]=dipteraSynonymOptions([row],()=>true,id=>id==='b');assert.equal(o.dipteraSynonymCandidate,true);assert.ok(o.parentNames.some(x=>x.includes('Systema Dipterorum synonym candidate, taxonomic identity unverified')&&x.includes('Aus bus ← Aus cus')));assert.ok(o.parentNames.some(x=>x.includes('Target article identifies another tree node')));assert.deepEqual(o.abstracts,[]);assert.deepEqual(dipteraSynonymOptions([row],()=>false,()=>true),[])})

@@ -15,18 +15,27 @@ const sizeIndex = process.argv.indexOf('--batch-size')
 const batchSize = sizeIndex >= 0 ? Number(process.argv[sizeIndex + 1]) : 200
 assert.ok(Number.isInteger(batchSize) && batchSize >= 1 && batchSize <= 5000)
 const synonymMode = process.argv.includes('--synonyms')
-const table = synonymMode ? 'synonym_wikidata_lookup' : 'names'
+const labelMode = process.argv.includes('--labels')
+const aliasMode = process.argv.includes('--aliases')
+const abbreviatedMode = process.argv.includes('--abbreviated')
+assert.ok(Number(synonymMode)+Number(labelMode)+Number(aliasMode)+Number(abbreviatedMode)<=1)
+const table = abbreviatedMode ? 'abbreviated_wikidata_lookup' : aliasMode ? 'alias_wikidata_lookup' : labelMode ? 'label_wikidata_lookup' : synonymMode ? 'synonym_wikidata_lookup' : 'names'
 if (synonymMode) assert.ok(db.prepare("SELECT value FROM meta WHERE key='synonym_wikidata_source_sha256'").get()?.value, 'Build synonym Wikidata inventory first')
+if (labelMode) assert.ok(db.prepare("SELECT value FROM meta WHERE key='label_wikidata_source_sha256'").get()?.value, 'Build label Wikidata inventory first')
+if (aliasMode) assert.ok(db.prepare("SELECT value FROM meta WHERE key='alias_wikidata_source_sha256'").get()?.value, 'Build alias Wikidata inventory first')
+if (abbreviatedMode) assert.ok(db.prepare("SELECT value FROM meta WHERE key='abbreviated_wikidata_source_sha256'").get()?.value, 'Build abbreviated Wikidata inventory first')
 const next = db.prepare(`SELECT name FROM ${table} WHERE status='pending' ORDER BY rowid LIMIT ?`)
 const titleIndexReady = db.prepare("SELECT value FROM meta WHERE key='en_titles_complete'").get()?.value === 'true'
-const preferred = !synonymMode && titleIndexReady ? db.prepare("SELECT n.name FROM names n JOIN exact_english_titles t ON t.name=n.name WHERE n.status='pending' LIMIT ?") : null
+const preferred = !synonymMode && !labelMode && !aliasMode && !abbreviatedMode && titleIndexReady ? db.prepare("SELECT n.name FROM names n JOIN exact_english_titles t ON t.name=n.name WHERE n.status='pending' LIMIT ?") : null
 const update = db.prepare(`UPDATE ${table} SET status='queried', candidates_json=?, checked_at=? WHERE name=? AND status='pending'`)
 let requests = 0, checked = 0, lastStart = 0, requestSize = batchSize, successfulBatches = 0
 for (; requests < limit; requests++) {
   let names = preferred?.all(requestSize).map(row => row.name) ?? []
   if (!names.length) names = next.all(requestSize).map(row => row.name)
   if (!names.length) break
-  const query = `SELECT ?name ?item ?rank ?col ?parentName ?article WHERE { VALUES ?name { ${names.map(name => JSON.stringify(name)).join(' ')} } ?item wdt:P225 ?name. OPTIONAL { ?item wdt:P105 ?rank. } OPTIONAL { ?item wdt:P10585 ?col. } OPTIONAL { ?item wdt:P171 ?parent. ?parent wdt:P225 ?parentName. } OPTIONAL { ?article schema:about ?item; schema:isPartOf ?site. FILTER(REGEX(STR(?site), '^https://[a-z0-9-]+[.]wikipedia[.]org/$')) } }`
+  const values = labelMode || aliasMode ? names.flatMap(name => ['en', 'la', 'mul'].map(lang => `${JSON.stringify(name)}@${lang}`)).join(' ') : names.map(name => JSON.stringify(name)).join(' ')
+  const matching = aliasMode ? '?item skos:altLabel ?name; wdt:P31 wd:Q16521.' : labelMode ? '?item rdfs:label ?name; wdt:P31 wd:Q16521.' : '?item wdt:P225 ?name.'
+  const query = `SELECT ?name ?item ?rank ?col ?parentName ?article WHERE { VALUES ?name { ${values} } ${matching} OPTIONAL { ?item wdt:P105 ?rank. } OPTIONAL { ?item wdt:P10585 ?col. } OPTIONAL { ?item wdt:P171 ?parent. ?parent wdt:P225 ?parentName. } OPTIONAL { ?article schema:about ?item; schema:isPartOf ?site. FILTER(REGEX(STR(?site), '^https://[a-z0-9-]+[.]wikipedia[.]org/$')) } }`
   const delay = Math.max(0, 1200 - (Date.now() - lastStart))
   if (delay) await new Promise(resolve => setTimeout(resolve, delay))
   lastStart = Date.now()
@@ -98,7 +107,7 @@ for (; requests < limit; requests++) {
     requestSize = Math.min(batchSize, requestSize * 2)
     successfulBatches = 0
   }
-  if ((requests + 1) % 10 === 0) console.log(JSON.stringify({ mode: synonymMode ? 'synonyms' : 'names', batches: requests + 1, checked, remaining: db.prepare(`SELECT COUNT(*) AS n FROM ${table} WHERE status='pending'`).get().n }))
+  if ((requests + 1) % 10 === 0) console.log(JSON.stringify({ mode: abbreviatedMode ? 'abbreviated' : aliasMode ? 'aliases' : labelMode ? 'labels' : synonymMode ? 'synonyms' : 'names', batches: requests + 1, checked, remaining: db.prepare(`SELECT COUNT(*) AS n FROM ${table} WHERE status='pending'`).get().n }))
 }
 const counts = db.prepare(`SELECT status,COUNT(*) AS n FROM ${table} GROUP BY status`).all()
 db.close()

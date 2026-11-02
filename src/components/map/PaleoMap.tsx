@@ -100,6 +100,7 @@ export function PaleoMap() {
   const setViewState = useAppStore((s) => s.setViewState)
   const currentPeriod = useAppStore((s) => s.currentPeriod)
   const currentAge = useAppStore((s) => s.currentAge)
+  const timelineInteracting = useAppStore((s) => s.timelineInteracting)
   const loadOccurrencesForInterval = useAppStore((s) => s.loadOccurrencesForInterval)
   const occurrencesByInterval = useAppStore((s) => s.occurrencesByInterval)
   const intervalOccurrenceStatus = useAppStore((s) => s.intervalOccurrenceStatus)
@@ -228,6 +229,7 @@ export function PaleoMap() {
   return (
     <div className="paleo-map" style={{ height: '100%', width: '100%', position: 'relative' }}>
       <ProjectedMap
+        timeInteracting={timelineInteracting}
         projectionId={mapProjection} view={viewState} onViewChange={setViewState} onProjectionChange={setMapProjection}
         panelsVisible={showMapPanels} onTogglePanels={() => setShowMapPanels((visible) => !visible)}
         shapes={combinedShapes} fossils={NO_FOSSIL_MARKERS} observations={mapObservations} nodePoints={nodeScene.points} markerMode={markerMode}

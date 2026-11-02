@@ -14,7 +14,7 @@ vi.mock('../../config/pagesPreview', () => ({ isPagesPreview: false, isPreviewRo
 vi.mock('../../store', () => ({ useAppStore: { getState: vi.fn() } }))
 
 const horse: RuntimeSearchEntry = { id: 'horse', kind: 'profile', title: 'Horse evidence', route: '#/explore?taxon=equus', terms: ['horse'] }
-const bird: RuntimeSearchEntry = { id: 'bird', kind: 'story', title: 'Bird story', route: '#/stories?id=birds', terms: ['bird'] }
+const bird: RuntimeSearchEntry = { id: 'bird', kind: 'event', title: 'Bird event', route: '#/events?id=birds', terms: ['bird'] }
 const advance = () => act(async () => { await vi.advanceTimersByTimeAsync(160) })
 async function openSearch() {
   const trigger = screen.getByRole('button', { name: 'Search' })
@@ -70,7 +70,7 @@ describe('global discovery interaction', () => {
     expect(screen.getByRole('status')).toHaveTextContent('Searching…')
     await advance()
     const first = screen.getByRole('button', { name: /Horse evidence/ })
-    const last = screen.getByRole('button', { name: /Bird story/ })
+    const last = screen.getByRole('button', { name: /Bird event/ })
     fireEvent.keyDown(input, { key: 'ArrowDown' })
     expect(first).toHaveFocus()
     fireEvent.keyDown(first, { key: 'End' })
@@ -93,6 +93,7 @@ describe('global discovery interaction', () => {
       { id: 'pbdb-api-2016', kind: 'reference', title: 'Orphan reference', route: '#/data', terms: [] },
       { id: 'unknown', kind: 'unknown', title: 'Unknown record kind', route: '#/home', terms: [] },
       { ...horse, title: 'Retired profile route', route: '#/data' },
+      { id: 'retired-story', kind: 'story', title: 'Retired story', route: '#/stories?id=old', terms: [] },
       { id: 'txn:264013', kind: 'profile', title: 'Source taxon', route: '#/pbdb?id=txn%3A264013', terms: [] },
     ])
     const navigate = vi.fn()
@@ -100,7 +101,7 @@ describe('global discovery interaction', () => {
     const input = await openSearch()
     fireEvent.change(input, { target: { value: 'source' } })
     await advance()
-    expect(screen.queryByRole('button', { name: /Orphan|Unknown record|Retired profile/ })).not.toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /Orphan|Unknown record|Retired profile|Retired story/ })).not.toBeInTheDocument()
     expect(screen.getByRole('status')).toHaveTextContent('1 results')
     fireEvent.click(screen.getByRole('button', { name: /Source taxon/ }))
     expect(navigate).toHaveBeenCalledWith('pbdb', { id: 'txn:264013' })
@@ -135,7 +136,7 @@ describe('global discovery interaction', () => {
     expect(oldSignal.aborted).toBe(true)
     await act(async () => { finishOld([horse]) })
     expect(screen.queryByRole('button', { name: /Horse evidence/ })).not.toBeInTheDocument()
-    expect(screen.getByRole('button', { name: /Bird story/ })).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /Bird event/ })).toBeInTheDocument()
   })
 
   it('routes backend results to their accepted record and forwards cancellation', async () => {

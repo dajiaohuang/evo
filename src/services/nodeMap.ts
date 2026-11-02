@@ -36,18 +36,18 @@ export function queryNodeMap(dataset: NodeMapDataset, query: NodeMapQuery): Node
     return result
   }
   const allowed = new Set(query.scope === 'direct' ? [query.nodeId] : members)
-  const seen = new Map<string, string>()
+  const seen = new Map<string, NodeMapDataset['records'][number]>()
   const buckets = new Map<string, NodeMapBubble>()
   const columns = query.gridColumns
   const rows = columns / 2
   for (const record of dataset.records) {
     // Duplicate shards must not increase density; conflicting identities require upstream repair.
-    const signature = JSON.stringify(record)
-    if (seen.has(record.id)) {
-      if (seen.get(record.id) !== signature) throw new Error(`Conflicting occurrence: ${record.id}`)
+    const previous = seen.get(record.id)
+    if (previous) {
+      if (previous !== record && JSON.stringify(previous) !== JSON.stringify(record)) throw new Error(`Conflicting occurrence: ${record.id}`)
       continue
     }
-    seen.set(record.id, signature)
+    seen.set(record.id, record)
     if (!allowed.has(record.nodeId)) continue
     result.counts.matched++
     if (!record.age || !validRange(record.age)) { result.counts.unknownAge++; continue }

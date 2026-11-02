@@ -11,6 +11,7 @@ vi.mock('./components/catalog/CatalogPages', () => ({
   TaxonPage: ({ id }: { id: string }) => <article aria-label="Reader"><h1>Reader {id}</h1></article>,
   EventPage: () => <article aria-label="Reader">Event reader</article>,
 }))
+vi.mock('./components/explorer/ExplorerWorkspace', () => ({ ExplorerWorkspace: () => <div aria-label="Map workspace" /> }))
 vi.mock('./config/pagesPreview', () => ({ isNativeCore: false, isPagesPreview: false, isPreviewRouteLocked: () => false }))
 vi.mock('./data-client/backendClient', () => ({ isBackendConfigured: () => false }))
 
@@ -32,7 +33,7 @@ it('route-backed reader selection follows its tree identity through close, reope
   window.history.replaceState(null, '', '#/taxa?id=dinosauria')
   const { rerender } = render(<><App /><section aria-label="Map bubble"><SpeciesDetail /></section></>)
 
-  expect(await screen.findByRole('heading', { name: 'Reader dinosauria' })).toBeVisible()
+  expect(await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible()
   await waitFor(() => expect(screen.getByText('Species Detail')).toBeVisible())
   await waitFor(() => expect(useAppStore.getState().selectedNodeId).toBe('dinosauria'))
   expect(screen.queryByText('Mammals')).toBeNull()
@@ -43,25 +44,25 @@ it('route-backed reader selection follows its tree identity through close, reope
   expect(useAppStore.getState().selectedNodeId).toBe('dinosauria')
   setRoute('#/taxa?id=dinosauria')
   rerender(<><App /><section aria-label="Map bubble"><SpeciesDetail /></section></>)
-  expect(await screen.findByRole('heading', { name: 'Reader dinosauria' })).toBeVisible()
+  expect(await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible()
   await waitFor(() => expect(screen.getAllByText('Dinosaurs', { selector: 'h2' }).length).toBeGreaterThan(0))
   expect(useAppStore.getState().selectedNodeId).toBe('dinosauria')
   expect(within(screen.getByRole('region', { name: 'Map bubble' })).queryByText('Mammals')).toBeNull()
 
   setRoute('#/taxa?id=ankylosaurus')
-  expect(await screen.findByRole('heading', { name: 'Reader ankylosaurus' })).toBeVisible()
+  expect(await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible()
   await waitFor(() => expect(useAppStore.getState().selectedNodeId).toBe('ankylosaurus'))
   setRoute('#/taxa?id=dinosauria')
-  expect(await screen.findByRole('heading', { name: 'Reader dinosauria' })).toBeVisible()
+  expect(await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible()
   await waitFor(() => expect(useAppStore.getState().selectedNodeId).toBe('dinosauria'))
 
   act(() => window.history.back())
   await waitFor(() => expect(window.location.hash).toBe('#/taxa?id=ankylosaurus'))
-  expect(await screen.findByRole('heading', { name: 'Reader ankylosaurus' })).toBeVisible()
+  expect(await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible()
   await waitFor(() => expect(useAppStore.getState().selectedNodeId).toBe('ankylosaurus'))
   act(() => window.history.forward())
   await waitFor(() => expect(window.location.hash).toBe('#/taxa?id=dinosauria'))
-  expect(await screen.findByRole('heading', { name: 'Reader dinosauria' })).toBeVisible()
+  expect(await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible()
   await waitFor(() => expect(useAppStore.getState().selectedNodeId).toBe('dinosauria'))
 })
 
@@ -91,10 +92,10 @@ it('preserves the map selection for empty, navigation-only and reader-only route
   expect(useAppStore.getState().selectedNodeId).toBe('mammalia')
   setRoute('#/taxa?id=life')
   rerender(<><App /><section aria-label="Map bubble"><SpeciesDetail /></section></>)
-  await waitFor(() => expect(screen.getByRole('heading', { name: 'Reader life' })).toBeVisible())
+  await waitFor(() => expect(screen.getByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible())
   expect(useAppStore.getState().selectedNodeId).toBe('mammalia')
   setRoute('#/taxa?id=ankylosaurus_magniventris')
-  await waitFor(() => expect(screen.getByRole('heading', { name: 'Reader ankylosaurus_magniventris' })).toBeVisible())
+  await waitFor(() => expect(screen.getByRole('heading', { name: 'Node pages are temporarily offline' })).toBeVisible())
   await waitFor(() => expect(useAppStore.getState().selectedNodeId).toBe('ankylosaurus_magniventris'))
 })
 

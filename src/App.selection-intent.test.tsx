@@ -30,6 +30,7 @@ vi.mock('./components/catalog/CatalogPages', () => ({
   TaxonPage: ({ id }: { id: string }) => <article aria-label="Reader"><h1>Reader {id}</h1></article>,
   EventPage: () => <article aria-label="Reader">Event reader</article>,
 }))
+vi.mock('./components/explorer/ExplorerWorkspace', () => ({ ExplorerWorkspace: () => <div aria-label="Map workspace" /> }))
 vi.mock('./config/pagesPreview', () => ({ isNativeCore: false, isPagesPreview: false, isPreviewRouteLocked: () => false }))
 vi.mock('./data-client/backendClient', () => ({ isBackendConfigured: () => false }))
 
@@ -53,7 +54,7 @@ it('late profile fulfillment cannot override a newer clear or map-selection inte
   expect(useAppStore.getState().selectedNodeId).toBeNull()
   releaseCatalog()
 
-  await screen.findByRole('heading', { name: 'Reader dinosauria' })
+  await screen.findByRole('heading', { name: 'Node pages are temporarily offline' })
   await catalogReady
   await act(async () => { await Promise.resolve(); await Promise.resolve() })
   expect(useAppStore.getState().selectedNodeId).toBeNull()

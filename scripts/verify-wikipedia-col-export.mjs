@@ -3,10 +3,13 @@ import { createHash } from 'node:crypto'
 import { readFileSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import { gunzipSync } from 'node:zlib'
+import { validateOptionalProvenance } from './wikipedia-col-provenance.mjs'
 const out = resolve(process.argv[2])
 const manifest = JSON.parse(readFileSync(join(out, 'manifest.json'), 'utf8'))
 assert.equal(manifest.schemaVersion, 1)
 assert.equal(manifest.releaseAlias, 'COL26.8')
+assert.equal(manifest.contentMode, 'links-only', 'Wikipedia exports must contain links only')
+validateOptionalProvenance(manifest)
 for (const [locale, sha] of [...Object.entries(manifest.titleIndexSources ?? {}), ...Object.entries(manifest.normalizedTitleSources ?? {})]) {
   assert.match(locale, /^[a-z0-9-]+$/)
   assert.match(sha, /^[a-f0-9]{64}$/)
@@ -15,6 +18,12 @@ if (manifest.synonymWikidata) {
   assert.match(manifest.synonymWikidata.sourceSha256, /^[a-f0-9]{64}$/)
   assert.ok(Number.isSafeInteger(manifest.synonymWikidata.queriedNames) && manifest.synonymWikidata.queriedNames >= 0)
   assert.ok(Number.isSafeInteger(manifest.synonymWikidata.pendingNames) && manifest.synonymWikidata.pendingNames >= 0)
+}
+if (manifest.labelWikidata) {
+  assert.match(manifest.labelWikidata.sourceSha256, /^[a-f0-9]{64}$/)
+  assert.ok(Number.isSafeInteger(manifest.labelWikidata.queriedNames) && manifest.labelWikidata.queriedNames >= 0)
+  assert.ok(Number.isSafeInteger(manifest.labelWikidata.pendingNames) && manifest.labelWikidata.pendingNames >= 0)
+  assert.deepEqual(manifest.labelWikidata.languages, ['en', 'la', 'mul'])
 }
 assert.equal(Object.keys(manifest.shards).length, 256)
 let total = 0, abstracts = 0, pendingCandidates = 0
@@ -31,12 +40,12 @@ for (const [prefix, file] of Object.entries(manifest.shards)) {
   assert.equal(data.releaseAlias, 'COL26.8')
   assert.equal(Object.keys(data.entries).length, file.entries)
   for (const [id, entry] of Object.entries(data.entries)) {
-    if (manifest.contentMode === 'links-only') {
-      assert.ok(!entry.abstracts?.length && !Object.hasOwn(entry, 'extract'))
-      for (const option of entry.options ?? []) assert.ok(!option.abstracts?.length && !Object.hasOwn(option, 'extract'))
-    }
+    assert.ok(!entry.abstracts?.length && !Object.hasOwn(entry, 'extract'))
+    for (const option of entry.options ?? []) assert.ok(!option.abstracts?.length && !Object.hasOwn(option, 'extract'))
     assert.equal(createHash('sha256').update(id).digest('hex').slice(0, 2), prefix)
     assert.ok(['matched', 'abstract-pending', 'candidate', 'ambiguous', 'unresolved'].includes(entry.status))
+    if (entry.status === 'candidate') assert.ok(Array.isArray(entry.options) && entry.options.length > 0, `Candidate ${id} has no links`)
+    if (entry.status === 'matched' || entry.status === 'abstract-pending') assert.ok(entry.url, `Matched node ${id} has no link`)
     if (entry.lookupPending) { assert.equal(entry.status, 'candidate'); pendingCandidates++ }
     count[entry.status] = (count[entry.status] ?? 0) + 1
     for (const link of [entry.url, ...(entry.options ?? []).map(option => option.url)].filter(Boolean)) {

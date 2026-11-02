@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict'
+import {DatabaseSync} from 'node:sqlite'
+const db=new DatabaseSync('.git/evo-wikipedia-col26-8/inventory.sqlite');db.exec('PRAGMA busy_timeout=15000')
+assert.ok(db.prepare("SELECT value FROM meta WHERE key='wfo_redirect_source_sha256'").get()?.value)
+const until=db.prepare("SELECT value FROM meta WHERE key='wikidata_not_before'").get()?.value;if(until&&Date.parse(until)>Date.now())throw Error(`Wikidata rate limit active until ${until}`)
+const next=db.prepare("SELECT id FROM wfo_redirect_lookup WHERE status='pending' LIMIT 200"),update=db.prepare("UPDATE wfo_redirect_lookup SET status='queried',candidates_json=?,checked_at=? WHERE id=? AND status='pending'");let checked=0
+while(true){const ids=next.all().map(r=>r.id);if(!ids.length)break
+ const query=`SELECT ?id ?item ?acceptedName ?rank ?col ?article WHERE { VALUES ?id { ${ids.map(id=>JSON.stringify(id)).join(' ')} } ?item wdt:P7715 ?id; wdt:P225 ?acceptedName. OPTIONAL { ?item wdt:P105 ?rank } OPTIONAL { ?item wdt:P10585 ?col } OPTIONAL { ?article schema:about ?item; schema:isPartOf ?site. FILTER(REGEX(STR(?site), '^https://[a-z0-9-]+[.]wikipedia[.]org/$')) } }`
+ let r;for(let attempt=0;attempt<4;attempt++){try{r=await fetch('https://query.wikidata.org/sparql',{method:'POST',body:new URLSearchParams({format:'json',query}),signal:AbortSignal.timeout(65000),headers:{'User-Agent':'EvoAtlas/0.21 (https://github.com/dajiaohuang/evo; taxonomy Wikipedia matching)'}})}catch(e){if(attempt===3)throw e;await new Promise(resolve=>setTimeout(resolve,5000*2**attempt));continue}if(r.ok||![429,500,502,503,504].includes(r.status)||attempt===3)break;const retry=Number(r.headers.get('retry-after'));if(retry>30){const deadline=new Date(Date.now()+retry*1000).toISOString();db.prepare("INSERT OR REPLACE INTO meta(key,value) VALUES('wikidata_not_before',?)").run(deadline);throw Error(`Wikidata requested retry after ${retry}s, until ${deadline}`)}await r.body?.cancel();await new Promise(resolve=>setTimeout(resolve,Math.max(5000*2**attempt,retry*1000||0)))}
+ if(!r?.ok)throw Error(`Wikidata HTTP ${r?.status}; batch remains pending`);const bindings=(await r.json()).results?.bindings;assert.ok(Array.isArray(bindings));const groups=new Map(ids.map(id=>[id,new Map()]))
+ for(const row of bindings){const id=row.id?.value,item=row.item?.value;assert.ok(groups.has(id));assert.match(item,/^http:\/\/www\.wikidata\.org\/entity\/Q\d+$/);const group=groups.get(id);if(!group.has(item))group.set(item,{item:item.replace('http:','https:'),names:[],ranks:[],colIds:[],articles:[]});const c=group.get(item)
+  for(const [key,field] of [['names','acceptedName'],['ranks','rank'],['colIds','col']]){const value=row[field]?.value;if(value&&!c[key].includes(value))c[key].push(value)}
+  if(row.article?.value){const u=new URL(row.article.value);assert.equal(u.protocol,'https:');assert.match(u.hostname,/^[a-z0-9-]+\.wikipedia\.org$/);assert.ok(u.pathname.startsWith('/wiki/'));if(!c.articles.includes(u.href))c.articles.push(u.href)}
+ }
+ db.exec('BEGIN IMMEDIATE');try{for(const id of ids)assert.equal(update.run(JSON.stringify([...groups.get(id).values()]),new Date().toISOString(),id).changes,1);db.exec('COMMIT')}catch(e){db.exec('ROLLBACK');throw e}checked+=ids.length;await new Promise(resolve=>setTimeout(resolve,1200))
+}
+console.log(JSON.stringify({status:'complete',checked,counts:db.prepare('SELECT status,COUNT(*) n FROM wfo_redirect_lookup GROUP BY status').all()}));db.close()

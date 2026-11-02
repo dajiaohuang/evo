@@ -29,6 +29,11 @@ const EMPTY_STATE: PaleogeographyState = {
   layerErrors: {},
 }
 
+function sameLayers(left: PaleogeographyLayers, right: PaleogeographyLayers): boolean {
+  const keys = Object.keys(left) as PaleogeographyLayerId[]
+  return keys.length === Object.keys(right).length && keys.every(key => left[key] === right[key])
+}
+
 export function usePaleogeography(ageMa: number | null, requestedLayers: readonly PaleogeographyLayerId[]) {
   const [settledAgeMa, setSettledAgeMa] = useState(ageMa)
   const [state, setState] = useState<PaleogeographyState>(EMPTY_STATE)
@@ -91,28 +96,35 @@ export function usePaleogeography(ageMa: number | null, requestedLayers: readonl
           layerErrors[layerId] = 'No published CAO2024 frame is available at this age.'
         }
       }
-        return { ...current, settledAgeMa, layers, selections, loadingLayers, layerErrors }
+        return { ...current, settledAgeMa, layers: sameLayers(layers, current.layers) ? current.layers : layers, selections, loadingLayers, layerErrors }
       })
     })
 
-    for (const selection of targetSelections) {
-      loadPaleogeographyLayerAtAge(selection.selectedAgeMa, selection.layerId).then((result) => {
-        if (generation.current !== currentGeneration || !result) return
-        setState((current) => ({
-          ...current,
-          layers: { ...current.layers, [selection.layerId]: result.collection },
-          selections: { ...current.selections, [selection.layerId]: result.selection },
-          loadingLayers: { ...current.loadingLayers, [selection.layerId]: false },
-        }))
-      }, (error) => {
-        if (generation.current !== currentGeneration) return
-        setState((current) => ({
-          ...current,
-          loadingLayers: { ...current.loadingLayers, [selection.layerId]: false },
-          layerErrors: { ...current.layerErrors, [selection.layerId]: error instanceof Error ? error.message : String(error) },
-        }))
+    // Commit one coherent visible frame, instead of repainting the full globe
+    // separately for coastline, plate polygons, and each boundary response.
+    void Promise.allSettled(targetSelections.map(selection =>
+      loadPaleogeographyLayerAtAge(selection.selectedAgeMa, selection.layerId),
+    )).then(results => {
+      if (generation.current !== currentGeneration) return
+      setState(current => {
+        const layers = { ...current.layers }
+        const selections = { ...current.selections }
+        const loadingLayers = { ...current.loadingLayers }
+        const layerErrors = { ...current.layerErrors }
+        results.forEach((result, index) => {
+          const id = targetSelections[index].layerId
+          loadingLayers[id] = false
+          if (result.status === 'fulfilled' && result.value) {
+            layers[id] = result.value.collection
+            selections[id] = result.value.selection
+            delete layerErrors[id]
+          } else if (result.status === 'rejected') {
+            layerErrors[id] = result.reason instanceof Error ? result.reason.message : String(result.reason)
+          }
+        })
+        return { ...current, layers: sameLayers(layers, current.layers) ? current.layers : layers, selections, loadingLayers, layerErrors }
       })
-    }
+    })
     return () => { generation.current += 1 }
   // targetKey is the stable checksum-addressed generation identity for every requested layer.
   // eslint-disable-next-line react-hooks/exhaustive-deps

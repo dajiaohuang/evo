@@ -20,9 +20,11 @@ for (const width of [1440, 390]) {
       await page.mouse.move(box.x + box.width * .5, box.y + box.height * .5)
       await page.mouse.down()
       await page.mouse.move(box.x + box.width * .7, box.y + box.height * .55, { steps: 20 })
+      await expect.poll(async () => await canvas.getAttribute('data-center') === await canvas.getAttribute('data-requested-center')).toBe(true)
       const held = await landPixels()
       const center = await canvas.getAttribute('data-center')
       await page.mouse.up()
+      await expect(canvas).toHaveAttribute('data-render-quality', 'full')
       await expect(canvas).toHaveAttribute('data-center', center!)
       const resting = await landPixels()
       // A flipped island used to cover the globe during the held drag and

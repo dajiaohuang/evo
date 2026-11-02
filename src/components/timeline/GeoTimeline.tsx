@@ -20,6 +20,7 @@ export function GeoTimeline() {
   const currentAgeUnit = useAppStore((s) => s.currentAgeUnit)
   const currentEon = useAppStore((s) => s.currentEon)
   const setTime = useAppStore((s) => s.setTime)
+  const setTimelineInteracting = useAppStore((s) => s.setTimelineInteracting)
   const svgRef = useRef<SVGSVGElement>(null)
   const [dragging, setDragging] = useState(false)
   const [width, setWidth] = useState(800)
@@ -33,6 +34,7 @@ export function GeoTimeline() {
   const playbackAgeRef = useRef(currentAge)
   const [interactionAge, setInteractionAge] = useState<number | null>(null)
   const lastCommit = useRef(0)
+  const latestPointerX = useRef<number | null>(null)
   const displayedAge = interactionAge ?? currentAge
 
   const activeScaleMode = currentAge > PHANEROZOIC_TOTAL_MA ? 'earth' : scaleMode
@@ -49,11 +51,13 @@ export function GeoTimeline() {
 
   const handlePointerMove = useCallback((e: PointerEvent) => {
     if (!dragging || !svgRef.current) return
-    cancelAnimationFrame(rafRef.current)
+    latestPointerX.current = e.clientX
+    if (rafRef.current) return
     rafRef.current = requestAnimationFrame(() => {
+      rafRef.current = 0
       if (!svgRef.current) return
       const rect = svgRef.current.getBoundingClientRect()
-      const x = e.clientX - rect.left
+      const x = latestPointerX.current! - rect.left
       const age = xToAge(x, rect.width)
       playbackAgeRef.current = age
       setInteractionAge(age)
@@ -64,21 +68,28 @@ export function GeoTimeline() {
     })
   }, [dragging, xToAge, setTime])
 
-  const handlePointerUp = useCallback(() => {
+  const handlePointerUp = useCallback((event: PointerEvent) => {
     cancelAnimationFrame(rafRef.current)
+    rafRef.current = 0
+    if (svgRef.current && event.type !== 'pointercancel') {
+      const rect = svgRef.current.getBoundingClientRect()
+      playbackAgeRef.current = xToAge(event.clientX - rect.left, rect.width)
+    }
     setTime(playbackAgeRef.current)
     setInteractionAge(null)
     setDragging(false)
-  }, [setTime])
+  }, [setTime, xToAge])
   useEffect(() => () => cancelAnimationFrame(rafRef.current), [])
 
   useEffect(() => {
     if (dragging) {
       window.addEventListener('pointermove', handlePointerMove)
       window.addEventListener('pointerup', handlePointerUp)
+      window.addEventListener('pointercancel', handlePointerUp)
       return () => {
         window.removeEventListener('pointermove', handlePointerMove)
         window.removeEventListener('pointerup', handlePointerUp)
+        window.removeEventListener('pointercancel', handlePointerUp)
       }
     }
   }, [dragging, handlePointerMove, handlePointerUp])
@@ -93,7 +104,11 @@ export function GeoTimeline() {
     return () => observer.disconnect()
   }, [])
 
-  useEffect(() => { playbackAgeRef.current = currentAge }, [currentAge])
+  useEffect(() => { if (!dragging && !playing) playbackAgeRef.current = currentAge }, [currentAge, dragging, playing])
+  useEffect(() => {
+    setTimelineInteracting(dragging || playing)
+    return () => setTimelineInteracting(false)
+  }, [dragging, playing, setTimelineInteracting])
   useEffect(() => {
     if (!playing) return
     let previous = performance.now()
@@ -114,16 +129,19 @@ export function GeoTimeline() {
     return () => cancelAnimationFrame(playbackRafRef.current)
   }, [playing, setTime, speed])
 
-  const handlePointerDown = useCallback(() => {
-    setPlaying(false)
-    setDragging(true)
-  }, [])
-
   const handleTrackClick = useCallback((e: React.PointerEvent) => {
-    if (!svgRef.current) return
+    if (!svgRef.current || e.button !== 0 || !e.isPrimary) return
+    e.preventDefault()
+    e.currentTarget.setPointerCapture(e.pointerId)
     const rect = svgRef.current.getBoundingClientRect()
     const x = e.clientX - rect.left
     const age = xToAge(x, rect.width)
+    playbackAgeRef.current = age
+    latestPointerX.current = e.clientX
+    setPlaying(false)
+    setDragging(true)
+    setInteractionAge(age)
+    lastCommit.current = performance.now()
     setTime(age)
   }, [xToAge, setTime])
 
@@ -169,7 +187,7 @@ export function GeoTimeline() {
       </div>
       <svg
         ref={svgRef}
-        style={{ width: '100%', height: '100%', cursor: dragging ? 'ew-resize' : 'default' }}
+        style={{ width: '100%', height: '100%', cursor: dragging ? 'ew-resize' : 'default', touchAction: 'none' }}
         onPointerDown={handleTrackClick}
       >
         <title>{t('Geological time control. Current context: {context}.', { context: localizedFinestUnit })}</title>
@@ -268,7 +286,6 @@ export function GeoTimeline() {
           stroke="var(--color-text)"
           strokeWidth={2}
           style={{ cursor: 'ew-resize' }}
-          onPointerDown={handlePointerDown}
         />
         <text
           x={handleX}

@@ -1,0 +1,19 @@
+import assert from 'node:assert/strict'
+import { readFileSync,writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { DatabaseSync } from 'node:sqlite'
+import { checkPageAudit } from './wikipedia-col-audit-preflight-check.mjs'
+const root='.git/evo-wikipedia-col26-8/',sha=b=>createHash('sha256').update(b).digest('hex'),db=new DatabaseSync(root+'inventory.sqlite'),audit=new DatabaseSync('C:/Users/dajiaohuang/.codex/evo-link-sources/full-page-audit.sqlite')
+for(const d of [db,audit])d.exec('PRAGMA busy_timeout=15000')
+try{
+ const exclusions=readFileSync('C:/Users/dajiaohuang/.codex/evo-link-sources/page-audit-exclusions.json');checkPageAudit(audit,db,exclusions)
+ const evidence=readFileSync(root+'salta-homonym-check.json'),data=JSON.parse(evidence),get=db.prepare('SELECT id,name,rank,parent_id FROM nodes WHERE id=?'),source=get.get('7BYQ'),child=get.get('79FKW');assert.equal(source.name,'Salta');assert.equal(source.rank,'genus');assert.equal(child.name,'Salta triflora');assert.equal(child.parent_id,source.id)
+ assert.ok(data.items.Q36307.instances.includes('Q5770918'));assert.ok(!data.items.Q36307.names.length);assert.ok(data.items.Q18077142.colIds.includes(child.id));assert.ok(data.items.Q18077142.names.includes(child.name))
+ const city=data.rows.filter(r=>r.query.pages[0].pageprops?.wikibase_item==='Q36307').map(r=>`https://${r.locale}.wikipedia.org/wiki/Salta`),ceb=data.rows.find(r=>r.locale==='ceb');assert.equal(city.length,6);assert.equal(ceb.query.pages[0].pageprops.wikibase_item,'Q18077142');assert.equal(ceb.query.pages[0].title,child.name)
+ const item='https://www.wikidata.org/entity/Q18077142',link='https://ceb.wikipedia.org/wiki/Salta',meta=db.prepare('SELECT value FROM meta WHERE key=?'),keys=['ncbi_candidate_identity_holds_sha256','candidate_identity_held_urls_sha256','primary_related_source_sha256'],previous=Object.fromEntries(keys.map(k=>[k,meta.get(k).value]));for(const value of Object.values(previous))assert.match(value,/^[0-9a-f]{64}$/)
+ assert.ok(!db.prepare('SELECT 1 FROM primary_related_candidates WHERE node_id=? AND target_item=? AND target_url=?').get(source.id,item,link))
+ const proof=Buffer.from(JSON.stringify({previous,evidenceSha256:sha(evidence),exclusionsSha256:sha(exclusions),source,child,city,link,checkedAt:new Date().toISOString()}));writeFileSync(root+'salta-homonym-resolution.json',proof,{flag:'wx'})
+ audit.exec('BEGIN IMMEDIATE');try{const old=audit.prepare('SELECT status,actual_item FROM jobs WHERE url=? AND item=?').get(link,item);if(old){assert.ok(['matched','snapshot-matched'].includes(old.status));assert.equal(old.actual_item,'Q18077142')}else audit.prepare('INSERT INTO jobs(url,item,locale,title,status,target_title,actual_item,checked_at) VALUES(?,?,?,?,?,?,?,?)').run(link,item,'ceb','Salta','matched',child.name,'Q18077142',data.checkedAt);audit.exec('COMMIT')}catch(e){audit.exec('ROLLBACK');throw e}
+ db.exec('BEGIN IMMEDIATE');try{for(const k of keys)assert.equal(meta.get(k).value,previous[k]);db.prepare('INSERT OR IGNORE INTO ncbi_candidate_identity_holds(node_id,item,reason) VALUES(?,?,?)').run(source.id,'https://www.wikidata.org/entity/Q36307','The page describes an Argentinian city, not the taxon');const hold=db.prepare('INSERT OR IGNORE INTO candidate_identity_held_urls(node_id,url) VALUES(?,?)');for(const u of city)hold.run(source.id,u);db.prepare('INSERT INTO primary_related_candidates VALUES(?,?,?,?,?,?,?,?)').run(source.id,'Wikipedia:ceb:Salta',link,item,link,child.name,JSON.stringify(['tree-descendant-page']),JSON.stringify([child.id]));const update=db.prepare('UPDATE meta SET value=? WHERE key=?');for(const k of keys)update.run(sha(proof),k);db.exec('COMMIT')}catch(e){db.exec('ROLLBACK');throw e}
+ console.log(JSON.stringify({status:'resolved',node:source.id,heldCityUrls:city.length,descendant:child.id}))
+}finally{db.close();audit.close()}

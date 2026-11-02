@@ -1,16 +1,18 @@
 import { useEffect, useEffectEvent, useLayoutEffect, useMemo, useRef, useState } from 'react'
-import { geoGraticule10, geoPath } from 'd3'
 import type { MapViewState } from '../../types'
 import type { FossilMarkerMode } from '../../store/mapSlice'
 import type { RuntimePaleotopographyCollection, RuntimePaleotopographyFrame } from '../../data-client/types'
-import { createMapProjection, normalizeMapView, panMapView, zoomMapView, visiblePointProjector, type MapProjectionId } from '../../utils/mapProjection'
+import { createMapProjection, normalizeMapView, panMapView, zoomMapView, type MapProjectionId } from '../../utils/mapProjection'
 import { useI18n } from '../../i18n'
 import { PaleotopographyLayer } from './PaleotopographyLayer'
 import type { MapPoint, MapShape } from './mapScene'
 import './ProjectedMap.css'
-import { mapDisplayDetail } from '../../utils/mapDisplayDetail'
+import { paintMapGeometry } from '../../utils/mapVectorRendering'
+import { paintMapPoints, type ScreenPoint } from '../../utils/mapCanvasPoints'
+import { useMapVectorWorker } from '../../hooks/useMapVectorWorker'
 
 interface Props {
+  timeInteracting?: boolean
   projectionId: MapProjectionId
   view: MapViewState
   onViewChange: (view: MapViewState) => void
@@ -27,14 +29,11 @@ interface Props {
   onTerrainStatus: (status: 'loading' | 'ready' | 'error', error?: string) => void
 }
 
-interface ScreenPoint extends MapPoint { x: number; y: number }
 interface ShapeHit { path: Path2D; shape: MapShape }
-const graticule = geoGraticule10()
-const projectionPath = () => Object.assign(new Path2D(), { beginPath() {} })
 
 const NO_NODE_POINTS: MapPoint[] = []
 
-export function ProjectedMap({ projectionId, view, onViewChange, onProjectionChange, panelsVisible, onTogglePanels, shapes, fossils, observations, nodePoints = NO_NODE_POINTS, markerMode, onSelect, terrain, onTerrainStatus }: Props) {
+export function ProjectedMap({ timeInteracting = false, projectionId, view, onViewChange, onProjectionChange, panelsVisible, onTogglePanels, shapes, fossils, observations, nodePoints = NO_NODE_POINTS, markerMode, onSelect, terrain, onTerrainStatus }: Props) {
   const { t, number, language } = useI18n()
   const hostRef = useRef<HTMLDivElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -51,14 +50,40 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
   const hitsRef = useRef<{ points: ScreenPoint[]; shapes: ShapeHit[] }>({ points: [], shapes: [] })
   const paintCount = useRef(0)
   const latestInputTime = useRef(0)
+  const wheelEndRef = useRef<ReturnType<typeof setTimeout> | null>(null)
   const projection = useMemo(() => createMapProjection(projectionId, camera, size), [projectionId, camera, size])
-  const displayZoom = Math.ceil(camera.zoom)
-  const movingShapes = useMemo(() => shapes.map((shape) => shape.fill
-    ? shape
-    : { ...shape, geometry: mapDisplayDetail(shape.geometry, displayZoom) }), [shapes, displayZoom])
+  const displayedShapes = useRef(shapes)
+  const hoverSequence = useRef(0)
+  const vectorWorker = useMapVectorWorker(!terrain && !fossils.length, (frame, snapshot) => {
+    const canvas = canvasRef.current
+    const context = canvas?.getContext('2d')
+    if (!canvas || !context) { frame.bitmap.close(); return }
+    const started = performance.now()
+    if (canvas.width !== frame.bitmap.width) canvas.width = frame.bitmap.width
+    if (canvas.height !== frame.bitmap.height) canvas.height = frame.bitmap.height
+    context.resetTransform()
+    context.clearRect(0, 0, canvas.width, canvas.height)
+    context.drawImage(frame.bitmap, 0, 0); frame.bitmap.close()
+    context.setTransform(snapshot.ratio, 0, 0, snapshot.ratio, 0, 0)
+    const projection = createMapProjection(snapshot.projectionId, snapshot.camera, snapshot.size)
+    const points = paintMapPoints(context, projection, NO_NODE_POINTS, snapshot.observations, snapshot.nodePoints, markerMode,
+      count => t('{count} sampled occurrences', { count }))
+    hitsRef.current = { points, shapes: [] }
+    displayedShapes.current = snapshot.shapes
+    const elapsed = performance.now() - started
+    recordFrame(canvas, snapshot.camera, snapshot.projectionId, points.length, snapshot.nodePoints.length, elapsed,
+      [0, 0, elapsed, 0], snapshot.inputTime)
+    canvas.dataset.workerMs = frame.renderMs.toFixed(2)
+    canvas.dataset.geometryMs = frame.geometryMs.toFixed(2)
+    canvas.dataset.drawingMs = frame.drawingMs.toFixed(2)
+    canvas.dataset.renderer = 'worker'
+    canvas.dataset.renderQuality = snapshot.preview ? 'preview' : 'full'
+  })
 
   const applyExternalView = useEffectEvent(() => {
-    cameraRef.current = normalizeMapView(view, projectionId)
+    const next = normalizeMapView(view, projectionId)
+    if (next.zoom === cameraRef.current.zoom && next.center.every((value, i) => value === cameraRef.current.center[i])) return
+    cameraRef.current = next
     setCamera(cameraRef.current)
   })
   useEffect(() => { applyExternalView() }, [view, projectionId])
@@ -75,6 +100,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     return () => {
       observer.disconnect()
       if (frameRef.current !== null) cancelAnimationFrame(frameRef.current)
+      if (wheelEndRef.current !== null) clearTimeout(wheelEndRef.current)
       frameRef.current = null
       dragRef.current = null
       pointers.clear()
@@ -99,7 +125,14 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     latestInputTime.current = performance.now()
     updateView(zoomMapView(cameraRef.current, projectionId, size,
       cameraRef.current.zoom - delta * (event.ctrlKey ? .01 : .002),
-      [event.clientX - bounds.left, event.clientY - bounds.top]), true)
+      [event.clientX - bounds.left, event.clientY - bounds.top]))
+    setInteracting(true)
+    if (wheelEndRef.current !== null) clearTimeout(wheelEndRef.current)
+    wheelEndRef.current = setTimeout(() => {
+      wheelEndRef.current = null
+      if (!pointersRef.current.size) setInteracting(false)
+      onViewChange(cameraRef.current)
+    }, 140)
     setTooltip(null)
   })
   useEffect(() => {
@@ -112,115 +145,46 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
     return () => canvas.removeEventListener('wheel', wheel)
   }, [])
 
-  // Each camera frame projects geographic coordinates again. No bitmap/CSS pan.
-  useLayoutEffect(() => {
-    const started = performance.now()
-    const canvas = canvasRef.current
-    const context = canvas?.getContext('2d')
-    if (!canvas || !context || size.width < 2 || size.height < 2) return
-    const pixelRatio = Math.min(window.devicePixelRatio || 1, 2)
-    const width = Math.round(size.width * pixelRatio); const height = Math.round(size.height * pixelRatio)
-    if (canvas.width !== width) canvas.width = width
-    if (canvas.height !== height) canvas.height = height
-    context.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0)
-    context.clearRect(0, 0, size.width, size.height)
-    const path = geoPath(projection)
-    const outline = projectionPath()
-    path.context(outline)({ type: 'Sphere' })
-    if (!terrain) {
-      context.fillStyle = '#0b293b'
-      context.fill(outline)
-    }
-    context.strokeStyle = '#48636d'
-    context.lineWidth = 1
-    context.stroke(outline)
-    const grid = projectionPath()
-    path.context(grid)(graticule)
-    context.strokeStyle = '#35505a'
-    context.globalAlpha = .45
-    context.lineWidth = .5
-    context.stroke(grid)
-    const gridFinished = performance.now()
-    const shapeHits: ShapeHit[] = []
-    for (const shape of interacting ? movingShapes : shapes) {
-      const outline = projectionPath()
-      path.context(outline)(shape.geometry)
-      if (shape.fill) {
-        context.fillStyle = shape.fill
-        context.globalAlpha = shape.fillOpacity ?? 1
-        context.fill(outline)
-      }
-      if (shape.width > 0) {
-        context.strokeStyle = shape.stroke
-        context.lineWidth = shape.width
-        context.globalAlpha = shape.opacity ?? 1
-        context.setLineDash(shape.dash ?? [])
-        context.stroke(outline)
-      }
-      if (shape.label) shapeHits.push({ path: outline, shape })
-    }
-    context.setLineDash([])
-    const shapesFinished = performance.now()
-    const projectPoint = visiblePointProjector(projection)
-    const project = (points: MapPoint[]): ScreenPoint[] => points.flatMap((point) => {
-      const pixel = projectPoint(point.position)
-      return pixel ? [{ ...point, x: pixel[0], y: pixel[1] }] : []
-    })
-    const rawFossils = project(fossils)
-    let displayedFossils = rawFossils
-    if (markerMode !== 'points' && rawFossils.length > 20) {
-      const gridSize = markerMode === 'density' ? 70 : 40
-      const buckets = new Map<string, ScreenPoint[]>()
-      for (const point of rawFossils) {
-        if (point.radius === 7) continue // Preserve selected fossils above clusters.
-        const key = `${Math.floor(point.x / gridSize)},${Math.floor(point.y / gridSize)}`
-        const bucket = buckets.get(key)
-        if (bucket) bucket.push(point)
-        else buckets.set(key, [point])
-      }
-      displayedFossils = [...buckets.values()].map((points) => points.length === 1 ? points[0] : {
-        position: points[0].position,
-        x: points.reduce((sum, point) => sum + point.x, 0) / points.length,
-        y: points.reduce((sum, point) => sum + point.y, 0) / points.length,
-        radius: Math.min(markerMode === 'density' ? 28 : 20, 6 + Math.log2(points.length + 1) * 3),
-        color: markerMode === 'density' ? '#f58a65' : '#ffd700',
-        opacity: markerMode === 'density' ? .24 : .4,
-        label: t('{count} sampled occurrences', { count: points.length }),
-      }).concat(rawFossils.filter((point) => point.radius === 7))
-    }
-    const points = [...project(observations), ...displayedFossils, ...project(nodePoints)]
-    const pointsFinished = performance.now()
-    for (const point of points) {
-      context.beginPath()
-      context.arc(point.x, point.y, point.radius, 0, 2 * Math.PI)
-      context.fillStyle = point.color
-      context.globalAlpha = point.opacity
-      context.fill()
-      context.strokeStyle = point.color
-      context.globalAlpha = .9
-      context.lineWidth = point.radius === 7 ? 2 : .7
-      context.stroke()
-      if (point.nodeMap && point.nodeMap.count > 1) {
-        context.globalAlpha = 1
-        context.fillStyle = '#172628'
-        context.font = 'bold 11px system-ui'
-        context.textAlign = 'center'
-        context.textBaseline = 'middle'
-        context.fillText(String(point.nodeMap.count), point.x, point.y)
-      }
-    }
-    context.globalAlpha = 1
-    hitsRef.current = { points, shapes: shapeHits }
+  function recordFrame(canvas: HTMLCanvasElement, camera: MapViewState, projectionId: MapProjectionId,
+    pointCount: number, nodeCount: number, elapsed: number, phases: number[], inputTime: number) {
     canvas.dataset.renderCount = String(++paintCount.current)
     canvas.dataset.projection = projectionId
     canvas.dataset.center = camera.center.join(',')
     canvas.dataset.zoom = String(camera.zoom)
-    canvas.dataset.pointCount = String(points.length)
-    canvas.dataset.nodePointCount = String(nodePoints.length)
-    canvas.dataset.renderMs = (performance.now() - started).toFixed(2)
-    canvas.dataset.phases = [gridFinished - started, shapesFinished - gridFinished, pointsFinished - shapesFinished, performance.now() - pointsFinished].map((value) => value.toFixed(2)).join(',')
-    canvas.dataset.inputLatencyMs = latestInputTime.current ? (performance.now() - latestInputTime.current).toFixed(2) : '0'
-  }, [camera, size, projection, projectionId, shapes, movingShapes, interacting, fossils, observations, nodePoints, markerMode, terrain, t])
+    canvas.dataset.pointCount = String(pointCount)
+    canvas.dataset.nodePointCount = String(nodeCount)
+    canvas.dataset.renderMs = elapsed.toFixed(2)
+    canvas.dataset.phases = phases.map(value => value.toFixed(2)).join(',')
+    canvas.dataset.inputLatencyMs = inputTime ? (performance.now() - inputTime).toFixed(2) : '0'
+  }
+
+  // Geographic coordinates are reprojected for each camera; no stretched bitmap pan.
+  const submitWorker = useEffectEvent(() => vectorWorker.render({ camera, projectionId, size,
+    ratio: Math.min(window.devicePixelRatio || 1, 2), preview: interacting || timeInteracting,
+    shapes, observations, nodePoints, inputTime: latestInputTime.current }))
+  useLayoutEffect(() => {
+    const canvas = canvasRef.current
+    if (!canvas || size.width < 2 || size.height < 2) return
+    canvas.dataset.requestedCenter = camera.center.join(',')
+    canvas.dataset.requestedZoom = String(camera.zoom)
+    if (vectorWorker.active) { submitWorker(); return }
+    const context = canvas.getContext('2d')
+    if (!context) return
+    const started = performance.now()
+    const ratio = Math.min(window.devicePixelRatio || 1, 2)
+    const geometry = paintMapGeometry(context, shapes, projection, size, ratio,
+      interacting || timeInteracting ? Math.ceil(camera.zoom) : null, Boolean(terrain))
+    const pointStart = performance.now()
+    const points = paintMapPoints(context, projection, fossils, observations, nodePoints, markerMode,
+      count => t('{count} sampled occurrences', { count }))
+    hitsRef.current = { points, shapes: geometry.hits.map(hit => ({ path: hit.path, shape: shapes[hit.index] })) }
+    recordFrame(canvas, camera, projectionId, points.length, nodePoints.length, performance.now() - started,
+      [geometry.gridMs, geometry.shapeMs, performance.now() - pointStart, 0], latestInputTime.current)
+    canvas.dataset.geometryMs = geometry.geometryMs.toFixed(2)
+    canvas.dataset.drawingMs = geometry.drawingMs.toFixed(2)
+    canvas.dataset.renderer = 'main'
+    canvas.dataset.renderQuality = interacting || timeInteracting ? 'preview' : 'full'
+  }, [camera, size, projection, projectionId, shapes, interacting, timeInteracting, fossils, observations, nodePoints, markerMode, terrain, t, vectorWorker.active])
 
   function hitAt(x: number, y: number): { point?: MapPoint; label: string } | null {
     for (const point of [...hitsRef.current.points].reverse()) {
@@ -277,6 +241,7 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
         if (pinchRef.current) { pinchedRef.current = true; dragRef.current = null }
         else dragRef.current = { id: event.pointerId, x: event.clientX, y: event.clientY, distance: 0 }
         setInteracting(true)
+        hoverSequence.current++
         setTooltip(null)
       }}
       onPointerMove={(event) => {
@@ -307,6 +272,12 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
           const x = event.clientX - bounds.left; const y = event.clientY - bounds.top
           const hit = hitAt(x, y)
           setTooltip(hit ? { x, y, label: hit.label } : null)
+          const sequence = ++hoverSequence.current
+          if (!hit && vectorWorker.active) void vectorWorker.hit(x, y).then(index => {
+            if (sequence !== hoverSequence.current || pointersRef.current.size) return
+            const shape = index === null ? null : displayedShapes.current[index]
+            setTooltip(shape?.label ? { x, y, label: shape.label } : null)
+          })
         }
       }}
       onPointerUp={(event) => {
@@ -315,11 +286,19 @@ export function ProjectedMap({ projectionId, view, onViewChange, onProjectionCha
           const bounds = event.currentTarget.getBoundingClientRect()
           const point = hitAt(event.clientX - bounds.left, event.clientY - bounds.top)?.point
           if (point) onSelect(point)
+          else if (vectorWorker.active) {
+            const scene = displayedShapes.current
+            void vectorWorker.hit(event.clientX - bounds.left, event.clientY - bounds.top).then(index => {
+              if (scene !== displayedShapes.current) return
+              const point = index === null ? null : scene[index]?.point
+              if (point) onSelect(point)
+            })
+          }
         }
         finishPointer(event.pointerId)
       }}
       onPointerCancel={(event) => finishPointer(event.pointerId)} onLostPointerCapture={(event) => finishPointer(event.pointerId)}
-      onPointerLeave={() => { if (!pointersRef.current.size) setTooltip(null) }}
+      onPointerLeave={() => { if (!pointersRef.current.size) { hoverSequence.current++; setTooltip(null) } }}
       onKeyDown={(event) => {
         const moves: Record<string, [number, number]> = { ArrowLeft: [40, 0], ArrowRight: [-40, 0], ArrowUp: [0, 40], ArrowDown: [0, -40] }
         if (moves[event.key]) updateView(panMapView(cameraRef.current, projectionId, size, ...moves[event.key]), true)

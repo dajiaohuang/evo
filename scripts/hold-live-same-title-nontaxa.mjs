@@ -1,0 +1,78 @@
+import assert from 'node:assert/strict'
+import { readFileSync,writeFileSync } from 'node:fs'
+import { createHash } from 'node:crypto'
+import { DatabaseSync } from 'node:sqlite'
+import { checkPageAudit } from './wikipedia-col-audit-preflight-check.mjs'
+const root='.git/evo-wikipedia-col26-8/',sha=b=>createHash('sha256').update(b).digest('hex'),db=new DatabaseSync(root+'inventory.sqlite'),audit=new DatabaseSync('C:/Users/dajiaohuang/.codex/evo-link-sources/full-page-audit.sqlite',{readOnly:true}),live=new DatabaseSync(root+'live-snapshot-page-audit.sqlite',{readOnly:true})
+for(const d of [db,audit,live])d.exec('PRAGMA busy_timeout=15000')
+try{
+ const exclusions=readFileSync('C:/Users/dajiaohuang/.codex/evo-link-sources/page-audit-exclusions.json');checkPageAudit(audit,db,exclusions)
+ const after=Number(process.argv[2]??0);assert.ok(Number.isSafeInteger(after)&&after>=0)
+ const locale=process.argv[3]??'sv';assert.match(locale,/^[a-z0-9-]+$/);const suffix=locale==='sv'?'':locale+'-'
+ const redirects=process.argv.includes('--redirects'),mode=redirects?'redirect':'same'
+ const bytes=readFileSync(root+`live-${mode}-title-identities-${suffix}after-${after}.json`),data=JSON.parse(bytes);assert.equal(data.after,after);if(data.locale)assert.equal(data.locale,locale);if(data.redirects!==undefined)assert.equal(data.redirects,redirects)
+ const classes={Q856076:'municipality',Q20202352:'locality',Q515:'city',Q3957:'town',Q5:'human',Q182406:'mythological figure',Q1916821:'deity',Q11879590:'given name',Q16513881:'deity',Q842697:'deity',Q23847174:'religious concept',Q74359:'fictional character',Q55740544:'fictional character',Q15773347:'fictional character',Q188451:'music genre',Q56019:'military rank',Q3320743:'title',Q1549591:'city',Q1093829:'city',Q465434:'deity',Q33104279:'philosophical concept',Q108178728:'national capital',Q2074737:'municipality',Q4271324:'mythical character',Q178885:'deity',Q11424:'film',Q486972:'human settlement',Q110071230:'town',Q1161185:'island',Q1547772:'star',Q3257686:'locality'}
+ Object.assign(classes,{Q1134686:'Italian locality',Q188497:'military corps',Q167270:'trademark',Q22988604:'mythological character',Q162304:'space program',Q1298668:'science project',Q130386771:'government project'})
+ Object.assign(classes,{Q12813115:'urban area',Q2602693:'municipality',Q223832:'dominion',Q202686:'Commonwealth realm',Q3624078:'sovereign state',Q6256:'country',Q43702:'federation',Q41710:'ethnic group',Q3139516:'ecclesiastical occupation',Q105543609:'musical composition',Q22580836:'village',Q16355778:'village',Q493522:'municipality',Q23397:'lake'})
+ Object.assign(classes,{Q264965:'subculture',Q19116554:'youth subculture',Q2198855:'cultural movement',Q82794:'region',Q3184121:'municipality',Q1081138:'historic site',Q15661340:'ancient city',Q42594143:'deity'})
+ Object.assign(classes,{Q45713:'mythological figure',Q11344:'chemical element',Q3658631:'chemical element',Q5055981:'municipality',Q202444:'given name',Q6058157:'deity',Q3512027:'deity',Q3744870:'township',Q15284:'municipality',Q482994:'album',Q65807521:'illness',Q169872:'symptom',Q112965645:'symptom',Q1445650:'holiday',Q60075825:'holy day',Q375011:'religious holiday',Q4022:'river'})
+ Object.assign(classes,{Q2139:'moon',Q1632885:'moon',Q5398426:'television series',Q2264924:'port city',Q3192808:'municipality',Q13539802:'town',Q1852859:'settlement'})
+ Object.assign(classes,{Q532:'village',Q1115575:'civil parish',Q120170641:'mock town',Q175185:'rural area',Q831889:'district',Q295469:'ecoregion',Q24764:'municipality',Q1130279:'given name',Q9614:'anatomical organ',Q1002697:'periodical',Q1059478:'town',Q148837:'ancient city',Q93342462:'archaeological site',Q6113985:'religious text'})
+ Object.assign(classes,{Q202595:'prefecture',Q19953632:'former administrative territory',Q34379:'musical instrument'})
+ Object.assign(classes,{Q59199015:'chemical stereoisomer group',Q498162:'census designated place',Q1577513:'municipality',Q46395:'overseas territory'})
+ Object.assign(classes,{Q41253:'movie theater',Q52815:'movie theater',Q2974842:'lost city',Q494511:'deity',Q1620908:'historical region',Q215380:'musical group'})
+ Object.assign(classes,{Q6881511:'enterprise',Q494721:'city',Q15711870:'animated character',Q80447738:'anime character',Q1114461:'comics character'})
+ Object.assign(classes,{Q4830453:'business',Q431289:'brand',Q188509:'suburb',Q747074:'municipality',Q42298422:'slang term',Q30301495:'legendary bird',Q134556:'music single',Q7725634:'literary work',Q110295396:'musical instrument',Q35657:'US state',Q2140699:'wine-producing region'})
+ Object.assign(classes,{Q12308941:'given name',Q3685476:'former municipality'})
+ Object.assign(classes,{Q19793459:'Greek letter',Q484170:'municipality',Q878099:'deity',Q3346693:'mythological figure',Q3024240:'historical country',Q2608811:'legal principle'})
+ Object.assign(classes,{Q116457956:'municipality',Q21752084:'archaeological site'})
+ Object.assign(classes,{Q979507:'deity',Q2095:'food',Q152559:'language',Q1972:'moon',Q8928:'constellation',Q28640:'profession'})
+ Object.assign(classes,{Q14978:'icebreaker'})
+ Object.assign(classes,{Q22989102:'deity',Q33742:'language',Q41176:'building',Q1065118:'district'})
+ Object.assign(classes,{Q20019082:'settlement',Q124078422:'weapon',Q786820:'automobile manufacturer',Q58483083:'musical work',Q3835961:'locality',Q1075:'color'})
+ Object.assign(classes,{Q182545:'stylistic device',Q1466031:'funeral home'})
+ Object.assign(classes,{Q11688446:'deity',Q524158:'deity',Q7889:'video game',Q4263830:'literary form'})
+ Object.assign(classes,{Q253019:'locality',Q262166:'municipality',Q182037:'mythological figure'})
+ Object.assign(classes,{Q107357104:'dance'})
+ Object.assign(classes,{Q146083:'deity',Q891723:'company',Q15632617:'fictional character',Q674775:'volcano',Q43742:'oasis'})
+ Object.assign(classes,{Q2152:'moon',Q15987302:'legal profession',Q61881575:'noble family',Q15149663:'state of Mexico'})
+ Object.assign(classes,{Q23442:'island',Q8171:'word',Q103843052:'brain region',Q45762:'language'})
+ Object.assign(classes,{Q11315:'shopping center',Q130212458:'village',Q2135465:'legal concept',Q205985:'deity'})
+ Object.assign(classes,{Q465299:'archaeological culture',Q735428:'town',Q12357920:'third-level administrative division',Q1500350:'township of China',Q1530705:'ward of Nepal',Q4845841:'settlement in Croatia',Q852859:'state of consciousness',Q191192:'mythological figure'})
+ Object.assign(classes,{Q8502:'mountain',Q78129516:'cloud feature',Q8142:'currency',Q41067667:'municipality'})
+ Object.assign(classes,{Q54050:'hill',Q108060298:'fictional world'})
+ Object.assign(classes,{Q1639634:'local government area',Q3231690:'car model',Q215655:'department',Q137424905:'material',Q7075402:'gesture',Q1402592:'island group'})
+ Object.assign(classes,{Q2178147:'trade association',Q60331415:'cloud classification'})
+ Object.assign(classes,{Q103817:'indigenous people',Q16335296:'historical profession',Q123705:'neighborhood',Q20643955:'biblical figure',Q5058355:'cellular component'})
+ Object.assign(classes,{Q17468533:'former municipality',Q1840368:'cloud type'})
+ Object.assign(classes,{Q56436498:'village',Q55433027:'dependency',Q657829:'moon',Q1952852:'municipality',Q25475921:'trade',Q7930989:'city or town'})
+ Object.assign(classes,{Q4672528:'cloud type',Q581450:'mythological figure'})
+ Object.assign(classes,{Q4313794:'populated place',Q47461344:'written work',Q16858213:'town',Q21070568:'historical or legendary person'})
+ Object.assign(classes,{Q24334685:'mythical entity',Q41162:'republic',Q117850:'doctrine'})
+ Object.assign(classes,{Q26701162:'vase form',Q13417114:'noble family',Q5770918:'city',Q2984210:'island'})
+ Object.assign(classes,{Q937876:'administrative region',Q34763:'peninsula',Q8072:'volcano',Q46831:'mountain range',Q4167836:'Wikimedia category',Q3177968:'waterhole',Q18691601:'ward of Tanzania',Q25391:'dune',Q21672098:'village of Ukraine',Q74047:'ghost town',Q1781058:'Albanian municipality',Q5154045:'commune of Albania'})
+ Object.assign(classes,{Q15059108:'administrative region',Q112826905:'anatomical entity',Q7703797:'territory'})
+ Object.assign(classes,{Q80930:'tragedy'})
+ Object.assign(classes,{Q22687:'bank',Q3467906:'virtual assistant'})
+ Object.assign(classes,{Q690175:'religious figure',Q44342:'legend'})
+ Object.assign(classes,{Q142714:'card game',Q172331:'liturgy'})
+ Object.assign(classes,{Q777342:'personal name',Q38058796:'language'})
+ Object.assign(classes,{Q501094:'state of Venezuela',Q317548:'resort town',Q1190993:'solar term'})
+ Object.assign(classes,{Q18551781:'subdistrict',Q12910132:'religious object'})
+ Object.assign(classes,{Q162620:'province of Spain',Q3179682:'Basque historical territory'})
+ Object.assign(classes,{Q132241:'festival',Q765865:'district of Belize',Q15127012:'town in the United States',Q3558970:'village of Poland',Q312457:'note value'})
+ Object.assign(classes,{Q751708:'village in the United States',Q1131296:'Portuguese parish',Q26211545:'Indonesian village',Q5456361:'fixed expression',Q187931:'phrase',Q30149195:'biblical concept'})
+ Object.assign(classes,{Q1758856:'commune of Mali',Q140422026:'cognomen'})
+ Object.assign(classes,{Q839954:'archaeological site',Q26214208:'set of mythological characters',Q108692698:'alchemical concept',Q1841634:'district of Rwanda'})
+ Object.assign(classes,{Q55237813:'village of New York'})
+ Object.assign(classes,{Q35102:'proverb',Q207320:'paramilitary organization'})
+ Object.assign(classes,{Q15921247:'Romanian administrative locality',Q4167410:'Wikimedia disambiguation page',Q24529780:'coastal landform',Q37901:'strait',Q355304:'watercourse'})
+ Object.assign(classes,{Q47521:'stream',Q4389100:'district of Kyrgyzstan',Q196600:'media franchise',Q16465938:'seasonal river',Q590080:'region of Chile',Q24746:'province of the Philippines',Q5153359:'municipality of the Czech Republic',Q207524:'islet',Q217101:'spit'})
+ const explicitItems={Q132744:'fax communication',Q1364:'fruit',Q126287984:'religious schism',Q107885:'financial speculation',Q2314719:'army scout'}
+ const get=db.prepare('SELECT id,name,rank,parent_id FROM nodes WHERE id=?'),page=live.prepare("SELECT url,title,target_title,actual_item,status FROM results WHERE kind='unkeyed' AND locale=? AND source_rowid=?"),holds=[]
+ for(const r of data.rows){const type=r.instances.find(x=>classes[x])??(explicitItems[r.actual_item]?r.actual_item:null);if(!type||r.instances.includes('Q16521')||r.names.length)continue;assert.ok(r.node.rank);assert.deepEqual({...get.get(r.node.id)},r.node);const current=page.get(locale,r.source_rowid);assert.equal(current.url,r.url);assert.equal(current.title,r.title);assert.equal(current.target_title,r.target_title);assert.equal(current.actual_item,r.actual_item);assert.equal(current.status,'available');holds.push({node:r.node.id,item:`https://www.wikidata.org/entity/${r.actual_item}`,url:r.url,reason:`Page identifies ${classes[type]??explicitItems[type]}, not a taxon`,type})}
+ assert.ok(holds.length);const meta=db.prepare('SELECT value FROM meta WHERE key=?'),keys=['ncbi_candidate_identity_holds_sha256','candidate_identity_held_urls_sha256'],previous=Object.fromEntries(keys.map(k=>[k,meta.get(k).value]));for(const x of Object.values(previous))assert.match(x,/^[0-9a-f]{64}$/)
+ const proof=Buffer.from(JSON.stringify({previous,evidenceSha256:sha(bytes),exclusionsSha256:sha(exclusions),holds,checkedAt:new Date().toISOString()}));writeFileSync(root+`live-${mode}-title-nontaxa-holds-${suffix}after-${after}${process.argv.includes('--additional')?'-additional':''}.json`,proof,{flag:'wx'})
+ db.exec('BEGIN IMMEDIATE');try{for(const k of keys)assert.equal(meta.get(k).value,previous[k]);const item=db.prepare('INSERT OR IGNORE INTO ncbi_candidate_identity_holds(node_id,item,reason) VALUES(?,?,?)'),url=db.prepare('INSERT OR IGNORE INTO candidate_identity_held_urls(node_id,url) VALUES(?,?)');for(const h of holds){item.run(h.node,h.item,h.reason);url.run(h.node,h.url)}const update=db.prepare('UPDATE meta SET value=? WHERE key=?');for(const k of keys)update.run(sha(proof),k);db.exec('COMMIT')}catch(e){db.exec('ROLLBACK');throw e}
+ console.log(JSON.stringify({status:'held',count:holds.length,nodes:holds.map(h=>h.node)}))
+}finally{db.close();audit.close();live.close()}

@@ -210,7 +210,7 @@ CREATE TABLE "node_revision" (
   FOREIGN KEY (payload_artifact_sha256) REFERENCES artifact(sha256),
   PRIMARY KEY (id),
   CHECK ((json_type(source_files) = 'object')),
-  CHECK (document IS NULL OR (json_type(document,'$.node') = 'object' AND json_type(document,'$.evidence') = 'object' AND json_type(document,'$.pages') = 'object' AND json_type(document,'$.node.identity') = 'object') IS TRUE),
+  CHECK (document IS NULL OR (json_type(document,'$.node') = 'object' AND json_type(document,'$.evidence') IN ('object','null') AND json_type(document,'$.pages') = 'object' AND json_type(document,'$.node.identity') = 'object') IS TRUE),
   CHECK (document IS NOT NULL OR (payload_artifact_sha256 IS NOT NULL AND identity IS NOT NULL AND json_type(identity) = 'object'))
 );
 CREATE TRIGGER "node_revision_update_guard" BEFORE UPDATE ON "node_revision" BEGIN SELECT RAISE(ABORT, 'immutable historical row'); END;

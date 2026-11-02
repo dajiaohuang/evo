@@ -1,0 +1,58 @@
+import assert from 'node:assert/strict'
+import { createHash } from 'node:crypto'
+import { execFileSync } from 'node:child_process'
+import { cpSync, existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs'
+import { join, relative, resolve } from 'node:path'
+
+const [manifestArg, dataCommit] = process.argv.slice(2)
+assert.ok(manifestArg && /^[0-9a-f]{40}$/.test(dataCommit ?? ''), 'Provide reviewed manifest path and published data commit')
+const root = resolve('D:/repo/evo/.git/evo-wikipedia-col26-8')
+const work = join(root, 'ui-release-review-1'), build = join(root, 'ui-reviewed-build-2')
+const old = join(root, 'ui-overlay-publication-1'), output = join(root, 'ui-overlay-publication-2')
+const git = (...args) => execFileSync('rtk', ['proxy', 'git', ...args], { encoding: 'utf8' }).trim()
+const sha = bytes => createHash('sha256').update(bytes).digest('hex')
+assert.ok(!existsSync(output), 'Preserve previous publication material')
+assert.ok(existsSync(join(build, 'higher-search/manifest.json')), 'Missing reviewed higher taxon search index')
+const sourceCommit = git('-C', work, 'rev-parse', 'HEAD')
+assert.match(sourceCommit, /^[a-f0-9]{40}$/)
+assert.equal(git('-C', work, 'status', '--porcelain'), '', 'UI source checkout must be clean and committed')
+assert.equal(git('ls-remote', '--heads', 'https://github.com/dajiaohuang/evo.git', 'refs/heads/evo-wikipedia-data').split(/\s+/)[0], dataCommit, 'Data branch changed')
+const catalogue = readFileSync(resolve(manifestArg)), manifest = JSON.parse(catalogue)
+assert.equal(manifest.releaseAlias, 'COL26.8'); assert.equal(manifest.contentMode, 'links-only')
+const publishedManifest = await fetch(`https://raw.githubusercontent.com/dajiaohuang/evo/${dataCommit}/manifest.json`, { signal: AbortSignal.timeout(30000) })
+assert.ok(publishedManifest.ok, 'Published catalogue manifest unavailable')
+assert.equal(sha(Buffer.from(await publishedManifest.arrayBuffer())), sha(catalogue), 'Published catalogue manifest differs from reviewed data')
+const prior = JSON.parse(readFileSync(join(old, 'deployment-artifact.json'), 'utf8'))
+const live = await fetch('https://evo-lovat.vercel.app/evo/deployment.json', { signal: AbortSignal.timeout(30000) })
+assert.ok(live.ok, 'Current deployment descriptor unavailable')
+const descriptor = await live.json()
+assert.equal(descriptor.sourceCommit, prior.sourceCommit, 'Production UI changed')
+assert.equal(descriptor.overlay.sha256, prior.overlay.sha256, 'Production overlay changed')
+const oldArchive = join(old, 'evo-ui-overlay.tar.gz')
+assert.equal(sha(readFileSync(oldArchive)), prior.overlay.sha256, 'Stored prior overlay mismatch')
+const entries = execFileSync('rtk', ['proxy', 'tar', '-tzf', oldArchive], { encoding: 'utf8', maxBuffer: 16 * 1024 * 1024 }).trim().split(/\r?\n/)
+assert.ok(entries.every(entry => entry.startsWith('evo/') && !entry.includes('\\') && !entry.split('/').some(part => part === '..' || part.includes(':'))), 'Unsafe prior overlay path')
+mkdirSync(output)
+const original = join(output, 'original')
+mkdirSync(original)
+execFileSync('rtk', ['proxy', 'tar', '-xzf', oldArchive, '-C', original], { stdio: 'inherit' })
+const oldRoot = join(original, 'evo'), staged = join(output, 'staged'), newRoot = join(staged, 'evo')
+const replaced = new Set(readdirSync(build))
+cpSync(oldRoot, newRoot, { recursive: true, filter: path => { const rel = relative(oldRoot, path); return !rel || (rel.split(/[\\/]/)[0] !== 'assets' && !replaced.has(rel.split(/[\\/]/)[0])) } })
+cpSync(build, newRoot, { recursive: true })
+const releasePath = join(newRoot, 'release.json'), release = JSON.parse(readFileSync(releasePath, 'utf8'))
+assert.equal(release.deploymentCommitSha, prior.sourceCommit)
+release.deploymentCommitSha = sourceCommit; release.builtAt = new Date().toISOString()
+writeFileSync(releasePath, JSON.stringify(release, null, 2) + '\n')
+let files = 0, unpackedBytes = 0
+function count(path) { for (const name of readdirSync(path)) { const child = join(path, name), stat = statSync(child); if (stat.isDirectory()) count(child); else { files++; unpackedBytes += stat.size } } }
+count(staged)
+const archive = join(output, 'evo-ui-overlay.tar.gz')
+execFileSync('rtk', ['proxy', 'tar', '-czf', archive, '-C', staged, 'evo'], { stdio: 'inherit' })
+const data = readFileSync(archive), digest = sha(data), tag = 'vercel-ui-' + sourceCommit.slice(0, 12) + '-' + digest.slice(0, 8)
+descriptor.sourceCommit = sourceCommit; descriptor.releaseTargetCommit = sourceCommit; descriptor.packagedAt = new Date().toISOString()
+delete descriptor.deployedAt
+descriptor.overlay = { ...descriptor.overlay, url: `https://github.com/dajiaohuang/evo/releases/download/${tag}/evo-ui-overlay.tar.gz`, sha256: digest, bytes: data.length, files, unpackedBytes, catalogueManifestSha256: sha(catalogue), catalogueStats: manifest.stats, catalogueOrigin: `https://raw.githubusercontent.com/dajiaohuang/evo/${dataCommit}/` }
+writeFileSync(join(output, 'deployment-artifact.json'), JSON.stringify(descriptor, null, 2) + '\n', { flag: 'wx' })
+writeFileSync(join(output, 'receipt.json'), JSON.stringify({ sourceCommit, dataCommit, tag, archive, sha256: digest, bytes: data.length, files, unpackedBytes, catalogueManifestSha256: sha(catalogue) }, null, 2) + '\n', { flag: 'wx' })
+console.log(JSON.stringify({ sourceCommit, dataCommit, tag, sha256: digest, bytes: data.length, files }))
