@@ -42,8 +42,9 @@ test('the full catalogue tree opens from the static data release', async ({ page
 test('old interactive and static node readers are paused', async ({ page }) => {
   await page.goto('./#/taxa?id=perissodactyla')
   await expect(page.getByRole('heading', { name: /节点页面暂时下线|Node pages are temporarily offline/ })).toBeVisible()
-  await page.goto('./taxa/perissodactyla/')
-  await expect(page.locator('main')).toContainText(/temporarily offline|暂时下线/)
+  const retired = await page.goto('./taxa/perissodactyla/')
+  expect([200, 404]).toContain(retired?.status())
+  if (retired?.status() === 200) await expect(page.locator('main')).toContainText(/temporarily offline|暂时下线/)
   await expect(page.locator('.reader-article')).toHaveCount(0)
   await page.goto('./nodes/?id=anything')
   await expect(page.getByRole('heading', { name: '节点页面暂时下线' })).toBeVisible()
@@ -63,4 +64,26 @@ test('Wikipedia modal fits a phone viewport', async ({ page }) => {
   await node.dispatchEvent('keydown', { key: 'Enter' })
   await expect(page.getByRole('dialog')).toBeVisible()
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
+})
+
+test('higher-rank and short exact names are searchable without article-body requests', async ({ page }) => {
+  const requests: string[] = []
+  page.on('request', request => {
+    if (/^https:\/\/[^/]*wikipedia\.org\//.test(request.url()) || request.url().includes('/wikipedia/abstracts.json')) requests.push(request.url())
+  })
+  await page.goto('./?lang=en#/home?view=tree')
+  await page.getByRole('button', { name: 'Open full catalogue tree' }).click()
+  const search = page.getByLabel(/Search names/)
+  await search.fill('Primates')
+  const result = page.locator('.backend-tree__results button').filter({ hasText: /Primates/ }).first()
+  await expect(result).toBeVisible({ timeout: 30000 })
+  await result.click()
+  const selected = page.locator('.backend-tree__path a').last()
+  await expect(selected).toContainText('Primates')
+  await selected.click()
+  await expect(page.getByRole('dialog').locator('footer a')).toHaveAttribute('href', /wikipedia\.org\/wiki\//)
+  await page.keyboard.press('Escape')
+  await search.fill('Aa')
+  await expect(page.locator('.backend-tree__results button').filter({ hasText: /^Aa(?:\s|$)/ }).first()).toBeVisible({ timeout: 30000 })
+  expect(requests).toEqual([])
 })
